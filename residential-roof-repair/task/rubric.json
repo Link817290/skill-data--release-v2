@@ -1,0 +1,38 @@
+{
+  "score_profile": "bench",
+  "visual_scoring": false,
+  "strict": {
+    "settlement": "weighted-local-closures",
+    "formula": "sum(closure_weight * local_completion), where each closure uses the documented product or mean over its non-overlapping owners",
+    "parameters": "tests/scoring_params.json",
+    "positive_owner_count": 17,
+    "deduction_owner_count": 0
+  },
+  "numeric_families": [
+    {
+      "id": "N01",
+      "source_id": "known_scope_quantities",
+      "evidence": "Source identity, code, unit and quantity for the17 known scoped lines."
+    },
+    {
+      "id": "N02",
+      "source_id": "unresolved_waste",
+      "evidence": "Both mixed-waste lines remain pending and nonzero in meaning."
+    },
+    {
+      "id": "N03",
+      "source_id": "summary_reconciliation",
+      "evidence": "Eight summary groups reconcile to submitted scoped rows without charging upstream errors twice."
+    },
+    {
+      "id": "N04",
+      "source_id": "quotation_status",
+      "evidence": "No unsupported contractor prices or amounts are presented as supplied facts."
+    }
+  ],
+  "semantic_contract": "tests/mix_judge/contract.json",
+  "semantic_owner_count": 13,
+  "lenient_policy": "tests/scoring_params.json#lenient_policy",
+  "accepted variation": "Accept reordered rows, alternate Chinese wording, m2/m²/平方米 and other source-faithful presentation. Sources override Golden.",
+  "scoring_boundary": "Content and calculation only. No visual score. The same local closures and independent lenient policy apply to every condition."
+}

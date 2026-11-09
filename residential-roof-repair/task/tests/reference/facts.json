@@ -1,0 +1,123 @@
+{
+  "task": "residential-roof-repair",
+  "source_authority": "Public task materials override an erroneous reference. The enquiry is a roof-only subset of broader planned residential rehabilitation bills.",
+  "selected_source_ids": [
+    "甲-01",
+    "甲-02",
+    "甲-03",
+    "甲-04",
+    "甲-05",
+    "甲-06",
+    "甲-07",
+    "乙-03",
+    "乙-04",
+    "乙-11",
+    "乙-12",
+    "乙-13",
+    "乙-18",
+    "丙-03",
+    "丙-04",
+    "丙-07",
+    "丙-08",
+    "丙-09",
+    "丙-10"
+  ],
+  "pending_scope_ids": [
+    "乙-18",
+    "丙-10"
+  ],
+  "verified_totals": [
+    {
+      "id": "Q01",
+      "description": "卷材防水铺设（屋面及雨棚）",
+      "unit": "m²",
+      "quantity": 1914.36,
+      "source_ids": [
+        "甲-03",
+        "甲-04",
+        "乙-11",
+        "乙-12",
+        "丙-08"
+      ]
+    },
+    {
+      "id": "Q02",
+      "description": "旧防水铲除（含甲区屋面及雨棚合并量）",
+      "unit": "m²",
+      "quantity": 1738.1,
+      "source_ids": [
+        "甲-02",
+        "乙-03",
+        "乙-04",
+        "丙-04"
+      ]
+    },
+    {
+      "id": "Q03",
+      "description": "瓦屋面拆除",
+      "unit": "m²",
+      "quantity": 29.44,
+      "source_ids": [
+        "甲-01"
+      ]
+    },
+    {
+      "id": "Q04",
+      "description": "树脂瓦恢复",
+      "unit": "m²",
+      "quantity": 29.44,
+      "source_ids": [
+        "甲-06"
+      ]
+    },
+    {
+      "id": "Q05",
+      "description": "屋面保温拆除",
+      "unit": "m²",
+      "quantity": 557.49,
+      "source_ids": [
+        "丙-03"
+      ]
+    },
+    {
+      "id": "Q06",
+      "description": "屋面保温恢复（含25mm找平）",
+      "unit": "m²",
+      "quantity": 557.49,
+      "source_ids": [
+        "丙-07"
+      ]
+    },
+    {
+      "id": "Q07",
+      "description": "屋面排水管",
+      "unit": "m",
+      "quantity": 360.2,
+      "source_ids": [
+        "甲-05",
+        "乙-13",
+        "丙-09"
+      ]
+    },
+    {
+      "id": "Q08",
+      "description": "已明确属于本次范围的清运量",
+      "unit": "m³",
+      "quantity": 8.74,
+      "source_ids": [
+        "甲-07"
+      ]
+    }
+  ],
+  "critical_boundaries": [
+    "There are19 quotation lines:17 quantities supported directly by the scoped source and2 pending waste quantities. Original B76.21m3/C37.20m3 are mixed whole-building removal waste, not roof-only measures. A8.74m3 belongs to its wholly roof-associated bill.",
+    "A712.10m2 is combined roof/canopy demolition. Its canopy installation7.98m2 is not a separately proved demolition quantity to add or subtract. Removal and installation are different work measures, not a single roof area.",
+    "B roof waterproofing357.67m2 includes50mm C25 levelling. C roof-insulation557.49m2 includes100mm WH board and25mm mortar levelling. Treat them as existing bundled features, not extra separately billable quantities.",
+    "All roof/canopy membranes are4mm SBS as described. Roof membrane reaches parapet top. B canopy reaches projecting eave top; A canopy termination height is not specified. Do not invent identical height requirements.",
+    "Drains: A147.4m Phi110 +11plastic outlets +11cast iron outlets +3DN32 water spouts; B81.6m Phi110 +3D32 spouts; C131.2m Phi110 +8plastic outlets +8cast iron outlets. Main pipe material not specified. Fittings are included features, not additional pipe lengths.",
+    "No contractor rates, accepted bid, on-site measured quantities or drawings are supplied. Price fields stay for contractors, not made-up estimates. New subsection timing/payment/warranty remain to be agreed.",
+    "Measures are quotation coverage categories, not supplied numeric fees. Parent categories and their described components are not additive duplicate charges."
+  ],
+  "business_status": "Planned repair quantities; no claim of completed survey, owner work-order trace, construction or acceptance.",
+  "accepted variation": "Accept alternate prose, row order, normalized unit labels and well-supported workflows. Core field identifiers are public; no requirement to copy Golden wording."
+}

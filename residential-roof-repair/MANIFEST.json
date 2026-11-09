@@ -1,0 +1,181 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "residential-roof-repair",
+  "tasks": [
+    "residential-roof-repair"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 42,
+  "bytes_excluding_manifest": 346611,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1716,
+      "sha256": "bcfee9d9b1409ed06f82b417007627f28f08b73ea4f6a31a243162b3af7131ff"
+    },
+    "RUBRIC.md": {
+      "bytes": 3343,
+      "sha256": "4ce0fe4748c3acacd35744dc4c9f1e491073858fb3acb9ee37d83299013688a2"
+    },
+    "dataset.toml": {
+      "bytes": 715,
+      "sha256": "9f9211a87c1f60674c6a52a4ce5691873f3b697ccca367241bdaa9fda132a1ff"
+    },
+    "golden/施工范围说明.docx": {
+      "bytes": 42092,
+      "sha256": "a62fc3ede2dffdb8f6ba15ad2005d860b781b8e1122989cad07996e2abd41e45"
+    },
+    "golden/维修询价清单.xlsx": {
+      "bytes": 11279,
+      "sha256": "9de7485c28cc0c91f43609a663479494a95398be1038abfd047c5d8df153e1a4"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 305,
+      "sha256": "3a0c22b65459d90744b8c2c110d4dd4348026fdcd6b816e6a14767005096ac0c"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 332,
+      "sha256": "5d5d97ee3aa5e8ffa341c9edda071337c1cc03198ef2ceed6cfa8bd20d301e56"
+    },
+    "task/environment/skills/scope-repair-enquiries/SKILL.md": {
+      "bytes": 1736,
+      "sha256": "b947163f9d26feaf0599ae0b90f230e92735a3b13adb24350820343d236bf34a"
+    },
+    "task/environment/skills/scope-repair-enquiries/references/bundled-items.md": {
+      "bytes": 1482,
+      "sha256": "e7261313f51ce5020a00df5ccad561611e7f930563191f4c5ed0ac1446338faa"
+    },
+    "task/environment/skills/scope-repair-enquiries/references/quotation-closure.md": {
+      "bytes": 2363,
+      "sha256": "94bb1b955763750408d607ce55f268efce096c11faf048da8691fad542d41e25"
+    },
+    "task/environment/skills/scope-repair-enquiries/references/scope-boundaries.md": {
+      "bytes": 1684,
+      "sha256": "f38159da246abcbcbdb02725bc704e6ddb7de223e65e66abfa60ba622bdd3fcb"
+    },
+    "task/environment/skills/scope-repair-enquiries/scripts/quantity_groups.py": {
+      "bytes": 2344,
+      "sha256": "fd4f83b4a9746c459f7f6f0c676d2733d6c9054025526a3c9621ae2d36256401"
+    },
+    "task/environment/workspace/input/分部分项工程量清单.xlsx": {
+      "bytes": 12073,
+      "sha256": "cb27b7e4f0954a84b325b3c553dd5b662f16f96f8e7089997e0e4778cfdce9dc"
+    },
+    "task/environment/workspace/input/分项报价表（空表）.xlsx": {
+      "bytes": 8906,
+      "sha256": "0854e8e6f370f36e79379c75782b2581011b3c1cf65521565f29cf2b1aadff0c"
+    },
+    "task/environment/workspace/input/屋面维修询价事项.docx": {
+      "bytes": 41172,
+      "sha256": "7823ee289924349d19fec02b24e49cd44f2b9125bfb0fe56b5d84a7ab1922d4f"
+    },
+    "task/environment/workspace/output-interface.json": {
+      "bytes": 1163,
+      "sha256": "2bdf7737fec9b4d5b7274f2b0ac0ee2adb3cb755f5edbb766ac9c64a3126dee2"
+    },
+    "task/instruction.md": {
+      "bytes": 780,
+      "sha256": "891b84d9d04c8f523d0087e484dd7b574e7fe1d90529f9f6f099ef8833d3bc3c"
+    },
+    "task/rubric.json": {
+      "bytes": 1549,
+      "sha256": "302d26312d76e414d7508f35eb329d02afa7577a5d62548386f60e2b1cc3ef9d"
+    },
+    "task/solution/README.md": {
+      "bytes": 243,
+      "sha256": "5b460d9c940be18db7b117cc63e33906014fbd5a345250d0bcadd346cf49792e"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 519,
+      "sha256": "0668a88af20323c5212b9511e6a7ab653e6c91e83d079b0614c629a239672361"
+    },
+    "task/task.toml": {
+      "bytes": 881,
+      "sha256": "632f50f7094009931545fe0f693287f8b83bfc3226d879dcbd79d3ff48ce317f"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 879,
+      "sha256": "052192a6684f12815765ec9b09fe6d83a547a8251027d61f2420ae7864de46b9"
+    },
+    "task/tests/README.md": {
+      "bytes": 1063,
+      "sha256": "62e50b0123678fa7589acda790467a2e7fd79ab3bc572566c9a075cb25fa7798"
+    },
+    "task/tests/entrypoint.py": {
+      "bytes": 6357,
+      "sha256": "5ab1b551634506496dab64f87f4866086d58265aa15e98ce34963ded02c62645"
+    },
+    "task/tests/evaluate.py": {
+      "bytes": 11574,
+      "sha256": "22ec146ffc5ed61dcc0b00f1d98f298d99f4343406df4c1325c7341b99e7f5c5"
+    },
+    "task/tests/evaluate_workbook_copy.py": {
+      "bytes": 5924,
+      "sha256": "3042d5db9a2eaeaa9d479a0613ce223c5f9a92e16d4ec1aa29a27c913d67503f"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 5265,
+      "sha256": "5ccb1dcb92dfe4adbc676836a5c2c4a05d604c1c687835045095fc6220c0f478"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 10055,
+      "sha256": "f6bc419ffd6e4f775bce1a2df28c5945eafb82389cc89bcfe6f19681cff5d549"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 3643,
+      "sha256": "5c1e83d044f94a48ac6131f1255354af04ed56d0f902bb162586b360b17f53ff"
+    },
+    "task/tests/mix_judge/replay/0e273a66e602485b4a23224c7f30cfe2323eff88eaa61ff85d49c286e23d06a7/evidence.json": {
+      "bytes": 45158,
+      "sha256": "beefb155578eeb0485e868f67b1f8952528ba77dd1c003a013de3d5e093586f4"
+    },
+    "task/tests/mix_judge/replay/0e273a66e602485b4a23224c7f30cfe2323eff88eaa61ff85d49c286e23d06a7/manifest.json": {
+      "bytes": 1064,
+      "sha256": "55d0c5edb3de5c50974bf299a9608f9f0c97677e44dbbce98bb9e8e5df693a0a"
+    },
+    "task/tests/mix_judge/replay/0e273a66e602485b4a23224c7f30cfe2323eff88eaa61ff85d49c286e23d06a7/request.json": {
+      "bytes": 53586,
+      "sha256": "0e273a66e602485b4a23224c7f30cfe2323eff88eaa61ff85d49c286e23d06a7"
+    },
+    "task/tests/mix_judge/replay/0e273a66e602485b4a23224c7f30cfe2323eff88eaa61ff85d49c286e23d06a7/response.json": {
+      "bytes": 35483,
+      "sha256": "054971ce702d431881112a63124ee15c3d3d57c7e4ccef4eb2288855d77e6a9b"
+    },
+    "task/tests/mix_judge/replay/0e273a66e602485b4a23224c7f30cfe2323eff88eaa61ff85d49c286e23d06a7/review.json": {
+      "bytes": 14015,
+      "sha256": "1c547cab7907b8b5a048342d7e4dd2e88f4afdf8f8fe7ad75019cc0a8e6bbe8d"
+    },
+    "task/tests/mix_judge/replay_index.json": {
+      "bytes": 164,
+      "sha256": "9e967537002b6c0ec73efb02c85d8f2d74a14300ecf95e33eeeffd46a6a5191b"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 2370,
+      "sha256": "c463f087ce354d726e319610e0341d5bb4d735288ef501c010a2fd7d5ccc6049"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 135,
+      "sha256": "8e83d60b0c0c17857d8df35dbfbc6ca2f95e80f930d4c74fe16d2433517b471a"
+    },
+    "task/tests/reference/facts.json": {
+      "bytes": 4116,
+      "sha256": "43ff4bd90fa70589033d70521f3a11fb89c938d23054da3737844498a45031f2"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 1446,
+      "sha256": "72b00a08091c1f3c5e31a3d7900579d54638d222664ca1a4f2ba333b787ecf43"
+    },
+    "task/tests/skill_execution_rubric.json": {
+      "bytes": 625,
+      "sha256": "5d2bc871bbeab3dc1b962a4c49553bc35d62a6d8b876dc8dd01696b6d9ad7de0"
+    },
+    "task/tests/test.sh": {
+      "bytes": 82,
+      "sha256": "f0ae233e60c53604a5c2965c51f75c5222b7e26fe890c49646bc34e36eddde02"
+    },
+    "task/tests/verify.py": {
+      "bytes": 6930,
+      "sha256": "ee1bf88a5d4281bd88edd3f215e17300a15f7e653b2152dd27955fcb31a0b8ad"
+    }
+  }
+}

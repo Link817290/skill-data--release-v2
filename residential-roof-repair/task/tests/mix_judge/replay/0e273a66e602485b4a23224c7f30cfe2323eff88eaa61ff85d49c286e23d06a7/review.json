@@ -1,0 +1,278 @@
+{
+  "criteria": [
+    {
+      "evidence": [
+        {
+          "id": "C-P8",
+          "quote": "本次不含乙、丙区外墙饰面及保温、乙区楼梯间装修和门窗，也不含院落或地下管网。"
+        },
+        {
+          "id": "S3-P3",
+          "quote": "本次询价范围为三栋住宅楼的屋面、雨棚防水，瓦面拆除恢复，屋面保温拆除恢复，以及所列屋面排水管和附属配件。外墙涂饰与保温、楼梯间装修及门窗、院落与地下管网不在本次询价范围。"
+        },
+        {
+          "id": "C-P2",
+          "quote": "本文件用于甲、乙、丙区住宅楼屋面维修专项询价，与《维修询价清单》一并使用。"
+        },
+        {
+          "id": "C-T0-R3",
+          "quote": "丙区住宅楼 | 拆除屋面保温557.49m²、旧防水728.41m²。恢复屋面保温557.49m²，做法为100mm厚WH热固复合聚苯乙烯泡沫保温板及25mm水泥砂浆找平；4mm厚SBS卷材728.41m²至女儿墙顶面。屋面排水管131.20m，含塑料斗8个、铸铁口8个。屋面废料清运数量待复核。"
+        }
+      ],
+      "id": "physical_scope",
+      "reason": "The candidate defines a three-building roof-repair enquiry, includes the specified roof, canopy, tile, insulation and drainage work, and expressly excludes the broader rehabilitation work.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-T0-R2",
+          "quote": "屋面卷材357.67m²，做法含50mm厚C25细石混凝土找平层，卷材至女儿墙顶面；雨棚卷材8.33m²至外挑檐顶，均为4mm厚SBS。"
+        },
+        {
+          "id": "F-verified",
+          "quote": "All roof/canopy membranes are4mm SBS as described. Roof membrane reaches parapet top. B canopy reaches projecting eave top; A canopy termination height is not specified. Do not invent identical height requirements."
+        },
+        {
+          "id": "C-T0-R1",
+          "quote": "屋面4mm厚SBS卷材811.97m²，铺至女儿墙顶面；雨棚同规格卷材7.98m²。"
+        },
+        {
+          "id": "C-T0-R3",
+          "quote": "4mm厚SBS卷材728.41m²至女儿墙顶面。"
+        }
+      ],
+      "id": "waterproofing_specs",
+      "reason": "All membrane work retains the 4mm SBS specification, roof terminations reach parapet tops, only the building-B canopy reaches the projecting-eave top, and no termination is invented for the building-A canopy.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "W-询价清单-R14",
+          "quote": "询价清单 | 乙-11 | 010702001004 | 屋面卷材防水；4mm厚SBS聚酯胎砂防水卷材；50mm厚C25细石混凝土找平层；卷材铺设至女儿墙顶面 | m² | 357.67 |  |  | 50mm厚C25找平随本综合项目报价。"
+        },
+        {
+          "id": "S1-乙区住宅楼-R15",
+          "quote": "乙区住宅楼 | 乙-11 | 010702001004 | 屋面卷材防水；4mm厚SBS聚酯胎砂防水卷材；50mm厚C25细石混凝土找平层；卷材铺设至女儿墙顶面 | m² | 357.67"
+        },
+        {
+          "id": "C-P10",
+          "quote": "乙区屋面找平层与卷材、丙区屋面保温与找平均按所列综合项目询价，不另推算材料采购量或擅增保温等级。"
+        }
+      ],
+      "id": "building_b_bundle",
+      "reason": "The 357.67m² building-B item expressly includes the 50mm C25 levelling layer, and the narrative prevents separate recalculation or charging.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "W-询价清单-R20",
+          "quote": "询价清单 | 丙-07 | 010803001001 | 保温隔热屋面；100mm厚WH热固复合聚苯乙烯泡沫保温板；25mm厚水泥砂浆找平 | m² | 557.49 |  |  | 100mm保温板及25mm砂浆找平组成同一项目。"
+        },
+        {
+          "id": "S1-丙区住宅楼-R11",
+          "quote": "丙区住宅楼 | 丙-07 | 010803001001 | 保温隔热屋面；100mm厚WH热固复合聚苯乙烯泡沫保温板；25mm厚水泥砂浆找平 | m² | 557.49"
+        },
+        {
+          "id": "C-P10",
+          "quote": "乙区屋面找平层与卷材、丙区屋面保温与找平均按所列综合项目询价，不另推算材料采购量或擅增保温等级。"
+        }
+      ],
+      "id": "building_c_bundle",
+      "reason": "The 557.49m² building-C composite item keeps the 100mm WH board and 25mm mortar levelling together and bars separate recalculation.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P4",
+          "quote": "甲区排水项目另含塑料落水斗11个、铸铁落水口11个及DN32镀锌钢管水舌3个。三栋排水管均按Φ110列示；清单未明确的管材及接口做法需施工单位反馈。配件不作为额外管长，也不重复加价。"
+        },
+        {
+          "id": "F-verified",
+          "quote": "Drains: A147.4m Phi110 +11plastic outlets +11cast iron outlets +3DN32 water spouts; B81.6m Phi110 +3D32 spouts; C131.2m Phi110 +8plastic outlets +8cast iron outlets. Main pipe material not specified. Fittings are included features, not additional pipe lengths."
+        },
+        {
+          "id": "W-配套与待定事项-R14",
+          "quote": "配套与待定事项 | C03 | 排水管与配件 | 甲区11个塑料斗、11个铸铁口、3个DN32水舌；乙区3个D32水舌；丙区8个塑料斗、8个铸铁口，随各栋排水项目列明。 | 确认接口、固定、施工条件及未明确的材质。"
+        }
+      ],
+      "id": "drain_accessories",
+      "reason": "The three pipe lengths and all listed local accessories are preserved, while accessories are explicitly barred from becoming extra pipe length or duplicate charges.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P4",
+          "quote": "三栋排水管均按Φ110列示；清单未明确的管材及接口做法需施工单位反馈。"
+        },
+        {
+          "id": "F-verified",
+          "quote": "Main pipe material not specified."
+        },
+        {
+          "id": "W-配套与待定事项-R14",
+          "quote": "确认接口、固定、施工条件及未明确的材质。"
+        }
+      ],
+      "id": "pipe_material_boundary",
+      "reason": "The candidate distinguishes the stated diameter from the unspecified main-pipe material and requires contractor feedback without inferring material from accessories.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P4",
+          "quote": "三栋排水管均按Φ110列示；清单未明确的管材及接口做法需施工单位反馈。"
+        },
+        {
+          "id": "G-P4",
+          "quote": "三栋排水管均按Φ110列示；清单未明确的管材及接口做法需施工单位反馈。"
+        },
+        {
+          "id": "W-配套与待定事项-R14",
+          "quote": "确认接口、固定、施工条件及未明确的材质。"
+        }
+      ],
+      "id": "pipe_connection_boundary",
+      "reason": "The candidate expressly identifies the missing interface method and requires contractor feedback before it is treated as settled.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P8",
+          "quote": "乙区原垃圾清运76.21m³、丙区37.20m³对应整栋改造清单，包含范围外拆除；目前不能把这两项原量直接计入屋面专项，也没有依据按面积比例分摊。两项清运仍应保留，由物业与施工单位核定范围和数量后报价。"
+        },
+        {
+          "id": "F-verified",
+          "quote": "Original B76.21m3/C37.20m3 are mixed whole-building removal waste, not roof-only measures."
+        },
+        {
+          "id": "W-配套与待定事项-R12",
+          "quote": "配套与待定事项 | C01 | 乙区垃圾清运 | 原单项76.21m³同时覆盖外墙、楼梯间、门窗等拆除，先拆分本次屋面及雨棚废料范围，再核定清运数量。 | 未核定；保留本项询价，不计为零。"
+        },
+        {
+          "id": "W-配套与待定事项-R13",
+          "quote": "配套与待定事项 | C02 | 丙区垃圾清运 | 原单项37.20m³含外墙等其他工程；按屋面保温、防水拆除及现场清运条件复核本次量。 | 未核定；保留本项询价，不按比例摊分。"
+        }
+      ],
+      "id": "shared_waste_boundary",
+      "reason": "Both whole-building waste quantities remain unresolved, nonzero enquiry lines; direct roof pricing and area-ratio allocation are rejected, with joint scope and quantity verification required.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P9",
+          "quote": "甲区拆除量同时含屋面及雨棚，不能再加一遍雨棚拆除。不同工序的面积不能相加为屋顶面积，拆除和铺设也不应强行取同一数量。"
+        },
+        {
+          "id": "S1-甲区住宅楼-R6",
+          "quote": "甲区住宅楼 | 甲-02 | AB005 | 铲除防水；部位：屋面及雨棚 | m² | 712.1"
+        },
+        {
+          "id": "W-数量汇总-R6",
+          "quote": "数量汇总 | Q02 | 旧防水铲除（含甲区屋面及雨棚合并量） | m² | 1738.1 | 甲-02、乙-03、乙-04、丙-04"
+        }
+      ],
+      "id": "measurement_basis",
+      "reason": "The building-A 712.10m² demolition measure remains combined without an invented canopy split, and removal and installation measures remain distinct.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P6",
+          "quote": "报价应结合现场安排覆盖安全文明施工、扬尘治理、冬雨季及夜间施工、材料及废料搬运、作业设施和垂直运输、施工排水、临时保护及检测试验。施工单位应说明费用计入的分项或措施栏目，综合项目内已有的找平、配件等不再重复列价。相应规费、税金及其他费用纳入完整报价。"
+        },
+        {
+          "id": "S1-配套项目-R9",
+          "quote": "配套项目 | M05 | 机械进出场、脚手架及垂直运输 | 结合楼栋作业条件及选用设备填报。 | 项 | "
+        },
+        {
+          "id": "W-配套与待定事项-R9",
+          "quote": "配套与待定事项 | M05 | 机械进出场、脚手架及垂直运输 | 结合楼栋作业条件及选用设备填报。 | 施工单位结合方案填报，费用归属明确。"
+        },
+        {
+          "id": "W-配套与待定事项-R11",
+          "quote": "配套与待定事项 | M07 | 其他项目、规费及税金 | 分别列明计取依据和费用归属，与分项报价核对避免重复。 | 施工单位结合方案填报，费用归属明确。"
+        }
+      ],
+      "id": "measure_cost_boundaries",
+      "reason": "The enquiry supplies usable cost categories for all required measures and requires clear attribution while preventing overlap with bundled work and accessories.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P9",
+          "quote": "当前资料未附施工图或现场测量记录，表列安排量不等于已完成实测复核。"
+        },
+        {
+          "id": "S3-P4",
+          "quote": "附表分甲区、乙区、丙区住宅楼列出既有改造安排的分部分项工程，工程数量为维修范围安排量。本次提供表列项目及特征，未附施工图、现场复核记录或施工单位报价。"
+        },
+        {
+          "id": "C-P10",
+          "quote": "当前没有已施工、已验收或批准结算的事实。"
+        }
+      ],
+      "id": "evidence_status",
+      "reason": "The candidate states that drawings and site measurement records were not supplied and treats listed quantities as planned bases rather than surveyed, completed, accepted or settled facts.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P2",
+          "quote": "当前未形成承包报价或总价。施工质量要求为合格，专项工期、付款和保修条件另行商定。"
+        },
+        {
+          "id": "S3-T0-R5",
+          "quote": "5 | 专项工期、付款安排和保修条款在询价反馈后另行商定，当前文件不作为已签订合同或验收记录。"
+        },
+        {
+          "id": "C-P10",
+          "quote": "变更范围和数量应先取得书面确认。核定报价、实施方案及验收安排后再组织施工，当前没有已施工、已验收或批准结算的事实。"
+        }
+      ],
+      "id": "commercial_change_control",
+      "reason": "The document remains an enquiry with pricing and commercial terms open, and it requires written confirmation of scope or quantity changes before work proceeds.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P10",
+          "quote": "丙区屋面保温与找平均按所列综合项目询价，不另推算材料采购量或擅增保温等级。"
+        },
+        {
+          "id": "S1-丙区住宅楼-R11",
+          "quote": "丙区住宅楼 | 丙-07 | 010803001001 | 保温隔热屋面；100mm厚WH热固复合聚苯乙烯泡沫保温板；25mm厚水泥砂浆找平 | m² | 557.49"
+        },
+        {
+          "id": "C-T0-R3",
+          "quote": "恢复屋面保温557.49m²，做法为100mm厚WH热固复合聚苯乙烯泡沫保温板及25mm水泥砂浆找平；"
+        }
+      ],
+      "id": "roof_insulation_spec_boundary",
+      "reason": "The candidate preserves the supplied 100mm WH roof-board basis and explicitly prohibits adding an unsupported insulation grade.",
+      "score": 1
+    }
+  ],
+  "notes": [],
+  "passed": true,
+  "reference_conflict": false,
+  "semantic_score": 1.0,
+  "measurement_status": "completed",
+  "response_id": "resp_0eaf9aea01fe0873016aef1354848c87d09235bbcb0e2821f9",
+  "model": "gpt-5.6-sol",
+  "seconds": 84.5,
+  "fresh_call": true,
+  "visual_input": false,
+  "rollout_executed": false
+}

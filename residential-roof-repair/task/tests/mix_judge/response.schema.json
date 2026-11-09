@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "passed": {
+      "type": "boolean"
+    },
+    "reference_conflict": {
+      "type": "boolean"
+    },
+    "criteria": {
+      "type": "array",
+      "minItems": 13,
+      "maxItems": 13,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "physical_scope",
+              "waterproofing_specs",
+              "building_b_bundle",
+              "building_c_bundle",
+              "drain_accessories",
+              "pipe_material_boundary",
+              "pipe_connection_boundary",
+              "shared_waste_boundary",
+              "measurement_basis",
+              "measure_cost_boundaries",
+              "evidence_status",
+              "commercial_change_control",
+              "roof_insulation_spec_boundary"
+            ]
+          },
+          "score": {
+            "type": "number",
+            "enum": [
+              0,
+              1
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "candidate": {"type": "object", "additionalProperties": false, "properties": {"id": {"type": "string", "pattern": "^[CW]"}, "quote": {"type": "string"}}, "required": ["id", "quote"]},
+              "source": {"type": "object", "additionalProperties": false, "properties": {"id": {"type": "string", "pattern": "^[GSF]"}, "quote": {"type": "string"}}, "required": ["id", "quote"]},
+              "additional": {"type": "array", "maxItems": 2, "items": {"type": "object", "additionalProperties": false, "properties": {"id": {"type": "string"}, "quote": {"type": "string"}}, "required": ["id", "quote"]}}
+            },
+            "required": ["candidate", "source", "additional"]
+          }
+        },
+        "required": [
+          "id",
+          "score",
+          "reason",
+          "evidence"
+        ]
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "passed",
+    "reference_conflict",
+    "criteria",
+    "notes"
+  ]
+}

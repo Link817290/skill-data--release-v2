@@ -1,0 +1,28 @@
+version = "1.0"
+id = "residential-roof-repair"
+title = "Residential roof-repair enquiry preparation"
+task_type = "skill-bench"
+domain = "construction-procurement"
+language = "en"
+material_language = "zh-CN"
+difficulty = "hard"
+task = "task"
+rubric = "RUBRIC.md"
+golden = "golden"
+required_outputs = ["维修询价清单.xlsx", "施工范围说明.docx"]
+network_access = false
+rollouts_included = false
+stage = "pre-release"
+
+[scoring]
+type = "mixed"
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/entrypoint.py"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+
+[skills]
+active = ["scope-repair-enquiries"]
+answers_in_skill = false
+thresholds_in_skill = false

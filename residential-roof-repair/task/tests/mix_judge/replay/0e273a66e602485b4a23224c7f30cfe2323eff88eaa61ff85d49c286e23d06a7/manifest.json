@@ -1,0 +1,16 @@
+{
+  "artifact_hashes": {
+    "candidate_report": "a62fc3ede2dffdb8f6ba15ad2005d860b781b8e1122989cad07996e2abd41e45",
+    "candidate_workbook": "9de7485c28cc0c91f43609a663479494a95398be1038abfd047c5d8df153e1a4",
+    "reference_report": "a62fc3ede2dffdb8f6ba15ad2005d860b781b8e1122989cad07996e2abd41e45",
+    "reference_workbook": "9de7485c28cc0c91f43609a663479494a95398be1038abfd047c5d8df153e1a4",
+    "source/分部分项工程量清单.xlsx": "cb27b7e4f0954a84b325b3c553dd5b662f16f96f8e7089997e0e4778cfdce9dc",
+    "source/分项报价表（空表）.xlsx": "0854e8e6f370f36e79379c75782b2581011b3c1cf65521565f29cf2b1aadff0c",
+    "source/屋面维修询价事项.docx": "7823ee289924349d19fec02b24e49cd44f2b9125bfb0fe56b5d84a7ab1922d4f",
+    "verified_facts": "43ff4bd90fa70589033d70521f3a11fb89c938d23054da3737844498a45031f2"
+  },
+  "request_sha256": "0e273a66e602485b4a23224c7f30cfe2323eff88eaa61ff85d49c286e23d06a7",
+  "rollout_executed": false,
+  "visual_input": false,
+  "contract_sha256": "d28726b579ba11739cc7fa3bae364771dad6e2a164b487bba69ac92f90d2e284"
+}

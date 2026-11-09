@@ -1,0 +1,27 @@
+{
+  "schema_version": "skill-execution-contract-v1",
+  "scope": "with-skill trajectories only",
+  "no_skill_process_review": false,
+  "criteria": [
+    {
+      "id": "skill_discovery",
+      "weight": 0.2,
+      "subability_tag": "skill-selection"
+    },
+    {
+      "id": "scope_and_measurement_basis",
+      "weight": 0.3,
+      "subability_tag": "scope-and-measurement-basis"
+    },
+    {
+      "id": "bundles_and_interfaces",
+      "weight": 0.25,
+      "subability_tag": "bundles-and-interfaces"
+    },
+    {
+      "id": "quotation_closure",
+      "weight": 0.25,
+      "subability_tag": "quotation-closure"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "deliverables": [
+    "/workspace/output/维修询价清单.xlsx",
+    "/workspace/output/施工范围说明.docx"
+  ],
+  "template": "/workspace/input/分项报价表（空表）.xlsx",
+  "sheets": {
+    "询价清单": [
+      "清单索引",
+      "项目编码",
+      "项目名称及特征",
+      "计量单位",
+      "工程数量",
+      "综合单价",
+      "合价",
+      "备注"
+    ],
+    "数量汇总": [
+      "汇总编号",
+      "项目内容",
+      "单位",
+      "工程数量",
+      "说明"
+    ],
+    "配套与待定事项": [
+      "事项编号",
+      "项目/事项",
+      "内容及办理要求",
+      "状态/报价备注"
+    ]
+  },
+  "rules": [
+    "Keep sheet names and column labels; data rows and column order may be changed. Preserve the source schedule index for each quoted work item.",
+    "Unknown quantities may remain blank with a written note. Price columns are reserved for contractor quotations; no contractor prices have been supplied.",
+    "The quantity-summary identifiers and labels are printed in the blank form. Additional explanatory rows are allowed."
+  ]
+}

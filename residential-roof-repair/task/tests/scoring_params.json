@@ -1,0 +1,28 @@
+{
+  "score_profile": "bench",
+  "settlement": "weighted-local-closures",
+  "formula": "sum(closure_weight * local_completion)",
+  "numeric_owner_map": {
+    "N01": "known_scope_quantities",
+    "N02": "unresolved_waste",
+    "N03": "summary_reconciliation",
+    "N04": "quotation_status"
+  },
+  "closures": {
+    "numeric_catalog": {"weight": 0.55, "operator": "mean", "owners": ["N01", "N02", "N03", "N04"]},
+    "roof_scope_and_assemblies": {"weight": 0.20, "operator": "mean", "owners": ["physical_scope", "waterproofing_specs", "building_b_bundle", "building_c_bundle", "roof_insulation_spec_boundary"]},
+    "drainage_interface": {"weight": 0.10, "operator": "mean", "owners": ["drain_accessories", "pipe_material_boundary", "pipe_connection_boundary"]},
+    "waste_measurement": {"weight": 0.075, "operator": "mean", "owners": ["shared_waste_boundary", "measurement_basis"]},
+    "commercial_evidence": {"weight": 0.075, "operator": "mean", "owners": ["measure_cost_boundaries", "evidence_status", "commercial_change_control"]}
+  },
+  "lenient_policy": {
+    "must_have": {
+      "known_quantities": ["N01"],
+      "unresolved_waste": ["N02", "shared_waste_boundary"],
+      "summary_reconciliation": ["N03"],
+      "quotation_status": ["N04"],
+      "scope_and_measurement": ["physical_scope", "measurement_basis"],
+      "cost_and_evidence_control": ["measure_cost_boundaries", "evidence_status", "commercial_change_control"]
+    }
+  }
+}
