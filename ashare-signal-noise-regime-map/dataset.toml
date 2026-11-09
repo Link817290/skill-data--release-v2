@@ -1,0 +1,40 @@
+version = "1.0"
+id = "ashare-signal-noise-regime-map"
+task_type = "skill-bench"
+domain = "finance"
+language = "zh"
+difficulty = "hard"
+research_cutoff = "2024-12-31"
+sample_count = 100
+deliverable = "/workspace/regime_map.xlsx"
+
+[scoring]
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+layout_module = "task/tests/workbook.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 4
+condition_blind = true
+same_scorer_for_with_no_skill = true
+semantic_judge_required = true
+semantic_judge_protocol = "openai_responses"
+semantic_judge_stream = false
+semantic_judge_default_model = "gpt-5.6-sol"
+reference_exact_match_required = false
+strict_formula = "mean(min(weighted_row_quality, joint_label_action, transition_support))"
+completion_policy = "independent-whole-map-minimums"
+weight_rationale = "Decision, transition, and evidence are co-equal substantive owners; flags are a smaller independent control owner."
+root_cause_policy = "Charge each business consequence once; repeated wording does not create additional damage."
+
+[scoring.weights]
+joint_label_action = 0.30
+transition_support = 0.30
+evidence_alignment = 0.30
+flag_joint = 0.10
+
+[skills]
+names = ["separate-signal-from-noise", "map-ashare-strategy-regime"]
+thresholds_in_skill = false
+answers_in_skill = false

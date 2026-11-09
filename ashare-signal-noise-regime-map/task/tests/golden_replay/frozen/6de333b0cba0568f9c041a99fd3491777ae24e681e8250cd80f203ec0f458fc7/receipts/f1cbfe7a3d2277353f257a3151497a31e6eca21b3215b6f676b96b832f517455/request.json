@@ -1,0 +1,6 @@
+{
+  "request_sha256": "f1cbfe7a3d2277353f257a3151497a31e6eca21b3215b6f676b96b832f517455",
+  "artifact_sha256": "6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7",
+  "evidence_sha256": "19ea675354dbf3083ada25dd8204e52060dbbe75bd8d2223e2a31f92ba1ceb3b",
+  "model": "gpt-5.6-sol"
+}

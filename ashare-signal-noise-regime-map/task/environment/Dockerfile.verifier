@@ -1,0 +1,12 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/instruction.md /instruction.md
+COPY task/environment/workspace/ /workspace/
+COPY task/environment/source_hashes.json /trusted-source-hashes.json
+RUN python3 -c "import csv,hashlib,json; from pathlib import Path; hashes=json.loads(Path('/trusted-source-hashes.json').read_text()); assert hashes and all((Path('/workspace')/p).is_file() and hashlib.sha256((Path('/workspace')/p).read_bytes()).hexdigest()==h for p,h in hashes.items()), 'trusted issued source missing or corrupt'; source=json.loads(Path('/tests/source_facts.json').read_text()); assert all(hashes.get(p)==h for p,h in source['source_sha256'].items()), 'scorer source hashes differ from issued inputs'; assert source['source_rows']==list(csv.DictReader(Path('/workspace/market_snapshots.csv').open())) and source['events']==list(csv.DictReader(Path('/workspace/events.csv').open())), 'scoring facts differ from issued CSVs'"
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN mkdir -p /logs/verifier && chown -R 20005:0 /workspace /logs
+USER 20005
+CMD ["/bin/sh"]

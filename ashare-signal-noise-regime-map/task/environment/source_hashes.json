@@ -1,0 +1,14 @@
+{
+  "events.csv": "812c0f4a6f6f018853dae22767d93efbfe0a9a29cc7b80bd5022fb037981e7d8",
+  "indicator_dictionary.csv": "cfce99d74fb50751d443ab6ad300804ef61685e0e2805471e461a4a113b5cbfd",
+  "market_snapshots.csv": "2a4b78cad097d8c89664d24d00ec4ffcc2b1a8022456dd7f60535e884c6e8f52",
+  "output_contract.json": "ac39654439fd7686ab8df24cfc99294f1389c81571ef7194164e70b903abdf74",
+  "raw/akshare_raw/bond_zh_us_rate.csv": "49b5b93640ed8ea1a2a32339d722f7c3aeb3a8479393bd51754f20f268998df8",
+  "raw/akshare_raw/index_sh000001.csv": "fbf8863ef9cb68e24847d612f61b93f426fb3ae5d0668578c283fae0e3cb2a79",
+  "raw/akshare_raw/index_sh000300.csv": "1e092fc3307f42e661e349db39472d1c01f1db1646fb49dc5f6d98251cf4862b",
+  "raw/akshare_raw/index_sz399006.csv": "33979d3616a4a8b8e23b892c34bbee9cca82cc3ca0684ed9ee38724cd223c18c",
+  "raw/akshare_raw/macro_china_lpr.csv": "a9ab5d241ea8354404b4a30ff6a781288cd17f8d0404c1aa4d9cc2d325e78244",
+  "raw/akshare_raw/stock_a_ttm_lyr.csv": "9bb7cf56a179bf5ad679b4d4e83536f945ef2703edd25e5ee82ca1bfbab59742",
+  "regime_map_template.xlsx": "e663a407ebfb806bf93e225dc518504a2b8b851998d745054f32a81ef7b27537",
+  "source_manifest.json": "b3fddbcf286b4e950e36415206482e148e1e7335957c8372e790adbcb1496326"
+}

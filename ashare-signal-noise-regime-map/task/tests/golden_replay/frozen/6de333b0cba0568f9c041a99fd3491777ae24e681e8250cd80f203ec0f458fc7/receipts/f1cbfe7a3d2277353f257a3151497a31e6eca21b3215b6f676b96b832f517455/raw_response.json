@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "model": "gpt-5.6-sol",
+  "output": [
+    {
+      "type": "message",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"checks\": {\"method_compatible\": {\"candidate_refs\": [{\"field\": \"rationale\", \"sample_id\": \"S001\"}, {\"field\": \"rationale\", \"sample_id\": \"S027\"}, {\"field\": \"rationale\", \"sample_id\": \"S098\"}], \"passed\": true, \"reason\": \"候选说明采用冻结指标和独立证据簇综合判断，未披露或采用相冲突的逐行阈值、连续弱分数或其他不兼容方法；提交结果与同一全局校准见证一致。\", \"source_refs\": [{\"field\": \"hs300_63d_return\", \"sample_id\": \"S001\"}, {\"field\": \"industry_breadth_proxy\", \"sample_id\": \"S027\"}, {\"field\": \"liquidity_turnover_proxy\", \"sample_id\": \"S098\"}]}, \"source_claims_supported\": {\"candidate_refs\": [{\"field\": \"evidence_ids\", \"sample_id\": \"S001\"}, {\"field\": \"rationale\", \"sample_id\": \"S027\"}, {\"field\": \"evidence_ids\", \"sample_id\": \"S098\"}], \"passed\": true, \"reason\": \"候选仅作基于冻结指标综合判定的概括性说明；所列锚点、事件归属及业务字段均与数学见证和对应原始来源字段相符，未发现虚构的来源事实。\", \"source_refs\": [{\"field\": \"event_ids\", \"sample_id\": \"S001\"}, {\"field\": \"hs300_63d_return\", \"sample_id\": \"S027\"}, {\"field\": \"policy_event_intensity\", \"sample_id\": \"S098\"}]}}, \"equivalences\": []}"
+        }
+      ]
+    }
+  ]
+}

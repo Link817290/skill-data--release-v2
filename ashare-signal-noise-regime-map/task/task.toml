@@ -1,0 +1,49 @@
+version = "1.0"
+artifacts = ["/workspace/regime_map.xlsx"]
+id = "ashare-signal-noise-regime-map"
+title = "A-share signal-versus-noise regime map"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "zh"
+
+[verifier]
+timeout_sec = 3600.0
+environment_mode = "separate"
+user = "root"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[verifier.environment]
+docker_image = "ashare-private-verifier:1.0"
+network_mode = "public"
+workdir = "/workspace"
+build_timeout_sec = 600.0
+
+[environment]
+docker_image = "ashare-actor-with-skill:1.0"
+network_mode = "no-network"
+skills_dir = "/skills"
+workdir = "/workspace"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+network_access = false
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "/workspace/regime_map.xlsx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"

@@ -1,0 +1,6209 @@
+{
+  "source_rows": [
+    {
+      "sample_id": "S001",
+      "window_end": "2020-01-10",
+      "hs300_21d_return": "0.066731",
+      "hs300_63d_return": "0.053107",
+      "hs300_drawdown_252d": "-0.000285",
+      "hs300_volatility_21d_ann": "0.134808",
+      "sse_21d_return": "0.057404",
+      "chinext_21d_return": "0.108211",
+      "style_momentum_growth_vs_large": "0.041479",
+      "market_pe_ttm_median": "31.47",
+      "valuation_percentile_proxy": "0.238889",
+      "cn_10y_yield": "3.0819",
+      "erp_proxy": "0.000957",
+      "liquidity_turnover_proxy": "0.625099",
+      "credit_easing_proxy": "0.16",
+      "earnings_cycle_proxy": "0.051856",
+      "industry_breadth_proxy": "0.868918",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "3.15",
+      "event_ids": "EVT_202001_COVID|EVT_202002_LIQUIDITY"
+    },
+    {
+      "sample_id": "S002",
+      "window_end": "2020-01-23",
+      "hs300_21d_return": "0.002741",
+      "hs300_63d_return": "0.027486",
+      "hs300_drawdown_252d": "-0.047595",
+      "hs300_volatility_21d_ann": "0.171902",
+      "sse_21d_return": "-0.002063",
+      "chinext_21d_return": "0.0892",
+      "style_momentum_growth_vs_large": "0.08646",
+      "market_pe_ttm_median": "33.02",
+      "valuation_percentile_proxy": "0.377778",
+      "cn_10y_yield": "2.9932",
+      "erp_proxy": "0.000353",
+      "liquidity_turnover_proxy": "0.37032",
+      "credit_easing_proxy": "0.16",
+      "earnings_cycle_proxy": "0.031894",
+      "industry_breadth_proxy": "0.55032",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "4.65",
+      "event_ids": "EVT_202001_COVID|EVT_202002_LIQUIDITY"
+    },
+    {
+      "sample_id": "S003",
+      "window_end": "2020-02-14",
+      "hs300_21d_return": "-0.030295",
+      "hs300_63d_return": "0.003706",
+      "hs300_drawdown_252d": "-0.05144",
+      "hs300_volatility_21d_ann": "0.337626",
+      "sse_21d_return": "-0.048872",
+      "chinext_21d_return": "0.110871",
+      "style_momentum_growth_vs_large": "0.141166",
+      "market_pe_ttm_median": "33.02",
+      "valuation_percentile_proxy": "0.377778",
+      "cn_10y_yield": "2.8631",
+      "erp_proxy": "0.001654",
+      "liquidity_turnover_proxy": "0.282267",
+      "credit_easing_proxy": "0.16",
+      "earnings_cycle_proxy": "0.018053",
+      "industry_breadth_proxy": "0.368507",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "3.15",
+      "event_ids": "EVT_202001_COVID|EVT_202002_LIQUIDITY"
+    },
+    {
+      "sample_id": "S004",
+      "window_end": "2020-03-04",
+      "hs300_21d_return": "0.087017",
+      "hs300_63d_return": "0.061779",
+      "hs300_drawdown_252d": "-0.021155",
+      "hs300_volatility_21d_ann": "0.223756",
+      "sse_21d_return": "0.082053",
+      "chinext_21d_return": "0.15231",
+      "style_momentum_growth_vs_large": "0.065293",
+      "market_pe_ttm_median": "33.36",
+      "valuation_percentile_proxy": "0.416667",
+      "cn_10y_yield": "2.673",
+      "erp_proxy": "0.003246",
+      "liquidity_turnover_proxy": "0.511661",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "0.067551",
+      "industry_breadth_proxy": "0.954728",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S005",
+      "window_end": "2020-03-20",
+      "hs300_21d_return": "-0.11857",
+      "hs300_63d_return": "-0.07938",
+      "hs300_drawdown_252d": "-0.131575",
+      "hs300_volatility_21d_ann": "0.311608",
+      "sse_21d_return": "-0.093901",
+      "chinext_21d_return": "-0.124245",
+      "style_momentum_growth_vs_large": "-0.005675",
+      "market_pe_ttm_median": "33.36",
+      "valuation_percentile_proxy": "0.416667",
+      "cn_10y_yield": "2.6815",
+      "erp_proxy": "0.003161",
+      "liquidity_turnover_proxy": "0.359153",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.068269",
+      "industry_breadth_proxy": "0.032212",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S006",
+      "window_end": "2020-04-09",
+      "hs300_21d_return": "-0.071012",
+      "hs300_63d_return": "-0.086563",
+      "hs300_drawdown_252d": "-0.098393",
+      "hs300_volatility_21d_ann": "0.291625",
+      "sse_21d_return": "-0.057014",
+      "chinext_21d_return": "-0.070585",
+      "style_momentum_growth_vs_large": "0.000426",
+      "market_pe_ttm_median": "30.71",
+      "valuation_percentile_proxy": "0.183333",
+      "cn_10y_yield": "2.5226",
+      "erp_proxy": "0.007337",
+      "liquidity_turnover_proxy": "-0.168718",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.061778",
+      "industry_breadth_proxy": "0.172697",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S007",
+      "window_end": "2020-04-27",
+      "hs300_21d_return": "0.033726",
+      "hs300_63d_return": "-0.086736",
+      "hs300_drawdown_252d": "-0.091272",
+      "hs300_volatility_21d_ann": "0.152305",
+      "sse_21d_return": "0.018295",
+      "chinext_21d_return": "0.04742",
+      "style_momentum_growth_vs_large": "0.013693",
+      "market_pe_ttm_median": "30.71",
+      "valuation_percentile_proxy": "0.183333",
+      "cn_10y_yield": "2.5345",
+      "erp_proxy": "0.007218",
+      "liquidity_turnover_proxy": "-0.389404",
+      "credit_easing_proxy": "0.35",
+      "earnings_cycle_proxy": "-0.040392",
+      "industry_breadth_proxy": "0.586809",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S008",
+      "window_end": "2020-05-15",
+      "hs300_21d_return": "0.042512",
+      "hs300_63d_return": "-0.017974",
+      "hs300_drawdown_252d": "-0.069866",
+      "hs300_volatility_21d_ann": "0.109613",
+      "sse_21d_return": "0.03069",
+      "chinext_21d_return": "0.104639",
+      "style_momentum_growth_vs_large": "0.062127",
+      "market_pe_ttm_median": "33.39",
+      "valuation_percentile_proxy": "0.422222",
+      "cn_10y_yield": "2.682",
+      "erp_proxy": "0.003129",
+      "liquidity_turnover_proxy": "-0.35568",
+      "credit_easing_proxy": "0.35",
+      "earnings_cycle_proxy": "0.010212",
+      "industry_breadth_proxy": "0.636323",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S009",
+      "window_end": "2020-06-02",
+      "hs300_21d_return": "0.030136",
+      "hs300_63d_return": "0.011045",
+      "hs300_drawdown_252d": "-0.053048",
+      "hs300_volatility_21d_ann": "0.152747",
+      "sse_21d_return": "0.03506",
+      "chinext_21d_return": "0.056543",
+      "style_momentum_growth_vs_large": "0.026407",
+      "market_pe_ttm_median": "34.87",
+      "valuation_percentile_proxy": "0.488889",
+      "cn_10y_yield": "2.7852",
+      "erp_proxy": "0.000826",
+      "liquidity_turnover_proxy": "-0.239587",
+      "credit_easing_proxy": "0.3",
+      "earnings_cycle_proxy": "0.020121",
+      "industry_breadth_proxy": "0.616769",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S010",
+      "window_end": "2020-06-19",
+      "hs300_21d_return": "0.047247",
+      "hs300_63d_return": "0.127178",
+      "hs300_drawdown_252d": "-0.025677",
+      "hs300_volatility_21d_ann": "0.137272",
+      "sse_21d_return": "0.034767",
+      "chinext_21d_return": "0.104798",
+      "style_momentum_growth_vs_large": "0.057551",
+      "market_pe_ttm_median": "34.87",
+      "valuation_percentile_proxy": "0.488889",
+      "cn_10y_yield": "2.8752",
+      "erp_proxy": "-7.4e-05",
+      "liquidity_turnover_proxy": "0.024154",
+      "credit_easing_proxy": "0.3",
+      "earnings_cycle_proxy": "0.09015",
+      "industry_breadth_proxy": "0.702763",
+      "policy_event_intensity": "3",
+      "noise_event_intensity": "1.05",
+      "event_ids": "EVT_202007_STYLE_SURGE"
+    },
+    {
+      "sample_id": "S011",
+      "window_end": "2020-07-08",
+      "hs300_21d_return": "0.193128",
+      "hs300_63d_return": "0.278341",
+      "hs300_drawdown_252d": "0",
+      "hs300_volatility_21d_ann": "0.230733",
+      "sse_21d_return": "0.161267",
+      "chinext_21d_return": "0.22415",
+      "style_momentum_growth_vs_large": "0.031023",
+      "market_pe_ttm_median": "37.89",
+      "valuation_percentile_proxy": "0.594444",
+      "cn_10y_yield": "3.0632",
+      "erp_proxy": "-0.00424",
+      "liquidity_turnover_proxy": "0.721508",
+      "credit_easing_proxy": "0.3",
+      "earnings_cycle_proxy": "0.199609",
+      "industry_breadth_proxy": "1.0",
+      "policy_event_intensity": "3",
+      "noise_event_intensity": "1.95",
+      "event_ids": "EVT_202007_STYLE_SURGE"
+    },
+    {
+      "sample_id": "S012",
+      "window_end": "2020-07-24",
+      "hs300_21d_return": "0.093114",
+      "hs300_63d_return": "0.183176",
+      "hs300_drawdown_252d": "-0.071579",
+      "hs300_volatility_21d_ann": "0.371537",
+      "sse_21d_return": "0.076128",
+      "chinext_21d_return": "0.103187",
+      "style_momentum_growth_vs_large": "0.010073",
+      "market_pe_ttm_median": "37.89",
+      "valuation_percentile_proxy": "0.594444",
+      "cn_10y_yield": "2.8612",
+      "erp_proxy": "-0.00222",
+      "liquidity_turnover_proxy": "1.328322",
+      "credit_easing_proxy": "0.3",
+      "earnings_cycle_proxy": "0.121794",
+      "industry_breadth_proxy": "1.0",
+      "policy_event_intensity": "3",
+      "noise_event_intensity": "1.05",
+      "event_ids": "EVT_202007_STYLE_SURGE"
+    },
+    {
+      "sample_id": "S013",
+      "window_end": "2020-08-13",
+      "hs300_21d_return": "-0.022923",
+      "hs300_63d_return": "0.181008",
+      "hs300_drawdown_252d": "-0.044766",
+      "hs300_volatility_21d_ann": "0.229872",
+      "sse_21d_return": "-0.012072",
+      "chinext_21d_return": "-0.067692",
+      "style_momentum_growth_vs_large": "-0.044769",
+      "market_pe_ttm_median": "41.45",
+      "valuation_percentile_proxy": "0.694444",
+      "cn_10y_yield": "2.9555",
+      "erp_proxy": "-0.00543",
+      "liquidity_turnover_proxy": "0.246819",
+      "credit_easing_proxy": "0.3",
+      "earnings_cycle_proxy": "0.087582",
+      "industry_breadth_proxy": "0.439365",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S014",
+      "window_end": "2020-08-31",
+      "hs300_21d_return": "0.025808",
+      "hs300_63d_return": "0.212743",
+      "hs300_drawdown_252d": "-0.007572",
+      "hs300_volatility_21d_ann": "0.172581",
+      "sse_21d_return": "0.025882",
+      "chinext_21d_return": "-0.023999",
+      "style_momentum_growth_vs_large": "-0.049807",
+      "market_pe_ttm_median": "41.95",
+      "valuation_percentile_proxy": "0.705556",
+      "cn_10y_yield": "3.0177",
+      "erp_proxy": "-0.006339",
+      "liquidity_turnover_proxy": "-0.071994",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "0.113518",
+      "industry_breadth_proxy": "0.610181",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S015",
+      "window_end": "2020-09-18",
+      "hs300_21d_return": "0.012382",
+      "hs300_63d_return": "0.155751",
+      "hs300_drawdown_252d": "-0.023877",
+      "hs300_volatility_21d_ann": "0.187059",
+      "sse_21d_return": "-0.007672",
+      "chinext_21d_return": "0.003177",
+      "style_momentum_growth_vs_large": "-0.009205",
+      "market_pe_ttm_median": "41.95",
+      "valuation_percentile_proxy": "0.705556",
+      "cn_10y_yield": "3.1162",
+      "erp_proxy": "-0.007324",
+      "liquidity_turnover_proxy": "-0.378038",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "0.081904",
+      "industry_breadth_proxy": "0.483515",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S016",
+      "window_end": "2020-09-30",
+      "hs300_21d_return": "-0.052606",
+      "hs300_63d_return": "0.037967",
+      "hs300_drawdown_252d": "-0.054722",
+      "hs300_volatility_21d_ann": "0.174082",
+      "sse_21d_return": "-0.056458",
+      "chinext_21d_return": "-0.063869",
+      "style_momentum_growth_vs_large": "-0.011262",
+      "market_pe_ttm_median": "38.69",
+      "valuation_percentile_proxy": "0.616667",
+      "cn_10y_yield": "3.1482",
+      "erp_proxy": "-0.005636",
+      "liquidity_turnover_proxy": "-0.453123",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "0.004515",
+      "industry_breadth_proxy": "0.198244",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S017",
+      "window_end": "2020-10-23",
+      "hs300_21d_return": "0.013125",
+      "hs300_63d_return": "0.008158",
+      "hs300_drawdown_252d": "-0.027709",
+      "hs300_volatility_21d_ann": "0.187867",
+      "sse_21d_return": "-0.001805",
+      "chinext_21d_return": "0.018022",
+      "style_momentum_growth_vs_large": "0.004897",
+      "market_pe_ttm_median": "38.69",
+      "valuation_percentile_proxy": "0.616667",
+      "cn_10y_yield": "3.1957",
+      "erp_proxy": "-0.006111",
+      "liquidity_turnover_proxy": "-0.356423",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.005015",
+      "industry_breadth_proxy": "0.496704",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S018",
+      "window_end": "2020-11-11",
+      "hs300_21d_return": "0.013576",
+      "hs300_63d_return": "0.029843",
+      "hs300_drawdown_252d": "-0.015348",
+      "hs300_volatility_21d_ann": "0.144356",
+      "sse_21d_return": "-0.005223",
+      "chinext_21d_return": "-0.037057",
+      "style_momentum_growth_vs_large": "-0.050633",
+      "market_pe_ttm_median": "38.98",
+      "valuation_percentile_proxy": "0.638889",
+      "cn_10y_yield": "3.2391",
+      "erp_proxy": "-0.006737",
+      "liquidity_turnover_proxy": "-0.11829",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.004981",
+      "industry_breadth_proxy": "0.521937",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S019",
+      "window_end": "2020-11-27",
+      "hs300_21d_return": "0.043547",
+      "hs300_63d_return": "0.047293",
+      "hs300_drawdown_252d": "-0.004848",
+      "hs300_volatility_21d_ann": "0.140791",
+      "sse_21d_return": "0.041427",
+      "chinext_21d_return": "-0.029976",
+      "style_momentum_growth_vs_large": "-0.073522",
+      "market_pe_ttm_median": "38.98",
+      "valuation_percentile_proxy": "0.638889",
+      "cn_10y_yield": "3.3",
+      "erp_proxy": "-0.007346",
+      "liquidity_turnover_proxy": "0.238348",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.021663",
+      "industry_breadth_proxy": "0.725949",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S020",
+      "window_end": "2020-12-17",
+      "hs300_21d_return": "0.025718",
+      "hs300_63d_return": "0.084325",
+      "hs300_drawdown_252d": "-0.009802",
+      "hs300_volatility_21d_ann": "0.14284",
+      "sse_21d_return": "0.017199",
+      "chinext_21d_return": "0.062939",
+      "style_momentum_growth_vs_large": "0.037221",
+      "market_pe_ttm_median": "38.26",
+      "valuation_percentile_proxy": "0.6",
+      "cn_10y_yield": "3.2802",
+      "erp_proxy": "-0.006665",
+      "liquidity_turnover_proxy": "0.258852",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.058123",
+      "industry_breadth_proxy": "0.63744",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S021",
+      "window_end": "2021-01-04",
+      "hs300_21d_return": "0.041656",
+      "hs300_63d_return": "0.149678",
+      "hs300_drawdown_252d": "0",
+      "hs300_volatility_21d_ann": "0.149351",
+      "sse_21d_return": "0.01767",
+      "chinext_21d_return": "0.13478",
+      "style_momentum_growth_vs_large": "0.093124",
+      "market_pe_ttm_median": "35.8",
+      "valuation_percentile_proxy": "0.527778",
+      "cn_10y_yield": "3.178",
+      "erp_proxy": "-0.003847",
+      "liquidity_turnover_proxy": "-0.004104",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.105365",
+      "industry_breadth_proxy": "0.657545",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S022",
+      "window_end": "2021-01-22",
+      "hs300_21d_return": "0.11237",
+      "hs300_63d_return": "0.187273",
+      "hs300_drawdown_252d": "-0.004749",
+      "hs300_volatility_21d_ann": "0.191485",
+      "sse_21d_return": "0.066354",
+      "chinext_21d_return": "0.181243",
+      "style_momentum_growth_vs_large": "0.068873",
+      "market_pe_ttm_median": "35.8",
+      "valuation_percentile_proxy": "0.527778",
+      "cn_10y_yield": "3.1185",
+      "erp_proxy": "-0.003252",
+      "liquidity_turnover_proxy": "0.314626",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.133363",
+      "industry_breadth_proxy": "0.990235",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202102_CORE_ASSET"
+    },
+    {
+      "sample_id": "S023",
+      "window_end": "2021-02-09",
+      "hs300_21d_return": "0.045044",
+      "hs300_63d_return": "0.1593",
+      "hs300_drawdown_252d": "0",
+      "hs300_volatility_21d_ann": "0.20706",
+      "sse_21d_return": "0.020385",
+      "chinext_21d_return": "0.078045",
+      "style_momentum_growth_vs_large": "0.033",
+      "market_pe_ttm_median": "33.48",
+      "valuation_percentile_proxy": "0.433333",
+      "cn_10y_yield": "3.2303",
+      "erp_proxy": "-0.002434",
+      "liquidity_turnover_proxy": "0.222234",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.099312",
+      "industry_breadth_proxy": "0.699349",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202102_CORE_ASSET"
+    },
+    {
+      "sample_id": "S024",
+      "window_end": "2021-02-26",
+      "hs300_21d_return": "-0.041008",
+      "hs300_63d_return": "0.06628",
+      "hs300_drawdown_252d": "-0.081092",
+      "hs300_volatility_21d_ann": "0.252839",
+      "sse_21d_return": "-0.030979",
+      "chinext_21d_return": "-0.112558",
+      "style_momentum_growth_vs_large": "-0.07155",
+      "market_pe_ttm_median": "33.48",
+      "valuation_percentile_proxy": "0.433333",
+      "cn_10y_yield": "3.2798",
+      "erp_proxy": "-0.002929",
+      "liquidity_turnover_proxy": "0.129718",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.014399",
+      "industry_breadth_proxy": "0.34097",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202102_CORE_ASSET"
+    },
+    {
+      "sample_id": "S025",
+      "window_end": "2021-03-17",
+      "hs300_21d_return": "-0.102949",
+      "hs300_63d_return": "0.032453",
+      "hs300_drawdown_252d": "-0.121711",
+      "hs300_volatility_21d_ann": "0.279256",
+      "sse_21d_return": "-0.043829",
+      "chinext_21d_return": "-0.18898",
+      "style_momentum_growth_vs_large": "-0.086032",
+      "market_pe_ttm_median": "34.06",
+      "valuation_percentile_proxy": "0.466667",
+      "cn_10y_yield": "3.2564",
+      "erp_proxy": "-0.003204",
+      "liquidity_turnover_proxy": "0.164782",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.010315",
+      "industry_breadth_proxy": "0.128977",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202102_CORE_ASSET"
+    },
+    {
+      "sample_id": "S026",
+      "window_end": "2021-04-02",
+      "hs300_21d_return": "-0.022563",
+      "hs300_63d_return": "0.019181",
+      "hs300_drawdown_252d": "-0.111259",
+      "hs300_volatility_21d_ann": "0.251639",
+      "sse_21d_return": "-0.005452",
+      "chinext_21d_return": "0.000125",
+      "style_momentum_growth_vs_large": "0.022688",
+      "market_pe_ttm_median": "33.58",
+      "valuation_percentile_proxy": "0.444444",
+      "cn_10y_yield": "3.2013",
+      "erp_proxy": "-0.002233",
+      "liquidity_turnover_proxy": "-0.169803",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.013724",
+      "industry_breadth_proxy": "0.399789",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S027",
+      "window_end": "2021-04-22",
+      "hs300_21d_return": "0.01597",
+      "hs300_63d_return": "-0.067576",
+      "hs300_drawdown_252d": "-0.12371",
+      "hs300_volatility_21d_ann": "0.167037",
+      "sse_21d_return": "0.015713",
+      "chinext_21d_return": "0.101688",
+      "style_momentum_growth_vs_large": "0.085718",
+      "market_pe_ttm_median": "33.58",
+      "valuation_percentile_proxy": "0.444444",
+      "cn_10y_yield": "3.1614",
+      "erp_proxy": "-0.001834",
+      "liquidity_turnover_proxy": "-0.303854",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.016095",
+      "industry_breadth_proxy": "0.53664",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S028",
+      "window_end": "2021-05-10",
+      "hs300_21d_return": "-0.028776",
+      "hs300_63d_return": "-0.071547",
+      "hs300_drawdown_252d": "-0.140382",
+      "hs300_volatility_21d_ann": "0.156391",
+      "sse_21d_return": "-0.015784",
+      "chinext_21d_return": "0.031828",
+      "style_momentum_growth_vs_large": "0.060604",
+      "market_pe_ttm_median": "31.53",
+      "valuation_percentile_proxy": "0.244444",
+      "cn_10y_yield": "3.146",
+      "erp_proxy": "0.000256",
+      "liquidity_turnover_proxy": "-0.232919",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.031176",
+      "industry_breadth_proxy": "0.357868",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S029",
+      "window_end": "2021-05-28",
+      "hs300_21d_return": "0.048028",
+      "hs300_63d_return": "-0.021421",
+      "hs300_drawdown_252d": "-0.08379",
+      "hs300_volatility_21d_ann": "0.176183",
+      "sse_21d_return": "0.046385",
+      "chinext_21d_return": "0.088532",
+      "style_momentum_growth_vs_large": "0.040503",
+      "market_pe_ttm_median": "31.53",
+      "valuation_percentile_proxy": "0.244444",
+      "cn_10y_yield": "3.0825",
+      "erp_proxy": "0.000891",
+      "liquidity_turnover_proxy": "-0.081157",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.007915",
+      "industry_breadth_proxy": "0.708891",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S030",
+      "window_end": "2021-06-15",
+      "hs300_21d_return": "0.010952",
+      "hs300_63d_return": "0.007477",
+      "hs300_drawdown_252d": "-0.110398",
+      "hs300_volatility_21d_ann": "0.144117",
+      "sse_21d_return": "0.018962",
+      "chinext_21d_return": "0.075279",
+      "style_momentum_growth_vs_large": "0.064327",
+      "market_pe_ttm_median": "32.19",
+      "valuation_percentile_proxy": "0.305556",
+      "cn_10y_yield": "3.1176",
+      "erp_proxy": "-0.00011",
+      "liquidity_turnover_proxy": "-0.005284",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.021718",
+      "industry_breadth_proxy": "0.560958",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S031",
+      "window_end": "2021-07-02",
+      "hs300_21d_return": "-0.039482",
+      "hs300_63d_return": "-0.002672",
+      "hs300_drawdown_252d": "-0.12511",
+      "hs300_volatility_21d_ann": "0.155489",
+      "sse_21d_return": "-0.021789",
+      "chinext_21d_return": "0.028022",
+      "style_momentum_growth_vs_large": "0.067503",
+      "market_pe_ttm_median": "32.87",
+      "valuation_percentile_proxy": "0.361111",
+      "cn_10y_yield": "3.0803",
+      "erp_proxy": "-0.00038",
+      "liquidity_turnover_proxy": "-0.033025",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.006584",
+      "industry_breadth_proxy": "0.339191",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202107_REGULATION"
+    },
+    {
+      "sample_id": "S032",
+      "window_end": "2021-07-21",
+      "hs300_21d_return": "0.004273",
+      "hs300_63d_return": "0.01121",
+      "hs300_drawdown_252d": "-0.114275",
+      "hs300_volatility_21d_ann": "0.164914",
+      "sse_21d_return": "0.001476",
+      "chinext_21d_return": "0.084721",
+      "style_momentum_growth_vs_large": "0.080448",
+      "market_pe_ttm_median": "32.87",
+      "valuation_percentile_proxy": "0.361111",
+      "cn_10y_yield": "2.9184",
+      "erp_proxy": "0.001239",
+      "liquidity_turnover_proxy": "0.063916",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.022624",
+      "industry_breadth_proxy": "0.523408",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "2.6",
+      "event_ids": "EVT_202107_REGULATION"
+    },
+    {
+      "sample_id": "S033",
+      "window_end": "2021-08-06",
+      "hs300_21d_return": "-0.03276",
+      "hs300_63d_return": "-0.014193",
+      "hs300_drawdown_252d": "-0.152582",
+      "hs300_volatility_21d_ann": "0.232027",
+      "sse_21d_return": "-0.019083",
+      "chinext_21d_return": "0.016879",
+      "style_momentum_growth_vs_large": "0.049639",
+      "market_pe_ttm_median": "31.9",
+      "valuation_percentile_proxy": "0.266667",
+      "cn_10y_yield": "2.8139",
+      "erp_proxy": "0.003209",
+      "liquidity_turnover_proxy": "0.319261",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.002649",
+      "industry_breadth_proxy": "0.406763",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202107_REGULATION"
+    },
+    {
+      "sample_id": "S034",
+      "window_end": "2021-08-26",
+      "hs300_21d_return": "0.008639",
+      "hs300_63d_return": "-0.097627",
+      "hs300_drawdown_252d": "-0.173237",
+      "hs300_volatility_21d_ann": "0.193897",
+      "sse_21d_return": "0.041669",
+      "chinext_21d_return": "-0.006232",
+      "style_momentum_growth_vs_large": "-0.014871",
+      "market_pe_ttm_median": "31.9",
+      "valuation_percentile_proxy": "0.266667",
+      "cn_10y_yield": "2.8848",
+      "erp_proxy": "0.0025",
+      "liquidity_turnover_proxy": "0.188886",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.046252",
+      "industry_breadth_proxy": "0.608648",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S035",
+      "window_end": "2021-09-13",
+      "hs300_21d_return": "0.009235",
+      "hs300_63d_return": "-0.017485",
+      "hs300_drawdown_252d": "-0.140513",
+      "hs300_volatility_21d_ann": "0.178774",
+      "sse_21d_return": "0.056614",
+      "chinext_21d_return": "-0.045096",
+      "style_momentum_growth_vs_large": "-0.054331",
+      "market_pe_ttm_median": "33.54",
+      "valuation_percentile_proxy": "0.438889",
+      "cn_10y_yield": "2.8908",
+      "erp_proxy": "0.000907",
+      "liquidity_turnover_proxy": "0.371542",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.006329",
+      "industry_breadth_proxy": "0.653398",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S036",
+      "window_end": "2021-09-30",
+      "hs300_21d_return": "0.011035",
+      "hs300_63d_return": "-0.069465",
+      "hs300_drawdown_252d": "-0.162084",
+      "hs300_volatility_21d_ann": "0.144496",
+      "sse_21d_return": "0.011342",
+      "chinext_21d_return": "-0.0083",
+      "style_momentum_growth_vs_large": "-0.019335",
+      "market_pe_ttm_median": "31.65",
+      "valuation_percentile_proxy": "0.255556",
+      "cn_10y_yield": "2.8776",
+      "erp_proxy": "0.00282",
+      "liquidity_turnover_proxy": "0.287573",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.039237",
+      "industry_breadth_proxy": "0.585698",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S037",
+      "window_end": "2021-10-19",
+      "hs300_21d_return": "-0.009515",
+      "hs300_63d_return": "-0.042663",
+      "hs300_drawdown_252d": "-0.152383",
+      "hs300_volatility_21d_ann": "0.139715",
+      "sse_21d_return": "-0.027071",
+      "chinext_21d_return": "0.023387",
+      "style_momentum_growth_vs_large": "0.032902",
+      "market_pe_ttm_median": "31.65",
+      "valuation_percentile_proxy": "0.255556",
+      "cn_10y_yield": "3.0102",
+      "erp_proxy": "0.001494",
+      "liquidity_turnover_proxy": "-0.065169",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.023652",
+      "industry_breadth_proxy": "0.423832",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S038",
+      "window_end": "2021-11-05",
+      "hs300_21d_return": "-0.004939",
+      "hs300_63d_return": "0.00648",
+      "hs300_drawdown_252d": "-0.166222",
+      "hs300_volatility_21d_ann": "0.120989",
+      "sse_21d_return": "-0.021467",
+      "chinext_21d_return": "0.033319",
+      "style_momentum_growth_vs_large": "0.038258",
+      "market_pe_ttm_median": "32.07",
+      "valuation_percentile_proxy": "0.277778",
+      "cn_10y_yield": "2.8911",
+      "erp_proxy": "0.002271",
+      "liquidity_turnover_proxy": "-0.28145",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.005849",
+      "industry_breadth_proxy": "0.420366",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S039",
+      "window_end": "2021-11-24",
+      "hs300_21d_return": "-0.009357",
+      "hs300_63d_return": "0.004581",
+      "hs300_drawdown_252d": "-0.153427",
+      "hs300_volatility_21d_ann": "0.107944",
+      "sse_21d_return": "-0.001372",
+      "chinext_21d_return": "0.045416",
+      "style_momentum_growth_vs_large": "0.054774",
+      "market_pe_ttm_median": "32.07",
+      "valuation_percentile_proxy": "0.277778",
+      "cn_10y_yield": "2.86",
+      "erp_proxy": "0.002582",
+      "liquidity_turnover_proxy": "-0.285051",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.013131",
+      "industry_breadth_proxy": "0.433931",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S040",
+      "window_end": "2021-12-10",
+      "hs300_21d_return": "0.03194",
+      "hs300_63d_return": "0.043785",
+      "hs300_drawdown_252d": "-0.129587",
+      "hs300_volatility_21d_ann": "0.108184",
+      "sse_21d_return": "0.037806",
+      "chinext_21d_return": "0.009774",
+      "style_momentum_growth_vs_large": "-0.022166",
+      "market_pe_ttm_median": "35.75",
+      "valuation_percentile_proxy": "0.522222",
+      "cn_10y_yield": "2.8426",
+      "erp_proxy": "-0.000454",
+      "liquidity_turnover_proxy": "-0.192649",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.0291",
+      "industry_breadth_proxy": "0.63202",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S041",
+      "window_end": "2021-12-30",
+      "hs300_21d_return": "0.016033",
+      "hs300_63d_return": "0.00905",
+      "hs300_drawdown_252d": "-0.152591",
+      "hs300_volatility_21d_ann": "0.148655",
+      "sse_21d_return": "0.011827",
+      "chinext_21d_return": "-0.04335",
+      "style_momentum_growth_vs_large": "-0.059383",
+      "market_pe_ttm_median": "36.32",
+      "valuation_percentile_proxy": "0.544444",
+      "cn_10y_yield": "2.7654",
+      "erp_proxy": "-0.000121",
+      "liquidity_turnover_proxy": "0.087062",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.003942",
+      "industry_breadth_proxy": "0.57831",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S042",
+      "window_end": "2022-01-17",
+      "hs300_21d_return": "-0.053122",
+      "hs300_63d_return": "-0.031577",
+      "hs300_drawdown_252d": "-0.179148",
+      "hs300_volatility_21d_ann": "0.136309",
+      "sse_21d_return": "-0.036286",
+      "chinext_21d_return": "-0.09169",
+      "style_momentum_growth_vs_large": "-0.038568",
+      "market_pe_ttm_median": "36.32",
+      "valuation_percentile_proxy": "0.544444",
+      "cn_10y_yield": "2.786",
+      "erp_proxy": "-0.000327",
+      "liquidity_turnover_proxy": "-0.024112",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.034153",
+      "industry_breadth_proxy": "0.276316",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S043",
+      "window_end": "2022-01-28",
+      "hs300_21d_return": "-0.065467",
+      "hs300_63d_return": "-0.066844",
+      "hs300_drawdown_252d": "-0.214189",
+      "hs300_volatility_21d_ann": "0.158497",
+      "sse_21d_return": "-0.065488",
+      "chinext_21d_return": "-0.113639",
+      "style_momentum_growth_vs_large": "-0.048172",
+      "market_pe_ttm_median": "32.39",
+      "valuation_percentile_proxy": "0.322222",
+      "cn_10y_yield": "2.7021",
+      "erp_proxy": "0.003853",
+      "liquidity_turnover_proxy": "-0.024746",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.062771",
+      "industry_breadth_proxy": "0.195852",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S044",
+      "window_end": "2022-02-22",
+      "hs300_21d_return": "-0.04051",
+      "hs300_63d_return": "-0.063777",
+      "hs300_drawdown_252d": "-0.212401",
+      "hs300_volatility_21d_ann": "0.161621",
+      "sse_21d_return": "-0.023864",
+      "chinext_21d_return": "-0.127585",
+      "style_momentum_growth_vs_large": "-0.087075",
+      "market_pe_ttm_median": "32.39",
+      "valuation_percentile_proxy": "0.322222",
+      "cn_10y_yield": "2.82",
+      "erp_proxy": "0.002674",
+      "liquidity_turnover_proxy": "-0.106863",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.058459",
+      "industry_breadth_proxy": "0.324134",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202203_GROWTH_SCARE"
+    },
+    {
+      "sample_id": "S045",
+      "window_end": "2022-03-11",
+      "hs300_21d_return": "-0.071843",
+      "hs300_63d_return": "-0.119792",
+      "hs300_drawdown_252d": "-0.210133",
+      "hs300_volatility_21d_ann": "0.193279",
+      "sse_21d_return": "-0.050535",
+      "chinext_21d_return": "-0.05698",
+      "style_momentum_growth_vs_large": "0.014863",
+      "market_pe_ttm_median": "33.45",
+      "valuation_percentile_proxy": "0.427778",
+      "cn_10y_yield": "2.7902",
+      "erp_proxy": "0.001993",
+      "liquidity_turnover_proxy": "-0.071631",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.075547",
+      "industry_breadth_proxy": "0.190758",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "2.6",
+      "event_ids": "EVT_202203_GROWTH_SCARE"
+    },
+    {
+      "sample_id": "S046",
+      "window_end": "2022-03-30",
+      "hs300_21d_return": "-0.079137",
+      "hs300_63d_return": "-0.140367",
+      "hs300_drawdown_252d": "-0.203603",
+      "hs300_volatility_21d_ann": "0.323724",
+      "sse_21d_return": "-0.0637",
+      "chinext_21d_return": "-0.06548",
+      "style_momentum_growth_vs_large": "0.013657",
+      "market_pe_ttm_median": "33.45",
+      "valuation_percentile_proxy": "0.427778",
+      "cn_10y_yield": "2.7703",
+      "erp_proxy": "0.002192",
+      "liquidity_turnover_proxy": "0.042928",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.090395",
+      "industry_breadth_proxy": "0.162734",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202203_GROWTH_SCARE"
+    },
+    {
+      "sample_id": "S047",
+      "window_end": "2022-04-15",
+      "hs300_21d_return": "0.051442",
+      "hs300_63d_return": "-0.131392",
+      "hs300_drawdown_252d": "-0.215837",
+      "hs300_volatility_21d_ann": "0.216103",
+      "sse_21d_return": "0.048068",
+      "chinext_21d_return": "-0.017734",
+      "style_momentum_growth_vs_large": "-0.069176",
+      "market_pe_ttm_median": "31.0",
+      "valuation_percentile_proxy": "0.205556",
+      "cn_10y_yield": "2.7578",
+      "erp_proxy": "0.00468",
+      "liquidity_turnover_proxy": "-0.030843",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.074084",
+      "industry_breadth_proxy": "0.728209",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202204_POLICY_BOTTOM"
+    },
+    {
+      "sample_id": "S048",
+      "window_end": "2022-05-05",
+      "hs300_21d_return": "-0.05733",
+      "hs300_63d_return": "-0.162225",
+      "hs300_drawdown_252d": "-0.249261",
+      "hs300_volatility_21d_ann": "0.286635",
+      "sse_21d_return": "-0.06087",
+      "chinext_21d_return": "-0.151445",
+      "style_momentum_growth_vs_large": "-0.094115",
+      "market_pe_ttm_median": "26.09",
+      "valuation_percentile_proxy": "0.033333",
+      "cn_10y_yield": "2.8282",
+      "erp_proxy": "0.010047",
+      "liquidity_turnover_proxy": "0.023071",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.123264",
+      "industry_breadth_proxy": "0.234094",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "2.6",
+      "event_ids": "EVT_202204_POLICY_BOTTOM"
+    },
+    {
+      "sample_id": "S049",
+      "window_end": "2022-05-23",
+      "hs300_21d_return": "-0.01957",
+      "hs300_63d_return": "-0.122133",
+      "hs300_drawdown_252d": "-0.241066",
+      "hs300_volatility_21d_ann": "0.277799",
+      "sse_21d_return": "-0.014769",
+      "chinext_21d_return": "-0.017698",
+      "style_momentum_growth_vs_large": "0.001872",
+      "market_pe_ttm_median": "26.09",
+      "valuation_percentile_proxy": "0.033333",
+      "cn_10y_yield": "2.7675",
+      "erp_proxy": "0.010654",
+      "liquidity_turnover_proxy": "-0.021385",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "-0.070491",
+      "industry_breadth_proxy": "0.414134",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202204_POLICY_BOTTOM"
+    },
+    {
+      "sample_id": "S050",
+      "window_end": "2022-06-10",
+      "hs300_21d_return": "0.066032",
+      "hs300_63d_return": "-0.026141",
+      "hs300_drawdown_252d": "-0.206431",
+      "hs300_volatility_21d_ann": "0.164528",
+      "sse_21d_return": "0.07393",
+      "chinext_21d_return": "0.089645",
+      "style_momentum_growth_vs_large": "0.023613",
+      "market_pe_ttm_median": "30.51",
+      "valuation_percentile_proxy": "0.172222",
+      "cn_10y_yield": "2.7526",
+      "erp_proxy": "0.00525",
+      "liquidity_turnover_proxy": "-0.078276",
+      "credit_easing_proxy": "0.15",
+      "earnings_cycle_proxy": "0.008828",
+      "industry_breadth_proxy": "0.805412",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S051",
+      "window_end": "2022-06-28",
+      "hs300_21d_return": "0.122265",
+      "hs300_63d_return": "0.050041",
+      "hs300_drawdown_252d": "-0.14495",
+      "hs300_volatility_21d_ann": "0.15488",
+      "sse_21d_return": "0.089121",
+      "chinext_21d_return": "0.22301",
+      "style_momentum_growth_vs_large": "0.100745",
+      "market_pe_ttm_median": "30.51",
+      "valuation_percentile_proxy": "0.172222",
+      "cn_10y_yield": "2.8414",
+      "erp_proxy": "0.004362",
+      "liquidity_turnover_proxy": "0.24504",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "0.069952",
+      "industry_breadth_proxy": "1.0",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S052",
+      "window_end": "2022-07-15",
+      "hs300_21d_return": "-0.000361",
+      "hs300_63d_return": "0.026279",
+      "hs300_drawdown_252d": "-0.175324",
+      "hs300_volatility_21d_ann": "0.168648",
+      "sse_21d_return": "-0.017448",
+      "chinext_21d_return": "0.067697",
+      "style_momentum_growth_vs_large": "0.068058",
+      "market_pe_ttm_median": "33.03",
+      "valuation_percentile_proxy": "0.383333",
+      "cn_10y_yield": "2.7857",
+      "erp_proxy": "0.002419",
+      "liquidity_turnover_proxy": "0.099246",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "0.023703",
+      "industry_breadth_proxy": "0.486327",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S053",
+      "window_end": "2022-08-03",
+      "hs300_21d_return": "-0.094122",
+      "hs300_63d_return": "0.014155",
+      "hs300_drawdown_252d": "-0.210565",
+      "hs300_volatility_21d_ann": "0.133285",
+      "sse_21d_return": "-0.070608",
+      "chinext_21d_return": "-0.069488",
+      "style_momentum_growth_vs_large": "0.024634",
+      "market_pe_ttm_median": "33.33",
+      "valuation_percentile_proxy": "0.405556",
+      "cn_10y_yield": "2.7218",
+      "erp_proxy": "0.002785",
+      "liquidity_turnover_proxy": "-0.196926",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.00494",
+      "industry_breadth_proxy": "0.076328",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S054",
+      "window_end": "2022-08-19",
+      "hs300_21d_return": "-0.020062",
+      "hs300_63d_return": "0.02395",
+      "hs300_drawdown_252d": "-0.18347",
+      "hs300_volatility_21d_ann": "0.150332",
+      "sse_21d_return": "-0.004255",
+      "chinext_21d_return": "-0.00625",
+      "style_momentum_growth_vs_large": "0.013812",
+      "market_pe_ttm_median": "33.33",
+      "valuation_percentile_proxy": "0.405556",
+      "cn_10y_yield": "2.5875",
+      "erp_proxy": "0.004128",
+      "liquidity_turnover_proxy": "-0.309695",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.014871",
+      "industry_breadth_proxy": "0.392681",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S055",
+      "window_end": "2022-09-08",
+      "hs300_21d_return": "-0.017532",
+      "hs300_63d_return": "-0.036203",
+      "hs300_drawdown_252d": "-0.205775",
+      "hs300_volatility_21d_ann": "0.106033",
+      "sse_21d_return": "0.001723",
+      "chinext_21d_return": "-0.050997",
+      "style_momentum_growth_vs_large": "-0.033464",
+      "market_pe_ttm_median": "32.19",
+      "valuation_percentile_proxy": "0.305556",
+      "cn_10y_yield": "2.6256",
+      "erp_proxy": "0.00481",
+      "liquidity_turnover_proxy": "-0.215312",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.026174",
+      "industry_breadth_proxy": "0.420472",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S056",
+      "window_end": "2022-09-26",
+      "hs300_21d_return": "-0.067917",
+      "hs300_63d_return": "-0.145605",
+      "hs300_drawdown_252d": "-0.245313",
+      "hs300_volatility_21d_ann": "0.120611",
+      "sse_21d_return": "-0.060076",
+      "chinext_21d_return": "-0.129063",
+      "style_momentum_growth_vs_large": "-0.061146",
+      "market_pe_ttm_median": "32.19",
+      "valuation_percentile_proxy": "0.305556",
+      "cn_10y_yield": "2.7154",
+      "erp_proxy": "0.003912",
+      "liquidity_turnover_proxy": "-0.126481",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.107331",
+      "industry_breadth_proxy": "0.183381",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S057",
+      "window_end": "2022-10-14",
+      "hs300_21d_return": "-0.052408",
+      "hs300_63d_return": "-0.11761",
+      "hs300_drawdown_252d": "-0.244174",
+      "hs300_volatility_21d_ann": "0.191299",
+      "sse_21d_return": "-0.053694",
+      "chinext_21d_return": "-0.053129",
+      "style_momentum_growth_vs_large": "-0.000721",
+      "market_pe_ttm_median": "29.46",
+      "valuation_percentile_proxy": "0.122222",
+      "cn_10y_yield": "2.6977",
+      "erp_proxy": "0.006967",
+      "liquidity_turnover_proxy": "-0.077144",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.078253",
+      "industry_breadth_proxy": "0.247866",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "3.15",
+      "event_ids": "EVT_202210_CONGRESS|EVT_202211_REOPEN"
+    },
+    {
+      "sample_id": "S058",
+      "window_end": "2022-11-01",
+      "hs300_21d_return": "-0.052781",
+      "hs300_63d_return": "-0.139848",
+      "hs300_drawdown_252d": "-0.285146",
+      "hs300_volatility_21d_ann": "0.243411",
+      "sse_21d_return": "-0.026883",
+      "chinext_21d_return": "0.006285",
+      "style_momentum_growth_vs_large": "0.059066",
+      "market_pe_ttm_median": "30.87",
+      "valuation_percentile_proxy": "0.194444",
+      "cn_10y_yield": "2.6629",
+      "erp_proxy": "0.005765",
+      "liquidity_turnover_proxy": "0.000782",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.071824",
+      "industry_breadth_proxy": "0.293558",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "4.35",
+      "event_ids": "EVT_202210_CONGRESS|EVT_202211_REOPEN"
+    },
+    {
+      "sample_id": "S059",
+      "window_end": "2022-11-18",
+      "hs300_21d_return": "0.012422",
+      "hs300_63d_return": "-0.091768",
+      "hs300_drawdown_252d": "-0.252219",
+      "hs300_volatility_21d_ann": "0.2669",
+      "sse_21d_return": "0.020492",
+      "chinext_21d_return": "-0.004978",
+      "style_momentum_growth_vs_large": "-0.0174",
+      "market_pe_ttm_median": "30.87",
+      "valuation_percentile_proxy": "0.194444",
+      "cn_10y_yield": "2.825",
+      "erp_proxy": "0.004144",
+      "liquidity_turnover_proxy": "0.256936",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.048829",
+      "industry_breadth_proxy": "0.599269",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "4.65",
+      "event_ids": "EVT_202210_CONGRESS|EVT_202211_REOPEN"
+    },
+    {
+      "sample_id": "S060",
+      "window_end": "2022-12-07",
+      "hs300_21d_return": "0.055774",
+      "hs300_63d_return": "-0.021094",
+      "hs300_drawdown_252d": "-0.221362",
+      "hs300_volatility_21d_ann": "0.189944",
+      "sse_21d_return": "0.044094",
+      "chinext_21d_return": "-0.007548",
+      "style_momentum_growth_vs_large": "-0.063322",
+      "market_pe_ttm_median": "32.55",
+      "valuation_percentile_proxy": "0.344444",
+      "cn_10y_yield": "2.8702",
+      "erp_proxy": "0.00202",
+      "liquidity_turnover_proxy": "0.31049",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.013243",
+      "industry_breadth_proxy": "0.777468",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "1.75",
+      "event_ids": "EVT_202211_REOPEN"
+    },
+    {
+      "sample_id": "S061",
+      "window_end": "2022-12-23",
+      "hs300_21d_return": "0.019008",
+      "hs300_63d_return": "-0.026601",
+      "hs300_drawdown_252d": "-0.246977",
+      "hs300_volatility_21d_ann": "0.173647",
+      "sse_21d_return": "-0.014063",
+      "chinext_21d_return": "-0.021124",
+      "style_momentum_growth_vs_large": "-0.040133",
+      "market_pe_ttm_median": "32.55",
+      "valuation_percentile_proxy": "0.344444",
+      "cn_10y_yield": "2.8251",
+      "erp_proxy": "0.002471",
+      "liquidity_turnover_proxy": "0.088785",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "-0.026173",
+      "industry_breadth_proxy": "0.551793",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S062",
+      "window_end": "2023-01-12",
+      "hs300_21d_return": "0.018295",
+      "hs300_63d_return": "0.045647",
+      "hs300_drawdown_252d": "-0.186728",
+      "hs300_volatility_21d_ann": "0.121967",
+      "sse_21d_return": "-0.004053",
+      "chinext_21d_return": "0.03463",
+      "style_momentum_growth_vs_large": "0.016335",
+      "market_pe_ttm_median": "30.92",
+      "valuation_percentile_proxy": "0.2",
+      "cn_10y_yield": "2.8778",
+      "erp_proxy": "0.003564",
+      "liquidity_turnover_proxy": "-0.281677",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "0.02736",
+      "industry_breadth_proxy": "0.519069",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S063",
+      "window_end": "2023-01-30",
+      "hs300_21d_return": "0.095233",
+      "hs300_63d_return": "0.158208",
+      "hs300_drawdown_252d": "-0.132953",
+      "hs300_volatility_21d_ann": "0.09925",
+      "sse_21d_return": "0.070353",
+      "chinext_21d_return": "0.138789",
+      "style_momentum_growth_vs_large": "0.043556",
+      "market_pe_ttm_median": "30.92",
+      "valuation_percentile_proxy": "0.2",
+      "cn_10y_yield": "2.9133",
+      "erp_proxy": "0.003209",
+      "liquidity_turnover_proxy": "-0.198493",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "0.113314",
+      "industry_breadth_proxy": "0.87942",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S064",
+      "window_end": "2023-02-17",
+      "hs300_21d_return": "0.004141",
+      "hs300_63d_return": "0.063387",
+      "hs300_drawdown_252d": "-0.132748",
+      "hs300_volatility_21d_ann": "0.134104",
+      "sse_21d_return": "0.019148",
+      "chinext_21d_return": "-0.003719",
+      "style_momentum_growth_vs_large": "-0.00786",
+      "market_pe_ttm_median": "33.68",
+      "valuation_percentile_proxy": "0.45",
+      "cn_10y_yield": "2.892",
+      "erp_proxy": "0.000771",
+      "liquidity_turnover_proxy": "0.014841",
+      "credit_easing_proxy": "0.05",
+      "earnings_cycle_proxy": "0.038078",
+      "industry_breadth_proxy": "0.541839",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S065",
+      "window_end": "2023-03-07",
+      "hs300_21d_return": "-0.009304",
+      "hs300_63d_return": "0.050821",
+      "hs300_drawdown_252d": "-0.124203",
+      "hs300_volatility_21d_ann": "0.155264",
+      "sse_21d_return": "0.014327",
+      "chinext_21d_return": "-0.063032",
+      "style_momentum_growth_vs_large": "-0.053728",
+      "market_pe_ttm_median": "35.48",
+      "valuation_percentile_proxy": "0.511111",
+      "cn_10y_yield": "2.8726",
+      "erp_proxy": "-0.000541",
+      "liquidity_turnover_proxy": "0.136595",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.020788",
+      "industry_breadth_proxy": "0.506675",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S066",
+      "window_end": "2023-03-24",
+      "hs300_21d_return": "-0.018666",
+      "hs300_63d_return": "0.034374",
+      "hs300_drawdown_252d": "-0.104311",
+      "hs300_volatility_21d_ann": "0.127686",
+      "sse_21d_return": "-0.006638",
+      "chinext_21d_return": "-0.035444",
+      "style_momentum_growth_vs_large": "-0.016777",
+      "market_pe_ttm_median": "35.48",
+      "valuation_percentile_proxy": "0.511111",
+      "cn_10y_yield": "2.8676",
+      "erp_proxy": "-0.000491",
+      "liquidity_turnover_proxy": "0.362418",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.013891",
+      "industry_breadth_proxy": "0.474464",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S067",
+      "window_end": "2023-04-12",
+      "hs300_21d_return": "0.022103",
+      "hs300_63d_return": "0.032432",
+      "hs300_drawdown_252d": "-0.088688",
+      "hs300_volatility_21d_ann": "0.092079",
+      "sse_21d_return": "0.017893",
+      "chinext_21d_return": "0.030642",
+      "style_momentum_growth_vs_large": "0.008539",
+      "market_pe_ttm_median": "34.19",
+      "valuation_percentile_proxy": "0.472222",
+      "cn_10y_yield": "2.8158",
+      "erp_proxy": "0.00109",
+      "liquidity_turnover_proxy": "0.290308",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.024019",
+      "industry_breadth_proxy": "0.630615",
+      "policy_event_intensity": "3",
+      "noise_event_intensity": "1.05",
+      "event_ids": "EVT_202305_AI_THEME"
+    },
+    {
+      "sample_id": "S068",
+      "window_end": "2023-04-28",
+      "hs300_21d_return": "0.005727",
+      "hs300_63d_return": "-0.041001",
+      "hs300_drawdown_252d": "-0.103857",
+      "hs300_volatility_21d_ann": "0.126784",
+      "sse_21d_return": "0.025684",
+      "chinext_21d_return": "-0.0196",
+      "style_momentum_growth_vs_large": "-0.025327",
+      "market_pe_ttm_median": "33.35",
+      "valuation_percentile_proxy": "0.411111",
+      "cn_10y_yield": "2.7788",
+      "erp_proxy": "0.002197",
+      "liquidity_turnover_proxy": "0.214209",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.021195",
+      "industry_breadth_proxy": "0.579988",
+      "policy_event_intensity": "3",
+      "noise_event_intensity": "1.05",
+      "event_ids": "EVT_202305_AI_THEME"
+    },
+    {
+      "sample_id": "S069",
+      "window_end": "2023-05-18",
+      "hs300_21d_return": "-0.033218",
+      "hs300_63d_return": "-0.045647",
+      "hs300_drawdown_252d": "-0.120097",
+      "hs300_volatility_21d_ann": "0.135131",
+      "sse_21d_return": "-0.012232",
+      "chinext_21d_return": "-0.061825",
+      "style_momentum_growth_vs_large": "-0.028606",
+      "market_pe_ttm_median": "33.35",
+      "valuation_percentile_proxy": "0.411111",
+      "cn_10y_yield": "2.7184",
+      "erp_proxy": "0.002801",
+      "liquidity_turnover_proxy": "0.21661",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.033885",
+      "industry_breadth_proxy": "0.40257",
+      "policy_event_intensity": "3",
+      "noise_event_intensity": "1.05",
+      "event_ids": "EVT_202305_AI_THEME"
+    },
+    {
+      "sample_id": "S070",
+      "window_end": "2023-06-05",
+      "hs300_21d_return": "-0.042976",
+      "hs300_63d_return": "-0.066417",
+      "hs300_drawdown_252d": "-0.144968",
+      "hs300_volatility_21d_ann": "0.12571",
+      "sse_21d_return": "-0.030608",
+      "chinext_21d_return": "-0.028883",
+      "style_momentum_growth_vs_large": "0.014093",
+      "market_pe_ttm_median": "33.94",
+      "valuation_percentile_proxy": "0.461111",
+      "cn_10y_yield": "2.6926",
+      "erp_proxy": "0.002538",
+      "liquidity_turnover_proxy": "-0.088492",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.041363",
+      "industry_breadth_proxy": "0.309008",
+      "policy_event_intensity": "3",
+      "noise_event_intensity": "1.05",
+      "event_ids": "EVT_202305_AI_THEME"
+    },
+    {
+      "sample_id": "S071",
+      "window_end": "2023-06-21",
+      "hs300_21d_return": "-0.012562",
+      "hs300_63d_return": "-0.019051",
+      "hs300_drawdown_252d": "-0.140568",
+      "hs300_volatility_21d_ann": "0.125248",
+      "sse_21d_return": "-0.01489",
+      "chinext_21d_return": "-0.018415",
+      "style_momentum_growth_vs_large": "-0.005853",
+      "market_pe_ttm_median": "33.94",
+      "valuation_percentile_proxy": "0.461111",
+      "cn_10y_yield": "2.6701",
+      "erp_proxy": "0.002763",
+      "liquidity_turnover_proxy": "-0.236788",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.015371",
+      "industry_breadth_proxy": "0.410542",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S072",
+      "window_end": "2023-07-11",
+      "hs300_21d_return": "0.012905",
+      "hs300_63d_return": "-0.055449",
+      "hs300_drawdown_252d": "-0.139355",
+      "hs300_volatility_21d_ann": "0.132176",
+      "sse_21d_return": "0.002421",
+      "chinext_21d_return": "0.0437",
+      "style_momentum_growth_vs_large": "0.030796",
+      "market_pe_ttm_median": "34.65",
+      "valuation_percentile_proxy": "0.483333",
+      "cn_10y_yield": "2.6353",
+      "erp_proxy": "0.002507",
+      "liquidity_turnover_proxy": "-0.25252",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.023732",
+      "industry_breadth_proxy": "0.514383",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S073",
+      "window_end": "2023-07-28",
+      "hs300_21d_return": "0.044715",
+      "hs300_63d_return": "0.007589",
+      "hs300_drawdown_252d": "-0.069853",
+      "hs300_volatility_21d_ann": "0.161195",
+      "sse_21d_return": "0.029395",
+      "chinext_21d_return": "0.018107",
+      "style_momentum_growth_vs_large": "-0.026608",
+      "market_pe_ttm_median": "34.65",
+      "valuation_percentile_proxy": "0.483333",
+      "cn_10y_yield": "2.6533",
+      "erp_proxy": "0.002327",
+      "liquidity_turnover_proxy": "-0.242902",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "0.006201",
+      "industry_breadth_proxy": "0.655092",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S074",
+      "window_end": "2023-08-16",
+      "hs300_21d_return": "-0.009496",
+      "hs300_63d_return": "-0.035814",
+      "hs300_drawdown_252d": "-0.094529",
+      "hs300_volatility_21d_ann": "0.172165",
+      "sse_21d_return": "-0.014914",
+      "chinext_21d_return": "-0.030741",
+      "style_momentum_growth_vs_large": "-0.021246",
+      "market_pe_ttm_median": "34.32",
+      "valuation_percentile_proxy": "0.477778",
+      "cn_10y_yield": "2.5649",
+      "erp_proxy": "0.003489",
+      "liquidity_turnover_proxy": "0.026002",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.027676",
+      "industry_breadth_proxy": "0.451855",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202308_STAMP_DUTY"
+    },
+    {
+      "sample_id": "S075",
+      "window_end": "2023-09-01",
+      "hs300_21d_return": "-0.053307",
+      "hs300_63d_return": "-0.018215",
+      "hs300_drawdown_252d": "-0.097553",
+      "hs300_volatility_21d_ann": "0.143784",
+      "sse_21d_return": "-0.044877",
+      "chinext_21d_return": "-0.063214",
+      "style_momentum_growth_vs_large": "-0.009907",
+      "market_pe_ttm_median": "33.22",
+      "valuation_percentile_proxy": "0.4",
+      "cn_10y_yield": "2.585",
+      "erp_proxy": "0.004252",
+      "liquidity_turnover_proxy": "0.011041",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "-0.023219",
+      "industry_breadth_proxy": "0.267916",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "2.6",
+      "event_ids": "EVT_202308_STAMP_DUTY"
+    },
+    {
+      "sample_id": "S076",
+      "window_end": "2023-09-21",
+      "hs300_21d_return": "-0.006544",
+      "hs300_63d_return": "-0.036027",
+      "hs300_drawdown_252d": "-0.125888",
+      "hs300_volatility_21d_ann": "0.118241",
+      "sse_21d_return": "0.002046",
+      "chinext_21d_return": "-0.035002",
+      "style_momentum_growth_vs_large": "-0.028459",
+      "market_pe_ttm_median": "33.22",
+      "valuation_percentile_proxy": "0.4",
+      "cn_10y_yield": "2.6576",
+      "erp_proxy": "0.003526",
+      "liquidity_turnover_proxy": "-0.051346",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "-0.024995",
+      "industry_breadth_proxy": "0.475764",
+      "policy_event_intensity": "4",
+      "noise_event_intensity": "1.4",
+      "event_ids": "EVT_202308_STAMP_DUTY"
+    },
+    {
+      "sample_id": "S077",
+      "window_end": "2023-10-09",
+      "hs300_21d_return": "-0.021391",
+      "hs300_63d_return": "-0.054959",
+      "hs300_drawdown_252d": "-0.122965",
+      "hs300_volatility_21d_ann": "0.120902",
+      "sse_21d_return": "-0.007357",
+      "chinext_21d_return": "-0.049448",
+      "style_momentum_growth_vs_large": "-0.028057",
+      "market_pe_ttm_median": "33.09",
+      "valuation_percentile_proxy": "0.388889",
+      "cn_10y_yield": "2.6702",
+      "erp_proxy": "0.003519",
+      "liquidity_turnover_proxy": "-0.190184",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "-0.037678",
+      "industry_breadth_proxy": "0.398428",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S078",
+      "window_end": "2023-10-27",
+      "hs300_21d_return": "-0.038672",
+      "hs300_63d_return": "-0.063817",
+      "hs300_drawdown_252d": "-0.152085",
+      "hs300_volatility_21d_ann": "0.14444",
+      "sse_21d_return": "-0.029204",
+      "chinext_21d_return": "-0.028877",
+      "style_momentum_growth_vs_large": "0.009795",
+      "market_pe_ttm_median": "33.09",
+      "valuation_percentile_proxy": "0.388889",
+      "cn_10y_yield": "2.7133",
+      "erp_proxy": "0.003088",
+      "liquidity_turnover_proxy": "-0.132978",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "-0.040441",
+      "industry_breadth_proxy": "0.319407",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S079",
+      "window_end": "2023-11-14",
+      "hs300_21d_return": "-0.012281",
+      "hs300_63d_return": "-0.097165",
+      "hs300_drawdown_252d": "-0.147402",
+      "hs300_volatility_21d_ann": "0.127419",
+      "sse_21d_return": "-0.005772",
+      "chinext_21d_return": "0.024577",
+      "style_momentum_growth_vs_large": "0.036858",
+      "market_pe_ttm_median": "32.81",
+      "valuation_percentile_proxy": "0.355556",
+      "cn_10y_yield": "2.6573",
+      "erp_proxy": "0.003906",
+      "liquidity_turnover_proxy": "0.051512",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "-0.047512",
+      "industry_breadth_proxy": "0.4588",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S080",
+      "window_end": "2023-12-01",
+      "hs300_21d_return": "-0.020063",
+      "hs300_63d_return": "-0.07188",
+      "hs300_drawdown_252d": "-0.171008",
+      "hs300_volatility_21d_ann": "0.093462",
+      "sse_21d_return": "0.007387",
+      "chinext_21d_return": "-0.006919",
+      "style_momentum_growth_vs_large": "0.013144",
+      "market_pe_ttm_median": "33.93",
+      "valuation_percentile_proxy": "0.455556",
+      "cn_10y_yield": "2.6625",
+      "erp_proxy": "0.002847",
+      "liquidity_turnover_proxy": "-0.014124",
+      "credit_easing_proxy": "0.2",
+      "earnings_cycle_proxy": "-0.035058",
+      "industry_breadth_proxy": "0.444445",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S081",
+      "window_end": "2023-12-20",
+      "hs300_21d_return": "-0.079185",
+      "hs300_63d_return": "-0.116782",
+      "hs300_drawdown_252d": "-0.215132",
+      "hs300_volatility_21d_ann": "0.104767",
+      "sse_21d_return": "-0.05405",
+      "chinext_21d_return": "-0.091414",
+      "style_momentum_growth_vs_large": "-0.012229",
+      "market_pe_ttm_median": "33.93",
+      "valuation_percentile_proxy": "0.455556",
+      "cn_10y_yield": "2.6222",
+      "erp_proxy": "0.00325",
+      "liquidity_turnover_proxy": "-0.030244",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.080189",
+      "industry_breadth_proxy": "0.16731",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S082",
+      "window_end": "2024-01-05",
+      "hs300_21d_return": "-0.020734",
+      "hs300_63d_return": "-0.096511",
+      "hs300_drawdown_252d": "-0.207608",
+      "hs300_volatility_21d_ann": "0.13823",
+      "sse_21d_return": "-0.013389",
+      "chinext_21d_return": "-0.056519",
+      "style_momentum_growth_vs_large": "-0.035785",
+      "market_pe_ttm_median": "32.92",
+      "valuation_percentile_proxy": "0.366667",
+      "cn_10y_yield": "2.5175",
+      "erp_proxy": "0.005202",
+      "liquidity_turnover_proxy": "0.009611",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.063585",
+      "industry_breadth_proxy": "0.416061",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S083",
+      "window_end": "2024-01-25",
+      "hs300_21d_return": "0.005453",
+      "hs300_63d_return": "-0.061606",
+      "hs300_drawdown_252d": "-0.204322",
+      "hs300_volatility_21d_ann": "0.183404",
+      "sse_21d_return": "0.002494",
+      "chinext_21d_return": "-0.048503",
+      "style_momentum_growth_vs_large": "-0.053955",
+      "market_pe_ttm_median": "32.92",
+      "valuation_percentile_proxy": "0.366667",
+      "cn_10y_yield": "2.4984",
+      "erp_proxy": "0.005393",
+      "liquidity_turnover_proxy": "0.211365",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.044051",
+      "industry_breadth_proxy": "0.546304",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "1.75",
+      "event_ids": "EVT_202402_RESCUE"
+    },
+    {
+      "sample_id": "S084",
+      "window_end": "2024-02-08",
+      "hs300_21d_return": "0.026792",
+      "hs300_63d_return": "-0.061776",
+      "hs300_drawdown_252d": "-0.191518",
+      "hs300_volatility_21d_ann": "0.212151",
+      "sse_21d_return": "-0.0041",
+      "chinext_21d_return": "-0.009373",
+      "style_momentum_growth_vs_large": "-0.036165",
+      "market_pe_ttm_median": "26.88",
+      "valuation_percentile_proxy": "0.044444",
+      "cn_10y_yield": "2.4379",
+      "erp_proxy": "0.012823",
+      "liquidity_turnover_proxy": "0.521865",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.042235",
+      "industry_breadth_proxy": "0.642618",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "3.25",
+      "event_ids": "EVT_202402_RESCUE"
+    },
+    {
+      "sample_id": "S085",
+      "window_end": "2024-03-01",
+      "hs300_21d_return": "0.07955",
+      "hs300_63d_return": "-5.8e-05",
+      "hs300_drawdown_252d": "-0.149982",
+      "hs300_volatility_21d_ann": "0.196272",
+      "sse_21d_return": "0.073118",
+      "chinext_21d_return": "0.075373",
+      "style_momentum_growth_vs_large": "-0.004177",
+      "market_pe_ttm_median": "28.62",
+      "valuation_percentile_proxy": "0.088889",
+      "cn_10y_yield": "2.3675",
+      "erp_proxy": "0.011266",
+      "liquidity_turnover_proxy": "0.580031",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.017412",
+      "industry_breadth_proxy": "0.926529",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "1.75",
+      "event_ids": "EVT_202402_RESCUE"
+    },
+    {
+      "sample_id": "S086",
+      "window_end": "2024-03-19",
+      "hs300_21d_return": "0.051067",
+      "hs300_63d_return": "0.044014",
+      "hs300_drawdown_252d": "-0.140413",
+      "hs300_volatility_21d_ann": "0.134703",
+      "sse_21d_return": "0.052297",
+      "chinext_21d_return": "0.091911",
+      "style_momentum_growth_vs_large": "0.040844",
+      "market_pe_ttm_median": "28.62",
+      "valuation_percentile_proxy": "0.088889",
+      "cn_10y_yield": "2.2801",
+      "erp_proxy": "0.01214",
+      "liquidity_turnover_proxy": "0.18336",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.045451",
+      "industry_breadth_proxy": "0.758633",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S087",
+      "window_end": "2024-04-03",
+      "hs300_21d_return": "0.000642",
+      "hs300_63d_return": "0.069371",
+      "hs300_drawdown_252d": "-0.142774",
+      "hs300_volatility_21d_ann": "0.115722",
+      "sse_21d_return": "0.007055",
+      "chinext_21d_return": "0.003682",
+      "style_momentum_growth_vs_large": "0.00304",
+      "market_pe_ttm_median": "29.53",
+      "valuation_percentile_proxy": "0.127778",
+      "cn_10y_yield": "2.2837",
+      "erp_proxy": "0.011027",
+      "liquidity_turnover_proxy": "-0.037859",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.040526",
+      "industry_breadth_proxy": "0.507389",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S088",
+      "window_end": "2024-04-24",
+      "hs300_21d_return": "-0.006595",
+      "hs300_63d_return": "0.066875",
+      "hs300_drawdown_252d": "-0.15387",
+      "hs300_volatility_21d_ann": "0.144527",
+      "sse_21d_return": "-0.001054",
+      "chinext_21d_return": "-0.055514",
+      "style_momentum_growth_vs_large": "-0.048919",
+      "market_pe_ttm_median": "29.53",
+      "valuation_percentile_proxy": "0.127778",
+      "cn_10y_yield": "2.2727",
+      "erp_proxy": "0.011137",
+      "liquidity_turnover_proxy": "-0.080842",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.026734",
+      "industry_breadth_proxy": "0.467719",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S089",
+      "window_end": "2024-05-10",
+      "hs300_21d_return": "0.036723",
+      "hs300_63d_return": "0.109661",
+      "hs300_drawdown_252d": "-0.097568",
+      "hs300_volatility_21d_ann": "0.149008",
+      "sse_21d_return": "0.035278",
+      "chinext_21d_return": "0.039355",
+      "style_momentum_growth_vs_large": "0.002632",
+      "market_pe_ttm_median": "30.56",
+      "valuation_percentile_proxy": "0.177778",
+      "cn_10y_yield": "2.3122",
+      "erp_proxy": "0.009601",
+      "liquidity_turnover_proxy": "0.020121",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.06966",
+      "industry_breadth_proxy": "0.669319",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S090",
+      "window_end": "2024-05-30",
+      "hs300_21d_return": "0.002802",
+      "hs300_63d_return": "0.040816",
+      "hs300_drawdown_252d": "-0.106021",
+      "hs300_volatility_21d_ann": "0.115577",
+      "sse_21d_return": "0.000985",
+      "chinext_21d_return": "-0.005805",
+      "style_momentum_growth_vs_large": "-0.008607",
+      "market_pe_ttm_median": "29.7",
+      "valuation_percentile_proxy": "0.138889",
+      "cn_10y_yield": "2.2826",
+      "erp_proxy": "0.010844",
+      "liquidity_turnover_proxy": "0.023053",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "0.020974",
+      "industry_breadth_proxy": "0.513111",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S091",
+      "window_end": "2024-06-17",
+      "hs300_21d_return": "-0.028613",
+      "hs300_63d_return": "-0.017038",
+      "hs300_drawdown_252d": "-0.120475",
+      "hs300_volatility_21d_ann": "0.090434",
+      "sse_21d_return": "-0.034112",
+      "chinext_21d_return": "-0.020615",
+      "style_momentum_growth_vs_large": "0.007998",
+      "market_pe_ttm_median": "29.7",
+      "valuation_percentile_proxy": "0.138889",
+      "cn_10y_yield": "2.2609",
+      "erp_proxy": "0.011061",
+      "liquidity_turnover_proxy": "-0.093722",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.016299",
+      "industry_breadth_proxy": "0.349437",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S092",
+      "window_end": "2024-07-05",
+      "hs300_21d_return": "-0.045547",
+      "hs300_63d_return": "-0.045774",
+      "hs300_drawdown_252d": "-0.146625",
+      "hs300_volatility_21d_ann": "0.068187",
+      "sse_21d_return": "-0.037669",
+      "chinext_21d_return": "-0.097055",
+      "style_momentum_growth_vs_large": "-0.051508",
+      "market_pe_ttm_median": "27.45",
+      "valuation_percentile_proxy": "0.055556",
+      "cn_10y_yield": "2.2754",
+      "erp_proxy": "0.013676",
+      "liquidity_turnover_proxy": "-0.169778",
+      "credit_easing_proxy": "0",
+      "earnings_cycle_proxy": "-0.044894",
+      "industry_breadth_proxy": "0.281139",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S093",
+      "window_end": "2024-07-23",
+      "hs300_21d_return": "-0.010622",
+      "hs300_63d_return": "-0.028739",
+      "hs300_drawdown_252d": "-0.144432",
+      "hs300_volatility_21d_ann": "0.118778",
+      "sse_21d_return": "-0.016108",
+      "chinext_21d_return": "-0.034693",
+      "style_momentum_growth_vs_large": "-0.024071",
+      "market_pe_ttm_median": "27.45",
+      "valuation_percentile_proxy": "0.055556",
+      "cn_10y_yield": "2.2322",
+      "erp_proxy": "0.014108",
+      "liquidity_turnover_proxy": "-0.127555",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.024648",
+      "industry_breadth_proxy": "0.42815",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S094",
+      "window_end": "2024-08-09",
+      "hs300_21d_return": "-0.03937",
+      "hs300_63d_return": "-0.090885",
+      "hs300_drawdown_252d": "-0.171356",
+      "hs300_volatility_21d_ann": "0.134697",
+      "sse_21d_return": "-0.036424",
+      "chinext_21d_return": "-0.053098",
+      "style_momentum_growth_vs_large": "-0.013728",
+      "market_pe_ttm_median": "27.38",
+      "valuation_percentile_proxy": "0.05",
+      "cn_10y_yield": "2.1986",
+      "erp_proxy": "0.014537",
+      "liquidity_turnover_proxy": "-0.040763",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.061838",
+      "industry_breadth_proxy": "0.318131",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S095",
+      "window_end": "2024-08-28",
+      "hs300_21d_return": "-0.0246",
+      "hs300_63d_return": "-0.08564",
+      "hs300_drawdown_252d": "-0.146132",
+      "hs300_volatility_21d_ann": "0.081861",
+      "sse_21d_return": "-0.014542",
+      "chinext_21d_return": "-0.061008",
+      "style_momentum_growth_vs_large": "-0.036408",
+      "market_pe_ttm_median": "27.38",
+      "valuation_percentile_proxy": "0.05",
+      "cn_10y_yield": "2.1673",
+      "erp_proxy": "0.01485",
+      "liquidity_turnover_proxy": "-0.160823",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.058019",
+      "industry_breadth_proxy": "0.381623",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "1.75",
+      "event_ids": "EVT_202409_POLICY_BAZOOKA"
+    },
+    {
+      "sample_id": "S096",
+      "window_end": "2024-09-13",
+      "hs300_21d_return": "-0.05467",
+      "hs300_63d_return": "-0.108964",
+      "hs300_drawdown_252d": "-0.179193",
+      "hs300_volatility_21d_ann": "0.099231",
+      "sse_21d_return": "-0.060218",
+      "chinext_21d_return": "-0.036128",
+      "style_momentum_growth_vs_large": "0.018542",
+      "market_pe_ttm_median": "25.81",
+      "valuation_percentile_proxy": "0.027778",
+      "cn_10y_yield": "2.0724",
+      "erp_proxy": "0.018021",
+      "liquidity_turnover_proxy": "-0.094536",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "-0.071276",
+      "industry_breadth_proxy": "0.229405",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "1.75",
+      "event_ids": "EVT_202409_POLICY_BAZOOKA"
+    },
+    {
+      "sample_id": "S097",
+      "window_end": "2024-09-30",
+      "hs300_21d_return": "0.222535",
+      "hs300_63d_return": "0.155159",
+      "hs300_drawdown_252d": "0",
+      "hs300_volatility_21d_ann": "0.384349",
+      "sse_21d_return": "0.175887",
+      "chinext_21d_return": "0.420279",
+      "style_momentum_growth_vs_large": "0.197744",
+      "market_pe_ttm_median": "28.46",
+      "valuation_percentile_proxy": "0.072222",
+      "cn_10y_yield": "2.1518",
+      "erp_proxy": "0.013619",
+      "liquidity_turnover_proxy": "0.368004",
+      "credit_easing_proxy": "0.1",
+      "earnings_cycle_proxy": "0.168858",
+      "industry_breadth_proxy": "1.0",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "3.25",
+      "event_ids": "EVT_202409_POLICY_BAZOOKA"
+    },
+    {
+      "sample_id": "S098",
+      "window_end": "2024-10-21",
+      "hs300_21d_return": "0.235102",
+      "hs300_63d_return": "0.132025",
+      "hs300_drawdown_252d": "-0.075398",
+      "hs300_volatility_21d_ann": "0.532534",
+      "sse_21d_return": "0.200719",
+      "chinext_21d_return": "0.418402",
+      "style_momentum_growth_vs_large": "0.183299",
+      "market_pe_ttm_median": "28.46",
+      "valuation_percentile_proxy": "0.072222",
+      "cn_10y_yield": "2.1211",
+      "erp_proxy": "0.013926",
+      "liquidity_turnover_proxy": "1.278893",
+      "credit_easing_proxy": "0.35",
+      "earnings_cycle_proxy": "0.159453",
+      "industry_breadth_proxy": "1.0",
+      "policy_event_intensity": "5",
+      "noise_event_intensity": "1.75",
+      "event_ids": "EVT_202409_POLICY_BAZOOKA"
+    },
+    {
+      "sample_id": "S099",
+      "window_end": "2024-11-08",
+      "hs300_21d_return": "0.026579",
+      "hs300_63d_return": "0.212639",
+      "hs300_drawdown_252d": "-0.035725",
+      "hs300_volatility_21d_ann": "0.242676",
+      "sse_21d_return": "0.04554",
+      "chinext_21d_return": "0.049111",
+      "style_momentum_growth_vs_large": "0.022531",
+      "market_pe_ttm_median": "32.39",
+      "valuation_percentile_proxy": "0.322222",
+      "cn_10y_yield": "2.1067",
+      "erp_proxy": "0.009807",
+      "liquidity_turnover_proxy": "0.707119",
+      "credit_easing_proxy": "0.35",
+      "earnings_cycle_proxy": "0.132843",
+      "industry_breadth_proxy": "0.733665",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    },
+    {
+      "sample_id": "S100",
+      "window_end": "2024-11-26",
+      "hs300_21d_return": "-0.031273",
+      "hs300_63d_return": "0.152273",
+      "hs300_drawdown_252d": "-0.097721",
+      "hs300_volatility_21d_ann": "0.218891",
+      "sse_21d_return": "-0.018795",
+      "chinext_21d_return": "-0.035449",
+      "style_momentum_growth_vs_large": "-0.004176",
+      "market_pe_ttm_median": "32.39",
+      "valuation_percentile_proxy": "0.322222",
+      "cn_10y_yield": "2.0657",
+      "erp_proxy": "0.010217",
+      "liquidity_turnover_proxy": "0.305399",
+      "credit_easing_proxy": "0.35",
+      "earnings_cycle_proxy": "0.078216",
+      "industry_breadth_proxy": "0.41026",
+      "policy_event_intensity": "0",
+      "noise_event_intensity": "0",
+      "event_ids": ""
+    }
+  ],
+  "events": [
+    {
+      "sample_id": "S001",
+      "event_id": "EVT_202001_COVID",
+      "event_date": "2020-01-23",
+      "event_type": "突发公共卫生冲击",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.69",
+      "description": "春节前后疫情冲击与交易中断风险上升。"
+    },
+    {
+      "sample_id": "S001",
+      "event_id": "EVT_202002_LIQUIDITY",
+      "event_date": "2020-02-03",
+      "event_type": "流动性与政策对冲",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.429",
+      "description": "节后市场大幅波动后，流动性投放与逆周期政策升温。"
+    },
+    {
+      "sample_id": "S002",
+      "event_id": "EVT_202001_COVID",
+      "event_date": "2020-01-23",
+      "event_type": "突发公共卫生冲击",
+      "intensity_1_5": "5",
+      "horizon": "近端",
+      "persistence_score": "1.0",
+      "description": "春节前后疫情冲击与交易中断风险上升。"
+    },
+    {
+      "sample_id": "S002",
+      "event_id": "EVT_202002_LIQUIDITY",
+      "event_date": "2020-02-03",
+      "event_type": "流动性与政策对冲",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.738",
+      "description": "节后市场大幅波动后，流动性投放与逆周期政策升温。"
+    },
+    {
+      "sample_id": "S003",
+      "event_id": "EVT_202001_COVID",
+      "event_date": "2020-01-23",
+      "event_type": "突发公共卫生冲击",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.476",
+      "description": "春节前后疫情冲击与交易中断风险上升。"
+    },
+    {
+      "sample_id": "S003",
+      "event_id": "EVT_202002_LIQUIDITY",
+      "event_date": "2020-02-03",
+      "event_type": "流动性与政策对冲",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.738",
+      "description": "节后市场大幅波动后，流动性投放与逆周期政策升温。"
+    },
+    {
+      "sample_id": "S010",
+      "event_id": "EVT_202007_STYLE_SURGE",
+      "event_date": "2020-07-06",
+      "event_type": "成交放量与风格扩散",
+      "intensity_1_5": "3",
+      "horizon": "短期",
+      "persistence_score": "0.595",
+      "description": "权益市场成交快速放大，指数和券商链条带动风险偏好。"
+    },
+    {
+      "sample_id": "S011",
+      "event_id": "EVT_202007_STYLE_SURGE",
+      "event_date": "2020-07-06",
+      "event_type": "成交放量与风格扩散",
+      "intensity_1_5": "3",
+      "horizon": "近端",
+      "persistence_score": "0.952",
+      "description": "权益市场成交快速放大，指数和券商链条带动风险偏好。"
+    },
+    {
+      "sample_id": "S012",
+      "event_id": "EVT_202007_STYLE_SURGE",
+      "event_date": "2020-07-06",
+      "event_type": "成交放量与风格扩散",
+      "intensity_1_5": "3",
+      "horizon": "短期",
+      "persistence_score": "0.571",
+      "description": "权益市场成交快速放大，指数和券商链条带动风险偏好。"
+    },
+    {
+      "sample_id": "S022",
+      "event_id": "EVT_202102_CORE_ASSET",
+      "event_date": "2021-02-18",
+      "event_type": "核心资产高位拥挤",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.357",
+      "description": "春节后高估值核心资产和成长板块出现拥挤回撤。"
+    },
+    {
+      "sample_id": "S023",
+      "event_id": "EVT_202102_CORE_ASSET",
+      "event_date": "2021-02-18",
+      "event_type": "核心资产高位拥挤",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.786",
+      "description": "春节后高估值核心资产和成长板块出现拥挤回撤。"
+    },
+    {
+      "sample_id": "S024",
+      "event_id": "EVT_202102_CORE_ASSET",
+      "event_date": "2021-02-18",
+      "event_type": "核心资产高位拥挤",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.81",
+      "description": "春节后高估值核心资产和成长板块出现拥挤回撤。"
+    },
+    {
+      "sample_id": "S025",
+      "event_id": "EVT_202102_CORE_ASSET",
+      "event_date": "2021-02-18",
+      "event_type": "核心资产高位拥挤",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.357",
+      "description": "春节后高估值核心资产和成长板块出现拥挤回撤。"
+    },
+    {
+      "sample_id": "S031",
+      "event_id": "EVT_202107_REGULATION",
+      "event_date": "2021-07-26",
+      "event_type": "行业监管冲击",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.429",
+      "description": "教育互联网等监管事件放大风险偏好扰动。"
+    },
+    {
+      "sample_id": "S032",
+      "event_id": "EVT_202107_REGULATION",
+      "event_date": "2021-07-26",
+      "event_type": "行业监管冲击",
+      "intensity_1_5": "4",
+      "horizon": "近端",
+      "persistence_score": "0.881",
+      "description": "教育互联网等监管事件放大风险偏好扰动。"
+    },
+    {
+      "sample_id": "S033",
+      "event_id": "EVT_202107_REGULATION",
+      "event_date": "2021-07-26",
+      "event_type": "行业监管冲击",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.738",
+      "description": "教育互联网等监管事件放大风险偏好扰动。"
+    },
+    {
+      "sample_id": "S044",
+      "event_id": "EVT_202203_GROWTH_SCARE",
+      "event_date": "2022-03-15",
+      "event_type": "外部冲突与增长担忧",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.5",
+      "description": "海外紧缩、地缘冲突与本土疫情扰动叠加。"
+    },
+    {
+      "sample_id": "S045",
+      "event_id": "EVT_202203_GROWTH_SCARE",
+      "event_date": "2022-03-15",
+      "event_type": "外部冲突与增长担忧",
+      "intensity_1_5": "4",
+      "horizon": "近端",
+      "persistence_score": "0.905",
+      "description": "海外紧缩、地缘冲突与本土疫情扰动叠加。"
+    },
+    {
+      "sample_id": "S046",
+      "event_id": "EVT_202203_GROWTH_SCARE",
+      "event_date": "2022-03-15",
+      "event_type": "外部冲突与增长担忧",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.643",
+      "description": "海外紧缩、地缘冲突与本土疫情扰动叠加。"
+    },
+    {
+      "sample_id": "S047",
+      "event_id": "EVT_202204_POLICY_BOTTOM",
+      "event_date": "2022-04-29",
+      "event_type": "政策底强化",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.667",
+      "description": "稳增长和资本市场政策表态强化底部线索。"
+    },
+    {
+      "sample_id": "S048",
+      "event_id": "EVT_202204_POLICY_BOTTOM",
+      "event_date": "2022-04-29",
+      "event_type": "政策底强化",
+      "intensity_1_5": "4",
+      "horizon": "近端",
+      "persistence_score": "0.857",
+      "description": "稳增长和资本市场政策表态强化底部线索。"
+    },
+    {
+      "sample_id": "S049",
+      "event_id": "EVT_202204_POLICY_BOTTOM",
+      "event_date": "2022-04-29",
+      "event_type": "政策底强化",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.429",
+      "description": "稳增长和资本市场政策表态强化底部线索。"
+    },
+    {
+      "sample_id": "S057",
+      "event_id": "EVT_202210_CONGRESS",
+      "event_date": "2022-10-31",
+      "event_type": "政策预期重估",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.595",
+      "description": "大会后风险偏好快速重估，港股和A股低估值板块修复。"
+    },
+    {
+      "sample_id": "S057",
+      "event_id": "EVT_202211_REOPEN",
+      "event_date": "2022-11-11",
+      "event_type": "地产与防疫优化",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.333",
+      "description": "地产金融支持与防疫优化推动复苏预期。"
+    },
+    {
+      "sample_id": "S058",
+      "event_id": "EVT_202210_CONGRESS",
+      "event_date": "2022-10-31",
+      "event_type": "政策预期重估",
+      "intensity_1_5": "4",
+      "horizon": "近端",
+      "persistence_score": "0.976",
+      "description": "大会后风险偏好快速重估，港股和A股低估值板块修复。"
+    },
+    {
+      "sample_id": "S058",
+      "event_id": "EVT_202211_REOPEN",
+      "event_date": "2022-11-11",
+      "event_type": "地产与防疫优化",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.762",
+      "description": "地产金融支持与防疫优化推动复苏预期。"
+    },
+    {
+      "sample_id": "S059",
+      "event_id": "EVT_202210_CONGRESS",
+      "event_date": "2022-10-31",
+      "event_type": "政策预期重估",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.571",
+      "description": "大会后风险偏好快速重估，港股和A股低估值板块修复。"
+    },
+    {
+      "sample_id": "S059",
+      "event_id": "EVT_202211_REOPEN",
+      "event_date": "2022-11-11",
+      "event_type": "地产与防疫优化",
+      "intensity_1_5": "5",
+      "horizon": "近端",
+      "persistence_score": "0.833",
+      "description": "地产金融支持与防疫优化推动复苏预期。"
+    },
+    {
+      "sample_id": "S060",
+      "event_id": "EVT_202211_REOPEN",
+      "event_date": "2022-11-11",
+      "event_type": "地产与防疫优化",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.381",
+      "description": "地产金融支持与防疫优化推动复苏预期。"
+    },
+    {
+      "sample_id": "S067",
+      "event_id": "EVT_202305_AI_THEME",
+      "event_date": "2023-05-08",
+      "event_type": "主题交易高热",
+      "intensity_1_5": "3",
+      "horizon": "短期",
+      "persistence_score": "0.381",
+      "description": "AI/中特估等主题成交活跃但基本面验证分化。"
+    },
+    {
+      "sample_id": "S068",
+      "event_id": "EVT_202305_AI_THEME",
+      "event_date": "2023-05-08",
+      "event_type": "主题交易高热",
+      "intensity_1_5": "3",
+      "horizon": "短期",
+      "persistence_score": "0.762",
+      "description": "AI/中特估等主题成交活跃但基本面验证分化。"
+    },
+    {
+      "sample_id": "S069",
+      "event_id": "EVT_202305_AI_THEME",
+      "event_date": "2023-05-08",
+      "event_type": "主题交易高热",
+      "intensity_1_5": "3",
+      "horizon": "短期",
+      "persistence_score": "0.762",
+      "description": "AI/中特估等主题成交活跃但基本面验证分化。"
+    },
+    {
+      "sample_id": "S070",
+      "event_id": "EVT_202305_AI_THEME",
+      "event_date": "2023-05-08",
+      "event_type": "主题交易高热",
+      "intensity_1_5": "3",
+      "horizon": "短期",
+      "persistence_score": "0.333",
+      "description": "AI/中特估等主题成交活跃但基本面验证分化。"
+    },
+    {
+      "sample_id": "S074",
+      "event_id": "EVT_202308_STAMP_DUTY",
+      "event_date": "2023-08-28",
+      "event_type": "活跃资本市场政策",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.714",
+      "description": "印花税下调与资本市场支持政策提振情绪。"
+    },
+    {
+      "sample_id": "S075",
+      "event_id": "EVT_202308_STAMP_DUTY",
+      "event_date": "2023-08-28",
+      "event_type": "活跃资本市场政策",
+      "intensity_1_5": "4",
+      "horizon": "近端",
+      "persistence_score": "0.905",
+      "description": "印花税下调与资本市场支持政策提振情绪。"
+    },
+    {
+      "sample_id": "S076",
+      "event_id": "EVT_202308_STAMP_DUTY",
+      "event_date": "2023-08-28",
+      "event_type": "活跃资本市场政策",
+      "intensity_1_5": "4",
+      "horizon": "短期",
+      "persistence_score": "0.429",
+      "description": "印花税下调与资本市场支持政策提振情绪。"
+    },
+    {
+      "sample_id": "S083",
+      "event_id": "EVT_202402_RESCUE",
+      "event_date": "2024-02-05",
+      "event_type": "微观流动性冲击与救市",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.738",
+      "description": "小微盘流动性冲击后政策维稳加强。"
+    },
+    {
+      "sample_id": "S084",
+      "event_id": "EVT_202402_RESCUE",
+      "event_date": "2024-02-05",
+      "event_type": "微观流动性冲击与救市",
+      "intensity_1_5": "5",
+      "horizon": "近端",
+      "persistence_score": "0.929",
+      "description": "小微盘流动性冲击后政策维稳加强。"
+    },
+    {
+      "sample_id": "S085",
+      "event_id": "EVT_202402_RESCUE",
+      "event_date": "2024-02-05",
+      "event_type": "微观流动性冲击与救市",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.405",
+      "description": "小微盘流动性冲击后政策维稳加强。"
+    },
+    {
+      "sample_id": "S095",
+      "event_id": "EVT_202409_POLICY_BAZOOKA",
+      "event_date": "2024-09-24",
+      "event_type": "政策组合拳",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.357",
+      "description": "降准降息、资本市场工具和地产政策组合推动风险偏好。"
+    },
+    {
+      "sample_id": "S096",
+      "event_id": "EVT_202409_POLICY_BAZOOKA",
+      "event_date": "2024-09-24",
+      "event_type": "政策组合拳",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.738",
+      "description": "降准降息、资本市场工具和地产政策组合推动风险偏好。"
+    },
+    {
+      "sample_id": "S097",
+      "event_id": "EVT_202409_POLICY_BAZOOKA",
+      "event_date": "2024-09-24",
+      "event_type": "政策组合拳",
+      "intensity_1_5": "5",
+      "horizon": "近端",
+      "persistence_score": "0.857",
+      "description": "降准降息、资本市场工具和地产政策组合推动风险偏好。"
+    },
+    {
+      "sample_id": "S098",
+      "event_id": "EVT_202409_POLICY_BAZOOKA",
+      "event_date": "2024-09-24",
+      "event_type": "政策组合拳",
+      "intensity_1_5": "5",
+      "horizon": "短期",
+      "persistence_score": "0.357",
+      "description": "降准降息、资本市场工具和地产政策组合推动风险偏好。"
+    }
+  ],
+  "events_by_sample": {
+    "S001": [
+      "EVT_202001_COVID",
+      "EVT_202002_LIQUIDITY"
+    ],
+    "S002": [
+      "EVT_202001_COVID",
+      "EVT_202002_LIQUIDITY"
+    ],
+    "S003": [
+      "EVT_202001_COVID",
+      "EVT_202002_LIQUIDITY"
+    ],
+    "S004": [],
+    "S005": [],
+    "S006": [],
+    "S007": [],
+    "S008": [],
+    "S009": [],
+    "S010": [
+      "EVT_202007_STYLE_SURGE"
+    ],
+    "S011": [
+      "EVT_202007_STYLE_SURGE"
+    ],
+    "S012": [
+      "EVT_202007_STYLE_SURGE"
+    ],
+    "S013": [],
+    "S014": [],
+    "S015": [],
+    "S016": [],
+    "S017": [],
+    "S018": [],
+    "S019": [],
+    "S020": [],
+    "S021": [],
+    "S022": [
+      "EVT_202102_CORE_ASSET"
+    ],
+    "S023": [
+      "EVT_202102_CORE_ASSET"
+    ],
+    "S024": [
+      "EVT_202102_CORE_ASSET"
+    ],
+    "S025": [
+      "EVT_202102_CORE_ASSET"
+    ],
+    "S026": [],
+    "S027": [],
+    "S028": [],
+    "S029": [],
+    "S030": [],
+    "S031": [
+      "EVT_202107_REGULATION"
+    ],
+    "S032": [
+      "EVT_202107_REGULATION"
+    ],
+    "S033": [
+      "EVT_202107_REGULATION"
+    ],
+    "S034": [],
+    "S035": [],
+    "S036": [],
+    "S037": [],
+    "S038": [],
+    "S039": [],
+    "S040": [],
+    "S041": [],
+    "S042": [],
+    "S043": [],
+    "S044": [
+      "EVT_202203_GROWTH_SCARE"
+    ],
+    "S045": [
+      "EVT_202203_GROWTH_SCARE"
+    ],
+    "S046": [
+      "EVT_202203_GROWTH_SCARE"
+    ],
+    "S047": [
+      "EVT_202204_POLICY_BOTTOM"
+    ],
+    "S048": [
+      "EVT_202204_POLICY_BOTTOM"
+    ],
+    "S049": [
+      "EVT_202204_POLICY_BOTTOM"
+    ],
+    "S050": [],
+    "S051": [],
+    "S052": [],
+    "S053": [],
+    "S054": [],
+    "S055": [],
+    "S056": [],
+    "S057": [
+      "EVT_202210_CONGRESS",
+      "EVT_202211_REOPEN"
+    ],
+    "S058": [
+      "EVT_202210_CONGRESS",
+      "EVT_202211_REOPEN"
+    ],
+    "S059": [
+      "EVT_202210_CONGRESS",
+      "EVT_202211_REOPEN"
+    ],
+    "S060": [
+      "EVT_202211_REOPEN"
+    ],
+    "S061": [],
+    "S062": [],
+    "S063": [],
+    "S064": [],
+    "S065": [],
+    "S066": [],
+    "S067": [
+      "EVT_202305_AI_THEME"
+    ],
+    "S068": [
+      "EVT_202305_AI_THEME"
+    ],
+    "S069": [
+      "EVT_202305_AI_THEME"
+    ],
+    "S070": [
+      "EVT_202305_AI_THEME"
+    ],
+    "S071": [],
+    "S072": [],
+    "S073": [],
+    "S074": [
+      "EVT_202308_STAMP_DUTY"
+    ],
+    "S075": [
+      "EVT_202308_STAMP_DUTY"
+    ],
+    "S076": [
+      "EVT_202308_STAMP_DUTY"
+    ],
+    "S077": [],
+    "S078": [],
+    "S079": [],
+    "S080": [],
+    "S081": [],
+    "S082": [],
+    "S083": [
+      "EVT_202402_RESCUE"
+    ],
+    "S084": [
+      "EVT_202402_RESCUE"
+    ],
+    "S085": [
+      "EVT_202402_RESCUE"
+    ],
+    "S086": [],
+    "S087": [],
+    "S088": [],
+    "S089": [],
+    "S090": [],
+    "S091": [],
+    "S092": [],
+    "S093": [],
+    "S094": [],
+    "S095": [
+      "EVT_202409_POLICY_BAZOOKA"
+    ],
+    "S096": [
+      "EVT_202409_POLICY_BAZOOKA"
+    ],
+    "S097": [
+      "EVT_202409_POLICY_BAZOOKA"
+    ],
+    "S098": [
+      "EVT_202409_POLICY_BAZOOKA"
+    ],
+    "S099": [],
+    "S100": []
+  },
+  "indicator_dictionary": [
+    {
+      "field": "sample_id",
+      "definition": "样本编号",
+      "direction": "标识符",
+      "missing_handling": "必填"
+    },
+    {
+      "field": "window_end",
+      "definition": "样本窗口结束交易日",
+      "direction": "日期",
+      "missing_handling": "必填"
+    },
+    {
+      "field": "hs300_21d_return",
+      "definition": "沪深300近21个交易日收益率",
+      "direction": "数值越高越可能确认风险偏好改善",
+      "missing_handling": "缺失时仅作为弱证据"
+    },
+    {
+      "field": "hs300_63d_return",
+      "definition": "沪深300近63个交易日收益率",
+      "direction": "价格持续性代理变量",
+      "missing_handling": "缺失时仅作为弱证据"
+    },
+    {
+      "field": "hs300_drawdown_252d",
+      "definition": "相对近252日高点回撤",
+      "direction": "越负表示底部赔率或脆弱性背景越强",
+      "missing_handling": "缺失时不要推断底部"
+    },
+    {
+      "field": "hs300_volatility_21d_ann",
+      "definition": "近21日年化波动率",
+      "direction": "越高表示冲击/噪声风险越高",
+      "missing_handling": "若事件强度也高则倾向复核"
+    },
+    {
+      "field": "style_momentum_growth_vs_large",
+      "definition": "创业板相对沪深300近21日收益差",
+      "direction": "正值表示成长/小盘风格相对领先",
+      "missing_handling": "缺失时不做风格判断"
+    },
+    {
+      "field": "valuation_percentile_proxy",
+      "definition": "全A中位数PE所处分位代理",
+      "direction": "越高表示估值压力越大，越低表示赔率改善",
+      "missing_handling": "缺失时只使用 ERP/收益率等其他证据"
+    },
+    {
+      "field": "erp_proxy",
+      "definition": "1/PE - 中国10年国债收益率的权益相对吸引力代理",
+      "direction": "越高表示权益相对吸引力越强",
+      "missing_handling": "缺失时不使用估值相对吸引力证据"
+    },
+    {
+      "field": "liquidity_turnover_proxy",
+      "definition": "成交量相对前期均值变化代理",
+      "direction": "越高越能确认流动性或风险偏好改善",
+      "missing_handling": "若是唯一支撑则倾向复核"
+    },
+    {
+      "field": "credit_easing_proxy",
+      "definition": "LPR/贷款利率边际变化的信用宽松代理",
+      "direction": "正值表示信用边际宽松",
+      "missing_handling": "缺失时按中性处理"
+    },
+    {
+      "field": "earnings_cycle_proxy",
+      "definition": "价格和宽度合成的盈利周期脉动代理",
+      "direction": "正值支持信号质量改善",
+      "missing_handling": "缺失时降低置信度"
+    },
+    {
+      "field": "industry_breadth_proxy",
+      "definition": "市场扩散/行业宽度代理",
+      "direction": "越高表示市场/行业扩散确认越强",
+      "missing_handling": "缺失时不使用宽度确认"
+    },
+    {
+      "field": "policy_event_intensity",
+      "definition": "窗口附近政策/事件强度 0-5",
+      "direction": "高值可能提供政策支撑，也可能增加事件噪声，取决于其他维度确认",
+      "missing_handling": "缺失时不使用事件证据"
+    },
+    {
+      "field": "noise_event_intensity",
+      "definition": "短期事件噪声强度",
+      "direction": "越高表示复核或噪声风险越高",
+      "missing_handling": "缺失时按中性处理"
+    },
+    {
+      "field": "event_ids",
+      "definition": "可引用的事件 ID",
+      "direction": "证据锚点",
+      "missing_handling": "可为空"
+    }
+  ],
+  "reference_states": [
+    {
+      "sample_id": "S001",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S002",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S003",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 3,
+      "regime_label": "NOISE",
+      "action": "REDUCE_RISK",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S004",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_STYLE"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_BREADTH_NARROW",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S005",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "E_BREADTH_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S006",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 1,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S007",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S008",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_STYLE"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S009",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S010",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_STYLE"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_EASING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S011",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S012",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_VOLATILITY_SHOCK",
+        "E_EVENT_NOISE",
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S013",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 0,
+      "odds_dir": -1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_BREADTH_CONFIRM",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S014",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S015",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S016",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": -1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S017",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": -1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S018",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": -1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "REDUCE_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S019",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_TIGHTENING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S020",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S021",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S022",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_STYLE"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_TIGHTENING",
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": 0,
+      "event_load": 1,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S023",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_TIGHTENING",
+        "E_POLICY_SUPPORT"
+      ],
+      "event_ids": [
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 1,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_VALUATION_STRETCHED",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S024",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_CREDIT_TIGHTENING",
+        "E_POLICY_SUPPORT",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S025",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING",
+        "E_POLICY_SUPPORT",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": -1,
+      "fund_dir": -1,
+      "event_load": 2,
+      "regime_label": "NOISE",
+      "action": "REDUCE_RISK",
+      "evidence_ids": [
+        "E_VALUATION_STRETCHED",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S026",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_TIGHTENING",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 1,
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_VALUATION_STRETCHED",
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S027",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_CREDIT_TIGHTENING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S028",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_TIGHTENING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_BREADTH_CONFIRM"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S029",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S030",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S031",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_CREDIT_TIGHTENING",
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202107_REGULATION"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 1,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_POLICY_SUPPORT",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "EVT_202107_REGULATION"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S032",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202107_REGULATION"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 2,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_EVENT_NOISE",
+        "E_BREADTH_NARROW",
+        "EVT_202107_REGULATION"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S033",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT"
+      ],
+      "event_ids": [
+        "EVT_202107_REGULATION"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202107_REGULATION"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S034",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S035",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S036",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S037",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S038",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "E_PRICE_PERSISTENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S039",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S040",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S041",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_VALUATION_STRETCHED",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": -1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S042",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": -1,
+      "odds_dir": -1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BREADTH_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S043",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_EASING",
+        "E_VALUATION_STRETCHED"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S044",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S045",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EVENT_NOISE",
+        "E_BOTTOM_ODDS",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S046",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_VOLATILITY_SHOCK",
+        "E_EVENT_NOISE",
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S047",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S048",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 3,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_BREADTH_CONFIRM",
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S049",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S050",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_POLICY_SUPPORT",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S051",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S052",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S053",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S054",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S055",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S056",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S057",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EQUITY_RISK_PREMIUM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S058",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 3,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S059",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 3,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S060",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_VOLATILITY_SHOCK",
+        "EVT_202211_REOPEN"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S061",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S062",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S063",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S064",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S065",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": 1,
+      "odds_dir": -1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_CONFIRM"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S066",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_VALUATION_STRETCHED",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": -1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_EARNINGS_PULSE"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S067",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "EVT_202305_AI_THEME"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S068",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "EVT_202305_AI_THEME"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S069",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE"
+      ],
+      "event_ids": [
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BREADTH_CONFIRM",
+        "E_CREDIT_TIGHTENING",
+        "EVT_202305_AI_THEME"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S070",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "event_ids": [
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_CREDIT_TIGHTENING",
+        "EVT_202305_AI_THEME"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S071",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S072",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S073",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S074",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT"
+      ],
+      "event_ids": [
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_POLICY_SUPPORT",
+        "E_BREADTH_CONFIRM",
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S075",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_EVENT_NOISE",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S076",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT"
+      ],
+      "event_ids": [
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BREADTH_NARROW",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_EVENT_NOISE",
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S077",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_POLICY_SUPPORT"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S078",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S079",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S080",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S081",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 0,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S082",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S083",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202402_RESCUE"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_BREADTH_NARROW",
+        "EVT_202402_RESCUE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S084",
+      "raw_label": "NOISE",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202402_RESCUE"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "EVT_202402_RESCUE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S085",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202402_RESCUE"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_CREDIT_EASING",
+        "EVT_202402_RESCUE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S086",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S087",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BOTTOM_ODDS",
+        "E_BREADTH_CONFIRM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S088",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S089",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S090",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "HOLD",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S091",
+      "raw_label": "REVIEW",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S092",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "REDUCE_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": -1,
+      "event_load": 0,
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S093",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_CREDIT_EASING",
+        "E_EARNINGS_PULSE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S094",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S095",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 0,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S096",
+      "raw_label": "MIXED",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ROTATE_INDUSTRY"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "event_ids": [
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "TRUE",
+      "trend_dir": -1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 2,
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S097",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 3,
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S098",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_STYLE",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "event_ids": [
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 3,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S099",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "HOLD",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 1,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 1,
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S100",
+      "raw_label": "SIGNAL",
+      "action_by_label": {
+        "REVIEW": "REVIEW_ONLY",
+        "NOISE": "REDUCE_RISK",
+        "MIXED": "ROTATE_INDUSTRY",
+        "SIGNAL": "ADD_RISK"
+      },
+      "anchors": [
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING"
+      ],
+      "event_ids": [],
+      "contradiction_flag": "FALSE",
+      "trend_dir": 0,
+      "odds_dir": 1,
+      "fund_dir": 1,
+      "event_load": 0,
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "review_flag": "FALSE"
+    }
+  ],
+  "source_sha256": {
+    "market_snapshots.csv": "2a4b78cad097d8c89664d24d00ec4ffcc2b1a8022456dd7f60535e884c6e8f52",
+    "events.csv": "812c0f4a6f6f018853dae22767d93efbfe0a9a29cc7b80bd5022fb037981e7d8",
+    "indicator_dictionary.csv": "cfce99d74fb50751d443ab6ad300804ef61685e0e2805471e461a4a113b5cbfd"
+  }
+}

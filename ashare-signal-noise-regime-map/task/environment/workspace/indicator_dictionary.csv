@@ -1,0 +1,17 @@
+field,definition,direction,missing_handling
+sample_id,样本编号,标识符,必填
+window_end,样本窗口结束交易日,日期,必填
+hs300_21d_return,沪深300近21个交易日收益率,数值越高越可能确认风险偏好改善,缺失时仅作为弱证据
+hs300_63d_return,沪深300近63个交易日收益率,价格持续性代理变量,缺失时仅作为弱证据
+hs300_drawdown_252d,相对近252日高点回撤,越负表示底部赔率或脆弱性背景越强,缺失时不要推断底部
+hs300_volatility_21d_ann,近21日年化波动率,越高表示冲击/噪声风险越高,若事件强度也高则倾向复核
+style_momentum_growth_vs_large,创业板相对沪深300近21日收益差,正值表示成长/小盘风格相对领先,缺失时不做风格判断
+valuation_percentile_proxy,全A中位数PE所处分位代理,越高表示估值压力越大，越低表示赔率改善,缺失时只使用 ERP/收益率等其他证据
+erp_proxy,1/PE - 中国10年国债收益率的权益相对吸引力代理,越高表示权益相对吸引力越强,缺失时不使用估值相对吸引力证据
+liquidity_turnover_proxy,成交量相对前期均值变化代理,越高越能确认流动性或风险偏好改善,若是唯一支撑则倾向复核
+credit_easing_proxy,LPR/贷款利率边际变化的信用宽松代理,正值表示信用边际宽松,缺失时按中性处理
+earnings_cycle_proxy,价格和宽度合成的盈利周期脉动代理,正值支持信号质量改善,缺失时降低置信度
+industry_breadth_proxy,市场扩散/行业宽度代理,越高表示市场/行业扩散确认越强,缺失时不使用宽度确认
+policy_event_intensity,窗口附近政策/事件强度 0-5,高值可能提供政策支撑，也可能增加事件噪声，取决于其他维度确认,缺失时不使用事件证据
+noise_event_intensity,短期事件噪声强度,越高表示复核或噪声风险越高,缺失时按中性处理
+event_ids,可引用的事件 ID,证据锚点,可为空

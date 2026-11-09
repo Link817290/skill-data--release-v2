@@ -1,0 +1,11 @@
+{
+  "separate-signal-from-noise": [
+    "evidence_anchor_f1",
+    "review_calibration"
+  ],
+  "map-ashare-strategy-regime": [
+    "regime_label_macro_f1",
+    "action_accuracy",
+    "internal_consistency"
+  ]
+}

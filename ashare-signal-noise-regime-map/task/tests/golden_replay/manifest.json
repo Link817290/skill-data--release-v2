@@ -1,0 +1,43 @@
+{
+  "schema_version": "ashare-golden-replay-v1",
+  "scope": "One Golden artifact group only; no non-Golden candidate or provider-history entries.",
+  "groups": {
+    "6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7": {
+      "artifact_sha256": "6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7",
+      "evidence_files": {
+        "task/instruction.md": "d9d467d8ad48803be38194d0bd7241ef6df10153f079ce734acf2ffaaa186097",
+        "task/tests/ground_truth.json": "742c823a73cf4a998c61b65a149fc9941f0102b2a9df7d04bfb5ccd6351b96e0",
+        "task/tests/source_facts.json": "60fdb7f190476f49106bab80b1b7f701c1ea8a706862766fcabc714d504fa662",
+        "task/tests/source_manifest.json": "b3fddbcf286b4e950e36415206482e148e1e7335957c8372e790adbcb1496326",
+        "task/tests/capability_map.json": "26acbe2e702a158ec00201d7d020efab378221261eee5858757c128ed1ed1749",
+        "task/tests/temporal_rules.py": "0c35b26184901f9888caef4bc71c762c79354830fd42d36d4a048c1a358b3822"
+      },
+      "evidence_sha256": "f7c32b48202e910ac712633927463c2811fc58ebafb508b3f9b52c4bf7440b3b",
+      "cache_dir": "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/cache",
+      "request_sha256": [
+        "f1cbfe7a3d2277353f257a3151497a31e6eca21b3215b6f676b96b832f517455",
+        "0a6927f3850c85ad3ff2c783fb1240c174ece8e7e95f3653785969550d5a72df",
+        "d52581678420284149fe66f509d5ad343f57065f44213cda1cc2a264dd87ab43"
+      ],
+      "files_sha256": {
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/cache/0a6927f3850c85ad3ff2c783fb1240c174ece8e7e95f3653785969550d5a72df.json": "f2404285f0c27ea5be0002cab8a87d49591d342a0867c2563e7f0bdbb67c11c1",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/cache/f1cbfe7a3d2277353f257a3151497a31e6eca21b3215b6f676b96b832f517455.json": "e87a0df24b6d6328d54afae985a2136989973777d290bab92c974bad1cee53ad",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/0a6927f3850c85ad3ff2c783fb1240c174ece8e7e95f3653785969550d5a72df/raw_response.json": "e1d4ee750fe2b40d8ec07ec804bf737b4035d096b373d04b4dd08f0923375f00",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/0a6927f3850c85ad3ff2c783fb1240c174ece8e7e95f3653785969550d5a72df/request.json": "ea87d0cb90482efae225ff5f2bc463adb21a4a38c0e28baae1a961b8e479454a",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/0a6927f3850c85ad3ff2c783fb1240c174ece8e7e95f3653785969550d5a72df/validated_review.json": "f2404285f0c27ea5be0002cab8a87d49591d342a0867c2563e7f0bdbb67c11c1",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/0a6927f3850c85ad3ff2c783fb1240c174ece8e7e95f3653785969550d5a72df/validation.json": "4b178cc130b8d346bca9dec0002f31c0259f5db4bb9cc08c94e7634edd26b5e9",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/f1cbfe7a3d2277353f257a3151497a31e6eca21b3215b6f676b96b832f517455/raw_response.json": "8bb7ba850750b70792098978df078a491c3aa255ac3162859e795bed99ca562d",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/f1cbfe7a3d2277353f257a3151497a31e6eca21b3215b6f676b96b832f517455/request.json": "c4f1e40cd7909eb734e0dd4b059e2b30f27d34a7b4702f608857d0578da13e8c",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/f1cbfe7a3d2277353f257a3151497a31e6eca21b3215b6f676b96b832f517455/validated_review.json": "e87a0df24b6d6328d54afae985a2136989973777d290bab92c974bad1cee53ad",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/receipts/f1cbfe7a3d2277353f257a3151497a31e6eca21b3215b6f676b96b832f517455/validation.json": "f64f4878cd8826a5fb9f97ab72cbcaf6e1b658ac2ff5962e156eae43a70667fa",
+        "frozen/6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7/cache/d52581678420284149fe66f509d5ad343f57065f44213cda1cc2a264dd87ab43.json": "1054367ad43df7f256325452b6a5584fe83525537bd2aade89edc11c8389eb63"
+      }
+    }
+  },
+  "provenance": {
+    "origin": "deterministic-source-contract-fixture",
+    "production_model_claimed": false,
+    "credentials_packaged": false,
+    "miss_policy": "Any artifact miss proceeds to evaluator-owned cache or fresh semantic provider."
+  }
+}

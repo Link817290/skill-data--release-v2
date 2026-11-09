@@ -1,0 +1,122 @@
+{
+  "checks": {
+    "substantive_map": {
+      "passed": true,
+      "candidate_claims": [
+        {
+          "sample_id": "S001",
+          "field": "regime_label",
+          "value": "SIGNAL"
+        },
+        {
+          "sample_id": "S001",
+          "field": "action",
+          "value": "ADD_RISK"
+        },
+        {
+          "sample_id": "S005",
+          "field": "regime_label",
+          "value": "SIGNAL"
+        },
+        {
+          "sample_id": "S005",
+          "field": "action",
+          "value": "ADD_RISK"
+        },
+        {
+          "sample_id": "S027",
+          "field": "regime_label",
+          "value": "REVIEW"
+        },
+        {
+          "sample_id": "S027",
+          "field": "action",
+          "value": "REVIEW_ONLY"
+        },
+        {
+          "sample_id": "S057",
+          "field": "regime_label",
+          "value": "MIXED"
+        },
+        {
+          "sample_id": "S057",
+          "field": "action",
+          "value": "ROTATE_INDUSTRY"
+        },
+        {
+          "sample_id": "S098",
+          "field": "regime_label",
+          "value": "SIGNAL"
+        },
+        {
+          "sample_id": "S098",
+          "field": "action",
+          "value": "ADD_RISK"
+        }
+      ],
+      "source_samples": [
+        "S001",
+        "S005",
+        "S027",
+        "S057",
+        "S098"
+      ],
+      "reason": "The delivered panel classifies all 100 chronological samples and uses differentiated regimes and portfolio responses rather than blank fields, alternating labels, or an indiscriminate REVIEW policy. The decisions respond materially to distinct source states: S001 adopts SIGNAL/ADD_RISK with positive 21-day and 63-day returns, breadth 0.868918, earnings 0.051856, and liquidity 0.625099; S027 adopts REVIEW/REVIEW_ONLY amid a split profile of positive 21-day return but negative 63-day return, earnings, and liquidity; S057 adopts MIXED/ROTATE_INDUSTRY amid negative trend and earnings but comparatively low valuation and two intense events; and S098 adopts SIGNAL/ADD_RISK with very strong positive returns, breadth 1.0, earnings 0.159453, liquidity 1.278893, and credit easing 0.35. There are strict-quality defects, including S005's SIGNAL/ADD_RISK against markedly negative price, breadth, and earnings data, but such local classification or action errors do not make the whole research map empty, arbitrary, or systematically unusable."
+    },
+    "usable_source_evidence": {
+      "passed": true,
+      "candidate_claims": [
+        {
+          "sample_id": "S001",
+          "field": "evidence_ids",
+          "value": [
+            "E_PRICE_PERSISTENCE",
+            "E_BREADTH_CONFIRM",
+            "E_EARNINGS_PULSE",
+            "E_LIQUIDITY_CONFIRM",
+            "E_CREDIT_EASING",
+            "E_POLICY_SUPPORT",
+            "E_EVENT_NOISE",
+            "EVT_202001_COVID",
+            "EVT_202002_LIQUIDITY"
+          ]
+        },
+        {
+          "sample_id": "S057",
+          "field": "evidence_ids",
+          "value": [
+            "E_EQUITY_RISK_PREMIUM",
+            "E_POLICY_SUPPORT",
+            "E_EVENT_NOISE",
+            "E_STYLE_DIVERGENCE",
+            "EVT_202210_CONGRESS",
+            "EVT_202211_REOPEN"
+          ]
+        },
+        {
+          "sample_id": "S098",
+          "field": "evidence_ids",
+          "value": [
+            "E_PRICE_PERSISTENCE",
+            "E_BREADTH_CONFIRM",
+            "E_EARNINGS_PULSE",
+            "E_EQUITY_RISK_PREMIUM",
+            "E_LIQUIDITY_CONFIRM",
+            "E_CREDIT_EASING",
+            "E_POLICY_SUPPORT",
+            "E_EVENT_NOISE",
+            "E_VOLATILITY_SHOCK",
+            "E_STYLE_DIVERGENCE",
+            "EVT_202409_POLICY_BAZOOKA"
+          ]
+        }
+      ],
+      "source_samples": [
+        "S001",
+        "S057",
+        "S098"
+      ],
+      "reason": "The evidence lists use recognizable contract anchors tied to source dimensions and authentic event references. S001 correctly carries both source-associated events EVT_202001_COVID and EVT_202002_LIQUIDITY; S057 correctly carries EVT_202210_CONGRESS and EVT_202211_REOPEN; and S098 correctly carries EVT_202409_POLICY_BAZOOKA. Their non-event anchors correspond to available source fields such as price persistence, breadth, earnings, ERP, turnover liquidity, credit easing, policy intensity, event noise, volatility, and style dispersion. Because evidence_ids reports appeared and disappeared anchors rather than the full current set, mixed-direction IDs in a list are not by themselves fabricated or inconsistent evidence. Generic rationales and any locally imperfect anchor selection reduce reproducibility and strict quality, but the delivered evidence remains source-traceable and is not defeated by material fictitious events or references."
+    }
+  }
+}

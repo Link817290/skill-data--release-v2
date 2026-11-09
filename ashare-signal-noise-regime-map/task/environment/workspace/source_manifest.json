@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-09-02",
+  "network_required_at_runtime": false,
+  "akshare_raw_files": [
+    {
+      "name": "index_sh000001",
+      "path": "raw/akshare_raw/index_sh000001.csv"
+    },
+    {
+      "name": "index_sh000300",
+      "path": "raw/akshare_raw/index_sh000300.csv"
+    },
+    {
+      "name": "index_sz399006",
+      "path": "raw/akshare_raw/index_sz399006.csv"
+    },
+    {
+      "name": "bond_zh_us_rate",
+      "path": "raw/akshare_raw/bond_zh_us_rate.csv"
+    },
+    {
+      "name": "macro_china_lpr",
+      "path": "raw/akshare_raw/macro_china_lpr.csv"
+    },
+    {
+      "name": "stock_a_ttm_lyr",
+      "path": "raw/akshare_raw/stock_a_ttm_lyr.csv"
+    }
+  ],
+  "cleaning_notes": [
+    "指数、估值、国债收益率和 LPR 序列在作者环境中通过 AKShare 获取，并冻结为 CSV。",
+    "market_snapshots.csv 覆盖 2020–2024 年约双周频率的市场状态窗口。",
+    "运行时 workspace 不包含方法论摘编或 PDF 页面；with-skill 条件的方法优势来自 runtime Skill。"
+  ],
+  "methodology_boundary": "授人以渔 PDF 系列仅用于 Golden/专家规则和 Skill 设计，不作为 agent runtime workspace 输入。"
+}

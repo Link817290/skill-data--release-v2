@@ -1,0 +1,1334 @@
+{
+  "weights": {
+    "joint_label_action": 0.3,
+    "transition_support": 0.3,
+    "evidence_alignment": 0.3,
+    "flag_joint": 0.1
+  },
+  "valid_evidence_ids": [
+    "E_PRICE_PERSISTENCE",
+    "E_BOTTOM_ODDS",
+    "E_VALUATION_STRETCHED",
+    "E_EQUITY_RISK_PREMIUM",
+    "E_LIQUIDITY_CONFIRM",
+    "E_LIQUIDITY_WITHDRAW",
+    "E_CREDIT_EASING",
+    "E_CREDIT_TIGHTENING",
+    "E_EARNINGS_PULSE",
+    "E_BREADTH_CONFIRM",
+    "E_BREADTH_NARROW",
+    "E_STYLE_DIVERGENCE",
+    "E_POLICY_SUPPORT",
+    "E_EVENT_NOISE",
+    "E_VOLATILITY_SHOCK",
+    "E_INSUFFICIENT_EVIDENCE",
+    "EVT_202001_COVID",
+    "EVT_202002_LIQUIDITY",
+    "EVT_202007_STYLE_SURGE",
+    "EVT_202102_CORE_ASSET",
+    "EVT_202107_REGULATION",
+    "EVT_202203_GROWTH_SCARE",
+    "EVT_202204_POLICY_BOTTOM",
+    "EVT_202210_CONGRESS",
+    "EVT_202211_REOPEN",
+    "EVT_202305_AI_THEME",
+    "EVT_202308_STAMP_DUTY",
+    "EVT_202402_RESCUE",
+    "EVT_202409_POLICY_BAZOOKA"
+  ],
+  "samples": [
+    {
+      "sample_id": "S001",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S002",
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S003",
+      "regime_label": "NOISE",
+      "action": "REDUCE_RISK",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "EVT_202001_COVID",
+        "EVT_202002_LIQUIDITY"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S004",
+      "regime_label": "SIGNAL",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_BREADTH_NARROW",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S005",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "E_BREADTH_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S006",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S007",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S008",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S009",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S010",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S011",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S012",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_VOLATILITY_SHOCK",
+        "E_EVENT_NOISE",
+        "EVT_202007_STYLE_SURGE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S013",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_BREADTH_CONFIRM",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S014",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S015",
+      "regime_label": "MIXED",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S016",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S017",
+      "regime_label": "MIXED",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S018",
+      "regime_label": "SIGNAL",
+      "action": "REDUCE_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S019",
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S020",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S021",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S022",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S023",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_VALUATION_STRETCHED",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S024",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S025",
+      "regime_label": "NOISE",
+      "action": "REDUCE_RISK",
+      "evidence_ids": [
+        "E_VALUATION_STRETCHED",
+        "EVT_202102_CORE_ASSET"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S026",
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_VALUATION_STRETCHED",
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S027",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S028",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_BREADTH_CONFIRM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S029",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S030",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S031",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_POLICY_SUPPORT",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "EVT_202107_REGULATION"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S032",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_EVENT_NOISE",
+        "E_BREADTH_NARROW",
+        "EVT_202107_REGULATION"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S033",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202107_REGULATION"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S034",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S035",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S036",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S037",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S038",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "E_PRICE_PERSISTENCE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S039",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S040",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S041",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S042",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BREADTH_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S043",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BOTTOM_ODDS",
+        "E_CREDIT_EASING",
+        "E_VALUATION_STRETCHED"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S044",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_POLICY_SUPPORT",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S045",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EVENT_NOISE",
+        "E_BOTTOM_ODDS",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S046",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_VOLATILITY_SHOCK",
+        "E_EVENT_NOISE",
+        "EVT_202203_GROWTH_SCARE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S047",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_STYLE_DIVERGENCE",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_VOLATILITY_SHOCK",
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S048",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_BREADTH_CONFIRM",
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S049",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202204_POLICY_BOTTOM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S050",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_POLICY_SUPPORT",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S051",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S052",
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S053",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S054",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S055",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S056",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S057",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EQUITY_RISK_PREMIUM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S058",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S059",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202210_CONGRESS",
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S060",
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_STYLE_DIVERGENCE",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_VOLATILITY_SHOCK",
+        "EVT_202211_REOPEN"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S061",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S062",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S063",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S064",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S065",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_VALUATION_STRETCHED",
+        "E_CREDIT_TIGHTENING",
+        "E_BREADTH_CONFIRM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S066",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_LIQUIDITY_CONFIRM",
+        "E_EARNINGS_PULSE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S067",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_VALUATION_STRETCHED",
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S068",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_CONFIRM",
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S069",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_BREADTH_CONFIRM",
+        "E_CREDIT_TIGHTENING",
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S070",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_CREDIT_TIGHTENING",
+        "EVT_202305_AI_THEME"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S071",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_TIGHTENING"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S072",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S073",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S074",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_POLICY_SUPPORT",
+        "E_BREADTH_CONFIRM",
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S075",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_EVENT_NOISE",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S076",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BREADTH_NARROW",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_EVENT_NOISE",
+        "EVT_202308_STAMP_DUTY"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S077",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_POLICY_SUPPORT"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S078",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_NARROW",
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW",
+        "E_CREDIT_EASING"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S079",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S080",
+      "regime_label": "MIXED",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_CREDIT_EASING"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S081",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S082",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S083",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_BREADTH_NARROW",
+        "EVT_202402_RESCUE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S084",
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_PRICE_PERSISTENCE",
+        "EVT_202402_RESCUE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S085",
+      "regime_label": "NOISE",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_CREDIT_EASING",
+        "EVT_202402_RESCUE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S086",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_CONFIRM",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S087",
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BOTTOM_ODDS",
+        "E_BREADTH_CONFIRM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S088",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_EQUITY_RISK_PREMIUM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S089",
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_BOTTOM_ODDS"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S090",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S091",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S092",
+      "regime_label": "REVIEW",
+      "action": "REVIEW_ONLY",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_EARNINGS_PULSE",
+        "E_BOTTOM_ODDS",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "TRUE"
+    },
+    {
+      "sample_id": "S093",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_CREDIT_EASING",
+        "E_EARNINGS_PULSE"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S094",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_EARNINGS_PULSE",
+        "E_LIQUIDITY_WITHDRAW"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S095",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S096",
+      "regime_label": "MIXED",
+      "action": "ROTATE_INDUSTRY",
+      "evidence_ids": [
+        "E_LIQUIDITY_WITHDRAW",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "TRUE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S097",
+      "regime_label": "MIXED",
+      "action": "ROTATE_STYLE",
+      "evidence_ids": [
+        "E_BREADTH_CONFIRM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "E_BREADTH_NARROW",
+        "E_BOTTOM_ODDS",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S098",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_EARNINGS_PULSE",
+        "E_EQUITY_RISK_PREMIUM",
+        "E_LIQUIDITY_CONFIRM",
+        "E_CREDIT_EASING",
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_VOLATILITY_SHOCK",
+        "E_STYLE_DIVERGENCE",
+        "EVT_202409_POLICY_BAZOOKA"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S099",
+      "regime_label": "SIGNAL",
+      "action": "HOLD",
+      "evidence_ids": [
+        "E_POLICY_SUPPORT",
+        "E_EVENT_NOISE",
+        "E_STYLE_DIVERGENCE"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    },
+    {
+      "sample_id": "S100",
+      "regime_label": "SIGNAL",
+      "action": "ADD_RISK",
+      "evidence_ids": [
+        "E_BREADTH_NARROW",
+        "E_PRICE_PERSISTENCE",
+        "E_BREADTH_CONFIRM",
+        "E_VOLATILITY_SHOCK"
+      ],
+      "contradiction_flag": "FALSE",
+      "review_flag": "FALSE"
+    }
+  ]
+}

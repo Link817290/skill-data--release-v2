@@ -1,0 +1,10 @@
+{
+  "schema_version": "ashare-golden-review-validation-v1",
+  "status": "validated",
+  "request_sha256": "0a6927f3850c85ad3ff2c783fb1240c174ece8e7e95f3653785969550d5a72df",
+  "artifact_sha256": "6de333b0cba0568f9c041a99fd3491777ae24e681e8250cd80f203ec0f458fc7",
+  "evidence_sha256": "19ea675354dbf3083ada25dd8204e52060dbbe75bd8d2223e2a31f92ba1ceb3b",
+  "origin": "deterministic-source-contract-fixture",
+  "production_model_claimed": false,
+  "limitation": "Fixture receipt validates exact Golden replay plumbing; non-Golden production evaluation requires evaluator replay/fresh."
+}
