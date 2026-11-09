@@ -1,0 +1,92 @@
+{
+  "typing": {
+    "frames": 175,
+    "width": 428,
+    "height": 342,
+    "source": "060-typing.mp4",
+    "key": "0x329f39",
+    "similarity": 0.1,
+    "blend": 0.045,
+    "crop": {
+      "x": 64,
+      "y": 134,
+      "w": 428,
+      "h": 342
+    }
+  },
+  "boss": {
+    "frames": 390,
+    "width": 216,
+    "height": 362,
+    "source": "110-talking.mp4",
+    "key": "0x20f000",
+    "similarity": 0.3,
+    "blend": 0.08,
+    "crop": {
+      "x": 360,
+      "y": 116,
+      "w": 216,
+      "h": 362
+    }
+  },
+  "confused": {
+    "frames": 68,
+    "width": 456,
+    "height": 640,
+    "source": "013-confused.mp4",
+    "key": "0x00ef39",
+    "similarity": 0.27,
+    "blend": 0.08,
+    "crop": {
+      "x": 118,
+      "y": 52,
+      "w": 456,
+      "h": 640
+    }
+  },
+  "shocked": {
+    "frames": 213,
+    "width": 268,
+    "height": 432,
+    "source": "127-shocked.mp4",
+    "key": "0x29ee00",
+    "similarity": 0.3,
+    "blend": 0.08,
+    "crop": {
+      "x": 346,
+      "y": 64,
+      "w": 268,
+      "h": 432
+    }
+  },
+  "laughing": {
+    "frames": 189,
+    "width": 716,
+    "height": 692,
+    "source": "035-laughing.mp4",
+    "key": "0x2eee00",
+    "similarity": 0.3,
+    "blend": 0.08,
+    "crop": {
+      "x": 0,
+      "y": 54,
+      "w": 716,
+      "h": 692
+    }
+  },
+  "sad": {
+    "frames": 74,
+    "width": 716,
+    "height": 716,
+    "source": "2376-sad.mp4",
+    "key": "0x36dd00",
+    "similarity": 0.28,
+    "blend": 0.08,
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "w": 716,
+      "h": 716
+    }
+  }
+}

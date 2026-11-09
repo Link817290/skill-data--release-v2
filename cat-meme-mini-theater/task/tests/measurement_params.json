@@ -1,0 +1,52 @@
+{
+  "version": "screenplay-casting-calibrated-v9",
+  "settlement": "causal-deduplicated-multiplicative",
+  "weights": {
+    "P01": 0.08,
+    "P02": 0.1,
+    "P03": 0.08,
+    "P04": 0.14,
+    "P05": 0.06,
+    "P06": 0.08,
+    "P07": 0.03,
+    "P08": 0.06,
+    "P09": 0.05,
+    "P10": 0.07,
+    "P11": 0.08,
+    "P12": 0.05,
+    "P13": 0.04,
+    "P14": 0.04,
+    "P15": 0.04
+  },
+  "media": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "seconds": 40,
+    "frames": 1200,
+    "duration_tolerance_seconds": 0.034
+  },
+  "measurement": {
+    "black_luma_max": 2,
+    "black_spatial_std_max": 1,
+    "audio_peak_floor": 0.00001,
+    "frame_mae_max": 10,
+    "matching_frame_fraction_min": 0.99,
+    "audio_relative_rmse_max": 0.2
+  },
+  "damage": {
+    "core_story_coefficient": 0.6,
+    "sustained_visual_coefficient": 0.8,
+    "sustained_visual_seconds": 10,
+    "minimum_visual_frames": 3,
+    "casting_coefficient": 0.8,
+    "casting_roles": [
+      "cast_employee",
+      "cast_boss",
+      "cast_colleague",
+      "cast_puzzled",
+      "cast_shocked",
+      "cast_sad"
+    ]
+  }
+}

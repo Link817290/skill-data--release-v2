@@ -1,0 +1,39 @@
+{
+  "version": "cat-role-source-audio-v4",
+  "score_profile": "bench",
+  "semantic_decisions": [
+    "identity_preserved",
+    "meaningful_original_performance",
+    "correct_story_beat"
+  ],
+  "completion_values": [
+    0,
+    1
+  ],
+  "source_coverage_numerical_tail_tolerance": 1e-06,
+  "unknown": null,
+  "numeric_extent": "Unique reference-source energy is diagnostic only. It never directly supplies strict credit. Source identity, meaningful original vocal expression and correct narrative beat jointly determine each role voice verdict.",
+  "items": {
+    "boss_small_request": {
+      "kind": "role",
+      "beat": "The boss casually introduces the supposed small change before the true workload is revealed."
+    },
+    "puzzled": {
+      "kind": "role",
+      "beat": "The employee's first mild puzzled, paused but optimistic inner reaction to the supposedly small change; not the later shock."
+    },
+    "boss_rework": {
+      "kind": "role",
+      "beat": "The boss explains the real demands: style, logic, and finally everything redone, with casual explanatory confidence."
+    },
+    "shocked": {
+      "kind": "role",
+      "beat": "The employee's stronger inner shock after understanding that everything must be redone."
+    },
+    "mocking_colleague": {
+      "kind": "role",
+      "beat": "The colleague's amused, mocking commentary on the employee believing the boss's small-change promise."
+    }
+  },
+  "source_boundary": "Five role cues are source-derived excerpts from issued media. Preserve recognizable original voices and correct narrative placement. Effects and background music are discretionary and are judged separately for intentional story support; no Golden synthesis recipe is required."
+}

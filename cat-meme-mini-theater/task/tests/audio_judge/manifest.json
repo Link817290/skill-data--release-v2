@@ -1,0 +1,19 @@
+{
+  "version": "cat-role-source-audio-v4",
+  "runtime_files": {
+    "judge.py": "33a8d53bbd8f903657661708bef652176c24d5df6b08ceed4e3bc6432645a179",
+    "judge.mjs": "8be9d75f5b7c17f4345038e4c810909b5eb85b8aa928e859362c44e0efbf5c0a",
+    "contract.json": "84e26e17dfe8c1160063b17dcfc0e95f8e5eb4c42bcb95a502136ba2bebeaade",
+    "prompt.md": "2d3cd1ed88455dd95bcd0dea1c0806d9b2e0cdf980f5f92f243fd509150f492e",
+    "response.schema.json": "5250ca59f59e690de927c17f335a6beac974e7d0f61cf017dcb1467ee286ea6a",
+    "settings.json": "0255e0067c9c9300c288871c703ea8c2f5b66a6e6aba871a23f12dc907e0ae1a",
+    "../audio/prototype_v2/extract_audio.py": "9b817828f7d919a96ba9241907e7b95589feaadbb0a87af7a7ec5e5af1a54143",
+    "../audio/extract_audio.py": "b94bb2f1501a679fa940401b46c5732f4c04709763727e9476572bb16d158132",
+    "../audio/references/manifest.json": "068152c4119a74219949794c777abe7bfbfc7e448915518f54d5137fc0ac20fe"
+  },
+  "source_bindings": "Per-call canonical WAV/cumulative-energy source hashes, instruction, screenplay and measured extractor evidence are in the request binding.",
+  "cache_entries": "Cache keys derive from actual inputs/settings/runtime; no cohort/hash-answer table.",
+  "entrypoint": "judge.mjs",
+  "internal_runtime": "judge.py",
+  "numeric_settlement": "Source-energy extent is diagnostic only; final task reward remains outside this judge."
+}

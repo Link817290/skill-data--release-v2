@@ -1,0 +1,12 @@
+{
+  "model": "gpt-5.6-sol",
+  "audio_extractor": "../audio/prototype_v2/extract_audio.py",
+  "wire_api": "responses",
+  "reasoning_effort": "xhigh",
+  "store": false,
+  "max_output_tokens": 14000,
+  "timeout_seconds": 1200,
+  "endpoint_env": "LLM_JUDGE_BASE_URL",
+  "model_env": "LLM_JUDGE_MODEL",
+  "key_env": "LLM_JUDGE_API_KEY"
+}

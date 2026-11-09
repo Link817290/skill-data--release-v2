@@ -1,0 +1,15 @@
+{
+  "version": "cat-audio-resolution-v3",
+  "runtime_files": {
+    "judge.py": "259d2ac0d0bbcb367efe0571e13e940779bf61d8809d8c58a58c200e71546317",
+    "judge.mjs": "1cd4f2a2dd748691b52aed81e1223ba27a9090225dfab188f8d6bba874704d36",
+    "contract.json": "ad2c907ea6845053ad00e4a52eff2788bdbd695e33a1bd82739202fc8f16c66e",
+    "settings.json": "d625f1cc7ef3c79786da1bf7740a468d95b4670034bf052a7bc1c52822aa456a",
+    "prompt.md": "323dd1fc55589c1dc4fefb2885a7247c5fcb632ca5b13af1cc1cc46b9ed8373a",
+    "response.schema.json": "f2a38562354bf5e0c2676b51ddb2ca2258abd0e63a1e3750b9651b194a7a1abb",
+    "../audio/prototype_v3/characterize_assets.py": "7e6e929d7af6b9e58898e180ff941455d6e1bbdc32c9cbe8f746e94537e4c52f"
+  },
+  "base_runtime_binding": "Verified from the authenticated base result at resolution time.",
+  "trigger": "Unknown role voice or established identity with failed expression or narrative placement",
+  "numeric_settlement": "Source-energy extent is diagnostic only; semantic role-voice verdicts control credit."
+}

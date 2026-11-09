@@ -1,0 +1,38 @@
+{
+  "version": "cat-film-vision-v10-temporal-source",
+  "runtime": {
+    "contract.json": "531bfd39ca0d8b94fb2bcfcb563e2e28031cbbe51dd51f19bca139e81171d49d",
+    "prompt.md": "410fd1648abe3f3890c773a3f682eb8527985ff18715fe3130e8f954badf2eb4",
+    "response.schema.json": "1d4d1dcfe900bf0483d6bded9dc3358ef38da822fa46b9a0e32d74977b3b8477",
+    "settings.json": "1029cd4e616e716982ff350779a7c20bd5ec6b9651a4db93970a4f851c78e949",
+    "runtime/judge.mjs": "bd97872678d216b37b95f20e150e8bafd179b306ad8b94c57506be0bede1538a",
+    "runtime/motion.mjs": "3aaa0c9605384681d9c780c21cdd67db0d439b4abc8542793a839fa3517fa10b",
+    "../media-utils.mjs": "4644c1240a089777e3dd4dcc79ff773cc59a2afbdc58236e708221c17146f60c"
+  },
+  "context": {
+    "instruction.md": "5c7bda6c2ce9ab68716eebaaff81ab245c57e41d4715acc32009784ab86e858a",
+    "environment/workspace/materials/screenplay.txt": "f91a228b76ce0f6b6e8e7bf43e172be7c6d76fc9ad6e5cc313a507273c3d1ac7",
+    "environment/workspace/source_manifest.json": "007b4ff13dbea4cdb3f42a3494c0a9f341b8b723cd414b792b517a35ba243984"
+  },
+  "scoring_runtime": {
+    "tests/test.sh": "4f30d67703559ef49c54b462438ed7fe69d1892fe91ccaf03ee27a2be256a21f",
+    "tests/verify.py": "ecb96f947cc73ed6f464c45a4f28246cad9fd33f80fe9e31468bbbd7845c5703",
+    "tests/validator.mjs": "a4621cdf5a59692e436590cf40575bd22d83da18be6baa43c539f196f749864d",
+    "tests/native_measurement.mjs": "a651fd03bd3a1a136c7c51cc81d7636f48e02b057ffe713f3b01401bf9d6dd92",
+    "tests/measurement_params.json": "b8d6fb7e1e990cfa7973337f7ed9082d72c3cc01db6a7a2a17453a86e19b3bec",
+    "tests/scoring_params.json": "6100e3c7624af3dba807b4ede76c9ffbbf12a9d215dcb162a73ec82cfeeddad3",
+    "tests/current_bench/settlement.py": "62ace85750f933c4772eccfdaac617025097ca26f4b57f0611241097af176e5c",
+    "tests/ownership_judge.py": "b11664aa2d8ebb174de73edf7fc1094fc773774ec094f51fd50ac4cc8b336f3e",
+    "tests/soundtrack_judge.py": "b3a2ebcb5665446a1e60ce355459ac6c62d23f780b6ca614c2bba4c8ae6256a1",
+    "tests/source-correspondence.mjs": "933934a74b485c12a0fe349454dddedf5ebeab021a2d2ca69d3c81bc7bda1353",
+    "tests/media-utils.mjs": "4644c1240a089777e3dd4dcc79ff773cc59a2afbdc58236e708221c17146f60c",
+    "tests/rerender.mjs": "a3257603b811732af503cd1659947e1e1377042367f22a58a90a2713cdc3a895",
+    "tests/settle.mjs": "6c66c03aea65c2e44c3d0696787b5e185b424535128e0c3a1cb77887f61903e6",
+    "tests/normalize_artifact.py": "e9e7eb9b14698fb9628866b4ca840c3d6badf706546fdbb0425e7c412f329faa",
+    "tests/llm_judge/resolution.mjs": "07a5d5a5be2c8081de4671e13b561be802266db593dcf5582dce35a72c6dd924",
+    "RUBRIC.md": "7b0e5eef4095e1f82323f365887d2e08fab5878b87e4b834270088f71d372b0b"
+  },
+  "current_golden_video_sha256": "1d26d18e361f7170fd32e081cb5cd825525a646d9799fbba3ff5c1ce2705a5e0",
+  "entries": [],
+  "note": "Current immutable runtime inventory. Authentic current cache records are listed separately by promoted conversation indexes."
+}

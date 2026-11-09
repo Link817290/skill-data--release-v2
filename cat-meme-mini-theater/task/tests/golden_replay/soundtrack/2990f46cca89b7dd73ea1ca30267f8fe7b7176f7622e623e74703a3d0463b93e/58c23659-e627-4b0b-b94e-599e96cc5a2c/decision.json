@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "evidence": "The cue structure follows the changing story information at exact film times. The boss scene begins at film-10 (5.0s), followed by the routed boss reaction at 6.0s (film-12); the employee’s puzzled scene receives its source reaction at 10.5s (film-21); the rework explanation begins with a designed cue at 14.0s (film-28) and a second boss excerpt at 14.7s (film-29/film-30); the shock is marked by a downward impact at 19.0s and shocked source excerpt at 19.35s (film-38/film-39); and the colleague’s scene receives the laughter excerpt at 22.5s (film-45). Later, rapid work sounds begin at 27.0s (film-54), descending tones accompany the defeated late-night section from 32.0s (film-64), and notification/impact cues mark the next-day reversal at 37.2s and 38.0s (film-75/film-76). The score is deliberately withheld during 18.8–22.0s around the shock and during 31.8–37.1s around the late-night disappointment. The decoded delivery corroborates execution: sustained signal occurs during the routed boss, confused, shocked, and laughter windows; 21.5–22.0s and 36.25–37.0s fall to silence or near-silence; the reversal then produces signal at 37.0–37.75s and a much stronger event at 38.0–38.75s. This is not merely an unexecuted plan because the generated WAV is mounted as the composition’s Audio source, the renderer includes AAC audio, and these programmed changes are present in the decoded final mix.",
+      "frame_ids": [
+        "film-10",
+        "film-12",
+        "film-21",
+        "film-28",
+        "film-30",
+        "film-38",
+        "film-39",
+        "film-45",
+        "film-54",
+        "film-64",
+        "film-75",
+        "film-76"
+      ],
+      "passed": true,
+      "rationale": "The delivered soundtrack is deliberately synchronized to new information, escalating reactions, work repetition, emotional defeat, and the final reversal. Its changing cue types and explicit music gaps rule out unrelated noise or a constant unmotivated tone; routing and decoded measurements establish that the design reached the delivered film.",
+      "source_citations": [
+        {
+          "end_line": 61,
+          "source_file_id": "project-2",
+          "start_line": 38
+        },
+        {
+          "end_line": 72,
+          "source_file_id": "project-2",
+          "start_line": 62
+        },
+        {
+          "end_line": 40,
+          "source_file_id": "project-4",
+          "start_line": 32
+        },
+        {
+          "end_line": 85,
+          "source_file_id": "project-4",
+          "start_line": 46
+        },
+        {
+          "end_line": 23,
+          "source_file_id": "project-3",
+          "start_line": 20
+        }
+      ]
+    },
+    {
+      "evidence": "The repeated-work passage shown from film-54 through film-63 is supported by two separately programmed rhythmic layers: short high-frequency events every 0.23s and noise transients every 0.11s over 27.0–31.8s. The decoded mix correspondingly alternates active 250ms windows throughout that sequence rather than holding a flat bed. At the cut to the subdued late-night reaction (film-64 onward), those work layers stop, the regular melody is omitted through 37.1s, and six progressively lower notes are placed from 32.0s; the decoded mix becomes sparse and then reaches silence from 36.25–37.0s. That silence separates the employee’s wish from the next-day reversal. As the boss message appears at film-75, a two-part notification starts at 37.2s; when “还是第一版好” is fully presented at film-76, a separate low drop starts at 38.0s. The delivery measures RMS 0.164–0.207 around 37.0–37.5s and 0.544–0.497 around 38.0–38.5s, confirming two distinct final beats. Important earlier role cues are also structurally allocated space: boss excerpts are placed at 6.0s and 14.7s, the puzzled and shocked employee excerpts at 10.5s and 19.35s, and colleague laughter at 22.5s; each source excerpt is peak-normalized, assigned an individual gain and fade, while the shock window receives an explicit score break. The completed mix is then globally loudness-normalized and routed into the rendered composition.",
+      "frame_ids": [
+        "film-12",
+        "film-21",
+        "film-30",
+        "film-38",
+        "film-39",
+        "film-45",
+        "film-54",
+        "film-56",
+        "film-58",
+        "film-60",
+        "film-62",
+        "film-64",
+        "film-70",
+        "film-72",
+        "film-75",
+        "film-76",
+        "film-77",
+        "film-78"
+      ],
+      "passed": true,
+      "rationale": "Sound placement clearly differentiates mechanical rework, exhausted reflection, and the reversal: dense rhythmic activity stops for a descending, increasingly sparse passage, followed by silence and two separated final cues. Source-reaction normalization, relative gain allocation, fades, and the shock music break provide objective mixing space for the principal role cues without relying on a prescribed effect list or waveform.",
+      "source_citations": [
+        {
+          "end_line": 72,
+          "source_file_id": "project-2",
+          "start_line": 49
+        },
+        {
+          "end_line": 19,
+          "source_file_id": "project-4",
+          "start_line": 9
+        },
+        {
+          "end_line": 103,
+          "source_file_id": "project-4",
+          "start_line": 73
+        },
+        {
+          "end_line": 40,
+          "source_file_id": "project-4",
+          "start_line": 32
+        },
+        {
+          "end_line": 23,
+          "source_file_id": "project-3",
+          "start_line": 20
+        }
+      ]
+    }
+  ]
+}

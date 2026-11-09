@@ -1,0 +1,170 @@
+{
+  "title": "下班前一分钟",
+  "episode": "猫班日记 EP. 01",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 1200,
+    "seconds": 40,
+    "orientation": "landscape"
+  },
+  "roles": {
+    "typing": "主角（实体）",
+    "boss": "老板",
+    "laughing": "同事",
+    "confused": "主角内心反应插入",
+    "shocked": "主角内心反应插入",
+    "sad": "主角内心反应插入"
+  },
+  "shots": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "frame_range": [
+        0,
+        150
+      ],
+      "cats": [
+        "typing"
+      ],
+      "background": "office-wide.jpeg",
+      "beat": "17:59，工作完成，想准点下班",
+      "caption": "今天，谁也别想阻止我准点下班。"
+    },
+    {
+      "id": 2,
+      "start": 5,
+      "end": 10,
+      "frame_range": [
+        150,
+        300
+      ],
+      "cats": [
+        "typing",
+        "boss"
+      ],
+      "background": "office-desk.jpeg",
+      "beat": "老板突然发来消息：有个小改动",
+      "caption": "不耽误你下班，就改一点点。"
+    },
+    {
+      "id": 3,
+      "start": 10,
+      "end": 14,
+      "frame_range": [
+        300,
+        420
+      ],
+      "cats": [
+        "confused"
+      ],
+      "background": "office-wide.jpeg",
+      "beat": "内心误以为改个标点，30秒搞定",
+      "caption": "改一个字对吧？那没问题。"
+    },
+    {
+      "id": 4,
+      "start": 14,
+      "end": 19,
+      "frame_range": [
+        420,
+        570
+      ],
+      "cats": [
+        "boss"
+      ],
+      "background": "office-desk.jpeg",
+      "beat": "修改清单逐条出现，最后落到全部重做",
+      "caption": "其他都挺好的。就是全部重做一下。"
+    },
+    {
+      "id": 5,
+      "start": 19,
+      "end": 22,
+      "frame_range": [
+        570,
+        660
+      ],
+      "cats": [
+        "shocked"
+      ],
+      "background": "office-wide.jpeg",
+      "beat": "音乐骤停、冲击音、短震屏、反应推近",
+      "caption": "你管这个……叫微调？"
+    },
+    {
+      "id": 6,
+      "start": 22,
+      "end": 27,
+      "frame_range": [
+        660,
+        810
+      ],
+      "cats": [
+        "laughing"
+      ],
+      "background": "office-wide.jpeg",
+      "beat": "同事嘲笑并补刀",
+      "caption": "上次他说「五分钟」，我过了个夜。"
+    },
+    {
+      "id": 7,
+      "start": 27,
+      "end": 32,
+      "frame_range": [
+        810,
+        960
+      ],
+      "cats": [
+        "typing"
+      ],
+      "background": "office-blue.jpeg",
+      "props": [
+        "coffee.png"
+      ],
+      "beat": "时间快进，最终版文件名不断变化，夜景调色",
+      "caption": "好的。收到。马上。没问题。"
+    },
+    {
+      "id": 8,
+      "start": 32,
+      "end": 37,
+      "frame_range": [
+        960,
+        1110
+      ],
+      "cats": [
+        "sad"
+      ],
+      "background": "office-blue.jpeg",
+      "beat": "23:59，忧愁内心反应，许愿明天准点走",
+      "caption": "人可以加班，梦想不能下班。"
+    },
+    {
+      "id": 9,
+      "start": 37,
+      "end": 40,
+      "frame_range": [
+        1110,
+        1200
+      ],
+      "cats": [
+        "typing"
+      ],
+      "background": "office-wide.jpeg",
+      "beat": "第二天08:59：老板说还是第一版好；主角定格",
+      "caption": "……"
+    }
+  ],
+  "audio": {
+    "master": "project/public/assets/soundtrack.wav",
+    "music": "由prepare-assets.mjs程序合成的原创短旋律",
+    "effects": "程序合成消息、键盘和冲击音；选用5段原素材反应音",
+    "normalization": "FFmpeg loudnorm I=-16 TP=-1.5 LRA=9",
+    "spoken_narration": false
+  },
+  "asset_policy": "原始素材保留不变；FFmpeg按素材分别抠像去溢色，生成30fps透明PNG帧，Remotion按帧读取。",
+  "frame_ranges": "左闭右开，所有镜头连续覆盖0到1199帧。"
+}

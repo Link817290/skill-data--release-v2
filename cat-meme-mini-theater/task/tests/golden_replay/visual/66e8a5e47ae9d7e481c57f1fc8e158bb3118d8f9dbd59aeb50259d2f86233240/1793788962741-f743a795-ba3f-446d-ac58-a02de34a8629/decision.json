@@ -1,0 +1,539 @@
+{
+  "items": {
+    "P01": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "Frames 0-9 establish a windowed office and the side-seated employee at the computer. The top-right clock reads 17:59, a lime badge reads “✓ 今日工作：已完成,” and the large title “下班前一分钟” accompanies “今天，谁也别想阻止我准点下班。”",
+          "frame_ids": [
+            0,
+            4,
+            9
+          ],
+          "passed": true,
+          "rationale": "The office, near-18:00 time, completed-work status, title, employee, and intention to leave on time are all directly visible."
+        },
+        {
+          "evidence": "Frames 10-19 group the employee on the left with the speaking boss on the right. A readable bubble appears with “在吗？ 有个小改动。” while the attributed bottom caption says “不耽误你下班，就改一点点。”",
+          "frame_ids": [
+            10,
+            11,
+            15,
+            19
+          ],
+          "passed": true,
+          "rationale": "The composition and readable message establish a clear exchange in which the boss presents the request as small and quick."
+        }
+      ]
+    },
+    "P02": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "Frames 20-27 are labeled “我的脑内翻译” and “内心,” show the mild puzzled performer, and display “改个标点？” plus “预计耗时 30 秒” and “改一个字对吧？那没问题。”",
+          "frame_ids": [
+            20,
+            21,
+            24,
+            27
+          ],
+          "passed": true,
+          "rationale": "The employee's internal interpretation is explicitly a trivial character/punctuation edit expected to take about 30 seconds."
+        },
+        {
+          "evidence": "Frames 29, 31, and 33 progressively reveal “整体风格换一下,” “逻辑重新梳理一下,” and “顺便，全部重做一下.” Frames 34-37 also caption the boss saying “其他都挺好的。就是全部重做一下。”",
+          "frame_ids": [
+            29,
+            31,
+            33,
+            34,
+            37
+          ],
+          "passed": true,
+          "rationale": "The escalation from a supposed tiny change to a complete rework is semantically explicit and understandable."
+        }
+      ]
+    },
+    "P03": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "Frames 45-53 attribute the beat to “同事.” The speech bubble reads “他说「一点点」，你怎么还当真了？” and the bottom caption reads “上次他说「五分钟」，我过了个夜。”",
+          "frame_ids": [
+            45,
+            46,
+            49,
+            53
+          ],
+          "passed": true,
+          "rationale": "The colleague clearly recalls a supposedly five-minute task lasting overnight."
+        },
+        {
+          "evidence": "Frames 54-63 show the employee continuing at the keyboard in a stable dark-blue office with a coffee cup. The clock advances coherently from 18:01 to 19:36, 21:08, 22:47, and 23:59.",
+          "frame_ids": [
+            54,
+            56,
+            58,
+            60,
+            62,
+            63
+          ],
+          "passed": true,
+          "rationale": "The repeated-work sequence visibly enters night and progresses forward toward midnight without an unexplained backward reset; the required coffee remains beside the workstation."
+        }
+      ]
+    },
+    "P04": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "Frame 63 reaches 23:59 at the end of the repeated-save sequence. Frames 64-73 retain 23:59 and add “23:59 · 第 18 次保存,” the downcast internal performer, “明天，一定准点走。” and “人可以加班，梦想不能下班。”",
+          "frame_ids": [
+            63,
+            64,
+            68,
+            73
+          ],
+          "passed": true,
+          "rationale": "The adjacent final-save state and restrained sad reflection establish near-midnight completion followed by renewed hope to leave on time tomorrow."
+        },
+        {
+          "evidence": "Frames 74-79 restore a bright office and identify “NEXT DAY” at 08:59. The boss message reads “早！昨晚我又想了一下。还是第一版好。” and frames 76-79 hold the workstation employee with the response “……”",
+          "frame_ids": [
+            74,
+            75,
+            76,
+            79
+          ],
+          "passed": true,
+          "rationale": "The bright next morning, readable preference for the first version, and sustained speechless ellipsis complete the required reversal."
+        }
+      ]
+    },
+    "P05": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "The visible assignments match the closed-pool references: the 060 gray-and-white workstation employee appears at frame 0; the 110 speaking black-and-white boss at frames 10 and 34; the 013 mild white puzzled cat at frame 20; the 127 wide-eyed gray shocked tabby at frame 39; the 035 pointing, open-mouthed colleague at frame 44; and the 2376 red-collared downcast cat at frame 64.",
+          "frame_ids": [
+            0,
+            10,
+            20,
+            34,
+            39,
+            44,
+            64
+          ],
+          "passed": true,
+          "rationale": "Each intended subject and performance is assigned to its specified role or internal-reaction beat. The labels “老板,” “同事,” and “内心” also keep real characters and employee thoughts understandable."
+        },
+        {
+          "evidence": "The supplied performers visibly develop across the story: the employee's paws change while working between frames 0 and 3; the boss changes head and mouth position between frames 10 and 19; the puzzled cat changes its mouth and gaze through frames 20-27; the shocked cat shifts during frames 39-43; and the sad cat makes restrained facial/head changes through frames 64-69.",
+          "frame_ids": [
+            0,
+            3,
+            10,
+            19,
+            20,
+            27,
+            39,
+            43,
+            44,
+            53,
+            64,
+            69
+          ],
+          "passed": true,
+          "rationale": "The character media performs exchanges, reactions, and repeated work across a developing narrative rather than serving as a token unchanged illustration."
+        }
+      ]
+    },
+    "P06": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "Representative keyed subjects in frames 0, 20, 34, 39, 44, and 64 appear over the illustrated office without any persistent green backing or conspicuous green field.",
+          "frame_ids": [
+            0,
+            20,
+            34,
+            39,
+            44,
+            64
+          ],
+          "passed": true,
+          "rationale": "Green-screen backing has been removed throughout the sampled character scenes, with no distracting green spill dominating the action."
+        },
+        {
+          "evidence": "Frames 0, 34, 39, 44, and 64 preserve recognizable silhouettes, faces, eyes, mouths, paws, and role actions. The colleague at frame 44 is visibly softer than the others but remains identifiable as the pointing/laughing source performance.",
+          "frame_ids": [
+            0,
+            34,
+            39,
+            44,
+            64
+          ],
+          "passed": true,
+          "rationale": "Keying retains the information needed to recognize every principal performance; source softness and original crop boundaries do not erase the subjects."
+        }
+      ]
+    },
+    "P07": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "The employee, boss, reaction faces, list, save display, captions, and ending message are all fully readable in frames 0, 11, 20, 33, 39, 45, 54, 64, and 75. No essential face or line of text is accidentally cut off by the landscape composition.",
+          "frame_ids": [
+            0,
+            11,
+            20,
+            33,
+            39,
+            45,
+            54,
+            64,
+            75
+          ],
+          "passed": true,
+          "rationale": "Important subjects and text stay within visible safe areas; source-edge shapes do not obscure required facial or narrative information."
+        },
+        {
+          "evidence": "Frames 10-19 place the employee left and boss right with the message between them; frames 28-37 reserve separate areas for the request list and boss; frame 45 separates the colleague from the speech bubble; and frame 54 separates the working employee, save panel, and coffee.",
+          "frame_ids": [
+            10,
+            11,
+            28,
+            34,
+            45,
+            54,
+            64,
+            75
+          ],
+          "passed": true,
+          "rationale": "Layering supports clear speaker, workstation, reaction, and graphic relationships without confusing accidental overlap."
+        }
+      ]
+    },
+    "P08": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "Readable Simplified Chinese covers all essential dialogue: the employee's opening at frame 0, boss request at frame 11, trivial-edit thought at frame 20, rework line at frame 34, shocked response at frame 39, colleague story at frame 45, overtime compliance at frame 54, late-night wish at frame 64, and reversal at frames 75-76.",
+          "frame_ids": [
+            0,
+            11,
+            20,
+            34,
+            39,
+            45,
+            54,
+            64,
+            75,
+            76
+          ],
+          "passed": true,
+          "rationale": "The complete narrative is conveyed through clearly legible Simplified Chinese captions, bubbles, and emphasized text."
+        },
+        {
+          "evidence": "Frames 11-19 hold the boss bubble while the coral “老板” label remains visible; frames 34-37 hold the final rework line; frames 45-52 pair the green “同事” label with both colleague lines; and frames 75-79 retain the final message and employee ellipsis.",
+          "frame_ids": [
+            11,
+            15,
+            34,
+            37,
+            45,
+            52,
+            75,
+            79
+          ],
+          "passed": true,
+          "rationale": "Speaker labels, stable line breaks, and multi-second display intervals make attribution and reading order understandable."
+        }
+      ]
+    },
+    "P09": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "The boss's small-change message in frame 11 is followed by the puzzled interpretation at frame 20; the complete-rework item in frame 33 is followed by the stunned reaction at frame 38; and the next-morning message at frame 75 is paired with the employee's ellipsis from frame 76 onward.",
+          "frame_ids": [
+            11,
+            20,
+            33,
+            38,
+            45,
+            54,
+            75,
+            76
+          ],
+          "passed": true,
+          "rationale": "Each key reaction is chronologically and visually tied to an identifiable prompt, including the final reversal, so viewers can understand the cause of the reaction."
+        },
+        {
+          "evidence": "The full rework line remains readable across frames 34-37 before the shocked beat holds through frames 38-43. The final message appears by frame 75 and remains with the speechless response through frame 79.",
+          "frame_ids": [
+            34,
+            37,
+            38,
+            43,
+            75,
+            79
+          ],
+          "passed": true,
+          "rationale": "The principal reveals, reactions, and ending receive sufficient dwell time for comprehension without requiring a separate insert or longer prescribed pause."
+        }
+      ]
+    },
+    "P11_plan": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "The plan's nine contiguous ranges correspond to the delivered progression visible at frames 0, 10, 20, 28, 38, 44, 54, 64, and 74: opening, boss message, optimistic thought, request list, shock, colleague, overtime, sad wish, and next morning.",
+          "frame_ids": [
+            0,
+            10,
+            20,
+            28,
+            38,
+            44,
+            54,
+            64,
+            74
+          ],
+          "passed": true,
+          "rationale": "The described 0-40 second shot ranges cover the actual film continuously and identify meaningful story events in their delivered order."
+        },
+        {
+          "evidence": "The planned aliases visually correspond to the delivered material: typing at frame 0, boss at frame 10, confused at frame 20, shocked at frame 39, laughing at frame 44, sad at frame 64, office backgrounds throughout, and the coffee prop at frame 54.",
+          "frame_ids": [
+            0,
+            10,
+            20,
+            39,
+            44,
+            54,
+            64
+          ],
+          "passed": true,
+          "rationale": "The asset aliases map to recognizable supplied subjects, backgrounds, and props rather than forming a constant or unrelated inventory."
+        }
+      ]
+    },
+    "P13": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "The film moves purposefully among a wide employee-at-desk title composition at frame 0, a two-character exchange at frame 10, isolated internal reactions at frames 20 and 38, a boss-plus-list layout at frame 34, a colleague insert at frame 45, a night workstation/save layout at frame 54, a sad portrait at frame 64, and the morning workstation at frame 74.",
+          "frame_ids": [
+            0,
+            10,
+            20,
+            34,
+            38,
+            45,
+            54,
+            64,
+            74
+          ],
+          "passed": true,
+          "rationale": "Changes in grouping, subject scale, and information placement distinguish dialogue, thoughts, elapsed work, and the reversal while retaining the same office story world."
+        },
+        {
+          "evidence": "Dense samples show clean motivated cuts from the opening to the exchange at frames 82-83, exchange to puzzled thought at 94-95, puzzled thought to the request panel at 106-107, shock to colleague at 118-119, colleague to night work at 130-131, and sad night to next morning at 142-143.",
+          "frame_ids": [
+            82,
+            83,
+            94,
+            95,
+            106,
+            107,
+            118,
+            119,
+            130,
+            131,
+            142,
+            143
+          ],
+          "passed": true,
+          "rationale": "The actual hard cuts preserve chronological orientation through consistent office geography, scene headers, and clock changes; no sampled transition makes the story order ambiguous."
+        }
+      ]
+    },
+    "P14": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "Frames 0, 11, 20, 34, 45, 54, 64, and 75 consistently use bold sans-serif Chinese, white main text, lime employee/internal accents, coral boss accents, rounded cards, top-left episode branding, and top-right scene/time metadata.",
+          "frame_ids": [
+            0,
+            11,
+            20,
+            34,
+            45,
+            54,
+            64,
+            75
+          ],
+          "passed": true,
+          "rationale": "Typography, role labels, speech bubbles, clocks, and information panels form a consistent system while allowing purposeful role and emphasis colors."
+        },
+        {
+          "evidence": "Day office frames 0 and 28 share the same blue-gold illustrated environment; frame 38 uses a motivated darker reaction treatment; frames 54 and 64 adopt a coherent dark-blue night office; and frame 74 returns to the bright morning palette.",
+          "frame_ids": [
+            0,
+            28,
+            38,
+            54,
+            64,
+            74
+          ],
+          "passed": true,
+          "rationale": "The backgrounds and hierarchy remain coherent, with palette changes clearly motivated by shock, night overtime, and the next morning rather than arbitrary restyling."
+        }
+      ]
+    },
+    "P15": {
+      "completion": 1,
+      "checks": [
+        {
+          "evidence": "The request list visibly progresses from “整体风格换一下” at frame 29 to “逻辑重新梳理一下” at frame 31 and “顺便，全部重做一下” at frame 33. Frame 38 adds conspicuously enlarged “重做？”. During overtime, frames 54, 56, 58, 60, and 62 show changing progress bars and successive filenames including “最终版.pptx,” “最终版_真的.pptx,” “最终版_真不改了.pptx,” “最终版_打死不改.pptx,” and “最终版_老板说再改.pptx.”",
+          "frame_ids": [
+            29,
+            31,
+            33,
+            38,
+            54,
+            56,
+            58,
+            60,
+            62
+          ],
+          "passed": true,
+          "rationale": "All required request-list, enlarged-rework, and evolving save/filename/progress devices are actually visible and express their intended comedy."
+        },
+        {
+          "evidence": "Dense frames 107, 110, and 115 show the request panel entering and accumulating items before the full third item at frame 33. Frames 38-43 let the enlarged rework emphasis settle with the shocked performer. Dense frames 131, 134, 138, and 139 show the overtime progress bar advancing, then resetting as the filename and time change.",
+          "frame_ids": [
+            107,
+            110,
+            115,
+            33,
+            38,
+            43,
+            131,
+            134,
+            138,
+            139
+          ],
+          "passed": true,
+          "rationale": "Emphasis appears and changes at the relevant reveals, while the shocked hold and changing save states remain readable rather than flashing too quickly or appearing without a story event."
+        }
+      ]
+    }
+  },
+  "damages": {
+    "cast_boss": {
+      "affected_checks": [],
+      "evidence": "Frames 10, 19, and 34 show the same black-and-white cat as the 110 reference, facing outward as though addressing the employee, with visible mouth and head changes while explaining the request.",
+      "frame_ids": [
+        10,
+        19,
+        34
+      ],
+      "occurred": false,
+      "rationale": "The intended addressing/explaining boss performance is used consistently in both boss beats; no substitute performer or reaction-role exchange is visible.",
+      "evidence_span_seconds": 12
+    },
+    "cast_colleague": {
+      "affected_checks": [],
+      "evidence": "Frames 44, 45, and 53 show the distinctive soft-source colleague performance from 035: an open-mouthed cat leaning toward the employee with a large orange pointing paw while mocking them.",
+      "frame_ids": [
+        44,
+        45,
+        53
+      ],
+      "occurred": false,
+      "rationale": "The pointing-and-laughing reference performance is assigned to the actual colleague beat. Its softness is present in the source performance rather than evidence of substitution.",
+      "evidence_span_seconds": 4.5
+    },
+    "cast_employee": {
+      "affected_checks": [],
+      "evidence": "Frames 0, 54, and 74 repeatedly show the same gray-and-white 060 employee side-seated in an office chair, facing a desktop monitor with both forepaws working at the keyboard.",
+      "frame_ids": [
+        0,
+        54,
+        74
+      ],
+      "occurred": false,
+      "rationale": "The required workstation employee remains consistent across the opening, overtime, and next-morning scenes, with no other animal substituted into the physical employee role.",
+      "evidence_span_seconds": 37
+    },
+    "cast_puzzled": {
+      "affected_checks": [],
+      "evidence": "Frames 20, 24, and 27 show the 013 white cat with black crown markings sitting frontally and pausing with a mild, attentive expression during the optimistic 30-second interpretation.",
+      "frame_ids": [
+        20,
+        24,
+        27
+      ],
+      "occurred": false,
+      "rationale": "The mild puzzled reference performance is correctly reserved for the trivial-edit internal thought rather than exchanged with the stronger shocked reaction.",
+      "evidence_span_seconds": 3.5
+    },
+    "cast_sad": {
+      "affected_checks": [],
+      "evidence": "Frames 64, 68, and 73 show the 2376 white cat with gray head markings and red collar, quietly seated with lowered eyes and a visibly downcast face at 23:59.",
+      "frame_ids": [
+        64,
+        68,
+        73
+      ],
+      "occurred": false,
+      "rationale": "The intended restrained, resigned near-midnight performance is correctly assigned to the sad internal beat.",
+      "evidence_span_seconds": 4.5
+    },
+    "cast_shocked": {
+      "affected_checks": [],
+      "evidence": "Frames 38, 39, 42, and 43 show the 127 gray tabby with very wide eyes and a slightly open mouth, momentarily stiffened under the enlarged “重做？” emphasis.",
+      "frame_ids": [
+        38,
+        39,
+        42,
+        43
+      ],
+      "occurred": false,
+      "rationale": "The strong stunned reference performance is correctly assigned to the complete-rework reaction and is clearly stronger than the earlier puzzled pause.",
+      "evidence_span_seconds": 2.5
+    },
+    "full_frame_effect": {
+      "affected_checks": [],
+      "evidence": "Frames 0 and 28 retain the normal daytime treatment, frames 54 and 64 use a stable motivated dark-blue night grade, and frame 74 returns to a bright morning office. The darker impact treatment at frame 38 is confined to the shocked beat rather than recurring as a pulse.",
+      "frame_ids": [
+        0,
+        28,
+        38,
+        54,
+        64,
+        74
+      ],
+      "occurred": false,
+      "rationale": "The whole-frame changes express story time or a specific reaction; no repeated unmotivated hue cycling, flashing, or other disruptive global effect is observed.",
+      "evidence_span_seconds": 37
+    },
+    "visual_system_switching": {
+      "affected_checks": [],
+      "evidence": "Frames 0, 11, 34, 54, and 75 retain the same top-left series mark, top-right scene/time hierarchy, bold Chinese typography, rounded information panels, and lime/coral role accents even as the content changes from title to bubbles, list, save panel, and ending message.",
+      "frame_ids": [
+        0,
+        11,
+        34,
+        54,
+        75
+      ],
+      "occurred": false,
+      "rationale": "The graphic system adapts purposefully to each story device without repeatedly replacing its typography, labels, or hierarchy during continuous content.",
+      "evidence_span_seconds": 37.5
+    }
+  },
+  "status": "measured"
+}

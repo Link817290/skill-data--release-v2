@@ -1,0 +1,260 @@
+{
+  "version": "cat-film-vision-v10-temporal-source",
+  "score_profile": "causal-deduplicated-multiplicative",
+  "sources": [
+    "instruction.md",
+    "environment/workspace/materials/screenplay.txt",
+    "environment/workspace/source_manifest.json"
+  ],
+  "items": {
+    "P01": {
+      "owner": "visual-semantic",
+      "source": "environment/workspace/materials/screenplay.txt",
+      "checks": [
+        "The specified employee at the computer expects to leave on time after finishing work; the office setting, near-18:00 time, completed-work status and film title are visibly established. Judge this check for the story/status content; role-performance selection is owned by P05.",
+        "The boss presents a small, quick change through a readable incoming message or dialogue bubble, in a clear exchange with the employee."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P02": {
+      "owner": "visual-semantic",
+      "source": "environment/workspace/materials/screenplay.txt",
+      "checks": [
+        "The employee initially understands the task as a trivial character/punctuation edit taking about 30 seconds, expressed as an internal reaction.",
+        "The boss requires a complete rework and the contradiction is understandable. Check the semantic rework reveal here; the staged visual request-list presentation belongs to P15."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P03": {
+      "owner": "visual-semantic",
+      "source": "environment/workspace/materials/screenplay.txt",
+      "checks": [
+        "The colleague recalls an allegedly short task lasting overnight.",
+        "Repeated rework takes the employee at the computer into the night: the office visibly becomes dark blue and the clock advances coherently toward the late-night completion, with a coffee cup by the workstation. Read the adjacent overtime and late-night sequence together. An unexplained backward reset of the displayed clock within the continuing same-night sequence does not demonstrate coherent time progression. A clearly understandable memory or imagined insert is allowed. No exact reference time or display design is required. The changing filenames and progress treatment belong to P15."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P04": {
+      "owner": "visual-semantic",
+      "source": "environment/workspace/materials/screenplay.txt",
+      "checks": [
+        "After finishing around midnight, the employee expresses renewed hope to leave on time tomorrow through the sad internal reaction in the night office. Preserve the screenplay's near-midnight temporal setting: explicit completion several hours after midnight is not near midnight merely because it is dark. Modest shifts around midnight and equivalently conveyed completion are allowed. Completion can be established by the adjacent sequence; do not require a 100% progress reading, a particular completion caption, or the reference film's exact clock. Judge this story situation independently of role-performance selection, which belongs to P05.",
+        "A visibly bright next-morning office and the boss's new readable message preferring the first version complete the reversal; the employee at the computer freezes or holds speechless with an ellipsis."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P05": {
+      "owner": "visual-semantic",
+      "source": "environment/workspace/materials/screenplay.txt",
+      "checks": [
+        "The film selects and assigns the intended performances for this closed supplied-media pool. Match the actual film subjects and actions to the reference source performances: employee side-seated in an office chair typing at a desktop workstation (060; 071 contains the same subject/performance at a different framing and is not a different cat); boss actively addressing/explaining to someone (110); colleague pointing and laughing mockingly (035); mild puzzled seated pause for the optimistic trivial-edit thought (013); wide-eyed, slightly open-mouth stunned reaction to complete rework (127); and quietly seated, downcast visible-face resignation near midnight (2376). These reference assignments operationalize the public screenplay's staging/action/emotion requirements; do not treat a different animal with a broad similar label as automatically equivalent. Substitution of another animal or exchange of these role/reaction assignments fails this check. Compare actual film frames to SOURCE previews rather than trusting asset names or captions. Explain the observed role/performance or reference-assignment mismatch without inventing an expression. Renaming, trimming, scaling, mirroring, re-encoding, or another source version of the same subject/performance is allowed. Real-world roles and internal thoughts must remain understandable.",
+        "Supplied character media meaningfully performs the developing story across its exchanges or reactions, rather than appearing only as a token or an unchanged opening illustration. Deliberately held reaction shots within an otherwise developing story are valid."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P06": {
+      "owner": "visual-semantic",
+      "source": "instruction.md",
+      "checks": [
+        "Green-screen backing is removed; no persistent green field or spill distracts from the action.",
+        "Keying preserves recognizable subjects. Do not penalize softness or original source-edge crops demonstrated in the supplied media previews."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P07": {
+      "owner": "visual-semantic",
+      "source": "instruction.md",
+      "checks": [
+        "Important subjects and text remain visible without accidental clipping introduced by the composition.",
+        "Layering and staging make the spatial relationships clear, without confusing accidental overlap."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P08": {
+      "owner": "visual-semantic",
+      "source": "instruction.md",
+      "checks": [
+        "Essential dialogue is conveyed in readable Simplified Chinese captions.",
+        "Display time, line breaks, and attribution make those captions understandable."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P09": {
+      "owner": "visual-semantic",
+      "source": "instruction.md",
+      "checks": [
+        "The causal relationship between each reveal and its associated reaction is understandable. The reveal may appear before or together with the reaction, provided viewers can identify what prompts it. Do not require a fixed frame offset, separate reaction shot, or the reference film's timing.",
+        "Pauses and the ending's dwell time support comprehension without requiring golden timing."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P11_plan": {
+      "owner": "plan-correspondence",
+      "source": "instruction.md",
+      "checks": [
+        "The edit plan describes the actual film timeline in meaningful time ranges and story events.",
+        "The named assets or aliases correspond to the visible scenes and the provided source inventory; it is not a constant or unrelated JSON object."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P13": {
+      "owner": "visual-semantic",
+      "source": "instruction.md",
+      "checks": [
+        "Shot size, composition, or subject grouping changes purposefully across story beats, helping distinguish exchanges, reactions, and elapsed time. Restrained staging is valid; no camera motion or shot count is required.",
+        "Actual changes between delivered story moments preserve understandable orientation and continuity. Hard cuts, reaction inserts, or motivated holds are valid. An unchanged image for the whole film cannot demonstrate transition continuity across story moments and does not pass merely because no bad cut is visible."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P14": {
+      "owner": "visual-semantic",
+      "source": "instruction.md",
+      "checks": [
+        "Typography, speaker labels, and graphic treatment form a consistent visual system across scenes. Distinct role colors and stock characters may differ intentionally.",
+        "Background treatment, palette, and visual hierarchy remain coherent across the film. Motivated night grading and dramatic reaction treatments are acceptable; arbitrary inconsistent styling is not."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    },
+    "P15": {
+      "owner": "visual-semantic",
+      "source": "environment/workspace/materials/screenplay.txt",
+      "checks": [
+        "The required graphic story devices are actually visible: a staged list progressing from style and logic changes to complete rework; conspicuously enlarged rework text supporting the shocked reaction; and a save display whose final-version filename gains successive suffixes while its progress bar changes during overtime. Judge content/purpose here, not exact typography, coordinates, reference frame offsets or pixel similarity. A static unchanged status image does not show the required progression.",
+        "Observed emphasis enters, changes, or settles at relevant delivered story moments and preserves comprehension. Timing must be demonstrated by an actual event and response, not inferred from the absence of flashing in a wholly unchanging film. Deliberate restrained movement and clear simultaneous presentation are valid."
+      ],
+      "completion_values": [
+        0,
+        0.5,
+        1
+      ],
+      "partial_credit": "One of the two independently evidenced checks passes."
+    }
+  },
+  "unknown_policy": "null completion and a diagnostic; never convert uncertainty into a pass or a fail.",
+  "scope": "Time-stamped overview frames, dense motion windows, source previews, and submitted plan. No audio listening or full-frame-rate motion judgment.",
+  "damage_criteria": {
+    "full_frame_effect": {
+      "scope": "One whole-film owner for repeated unmotivated changes to the whole-frame visual treatment, such as hue pulsing or repetitive flashing. A motivated day/night change, reaction impact, or ordinary transition is not damage. Judge actual disruption, not effect quantity. Repetitions of the same global treatment are one operation.",
+      "affected_checks": [
+        "P14.1",
+        "P15.1"
+      ]
+    },
+    "visual_system_switching": {
+      "scope": "One whole-film owner for repeated unmotivated replacement of the typography/label/graphic design system during otherwise continuous content. Role-specific styles, intentional scene treatments, and different stock cats are valid. A global color effect alone belongs to full_frame_effect, not this owner.",
+      "affected_checks": [
+        "P14.0",
+        "P14.1",
+        "P15.1"
+      ]
+    },
+    "cast_employee": {
+      "kind": "role-selection",
+      "minimum_evidence_frames": 1,
+      "scope": "One whole-film owner for incorrect selection or assignment of the physical employee side-seated at the desktop workstation (060/071). Report occurred=true when the delivered beat uses another animal/performance for this role, or delivers the role's dialogue/event without its required performer. Same subject in another framing/encoding is valid. Repetitions in multiple scenes are this same owner, not new instances. If the entire corresponding story beat is absent, report false here and explain the absent beat: its narrative loss belongs to the story criteria, not an invented affirmative miscasting. Do not mark the other correct role damaged merely because its footage was borrowed for this wrong role. For example, putting the colleague performer in the shocked role damages cast_shocked; cast_colleague remains false if the actual colleague beat is correct. Compare actual film frames with SOURCE previews. Use null if the evidence is genuinely unresolved.",
+      "affected_checks": [
+        "P05.0"
+      ]
+    },
+    "cast_boss": {
+      "kind": "role-selection",
+      "minimum_evidence_frames": 1,
+      "scope": "One whole-film owner for incorrect selection or assignment of the addressing/explaining boss (110). Report occurred=true when the delivered beat uses another animal/performance for this role, or delivers the role's dialogue/event without its required performer. Same subject in another framing/encoding is valid. Repetitions in multiple scenes are this same owner, not new instances. If the entire corresponding story beat is absent, report false here and explain the absent beat: its narrative loss belongs to the story criteria, not an invented affirmative miscasting. Do not mark the other correct role damaged merely because its footage was borrowed for this wrong role. For example, putting the colleague performer in the shocked role damages cast_shocked; cast_colleague remains false if the actual colleague beat is correct. Compare actual film frames with SOURCE previews. Use null if the evidence is genuinely unresolved.",
+      "affected_checks": [
+        "P05.0"
+      ]
+    },
+    "cast_colleague": {
+      "kind": "role-selection",
+      "minimum_evidence_frames": 1,
+      "scope": "One whole-film owner for incorrect selection or assignment of the pointing and mocking colleague (035). Report occurred=true when the delivered beat uses another animal/performance for this role, or delivers the role's dialogue/event without its required performer. Same subject in another framing/encoding is valid. Repetitions in multiple scenes are this same owner, not new instances. If the entire corresponding story beat is absent, report false here and explain the absent beat: its narrative loss belongs to the story criteria, not an invented affirmative miscasting. Do not mark the other correct role damaged merely because its footage was borrowed for this wrong role. For example, putting the colleague performer in the shocked role damages cast_shocked; cast_colleague remains false if the actual colleague beat is correct. Compare actual film frames with SOURCE previews. Use null if the evidence is genuinely unresolved.",
+      "affected_checks": [
+        "P05.0"
+      ]
+    },
+    "cast_puzzled": {
+      "kind": "role-selection",
+      "minimum_evidence_frames": 1,
+      "scope": "One whole-film owner for incorrect selection or assignment of the mild, optimistic puzzled internal reaction (013). Report occurred=true when the delivered beat uses another animal/performance for this role, or delivers the role's dialogue/event without its required performer. Same subject in another framing/encoding is valid. Repetitions in multiple scenes are this same owner, not new instances. If the entire corresponding story beat is absent, report false here and explain the absent beat: its narrative loss belongs to the story criteria, not an invented affirmative miscasting. Do not mark the other correct role damaged merely because its footage was borrowed for this wrong role. For example, putting the colleague performer in the shocked role damages cast_shocked; cast_colleague remains false if the actual colleague beat is correct. Compare actual film frames with SOURCE previews. Use null if the evidence is genuinely unresolved.",
+      "affected_checks": [
+        "P05.0"
+      ]
+    },
+    "cast_shocked": {
+      "kind": "role-selection",
+      "minimum_evidence_frames": 1,
+      "scope": "One whole-film owner for incorrect selection or assignment of the strongly stunned internal reaction to rework (127). Report occurred=true when the delivered beat uses another animal/performance for this role, or delivers the role's dialogue/event without its required performer. Same subject in another framing/encoding is valid. Repetitions in multiple scenes are this same owner, not new instances. If the entire corresponding story beat is absent, report false here and explain the absent beat: its narrative loss belongs to the story criteria, not an invented affirmative miscasting. Do not mark the other correct role damaged merely because its footage was borrowed for this wrong role. For example, putting the colleague performer in the shocked role damages cast_shocked; cast_colleague remains false if the actual colleague beat is correct. Compare actual film frames with SOURCE previews. Use null if the evidence is genuinely unresolved.",
+      "affected_checks": [
+        "P05.0"
+      ]
+    },
+    "cast_sad": {
+      "kind": "role-selection",
+      "minimum_evidence_frames": 1,
+      "scope": "One whole-film owner for incorrect selection or assignment of the quiet downcast internal reaction near midnight (2376). Report occurred=true when the delivered beat uses another animal/performance for this role, or delivers the role's dialogue/event without its required performer. Same subject in another framing/encoding is valid. Repetitions in multiple scenes are this same owner, not new instances. If the entire corresponding story beat is absent, report false here and explain the absent beat: its narrative loss belongs to the story criteria, not an invented affirmative miscasting. Do not mark the other correct role damaged merely because its footage was borrowed for this wrong role. For example, putting the colleague performer in the shocked role damages cast_shocked; cast_colleague remains false if the actual colleague beat is correct. Compare actual film frames with SOURCE previews. Use null if the evidence is genuinely unresolved.",
+      "affected_checks": [
+        "P05.0"
+      ]
+    }
+  }
+}

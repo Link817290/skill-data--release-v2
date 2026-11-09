@@ -1,0 +1,637 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "cat-meme-mini-theater",
+  "tasks": [
+    "cat-meme-mini-theater"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 156,
+  "bytes_excluding_manifest": 175729124,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3015,
+      "sha256": "617435b06bfc6dfcc5ac95cc6d0fd7e975432141f0eecfe26cec4df24dff3cf8"
+    },
+    "RUBRIC.md": {
+      "bytes": 6198,
+      "sha256": "818e20972f1e353697c7641b0361ef1e4b3b09e8bb66f2319ff62f88698a47b7"
+    },
+    "dataset.toml": {
+      "bytes": 505,
+      "sha256": "570841575fa23e879fe354ae2a83f6f7a254788e4038e8258268c898d6612ba4"
+    },
+    "golden/edit-plan.json": {
+      "bytes": 3962,
+      "sha256": "e802a845f3dc3dffb3aefe977aba427716b7770909ad25bc517fce6ce5530dfe"
+    },
+    "golden/final.mp4": {
+      "bytes": 26256229,
+      "sha256": "1d26d18e361f7170fd32e081cb5cd825525a646d9799fbba3ff5c1ce2705a5e0"
+    },
+    "golden/project/.gitignore": {
+      "bytes": 29,
+      "sha256": "94bcfa6c8dfd34e70eac3d030f0c79686a941083a4fc96c2cbbe8d4bea04107e"
+    },
+    "golden/project/README.txt": {
+      "bytes": 570,
+      "sha256": "12faf175b57a06419a5ecd3717fda1411e813688338a9ccaeb424e4a3b68ab12"
+    },
+    "golden/project/package-lock.json": {
+      "bytes": 140925,
+      "sha256": "e8449e5fdd6d9d4bbd151993b42318cd71cf51e6b28c4096a298aff59b00e4fa"
+    },
+    "golden/project/package.json": {
+      "bytes": 576,
+      "sha256": "6493bd3e040a942257a8320d7a2c2996468d173c20736f8b232a9e17ffff6b09"
+    },
+    "golden/project/public/source/backgrounds/office-blue.jpeg": {
+      "bytes": 325767,
+      "sha256": "f29f66b398bf9093cea500e17954feb5c769b679d2518b65647c0c0650748ee8"
+    },
+    "golden/project/public/source/backgrounds/office-desk.jpeg": {
+      "bytes": 393224,
+      "sha256": "52775de64465dc87aba74fe721f8545878aa6f0756f9b79ce95e322383511498"
+    },
+    "golden/project/public/source/backgrounds/office-wide.jpeg": {
+      "bytes": 313227,
+      "sha256": "4ef870061fa7285b3e7dd1f13d0f0a7c5af3799c1feff89e116b7d56ffb2e1d7"
+    },
+    "golden/project/public/source/cats/013-confused.mp4": {
+      "bytes": 230200,
+      "sha256": "5af7adcb1615a85e46bfd489c3ea411f39a6db896ed203e2e9d689f928303883"
+    },
+    "golden/project/public/source/cats/035-laughing.mp4": {
+      "bytes": 2383580,
+      "sha256": "31b16f13b58d2c919e91c9c6b097af6b1faaa117e6d3a8758613d193f804555e"
+    },
+    "golden/project/public/source/cats/060-typing.mp4": {
+      "bytes": 266569,
+      "sha256": "a5327801b8a8d4af2a785bf504a13b68808ee4fbf8e547b4ddf699ef262044d4"
+    },
+    "golden/project/public/source/cats/110-talking.mp4": {
+      "bytes": 6071530,
+      "sha256": "c582f3ab8f6e6289270f551064af4d23f6c30b48dfdde9b7fdf1934c85223494"
+    },
+    "golden/project/public/source/cats/127-shocked.mp4": {
+      "bytes": 9025511,
+      "sha256": "bd397a5108d0067d0458068a0af1f6c7a595ca6d4342ac123c14506ef0e6599a"
+    },
+    "golden/project/public/source/cats/2376-sad.mp4": {
+      "bytes": 169676,
+      "sha256": "6e9060ebf6fcd06ff10449de076c26c321f45d7f00eddadbf5b2f1b2dbd748fa"
+    },
+    "golden/project/public/source/preview.jpg": {
+      "bytes": 152191,
+      "sha256": "bdef6c8eeb30d62ae5dff96bc1b09467e299c88a048adb3d4abc0bba6d0a4c90"
+    },
+    "golden/project/public/source/props/coffee.png": {
+      "bytes": 83443,
+      "sha256": "99c657ed97af9debbaa717b8743f1d695c941a300deae5ad7933d7dc95c96a95"
+    },
+    "golden/project/public/source/props/desk.png": {
+      "bytes": 157397,
+      "sha256": "2b707fb56d71a977ee8b1e90190c7570646ffece4e542f2c512295ebb9a450a6"
+    },
+    "golden/project/public/source/props/laptop.png": {
+      "bytes": 385685,
+      "sha256": "2913826b0063968f2c461dfeb842de1c908c27a3760093b426d9ce0a7e29cb85"
+    },
+    "golden/project/public/source/props/phone.png": {
+      "bytes": 35997,
+      "sha256": "e77e12b6742ebfe880e767d453a9d68e8af8633a288b0ee4cb5c5bd371765ea5"
+    },
+    "golden/project/public/source/source_manifest.json": {
+      "bytes": 26706,
+      "sha256": "edc16d35cabf64e16adca8ef7d195d87baf1ba850160f780fb6f26daefffbe8f"
+    },
+    "golden/project/public/source/素材说明.txt": {
+      "bytes": 2250,
+      "sha256": "b5f1cefc78d4aef4453068df55fcaba788f77d43e8befc510f7b4f27fefabcda"
+    },
+    "golden/project/scripts/prepare-assets.mjs": {
+      "bytes": 5117,
+      "sha256": "5a89e443c9f581045ce8d755e925758831ab1ab6d8c2658239e9f1fe4f8234f1"
+    },
+    "golden/project/scripts/render.mjs": {
+      "bytes": 1738,
+      "sha256": "63139ee8dc8d1eaa52da313f676f67a302986e4f35c7f17aea8bb34904a25496"
+    },
+    "golden/project/src/assets.json": {
+      "bytes": 1527,
+      "sha256": "fec311d10f4177448e34a43bba4c6ac356ec7f26f80325b31d18850d331a1cfc"
+    },
+    "golden/project/src/index.tsx": {
+      "bytes": 9272,
+      "sha256": "587c7ddadb99f8e31a6683548e7522fd405593c0195c5a2bb1c8a853b69beab5"
+    },
+    "golden/project/src/style.css": {
+      "bytes": 3915,
+      "sha256": "9ecb5c9226b816773d317a18b88ee5233b0e4bbce4091a657042f6ba4c31be40"
+    },
+    "golden/project/tsconfig.json": {
+      "bytes": 242,
+      "sha256": "23cd6a1d140ba41f1084065df7e3edd63fce57bdd38576e495cd78d85e48690c"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1002,
+      "sha256": "8f0e3f8d12db29de613b7c9ed9e73a8f5230d3835bc5413b6272805ab76daf43"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 612,
+      "sha256": "c6997f8f08398134fa97d4f382d5d7846a6623b4ae84443ef65905715907e850"
+    },
+    "task/environment/requirements.txt": {
+      "bytes": 42,
+      "sha256": "eff07f9c50a584ec95d1da7e80f063db772f19493b7907c66528b8f21e739ffe"
+    },
+    "task/environment/skills/cat-meme-stagecraft/SKILL.md": {
+      "bytes": 4801,
+      "sha256": "8a3580375d0e8e8b9248fe51d2601a73d6351e442b372fe7420dce12b866d2c1"
+    },
+    "task/environment/skills/cat-meme-stagecraft/references/casting-and-performance.md": {
+      "bytes": 3985,
+      "sha256": "2e284f08f704ca312aa394db92d923b7c4fae8572d2d79076ee5859c5dd46008"
+    },
+    "task/environment/skills/cat-meme-stagecraft/references/compositing-and-rendering.md": {
+      "bytes": 3864,
+      "sha256": "12433d6a28586f7c5b6828f4b82777c1a2f6ed707609d54b5951304acff37690"
+    },
+    "task/environment/skills/cat-meme-stagecraft/references/script-to-shot-plan.md": {
+      "bytes": 5410,
+      "sha256": "7ef8eff0bc591af80ec5dde2f726b8eb6f24b9e2a38fc3cf5015ac0c11e1857e"
+    },
+    "task/environment/skills/cat-meme-stagecraft/references/timing-and-sound.md": {
+      "bytes": 3420,
+      "sha256": "b078a0a1c72e796273788f031c52c652081d8f803e6d4fc7a4bbfb924c8e4117"
+    },
+    "task/environment/workspace/materials/013.啊？疑惑白猫（有声）.mp4": {
+      "bytes": 230200,
+      "sha256": "5af7adcb1615a85e46bfd489c3ea411f39a6db896ed203e2e9d689f928303883"
+    },
+    "task/environment/workspace/materials/017.拜拜猫（有声）p94.mp4": {
+      "bytes": 1592961,
+      "sha256": "e530cb2f1ec82c839f3299029cc3f374da22bcd1cc23c2fd52949fe8961567bb"
+    },
+    "task/environment/workspace/materials/035.嘲笑猫（有声音）.mp4": {
+      "bytes": 2383580,
+      "sha256": "31b16f13b58d2c919e91c9c6b097af6b1faaa117e6d3a8758613d193f804555e"
+    },
+    "task/environment/workspace/materials/059.电脑工作猫（有声）.mp4": {
+      "bytes": 1270141,
+      "sha256": "0764737f26aa9ce06be9d18d2b7e3c9b6604dffe10399c8636ad620b2de49bde"
+    },
+    "task/environment/workspace/materials/060.电脑写作业小猫(有声）.mp4": {
+      "bytes": 266569,
+      "sha256": "a5327801b8a8d4af2a785bf504a13b68808ee4fbf8e547b4ddf699ef262044d4"
+    },
+    "task/environment/workspace/materials/071.工作猫猫（有声）.mp4": {
+      "bytes": 2383500,
+      "sha256": "adf1a90e5e8e7c2a61c344d12d8bba012f96ac2dd95976c64d46818532fc6401"
+    },
+    "task/environment/workspace/materials/10.椅子(7).png": {
+      "bytes": 111077,
+      "sha256": "b7678c38d9fd17c3b81504fdc7e81846d1a6e1959f3668db5a823f39c6ed5235"
+    },
+    "task/environment/workspace/materials/103.饭(9).png": {
+      "bytes": 350289,
+      "sha256": "aea30fcfee6ff6c4be66b1c26d1712e1b9146acbdadf2dfe788efdd6cb4d161f"
+    },
+    "task/environment/workspace/materials/104.开枪猫.mp4": {
+      "bytes": 2411010,
+      "sha256": "b6dd630717d6d1694497c84e52b9db307cc667b2b0eba84b4ad54d3e28daf614"
+    },
+    "task/environment/workspace/materials/110.客服猫（有声）.mp4": {
+      "bytes": 6071530,
+      "sha256": "c582f3ab8f6e6289270f551064af4d23f6c30b48dfdde9b7fdf1934c85223494"
+    },
+    "task/environment/workspace/materials/116.电脑(3).png": {
+      "bytes": 385685,
+      "sha256": "2913826b0063968f2c461dfeb842de1c908c27a3760093b426d9ce0a7e29cb85"
+    },
+    "task/environment/workspace/materials/127.目瞪口呆猫（有声）.mp4": {
+      "bytes": 9025511,
+      "sha256": "bd397a5108d0067d0458068a0af1f6c7a595ca6d4342ac123c14506ef0e6599a"
+    },
+    "task/environment/workspace/materials/13366083473433560.jpeg": {
+      "bytes": 175030,
+      "sha256": "eddeeebc901510a33bc8860c843ab7137d1b191483cba08d427e9c27c6273442"
+    },
+    "task/environment/workspace/materials/13366083735652833.jpeg": {
+      "bytes": 118422,
+      "sha256": "944ab573451bd42c30e0df9777a25990d55ef9c120a1ef014725b81b30193e9e"
+    },
+    "task/environment/workspace/materials/13366084176108742.jpeg": {
+      "bytes": 339237,
+      "sha256": "74358e45697021cf2d074b586bd97a91daf22fd44866c4920c5b8be606b4e7e7"
+    },
+    "task/environment/workspace/materials/13366084965613911.jpeg": {
+      "bytes": 313227,
+      "sha256": "4ef870061fa7285b3e7dd1f13d0f0a7c5af3799c1feff89e116b7d56ffb2e1d7"
+    },
+    "task/environment/workspace/materials/13366084984265349.jpeg": {
+      "bytes": 393224,
+      "sha256": "52775de64465dc87aba74fe721f8545878aa6f0756f9b79ce95e322383511498"
+    },
+    "task/environment/workspace/materials/13366084986293193.jpeg": {
+      "bytes": 325767,
+      "sha256": "f29f66b398bf9093cea500e17954feb5c769b679d2518b65647c0c0650748ee8"
+    },
+    "task/environment/workspace/materials/13369837789940717.jpeg": {
+      "bytes": 108208,
+      "sha256": "577e0af2195537dc9ce622f4a5c877fd5fc95ad09cea3b378a56a1ebf2cc10a1"
+    },
+    "task/environment/workspace/materials/143.人声哈欠猫（有声）.mp4": {
+      "bytes": 1211828,
+      "sha256": "32cdfa14b8fccb30d6bb1b02c928e0a172693447b441084a87cbfbf8d57fb75b"
+    },
+    "task/environment/workspace/materials/151.包包(2).png": {
+      "bytes": 37908,
+      "sha256": "ecf1f0bf3e1569de4bd3badecbbec3cb4782227151476247fc2fbb1731d7ea3f"
+    },
+    "task/environment/workspace/materials/154.白酒(2).png": {
+      "bytes": 91040,
+      "sha256": "580472bf4d7a20dcb20b0398dcfaecbb715d7b3e4f116be3f363c46af48e64bc"
+    },
+    "task/environment/workspace/materials/156.死亡凝视猫（有声）.mp4": {
+      "bytes": 1429789,
+      "sha256": "124941eaf3049a572a2477ed9f2a3590cc6862afbedb8caaa1982e3e9a44bcae"
+    },
+    "task/environment/workspace/materials/171.委屈捂脸猫（无声）.mp4": {
+      "bytes": 2209585,
+      "sha256": "be1543b7802996088a72af62100f8c24320aa1ccf57cbf808bc20c693eabbc71"
+    },
+    "task/environment/workspace/materials/192.82.手机.png": {
+      "bytes": 35997,
+      "sha256": "e77e12b6742ebfe880e767d453a9d68e8af8633a288b0ee4cb5c5bd371765ea5"
+    },
+    "task/environment/workspace/materials/212.chipichapa猫（有声）.mp4": {
+      "bytes": 221592,
+      "sha256": "60fecbb268183ec1c6c06c0bcc587a05bba00f8bbc6616847eb69bbb17c36849"
+    },
+    "task/environment/workspace/materials/2376.忧愁猫.mp4": {
+      "bytes": 169676,
+      "sha256": "6e9060ebf6fcd06ff10449de076c26c321f45d7f00eddadbf5b2f1b2dbd748fa"
+    },
+    "task/environment/workspace/materials/2377.油腻修狗.mp4": {
+      "bytes": 941644,
+      "sha256": "894806eb7cda72aa84dcd41a7e7ccadc4fe1498537b6efd9b9fcfa46014e73ec"
+    },
+    "task/environment/workspace/materials/3.桌子(4).png": {
+      "bytes": 157397,
+      "sha256": "2b707fb56d71a977ee8b1e90190c7570646ffece4e542f2c512295ebb9a450a6"
+    },
+    "task/environment/workspace/materials/91.咖啡(4).png": {
+      "bytes": 83443,
+      "sha256": "99c657ed97af9debbaa717b8743f1d695c941a300deae5ad7933d7dc95c96a95"
+    },
+    "task/environment/workspace/materials/screenplay.txt": {
+      "bytes": 5242,
+      "sha256": "f91a228b76ce0f6b6e8e7bf43e172be7c6d76fc9ad6e5cc313a507273c3d1ac7"
+    },
+    "task/environment/workspace/project/package-lock.json": {
+      "bytes": 140894,
+      "sha256": "26a356ff365ce80b53d9db0bc4c64f61fba0fb3384d958f05c2e8b044f531708"
+    },
+    "task/environment/workspace/project/package.json": {
+      "bytes": 427,
+      "sha256": "779ae88805e851717c699ec18db9d85d368993ed21dde3e6aa4aa00070c1dded"
+    },
+    "task/environment/workspace/project/scripts/render.mjs": {
+      "bytes": 959,
+      "sha256": "037c8defda25047985e8e58f2e93b2e61865627afedc2dcdaff7a3f6d5eb3f4c"
+    },
+    "task/environment/workspace/project/src/index.tsx": {
+      "bytes": 311,
+      "sha256": "655db5157495411e2d6196738ee6f1222029ffbec168721e8c590556e6c694b7"
+    },
+    "task/environment/workspace/project/tsconfig.json": {
+      "bytes": 242,
+      "sha256": "23cd6a1d140ba41f1084065df7e3edd63fce57bdd38576e495cd78d85e48690c"
+    },
+    "task/environment/workspace/source_manifest.json": {
+      "bytes": 5344,
+      "sha256": "007b4ff13dbea4cdb3f42a3494c0a9f341b8b723cd414b792b517a35ba243984"
+    },
+    "task/instruction.md": {
+      "bytes": 3610,
+      "sha256": "5c7bda6c2ce9ab68716eebaaff81ab245c57e41d4715acc32009784ab86e858a"
+    },
+    "task/solution/reference.tar.gz": {
+      "bytes": 45721936,
+      "sha256": "026f87b91175a46a7a03311cf2a34aa15f689604c5be015ff4d6059d7bbba07f"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 417,
+      "sha256": "017e365f5fae2156d0a140122cc0c53086613e0fe73da73a6b979838a5dab2ad"
+    },
+    "task/task.toml": {
+      "bytes": 1222,
+      "sha256": "c8c0ba9c0849a6134997fc28ecba2ebf79a181b1e392c2c40f726da93d7152ef"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1349,
+      "sha256": "abe33f8211c3b987c4f7f626d7daef6cb396c8b18d301f5429d99929486f495c"
+    },
+    "task/tests/README.md": {
+      "bytes": 2720,
+      "sha256": "12b959e213bf0d54dfeaf98e8db104e4fdd4568eabc82c5614fe1990648f8ad3"
+    },
+    "task/tests/audio/extract_audio.py": {
+      "bytes": 21696,
+      "sha256": "b94bb2f1501a679fa940401b46c5732f4c04709763727e9476572bb16d158132"
+    },
+    "task/tests/audio/prototype_v2/extract_audio.py": {
+      "bytes": 16522,
+      "sha256": "9b817828f7d919a96ba9241907e7b95589feaadbb0a87af7a7ec5e5af1a54143"
+    },
+    "task/tests/audio/prototype_v3/characterize_assets.py": {
+      "bytes": 10140,
+      "sha256": "7e6e929d7af6b9e58898e180ff941455d6e1bbdc32c9cbe8f746e94537e4c52f"
+    },
+    "task/tests/audio/references/energy/boss_rework.json": {
+      "bytes": 557024,
+      "sha256": "228803abb91c873460df0e363861eab6061bd61f38be5d1d5cb9a3ff8c6faec4"
+    },
+    "task/tests/audio/references/energy/boss_small_request.json": {
+      "bytes": 446575,
+      "sha256": "7e6a4eb711f564b87d6b8c5d189d1cc132e808096992615014541e65eba324b7"
+    },
+    "task/tests/audio/references/energy/mocking_colleague.json": {
+      "bytes": 673336,
+      "sha256": "101f3df5198c60807adcde71fc71f1e8a1fbd8fbdebaf32fb7750a5a8a7256be"
+    },
+    "task/tests/audio/references/energy/puzzled.json": {
+      "bytes": 222828,
+      "sha256": "a7f2d7503defc64ac120d62006534683189ccef6593674d981e8728239d8a858"
+    },
+    "task/tests/audio/references/energy/shocked.json": {
+      "bytes": 326991,
+      "sha256": "71e643d8fe4f518ddd12c11d7ef301918db103dff7927f8784dbe39f14fc6f3c"
+    },
+    "task/tests/audio/references/manifest.json": {
+      "bytes": 155109,
+      "sha256": "068152c4119a74219949794c777abe7bfbfc7e448915518f54d5137fc0ac20fe"
+    },
+    "task/tests/audio/references/originals/013-confused.mp4": {
+      "bytes": 230200,
+      "sha256": "5af7adcb1615a85e46bfd489c3ea411f39a6db896ed203e2e9d689f928303883"
+    },
+    "task/tests/audio/references/originals/035-laughing.mp4": {
+      "bytes": 2383580,
+      "sha256": "31b16f13b58d2c919e91c9c6b097af6b1faaa117e6d3a8758613d193f804555e"
+    },
+    "task/tests/audio/references/originals/110-talking.mp4": {
+      "bytes": 6071530,
+      "sha256": "c582f3ab8f6e6289270f551064af4d23f6c30b48dfdde9b7fdf1934c85223494"
+    },
+    "task/tests/audio/references/originals/127-shocked.mp4": {
+      "bytes": 9025511,
+      "sha256": "bd397a5108d0067d0458068a0af1f6c7a595ca6d4342ac123c14506ef0e6599a"
+    },
+    "task/tests/audio/references/wav/boss_rework.wav": {
+      "bytes": 83258,
+      "sha256": "cfb81631fe73509c682090063df7b6047d318bdd91f40f3381324c60e2f0c2d1"
+    },
+    "task/tests/audio/references/wav/boss_small_request.wav": {
+      "bytes": 76858,
+      "sha256": "7fdddb43e92fd8bc0e2bec857253158e051fb02edb9a1683044ed173c4331b9f"
+    },
+    "task/tests/audio/references/wav/mocking_colleague.wav": {
+      "bytes": 108858,
+      "sha256": "ebe10c4eaf1cb09b97ea93b6800bdd625b1db2cc19f62d431a7b268745aa58e6"
+    },
+    "task/tests/audio/references/wav/puzzled.wav": {
+      "bytes": 52974,
+      "sha256": "64ab1350eaa7edbdc7b1a2e8b3d52b8f2d1d50aa0814a138debe3ba2fc2bbd3d"
+    },
+    "task/tests/audio/references/wav/shocked.wav": {
+      "bytes": 60858,
+      "sha256": "95d32e72a3cb076cca7ad1508757f99a26e7f505291c85c7baba1a84cb02b205"
+    },
+    "task/tests/audio/requirements.txt": {
+      "bytes": 102,
+      "sha256": "1d3fe0ba2f7daba5a41bc8b638b4219aec5ab7c927cd41b5bf06def7d095a0c7"
+    },
+    "task/tests/audio_judge/README.md": {
+      "bytes": 1593,
+      "sha256": "d87c41b51583514e493995729d453cf570312b8ccd0698cb41d4bd74caea1bb4"
+    },
+    "task/tests/audio_judge/contract.json": {
+      "bytes": 1726,
+      "sha256": "84e26e17dfe8c1160063b17dcfc0e95f8e5eb4c42bcb95a502136ba2bebeaade"
+    },
+    "task/tests/audio_judge/judge.mjs": {
+      "bytes": 3074,
+      "sha256": "8be9d75f5b7c17f4345038e4c810909b5eb85b8aa928e859362c44e0efbf5c0a"
+    },
+    "task/tests/audio_judge/judge.py": {
+      "bytes": 35482,
+      "sha256": "8c7a5d3fa074956cf40c04b3ad7567385b41543a33be075158a20dc7051cb99d"
+    },
+    "task/tests/audio_judge/manifest.json": {
+      "bytes": 1368,
+      "sha256": "4d0ba910427cfdcb554da92a0815aca816a8f55bc60f1d25330f5f1cf0a625b7"
+    },
+    "task/tests/audio_judge/prompt.md": {
+      "bytes": 3324,
+      "sha256": "2d3cd1ed88455dd95bcd0dea1c0806d9b2e0cdf980f5f92f243fd509150f492e"
+    },
+    "task/tests/audio_judge/response.schema.json": {
+      "bytes": 10326,
+      "sha256": "5250ca59f59e690de927c17f335a6beac974e7d0f61cf017dcb1467ee286ea6a"
+    },
+    "task/tests/audio_judge/settings.json": {
+      "bytes": 333,
+      "sha256": "105850ebfca56cda7846eb923b132939a9ee888ce7bc6df2b08ad93e39a81406"
+    },
+    "task/tests/audio_resolution/README.md": {
+      "bytes": 1590,
+      "sha256": "90fbd6474c9fe2d64af8cbc1819adab6fb9aa24e1ddf68b8cecd026e8f4bc668"
+    },
+    "task/tests/audio_resolution/contract.json": {
+      "bytes": 1420,
+      "sha256": "ad2c907ea6845053ad00e4a52eff2788bdbd695e33a1bd82739202fc8f16c66e"
+    },
+    "task/tests/audio_resolution/judge.mjs": {
+      "bytes": 327,
+      "sha256": "1cd4f2a2dd748691b52aed81e1223ba27a9090225dfab188f8d6bba874704d36"
+    },
+    "task/tests/audio_resolution/judge.py": {
+      "bytes": 17597,
+      "sha256": "ca2d2d7ece8f1fa6fa74a55d1a2457d4836debff0e3c1cce590f8d393bbc0c5f"
+    },
+    "task/tests/audio_resolution/manifest.json": {
+      "bytes": 1027,
+      "sha256": "abcccfa12da93917d2f4d437a880fd2cd7a18ee08dcef4ce55279cee1cb86711"
+    },
+    "task/tests/audio_resolution/prompt.md": {
+      "bytes": 2154,
+      "sha256": "323dd1fc55589c1dc4fefb2885a7247c5fcb632ca5b13af1cc1cc46b9ed8373a"
+    },
+    "task/tests/audio_resolution/response.schema.json": {
+      "bytes": 11276,
+      "sha256": "f2a38562354bf5e0c2676b51ddb2ca2258abd0e63a1e3750b9651b194a7a1abb"
+    },
+    "task/tests/audio_resolution/settings.json": {
+      "bytes": 114,
+      "sha256": "d625f1cc7ef3c79786da1bf7740a468d95b4670034bf052a7bc1c52822aa456a"
+    },
+    "task/tests/current_bench/settlement.py": {
+      "bytes": 5673,
+      "sha256": "370d58c7d716a671ad2d343745eccc697272076792b95fc62c297a3d3c260d65"
+    },
+    "task/tests/golden_replay/audio/81eac828148e7cb1e083b21b844deffcf92f691913425553439be38ac12c0dde/20261104104947-b4cc1e2682a84edfa925f1af7d8f85a4/decision.json": {
+      "bytes": 61514,
+      "sha256": "631053f3bcf47cc83fe5442a8f0f5183b4b519736c650c00b11cdb3efcad13ab"
+    },
+    "task/tests/golden_replay/audio/81eac828148e7cb1e083b21b844deffcf92f691913425553439be38ac12c0dde/20261104104947-b4cc1e2682a84edfa925f1af7d8f85a4/request.json": {
+      "bytes": 7512471,
+      "sha256": "46be48077b73bd513419780bb22fbbec0ae458fb412b3e142aac6c894fbca518"
+    },
+    "task/tests/golden_replay/audio/81eac828148e7cb1e083b21b844deffcf92f691913425553439be38ac12c0dde/20261104104947-b4cc1e2682a84edfa925f1af7d8f85a4/response.json": {
+      "bytes": 115363,
+      "sha256": "4e723b9afb525856f66ff4d2bd9342fe69e79f7373e861e98131298fd897d0ef"
+    },
+    "task/tests/golden_replay/audio/81eac828148e7cb1e083b21b844deffcf92f691913425553439be38ac12c0dde/20261104104947-b4cc1e2682a84edfa925f1af7d8f85a4/validation.json": {
+      "bytes": 14502,
+      "sha256": "2f0e58105ba9e93a814c880492bef3bfa79297ba66d838271a2640b8927d414d"
+    },
+    "task/tests/golden_replay/audio/81eac828148e7cb1e083b21b844deffcf92f691913425553439be38ac12c0dde/selected.json": {
+      "bytes": 67,
+      "sha256": "32029e0b3805307629520f84b785f6d2dd5420f15336006485723f61e475b605"
+    },
+    "task/tests/golden_replay/manifest.json": {
+      "bytes": 3986,
+      "sha256": "9dffd972dc3e72e1d9eb886a49322cfcac47e18568fa5838050b97d452b8bf39"
+    },
+    "task/tests/golden_replay/soundtrack/2990f46cca89b7dd73ea1ca30267f8fe7b7176f7622e623e74703a3d0463b93e/58c23659-e627-4b0b-b94e-599e96cc5a2c/decision.json": {
+      "bytes": 5655,
+      "sha256": "af44f93752212cef41864f6e631065ae3720a64961d63fc5bf6a8ac6ed9190d7"
+    },
+    "task/tests/golden_replay/soundtrack/2990f46cca89b7dd73ea1ca30267f8fe7b7176f7622e623e74703a3d0463b93e/58c23659-e627-4b0b-b94e-599e96cc5a2c/request.json": {
+      "bytes": 5270103,
+      "sha256": "d72b3fddb5278209987b7abb0904eab27dc7d5431172af743e9b958a6dd449ad"
+    },
+    "task/tests/golden_replay/soundtrack/2990f46cca89b7dd73ea1ca30267f8fe7b7176f7622e623e74703a3d0463b93e/58c23659-e627-4b0b-b94e-599e96cc5a2c/response.json": {
+      "bytes": 76096,
+      "sha256": "ac16d275f42de9b07627399b000d6ea34ee44a4e1990944ef9878ee0390d35ce"
+    },
+    "task/tests/golden_replay/soundtrack/2990f46cca89b7dd73ea1ca30267f8fe7b7176f7622e623e74703a3d0463b93e/58c23659-e627-4b0b-b94e-599e96cc5a2c/validation.json": {
+      "bytes": 10655,
+      "sha256": "223bf6e3e8a37d8527ca11325d6b0556e0702b0e17dc1671f7862eb43c8d4458"
+    },
+    "task/tests/golden_replay/soundtrack/2990f46cca89b7dd73ea1ca30267f8fe7b7176f7622e623e74703a3d0463b93e/selected.json": {
+      "bytes": 56,
+      "sha256": "ce1c7834cb917d64dd1b7460a3ed520429b046e72d2d5887e1a43f546a0403b5"
+    },
+    "task/tests/golden_replay/visual/66e8a5e47ae9d7e481c57f1fc8e158bb3118d8f9dbd59aeb50259d2f86233240/1793788962741-f743a795-ba3f-446d-ac58-a02de34a8629/decision.json": {
+      "bytes": 22921,
+      "sha256": "dcd4f86b809c9087fbc777c2a9fac14bdf54d3f6e3b3e33c68ed2dfe0c7b8fcc"
+    },
+    "task/tests/golden_replay/visual/66e8a5e47ae9d7e481c57f1fc8e158bb3118d8f9dbd59aeb50259d2f86233240/1793788962741-f743a795-ba3f-446d-ac58-a02de34a8629/request.json": {
+      "bytes": 14466905,
+      "sha256": "51ca2982919349bed4fb05546b3540e3876e0a71117e1a49356bee9d98413cea"
+    },
+    "task/tests/golden_replay/visual/66e8a5e47ae9d7e481c57f1fc8e158bb3118d8f9dbd59aeb50259d2f86233240/1793788962741-f743a795-ba3f-446d-ac58-a02de34a8629/response.json": {
+      "bytes": 143891,
+      "sha256": "5efed36c7bdc7761736615ce77e823e625ebdcb8112743f56d1ed3494f9f2925"
+    },
+    "task/tests/golden_replay/visual/66e8a5e47ae9d7e481c57f1fc8e158bb3118d8f9dbd59aeb50259d2f86233240/1793788962741-f743a795-ba3f-446d-ac58-a02de34a8629/validation.json": {
+      "bytes": 39017,
+      "sha256": "5cb5224a8f6d44d9c03f6a324b21de8f236866c0baa76ed30a5faa39272bf8aa"
+    },
+    "task/tests/golden_replay/visual/66e8a5e47ae9d7e481c57f1fc8e158bb3118d8f9dbd59aeb50259d2f86233240/selected.json": {
+      "bytes": 70,
+      "sha256": "e83324d2f5795f667a5b6be7f633ea3b5cd79335dbb5a7ec92875bc06dbb6b5b"
+    },
+    "task/tests/llm_judge/contract.json": {
+      "bytes": 18831,
+      "sha256": "531bfd39ca0d8b94fb2bcfcb563e2e28031cbbe51dd51f19bca139e81171d49d"
+    },
+    "task/tests/llm_judge/judge.py": {
+      "bytes": 272,
+      "sha256": "3907b0fadd864046c8a632b50f4411cd5ba304ab3c44e3879dcfa121b856497e"
+    },
+    "task/tests/llm_judge/manifest.json": {
+      "bytes": 2925,
+      "sha256": "e31cfb613500aefb99f69f13962bedfe397f644956b02c978269dbff653820b8"
+    },
+    "task/tests/llm_judge/prompt.md": {
+      "bytes": 8160,
+      "sha256": "410fd1648abe3f3890c773a3f682eb8527985ff18715fe3130e8f954badf2eb4"
+    },
+    "task/tests/llm_judge/resolution.mjs": {
+      "bytes": 12692,
+      "sha256": "42dee5f190f5bbfa9c18b1c9d4202109ab815e162a07708c6c8e292e0227c6bb"
+    },
+    "task/tests/llm_judge/response.schema.json": {
+      "bytes": 24015,
+      "sha256": "1d4d1dcfe900bf0483d6bded9dc3358ef38da822fa46b9a0e32d74977b3b8477"
+    },
+    "task/tests/llm_judge/runtime/judge.mjs": {
+      "bytes": 17872,
+      "sha256": "41abe8a24a58e3d8323207861da183dae7bb1a028cc9c3e6517a86301e934601"
+    },
+    "task/tests/llm_judge/runtime/motion.mjs": {
+      "bytes": 2446,
+      "sha256": "3aaa0c9605384681d9c780c21cdd67db0d439b4abc8542793a839fa3517fa10b"
+    },
+    "task/tests/llm_judge/settings.json": {
+      "bytes": 731,
+      "sha256": "b94ffef14997713703b398afaa80898cfcc6f01f160da3a038e8190c33b90e74"
+    },
+    "task/tests/measurement_params.json": {
+      "bytes": 1096,
+      "sha256": "9075a5eeb1d075ffd33428cda74575da28afe1e049f2d550aafc80b218224b67"
+    },
+    "task/tests/media-utils.mjs": {
+      "bytes": 5609,
+      "sha256": "4644c1240a089777e3dd4dcc79ff773cc59a2afbdc58236e708221c17146f60c"
+    },
+    "task/tests/native_measurement.mjs": {
+      "bytes": 9112,
+      "sha256": "a651fd03bd3a1a136c7c51cc81d7636f48e02b057ffe713f3b01401bf9d6dd92"
+    },
+    "task/tests/normalize_artifact.py": {
+      "bytes": 1965,
+      "sha256": "e9e7eb9b14698fb9628866b4ca840c3d6badf706546fdbb0425e7c412f329faa"
+    },
+    "task/tests/ownership_judge.py": {
+      "bytes": 11302,
+      "sha256": "42d290823807d9201815cf2829c8f1923a89a034dc1359728f923ce8e65114d7"
+    },
+    "task/tests/rerender.mjs": {
+      "bytes": 3950,
+      "sha256": "a3257603b811732af503cd1659947e1e1377042367f22a58a90a2713cdc3a895"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 1646,
+      "sha256": "7462ac654536789e3887ba1d2919a0d1fbb3ca85126d22057848c8c2251c4cb0"
+    },
+    "task/tests/settle.mjs": {
+      "bytes": 3250,
+      "sha256": "6c66c03aea65c2e44c3d0696787b5e185b424535128e0c3a1cb77887f61903e6"
+    },
+    "task/tests/soundtrack_judge.py": {
+      "bytes": 11470,
+      "sha256": "00183a9bcaf0a05c80d5e4ebc090bef1497d07d1157e539ad4484c502a48f2b9"
+    },
+    "task/tests/source-correspondence.mjs": {
+      "bytes": 1342,
+      "sha256": "933934a74b485c12a0fe349454dddedf5ebeab021a2d2ca69d3c81bc7bda1353"
+    },
+    "task/tests/test.sh": {
+      "bytes": 311,
+      "sha256": "4f30d67703559ef49c54b462438ed7fe69d1892fe91ccaf03ee27a2be256a21f"
+    },
+    "task/tests/validator.mjs": {
+      "bytes": 696,
+      "sha256": "a4621cdf5a59692e436590cf40575bd22d83da18be6baa43c539f196f749864d"
+    },
+    "task/tests/verify.py": {
+      "bytes": 14156,
+      "sha256": "59e31a2e98dc0b57d047ff7f8b350a30e59d0487e20d5a19f24cdc307e5e2bfb"
+    }
+  }
+}

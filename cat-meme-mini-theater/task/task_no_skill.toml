@@ -1,0 +1,48 @@
+artifacts = [ "/workspace/output",]
+
+[metadata]
+name = "Cat Meme Mini Theater"
+instance_id = "cat-meme-mini-theater"
+task = "remotion-narrative-video-production"
+source_repo = ""
+language = "en"
+programming_language = "typescript"
+prompt_creation_time = "2026-10-15"
+
+[environment]
+docker_image = "cat-meme-mini-theater-no-skill:20261103"
+cpus = 4
+workdir = "/workspace"
+memory_mb = 8192
+network_mode = "no-network"
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 3600.0
+user = "root"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL:-}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY:-}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/tests/golden_replay}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[evaluation_scope]
+automatic = "Program-settled score combining sampled visual/content LLM judgment, audio signal checks, actual rerender correspondence, and media specifications."
+editorial = "Subjective audio listening and between-sample motion remain outside automated coverage."
+
+[agent]
+timeout_sec = 7200.0
+
+[verifier.environment]
+docker_image = "cat-meme-mini-theater-verifier:20261103"
+cpus = 4
+workdir = "/workspace"
+memory_mb = 8192
+network_mode = "public"

@@ -1,0 +1,436 @@
+﻿{
+    "name":  "下班前一分钟：精选原始素材",
+    "source_root":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材",
+    "selection_method":  "按剧情和文件名筛选，只预览21个候选（6段视频各1帧、8张背景、7个道具），最终选13个文件。未扫描全库内容或进行全库哈希查重。",
+    "files":  [
+                  {
+                      "id":  "cat-060",
+                      "file":  "cats/060-typing.mp4",
+                      "purpose":  "电脑打字猫：开场工作镜头；自带桌椅电脑",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\1.猫meme绿幕素材 2400+款\\主图预览部分\\060.电脑写作业小猫(有声）.mp4",
+                      "bytes":  266569,
+                      "sha256":  "A5327801B8A8D4AF2A785BF504A13B68808EE4FBF8E547B4DDF699EF262044D4",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  528,
+                                                        "height":  480,
+                                                        "pix_fmt":  "yuv420p",
+                                                        "r_frame_rate":  "30/1"
+                                                    },
+                                                    {
+                                                        "codec_name":  "aac",
+                                                        "codec_type":  "audio",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "5.833000",
+                                                   "size":  "266569"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "cat-110",
+                      "file":  "cats/110-talking.mp4",
+                      "purpose":  "客服猫：老板或消息发言镜头",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\1.猫meme绿幕素材 2400+款\\主图预览部分\\110.客服猫（有声）.mp4",
+                      "bytes":  6071530,
+                      "sha256":  "C582F3AB8F6E6289270F551064AF4D23F6C30B48DFDDE9B7FDF1934C85223494",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  1920,
+                                                        "height":  1080,
+                                                        "pix_fmt":  "yuv420p",
+                                                        "r_frame_rate":  "30/1"
+                                                    },
+                                                    {
+                                                        "codec_name":  "aac",
+                                                        "codec_type":  "audio",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "13.002993",
+                                                   "size":  "6071530"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "cat-013",
+                      "file":  "cats/013-confused.mp4",
+                      "purpose":  "疑惑白猫：听到小改动后的反应",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\1.猫meme绿幕素材 2400+款\\主图预览部分\\013.啊？疑惑白猫（有声）.mp4",
+                      "bytes":  230200,
+                      "sha256":  "5AF7ADCB1615A85E46BFD489C3EA411F39A6DB896ED203E2E9D689F928303883",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  720,
+                                                        "height":  720,
+                                                        "pix_fmt":  "yuv420p",
+                                                        "r_frame_rate":  "60/1"
+                                                    },
+                                                    {
+                                                        "codec_name":  "aac",
+                                                        "codec_type":  "audio",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "2.267000",
+                                                   "size":  "230200"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "cat-127",
+                      "file":  "cats/127-shocked.mp4",
+                      "purpose":  "目瞪口呆猫：需求反转后的震惊",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\1.猫meme绿幕素材 2400+款\\主图预览部分\\127.目瞪口呆猫（有声）.mp4",
+                      "bytes":  9025511,
+                      "sha256":  "BD397A5108D0067D0458068A0AF1F6C7A595CA6D4342AC123C14506EF0E6599A",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  3832,
+                                                        "height":  2160,
+                                                        "pix_fmt":  "yuv420p",
+                                                        "r_frame_rate":  "60/1"
+                                                    },
+                                                    {
+                                                        "codec_name":  "aac",
+                                                        "codec_type":  "audio",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "7.099674",
+                                                   "size":  "9025511"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "cat-035",
+                      "file":  "cats/035-laughing.mp4",
+                      "purpose":  "嘲笑猫：同事吐槽或插入反应",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\1.猫meme绿幕素材 2400+款\\主图预览部分\\035.嘲笑猫（有声音）.mp4",
+                      "bytes":  2383580,
+                      "sha256":  "31B16F13B58D2C919E91C9C6B097AF6B1FAAA117E6D3A8758613D193F804555E",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  720,
+                                                        "height":  750,
+                                                        "pix_fmt":  "yuv420p",
+                                                        "r_frame_rate":  "30/1"
+                                                    },
+                                                    {
+                                                        "codec_name":  "aac",
+                                                        "codec_type":  "audio",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "6.315850",
+                                                   "size":  "2383580"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "cat-2376",
+                      "file":  "cats/2376-sad.mp4",
+                      "purpose":  "忧愁猫：加班结尾反应",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\1.猫meme绿幕素材 2400+款\\主图预览部分\\2376.忧愁猫.mp4",
+                      "bytes":  169676,
+                      "sha256":  "6E9060EBF6FCD06FF10449DE076C26C321F45D7F00EDDADBF5B2F1B2DBD748FA",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  720,
+                                                        "height":  720,
+                                                        "pix_fmt":  "yuv420p",
+                                                        "r_frame_rate":  "30/1"
+                                                    },
+                                                    {
+                                                        "codec_name":  "aac",
+                                                        "codec_type":  "audio",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "2.466667",
+                                                   "size":  "169676"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "bg-1",
+                      "file":  "backgrounds/office-wide.jpeg",
+                      "purpose":  "办公室全景：开场和群体场景",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\2.猫meme场景背景图 849张\\办公室\\13366084965613911.jpeg",
+                      "bytes":  313227,
+                      "sha256":  "4EF870061FA7285B3E7DD1F13D0F0A7C5AF3799C1FEFF89E116B7D56FFB2E1D7",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "mjpeg",
+                                                        "codec_type":  "video",
+                                                        "width":  2560,
+                                                        "height":  1434,
+                                                        "pix_fmt":  "yuvj420p",
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "0.040000",
+                                                   "size":  "313227"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "bg-2",
+                      "file":  "backgrounds/office-desk.jpeg",
+                      "purpose":  "靠窗工位：对话和工位镜头",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\2.猫meme场景背景图 849张\\办公室\\13366084984265349.jpeg",
+                      "bytes":  393224,
+                      "sha256":  "52775DE64465DC87ABA74FE721F8545878AA6F0756F9B79CE95E322383511498",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "mjpeg",
+                                                        "codec_type":  "video",
+                                                        "width":  2560,
+                                                        "height":  1434,
+                                                        "pix_fmt":  "yuvj420p",
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "0.040000",
+                                                   "size":  "393224"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "bg-3",
+                      "file":  "backgrounds/office-blue.jpeg",
+                      "purpose":  "偏蓝办公室：结尾候选；原图是白天，夜景需另外调色",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\2.猫meme场景背景图 849张\\办公室\\13366084986293193.jpeg",
+                      "bytes":  325767,
+                      "sha256":  "F29F66B398BF9093CEA500E17954FEB5C769B679D2518B65647C0C0650748EE8",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "mjpeg",
+                                                        "codec_type":  "video",
+                                                        "width":  2560,
+                                                        "height":  1434,
+                                                        "pix_fmt":  "yuvj420p",
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "0.040000",
+                                                   "size":  "325767"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "prop-2",
+                      "file":  "props/desk.png",
+                      "purpose":  "桌子：前景遮挡候选",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\3.猫meme搭配小素材 553款\\更新1\\3.桌子(4).png",
+                      "bytes":  157397,
+                      "sha256":  "2B707FB56D71A977EE8B1E90190C7570646FFECE4E542F2C512295EBB9A450A6",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "png",
+                                                        "codec_type":  "video",
+                                                        "width":  800,
+                                                        "height":  608,
+                                                        "pix_fmt":  "rgba",
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "size":  "157397"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "prop-4",
+                      "file":  "props/laptop.png",
+                      "purpose":  "笔记本电脑：正面工位道具",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\3.猫meme搭配小素材 553款\\更新1\\116.电脑(3).png",
+                      "bytes":  385685,
+                      "sha256":  "2913826B0063968F2C461DFEB842DE1C908C27A3760093B426D9CE0A7E29CB85",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "png",
+                                                        "codec_type":  "video",
+                                                        "width":  800,
+                                                        "height":  800,
+                                                        "pix_fmt":  "rgba",
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "size":  "385685"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "prop-6",
+                      "file":  "props/phone.png",
+                      "purpose":  "手机：消息相关插图；画面为手机背面",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\3.猫meme搭配小素材 553款\\更新1\\192.82.手机.png",
+                      "bytes":  35997,
+                      "sha256":  "E77E12B6742EBFE880E767D453A9D68E8AF8633A288B0EE4CB5C5BD371765EA5",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "png",
+                                                        "codec_type":  "video",
+                                                        "width":  300,
+                                                        "height":  300,
+                                                        "pix_fmt":  "rgba",
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "size":  "35997"
+                                               }
+                                }
+                  },
+                  {
+                      "id":  "prop-7",
+                      "file":  "props/coffee.png",
+                      "purpose":  "咖啡：加班场景点缀",
+                      "source_path":  "C:\\baidunetdiskdownload\\VD849-猫meme绿幕素材\\3.猫meme搭配小素材 553款\\更新1\\91.咖啡(4).png",
+                      "bytes":  83443,
+                      "sha256":  "99C657ED97AF9DEBBAA717B8743F1D695C941A300DEAE5AD7933D7DC95C96A95",
+                      "inspection":  "视频仅检查0.5秒抽帧和媒体信息；图片检查缩略图；未完整观看或试听",
+                      "media":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "png",
+                                                        "codec_type":  "video",
+                                                        "width":  375,
+                                                        "height":  375,
+                                                        "pix_fmt":  "rgba",
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "size":  "83443"
+                                               }
+                                }
+                  }
+              ]
+}

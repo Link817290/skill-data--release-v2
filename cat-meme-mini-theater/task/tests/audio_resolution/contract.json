@@ -1,0 +1,14 @@
+{
+  "version": "cat-audio-resolution-v3",
+  "trigger": "Every item with identity_and_beat null, or identity_preserved true and correct_story_beat false.",
+  "scope": "Canonical audio identity and narrative placement only, for every role and effect. Visible performer identity, readable captions, animation, progress changes and version-name changes are separate visual criteria and cannot by themselves fail audio placement. Real opening/other-beat misroutes still fail.",
+  "narrative_beats": {
+    "boss_small_request": "The boss casually introduces the supposed small change before the true workload is revealed.",
+    "puzzled": "The employee's first mild puzzled, paused but optimistic inner reaction to the supposedly small change; not the later shock.",
+    "boss_rework": "The boss explains the real demands: style, logic, and finally everything redone, with casual explanatory confidence.",
+    "shocked": "The employee's stronger inner shock after understanding that everything must be redone.",
+    "mocking_colleague": "The colleague's amused, mocking commentary on the employee believing the boss's small-change promise."
+  },
+  "extent": "Source energy coverage remains diagnostic; source-bound semantic meaningful_original_performance decides actual loss of key original expression.",
+  "non_trigger": "Measured direct passthrough with no model call. Base conversations are never rewritten or rebound."
+}

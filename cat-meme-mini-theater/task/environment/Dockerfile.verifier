@@ -1,0 +1,12 @@
+FROM cat-meme-mini-theater-runtime:20261103
+USER root
+COPY task/environment/requirements.txt /tmp/cat-requirements.txt
+RUN python3 -m pip install --no-cache-dir -r /tmp/cat-requirements.txt
+COPY task/tests/ /tests/
+COPY task/instruction.md /instruction.md
+COPY task/environment/workspace/ /environment/workspace/
+ENV REMOTION_RUNTIME_MODULES=/opt/remotion-runtime/node_modules PYTHONDONTWRITEBYTECODE=1
+ENV HTTP_PROXY="" HTTPS_PROXY="" ALL_PROXY="" http_proxy="" https_proxy="" all_proxy="" NO_PROXY="*" no_proxy="*"
+ENV OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+WORKDIR /workspace
+CMD ["bash"]

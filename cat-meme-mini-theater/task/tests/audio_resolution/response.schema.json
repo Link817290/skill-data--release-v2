@@ -1,0 +1,432 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "items"
+  ],
+  "properties": {
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "boss_small_request",
+        "puzzled",
+        "boss_rework",
+        "shocked",
+        "mocking_colleague"
+      ],
+      "properties": {
+        "boss_small_request": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identity_preserved",
+            "meaningful_original_performance",
+            "correct_story_beat",
+            "selected_candidate_ids",
+            "frame_ids",
+            "source_citations",
+            "evidence",
+            "why",
+            "asset_evidence_ids"
+          ],
+          "properties": {
+            "identity_preserved": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "meaningful_original_performance": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "correct_story_beat": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_candidate_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "frame_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "start_line",
+                  "end_line"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "start_line": {
+                    "type": "integer"
+                  },
+                  "end_line": {
+                    "type": "integer"
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            },
+            "asset_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "puzzled": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identity_preserved",
+            "meaningful_original_performance",
+            "correct_story_beat",
+            "selected_candidate_ids",
+            "frame_ids",
+            "source_citations",
+            "evidence",
+            "why",
+            "asset_evidence_ids"
+          ],
+          "properties": {
+            "identity_preserved": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "meaningful_original_performance": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "correct_story_beat": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_candidate_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "frame_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "start_line",
+                  "end_line"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "start_line": {
+                    "type": "integer"
+                  },
+                  "end_line": {
+                    "type": "integer"
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            },
+            "asset_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "boss_rework": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identity_preserved",
+            "meaningful_original_performance",
+            "correct_story_beat",
+            "selected_candidate_ids",
+            "frame_ids",
+            "source_citations",
+            "evidence",
+            "why",
+            "asset_evidence_ids"
+          ],
+          "properties": {
+            "identity_preserved": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "meaningful_original_performance": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "correct_story_beat": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_candidate_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "frame_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "start_line",
+                  "end_line"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "start_line": {
+                    "type": "integer"
+                  },
+                  "end_line": {
+                    "type": "integer"
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            },
+            "asset_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "shocked": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identity_preserved",
+            "meaningful_original_performance",
+            "correct_story_beat",
+            "selected_candidate_ids",
+            "frame_ids",
+            "source_citations",
+            "evidence",
+            "why",
+            "asset_evidence_ids"
+          ],
+          "properties": {
+            "identity_preserved": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "meaningful_original_performance": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "correct_story_beat": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_candidate_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "frame_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "start_line",
+                  "end_line"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "start_line": {
+                    "type": "integer"
+                  },
+                  "end_line": {
+                    "type": "integer"
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            },
+            "asset_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "mocking_colleague": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identity_preserved",
+            "meaningful_original_performance",
+            "correct_story_beat",
+            "selected_candidate_ids",
+            "frame_ids",
+            "source_citations",
+            "evidence",
+            "why",
+            "asset_evidence_ids"
+          ],
+          "properties": {
+            "identity_preserved": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "meaningful_original_performance": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "correct_story_beat": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_candidate_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "frame_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "start_line",
+                  "end_line"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "start_line": {
+                    "type": "integer"
+                  },
+                  "end_line": {
+                    "type": "integer"
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            },
+            "asset_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

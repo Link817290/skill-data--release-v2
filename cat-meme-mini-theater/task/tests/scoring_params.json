@@ -1,0 +1,40 @@
+{
+  "version": "cat-film-professional-v7",
+  "family": "weighted-substantive",
+  "strict_settlement_policy": "integrated_delivery_v1",
+  "integrated_delivery": {
+    "reference_gap": 0.1,
+    "gap_exponent": 0.4,
+    "owner_count": 9,
+    "source_dependency_owner": "N07_reproducible_source_and_plan",
+    "source_dependency_power": 2
+  },
+  "weights": {
+    "N01_story_context_and_overtime": 0.15,
+    "N02_rework_reveal": 0.15,
+    "N03_cast_and_performance": 0.15,
+    "N04_visual_craft": 0.2,
+    "N05_readable_dialogue": 0.1,
+    "N06_encoded_delivery": 0.05,
+    "N07_reproducible_source_and_plan": 0.05,
+    "N08_role_original_audio": 0.1,
+    "N09_key_effects": 0.05
+  },
+  "lenient_policy": {
+    "version": "minimal-usable-film-v1",
+    "must_have": [
+      "native_media_delivery",
+      "native_reproducible_project",
+      "native_truthful_plan",
+      "native_story",
+      "native_intended_cast",
+      "native_developing_performance",
+      "native_readable_dialogue",
+      "native_required_visual_devices",
+      "native_audible_audio"
+    ],
+    "meaning": "Playable reproducible film with complete core story, matching cast, developing performances, readable captions, required visual devices and an audible soundtrack.",
+    "full_quality_audio": "Original source identity, meaningful original vocal performance, narrative placement and intentional soundtrack design remain strict quality requirements; lenient certifies only audible minimum usability. Crop lengths and energy fractions are diagnostic only. Reasonable editorial trims and designed soundtrack equivalents are accepted.",
+    "no_strict_threshold": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model": "gpt-5.6-sol",
+  "wire_api": "responses",
+  "reasoning_effort": "xhigh",
+  "store": false,
+  "max_output_tokens": 16000,
+  "timeout_ms": 480000,
+  "endpoint_env": "LLM_JUDGE_BASE_URL",
+  "model_env": "LLM_JUDGE_MODEL",
+  "key_env": "LLM_JUDGE_API_KEY",
+  "extraction": {
+    "version": "overview-plus-motion-v2",
+    "fps": 2,
+    "width": 1280,
+    "max_seconds": 45,
+    "source_preview_width": 320,
+    "motion": {
+      "fps": 6,
+      "maximum_windows": 6,
+      "frames_per_window": 12,
+      "cell_width": 640,
+      "pre_roll_seconds": 0.5,
+      "minimum_spacing_seconds": 4,
+      "minimum_change": 2
+    }
+  },
+  "credentials": "Environment only. The runtime never reads candidate files for credentials."
+}

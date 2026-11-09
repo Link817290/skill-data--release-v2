@@ -1,0 +1,501 @@
+{
+  "status": "measured",
+  "items": {
+    "boss_rework": {
+      "correct_story_beat": true,
+      "evidence": "The generator maps the boss role to 110-talking.mp4 and routes its trim 3.0–5.6 seconds into film time 14.7–17.3 seconds. Candidate boss_rework:0000 objectively maps reference-source 0.0–2.6 to that complete film interval with correlation 0.9366 and full measured source-energy coverage. Film frame film-32 at 16.0 seconds is inside the correspondence and shows the boss beside the progressively revealed style, logic, and complete-redo checklist.",
+      "frame_ids": [
+        "film-32"
+      ],
+      "identity_preserved": true,
+      "meaningful_original_performance": true,
+      "selected_candidate_ids": [
+        "boss_rework:0000"
+      ],
+      "source_citations": [
+        {
+          "end_line": 19,
+          "source_file_id": "project-2",
+          "start_line": 13
+        },
+        {
+          "end_line": 72,
+          "source_file_id": "project-2",
+          "start_line": 62
+        },
+        {
+          "end_line": 40,
+          "source_file_id": "project-4",
+          "start_line": 32
+        },
+        {
+          "end_line": 72,
+          "source_file_id": "project-4",
+          "start_line": 66
+        }
+      ],
+      "why": "Identity is established by the direct source route and full-length waveform correspondence. The complete 2.6-second issued excerpt is mixed with only ordinary gain normalization and short boundary fades, so no key original performance is evidenced lost. Its placement coincides with the boss calmly escalating the request through style and logic changes to complete rework.",
+      "mapping_closure_added_candidate_ids": [],
+      "source_file_ids": [
+        "project-2",
+        "project-4"
+      ],
+      "source_quotes": [
+        "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+        "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+        "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+        "      {index===3&&<>\n        <Cat name=\"boss\" x={1300} y={300} height={560} frame={f+105}/>\n        <div className=\"request-board\"><div className=\"board-heading\">本次修改范围 <span>“一点点”</span></div>\n          {['整体风格换一下','逻辑重新梳理一下','顺便，全部重做一下'].map((s,i)=><div key={s} className=\"request\" style={{opacity:interpolate(f,[i*27+6,i*27+14],[0,1],clamp),transform:`translateX(${interpolate(f,[i*27+6,i*27+14],[25,0],clamp)}px)`}}><span>0{i+1}</span>{s}</div>)}\n        </div>\n        <Caption speaker=\"老板\" accent>{f<65?'很简单，整体感觉再调整一下。':'其他都挺好的。就是全部重做一下。'}</Caption>\n      </>}\n"
+      ],
+      "source_quote_bindings": [
+        {
+          "source_file_id": "project-2",
+          "start_line": 13,
+          "end_line": 19,
+          "quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalized_quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-2",
+          "start_line": 62,
+          "end_line": 72,
+          "quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalized_quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 32,
+          "end_line": 40,
+          "quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalized_quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 66,
+          "end_line": 72,
+          "quote": "      {index===3&&<>\n        <Cat name=\"boss\" x={1300} y={300} height={560} frame={f+105}/>\n        <div className=\"request-board\"><div className=\"board-heading\">本次修改范围 <span>“一点点”</span></div>\n          {['整体风格换一下','逻辑重新梳理一下','顺便，全部重做一下'].map((s,i)=><div key={s} className=\"request\" style={{opacity:interpolate(f,[i*27+6,i*27+14],[0,1],clamp),transform:`translateX(${interpolate(f,[i*27+6,i*27+14],[25,0],clamp)}px)`}}><span>0{i+1}</span>{s}</div>)}\n        </div>\n        <Caption speaker=\"老板\" accent>{f<65?'很简单，整体感觉再调整一下。':'其他都挺好的。就是全部重做一下。'}</Caption>\n      </>}\n",
+          "normalized_quote": "      {index===3&&<>\n        <Cat name=\"boss\" x={1300} y={300} height={560} frame={f+105}/>\n        <div className=\"request-board\"><div className=\"board-heading\">本次修改范围 <span>“一点点”</span></div>\n          {['整体风格换一下','逻辑重新梳理一下','顺便，全部重做一下'].map((s,i)=><div key={s} className=\"request\" style={{opacity:interpolate(f,[i*27+6,i*27+14],[0,1],clamp),transform:`translateX(${interpolate(f,[i*27+6,i*27+14],[25,0],clamp)}px)`}}><span>0{i+1}</span>{s}</div>)}\n        </div>\n        <Caption speaker=\"老板\" accent>{f<65?'很简单，整体感觉再调整一下。':'其他都挺好的。就是全部重做一下。'}</Caption>\n      </>}\n",
+          "normalization": "program_materialized_exact_source_lines"
+        }
+      ],
+      "identity_and_beat": 1,
+      "binary_identity_and_story_binding": 1,
+      "diagnostic_source_energy_extent": 1.0,
+      "continuous_content_and_story_completion": 1,
+      "complete_original_content": true,
+      "source_extent": {
+        "boss_rework": {
+          "unique_source_energy_fraction": 1.0,
+          "raw_unique_source_energy_fraction": 1,
+          "unique_source_intervals_seconds": [
+            [
+              0.0,
+              2.6
+            ]
+          ]
+        }
+      },
+      "source_extent_is_diagnostic_only": true
+    },
+    "boss_small_request": {
+      "correct_story_beat": true,
+      "evidence": "The generator maps boss to 110-talking.mp4 and explicitly routes a 2.4-second excerpt beginning at source trim 0.4 to film time 6.0 seconds. Candidate boss_small_request:0000 maps reference-source 0.0–1.975 to film 6.0–7.975 with correlation 0.9757 and approximately 99.9999% of measured source energy. Event frame event-10 at 6.716 seconds lies inside the correspondence and shows the boss facing the employee with the readable small-change message before the workload reveal.",
+      "frame_ids": [
+        "event-10"
+      ],
+      "identity_preserved": true,
+      "meaningful_original_performance": true,
+      "selected_candidate_ids": [
+        "boss_small_request:0000"
+      ],
+      "source_citations": [
+        {
+          "end_line": 19,
+          "source_file_id": "project-2",
+          "start_line": 13
+        },
+        {
+          "end_line": 72,
+          "source_file_id": "project-2",
+          "start_line": 62
+        },
+        {
+          "end_line": 40,
+          "source_file_id": "project-4",
+          "start_line": 32
+        },
+        {
+          "end_line": 59,
+          "source_file_id": "project-4",
+          "start_line": 52
+        }
+      ],
+      "why": "The canonical, coherent candidate is selected rather than the numerous conflicting short aliases. Direct routing plus nearly two seconds of strongly corresponding original signal establishes identity and preserves the substantive performance. The matched interval is placed during the boss's casual introduction of the supposedly tiny request.",
+      "mapping_closure_added_candidate_ids": [],
+      "source_file_ids": [
+        "project-2",
+        "project-4"
+      ],
+      "source_quotes": [
+        "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+        "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+        "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+        "      {index===1&&<>\n        <Cat name=\"typing\" x={150} y={440} height={390} frame={150+f}/>\n        <Cat name=\"boss\" x={1330} y={320} height={540} frame={f+12}/>\n        <Pill style={{left:1410,top:240,background:'#ffc9aa'}}>老板</Pill>\n        <Bubble x={660} y={270} width={590} frame={f} enter={10}>在吗？<br/><strong>有个小改动。</strong></Bubble>\n        {f>70&&<Pill style={{left:300,top:330}}>……现在？</Pill>}\n        <Caption speaker=\"老板\" accent>不耽误你下班，就改一点点。</Caption>\n      </>}\n"
+      ],
+      "source_quote_bindings": [
+        {
+          "source_file_id": "project-2",
+          "start_line": 13,
+          "end_line": 19,
+          "quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalized_quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-2",
+          "start_line": 62,
+          "end_line": 72,
+          "quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalized_quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 32,
+          "end_line": 40,
+          "quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalized_quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 52,
+          "end_line": 59,
+          "quote": "      {index===1&&<>\n        <Cat name=\"typing\" x={150} y={440} height={390} frame={150+f}/>\n        <Cat name=\"boss\" x={1330} y={320} height={540} frame={f+12}/>\n        <Pill style={{left:1410,top:240,background:'#ffc9aa'}}>老板</Pill>\n        <Bubble x={660} y={270} width={590} frame={f} enter={10}>在吗？<br/><strong>有个小改动。</strong></Bubble>\n        {f>70&&<Pill style={{left:300,top:330}}>……现在？</Pill>}\n        <Caption speaker=\"老板\" accent>不耽误你下班，就改一点点。</Caption>\n      </>}\n",
+          "normalized_quote": "      {index===1&&<>\n        <Cat name=\"typing\" x={150} y={440} height={390} frame={150+f}/>\n        <Cat name=\"boss\" x={1330} y={320} height={540} frame={f+12}/>\n        <Pill style={{left:1410,top:240,background:'#ffc9aa'}}>老板</Pill>\n        <Bubble x={660} y={270} width={590} frame={f} enter={10}>在吗？<br/><strong>有个小改动。</strong></Bubble>\n        {f>70&&<Pill style={{left:300,top:330}}>……现在？</Pill>}\n        <Caption speaker=\"老板\" accent>不耽误你下班，就改一点点。</Caption>\n      </>}\n",
+          "normalization": "program_materialized_exact_source_lines"
+        }
+      ],
+      "identity_and_beat": 1,
+      "binary_identity_and_story_binding": 1,
+      "diagnostic_source_energy_extent": 1.0,
+      "continuous_content_and_story_completion": 1,
+      "complete_original_content": true,
+      "source_extent": {
+        "boss_small_request": {
+          "unique_source_energy_fraction": 1.0,
+          "raw_unique_source_energy_fraction": 0.9999990005656676,
+          "unique_source_intervals_seconds": [
+            [
+              0.0,
+              1.975
+            ]
+          ]
+        }
+      },
+      "source_extent_is_diagnostic_only": true
+    },
+    "mocking_colleague": {
+      "correct_story_beat": true,
+      "evidence": "The generator maps laughing to 035-laughing.mp4 and routes a 3.4-second excerpt beginning at source trim 0.3 to film time 22.5 seconds. Two nonconflicting candidates share the correct 22.5-second source-to-film offset: mocking_colleague:0001 maps source 1.025–1.1 to film 23.525–23.6, while mocking_colleague:0000 maps source 1.2625–3.4 to film 23.7625–25.9 with correlation 0.9810 and 99.27% of measured source energy. Film-47 at 23.5 seconds is the nearest sampled frame to the short first fragment's midpoint; event-32 at 24.712 seconds is inside the main fragment. Both frames show the pointing, open-mouthed colleague with the mocking small-change and overnight-work commentary.",
+      "frame_ids": [
+        "event-32",
+        "film-47"
+      ],
+      "identity_preserved": true,
+      "meaningful_original_performance": true,
+      "selected_candidate_ids": [
+        "mocking_colleague:0000",
+        "mocking_colleague:0001"
+      ],
+      "source_citations": [
+        {
+          "end_line": 19,
+          "source_file_id": "project-2",
+          "start_line": 13
+        },
+        {
+          "end_line": 72,
+          "source_file_id": "project-2",
+          "start_line": 62
+        },
+        {
+          "end_line": 40,
+          "source_file_id": "project-4",
+          "start_line": 32
+        },
+        {
+          "end_line": 85,
+          "source_file_id": "project-4",
+          "start_line": 80
+        }
+      ],
+      "why": "The two selected fragments are corroborated parts of one coherent routed performance, not conflicting coordinate aliases. The main fragment preserves more than two seconds and nearly all measured source energy, while the generator routes the entire issued excerpt. The correspondence is correctly bound to the colleague's amused, knowing mockery after the employee has fallen for the boss's promise.",
+      "mapping_closure_added_candidate_ids": [],
+      "source_file_ids": [
+        "project-2",
+        "project-4"
+      ],
+      "source_quotes": [
+        "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+        "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+        "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+        "      {index===5&&<>\n        <Cat name=\"laughing\" x={220} y={280} height={580} frame={f}/>\n        <Bubble x={1000} y={310} width={680} frame={f} enter={8}>他说「一点点」，<br/>你怎么还<strong>当真了？</strong></Bubble>\n        <Pill style={{left:370,top:205}}>隔壁工位 · 过来猫</Pill>\n        <Caption speaker=\"同事\">上次他说「五分钟」，我过了个夜。</Caption>\n      </>}\n"
+      ],
+      "source_quote_bindings": [
+        {
+          "source_file_id": "project-2",
+          "start_line": 13,
+          "end_line": 19,
+          "quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalized_quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-2",
+          "start_line": 62,
+          "end_line": 72,
+          "quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalized_quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 32,
+          "end_line": 40,
+          "quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalized_quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 80,
+          "end_line": 85,
+          "quote": "      {index===5&&<>\n        <Cat name=\"laughing\" x={220} y={280} height={580} frame={f}/>\n        <Bubble x={1000} y={310} width={680} frame={f} enter={8}>他说「一点点」，<br/>你怎么还<strong>当真了？</strong></Bubble>\n        <Pill style={{left:370,top:205}}>隔壁工位 · 过来猫</Pill>\n        <Caption speaker=\"同事\">上次他说「五分钟」，我过了个夜。</Caption>\n      </>}\n",
+          "normalized_quote": "      {index===5&&<>\n        <Cat name=\"laughing\" x={220} y={280} height={580} frame={f}/>\n        <Bubble x={1000} y={310} width={680} frame={f} enter={8}>他说「一点点」，<br/>你怎么还<strong>当真了？</strong></Bubble>\n        <Pill style={{left:370,top:205}}>隔壁工位 · 过来猫</Pill>\n        <Caption speaker=\"同事\">上次他说「五分钟」，我过了个夜。</Caption>\n      </>}\n",
+          "normalization": "program_materialized_exact_source_lines"
+        }
+      ],
+      "identity_and_beat": 1,
+      "binary_identity_and_story_binding": 1,
+      "diagnostic_source_energy_extent": 1.0,
+      "continuous_content_and_story_completion": 1,
+      "complete_original_content": true,
+      "source_extent": {
+        "mocking_colleague": {
+          "unique_source_energy_fraction": 1.0,
+          "raw_unique_source_energy_fraction": 0.9999999966434,
+          "unique_source_intervals_seconds": [
+            [
+              1.025,
+              1.1
+            ],
+            [
+              1.2625,
+              3.4
+            ]
+          ]
+        }
+      },
+      "source_extent_is_diagnostic_only": true
+    },
+    "puzzled": {
+      "correct_story_beat": true,
+      "evidence": "The generator maps confused to 013-confused.mp4 and routes the complete requested 1.7-second excerpt from source time 0 into the soundtrack at film time 10.5 seconds. Candidate puzzled:0000 maps reference-source 0.8125–1.2125 to film 11.3125–11.7125 with correlation 0.9898 and essentially all measured source energy. Event frame event-22 at 11.512 seconds is inside the match and shows the front-facing paused cat with the optimistic interpretation of changing one character or punctuation in 30 seconds.",
+      "frame_ids": [
+        "event-22"
+      ],
+      "identity_preserved": true,
+      "meaningful_original_performance": true,
+      "selected_candidate_ids": [
+        "puzzled:0000"
+      ],
+      "source_citations": [
+        {
+          "end_line": 19,
+          "source_file_id": "project-2",
+          "start_line": 13
+        },
+        {
+          "end_line": 72,
+          "source_file_id": "project-2",
+          "start_line": 62
+        },
+        {
+          "end_line": 40,
+          "source_file_id": "project-4",
+          "start_line": 32
+        },
+        {
+          "end_line": 65,
+          "source_file_id": "project-4",
+          "start_line": 60
+        }
+      ],
+      "why": "Objective waveform correspondence and direct extraction establish the original puzzled-source identity. Although the mechanically detected energetic portion is brief, the routing mixes the whole 1.7-second source excerpt and the detected portion contains essentially all measured source energy; there is no evidence that a key reaction was truncated. It occurs during the employee's mild, optimistic misunderstanding, before the stronger shock.",
+      "mapping_closure_added_candidate_ids": [],
+      "source_file_ids": [
+        "project-2",
+        "project-4"
+      ],
+      "source_quotes": [
+        "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+        "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+        "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+        "      {index===2&&<>\n        <div className=\"thought-label\">我的脑内翻译</div>\n        <Cat name=\"confused\" x={300} y={300} height={550} frame={f}/>\n        <div className=\"interpretation\"><div className=\"small\">所谓「小改动」</div><div>改个标点？</div><div className=\"estimate\">预计耗时 <b>30 秒</b></div></div>\n        <Caption speaker=\"内心\">改一个字对吧？那没问题。</Caption>\n      </>}\n"
+      ],
+      "source_quote_bindings": [
+        {
+          "source_file_id": "project-2",
+          "start_line": 13,
+          "end_line": 19,
+          "quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalized_quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-2",
+          "start_line": 62,
+          "end_line": 72,
+          "quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalized_quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 32,
+          "end_line": 40,
+          "quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalized_quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 60,
+          "end_line": 65,
+          "quote": "      {index===2&&<>\n        <div className=\"thought-label\">我的脑内翻译</div>\n        <Cat name=\"confused\" x={300} y={300} height={550} frame={f}/>\n        <div className=\"interpretation\"><div className=\"small\">所谓「小改动」</div><div>改个标点？</div><div className=\"estimate\">预计耗时 <b>30 秒</b></div></div>\n        <Caption speaker=\"内心\">改一个字对吧？那没问题。</Caption>\n      </>}\n",
+          "normalized_quote": "      {index===2&&<>\n        <div className=\"thought-label\">我的脑内翻译</div>\n        <Cat name=\"confused\" x={300} y={300} height={550} frame={f}/>\n        <div className=\"interpretation\"><div className=\"small\">所谓「小改动」</div><div>改个标点？</div><div className=\"estimate\">预计耗时 <b>30 秒</b></div></div>\n        <Caption speaker=\"内心\">改一个字对吧？那没问题。</Caption>\n      </>}\n",
+          "normalization": "program_materialized_exact_source_lines"
+        }
+      ],
+      "identity_and_beat": 1,
+      "binary_identity_and_story_binding": 1,
+      "diagnostic_source_energy_extent": 1.0,
+      "continuous_content_and_story_completion": 1,
+      "complete_original_content": true,
+      "source_extent": {
+        "puzzled": {
+          "unique_source_energy_fraction": 1.0,
+          "raw_unique_source_energy_fraction": 0.9999999984268714,
+          "unique_source_intervals_seconds": [
+            [
+              0.8125,
+              1.2125
+            ]
+          ]
+        }
+      },
+      "source_extent_is_diagnostic_only": true
+    },
+    "shocked": {
+      "correct_story_beat": true,
+      "evidence": "The generator maps shocked to 127-shocked.mp4 and routes a 1.9-second source excerpt from trim 0 at film time 19.35 seconds. Candidate shocked:0000 coherently maps reference-source 0.2875–1.9 to film 19.6375–21.25 with correlation 0.9897 and full measured source-energy coverage. Event frame event-27 at 20.224 seconds lies inside the correspondence and shows the wide-eyed, open-mouthed employee reaction beneath the enlarged 重做？ emphasis after the complete-redo reveal.",
+      "frame_ids": [
+        "event-27"
+      ],
+      "identity_preserved": true,
+      "meaningful_original_performance": true,
+      "selected_candidate_ids": [
+        "shocked:0000"
+      ],
+      "source_citations": [
+        {
+          "end_line": 19,
+          "source_file_id": "project-2",
+          "start_line": 13
+        },
+        {
+          "end_line": 72,
+          "source_file_id": "project-2",
+          "start_line": 62
+        },
+        {
+          "end_line": 40,
+          "source_file_id": "project-4",
+          "start_line": 32
+        },
+        {
+          "end_line": 79,
+          "source_file_id": "project-4",
+          "start_line": 73
+        }
+      ],
+      "why": "The canonical full-energy correspondence and explicit source route establish identity. The full 1.9-second excerpt is extracted, while the supported 1.6125-second interval contains all measured source energy, so the original reaction is not evidenced as fragmented or missing its key expression. It is correctly placed after the boss reveals that everything must be redone, distinctly later and stronger than the puzzled reaction.",
+      "mapping_closure_added_candidate_ids": [],
+      "source_file_ids": [
+        "project-2",
+        "project-4"
+      ],
+      "source_quotes": [
+        "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+        "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+        "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+        "      {index===4&&<>\n        <AbsoluteFill style={{background:'rgba(13,22,27,.52)'}}/>\n        <div className=\"shock-word\" style={{transform:`scale(${interpolate(f,[0,10,89],[.8,1,1.04],clamp)})`}}>重 做 ？</div>\n        <Cat name=\"shocked\" x={800} y={280} height={600} frame={f} style={{transform:`scale(${interpolate(f,[0,70],[1,1.12],clamp)})`,transformOrigin:'bottom'}}/>\n        <Pill style={{left:130,top:330,background:'#ff745b',transform:'rotate(-8deg)'}}>CPU 已停止工作</Pill>\n        <Caption speaker=\"内心\">你管这个……叫微调？</Caption>\n      </>}\n"
+      ],
+      "source_quote_bindings": [
+        {
+          "source_file_id": "project-2",
+          "start_line": 13,
+          "end_line": 19,
+          "quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalized_quote": "const specs=[\n  {id:'typing',file:'060-typing.mp4',key:'0x329f39',similarity:0.10,blend:0.045},\n  {id:'boss',file:'110-talking.mp4',key:'0x20f000',similarity:0.30,blend:0.08},\n  {id:'confused',file:'013-confused.mp4',key:'0x00ef39',similarity:0.27,blend:0.08},\n  {id:'shocked',file:'127-shocked.mp4',key:'0x29ee00',similarity:0.30,blend:0.08},\n  {id:'laughing',file:'035-laughing.mp4',key:'0x2eee00',similarity:0.30,blend:0.08},\n  {id:'sad',file:'2376-sad.mp4',key:'0x36dd00',similarity:0.28,blend:0.08},\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-2",
+          "start_line": 62,
+          "end_line": 72,
+          "quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalized_quote": "// Small original meme-audio reactions, normalized individually before mixing.\nfor(const cue of [{id:'boss',start:6.0,trim:.4,length:2.4,gain:.19},{id:'confused',start:10.5,trim:0,length:1.7,gain:.24},{id:'boss',start:14.7,trim:3,length:2.6,gain:.19},{id:'shocked',start:19.35,trim:0,length:1.9,gain:.2},{id:'laughing',start:22.5,trim:.3,length:3.4,gain:.25}]){\n  const spec=specs.find(s=>s.id===cue.id);\n  const raw=run(['-loglevel','error','-ss',String(cue.trim),'-t',String(cue.length),'-i',path.join(source,'cats',spec.file),'-vn','-ac','1','-ar',String(sr),'-f','f32le','pipe:1']).stdout;\n  let peak=.001;for(let k=0;k<raw.length;k+=4)peak=Math.max(peak,Math.abs(raw.readFloatLE(k)));\n  const offset=Math.round(cue.start*sr),n=raw.length/4;\n  for(let k=0;k<n&&offset+k<samples.length;k++){const fade=Math.min(1,k/1000,(n-k)/2000);samples[offset+k]+=raw.readFloatLE(k*4)/peak*cue.gain*fade;}\n}\nconst pcm=Buffer.alloc(samples.length*2);let peak=0;for(const v of samples)peak=Math.max(peak,Math.abs(v));\nfor(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(samples[i]/Math.max(1,peak/0.85)*32767),i*2);\nrun(['-loglevel','error','-f','s16le','-ar',String(sr),'-ac','1','-i','pipe:0','-af','loudnorm=I=-16:TP=-1.5:LRA=9','-ar',String(sr),path.join(assets,'soundtrack.wav')],{input:pcm});\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 32,
+          "end_line": 40,
+          "quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalized_quote": "function Film(){\n  const frame=useCurrentFrame();const shot=beats.find(b=>frame>=b.from&&frame<b.to)!;\n  const f=frame-shot.from;const index=beats.indexOf(shot);const night=index===6||index===7;\n  const zoom=1+f*.00012;\n  const shake=index===4&&f<14?Math.sin(f*2.4)*(14-f)*1.3:0;\n  const time=index===6?['18:01','19:36','21:08','22:47','23:59'][Math.min(4,Math.floor(f/30))]:shot.time;\n  return <AbsoluteFill className=\"film\">\n    <Audio src={staticFile('assets/soundtrack.wav')}/>\n    <AbsoluteFill style={{transform:`translateX(${shake}px)`}}>\n",
+          "normalization": "program_materialized_exact_source_lines"
+        },
+        {
+          "source_file_id": "project-4",
+          "start_line": 73,
+          "end_line": 79,
+          "quote": "      {index===4&&<>\n        <AbsoluteFill style={{background:'rgba(13,22,27,.52)'}}/>\n        <div className=\"shock-word\" style={{transform:`scale(${interpolate(f,[0,10,89],[.8,1,1.04],clamp)})`}}>重 做 ？</div>\n        <Cat name=\"shocked\" x={800} y={280} height={600} frame={f} style={{transform:`scale(${interpolate(f,[0,70],[1,1.12],clamp)})`,transformOrigin:'bottom'}}/>\n        <Pill style={{left:130,top:330,background:'#ff745b',transform:'rotate(-8deg)'}}>CPU 已停止工作</Pill>\n        <Caption speaker=\"内心\">你管这个……叫微调？</Caption>\n      </>}\n",
+          "normalized_quote": "      {index===4&&<>\n        <AbsoluteFill style={{background:'rgba(13,22,27,.52)'}}/>\n        <div className=\"shock-word\" style={{transform:`scale(${interpolate(f,[0,10,89],[.8,1,1.04],clamp)})`}}>重 做 ？</div>\n        <Cat name=\"shocked\" x={800} y={280} height={600} frame={f} style={{transform:`scale(${interpolate(f,[0,70],[1,1.12],clamp)})`,transformOrigin:'bottom'}}/>\n        <Pill style={{left:130,top:330,background:'#ff745b',transform:'rotate(-8deg)'}}>CPU 已停止工作</Pill>\n        <Caption speaker=\"内心\">你管这个……叫微调？</Caption>\n      </>}\n",
+          "normalization": "program_materialized_exact_source_lines"
+        }
+      ],
+      "identity_and_beat": 1,
+      "binary_identity_and_story_binding": 1,
+      "diagnostic_source_energy_extent": 1.0,
+      "continuous_content_and_story_completion": 1,
+      "complete_original_content": true,
+      "source_extent": {
+        "shocked": {
+          "unique_source_energy_fraction": 1.0,
+          "raw_unique_source_energy_fraction": 1,
+          "unique_source_intervals_seconds": [
+            [
+              0.2875,
+              1.9
+            ]
+          ]
+        }
+      },
+      "source_extent_is_diagnostic_only": true
+    }
+  }
+}
