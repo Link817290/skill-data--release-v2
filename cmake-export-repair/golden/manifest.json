@@ -1,0 +1,4 @@
+{
+  "kind": "reference-deliverable",
+  "files": ["build_report.json", "analysis/diagnosis.md", "patches/patch_0.diff", "project"]
+}

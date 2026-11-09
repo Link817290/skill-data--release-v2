@@ -1,0 +1,13 @@
+{
+  "schema": "cmake-golden-request-binding-v1",
+  "request_sha256": "7612660f54ff206cd4dd573d79bf944266b145d0f250ad07d43e6a4f97f4e998",
+  "artifacts": {
+    "golden/analysis/diagnosis.md": "18a603acfe05996c6e06651734c72f44e9c77938ff8f76f56654d66d024b5624",
+    "golden/build_report.json": "dce12ca90642c6f534deb3b480859db7bb2256bda661cfa492801b24bb2ac9dd"
+  },
+  "semantic_evidence_sha256": "0d4ff4c087cfba7825bcb2e48be71cd3c4237040383809af50a91cb92b3ec3fc",
+  "native_validation_sha256": "ef410736978d754fc1e71eb50fe8d43144441503687d71afbf72e02fc42ccc36",
+  "semantic_judge_sha256": "ab9cb0474d7bda51ba91f77d8cfc01328a02d8f2b2d47f34637ded0680d92c4b",
+  "scorer_sha256": "bd3e29f819b0026229be06fb7bad82aa45bf92cab30abf3a156bf2181a7f162e",
+  "model": "gpt-5.6-sol"
+}

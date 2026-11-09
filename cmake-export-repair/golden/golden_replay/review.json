@@ -1,0 +1,122 @@
+{
+  "items": {
+    "D1": {
+      "fraction": 1.0,
+      "id": "D1",
+      "quotes": [
+        "The fresh reproductions of the supplied command workflows expose downstream configure and link failures across three producer-metadata contracts and two install layouts, not defects in the C implementation. The first is a link failure: the package never creates the `cjson_utils-static` imported target, so CMake treats that identifier as the raw linker name `-lcjson_utils-static`. The archives exist under deliberately preserved output names, which rules out a producer compile failure.",
+        "The fresh relocation reproductions fail earlier, during downstream CMake configuration. Their generated import file references `/tmp/package-stage-a` after that staging prefix was removed. The `.pc` query independently emits include and library flags rooted at the removed prefix, causing the compiler to miss a public header. A successful producer build and package discovery therefore do not close either consumption contract. The second relocation deliberately uses the multi-component library directory `lib/x86_64-linux-gnu` and the selected include directory `include/sdk`; a fixed number of parent traversals that only fits `lib/pkgconfig` would misidentify `<moved-prefix>/lib` as the package"
+      ],
+      "reason": "Explains successful producer/archive creation versus downstream link, configure, and header failures, and attributes them to producer metadata rather than C implementation defects."
+    },
+    "D2": {
+      "fraction": 1.0,
+      "id": "D2",
+      "quotes": [
+        "The fresh reproductions of the supplied command workflows expose downstream configure and link failures across three producer-metadata contracts and two install layouts, not defects in the C implementation. The first is a link failure: the package never creates the `cjson_utils-static` imported target, so CMake treats that identifier as the raw linker name `-lcjson_utils-static`. The archives exist under deliberately preserved output names, which rules out a producer compile failure.",
+        "The static targets were installed as files but omitted from the export sets; `cjson_utils-static` transitively links `cjson-static`, so both public target identifiers must be exported together while their output names stay stable. Separately, absolute `CMAKE_INSTALL_FULL_*` destinations capture the removed staging prefix in generated import metadata. Relative GNUInstallDirs destinations allow CMake's generated `_IMPORT_PREFIX` to follow the current package location. For the legacy variables, `configure_package_config_file` derives `PACKAGE_PREFIX_DIR` from the configured install destination and expands the selected include directory through `PATH_VARS`; this relationship makes CJSON_INCLUDE_"
+      ],
+      "reason": "Causally connects omitted static export targets to CMake treating cjson_utils-static as a raw linker name, while explaining the static-utils-to-static-core dependency and preserved archive output names."
+    },
+    "D3": {
+      "fraction": 1.0,
+      "id": "D3",
+      "quotes": [
+        "The fresh relocation reproductions fail earlier, during downstream CMake configuration. Their generated import file references `/tmp/package-stage-a` after that staging prefix was removed. The `.pc` query independently emits include and library flags rooted at the removed prefix, causing the compiler to miss a public header. A successful producer build and package discovery therefore do not close either consumption contract. The second relocation deliberately uses the multi-component library directory `lib/x86_64-linux-gnu` and the selected include directory `include/sdk`; a fixed number of parent traversals that only fits `lib/pkgconfig` would misidentify `<moved-prefix>/lib` as the package",
+        "The static targets were installed as files but omitted from the export sets; `cjson_utils-static` transitively links `cjson-static`, so both public target identifiers must be exported together while their output names stay stable. Separately, absolute `CMAKE_INSTALL_FULL_*` destinations capture the removed staging prefix in generated import metadata. Relative GNUInstallDirs destinations allow CMake's generated `_IMPORT_PREFIX` to follow the current package location. For the legacy variables, `configure_package_config_file` derives `PACKAGE_PREFIX_DIR` from the configured install destination and expands the selected include directory through `PATH_VARS`; this relationship makes CJSON_INCLUDE_"
+      ],
+      "reason": "Explains that absolute install destinations capture the staging prefix in generated imports, which then reference nonexistent files after the original prefix is removed or relocated."
+    },
+    "D4": {
+      "fraction": 1.0,
+      "id": "D4",
+      "quotes": [
+        "The fresh relocation reproductions fail earlier, during downstream CMake configuration. Their generated import file references `/tmp/package-stage-a` after that staging prefix was removed. The `.pc` query independently emits include and library flags rooted at the removed prefix, causing the compiler to miss a public header. A successful producer build and package discovery therefore do not close either consumption contract. The second relocation deliberately uses the multi-component library directory `lib/x86_64-linux-gnu` and the selected include directory `include/sdk`; a fixed number of parent traversals that only fits `lib/pkgconfig` would misidentify `<moved-prefix>/lib` as the package",
+        "The two pkg-config templates are a metadata contract separate from the CMake exports. Their stale include and library flags point to the removed prefix; their prefix is now derived from `${pcfiledir}`. The producer computes `CJSON_PC_PREFIX` as the relative path from the actual `${CMAKE_INSTALL_LIBDIR}/pkgconfig` install location back to the prefix, while the templates preserve the configured relative `libdir` and `includedir` names. The existing `Requires: libcjson` dependency declaration and core `Libs.private: -lm` edge remain unchanged. Editing a consumer search path, renaming archives, or patching generated metadata would only hide the producer defect. The patch preserves public target "
+      ],
+      "reason": "Independently explains that stale pkg-config metadata emits include and library paths rooted at the removed prefix, causing the public-header compile failure."
+    },
+    "D5": {
+      "fraction": 1.0,
+      "id": "D5",
+      "quotes": [
+        "The two pkg-config templates are a metadata contract separate from the CMake exports. Their stale include and library flags point to the removed prefix; their prefix is now derived from `${pcfiledir}`. The producer computes `CJSON_PC_PREFIX` as the relative path from the actual `${CMAKE_INSTALL_LIBDIR}/pkgconfig` install location back to the prefix, while the templates preserve the configured relative `libdir` and `includedir` names. The existing `Requires: libcjson` dependency declaration and core `Libs.private: -lm` edge remain unchanged. Editing a consumer search path, renaming archives, or patching generated metadata would only hide the producer defect. The patch preserves public target ",
+        "identifiers, archive output names, shared library behavior, and all implementation/header bytes."
+      ],
+      "reason": "Identifies pkg-config templates and CMake exports as separate consumer contracts and states the repair preserves public identifiers, archive names, shared behavior, and implementation/header contents."
+    },
+    "E3": {
+      "fraction": 1.0,
+      "id": "E3",
+      "quotes": [
+        "Validation starts from fresh producer copies and staging prefixes, moves each installed tree, deletes each original prefix, and uses only the moved package. The default layout has independent CMake shared-core and static-utility consumers plus a pkg-config consumer. The multi-component library layout checks the legacy CMake include variable, builds and runs the static target, and queries, builds, and runs through pkg-config. This smoke scope establishes the captured configure/link/load paths and two requested layouts, not general ABI compatibility, alternate generators, platforms, or untested package-manager conventions.",
+        "The original evidence bundle supplied commands but omitted historical stdout/stderr. `failure/fresh-reproduction.json` contains newly executed commands, exit statuses, output and source hashes; these are fresh local reproductions, not recovered historical records."
+      ],
+      "reason": "States what the moved-prefix CMake and pkg-config build/run smoke tests establish, explicitly limits their generality, and correctly distinguishes fresh reproduction records from unavailable historical output."
+    },
+    "L1": {
+      "fraction": 1.0,
+      "id": "L1",
+      "quotes": [
+        "The fresh relocation reproductions fail earlier, during downstream CMake configuration. Their generated import file references `/tmp/package-stage-a` after that staging prefix was removed. The `.pc` query independently emits include and library flags rooted at the removed prefix, causing the compiler to miss a public header. A successful producer build and package discovery therefore do not close either consumption contract. The second relocation deliberately uses the multi-component library directory `lib/x86_64-linux-gnu` and the selected include directory `include/sdk`; a fixed number of parent traversals that only fits `lib/pkgconfig` would misidentify `<moved-prefix>/lib` as the package",
+        " prefix in that layout; the resulting include and library flags then point below lib rather than to the actual prefix and the consumer cannot find its headers or libraries."
+      ],
+      "reason": "Explains that traversal suitable for lib/pkgconfig computes moved-prefix/lib for the multi-component layout, producing incorrect flags beneath lib and preventing header or library discovery."
+    },
+    "L2": {
+      "fraction": 1.0,
+      "id": "L2",
+      "quotes": [
+        "The static targets were installed as files but omitted from the export sets; `cjson_utils-static` transitively links `cjson-static`, so both public target identifiers must be exported together while their output names stay stable. Separately, absolute `CMAKE_INSTALL_FULL_*` destinations capture the removed staging prefix in generated import metadata. Relative GNUInstallDirs destinations allow CMake's generated `_IMPORT_PREFIX` to follow the current package location. For the legacy variables, `configure_package_config_file` derives `PACKAGE_PREFIX_DIR` from the configured install destination and expands the selected include directory through `PATH_VARS`; this relationship makes CJSON_INCLUDE_",
+        "DIRS point to the relocated include/sdk directory even when the library directory has more than one path component."
+      ],
+      "reason": "Explains how configure_package_config_file derives the current package prefix and expands the configured include destination through PATH_VARS, including relocation to include/sdk."
+    },
+    "L3": {
+      "fraction": 1.0,
+      "id": "L3",
+      "quotes": [
+        "The two pkg-config templates are a metadata contract separate from the CMake exports. Their stale include and library flags point to the removed prefix; their prefix is now derived from `${pcfiledir}`. The producer computes `CJSON_PC_PREFIX` as the relative path from the actual `${CMAKE_INSTALL_LIBDIR}/pkgconfig` install location back to the prefix, while the templates preserve the configured relative `libdir` and `includedir` names. The existing `Requires: libcjson` dependency declaration and core `Libs.private: -lm` edge remain unchanged. Editing a consumer search path, renaming archives, or patching generated metadata would only hide the producer defect. The patch preserves public target "
+      ],
+      "reason": "Explains producer-side calculation of the relative path from the actual selected libdir/pkgconfig location back to the prefix, which accommodates arbitrary directory depth."
+    },
+    "P1": {
+      "fraction": 1.0,
+      "id": "P1",
+      "quotes": [
+        "The static targets were installed as files but omitted from the export sets; `cjson_utils-static` transitively links `cjson-static`, so both public target identifiers must be exported together while their output names stay stable. Separately, absolute `CMAKE_INSTALL_FULL_*` destinations capture the removed staging prefix in generated import metadata. Relative GNUInstallDirs destinations allow CMake's generated `_IMPORT_PREFIX` to follow the current package location. For the legacy variables, `configure_package_config_file` derives `PACKAGE_PREFIX_DIR` from the configured install destination and expands the selected include directory through `PATH_VARS`; this relationship makes CJSON_INCLUDE_"
+      ],
+      "reason": "Explains why both static target IDs must be exported together due to the transitive static-utils dependency, while keeping output names stable."
+    },
+    "P2": {
+      "fraction": 1.0,
+      "id": "P2",
+      "quotes": [
+        "The static targets were installed as files but omitted from the export sets; `cjson_utils-static` transitively links `cjson-static`, so both public target identifiers must be exported together while their output names stay stable. Separately, absolute `CMAKE_INSTALL_FULL_*` destinations capture the removed staging prefix in generated import metadata. Relative GNUInstallDirs destinations allow CMake's generated `_IMPORT_PREFIX` to follow the current package location. For the legacy variables, `configure_package_config_file` derives `PACKAGE_PREFIX_DIR` from the configured install destination and expands the selected include directory through `PATH_VARS`; this relationship makes CJSON_INCLUDE_",
+        "The two pkg-config templates are a metadata contract separate from the CMake exports. Their stale include and library flags point to the removed prefix; their prefix is now derived from `${pcfiledir}`. The producer computes `CJSON_PC_PREFIX` as the relative path from the actual `${CMAKE_INSTALL_LIBDIR}/pkgconfig` install location back to the prefix, while the templates preserve the configured relative `libdir` and `includedir` names. The existing `Requires: libcjson` dependency declaration and core `Libs.private: -lm` edge remain unchanged. Editing a consumer search path, renaming archives, or patching generated metadata would only hide the producer defect. The patch preserves public target "
+      ],
+      "reason": "Explains that relative GNUInstallDirs destinations let generated package-prefix metadata follow the current package location and rejects consumer-path or generated-output patching as masking the producer defect."
+    },
+    "P3": {
+      "fraction": 1.0,
+      "id": "P3",
+      "quotes": [
+        "The two pkg-config templates are a metadata contract separate from the CMake exports. Their stale include and library flags point to the removed prefix; their prefix is now derived from `${pcfiledir}`. The producer computes `CJSON_PC_PREFIX` as the relative path from the actual `${CMAKE_INSTALL_LIBDIR}/pkgconfig` install location back to the prefix, while the templates preserve the configured relative `libdir` and `includedir` names. The existing `Requires: libcjson` dependency declaration and core `Libs.private: -lm` edge remain unchanged. Editing a consumer search path, renaming archives, or patching generated metadata would only hide the producer defect. The patch preserves public target "
+      ],
+      "reason": "Explains deriving the pkg-config prefix relative to the actual metadata installation location, retaining configured relative lib/include directories and preserving Requires and Libs.private edges."
+    }
+  },
+  "model": "gpt-5.6-sol",
+  "origin": "live",
+  "request_sha256": "7612660f54ff206cd4dd573d79bf944266b145d0f250ad07d43e6a4f97f4e998",
+  "response_sha256": "d4638eb25ec9c5f86a2d954ab0fbcacbe814e335a93d3adc847e5406b1c3b966",
+  "validation": {
+    "schema_valid": true,
+    "exact_candidate_quotes": true,
+    "semantic_items": 12
+  },
+  "rewards": {
+    "lenient": 1.0,
+    "strict": 1.0
+  }
+}

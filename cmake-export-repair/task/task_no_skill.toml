@@ -1,0 +1,48 @@
+id = "cmake-export-repair-no-skill"
+artifacts = [
+  { source = "/workspace/analysis/diagnosis.md", destination = "analysis/diagnosis.md" },
+  { source = "/workspace/patches/patch_0.diff", destination = "patches/patch_0.diff" },
+  { source = "/workspace/project", destination = "project" },
+  { source = "/workspace/build_report.json", destination = "build_report.json" },
+]
+title = "Repair a native CMake library export (no skill)"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+
+[metadata]
+tags = ["software-engineering", "cmake", "c", "compiler-toolchain", "build-repair"]
+
+[agent]
+timeout_sec = 7200.0
+
+[verifier]
+timeout_sec = 300.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/judge-cache}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-240}"
+
+[environment]
+docker_image = "cmake-export-repair:local"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 600.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/build_report.json"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

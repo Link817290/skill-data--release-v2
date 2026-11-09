@@ -1,0 +1,349 @@
+{
+  "status": "pass",
+  "before_reproduction": [
+    {
+      "label": "before_producer_configure",
+      "argv": [
+        "cmake",
+        "-S",
+        "/audit/fresh-solve-5/project",
+        "-B",
+        "/tmp/cjson-oracle-before-muhxnpx_/build",
+        "-DBUILD_SHARED_AND_STATIC_LIBS=ON",
+        "-DENABLE_CJSON_UTILS=ON",
+        "-DENABLE_TARGET_EXPORT=ON",
+        "-DENABLE_CJSON_TEST=OFF",
+        "-DCMAKE_INSTALL_PREFIX=/tmp/cjson-oracle-before-muhxnpx_/prefix-a"
+      ],
+      "exit_code": 0,
+      "output_tail": "_SUPPORTED_stdc89\n-- Performing Test FLAG_SUPPORTED_stdc89 - Success\n-- Performing Test FLAG_SUPPORTED_pedantic\n-- Performing Test FLAG_SUPPORTED_pedantic - Success\n-- Performing Test FLAG_SUPPORTED_Wall\n-- Performing Test FLAG_SUPPORTED_Wall - Success\n-- Performing Test FLAG_SUPPORTED_Wextra\n-- Performing Test FLAG_SUPPORTED_Wextra - Success\n-- Performing Test FLAG_SUPPORTED_Werror\n-- Performing Test FLAG_SUPPORTED_Werror - Success\n-- Performing Test FLAG_SUPPORTED_Wstrictprototypes\n-- Performing Test FLAG_SUPPORTED_Wstrictprototypes - Success\n-- Performing Test FLAG_SUPPORTED_Wwritestrings\n-- Performing Test FLAG_SUPPORTED_Wwritestrings - Success\n-- Performing Test FLAG_SUPPORTED_Wshadow\n-- Performing Test FLAG_SUPPORTED_Wshadow - Success\n-- Performing Test FLAG_SUPPORTED_Winitself\n-- Performing Test FLAG_SUPPORTED_Winitself - Success\n-- Performing Test FLAG_SUPPORTED_Wcastalign\n-- Performing Test FLAG_SUPPORTED_Wcastalign - Success\n-- Performing Test FLAG_SUPPORTED_Wformat2\n-- Performing Test FLAG_SUPPORTED_Wformat2 - Success\n-- Performing Test FLAG_SUPPORTED_Wmissingprototypes\n-- Performing Test FLAG_SUPPORTED_Wmissingprototypes - Success\n-- Performing Test FLAG_SUPPORTED_Wstrictoverflow2\n-- Performing Test FLAG_SUPPORTED_Wstrictoverflow2 - Success\n-- Performing Test FLAG_SUPPORTED_Wcastqual\n-- Performing Test FLAG_SUPPORTED_Wcastqual - Success\n-- Performing Test FLAG_SUPPORTED_Wundef\n-- Performing Test FLAG_SUPPORTED_Wundef - Success\n-- Performing Test FLAG_SUPPORTED_Wswitchdefault\n-- Performing Test FLAG_SUPPORTED_Wswitchdefault - Success\n-- Performing Test FLAG_SUPPORTED_Wconversion\n-- Performing Test FLAG_SUPPORTED_Wconversion - Success\n-- Performing Test FLAG_SUPPORTED_Wccompat\n-- Performing Test FLAG_SUPPORTED_Wccompat - Success\n-- Performing Test FLAG_SUPPORTED_fstackprotectorstrong\n-- Performing Test FLAG_SUPPORTED_fstackprotectorstrong - Success\n-- Performing Test FLAG_SUPPORTED_Wcomma\n-- Performing Test FLAG_SUPPORTED_Wcomma - Failed\n-- Performing Test FLAG_SUPPORTED_Wdoublepromotion\n-- Performing Test FLAG_SUPPORTED_Wdoublepromotion - Success\n-- Performing Test FLAG_SUPPORTED_Wparentheses\n-- Performing Test FLAG_SUPPORTED_Wparentheses - Success\n-- Performing Test FLAG_SUPPORTED_Wformatoverflow\n-- Performing Test FLAG_SUPPORTED_Wformatoverflow - Success\n-- Performing Test FLAG_SUPPORTED_Wunusedmacros\n-- Performing Test FLAG_SUPPORTED_Wunusedmacros - Success\n-- Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations\n-- Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations - Failed\n-- Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused\n-- Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused - Failed\n-- Performing Test FLAG_SUPPORTED_Wswitchenum\n-- Performing Test FLAG_SUPPORTED_Wswitchenum - Success\n-- Performing Test FLAG_SUPPORTED_fvisibilityhidden\n-- Performing Test FLAG_SUPPORTED_fvisibilityhidden - Success\n-- Configuring done\n-- Generating done\n-- Build files have been written to: /tmp/cjson-oracle-before-muhxnpx_/build\n"
+    },
+    {
+      "label": "before_producer_build",
+      "argv": [
+        "cmake",
+        "--build",
+        "/tmp/cjson-oracle-before-muhxnpx_/build",
+        "-j2"
+      ],
+      "exit_code": 0,
+      "output_tail": "[ 12%] Building C object CMakeFiles/cjson.dir/cJSON.c.o\n[ 25%] Building C object CMakeFiles/cjson-static.dir/cJSON.c.o\n[ 37%] Linking C shared library libcjson.so\n[ 50%] Linking C static library libcjson.a\n[ 50%] Built target cjson-static\n[ 50%] Built target cjson\n[ 62%] Building C object CMakeFiles/cjson_utils-static.dir/cJSON_Utils.c.o\n[ 75%] Building C object CMakeFiles/cjson_utils.dir/cJSON_Utils.c.o\n[ 87%] Linking C static library libcjson_utils.a\n[100%] Linking C shared library libcjson_utils.so\n[100%] Built target cjson_utils-static\n[100%] Built target cjson_utils\n"
+    },
+    {
+      "label": "before_install",
+      "argv": [
+        "cmake",
+        "--install",
+        "/tmp/cjson-oracle-before-muhxnpx_/build"
+      ],
+      "exit_code": 0,
+      "output_tail": "-- Install configuration: \"\"\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/include/cjson/cJSON.h\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/pkgconfig/libcjson.pc\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson.so.1.7.15\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson.so.1\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson.so\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson.a\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/cmake/cJSON/cjson.cmake\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/cmake/cJSON/cjson-noconfig.cmake\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson_utils.so.1.7.15\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson_utils.so.1\n-- Set runtime path of \"/tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson_utils.so.1.7.15\" to \"\"\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson_utils.so\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson_utils.a\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/include/cjson/cJSON_Utils.h\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/pkgconfig/libcjson_utils.pc\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/cmake/cJSON/cjson_utils.cmake\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/cmake/cJSON/cjson_utils-noconfig.cmake\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/cmake/cJSON/cJSONConfig.cmake\n-- Installing: /tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/cmake/cJSON/cJSONConfigVersion.cmake\n"
+    },
+    {
+      "label": "before_static_consumer_configure",
+      "argv": [
+        "cmake",
+        "-S",
+        "/tmp/cjson-oracle-before-muhxnpx_/consumer",
+        "-B",
+        "/tmp/cjson-oracle-before-muhxnpx_/consumer-build",
+        "-DCMAKE_PREFIX_PATH=/tmp/cjson-oracle-before-muhxnpx_/prefix-a"
+      ],
+      "exit_code": 0,
+      "output_tail": "-- The C compiler identification is GNU 12.2.0\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: /usr/bin/cc - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Configuring done\n-- Generating done\n-- Build files have been written to: /tmp/cjson-oracle-before-muhxnpx_/consumer-build\n"
+    },
+    {
+      "label": "before_static_consumer_link",
+      "argv": [
+        "cmake",
+        "--build",
+        "/tmp/cjson-oracle-before-muhxnpx_/consumer-build",
+        "-j2"
+      ],
+      "exit_code": 2,
+      "output_tail": "[ 50%] Building C object CMakeFiles/smoke.dir/main.c.o\n[100%] Linking C executable smoke\n/usr/bin/ld: cannot find -lcjson_utils-static: No such file or directory\ncollect2: error: ld returned 1 exit status\ngmake[2]: *** [CMakeFiles/smoke.dir/build.make:97: smoke] Error 1\ngmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/smoke.dir/all] Error 2\ngmake: *** [Makefile:91: all] Error 2\n"
+    },
+    {
+      "label": "before_relocated_consumer_configure",
+      "argv": [
+        "cmake",
+        "-S",
+        "/tmp/cjson-oracle-before-muhxnpx_/consumer",
+        "-B",
+        "/tmp/cjson-oracle-before-muhxnpx_/moved-consumer-build",
+        "-DCMAKE_PREFIX_PATH=/tmp/cjson-oracle-before-muhxnpx_/prefix-b"
+      ],
+      "exit_code": 1,
+      "output_tail": "-- The C compiler identification is GNU 12.2.0\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: /usr/bin/cc - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Configuring incomplete, errors occurred!\nSee also \"/tmp/cjson-oracle-before-muhxnpx_/moved-consumer-build/CMakeFiles/CMakeOutput.log\".\nCMake Error at /tmp/cjson-oracle-before-muhxnpx_/prefix-b/lib/cmake/cJSON/cjson.cmake:79 (message):\n  The imported target \"cjson\" references the file\n\n     \"/tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib/libcjson.so.1.7.15\"\n\n  but this file does not exist.  Possible reasons include:\n\n  * The file was deleted, renamed, or moved to another location.\n\n  * An install or uninstall procedure did not complete successfully.\n\n  * The installation package was faulty and contained\n\n     \"/tmp/cjson-oracle-before-muhxnpx_/prefix-b/lib/cmake/cJSON/cjson.cmake\"\n\n  but not all the files it references.\n\nCall Stack (most recent call first):\n  /tmp/cjson-oracle-before-muhxnpx_/prefix-b/lib/cmake/cJSON/cJSONConfig.cmake:14 (include)\n  CMakeLists.txt:3 (find_package)\n\n\n"
+    },
+    {
+      "label": "before_pkg_config_query",
+      "argv": [
+        "pkg-config",
+        "--cflags",
+        "--libs",
+        "libcjson_utils"
+      ],
+      "exit_code": 0,
+      "output_tail": "-I/tmp/cjson-oracle-before-muhxnpx_/prefix-a/include -I/tmp/cjson-oracle-before-muhxnpx_/prefix-a/include/cjson -L/tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib -lcjson_utils -lcjson \n"
+    },
+    {
+      "label": "before_pkg_consumer_compile",
+      "argv": [
+        "cc",
+        "/tmp/cjson-oracle-before-muhxnpx_/pkg-consumer.c",
+        "-o",
+        "/tmp/cjson-oracle-before-muhxnpx_/pkg-consumer",
+        "-I/tmp/cjson-oracle-before-muhxnpx_/prefix-a/include",
+        "-I/tmp/cjson-oracle-before-muhxnpx_/prefix-a/include/cjson",
+        "-L/tmp/cjson-oracle-before-muhxnpx_/prefix-a/lib",
+        "-lcjson_utils",
+        "-lcjson"
+      ],
+      "exit_code": 1,
+      "output_tail": "/tmp/cjson-oracle-before-muhxnpx_/pkg-consumer.c:1:10: fatal error: cjson/cJSON_Utils.h: No such file or directory\n    1 | #include <cjson/cJSON_Utils.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n"
+    }
+  ],
+  "validation_identity": {
+    "source_snapshot_sha256": "8c6d21536e3316190782a947107d6bdccbf783b25b867c63f3aff213a343e8de",
+    "patch_path": "patches/patch_0.diff",
+    "patch_sha256": "99aeb08dd75e08b1eda5b97c2e06d73f8876104487b83d8699b945c1bfd475d2",
+    "patch_application": {
+      "status": "pass",
+      "exit_code": 0,
+      "applied_files_match_generated_repair": true
+    },
+    "toolchain": {
+      "cmake": "cmake version 3.25.1",
+      "compiler": "cc (Debian 12.2.0-14+deb12u1) 12.2.0",
+      "pkg_config": "1.8.1"
+    }
+  },
+  "commands": [
+    "cmake -S <validation-root>/producer -B <validation-root>/build -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_CJSON_UTILS=ON -DENABLE_TARGET_EXPORT=ON -DENABLE_CJSON_TEST=OFF -DCMAKE_INSTALL_PREFIX=<validation-root>/stage-a",
+    "cmake --build <validation-root>/build -j2",
+    "cmake --install <validation-root>/build",
+    "cp -a <validation-root>/stage-a <validation-root>/stage-b",
+    "rm -rf <validation-root>/stage-a",
+    "cmake -S <validation-root>/cmake-consumer -B <validation-root>/cmake-consumer-build -DCMAKE_PREFIX_PATH=<validation-root>/stage-b",
+    "cmake --build <validation-root>/cmake-consumer-build -j2",
+    "<validation-root>/cmake-consumer-build/shared_smoke",
+    "<validation-root>/cmake-consumer-build/static_utils_smoke",
+    "pkg-config --cflags --libs libcjson_utils",
+    "pkg-config --static --libs libcjson_utils",
+    "cc <validation-root>/pkg-consumer.c -o <validation-root>/pkg-smoke -I<validation-root>/stage-b/lib/pkgconfig/../../include -I<validation-root>/stage-b/lib/pkgconfig/../../include/cjson -L<validation-root>/stage-b/lib/pkgconfig/../../lib -lcjson_utils -lcjson",
+    "<validation-root>/pkg-smoke",
+    "cmake -S <validation-root>/producer -B <validation-root>/layout-build -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_CJSON_UTILS=ON -DENABLE_TARGET_EXPORT=ON -DENABLE_CJSON_TEST=OFF -DCMAKE_INSTALL_PREFIX=<validation-root>/layout-stage-a -DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu -DCMAKE_INSTALL_INCLUDEDIR=include/sdk",
+    "cmake --build <validation-root>/layout-build -j2",
+    "cmake --install <validation-root>/layout-build",
+    "cp -a <validation-root>/layout-stage-a <validation-root>/layout-stage-b",
+    "rm -rf <validation-root>/layout-stage-a",
+    "cmake -S <validation-root>/layout-consumer -B <validation-root>/layout-consumer-build -DCMAKE_PREFIX_PATH=<validation-root>/layout-stage-b",
+    "cmake --build <validation-root>/layout-consumer-build -j2",
+    "<validation-root>/layout-consumer-build/layout_smoke",
+    "pkg-config --cflags --libs libcjson_utils",
+    "pkg-config --static --libs libcjson_utils",
+    "cc <validation-root>/layout-consumer/main.c -o <validation-root>/layout-pkg-smoke -I<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk -I<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk/cjson -L<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../lib/x86_64-linux-gnu -lcjson_utils -lcjson",
+    "<validation-root>/layout-pkg-smoke"
+  ],
+  "validation_scope": "fresh producer build, staged install, removed original prefix, moved-prefix CMake shared/static consumers, moved-prefix pkg-config compile/run, and the same CMake legacy-variable and pkg-config checks under a multi-component library directory",
+  "exported_static_targets": [
+    "cjson-static",
+    "cjson_utils-static"
+  ],
+  "relocation": {
+    "moved_prefix_only": true,
+    "old_prefix_removed": true,
+    "cmake_targets": [
+      "cjson",
+      "cjson-static",
+      "cjson_utils-static"
+    ],
+    "pkg_config_module": "libcjson_utils",
+    "pkg_config_flags": "-I<validation-root>/stage-b/lib/pkgconfig/../../include -I<validation-root>/stage-b/lib/pkgconfig/../../include/cjson -L<validation-root>/stage-b/lib/pkgconfig/../../lib -lcjson_utils -lcjson",
+    "multi_component_layout": {
+      "libdir": "lib/x86_64-linux-gnu",
+      "includedir": "include/sdk",
+      "old_prefix_removed": true,
+      "legacy_cmake_include_checked": true,
+      "cmake_static_consumer": "pass",
+      "pkg_config_consumer": "pass",
+      "pkg_config_flags": "-I<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk -I<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk/cjson -L<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../lib/x86_64-linux-gnu -lcjson_utils -lcjson"
+    }
+  },
+  "steps": {
+    "producer_configure": {
+      "status": "pass",
+      "command": "cmake -S <validation-root>/producer -B <validation-root>/build -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_CJSON_UTILS=ON -DENABLE_TARGET_EXPORT=ON -DENABLE_CJSON_TEST=OFF -DCMAKE_INSTALL_PREFIX=<validation-root>/stage-a",
+      "exit_code": 0,
+      "output_tail": "rming Test FLAG_SUPPORTED_Wformat2 - Success\n-- Performing Test FLAG_SUPPORTED_Wmissingprototypes\n-- Performing Test FLAG_SUPPORTED_Wmissingprototypes - Success\n-- Performing Test FLAG_SUPPORTED_Wstrictoverflow2\n-- Performing Test FLAG_SUPPORTED_Wstrictoverflow2 - Success\n-- Performing Test FLAG_SUPPORTED_Wcastqual\n-- Performing Test FLAG_SUPPORTED_Wcastqual - Success\n-- Performing Test FLAG_SUPPORTED_Wundef\n-- Performing Test FLAG_SUPPORTED_Wundef - Success\n-- Performing Test FLAG_SUPPORTED_Wswitchdefault\n-- Performing Test FLAG_SUPPORTED_Wswitchdefault - Success\n-- Performing Test FLAG_SUPPORTED_Wconversion\n-- Performing Test FLAG_SUPPORTED_Wconversion - Success\n-- Performing Test FLAG_SUPPORTED_Wccompat\n-- Performing Test FLAG_SUPPORTED_Wccompat - Success\n-- Performing Test FLAG_SUPPORTED_fstackprotectorstrong\n-- Performing Test FLAG_SUPPORTED_fstackprotectorstrong - Success\n-- Performing Test FLAG_SUPPORTED_Wcomma\n-- Performing Test FLAG_SUPPORTED_Wcomma - Failed\n-- Performing Test FLAG_SUPPORTED_Wdoublepromotion\n-- Performing Test FLAG_SUPPORTED_Wdoublepromotion - Success\n-- Performing Test FLAG_SUPPORTED_Wparentheses\n-- Performing Test FLAG_SUPPORTED_Wparentheses - Success\n-- Performing Test FLAG_SUPPORTED_Wformatoverflow\n-- Performing Test FLAG_SUPPORTED_Wformatoverflow - Success\n-- Performing Test FLAG_SUPPORTED_Wunusedmacros\n-- Performing Test FLAG_SUPPORTED_Wunusedmacros - Success\n-- Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations\n-- Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations - Failed\n-- Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused\n-- Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused - Failed\n-- Performing Test FLAG_SUPPORTED_Wswitchenum\n-- Performing Test FLAG_SUPPORTED_Wswitchenum - Success\n-- Performing Test FLAG_SUPPORTED_fvisibilityhidden\n-- Performing Test FLAG_SUPPORTED_fvisibilityhidden - Success\n-- Configuring done\n-- Generating done\n-- Build files have been written to: /tmp/cmake-export-repair-zejzj7h_/build\n",
+      "working_directory": "<workspace-root>"
+    },
+    "producer_build": {
+      "status": "pass",
+      "command": "cmake --build <validation-root>/build -j2",
+      "exit_code": 0,
+      "output_tail": "[ 12%] Building C object CMakeFiles/cjson.dir/cJSON.c.o\n[ 25%] Building C object CMakeFiles/cjson-static.dir/cJSON.c.o\n[ 37%] Linking C static library libcjson.a\n[ 50%] Linking C shared library libcjson.so\n[ 50%] Built target cjson-static\n[ 62%] Building C object CMakeFiles/cjson_utils-static.dir/cJSON_Utils.c.o\n[ 62%] Built target cjson\n[ 75%] Building C object CMakeFiles/cjson_utils.dir/cJSON_Utils.c.o\n[ 87%] Linking C static library libcjson_utils.a\n[100%] Linking C shared library libcjson_utils.so\n[100%] Built target cjson_utils-static\n[100%] Built target cjson_utils\n",
+      "working_directory": "<workspace-root>"
+    },
+    "install": {
+      "status": "pass",
+      "command": "cmake --install <validation-root>/build",
+      "exit_code": 0,
+      "output_tail": "-- Install configuration: \"\"\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/include/cjson/cJSON.h\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/pkgconfig/libcjson.pc\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson.so.1.7.15\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson.so.1\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson.so\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson.a\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/cmake/cJSON/cjson.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/cmake/cJSON/cjson-noconfig.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson_utils.so.1.7.15\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson_utils.so.1\n-- Set runtime path of \"/tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson_utils.so.1.7.15\" to \"\"\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson_utils.so\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/libcjson_utils.a\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/include/cjson/cJSON_Utils.h\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/pkgconfig/libcjson_utils.pc\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/cmake/cJSON/cjson_utils.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/cmake/cJSON/cjson_utils-noconfig.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/cmake/cJSON/cJSONConfig.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/stage-a/lib/cmake/cJSON/cJSONConfigVersion.cmake\n",
+      "working_directory": "<workspace-root>"
+    },
+    "prefix_relocation": {
+      "status": "pass",
+      "commands": [
+        "cp -a <validation-root>/stage-a <validation-root>/stage-b",
+        "rm -rf <validation-root>/stage-a"
+      ],
+      "original_removed": true
+    },
+    "metadata_scan": {
+      "status": "pass",
+      "stale_files": []
+    },
+    "cmake_consumer_configure": {
+      "status": "pass",
+      "command": "cmake -S <validation-root>/cmake-consumer -B <validation-root>/cmake-consumer-build -DCMAKE_PREFIX_PATH=<validation-root>/stage-b",
+      "exit_code": 0,
+      "output_tail": "-- The C compiler identification is GNU 12.2.0\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: /usr/bin/cc - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Configuring done\n-- Generating done\n-- Build files have been written to: /tmp/cmake-export-repair-zejzj7h_/cmake-consumer-build\n",
+      "working_directory": "<workspace-root>"
+    },
+    "cmake_consumer_build": {
+      "status": "pass",
+      "command": "cmake --build <validation-root>/cmake-consumer-build -j2",
+      "exit_code": 0,
+      "output_tail": "[ 25%] Building C object CMakeFiles/shared_smoke.dir/shared.c.o\n[ 50%] Building C object CMakeFiles/static_utils_smoke.dir/static_utils.c.o\n[ 75%] Linking C executable static_utils_smoke\n[100%] Linking C executable shared_smoke\n[100%] Built target static_utils_smoke\n[100%] Built target shared_smoke\n",
+      "working_directory": "<workspace-root>"
+    },
+    "shared_smoke": {
+      "status": "pass",
+      "command": "<validation-root>/cmake-consumer-build/shared_smoke",
+      "exit_code": 0,
+      "output_tail": "",
+      "working_directory": "<workspace-root>"
+    },
+    "static_utils_smoke": {
+      "status": "pass",
+      "command": "<validation-root>/cmake-consumer-build/static_utils_smoke",
+      "exit_code": 0,
+      "output_tail": "",
+      "working_directory": "<workspace-root>"
+    },
+    "pkg_config_query": {
+      "status": "pass",
+      "command": "pkg-config --cflags --libs libcjson_utils",
+      "exit_code": 0,
+      "output_tail": "-I/tmp/cmake-export-repair-zejzj7h_/stage-b/lib/pkgconfig/../../include -I/tmp/cmake-export-repair-zejzj7h_/stage-b/lib/pkgconfig/../../include/cjson -L/tmp/cmake-export-repair-zejzj7h_/stage-b/lib/pkgconfig/../../lib -lcjson_utils -lcjson \n",
+      "working_directory": "<workspace-root>"
+    },
+    "pkg_config_static_query": {
+      "status": "pass",
+      "command": "pkg-config --static --libs libcjson_utils",
+      "exit_code": 0,
+      "output_tail": "-L/tmp/cmake-export-repair-zejzj7h_/stage-b/lib/pkgconfig/../../lib -lcjson_utils -lcjson -lm \n",
+      "working_directory": "<workspace-root>"
+    },
+    "pkg_config_consumer_build": {
+      "status": "pass",
+      "command": "cc <validation-root>/pkg-consumer.c -o <validation-root>/pkg-smoke -I<validation-root>/stage-b/lib/pkgconfig/../../include -I<validation-root>/stage-b/lib/pkgconfig/../../include/cjson -L<validation-root>/stage-b/lib/pkgconfig/../../lib -lcjson_utils -lcjson",
+      "exit_code": 0,
+      "output_tail": "",
+      "working_directory": "<workspace-root>"
+    },
+    "pkg_config_smoke": {
+      "status": "pass",
+      "command": "<validation-root>/pkg-smoke",
+      "exit_code": 0,
+      "output_tail": "",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_producer_configure": {
+      "status": "pass",
+      "command": "cmake -S <validation-root>/producer -B <validation-root>/layout-build -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_CJSON_UTILS=ON -DENABLE_TARGET_EXPORT=ON -DENABLE_CJSON_TEST=OFF -DCMAKE_INSTALL_PREFIX=<validation-root>/layout-stage-a -DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu -DCMAKE_INSTALL_INCLUDEDIR=include/sdk",
+      "exit_code": 0,
+      "output_tail": "est FLAG_SUPPORTED_Wformat2 - Success\n-- Performing Test FLAG_SUPPORTED_Wmissingprototypes\n-- Performing Test FLAG_SUPPORTED_Wmissingprototypes - Success\n-- Performing Test FLAG_SUPPORTED_Wstrictoverflow2\n-- Performing Test FLAG_SUPPORTED_Wstrictoverflow2 - Success\n-- Performing Test FLAG_SUPPORTED_Wcastqual\n-- Performing Test FLAG_SUPPORTED_Wcastqual - Success\n-- Performing Test FLAG_SUPPORTED_Wundef\n-- Performing Test FLAG_SUPPORTED_Wundef - Success\n-- Performing Test FLAG_SUPPORTED_Wswitchdefault\n-- Performing Test FLAG_SUPPORTED_Wswitchdefault - Success\n-- Performing Test FLAG_SUPPORTED_Wconversion\n-- Performing Test FLAG_SUPPORTED_Wconversion - Success\n-- Performing Test FLAG_SUPPORTED_Wccompat\n-- Performing Test FLAG_SUPPORTED_Wccompat - Success\n-- Performing Test FLAG_SUPPORTED_fstackprotectorstrong\n-- Performing Test FLAG_SUPPORTED_fstackprotectorstrong - Success\n-- Performing Test FLAG_SUPPORTED_Wcomma\n-- Performing Test FLAG_SUPPORTED_Wcomma - Failed\n-- Performing Test FLAG_SUPPORTED_Wdoublepromotion\n-- Performing Test FLAG_SUPPORTED_Wdoublepromotion - Success\n-- Performing Test FLAG_SUPPORTED_Wparentheses\n-- Performing Test FLAG_SUPPORTED_Wparentheses - Success\n-- Performing Test FLAG_SUPPORTED_Wformatoverflow\n-- Performing Test FLAG_SUPPORTED_Wformatoverflow - Success\n-- Performing Test FLAG_SUPPORTED_Wunusedmacros\n-- Performing Test FLAG_SUPPORTED_Wunusedmacros - Success\n-- Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations\n-- Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations - Failed\n-- Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused\n-- Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused - Failed\n-- Performing Test FLAG_SUPPORTED_Wswitchenum\n-- Performing Test FLAG_SUPPORTED_Wswitchenum - Success\n-- Performing Test FLAG_SUPPORTED_fvisibilityhidden\n-- Performing Test FLAG_SUPPORTED_fvisibilityhidden - Success\n-- Configuring done\n-- Generating done\n-- Build files have been written to: /tmp/cmake-export-repair-zejzj7h_/layout-build\n",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_producer_build": {
+      "status": "pass",
+      "command": "cmake --build <validation-root>/layout-build -j2",
+      "exit_code": 0,
+      "output_tail": "[ 12%] Building C object CMakeFiles/cjson-static.dir/cJSON.c.o\n[ 25%] Building C object CMakeFiles/cjson.dir/cJSON.c.o\n[ 37%] Linking C static library libcjson.a\n[ 50%] Linking C shared library libcjson.so\n[ 50%] Built target cjson-static\n[ 62%] Building C object CMakeFiles/cjson_utils-static.dir/cJSON_Utils.c.o\n[ 62%] Built target cjson\n[ 75%] Building C object CMakeFiles/cjson_utils.dir/cJSON_Utils.c.o\n[ 87%] Linking C static library libcjson_utils.a\n[ 87%] Built target cjson_utils-static\n[100%] Linking C shared library libcjson_utils.so\n[100%] Built target cjson_utils\n",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_install": {
+      "status": "pass",
+      "command": "cmake --install <validation-root>/layout-build",
+      "exit_code": 0,
+      "output_tail": "yout-stage-a/include/sdk/cjson/cJSON.h\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/pkgconfig/libcjson.pc\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson.so.1.7.15\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson.so.1\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson.so\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson.a\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/cmake/cJSON/cjson.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/cmake/cJSON/cjson-noconfig.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson_utils.so.1.7.15\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson_utils.so.1\n-- Set runtime path of \"/tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson_utils.so.1.7.15\" to \"\"\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson_utils.so\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/libcjson_utils.a\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/include/sdk/cjson/cJSON_Utils.h\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/pkgconfig/libcjson_utils.pc\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/cmake/cJSON/cjson_utils.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/cmake/cJSON/cjson_utils-noconfig.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/cmake/cJSON/cJSONConfig.cmake\n-- Installing: /tmp/cmake-export-repair-zejzj7h_/layout-stage-a/lib/x86_64-linux-gnu/cmake/cJSON/cJSONConfigVersion.cmake\n",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_prefix_relocation": {
+      "status": "pass",
+      "commands": [
+        "cp -a <validation-root>/layout-stage-a <validation-root>/layout-stage-b",
+        "rm -rf <validation-root>/layout-stage-a"
+      ],
+      "original_removed": true,
+      "libdir": "lib/x86_64-linux-gnu",
+      "includedir": "include/sdk"
+    },
+    "layout_metadata_scan": {
+      "status": "pass",
+      "stale_files": []
+    },
+    "layout_cmake_consumer_configure": {
+      "status": "pass",
+      "command": "cmake -S <validation-root>/layout-consumer -B <validation-root>/layout-consumer-build -DCMAKE_PREFIX_PATH=<validation-root>/layout-stage-b",
+      "exit_code": 0,
+      "output_tail": "-- The C compiler identification is GNU 12.2.0\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: /usr/bin/cc - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Configuring done\n-- Generating done\n-- Build files have been written to: /tmp/cmake-export-repair-zejzj7h_/layout-consumer-build\n",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_cmake_consumer_build": {
+      "status": "pass",
+      "command": "cmake --build <validation-root>/layout-consumer-build -j2",
+      "exit_code": 0,
+      "output_tail": "[ 50%] Building C object CMakeFiles/layout_smoke.dir/main.c.o\n[100%] Linking C executable layout_smoke\n[100%] Built target layout_smoke\n",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_cmake_smoke": {
+      "status": "pass",
+      "command": "<validation-root>/layout-consumer-build/layout_smoke",
+      "exit_code": 0,
+      "output_tail": "",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_pkg_config_query": {
+      "status": "pass",
+      "command": "pkg-config --cflags --libs libcjson_utils",
+      "exit_code": 0,
+      "output_tail": "-I/tmp/cmake-export-repair-zejzj7h_/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk -I/tmp/cmake-export-repair-zejzj7h_/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk/cjson -L/tmp/cmake-export-repair-zejzj7h_/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../lib/x86_64-linux-gnu -lcjson_utils -lcjson \n",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_pkg_config_static_query": {
+      "status": "pass",
+      "command": "pkg-config --static --libs libcjson_utils",
+      "exit_code": 0,
+      "output_tail": "-L/tmp/cmake-export-repair-zejzj7h_/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../lib/x86_64-linux-gnu -lcjson_utils -lcjson -lm \n",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_pkg_config_consumer_build": {
+      "status": "pass",
+      "command": "cc <validation-root>/layout-consumer/main.c -o <validation-root>/layout-pkg-smoke -I<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk -I<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../include/sdk/cjson -L<validation-root>/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig/../../../lib/x86_64-linux-gnu -lcjson_utils -lcjson",
+      "exit_code": 0,
+      "output_tail": "",
+      "working_directory": "<workspace-root>"
+    },
+    "layout_pkg_config_smoke": {
+      "status": "pass",
+      "command": "<validation-root>/layout-pkg-smoke",
+      "exit_code": 0,
+      "output_tail": "",
+      "working_directory": "<workspace-root>"
+    }
+  }
+}

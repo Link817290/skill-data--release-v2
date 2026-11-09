@@ -1,0 +1,62 @@
+id = "cmake-export-repair"
+task_type = "skill-bench"
+domain = "software-engineering"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/build_report.json"
+required_outputs = ["build_report.json", "analysis/diagnosis.md", "patches/patch_0.diff"]
+network_access = false
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+pass_rate_basis = "reward_lenient"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+input_kind = "workspace"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = true
+
+[scoring.weights]
+baseline_root_cause_judgment = 0.30
+baseline_repair_boundary_judgment = 0.15
+baseline_evidence_closure = 0.05
+layout_generalization_judgment = 0.40
+layout_validation = 0.10
+
+[scoring.gates]
+source_integrity = "zero"
+build_success = "zero"
+consumer_success = "zero"
+artifact_completeness = "zero"
+
+[scoring.infrastructure]
+native_toolchain_unavailable = "unmeasured"
+semantic_judge_unavailable = "unmeasured"
+strict_json_value_when_unmeasured = "null"
+no_candidate_rewards_published = true
+candidate_delivery_diagnostic_available = true
+
+[scoring.lenient]
+kind = "binary"
+components = [
+  "deliverable files and applied project present",
+  "diagnosis opens as a document with a nonempty body",
+  "patch has unified-diff shape with at least one changed hunk",
+  "report parses as a JSON object",
+  "report records the commands it ran",
+  "report records a successful internally consistent outcome",
+  "fresh baseline producer and moved-prefix consumers pass",
+]
+reads_strict_result = false
+reads_recorded_outcome_values = true
+reruns_build = true
+
+[skill]
+name = "cmake-export-repair-skills"
+answers_in_skill = false
+thresholds_in_skill = false
+network_required = false

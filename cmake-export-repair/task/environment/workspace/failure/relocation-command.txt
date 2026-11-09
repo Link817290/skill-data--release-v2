@@ -1,0 +1,6 @@
+cmake -S project -B package-build -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_CJSON_UTILS=ON -DENABLE_TARGET_EXPORT=ON -DENABLE_CJSON_TEST=OFF -DCMAKE_INSTALL_PREFIX=/tmp/package-stage-a
+cmake --build package-build -j2
+cmake --install package-build
+cp -a /tmp/package-stage-a /tmp/package-stage-b
+rm -rf /tmp/package-stage-a
+cmake -S relocated-consumer -B relocated-consumer-build -DCMAKE_PREFIX_PATH=/tmp/package-stage-b

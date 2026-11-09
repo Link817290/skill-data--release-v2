@@ -1,0 +1,29 @@
+{
+  "schema": "cmake-golden-replay-manifest-v1",
+  "scope": "Golden exact request-bound replay only",
+  "actor_visible": false,
+  "excluded": [
+    "ordinary candidates",
+    "rollouts",
+    "provider history",
+    "credentials"
+  ],
+  "files": {
+    "7612660f54ff206cd4dd573d79bf944266b145d0f250ad07d43e6a4f97f4e998.json": {
+      "bytes": 15734,
+      "sha256": "aff299a8b1349134f632157474d12b0370fafaa15b6048074f0b4ded7b2c179c"
+    },
+    "request-binding.json": {
+      "bytes": 767,
+      "sha256": "1664bb500bb64ce66e8701f7a370b054fa84486cd262b0802c8ef9190d255c4e"
+    },
+    "validated-matches.json": {
+      "bytes": 3787,
+      "sha256": "19909c6771bd56fe06f3989c6a1642144dc77470bd5eff2acbfe14c38a6bb025"
+    },
+    "review.json": {
+      "bytes": 16197,
+      "sha256": "6f226ea2bc2c0ac4e6dd921a3b5624def2ab46bf33dd32fcba80b17c95f81dde"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+cmake -S project -B pkg-build -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_CJSON_UTILS=ON -DENABLE_TARGET_EXPORT=ON -DENABLE_CJSON_TEST=OFF -DCMAKE_INSTALL_PREFIX=/tmp/pkg-stage-a
+cmake --build pkg-build -j2
+cmake --install pkg-build
+cp -a /tmp/pkg-stage-a /tmp/pkg-stage-b
+rm -rf /tmp/pkg-stage-a
+PKG_CONFIG_PATH=/tmp/pkg-stage-b/lib/pkgconfig pkg-config --cflags --libs libcjson_utils
+cc pkg-consumer.c -o pkg-smoke $(PKG_CONFIG_PATH=/tmp/pkg-stage-b/lib/pkgconfig pkg-config --cflags --libs libcjson_utils)

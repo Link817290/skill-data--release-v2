@@ -1,0 +1,17 @@
+{
+  "required_static_targets": [
+    "cjson-static",
+    "cjson_utils-static"
+  ],
+  "producer": "pass",
+  "moved_cmake_consumers": [
+    "shared",
+    "static-utils"
+  ],
+  "moved_pkg_config_consumer": "pass",
+  "old_prefix_removed": true,
+  "layout_libdir": "lib/x86_64-linux-gnu",
+  "layout_includedir": "include/sdk",
+  "layout_cmake_legacy_include": "pass",
+  "layout_pkg_config_consumer": "pass"
+}

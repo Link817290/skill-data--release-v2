@@ -1,0 +1,8 @@
+cmake -S project -B layout-build -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_CJSON_UTILS=ON -DENABLE_TARGET_EXPORT=ON -DENABLE_CJSON_TEST=OFF -DCMAKE_INSTALL_PREFIX=/tmp/layout-stage-a -DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu -DCMAKE_INSTALL_INCLUDEDIR=include/sdk
+cmake --build layout-build -j2
+cmake --install layout-build
+cp -a /tmp/layout-stage-a /tmp/layout-stage-b
+cmake -E remove_directory /tmp/layout-stage-a
+cmake -S layout-consumer -B layout-consumer-build -DCMAKE_PREFIX_PATH=/tmp/layout-stage-b
+PKG_CONFIG_PATH=/tmp/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig pkg-config --cflags --libs libcjson_utils
+cc layout-consumer.c -o layout-pkg-smoke $(PKG_CONFIG_PATH=/tmp/layout-stage-b/lib/x86_64-linux-gnu/pkgconfig pkg-config --cflags --libs libcjson_utils)
