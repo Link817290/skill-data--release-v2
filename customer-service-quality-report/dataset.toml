@@ -1,0 +1,18 @@
+id = "customer-service-quality-report"
+category = "skill-data"
+track = "bench"
+task_type = "skill-bench"
+deliverable = "workspace/output/"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+dual_score = false
+score_source = "reward_strict.txt"
+strict_formula = "bounded additive: max(0, positive_earned - independent_damage_penalties)"
+scoring_params = "task/tests/scoring_params.json"
+program_judge = "task/tests/validator.py"
+integrity_gate = "task/tests/mix_judge"
+reward_alias = "strict"
+rubric = "RUBRIC.md"
+condition_blind = true

@@ -1,0 +1,32 @@
+{
+  "dimensions": {
+    "object_scope_binding": 0.15,
+    "polarity_and_status": 0.2,
+    "requirement_coverage": 0.4,
+    "source_fidelity": 0.25
+  },
+  "ownership": {
+    "program": [
+      "arithmetic",
+      "formulas",
+      "file contract",
+      "structure"
+    ],
+    "semantic": [
+      "A01-A09 open semantic meaning, equivalence, source limitation, action quality and polarity"
+    ]
+  },
+  "schema": "source-bound-semantic-score-v1",
+  "settlement": "final strict = program B owners + source-bound LLM A owners after local dependency conjunction - program damages",
+  "semantic_owners": {
+    "A01": "required source-bound LLM completion; program dependencies settle locally",
+    "A02": "required source-bound LLM completion; program dependencies settle locally",
+    "A03": "required source-bound LLM completion; program dependencies settle locally",
+    "A04": "required source-bound LLM completion; program dependencies settle locally",
+    "A05": "required source-bound LLM completion; program dependencies settle locally",
+    "A06": "required source-bound LLM completion; program dependencies settle locally",
+    "A07": "required source-bound LLM completion; program dependencies settle locally",
+    "A08": "required source-bound LLM completion; program dependencies settle locally",
+    "A09": "required source-bound LLM completion; program dependencies settle locally"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "golden_replay_entries": {
+    "046517e110663ca936fd2d27718802f8051618d6e75b76de946f75b30338573a": {
+      "path": "golden_replay/046517e110663ca936fd2d27718802f8051618d6e75b76de946f75b30338573a",
+      "files_sha256": {
+        "evidence.json": "987a436e2ca1aa38dddbd740c67aa3121ce852e4a42d9900fe4e91bfbd2297c3",
+        "manifest.json": "6b45bd4f34048a4fd551bc1b79a2c1b51fc525234c4e02d5d522f46a191a52ee",
+        "request.json": "046517e110663ca936fd2d27718802f8051618d6e75b76de946f75b30338573a",
+        "response-1.json": "d52061115e98953975672b2af7a2301700d8937cf81ffd3abcb60d3aff6b25af",
+        "review.json": "e5e28133d0bdfb3668c958dc94c05ab881c362ba655dfb56f12de4b491aa411a"
+      }
+    }
+  },
+  "files_sha256": {
+    "apply.py": "c847e6e6844ddd765545020a923186c6d237a2d42a1491a7dcfbfe7448035a1f",
+    "contract.json": "46fdda8122de062e12a715fad0837b08bcbc8fcf744b8aca22f3982aced09f16",
+    "judge.py": "74ed8a3fbcb7323920f89d79f1a3d7b1af05243225f90df7b112cb48dd0d0535",
+    "prompt.md": "a1f7a874539d575551529bad8ca0f11dff0fb04e710229bde3adcffccdba1944",
+    "response.schema.json": "0eaf7e503a76db38d2c17b1e8f42ac3ab89da866af75c386f03bc948f44758d8",
+    "semantic_live.py": "0e8487ad55446295db99f2a0f1a6cf3ae8b6e8c3eb7d2bb9f2fdca598749a05c",
+    "settings.json": "6144a34e4c4053b788a7951ffd4c109e1514db9e0939de1b17b2cef7c3d2b9c8"
+  },
+  "schema": "semantic-owner-judge-manifest-v3"
+}

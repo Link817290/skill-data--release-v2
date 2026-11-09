@@ -1,0 +1,51 @@
+artifacts = ["/workspace/output"]
+
+[metadata]
+name = "expert"
+instance_id = "customer-service-quality-report-no-skill"
+task = "customer-service-operations"
+source_repo = ""
+language = "en"
+programming_language = "python"
+prompt_creation_time = "2026-10-19"
+
+[environment]
+docker_image = "customer-service-quality-report:1.0"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 8192
+network_mode = "no-network"
+build_timeout_sec = 900.0
+
+[agent]
+timeout_sec = 5400.0
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 900.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/llm-cache}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[verifier.environment]
+docker_image = "customer-service-quality-report:1.0"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 8192
+network_mode = "public"
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/output/service-quality-report.xlsx"
+
+[tests]
+command = "tests/test.sh"

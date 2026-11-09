@@ -1,0 +1,102 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "dimensions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "candidate_evidence": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "quote"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 1,
+            "type": "array"
+          },
+          "source_evidence": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "quote"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 1,
+            "type": "array"
+          },
+          "id": {
+            "enum": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08",
+              "A09"
+            ],
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "score": {
+            "enum": [
+              0,
+              0.5,
+              1
+            ],
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "score",
+          "reason",
+          "candidate_evidence",
+          "source_evidence"
+        ],
+        "type": "object"
+      },
+      "maxItems": 9,
+      "minItems": 9,
+      "type": "array"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "reference_conflict": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "reference_conflict",
+    "reason",
+    "dimensions"
+  ],
+  "type": "object"
+}
