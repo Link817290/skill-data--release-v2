@@ -1,0 +1,17 @@
+{
+  "dataset_id": "capex-screen-shortlist",
+  "research_cutoff": "2022-05-20",
+  "network_access": false,
+  "candidate_count": 60,
+  "source_policy": {
+    "tier": "B-structured-mirror",
+    "allowed_usage": "Work only from the structured statements shipped in this workspace; no network."
+  },
+  "methodology_reference": {
+    "title": "Capital-expansion screen — indicator framework",
+    "path": "methodology/capex-screen-framework.png",
+    "sha256": "EEE3EB40A6F4736D50815B8929903120163B49C3E8D8BECF80FD52D91D7FF6C3",
+    "bytes": 112611,
+    "scope": "Fixes the indicator set and its grouping. Bars, denominators and other calibration are not in this file."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "version": "source-bound-capex-screen-v4",
+  "source_sha256": {
+    "candidate_universe.csv": "b7be27e43c214cd76e1deb14f8a16f9faa1ed5e71ee25c03d2899dd53be37568",
+    "source_manifest.json": "8433b9c0712f388c5376863a241f36f5f4ec0034a748d5848692c26f879f0a65",
+    "structured-data/structured_source_manifest.json": "210243816a3ba4c865d863620351f3a975f959a1077ea3fe4b260bfea931d442"
+  },
+  "weights": {
+    "structure": 0.05,
+    "core_method": 0.05,
+    "calibration": 0.05,
+    "decision": 0.25,
+    "profiles": 0.15,
+    "cip": 0.10,
+    "goodwill": 0.10,
+    "debt_purpose": 0.15,
+    "signed_profit": 0.05,
+    "missingness": 0.05
+  },
+  "required_company_count": 60,
+  "required_metrics": ["growth_2019", "growth_2020", "growth_2021", "coverage_mean", "efficiency_mean", "profit_quality_mean"],
+  "completion_checks": ["substantive_screen", "professional_analysis", "evidence_restraint"],
+  "rules": "Strict is the additive weighted completion of ten independent financial-review responsibilities. The 25% decision owner is largest because the committee call is the delivered decision; profiles and debt-purpose each receive 15% because they prevent a plausible ratio screen from becoming a misleading financing conclusion; CIP and goodwill receive 10% each because both can reverse the economic interpretation of expansion; method, calibration, signed-profit, missingness and structure each receive 5% because they are necessary controls but do not replace the company-level decision. Source arithmetic limits only the affected responsibility and never multiplies unrelated owners. Lenient requires exact source-universe coverage, source-correct displayed metrics, calls coherent with the candidate's disclosed policy, and three independent business-completion checks. Infrastructure errors are unmeasured and never candidate zeros."
+}

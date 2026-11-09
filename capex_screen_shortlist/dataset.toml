@@ -1,0 +1,52 @@
+version = "1.0"
+id = "capex-screen-shortlist"
+task_type = "skill-bench"
+domain = "finance"
+language = "en"
+difficulty = "hard"
+research_cutoff = "2022-05-20"
+candidate_count = 60
+deliverable = "workspace/shortlist.xlsx"
+network_access = false
+rollouts_included = false
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+layout_module = "task/tests/workbook.py"
+rubric = "RUBRIC.md"
+formula = "sum(owner_score * owner_weight)"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = true
+
+[scoring.weights]
+structure = 0.05
+core_method = 0.05
+calibration = 0.05
+decision = 0.25
+profiles = 0.15
+cip = 0.10
+goodwill = 0.10
+debt_purpose = 0.15
+signed_profit = 0.05
+missingness = 0.05
+
+[scoring.verified]
+gold_deterministic_source_checks = "360/360"
+gold_company_coverage = "60/60"
+semantic_acceptance = "requires recorded fresh/replay judge run"
+
+[skill]
+name = "audit-capital-expansion-screen"
+reference_count = 5
+lines = 310
+
+[conditions]
+thresholds_in_skill = false
+thresholds_in_workspace = false
+condition_blind = true

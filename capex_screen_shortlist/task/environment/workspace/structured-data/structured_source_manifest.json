@@ -1,0 +1,641 @@
+{
+  "dataset_id": "capex-screen-shortlist",
+  "downloaded_at_utc": "2026-08-27T11:00:18.196465+00:00",
+  "candidate_count": 60,
+  "statement_years": [
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "provider": {
+    "name": "Eastmoney public F10 structured financial-statement interface",
+    "tier": "B-structured-convenience-mirror",
+    "base_url": "https://datacenter.eastmoney.com/securities/api/data/get",
+    "report_types": {
+      "balance": "RPT_F10_FINANCE_GBALANCE",
+      "income": "RPT_F10_FINANCE_GINCOME",
+      "cashflow": "RPT_F10_FINANCE_GCASHFLOW"
+    }
+  },
+  "authoritative_evidence": {
+    "tier": "A-official-filing",
+    "manifest": "../source_manifest.json",
+    "policy": "Use official annual-report packets to audit or resolve any structured-mirror conflict."
+  },
+  "historical_assembly_policy": {
+    "research_cutoff": "2022-05-20",
+    "eligible_report_periods": "2018-12-31 through 2021-12-31",
+    "notice_date_rule": "Every included annual row has NOTICE_DATE on or before the research cutoff.",
+    "provider_update_metadata": "UPDATE_DATE records later mirror maintenance and is retained for lineage; it is not an eligible analytical fact or a later fiscal observation.",
+    "conflict_rule": "Resolve any value conflict against the frozen official filing packet."
+  },
+  "field_semantics": {
+    "null_encoding": "A standardized field key may be present with a null value, or the key/statement/year may be absent from the mirror. These are different states and the mirror preserves the distinction as received.",
+    "currency": "CNY unless the raw row explicitly states otherwise.",
+    "scope": "Consolidated annual statement mirror; official filings control conflicts."
+  },
+  "artifacts": {
+    "provider_snapshots": [
+      {
+        "company_id": "000425.SZ",
+        "path": "provider-snapshots/000425.SZ.json",
+        "sha256": "FF5E44437AA6AF2145586E4B6F1F79660D58155E492A3E04A8953DF2C56DBB6A",
+        "bytes": 145962,
+        "official_audit_source_ids": [
+          "000425-2020",
+          "000425-2021"
+        ]
+      },
+      {
+        "company_id": "000513.SZ",
+        "path": "provider-snapshots/000513.SZ.json",
+        "sha256": "43257FADAC037ADC718A04556A451F6EEC3AF065EAA76EC0845D50F368DF4500",
+        "bytes": 145501,
+        "official_audit_source_ids": [
+          "000513-2020",
+          "000513-2021"
+        ]
+      },
+      {
+        "company_id": "000739.SZ",
+        "path": "provider-snapshots/000739.SZ.json",
+        "sha256": "0EBBB5D1FD90F1BE243588B697A9D96C8321E5811121ABE356F72E9DA2B1C89D",
+        "bytes": 144124,
+        "official_audit_source_ids": [
+          "000739-2020",
+          "000739-2021"
+        ]
+      },
+      {
+        "company_id": "000963.SZ",
+        "path": "provider-snapshots/000963.SZ.json",
+        "sha256": "E668B3CFA43F426BBA5186F3717D3327781F5906568FD04FAACE03ECB9324342",
+        "bytes": 145037,
+        "official_audit_source_ids": [
+          "000963-2020",
+          "000963-2021"
+        ]
+      },
+      {
+        "company_id": "002007.SZ",
+        "path": "provider-snapshots/002007.SZ.json",
+        "sha256": "364C291C967CE94B5CC596A7D670C2D1832EC89668AF6F367CE8D17BF8CAD495",
+        "bytes": 143755,
+        "official_audit_source_ids": [
+          "002007-2020",
+          "002007-2021"
+        ]
+      },
+      {
+        "company_id": "002053.SZ",
+        "path": "provider-snapshots/002053.SZ.json",
+        "sha256": "34F06677AB8433C198A850B01A49E34FD6CE2447A4687AC63B5452FBFA188816",
+        "bytes": 143958,
+        "official_audit_source_ids": [
+          "002053-2020",
+          "002053-2021"
+        ]
+      },
+      {
+        "company_id": "002064.SZ",
+        "path": "provider-snapshots/002064.SZ.json",
+        "sha256": "1F43A0EA7D30D6D9639489776FD8AAAB6BCA466843ADBFC465A6755DEB800A3B",
+        "bytes": 144908,
+        "official_audit_source_ids": [
+          "002064-2020",
+          "002064-2021"
+        ]
+      },
+      {
+        "company_id": "002158.SZ",
+        "path": "provider-snapshots/002158.SZ.json",
+        "sha256": "91ED3E67FCD799838DFE06C8A63A20814F43D4EEB41C667D83F1502050C4D1FB",
+        "bytes": 144879,
+        "official_audit_source_ids": [
+          "002158-2020",
+          "002158-2021"
+        ]
+      },
+      {
+        "company_id": "002179.SZ",
+        "path": "provider-snapshots/002179.SZ.json",
+        "sha256": "70046E68AB2D7DEB0D99B00E692DD88371F444CD4ABA9C3DAF28811055FCDEAC",
+        "bytes": 145277,
+        "official_audit_source_ids": [
+          "002179-2020",
+          "002179-2021"
+        ]
+      },
+      {
+        "company_id": "002223.SZ",
+        "path": "provider-snapshots/002223.SZ.json",
+        "sha256": "9A3CAA5EA8E19438DCDD41DBDC08AC692A2153CC045404DA9A1300720F7D00F5",
+        "bytes": 144720,
+        "official_audit_source_ids": [
+          "002223-2020",
+          "002223-2021"
+        ]
+      },
+      {
+        "company_id": "002242.SZ",
+        "path": "provider-snapshots/002242.SZ.json",
+        "sha256": "C058B00B2D02A9097A12C24AB39052DEA902C257964D2C8E537831BD364C1904",
+        "bytes": 144586,
+        "official_audit_source_ids": [
+          "002242-2020",
+          "002242-2021"
+        ]
+      },
+      {
+        "company_id": "002262.SZ",
+        "path": "provider-snapshots/002262.SZ.json",
+        "sha256": "441065E1D1CFB1A12C4BD1F38BCE3873AE64692F9143EBAED4840D41991B4AF8",
+        "bytes": 143900,
+        "official_audit_source_ids": [
+          "002262-2020",
+          "002262-2021"
+        ]
+      },
+      {
+        "company_id": "002415.SZ",
+        "path": "provider-snapshots/002415.SZ.json",
+        "sha256": "DF8BBDB5ACC31A9335AE097D44CA3E524D4AE63BACD424787E4FA536E9EBB6F6",
+        "bytes": 145945,
+        "official_audit_source_ids": [
+          "002415-2020",
+          "002415-2021"
+        ]
+      },
+      {
+        "company_id": "002459.SZ",
+        "path": "provider-snapshots/002459.SZ.json",
+        "sha256": "0670433D972827401678E77603732C05BC65FE52E7C453E197769F39193437BA",
+        "bytes": 145454,
+        "official_audit_source_ids": [
+          "002459-2020",
+          "002459-2021"
+        ]
+      },
+      {
+        "company_id": "002518.SZ",
+        "path": "provider-snapshots/002518.SZ.json",
+        "sha256": "872C1DB66649D21E8F844C61DBDE4A7F9171BD99A9CA7169720A6EEBCFD2875E",
+        "bytes": 144022,
+        "official_audit_source_ids": [
+          "002518-2020",
+          "002518-2021"
+        ]
+      },
+      {
+        "company_id": "002549.SZ",
+        "path": "provider-snapshots/002549.SZ.json",
+        "sha256": "CA058088AB8DE5544BB278341F7BFC8D99ADEF268A807FFB80251351397F9B5A",
+        "bytes": 143381,
+        "official_audit_source_ids": [
+          "002549-2020",
+          "002549-2021"
+        ]
+      },
+      {
+        "company_id": "002601.SZ",
+        "path": "provider-snapshots/002601.SZ.json",
+        "sha256": "35D4CAD08CD1EF3FF9EDFADA7F552E86BA73E46F74CAFCA28063DB240E2D3199",
+        "bytes": 145819,
+        "official_audit_source_ids": [
+          "002601-2020",
+          "002601-2021"
+        ]
+      },
+      {
+        "company_id": "002706.SZ",
+        "path": "provider-snapshots/002706.SZ.json",
+        "sha256": "25F408B72DCDA22AB87D6C83D3724982FE7F08B362FCAED4784B715EDF8C56A7",
+        "bytes": 143341,
+        "official_audit_source_ids": [
+          "002706-2020",
+          "002706-2021"
+        ]
+      },
+      {
+        "company_id": "002730.SZ",
+        "path": "provider-snapshots/002730.SZ.json",
+        "sha256": "8DC85CA04E2057E677699A861F5843DA8E11048C4074712DABB066BB43686C20",
+        "bytes": 143437,
+        "official_audit_source_ids": [
+          "002730-2020",
+          "002730-2021"
+        ]
+      },
+      {
+        "company_id": "002960.SZ",
+        "path": "provider-snapshots/002960.SZ.json",
+        "sha256": "7847D4396A0C73083EFB48D27E0C2D58194DA5DD33392C0DB98DA61883ACF4C4",
+        "bytes": 143970,
+        "official_audit_source_ids": [
+          "002960-2020",
+          "002960-2021"
+        ]
+      },
+      {
+        "company_id": "002967.SZ",
+        "path": "provider-snapshots/002967.SZ.json",
+        "sha256": "DAFBBAF396B02A9DDD8E619B5CE01764DDAD29627E67BEA65D9B932F01232F4E",
+        "bytes": 143978,
+        "official_audit_source_ids": [
+          "002967-2020",
+          "002967-2021"
+        ]
+      },
+      {
+        "company_id": "300003.SZ",
+        "path": "provider-snapshots/300003.SZ.json",
+        "sha256": "41D7E8415C72985782E0CAC4537FAE66102BBBB50531A0B9825852E1032EC537",
+        "bytes": 145942,
+        "official_audit_source_ids": [
+          "300003-2020",
+          "300003-2021"
+        ]
+      },
+      {
+        "company_id": "300015.SZ",
+        "path": "provider-snapshots/300015.SZ.json",
+        "sha256": "AB7F8061DE0A234291FA0007F7932A39F18C62D8EAE91DA81EACB975AAD6C06A",
+        "bytes": 145173,
+        "official_audit_source_ids": [
+          "300015-2020",
+          "300015-2021"
+        ]
+      },
+      {
+        "company_id": "300037.SZ",
+        "path": "provider-snapshots/300037.SZ.json",
+        "sha256": "156C693CA3E87F6940F533820E16E09DDF2A2E51BA63AF9CCFC1875EB26CB2DE",
+        "bytes": 144910,
+        "official_audit_source_ids": [
+          "300037-2020",
+          "300037-2021"
+        ]
+      },
+      {
+        "company_id": "300122.SZ",
+        "path": "provider-snapshots/300122.SZ.json",
+        "sha256": "733F2D3BFE3A4B53A3E161F0209D14E89F6BC31108B9D4C48E0A686D5327050F",
+        "bytes": 143694,
+        "official_audit_source_ids": [
+          "300122-2020",
+          "300122-2021"
+        ]
+      },
+      {
+        "company_id": "300124.SZ",
+        "path": "provider-snapshots/300124.SZ.json",
+        "sha256": "E8EC6051EDAB8186958BE5EAA65D57D874DB059ACADEECB8CCC1605328F0C01E",
+        "bytes": 145409,
+        "official_audit_source_ids": [
+          "300124-2020",
+          "300124-2021"
+        ]
+      },
+      {
+        "company_id": "300151.SZ",
+        "path": "provider-snapshots/300151.SZ.json",
+        "sha256": "BC1BCBB36642845238E4E919A4C4882554CE68E2338D0C961E06900B0EF10D27",
+        "bytes": 144029,
+        "official_audit_source_ids": [
+          "300151-2020",
+          "300151-2021"
+        ]
+      },
+      {
+        "company_id": "300215.SZ",
+        "path": "provider-snapshots/300215.SZ.json",
+        "sha256": "B178BD61B595CC9826322B80784C972FEA655734F157BF104BEBA0D8DF54741A",
+        "bytes": 143107,
+        "official_audit_source_ids": [
+          "300215-2020",
+          "300215-2021"
+        ]
+      },
+      {
+        "company_id": "300274.SZ",
+        "path": "provider-snapshots/300274.SZ.json",
+        "sha256": "187F1AD17B5D67BD2F195B33E5CFEDC007387311AC4BF82C0C0BD3E875601B9D",
+        "bytes": 145396,
+        "official_audit_source_ids": [
+          "300274-2020",
+          "300274-2021"
+        ]
+      },
+      {
+        "company_id": "300285.SZ",
+        "path": "provider-snapshots/300285.SZ.json",
+        "sha256": "FDE95F9C925334E7EE3611D0540F9C8E78AEA9BB52CFFDB9602E62D9FE3931E6",
+        "bytes": 143960,
+        "official_audit_source_ids": [
+          "300285-2020",
+          "300285-2021"
+        ]
+      },
+      {
+        "company_id": "300450.SZ",
+        "path": "provider-snapshots/300450.SZ.json",
+        "sha256": "045199382A4DDF2DD20A7BF15FF98032FF8357935B7C2EA0542CB65681CF9F30",
+        "bytes": 144296,
+        "official_audit_source_ids": [
+          "300450-2020",
+          "300450-2021"
+        ]
+      },
+      {
+        "company_id": "300482.SZ",
+        "path": "provider-snapshots/300482.SZ.json",
+        "sha256": "BF88A053312CC86C8A42BA7CB3C90C18EBB80AD1AC1CC917415BDBCC11B35E81",
+        "bytes": 144886,
+        "official_audit_source_ids": [
+          "300482-2020",
+          "300482-2021"
+        ]
+      },
+      {
+        "company_id": "300487.SZ",
+        "path": "provider-snapshots/300487.SZ.json",
+        "sha256": "A54924A61BB37F63EE8801D940A5CCF500A296FE2D169C02D523559DF56CDBA0",
+        "bytes": 143919,
+        "official_audit_source_ids": [
+          "300487-2020",
+          "300487-2021"
+        ]
+      },
+      {
+        "company_id": "300529.SZ",
+        "path": "provider-snapshots/300529.SZ.json",
+        "sha256": "9C68239FB3D755BB04B999615B84BF86DD0AB3C18CCD6163B8081D5C7DCF9243",
+        "bytes": 143412,
+        "official_audit_source_ids": [
+          "300529-2020",
+          "300529-2021"
+        ]
+      },
+      {
+        "company_id": "300628.SZ",
+        "path": "provider-snapshots/300628.SZ.json",
+        "sha256": "34C95B7037394AAF7E5371F5FDCCF9796626D1CCD603D03A713CE44FFBDCC59A",
+        "bytes": 143587,
+        "official_audit_source_ids": [
+          "300628-2020",
+          "300628-2021"
+        ]
+      },
+      {
+        "company_id": "300676.SZ",
+        "path": "provider-snapshots/300676.SZ.json",
+        "sha256": "241016EEEC8BA79037E5CDD0A2E721DFDB784384C1B9EA4D1BF09B62B9777764",
+        "bytes": 145002,
+        "official_audit_source_ids": [
+          "300676-2020",
+          "300676-2021"
+        ]
+      },
+      {
+        "company_id": "300750.SZ",
+        "path": "provider-snapshots/300750.SZ.json",
+        "sha256": "BCAA9DDFFA25D478FD51F38C4BC1C858B1408D80332DC973FBB2EF91BC722886",
+        "bytes": 145570,
+        "official_audit_source_ids": [
+          "300750-2020",
+          "300750-2021"
+        ]
+      },
+      {
+        "company_id": "300763.SZ",
+        "path": "provider-snapshots/300763.SZ.json",
+        "sha256": "571555CAF793510D9F7D32C4F8351694B644FCA9F7BDB40B467A4B01B36A1C58",
+        "bytes": 143524,
+        "official_audit_source_ids": [
+          "300763-2020",
+          "300763-2021"
+        ]
+      },
+      {
+        "company_id": "300978.SZ",
+        "path": "provider-snapshots/300978.SZ.json",
+        "sha256": "A5A4CB3C27862CB4CC4AC69FC9F87BA5277D07D3BD2855ECF12F2719DE29E2A4",
+        "bytes": 143966,
+        "official_audit_source_ids": [
+          "300978-2020",
+          "300978-2021"
+        ]
+      },
+      {
+        "company_id": "600062.SH",
+        "path": "provider-snapshots/600062.SH.json",
+        "sha256": "2AC0212143C77968C9BA6EC04FD8764B165C91CA1406576CD254EC96B30BA3DD",
+        "bytes": 144887,
+        "official_audit_source_ids": [
+          "600062-2020",
+          "600062-2021"
+        ]
+      },
+      {
+        "company_id": "600161.SH",
+        "path": "provider-snapshots/600161.SH.json",
+        "sha256": "42BED6D36E36B78147E07D2206E88E3195901759C11FF1830B45406408BBA967",
+        "bytes": 143979,
+        "official_audit_source_ids": [
+          "600161-2020",
+          "600161-2021"
+        ]
+      },
+      {
+        "company_id": "600299.SH",
+        "path": "provider-snapshots/600299.SH.json",
+        "sha256": "61E726D8FA31A9934A9F15518F93BF219B73C5298BE75BEB972BB7C26578555A",
+        "bytes": 143596,
+        "official_audit_source_ids": [
+          "600299-2020",
+          "600299-2021"
+        ]
+      },
+      {
+        "company_id": "600929.SH",
+        "path": "provider-snapshots/600929.SH.json",
+        "sha256": "669BF4EFD19B1164DC4451F3840DBDF1C8DD6903E89D5009896887391F111750",
+        "bytes": 144517,
+        "official_audit_source_ids": [
+          "600929-2020",
+          "600929-2021"
+        ]
+      },
+      {
+        "company_id": "601100.SH",
+        "path": "provider-snapshots/601100.SH.json",
+        "sha256": "BFAF8BE09586BC6093D0D5FBED0AE19E7D35059B740B792FF5D8FBBFFE647768",
+        "bytes": 144466,
+        "official_audit_source_ids": [
+          "601100-2020",
+          "601100-2021"
+        ]
+      },
+      {
+        "company_id": "601615.SH",
+        "path": "provider-snapshots/601615.SH.json",
+        "sha256": "57190E56A75AA58D9128F40732A81E68B91FC48066B9299574B9CF70C02D07D8",
+        "bytes": 145671,
+        "official_audit_source_ids": [
+          "601615-2020",
+          "601615-2021"
+        ]
+      },
+      {
+        "company_id": "603100.SH",
+        "path": "provider-snapshots/603100.SH.json",
+        "sha256": "FA228B37B108DF019142BA08924BDB0C0145BE4198FA2ECC2C79D5DBECE40D9A",
+        "bytes": 144518,
+        "official_audit_source_ids": [
+          "603100-2020",
+          "603100-2021"
+        ]
+      },
+      {
+        "company_id": "603110.SH",
+        "path": "provider-snapshots/603110.SH.json",
+        "sha256": "31E7F472E9A1CD87E1185492FA31E3CF80487035D3320D24EB6BF87CC6A8604A",
+        "bytes": 142443,
+        "official_audit_source_ids": [
+          "603110-2020",
+          "603110-2021"
+        ]
+      },
+      {
+        "company_id": "603233.SH",
+        "path": "provider-snapshots/603233.SH.json",
+        "sha256": "7A19D190890B44C3214AEC41E7E22C75AF0D7A11368F9F870D49C58118A46B2F",
+        "bytes": 144084,
+        "official_audit_source_ids": [
+          "603233-2020",
+          "603233-2021"
+        ]
+      },
+      {
+        "company_id": "603259.SH",
+        "path": "provider-snapshots/603259.SH.json",
+        "sha256": "1BCB8C05DF212218F5059881B7E93250C8CA49D0E34329680F15B1CFAEBF9DDA",
+        "bytes": 145873,
+        "official_audit_source_ids": [
+          "603259-2020",
+          "603259-2021"
+        ]
+      },
+      {
+        "company_id": "603338.SH",
+        "path": "provider-snapshots/603338.SH.json",
+        "sha256": "190CE7FFA56F6E74FD211C546DC77400C40F58394AFDE06E88B9EE33FE586AAE",
+        "bytes": 143959,
+        "official_audit_source_ids": [
+          "603338-2020",
+          "603338-2021"
+        ]
+      },
+      {
+        "company_id": "603392.SH",
+        "path": "provider-snapshots/603392.SH.json",
+        "sha256": "C7698415F3BD3A645FE96AF9FBCDC18624A3D6C0FA17D2323E1D74FA0B33FB07",
+        "bytes": 143703,
+        "official_audit_source_ids": [
+          "603392-2020",
+          "603392-2021"
+        ]
+      },
+      {
+        "company_id": "603596.SH",
+        "path": "provider-snapshots/603596.SH.json",
+        "sha256": "B6F705E7699B681E4AB0EA4D412D91C77040A5750350EFE264D349526B04DC7D",
+        "bytes": 144142,
+        "official_audit_source_ids": [
+          "603596-2020",
+          "603596-2021"
+        ]
+      },
+      {
+        "company_id": "603606.SH",
+        "path": "provider-snapshots/603606.SH.json",
+        "sha256": "376C565E5CBB6210924E112F4833D35614D7A44652C2A6FAF3489801D000D979",
+        "bytes": 143613,
+        "official_audit_source_ids": [
+          "603606-2020",
+          "603606-2021"
+        ]
+      },
+      {
+        "company_id": "603659.SH",
+        "path": "provider-snapshots/603659.SH.json",
+        "sha256": "FA4C2B746417400989C0D67AD1FB84476B3D0A5A8CD11D567C7C77618FEEB7E2",
+        "bytes": 144653,
+        "official_audit_source_ids": [
+          "603659-2020",
+          "603659-2021"
+        ]
+      },
+      {
+        "company_id": "603712.SH",
+        "path": "provider-snapshots/603712.SH.json",
+        "sha256": "6B2333D84214D3A14A9B63D32FFDFB45DB17E1C70A5CF3DC0CA6DCAE63B9F377",
+        "bytes": 143164,
+        "official_audit_source_ids": [
+          "603712-2020",
+          "603712-2021"
+        ]
+      },
+      {
+        "company_id": "603882.SH",
+        "path": "provider-snapshots/603882.SH.json",
+        "sha256": "4AAAA52645CC2551BC904237BB9C050295AF2FFA258809DDDA48A65B259D22FD",
+        "bytes": 144357,
+        "official_audit_source_ids": [
+          "603882-2020",
+          "603882-2021"
+        ]
+      },
+      {
+        "company_id": "603939.SH",
+        "path": "provider-snapshots/603939.SH.json",
+        "sha256": "56D004B2BCEE0FF575B10F51A56AAADBC8D157A0CD977FEB83A24E9CD3B9FA91",
+        "bytes": 144077,
+        "official_audit_source_ids": [
+          "603939-2020",
+          "603939-2021"
+        ]
+      },
+      {
+        "company_id": "688036.SH",
+        "path": "provider-snapshots/688036.SH.json",
+        "sha256": "06354A6E6B1657B0B860542BD18AFC9A23F741885E2D6F97A06FF60D8A07438A",
+        "bytes": 145078,
+        "official_audit_source_ids": [
+          "688036-2020",
+          "688036-2021"
+        ]
+      },
+      {
+        "company_id": "688521.SH",
+        "path": "provider-snapshots/688521.SH.json",
+        "sha256": "6A5229C55AA4A0456065A2829199B1A77688E9FADDAD287A99FBA4964CA54389",
+        "bytes": 143540,
+        "official_audit_source_ids": [
+          "688521-2020",
+          "688521-2021"
+        ]
+      },
+      {
+        "company_id": "688798.SH",
+        "path": "provider-snapshots/688798.SH.json",
+        "sha256": "AB6078AED8BBC8A8F0DEB37D4A4728D7D6421EDEDFC8B1B11CE098190BA8A515",
+        "bytes": 143308,
+        "official_audit_source_ids": [
+          "688798-2021"
+        ]
+      }
+    ]
+  }
+}

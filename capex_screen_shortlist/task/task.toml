@@ -1,0 +1,57 @@
+artifacts = ["/workspace/shortlist.xlsx"]
+
+[metadata]
+name = "Capital-expansion screen shortlist"
+instance_id = "capex-screen-shortlist"
+task = "financial-screening"
+language = "en"
+programming_language = "python"
+
+[environment]
+docker_image = "capex-screen-shortlist:1.0"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+skills_dir = "/skills"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 8192
+network_mode = "no-network"
+build_timeout_sec = 600.0
+
+[agent]
+timeout_sec = 7200.0
+
+[verifier]
+environment_mode = "separate"
+user = "root"
+timeout_sec = 2400.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/judge-cache}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+
+[verifier.environment]
+docker_image = "capex-screen-shortlist-verifier:1.0"
+dockerfile = "environment/Dockerfile.verifier"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+network_mode = "public"
+build_timeout_sec = 900.0
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "solution/golden_deliverable.md"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
