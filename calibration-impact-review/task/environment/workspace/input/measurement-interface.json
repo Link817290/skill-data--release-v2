@@ -1,0 +1,134 @@
+{
+  "purpose": "File interface for the offline measurement-control check utility.",
+  "command": "python measurement_check.py --mass MASS.csv --optical OPTICAL.csv --config SETTINGS.json --output DIRECTORY",
+  "input": {
+    "mass_columns": [
+      "record_id",
+      "decimal_year",
+      "balance_id",
+      "check_standard_id",
+      "check_value_ug",
+      "residual_sd_ug",
+      "design_id"
+    ],
+    "optical_columns": [
+      "record_id",
+      "control_day",
+      "reference_position",
+      "reference_width_um",
+      "response_um"
+    ],
+    "encoding": "UTF-8; UTF-8 BOM accepted",
+    "record_ids": "Unique, nonempty within each file. Row order does not determine baseline membership. Paths may contain spaces.",
+    "required_values": "Finite measurements, nonnegative residual SD, positive degrees, positive integer control days. Each optical day has the configured count of distinct reference positions L/M/U. At least two baseline and two monitoring records.",
+    "configuration": "All control settings are read from the supplied JSON. The family method is sidak; supported controls_per_day values match distinct L/M/U positions.",
+    "system_scope": "One mass system per run: all balance_id, check_standard_id and design_id combinations must be nonempty and identical. Reject mixed systems rather than pooling their records."
+  },
+  "output": {
+    "files": [
+      "review-results.json",
+      "exceptions.csv"
+    ],
+    "json": {
+      "summary": [
+        "mass_records",
+        "baseline_records",
+        "monitoring_records",
+        "baseline_exceptions",
+        "monitoring_exceptions",
+        "optical_controls",
+        "optical_failed_controls",
+        "optical_failed_days"
+      ],
+      "baseline": [
+        "count",
+        "degrees",
+        "mean_ug",
+        "sample_sd_ug",
+        "pooled_repeatability_ug",
+        "bias_lower_ug",
+        "bias_upper_ug",
+        "precision_upper_ug",
+        "legacy_count",
+        "legacy_degrees"
+      ],
+      "optical_limits": [
+        "simultaneous_t",
+        "absolute_limit_um"
+      ],
+      "mass_results": [
+        "record_id",
+        "decimal_year",
+        "phase",
+        "check_value_ug",
+        "residual_sd_ug",
+        "bias_lower_ug",
+        "bias_upper_ug",
+        "precision_upper_ug",
+        "bias_failure",
+        "precision_failure",
+        "action"
+      ],
+      "optical_results": [
+        "record_id",
+        "control_day",
+        "reference_position",
+        "reference_width_um",
+        "response_um",
+        "corrected_width_um",
+        "control_error_um",
+        "lower_limit_um",
+        "upper_limit_um",
+        "failure"
+      ],
+      "daily_results": [
+        "control_day",
+        "controls",
+        "failed_controls",
+        "action"
+      ],
+      "trend": [
+        "monitoring_mean_ug",
+        "monitoring_sample_sd_ug",
+        "mean_shift_ug",
+        "above_baseline_mean",
+        "monitoring_records"
+      ],
+      "scope": [
+        "affected_customer_work_count",
+        "completed_remeasurement_confirmed",
+        "product_conformity"
+      ]
+    },
+    "json_types": "Counts are numbers; failure flags and completed_remeasurement_confirmed are Booleans. Use null for an unknown affected_customer_work_count. product_conformity is not_determined when specifications and linked work are absent. Additional fields are allowed.",
+    "record_arrays": "Exactly one result per received record and one daily result per observed optical day. Ordering is unrestricted.",
+    "phase_values": [
+      "baseline",
+      "monitoring"
+    ],
+    "action_values": [
+      "investigate_baseline",
+      "retain_baseline",
+      "repeat_run",
+      "within_limits",
+      "repeat_linked_day"
+    ],
+    "exception_columns": [
+      "system",
+      "record_id",
+      "scope",
+      "control_day",
+      "measurement",
+      "observed",
+      "unit",
+      "lower_limit",
+      "upper_limit",
+      "action"
+    ],
+    "exception_rows": "One row per failing metric. system: mass/optical; scope: baseline/monitoring/control_day. measurement: check_value/residual_sd/control_error. unit: ug/um. Blank control_day for mass; blank lower_limit for the one-sided precision check. No row for a non-failing metric.",
+    "precision": "Retain enough precision to recompute and classify the limits (absolute numerical agreement 1e-8). Equality to a limit is within limits.",
+    "failure_behavior": "Invalid or incomplete inputs return a nonzero exit code and a useful stderr message. Do not emit success-result files for invalid data."
+  },
+  "offline": "No downloads, network calls or embedded answer tables. Declare any installed Python dependencies in requirements.txt.",
+  "runtime": "Finish each review within 60 seconds for a record set of this size on the supplied environment."
+}

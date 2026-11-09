@@ -1,0 +1,21 @@
+id = "calibration-impact-review"
+task_type = "skill-bench"
+domain = "measurement-control"
+language = "en"
+task = "task/task.toml"
+task_no_skill = "task/task_no_skill.toml"
+instruction = "task/instruction.md"
+rubric = "RUBRIC.md"
+golden = "golden"
+deliverable = "/workspace/output"
+required_outputs = ["measurement-check/measurement_check.py", "measurement-check/README.md", "review-results.json", "exceptions.csv"]
+
+[scoring]
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/test.sh"
+scoring_params = "task/tests/scoring_params.json"
+semantic_contract = "task/tests/mix_judge/contract.json"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+external_judge_required = true

@@ -1,0 +1,7 @@
+{
+  "input/calibration-record.docx": "6e8d5acb5ced71fc0b2711f1754953731c18707013914fa6948891844b417f6e",
+  "input/instrument-history/control-settings.json": "83977ab08ea0450af90ae687d445a8a278dff5a1da9087a84aa932562748e316",
+  "input/instrument-history/mass-checks.csv": "b13ce6e0a5d368a174f65e15dd3cc928a11dda0368e5ee655bd662ba9bcdfb1c",
+  "input/instrument-history/optical-checks.csv": "e064d6fcabe25a4bc6780e43a88bfa8bf392c9303c72480ffc741ee8a1be8ef1",
+  "input/measurement-interface.json": "da1bc81ae69c1d8c56f136ba0d66000e2985bb648b0e97a0d0afd44435cb71fb"
+}

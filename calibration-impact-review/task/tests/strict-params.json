@@ -1,0 +1,87 @@
+{
+  "version": "calibration-impact-v6-local-chains",
+  "settlement": "local-conjunctive-additive",
+  "direct_weights": {
+    "N_BASELINE_RECONSTRUCTION": 0.005,
+    "N_CHANGED_RECORDS": 0.005,
+    "N_CHANGED_SETTINGS": 0.005,
+    "N_INVALID_INPUTS": 0.005,
+    "N_OPTICAL_LIMITS": 0.005,
+    "N_RECORD_DECISIONS": 0.005,
+    "N_REORDER_PATHS": 0.005,
+    "N_SMALL_TAIL": 0.005,
+    "N_SUMMARY_SCOPE": 0.005,
+    "N_TREND_ANALYSIS": 0.005,
+    "S_CONCLUSION": 0.005,
+    "S_EVIDENCE": 0.005,
+    "S_SCOPE": 0.005,
+    "S_TRADEOFFS": 0.005
+  },
+  "chains": {
+    "baseline_review": {
+      "weight": 0.20,
+      "operator": "product",
+      "owners": ["N_BASELINE_RECONSTRUCTION", "S_EVIDENCE", "S_SCOPE"]
+    },
+    "optical_impact": {
+      "weight": 0.14,
+      "operator": "product",
+      "owners": ["N_OPTICAL_LIMITS", "N_RECORD_DECISIONS", "S_CONCLUSION", "S_SCOPE"]
+    },
+    "extreme_tail": {
+      "weight": 0.12,
+      "operator": "product",
+      "owners": ["N_SMALL_TAIL", "S_EVIDENCE"]
+    },
+    "monitoring_shift": {
+      "weight": 0.12,
+      "operator": "product",
+      "owners": ["N_TREND_ANALYSIS", "S_CONCLUSION"]
+    },
+    "rerunnable_cli": {
+      "weight": 0.10,
+      "operator": "min",
+      "owners": ["N_REORDER_PATHS", "N_CHANGED_RECORDS", "N_CHANGED_SETTINGS", "N_INVALID_INPUTS"]
+    },
+    "supported_summary": {
+      "weight": 0.08,
+      "operator": "product",
+      "owners": ["N_SUMMARY_SCOPE", "S_CONCLUSION", "S_EVIDENCE", "S_SCOPE"]
+    },
+    "operational_validation": {
+      "weight": 0.12,
+      "operator": "product",
+      "owners": ["S_TRADEOFFS", "S_SCOPE"]
+    },
+    "bounded_conclusion": {
+      "weight": 0.05,
+      "operator": "product",
+      "owners": ["S_CONCLUSION", "S_SCOPE"]
+    }
+  },
+  "reference_owner_weights": {
+    "N_BASELINE_RECONSTRUCTION": 0.10,
+    "N_CHANGED_RECORDS": 0.05,
+    "N_CHANGED_SETTINGS": 0.05,
+    "N_INVALID_INPUTS": 0.05,
+    "N_OPTICAL_LIMITS": 0.10,
+    "N_RECORD_DECISIONS": 0.10,
+    "N_REORDER_PATHS": 0.05,
+    "N_SMALL_TAIL": 0.10,
+    "N_SUMMARY_SCOPE": 0.05,
+    "N_TREND_ANALYSIS": 0.05,
+    "S_CONCLUSION": 0.08,
+    "S_EVIDENCE": 0.12,
+    "S_SCOPE": 0.04,
+    "S_TRADEOFFS": 0.06
+  },
+  "partial_scales": {
+    "N_INVALID_INPUTS": "mean of independently executed public invalid-input cases",
+    "S_CONCLUSION": [0, 0.5, 1],
+    "S_EVIDENCE": [0, 0.5, 1],
+    "S_SCOPE": [0, 0.5, 1],
+    "S_TRADEOFFS": [0, 0.5, 1]
+  },
+  "diagnostic_owners": ["N_LOWER_TAIL", "N_USAGE_REPRODUCTION"],
+  "minimum_completion_damage": 0.20
+}

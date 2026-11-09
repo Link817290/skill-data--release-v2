@@ -1,0 +1,42 @@
+{
+  "modality": "text_and_structured_results",
+  "criteria": [
+    {
+      "id": "conclusion",
+      "weight": 0.25,
+      "criterion": "Judge the supported decision chain, not a matching exception list alone: historical baseline signals require investigation, monitoring signals require valid repeat-run review, and any failed optical control propagates to all linked work for that day. Distinguish metric, run, reference-group and unknown customer-work counts. Correct alternative wording and organization are acceptable."
+    },
+    {
+      "id": "evidence",
+      "weight": 0.3,
+      "criterion": "Trace supplied raw observations through the fixed pre-cutoff population, sample SD, degrees-weighted residual variance, correct F tail, inverse calibration and simultaneous reference-group limit to the reported exceptions. The actual 99/297 reconstruction is separate from the unexplained legacy 117/351; neither missing records nor a reconciled historical population may be invented. Mathematically equivalent calculations and explicit sign conventions are acceptable when converted to the public output convention. Do not substitute a source narrative's violation count for independently reconstructed supplied-data results."
+    },
+    {
+      "id": "tradeoffs",
+      "weight": 0.2,
+      "criterion": "Give reproducible offline use and explain the distinction between a fixed retrospective calculation and validated operational control. Retaining a baseline signal is not proof of baseline stability, and mostly passing individual values do not negate the observed process shift. Interpret linear-range and family-group claims within their evidence; do not require a textbook checklist or exact Golden prose. Alternative defensible follow-up and monitoring strategies are acceptable when the required fixed-baseline results remain identifiable."
+    },
+    {
+      "id": "scope",
+      "weight": 0.25,
+      "criterion": "Keep statistical loss of control separate from customer-product nonconformity. Missing workload links, specifications, uncertainty/decision rules and completed repeats prevent a customer count, release verdict or historical closure. Later passing days and partial linkage cannot clear earlier affected work. Identify usable follow-up records and valid repeat/authorization evidence. Apply deductions to the originating unsupported business inference, not repeatedly to every downstream restatement of one numerical slip."
+    }
+  ],
+  "allowed_scores": [
+    0,
+    0.5,
+    1
+  ],
+  "completion_requirements": {
+    "conclusion": "The guide makes the baseline-investigation, monitoring-repeat and failed-optical-day linked-work decisions understandable, without confusing failing metrics, records, controls or customer work.",
+    "evidence": "The explanation identifies the supplied-record baseline and correct measurement scales and group rule, retaining the unreconciled legacy population as a limitation rather than inventing records or replacing required results.",
+    "tradeoffs": "A usable guide distinguishes the fixed retrospective calculation from approved operational control, acknowledges the monitoring-shift signal and the supported optical range and family scope, and does not falsely validate the process.",
+    "scope": "Customer-work counts, conformity and closure remain unresolved without complete links, specifications and repeat/authorization evidence; the guide provides actionable evidence retrieval and closure conditions."
+  },
+  "reference_conflict": "Withhold measurement; source-correct content must not be penalized for disagreeing with an erroneous reference.",
+  "not_scored": [
+    "visual polish",
+    "identical wording",
+    "identical valid choices"
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "calibration-impact-review",
+  "tasks": [
+    "calibration-impact-review"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 55,
+  "bytes_excluding_manifest": 511836,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3228,
+      "sha256": "54d5e9858c1e5ea00b533cbb24f88494b87d6b43f2d1b55c545686c4ee406057"
+    },
+    "RUBRIC.md": {
+      "bytes": 5220,
+      "sha256": "7fe92eba87a4f34b789a68008e8dc9088ca62aa103e66c0208b8719a95450042"
+    },
+    "dataset.toml": {
+      "bytes": 723,
+      "sha256": "f7c543c67efe8901276bace0bd77f712c33ce4f36002bc0ab2ae7b9052c5d467"
+    },
+    "golden/exceptions.csv": {
+      "bytes": 899,
+      "sha256": "544525c0d19f19da6f2a2d5aa32659b383a520954854d7c6705708c3dd598ec5"
+    },
+    "golden/golden_replay/evidence.json": {
+      "bytes": 73541,
+      "sha256": "4bb8c150df66e9e90f6845b82b652624f486a65a2d183e0bd21f49b48cab5fe3"
+    },
+    "golden/golden_replay/manifest.json": {
+      "bytes": 2314,
+      "sha256": "333a2d11ff2ddb52ba714e502978ff7248a5ef3686812d44c8d0d7ee1cf490b3"
+    },
+    "golden/golden_replay/request.json": {
+      "bytes": 83306,
+      "sha256": "f9dba791e01545f25e7953cd618e1d281b0a88c3ff03ba9da38a4c6df95e74ed"
+    },
+    "golden/golden_replay/response.json": {
+      "bytes": 34361,
+      "sha256": "d4f06a8a5f18fbdc2680b874ed110206a00e8adcb19a45e68c9b235da80f2322"
+    },
+    "golden/golden_replay/review.json": {
+      "bytes": 6685,
+      "sha256": "50602ece0d630d985f715115af895703a7459f97c313c05a109760ddba2ab7e6"
+    },
+    "golden/measurement-check/README.md": {
+      "bytes": 5618,
+      "sha256": "e24369ccd2cd2dda3f4a1cdca152f79317899dbc5db4383370eb0457a254c511"
+    },
+    "golden/measurement-check/measurement_check.py": {
+      "bytes": 9079,
+      "sha256": "7b09d336aff4864c0a75c0b4cb60348dd4039d132598ffa969228b48acf0f42b"
+    },
+    "golden/measurement-check/requirements.txt": {
+      "bytes": 14,
+      "sha256": "1d3f2f20358d703407d63268c3bae76605225914c7e3bbd4aa136e37cacdacdf"
+    },
+    "golden/review-results.json": {
+      "bytes": 98107,
+      "sha256": "83f9b7b432ae0bc0cdeef1ef1c5266f7bf65fd44b56cd4cf7ccdd75a80e51bd6"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 849,
+      "sha256": "1bb343cea8226514f41edc7a1c1cab4d72243ff1dcb4391d9728ea21a75e77e5"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 1379,
+      "sha256": "44a41273a11a35cd71f7b37e37c502c8d5d6c239f1eb6028be9fb061ab3d06fa"
+    },
+    "task/environment/requirements-verifier.txt": {
+      "bytes": 96,
+      "sha256": "9f2f34308ccee18779ea058956ffd69a39fe7f53098833a52755de8f0abb6ac7"
+    },
+    "task/environment/skills/bound-retrospective-impact/SKILL.md": {
+      "bytes": 1597,
+      "sha256": "40a324a142ba211096c7cd647ba2d0bec89ec8038ff55e3c0081b2cfac99812b"
+    },
+    "task/environment/skills/bound-retrospective-impact/references/scope-and-closure.md": {
+      "bytes": 1759,
+      "sha256": "8345e22e8432add76d05b7c1f9100652b3ea176f3d3270957c9c4ab444b8d5c7"
+    },
+    "task/environment/skills/bound-retrospective-impact/scripts/propagate_groups.py": {
+      "bytes": 646,
+      "sha256": "7bd0639b022541cc997885bfe589a231ebec35a0531b11de01e52c416bcaa63e"
+    },
+    "task/environment/skills/review-measurement-control/SKILL.md": {
+      "bytes": 1553,
+      "sha256": "a40f35ef0abacba7b5d6c317db74735d3a7be1621460f7c5111481d9b037d31a"
+    },
+    "task/environment/skills/review-measurement-control/references/baselines.md": {
+      "bytes": 1232,
+      "sha256": "a2b018a892c454b1c0982cc440c7783b4cc2a24b151823b9024bfd785f971bf8"
+    },
+    "task/environment/skills/review-measurement-control/references/rerunnable-checks.md": {
+      "bytes": 2056,
+      "sha256": "688c1cecd0a420fb277f0b4dfc2fcd2874fddc170b14a5119bcb6489d95e0555"
+    },
+    "task/environment/skills/review-measurement-control/references/scale-and-groups.md": {
+      "bytes": 1008,
+      "sha256": "4de0a02f9e87feba2ba791ed21b0df74071b26fc15a5917d9deb606c7c0355b1"
+    },
+    "task/environment/skills/review-measurement-control/scripts/control_limits.py": {
+      "bytes": 1157,
+      "sha256": "f8f246ac96d3edca39bb8f9b802104b50b2fa0ba2623ea177d6a99293f2aee88"
+    },
+    "task/environment/source_hashes.json": {
+      "bytes": 563,
+      "sha256": "bb58fecb8118037cc3ae68dc2344b17eacecce1371aa5e2b80260c13c2f4bc6e"
+    },
+    "task/environment/wheels/pyseccomp-0.1.2-py3-none-any.whl": {
+      "bytes": 5667,
+      "sha256": "19177748e1202603ca4b2c41d728916402c018c4fee49dca1e3568ea218b7c23"
+    },
+    "task/environment/workspace/input/calibration-record.docx": {
+      "bytes": 38150,
+      "sha256": "6e8d5acb5ced71fc0b2711f1754953731c18707013914fa6948891844b417f6e"
+    },
+    "task/environment/workspace/input/instrument-history/control-settings.json": {
+      "bytes": 427,
+      "sha256": "83977ab08ea0450af90ae687d445a8a278dff5a1da9087a84aa932562748e316"
+    },
+    "task/environment/workspace/input/instrument-history/mass-checks.csv": {
+      "bytes": 8773,
+      "sha256": "b13ce6e0a5d368a174f65e15dd3cc928a11dda0368e5ee655bd662ba9bcdfb1c"
+    },
+    "task/environment/workspace/input/instrument-history/optical-checks.csv": {
+      "bytes": 433,
+      "sha256": "e064d6fcabe25a4bc6780e43a88bfa8bf392c9303c72480ffc741ee8a1be8ef1"
+    },
+    "task/environment/workspace/input/measurement-interface.json": {
+      "bytes": 4961,
+      "sha256": "da1bc81ae69c1d8c56f136ba0d66000e2985bb648b0e97a0d0afd44435cb71fb"
+    },
+    "task/instruction.md": {
+      "bytes": 1733,
+      "sha256": "4e004a732615d5945337f6f528f3bc93f37791d7b3ec1b2b7e0296100c4a5a97"
+    },
+    "task/rubric.json": {
+      "bytes": 7923,
+      "sha256": "dabae95e654effffd3b0a6d6d3d8270080663cee9e11341198ad1aa95306f1e1"
+    },
+    "task/solution/README.md": {
+      "bytes": 5618,
+      "sha256": "e24369ccd2cd2dda3f4a1cdca152f79317899dbc5db4383370eb0457a254c511"
+    },
+    "task/solution/measurement_check.py": {
+      "bytes": 9079,
+      "sha256": "7b09d336aff4864c0a75c0b4cb60348dd4039d132598ffa969228b48acf0f42b"
+    },
+    "task/solution/requirements.txt": {
+      "bytes": 14,
+      "sha256": "1d3f2f20358d703407d63268c3bae76605225914c7e3bbd4aa136e37cacdacdf"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 692,
+      "sha256": "8adbfaed7b19dd456054764cb7a85cb50532af9bd5224daf49e200b86b81e198"
+    },
+    "task/task.toml": {
+      "bytes": 1131,
+      "sha256": "2b8774c0406e548770e5cc51911ea7271b75edc79646a1c38d3a034a982bf379"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1106,
+      "sha256": "f4e58815f179c3aaba7fc1cc5f2cf9b65931327d1b8c37aecc89fc5a7ce6745e"
+    },
+    "task/tests/README.md": {
+      "bytes": 1387,
+      "sha256": "4c111ed1ba5dbe10845d78d8f5b617015cdf36d4b911b271d8378c1d34e8a43a"
+    },
+    "task/tests/candidate_runner.py": {
+      "bytes": 1484,
+      "sha256": "c7f0b8c67a71c01695a14c3a7b3e910bf6cb7fc54657c7c6b3bc546e8b1409e2"
+    },
+    "task/tests/criteria.json": {
+      "bytes": 2381,
+      "sha256": "0352edbf772a7a1f94dc4ee36b6a4fdde2bf186c61f984c4eb79940e8d1c1341"
+    },
+    "task/tests/evaluate.py": {
+      "bytes": 14094,
+      "sha256": "3ed85c7cc8e9f5a1584ca5f1c54895d13b7db40fb73ee55b87563634c1e46748"
+    },
+    "task/tests/independent_reference.py": {
+      "bytes": 4890,
+      "sha256": "bafd8fc4267fee4ba02e4b78a4eee4464194b8c04c914a26ae22de78e1a12407"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 3725,
+      "sha256": "8f56f36f8a29dd4cdeaad5adcf81b0b1294dd9440def8a688af85e8bea41d904"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 15522,
+      "sha256": "acda01df13ae3d449f2771ed990b43d7bbf704f0b3ed3d59c71443e525a2d24b"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 3756,
+      "sha256": "f5089b0c78557e4486836e79efdfca9b463996ccfb43d1d7e31f162232d31da2"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 1791,
+      "sha256": "e806684143b52f0af79aa05089dd853155b85c71988d54521d455b563e1849c2"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 136,
+      "sha256": "e75b2da2b7d9baf1539ba49bb6990436c44bb9483e3fab66c92335b9f7f00e74"
+    },
+    "task/tests/reference/facts.json": {
+      "bytes": 5450,
+      "sha256": "5975f3be5fd0689a8919be66297a4a3fbb0a9e4e24010c204a72e4508b630fc0"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 714,
+      "sha256": "193356e317f57cf7dbecd81ff3e2a2e159944835c5149b5c119c13afe3d35207"
+    },
+    "task/tests/strict-params.json": {
+      "bytes": 2526,
+      "sha256": "f319127ba0906edf8a63aab6042c26e33bb1c715876c3a473b11387895393dfd"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1061,
+      "sha256": "74ab0baabefe9fa3b6c2fb1378133464c1adc4b5896e4cdb6b2b064c2f46674a"
+    },
+    "task/tests/verify_v2.py": {
+      "bytes": 27657,
+      "sha256": "f65fcb25e4128dfe254c62af843e267c0e8217389630e60ee418c4a1964a951a"
+    },
+    "task/tests/write_reward.py": {
+      "bytes": 2565,
+      "sha256": "d7ef461119ed7a421a2f42db9ec818985afc2071928f4a241f8102dca209001c"
+    }
+  }
+}

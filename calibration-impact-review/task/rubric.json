@@ -1,0 +1,92 @@
+{
+  "task": "calibration-impact-review",
+  "strict_scoring": {
+    "version": "calibration-impact-v6-local-chains",
+    "settlement": "local-conjunctive-additive",
+    "parameters_file": "tests/strict-params.json",
+    "owner_rule": "Each scored owner earns independent partial credit. Additional credit is available only for the published local business dependencies. A repeated consequence of one root error remains charged to its originating owner."
+  },
+  "capability_tags": [
+    "fixed-baseline-reconstruction",
+    "stable-extreme-tail-calculation",
+    "rerunnable-measurement-control-cli",
+    "monitoring-shift-interpretation",
+    "bounded-retrospective-impact"
+  ],
+  "numeric_criteria": [
+    {"id": "N_SUMMARY_SCOPE", "criterion": "Complete supplied-run summary and evidence-bounded structured scope."},
+    {"id": "N_BASELINE_RECONSTRUCTION", "criterion": "Fixed pre-cutoff population, degrees, sample SD, pooled variance and control limits."},
+    {"id": "N_OPTICAL_LIMITS", "criterion": "Inverse calibration, width-scale uncertainty and simultaneous Sidak limit."},
+    {"id": "N_RECORD_DECISIONS", "criterion": "Every mass and optical record, daily decision and exception-register metric."},
+    {"id": "N_TREND_ANALYSIS", "criterion": "Monitoring mean, SD, shift and above-baseline count."},
+    {"id": "N_REORDER_PATHS", "criterion": "Baseline execution, row and column reordering, spaced paths and BOM input."},
+    {"id": "N_CHANGED_RECORDS", "criterion": "Recalculation after changed measurements and record identifiers."},
+    {"id": "N_CHANGED_SETTINGS", "criterion": "Recalculation after changed control settings."},
+    {"id": "N_SMALL_TAIL", "criterion": "Stable recalculation for a small valid tail probability."},
+    {"id": "N_INVALID_INPUTS", "criterion": "Independent rejection of the published invalid-input classes without success files."}
+  ],
+  "diagnostic_criteria": [
+    {"id": "N_LOWER_TAIL", "criterion": "Recalculation at the documented alpha=0.001 diagnostic setting.", "affects_reward": false},
+    {"id": "N_USAGE_REPRODUCTION", "criterion": "Installed declared dependencies and executable README commands.", "affects_reward": false}
+  ],
+  "semantic_criteria": [
+    {
+      "id": "conclusion",
+      "weight": 0.25,
+      "criterion": "Judge the supported decision chain, not a matching exception list alone: historical baseline signals require investigation, monitoring signals require valid repeat-run review, and any failed optical control propagates to all linked work for that day. Distinguish metric, run, reference-group and unknown customer-work counts. Correct alternative wording and organization are acceptable."
+    },
+    {
+      "id": "evidence",
+      "weight": 0.3,
+      "criterion": "Trace supplied raw observations through the fixed pre-cutoff population, sample SD, degrees-weighted residual variance, correct F tail, inverse calibration and simultaneous reference-group limit to the reported exceptions. The actual 99/297 reconstruction is separate from the unexplained legacy 117/351; neither missing records nor a reconciled historical population may be invented. Mathematically equivalent calculations and explicit sign conventions are acceptable when converted to the public output convention. Do not substitute a source narrative's violation count for independently reconstructed supplied-data results."
+    },
+    {
+      "id": "tradeoffs",
+      "weight": 0.2,
+      "criterion": "Give reproducible offline use and explain the distinction between a fixed retrospective calculation and validated operational control. Retaining a baseline signal is not proof of baseline stability, and mostly passing individual values do not negate the observed process shift. Interpret linear-range and family-group claims within their evidence; do not require a textbook checklist or exact Golden prose. Alternative defensible follow-up and monitoring strategies are acceptable when the required fixed-baseline results remain identifiable."
+    },
+    {
+      "id": "scope",
+      "weight": 0.25,
+      "criterion": "Keep statistical loss of control separate from customer-product nonconformity. Missing workload links, specifications, uncertainty/decision rules and completed repeats prevent a customer count, release verdict or historical closure. Later passing days and partial linkage cannot clear earlier affected work. Identify usable follow-up records and valid repeat/authorization evidence. Apply deductions to the originating unsupported business inference, not repeatedly to every downstream restatement of one numerical slip."
+    }
+  ],
+  "local_dependencies": [
+    "A complete baseline review requires correct reconstruction, source-supported explanation, operational limitations and bounded downstream scope.",
+    "A complete optical impact decision requires correct optical limits, record and day decisions, a supported action and bounded downstream scope.",
+    "A monitoring-shift interpretation requires correct trend calculations, a supported review action and appropriate operational limitations.",
+    "A rerunnable calculation requires representation invariance, changed-record and changed-setting responsiveness, and invalid-input rejection.",
+    "A supported summary requires correct structured summary and scope, source-supported conclusions and bounded claims.",
+    "Operational validation and closure claims require both stated limitations and evidence-bounded scope."
+  ],
+  "lenient_completion": {
+    "numeric_completion_required": ["delivered_contract", "fresh_cli", "result_coverage"],
+    "semantic_required": ["conclusion", "evidence", "tradeoffs", "scope"],
+    "rule": "Every listed core decision must pass independently. Continuous strict score, tail diagnostics and usage diagnostics do not substitute for a missing core decision."
+  },
+  "measurement_status": {
+    "measured_failure": "Missing, incorrect or unsupported candidate work receives the measured partial or zero result defined above.",
+    "unmeasured": "Missing trusted inputs, failed isolation bootstrap, unavailable semantic service without a bound replay, malformed service protocol or other evaluator infrastructure failure produces UNMEASURED and publishes no stale reward."
+  },
+  "minimum_usability": {
+    "decisions": ["delivered_contract", "fresh_cli", "result_coverage"],
+    "strict_damage": 0.20,
+    "rule": "One deduction applies when any minimum-usability decision fails; multiple symptoms of the same unusable delivery do not repeat it."
+  },
+  "rules": [
+    "All file names, CLI switches, result fields, status codes and invalid-input behavior are published in the instruction and measurement-interface.json.",
+    "Required fields, record membership, decisions and exception rows are independently reconstructed from the issued records and settings.",
+    "Equivalent output order, identifier formatting, algebra and source-correct wording receive credit.",
+    "One record may fail two metrics and several controls may identify one affected day; these counts are not interchangeable.",
+    "Unsupported configured methods and mixed systems must be rejected rather than silently pooled or substituted.",
+    "A scalar or CSV error recurring in fresh executions remains charged to its submitted-output owner; a variant owner fails only for an additional defect exposed by that variant.",
+    "A numerical error is not multiplied into several semantic deductions merely because the same value appears in several summaries. An independently unsupported customer action or closure claim is a separate business error.",
+    "A reference conflict with original material withholds semantic measurement instead of penalizing a source-correct submission."
+  ],
+  "public_output": [
+    "output/measurement-check/measurement_check.py",
+    "output/measurement-check/README.md",
+    "output/review-results.json",
+    "output/exceptions.csv"
+  ]
+}

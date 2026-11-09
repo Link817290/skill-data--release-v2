@@ -1,0 +1,9 @@
+system,record_id,scope,control_day,measurement,observed,unit,lower_limit,upper_limit,action
+mass,M047,baseline,,residual_sd,0.0724,ug,,0.06102227834396128,investigate_baseline
+mass,M129,monitoring,,residual_sd,0.0663,ug,,0.06102227834396128,repeat_run
+mass,M154,monitoring,,check_value,-19.379,ug,-19.570466708588427,-19.38655308939137,repeat_run
+mass,M179,monitoring,,check_value,-19.37848,ug,-19.570466708588427,-19.38655308939137,repeat_run
+mass,M207,monitoring,,residual_sd,0.1492,ug,,0.06102227834396128,repeat_run
+optical,L010,control_day,4,control_error,-0.22879432624113472,um,-0.15696512800852283,0.15696512800852283,repeat_linked_day
+optical,L011,control_day,4,control_error,0.27058763931104357,um,-0.15696512800852283,0.15696512800852283,repeat_linked_day
+optical,L012,control_day,4,control_error,0.29368794326241243,um,-0.15696512800852283,0.15696512800852283,repeat_linked_day

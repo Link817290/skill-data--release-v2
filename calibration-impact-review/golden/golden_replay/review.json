@@ -1,0 +1,120 @@
+{
+  "criteria": [
+    {
+      "evidence": [
+        {
+          "id": "C-P12",
+          "quote": "M047 is a historical baseline precision exception. Monitoring runs M129, M154, M179 and M207 require repeat-work review. Optical controls L010-L012 fail on day 4, so the corresponding daily result identifies that linked-work scope."
+        },
+        {
+          "id": "S1--P11",
+          "quote": "Any failing reference control requires remeasurement of the workload linked to that control day."
+        },
+        {
+          "id": "C-P10",
+          "quote": "`exceptions.csv` contains one row per failing metric. A mass run failing two metrics would appear twice there but once in the summary exception count."
+        },
+        {
+          "id": "C-P9",
+          "quote": "the tool does not turn reference-control counts into customer-work counts."
+        }
+      ],
+      "id": "conclusion",
+      "meets_brief": true,
+      "reason": "The guide clearly assigns investigation to the retained baseline exception, repeat review to the four monitoring runs, and linked-day remeasurement to the failed optical group. It also distinguishes failing metrics from runs and customer-work counts.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P8",
+          "quote": "The baseline is defined by decimal year strictly below the configured cutoff. Monitoring records are excluded from that baseline; repeated decimal years remain separate runs. The sample SD uses n−1. Residual variances are pooled with their degrees of freedom before taking the square root. The upper precision limit uses the upper-tail F probability, with single-run degrees in the numerator and actual baseline degrees in the denominator."
+        },
+        {
+          "id": "S1--P8",
+          "quote": "Pool residual variances using their degrees of freedom, then take the square root. The precision upper limit uses the configured upper-tail F significance, with single-run degrees in the numerator and reconstructed baseline degrees in the denominator."
+        },
+        {
+          "id": "C-P9",
+          "quote": "Corrected width is `(Y-a)/b`; control error is corrected width minus reference width. The simultaneous two-sided t probability is derived from the configured Sidak family significance and group size. Residual SD is converted to the width scale using the absolute slope."
+        },
+        {
+          "id": "C-P12",
+          "quote": "The received mass series gives 99 baseline records and 118 monitoring records, with 297 baseline residual degrees. The legacy 117/351 entry is retained for reconciliation; the discrepancy does not establish that 18 records were lost."
+        }
+      ],
+      "id": "evidence",
+      "meets_brief": true,
+      "reason": "The explanation traces the fixed pre-cutoff population through sample SD, degrees-weighted residual pooling, the correctly oriented F limit, inverse optical calibration, and the simultaneous Sidak group rule. It reports the reconstructed 99/297 population while preserving 117/351 as unreconciled legacy information without inventing missing records.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P15",
+          "quote": "Retaining M047 follows the fixed historical reconstruction rule; it does not certify a stable baseline for future work. Before operational reuse, reconcile that run and the legacy population, assess process stability, and obtain technical approval for the reference limits."
+        },
+        {
+          "id": "S1--P13",
+          "quote": "Single-record checks do not establish long-term process stability or product acceptance."
+        },
+        {
+          "id": "C-P13",
+          "quote": "This supports review of process change even though most individual checks are within limits. It does not identify a particular failed component or justify rejecting every measurement."
+        },
+        {
+          "id": "C-P16",
+          "quote": "They do not establish validity outside that checked range or supply missing product tolerances. The configured family significance applies to the reference group within a checking period, not to every result across the entire archive."
+        }
+      ],
+      "id": "tradeoffs",
+      "meets_brief": true,
+      "reason": "The runnable offline guide distinguishes its fixed retrospective reconstruction from technically approved operational control, treats the monitoring shift as a review signal despite mostly passing points, and bounds optical validity to the checked range and within-period reference family.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-P18",
+          "quote": "No complete client-work register, product tolerances, uncertainty-based acceptance data, repair history or completed remeasurement evidence accompanies these files. `affected_customer_work_count` is therefore null, `product_conformity` remains `not_determined`, and completed remeasurement is not confirmed."
+        },
+        {
+          "id": "S1--P13",
+          "quote": "The affected customer-work count remains unknown without complete workload links; later passing controls alone do not prove correction of earlier work."
+        },
+        {
+          "id": "C-P19",
+          "quote": "For retrospective use, retrieve the affected runs' work orders and result-use links, the full day-4 workload register, and any subsequent repeat and authorization records."
+        },
+        {
+          "id": "F-rule-1",
+          "quote": "Later passing checks do not by themselves close earlier failures."
+        }
+      ],
+      "id": "scope",
+      "meets_brief": true,
+      "reason": "The guide keeps control failures separate from product nonconformity, leaves customer count and conformity unresolved, rejects later passes and partial links as closure evidence, and names the workload, repeat, and authorization records needed for closure.",
+      "score": 1
+    }
+  ],
+  "notes": [],
+  "passed": true,
+  "reference_conflict": false,
+  "semantic_score": 1.0,
+  "completion": {
+    "conclusion": true,
+    "evidence": true,
+    "tradeoffs": true,
+    "scope": true
+  },
+  "measurement_status": "completed",
+  "response_id": "resp_07603d545e958dcf016aea232e249481919e1a3bf3550b19e3",
+  "model": "gpt-5.6-sol",
+  "base_request_sha256": "b0d9a54c995a3b74acb4b3524ad71c1557ea73b70bcd0cd6969c733356c3c795",
+  "request_sha256": "f9dba791e01545f25e7953cd618e1d281b0a88c3ff03ba9da38a4c6df95e74ed",
+  "cache_key": "07ffdb3398e61aebe63bc0278c410320e90160f58d31c73423a3c550d5ce3334",
+  "origin": "live",
+  "seconds": 38.67,
+  "fresh_call": true,
+  "visual_input": false
+}

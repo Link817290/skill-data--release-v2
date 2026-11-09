@@ -1,0 +1,16 @@
+{
+  "schema_version": "bench-dual-reward-v1",
+  "version": "calibration-impact-v6-local-chains",
+  "strict": {
+    "formula": "direct partial credit plus source-backed local dependency credit",
+    "settlement": "local-conjunctive-additive",
+    "allowed_chain_operators": ["product", "min"],
+    "weights_file": "strict-params.json"
+  },
+  "lenient": {
+    "formula": "all documented core numerical obligations and independent semantic completion decisions pass",
+    "numeric_completion_required": ["delivered_contract", "fresh_cli", "result_coverage"],
+    "semantic_required": ["conclusion", "evidence", "tradeoffs", "scope"],
+    "not_required": ["N_SMALL_TAIL", "N_LOWER_TAIL", "N_USAGE_REPRODUCTION"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "artifact_hashes": {
+    "candidate_readme": "e24369ccd2cd2dda3f4a1cdca152f79317899dbc5db4383370eb0457a254c511",
+    "candidate_results": "83f9b7b432ae0bc0cdeef1ef1c5266f7bf65fd44b56cd4cf7ccdd75a80e51bd6",
+    "reference_readme": "e24369ccd2cd2dda3f4a1cdca152f79317899dbc5db4383370eb0457a254c511",
+    "source/calibration-record.docx": "6e8d5acb5ced71fc0b2711f1754953731c18707013914fa6948891844b417f6e",
+    "source/instrument-history/control-settings.json": "83977ab08ea0450af90ae687d445a8a278dff5a1da9087a84aa932562748e316",
+    "source/instrument-history/mass-checks.csv": "b13ce6e0a5d368a174f65e15dd3cc928a11dda0368e5ee655bd662ba9bcdfb1c",
+    "source/instrument-history/optical-checks.csv": "e064d6fcabe25a4bc6780e43a88bfa8bf392c9303c72480ffc741ee8a1be8ef1",
+    "source/measurement-interface.json": "da1bc81ae69c1d8c56f136ba0d66000e2985bb648b0e97a0d0afd44435cb71fb",
+    "candidate_exceptions": "544525c0d19f19da6f2a2d5aa32659b383a520954854d7c6705708c3dd598ec5",
+    "verified_facts/facts.json": "5975f3be5fd0689a8919be66297a4a3fbb0a9e4e24010c204a72e4508b630fc0",
+    "professional_rule/bound-retrospective-impact/SKILL.md": "40a324a142ba211096c7cd647ba2d0bec89ec8038ff55e3c0081b2cfac99812b",
+    "professional_rule/bound-retrospective-impact/references/scope-and-closure.md": "8345e22e8432add76d05b7c1f9100652b3ea176f3d3270957c9c4ab444b8d5c7",
+    "professional_rule/review-measurement-control/SKILL.md": "a40f35ef0abacba7b5d6c317db74735d3a7be1621460f7c5111481d9b037d31a",
+    "professional_rule/review-measurement-control/references/baselines.md": "a2b018a892c454b1c0982cc440c7783b4cc2a24b151823b9024bfd785f971bf8",
+    "professional_rule/review-measurement-control/references/rerunnable-checks.md": "688c1cecd0a420fb277f0b4dfc2fcd2874fddc170b14a5119bcb6489d95e0555",
+    "professional_rule/review-measurement-control/references/scale-and-groups.md": "4de0a02f9e87feba2ba791ed21b0df74071b26fc15a5917d9deb606c7c0355b1"
+  },
+  "base_request_sha256": "b0d9a54c995a3b74acb4b3524ad71c1557ea73b70bcd0cd6969c733356c3c795",
+  "request_sha256": "f9dba791e01545f25e7953cd618e1d281b0a88c3ff03ba9da38a4c6df95e74ed",
+  "cache_key": "07ffdb3398e61aebe63bc0278c410320e90160f58d31c73423a3c550d5ce3334",
+  "visual_input": false,
+  "contract_sha256": "8f56f36f8a29dd4cdeaad5adcf81b0b1294dd9440def8a688af85e8bea41d904"
+}

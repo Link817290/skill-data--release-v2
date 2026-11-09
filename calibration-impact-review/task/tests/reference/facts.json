@@ -1,0 +1,185 @@
+{
+  "task": "calibration-impact-review",
+  "source_authority": "CSV records and supplied control settings govern; correct a conflicting Golden rather than penalizing a source-correct candidate.",
+  "summary": {
+    "mass_records": 217,
+    "baseline_records": 99,
+    "monitoring_records": 118,
+    "baseline_exceptions": 1,
+    "monitoring_exceptions": 4,
+    "optical_controls": 18,
+    "optical_failed_controls": 3,
+    "optical_failed_days": 1
+  },
+  "baseline": {
+    "count": 99,
+    "degrees": 297,
+    "mean_ug": -19.4785098989899,
+    "sample_sd_ug": 0.030652269866175884,
+    "pooled_repeatability_ug": 0.031107091010107505,
+    "bias_lower_ug": -19.570466708588427,
+    "bias_upper_ug": -19.38655308939137,
+    "precision_upper_ug": 0.06102227834396148,
+    "legacy_count": 117,
+    "legacy_degrees": 351
+  },
+  "optical_limits": {
+    "simultaneous_t": 2.4975750660069647,
+    "absolute_limit_um": 0.15696512800852283
+  },
+  "trend": {
+    "monitoring_mean_ug": -19.452781186440678,
+    "monitoring_sample_sd_ug": 0.03579581478113434,
+    "mean_shift_ug": 0.02572871254922049,
+    "above_baseline_mean": 97,
+    "monitoring_records": 118
+  },
+  "daily_results": [
+    {
+      "control_day": 1,
+      "controls": 3,
+      "failed_controls": 0,
+      "action": "within_limits"
+    },
+    {
+      "control_day": 2,
+      "controls": 3,
+      "failed_controls": 0,
+      "action": "within_limits"
+    },
+    {
+      "control_day": 3,
+      "controls": 3,
+      "failed_controls": 0,
+      "action": "within_limits"
+    },
+    {
+      "control_day": 4,
+      "controls": 3,
+      "failed_controls": 3,
+      "action": "repeat_linked_day"
+    },
+    {
+      "control_day": 5,
+      "controls": 3,
+      "failed_controls": 0,
+      "action": "within_limits"
+    },
+    {
+      "control_day": 6,
+      "controls": 3,
+      "failed_controls": 0,
+      "action": "within_limits"
+    }
+  ],
+  "exceptions": [
+    {
+      "system": "mass",
+      "record_id": "M047",
+      "scope": "baseline",
+      "control_day": "",
+      "measurement": "residual_sd",
+      "observed": 0.0724,
+      "unit": "ug",
+      "lower_limit": "",
+      "upper_limit": 0.06102227834396148,
+      "action": "investigate_baseline"
+    },
+    {
+      "system": "mass",
+      "record_id": "M129",
+      "scope": "monitoring",
+      "control_day": "",
+      "measurement": "residual_sd",
+      "observed": 0.0663,
+      "unit": "ug",
+      "lower_limit": "",
+      "upper_limit": 0.06102227834396148,
+      "action": "repeat_run"
+    },
+    {
+      "system": "mass",
+      "record_id": "M154",
+      "scope": "monitoring",
+      "control_day": "",
+      "measurement": "check_value",
+      "observed": -19.379,
+      "unit": "ug",
+      "lower_limit": -19.570466708588427,
+      "upper_limit": -19.38655308939137,
+      "action": "repeat_run"
+    },
+    {
+      "system": "mass",
+      "record_id": "M179",
+      "scope": "monitoring",
+      "control_day": "",
+      "measurement": "check_value",
+      "observed": -19.37848,
+      "unit": "ug",
+      "lower_limit": -19.570466708588427,
+      "upper_limit": -19.38655308939137,
+      "action": "repeat_run"
+    },
+    {
+      "system": "mass",
+      "record_id": "M207",
+      "scope": "monitoring",
+      "control_day": "",
+      "measurement": "residual_sd",
+      "observed": 0.1492,
+      "unit": "ug",
+      "lower_limit": "",
+      "upper_limit": 0.06102227834396148,
+      "action": "repeat_run"
+    },
+    {
+      "system": "optical",
+      "record_id": "L010",
+      "scope": "control_day",
+      "control_day": 4,
+      "measurement": "control_error",
+      "observed": -0.22879432624113472,
+      "unit": "um",
+      "lower_limit": -0.15696512800852283,
+      "upper_limit": 0.15696512800852283,
+      "action": "repeat_linked_day"
+    },
+    {
+      "system": "optical",
+      "record_id": "L011",
+      "scope": "control_day",
+      "control_day": 4,
+      "measurement": "control_error",
+      "observed": 0.27058763931104357,
+      "unit": "um",
+      "lower_limit": -0.15696512800852283,
+      "upper_limit": 0.15696512800852283,
+      "action": "repeat_linked_day"
+    },
+    {
+      "system": "optical",
+      "record_id": "L012",
+      "scope": "control_day",
+      "control_day": 4,
+      "measurement": "control_error",
+      "observed": 0.29368794326241243,
+      "unit": "um",
+      "lower_limit": -0.15696512800852283,
+      "upper_limit": 0.15696512800852283,
+      "action": "repeat_linked_day"
+    }
+  ],
+  "scope": {
+    "affected_customer_work_count": null,
+    "completed_remeasurement_confirmed": false,
+    "product_conformity": "not_determined"
+  },
+  "meaning": [
+    "M047 is retained in the frozen baseline and investigated.",
+    "Monitoring M129/M154/M179/M207 require linked-run review and repeat; pointwise passing does not establish global process stability.",
+    "Day4 has three failed references L010/L011/L012; repeat scope is the linked workload, whose actual item count is absent.",
+    "The legacy117/351 count conflicts with observed99/297; the difference does not prove records were lost.",
+    "Unknown workload stays null. Later passing controls do not prove repaired or repeated prior work. Product conformity requires specifications, uncertainty and work links not supplied here."
+  ]
+}

@@ -1,0 +1,19 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /workspace
+COPY task/environment/wheels/ /tmp/calibration-wheels/
+COPY task/environment/requirements-verifier.txt /tmp/calibration-verifier-requirements.txt
+RUN python3 -m pip install --no-index --no-cache-dir --require-hashes --find-links=/tmp/calibration-wheels -r /tmp/calibration-verifier-requirements.txt \
+    && python3 -c "import sys,numpy,scipy,docx,packaging,pyseccomp; assert sys.version_info[:2]==(3,11); assert numpy.__version__=='2.2.6'; assert scipy.__version__=='1.13.1'; assert docx.__version__=='1.2.0'"
+COPY task/tests/ /tests/
+COPY task/rubric.json /task/rubric.json
+COPY task/environment/workspace/input/ /workspace/input/
+COPY task/environment/source_hashes.json /trusted-source-hashes.json
+COPY golden/measurement-check/README.md /reference/README.md
+COPY task/environment/skills/ /reference/skills/
+RUN python3 -c "import hashlib,json; from pathlib import Path; hashes=json.loads(Path('/trusted-source-hashes.json').read_text()); assert hashes and all(hashlib.sha256((Path('/workspace')/p).read_bytes()).hexdigest()==h for p,h in hashes.items())" \
+    && ln -s /tests /task/tests \
+    && mkdir -p /workspace/output /logs/verifier \
+    && chmod 700 /workspace /task /tests /reference /logs
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+CMD ["/bin/sh"]

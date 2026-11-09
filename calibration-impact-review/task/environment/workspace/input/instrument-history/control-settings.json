@@ -1,0 +1,19 @@
+{
+  "mass": {
+    "baseline_cutoff_year": 1985.0,
+    "residual_df_each": 3,
+    "precision_alpha": 0.01,
+    "bias_sd_multiplier": 3,
+    "legacy_baseline_count": 117,
+    "legacy_baseline_df": 351
+  },
+  "optical": {
+    "intercept_um": 0.2357,
+    "slope": 0.987,
+    "fit_residual_sd_um": 0.06203,
+    "fit_df": 38,
+    "controls_per_day": 3,
+    "family_alpha": 0.05,
+    "family_method": "sidak"
+  }
+}
