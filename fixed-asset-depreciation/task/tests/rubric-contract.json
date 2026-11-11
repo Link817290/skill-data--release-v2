@@ -3,9 +3,8 @@
   "score_profile": "bench",
   "source_material_sha256": "7469a0f15a2f37f7c652617e741194e2376df9c0387f42617443ab8b3ec5e2fc",
   "settlement": {
-    "formula": "strict = (sum(weight * completion)) ** gamma",
-    "gamma": 1,
-    "basis": "Identity exponent preserves the weighted business completion scale. Owner weights and prerequisite minima already encode materiality and dependency; no unsupported nonlinear compression is added."
+    "formula": "strict = sum(weight * completion)",
+    "basis": "Owner weights and prerequisite minima encode materiality and dependency directly; no nonlinear transformation is applied."
   },
   "positive_items": {
     "P01": {

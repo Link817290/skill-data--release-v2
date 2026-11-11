@@ -1,6 +1,5 @@
 {
   "schema_version": "mx6-strict-parameters-1",
-  "gamma": 1,
   "weights": {
     "P01": 0.05,
     "P03": 0.05,

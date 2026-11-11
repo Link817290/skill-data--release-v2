@@ -40,8 +40,9 @@ material limitation, and defined fact request form a complete dependency chain.
 The lenient formula is a binary conjunction of full case coverage, core
 identity/state/action correctness, a substantive
 decision for every alert, AML group and control finding, a case-local evidence reference
-for each, a substantive summary, and unchanged source integrity. This lens does not compare the
-calibrated legal or AML conclusions used by the strict lens.
+for each, a substantive summary, and unchanged source integrity. It reuses the
+underlying case and control correctness signals as binary must-haves, but does
+not apply the strict weights or derive a pass from the weighted strict total.
 
 Oracle/golden strict = `1.0000`; oracle/golden lenient = `1.0000`. The eight open
 Directive 1 historical-state equivalents and the two wording-sensitive controls use the

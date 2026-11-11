@@ -30,7 +30,7 @@ recovery; first-article checking owns fabricated trial results and incomplete
 inspection. Repeated wording or a mechanical consequence is not a second error.
 
 The strict settlement retains every measured leaf once. Deterministic width,
-pressure and job coverage checks form the numeric subtotal. The twenty semantic
+pressure and job coverage checks form the numeric subtotal. The twenty-one semantic
 criteria with positive weights form the semantic subtotal; each owns one
 distinct operating decision or recovery obligation. The two subtotals are added
 at 30% and 70%. A missing recovery detail therefore loses only its published

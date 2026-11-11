@@ -6,7 +6,7 @@
   ],
   "trajectory_count": 0,
   "file_count_excluding_manifest": 46,
-  "bytes_excluding_manifest": 1401854,
+  "bytes_excluding_manifest": 1402130,
   "scope": "Entire current release package; excludes this manifest and generated runtime state.",
   "files_excluding_manifest": {
     "README.md": {
@@ -14,8 +14,8 @@
       "sha256": "547eab4f3b32ac8762892641ad23168071ee718d34e3c1bf40accc655e75d8be"
     },
     "RUBRIC.md": {
-      "bytes": 8332,
-      "sha256": "d32cbb5a24cf810c4ba5290999d4eca2a6f03a721b28ce507ef7ce8983e9d998"
+      "bytes": 8608,
+      "sha256": "ee659145545ff5790f16aa6aad2905812daece7ca58ed63e9a64084cc4dc299f"
     },
     "dataset.toml": {
       "bytes": 1050,

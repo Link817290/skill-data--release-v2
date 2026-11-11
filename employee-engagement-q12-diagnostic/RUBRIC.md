@@ -65,8 +65,23 @@ Missing and wrong are distinct. Missing evidence receives zero or partial item c
 
 ## Calibration evidence contract
 
-B1的10分由清洗账最终权重4分、分析工作簿正确应用权重后的主趋势6分组成；B2的4分按分析工作簿逐波次权重和、样本数、极值、ESS、设计效应、边际误差与两阶段迭代数独立核验。不得仅凭cleaned_samples.xlsx权重给分析发布分。总权重为100分。公式和校准人口边界以公开材料中的 `formula_reference.md` 为准，权重、分析及证据均由源材料独立核验。
+B1's 10 points comprise 4 points for final weights in the cleaning ledger and
+6 points for the primary trend after the analysis workbook correctly applies
+those weights. B2's 4 points independently verify, for each wave, the weight
+sum, sample count, extrema, ESS, design effect, margin error and both stage
+iteration counts. Weights appearing only in `cleaned_samples.xlsx` cannot earn
+analysis-release credit. The rubric totals 100 points. Formula definitions and
+the calibration-population boundary come from the public
+`formula_reference.md`; weights, analysis and evidence are independently
+recomputed from the supplied materials.
 
-### 校准诊断的实现等价性
+### Equivalent calibration implementations
 
-原始材料指定两个校准边际族，但未固定每轮访问它们的顺序。B2 的两阶段迭代次数按完整的同一计算路径核验：先组织边际后 frame_band，或相反顺序，均可；不得把不同路径的阶段次数拼成一组。只有最终响应权重通过独立复算，且两阶段次数共同对应可复算路径，才给这两项诊断分。不能仅因与参考程序采用的顺序不同而扣分；错误权重、虚构次数、漏报次数仍不得分。
+The materials specify two calibration-margin families but do not fix their
+visit order within each iteration. B2 therefore validates both stage counts
+against one complete reproducible path: organization margins followed by
+`frame_band`, or the reverse order. Counts from different paths cannot be
+spliced together. The two diagnostic counts earn credit only when the final
+response weights independently recompute and both counts belong to the same
+reproducible path. A different valid visit order is not penalized; wrong
+weights, invented counts and omitted counts receive no credit.

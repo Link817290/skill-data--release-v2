@@ -51,6 +51,20 @@ Each expert matter is one positive item. Weights sum to 1.
 | P10 | Competing reserve/value bases | Separates 45.0 MMBOE SEC proved with a $379.4 million standardized measure from 96.1 MMBOE 2P working-interest reserves before royalties with $686.6 million PV-10, using reserve class, framework, royalty, pricing, cost and non-GAAP qualifiers; does not manufacture a reconciliation and does not overwrite the source's own income-tax definition | `earnings_release.html` — Year-End Reserves, PV-10 Value and Probable Reserves, WI CPR Reserves | 0.06 | Framework separation |
 | P11 | Evidence and artifact closure | Register rows are substantive and source-located, memo conclusions cross-reference register identifiers, and the filing-readiness conclusion covers required corrections, cleared apparent issues and unresolved evidence needs without asserting the package is ready as filed | Both deliverables | 0.08 | File handling / artifact closure |
 
+The weights follow disclosure consequence and the amount of independent
+professional reasoning each matter controls. P01, P02 and P07 receive 0.12 each
+because they govern the principal movement contradictions or a material
+acquisition narrative and therefore affect both the table and management's
+explanation. P03 receives 0.10 because the comparative category swap is a
+closed cross-table error with direct trend consequences. P04-P06, P08, P09 and
+P11 receive 0.08 each: they are material scope, evidence, clearance and closure
+owners, but none alone changes both the principal movement bridge and its
+narrative. P10 receives 0.06 because it prevents an invalid comparison between
+different reserve frameworks while remaining analytically separate from the
+issuer's primary SEC movement correction. These are relative professional-risk
+weights; they are not pass thresholds, and each owner still awards continuous
+credit for its own completed sub-items.
+
 ### Partial credit
 
 Each `P01`-`P10` dimension is built from sub-items whose weights sum to 1 within the

@@ -24,7 +24,7 @@ admission chain use a minimum across their prerequisites. The three time-based
 methods and one workload method retain a 3:1 arithmetic share in P01.
 
 The weighted completion is `B = sum(weight * completion)`. Strict reward is
-`B ** 1`, so the reported strict score remains the weighted business completion.
+`B`, so the reported strict score is the weighted business completion.
 Owner weights and the calculation/admission prerequisite minima already encode
 materiality and dependency; no unsupported nonlinear compression is added.
 The same formula applies to every artifact, reference and probe. There are no

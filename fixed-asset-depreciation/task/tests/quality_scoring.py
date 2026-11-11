@@ -99,6 +99,5 @@ def settle(measured,parameters):
     if set(weights)!=set(OWNERS) or abs(sum(weights.values())-1)>1e-12:
         raise RuntimeError('Invalid frozen scoring contract')
     earned=min(1.0,max(0.0,sum(weights[key]*measured['completion'][key] for key in weights)))
-    strict=earned**parameters['gamma']
-    return {'rewards':{'strict':strict},'positive_earned':earned,'completion':measured['completion'],
-            'gamma':parameters['gamma'],'evidence':measured['evidence']}
+    return {'rewards':{'strict':earned},'positive_earned':earned,'completion':measured['completion'],
+            'evidence':measured['evidence']}

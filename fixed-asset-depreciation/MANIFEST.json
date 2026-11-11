@@ -6,7 +6,7 @@
   ],
   "trajectory_count": 0,
   "file_count_excluding_manifest": 49,
-  "bytes_excluding_manifest": 2041825,
+  "bytes_excluding_manifest": 2041633,
   "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
   "files_excluding_manifest": {
     "README.md": {
@@ -14,8 +14,8 @@
       "sha256": "a8a5e1667ddd3243b540feb3ed26cebb82f3990c3942c2d327a7be0b46e1fa9b"
     },
     "RUBRIC.md": {
-      "bytes": 11570,
-      "sha256": "b44e3348a8d7c43a27687d117035a5c2a007c4e07f432c0c5fad7124f2d2d043"
+      "bytes": 11560,
+      "sha256": "64ba535ce67be90450a39e90efa164376dc1f6472c3b080570fed6e56b42c6a5"
     },
     "dataset.toml": {
       "bytes": 1249,
@@ -162,12 +162,12 @@
       "sha256": "7873ae9b4939c41ac98be2eb262f8dc9583296c2f6354623dcd74868f43d7bb7"
     },
     "task/tests/quality_scoring.py": {
-      "bytes": 6439,
-      "sha256": "fff7894d6af4bd36513eb0134c22ca292c8a533cd87e7bea61f1795a85409ff8"
+      "bytes": 6372,
+      "sha256": "c5d4c10cf1055194c721e2c53d5b4a0147e0e4c53c915959bba08eed9d69ca1a"
     },
     "task/tests/rubric-contract.json": {
-      "bytes": 3850,
-      "sha256": "53ea37c724fe86f3351b887411e54599ac513519e9f8bf37f792102aa9a59c91"
+      "bytes": 3749,
+      "sha256": "f919a85c4a78b175081f1bd3f0c9a047783a7da68e53ed2c10bb062d25f2ad7e"
     },
     "task/tests/runtime/business_metrics.py": {
       "bytes": 11217,
@@ -194,8 +194,8 @@
       "sha256": "3bc87862a3bd61366e5287cc747d63ca206aa2677a1379dd4e9d68bae8b94afd"
     },
     "task/tests/scoring_params.json": {
-      "bytes": 236,
-      "sha256": "80d3da78391ddf7dd19e65ef7eeebe5c64b678c90643f823f2414cfc2e67d642"
+      "bytes": 222,
+      "sha256": "6f5a1998bd44e74b163b7724f71aba8d08414c38cdbabb178270ee5da16650fa"
     },
     "task/tests/test.sh": {
       "bytes": 470,

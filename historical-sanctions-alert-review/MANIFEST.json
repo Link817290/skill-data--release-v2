@@ -6,7 +6,7 @@
   ],
   "trajectory_count": 0,
   "file_count_excluding_manifest": 39,
-  "bytes_excluding_manifest": 6950744,
+  "bytes_excluding_manifest": 6950823,
   "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
   "files_excluding_manifest": {
     "README.md": {
@@ -14,8 +14,8 @@
       "sha256": "120b7d520ae0df5c82f1f1213e192557c71d6ed0781f16ad5ec478253b729559"
     },
     "RUBRIC.md": {
-      "bytes": 14648,
-      "sha256": "2cc3b5164b12a256a684d33e070c0652a8bf88fcede144b961c4b9f6ba46140f"
+      "bytes": 14727,
+      "sha256": "14a3e26a1de72ccf2b006d35fb1c49a2810145479b98b08d791a63255c024236"
     },
     "dataset.toml": {
       "bytes": 582,
