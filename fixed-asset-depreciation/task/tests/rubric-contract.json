@@ -1,0 +1,104 @@
+{
+  "version": "mx6-financial-behavior-1",
+  "score_profile": "bench",
+  "source_material_sha256": "7469a0f15a2f37f7c652617e741194e2376df9c0387f42617443ab8b3ec5e2fc",
+  "settlement": {
+    "formula": "strict = (sum(weight * completion)) ** gamma",
+    "gamma": 1,
+    "basis": "Identity exponent preserves the weighted business completion scale. Owner weights and prerequisite minima already encode materiality and dependency; no unsupported nonlinear compression is added."
+  },
+  "positive_items": {
+    "P01": {
+      "weight": 0.05,
+      "description": "Four-method depreciation engine: assumptions, schedules, workload, openings and reporting balances",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P03": {
+      "weight": 0.05,
+      "description": "Monthly departmental expense attribution",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P04": {
+      "weight": 0.19,
+      "description": "Historical departmental depreciation flows",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P05": {
+      "weight": 0.33,
+      "description": "Cutoff departmental financial stocks",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P06": {
+      "weight": 0.05,
+      "description": "Category and global summary indicators, expense totals and reconciliation",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P07": {
+      "weight": 0.18,
+      "description": "Opening source admissibility: keyed record, numeric amount and basis bound",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P08": {
+      "weight": 0.05,
+      "description": "Visible invalid asset, master-data, workload and transfer inputs",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P09": {
+      "weight": 0.05,
+      "description": "Routine maintenance within configured asset and dictionary capacity",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    },
+    "P10": {
+      "weight": 0.05,
+      "description": "Preserved business inputs, workbook structure and offline formulas",
+      "completion_scale": {
+        "type": "continuous",
+        "min": 0,
+        "max": 1,
+        "basis": "Arithmetic completion over declared binary business cases; minima only along calculation/admission prerequisites."
+      }
+    }
+  },
+  "deduction_items": {},
+  "lenient_contract": "must_have.json"
+}

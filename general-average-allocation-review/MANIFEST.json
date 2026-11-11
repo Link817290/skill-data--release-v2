@@ -1,0 +1,133 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "general-average-allocation-review",
+  "tasks": [
+    "general-average-allocation-review"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 30,
+  "bytes_excluding_manifest": 3138330,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2615,
+      "sha256": "3c1b2288bc1a7521f569be3ce2d9fd5c05b9e4c7a88a82eb22fad3b88b408af5"
+    },
+    "RUBRIC.md": {
+      "bytes": 16949,
+      "sha256": "8758353b7dd743e72f8bb99dc0275bc9f934a20185372478b83a3274209e7d6e"
+    },
+    "dataset.toml": {
+      "bytes": 1052,
+      "sha256": "6013c8e585b90411fbe3551912cdc169a0734368289ae528bbc0cc59c3fc96a3"
+    },
+    "golden/general_average_review.md": {
+      "bytes": 30255,
+      "sha256": "900d0264d05e16d02a25c0aa6bc9a0922728b848ffcad63033c35834b2d399ac"
+    },
+    "golden/general_average_schedule.csv": {
+      "bytes": 5321,
+      "sha256": "92d6d697ee58adf8cf6143ee1abf872ad7957d5daabdb6ae9c78c837dab6e3fd"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1178,
+      "sha256": "ff863a43d957f7c10047ebadcfddb5c0768406c34d21238e5fa5828c95eccf7e"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 558,
+      "sha256": "abb7e86ac924db7673c764bbf67819ec510cbd2b4d777a076d73b09f30521633"
+    },
+    "task/environment/skills/audit-general-average-adjustment/SKILL.md": {
+      "bytes": 13788,
+      "sha256": "97a920c19791eca729a494b18cb32893c3705ead02722873198691c629cab984"
+    },
+    "task/environment/skills/audit-general-average-adjustment/scripts/check_allocation.py": {
+      "bytes": 2812,
+      "sha256": "40cd704c354b3fdebf01862c8c119930d9d7f01b3dd0adb9849449d256cc9b82"
+    },
+    "task/environment/skills/audit-general-average-adjustment/scripts/scan_account_states.py": {
+      "bytes": 4435,
+      "sha256": "39319b77e6cb8a1aaa7ba57d018f6cfe7fef0b53209d7484a5b10aa22c574431"
+    },
+    "task/environment/skills/audit-general-average-adjustment/scripts/scan_adjustment_classifications.py": {
+      "bytes": 4475,
+      "sha256": "eae075e2fe38a7626e507c695362858dfcc7edfcde6ee1b5d26ae1f5fd7c84d5"
+    },
+    "task/environment/skills/audit-general-average-adjustment/scripts/scan_decision_status.py": {
+      "bytes": 4112,
+      "sha256": "aab4e2564794e0bd963c5dd49b43ddc4e4dcd729246751f632a35b8fc7ef3031"
+    },
+    "task/environment/workspace/court_of_appeal_judgment.pdf": {
+      "bytes": 357468,
+      "sha256": "5725d8ec96f904f3c20081830ea29b64854f3341af2d28513f22577e34a97c54"
+    },
+    "task/environment/workspace/final_judgment.pdf": {
+      "bytes": 391539,
+      "sha256": "cb547aaee028dbbb982655eb17a5e0e16b3804273d316528536427515f9b99f0"
+    },
+    "task/environment/workspace/first_instance_judgment.pdf": {
+      "bytes": 627488,
+      "sha256": "74acc1d2c639cf5c769153eb18a286d67848adff70f7a74bdc6e05a72c6df781"
+    },
+    "task/environment/workspace/general_average_adjustment.pdf": {
+      "bytes": 1116119,
+      "sha256": "619145dc604bd41d6eed641431c2ba8627738da047231877567402e695859d73"
+    },
+    "task/instruction.md": {
+      "bytes": 1659,
+      "sha256": "9d7ba8eb265875dfb6774332feeba1dd2e96f57e5670874d468c920b215d1162"
+    },
+    "task/solution/build_reference.py": {
+      "bytes": 42070,
+      "sha256": "3f1a0839bfdd919998b80cb1490f6c909027f5d4408697659cc4e2421d4cf049"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 2209,
+      "sha256": "707f45d8cd85ad63c8441189d721466779129a73e0018c2b5451fa8c9ee17d33"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 254,
+      "sha256": "45668b49e55d15724e40ede9a9c0bbe5949e48e477db69498c71bf96e20945a8"
+    },
+    "task/task.toml": {
+      "bytes": 1479,
+      "sha256": "2bd8f59bf1a1ffb36ec8a93d584a8edaa00f1c75cf86279e36e340069e4ffd67"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1428,
+      "sha256": "ac0327cd224aef8e6511aaabafadb03140b2dc67c67f1ed8dde484c833001dd1"
+    },
+    "task/tests/golden_replay/cc2448e0bc924fc522dac81a5e25083bf84cce59fbdf5cbaa3bb6644e315fc26.json": {
+      "bytes": 21875,
+      "sha256": "3b4d8bde91dd906c9f653d488b785f3ba65e174a5edbf4fa78e843600e638c10"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 36038,
+      "sha256": "3642bfe261668cb14e9de1741c25e21442549eb1bc8ba8dbd69c319334d92258"
+    },
+    "task/tests/judge_transport.py": {
+      "bytes": 6361,
+      "sha256": "e99323baef5ae95578b4f46036742c82447bd9923d63230f533b4edef0e38150"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 523,
+      "sha256": "8ef9100353b1a3e3304e6f63356cc6927bd92bbcd04fb275b90d43cb40a1b882"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 9565,
+      "sha256": "c9f54c4f69c2fdff9d8649f34a59ad59ff76c43564db3d957a9a1b4ff5e7be98"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 391946,
+      "sha256": "962ac8d41600b1c8f25d0079056cb77f9a7eff3ac8825cd3a74a6eb3b5df7049"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1969,
+      "sha256": "8e4e0e33d612091d51e953be36735a0460de5f9ba32a1980bc1f511fedcf1253"
+    },
+    "task/tests/validator.py": {
+      "bytes": 40790,
+      "sha256": "039096e5f764c7d7d0230532936eb9e5637274a713acfbc13096ad180e46b600"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+version = "1.0"
+id = "employee-engagement-q12-diagnostic"
+task_type = "skill-bench"
+domain = "human-resources"
+language = "zh"
+difficulty = "hard"
+source_version = "v10"
+deliverable = "workspace/output/engagement_analysis.xlsx"
+network_access = false
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+semantic_judge_required = true
+free_text_compared = true
+
+[scoring.weights]
+population_identity = 0.05
+calibrated_trend = 0.30
+measurement_quality = 0.15
+small_domain_decisions = 0.30
+panel_composition_sensitivity = 0.15
+delivery_privacy = 0.05
+
+[scoring.gates]
+missing_deliverable = 0.50
+identical_workbooks = 0.20
+identity_misuse = 0.30
+privacy_disclosure = 0.00
+
+[skills]
+names = ["audit-survey-data", "analyze-repeated-surveys", "protect-employee-data"]
+thresholds_in_skill = false
+answers_in_skill = false
+network_required = false

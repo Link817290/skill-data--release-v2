@@ -1,0 +1,201 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "evidence-submission-plaintiff-first-instance-actual-constructor-claim",
+  "tasks": [
+    "evidence-submission-plaintiff-first-instance-actual-constructor-claim"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 47,
+  "bytes_excluding_manifest": 1004881,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3698,
+      "sha256": "4c5830247161a44ed687b02572a75484a9f64f9d267765a99d307a7bcff6e9f9"
+    },
+    "RUBRIC.md": {
+      "bytes": 17765,
+      "sha256": "6dea05ac10cf2babbceea0ff6f9d9c6f53a224cd4102b5d1983669586cf9eeaf"
+    },
+    "dataset.toml": {
+      "bytes": 544,
+      "sha256": "3990f641faddc233800b6513ac2cd60fc22a157e842761f4ec546c5d3c9eb826"
+    },
+    "golden/evidence-submission-opinion.md": {
+      "bytes": 8096,
+      "sha256": "5cff8d9f527048f55e11b02dd679f4ecfa47431602708cedf1f4e12fe1785485"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 430,
+      "sha256": "27277384f033dfb5c1211814ee67fa6d03750c86e201074397c849e7e45d7d88"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 328,
+      "sha256": "3b5e512f291afb16a0d2e633858095d2181497bcf11547bd6ce04def448d3037"
+    },
+    "task/environment/skills/evidence-submission/SKILL.md": {
+      "bytes": 6362,
+      "sha256": "e6d872fc83033c5c586e3aab826aee02c7a9f2312ae58688f026d71b6b2c3505"
+    },
+    "task/environment/skills/evidence-submission/references/burden-holding-and-request.md": {
+      "bytes": 4757,
+      "sha256": "52c00f411ed937d73c1d591304ebfce96eedf833a58b9b2c6ea79149e076f5f7"
+    },
+    "task/environment/skills/evidence-submission/references/figures-periods-and-limitation.md": {
+      "bytes": 4647,
+      "sha256": "6cb88bd58b750f53fefa296e113bc043f920413e191d7de9eaa694d876dc7cfc"
+    },
+    "task/environment/skills/evidence-submission/references/filing-baseline.md": {
+      "bytes": 7616,
+      "sha256": "511f41d26d212c00c2cc167c4c43db857e91a8be7c5429f41fbfb0682d5cd794"
+    },
+    "task/environment/skills/evidence-submission/references/grouping-and-corroboration.md": {
+      "bytes": 7569,
+      "sha256": "79d3abdc46ea44caf4a5b0bd62247fb9fb73598b508016d2aa9a2d424ab1b32b"
+    },
+    "task/environment/workspace/instruction.md": {
+      "bytes": 379,
+      "sha256": "813a004ba3961a7d9e47b89576dbba7951a0e44b4ff8ac822299a680323ba701"
+    },
+    "task/environment/workspace/materials/案件原始资料-某项目实际施工人纠纷.docx": {
+      "bytes": 57020,
+      "sha256": "97ad9457afe5e0b7083fe9dfabde78217b59e65eeeb6ae2a05a3d220d98fbcd4"
+    },
+    "task/instruction.md": {
+      "bytes": 379,
+      "sha256": "813a004ba3961a7d9e47b89576dbba7951a0e44b4ff8ac822299a680323ba701"
+    },
+    "task/solution/reference/evidence-submission-opinion.md": {
+      "bytes": 8096,
+      "sha256": "5cff8d9f527048f55e11b02dd679f4ecfa47431602708cedf1f4e12fe1785485"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 367,
+      "sha256": "e41282efa04644b0dd81dc7627239377c58ff2e8c1a903697b331680df8463de"
+    },
+    "task/task.toml": {
+      "bytes": 1408,
+      "sha256": "8d385ab082ffa963105678aa1c4686c24281abc8f53c095b31ccf52630d8669d"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1405,
+      "sha256": "6764de950a217be6300e0a3603ae942a3ce2957325b738a9258e13a54dd16f1e"
+    },
+    "task/tests/deliverable_gate.json": {
+      "bytes": 1477,
+      "sha256": "4f6212efdbd9b07829a9995110895a2d5240185376eb076c2743fdf441ccb9a8"
+    },
+    "task/tests/deliverable_gate.py": {
+      "bytes": 38833,
+      "sha256": "597f9a5cc237a55c96d9d602c7aa0804128e79f8baf34798464d94d08369dfcf"
+    },
+    "task/tests/golden/举证意见.docx": {
+      "bytes": 40202,
+      "sha256": "5f617563afb9e7618a5acaee231cb6e4e477f9fe8b7a0117a6597a00cd67cb30"
+    },
+    "task/tests/golden_replay/10621764bf6ae4c7115a413e320315903a2a14769ddad94bb7a5eb170370569d.json": {
+      "bytes": 31012,
+      "sha256": "db1c398c57288574527f6b80b3e2d04c3dccf9c0d64b3aebf22d4b6307a0cbab"
+    },
+    "task/tests/pjroot/instruction.md": {
+      "bytes": 379,
+      "sha256": "813a004ba3961a7d9e47b89576dbba7951a0e44b4ff8ac822299a680323ba701"
+    },
+    "task/tests/pjroot/materials/案件原始资料-某项目实际施工人纠纷.docx": {
+      "bytes": 57020,
+      "sha256": "97ad9457afe5e0b7083fe9dfabde78217b59e65eeeb6ae2a05a3d220d98fbcd4"
+    },
+    "task/tests/pjroot/rubric-contract.json": {
+      "bytes": 109191,
+      "sha256": "1a9fd38e23911cdb1afdaf976516604a0cf74b0ceb8b6cf700e6e583ff8f5ad8"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/amount_date_range_notation.md": {
+      "bytes": 15496,
+      "sha256": "d0d9523e4d5a24b9ab4092cc3e058a9438432d2f59b6d44cc62d1e895213a129"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/crlf_line_endings.md": {
+      "bytes": 15521,
+      "sha256": "a5660521d5dcf1d87ca4a43e3b2e8012d096b75d2972d7b6f72cc7ed93fa7b49"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/evidence_rows_as_list.md": {
+      "bytes": 16823,
+      "sha256": "039a85a2aa1ccdc3609d0ca533a18b16121e3cdd14c65f23e7cbb171fc2c3513"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/golden_canonical.md": {
+      "bytes": 15372,
+      "sha256": "0c9f325b72fd6a626db28f295ef2d48af8785b7fe615ff3915719d1031e716bd"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/heading_list_markup.md": {
+      "bytes": 15481,
+      "sha256": "e212c38cad0d50a67c7871e30cb4dbf8bf0cf6be7c72044783f99772c35cdb09"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/ns_inline_labels.md": {
+      "bytes": 24425,
+      "sha256": "1a38e8bb9eba73ba8bfa5a9a5f031a500479eccde5b89947760caea33867f29a"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/ns_plain_labels.md": {
+      "bytes": 24208,
+      "sha256": "ed1ef7c3845becaa73e15398197d2c4c64fa0f39aec973deba7312be682181b8"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/parse_failure_invalid_utf8.md": {
+      "bytes": 22,
+      "sha256": "51bc4a4637d4448141c80a9f9a43eb589a03d797a71e1665726060d4dd760ab0"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/rollout_group_count_suffix.md": {
+      "bytes": 24345,
+      "sha256": "40b56bc71e7da84b7be5fbf77cebbe0e912bb5a31163ac3306b704036c4820cd"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/rollout_group_plain.md": {
+      "bytes": 24273,
+      "sha256": "52f747f64dc13ab70ecc1331ae83c81fa8092e27d9684b9d8dced8b1d8edcc0e"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/rollout_opinion_carrier.md": {
+      "bytes": 15713,
+      "sha256": "6480ee44c0ab4a370aa811e7c375885100a90fda333439a36de9554650b40877"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/ws_arabic_points.md": {
+      "bytes": 37792,
+      "sha256": "e672f3c457af341fd6b343d37258a93c7cef192c85a77e6fc935294ed53008d1"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/ws_cn_points.md": {
+      "bytes": 37805,
+      "sha256": "28f1186247f4edfd80849aa9af4f6ae26a6bd7b998d35b1917a5749e72c91aac"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/ws_descriptive_headings.md": {
+      "bytes": 27110,
+      "sha256": "28f21189faaa2de63ea572945d667ea7ada3893788845593584b31558169c55e"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/ws_plain_headings.md": {
+      "bytes": 26814,
+      "sha256": "610c7a7009125a38b19058eb27855422f6ef7ba248b6b950547b1330df08dce8"
+    },
+    "task/tests/pjroot/task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22095,
+      "sha256": "5d63b2ffa5e0f50ddcbb61bf63c9cd5769d602af38f9722b52bde840e214c81d"
+    },
+    "task/tests/pjroot/task/tests/program_judge/task_judge.py": {
+      "bytes": 94681,
+      "sha256": "ad35913a0cb878e5241dce0e5fe42476724dd045415343481e400c0a6ded0fa6"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 109191,
+      "sha256": "1a9fd38e23911cdb1afdaf976516604a0cf74b0ceb8b6cf700e6e583ff8f5ad8"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 13200,
+      "sha256": "806a0708f0371faa6a9731383b9d6484842d71db714464b500bdf3d6e0b54b23"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 29975,
+      "sha256": "a3c69957c334dc967b6f683b318a78dbd9c945308acfd566b10d6c8607ab05b0"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1619,
+      "sha256": "219fc991b4aab8ce0edbdb3480db74676cf800fe54ad8a500af7deee57f49852"
+    },
+    "task/tests/validator.py": {
+      "bytes": 3940,
+      "sha256": "d5077a5c2604c38baa274103cb1bc48dc61f14524b0ce02b6f00f4518257499a"
+    }
+  }
+}

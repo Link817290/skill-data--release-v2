@@ -1,0 +1,41 @@
+version = "1.0"
+id = "general-average-allocation-review"
+title = "General-average allocation review"
+task_type = "skill-bench"
+domain = "marine insurance"
+language = "en"
+difficulty = "hard"
+instruction = "task/instruction.md"
+task = "task/task.toml"
+task_no_skill = "task/task_no_skill.toml"
+rubric = "RUBRIC.md"
+golden = "golden"
+required_outputs = [
+  "/workspace/deliverables/general_average_review.md",
+  "/workspace/deliverables/general_average_schedule.csv",
+]
+network_access = false
+
+[scoring]
+primary_score = "reward"
+reward_alias = "strict"
+strict_formula = "positive_earned * retention; parameters in task/tests/scoring_params.json"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/validator.py"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0
+
+[skill]
+name = "audit-general-average-adjustment"
+script_count = 3
+
+[conditions]
+answers_in_skill = false
+thresholds_in_skill = false
+condition_blind = true

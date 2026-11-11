@@ -1,0 +1,20 @@
+id = "gas-fleet-contingency-dispatch"
+task_type = "skill-bench"
+deliverable = "workspace/output/dispatch_review.json"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from tests/scoring_params.json"
+scoring_params = "tests/scoring_params.json"
+# `validator.py:params()` reads the weight and coefficient table from the file named by the
+# environment variable `SCORING_PARAMS` when it is set, and from `scoring_params` otherwise. The
+# override is declared here so it is part of the contract rather than a switch only the docstring
+# mentions. It is unset in every graded run: all scores in this package come from the file above.
+scoring_params_env_override = "SCORING_PARAMS"
+scoring_params_env_override_used = false
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true

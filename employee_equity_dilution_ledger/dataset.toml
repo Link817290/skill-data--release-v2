@@ -1,0 +1,38 @@
+version = "1.0"
+id = "employee_equity_dilution_ledger"
+name = "employee_equity_dilution_ledger"
+task_type = "skill-bench"
+domain = "finance"
+language = "en"
+difficulty = "hard"
+format = "xlsx"
+materials = ["annual_report.pdf", "proxy_statement.html"]
+deliverable = "workspace/employee_equity_dilution_ledger.xlsx"
+network_access = false
+
+[scoring]
+primary_score = "reward"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from task/tests/scoring_params.json"
+scoring_params = "task/tests/scoring_params.json"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+semantic_judge_required = true
+free_text_compared = true
+
+[skill]
+name = "equity-award-rollforward; dilution-ledger-controls"
+reference_count = 2
+
+[conditions]
+thresholds_in_skill = false
+thresholds_in_workspace = false
+condition_blind = true
+
+[provenance]
+material_set = "supplied source documents"

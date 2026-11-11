@@ -1,0 +1,9 @@
+FROM harbor-claude-code-aggregated:1.3
+
+WORKDIR /tests
+COPY task/tests/ /tests/
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN test -f /tests/test.sh \
+    && test -f /tests/pjroot/materials/案件原始资料-某项目实际施工人纠纷.docx \
+    && chmod +x /tests/test.sh
+ENTRYPOINT ["/bin/bash", "/tests/test.sh"]

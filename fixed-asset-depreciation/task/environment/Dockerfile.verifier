@@ -1,0 +1,7 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/environment/workspace/materials/ /environment/materials/
+RUN python3 -c "import openpyxl, uno" && libreoffice --version && test -s /tests/validator.py && test ! -e /tests/llm_judge/cache && mkdir -p /logs/verifier/judge-cache
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1

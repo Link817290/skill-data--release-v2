@@ -1,0 +1,173 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "employee_equity_dilution_ledger",
+  "tasks": [
+    "employee_equity_dilution_ledger"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 40,
+  "bytes_excluding_manifest": 20704641,
+  "scope": "Entire current release package; excludes this manifest and generated runtime state.",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2437,
+      "sha256": "4782897c6d9c6ecd01ee9bf888eafd558666ecea4b588cd8e822eb42c874b018"
+    },
+    "RUBRIC.md": {
+      "bytes": 13428,
+      "sha256": "53830d4e486c1174e516b4e2d7f8bc993155dc4022b5a31ce0ac5be4ba3f496d"
+    },
+    "dataset.toml": {
+      "bytes": 1081,
+      "sha256": "c4dc104ba34fb7fb20031b359b283d8fb11f8b31066185087958a54fa9c41cd1"
+    },
+    "golden/employee_equity_dilution_ledger.xlsx": {
+      "bytes": 11947,
+      "sha256": "0bee340ec0addc97ca413b2b3894c93cdb50a9db9c68d0c42972e80c56b3e1af"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 797,
+      "sha256": "40b9564cb805c11ea8403a0fe5b4630f8cb9029a745198ce716c16ec5562645d"
+    },
+    "task/environment/compat/apk": {
+      "bytes": 180,
+      "sha256": "d9e006444ea4cd7161709a6b9845370ef3b1d940fa7b6d4182c8efd6d2020996"
+    },
+    "task/environment/compat/npm": {
+      "bytes": 225,
+      "sha256": "dcb706fe3983dd9d658589972b2dc630c26577cb76190406af8a509d43f5767f"
+    },
+    "task/environment/skills/dilution-ledger-controls/SKILL.md": {
+      "bytes": 4448,
+      "sha256": "740852c6caab95208adb8a82a153b8e9a695f29c4c9910d3a6ddd8f59115f9f2"
+    },
+    "task/environment/skills/dilution-ledger-controls/references/treasury-stock-and-pool.md": {
+      "bytes": 1024,
+      "sha256": "f33aad2eea51ef58e42605f6f758e1d3de904a09d86b22919fa213e31a1a343b"
+    },
+    "task/environment/skills/dilution-ledger-controls/scripts/audit_workbook_formulas.py": {
+      "bytes": 713,
+      "sha256": "e38a7a819970dd14545733f02fa10edb593690297f49a1dc8bff8a426e2e70bb"
+    },
+    "task/environment/skills/equity-award-rollforward/SKILL.md": {
+      "bytes": 4171,
+      "sha256": "0d1cf56e8dd26b6b5c3fe9ce056c7703a3858808bf47a1d61ea98f49b83e0959"
+    },
+    "task/environment/skills/equity-award-rollforward/references/filing-table-controls.md": {
+      "bytes": 994,
+      "sha256": "cec2bdd8f3012254f27417c14dfe72606cc77e1f7456a11bc335ff77ed949dce"
+    },
+    "task/environment/skills/equity-award-rollforward/scripts/check_rollforward.py": {
+      "bytes": 1046,
+      "sha256": "0c7dc0f512650c2d1afbb9565cb77fd575fb08d5170491da13fd06fb2bf5dd16"
+    },
+    "task/environment/workspace/materials/annual_report.pdf": {
+      "bytes": 19088471,
+      "sha256": "30f286007d46b57da1011713e0f6818ce40c4384a76a306fcb2251041f99c92d"
+    },
+    "task/environment/workspace/materials/proxy_statement.html": {
+      "bytes": 1371058,
+      "sha256": "6f2ae775526a9b9022dff839bc0aa4dfc508ae9a3aed8baaa0aba6720a3a26fd"
+    },
+    "task/instruction.md": {
+      "bytes": 993,
+      "sha256": "ead67f4cde884df6814fe4700f7a735ed5ac898e2b584f564e1a424fb8d1aada"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 3279,
+      "sha256": "4902ba16aafed666967dab63a312a0d9e4e0c15ccda9cd1655ea64c208083363"
+    },
+    "task/solution/golden_deliverable.xlsx": {
+      "bytes": 11886,
+      "sha256": "8a7efbfe245c5773ef9c11cd855d4ecbcc7c695e82c469826be2568591bfef03"
+    },
+    "task/solution/solve.py": {
+      "bytes": 18049,
+      "sha256": "23e8514d7069b39fdbff01d4e5856797a2b66cdae793b59fc0e2e0459ff4c1ab"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 221,
+      "sha256": "90340b89f8d4cc6c3d63f8472ab0bc998dab446f8b1f34e5eef2fce29e60fc17"
+    },
+    "task/task.toml": {
+      "bytes": 1298,
+      "sha256": "3b0374f550a662c520d2aada02124ec3bf49b7a17c82ebcd002157fd2102799b"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1250,
+      "sha256": "ac12c6b1ac003ce1d296896571f257b227260cc7bd602f4e59bac86a21a32a6a"
+    },
+    "task/tests/aggregate_scores.py": {
+      "bytes": 558,
+      "sha256": "246c4d100576191bfa5ef90e73f34ea004e349b7d50b77398824d30e41f881e2"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 1841,
+      "sha256": "cdfc56ab96dc44a1dfb5933a1c808c3cedd80c68d699eca358ef001af1146562"
+    },
+    "task/tests/ground_truth_lineage.json": {
+      "bytes": 528,
+      "sha256": "51b5c6ef456b5acc326d8be8ccd344504e6815d9e5374fb77fdd16c0ca8e337a"
+    },
+    "task/tests/mix_judge/TEMPLATE_SHA": {
+      "bytes": 13,
+      "sha256": "a7f9f0326ada894f5496a3f7f2948004b7432ae87c38ec73c7e9371e6bc7ee92"
+    },
+    "task/tests/mix_judge/gate.md": {
+      "bytes": 5218,
+      "sha256": "a3d74894c0767b1d9ff044805177f60b5dd7767bcd4004028aec4215c9f2e91d"
+    },
+    "task/tests/mix_judge/gate.schema.json": {
+      "bytes": 5740,
+      "sha256": "2699b8aea5a7907a66abcf4763be590593c860a42770681fea6b91bac20fdd94"
+    },
+    "task/tests/mix_judge/gate_runtime.py": {
+      "bytes": 37510,
+      "sha256": "6c2a4726e991e949528919e087a04d3c031edd237b8fb25dd222ca640e0694f6"
+    },
+    "task/tests/mix_judge/golden_replay/cf2e75be0699ccf38173c80b78ab5eb10f91677fdb151d426d8052a359a226f4.json": {
+      "bytes": 1718,
+      "sha256": "8a63bfa10b39ef5adab4a2129cfdff687e7f78b077ede21bf8d1aeb503a29476"
+    },
+    "task/tests/mix_judge/hacks.json": {
+      "bytes": 4772,
+      "sha256": "6fadafb65347912148d87ccc2638cbb51959c79bd3aea1ccdaf5ab6974e01b11"
+    },
+    "task/tests/mix_judge/judge_transport.py": {
+      "bytes": 3176,
+      "sha256": "578c28038616c0947a8b1f45330683daf923c71ac696fe1639d4f0bb3dff6580"
+    },
+    "task/tests/mix_judge/llm.json": {
+      "bytes": 82,
+      "sha256": "5a0f6075d53caba483b1169b7c7f3c1cf6558b0290de2f7f94ff9341f66a5e20"
+    },
+    "task/tests/mix_judge/package/declared.json": {
+      "bytes": 40,
+      "sha256": "ce3bdb2f6c5fd863efd1f9d1492be0f11e8b4e901fd275bade8efd215959e511"
+    },
+    "task/tests/mix_judge/package/golden/employee_equity_dilution_ledger.xlsx": {
+      "bytes": 11947,
+      "sha256": "0bee340ec0addc97ca413b2b3894c93cdb50a9db9c68d0c42972e80c56b3e1af"
+    },
+    "task/tests/mix_judge/package/instruction.md": {
+      "bytes": 993,
+      "sha256": "ead67f4cde884df6814fe4700f7a735ed5ac898e2b584f564e1a424fb8d1aada"
+    },
+    "task/tests/mix_judge/package/places.json": {
+      "bytes": 80,
+      "sha256": "20673d0375bde30196a0320483f505ac242c89d698180ae536e8b62c1b3abf2e"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 435,
+      "sha256": "6988d9956f9236769e221771ac4b8a1defa0b4a5790b9e43e16aa0186a3c40fe"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2735,
+      "sha256": "23fbc34e4afb3a16e4df7400fbb8754c2c42c1588c52c75cf48d911e3a8fafa3"
+    },
+    "task/tests/validator.py": {
+      "bytes": 88259,
+      "sha256": "394866b6cbcc09a5dd5351f2c727c86041a34a78eea5cbd5fe60ce4866651561"
+    }
+  }
+}

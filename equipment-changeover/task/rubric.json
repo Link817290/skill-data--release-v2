@@ -1,0 +1,142 @@
+{
+  "numeric_weight": 0.3,
+  "semantic_weight": 0.7,
+  "numeric_criteria": [
+    {
+      "id": "job_coverage",
+      "weight": 0.15,
+      "observable": "Exactly one parameter row for each public job ID; accept reordered rows/columns."
+    },
+    {
+      "id": "native_width_conversion",
+      "weight": 0.55,
+      "observable": "Active job label width multiplied by selected native density; no nominal-dpi rounding."
+    },
+    {
+      "id": "model_specific_start_pressure",
+      "weight": 0.3,
+      "observable": "Start settings selected using model and medium width; not an empirically validated optimum."
+    }
+  ],
+  "semantic_criteria": [
+    {
+      "id": "job_device_binding",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "job_consumables",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "d_capability_hold",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "resolution_and_format",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "host_power_head_state",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "media_path_and_guides",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "ribbon_path_and_mode",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "wizard_and_full_calibration",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "trial_adjustment_bounds",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "consecutive_five_restart",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "first_article_scope",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "planned_trial_truth",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "final_parameter_record",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "sample_isolation_and_release",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "sensor_recovery",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "tear_position_recovery",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "print_quality_recovery",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "ribbon_coating_recovery",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "d_authorized_alternative",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "post_recovery_revalidation",
+      "weight": 0.047619047619047616
+    },
+    {
+      "id": "d_false_release_damage",
+      "weight": 0.0
+    },
+    {
+      "id": "chinese_operating_content",
+      "weight": 0.047619047619047616
+    }
+  ],
+  "strict_settlement": {
+    "family": "numeric-semantic-weighted-additive",
+    "weights": {
+      "numeric": 0.3,
+      "semantic": 0.7
+    },
+    "damage": {
+      "d_false_release_damage": {
+        "coefficient": 0.4,
+        "cap": 1
+      }
+    },
+    "global_power": null,
+    "maximum_nonlinear_compression": 1.0
+  },
+  "equivalence": "Accept source-supported business-equivalent wording and layouts. Each semantic item is binary and owns one distinct operation or decision.",
+  "version": "business10-equipment-release-v13-linear",
+  "score_profile": "bench",
+  "lenient": {
+    "type": "binary_conjunction",
+    "required_atomic_owners": [
+      "job_coverage",
+      "B_pressure",
+      "host_power_head_state",
+      "consecutive_five_restart",
+      "d_capability_hold",
+      "planned_trial_truth",
+      "chinese_operating_content"
+    ],
+    "meaning": "All four jobs, correct B pressure, host/power/head safety, consecutive-five restart acceptance, the D capability hold, truthful planned-trial status, and substantive Chinese operating content are all required."
+  }
+}

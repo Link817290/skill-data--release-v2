@@ -1,0 +1,42 @@
+{
+  "version": "business10-equipment-release-v13-linear",
+  "strict_source_version": "business10-equipment-strict-v13-linear",
+  "strict_settlement": {
+    "family": "linear_owner_weighted",
+    "weights": {
+      "C01": 0.01,
+      "N01": 0.01,
+      "S01": 0.1,
+      "S02": 0.5700000000000001,
+      "S03": 0.24,
+      "S04": 0.06,
+      "S05": 0.01
+    },
+    "damage": {
+      "d_false_release_damage": {
+        "coefficient": 0.4,
+        "cap": 1
+      },
+      "numeric_systemic": {
+        "coefficient": 0.2,
+        "minimum_wrong_fields": 4,
+        "cap": 1
+      }
+    },
+    "global_power": null,
+    "maximum_nonlinear_compression": 1.0
+  },
+  "lenient": {
+    "type": "binary_conjunction",
+    "required_atomic_owners": [
+      "job_coverage",
+      "B_pressure",
+      "host_power_head_state",
+      "consecutive_five_restart",
+      "d_capability_hold",
+      "planned_trial_truth",
+      "chinese_operating_content"
+    ],
+    "meaning": "Complete A-D job coverage, correct B-station pressure, setup safety, the D capability hold, truthful planned-trial status, consecutive-five restart acceptance and substantive Chinese operating instructions are all required."
+  }
+}

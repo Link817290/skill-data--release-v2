@@ -1,0 +1,44 @@
+artifacts = ["/workspace/output/cleaned_samples.xlsx", "/workspace/output/engagement_analysis.xlsx"]
+version = "1.0"
+id = "employee-engagement-q12-diagnostic-no-skill"
+title = "Employee engagement diagnostic across two waves (no-skill control)"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "zh"
+
+[metadata]
+tags = ["hr", "employee-engagement", "q12", "xlsx", "data-analysis"]
+source_version = "v10"
+
+[verifier]
+timeout_sec = 900.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/q12-judge-cache}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 600.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/output/engagement_analysis.xlsx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"

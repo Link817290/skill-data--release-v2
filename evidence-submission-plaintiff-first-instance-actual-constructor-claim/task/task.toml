@@ -1,0 +1,51 @@
+version = "1.0"
+id = "evidence-submission-plaintiff-first-instance-actual-constructor-claim"
+name = "expert/evidence-submission-plaintiff-first-instance-actual-constructor-claim"
+title = "evidence-submission-plaintiff-first-instance-actual-constructor-claim"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+artifacts = ["/workspace/artifacts/evidence-submission-opinion.md"]
+
+[metadata]
+tags = ["legal", "evidence", "submission"]
+source_language = "zh-CN"
+deliverable_language = "zh-CN"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[verifier]
+timeout_sec = 900.0
+environment_mode = "separate"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-240}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+
+[verifier.environment]
+docker_image = "evidence-submission-verifier:1.0"
+network_mode = "public"
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "evidence-submission:local"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+network_access = false
+build_timeout_sec = 600.0
+
+[solution]
+deliverable = "artifacts/evidence-submission-opinion.md"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"

@@ -1,0 +1,20 @@
+{
+  "artifact_hashes": {
+    "candidate/包装工位标签打印作业指导书.docx": "2dca08bde048f13ae82b6dbad54121934cdac661ad96d132a208c2b7f50cc267",
+    "golden_meaning/包装工位标签打印作业指导书.docx": "2dca08bde048f13ae82b6dbad54121934cdac661ad96d132a208c2b7f50cc267",
+    "source/包装班10月22日换型安排.docx": "75ed94378881ab5604016ca15c3f150835e66b54629f27e6ebae902cf998a88b",
+    "source/标签打印作业指导书（编制格式）.docx": "a334b54e04724e190a08d25800e3781fbe441fd0be6e277963a201a793b7990d",
+    "source/设备手册/ZT411、ZT421标签打印机操作说明.docx": "a1f31a1bff6fef4cf1bf464b7d00cdee37e456783b64d740e0ba5fdc84d30de6",
+    "facts": "ccf6f6c4c4584c5a2cc0201cb7cadfbf726e9cce695d5d94827f8ca782f50b79"
+  },
+  "request_sha256": "87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1",
+  "batch_request_sha256": [
+    "7968ecb6d56900e6adafbc06db1eb815a3d7d4f35a7e76f11a43b020ead8dcb7",
+    "b9f6c101b2b9bc271f497c2a39564aff4c5465d58bdf6bea985ae4966ef80f2a",
+    "37b587ee914824c432e0f6c6ead9c02723afcdde46eb563083ff7acf8dd66f68"
+  ],
+  "batch_count": 3,
+  "rollout_executed": false,
+  "visual_input": false,
+  "contract_sha256": "0ac0f97c2353f7edd04afaf268e6b56e135b465564ec8ade737763538c3ac2dd"
+}

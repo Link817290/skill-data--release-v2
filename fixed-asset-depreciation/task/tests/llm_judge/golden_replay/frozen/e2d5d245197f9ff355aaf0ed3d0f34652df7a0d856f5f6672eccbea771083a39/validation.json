@@ -1,0 +1,9 @@
+{
+  "status": "qualified_gpt_responses",
+  "atomic_binary": true,
+  "all_44_ids": true,
+  "quotes_bound": true,
+  "returned_model": "gpt-5.6-sol",
+  "provider_response_id": "resp_0b0456af4e5bc7c0016aeb23feeee087d080f3d80838a67cef",
+  "provider_response_sha256": "721f58748e838ffc7d9058a7110bec264e58cb7cdc8e78600cd21bb914541423"
+}

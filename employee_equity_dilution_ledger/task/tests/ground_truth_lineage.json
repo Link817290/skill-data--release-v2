@@ -1,0 +1,8 @@
+{
+  "direction": "source materials -> reference workbook -> ground_truth.json",
+  "source_bindings": [
+    {"material": "materials/annual_report.pdf", "locations": ["Note 13, pages 75-78", "Note 18, page 90", "Equity Compensation Plans table, PDF page 100 / printed page 94 (13,059,834 shares available)"]},
+    {"material": "materials/proxy_statement.html", "locations": ["Outstanding Equity Awards at Fiscal Year-End 2024", "Option Exercises and Stock Vested in 2024"]}
+  ],
+  "generator": "solution/derive_ground_truth.py"
+}

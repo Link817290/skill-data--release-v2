@@ -1,0 +1,197 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "employee-engagement-q12-diagnostic",
+  "tasks": [
+    "employee-engagement-q12-diagnostic"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 46,
+  "bytes_excluding_manifest": 1401854,
+  "scope": "Entire current release package; excludes this manifest and generated runtime state.",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3372,
+      "sha256": "547eab4f3b32ac8762892641ad23168071ee718d34e3c1bf40accc655e75d8be"
+    },
+    "RUBRIC.md": {
+      "bytes": 8332,
+      "sha256": "d32cbb5a24cf810c4ba5290999d4eca2a6f03a721b28ce507ef7ce8983e9d998"
+    },
+    "dataset.toml": {
+      "bytes": 1050,
+      "sha256": "3590ace65a3c34cdebbc7185fbf22c37acfcc68dda16f824a9cb34e4151045fe"
+    },
+    "golden/cleaned_samples.xlsx": {
+      "bytes": 208984,
+      "sha256": "7bd9abfd5a7cf5d0794804f7f1f785ce14a32bff5499312a703b285af61c2b86"
+    },
+    "golden/engagement_analysis.xlsx": {
+      "bytes": 121063,
+      "sha256": "3dbdc4527f29e43dcfac0bb47f8be0690c1d0017322e5f8950b7d6573b2762e3"
+    },
+    "golden/source.json": {
+      "bytes": 1115,
+      "sha256": "61a3de58da34f45858c9e2648ef44357f14abf20c76eec1050195c2fbc7123c0"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 427,
+      "sha256": "1d2c18141a12f74f382fd404899d81d6f8b3df8ae251fa9c6e10e9041f8a9b26"
+    },
+    "task/environment/skills/analyze-repeated-surveys/SKILL.md": {
+      "bytes": 9667,
+      "sha256": "aa8de0baf098409866f4a54695033461330ca4a6af90fc484a1478d35415ba38"
+    },
+    "task/environment/skills/analyze-repeated-surveys/scripts/check_release.py": {
+      "bytes": 5172,
+      "sha256": "c1bc32fb0e46ef68e0247ed072ef6d6a6f7662076808f812233fd92888f08daf"
+    },
+    "task/environment/skills/audit-survey-data/SKILL.md": {
+      "bytes": 1907,
+      "sha256": "c510dbb480b036c0e433480511b8af79e58ffcfc10eabed605fd44b66bb17de7"
+    },
+    "task/environment/skills/protect-employee-data/SKILL.md": {
+      "bytes": 1764,
+      "sha256": "1bef9ec25b7fe1b3ea11cc597cf0871ad3d58163fcb2c913ab0fa8f8fc39ecdb"
+    },
+    "task/environment/workspace/materials/analysis_parameters.xlsx": {
+      "bytes": 3601,
+      "sha256": "148a6ea62fdc07cc44369641089bc4eb2bcd0573c121a3e7c9e76daaf22907e6"
+    },
+    "task/environment/workspace/materials/analysis_requirements.xlsx": {
+      "bytes": 14165,
+      "sha256": "4f637ae001bb30fafa80c7cbb022a9be32c365e8a716688df2a293577638b0c2"
+    },
+    "task/environment/workspace/materials/employee_core.xlsx": {
+      "bytes": 128897,
+      "sha256": "259a6931ef479875c22ee49f10bfba05046002b4fc3975f57cd2b411bb2d6701"
+    },
+    "task/environment/workspace/materials/formula_reference.md": {
+      "bytes": 3022,
+      "sha256": "d94e6d3d5e83ca6af3d17acfd46acaf4da42119f45c8617675fff374a2608462"
+    },
+    "task/environment/workspace/materials/identity_bridge.xlsx": {
+      "bytes": 32098,
+      "sha256": "c24e7bdb6c76650a984ceb1a51c3a566309fa9aa00ff68b7f07595e494dc531f"
+    },
+    "task/environment/workspace/materials/level_events.xlsx": {
+      "bytes": 80363,
+      "sha256": "7020d65455a56923b788f038d80d4d5d4f934030bb1a8721d0ef1f7dfd7caec5"
+    },
+    "task/environment/workspace/materials/people_snapshot.xlsx": {
+      "bytes": 180773,
+      "sha256": "607111447cc65be8f5a159aa44a81a9b8d3b94ecea467032dd12eeca1b73ed18"
+    },
+    "task/environment/workspace/materials/population_margins.xlsx": {
+      "bytes": 5493,
+      "sha256": "d0cf1ee16b34c35a005484ee6db02d98e3a05b091c7b4bdef7223ae7da6d1a58"
+    },
+    "task/environment/workspace/materials/survey_dictionary.xlsx": {
+      "bytes": 6673,
+      "sha256": "37b03210a6505fe613e54a9d264e40a0d693eb4b2c80f40a6378e6fa3a240fa0"
+    },
+    "task/environment/workspace/materials/variance_design.xlsx": {
+      "bytes": 14045,
+      "sha256": "e12672b99ef9d41ca910c46524ed0b3fb0d6124806d48415529fc0b832657c5b"
+    },
+    "task/environment/workspace/materials/wave_alpha_batch_01.xlsx": {
+      "bytes": 18332,
+      "sha256": "2dc60273e354da2cc7fc057b76016c66300497c2dda023e7e60fc1e6bff2d027"
+    },
+    "task/environment/workspace/materials/wave_alpha_batch_02.xlsx": {
+      "bytes": 12450,
+      "sha256": "95754073d262c5124088224d36742c66b252263586c2b8eef1d1446715af0d82"
+    },
+    "task/environment/workspace/materials/wave_beta_batch_01.xlsx": {
+      "bytes": 23512,
+      "sha256": "738875dcd7b3a6ba9713f7e204b75dfbebbb7ae0d1073d537e28a2bd8f3b5cc8"
+    },
+    "task/environment/workspace/materials/wave_beta_batch_02.xlsx": {
+      "bytes": 15419,
+      "sha256": "50ed4cc196556cb17e70a5e0150559d0ce45a6a35acb1ba23ffcd43cbf1db95a"
+    },
+    "task/environment/workspace/output/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "task/instruction.md": {
+      "bytes": 922,
+      "sha256": "f0e6e6cadb287df11aa8057070e9fbf7be3de3a3492a2781c6aab34d58370f4a"
+    },
+    "task/solution/q12_pipeline.py": {
+      "bytes": 58506,
+      "sha256": "82426f72664d80eda01a9bec6d6178561ca0c4a87ed1428a051e8f801485ccc2"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 361,
+      "sha256": "2bf1b957b3c741bc9a46ce8261b294faf172a7c9c81b9048b5a141e5eef11f31"
+    },
+    "task/solution/xlsx_min.py": {
+      "bytes": 14072,
+      "sha256": "a1e10683b46a07c32acb220953b7a70aabffd3ab42da969ac087328f869da36c"
+    },
+    "task/task.toml": {
+      "bytes": 1220,
+      "sha256": "dd96cf142a3d202b93c8d42c2b54e90c7c8935c04dbf3f47021cae5e17e8b104"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1218,
+      "sha256": "f7d53eb31f46703e04d1dc555f0f8f28b7526db076b99874f8678bf182eed966"
+    },
+    "task/tests/golden_replay/416b778831f1f36c4e9aec6e21ecc191eb3019b862aaf2db26e5fce8464a8b12/request.json": {
+      "bytes": 181425,
+      "sha256": "416b778831f1f36c4e9aec6e21ecc191eb3019b862aaf2db26e5fce8464a8b12"
+    },
+    "task/tests/golden_replay/416b778831f1f36c4e9aec6e21ecc191eb3019b862aaf2db26e5fce8464a8b12/response.json": {
+      "bytes": 893,
+      "sha256": "6a28cccb3b9d4436448af886159b2402142fbd51781bfb873ae71679176d4d72"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 395,
+      "sha256": "c0a3e178885c450cde55b2da3c8cd8cc783908e7a27f35514f76fbdab8b1e694"
+    },
+    "task/tests/item_checks.py": {
+      "bytes": 27556,
+      "sha256": "4186792868d8046d7cd7cc743281ca10702d40bff044ff2fe43f4e09b6a3f6c3"
+    },
+    "task/tests/judge_transport.py": {
+      "bytes": 3176,
+      "sha256": "578c28038616c0947a8b1f45330683daf923c71ac696fe1639d4f0bb3dff6580"
+    },
+    "task/tests/metric_checks.py": {
+      "bytes": 22615,
+      "sha256": "caeeb871871d537a77ad6d03be15564f6618b9ff1c76efd4880ba2d014709000"
+    },
+    "task/tests/q12_pipeline.py": {
+      "bytes": 58506,
+      "sha256": "82426f72664d80eda01a9bec6d6178561ca0c4a87ed1428a051e8f801485ccc2"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 6720,
+      "sha256": "495a4ed0ee6bba8c9277f573ae08be89e0e0fa3e892a152cc3183540f75de6f0"
+    },
+    "task/tests/semantic_checks.py": {
+      "bytes": 17426,
+      "sha256": "dce08bd7fa97aa7b155c247a95e531f6b8447231eb45c5cbee1b4f1949795453"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 3294,
+      "sha256": "c893f4e7b1ff77373ff99a3a3422eee9b2f61d29df3df4fd062067e819c695da"
+    },
+    "task/tests/sheet_primitives.py": {
+      "bytes": 52477,
+      "sha256": "a515c38a0678ca21f9f71554cfd79af3930db13ac14df55fa302b53daa28bed9"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2326,
+      "sha256": "59ac1193b2c24b721d9e3a7ab4375c311d8ef6fb95029960ac0dcb7dff934307"
+    },
+    "task/tests/validator.py": {
+      "bytes": 32977,
+      "sha256": "2ae95263b30388ca476034ee57c35cb9987fc5f55d846d9fc6569b29a80c8779"
+    },
+    "task/tests/xlsx_min.py": {
+      "bytes": 14072,
+      "sha256": "a1e10683b46a07c32acb220953b7a70aabffd3ab42da969ac087328f869da36c"
+    }
+  }
+}

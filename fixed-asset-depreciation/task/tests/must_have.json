@@ -1,0 +1,39 @@
+{
+  "schema_version": "mx6-bench-must-have-1",
+  "profile": "bench",
+  "settlement": "Conjunction of independently measured binary must-haves",
+  "items": {
+    "native_integrity": {
+      "source": "instruction.md: preserve supplied business inputs, worksheet structure and offline calculation without macros or external links",
+      "predicate": "The original nine sheets remain, no macros or external links exist, and native baseline business-input values match the material."
+    },
+    "four_method_bridge": {
+      "source": "instruction.md: build four methods and link reporting-period depreciation, accumulated depreciation and carrying amounts",
+      "predicate": "The supplied representative assets for all four methods have correct monthly schedules and YTD/cumulative/net/annual amounts at baseline and January."
+    },
+    "period_ownership": {
+      "source": "instruction.md: transfers effective in recorded month; expenses follow occurrence month and balances follow reporting cutoff",
+      "predicate": "A recorded April transfer correctly changes the affected departmental monthly expenses, historical dashboard flow and cutoff financial stocks."
+    },
+    "year_department_bridge": {
+      "source": "instruction.md: reporting-period balances and departmental cutoff ownership; workbook supports report-year changes and service lives to 40 years",
+      "predicate": "After the report year crosses service year twenty, the public dashboard cost, accumulated depreciation and net value for the supplied representative straight-line asset's configured department remain correctly linked."
+    },
+    "safe_workload_opening": {
+      "source": "instruction.md and workbook opening conventions: keyed workload openings and clearly identified invalid inputs",
+      "predicate": "An opening above depreciable basis is visibly identified, while an opening just below the basis produces the correct remaining-quota monthly and balance results."
+    },
+    "global_summary_correct": {
+      "source": "instruction.md: reporting-period balances, category and global reconciliation",
+      "predicate": "All required category/global summaries and reconciliation outputs are correct across the measured periods."
+    },
+    "all_required_diagnostics": {
+      "source": "instruction.md: identify invalid asset, master-data, workload and transfer inputs",
+      "predicate": "Every declared invalid-input family is visibly diagnosed."
+    },
+    "configured_capacity_maintenance": {
+      "source": "instruction.md: maintain the workbook within configured asset and dictionary capacity",
+      "predicate": "Routine maintenance scenarios remain correct within configured capacity."
+    }
+  }
+}

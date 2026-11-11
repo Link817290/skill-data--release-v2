@@ -1,0 +1,11 @@
+{
+  "truth_source": "derived_at_verification_time",
+  "generator": "tests/q12_pipeline.py",
+  "input_root": "environment/workspace/materials",
+  "material_count": 14,
+  "deliverables": [
+    "output/cleaned_samples.xlsx",
+    "output/engagement_analysis.xlsx"
+  ],
+  "note": "Numeric and membership truth is recomputed from the supplied materials; no answer workbook is read by the verifier."
+}

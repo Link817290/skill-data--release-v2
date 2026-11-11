@@ -1,0 +1,185 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "equipment-changeover",
+  "tasks": [
+    "equipment-changeover"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 43,
+  "bytes_excluding_manifest": 520413,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 876,
+      "sha256": "afab3847bd67e0feb96a6dc7b3af81ebe5541e9890d766ad694353ed913f737e"
+    },
+    "RUBRIC.md": {
+      "bytes": 3721,
+      "sha256": "9883b002c54fbbb44cb847940fb3f417e1418201ce61d2d62e7d4b31a0ed08fc"
+    },
+    "dataset.toml": {
+      "bytes": 46,
+      "sha256": "9a7c56675d418b245fb0e41f696cc2a930993666496278a47e03483eff811dc8"
+    },
+    "golden/包装工位标签打印作业指导书.docx": {
+      "bytes": 38246,
+      "sha256": "2dca08bde048f13ae82b6dbad54121934cdac661ad96d132a208c2b7f50cc267"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 276,
+      "sha256": "818955e607b05962d52a4a21ffe7060f278eefd78ada6d9f425ba9d7ad98b39a"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 202,
+      "sha256": "6233d6bcd325c365de671837446cb6a92d37ead5a2983f91a5d829e4c457ca06"
+    },
+    "task/environment/skills/compose-operating-instructions/SKILL.md": {
+      "bytes": 871,
+      "sha256": "16a28c953660a3f74d982b9a6a0ec9ff0ca8b3d7b2cba6cdeb4e4b258c51b36f"
+    },
+    "task/environment/skills/compose-operating-instructions/references/exceptions.md": {
+      "bytes": 1040,
+      "sha256": "6b76bc7bb3d1d45b71bd774e3906d9b253ea7a91977e61791bebc9814b51b901"
+    },
+    "task/environment/skills/compose-operating-instructions/references/state-transitions.md": {
+      "bytes": 1114,
+      "sha256": "18bfa37b2942852ffdb6123b4437f90fd022dc4bcee38f10489aa59270044558"
+    },
+    "task/environment/skills/compose-operating-instructions/scripts/check_transitions.py": {
+      "bytes": 748,
+      "sha256": "a14eb7d6bf6720f3ab38d4ac513699b974c04cb30f238794cf90edc525ac4f02"
+    },
+    "task/environment/skills/resolve-equipment-configurations/SKILL.md": {
+      "bytes": 980,
+      "sha256": "928e86938863026cb5ee128a9bb0a1ada76211ec32e090db493504030614f31c"
+    },
+    "task/environment/skills/resolve-equipment-configurations/references/configuration-layers.md": {
+      "bytes": 1211,
+      "sha256": "cd6e87f0fd7e11c58e7153b009cfb80f4f9116619e860274cd942bcea22b4d00"
+    },
+    "task/environment/skills/resolve-equipment-configurations/references/units-and-bounds.md": {
+      "bytes": 1075,
+      "sha256": "219e72a7adcd809eec9eb7747106ecd3d2b686c90f19ea74934adc9e0fb75389"
+    },
+    "task/environment/skills/resolve-equipment-configurations/scripts/convert_units.py": {
+      "bytes": 615,
+      "sha256": "0bda9828974833487e3ae57f2df14a4d0cbe92be8f5b449f42afc04f4ac92949"
+    },
+    "task/environment/workspace/input/包装班10月22日换型安排.docx": {
+      "bytes": 36204,
+      "sha256": "75ed94378881ab5604016ca15c3f150835e66b54629f27e6ebae902cf998a88b"
+    },
+    "task/environment/workspace/input/标签打印作业指导书（编制格式）.docx": {
+      "bytes": 35656,
+      "sha256": "a334b54e04724e190a08d25800e3781fbe441fd0be6e277963a201a793b7990d"
+    },
+    "task/environment/workspace/input/设备手册/ZT411、ZT421标签打印机操作说明.docx": {
+      "bytes": 38476,
+      "sha256": "a1f31a1bff6fef4cf1bf464b7d00cdee37e456783b64d740e0ba5fdc84d30de6"
+    },
+    "task/instruction.md": {
+      "bytes": 714,
+      "sha256": "9a4050a0e0bfde4a9bf65918bbf73d466ed872862786730cfe4d189c98026f34"
+    },
+    "task/rubric.json": {
+      "bytes": 3649,
+      "sha256": "3e3f04cd3c27543f00cee971a3b474c6fb98e2981ffb9b9b831d2e33a8846d4b"
+    },
+    "task/solution/solve.py": {
+      "bytes": 425,
+      "sha256": "58b2b2adaf4da714645f754bcdd629a532c7aafe7d3b43b35f3daa1f6a317edc"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 111,
+      "sha256": "31bc186ec0da45e8330441a9db0e3edd7e5bd78847d65872cb3bf22554f6604d"
+    },
+    "task/task.toml": {
+      "bytes": 1213,
+      "sha256": "7139c4cbf529ac021704d08f364c94cb3f881c2de06121f9cb266564bf825ed6"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1169,
+      "sha256": "b0994eb0ba8826738820dfd87962f345f47aa571a19901257fc8c7a4cfbdb454"
+    },
+    "task/tests/README.md": {
+      "bytes": 150,
+      "sha256": "9bf43a5a16a9c39280432a64f2bc8b3b756b23f79c77ebf0a4617f8f0929bcf0"
+    },
+    "task/tests/evaluate.py": {
+      "bytes": 6618,
+      "sha256": "cb57490ed36265138a5dedc2798c3c4ec8c48b8b339ef10c3fe03ce56fd0549a"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 7879,
+      "sha256": "0ac0f97c2353f7edd04afaf268e6b56e135b465564ec8ade737763538c3ac2dd"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 13807,
+      "sha256": "18a05a99294399d0ecd5a3099a660a4627f3dd04c596e6a8d7fec70784b1f58c"
+    },
+    "task/tests/mix_judge/manifest.json": {
+      "bytes": 19356,
+      "sha256": "7373ce7680b0c83ecd4bda4e27c479152fba9309382c9f5899f355d0852ab72a"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 1790,
+      "sha256": "6158bc49cd12fcbcc819dea1e30ff863a4a73eee7f4f7029af99cf08541bef7a"
+    },
+    "task/tests/mix_judge/replay/87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1/evidence.json": {
+      "bytes": 23200,
+      "sha256": "8ed1f4402d26c94c5b6ba0517da3f72b532344ffca63dab4bec080b1549556ca"
+    },
+    "task/tests/mix_judge/replay/87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1/manifest.json": {
+      "bytes": 1267,
+      "sha256": "58f1e422f97ae25b20afeca875ea6670a0da7b4f767209260def2f26dcddf14f"
+    },
+    "task/tests/mix_judge/replay/87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1/request.json": {
+      "bytes": 119551,
+      "sha256": "87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1"
+    },
+    "task/tests/mix_judge/replay/87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1/response-01.json": {
+      "bytes": 44542,
+      "sha256": "49c67759905bdeb2105054f6fa1bb18cd6270680b63009be6a800f2e32c6f543"
+    },
+    "task/tests/mix_judge/replay/87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1/response-02.json": {
+      "bytes": 45257,
+      "sha256": "38204bbfa20ddde1ce8110052c86e063a330bccb7e7de1817ca5897550a4be1a"
+    },
+    "task/tests/mix_judge/replay/87c8891ef0ba777c4de69bd723c90134da21b8ede76b450bce558a59f7b1e3a1/response-03.json": {
+      "bytes": 39551,
+      "sha256": "b9f945dbb17e3695cf9e7e4e379ae9def49e07540491f9c18ce7a18093943c20"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 21305,
+      "sha256": "6c93d0a4eb19f2c71bece7b854a51855e3f0525c6b71b7b9d96c504074bbe5f5"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 168,
+      "sha256": "55eb536fbe090842614f5f7c0091cd3310a8b99def6a4f28097a6356d0b2df4e"
+    },
+    "task/tests/reference/facts.json": {
+      "bytes": 911,
+      "sha256": "ccf6f6c4c4584c5a2cc0201cb7cadfbf726e9cce695d5d94827f8ca782f50b79"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 1191,
+      "sha256": "6704b62b89193e134cbfde15310beab4314ec1ebdf262af0a85a7cb6440f31ff"
+    },
+    "task/tests/skill_execution_rubric.json": {
+      "bytes": 705,
+      "sha256": "0c8c43033aa2830874bf26a56dc4c13b4aa07fb55b70d37541eec36be1306891"
+    },
+    "task/tests/test.sh": {
+      "bytes": 402,
+      "sha256": "4b60c9fa2842a8706030a4d9a3b3f185d47922e29373b3e0b66c1f736497b0b8"
+    },
+    "task/tests/verify.py": {
+      "bytes": 3492,
+      "sha256": "7996d083e0f0d03cb5bf57f6786d20fa8f3f20e084ca5bf5425a291d1cbadd99"
+    },
+    "task/tests/write_reward.py": {
+      "bytes": 633,
+      "sha256": "36a4ce8816247159d653669e924d99858f19e80365f240e50b5ceb6edb715ba0"
+    }
+  }
+}

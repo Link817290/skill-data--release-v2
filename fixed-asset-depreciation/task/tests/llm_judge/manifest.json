@@ -1,0 +1,15 @@
+{
+  "version": "mx6-visible-input-diagnoses-1",
+  "files": {
+    "judge.py": "249c767dfd0caeaf8f326086d58dff0fbd23b3552169894f0764676e83c123fc",
+    "prompt.md": "5de2fc5a1b2d1a18996f42028e6d17a2c2ea115cbb9bdc175d1d688a90dfc1bd",
+    "response.schema.json": "0dcc4d65c82a7d69de1c59436e34e7a7b0c67045d34e4667d1d2bb48ba8bf862",
+    "settings.json": "61be47201d31ed9f5324ad4244467d8cdf48bb960b1aa4619f5a3abc2e3ab122",
+    "contract.json": "f50e25e73e6f8e0571382a39ddd038a6b568d49a4e2b6f3d63e7dfaa8e5c8681",
+    "runtime/official_transport.py": "c7dbe4c3c0357cbdcca505ee56fe71421511af712c41935d33d3f7b421a238b7",
+    "golden_replay/manifest.json": "466fb9060fec73409163c06f967a6f18361387721f8c997d861519d0a31d0bf3"
+  },
+  "frozen_call_count": 1,
+  "native_observation_source": "Runtime-native diagnostics bound to the Golden artifact",
+  "replay_scope": "One exact GPT Responses Golden request and decision binding is packaged. New artifacts miss to fresh; ordinary-candidate and provider-history caches are excluded."
+}

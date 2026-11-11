@@ -1,0 +1,43 @@
+{
+  "sanctions_reviews": [
+    {"transaction_id": "224546", "party": "Bank Rossiya", "candidate_list_name": "BANK ROSSIYA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "241389", "party": "Bank Rossiya", "candidate_list_name": "BANK ROSSIYA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "224861", "party": "VTB Bank", "candidate_list_name": "VTB BANK PUBLIC JOINT STOCK COMPANY", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "227437", "party": "VTB Bank", "candidate_list_name": "VTB BANK PUBLIC JOINT STOCK COMPANY", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "232714", "party": "JSC VTB Bank", "candidate_list_name": "VTB BANK PUBLIC JOINT STOCK COMPANY", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "234749", "party": "VTB Bank", "candidate_list_name": "VTB BANK PUBLIC JOINT STOCK COMPANY", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "238675", "party": "VTB Bank", "candidate_list_name": "VTB BANK PUBLIC JOINT STOCK COMPANY", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "225021", "party": "Sberbank of Russia", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "229306", "party": "Sberbank of Russia", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "240310", "party": "Sberbank", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "240104", "party": "Sberbank", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "227490", "party": "Sberbank", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "226828", "party": "Sberbank of Russia", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "227538", "party": "Bank Belveb OJSC", "candidate_list_name": "BANK BELVEB OJSC", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "228525", "party": "Amsterdam Trade Bank NV", "candidate_list_name": "AMSTERDAM TRADE BANK NV", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "237602", "party": "Bank Otkritie Financial Corporation", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY BANK FINANCIAL CORPORATION OTKRITIE", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "237854", "party": "Rosbank", "candidate_list_name": "PUBLIC JOINT STOCK COMPANY ROSBANK", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "224191", "party": "Alfa Bank", "candidate_list_name": "JOINT STOCK COMPANY ALFA-BANK", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "239784", "party": "Agricultural Development Bank of China", "candidate_list_name": "AGRICULTURAL DEVELOPMENT BANK", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []},
+    {"transaction_id": "235107", "party": "Axis Bank Limited", "candidate_list_name": "Z AXIS LLC", "identity_assessment": "", "transaction_time_status": "", "required_action": "", "rationale": "", "evidence": []}
+  ],
+  "aml_reviews": [
+    {"sar_id": "3730", "assessment": "", "rationale": "", "evidence": []},
+    {"sar_id": "2340", "assessment": "", "rationale": "", "evidence": []},
+    {"sar_id": "4208", "assessment": "", "rationale": "", "evidence": []},
+    {"sar_id": "2380", "assessment": "", "rationale": "", "evidence": []},
+    {"sar_id": "2336", "assessment": "", "rationale": "", "evidence": []},
+    {"sar_id": "2716", "assessment": "", "rationale": "", "evidence": []},
+    {"sar_id": "3230", "assessment": "", "rationale": "", "evidence": []}
+  ],
+  "control_assessments": [
+    {"control_id": "OWNERSHIP-ASOF", "focus": "Bank BelVEB ownership chronology", "assessment": "", "affected_records": [], "fact_request": "", "rationale": "", "evidence": []},
+    {"control_id": "EFFECTIVE-DATE-RANGE", "focus": "Aggregated payment periods crossing a sanctions effective date", "assessment": "", "affected_records": [], "fact_request": "", "rationale": "", "evidence": []},
+    {"control_id": "NONBLOCKING-SCOPE", "focus": "Confirmed post-effective-date Directive 1 alerts", "assessment": "", "affected_records": [], "fact_request": "", "rationale": "", "evidence": []},
+    {"control_id": "OVERLAP-CONTROL", "focus": "Overlapping aggregate rows in the AML review", "assessment": "", "affected_records": [], "fact_request": "", "rationale": "", "evidence": []},
+    {"control_id": "RECIPROCAL-FLOW", "focus": "Opposite-direction institution-level flows", "assessment": "", "affected_records": [], "fact_request": "", "rationale": "", "evidence": []},
+    {"control_id": "STRUCTURING-SUPPORT", "focus": "Threshold-evasion support across the AML groups", "assessment": "", "affected_records": [], "fact_request": "", "rationale": "", "evidence": []},
+    {"control_id": "AML-SANCTIONS-INDEPENDENCE", "focus": "Use of sanctions-match outcomes in AML escalation", "assessment": "", "affected_records": [], "fact_request": "", "rationale": "", "evidence": []}
+  ],
+  "executive_summary": ""
+}

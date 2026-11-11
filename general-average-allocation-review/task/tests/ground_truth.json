@@ -1,0 +1,608 @@
+{
+  "source_sha256": {
+    "general_average_adjustment.pdf": "619145dc604bd41d6eed641431c2ba8627738da047231877567402e695859d73",
+    "first_instance_judgment.pdf": "74acc1d2c639cf5c769153eb18a286d67848adff70f7a74bdc6e05a72c6df781",
+    "court_of_appeal_judgment.pdf": "5725d8ec96f904f3c20081830ea29b64854f3341af2d28513f22577e34a97c54",
+    "final_judgment.pdf": "cb547aaee028dbbb982655eb17a5e0e16b3804273d316528536427515f9b99f0"
+  },
+  "schedule_rows": [
+    {
+      "record_type": "contributory_interest",
+      "interest_or_population": "Vessel",
+      "basis": "sound value less particular-average casualty repairs",
+      "contributory_value_usd": "119614487.00",
+      "contribution_or_amount_usd": "3199209.07",
+      "rate_or_share_percent": "2.67460000",
+      "review_status": "historical adjusted contribution",
+      "evidence": "general_average_adjustment.pdf p.50, p.95"
+    },
+    {
+      "record_type": "contributory_interest",
+      "interest_or_population": "Cargo including freight",
+      "basis": "freight fully earned and embedded; two shipper-owned boxes embedded",
+      "contributory_value_usd": "367418702.00",
+      "contribution_or_amount_usd": "9826980.60",
+      "rate_or_share_percent": "2.67460000",
+      "review_status": "historical adjusted contribution",
+      "evidence": "general_average_adjustment.pdf pp.10, 50, 95"
+    },
+    {
+      "record_type": "contributory_interest",
+      "interest_or_population": "Containers",
+      "basis": "5,981 boxes excluding two shipper-owned boxes carried in cargo",
+      "contributory_value_usd": "14315119.00",
+      "contribution_or_amount_usd": "382872.17",
+      "rate_or_share_percent": "2.67460000",
+      "review_status": "historical adjusted contribution",
+      "evidence": "general_average_adjustment.pdf pp.10, 50, 95"
+    },
+    {
+      "record_type": "contributory_interest",
+      "interest_or_population": "Bunkers",
+      "basis": "remaining plus discharged/not reloaded less voyage consumption plus amount made good",
+      "contributory_value_usd": "1675696.00",
+      "contribution_or_amount_usd": "44818.17",
+      "rate_or_share_percent": "2.67460000",
+      "review_status": "historical adjusted contribution",
+      "evidence": "general_average_adjustment.pdf pp.10, 50, 95"
+    },
+    {
+      "record_type": "control",
+      "interest_or_population": "Total contributory capital and apportioned claim",
+      "basis": "sum of four interests",
+      "contributory_value_usd": "503024004.00",
+      "contribution_or_amount_usd": "13453880.01",
+      "rate_or_share_percent": "2.67460000",
+      "review_status": "reconciled",
+      "evidence": "general_average_adjustment.pdf p.95"
+    },
+    {
+      "record_type": "rule_fund",
+      "interest_or_population": "YAR 1974/1990",
+      "basis": "single-rule fund before population apportionment",
+      "contributory_value_usd": "503024004.00",
+      "contribution_or_amount_usd": "13407562.70",
+      "rate_or_share_percent": "2.66539223",
+      "review_status": "historical quantum",
+      "evidence": "general_average_adjustment.pdf p.93"
+    },
+    {
+      "record_type": "rule_fund",
+      "interest_or_population": "YAR 1994",
+      "basis": "single-rule fund before population apportionment",
+      "contributory_value_usd": "503024004.00",
+      "contribution_or_amount_usd": "13609501.74",
+      "rate_or_share_percent": "2.70553724",
+      "review_status": "historical quantum",
+      "evidence": "general_average_adjustment.pdf p.93"
+    },
+    {
+      "record_type": "allowance_section",
+      "interest_or_population": "A Salvage remuneration and costs",
+      "basis": "gross less remainder equals admitted general average",
+      "contributory_value_usd": "10310794.05",
+      "contribution_or_amount_usd": "10203263.24",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 107530.81",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_section",
+      "interest_or_population": "B Expenditure in China",
+      "basis": "gross less remainder equals admitted general average",
+      "contributory_value_usd": "1158590.22",
+      "contribution_or_amount_usd": "1141911.02",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 16679.20",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_section",
+      "interest_or_population": "C Crew wages maintenance and bunker consumption",
+      "basis": "all gross expenditure admitted",
+      "contributory_value_usd": "37761.14",
+      "contribution_or_amount_usd": "37761.14",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 0.00",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_section",
+      "interest_or_population": "D Miscellaneous disbursements",
+      "basis": "gross less remainder equals admitted general average",
+      "contributory_value_usd": "423848.94",
+      "contribution_or_amount_usd": "422596.78",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 1252.16",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_control",
+      "interest_or_population": "Principal allowance ledger",
+      "basis": "sum of sections A through D",
+      "contributory_value_usd": "11930994.35",
+      "contribution_or_amount_usd": "11805532.18",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 125462.17",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_control",
+      "interest_or_population": "Commission base",
+      "basis": "printed Rule XX base is not the whole admitted principal",
+      "contributory_value_usd": "11306541.09",
+      "contribution_or_amount_usd": "226130.84",
+      "rate_or_share_percent": "2.00000000",
+      "review_status": "commission bridge",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_control",
+      "interest_or_population": "YAR 1974/1990 interest",
+      "basis": "7 percent Rule XXI amount; detailed source calculation not supplied",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "509909.02",
+      "rate_or_share_percent": "7.00000000",
+      "review_status": "rule-specific add-on",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_control",
+      "interest_or_population": "YAR 1994 interest",
+      "basis": "7 percent Rule XXI amount; detailed source calculation not supplied",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "711848.06",
+      "rate_or_share_percent": "7.00000000",
+      "review_status": "rule-specific add-on",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    {
+      "record_type": "allowance_control",
+      "interest_or_population": "Pre-fee YAR 1974/1990 subtotal",
+      "basis": "admitted principal plus commission plus applicable interest",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "12541572.04",
+      "rate_or_share_percent": "",
+      "review_status": "reconciled",
+      "evidence": "general_average_adjustment.pdf p.90"
+    },
+    {
+      "record_type": "allowance_control",
+      "interest_or_population": "Pre-fee YAR 1994 subtotal",
+      "basis": "admitted principal plus commission plus applicable interest",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "12743511.08",
+      "rate_or_share_percent": "",
+      "review_status": "reconciled",
+      "evidence": "general_average_adjustment.pdf p.90"
+    },
+    {
+      "record_type": "allowance_control",
+      "interest_or_population": "Adjustment fees and expenses",
+      "basis": "common final add-on to both rule funds",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "865990.66",
+      "rate_or_share_percent": "",
+      "review_status": "reconciled",
+      "evidence": "general_average_adjustment.pdf pp.91-92"
+    },
+    {
+      "record_type": "split_voucher",
+      "interest_or_population": "B5 underwater surveys",
+      "basis": "gross invoice divided by timing of surveys",
+      "contributory_value_usd": "20866.30",
+      "contribution_or_amount_usd": "6955.43",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 13910.87; post-refloating portion particular average",
+      "evidence": "general_average_adjustment.pdf pp.69-70"
+    },
+    {
+      "record_type": "excluded_voucher",
+      "interest_or_population": "B9 crew-change agency expense",
+      "basis": "gross invoice carried wholly to remainder",
+      "contributory_value_usd": "2768.33",
+      "contribution_or_amount_usd": "0.00",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 2768.33; not allowable",
+      "evidence": "general_average_adjustment.pdf pp.71-72"
+    },
+    {
+      "record_type": "split_voucher",
+      "interest_or_population": "D10b June 2012 travel",
+      "basis": "gross expense split between remainder and admitted general average",
+      "contributory_value_usd": "4327.10",
+      "contribution_or_amount_usd": "3074.94",
+      "rate_or_share_percent": "",
+      "review_status": "remainder 1252.16",
+      "evidence": "general_average_adjustment.pdf pp.85-86"
+    },
+    {
+      "record_type": "contract_population",
+      "interest_or_population": "Cargo and containers under YAR 1974/1990",
+      "basis": "CMA CGM, ANL, CNC, China Shipping bill forms",
+      "contributory_value_usd": "294178269.00",
+      "contribution_or_amount_usd": "10332366.09",
+      "rate_or_share_percent": "77.06371634",
+      "review_status": "population share and allocated fund",
+      "evidence": "general_average_adjustment.pdf p.94"
+    },
+    {
+      "record_type": "contract_population",
+      "interest_or_population": "Cargo and containers under YAR 1994",
+      "basis": "Delmas, Hyundai, APL, EMC, MOL, FESCO bill forms",
+      "contributory_value_usd": "87555552.00",
+      "contribution_or_amount_usd": "3121513.92",
+      "rate_or_share_percent": "22.93628366",
+      "review_status": "population share and allocated fund",
+      "evidence": "general_average_adjustment.pdf p.94"
+    },
+    {
+      "record_type": "security",
+      "interest_or_population": "Cargo cash-deposit call",
+      "basis": "provisional security rather than final adjusted debt",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "",
+      "rate_or_share_percent": "8.00000000",
+      "review_status": "do not treat as final contribution rate",
+      "evidence": "general_average_adjustment.pdf p.10"
+    },
+    {
+      "record_type": "litigation",
+      "interest_or_population": "Respondent cargo interests",
+      "basis": "approximately 8% that refused payment",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "800000.00",
+      "rate_or_share_percent": "",
+      "review_status": "owners' collection claim dismissed",
+      "evidence": "final_judgment.pdf paras.20-21, 146"
+    },
+    {
+      "record_type": "authority_status",
+      "interest_or_population": "First-instance fact finding",
+      "basis": "causative unseaworthiness and actionable fault established; collateral theories separately resolved",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "",
+      "rate_or_share_percent": "",
+      "review_status": "owners' contribution claim dismissed",
+      "evidence": "first_instance_judgment.pdf paras.114-129"
+    },
+    {
+      "record_type": "authority_status",
+      "interest_or_population": "Intermediate appeal",
+      "basis": "two permitted owner grounds failed; one late ground abandoned",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "",
+      "rate_or_share_percent": "",
+      "review_status": "first-instance order left in place",
+      "evidence": "court_of_appeal_judgment.pdf paras.29-31, 71-76"
+    },
+    {
+      "record_type": "authority_status",
+      "interest_or_population": "Final appeal",
+      "basis": "category distinction and due-diligence arguments rejected",
+      "contributory_value_usd": "",
+      "contribution_or_amount_usd": "",
+      "rate_or_share_percent": "",
+      "review_status": "appeal dismissed; respondent recovery result controlling",
+      "evidence": "final_judgment.pdf paras.2, 145-146"
+    }
+  ],
+  "findings": {
+    "F01": {
+      "determination": "Freight must not be added as a separate contributing interest: the bill terms make it fully earned and non-returnable, so it is included in the USD 367,418,702 cargo value.",
+      "evidence": "general_average_adjustment.pdf pp.10, 50"
+    },
+    "F02": {
+      "determination": "The equipment population avoids double counting: two shipper-owned containers sit in cargo, while the separate USD 14,315,119 equipment value covers 5,981 other boxes.",
+      "evidence": "general_average_adjustment.pdf pp.10, 50"
+    },
+    "F03": {
+      "determination": "The USD 1,675,696 bunker value reconciles as USD 604,854.90 remaining plus USD 1,306,320.40 discharged and not reloaded, less USD 266,214.20 future voyage consumption, plus USD 30,734.90 made good.",
+      "evidence": "general_average_adjustment.pdf p.50"
+    },
+    "F04": {
+      "determination": "Contract populations, rather than a preference for the newest rules, control: four named bill families use YAR 1974/1990 and six named bill families use YAR 1994.",
+      "evidence": "general_average_adjustment.pdf pp.7, 94"
+    },
+    "F05": {
+      "determination": "The principal allowances are shared between the rule sets, but the adjustment separates the interest treatment before producing the population-weighted final claim.",
+      "evidence": "general_average_adjustment.pdf pp.7-8, 90-94"
+    },
+    "F06": {
+      "determination": "The USD 385,513 casualty-repair amount is particular average, deducted from vessel sound value; it is not a refloating sacrifice allowance in the general-average fund.",
+      "evidence": "general_average_adjustment.pdf pp.10, 50"
+    },
+    "F07": {
+      "determination": "No vessel sacrifice damage was found in the salvage operations, so no vessel sacrifice amount should be invented or moved into allowances.",
+      "evidence": "general_average_adjustment.pdf p.10"
+    },
+    "F08": {
+      "determination": "The reported box damage did not damage its cargo and was limited; the adjusters expressly made no general-average allowance for it.",
+      "evidence": "general_average_adjustment.pdf pp.6, 10"
+    },
+    "F09": {
+      "determination": "The salvage payment of USD 9,502,385.22, including bank charges against an all-in USD 9,500,000 settlement, is admitted general-average expenditure.",
+      "evidence": "general_average_adjustment.pdf pp.8, 51"
+    },
+    "F10": {
+      "determination": "Quantum and enforceability must remain separate: the issued allocation remains the historical computation, but it does not establish a collectible debt against cargo after the operative fault decision.",
+      "evidence": "general_average_adjustment.pdf pp.93-95; final_judgment.pdf para.21"
+    },
+    "F11": {
+      "determination": "The owners are not entitled to recover the respondent cargo interests' contribution because a causative breach of the carriage contract is actionable fault.",
+      "evidence": "final_judgment.pdf paras.21, 28, 146"
+    },
+    "F12": {
+      "determination": "The missing danger warning made the pre-voyage passage plan and working chart defective, and that condition rendered the vessel unseaworthy.",
+      "evidence": "final_judgment.pdf paras.11-14, 31, 145-146"
+    },
+    "F13": {
+      "determination": "The passage-plan defect was a real and effective cause of the master's decision to leave the buoyed fairway and of the grounding.",
+      "evidence": "final_judgment.pdf paras.15-18"
+    },
+    "F14": {
+      "determination": "The due-diligence obligation is non-delegable for work needed to make the vessel seaworthy; competent crew, charts and systems did not discharge it when the entrusted planning work was performed without reasonable care.",
+      "evidence": "final_judgment.pdf paras.29, 32, 144-146"
+    },
+    "F15": {
+      "determination": "The navigation-or-management exception cannot answer a causative breach of the prior seaworthiness duty, even though the relevant work involved navigational judgment.",
+      "evidence": "final_judgment.pdf paras.27, 145(i), 145(vii)"
+    },
+    "F16": {
+      "determination": "The operative result is dismissal of the owners' appeal, preserving dismissal of their contribution claim against the respondent cargo interests.",
+      "evidence": "final_judgment.pdf paras.30, 33, 146"
+    },
+    "F17": {
+      "determination": "Keep the payment populations separate: most cargo interests had paid, while about 8% resisted and the litigated demand against respondents was approximately USD 800,000, not the whole USD 9,826,980.60 cargo contribution shown in the adjustment.",
+      "evidence": "final_judgment.pdf paras.19-20; general_average_adjustment.pdf p.95"
+    },
+    "F18": {
+      "determination": "The 8% cash-deposit call was provisional security and must not be used as the final debt or rate; the final blended adjustment rate is 2.67460000%.",
+      "evidence": "general_average_adjustment.pdf pp.10, 95"
+    },
+    "F19": {
+      "determination": "The supplied records do not determine automatic refunds for cargo interests that already paid, or universal guarantee releases; account terms, settlements, parties, limitation and payment evidence are not shown and require separate review.",
+      "evidence": "final_judgment.pdf paras.20-21, 146"
+    },
+    "F20": {
+      "determination": "Operationally, stop collection of the dismissed respondent claim, retain the quantum schedule, and reconcile each cash deposit, bond or guarantee against its account and governing instrument before refund or release.",
+      "evidence": "general_average_adjustment.pdf p.10; final_judgment.pdf paras.20-21, 146"
+    },
+    "F21": {
+      "determination": "Section A is not wholly admitted merely because every item concerns salvage: gross USD 10,310,794.05 divides into USD 107,530.81 remainder and USD 10,203,263.24 general average.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F22": {
+      "determination": "Section B gross USD 1,158,590.22 divides into USD 16,679.20 remainder and USD 1,141,911.02 general average.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F23": {
+      "determination": "Section C gross USD 37,761.14 is carried wholly to general average with no remainder.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F24": {
+      "determination": "Section D gross USD 423,848.94 divides into USD 1,252.16 remainder and USD 422,596.78 general average.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F25": {
+      "determination": "The four sections close at gross USD 11,930,994.35, remainder USD 125,462.17 and admitted principal USD 11,805,532.18.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F26": {
+      "determination": "Voucher B5 must be split by timing: of gross USD 20,866.30, USD 13,910.87 is remainder and USD 6,955.43 enters general average; the post-refloating survey portion is particular average.",
+      "evidence": "general_average_adjustment.pdf pp.69-70"
+    },
+    "F27": {
+      "determination": "Voucher B9 of USD 2,768.33 for crew-change and visa agency expense is wholly remainder and contributes zero to general average.",
+      "evidence": "general_average_adjustment.pdf pp.71-72"
+    },
+    "F28": {
+      "determination": "Voucher D10b is not wholly admitted or wholly rejected: gross USD 4,327.10 divides into USD 1,252.16 remainder and USD 3,074.94 general average.",
+      "evidence": "general_average_adjustment.pdf pp.85-86"
+    },
+    "F29": {
+      "determination": "Rule XX commission is USD 226,130.84 at 2% on the printed USD 11,306,541.09 base, not on the gross or the whole admitted-principal total; the supplied record does not support manufacturing a different base. Recomputing 2% of the printed base rounds to 226130.82, 0.02 below the printed 226130.84; disclose the discrepancy while preserving the printed bridge pending clarification.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F30": {
+      "determination": "The interest columns remain separate: 7% Rule XXI interest is stated as USD 509,909.02 for YAR 1974/1990 and USD 711,848.06 for YAR 1994, producing pre-fee subtotals USD 12,541,572.04 and USD 12,743,511.08.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F31": {
+      "determination": "The detailed Rule XXI date-and-base calculation is said to be in the adjusters' file and is not supplied, so the two reported interest amounts can be reconciled but not independently re-performed.",
+      "evidence": "general_average_adjustment.pdf pp.89-90"
+    },
+    "F32": {
+      "determination": "Common adjustment fees and expenses of USD 865,990.66 are added to both pre-fee subtotals, closing the rule funds at USD 13,407,562.70 and USD 13,609,501.74.",
+      "evidence": "general_average_adjustment.pdf pp.91-92"
+    },
+    "F33": {
+      "determination": "The adjusters' statement that payment evidence was seen or confirmed concerns the disbursement accounts examined for the adjustment, except their fees; it is not evidence that every cargo contribution was paid.",
+      "evidence": "general_average_adjustment.pdf p.11"
+    },
+    "F34": {
+      "determination": "Security collection status is not contribution-payment status: the record describes about 95% of consignments secured by late July and later all but some low-value consolidated shipments secured, without an account-level cash-payment conclusion.",
+      "evidence": "general_average_adjustment.pdf pp.7, 10"
+    },
+    "F35": {
+      "determination": "The 8% deposit call and the approximately 8% resisting cargo population are different measures; neither the approximately USD 800,000 litigated claim nor the USD 9,826,980.60 aggregate cargo contribution can be substituted for the other.",
+      "evidence": "general_average_adjustment.pdf pp.10, 95; final_judgment.pdf para.20"
+    },
+    "F36": {
+      "determination": "The adjustment says standard Average Bonds and Guarantees incorporated a Non-Separation-Agreement, but it does not supply an account-level instrument register or terms supporting a blanket release or demand.",
+      "evidence": "general_average_adjustment.pdf p.10"
+    },
+    "F37": {
+      "determination": "The adjustment records administration of a dedicated trust account for cash deposits, but supplies no current balance, beneficial entitlement, allocation, release, or refund ledger.",
+      "evidence": "general_average_adjustment.pdf p.91"
+    },
+    "F38": {
+      "determination": "Security-collection expenses and adjustment administration remain part of the issued historical allowance ledger; the judgment does not direct their reclassification or a new adjustment.",
+      "evidence": "general_average_adjustment.pdf pp.83-92; final_judgment.pdf para.146"
+    },
+    "F39": {
+      "determination": "The approximately USD 800,000 respondent claim and approximately 8% population are procedural aggregates, not an identified account schedule; respondent membership and exact per-account amounts remain unshown.",
+      "evidence": "final_judgment.pdf para.20"
+    },
+    "F40": {
+      "determination": "Dismissal of the owners' appeal resolves the litigated recovery claim but the supplied judgment contains no account-level monetary, refund, or security-release order for other interests.",
+      "evidence": "final_judgment.pdf paras.20-21, 146"
+    },
+    "F41": {
+      "determination": "The owners' uncharted-shoal account was a party position, not a finding. The trial court instead found that the defective passage plan and omitted warning caused the master's unsafe departure from the fairway and the grounding.",
+      "evidence": "general_average_adjustment.pdf p.6; first_instance_judgment.pdf paras.1-2, 124, 129"
+    },
+    "F42": {
+      "determination": "The conventional burden allocation remained operative: cargo had to establish causative unseaworthiness, then the owners had to establish due diligence. Cargo's proposed Volcafe reversal was rejected at trial and not pursued on appeal.",
+      "evidence": "first_instance_judgment.pdf paras.55-57; court_of_appeal_judgment.pdf paras.12, 31"
+    },
+    "F43": {
+      "determination": "The trial court did not find that the relevant Notice to Mariners was absent from the vessel and found the separate sounding corrections were already marked; those allegations added no causative fault or unseaworthiness.",
+      "evidence": "first_instance_judgment.pdf paras.116-117"
+    },
+    "F44": {
+      "determination": "The absence of official electronic charts was not unseaworthiness in 2011 because no such SOLAS carriage requirement then applied and coverage was limited; any exclusive reliance on the installed display was left as negligent navigation, not an accepted additional seaworthiness defect.",
+      "evidence": "first_instance_judgment.pdf paras.118-120"
+    },
+    "F45": {
+      "determination": "The trial court rejected the collateral bridge-team and incompetence theories: no disabling lack of bridge communication was inferred and the experienced master was not found incompetent.",
+      "evidence": "first_instance_judgment.pdf paras.121-122"
+    },
+    "F46": {
+      "determination": "The master may have been tired, but fatigue was not shown materially to impair his decisions; on the balance of probabilities the defective passage plan caused the unsafe decision.",
+      "evidence": "first_instance_judgment.pdf paras.123-124"
+    },
+    "F47": {
+      "determination": "A contractual-deviation theory was unnecessary to decide and was rejected in any event: the short departure from the fairway was negligent navigation, not a radical change of voyage.",
+      "evidence": "first_instance_judgment.pdf paras.125-128"
+    },
+    "F48": {
+      "determination": "The intermediate appeal proceeded on the trial factual platform, which was not challenged. Two owner appeal grounds received permission, while a late third ground was abandoned and was not decided.",
+      "evidence": "court_of_appeal_judgment.pdf paras.3, 29-30"
+    },
+    "F49": {
+      "determination": "Of the cargo respondents' alternative grounds, the defective-working-chart route supported affirmance, but the alleged absence of a proper passage-planning system or culture was rejected; the latter is not an additional finding against the owners.",
+      "evidence": "court_of_appeal_judgment.pdf paras.31, 71-72"
+    },
+    "F50": {
+      "determination": "The procedural chain has one continuing recovery consequence: the first-instance dismissal of the owners' contribution claim was left in place when both the intermediate and final appeals were dismissed; the successive decisions are not separate payment or refund events.",
+      "evidence": "first_instance_judgment.pdf para.129; court_of_appeal_judgment.pdf para.76; final_judgment.pdf paras.30, 33, 146"
+    },
+    "F51": {
+      "determination": "The separate sounding corrections were already marked on the working chart when recorded after the casualty; the trial court did not infer a late addition and found no unseaworthiness on that ground.",
+      "evidence": "first_instance_judgment.pdf para.117"
+    },
+    "F52": {
+      "determination": "The experienced master was not found incompetent; the trial court rejected cargo's requested inference from his negligent acts.",
+      "evidence": "first_instance_judgment.pdf para.122"
+    },
+    "F53": {
+      "determination": "If the master placed exclusive reliance on the electronic display, that was negligent navigation; it did not convert the rejected electronic-chart carriage allegation into an additional seaworthiness finding.",
+      "evidence": "first_instance_judgment.pdf paras.118-120"
+    },
+    "F54": {
+      "determination": "A late third owner ground at the intermediate appeal was abandoned and received no decision.",
+      "evidence": "court_of_appeal_judgment.pdf para.30"
+    },
+    "F55": {
+      "determination": "Cargo's proposed Volcafe burden-of-proof challenge was not pursued at the intermediate appeal.",
+      "evidence": "court_of_appeal_judgment.pdf paras.12, 31"
+    },
+    "F56": {
+      "determination": "The intermediate court rejected cargo's alternative contention that the trial judgment established a separate failure of passage-planning system or culture.",
+      "evidence": "court_of_appeal_judgment.pdf paras.31, 71"
+    },
+    "F57": {
+      "determination": "The two owner grounds for which permission was granted both failed, producing dismissal of the intermediate appeal.",
+      "evidence": "court_of_appeal_judgment.pdf paras.29, 72-76"
+    },
+    "F58": {
+      "determination": "The approximately USD 800,000 litigated demand is an aggregate for the resisting respondent population, not the USD 9,826,980.60 cargo contribution in the historical allocation.",
+      "evidence": "first_instance_judgment.pdf para.1; final_judgment.pdf para.20; general_average_adjustment.pdf p.95"
+    },
+    "F59": {
+      "determination": "The decision record does not support blanket release of bonds or guarantees for other cargo interests; each instrument and account status remains to be established.",
+      "evidence": "general_average_adjustment.pdf p.10; final_judgment.pdf paras.20-21, 146"
+    },
+    "F60": {
+      "determination": "The issued adjustment and schedule should be retained as the historical quantum baseline despite the respondent collection bar.",
+      "evidence": "general_average_adjustment.pdf pp.93-95; final_judgment.pdf paras.21, 146"
+    },
+    "F61": {
+      "determination": "Each cash deposit, bond and guarantee requires account-by-account reconciliation to its governing instrument before any refund, release or demand.",
+      "evidence": "general_average_adjustment.pdf pp.9-10; final_judgment.pdf paras.20-21, 146"
+    },
+    "F62": {
+      "determination": "Vessel interests lodged salvage security on behalf of cargo so the laden voyage could continue without separate cargo salvage security; that fact does not prove cargo paid its later general-average contribution.",
+      "evidence": "general_average_adjustment.pdf pp.7, 9"
+    },
+    "F63": {
+      "determination": "Container interests supplied direct salvage security, a state separate from their general-average contribution and from the cargo security population.",
+      "evidence": "general_average_adjustment.pdf pp.7, 9-10"
+    },
+    "F64": {
+      "determination": "The common-safety timeline did not end every allowance at refloating: after refloating on 26 May the vessel remained at a safe anchorage for about two days while discharged bunkers were reloaded, then resumed the voyage on 28 May.",
+      "evidence": "general_average_adjustment.pdf pp.6-7, 75-78"
+    },
+    "F65": {
+      "determination": "The adjustment maps salvage to Rule VI, lightening and reshipping to Rule VIII, refuge and detention during bunker reloading to Rule XI, and other direct-consequence expenditure to Rule C or, for YAR 1994, Rule XI(d).",
+      "evidence": "general_average_adjustment.pdf p.9"
+    },
+    "F66": {
+      "determination": "Pollution measures began as a consequence of the accident but remained conditional for every refloating attempt because the hull condition was unknown; on that basis the adjuster admitted the entire period rather than excluding it as ordinary pollution response.",
+      "evidence": "general_average_adjustment.pdf p.11"
+    },
+    "F67": {
+      "determination": "The same pollution-prevention expenditure is routed differently by contract population: Rule XI(d) under YAR 1994, but Rules C and VI under YAR 1974/1990.",
+      "evidence": "general_average_adjustment.pdf p.11"
+    },
+    "F68": {
+      "determination": "Voucher B12 pollution-prevention expenditure of USD 264,705.06 is carried wholly to general average, with no remainder, consistently with the adjuster's causal note.",
+      "evidence": "general_average_adjustment.pdf pp.73-74"
+    },
+    "F69": {
+      "determination": "Voucher B6, USD 3,019.42 for reloading containers on the substitute vessel after refloating, is wholly admitted against reloading cost saved on the original vessel; the post-refloating date alone does not exclude it.",
+      "evidence": "general_average_adjustment.pdf pp.69-70"
+    },
+    "F70": {
+      "determination": "Voucher B5 applies the opposite post-refloating treatment: gross USD 20,866.30 splits into USD 13,910.87 remainder and USD 6,955.43 admitted because the later underwater survey belongs to the vessel's particular-average claim.",
+      "evidence": "general_average_adjustment.pdf pp.69-70"
+    },
+    "F71": {
+      "determination": "Voucher B9 crew-change and visa agency expense of USD 2,768.33 is wholly excluded even though it appears within the China expenditure sequence.",
+      "evidence": "general_average_adjustment.pdf pp.71-72"
+    },
+    "F72": {
+      "determination": "The D10 travel heading does not control every sub-trip: May 2011, July 2013 and February 2014 travel is wholly admitted, while June 2012 voucher D10b is split from gross USD 4,327.10 into USD 1,252.16 remainder and USD 3,074.94 admitted.",
+      "evidence": "general_average_adjustment.pdf pp.85-88"
+    },
+    "F73": {
+      "determination": "A6a Marseille-meeting travel is itself split: gross USD 15,035.72 divides into USD 5,011.91 remainder and USD 10,023.81 general average.",
+      "evidence": "general_average_adjustment.pdf pp.63-64"
+    },
+    "F74": {
+      "determination": "The A6 subitems do not share one treatment: London meetings of USD 3,294.59 and the February 2014 China meeting of USD 5,647.62 are admitted, while the China survey of USD 6,521.27 is wholly remainder.",
+      "evidence": "general_average_adjustment.pdf pp.65-66"
+    },
+    "F75": {
+      "determination": "A6 miscellaneous time and expense of USD 24,000 is divided into USD 12,000 remainder and USD 12,000 general average, whereas the USD 51,000 salvage bail fee is wholly admitted.",
+      "evidence": "general_average_adjustment.pdf pp.65-66"
+    },
+    "F76": {
+      "determination": "Section C is wholly admitted at USD 37,761.14 despite covering the post-refloating detention period: it combines two days of crew wages and maintenance with bunker and lube-oil consumption during refloating and detention while reloading bunkers.",
+      "evidence": "general_average_adjustment.pdf pp.75-78, 89-90"
+    },
+    "F77": {
+      "determination": "Payment and loss classification remain separate: vessel interests paid the salvage settlement that is allowed in general average, while hull underwriters reportedly settled the vessel's particular-average claim and permanent casualty repairs reduce vessel contributory value.",
+      "evidence": "general_average_adjustment.pdf pp.11, 50-51"
+    },
+    "F78": {
+      "determination": "The USD 173,591.67 premium for cargo salvage security is wholly admitted in the allowance ledger, but it remains a security cost rather than proof that the secured cargo interests paid their general-average contributions.",
+      "evidence": "general_average_adjustment.pdf pp.65-66"
+    },
+    "F79": {
+      "determination": "The bunker value bridge includes fuel discharged but not reloaded, deducts voyage consumption that would have occurred, and adds the bunker amount made good; physical absence at the end of the voyage does not by itself remove that interest from contribution.",
+      "evidence": "general_average_adjustment.pdf p.50"
+    }
+  }
+}

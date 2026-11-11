@@ -1,0 +1,1 @@
+{"model":"gpt-5.6-sol","max_output_tokens":12000,"reasoning_effort":"low","criteria_per_batch":8,"temperature_policy":"provider_default","input_modality":"text_only"}

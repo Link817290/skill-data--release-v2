@@ -1,0 +1,6 @@
+#!/bin/sh
+# Skip the redundant online Claude package install; delegate every other npm call.
+if [ "$1" = "install" ] && [ "$2" = "-g" ] && [ "$3" = "@anthropic-ai/claude-code" ]; then
+  exit 0
+fi
+exec /usr/local/bin/npm "$@"

@@ -1,0 +1,1222 @@
+{
+  "version": "mx6-valid-business-v1",
+  "scenarios": [
+    {
+      "id": "baseline",
+      "family": "baseline",
+      "changes": [],
+      "business_rows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "acquisition-year-march",
+      "family": "periods",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B6",
+          2024
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          3
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A7",
+          "FA-2024-004"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B7",
+          2024
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C7",
+          0
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A8",
+          "FA-2025-002"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B8",
+          2024
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C8",
+          0
+        ]
+      ],
+      "business_rows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "report-january",
+      "family": "periods",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          1
+        ]
+      ],
+      "business_rows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "report-december",
+      "family": "periods",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          12
+        ]
+      ],
+      "business_rows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "workload-year-rollforward",
+      "family": "workload-opening",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B6",
+          2027
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A7",
+          "FA-2024-004"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B7",
+          2027
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C7",
+          35767.5
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A8",
+          "FA-2025-002"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B8",
+          2027
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C8",
+          4305.875
+        ]
+      ],
+      "business_rows": [
+        8,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "asset-residual-override",
+      "family": "assumptions",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "M5",
+          0.1
+        ]
+      ],
+      "business_rows": [
+        5
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "zero-is-a-valid-residual",
+      "family": "assumptions",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "M5",
+          0
+        ]
+      ],
+      "business_rows": [
+        5
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "category-vs-asset-precedence",
+      "family": "assumptions",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "E14",
+          0.07
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "M7",
+          0.02
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "global-residual-fallback",
+      "family": "assumptions",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "E12",
+          null
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B5",
+          0.08
+        ]
+      ],
+      "business_rows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "category-life-fallback",
+      "family": "assumptions",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H6",
+          null
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "D13",
+          12
+        ]
+      ],
+      "business_rows": [
+        6
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "method-maintenance",
+      "family": "method-change",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E15",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        15
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "workload-unit-invariance",
+      "family": "workload-units",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "I8",
+          0.3
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AE8",
+          0.0035
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AG8",
+          0.0042
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AI8",
+          0.0038
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AK8",
+          0.0051
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AM8",
+          0.0046
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AO8",
+          0.0039
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AQ8",
+          0.0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AS8",
+          0.0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AU8",
+          0.0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AW8",
+          0.0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AY8",
+          0.0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "BA8",
+          0.0
+        ]
+      ],
+      "business_rows": [
+        8
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "positive-fractional-total",
+      "family": "workload-units",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "I8",
+          0.5
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AE8",
+          0.1
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AG8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AI8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AK8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AM8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AO8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AQ8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AS8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AU8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AW8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AY8",
+          0
+        ],
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "BA8",
+          0
+        ]
+      ],
+      "business_rows": [
+        8
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "opening-exact-basis",
+      "family": "workload-opening",
+      "changes": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C5",
+          427500.0
+        ]
+      ],
+      "business_rows": [
+        8
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "opening-near-basis",
+      "family": "workload-opening",
+      "changes": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C5",
+          426500.0
+        ]
+      ],
+      "business_rows": [
+        8
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "opening-record-order",
+      "family": "workload-opening",
+      "changes": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A5",
+          "FA-2025-002"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B5",
+          2026
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C5",
+          0
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A6",
+          "FA-2024-004"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B6",
+          2026
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C6",
+          0
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C6",
+          426500.0
+        ]
+      ],
+      "business_rows": [
+        8,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "department-april-transfer",
+      "family": "department-attribution",
+      "changes": [
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "F5",
+          "\u7814\u53d1\u90e8"
+        ]
+      ],
+      "business_rows": [
+        5
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "department-multiple-transfers",
+      "family": "department-attribution",
+      "changes": [
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "F5",
+          "\u7814\u53d1\u90e8"
+        ],
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "I5",
+          "\u9500\u552e\u90e8"
+        ]
+      ],
+      "business_rows": [
+        5
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "department-record-order",
+      "family": "department-attribution",
+      "changes": [
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "A5",
+          "FA-2024-002"
+        ],
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "A6",
+          "FA-2024-001"
+        ],
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "F6",
+          "\u7814\u53d1\u90e8"
+        ]
+      ],
+      "business_rows": [
+        5,
+        6
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "last-asset-capacity",
+      "family": "maintenance",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "B204",
+          "FA-SCENARIO-200"
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "C204",
+          "Capacity asset"
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "D204",
+          "\u529e\u516c\u8bbe\u5907"
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E204",
+          "\u76f4\u7ebf\u6cd5"
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "F204",
+          {
+            "date": "2026-02-10T00:00:00"
+          }
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "G204",
+          120000
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H204",
+          5
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "J204",
+          "\u9500\u552e\u90e8"
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "K204",
+          "\u5728\u7528"
+        ]
+      ],
+      "business_rows": [
+        204
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "last-department-capacity",
+      "family": "maintenance",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B64",
+          "D030"
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "C64",
+          "Capacity department"
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "J5",
+          "Capacity department"
+        ]
+      ],
+      "business_rows": [
+        5
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "last-category-capacity",
+      "family": "maintenance",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "C31",
+          "Capacity category"
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "D31",
+          20
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "E31",
+          0.05
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "D5",
+          "Capacity category"
+        ]
+      ],
+      "business_rows": [
+        5
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-1",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          1
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-1",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          1
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-2",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          2
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-2",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          2
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-3",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          3
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-3",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          3
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-4",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          4
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-4",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          4
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-10",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          10
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-10",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          10
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-21",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          21
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-21",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          21
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-22",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          22
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-22",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          22
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-23",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          23
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-23",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          23
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-30",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          30
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-30",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          30
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "ddb-life-40",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          40
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u53cc\u500d\u4f59\u989d\u9012\u51cf\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "syd-life-40",
+      "family": "annual-methods",
+      "changes": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H7",
+          40
+        ],
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E7",
+          "\u5e74\u6570\u603b\u548c\u6cd5"
+        ]
+      ],
+      "business_rows": [
+        7
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "last-service-month",
+      "family": "periods",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B6",
+          2044
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          1
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A7",
+          "FA-2024-004"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B7",
+          2044
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C7",
+          427500.0
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A8",
+          "FA-2025-002"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B8",
+          2044
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C8",
+          175750.0
+        ]
+      ],
+      "business_rows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "valid_inputs": true
+    },
+    {
+      "id": "service-after-year-twenty",
+      "family": "periods",
+      "changes": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B6",
+          2048
+        ],
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          6
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A7",
+          "FA-2024-004"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B7",
+          2048
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C7",
+          427500.0
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A8",
+          "FA-2025-002"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B8",
+          2048
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C8",
+          175750.0
+        ]
+      ],
+      "business_rows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "valid_inputs": true
+    }
+  ],
+  "policy": "Uniform input perturbations; no role, artifact identity or desired score enters the worker."
+}

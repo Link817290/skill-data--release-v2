@@ -1,0 +1,4 @@
+#!/bin/sh
+# Harbor's Claude installer uses the apk branch when this command exists.
+# The required base image already contains the Claude CLI, so no package work is needed.
+exit 0

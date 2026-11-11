@@ -1,0 +1,123 @@
+{
+  "version": "equipment-changeover-strict-v10",
+  "outputs": [
+    "包装工位标签打印作业指导书.docx"
+  ],
+  "criteria": [
+    {
+      "id": "job_device_binding",
+      "weight": 0.047619047619047616,
+      "description": "Bind A, B and D to station one at 12 dots/mm and C to station two at 8 dots/mm, and select only collection modes supported at the assigned station. Equivalent tables are accepted. Binary."
+    },
+    {
+      "id": "job_consumables",
+      "weight": 0.047619047619047616,
+      "description": "Bind each job to print method, gap media and ribbon state: A uses R80 external-coated ribbon, B is direct thermal with ribbon removed, C uses R110 external-coated ribbon, ribbons cover media width, and R110-I is not substituted. Binary."
+    },
+    {
+      "id": "d_capability_hold",
+      "weight": 0.047619047619047616,
+      "description": "For D, distinguish 108 mm media transport/peel capacity from the 104 mm printable-image limit and 1296 requested dots versus 1248 maximum, and hold the original job rather than clipping or releasing it. Binary."
+    },
+    {
+      "id": "resolution_and_format",
+      "weight": 0.047619047619047616,
+      "description": "Use native 12 dots/mm for station one and 8 dots/mm for station two, reject direct reuse of the old 203 dpi station-one format on 300 dpi, and require verification of resulting physical image dimensions. Binary."
+    },
+    {
+      "id": "host_power_head_state",
+      "weight": 0.047619047619047616,
+      "description": "Stop host traffic and keep the job paused during setup/calibration, cool the print head before access, and if power is cycled save needed state before shutdown and restore the current job's temporary format/settings after restart. Binary."
+    },
+    {
+      "id": "media_path_and_guides",
+      "weight": 0.047619047619047616,
+      "description": "Discard unusable leader, load the roll inward, route media under the tension section through the sensor and under the head, and set guides to touch without clamping. Binary."
+    },
+    {
+      "id": "ribbon_path_and_mode",
+      "weight": 0.047619047619047616,
+      "description": "For transfer work route the matching ribbon to the take-up spindle and remove slack; for B remove ribbon; then lock the head and close the media door. Binary."
+    },
+    {
+      "id": "wizard_and_full_calibration",
+      "weight": 0.047619047619047616,
+      "description": "Set method, gap type, width and collection mode through the supported setup path, perform automatic calibration after a relevant media size/type change, and print a test label before production. A short check must not replace required sensor recalibration. Binary."
+    },
+    {
+      "id": "trial_adjustment_bounds",
+      "weight": 0.047619047619047616,
+      "description": "Treat listed pressure as a starting value and determine speed/darkness from trials using the lowest settings that meet quality; do not present maxima or untested values as validated optima. Binary."
+    },
+    {
+      "id": "consecutive_five_restart",
+      "weight": 0.047619047619047616,
+      "description": "Require one consecutive five-label group before release, and after an anomaly recovery require a new first-article check before production resumes. Isolated individual labels do not replace the specified consecutive-five check. Binary."
+    },
+    {
+      "id": "first_article_scope",
+      "weight": 0.047619047619047616,
+      "description": "The five-label check covers stable feed, readable text, each barcode, correct physical image size and full image, plus the applicable tear, edge or peel result. Binary."
+    },
+    {
+      "id": "planned_trial_truth",
+      "weight": 0.047619047619047616,
+      "description": "State that machine trials and first-article results remain to be performed and do not claim that an actual trial was completed, passed, or established validated optimum settings. Score only explicit assertions about actual trial occurrence/results. A D capability or release-authority error alone is owned by d_false_release_damage and d_authorized_alternative and does not fail this item. Binary."
+    },
+    {
+      "id": "final_parameter_record",
+      "weight": 0.047619047619047616,
+      "description": "Provide future现场 fields or explicit instructions to record actual speed, darkness and final pressure/settings together with result, confirming person and time. Binary."
+    },
+    {
+      "id": "sample_isolation_and_release",
+      "weight": 0.047619047619047616,
+      "description": "Keep setup/test samples separate from production labels and resume formal production only after completed first-article confirmation. Binary."
+    },
+    {
+      "id": "sensor_recovery",
+      "weight": 0.047619047619047616,
+      "description": "For skipped labels, drift or false media/ribbon indications, keep paused, verify gap-sensor position/path, use manual sensor calibration where needed, do not substitute positioning adjustment for sensor calibration, and recheck after recovery. Binary."
+    },
+    {
+      "id": "tear_position_recovery",
+      "weight": 0.047619047619047616,
+      "description": "After sensor/feed validity is established, correct tear position in small steps with the documented direction (smaller inward, larger outward) and verify position/feed again. Binary."
+    },
+    {
+      "id": "print_quality_recovery",
+      "weight": 0.047619047619047616,
+      "description": "For print-quality or barcode-legibility failures, first check relevant consumable, loading/path and print-head state, then adjust supported speed, darkness or pressure without defaulting to maxima, and repeat affected quality checks. Binary."
+    },
+    {
+      "id": "ribbon_coating_recovery",
+      "weight": 0.047619047619047616,
+      "description": "When coating is unclear, use the label-adhesive transfer check before treating material as compatible, and retain the external-coated-spindle boundary rather than substituting R110-I. Binary."
+    },
+    {
+      "id": "d_authorized_alternative",
+      "weight": 0.047619047619047616,
+      "description": "Require process authorization before changing D artwork or device. An approved alternative must preserve the required complete image and use equipment whose printing capability and actually installed collection option satisfy that approved job; after a device change recheck options, resolution and consumables. Binary."
+    },
+    {
+      "id": "post_recovery_revalidation",
+      "weight": 0.047619047619047616,
+      "description": "Before release after an approved change or anomaly correction, restore configuration matching the current job and complete the applicable recalibration plus a new first-article validation. Binary."
+    },
+    {
+      "id": "d_false_release_damage",
+      "weight": 0.0,
+      "description": "Damage predicate. Score 0 only when the document affirmatively adopts production release for original job D by clipping/clamping the 108 mm image to the 104 mm / 1248-dot limit, treating media transport capacity as printable-image capacity, or otherwise bypassing the required process decision. Score 1 for a hold, an authorized conditional alternative, or mere omission. Repeated wording of the same adopted false release remains one event. Binary."
+    },
+    {
+      "id": "chinese_operating_content",
+      "weight": 0.047619047619047616,
+      "description": "The substantive operating instructions are written in Chinese. Device models, units, menu labels and other necessary identifiers may remain in their native form. Judge the document as a whole and do not infer compliance from table headers or isolated keywords. Binary."
+    }
+  ],
+  "required_inputs": [
+    "包装班10月22日换型安排.docx",
+    "标签打印作业指导书（编制格式）.docx",
+    "设备手册/ZT411、ZT421标签打印机操作说明.docx"
+  ]
+}

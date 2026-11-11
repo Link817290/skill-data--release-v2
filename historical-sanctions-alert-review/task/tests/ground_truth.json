@@ -1,0 +1,209 @@
+{
+  "sanctions": {
+    "224546": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 2
+    },
+    "241389": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 2
+    },
+    "224861": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 3
+    },
+    "227437": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 3
+    },
+    "232714": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 3
+    },
+    "234749": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 3
+    },
+    "238675": {
+      "identity": "match",
+      "status": "straddle",
+      "action": "date_hold",
+      "evidence_count": 3
+    },
+    "225021": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 2
+    },
+    "229306": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 2
+    },
+    "240310": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 3
+    },
+    "240104": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 3
+    },
+    "227490": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 3
+    },
+    "226828": {
+      "identity": "match",
+      "status": "sectoral",
+      "action": "scope_hold",
+      "evidence_count": 4
+    },
+    "227538": {
+      "identity": "match",
+      "status": "ownership_gap",
+      "action": "ownership_hold",
+      "evidence_count": 4
+    },
+    "228525": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 2
+    },
+    "237602": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 2
+    },
+    "237854": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 2
+    },
+    "224191": {
+      "identity": "match",
+      "status": "none",
+      "action": "temporal_close",
+      "evidence_count": 3
+    },
+    "239784": {
+      "identity": "false",
+      "status": "none",
+      "action": "false_close",
+      "evidence_count": 2
+    },
+    "235107": {
+      "identity": "false",
+      "status": "none",
+      "action": "false_close",
+      "evidence_count": 2
+    }
+  },
+  "aml": {
+    "3730": {
+      "outcome": "escalate",
+      "evidence_count": 2
+    },
+    "2340": {
+      "outcome": "escalate",
+      "evidence_count": 2
+    },
+    "4208": {
+      "outcome": "escalate",
+      "evidence_count": 2
+    },
+    "2380": {
+      "outcome": "escalate",
+      "evidence_count": 2
+    },
+    "2336": {
+      "outcome": "escalate",
+      "evidence_count": 2
+    },
+    "2716": {
+      "outcome": "inconclusive",
+      "evidence_count": 2
+    },
+    "3230": {
+      "outcome": "escalate",
+      "evidence_count": 2
+    }
+  },
+  "controls": {
+    "OWNERSHIP-ASOF": {
+      "affected_records": [
+        "227538"
+      ],
+      "evidence_count": 4
+    },
+    "EFFECTIVE-DATE-RANGE": {
+      "affected_records": [
+        "238675"
+      ],
+      "evidence_count": 3
+    },
+    "NONBLOCKING-SCOPE": {
+      "affected_records": [
+        "224861",
+        "227437",
+        "232714",
+        "234749",
+        "240310",
+        "240104",
+        "227490",
+        "226828"
+      ],
+      "evidence_count": 5
+    },
+    "OVERLAP-CONTROL": {
+      "affected_records": [
+        "4208",
+        "3230"
+      ],
+      "evidence_count": 3
+    },
+    "RECIPROCAL-FLOW": {
+      "affected_records": [
+        "3730",
+        "2380"
+      ],
+      "evidence_count": 3
+    },
+    "STRUCTURING-SUPPORT": {
+      "affected_records": [
+        "2340",
+        "2716"
+      ],
+      "evidence_count": 3
+    },
+    "AML-SANCTIONS-INDEPENDENCE": {
+      "affected_records": [
+        "2336",
+        "3230"
+      ],
+      "evidence_count": 4
+    }
+  }
+}

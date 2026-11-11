@@ -1,0 +1,22 @@
+version = "1.0"
+id = "historical-sanctions-alert-review"
+task_type = "skill-bench"
+domain = "financial-crime-compliance"
+language = "en"
+difficulty = "hard"
+task = "task"
+rubric = "RUBRIC.md"
+golden = "golden/alert_review.json"
+deliverable = "/workspace/alert_review.json"
+[scoring]
+type = "mixed"
+primary_score = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/validator.py"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+
+[skill]
+names = ["historical-alert-adjudication", "aml-case-escalation"]
+answers_in_skill = false
+thresholds_in_skill = false

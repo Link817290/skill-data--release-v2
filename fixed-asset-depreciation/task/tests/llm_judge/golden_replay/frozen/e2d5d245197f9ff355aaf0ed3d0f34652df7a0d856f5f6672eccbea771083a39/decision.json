@@ -1,0 +1,532 @@
+{
+  "decisions": [
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid asset cost"
+        }
+      ],
+      "rationale": "Ledger cell N5 is under the \u201c\u8f93\u5165\u68c0\u67e5\u201d heading and explicitly identifies the row-5 asset cost as invalid.",
+      "scenario_id": "cost-negative-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid asset cost"
+        }
+      ],
+      "rationale": "Ledger cell N5 is under \u201c\u8f93\u5165\u68c0\u67e5\u201d and explicitly diagnoses the text-valued asset cost as invalid.",
+      "scenario_id": "cost-text-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid depreciation method"
+        }
+      ],
+      "rationale": "Ledger cell N5 is the row input-check result and explicitly identifies an invalid depreciation method.",
+      "scenario_id": "method-invalid-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid depreciation method"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly marks the missing method as an invalid depreciation method.",
+      "scenario_id": "method-missing-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Missing or invalid acquisition date"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly identifies the acquisition date as missing or invalid.",
+      "scenario_id": "date-missing-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Missing or invalid acquisition date"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly identifies the non-date acquisition input as missing or invalid.",
+      "scenario_id": "date-text-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid useful life"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly identifies the fractional useful-life input as invalid.",
+      "scenario_id": "life-fractional-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid useful life"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly identifies the zero useful-life input as invalid.",
+      "scenario_id": "life-zero-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid useful life"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly identifies the above-capacity useful life as invalid.",
+      "scenario_id": "life-over-capacity-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid residual rate"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly identifies the negative residual rate as invalid.",
+      "scenario_id": "residual-negative-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid residual rate"
+        }
+      ],
+      "rationale": "Ledger cell N5 explicitly identifies the residual rate of one as invalid.",
+      "scenario_id": "residual-one-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid or duplicate category"
+        }
+      ],
+      "rationale": "Ledger cell N5, under the row input-check heading, clearly identifies the asset category as invalid or duplicate.",
+      "scenario_id": "category-unknown-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid or duplicate department"
+        }
+      ],
+      "rationale": "Ledger cell N5 clearly identifies the asset department as invalid or duplicate.",
+      "scenario_id": "department-unknown-row-5",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid asset cost"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the row-8 asset cost as invalid.",
+      "scenario_id": "cost-negative-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid asset cost"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly diagnoses the text-valued asset cost as invalid.",
+      "scenario_id": "cost-text-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid depreciation method"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the unsupported depreciation method as invalid.",
+      "scenario_id": "method-invalid-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid depreciation method"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the missing depreciation method as invalid.",
+      "scenario_id": "method-missing-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Missing or invalid acquisition date"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the acquisition date as missing or invalid.",
+      "scenario_id": "date-missing-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Missing or invalid acquisition date"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the non-date acquisition input as missing or invalid.",
+      "scenario_id": "date-text-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid useful life"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the fractional useful-life input as invalid.",
+      "scenario_id": "life-fractional-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid useful life"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the zero useful-life input as invalid.",
+      "scenario_id": "life-zero-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid useful life"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the above-capacity useful life as invalid.",
+      "scenario_id": "life-over-capacity-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid residual rate"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the negative residual rate as invalid.",
+      "scenario_id": "residual-negative-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid residual rate"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the residual rate of one as invalid.",
+      "scenario_id": "residual-one-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid or duplicate category"
+        }
+      ],
+      "rationale": "Ledger cell N8 clearly identifies the asset category as invalid or duplicate.",
+      "scenario_id": "category-unknown-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid or duplicate department"
+        }
+      ],
+      "rationale": "Ledger cell N8 clearly identifies the asset department as invalid or duplicate.",
+      "scenario_id": "department-unknown-row-8",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Duplicate asset identifier"
+        }
+      ],
+      "rationale": "Ledger input-check cells N5 and N6 explicitly diagnose the duplicated asset identifier.",
+      "scenario_id": "asset-duplicate",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid or duplicate category"
+        }
+      ],
+      "rationale": "The affected ledger rows show an explicit invalid-or-duplicate category warning, clearly exposing nonunique category master data.",
+      "scenario_id": "category-duplicate",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid or duplicate department"
+        }
+      ],
+      "rationale": "The affected ledger rows show an explicit invalid-or-duplicate department warning, clearly exposing nonunique department master data.",
+      "scenario_id": "department-duplicate",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid total workload"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the zero total workload as invalid.",
+      "scenario_id": "workload-total-zero",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid total workload"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the negative total workload as invalid.",
+      "scenario_id": "workload-total-negative",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid monthly workload"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the negative monthly workload as invalid.",
+      "scenario_id": "workload-negative",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid monthly workload"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the text-valued monthly workload as invalid.",
+      "scenario_id": "workload-text",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid opening inputs"
+        }
+      ],
+      "rationale": "Opening-sheet cell E5 is under \u201c\u6570\u636e\u68c0\u67e5\u201d and explicitly reports invalid opening inputs for the affected record.",
+      "scenario_id": "opening-negative",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0001",
+          "quote": "Opening exceeds depreciable basis"
+        }
+      ],
+      "rationale": "Opening-sheet data-check cell E5 explicitly states that the opening amount exceeds the depreciable basis.",
+      "scenario_id": "opening-above-basis",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Invalid opening inputs"
+        }
+      ],
+      "rationale": "Opening-sheet cell E5 explicitly reports invalid opening inputs for the text-valued amount.",
+      "scenario_id": "opening-text",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0002",
+          "quote": "Duplicate keyed opening"
+        }
+      ],
+      "rationale": "Opening-sheet data-check cells E5 and E7 explicitly identify duplicate keyed opening records.",
+      "scenario_id": "opening-duplicate",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0000",
+          "quote": "Missing or duplicate keyed opening"
+        }
+      ],
+      "rationale": "Ledger cell N8 explicitly identifies the required keyed opening as missing or duplicated.",
+      "scenario_id": "opening-missing",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0005",
+          "quote": "\u8c03\u62e8\u90e8\u95e8\u5f02\u5e38"
+        }
+      ],
+      "rationale": "Transfer-sheet cell AA5 is under \u201c\u6570\u636e\u68c0\u67e5\u201d and explicitly identifies an abnormal transfer department.",
+      "scenario_id": "transfer-department-unknown",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0002",
+          "quote": "\u8d44\u4ea7\u7f16\u53f7\u5f02\u5e38"
+        }
+      ],
+      "rationale": "Transfer-sheet data-check cells AA5 and AA6 flag the asset identifiers as abnormal; the transfer validation note specifies asset-identifier uniqueness.",
+      "scenario_id": "transfer-duplicate",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0003",
+          "quote": "\u5f85\u6838\u5bf9"
+        }
+      ],
+      "rationale": "Model-validation cell C15 changes to \u201c\u5f85\u6838\u5bf9\u201d on the row labeled \u201c\u4f1a\u8ba1\u671f\u95f4\u6709\u6548,\u201d whose note requires an integer month from 1 through 12.",
+      "scenario_id": "report-month-zero",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0002",
+          "quote": "\u5f85\u6838\u5bf9"
+        }
+      ],
+      "rationale": "Model-validation cell C15 flags the \u201c\u4f1a\u8ba1\u671f\u95f4\u6709\u6548\u201d control, clearly identifying the out-of-range reporting month.",
+      "scenario_id": "report-month-thirteen",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0001",
+          "quote": "\u5f85\u6838\u5bf9"
+        }
+      ],
+      "rationale": "Model-validation cell C15 flags the \u201c\u4f1a\u8ba1\u671f\u95f4\u6709\u6548\u201d control; its explanatory note requires the reporting month to be an integer.",
+      "scenario_id": "report-month-fractional",
+      "status": "measured"
+    },
+    {
+      "completion": 1,
+      "evidence": [
+        {
+          "output_id": "O0004",
+          "quote": "\u5f85\u6838\u5bf9"
+        }
+      ],
+      "rationale": "Model-validation cell C15 changes to \u201c\u5f85\u6838\u5bf9\u201d on the broadly labeled \u201c\u4f1a\u8ba1\u671f\u95f4\u6709\u6548\u201d control, identifying the fractional reporting year as an invalid reporting-period input.",
+      "scenario_id": "report-year-fractional",
+      "status": "measured"
+    }
+  ]
+}

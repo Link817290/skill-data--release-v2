@@ -1,0 +1,70 @@
+{
+  "inputs": {
+    "authorized_pool": 23400000,
+    "available_pool": 13059834,
+    "basic_shares": 88900000,
+    "closing_price": 19.93,
+    "psu_max_factor": 2.25,
+    "option_pool_multiplier": 1,
+    "full_value_pool_multiplier": 1.75,
+    "aggregate_options_exercised": 589516,
+    "aggregate_cash": 5800000,
+    "aggregate_intrinsic": 2300000,
+    "maximum_outstanding_securities": 4877097
+  },
+  "awards": {
+    "options": {
+      "beginning": 2104356,
+      "grants": 0,
+      "exercises": 589516,
+      "forfeitures": 8349,
+      "expirations": 345154,
+      "ending": 1161337.0,
+      "price": 17.59
+    },
+    "rsus": {
+      "beginning": 2075007,
+      "grants": 1549795,
+      "exercises": 1051631,
+      "forfeitures": 753863,
+      "expirations": 0,
+      "ending": 1819308.0,
+      "price": 17.79
+    },
+    "psus": {
+      "beginning": 864749,
+      "grants": 428500,
+      "exercises": 258680,
+      "forfeitures": 191703,
+      "expirations": 0,
+      "ending": 842866.0,
+      "price": 27.25
+    }
+  },
+  "exercise": {
+    "Jeffrey Niew": 157699,
+    "John Anderson": 86575,
+    "Raymond Cabrera": 27829,
+    "Daniel Giesecke": 34787,
+    "Robert Perna": 0,
+    "named_subtotal": 306890.0,
+    "residual": 282626.0,
+    "aggregate": 589516.0
+  },
+  "summary": {
+    "option_incremental": 136353.6668339187,
+    "rsu_potential": 1819308.0,
+    "psu_target": 842866.0,
+    "psu_maximum": 1896452.0,
+    "total_potential_base": 3823511.0,
+    "total_potential_maximum": 4877097.0,
+    "tsm_incremental_base": 2798527.6668339185,
+    "tsm_incremental_maximum": 3852113.6668339185,
+    "denominator": 88900000.0,
+    "dilution_base": 0.031479501314217305,
+    "dilution_maximum": 0.04333086239408232,
+    "grant_pool_charge_base": 3462016.25,
+    "grant_pool_charge_maximum": 4399360.0,
+    "available_pool": 13059834.0
+  }
+}

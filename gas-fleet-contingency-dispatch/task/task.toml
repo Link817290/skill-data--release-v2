@@ -1,0 +1,53 @@
+id = "gas-fleet-contingency-dispatch"
+version = "1.0"
+task_type = "skill-bench"
+domain = "industrial physical systems"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/output/dispatch_review.json"
+required_outputs = ["dispatch_review.json", "dispatch_trace.csv", "dispatch_model.py"]
+network_access = false
+rollouts_included = false
+answers_in_skill = false
+thresholds_in_skill = false
+
+[agent]
+timeout_sec = 3600.0
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 180.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/judge-cache}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+
+[verifier.environment]
+docker_image = "gas-fleet-contingency-dispatch-verifier:1.3"
+dockerfile = "environment/Dockerfile.verifier"
+workdir = "/package/task"
+network_mode = "public"
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+network_access = false
+build_timeout_sec = 900.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/output/dispatch_review.json"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

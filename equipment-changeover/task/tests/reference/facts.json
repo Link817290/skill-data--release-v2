@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "A": {
+      "width": 912,
+      "pressure": [
+        2.5,
+        1.5
+      ],
+      "media_mm": 76,
+      "dots_per_mm": 12
+    },
+    "B": {
+      "width": 612,
+      "pressure": [
+        3,
+        1
+      ],
+      "media_mm": 51,
+      "dots_per_mm": 12
+    },
+    "C": {
+      "width": 816,
+      "pressure": [
+        3,
+        2
+      ],
+      "media_mm": 102,
+      "dots_per_mm": 8
+    }
+  },
+  "D": {
+    "required_image_mm": 108,
+    "device_max_mm": 104,
+    "requested_dots": 1296,
+    "maximum_dots": 1248,
+    "status": "hold pending process decision; do not shrink image unilaterally"
+  },
+  "scope": "planned documentation only; no completed trials",
+  "source_basis": "Technical conditions are rewritten in supplied equipment notes; station/job assignments are prospective planning conditions, not purported historical records."
+}

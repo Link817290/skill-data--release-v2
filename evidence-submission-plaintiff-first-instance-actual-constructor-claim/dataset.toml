@@ -1,0 +1,14 @@
+id = "evidence-submission-plaintiff-first-instance-actual-constructor-claim"
+task_type = "skill-bench"
+deliverable = "artifacts/evidence-submission-opinion.md"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from tests/rubric-contract.json"
+scoring_params = "task/tests/rubric-contract.json"
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true

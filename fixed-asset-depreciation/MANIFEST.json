@@ -1,0 +1,209 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "fixed-asset-depreciation",
+  "tasks": [
+    "fixed-asset-depreciation"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 49,
+  "bytes_excluding_manifest": 2041825,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3127,
+      "sha256": "a8a5e1667ddd3243b540feb3ed26cebb82f3990c3942c2d327a7be0b46e1fa9b"
+    },
+    "RUBRIC.md": {
+      "bytes": 11570,
+      "sha256": "b44e3348a8d7c43a27687d117035a5c2a007c4e07f432c0c5fad7124f2d2d043"
+    },
+    "dataset.toml": {
+      "bytes": 1249,
+      "sha256": "b44d0fc21e7e4f31d07b39465373706a9876c8130677f3ee93e199fadba51f39"
+    },
+    "golden/output/fixed_asset_model.xlsx": {
+      "bytes": 689831,
+      "sha256": "2bbc422eb47d229e60000c149a742527271b077681024bb3aeb21f847023939f"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 605,
+      "sha256": "27e252cdcfec9f519f68cce4e4055a1d1f08737cb6146ac3a0e689dc676e8417"
+    },
+    "task/environment/Dockerfile.no_skill": {
+      "bytes": 629,
+      "sha256": "a148104ab634ed33a0cf9fd1fb06eeb2b8422d0fc560befe6196a8ada4497f9f"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 378,
+      "sha256": "c5d86df25390ec8bd841aee0dd865b5b86070f377953e7b12a151d2722c16502"
+    },
+    "task/environment/materials/workspace.xlsx": {
+      "bytes": 98861,
+      "sha256": "7469a0f15a2f37f7c652617e741194e2376df9c0387f42617443ab8b3ec5e2fc"
+    },
+    "task/environment/skills/effective-period-allocation/SKILL.md": {
+      "bytes": 1151,
+      "sha256": "a4ffd0ce5e5520ab0e4bc097ce1315d0dcc2dba57bfa3d651e8969c8652b4dc1"
+    },
+    "task/environment/skills/effective-period-allocation/references/keyed-events.md": {
+      "bytes": 1950,
+      "sha256": "57b0417d40f7b68bdc4117421f8ba1fcc8a51c4faa08531ca15fa5393d26cff9"
+    },
+    "task/environment/skills/effective-period-allocation/references/stocks-and-flows.md": {
+      "bytes": 1863,
+      "sha256": "126033a99aff5b74b39daef708875981e70fb3a3ac2983f629db7937bc04bf29"
+    },
+    "task/environment/skills/fixed-asset-period-modeling/SKILL.md": {
+      "bytes": 1339,
+      "sha256": "f5fad65ea8bf37d6367f5c340c209117d8afe2783ff24b970de22c4235348496"
+    },
+    "task/environment/skills/fixed-asset-period-modeling/references/assumptions-and-balances.md": {
+      "bytes": 2016,
+      "sha256": "022f2021f6a39b5ce431f24e2839724abecbdf9909c0cf25e9784007b960b82a"
+    },
+    "task/environment/skills/fixed-asset-period-modeling/references/periods-and-methods.md": {
+      "bytes": 2459,
+      "sha256": "143103bd7845c8290089137d8b990e6d3f49bb3213b87e394b51a85504eaa36b"
+    },
+    "task/environment/skills/spreadsheet-behavior-checks/SKILL.md": {
+      "bytes": 2060,
+      "sha256": "0dc504e408798fe406c43b6c59b34b3e0bb04dea9becde8289a94f7c96d82e0b"
+    },
+    "task/environment/skills/spreadsheet-behavior-checks/references/probe-design.md": {
+      "bytes": 2604,
+      "sha256": "e877ccdbf7c5129752ed6137d48fc0e4ac9d6b9d3cde9d3c9becde35ed89e3be"
+    },
+    "task/environment/skills/spreadsheet-behavior-checks/scripts/workbook_tools.py": {
+      "bytes": 8224,
+      "sha256": "0bcbb1be3afbd41098c25a0f306ecc7c3c3354800ecde284998440143cd77eb3"
+    },
+    "task/environment/workspace/materials/workspace.xlsx": {
+      "bytes": 98861,
+      "sha256": "7469a0f15a2f37f7c652617e741194e2376df9c0387f42617443ab8b3ec5e2fc"
+    },
+    "task/instruction.md": {
+      "bytes": 1411,
+      "sha256": "1ccddb89ae851306825dc487671adddd29da3c260571d6db7629570e673300f3"
+    },
+    "task/solution/reference/fixed_asset_model.xlsx": {
+      "bytes": 689831,
+      "sha256": "2bbc422eb47d229e60000c149a742527271b077681024bb3aeb21f847023939f"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 258,
+      "sha256": "6b622e2d495ebfd9201b2a2dc3b6e6d125a7ceab416ef1f3abe770efebd4acb9"
+    },
+    "task/task.toml": {
+      "bytes": 1240,
+      "sha256": "82ccee0ef0e59b4612b348c680c3cda84d1b8eb019626fbd7c3321489f0050f3"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1204,
+      "sha256": "169681bf7d78a21e13081650fa8fff820af6d6ea27cc1d0402c21fa835f53339"
+    },
+    "task/tests/lenient_scoring.py": {
+      "bytes": 5899,
+      "sha256": "f3c40ba2e98f1edd9986b5d9bdfb1ce608feb11252dbd29fb8191c18c87c69a2"
+    },
+    "task/tests/llm_judge/contract.json": {
+      "bytes": 18207,
+      "sha256": "f50e25e73e6f8e0571382a39ddd038a6b568d49a4e2b6f3d63e7dfaa8e5c8681"
+    },
+    "task/tests/llm_judge/golden_replay/frozen/e2d5d245197f9ff355aaf0ed3d0f34652df7a0d856f5f6672eccbea771083a39/decision.json": {
+      "bytes": 15756,
+      "sha256": "b570554ac5c6b216783e7af3c825a64e638333f171d161aacf8815c10bbd9892"
+    },
+    "task/tests/llm_judge/golden_replay/frozen/e2d5d245197f9ff355aaf0ed3d0f34652df7a0d856f5f6672eccbea771083a39/request.json": {
+      "bytes": 157913,
+      "sha256": "dd7d08c3f601f2cdcb468ddc6e5ae3f360b26115ff2820ac4fe7770e5aec31af"
+    },
+    "task/tests/llm_judge/golden_replay/frozen/e2d5d245197f9ff355aaf0ed3d0f34652df7a0d856f5f6672eccbea771083a39/response.json": {
+      "bytes": 251,
+      "sha256": "f9f1d37e6cde5c8a231ad64aebcf2954523fb980a2b1c93c20ca2b90f20d95f0"
+    },
+    "task/tests/llm_judge/golden_replay/frozen/e2d5d245197f9ff355aaf0ed3d0f34652df7a0d856f5f6672eccbea771083a39/validation.json": {
+      "bytes": 331,
+      "sha256": "116bf41a83dc84d8d2d7de26ac903df5242c6f0acaf70e5d2acb987b5d64683f"
+    },
+    "task/tests/llm_judge/golden_replay/manifest.json": {
+      "bytes": 952,
+      "sha256": "466fb9060fec73409163c06f967a6f18361387721f8c997d861519d0a31d0bf3"
+    },
+    "task/tests/llm_judge/judge.py": {
+      "bytes": 11459,
+      "sha256": "249c767dfd0caeaf8f326086d58dff0fbd23b3552169894f0764676e83c123fc"
+    },
+    "task/tests/llm_judge/manifest.json": {
+      "bytes": 1017,
+      "sha256": "08a2fe6d0f81daad6e8028593d9b446964b2ec7671e5e0f33cfb960d9927e925"
+    },
+    "task/tests/llm_judge/prompt.md": {
+      "bytes": 3532,
+      "sha256": "5de2fc5a1b2d1a18996f42028e6d17a2c2ea115cbb9bdc175d1d688a90dfc1bd"
+    },
+    "task/tests/llm_judge/response.schema.json": {
+      "bytes": 1423,
+      "sha256": "0dcc4d65c82a7d69de1c59436e34e7a7b0c67045d34e4667d1d2bb48ba8bf862"
+    },
+    "task/tests/llm_judge/runtime/official_transport.py": {
+      "bytes": 13618,
+      "sha256": "c7dbe4c3c0357cbdcca505ee56fe71421511af712c41935d33d3f7b421a238b7"
+    },
+    "task/tests/llm_judge/settings.json": {
+      "bytes": 206,
+      "sha256": "61be47201d31ed9f5324ad4244467d8cdf48bb960b1aa4619f5a3abc2e3ab122"
+    },
+    "task/tests/material.xlsx": {
+      "bytes": 98861,
+      "sha256": "7469a0f15a2f37f7c652617e741194e2376df9c0387f42617443ab8b3ec5e2fc"
+    },
+    "task/tests/must_have.json": {
+      "bytes": 2705,
+      "sha256": "7873ae9b4939c41ac98be2eb262f8dc9583296c2f6354623dcd74868f43d7bb7"
+    },
+    "task/tests/quality_scoring.py": {
+      "bytes": 6439,
+      "sha256": "fff7894d6af4bd36513eb0134c22ca292c8a533cd87e7bea61f1795a85409ff8"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 3850,
+      "sha256": "53ea37c724fe86f3351b887411e54599ac513519e9f8bf37f792102aa9a59c91"
+    },
+    "task/tests/runtime/business_metrics.py": {
+      "bytes": 11217,
+      "sha256": "7d15db6573a5e294f13c276adedbfb661aac9f55960107d1466802953d2f54f6"
+    },
+    "task/tests/runtime/diagnostic_native.py": {
+      "bytes": 8846,
+      "sha256": "b72f4cd6a2b84274b4bf04b9fba769b9a88fa455d4583ada5743a18eeb539b15"
+    },
+    "task/tests/runtime/financial_native.py": {
+      "bytes": 16457,
+      "sha256": "897b79de27bb1a6d1bcf1b750ed3a30d2d95ace15fe11ada292bd8de5e964c52"
+    },
+    "task/tests/runtime/measure.py": {
+      "bytes": 2720,
+      "sha256": "25839fa57a61df47b7b76097ff20e3bde831350c6d9d33ad0cce268aa9d3614e"
+    },
+    "task/tests/runtime/scenarios.json": {
+      "bytes": 23498,
+      "sha256": "88fd895e3e328530cc6ce96402bb1c4f4bf98c92374ac0b11161d1e9f5b68499"
+    },
+    "task/tests/runtime/source_native.py": {
+      "bytes": 8457,
+      "sha256": "3bc87862a3bd61366e5287cc747d63ca206aa2677a1379dd4e9d68bae8b94afd"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 236,
+      "sha256": "80d3da78391ddf7dd19e65ef7eeebe5c64b678c90643f823f2414cfc2e67d642"
+    },
+    "task/tests/test.sh": {
+      "bytes": 470,
+      "sha256": "4034d36410eb133501815449869e4fef2d1a07c0f9e35e283919c4624dd1469b"
+    },
+    "task/tests/validator.py": {
+      "bytes": 4784,
+      "sha256": "ffe6acb0ebdd6e59b1e472fe32b4f8d01a8ebeae78e1a3b255224ef6eb061fee"
+    }
+  }
+}

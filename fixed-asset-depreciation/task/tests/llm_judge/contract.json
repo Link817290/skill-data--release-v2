@@ -1,0 +1,648 @@
+{
+  "judge_version": "mx6-visible-input-diagnoses-1",
+  "profile": "bench",
+  "source_instruction_sha256": "1ccddb89ae851306825dc487671adddd29da3c260571d6db7629570e673300f3",
+  "source_material_sha256": "7469a0f15a2f37f7c652617e741194e2376df9c0387f42617443ab8b3ec5e2fc",
+  "completion_values": [
+    0,
+    1
+  ],
+  "items": {
+    "cost-negative-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "G5",
+          -1
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "cost-text-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "G5",
+          "bad cost"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "method-invalid-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E5",
+          "unsupported method"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "method-missing-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E5",
+          null
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "date-missing-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "F5",
+          null
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "date-text-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "F5",
+          "not a date"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "life-fractional-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H5",
+          2.5
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "life-zero-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H5",
+          0
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "life-over-capacity-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H5",
+          41
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "residual-negative-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "M5",
+          -0.01
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "residual-one-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "M5",
+          1
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "category-unknown-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "D5",
+          "Unconfigured category"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "department-unknown-row-5": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "J5",
+          "Unconfigured department"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "cost-negative-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "G8",
+          -1
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "cost-text-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "G8",
+          "bad cost"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "method-invalid-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E8",
+          "unsupported method"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "method-missing-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "E8",
+          null
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "date-missing-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "F8",
+          null
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "date-text-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "F8",
+          "not a date"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "life-fractional-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H8",
+          2.5
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "life-zero-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H8",
+          0
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "life-over-capacity-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "H8",
+          41
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "residual-negative-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "M8",
+          -0.01
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "residual-one-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "M8",
+          1
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "category-unknown-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "D8",
+          "Unconfigured category"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "department-unknown-row-8": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "J8",
+          "Unconfigured department"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "asset-duplicate": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "B6",
+          "FA-2024-001"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "category-duplicate": {
+      "scope": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "C18",
+          "\u623f\u5c4b\u5efa\u7b51\u7269"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "department-duplicate": {
+      "scope": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "C45",
+          "\u603b\u7ecf\u529e"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "workload-total-zero": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "I8",
+          0
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "workload-total-negative": {
+      "scope": [
+        [
+          "\u56fa\u5b9a\u8d44\u4ea7\u53f0\u8d26",
+          "I8",
+          -1
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "workload-negative": {
+      "scope": [
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AE8",
+          -100
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "workload-text": {
+      "scope": [
+        [
+          "\u6298\u65e7\u8ba1\u7b97\u8868",
+          "AE8",
+          "not a quantity"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "opening-negative": {
+      "scope": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C5",
+          -1
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "opening-above-basis": {
+      "scope": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C5",
+          500000
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "opening-text": {
+      "scope": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C5",
+          "not an amount"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "opening-duplicate": {
+      "scope": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A7",
+          "FA-2024-004"
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B7",
+          2026
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C7",
+          0
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "opening-missing": {
+      "scope": [
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "A5",
+          null
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "B5",
+          null
+        ],
+        [
+          "\u671f\u521d\u7ed3\u8f6c",
+          "C5",
+          null
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "transfer-department-unknown": {
+      "scope": [
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "F5",
+          "Unconfigured department"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "transfer-duplicate": {
+      "scope": [
+        [
+          "\u90e8\u95e8\u8c03\u62e8",
+          "A6",
+          "FA-2024-001"
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "report-month-zero": {
+      "scope": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          0
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "report-month-thirteen": {
+      "scope": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          13
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "report-month-fractional": {
+      "scope": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B7",
+          6.5
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    },
+    "report-year-fractional": {
+      "scope": [
+        [
+          "\u57fa\u7840\u53c2\u6570\u914d\u7f6e",
+          "B6",
+          2026.5
+        ]
+      ],
+      "completion_values": [
+        0,
+        1
+      ],
+      "requirement": "An actual visible native output identifies the exposed invalid business input; arbitrary wording/location accepted, exact observed evidence required."
+    }
+  }
+}

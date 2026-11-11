@@ -1,0 +1,29 @@
+{
+  "source_archive": "employee-engagement-q12-v10-maintenance.zip",
+  "sha256": "ab51a1d11418cc373fa6c662ab46e5326e72d95eb114368386099d51cc03d488",
+  "source_task_id": "expert/employee-engagement-q12-0905-v10",
+  "sample_id": "employee-engagement-q12-diagnostic",
+  "imported_utc": "2026-09-04",
+  "authenticity": "De-identified supplied archive; no external production-data attestation was included.",
+  "materials": [
+    "analysis_parameters.xlsx",
+    "analysis_requirements.xlsx",
+    "employee_core.xlsx",
+    "identity_bridge.xlsx",
+    "level_events.xlsx",
+    "people_snapshot.xlsx",
+    "population_margins.xlsx",
+    "survey_dictionary.xlsx",
+    "variance_design.xlsx",
+    "wave_alpha_batch_01.xlsx",
+    "wave_alpha_batch_02.xlsx",
+    "wave_beta_batch_01.xlsx",
+    "wave_beta_batch_02.xlsx"
+  ],
+  "business_markdown_removed": true,
+  "source_transformations": [
+    "narrative context removed",
+    "numeric rules preserved in analysis_parameters.xlsx",
+    "analysis_requirements.xlsx authored from the supplied evaluation contract; it contains no observations or expected numeric results"
+  ]
+}

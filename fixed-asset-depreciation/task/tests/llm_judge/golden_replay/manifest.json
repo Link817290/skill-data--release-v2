@@ -1,0 +1,17 @@
+{
+  "schema_version": "mx6-semantic-cache-1",
+  "entries": {
+    "e2d5d245197f9ff355aaf0ed3d0f34652df7a0d856f5f6672eccbea771083a39": {
+      "entry": "frozen/e2d5d245197f9ff355aaf0ed3d0f34652df7a0d856f5f6672eccbea771083a39",
+      "artifact_sha256": "2bbc422eb47d229e60000c149a742527271b077681024bb3aeb21f847023939f",
+      "request_sha256": "dd7d08c3f601f2cdcb468ddc6e5ae3f360b26115ff2820ac4fe7770e5aec31af",
+      "response_sha256": "f9f1d37e6cde5c8a231ad64aebcf2954523fb980a2b1c93c20ca2b90f20d95f0",
+      "provider_response_sha256": "721f58748e838ffc7d9058a7110bec264e58cb7cdc8e78600cd21bb914541423",
+      "decision_sha256": "b570554ac5c6b216783e7af3c825a64e638333f171d161aacf8815c10bbd9892",
+      "validation_sha256": "116bf41a83dc84d8d2d7de26ac903df5242c6f0acaf70e5d2acb987b5d64683f",
+      "qualification_status": "qualified_gpt_responses",
+      "model": "gpt-5.6-sol"
+    }
+  },
+  "scope": "Exact Golden request and decision replay only."
+}

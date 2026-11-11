@@ -1,0 +1,38 @@
+[dataset]
+version = "1.0"
+id = "fixed-asset-depreciation"
+task_type = "skill-bench"
+domain = "fixed-asset-accounting"
+language = "en"
+status = "packaged"
+task = "task"
+with_skill = "task/task.toml"
+no_skill = "task/task_no_skill.toml"
+instruction = "task/instruction.md"
+materials = "task/environment/workspace/materials"
+deliverable = "/workspace/output/fixed_asset_model.xlsx"
+golden = "golden/output/fixed_asset_model.xlsx"
+rubric = "RUBRIC.md"
+strict_contract = "task/tests/rubric-contract.json"
+strict_params = "task/tests/scoring_params.json"
+lenient_contract = "task/tests/must_have.json"
+scoring_entrypoint = "task/tests/test.sh"
+
+[scoring]
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+strict_formula = "weighted_owner_completion_gamma_1"
+lenient_formula = "five_must_have_conjunction_with_details"
+semantic_mode_default = "fresh"
+trusted_replay = "golden_artifact_only"
+fixed_final_score_cap = false
+semantic_judge_required = true
+judge_protocol = "openai_responses"
+judge_model = "gpt-5.6-sol"
+golden_replay_status = "qualified_gpt_responses_exact_golden_only"
+judge_failure = "UNMEASURED"
+
+[runtime]
+actor_network = "none"
+verifier_network = "public"
+artifact_transfer = "/workspace/output/fixed_asset_model.xlsx"

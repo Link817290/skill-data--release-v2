@@ -1,0 +1,11 @@
+{
+  "score_name": "reward_strict",
+  "gold_reward": 1.0,
+  "daily_sha256": "b502dd35d3d92ca3bacf5d6db5a3f71e89877913a0e6c77eb29e32e42b6046a8",
+  "snapshot_sha256": "fb293bca4f8dc8879eead9954e56bcd399106092d5ee0671b6b95e34deb28523",
+  "selected_record_count": 14,
+  "in_scope_unit_count": 14,
+  "dispatchable_unit_count": 12,
+  "trace_row_count": 168,
+  "derivation": "Recomputed from the two immutable workspace records by an independent validator."
+}

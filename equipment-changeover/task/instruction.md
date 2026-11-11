@@ -1,0 +1,3 @@
+We are preparing the next label changeover at our packing stations. Please turn the equipment notes and changeover request in `/workspace/input/` into a Chinese work instruction the shift can use for the listed jobs, including setup, checks and handling exceptions.
+
+Deliver `/workspace/output/包装工位标签打印作业指导书.docx`. Use the parameter table in `/workspace/input/标签打印作业指导书（编制格式）.docx`, retaining its job identifiers and column headings, and include the operating steps and exception handling in the same Word document. Save the document directly at the stated path. This is preparation for a planned changeover; actual machine trials remain to be performed.

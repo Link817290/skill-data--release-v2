@@ -1,0 +1,1663 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "1.0",
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "P01",
+      "units": [
+        "U06"
+      ],
+      "dimension": "evidence_organization",
+      "weight": 0.1,
+      "value_basis": "group 3 (G17-G38 actual-construction records) locks A公司's actual-constructor status and is the core/foundation of the whole proof system",
+      "reasoning_gate": "requires ranking the evidence groups by probative role and binding the performance records to the actual-constructor element",
+      "scope": "sentences in the group-3 section or sentences naming 第三组/G17-G38/实际施工证据",
+      "object_key": "group3.actual_constructor_foundation",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 八、第三组 table; 一、案件概要; 三、工程与项目概况; 六、实际施工过程详述; golden/举证意见.docx p[20], p[22], p[40]",
+      "relation_predicate": "one sentence in the group-3 section, the relation section or naming 第三组 binds the actual-constructor status to the plaintiff via group 3 AND states that the other groups depend on it (其后/其余各组…依附/建立在/以…为基础, or 第四组…在第三组…基础上); no half tier | 实际完成/组织完成 wording for the status and the single-group dependency written from inside groups 4-7 are accepted",
+      "golden_object_key": "U06",
+      "golden_relation_predicate": "Evaluate adopted substantive meaning against the original dossier, accepting synonyms, paragraph/table layouts and supported alternatives. Full for the complete proposition, half for a material subset, zero for absence or adopted contradiction. Required proposition: group 3 (G17-G38 actual-construction records) locks A公司's actual-constructor status and is the core/foundation of the whole proof system",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "group-3 actual-constructor proof plus the other groups' dependency in the same sentence",
+        "partial": "none",
+        "zero": "anything else"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p01",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "damage_absorption": "when this item is zeroed by an adopted error (contrary assertion, or a missing request element for P16), the same error is not charged again by D01/D03/D05/D06/D11",
+      "deterministic_source_anchor": "one supplied group-3 locator: 第三组 or G17-G38"
+    },
+    {
+      "id": "P02",
+      "units": [
+        "U05"
+      ],
+      "dimension": "legal_characterization",
+      "weight": 0.08,
+      "value_basis": "the 项目内部承包责任书 is a nominal internal contract that is in substance a transfer (转包) and void, because no real employment relation exists (no labour contract, social insurance, wages, unsigned appointment letter).",
+      "reasoning_gate": "requires applying the internal-contracting test (real employment relation) to the evidence G10/G14 and deriving invalidity",
+      "scope": "any adopted sentence mentioning 责任书/内部承包",
+      "object_key": "contract_chain.internal_contract_nature",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 四、法律性质分析; 争议焦点二; 第二组 G10, G14; golden/举证意见.docx p[16], p[18]",
+      "relation_predicate": "transfer characterization (实为/认定为/构成转包) not negated, invalidity (无效) after it not negated, and an employment-relation reason (缺乏/无 劳动关系/社保/工资, 聘任文件无签收)",
+      "golden_object_key": "U05",
+      "golden_relation_predicate": "Evaluate adopted substantive meaning against the original dossier, accepting synonyms, paragraph/table layouts and supported alternatives. Full for the complete proposition, half for a material subset, zero for absence or adopted contradiction. Required proposition: the 项目内部承包责任书 is a nominal internal contract that is in substance a transfer (转包) and void, because no real employment relation exists (no labour contract, social insurance, wages, unsigned appointment letter)",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "transfer + void + employment-relation reason",
+        "partial": "transfer + void without the reason (0.5)",
+        "zero": "missing, negated, or the contract asserted valid (contrary → ambiguous)"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p02",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "G10, G14, or the supplied instrument title 项目内部承包责任书"
+    },
+    {
+      "id": "P03",
+      "units": [
+        "U07"
+      ],
+      "dimension": "valuation",
+      "weight": 0.08,
+      "value_basis": "the actual-completed-quantity price 9,746.30万元 (not the 88% internal or nominal price) is the basis of the compensation for the void contract.",
+      "reasoning_gate": "requires choosing the compensation basis after invalidity (Civil Code 793) between competing price bases",
+      "scope": "any adopted sentence with 9,746.30万元",
+      "object_key": "price.compensation_basis",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 十一、金额体系对照; 十、民法典第七百九十三条; 争议焦点三 (被告 88% defence); 第四组 G41, G43, G44, G45; golden/举证意见.docx p[26], p[49]",
+      "relation_predicate": "9,746.30万元 with a basis phrase (折价补偿/计价依据/结算依据/作为…依据) not negated and no adopted wrong basis in the sentence",
+      "golden_object_key": "U07",
+      "golden_relation_predicate": "Evaluate adopted substantive meaning against the original dossier, accepting synonyms, paragraph/table layouts and supported alternatives. Full for the complete proposition, half for a material subset, zero for absence or adopted contradiction. Required proposition: the actual-completed-quantity price 9,746.30万元 (not the 88% internal or nominal price) is the basis of the compensation for the void contract",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "9,746.30 as compensation basis",
+        "partial": "9,746.30 proven as the actual completed quantity price only (0.5)",
+        "zero": "missing, negated, or a wrong basis adopted in the same sentence"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03, R05 eval_p03",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "the closed dossier amount 9,746.30万元"
+    },
+    {
+      "id": "P04",
+      "units": [
+        "U08"
+      ],
+      "dimension": "calculation",
+      "weight": 0.1,
+      "value_basis": "B公司 has paid 3,942.30万元 and still owes 5,804.00万元 (9,746.30 - 3,942.30).",
+      "reasoning_gate": "requires computing the balance from the valuation and the payment evidence and attributing the debt to B公司 not C公司",
+      "scope": "adopted sentences with an owed-amount assertion whose debtor in the clause is B公司/被告一",
+      "object_key": "payment.owed",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 十一、金额体系对照 rows 5-6; 第五组 G49, G54; golden/举证意见.docx p[30]",
+      "relation_predicate": "owed amount replayed by R04 from 9,746.30 - 3,942.30 (5,804.00; 6,476.60 accepted when the disputed 672.60 is added back) together with the paid amount 3,942.30 in the same sentence",
+      "golden_object_key": "U08",
+      "golden_relation_predicate": "B company payment arithmetic accepts either disclosed basis when internally consistent: 5804.00万元 = 9746.30-3942.30, or 6476.60万元 when the disputed 672.60万元 B-company wage payment is added back. Full requires the selected basis, amounts and relationship; a contradictory amount is zero.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "paid 3,942.30 and replayable owed amount in one sentence",
+        "partial": "replayable owed amount without the paid amount (0.5)",
+        "zero": "no owed assertion, a non-replayable amount, or conflicting owed amounts across the document (ambiguous)"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R04 owed_assertions + eval_p04",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "replay_rule_id": "R04",
+      "deterministic_source_anchor": "the closed paid amount 3,942.30万元"
+    },
+    {
+      "id": "P05",
+      "units": [
+        "U08"
+      ],
+      "dimension": "offset_judgment",
+      "weight": 0.06,
+      "value_basis": "the 672.60万元 wage payment made for B公司's own workers must not be offset against A公司's claim.",
+      "reasoning_gate": "requires separating the disputed wage advance by worker population and deciding its offset effect",
+      "scope": "adopted sentences with 672.60万元 and 代付/工资",
+      "object_key": "payment.disputed_wage_offset",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 五、大事记 2022-01-25; 六、(四) 农民工工资阶段; 争议焦点六 (被告抗辩); 第五组 G55; golden/举证意见.docx p[28], p[30]",
+      "relation_predicate": "672.60万元 wage payment + a no-offset predicate (不应/不得/不予 … 抵扣/扣减/抵销)",
+      "golden_object_key": "U08",
+      "golden_relation_predicate": "Evaluate adopted substantive meaning against the original dossier, accepting synonyms, paragraph/table layouts and supported alternatives. Full for the complete proposition, half for a material subset, zero for absence or adopted contradiction. Required proposition: the 672.60万元 wage payment made for B公司's own workers must not be offset against A公司's claim",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "672.60 not offset",
+        "partial": "none",
+        "zero": "missing, or 672.60 said to be offset (contrary)"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p05",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "the closed disputed amount 672.60万元"
+    },
+    {
+      "id": "P06",
+      "units": [
+        "U18"
+      ],
+      "dimension": "claim_construction",
+      "weight": 0.08,
+      "value_basis": "C公司 is liable to pay within the 2,412.00万元 it owes B公司.",
+      "reasoning_gate": "requires applying the employer's limited liability (Judicial Interpretation I art. 43) to the reconciled arrears",
+      "scope": "adopted sentences naming C公司/被告二/发包人",
+      "object_key": "employer.liability_range",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 一、案件概要; 十、建工解释一第四十三条; 十一、金额体系对照; 第二组 G16; golden/举证意见.docx p[50]",
+      "relation_predicate": "C公司 … 欠付 … 2,412.00万元 … 范围内/限度内 … 承担 (not negated; B公司 not substituted as the limited debtor)",
+      "golden_object_key": "U18",
+      "golden_relation_predicate": "Evaluate adopted substantive meaning against the original dossier, accepting synonyms, paragraph/table layouts and supported alternatives. Full for the complete proposition, half for a material subset, zero for absence or adopted contradiction. Required proposition: C公司 is liable to pay within the 2,412.00万元 it owes B公司",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "C liable within 2,412",
+        "partial": "none",
+        "zero": "missing, negated, or wrong object"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p06",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "the closed employer-arrears amount 2,412万元"
+    },
+    {
+      "id": "P07",
+      "units": [
+        "U08"
+      ],
+      "dimension": "evidence_evaluation",
+      "weight": 0.04,
+      "value_basis": "the C-B property-offset agreement (以房抵债, G56) was not actually performed, so C公司's 2,412万元 arrears to B公司 still stand.",
+      "reasoning_gate": "requires evaluating the defendants' counter-document and its effect on the employer's liability",
+      "scope": "adopted sentences with 以房抵债/抵债协议",
+      "object_key": "employer.offset_by_property",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 争议焦点五 (被告以房抵债抗辩); 第五组 G56; golden/举证意见.docx p[28], p[30]",
+      "relation_predicate": "offset agreement not performed (未/尚未 实际履行) and persistence of the arrears (依旧/仍 … 成立/存在/承担)",
+      "golden_object_key": "U08",
+      "golden_relation_predicate": "Evaluate adopted substantive meaning against the original dossier, accepting synonyms, paragraph/table layouts and supported alternatives. Full for the complete proposition, half for a material subset, zero for absence or adopted contradiction. Required proposition: the C-B property-offset agreement (以房抵债, G56) was not actually performed, so C公司's 2,412万元 arrears to B公司 still stand",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "not performed + arrears persist",
+        "partial": "not performed only (0.5)",
+        "zero": "missing, or offset asserted performed (contrary)"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p07",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "G56 or the closed 2,412万元 amount"
+    },
+    {
+      "id": "P08",
+      "units": [
+        "U09"
+      ],
+      "dimension": "evidence_evaluation",
+      "weight": 0.03,
+      "value_basis": "the 214 migrant workers organised by A公司 are owed 613.80万元 in wages, confirmed by the labour-inspection investigation.",
+      "reasoning_gate": "requires linking the wage sheet to the inspection record (G57, G59, G60) into one confirmed fact",
+      "scope": "adopted sentences with 214名/人 and 613.80万元",
+      "object_key": "wages.unpaid_confirmed",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 第六组 G57-G60; 大事记 2024-03-15; golden/举证意见.docx p[32], p[34]",
+      "relation_predicate": "214 workers + 613.80万元 + unpaid verb, with inspection confirmation (劳动监察/监察大队 … 调查/确认)",
+      "golden_object_key": "U09",
+      "golden_relation_predicate": "Evaluate adopted substantive meaning against the original dossier, accepting synonyms, paragraph/table layouts and supported alternatives. Full for the complete proposition, half for a material subset, zero for absence or adopted contradiction. Required proposition: the 214 migrant workers organised by A公司 are owed 613.80万元 in wages, confirmed by the labour-inspection investigation",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "owed and confirmed",
+        "partial": "owed without confirmation (0.5)",
+        "zero": "missing or denied"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p08",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "one closed dossier anchor among 214 workers, 613.80万元, or G57-G60"
+    },
+    {
+      "id": "P09",
+      "units": [
+        "U10"
+      ],
+      "dimension": "legal_characterization",
+      "weight": 0.04,
+      "value_basis": "A公司's written demands, letters and complaints interrupted limitation, so the claim is not time-barred",
+      "reasoning_gate": "requires applying limitation interruption to the demand/complaint evidence of group 7",
+      "scope": "any adopted sentence",
+      "object_key": "limitation.interrupted",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 第七组 G63-G66; 大事记 2023-03-20, 2023-11-08, 2024-03-15; golden/举证意见.docx p[36], p[38]",
+      "relation_predicate": "one span with 时效…中断 (not negated), an interruption cause (催告/投诉/发函/主张权利/G63-G66), a not-barred conclusion (未逾/未超过/未罹于/在时效期间之内) and a time anchor (an ISO date or a year); no half tier",
+      "golden_object_key": "U10",
+      "golden_relation_predicate": "Does the adopted conclusion connect sustained demands/催告 and complaints with interruption of limitation and the claim not being time-barred? Full for that supported causal conclusion. Do not require a list of letters, written forms or exhibit IDs when the causal application is clear. Half for interruption rule alone without applying to claim; zero for omission or contrary time-bar conclusion.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "interruption + cause + not-barred + time anchor",
+        "partial": "none",
+        "zero": "anything else"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p09",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "one supplied demand/complaint locator G63-G66 or its recorded 2023/2024 date"
+    },
+    {
+      "id": "P10",
+      "units": [
+        "U13"
+      ],
+      "dimension": "cross_evidence",
+      "weight": 0.04,
+      "value_basis": "the wage-payment flow and real-name records (G20/G21) corroborate the wage sheet and attendance records (G57/G58) on the personnel dimension",
+      "reasoning_gate": "requires connecting evidence across groups 3 and 6 that the materials list separately",
+      "scope": "any adopted sentence",
+      "object_key": "cross.personnel",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 第三组 G20, G21; 第六组 G57, G58; golden/举证意见.docx p[40] sentence 2",
+      "relation_predicate": "one of G20/G21 (or their names) and one of G57/G58 (or their names) with a corroboration verb (印证/吻合/相互对应) not negated",
+      "golden_object_key": "U13",
+      "golden_relation_predicate": "Personnel corroboration: explain how two independent original exhibits or evidence types support the SAME personnel/actual-construction fact. Any supported pair is allowed, e.g. roster plus real-name registration, not only wage-payment plus attendance. Mere listing is zero; no inference from co-occurring IDs.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "pairing with corroboration",
+        "partial": "none",
+        "zero": "missing or negated"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 cross_item",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "two supplied personnel-evidence locators among G20, G21, G57, G58"
+    },
+    {
+      "id": "P11",
+      "units": [
+        "U14"
+      ],
+      "dimension": "cross_evidence",
+      "weight": 0.04,
+      "value_basis": "the site instructions (G27-G64) corroborate the design change notices (G43) and variation settlement submission (G44) on the quantity dimension",
+      "reasoning_gate": "requires connecting evidence across groups 3 and 4",
+      "scope": "any adopted sentence",
+      "object_key": "cross.quantity",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 第三组 G27-G64; 第四组 G43, G44; golden/举证意见.docx p[40] sentence 2",
+      "relation_predicate": "签证单/G27 and 设计变更通知/变更结算/G43/G44 with a corroboration verb not negated",
+      "golden_object_key": "U14",
+      "golden_relation_predicate": "Quantity/variation corroboration: explain how two independent original exhibits support the SAME quantity or variation fact; any source-supported pair, including procurement and arrival records when tied to the fact, is allowed. Do not require a fixed pair or single sentence.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "pairing with corroboration",
+        "partial": "none",
+        "zero": "missing or negated"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 cross_item",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "two supplied quantity/variation locators or instrument names among G27, G43, G44, 设计变更, 签证, 报审"
+    },
+    {
+      "id": "P12",
+      "units": [
+        "U15"
+      ],
+      "dimension": "cross_evidence",
+      "weight": 0.03,
+      "value_basis": "the account statement (G16) and the unperformed property-offset agreement (G56) corroborate each other on the employer-liability dimension.",
+      "reasoning_gate": "requires connecting evidence across groups 2 and 5 for the employer's liability",
+      "scope": "any adopted sentence",
+      "object_key": "cross.employer",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 第二组 G16; 第五组 G56; golden/举证意见.docx p[40] sentence 2",
+      "relation_predicate": "G16/对账单 and G56/以房抵债 with a corroboration verb (CORROBORATE list) in a clause naming one side, not negated",
+      "golden_object_key": "U15",
+      "golden_relation_predicate": "Employer liability corroboration: reason from at least two independent supplied exhibits to the outstanding employer-debt/offset-performance facts. Source-supported pairs allowed; no mandatory exhibit pairing or same-paragraph condition.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "pairing with corroboration",
+        "partial": "none",
+        "zero": "missing or negated"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 cross_item",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "two supplied employer-liability locators or instruments among G16, G56, 对账单, 以房抵债"
+    },
+    {
+      "id": "P13",
+      "units": [
+        "U17"
+      ],
+      "dimension": "burden_of_proof",
+      "weight": 0.04,
+      "value_basis": "the defendants' affirmative defences (valid internal contract, management fee, full wage offset, quality defects, property offset) carry their own burden of proof, which shifts to the defendants",
+      "reasoning_gate": "requires classifying each defence as an affirmative fact claim under Civil Procedure Interpretation art. 90/91 and allocating the burden",
+      "scope": "adopted sentences with 举证责任 (conditional 若 allowed; attribution directly before 举证责任 excluded) | a section heading that names 举证责任 is the burden section even when it also names 被告抗辩; a burden cell naming the party by its claim ('主张…的一方') is an opponent party cell",
+      "object_key": "burden.defence_shift",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 七、争议焦点一至七 被告抗辩; golden/举证意见.docx p[43]",
+      "relation_predicate": "explicit 举证责任 allocated to the defendants (not negated, not on the plaintiff) for >=3 of the five defences, at least one of 代付抵扣/质量/以房抵债, in one sentence or one burden table; no half tier",
+      "golden_object_key": "U17",
+      "golden_relation_predicate": "Explain the general affirmative-defence burden rule and apply it to the defendants and their internal-contract, management-fee, wage-offset, quality or property-offset defences. A global rule followed by a table with 举证责任者/方/主体 is fully valid; do not require statutory citations repeated in each row. Full for all relevant defences, proportional partial for fewer.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": ">=3 defences incl. one beyond 内部承包/管理费",
+        "partial": "none",
+        "zero": "anything else"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p13",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "semantic source citation only; no closed token is professionally mandatory"
+    },
+    {
+      "id": "P14",
+      "units": [
+        "U16"
+      ],
+      "dimension": "burden_of_proof",
+      "weight": 0.04,
+      "value_basis": "the plaintiff's initial proof reaches the high-probability (高度盖然性) standard",
+      "reasoning_gate": "requires applying the civil standard of proof (Interpretation art. 108) to the assembled evidence",
+      "scope": "any adopted sentence",
+      "object_key": "burden.standard_met",
+      "source_location": "public convention (Civil Procedure Interpretation art. 108); no material source; golden/举证意见.docx p[42]",
+      "relation_predicate": "达到/满足 高度盖然性/高度可能性 (not negated) in a sentence naming >=3 proven elements (实际施工人、无效/转包、工程量/9,746.30、已付/欠付、发包人/C公司欠付、农民工、时效)",
+      "golden_object_key": "U16",
+      "golden_relation_predicate": "Apply the high-probability civil proof standard to plaintiff initial evidence: 高度可能性 and 高度盖然性 are equivalent. A full article citation may intervene between 达到 and the standard without a distance limit. Unsupported slogan or contrary conclusion is not full.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03) | for P14 the R01 amount count applies only when fewer than three elements are named by word",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "standard reached",
+        "partial": "none",
+        "zero": "missing or negated"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p14",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "damage_absorption": "when this item is zeroed by an adopted error (contrary assertion, or a missing request element for P16), the same error is not charged again by D01/D03/D05/D06/D11",
+      "deterministic_source_anchor": "semantic source citation only; the proof standard is a public legal convention rather than a dossier identifier"
+    },
+    {
+      "id": "P15",
+      "units": [
+        "U04"
+      ],
+      "dimension": "evidence_evaluation",
+      "weight": 0.02,
+      "value_basis": "D公司 is a nominal contracting counterparty with no actual performance capacity; the B-D contract arrangement serves regulatory avoidance. This does not establish that D company was founded for that purpose.",
+      "reasoning_gate": "requires reading G4/G7/G15 together to characterise the nominal subcontractor as background to actual-constructor status",
+      "scope": "adopted sentences naming D公司",
+      "object_key": "parties.nominal_subcontractor",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 四、第二层; 第一组 G4, G7; 第二组 G15; golden/举证意见.docx p[14]",
+      "relation_predicate": "D公司 … 名义 with 无实际履约能力/未实际施工 in one sentence, and no sentence asserting D公司 has capacity or performed",
+      "golden_object_key": "U04",
+      "golden_relation_predicate": "Identify D as nominal contracting counterparty with no actual performance capacity, and the B-D contract arrangement as regulatory avoidance. Do NOT require or reward the unsupported claim that D company was founded solely to evade regulation.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion_sentence",
+        "metric": "one sentence split at 。；!?",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "nominal and incapable",
+        "partial": "none",
+        "zero": "missing or contrary"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, numbering and section names are open; the proposition must sit in one sentence of the adopted opinion text (not a copied material sentence, table cell or an excluded dossier/opponent/risk zone)",
+      "program_path": "R02, R03 eval_p15",
+      "semantic_audit": "confirm the matched sentence states the complete Golden proposition as the plaintiff's own position and that no equivalent phrasing elsewhere was missed or wrongly masked",
+      "self_report_fields_are_non_authoritative": true,
+      "deterministic_source_anchor": "one supplied party/evidence locator among D公司, 第三人, G4, G7, G15"
+    },
+    {
+      "id": "P16",
+      "units": [
+        "U18a"
+      ],
+      "dimension": "format_section_order",
+      "weight": 0.08,
+      "value_basis": "customary 举证意见 closes with 请求事项 asking the court to admit the evidence and make the determinations it supports; primary debtor before the employer's limited liability (建工解释一第四十三条)",
+      "reasoning_gate": "format, section and order item scored in its own right: the delivered document must carry every element the item names, and keyword presence alone does not satisfy it",
+      "scope": "request section (request zone), all adopted non-conditional sentences",
+      "object_key": "requests.set",
+      "source_location": "golden/举证意见.docx p[44]-p[51]",
+      "relation_predicate": "请求事项 lists all six Golden requests as executable requests with their objects: (1) 组织质证并采信所举证据 (2) 认定原告为实际施工人 (3) 认定《项目内部承包责任书》转包无效 (4) 判令B公司支付欠付工程款并参照实际完成工程量/9,746.30万元折价补偿 (5) 判令C公司在欠付2,412.00万元范围内承担付款责任 (6) 优先保护农民工工资权益; (4) before (5)",
+      "golden_object_key": "U18a",
+      "golden_relation_predicate": "Executable central relief consistent with original complaint: confirm A actual constructor; internal responsibility agreement is transfer and void; B pays outstanding 5804.00万元 or the reasoned add-back amount 6476.60万元 with completed-price 9746.30万元 compensation basis; C pays within 2412万元 outstanding range. 确认/认定 equivalent; requests may merge/split. B then bounded C liability must be clear. Organising evidence review or migrant-worker priority need not be standalone prayers. Full for all central relief, proportional partial for omissions; no extra unsupported relief.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "request section (request zone), all adopted non-conditional sentences",
+        "metric": "all elements of the item",
+        "max_units": 12
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "every element present and correct",
+        "partial": "none",
+        "zero": "any element missing, wrong or misplaced"
+      },
+      "dependencies": [],
+      "writing_binding": "order bound where the item states it; labels bound as stated; otherwise open",
+      "program_path": "eval_p16",
+      "semantic_audit": "confirm every element against the Golden layout and that no element is satisfied by a heading alone",
+      "self_report_fields_are_non_authoritative": true,
+      "damage_absorption": "when this item is zeroed by an adopted error (contrary assertion, or a missing request element for P16), the same error is not charged again by D01/D03/D05/D06/D11",
+      "deterministic_source_anchor": "two closed quantum anchors identifying the primary and bounded-employer relief: 5,804万元 and 2,412万元"
+    },
+    {
+      "id": "P17",
+      "units": [
+        "U01"
+      ],
+      "dimension": "format_section_order",
+      "weight": 0.025,
+      "value_basis": "民事诉讼文书通行样式: 标题、致送法院、案号、当事人及诉讼地位 (民事诉讼法第一百二十二条/第一百二十四条 对当事人信息的要求)",
+      "reasoning_gate": "format, section and order item scored in its own right: the delivered document must carry every element the item names, and keyword presence alone does not satisfy it",
+      "scope": "front zone lines",
+      "object_key": "format.caption",
+      "source_location": "golden/举证意见.docx p[0]-p[6]; materials 卷首, §二",
+      "relation_predicate": "caption before the body: title containing 举证意见, 致：某市中级人民法院, 案号（2024）某民初XXX号, and 原告A公司 / 被告一B公司 / 被告二C公司 / 第三人D公司 with their positions",
+      "golden_object_key": "U01",
+      "golden_relation_predicate": "caption before the body: title containing 举证意见, 致：某市中级人民法院, 案号（2024）某民初XXX号, and 原告A公司 / 被告一B公司 / 被告二C公司 / 第三人D公司 with their positions",
+      "comparison_mode": "exact",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "front zone lines",
+        "metric": "all elements of the item",
+        "max_units": 12
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "every element present and correct",
+        "partial": "none",
+        "zero": "any element missing, wrong or misplaced"
+      },
+      "dependencies": [],
+      "writing_binding": "order bound where the item states it; labels bound as stated; otherwise open",
+      "program_path": "eval_p17",
+      "semantic_audit": "confirm every element against the Golden layout and that no element is satisfied by a heading alone",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P18",
+      "units": [
+        "U23"
+      ],
+      "dimension": "format_section_order",
+      "weight": 0.025,
+      "value_basis": "证据规定第十九条、民诉法解释第九十条: 证据应分类编号并说明证明目的；通行举证意见按待证事实分组、每组写证明目的",
+      "reasoning_gate": "format, section and order item scored in its own right: the delivered document must carry every element the item names, and keyword presence alone does not satisfy it",
+      "scope": "group-zone sentences per group heading",
+      "object_key": "format.group_order",
+      "source_location": "golden/举证意见.docx p[11]-p[38]",
+      "relation_predicate": "seven evidence-group sections 第一组..第七组 in ascending order, each carrying at least one unmasked adopted proof-purpose sentence (证明/证实/印证/锁定/确认/表明/旨在…) inside that group",
+      "golden_object_key": "U23",
+      "golden_relation_predicate": "seven evidence-group sections 第一组..第七组 in ascending order, each carrying at least one unmasked adopted proof-purpose sentence (证明/证实/印证/锁定/确认/表明/旨在…) inside that group",
+      "comparison_mode": "exact",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "group-zone sentences per group heading",
+        "metric": "all elements of the item",
+        "max_units": 12
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "every element present and correct",
+        "partial": "none",
+        "zero": "any element missing, wrong or misplaced"
+      },
+      "dependencies": [],
+      "writing_binding": "order bound where the item states it; labels bound as stated; otherwise open",
+      "program_path": "eval_p18",
+      "semantic_audit": "confirm every element against the Golden layout and that no element is satisfied by a heading alone",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P19",
+      "units": [
+        "U22"
+      ],
+      "dimension": "format_section_order",
+      "weight": 0.025,
+      "value_basis": "通行举证意见结构: 总述、分组证据与证明目的、证据之间的关联、举证责任说明、请求",
+      "reasoning_gate": "format, section and order item scored in its own right: the delivered document must carry every element the item names, and keyword presence alone does not satisfy it",
+      "scope": "resolved section headings (N07) and their adopted sentences",
+      "object_key": "format.section_order",
+      "source_location": "golden/举证意见.docx p[7], p[10], p[39], p[41], p[44]",
+      "relation_predicate": "sections in the order 举证总述 -> 分组举证 -> 证据关联性/证明体系 -> 举证责任 -> 请求事项, each carrying adopted content",
+      "golden_object_key": "U22",
+      "golden_relation_predicate": "sections in the order 举证总述 -> 分组举证 -> 证据关联性/证明体系 -> 举证责任 -> 请求事项, each carrying adopted content",
+      "comparison_mode": "exact",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "resolved section headings (N07) and their adopted sentences",
+        "metric": "all elements of the item",
+        "max_units": 12
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "every element present and correct",
+        "partial": "none",
+        "zero": "any element missing, wrong or misplaced"
+      },
+      "dependencies": [],
+      "writing_binding": "order bound where the item states it; labels bound as stated; otherwise open",
+      "program_path": "eval_p19",
+      "semantic_audit": "confirm every element against the Golden layout and that no element is satisfied by a heading alone",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P20",
+      "units": [
+        "U19"
+      ],
+      "dimension": "format_section_order",
+      "weight": 0.025,
+      "value_basis": "诉讼文书落款: 署名当事人、代理人与日期",
+      "reasoning_gate": "format, section and order item scored in its own right: the delivered document must carry every element the item names, and keyword presence alone does not satisfy it",
+      "scope": "request-zone label lines",
+      "object_key": "format.signature",
+      "source_location": "golden/举证意见.docx p[53]-p[55]; materials §二 代理人沈某、郑某",
+      "relation_predicate": "closing signature after at least one adopted request sentence: 原告/举证人 A公司 and 委托诉讼代理人 (or the materials' own label 委托代理人/代理人) 沈某; the date line is not an element (U19 gap unit: a marker neither earns nor costs; a fabricated date is charged by D08 only)",
+      "golden_object_key": "U19",
+      "golden_relation_predicate": "Closing A company signature with BOTH original agents 沈某 and 郑某, after requests. Submission date may be blank; no source-fixed date.",
+      "comparison_mode": "exact",
+      "adoption_status": "asserted as the plaintiff's own adopted position in the opinion body",
+      "negative_context_exclusions": "sentences with candidate or alternative markers, conditionals, attribution to the defendants or D公司, rejection words, keyword lists, more than four amounts or over-long spans (R01, R02); spans in excluded dossier/opponent/risk/catalogue zones; material text copied verbatim (N06); a negated key predicate counts as a contrary assertion (R03)",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "request-zone label lines",
+        "metric": "all elements of the item",
+        "max_units": 12
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "every element present and correct",
+        "partial": "none",
+        "zero": "any element missing, wrong or misplaced"
+      },
+      "dependencies": [],
+      "writing_binding": "order bound where the item states it; labels bound as stated; otherwise open",
+      "program_path": "eval_p20",
+      "semantic_audit": "confirm every element against the Golden layout and that no element is satisfied by a heading alone",
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "trigger": "an adopted clause takes 88%, 7,268.80万元, 8,260.00万元 or 4,860万元 as the basis of compensation or settlement (R05)",
+      "damage_basis": "concedes the defendant's pricing basis in the plaintiff's own evidence opinion, cutting the claim by up to 2,477.50万元",
+      "scope": "adopted opinion sentences",
+      "object_key": "price.compensation_basis",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 十一、金额体系对照; 争议焦点三",
+      "error_predicate": "(应/按/以/参照/依据) … 88%|7,268.80|8,260.00|4,860 … (折价补偿/结算/计价) without contrast words (而非/并非/不应/名义/无效) in the clause",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | clause negation 从未/并未/未曾/没有 (D01), a quoted opponent characterisation '…\"X\"的定性/认定/定位' (D03) and a nominalised claim '…的主张/说法/抗辩' or a negation window before the release (D05) do not trigger | a request-section line while P16's b_pay element is missing is absorbed by P16; a D whose every manifestation is absorbed is not triggered; zero-weight P items never absorb | a matched term followed in its clause by '…的约定/口径/条款/安排' and a rejection (不能/不得/不应/不作为/不属于/不适用/无效/对原告不) is the instrument's term rejected | a match preceded by '(约定|载明|记载|写明|规定)的' (optionally a quote mark) or by '》' plus a quote mark is the instrument's term as written, not the adopted basis | a table column headed with the opponent's defence (被告/对方/B公司/C公司 + 抗辩/主张/反驳) is attributed to the defendants and never scanned as adopted | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed) | '(所定|订明)的' before the match is the instrument's term as written, as above",
+      "causal_root_rule": "R-valuation-basis",
+      "damage_instance_key_rule": "valuation_basis_conceded",
+      "manifestation_rule": "one per sentence locator",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D02",
+      "trigger": "an owed-amount assertion against B公司 carries an amount outside the replay set {5,804.00, 6,476.60} (R04)",
+      "damage_basis": "misstates the principal debt the court is asked to find",
+      "scope": "adopted opinion sentences",
+      "object_key": "payment.owed",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 十一、金额体系对照",
+      "error_predicate": "B公司 … 尚欠/欠付/拖欠 … ¥X with X not in the replay set",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | an owed amount computed under a concessive on the opponent's basis (即使/即便/纵使/就算/哪怕 … 按/依/以/参照 … B公司/被告/对方) is hypothetical, not the plaintiff's asserted debt | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed)",
+      "causal_root_rule": "R-owed-amount",
+      "damage_instance_key_rule": "owed_amount_misstated",
+      "manifestation_rule": "sentence locator plus amount",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.5,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D03",
+      "trigger": "an adopted sentence concedes the internal contract is valid/real, that there is no transfer, that A公司 is D公司's performance assistant or not the actual constructor, or that 徐某 is B公司's employee",
+      "damage_basis": "concedes the defendant's core defence and destroys the actual-constructor and invalidity theory",
+      "scope": "adopted opinion sentences",
+      "object_key": "contract_chain.internal_contract_nature",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 争议焦点一、二",
+      "error_predicate": "affirmative concession predicate not negated, not conditional (须/前提) and not attributed",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | clause negation 从未/并未/未曾/没有 (D01), a quoted opponent characterisation '…\"X\"的定性/认定/定位' (D03) and a nominalised claim '…的主张/说法/抗辩' or a negation window before the release (D05) do not trigger | a manifestation that is the contrary assertion zeroing P01, or a request-section line while P16's constructor/void element is missing, is absorbed; a D whose every manifestation is absorbed is not triggered; zero-weight P items never absorb | '…的成立/有效，以…为前提/条件/要件' states the legal test, not a concession | a table column headed with the opponent's defence (被告/对方/B公司/C公司 + 抗辩/主张/反驳) is attributed to the defendants and never scanned as adopted | a concession phrase inside '(排除|反驳|驳斥|否定|推翻)…关于<phrase>的抗辩/主张/说法' is the rebutted defence | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed)",
+      "causal_root_rule": "R-contract-nature",
+      "damage_instance_key_rule": "contract_nature_conceded",
+      "manifestation_rule": "sentence locator plus concession type",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D04",
+      "trigger": "an adopted sentence concedes that the 12% management fee (991.20万元) should be deducted or that the 1,286.40万元 wage advance is fully offset",
+      "damage_basis": "gives away amounts the plaintiff disputes",
+      "scope": "adopted opinion sentences",
+      "object_key": "payment.deductions",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 争议焦点四、六",
+      "error_predicate": "管理费 … 应(予)扣减 | 代付 … 全额抵扣 | 扣减管理费991.20 not negated",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | a table column headed with the opponent's defence (被告/对方/B公司/C公司 + 抗辩/主张/反驳) is attributed to the defendants and never scanned as adopted | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed)",
+      "causal_root_rule": "R-b-deductions",
+      "damage_instance_key_rule": "b_deductions_conceded",
+      "manifestation_rule": "sentence locator",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D05",
+      "trigger": "an adopted sentence says the property offset was performed, C公司's arrears were discharged, or C公司 bears no liability",
+      "damage_basis": "releases the employer, removing the most collectible defendant",
+      "scope": "adopted opinion sentences",
+      "object_key": "employer.offset_by_property",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 争议焦点五",
+      "error_predicate": "以房抵债 已履行 | C公司 欠付 已结清/消灭 | C公司 不再/无需/不 承担责任",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | clause negation 从未/并未/未曾/没有 (D01), a quoted opponent characterisation '…\"X\"的定性/认定/定位' (D03) and a nominalised claim '…的主张/说法/抗辩' or a negation window before the release (D05) do not trigger | a request-section line while P16's c_range element is missing is absorbed by P16; a D whose every manifestation is absorbed is not triggered; zero-weight P items never absorb | a table column headed with the opponent's defence (被告/对方/B公司/C公司 + 抗辩/主张/反驳) is attributed to the defendants and never scanned as adopted | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed)",
+      "causal_root_rule": "R-employer-release",
+      "damage_instance_key_rule": "employer_released",
+      "manifestation_rule": "sentence locator",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.2,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D06",
+      "trigger": "an adopted clause asks C公司 to bear joint liability, the full 5,804.00/6,476.60/9,746.30万元 or all the debt, without the 范围内 limit",
+      "damage_basis": "overreaches the employer's statutory limit and invites partial dismissal",
+      "scope": "adopted opinion sentences (clause level)",
+      "object_key": "employer.liability_range",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 争议焦点五; 适用法律索引 建工解释一第四十三条",
+      "error_predicate": "C公司/被告二/二被告 … 连带/共同 … 支付/承担 or C公司 … 支付 … 5,804/6,476.60/9,746.30 with no 范围内/限度内 in the clause",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | a request-section line while P16's c_range element is missing is absorbed by P16; a D whose every manifestation is absorbed is not triggered; zero-weight P items never absorb | a table column headed with the opponent's defence (被告/对方/B公司/C公司 + 抗辩/主张/反驳) is attributed to the defendants and never scanned as adopted | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed)",
+      "causal_root_rule": "R-employer-overreach",
+      "damage_instance_key_rule": "employer_liability_overreach",
+      "manifestation_rule": "sentence locator",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.6,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D07",
+      "trigger": "an adopted sentence states a judicial/court-commissioned appraisal confirmed the cost, or calls the unilateral cost report (G42/G45) a judicial appraisal",
+      "damage_basis": "fabricates the evidential status of the key valuation evidence",
+      "scope": "adopted opinion sentences",
+      "object_key": "price.appraisal_status",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 第四组 G42, G45 (原告单方委托); the materials record no judicial appraisal",
+      "error_predicate": "司法鉴定/法院委托鉴定 … 确认/认定/为 … 造价/9,746.30 or G45/造价咨询报告 … 系/即 司法鉴定, with no application/proposal words (申请/启动/拟/建议/尚未)",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed)",
+      "causal_root_rule": "R-appraisal",
+      "damage_instance_key_rule": "appraisal_fabricated",
+      "manifestation_rule": "sentence locator",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.5,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D08",
+      "trigger": "a signature/date line invents a concrete submission date not fixed by the source instead of a gap marker; the complaint filing date is not an exception",
+      "damage_basis": "the materials give no evidence-submission date; inventing one misstates the procedural record (gap_marker_contract)",
+      "scope": "date-only lines in eligible zones",
+      "object_key": "signature.date",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 大事记 2024-07-22 (filing); no submission date",
+      "error_predicate": "line fully matching (日期|提交日期|落款日期)?:?@YYYY-MM-DD with no gap token; any unsupported date, including the complaint filing date",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers",
+      "causal_root_rule": "R-fabrication-date",
+      "damage_instance_key_rule": "submission_date_fabricated",
+      "manifestation_rule": "line locator plus date",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.5,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D11",
+      "trigger": "the plaintiff states that its own core proof is not proven / below the proof standard / 待定 / its weakest point, that it does not ask the court to determine it, or that one of its exhibits cannot alone prove its stated purpose",
+      "damage_basis": "对己不利的自认或放弃权利",
+      "scope": "adopted opinion sentences (D11/D12/D14/D15/D16 also scan conditional and candidate sentences: the conditional request or 待定 is the error)",
+      "object_key": "adverse.disclosure",
+      "source_location": "golden/举证意见.docx; materials/案件原始资料-某项目实际施工人纠纷.docx",
+      "error_predicate": "(尚未|未能|没有)达到…标准 | 举证…薄弱 | 原告…(并)不请求…(认定|确定) | 不将…表述为…确定 | G#…不能单独证明/不作为…唯一依据 | (应)视为待定; not preceded by an opponent subject | (相对)最(为)薄弱 | 尚未证毕/未能证毕 | (尚)不足以单独证明/推翻/对抗 (contract forms 'its weakest point', 'not proven', 'cannot alone prove')",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | a manifestation that is the contrary assertion zeroing P14 (weighted) is absorbed by P14; a D whose every manifestation is absorbed is not triggered; zero-weight P items never absorb",
+      "causal_root_rule": "R-adverse-disclosure",
+      "damage_instance_key_rule": "adverse_disclosure",
+      "manifestation_rule": "sentence locator plus matched form; all manifestations one damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D12",
+      "trigger": "asserts a submission, carrier, seal or backdating the materials do not record",
+      "damage_basis": "编造事实或程序",
+      "scope": "adopted opinion sentences (D11/D12/D14/D15/D16 also scan conditional and candidate sentences: the conditional request or 待定 is the error)",
+      "object_key": "fabrication.procedure",
+      "source_location": "golden/举证意见.docx; materials/案件原始资料-某项目实际施工人纠纷.docx",
+      "error_predicate": "已(同步)?(提交|提供|附)…(原件|原始载体|未剪辑|整理稿|存储介质) | 附…盖章/签章 | 倒签; not negated",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers",
+      "causal_root_rule": "R-fabrication-procedure",
+      "damage_instance_key_rule": "procedure_fabricated",
+      "manifestation_rule": "sentence locator plus matched form; all manifestations one damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.5,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D13",
+      "trigger": "turns a dossier qualifier (关联关系嫌疑, contested quality, unilateral notice) into an established fact about the defendants' state of mind or conduct",
+      "damage_basis": "似是而非的核心命题 / 把嫌疑写成认定",
+      "scope": "adopted opinion sentences (D11/D12/D14/D15/D16 also scan conditional and candidate sentences: the conditional request or 待定 is the error)",
+      "object_key": "overclaim.fact",
+      "source_location": "golden/举证意见.docx; materials/案件原始资料-某项目实际施工人纠纷.docx",
+      "error_predicate": "(具有|存在|系)…(通谋|串通) | 明知…违法 | 为掩盖 | 知悉并接受 | 完工…质量合格; not preceded by a negation/insufficiency word | '(为|属|属于|构成)…通谋/串通' asserted as fact",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers | the object of '(应|须|需)由<B公司/C公司/被告…>(举证)证明…' is the defendant's burden, not an adopted proposition | a sentence followed in the same line by '由<B公司/C公司/被告…>(主张|提出|抗辩)' is that defendant's defence (attributed)",
+      "causal_root_rule": "R-overclaim",
+      "damage_instance_key_rule": "qualifier_overclaimed",
+      "manifestation_rule": "sentence locator plus matched form; all manifestations one damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.6,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D14",
+      "trigger": "adds unsupported procedural applications outside the requested evidentiary opinion: appraisal, investigation, order to produce, witnesses, preservation or carrier verification; adopted conditional procedural requests included",
+      "damage_basis": "附条件或多余的请求",
+      "scope": "adopted opinion sentences (D11/D12/D14/D15/D16 also scan conditional and candidate sentences: the conditional request or 待定 is the error)",
+      "object_key": "requests.extra",
+      "source_location": "golden/举证意见.docx; materials/案件原始资料-某项目实际施工人纠纷.docx",
+      "error_predicate": "an adopted or conditional request seeks appraisal, investigation, document production, witness appearance, preservation or carrier verification, without negation or attribution to the opponent; a source-supported interest head is not by itself an extra request",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers",
+      "causal_root_rule": "R-extra-requests",
+      "damage_instance_key_rule": "extra_or_conditional_requests",
+      "manifestation_rule": "sentence locator plus matched form; all manifestations one damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.6,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D15",
+      "trigger": "issues 真实性/合法性/关联性 verdicts in an evidence-submission opinion",
+      "damage_basis": "三性套话 / 庭审预演",
+      "scope": "adopted opinion sentences (D11/D12/D14/D15/D16 also scan conditional and candidate sentences: the conditional request or 待定 is the error)",
+      "object_key": "scope.cross_examination",
+      "source_location": "golden/举证意见.docx; materials/案件原始资料-某项目实际施工人纠纷.docx",
+      "error_predicate": "(不?认可|不否认|不持异议|无异议|有异议)…(真实性|合法性|关联性) or the reverse order",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers",
+      "causal_root_rule": "R-three-properties",
+      "damage_instance_key_rule": "three_property_boilerplate",
+      "manifestation_rule": "sentence locator plus matched form; all manifestations one damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.8,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D16",
+      "trigger": "addresses an internal strategy note to the court",
+      "damage_basis": "其他轻度多说（内部策略说明）",
+      "scope": "adopted opinion sentences (D11/D12/D14/D15/D16 also scan conditional and candidate sentences: the conditional request or 待定 is the error)",
+      "object_key": "scope.internal_note",
+      "source_location": "golden/举证意见.docx; materials/案件原始资料-某项目实际施工人纠纷.docx",
+      "error_predicate": "(举证|办案|诉讼)策略 | 胜负(不在于|在于|的关键)",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers",
+      "causal_root_rule": "R-strategy-note",
+      "damage_instance_key_rule": "internal_strategy_note",
+      "manifestation_rule": "sentence locator plus matched form; all manifestations one damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D17",
+      "trigger": "three or more prose sentences copied verbatim from the dossier (N06 masked, evidence rows and tables excluded)",
+      "damage_basis": "大段照抄材料",
+      "scope": "adopted opinion sentences (D11/D12/D14/D15/D16 also scan conditional and candidate sentences: the conditional request or 待定 is the error)",
+      "object_key": "scope.material_copy",
+      "source_location": "golden/举证意见.docx; materials/案件原始资料-某项目实际施工人纠纷.docx",
+      "error_predicate": "count of N06-masked prose sentences >= 3",
+      "adoption_status": "the error must be asserted affirmatively as the plaintiff's adopted position",
+      "negative_context_exclusions": "candidate, conditional (若/如果), attribution to the defendants, rejection words and spray spans do not trigger (R01, R02); negation near the predicate does not trigger; excluded dossier/opponent/risk/catalogue zones and verbatim material copies (N06) are not scanned; omission never triggers",
+      "causal_root_rule": "R-bulk-copy",
+      "damage_instance_key_rule": "bulk_material_copy",
+      "manifestation_rule": "sentence locator plus matched form; all manifestations one damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.7,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D18",
+      "trigger": "the adopted filing introduces an evidence identifier outside the G1-G86 identifiers actually present in the supplied dossier",
+      "damage_basis": "材料实际出现的编号含总览G1-G68及第三组重叠编号至G86；超出该集合会虚增证据基础并误导法庭核验",
+      "scope": "all submitted opinion text, including tables and the evidence inventory",
+      "object_key": "evidence.identifier_universe",
+      "source_location": "materials/案件原始资料-某项目实际施工人纠纷.docx 八、证据目录总览及第三组详细表",
+      "error_predicate": "an explicit G-number is less than 1 or greater than 86",
+      "adoption_status": "the identifier appears as part of the plaintiff filing, including its evidence inventory",
+      "negative_context_exclusions": "the supplied G1-G86 identifiers and textual references without an out-of-range G-number do not trigger; omission never triggers",
+      "causal_root_rule": "R-evidence-universe",
+      "damage_instance_key_rule": "unauthorized_evidence_identifier",
+      "manifestation_rule": "all out-of-range G-number manifestations form one unsupported-evidence damage instance",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.6,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U04",
+      "golden_proposition": "D公司 is a nominal counterparty without performance capacity (group 1 purpose/summary)",
+      "golden_locator": "golden/举证意见.docx p[12], p[14]",
+      "program_item_ids": [
+        "P15"
+      ]
+    },
+    {
+      "unit_id": "U05",
+      "golden_proposition": "内部承包责任书 is a disguised transfer, void for lack of a real employment relation (group 2 purpose/summary)",
+      "golden_locator": "golden/举证意见.docx p[16], p[18]",
+      "program_item_ids": [
+        "P02",
+        "D03"
+      ]
+    },
+    {
+      "unit_id": "U06",
+      "golden_proposition": "group 3 performance records lock A's actual-constructor status and are the core of the case",
+      "golden_locator": "golden/举证意见.docx p[20], p[22], p[40]",
+      "program_item_ids": [
+        "P01"
+      ]
+    },
+    {
+      "unit_id": "U07",
+      "golden_proposition": "9,746.30万元 actual completed quantity price is the compensation basis (group 4)",
+      "golden_locator": "golden/举证意见.docx p[24], p[26]",
+      "program_item_ids": [
+        "P03",
+        "D01",
+        "D07"
+      ]
+    },
+    {
+      "unit_id": "U08",
+      "golden_proposition": "paid 3,942.30, 672.60 not offset, owed 5,804.00; property offset unperformed so C's 2,412 arrears persist (group 5)",
+      "golden_locator": "golden/举证意见.docx p[28], p[30]",
+      "program_item_ids": [
+        "P04",
+        "P05",
+        "P07",
+        "D02",
+        "D04",
+        "D05"
+      ]
+    },
+    {
+      "unit_id": "U09",
+      "golden_proposition": "214 workers owed 613.80万元, confirmed by labour inspection (group 6)",
+      "golden_locator": "golden/举证意见.docx p[32], p[34]",
+      "program_item_ids": [
+        "P08"
+      ]
+    },
+    {
+      "unit_id": "U10",
+      "golden_proposition": "demands and complaints interrupted limitation; claim not time-barred (group 7)",
+      "golden_locator": "golden/举证意见.docx p[36], p[38]",
+      "program_item_ids": [
+        "P09"
+      ]
+    },
+    {
+      "unit_id": "U13",
+      "golden_proposition": "G20/G21 corroborate G57/G58 (personnel)",
+      "golden_locator": "golden/举证意见.docx p[40]",
+      "program_item_ids": [
+        "P10"
+      ]
+    },
+    {
+      "unit_id": "U14",
+      "golden_proposition": "G27-G64 corroborate G43/G44 (quantity)",
+      "golden_locator": "golden/举证意见.docx p[40]",
+      "program_item_ids": [
+        "P11"
+      ]
+    },
+    {
+      "unit_id": "U15",
+      "golden_proposition": "G16 and G56 corroborate employer liability",
+      "golden_locator": "golden/举证意见.docx p[40]",
+      "program_item_ids": [
+        "P12"
+      ]
+    },
+    {
+      "unit_id": "U16",
+      "golden_proposition": "initial proof reaches the high-probability standard",
+      "golden_locator": "golden/举证意见.docx p[42]",
+      "program_item_ids": [
+        "P14"
+      ]
+    },
+    {
+      "unit_id": "U17",
+      "golden_proposition": "burden of proof for the five affirmative defences shifts to the defendants",
+      "golden_locator": "golden/举证意见.docx p[43]",
+      "program_item_ids": [
+        "P13"
+      ]
+    },
+    {
+      "unit_id": "U18",
+      "golden_proposition": "requests: B pays per 9,746.30 compensation; C liable within 2,412 of arrears",
+      "golden_locator": "golden/举证意见.docx p[49], p[50]",
+      "program_item_ids": [
+        "P03",
+        "P06",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U19",
+      "golden_proposition": "signature date may be left open; the dossier-supported filing date 2024-07-22 is also accepted",
+      "golden_locator": "golden/举证意见.docx signature block; materials timeline 2024-07-22",
+      "program_item_ids": [
+        "D08",
+        "P20"
+      ]
+    },
+    {
+      "unit_id": "U01",
+      "golden_proposition": "caption: title, 致某市中级人民法院, 案号, 原告/被告一/被告二/第三人",
+      "golden_locator": "golden/举证意见.docx p[0]-p[6]",
+      "program_item_ids": [
+        "P17"
+      ]
+    },
+    {
+      "unit_id": "U18a",
+      "golden_proposition": "request set of six executable requests, B before C",
+      "golden_locator": "golden/举证意见.docx p[44]-p[51]",
+      "program_item_ids": [
+        "P16"
+      ]
+    },
+    {
+      "unit_id": "U22",
+      "golden_proposition": "section order 总述 -> 分组 -> 关联性 -> 举证责任 -> 请求事项",
+      "golden_locator": "golden/举证意见.docx p[7], p[10], p[39], p[41], p[44]",
+      "program_item_ids": [
+        "P19"
+      ]
+    },
+    {
+      "unit_id": "U23",
+      "golden_proposition": "seven evidence groups in order, each with its own proof purpose",
+      "golden_locator": "golden/举证意见.docx p[11]-p[38]",
+      "program_item_ids": [
+        "P18"
+      ]
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "applicable_item_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18"
+      ],
+      "scope": "adopted evidence-analysis prose and its bounded proposition evidence spans",
+      "metric": "not score-bearing; identifies the textual scope used by proposition and damage decisions"
+    },
+    {
+      "id": "S02",
+      "applicable_item_ids": [
+        "P16",
+        "P20",
+        "D08"
+      ],
+      "scope": "request section through signature block",
+      "metric": "not score-bearing; identifies the filing-closure scope"
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "UTF-8 Markdown lines (fenced blocks skipped, table rows kept as cells) or DOCX body paragraphs and table rows in document order; NFKC fold, drop zero-width characters and Markdown heading/list/emphasis marks, remove whitespace"
+      },
+      {
+        "id": "N02",
+        "operation": "money amounts with 元/万元/万/人民币/¥ and thousands separators to one canonical yuan token; 百分之八十八 to 88%"
+      },
+      {
+        "id": "N03",
+        "operation": "dates in Arabic (YYYY年M月D日, YYYY-M-D, YYYY/M/D, YYYY.M.D) or Chinese numerals (二〇二四年七月二十二日) to one ISO token"
+      },
+      {
+        "id": "N04",
+        "operation": "evidence ranges G27—G64, G27–G64, G27至G64 to one G27-G64 token"
+      },
+      {
+        "id": "N05",
+        "operation": "fold every declared gap marker and blank fill lines into one gap token; gap-marked clauses earn nothing, are skipped by fabrication checks and are not counted for shape"
+      },
+      {
+        "id": "N06",
+        "operation": "copy mask against the frozen materials: a prose sentence (split at 。；!?) that is a verbatim substring of a materials sentence or table cell is removed; for evidence rows (table rows or G-prefixed lines) a wholly copied cell or line (after stripping row labels such as 证明对象/证明目的/G-number) is removed, otherwise only fragments (split at ，；（）) copied from materials table cells are removed"
+      },
+      {
+        "id": "N07",
+        "operation": "headings resolved by whole-line structure (Markdown #, bold line, numbering prefix, 第X组, DOCX heading style or a short line) plus alias class: group (第X组/G-range), catalogue, excluded dossier/opponent/risk zones, burden, relation, request, overview, grouping parent; unknown lines stay body text; lines inherit the zone of the last heading"
+      },
+      {
+        "id": "N08",
+        "operation": "shape counter: characters of unmasked adopted units in the zone set, excluding headings, title, label lines (致/案号/原告/被告/代理人/日期/盖章), date-only lines and clauses containing a gap token"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "spray: a raw line of eight or more whitespace-separated tokens mostly eight characters or shorter (after collapsing spaces around digits and unit characters), a sentence of six or more enumerated fragments mostly eight characters or shorter, more than four distinct amounts, or over 400 characters, cannot be adopted"
+      },
+      {
+        "id": "R02",
+        "operation": "adoption: a sentence with candidate/alternative markers or a conditional is not adopted; text from the clause that attributes a proposition to the defendants/D公司 (主张/认为/辩称/声称/称, 关于…的抗辩, 所称) or carries rejection words (不能成立/不予采信/驳回) onward is cut off before any predicate runs (P13 alone reads the whole sentence because the burden allocation names the defences); a negation within the same clause and a short window before the key predicate negates the proposition"
+      },
+      {
+        "id": "R03",
+        "operation": "settlement: adopted full or partial hits together with a contrary assertion of the same proposition anywhere in the adopted text are ambiguous (zero); only contrary assertions compare as different; nothing found is missing"
+      },
+      {
+        "id": "R04",
+        "operation": "owed-amount replay: amounts after 尚欠/欠付/拖欠/仍欠/欠款, or after a payment request (应/判令/请求 … 支付 … 工程款), whose clause names B公司/被告一 and not C公司/被告二/发包人, and whose gap text is not wages/fees/interest, are compared with the replay set {9,746.30-3,942.30 = 5,804.00; 5,804.00+672.60 = 6,476.60}; more than one distinct owed amount is ambiguous"
+      },
+      {
+        "id": "R05",
+        "operation": "wrong valuation basis: a clause with 应/按/以/参照/依据 before 88%, 7,268.80, 8,260.00 or 4,860万元 and 折价补偿/结算/计价 after it, with no contrast or negation (而非/并非/不应/名义/无效) earlier in the clause"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "unscored_golden_units": [
+    {
+      "unit_id": "U02",
+      "disposition": "warning_only",
+      "reason": "statutory citations 民诉法第六十七条, 民诉解释第九十条/第九十一条/第一百零八条 are public convention; citation numbers alone would be keyword credit"
+    },
+    {
+      "unit_id": "U03",
+      "disposition": "warning_only",
+      "reason": "proof main line and the seven-group logic chain restate the group purposes already scored by P01-P09"
+    },
+    {
+      "unit_id": "U11",
+      "disposition": "not_scored",
+      "reason": "the seven evidence tables are verbatim copies of the dossier evidence list (material_explicit); masked by N06"
+    },
+    {
+      "unit_id": "U12",
+      "disposition": "warning_only",
+      "reason": "layering statement (groups 4-7 depend on group 3) duplicates P01's core designation"
+    },
+    {
+      "unit_id": "U19",
+      "disposition": "warning_only",
+      "reason": "signature date 二〇二四年七月二十二日 equals the filing date; the evidence-submission date is not in the materials (gap unit, D08 charges an invented different date)"
+    },
+    {
+      "unit_id": "U20",
+      "disposition": "not_scored",
+      "reason": "catalogue summary counts (group 3 = 22 items, total 68) rest on the dossier's inconsistent numbering (group 3 lists G27-G64, G65-G85, G86 overlapping groups 4-7) and cannot be derived uniquely"
+    }
+  ],
+  "package_id": "04_质证与举证意见/02_举证意见",
+  "deliverable": {
+    "public_carrier": "artifacts/evidence-submission-opinion.md (Markdown, Chinese)",
+    "golden_carrier": "golden/举证意见.docx"
+  },
+  "golden_deliverable": "举证意见.docx",
+  "copy_mask_source": {
+    "path": "materials/案件原始资料-某项目实际施工人纠纷.docx",
+    "sha256": "97ad9457afe5e0b7083fe9dfabde78217b59e65eeeb6ae2a05a3d220d98fbcd4",
+    "rule_id": "N06"
+  },
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[待填写]",
+      "【待填写】",
+      "[待核实]",
+      "【待核实】",
+      "[待定]",
+      "【待定】",
+      "[placeholder]",
+      "材料未提供",
+      "未提供",
+      "待补充",
+      "待填写",
+      "待核实",
+      "unspecified",
+      "TBD"
+    ],
+    "normalization_rule_id": "N05",
+    "fabrication_deduction_ids": [
+      "D08"
+    ],
+    "gap_unit": "U19 signature/submission date: the materials give only the filing date 2024-07-22; the date the evidence opinion is submitted is not derivable"
+  },
+  "golden_scores": {
+    "program": {
+      "positive_earned": 1,
+      "retention_multiplier": 1,
+      "penalty_rate": 0,
+      "score_loss": 0,
+      "final_score": 1
+    }
+  },
+  "semantic_authority": "Original dossier facts and public substantive requirements; reference wording, exhibit pairing and strategy are non-exclusive."
+}

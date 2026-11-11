@@ -1,0 +1,19 @@
+{
+  "data/candidate_list_records.csv": "816db3cf25df28abdb50eb34c4378de7aa12eba9792ae47c5b5edef28947cc24",
+  "data/review_transactions.csv": "c39f17cdf2099b738aca6c365b37cc04bd6ea248ff0351fa58e834f17a9674d7",
+  "data/screening_alerts.csv": "041b95f0dd8bb8d21dbcfa37f9a9a349a5a6afb4d9a3d26a58d64e68ec5869c5",
+  "data/transaction_archive.zip": "7ebd0558f297cc8e80dc8764d081d3610e6657888bed4ebf6f1c8d66a37feda4",
+  "review_template.json": "fae47363777bf2e0a2ef258c1dcbe19872897082168309f4e1d304f5012cfc30",
+  "source_documents/action-2014-03-20.html": "218e48fbbac31ab1253c5bb45378a3732a3409fe0f548569d2253d5b58d84729",
+  "source_documents/action-2014-07-16.html": "a8e99a4f1f5ed9c16380f41c07dec03b6c8d63e42defd7e0c4bd928cbcfa4c95",
+  "source_documents/action-2014-07-29.html": "14ce441208d356ca596e370c959bc9e8ecb571291aa0f6b41ad45ff946f1e046",
+  "source_documents/action-2014-09-12.html": "5a51c2bbb53b6ed8c109d931f285ebd858753238b442b7abdd8394b7848d1767",
+  "source_documents/action-2022-02-24.html": "0a22e33dd1a3dd92a850c292132427216be910551156e2848d447509754cf026",
+  "source_documents/action-2022-04-06.html": "f09cc11b25143bc01ce35586e216add0aea895e80ada54585992d86d80e27393",
+  "source_documents/action-2022-12-15.html": "8ee68a6257ad71d32d840bbe76a15cdedd95b08b81a99d89c0b4b20116505840",
+  "source_documents/faq-370.html": "1fbbfdf6c7223a8ae490ef9179420c3abcf83cbbfdc688b298a8a049ce65cb4b",
+  "source_documents/faq-373.html": "58de46c885155ea86a1ae66b1a07182e4fe324ba9ef3bd684f5a181c66980c9b",
+  "source_documents/faq-419.html": "ddd3bfdffb675e4dd7d37f344b1d593ce61d26b2b3e4ef4f7c1f8f44b0ec14f3",
+  "source_documents/financial-crime-advisory.txt": "2f3bcf300358b37132527c51ac2920bc4e60d5c5b106d297ef3cd25db7d99324",
+  "source_documents/vnesheconombank-group-non-financial-report-2015.pdf": "4ee8979d6c5ce55159ad117737f4e694203562710da214aa0e70f0474fc69fdb"
+}

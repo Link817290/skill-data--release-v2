@@ -1,0 +1,27 @@
+{
+  "schema_version": "skill-execution-contract-v1",
+  "scope": "with-skill trajectories only",
+  "no_skill_process_review": false,
+  "criteria": [
+    {
+      "id": "skill_selection_and_grounding",
+      "weight": 0.15,
+      "subability_tag": "skill-selection-and-grounding"
+    },
+    {
+      "id": "configuration_layer_resolution",
+      "weight": 0.3,
+      "subability_tag": "configuration-layer-resolution"
+    },
+    {
+      "id": "state_transition_and_recovery",
+      "weight": 0.3,
+      "subability_tag": "state-transition-and-recovery"
+    },
+    {
+      "id": "acceptance_and_release_boundaries",
+      "weight": 0.25,
+      "subability_tag": "acceptance-and-release-boundaries"
+    }
+  ]
+}

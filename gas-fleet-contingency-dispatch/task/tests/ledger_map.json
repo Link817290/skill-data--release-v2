@@ -1,0 +1,210 @@
+{
+  "schema_version": "ledger-map-v1",
+  "checks": {
+    "module": "checks.py",
+    "argv": [],
+    "env": {
+      "TASK_WORKSPACE": "{workspace}",
+      "VERIFIER_LOG_DIR": "{scratch}/verifier"
+    }
+  },
+  "items": {
+    "P06": [
+      "detail",
+      "items",
+      "P06"
+    ],
+    "P08": [
+      "detail",
+      "items",
+      "P08"
+    ],
+    "P12": [
+      "detail",
+      "items",
+      "P12"
+    ],
+    "P15": [
+      "detail",
+      "items",
+      "P15"
+    ],
+    "P16": [
+      "detail",
+      "items",
+      "P16"
+    ],
+    "P17": [
+      "detail",
+      "items",
+      "P17"
+    ],
+    "P18": [
+      "detail",
+      "items",
+      "P18"
+    ]
+  },
+  "deductions": [
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01"
+      ],
+      "fires": "true",
+      "key": "gate:format_contract"
+    },
+    {
+      "id": "D02",
+      "path": [
+        "detail",
+        "deductions",
+        "D02"
+      ],
+      "fires": "true",
+      "key": "gate:clean_reproduction"
+    },
+    {
+      "id": "D03",
+      "path": [
+        "detail",
+        "deductions",
+        "D03"
+      ],
+      "fires": "true",
+      "key": "gate:source_sensitivity"
+    },
+    {
+      "id": "D04",
+      "path": [
+        "detail",
+        "deductions",
+        "D04"
+      ],
+      "fires": "true",
+      "key": "compliance:traditional_chinese"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_coverage_1"
+      ],
+      "fires": "true",
+      "key": "contract:trace_coverage#1"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_coverage_2"
+      ],
+      "fires": "true",
+      "key": "contract:trace_coverage#2"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_coverage_3"
+      ],
+      "fires": "true",
+      "key": "contract:trace_coverage#3"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_decision_not_reconciled"
+      ],
+      "fires": "true",
+      "key": "contract:decision_not_reconciled"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_decision_unconditional"
+      ],
+      "fires": "true",
+      "key": "contract:decision_unconditional"
+    },
+    {
+      "id": "D03",
+      "path": [
+        "detail",
+        "deductions",
+        "D03_excluded_dispatched"
+      ],
+      "fires": "true",
+      "key": "source:excluded_unit_dispatched"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_bounds_1"
+      ],
+      "fires": "true",
+      "key": "balance:bound_violation#1"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_bounds_2"
+      ],
+      "fires": "true",
+      "key": "balance:bound_violation#2"
+    },
+    {
+      "id": "D01",
+      "path": [
+        "detail",
+        "deductions",
+        "D01_bounds_3"
+      ],
+      "fires": "true",
+      "key": "balance:bound_violation#3"
+    },
+    {
+      "id": "D03",
+      "path": [
+        "detail",
+        "deductions",
+        "D03_contemporaneity_claim"
+      ],
+      "fires": "true",
+      "key": "source:contemporaneity_claim"
+    },
+    {
+      "id": "D05",
+      "path": [
+        "detail",
+        "deductions",
+        "D05"
+      ],
+      "fires": "true",
+      "key": "gate:record_dates_bound"
+    },
+    {
+      "id": "D06",
+      "path": [
+        "detail",
+        "deductions",
+        "D06"
+      ],
+      "fires": "true",
+      "key": "gate:unit_register_complete"
+    }
+  ]
+}

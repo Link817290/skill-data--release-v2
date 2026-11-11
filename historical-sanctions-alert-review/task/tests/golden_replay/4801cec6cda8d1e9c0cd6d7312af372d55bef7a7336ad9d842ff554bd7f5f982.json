@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "id": "224861",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"224861\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, maturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"vtb was identified under directive 1 before this september 2014 payment. that measure was not blocking and covered specified new debt or equity; the summary record does not identify the instrument or terms.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 224861\\\", \\\"action-2014-07-29.html ssi additions\\\", \\\"faq-370.html\\\"]}\", \"227437\": \"{\\\"identity"
+      ],
+      "reason": "The candidate states that VTB was subject to a non-blocking Directive 1 restriction before the September 2014 payment, identifies the missing instrument, issuance, maturity/tenor, and payment-term facts, and leaves rejection scope unresolved pending those facts."
+    },
+    {
+      "id": "227437",
+      "fraction": 1.0,
+      "quotes": [
+        "_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, maturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"vtb was already subject to directive 1, but a one-payment bank summary does not show whether the 2015 transfer dealt in covered debt or equity.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 227437\\\", \\\"action-2014-07-29.html ssi additions\\\", \\\"faq-370.html\\\"]}\", \"232714\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1"
+      ],
+      "reason": "The candidate applies the historical non-blocking Directive 1 state to the 2015 VTB transfer, explains that the summary does not establish covered debt or equity, requests the necessary instrument and tenor facts, and keeps the rejection conclusion open."
+    },
+    {
+      "id": "232714",
+      "fraction": 1.0,
+      "quotes": [
+        "_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, maturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"vtb was already subject to directive 1, but a one-payment bank summary does not show whether the 2015 transfer dealt in covered debt or equity.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 227437\\\", \\\"action-2014-07-29.html ssi additions\\\", \\\"faq-370.html\\\"]}\", \"232714\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1",
+        " restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, maturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"the institutional name and russian geography support the vtb identity. directive 1 applied in 2015, but the record supplies no financing-product or tenor facts.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 232714\\\", \\\"candidate_list_records.csv uid 17013\\\", \\\"faq-370.html\\\"]}\", \"234749\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_acti"
+      ],
+      "reason": "The candidate states that Directive 1 applied in 2015 but was non-blocking, identifies absent financing-product and tenor information, requests the relevant instrument and terms, and expressly leaves transaction scope unresolved."
+    },
+    {
+      "id": "234749",
+      "fraction": 1.0,
+      "quotes": [
+        " restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, maturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"the institutional name and russian geography support the vtb identity. directive 1 applied in 2015, but the record supplies no financing-product or tenor facts.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 232714\\\", \\\"candidate_list_records.csv uid 17013\\\", \\\"faq-370.html\\\"]}\", \"234749\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_acti",
+        "on\\\": \\\"do not block; obtain the underlying payment dates, instrument, issuance date, maturity or tenor, and payment terms\\\", \\\"rationale\\\": \\\"vtb was subject to the non-blocking financing restriction. this row aggregates four payments across a period and does not reveal the product, issuance date, or terms needed to decide scope.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 234749\\\", \\\"action-2014-07-29.html ssi additions\\\", \\\"faq-370.html\\\"]}\", \"240310\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, m"
+      ],
+      "reason": "The candidate characterizes VTB's applicable measure as a non-blocking financing restriction, notes that the four-payment aggregate lacks product, issuance-date, and term facts, and requests those facts without reaching a final scope conclusion."
+    },
+    {
+      "id": "240310",
+      "fraction": 1.0,
+      "quotes": [
+        "on\\\": \\\"do not block; obtain the underlying payment dates, instrument, issuance date, maturity or tenor, and payment terms\\\", \\\"rationale\\\": \\\"vtb was subject to the non-blocking financing restriction. this row aggregates four payments across a period and does not reveal the product, issuance date, or terms needed to decide scope.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 234749\\\", \\\"action-2014-07-29.html ssi additions\\\", \\\"faq-370.html\\\"]}\", \"240310\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, m",
+        "aturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"sberbank was under directive 1 by november 2014. the payment summary establishes involvement but not whether the transfer was a prohibited dealing in new debt or equity.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 240310\\\", \\\"action-2014-09-12.html\\\", \\\"faq-370.html\\\"]}\", \"240104\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the two component value dates, instrument, issuance date, maturity or tenor, and payment terms\\\", \\\"ration"
+      ],
+      "reason": "The candidate states that Sberbank was under non-blocking Directive 1 by November 2014, explains that payment involvement alone does not establish prohibited new debt or equity, and requests instrument and tenor evidence before deciding whether rejection was required."
+    },
+    {
+      "id": "240104",
+      "fraction": 1.0,
+      "quotes": [
+        "aturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"sberbank was under directive 1 by november 2014. the payment summary establishes involvement but not whether the transfer was a prohibited dealing in new debt or equity.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 240310\\\", \\\"action-2014-09-12.html\\\", \\\"faq-370.html\\\"]}\", \"240104\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the two component value dates, instrument, issuance date, maturity or tenor, and payment terms\\\", \\\"ration",
+        "ale\\\": \\\"sberbank was subject to directive 1 throughout this late-2014 to early-2015 period. the aggregate identifies two payments but omits the product and financing terms.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 240104\\\", \\\"action-2014-09-12.html\\\", \\\"faq-370.html\\\"]}\", \"227490\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, maturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"the 2015 activity postdates the sectoral identification. the row does "
+      ],
+      "reason": "The candidate applies non-blocking Directive 1 throughout the relevant late-2014 to early-2015 period, identifies missing product and financing-term facts, and keeps scope unresolved while requesting component dates, instrument, issuance, tenor, and payment terms."
+    },
+    {
+      "id": "227490",
+      "fraction": 1.0,
+      "quotes": [
+        "ale\\\": \\\"sberbank was subject to directive 1 throughout this late-2014 to early-2015 period. the aggregate identifies two payments but omits the product and financing terms.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 240104\\\", \\\"action-2014-09-12.html\\\", \\\"faq-370.html\\\"]}\", \"227490\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the instrument, issuance date, maturity or tenor, and payment terms before deciding whether rejection was required\\\", \\\"rationale\\\": \\\"the 2015 activity postdates the sectoral identification. the row does ",
+        "not establish that either of the two transfers was covered debt, equity, or extended payment terms.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 227490\\\", \\\"action-2014-09-12.html\\\", \\\"faq-419.html\\\"]}\", \"226828\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the underlying payment dates, instrument, issuance date, maturity or tenor, and payment terms\\\", \\\"rationale\\\": \\\"the 56-payment aggregate involves sberbank after its sectoral identification. amount and involvement alone do not establish prohibited financing; the underlying prod"
+      ],
+      "reason": "The candidate states that the 2015 activity postdated the non-blocking Directive 1 identification, notes that neither transfer is shown to involve covered debt, equity, or extended terms, and requests the missing scope facts before any rejection decision."
+    },
+    {
+      "id": "226828",
+      "fraction": 1.0,
+      "quotes": [
+        "not establish that either of the two transfers was covered debt, equity, or extended payment terms.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 227490\\\", \\\"action-2014-09-12.html\\\", \\\"faq-419.html\\\"]}\", \"226828\": \"{\\\"identity_assessment\\\": \\\"true match\\\", \\\"transaction_time_status\\\": \\\"non-blocking directive 1 restriction applied; transaction scope unresolved\\\", \\\"required_action\\\": \\\"do not block; obtain the underlying payment dates, instrument, issuance date, maturity or tenor, and payment terms\\\", \\\"rationale\\\": \\\"the 56-payment aggregate involves sberbank after its sectoral identification. amount and involvement alone do not establish prohibited financing; the underlying prod",
+        "uct and terms are absent.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 226828\\\", \\\"action-2014-09-12.html\\\", \\\"faq-370.html\\\", \\\"faq-419.html\\\"]}\", \"EFFECTIVE-DATE-RANGE\": \"{\\\"assessment\\\": \\\"hold the aggregate open across the effective date\\\", \\\"fact_request\\\": \\\"obtain both component value dates, then the instrument, issuance date, maturity or tenor, and payment terms for any post-identification component.\\\", \\\"rationale\\\": \\\"the two-payment range starts before and ends after vtb's 29 july 2014 directive 1 identification. an aggregate range cannot assign either component to the pre- or post-effective-date state.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 238675\\\", \\"
+      ],
+      "reason": "The candidate applies the non-blocking Directive 1 restriction after Sberbank's sectoral identification, explains that amount and involvement do not establish prohibited financing because product and terms are absent, and requests those facts while leaving scope open."
+    },
+    {
+      "id": "EFFECTIVE-DATE-RANGE",
+      "fraction": 1.0,
+      "quotes": [
+        "uct and terms are absent.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 226828\\\", \\\"action-2014-09-12.html\\\", \\\"faq-370.html\\\", \\\"faq-419.html\\\"]}\", \"EFFECTIVE-DATE-RANGE\": \"{\\\"assessment\\\": \\\"hold the aggregate open across the effective date\\\", \\\"fact_request\\\": \\\"obtain both component value dates, then the instrument, issuance date, maturity or tenor, and payment terms for any post-identification component.\\\", \\\"rationale\\\": \\\"the two-payment range starts before and ends after vtb's 29 july 2014 directive 1 identification. an aggregate range cannot assign either component to the pre- or post-effective-date state.\\\", \\\"evidence\\\": [\\\"review_transactions.csv transaction 238675\\\", \\"
+      ],
+      "reason": "The candidate states that the two-payment range crosses VTB's 29 July 2014 Directive 1 effective date and cannot place either component on one side of that date, requests both component value dates, and requests instrument, issuance, maturity/tenor, and payment-term facts for any post-effective component."
+    },
+    {
+      "id": "OVERLAP-CONTROL",
+      "fraction": 1.0,
+      "quotes": [
+        "\"action-2014-07-29.html\\\", \\\"faq-370.html\\\"]}\", \"OVERLAP-CONTROL\": \"{\\\"assessment\\\": \\\"do not sum overlapping aggregates as disjoint exposure\\\", \\\"fact_request\\\": \\\"obtain underlying transaction-level records and stable payment identifiers before calculating totals or treating repeated summaries as separate activity.\\\", \\\"rationale\\\": \\\"both aml groups include aggregate rows whose periods overlap. counts and values can support a review lead, but summing those summaries would create an unsupported exposure amount.\\\", \\\"evidence\\\": [\\\"review_transactions.csv sar 4208\\\", \\\"review_transactions.csv sar 3230\\\", \\\"financial-crime-advisory.txt red-flag discussion\\\"]}\"}"
+      ],
+      "reason": "The candidate identifies overlapping aggregate periods in both AML groups, warns that summing them as disjoint exposure would produce an unsupported amount, and requests underlying transaction records plus stable payment identifiers before calculating totals or treating activity as separate."
+    }
+  ]
+}

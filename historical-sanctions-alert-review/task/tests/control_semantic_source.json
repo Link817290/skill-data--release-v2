@@ -1,0 +1,30 @@
+{
+  "EFFECTIVE-DATE-RANGE": {
+    "record": {
+      "transaction_id": "238675",
+      "first_date": "2014-07-23",
+      "last_date": "2014-08-14",
+      "transaction_count": 2,
+      "parties": ["EFG Bank", "VTB Bank"]
+    },
+    "legal_effective_date": "2014-07-29",
+    "source_anchors": [
+      "review_transactions.csv transaction 238675",
+      "action-2014-07-29.html",
+      "faq-370.html"
+    ],
+    "limits": "The aggregate supplies only a date range for two payments. It does not supply either component's execution, settlement, or value date, so the components cannot be assigned to the pre- or post-effective state. A post-effective component also requires instrument, issuance, maturity/tenor, or payment-term facts for Directive 1 scope."
+  },
+  "OVERLAP-CONTROL": {
+    "affected_groups": {
+      "4208": ["235037", "235039"],
+      "3230": ["239778", "239780", "239782", "239783"]
+    },
+    "source_anchors": [
+      "review_transactions.csv SAR 4208",
+      "review_transactions.csv SAR 3230",
+      "financial-crime-advisory.txt"
+    ],
+    "limits": "The listed aggregate rows have overlapping periods and may contain the same underlying payments. Raw row counts and amounts therefore cannot establish unique activity before reconciliation. Underlying membership plus stable unique payment identifiers or equivalent deduplication keys are required before calculating unique counts or amounts."
+  }
+}

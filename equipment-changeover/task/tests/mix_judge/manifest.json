@@ -1,0 +1,299 @@
+{
+  "schema_version": "semantic-judge-manifest-v1",
+  "entry_count": 32,
+  "files_sha256": {
+    "judge.py": "89c9802b773a63657b065da1b218e5631ae4fdbd24299e21b6ad7fc0d1d32324",
+    "contract.json": "3bd9afcd2b0a9da19829819181e474248be8ab4231a593a8ea91fde9b883b053",
+    "prompt.md": "6158bc49cd12fcbcc819dea1e30ff863a4a73eee7f4f7029af99cf08541bef7a",
+    "settings.json": "da7c39959b401703db7a8d3b6cad3d5942a805b976562737d4c5fc1e40a90fd5",
+    "response.schema.json": "6c93d0a4eb19f2c71bece7b854a51855e3f0525c6b71b7b9d96c504074bbe5f5"
+  },
+  "cache_entries": {
+    "5efe7e0d11cf22960537d3ad88fad8fe4300b8bdf48d6c351dca62257f3c2b78": {
+      "path": "cache/5efe7e0d11cf22960537d3ad88fad8fe4300b8bdf48d6c351dca62257f3c2b78",
+      "files_sha256": {
+        "request.json": "abd10e5b288c572da77b5a1e3e142efba156c6021b7847b2f713e5003eb925dd",
+        "response.json": "873df85bc07948bad3b97717a474d399e02736b681d9391802bdae31f91d340a",
+        "decision.json": "2af52f3162db0fec3bf88193a71cec5346d875271f237067485df6f9a2dfdeae",
+        "validation.json": "b47038019a2d2f7f846b628092e083c97317af79c14b102aa43a168337143c12"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__VVCNFtr",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "b81dffab402bd758a52bb5a2f7cc3ffc562dfbda3a1bdc34ff2e929210d5a17d": {
+      "path": "cache/b81dffab402bd758a52bb5a2f7cc3ffc562dfbda3a1bdc34ff2e929210d5a17d",
+      "files_sha256": {
+        "request.json": "afa85029e87e2fd58a305d411207223d603d3fdcbb588a548f7fa39563e9dc17",
+        "response.json": "cbbae892759cbc8f40c3a3d45a68beeebe43d83f41f6cedd132bfcf048de8b67",
+        "decision.json": "83a7caf0293319d118d13992ba6559805f0c17f29cdb1a31314da32960884962",
+        "validation.json": "32a8077852ef6483a10683363c9636780b973d7752183c3b1557bc4f54cadcde"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__CksPVSP",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "72ce4e48f0466fda319e3b0e738e3980e6230ed88f255da336fa62a6ed3c0e54": {
+      "path": "cache/72ce4e48f0466fda319e3b0e738e3980e6230ed88f255da336fa62a6ed3c0e54",
+      "files_sha256": {
+        "request.json": "ac1d1f447631cd826632dca5e940a3dda3b593c28a2c999b9007371991d68e97",
+        "response.json": "ee71e569e10bcc59c84b15e73341ae706a5904582134b74c4c9e7e2b8055a3ee",
+        "decision.json": "145d1407cc5f66dbc77010ab90e6caf647e20d1a2e653ea8db7acee9bb130e36",
+        "validation.json": "8ac296d9e152803fe9b120dc624150a4db43fcb5681dfd7f359de521ce2cca3a"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__rSaVNm7",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "cb3edc4afa43f6aabb1a523a096acc51a968f71c082a14a05869e29021bf17c6": {
+      "path": "cache/cb3edc4afa43f6aabb1a523a096acc51a968f71c082a14a05869e29021bf17c6",
+      "files_sha256": {
+        "request.json": "ffc75b1087a8868b831f4719a4c05786e6f2f35425280e25119f48659baecca7",
+        "response.json": "9900d1885b86ccace4ba874f7e736d76d54dca351b690847e516881f9a79cf41",
+        "decision.json": "820166c897ba22baca34133cb28fe429d1ace69051a2e90924113ef29d8d6a55",
+        "validation.json": "aff372aaba24d690f555bd6e5b8819f827ecb2d765d5e1dca64d0ecbeceee3bc"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__7JHyeH3",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "989a0d68e78339495126cba7e744ea7e5731e6ee78c875419c04609756feec57": {
+      "path": "cache/989a0d68e78339495126cba7e744ea7e5731e6ee78c875419c04609756feec57",
+      "files_sha256": {
+        "request.json": "3f72d0ed58f05eca98b18e1d0b8f76cf3451462cf59370d8e7d170650d4d9fcd",
+        "response.json": "b41c05cccb3e67891b061d80aadd8521a0869561bd2b84526e39c8a41f1add7f",
+        "decision.json": "01fb946a4b62780f87841daf82680915ee7c734c8ebff835b207fd3453a9f6bb",
+        "validation.json": "e0a0c26f98fb8d983de79595a9e4f7dc6dcbf90f465ff06f3e58bdad258c7859"
+      },
+      "source_case": "golden-equipment-changeover",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "25d9405488fe2adbf9a07ed0dae3b8e8ec2cf0cf10b59ebc03033a8b464a826d": {
+      "path": "cache/25d9405488fe2adbf9a07ed0dae3b8e8ec2cf0cf10b59ebc03033a8b464a826d",
+      "files_sha256": {
+        "request.json": "f728d3d11e6403e791383ee8e2113a1c69e0863623d91458d630f372ac5b36d8",
+        "response.json": "bfdbe37a541a259762b412ab952c88b9aea25b75533b58b4701cdd17e021edea",
+        "decision.json": "ca7b41a6fb91bb8cbedf11de83d3776a67c73a24d943691298d29c63f5250ad7",
+        "validation.json": "0370e4d3b9cd23311d18ed708ab2b6a6b3963a9d0ea381e749c0cca6bd4f1a88"
+      },
+      "source_case": "business10_equipment_changeover_gpt_with_skill--task__TTiPDoe",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "97ecc1a56cc31ed4cc1e6dd33b48b1ed26daf910edde133a1a8ac1de1b028fd9": {
+      "path": "cache/97ecc1a56cc31ed4cc1e6dd33b48b1ed26daf910edde133a1a8ac1de1b028fd9",
+      "files_sha256": {
+        "request.json": "8c2827528755f122a25398dd376fcd3552a40f6184468bc7ca09b9373e458837",
+        "response.json": "d512e5aadfdbd6527e66d73234da2fe9a07c11eef958a8e93a206dab7b88c556",
+        "decision.json": "f208159b240fba85d1c438e4cfa52db329595fd90e35bdbb6d92fa0c4bb97fdc",
+        "validation.json": "e805bcba9a9dceba9b8dc10d400c50ee846d0110458e13a75c89d1a2a14f611a"
+      },
+      "source_case": "business10_equipment_changeover_gpt_with_skill--task__P33JZ3x",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "cd67640fabbfbadc503b0eee6aa5fdd6d2afab9b713f1dc83c1128c94641673d": {
+      "path": "cache/cd67640fabbfbadc503b0eee6aa5fdd6d2afab9b713f1dc83c1128c94641673d",
+      "files_sha256": {
+        "request.json": "d2480d9f7213c4d8f864018f9926ef923b866c65e3844b8bef9061e85241487d",
+        "response.json": "0fcfdf0271aa797a29336ec730f20650abdbc0692e0f8aa5ef16ac0f54fbb5aa",
+        "decision.json": "00ffa1b2f5966b80c9dce29b97b8a6d6eb54104dee7e759030919470dd83c8f5",
+        "validation.json": "f7e20264b30cff9a49702075525622de625932c2f81e380b8c4d29232d0bd04e"
+      },
+      "source_case": "business10_equipment_changeover_gpt_no_skill--task__CmxasCy",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "d4529a40c930a09ce2be2aee9f117b9caca50b7fb939fc1b34ee87eefac4846b": {
+      "path": "cache/d4529a40c930a09ce2be2aee9f117b9caca50b7fb939fc1b34ee87eefac4846b",
+      "files_sha256": {
+        "request.json": "a6a37f1da3cec9f6de17871a5514e814d59db4dbd461c6bad70e8f4f34cad664",
+        "response.json": "69efbad2d4ca398cbe198c48f776f8d254610fc119763737a3ee544001f3875a",
+        "decision.json": "1b3fe78f68b6439bd0289d0caa8c4f5068b409fc5bcede79386a2a322e3e42a8",
+        "validation.json": "c9e4f66802856f45330756f152ba57cb200bc6038dfaa7825a591bdfb09b165b"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__bzhXjGA",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "e0a73eae55436eb1ea087ce407609580bbad0909c9b4c9eff61fae9f0b7287e6": {
+      "path": "cache/e0a73eae55436eb1ea087ce407609580bbad0909c9b4c9eff61fae9f0b7287e6",
+      "files_sha256": {
+        "request.json": "25ca175679f768a3e1ceb04bb54f0cf82017858cc6c84dbc728411df49750260",
+        "response.json": "d8aa68dd824216796f292890f43028857f51e8e788d10a91b3b903b5c1a05912",
+        "decision.json": "c1b0a9e9752ce7d44119432ce61c49dcd75d025fe640c8791a76f8087a84d300",
+        "validation.json": "1ab8fef8254054857d8851962f98d023d451c562c742cb83eacfe807d31eb1d3"
+      },
+      "source_case": "business10_equipment_changeover_gpt_with_skill--task__yw5xg3a",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "4563ab8499de7315f929b7469b0a54ebdc4dd92082299069b16fb559384decab": {
+      "path": "cache/4563ab8499de7315f929b7469b0a54ebdc4dd92082299069b16fb559384decab",
+      "files_sha256": {
+        "request.json": "f60add58e4930352a87e86fbce154d8abbee04d00d14950769ad0fd91c73fbc1",
+        "response.json": "4c71b9276a1ac9e85ac8fd3a5b90d945d587e8df6658a215101f10c95302dc33",
+        "decision.json": "6938cf1a21be260be33336042de71db18f1362babf7adaa83edcf2ae7e349bb7",
+        "validation.json": "cde2cd90e5018719312bee4a75251ee71a21a95a77da9d4771dfff4be1ae331a"
+      },
+      "source_case": "business10_equipment_changeover_hy_no_skill--task__hwiLzFc",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "6ce425b180f71c4a234fac5bf3ec5f1168ef740724397e15caea55eb43bb01d4": {
+      "path": "cache/6ce425b180f71c4a234fac5bf3ec5f1168ef740724397e15caea55eb43bb01d4",
+      "files_sha256": {
+        "request.json": "a422531fcd9d79b7cf38472517ce3f62aa7e954f627ed66218d9702f67976bfa",
+        "response.json": "50ee09204d46abcc39e35aa2024f4ad42c7535218398a9af1c9fc888ae85e3f6",
+        "decision.json": "79a12e56f9a997448a6731447156b02b92a7a2b0312f8164f15824426ddb6865",
+        "validation.json": "73c0c501f8b37a36f99f02abb850fc922b2a4a9d46c2a4ff53f5d8479e9d9706"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__yBDbVV9",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "2231b27cd13e7f86a2367dee789842b6b7c5a99e1c71844991ee5cb920d9fd5d": {
+      "path": "cache/2231b27cd13e7f86a2367dee789842b6b7c5a99e1c71844991ee5cb920d9fd5d",
+      "files_sha256": {
+        "request.json": "d47b77dc84b5e656b08f7b64440fc0b693ba77812579bd47bc22c496adbac16f",
+        "response.json": "e30aa184db303271f9607bd835eb9ae09d2f6ade766c1a4538870bbb37958c26",
+        "decision.json": "1714e43fbe169fee37c7d26b19ae10e510ef0c0535cd30354d0e1026c722eebc",
+        "validation.json": "cc0f41f7dfa8a76fa3eb97d1853cc8f76c5a043ab92b7eaa6f68b0a22c6d706f"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__4nCBRM6",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "a4e5f47ba4ef796d4c31ef55fea7cd066c0636c5962558ea9ca1d0431ce91413": {
+      "path": "cache/a4e5f47ba4ef796d4c31ef55fea7cd066c0636c5962558ea9ca1d0431ce91413",
+      "files_sha256": {
+        "request.json": "18e307352eb730c73d1ac6762016827ed70b6786711129c8fd316337dc06ea1f",
+        "response.json": "ffb6c24538d8f77d59688df459bb591f3d30fda546df48dfffe24d1d1123359b",
+        "decision.json": "5f124e85f7676932269984b6e29aa3956d7ebd6349d6bb771eebbc524c0ac44c",
+        "validation.json": "8d784f8564c490d0e1e9d3f9f5315a4ae9c0a32ba1e4e9d5d0e8484ec972ce91"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__qsHikdX",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "2ad11ccf12cc5b4be6281c7b6a7315ebcc79f212b1ce6223fd672c444173791f": {
+      "path": "cache/2ad11ccf12cc5b4be6281c7b6a7315ebcc79f212b1ce6223fd672c444173791f",
+      "files_sha256": {
+        "request.json": "d00e5861a604253f801a9410486f8d89604402ad8e03c73604bdb45add90e1a0",
+        "response.json": "9718505520346d889773f93eab21c553c938ac1f39b09eecb8a217dc2a7800dc",
+        "decision.json": "701ca7b66d4710f70eb2644688116c282690c7f9368c169f78ad8ba16afceb52",
+        "validation.json": "269f9b5f86fec660fbf6739d405ff1d2b1c9e94e359d04b20927cb77fff5a31a"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__6oyk7sS",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "5b140daccb05d0ced0828d777d591b52f86cf260ccca6b5afde25c7a633f3018": {
+      "path": "cache/5b140daccb05d0ced0828d777d591b52f86cf260ccca6b5afde25c7a633f3018",
+      "files_sha256": {
+        "request.json": "011d29a6ce7a2f040cd8a6d7ad124b5c46133fa32c708a9894727e69544bf189",
+        "response.json": "be295aa95e6b59df4c44cd941f4ce967ca484269cf061f10522a1b4dff7d5d09",
+        "decision.json": "2d733e637471bf770d661a4cda592cf6bbbf2c669d65735055cbbabe6708f947",
+        "validation.json": "7d539b40169a16555b7ec665582cc1064948918f3d3ace0a029c92ffc6ea7d02"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__APEBENB",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "033f29e456e6813e9da8b686b3761766ccf37665d163d795b7ffb94c36ea9385": {
+      "path": "cache/033f29e456e6813e9da8b686b3761766ccf37665d163d795b7ffb94c36ea9385",
+      "files_sha256": {
+        "request.json": "75c01753cd80ec9e00ba87ca864ccdf369c3fbd69f1e6b9305ab9f500db6d1e8",
+        "response.json": "46c15242619b1d7af198ed1ab7a5c492424df27d7a2281f514d4829a67348625",
+        "decision.json": "d9b12d75dc13f01870318e687ef825f6e1d14144e9c951ab398eec9b47833367",
+        "validation.json": "64bb7df429086dd04d9c895b96a76e582ca14cc5b259edf93c7f0f28bdae64ee"
+      },
+      "source_case": "business10_equipment_changeover_gpt_no_skill--task__YmyPwNk",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "f0ef65286ce658291eb7381edcb857fffd0dc0de5e9c70da30942eea46d79cc8": {
+      "path": "cache/f0ef65286ce658291eb7381edcb857fffd0dc0de5e9c70da30942eea46d79cc8",
+      "files_sha256": {
+        "request.json": "24c662082dd50b88910ee63f98e2f40222d5e1c1810797739a7a60ef9b64ba16",
+        "response.json": "4742b06abe2991fa592014fa903bffca74a08f0b0b6663603774750baa7f10bd",
+        "decision.json": "421d5dd67b6bf47550a0b2b20bdb1754ef8b69437c3bc8716c5fbd30c436cfdb",
+        "validation.json": "94afd531e3e590cedbc772a2ec34be5b1039b421d82daf916bdf1282041ca5d4"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__eQs2fnu",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "160c40ef3d2beac43d257a4820e95fdd767a6cdff98ec98803859340d5c15800": {
+      "path": "cache/160c40ef3d2beac43d257a4820e95fdd767a6cdff98ec98803859340d5c15800",
+      "files_sha256": {
+        "request.json": "42591eb08e92d9a2f8bb9280f32ec90772dedb19e75eb70c6d912e446213ea40",
+        "response.json": "0e139066bb9872c8022b01b3a86bd1dbf6ab7659be7cc76107875b7e3077b8f3",
+        "decision.json": "dffb96c68ddedd0aeb3cb0a43811f8f59dda7ef5c4860383ee28d99f210c85ed",
+        "validation.json": "a17afd395b102c1674c73705dcf65b11449ef2d7944c04071fe4f692caa9961f"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__FJ8UQw2",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "abdb6d45fb3c8e482e1d63d4d6b4ab16579ad69bb55f67360a40cc6b5551972f": {
+      "path": "cache/abdb6d45fb3c8e482e1d63d4d6b4ab16579ad69bb55f67360a40cc6b5551972f",
+      "files_sha256": {
+        "request.json": "e5b2cfde2c0d930229167b9655d2d65982bfd1cef1035b4f89d2c8a562b39b4d",
+        "response.json": "47480a3502a56110431bbe6eb07ca3aa4aea925aa097257a82ead5a64c123748",
+        "decision.json": "cc808c330eba6e813c0a69c8b710eac7165be04e9370e97dd4f6d7835b7c554c",
+        "validation.json": "abf36c60c0d68691a580495fffdfea104bceb1bd01544b138ad2fa07d7b2c14a"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__RYr7EYQ",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "078f7ef8a0c89820c770aa952eba65f040b379e85d23e033af41cf2bd02588bf": {
+      "path": "cache/078f7ef8a0c89820c770aa952eba65f040b379e85d23e033af41cf2bd02588bf",
+      "files_sha256": {
+        "request.json": "93e5224dc5b2b0bef2ef617eebb6946da24b97c3e5aed97ec91a765bd1a831be",
+        "response.json": "7eee20820c5c301da5f758f5bbec5e84cbc2cf85af83db574089c2c746ed97e5",
+        "decision.json": "8794c0e4c8e44dfb28c14b4f5cf6c52701f4ec2034de0b6f8c8ee8d5a7bc2689",
+        "validation.json": "32da143c17f7dc7dc3619d62aacccb49f31f49a3e42374e051429d8efa293384"
+      },
+      "source_case": "business10_equipment_changeover_gpt_with_skill--task__WCdGRgs",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "5f8448123da0c09b56f684e533d1b359a0fc06b550a841998b4882c552df0412": {
+      "path": "cache/5f8448123da0c09b56f684e533d1b359a0fc06b550a841998b4882c552df0412",
+      "files_sha256": {
+        "request.json": "38d080e5a235ff90dafe8101f96a1a7b3ef64896bd22fc19331219706296e3df",
+        "response.json": "33305827852c57d8cca60498f329957f7b6ea452f114b06312e555c572be3952",
+        "decision.json": "689eb89b6ce6edb3c456bb5bf217a0ead9ddf8dda2b703b9550a287e910e2ff5",
+        "validation.json": "e4fd38692ba12e8d9b0ead3a03d922df40990eb236d23ecfeadd646361962437"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__QHbbMd7",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "4cfb8e9fecce3752ab00e3ba7c253b2af9d671d0a622882b21d1d83b75ed0fcd": {
+      "path": "cache/4cfb8e9fecce3752ab00e3ba7c253b2af9d671d0a622882b21d1d83b75ed0fcd",
+      "files_sha256": {
+        "request.json": "5aa93c619ad0f4d415cf6a1409f9202d9071b2e5ace904ce7591feab9e9a5b53",
+        "response.json": "d6233397f943b6aa8578cf0c704eeaa6fd34dac53a35565d39fdfd007904a1ff",
+        "decision.json": "928049a180d7340dec555e976527aacd07bbddc5c4e9033f5f02950b039b6ce6",
+        "validation.json": "eed080726c8baba4b4f8b01d0868f955c9640dfae01ebd8c70bf9bb11fa17976"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__tJXTWwY",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "9ebbff73b834329c19f8b4165288d8d6773beac2e7ad89ef8234210759e7e87f": {
+      "path": "cache/9ebbff73b834329c19f8b4165288d8d6773beac2e7ad89ef8234210759e7e87f",
+      "files_sha256": {
+        "request.json": "2d7a181125358ec35d45223a358ef364656b49d01e249c223f62f30de3f70495",
+        "response.json": "4fd23b59bc1888a0f934bce30ca025988dcf4035d14d6cf26a3a86a3574e74f2",
+        "decision.json": "0bd9131a8b4e4f3bd7ce2195500024a4d382d0f7ed806fb72e08f03fa93d2e76",
+        "validation.json": "e625c8818558adee2ea3c4089b2ab1713e6b944d8595f3ef3839be6b18a93334"
+      },
+      "source_case": "business10_equipment_changeover_gpt_with_skill--task__hZSfQti",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "4df12fb938ad1fe101eda4b5c7045cc3fdd87a3f944a187670cb397c2e00439d": {
+      "path": "cache/4df12fb938ad1fe101eda4b5c7045cc3fdd87a3f944a187670cb397c2e00439d",
+      "files_sha256": {
+        "request.json": "24e6fa43db7fb7975ce33673ab8e0d9916cc6d032a03ad662bd85a4c15f44d9d",
+        "response.json": "a00ad839c3b7599332638835fd78b611a8b08271f1499b5d93f65425aae03b0f",
+        "decision.json": "3725e7cba361a35fcb190f526ea799fa2344978fd4f30a58dd533dafa023371a",
+        "validation.json": "2cddd4324384f930c3a985357ef3e644103f39b66dcb9ba763501239b8c314f5"
+      },
+      "source_case": "business10_equipment_changeover_hy_no_skill--task__CkFvspv",
+      "score_version": "business10-equipment-release-v13-linear"
+    },
+    "21dbafa8e9f8f2858ae01572c7d539521e929c4c2b7da42597925d1d38ff8c67": {
+      "path": "cache/21dbafa8e9f8f2858ae01572c7d539521e929c4c2b7da42597925d1d38ff8c67",
+      "files_sha256": {
+        "request.json": "7d91f618e3fd81ab76bdf6dba16a7bf9ec728b10e604d60a491867e0d1cb0b73",
+        "response.json": "4c820e1fa669f12c3c8e547ceced375afca517e06ce964ba5df8a9e1e179b570",
+        "decision.json": "5322ae3fa3647ccf63d7eba3ab2c784eaed4b95b077dfeb3d406430779bc7aba",
+        "validation.json": "a303706d76ea133e7f8d5b42a828ce47b8695c8adce3a067ff342a0ad85fae78"
+      },
+      "source_case": "business10_equipment_changeover_hy_with_skill--task__KUrjGNw",
+      "score_version": "business10-equipment-release-v13-linear"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+record_type,interest_or_population,basis,contributory_value_usd,contribution_or_amount_usd,rate_or_share_percent,review_status,evidence
+contributory_interest,Vessel,sound value less particular-average casualty repairs,119614487.00,3199209.07,2.67460000,historical adjusted contribution,"general_average_adjustment.pdf p.50, p.95"
+contributory_interest,Cargo including freight,freight fully earned and embedded; two shipper-owned boxes embedded,367418702.00,9826980.60,2.67460000,historical adjusted contribution,"general_average_adjustment.pdf pp.10, 50, 95"
+contributory_interest,Containers,"5,981 boxes excluding two shipper-owned boxes carried in cargo",14315119.00,382872.17,2.67460000,historical adjusted contribution,"general_average_adjustment.pdf pp.10, 50, 95"
+contributory_interest,Bunkers,remaining plus discharged/not reloaded less voyage consumption plus amount made good,1675696.00,44818.17,2.67460000,historical adjusted contribution,"general_average_adjustment.pdf pp.10, 50, 95"
+control,Total contributory capital and apportioned claim,sum of four interests,503024004.00,13453880.01,2.67460000,reconciled,general_average_adjustment.pdf p.95
+rule_fund,YAR 1974/1990,single-rule fund before population apportionment,503024004.00,13407562.70,2.66539223,historical quantum,general_average_adjustment.pdf p.93
+rule_fund,YAR 1994,single-rule fund before population apportionment,503024004.00,13609501.74,2.70553724,historical quantum,general_average_adjustment.pdf p.93
+allowance_section,A Salvage remuneration and costs,gross less remainder equals admitted general average,10310794.05,10203263.24,,remainder 107530.81,general_average_adjustment.pdf pp.89-90
+allowance_section,B Expenditure in China,gross less remainder equals admitted general average,1158590.22,1141911.02,,remainder 16679.20,general_average_adjustment.pdf pp.89-90
+allowance_section,C Crew wages maintenance and bunker consumption,all gross expenditure admitted,37761.14,37761.14,,remainder 0.00,general_average_adjustment.pdf pp.89-90
+allowance_section,D Miscellaneous disbursements,gross less remainder equals admitted general average,423848.94,422596.78,,remainder 1252.16,general_average_adjustment.pdf pp.89-90
+allowance_control,Principal allowance ledger,sum of sections A through D,11930994.35,11805532.18,,remainder 125462.17,general_average_adjustment.pdf pp.89-90
+allowance_control,Commission base,printed Rule XX base is not the whole admitted principal,11306541.09,226130.84,2.00000000,commission bridge,general_average_adjustment.pdf pp.89-90
+allowance_control,YAR 1974/1990 interest,7 percent Rule XXI amount; detailed source calculation not supplied,,509909.02,7.00000000,rule-specific add-on,general_average_adjustment.pdf pp.89-90
+allowance_control,YAR 1994 interest,7 percent Rule XXI amount; detailed source calculation not supplied,,711848.06,7.00000000,rule-specific add-on,general_average_adjustment.pdf pp.89-90
+allowance_control,Pre-fee YAR 1974/1990 subtotal,admitted principal plus commission plus applicable interest,,12541572.04,,reconciled,general_average_adjustment.pdf p.90
+allowance_control,Pre-fee YAR 1994 subtotal,admitted principal plus commission plus applicable interest,,12743511.08,,reconciled,general_average_adjustment.pdf p.90
+allowance_control,Adjustment fees and expenses,common final add-on to both rule funds,,865990.66,,reconciled,general_average_adjustment.pdf pp.91-92
+split_voucher,B5 underwater surveys,gross invoice divided by timing of surveys,20866.30,6955.43,,remainder 13910.87; post-refloating portion particular average,general_average_adjustment.pdf pp.69-70
+excluded_voucher,B9 crew-change agency expense,gross invoice carried wholly to remainder,2768.33,0.00,,remainder 2768.33; not allowable,general_average_adjustment.pdf pp.71-72
+split_voucher,D10b June 2012 travel,gross expense split between remainder and admitted general average,4327.10,3074.94,,remainder 1252.16,general_average_adjustment.pdf pp.85-86
+contract_population,Cargo and containers under YAR 1974/1990,"CMA CGM, ANL, CNC, China Shipping bill forms",294178269.00,10332366.09,77.06371634,population share and allocated fund,general_average_adjustment.pdf p.94
+contract_population,Cargo and containers under YAR 1994,"Delmas, Hyundai, APL, EMC, MOL, FESCO bill forms",87555552.00,3121513.92,22.93628366,population share and allocated fund,general_average_adjustment.pdf p.94
+security,Cargo cash-deposit call,provisional security rather than final adjusted debt,,,8.00000000,do not treat as final contribution rate,general_average_adjustment.pdf p.10
+litigation,Respondent cargo interests,approximately 8% that refused payment,,800000.00,,owners' collection claim dismissed,"final_judgment.pdf paras.20-21, 146"
+authority_status,First-instance fact finding,causative unseaworthiness and actionable fault established; collateral theories separately resolved,,,,owners' contribution claim dismissed,first_instance_judgment.pdf paras.114-129
+authority_status,Intermediate appeal,two permitted owner grounds failed; one late ground abandoned,,,,first-instance order left in place,"court_of_appeal_judgment.pdf paras.29-31, 71-76"
+authority_status,Final appeal,category distinction and due-diligence arguments rejected,,,,appeal dismissed; respondent recovery result controlling,"final_judgment.pdf paras.2, 145-146"

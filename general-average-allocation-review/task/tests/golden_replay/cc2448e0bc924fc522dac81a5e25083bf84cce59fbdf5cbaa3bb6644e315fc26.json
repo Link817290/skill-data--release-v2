@@ -1,0 +1,320 @@
+{
+  "cache_key": "cc2448e0bc924fc522dac81a5e25083bf84cce59fbdf5cbaa3bb6644e315fc26",
+  "request_sha256": "84e75e86475a633216f4716df5587ed7ec1a87d1284d87fad1d055b8a5e76566",
+  "runtime_sha256": {
+    "judge_transport.py": "e99323baef5ae95578b4f46036742c82447bd9923d63230f533b4edef0e38150",
+    "semantic_judge.py": "c9f54c4f69c2fdff9d8649f34a59ad59ff76c43564db3d957a9a1b4ff5e7be98",
+    "validator.py": "039096e5f764c7d7d0230532936eb9e5637274a713acfbc13096ad180e46b600",
+    "ground_truth.json": "3642bfe261668cb14e9de1741c25e21442549eb1bc8ba8dbd69c319334d92258",
+    "semantic_source.json": "962ac8d41600b1c8f25d0079056cb77f9a7eff3ac8825cd3a74a6eb3b5df7049",
+    "scoring_params.json": "8ef9100353b1a3e3304e6f63356cc6927bd92bbcd04fb275b90d43cb40a1b882"
+  },
+  "verdict": {
+    "items": [
+      {
+        "id": "F01",
+        "fraction": 1,
+        "quotes": [
+          "| F01 | Freight must not be added as a separate contributing interest: the bill terms make it fully earned and non-returnable, so it is included in the USD 367,418,702 cargo value. | general_average_adjustment.pdf pp.10, 50 |"
+        ],
+        "reason": "The candidate expressly adopts the no-separate-freight treatment, explains the fully earned/non-returnable basis, states the USD 367,418,702 cargo value, and cites adjustment pp.10 and 50."
+      },
+      {
+        "id": "F02",
+        "fraction": 1,
+        "quotes": [
+          "| F02 | The equipment population avoids double counting: two shipper-owned containers sit in cargo, while the separate USD 14,315,119 equipment value covers 5,981 other boxes. | general_average_adjustment.pdf pp.10, 50 |"
+        ],
+        "reason": "The candidate expressly distinguishes the two shipper-owned containers included in cargo from the 5,981 boxes comprising the separate USD 14,315,119 equipment value, with the required pinpoint."
+      },
+      {
+        "id": "F03",
+        "fraction": 1,
+        "quotes": [
+          "| F03 | The USD 1,675,696 bunker value reconciles as USD 604,854.90 remaining plus USD 1,306,320.40 discharged and not reloaded, less USD 266,214.20 future voyage consumption, plus USD 30,734.90 made good. | general_average_adjustment.pdf p.50 |"
+        ],
+        "reason": "The candidate provides the complete four-part USD 1,675,696 bunker reconciliation and cites adjustment p.50."
+      },
+      {
+        "id": "F07",
+        "fraction": 1,
+        "quotes": [
+          "| F07 | No vessel sacrifice damage was found in the salvage operations, so no vessel sacrifice amount should be invented or moved into allowances. | general_average_adjustment.pdf p.10 |"
+        ],
+        "reason": "The candidate affirmatively finds no vessel sacrifice damage and directs that no sacrifice amount be invented or transferred into allowances, tied to adjustment p.10."
+      },
+      {
+        "id": "F12",
+        "fraction": 1,
+        "quotes": [
+          "| F12 | The missing danger warning made the pre-voyage passage plan and working chart defective, and that condition rendered the vessel unseaworthy. | final_judgment.pdf paras.11-14, 31, 145-146 |"
+        ],
+        "reason": "The candidate states that omission of the danger warning made both the pre-voyage passage plan and working chart defective and rendered the vessel unseaworthy, with the specified judgment paragraphs."
+      },
+      {
+        "id": "F17",
+        "fraction": 1,
+        "quotes": [
+          "| F17 | Keep the payment populations separate: most cargo interests had paid, while about 8% resisted and the litigated demand against respondents was approximately USD 800,000, not the whole USD 9,826,980.60 cargo contribution shown in the adjustment. | final_judgment.pdf paras.19-20; general_average_adjustment.pdf p.95 |"
+        ],
+        "reason": "The candidate keeps the populations and amounts separate: most cargo interests paid, about 8% resisted, the litigated demand was approximately USD 800,000, and the aggregate adjusted cargo contribution was USD 9,826,980.60. It cites the required records."
+      },
+      {
+        "id": "F18",
+        "fraction": 1,
+        "quotes": [
+          "| F18 | The 8% cash-deposit call was provisional security and must not be used as the final debt or rate; the final blended adjustment rate is 2.67460000%. | general_average_adjustment.pdf pp.10, 95 |"
+        ],
+        "reason": "The candidate expressly characterizes the 8% call as provisional security, rejects its use as final debt or rate, and identifies the final blended rate as 2.67460000%, citing adjustment pp.10 and 95."
+      },
+      {
+        "id": "F20",
+        "fraction": 1,
+        "quotes": [
+          "proof of a final collectible debt. Stop collection of the dismissed respondent claim",
+          "and mark it non-recoverable, but retain the issued schedule for account reconciliation.",
+          "| F61 | Each cash deposit, bond and guarantee requires account-by-account reconciliation to its governing instrument before any refund, release or demand. | general_average_adjustment.pdf pp.9-10; final_judgment.pdf paras.20-21, 146 |"
+        ],
+        "reason": "These spans jointly direct stopping and marking non-recoverable the dismissed respondent claim, retaining the issued schedule, and reconciling each deposit, bond, and guarantee account by account under its governing instrument before refund, release, or demand. They cite adjustment pp.9-10 and final-judgment paras.20-21 and 146."
+      },
+      {
+        "id": "F27",
+        "fraction": 1,
+        "quotes": [
+          "| F27 | Voucher B9 of USD 2,768.33 for crew-change and visa agency expense is wholly remainder and contributes zero to general average. | general_average_adjustment.pdf pp.71-72 |"
+        ],
+        "reason": "The candidate states that B9 is USD 2,768.33 for crew-change and visa agency expense, is wholly remainder, and contributes zero to general average, with adjustment pp.71-72."
+      },
+      {
+        "id": "F33",
+        "fraction": 1,
+        "quotes": [
+          "| F33 | The adjusters' statement that payment evidence was seen or confirmed concerns the disbursement accounts examined for the adjustment, except their fees; it is not evidence that every cargo contribution was paid. | general_average_adjustment.pdf p.11 |"
+        ],
+        "reason": "The candidate limits the adjusters' payment-evidence statement to examined disbursement accounts, except their fees, and expressly rejects using it to prove every cargo contribution was paid, citing p.11."
+      },
+      {
+        "id": "F34",
+        "fraction": 1,
+        "quotes": [
+          "| F34 | Security collection status is not contribution-payment status: the record describes about 95% of consignments secured by late July and later all but some low-value consolidated shipments secured, without an account-level cash-payment conclusion. | general_average_adjustment.pdf pp.7, 10 |"
+        ],
+        "reason": "The candidate expressly separates security collection from contribution payment, gives both security-status descriptions, and notes the absence of an account-level cash-payment conclusion, with pp.7 and 10."
+      },
+      {
+        "id": "F35",
+        "fraction": 1,
+        "quotes": [
+          "| F35 | The 8% deposit call and the approximately 8% resisting cargo population are different measures; neither the approximately USD 800,000 litigated claim nor the USD 9,826,980.60 aggregate cargo contribution can be substituted for the other. | general_average_adjustment.pdf pp.10, 95; final_judgment.pdf para.20 |"
+        ],
+        "reason": "The candidate distinguishes the 8% deposit call from the approximately 8% resisting population and prohibits substitution between the approximately USD 800,000 litigated claim and USD 9,826,980.60 aggregate contribution, with the required pinpoints."
+      },
+      {
+        "id": "F36",
+        "fraction": 1,
+        "quotes": [
+          "| F36 | The adjustment says standard Average Bonds and Guarantees incorporated a Non-Separation-Agreement, but it does not supply an account-level instrument register or terms supporting a blanket release or demand. | general_average_adjustment.pdf p.10 |"
+        ],
+        "reason": "The candidate states that standard bonds and guarantees incorporated a Non-Separation-Agreement while the record lacks an account-level instrument register or terms supporting blanket release or demand, citing p.10."
+      },
+      {
+        "id": "F38",
+        "fraction": 1,
+        "quotes": [
+          "| F38 | Security-collection expenses and adjustment administration remain part of the issued historical allowance ledger; the judgment does not direct their reclassification or a new adjustment. | general_average_adjustment.pdf pp.83-92; final_judgment.pdf para.146 |"
+        ],
+        "reason": "The candidate affirmatively preserves security-collection and administration costs in the historical allowance ledger and states that the judgment does not require reclassification or a new adjustment, with the specified pinpoints."
+      },
+      {
+        "id": "F40",
+        "fraction": 1,
+        "quotes": [
+          "| F40 | Dismissal of the owners' appeal resolves the litigated recovery claim but the supplied judgment contains no account-level monetary, refund, or security-release order for other interests. | final_judgment.pdf paras.20-21, 146 |"
+        ],
+        "reason": "The candidate distinguishes resolution of the litigated recovery claim from any account-level monetary, refund, or security-release order concerning other interests, citing final-judgment paras.20-21 and 146."
+      },
+      {
+        "id": "F42",
+        "fraction": 1,
+        "quotes": [
+          "| F42 | The conventional burden allocation remained operative: cargo had to establish causative unseaworthiness, then the owners had to establish due diligence. Cargo's proposed Volcafe reversal was rejected at trial and not pursued on appeal. | first_instance_judgment.pdf paras.55-57; court_of_appeal_judgment.pdf paras.12, 31 |"
+        ],
+        "reason": "The candidate states the conventional sequential burdens, the rejection of cargo's Volcafe reversal at trial, and its non-pursuit on appeal, with the required trial and appellate paragraph references."
+      },
+      {
+        "id": "F44",
+        "fraction": 1,
+        "quotes": [
+          "| F44 | The absence of official electronic charts was not unseaworthiness in 2011 because no such SOLAS carriage requirement then applied and coverage was limited; any exclusive reliance on the installed display was left as negligent navigation, not an accepted additional seaworthiness defect. | first_instance_judgment.pdf paras.118-120 |"
+        ],
+        "reason": "The candidate finds that absence of official electronic charts was not unseaworthiness in 2011 because there was no applicable SOLAS requirement and coverage was limited, while treating exclusive display reliance only as negligent navigation. It cites paras.118-120."
+      },
+      {
+        "id": "F46",
+        "fraction": 1,
+        "quotes": [
+          "| F46 | The master may have been tired, but fatigue was not shown materially to impair his decisions; on the balance of probabilities the defective passage plan caused the unsafe decision. | first_instance_judgment.pdf paras.123-124 |"
+        ],
+        "reason": "The candidate states that the master may have been tired but fatigue did not materially impair his decisions and that, on the balance of probabilities, the defective passage plan caused the unsafe decision, with paras.123-124."
+      },
+      {
+        "id": "F48",
+        "fraction": 1,
+        "quotes": [
+          "| F48 | The intermediate appeal proceeded on the trial factual platform, which was not challenged. Two owner appeal grounds received permission, while a late third ground was abandoned and was not decided. | court_of_appeal_judgment.pdf paras.3, 29-30 |"
+        ],
+        "reason": "The candidate states that the trial factual platform was unchallenged, two owner grounds received permission, and the late third ground was abandoned without decision, citing appellate paras.3 and 29-30."
+      },
+      {
+        "id": "F50",
+        "fraction": 1,
+        "quotes": [
+          "| F50 | The procedural chain has one continuing recovery consequence: the first-instance dismissal of the owners' contribution claim was left in place when both the intermediate and final appeals were dismissed; the successive decisions are not separate payment or refund events. | first_instance_judgment.pdf para.129; court_of_appeal_judgment.pdf para.76; final_judgment.pdf paras.30, 33, 146 |"
+        ],
+        "reason": "The candidate treats the trial and two appellate dismissals as one continuing recovery consequence preserving dismissal of the contribution claim, not separate payment or refund events, and cites every stage of the procedural chain."
+      },
+      {
+        "id": "F51",
+        "fraction": 1,
+        "quotes": [
+          "| F51 | The separate sounding corrections were already marked on the working chart when recorded after the casualty; the trial court did not infer a late addition and found no unseaworthiness on that ground. | first_instance_judgment.pdf para.117 |"
+        ],
+        "reason": "The candidate states that the sounding corrections were already marked, that no late addition was inferred, and that no unseaworthiness was found on that ground, citing trial para.117."
+      },
+      {
+        "id": "F61",
+        "fraction": 1,
+        "quotes": [
+          "| F61 | Each cash deposit, bond and guarantee requires account-by-account reconciliation to its governing instrument before any refund, release or demand. | general_average_adjustment.pdf pp.9-10; final_judgment.pdf paras.20-21, 146 |"
+        ],
+        "reason": "The candidate expressly requires account-by-account reconciliation of each cash deposit, bond, and guarantee under its governing instrument before refund, release, or demand, with adjustment pp.9-10 and judgment paras.20-21 and 146."
+      },
+      {
+        "id": "F62",
+        "fraction": 1,
+        "quotes": [
+          "| F62 | Vessel interests lodged salvage security on behalf of cargo so the laden voyage could continue without separate cargo salvage security; that fact does not prove cargo paid its later general-average contribution. | general_average_adjustment.pdf pp.7, 9 |"
+        ],
+        "reason": "The candidate states that vessel interests lodged cargo's salvage security to permit continuation without separate cargo salvage security and expressly rejects treating that fact as proof of later general-average contribution payment, citing pp.7 and 9."
+      },
+      {
+        "id": "F65",
+        "fraction": 1,
+        "quotes": [
+          "| F65 | The adjustment maps salvage to Rule VI, lightening and reshipping to Rule VIII, refuge and detention during bunker reloading to Rule XI, and other direct-consequence expenditure to Rule C or, for YAR 1994, Rule XI(d). | general_average_adjustment.pdf p.9 |"
+        ],
+        "reason": "The candidate supplies the complete rule mapping: salvage to Rule VI, lightening/reshipping to Rule VIII, refuge and detention to Rule XI, and direct-consequence expenditure to Rule C or YAR 1994 Rule XI(d), citing p.9."
+      },
+      {
+        "id": "F67",
+        "fraction": 1,
+        "quotes": [
+          "| F67 | The same pollution-prevention expenditure is routed differently by contract population: Rule XI(d) under YAR 1994, but Rules C and VI under YAR 1974/1990. | general_average_adjustment.pdf p.11 |"
+        ],
+        "reason": "The candidate expressly routes the same pollution-prevention expenditure to Rule XI(d) for YAR 1994 and Rules C and VI for YAR 1974/1990, citing p.11."
+      },
+      {
+        "id": "F71",
+        "fraction": 1,
+        "quotes": [
+          "| F71 | Voucher B9 crew-change and visa agency expense of USD 2,768.33 is wholly excluded even though it appears within the China expenditure sequence. | general_average_adjustment.pdf pp.71-72 |"
+        ],
+        "reason": "The candidate states that the USD 2,768.33 B9 crew-change and visa agency expense is wholly excluded despite appearing in the China expenditure sequence, with pp.71-72."
+      },
+      {
+        "id": "F72",
+        "fraction": 1,
+        "quotes": [
+          "| F72 | The D10 travel heading does not control every sub-trip: May 2011, July 2013 and February 2014 travel is wholly admitted, while June 2012 voucher D10b is split from gross USD 4,327.10 into USD 1,252.16 remainder and USD 3,074.94 admitted. | general_average_adjustment.pdf pp.85-88 |"
+        ],
+        "reason": "The candidate distinguishes the D10 sub-trips, wholly admits the May 2011, July 2013, and February 2014 travel, and gives the complete USD 4,327.10 D10b split, citing pp.85-88."
+      },
+      {
+        "id": "F73",
+        "fraction": 1,
+        "quotes": [
+          "| F73 | A6a Marseille-meeting travel is itself split: gross USD 15,035.72 divides into USD 5,011.91 remainder and USD 10,023.81 general average. | general_average_adjustment.pdf pp.63-64 |"
+        ],
+        "reason": "The candidate gives the complete A6a Marseille travel split from gross USD 15,035.72 into USD 5,011.91 remainder and USD 10,023.81 general average, citing pp.63-64."
+      },
+      {
+        "id": "F74",
+        "fraction": 1,
+        "quotes": [
+          "| F74 | The A6 subitems do not share one treatment: London meetings of USD 3,294.59 and the February 2014 China meeting of USD 5,647.62 are admitted, while the China survey of USD 6,521.27 is wholly remainder. | general_average_adjustment.pdf pp.65-66 |"
+        ],
+        "reason": "The candidate separately classifies the A6 London meetings and February 2014 China meeting as admitted and the USD 6,521.27 China survey as wholly remainder, citing pp.65-66."
+      },
+      {
+        "id": "F76",
+        "fraction": 1,
+        "quotes": [
+          "| F76 | Section C is wholly admitted at USD 37,761.14 despite covering the post-refloating detention period: it combines two days of crew wages and maintenance with bunker and lube-oil consumption during refloating and detention while reloading bunkers. | general_average_adjustment.pdf pp.75-78, 89-90 |"
+        ],
+        "reason": "The candidate states that Section C is wholly admitted at USD 37,761.14 and identifies its two days of wages and maintenance plus bunker and lube-oil consumption during refloating and detention while reloading bunkers, with the required pages."
+      },
+      {
+        "id": "F77",
+        "fraction": 1,
+        "quotes": [
+          "| F77 | Payment and loss classification remain separate: vessel interests paid the salvage settlement that is allowed in general average, while hull underwriters reportedly settled the vessel's particular-average claim and permanent casualty repairs reduce vessel contributory value. | general_average_adjustment.pdf pp.11, 50-51 |"
+        ],
+        "reason": "The candidate keeps payment and loss classification separate: vessel interests paid the allowed salvage settlement, hull underwriters reportedly settled particular average, and permanent repairs reduce vessel contributory value. It cites pp.11 and 50-51."
+      },
+      {
+        "id": "R01",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not authorize recovery from respondent cargo interests; it repeatedly states that the respondent claim is dismissed, barred, and non-recoverable."
+      },
+      {
+        "id": "R02",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not say the owners' appeal succeeded or displaced the trial dismissal; it affirmatively states that both appeals were dismissed and the dismissal remained in place."
+      },
+      {
+        "id": "R03",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not find the vessel seaworthy despite the defective plan and chart; it adopts the opposite conclusion that the defect rendered the vessel unseaworthy."
+      },
+      {
+        "id": "R04",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not find due diligence discharged by delegation or the fault non-causative; it states that the duty was non-delegable and the defect caused the unsafe decision and grounding."
+      },
+      {
+        "id": "R05",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not treat the 8% cash call as the final debt, contribution, or rate; it expressly characterizes it as provisional security and identifies 2.67460000% as the final blended rate."
+      },
+      {
+        "id": "R06",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not direct recalculation or reissue of the historical adjustment; it directs retaining the issued quantum schedule and says the judgment does not require a new adjustment."
+      },
+      {
+        "id": "R07",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not conclude that all cargo contributions were paid; it distinguishes payment from security and says the disbursement-payment statement proves no such thing."
+      },
+      {
+        "id": "R08",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate does not direct automatic refunds or blanket security action; it expressly rejects both and requires account-by-account instrument review."
+      },
+      {
+        "id": "X01",
+        "fraction": 0,
+        "quotes": [],
+        "reason": "The candidate bases its conclusions on the supplied adjustment and judgments. References to absent workspace materials describe record limitations and do not import outside information."
+      }
+    ]
+  }
+}
