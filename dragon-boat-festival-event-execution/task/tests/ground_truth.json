@@ -1,0 +1,14 @@
+{
+  "_status": "AUTHORED, NOT INDEPENDENTLY CERTIFIED",
+  "protected_inputs": {
+    "event-proposal.docx": "b94fd0f8f051e1433b42f8aefba4962d6af1b166c93ee14828efa767a474ca73",
+    "materials-checklist.xlsx": "0379e67c07bf4e8f49e67fd5c1d3ff70a56a836c153b68ce5b7d4ac08ea1691b"
+  },
+  "truth_scope": "supported operational relationships; see scoring_params and excluded expert units",
+  "expert_gold": "uploaded expert DOCX, privacy transformations only; independent author of original differs from reference planner",
+  "source_locators": {
+    "M": "event-proposal.docx body blocks including blank paragraphs",
+    "L": "materials-checklist.xlsx Sheet1 cells",
+    "G": "expert execution-plan.docx body blocks and table rows"
+  }
+}

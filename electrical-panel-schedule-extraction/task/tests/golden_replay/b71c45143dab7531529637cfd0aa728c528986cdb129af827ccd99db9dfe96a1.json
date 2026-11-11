@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "sheet_ownership",
+      "fraction": 1,
+      "reason": "All issued sheets have bounded visible identities and local native content."
+    },
+    {
+      "id": "device_symbol_semantics",
+      "fraction": 1,
+      "reason": "Panel incoming data and circuit device fields are coherently owned by unique local circuit rows."
+    },
+    {
+      "id": "connection_semantics",
+      "fraction": 1,
+      "reason": "Matched circuit rows are associated with native geometry and the drawing has coherent connected segments."
+    }
+  ]
+}

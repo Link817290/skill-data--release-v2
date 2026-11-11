@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "item_id": "P-A-EXCEPTION",
+      "complete_delivery_requirement": "- A产品的*八个月合计*PPM最低，其各月重算值在11.7225至32.0926之间；1月单月最低的是C产品，不是A产品。"
+    },
+    {
+      "item_id": "P-A-FEB-REPAIR",
+      "complete_delivery_requirement": "- 2月A产品D7缓存显示`20` PPM，但D6/D5 = 20/1,706,124 = 11.7225 PPM；应修复公式或缓存值。2月整体PPM和A产品累计值各自与其分子分母一致，不应因这一错误一并改写。"
+    },
+    {
+      "item_id": "P-AGGREGATE-RECONCILE",
+      "complete_delivery_requirement": "- 四类产品的销量与投诉数分别与整体总数完全一致。"
+    },
+    {
+      "item_id": "P-B-RISK",
+      "complete_delivery_requirement": "- B产品投诉639起，占全部1,130起的56.55%，且投诉率居第二，属于另一重点。"
+    },
+    {
+      "item_id": "P-B-SWING",
+      "complete_delivery_requirement": "- B产品从4月94.0182升至5月136.0505，6月降至45.7750，7月再升至158.0740 PPM；这种波动需要产品级调查。"
+    },
+    {
+      "item_id": "P-CAUSAL-LIMIT",
+      "complete_delivery_requirement": "- 工作簿未提供投诉类别、严重度、客户、批次或因果证据，不能仅凭该表断言根因或责任归属。"
+    },
+    {
+      "item_id": "P-FOLLOWUP",
+      "complete_delivery_requirement": "- 立即复核D产品5月及8月和B产品7月的具体案例，并保留B产品6月改善情况作为对照。"
+    },
+    {
+      "item_id": "P-FOLLOWUP-FIELDS",
+      "complete_delivery_requirement": "- 将受控月份状态、投诉严重度、类别、客户及关闭字段补入后续治理台账，再用于纠正措施管理。"
+    },
+    {
+      "item_id": "P-FULL-SCOPE",
+      "complete_delivery_requirement": "范围仅为1月至8月。来源：`2024年客诉月CPPM统计表.xlsx`的第1张工作表。下表PPM均按投诉数量除以销量再乘100万计算，并保留两位小数；汇总PPM按投诉总数除以销量总数计算，而不是各月PPM的算术平均。原表未定义投诉的计次方式、重复投诉是否去重，也未说明销量与投诉是否属于同一生产批次。"
+    },
+    {
+      "item_id": "P-METRIC-LIMIT",
+      "complete_delivery_requirement": "- 文件名写`CPPM`、工作表写`PPM`，未给出单独的客户投诉PPM定义；这里只能按表内每百万销量的投诉比率解释，不能声称是已确认的不良品PPM。"
+    },
+    {
+      "item_id": "P-OVERALL-PEAKS",
+      "complete_delivery_requirement": "- 整体PPM最差为7月72.6039，次差为5月66.9320。"
+    },
+    {
+      "item_id": "P-PRIORITY",
+      "complete_delivery_requirement": "- D产品销量最低，但年内累计投诉率最高，应优先进行遏制和原因调查。"
+    },
+    {
+      "item_id": "P-PRODUCT-PEAKS",
+      "complete_delivery_requirement": "- 最高月度产品率为D产品5月181.2764 PPM，其次是D产品8月164.2537 PPM和B产品7月158.0740 PPM。"
+    },
+    {
+      "item_id": "P-RECONCILE",
+      "complete_delivery_requirement": "各月A至D产品销量之和与整体销量一致，投诉数之和也与整体投诉数一致；例如7月投诉数为31 + 125 + 16 + 20 = 192。汇总单元格O2:O16仅依据前8个月，K:N列不是已观测月份。"
+    },
+    {
+      "item_id": "P-SCOPE",
+      "complete_delivery_requirement": "- 9月至12月销量和投诉数空白却出现`#DIV/0!`；这些未来或未提供的月份应标为不可用，并排除趋势结论。"
+    },
+    {
+      "item_id": "P-SEVERITY-LIMIT",
+      "complete_delivery_requirement": "- 该排序仅按投诉率：表格没有客户影响或严重度信息。B产品按投诉绝对数量排首位；若建立有依据的严重度风险模型，两者的先后顺序可能改变。"
+    },
+    {
+      "item_id": "P-SHARE-A",
+      "complete_delivery_requirement": "A产品1-8月客诉占比 = 该产品期间客诉数 / 期间总体客诉数。分子分母必须同期间，允许百分比显示。"
+    },
+    {
+      "item_id": "P-SHARE-B",
+      "complete_delivery_requirement": "B产品1-8月客诉占比 = 该产品期间客诉数 / 期间总体客诉数。分子分母必须同期间，允许百分比显示。"
+    },
+    {
+      "item_id": "P-SHARE-C",
+      "complete_delivery_requirement": "C产品1-8月客诉占比 = 该产品期间客诉数 / 期间总体客诉数。分子分母必须同期间，允许百分比显示。"
+    },
+    {
+      "item_id": "P-SHARE-D",
+      "complete_delivery_requirement": "D产品1-8月客诉占比 = 该产品期间客诉数 / 期间总体客诉数。分子分母必须同期间，允许百分比显示。"
+    },
+    {
+      "item_id": "P-RELATIVE-A",
+      "complete_delivery_requirement": "A产品1-8月相对总体倍率 = 产品汇总PPM / 总体汇总PPM；各自按期间计数加总重算，不用月度率算术平均。"
+    },
+    {
+      "item_id": "P-RELATIVE-B",
+      "complete_delivery_requirement": "B产品1-8月相对总体倍率 = 产品汇总PPM / 总体汇总PPM；各自按期间计数加总重算，不用月度率算术平均。"
+    },
+    {
+      "item_id": "P-RELATIVE-C",
+      "complete_delivery_requirement": "C产品1-8月相对总体倍率 = 产品汇总PPM / 总体汇总PPM；各自按期间计数加总重算，不用月度率算术平均。"
+    },
+    {
+      "item_id": "P-RELATIVE-D",
+      "complete_delivery_requirement": "D产品1-8月相对总体倍率 = 产品汇总PPM / 总体汇总PPM；各自按期间计数加总重算，不用月度率算术平均。"
+    },
+    {
+      "item_id": "P-MONTH-TABLE",
+      "complete_delivery_requirement": "All eight observed months: matching overall sales, complaints, overall PPM and all four product PPM values. Every required field complete and source-correct."
+    },
+    {
+      "item_id": "P-PRODUCT-TABLE",
+      "complete_delivery_requirement": "All four products: matching period sales, complaints, and aggregate PPM from summed counts. Every required field complete and source-correct."
+    }
+  ]
+}

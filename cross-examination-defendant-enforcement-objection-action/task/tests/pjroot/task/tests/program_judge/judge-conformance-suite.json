@@ -1,0 +1,97 @@
+{
+  "schema_version": "judge-conformance-suite-v2",
+  "rubric": {
+    "path": "rubric-contract.json",
+    "sha256": "06215cb4f2d221e6016e36efbdbbd2687b31fb10d753a27575db8b4e0ac8efbe"
+  },
+  "judge_entrypoint": {
+    "path": "task/tests/program_judge/task_judge.py",
+    "sha256": "893dfb2111aace7ad7d83f3916d396aca6f591221cc4b977546c815d2f293e10"
+  },
+  "judge_files": [
+    {
+      "path": "task/tests/program_judge/legal_prose.py",
+      "sha256": "1d22befa08577f9648bbba89b225c0ba0d00f350520516208b01d3428f306308"
+    },
+    {
+      "path": "task/tests/program_judge/program_judge_runtime.py",
+      "sha256": "57e3a6f229839ebab1fa0fc754e6489c3a91875236f4603c16e585d3e490e4c2"
+    },
+    {
+      "path": "task/tests/program_judge/task_judge.py",
+      "sha256": "893dfb2111aace7ad7d83f3916d396aca6f591221cc4b977546c815d2f293e10"
+    },
+    {
+      "path": "../semantic_judge.py",
+      "sha256": "a46aa5823f9ce5f0e3971fab43d14618122e4d0e6e0d48939c89ff73cf420920"
+    },
+    {
+      "path": "../semantic_source.json",
+      "sha256": "4a94cd6ee85476d6af4746d7f68c3838102615f18f7813884dbc861d53db37e2"
+    }
+  ],
+  "representation_scope": {
+    "scope_basis": "The public output contract is instruction.md, which asks for a Chinese Word document at artifacts/质证意见.docx. The native .docx is the carrier the judge scores; the Markdown export of the same content is tested as the equivalent carrier because the Judge reads both through one Para schema (legal_prose.read_paragraphs).",
+    "public_output_contract": {
+      "path": "instruction.md",
+      "sha256": "0968790be1fd60b6971c9d878e52aa2d8b4f63fd6976fc0a211f95db95845ec1"
+    },
+    "applicable_variants": [
+      "markdown_export"
+    ],
+    "excluded_variants": [
+      {
+        "variant": "pdf_export",
+        "reason": "the instruction requires a Chinese Word deliverable, so a PDF carrier is not a task-legal output"
+      },
+      {
+        "variant": "spreadsheet_export",
+        "reason": "the deliverable is a legal document in prose, so a workbook carrier is not a task-legal output"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "golden_docx_native",
+      "kind": "baseline",
+      "semantic_case_id": "golden_deliverable",
+      "variant": "docx_native",
+      "artifact": {
+        "path": "../../../golden/质证意见.docx",
+        "sha256": "c006fed4d5a7c633cf7a3b9e4a88e25f0c326fac8dc6b8e0edd0938ceab70d7a"
+      }
+    },
+    {
+      "case_id": "golden_markdown_export",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden_deliverable",
+      "variant": "markdown_export",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/golden_markdown_export.md",
+        "sha256": "5b686d6cff282633c8befb988abf95b6d7ce711b06ae6a9bf90b230cb14f601f"
+      }
+    },
+    {
+      "case_id": "parse_failure_truncated_docx",
+      "kind": "parse_failure",
+      "semantic_case_id": "unreadable_carrier",
+      "variant": "docx_native",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/truncated_docx.docx",
+        "sha256": "68bf58c8cdbb48daee5cb07593e4f2fbbce114c82e22e91f99b368cc89bdf6f8"
+      },
+      "protected_deduction_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D07",
+        "D08",
+        "D09",
+        "D10"
+      ]
+    }
+  ],
+  "stage": "required-semantic"
+}

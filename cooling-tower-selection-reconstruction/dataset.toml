@@ -1,0 +1,21 @@
+id = "cooling-tower-selection-reconstruction"
+task_type = "skill-bench"
+domain = "cooling-tower-engineering"
+language = "en"
+task = "task/task.toml"
+task_no_skill = "task/task_no_skill.toml"
+instruction = "task/instruction.md"
+rubric = "RUBRIC.md"
+golden = "golden/cooling_tower.xlsx"
+deliverable = "/workspace/output/cooling_tower.xlsx"
+required_outputs = ["cooling_tower.xlsx"]
+
+[scoring]
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/test.sh"
+scoring_params = "task/tests/scoring_params.json"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+external_judge_required = true

@@ -1,0 +1,48 @@
+artifacts = ["/workspace/output"]
+
+[metadata]
+name = "xuyujie"
+instance_id = "controlled-device-test-planning"
+task = "device-test-planning"
+source_repo = ""
+language = "en"
+programming_language = "python"
+prompt_creation_time = "2026-10-12"
+
+[environment]
+docker_image = "controlled-device-test-planning:1.0"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+skills_dir = "/skills"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+network_mode = "no-network"
+build_timeout_sec = 600.0
+
+[agent]
+timeout_sec = 5400.0
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 900.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/judge-cache}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-900}"
+
+[verifier.environment]
+docker_image = "controlled-device-test-planning-verifier:1.0"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+network_mode = "public"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

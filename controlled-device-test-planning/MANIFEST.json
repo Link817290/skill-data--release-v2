@@ -1,0 +1,165 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "controlled-device-test-planning",
+  "tasks": [
+    "controlled-device-test-planning"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 38,
+  "bytes_excluding_manifest": 7799451,
+  "scope": "Current release package; excludes this manifest, evaluator state and bytecode.",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 4379,
+      "sha256": "7b2d4c69dc935ae350fa8d1b3850f8ab458ce83644db3e79898de7a2264020cd"
+    },
+    "RUBRIC.md": {
+      "bytes": 3086,
+      "sha256": "20a736dcfb70d38ec848a1ce171de89a582f91467c73742dba67e1769ca87360"
+    },
+    "dataset.toml": {
+      "bytes": 1294,
+      "sha256": "308993bedee2eeb2b5892f041c5a78f7acdfb035120efd4e0e015dcbe852995b"
+    },
+    "golden/LG_AKB76043105_Test_Case_List_EN.xlsx": {
+      "bytes": 16527,
+      "sha256": "690f38a83a31fa7d480c4373c1ab49c023904002ee23d28891cdf7e3d9b189c9"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 851,
+      "sha256": "a1ade5fc54303bcbefd95a1fc4b70640999d0944cdb40e2cb9c25ce776b3c784"
+    },
+    "task/environment/Dockerfile.no_skill": {
+      "bytes": 810,
+      "sha256": "605ec4a3809180976337af58b3a0afa65dbefc1baaddcc4ec6e5a91644c6585f"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 397,
+      "sha256": "b84f7f24aada190ca41f80fb35d4cb01da8ecc85c0d16f1d639f09e184172fce"
+    },
+    "task/environment/skills/evidence-bound-test-planning/SKILL.md": {
+      "bytes": 3923,
+      "sha256": "00459f0927111f4033511af8cab6143fb39b6b3760f174d0abc9fe231f5b330f"
+    },
+    "task/environment/skills/evidence-bound-test-planning/references/applicability-and-authority.md": {
+      "bytes": 2206,
+      "sha256": "91ba43afa2a81a6c35e84defacdfa696c9ab62a3903fc131df711b7b2f1f3c14"
+    },
+    "task/environment/skills/evidence-bound-test-planning/references/causal-tests-and-metrics.md": {
+      "bytes": 4733,
+      "sha256": "784639c9611863acc129daa92e364d9f18cfa4287f79011a22c5edfde15c91a2"
+    },
+    "task/environment/workspace/materials/LG_AKB76043105_Button_Function_Spec.pdf": {
+      "bytes": 326228,
+      "sha256": "d79db7b82ce70cac590bb1c91cbf509f0cbdf3bcc143c58d8aefa0fdd3387bf0"
+    },
+    "task/environment/workspace/materials/LG_AKB76043105_Standard_Test_Procedure_SOP.docx": {
+      "bytes": 34108,
+      "sha256": "13146ef77acc36ade196b91f36396279e55689ec890221c6cc4e8d29304d7b29"
+    },
+    "task/environment/workspace/materials/MFL72141910_02_S_250218a.pdf": {
+      "bytes": 2826933,
+      "sha256": "cf270e32445d716fb81661ed68c285855191aee282cfcff633f734988441f8e5"
+    },
+    "task/environment/workspace/materials/mmo_120384967_1788973707_747_3631382.pdf": {
+      "bytes": 68199,
+      "sha256": "2533d2e81614f1283fb8435fbb66d5080171901a4d20d12a550ffa6f3e77eb6a"
+    },
+    "task/environment/workspace/materials/output_contract.json": {
+      "bytes": 1858,
+      "sha256": "235880cab8fb3e372c75a78c28a4d15c0789dd9f225d85b1165498d80e902938"
+    },
+    "task/environment/workspace/materials/product-pdf (1).pdf": {
+      "bytes": 454685,
+      "sha256": "07c98f32fa85e8437dddf9fb007e4b154338c43a6dc8e457077b33a415c54dad"
+    },
+    "task/instruction.md": {
+      "bytes": 860,
+      "sha256": "6ff91332d272820327799c9e1a8e45d4fb378788431a52e916f463fe07adf835"
+    },
+    "task/rubric-contract.json": {
+      "bytes": 58318,
+      "sha256": "3e9cdbc2f51819c97dff6fe4f89d0e49045e0ae170e4b53d24593c122b751f97"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 1242,
+      "sha256": "98419e84489dbac950bd49dd4b079a5984bd9de76db8eb73a39f01dc9d19b4c0"
+    },
+    "task/solution/material_reader.py": {
+      "bytes": 4254,
+      "sha256": "b55a0e39e544d4ecc1d1136e11505f3fae75062165a9bb7ea5f058b27ed31708"
+    },
+    "task/solution/solve.py": {
+      "bytes": 31388,
+      "sha256": "d249c7f51485e47f5ab506db4c45aef6a883a0a1584994424ea69e6ad4475ae9"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 294,
+      "sha256": "7ee12dc10a27052ec2f99711df78d0021e46578ca06422e6ecab56e25975d599"
+    },
+    "task/task.toml": {
+      "bytes": 1182,
+      "sha256": "0569115ab0be75f499f5eb54c281610260b6499552b376fdf079cf439f7011b5"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1156,
+      "sha256": "a2b5a5d295b4ec5d35926ff3f27bf8e1be8743fa03b451c81cbf279a877e4c2f"
+    },
+    "task/tests/golden/LG_AKB76043105_Test_Case_List_EN.xlsx": {
+      "bytes": 16527,
+      "sha256": "690f38a83a31fa7d480c4373c1ab49c023904002ee23d28891cdf7e3d9b189c9"
+    },
+    "task/tests/golden_replay/ffa41fc1904ccc9d57c887cb3499979f5636f6f9b26ecd680957e0a4b31a26a8/decision.json": {
+      "bytes": 19713,
+      "sha256": "749ba10ce52a9fe3047161b27a114e8f54a31a173ebfe18c221fe99569333c9d"
+    },
+    "task/tests/golden_replay/manifest.json": {
+      "bytes": 766,
+      "sha256": "c2b33970ee977834be10a4a6c75d353b63e50a5b23c928a785e5b4d80ad0b06c"
+    },
+    "task/tests/materials/LG_AKB76043105_Button_Function_Spec.pdf": {
+      "bytes": 326228,
+      "sha256": "d79db7b82ce70cac590bb1c91cbf509f0cbdf3bcc143c58d8aefa0fdd3387bf0"
+    },
+    "task/tests/materials/LG_AKB76043105_Standard_Test_Procedure_SOP.docx": {
+      "bytes": 34108,
+      "sha256": "13146ef77acc36ade196b91f36396279e55689ec890221c6cc4e8d29304d7b29"
+    },
+    "task/tests/materials/MFL72141910_02_S_250218a.pdf": {
+      "bytes": 2826933,
+      "sha256": "cf270e32445d716fb81661ed68c285855191aee282cfcff633f734988441f8e5"
+    },
+    "task/tests/materials/mmo_120384967_1788973707_747_3631382.pdf": {
+      "bytes": 68199,
+      "sha256": "2533d2e81614f1283fb8435fbb66d5080171901a4d20d12a550ffa6f3e77eb6a"
+    },
+    "task/tests/materials/output_contract.json": {
+      "bytes": 1858,
+      "sha256": "235880cab8fb3e372c75a78c28a4d15c0789dd9f225d85b1165498d80e902938"
+    },
+    "task/tests/materials/product-pdf (1).pdf": {
+      "bytes": 454685,
+      "sha256": "07c98f32fa85e8437dddf9fb007e4b154338c43a6dc8e457077b33a415c54dad"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 54014,
+      "sha256": "03133c4dfd285023d3800ea39ddabc626f04605d80e5d113c04e6dd70b7d770a"
+    },
+    "task/tests/semantic_relations.py": {
+      "bytes": 113163,
+      "sha256": "32b5f992dff4a1a39522c7a2654d049f624cd7937c30d9bdd63b4f8edab15252"
+    },
+    "task/tests/source_bound_judge.py": {
+      "bytes": 7223,
+      "sha256": "1b608f362ffa3aa0336c7b62277e73e46f687739f10d00fc1c035cbdd1c33e14"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1134,
+      "sha256": "1c7609acd9690d5a61338be0baee08e8a3bbff15b2911b6419c0029294c9b63a"
+    },
+    "task/tests/validator.py": {
+      "bytes": 25989,
+      "sha256": "ff4049afb5992ec9a7d18f0a2e739cb187ad19ead5933804545ae204e6640b52"
+    }
+  }
+}

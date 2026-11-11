@@ -1,0 +1,173 @@
+{
+  "schema_version": "judge-conformance-suite-v2",
+  "rubric": {
+    "path": "rubric-contract.json",
+    "sha256": "f2c04040813386c30970821701d9ca0ffb376528389e479528971de4a285deaf"
+  },
+  "judge_entrypoint": {
+    "path": "task/tests/program_judge/task_judge.py",
+    "sha256": "abd8939196d85aae8aceb9cdd7c67493ca6a35630c679176679b647ec6e63548"
+  },
+  "judge_files": [
+    {
+      "path": "task/tests/program_judge/program_judge_runtime.py",
+      "sha256": "345542bbd899941c12727420a9d069a52b0143f47bbcbd90195773a68794c1bd"
+    },
+    {
+      "path": "task/tests/program_judge/task_judge.py",
+      "sha256": "abd8939196d85aae8aceb9cdd7c67493ca6a35630c679176679b647ec6e63548"
+    },
+    {
+      "path": "task/tests/program_judge/adversarial_guards.py",
+      "sha256": "830a7efc0067334b05f9ab4862027b44a603acc77ae1d17f3751b4a2378c6068"
+    }
+  ],
+  "representation_scope": {
+    "scope_basis": "instruction.md fixes one Chinese Markdown civil complaint at artifacts/civil-complaint.md. Legal carrier variation inside that contract: Markdown heading numbering, bold party labels, list markers and ### sub-headings; CRLF line endings; amount, date and statute-article notation (thousands separators, 人民币, 万元, spaced 元, ISO or slash dates, Arabic article and paragraph numbers); a party block written as a Markdown table; numbered defendant labels (被告一/被告二) used in the request items. N01-N05 and N08 fold these and they must decide identically to the canonical Markdown transcription of the Golden. Three rollout carriers are replayed with the Golden propositions: (a) rollout_subsection_list_carrier - bold party labels 被告一/被告二 on their own lines, 一、 request numbering, the 事实与理由 heading alias, horizontal rules, ### numbered subsection headings and bold （一） sub-headings, a facts proposition split into bullet list items plus a summary paragraph under one sub-heading, and a legal premise and its conclusion in two adjacent paragraphs of one subsection, signed 具状人：A公司 (a combined appellation 具状人（原告） is not Golden-equivalent); (b) rollout_request_subsection_carrier - party lines carrying 待补充 gap markers after each label, a 案由 line, 一、 request numbering, ### subsections titled per request with a （第N项诉讼请求） suffix, a 综上 paragraph after a horizontal rule, a plain (unbolded) addressee court and an 附：证据与附件 list after the date; (c) rollout_html_title_carrier - an HTML-centred title line (<p align=\"center\">民事起诉状</p>) as the title carrier.",
+    "public_output_contract": {
+      "path": "instruction.md",
+      "sha256": "e4cf3aaa1c7522f3cc70497c54a1c34d211495021e41a6047415026fc51f8cd6"
+    },
+    "applicable_variants": [
+      "heading_list_markup",
+      "crlf_line_endings",
+      "amount_date_article_notation",
+      "party_block_table",
+      "party_label_numbering",
+      "rollout_subsection_list_carrier",
+      "rollout_request_subsection_carrier",
+      "rollout_html_title_carrier"
+    ],
+    "excluded_variants": [
+      {
+        "variant": "docx_or_pdf_carrier",
+        "reason": "instruction.md requires a Markdown file at artifacts/civil-complaint.md"
+      },
+      {
+        "variant": "english_language_complaint",
+        "reason": "instruction.md requires the complaint in Chinese"
+      },
+      {
+        "variant": "multi_file_split",
+        "reason": "instruction.md requires one complaint file"
+      },
+      {
+        "variant": "unlabelled_sections",
+        "reason": "a civil complaint without 诉讼请求 and 事实和理由 sections is a content defect, not a carrier variant"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "golden_markdown_baseline",
+      "kind": "baseline",
+      "semantic_case_id": "golden",
+      "variant": "canonical_markdown",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/golden_canonical.md",
+        "sha256": "7e6fabc57007516f457cfda9f42b502a01a22f63b589769036c45115c117b869"
+      }
+    },
+    {
+      "case_id": "golden_heading_list_markup",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "heading_list_markup",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/heading_list_markup.md",
+        "sha256": "698ba93f2209ed8566c2e0692b3108f579687f9076ed40df13f72563c424d1ec"
+      }
+    },
+    {
+      "case_id": "golden_crlf_line_endings",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "crlf_line_endings",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/crlf_line_endings.md",
+        "sha256": "4a38a57afe991235493c3c012b62bd8405527e842a9d99e8aa6bb76c32f2e6fe"
+      }
+    },
+    {
+      "case_id": "golden_amount_date_article_notation",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "amount_date_article_notation",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/amount_date_article_notation.md",
+        "sha256": "57edcc313ba88739d14c70de8a62a4e1369fa1bbd2fa75efb968426db09760cd"
+      }
+    },
+    {
+      "case_id": "golden_party_block_table",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "party_block_table",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/party_block_table.md",
+        "sha256": "19539d302c2fee11169a0c086b1df81ac553324ade93e1c99f97afc132fc966e"
+      }
+    },
+    {
+      "case_id": "golden_party_label_numbering",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "party_label_numbering",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/party_label_numbering.md",
+        "sha256": "2087ebded80a6966d0cd91d036db43a81bfa39f6fb08eff3873cfaa3144661c4"
+      }
+    },
+    {
+      "case_id": "golden_rollout_subsection_list_carrier",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "rollout_subsection_list_carrier",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/rollout_subsection_list_carrier.md",
+        "sha256": "899e52aad8abc102a7dbb7998c5d97f4c5750f261e3bf79788202e4a4724e8eb"
+      }
+    },
+    {
+      "case_id": "golden_rollout_request_subsection_carrier",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "rollout_request_subsection_carrier",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/rollout_request_subsection_carrier.md",
+        "sha256": "9c74c8a6ec332704ba31b5dbee6f5af3b58c0e623f6481faee9de16884a68cfa"
+      }
+    },
+    {
+      "case_id": "golden_rollout_html_title_carrier",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "rollout_html_title_carrier",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/rollout_html_title_carrier.md",
+        "sha256": "d80f4aea5b628e998e859b5e16612280957ec827fe245154413193160623fb50"
+      }
+    },
+    {
+      "case_id": "invalid_utf8",
+      "kind": "parse_failure",
+      "semantic_case_id": "parse_failure",
+      "variant": "invalid_utf8_bytes",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/parse_failure_invalid_utf8.md",
+        "sha256": "f711984e265eed3197eea34e4b2a6a6916977fa61068f35482da88ad797f0872"
+      },
+      "protected_deduction_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D08"
+      ]
+    }
+  ]
+}

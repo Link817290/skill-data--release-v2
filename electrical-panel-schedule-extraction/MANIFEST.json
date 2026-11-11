@@ -1,0 +1,113 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "electrical-panel-schedule-extraction",
+  "tasks": [
+    "electrical-panel-schedule-extraction"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 25,
+  "bytes_excluding_manifest": 10211372,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1380,
+      "sha256": "f11a88f011fa46aea6a19154807bfda458ccf907f86e9d474a94767daadbf6ad"
+    },
+    "RUBRIC.md": {
+      "bytes": 4697,
+      "sha256": "9620da1877e295abfb5808ba56ad605b25f691c9bf762e2020dd1306fc56f887"
+    },
+    "dataset.toml": {
+      "bytes": 1058,
+      "sha256": "7e7e60c947b686860e33522bb938d434a789428596589f462dd4fb1acc506a4a"
+    },
+    "golden/electrical_drawings.dxf": {
+      "bytes": 3275462,
+      "sha256": "8dd3ca81a1c552506fff5316e3f0747857674d464095073232d7b8c1dfbb79a7"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 647,
+      "sha256": "40bd94b7aa4e16636a439690fdceb79742780ac426f34a6f599be2013440ca1b"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 292,
+      "sha256": "97995129f133ebb917ad5a5e168f3a1a7095b19dca4766d940dd3af92e6102d7"
+    },
+    "task/environment/skills/check-electrical-drawing-set/SKILL.md": {
+      "bytes": 2246,
+      "sha256": "d12c3ff725e30242904c625fbd1ec1af575b38ccb29d17962cdb56191c481555"
+    },
+    "task/environment/skills/draft-native-electrical-dxf/SKILL.md": {
+      "bytes": 3113,
+      "sha256": "11466fc3351ed4b41c5e51ce780f99784841af342cf612fa71d0fb795bf5876b"
+    },
+    "task/environment/skills/draw-electrical-panel-diagram/SKILL.md": {
+      "bytes": 3725,
+      "sha256": "8b73a7f7705944a37b276d73802df6d4348a82091deba0195827c29fa123c0a5"
+    },
+    "task/environment/skills/draw-electrical-panel-diagram/scripts/prepare_reference_views.py": {
+      "bytes": 3642,
+      "sha256": "8159b613b3cb4742fde191105b7985b059815949d55b72c246b4589a52b09fdb"
+    },
+    "task/environment/workspace/materials/S-01_电气设计说明.png": {
+      "bytes": 1828174,
+      "sha256": "df37b3c0553820243a81be4a5bc43e16bd8cfd574343872a76483202154df9b8"
+    },
+    "task/environment/workspace/materials/S-02_配电箱系统图.png": {
+      "bytes": 901008,
+      "sha256": "36ce8906cea2e9cb48b96f837babc27ec766f9d59dde1984266139491a1f6acc"
+    },
+    "task/environment/workspace/materials/S-03_一层电气平面图.png": {
+      "bytes": 198643,
+      "sha256": "a98b3ba626714c2a08e4abf37b544b65e619af370bd882157cb22ec02238fe51"
+    },
+    "task/environment/workspace/materials/S-04_二层电气平面图.png": {
+      "bytes": 640031,
+      "sha256": "c405035dc47e8acd3b5419f7259b865abdba237a97ec4f4dc9c9c13f7e31190f"
+    },
+    "task/instruction.md": {
+      "bytes": 582,
+      "sha256": "37abe6bb58b10aefefd87e77986e9458e3cbd502208f1d03fc85f465d4f1690d"
+    },
+    "task/solution/electrical_drawings.dxf": {
+      "bytes": 3275462,
+      "sha256": "8dd3ca81a1c552506fff5316e3f0747857674d464095073232d7b8c1dfbb79a7"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 192,
+      "sha256": "bd214eb754c0a5214be5977e574a74d1b13d5a3622b18363af8e8981bd0dfa9a"
+    },
+    "task/task.toml": {
+      "bytes": 1003,
+      "sha256": "9a7dfa3c63433905db08f309b52a7414d9bd39026fc892683c7a56ea0357ceca"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 982,
+      "sha256": "ed6ce0e9105d91ce120dae402d4f2bab13d47c9377a408b3977d2e7776a0c0f0"
+    },
+    "task/tests/golden_replay/b71c45143dab7531529637cfd0aa728c528986cdb129af827ccd99db9dfe96a1.json": {
+      "bytes": 561,
+      "sha256": "3f37b5ca14e11b6af0b40382663db126d49fa2ce0f346c1f7406402cb0d461b1"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 10162,
+      "sha256": "8430991fc174e8c07e16b045cdc7a4dcd0e2f79b26bb100269d38d69cfebe83b"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 3289,
+      "sha256": "161acdfc7b122d85313b9e4453b3ea33530b4516a77dbc4a44ce5ceb2bd341ed"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1683,
+      "sha256": "dd79606e056e18f0bf35396c580bb3c64ce9e3da3cff6770e723d2ca65ad9da2"
+    },
+    "task/tests/test_validator.py": {
+      "bytes": 8494,
+      "sha256": "8baec04856d46a24c15a707780119767e905bdaef16d0b94e4a5a0d7f841b472"
+    },
+    "task/tests/validator.py": {
+      "bytes": 44844,
+      "sha256": "1022c656e9994a8767953564a19e07de4e9505c328e90c4ff7de4ab778bdcc96"
+    }
+  }
+}

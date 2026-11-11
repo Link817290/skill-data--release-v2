@@ -1,0 +1,30 @@
+{
+  "schema_version": "scoring-params-v1",
+  "score_profile": "bench",
+  "positive_weights": {"P01": 0.12, "P02": 0.13, "P03": 0.25, "P08": 0.10, "P09": 0.08, "P10": 0.12, "P11": 0.12, "P12": 0.08},
+  "owner_contract": {
+    "P01": {"weight": 0.12, "cell_count": 13, "aggregation": "complete_prerequisite_chain"},
+    "P02": {"weight": 0.13, "cell_count": 40, "aggregation": "complete_prerequisite_chain"},
+    "P03": {"weight": 0.25, "cell_count": 29, "aggregation": "complete_prerequisite_chain"},
+    "P08": {"weight": 0.10, "cell_count": 6, "aggregation": "complete_prerequisite_chain"},
+    "P09": {"weight": 0.08, "cell_count": 3, "aggregation": "complete_prerequisite_chain"},
+    "P10": {"weight": 0.12, "cell_count": 7, "aggregation": "complete_prerequisite_chain"},
+    "P11": {"weight": 0.12, "cell_count": 3, "aggregation": "complete_prerequisite_chain"},
+    "P12": {"weight": 0.08, "cell_count": 2, "aggregation": "complete_prerequisite_chain"}
+  },
+  "deduction_coefficients": {"D_THERMAL_DECISION": 0.3, "D_SOURCE_STRUCTURE": 0.9, "D_COMPARISON_CHART": 0.9, "D_OPEN_SEMANTIC": 0.8},
+  "lenient_required": [
+    "air_state_and_water_saturation",
+    "thermal_calculations_and_packing",
+    "minimum_feasible_selection_and_verdicts",
+    "air_path_and_independent_coefficients",
+    "aerodynamic_resistance",
+    "fan_pressure_and_shaft_power",
+    "installed_specific_power",
+    "original_labels_and_units",
+    "original_comparison_chart",
+    "open_claim_scope"
+  ],
+  "semantic_required": ["source_fidelity", "conclusion_scope", "evidence_binding"],
+  "strict_formula": "sum(weight * completion) * product(independent damage coefficients)"
+}

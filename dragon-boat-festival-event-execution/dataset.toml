@@ -1,0 +1,19 @@
+id = "dragon-boat-festival-event-execution"
+category = "skill-data"
+track = "bench"
+task_type = "skill-task"
+deliverable = "output/execution-plan.docx"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+dual_score = true
+score_source = "reward_strict.txt"
+strict_formula = "max(0, positive_earned^4 - deduplicated_deductions)"
+scoring_params = "task/tests/scoring_params.json"
+program_judge = "task/tests/validator.py"
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+rubric = "RUBRIC.md"
+condition_blind = true
+semantic_judge_required = true

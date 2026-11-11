@@ -1,0 +1,149 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "cooling-tower-selection-reconstruction",
+  "tasks": [
+    "cooling-tower-selection-reconstruction"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 34,
+  "bytes_excluding_manifest": 338643,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2289,
+      "sha256": "deb4d216e5ee2dba64a06672b5fd093acbfc989d9ce2205fdc75006121e92f0a"
+    },
+    "RUBRIC.md": {
+      "bytes": 17493,
+      "sha256": "77cf25d187a267b56a7cbf7ac14edeb2c8a9c7d548f8ea93164dbab97e96dd9a"
+    },
+    "dataset.toml": {
+      "bytes": 660,
+      "sha256": "cf1282e732fbf827e004e6f0507b7c80cb275309129c654df700e745988b79e9"
+    },
+    "golden/cooling_tower.xlsx": {
+      "bytes": 21316,
+      "sha256": "3949c91df0a695967f5e08d442fc461801122dee2cb2616fc4dd908e01c2bca1"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 787,
+      "sha256": "b4eb2e81c358bd172290807028a5ce6f0e2697996ea49785685db44c9ea46364"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 348,
+      "sha256": "d7a8bfae1a4d72fbb8cb08ffa6bb23c5363c92f460698f02937b7a706718037a"
+    },
+    "task/environment/skills/cooling-tower-sizing/SKILL.md": {
+      "bytes": 1166,
+      "sha256": "191edd32e51e87eedf13da98c77118cca89ce7c944a19e81f484bd73c1f70eb1"
+    },
+    "task/environment/skills/spreadsheet-behavior-checks/SKILL.md": {
+      "bytes": 1421,
+      "sha256": "75426d3086d5356f852dc375f2c66b8ed08c4fafaa2312fed7d6d1e7e17d6b46"
+    },
+    "task/environment/skills/spreadsheet-behavior-checks/scripts/workbook_tools.py": {
+      "bytes": 6818,
+      "sha256": "97455f45c19d7a09c24b9361f0644d985af36aa557000f2798ba1329cb0f389d"
+    },
+    "task/environment/workspace/materials/workspace.xlsx": {
+      "bytes": 16530,
+      "sha256": "5bcf211e66d6f4902cb3f7ad2730daab7559c03918407aa16f652a22734b78c9"
+    },
+    "task/instruction.md": {
+      "bytes": 1562,
+      "sha256": "62f4e23ba76228acb458cee3a1c219bb1ad70c8075407ca6f693cff59045aa7f"
+    },
+    "task/solution/formulas.json": {
+      "bytes": 8374,
+      "sha256": "4d49b05c6246aa358506c10785821bdf8564328ded5b728d322c03f10cd7bf22"
+    },
+    "task/solution/original_oracle.py": {
+      "bytes": 1161,
+      "sha256": "e24913f675bdd9cb33f9f2202ededbc8c362e29146e78e5bbc63f44c6c4769a2"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 75,
+      "sha256": "0140120105a63c1d8208f79a8594a068354a65e2f325294541d042935e9215a9"
+    },
+    "task/task.toml": {
+      "bytes": 1274,
+      "sha256": "37e3905988cf1c0b2c6bd6938282e227afe1bf7834deda479bc0da804b45bd0b"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1283,
+      "sha256": "1383b89a78d0846e4d97b45d07323e912b37f01d33e23efd05dcf6aac716641d"
+    },
+    "task/tests/golden_replay/frozen/4f7b3fe80c04f6527e2e3024e6d5367cbb7f43948248d932a7fb933d392f698f/raw_response.json": {
+      "bytes": 37412,
+      "sha256": "684287e019aec93dcb42313aeb9013c63dcae5e0267965d54fd04b5414c7996f"
+    },
+    "task/tests/golden_replay/frozen/4f7b3fe80c04f6527e2e3024e6d5367cbb7f43948248d932a7fb933d392f698f/request.json": {
+      "bytes": 125999,
+      "sha256": "827c9347c694b0dcd507d87ddfd1e1fca9c18d28b9e6a2da1f81a50ca9451ca8"
+    },
+    "task/tests/golden_replay/frozen/4f7b3fe80c04f6527e2e3024e6d5367cbb7f43948248d932a7fb933d392f698f/validated_review.json": {
+      "bytes": 3386,
+      "sha256": "63275df39011d887a503048d8d3f4cb292e54f0ed79eedc41e88812be84d6988"
+    },
+    "task/tests/golden_replay/frozen/4f7b3fe80c04f6527e2e3024e6d5367cbb7f43948248d932a7fb933d392f698f/validation.json": {
+      "bytes": 187,
+      "sha256": "b2662c3d7460b783aba30bf088c39d442765129433a2dc5f9a52f066ae5396c6"
+    },
+    "task/tests/golden_replay/manifest.json": {
+      "bytes": 860,
+      "sha256": "f200ed676f637bac62271b5c4fee7f77e0baad96f74bc4099f57665ad9d5fa9d"
+    },
+    "task/tests/original_reference.py": {
+      "bytes": 5124,
+      "sha256": "183c1468de175743bbd11c3f0d8dd69fffc33fec9d58ef15ac7e73f9d7306a0d"
+    },
+    "task/tests/original_validator.py": {
+      "bytes": 20810,
+      "sha256": "9871873c50aa8170a8db8422b95b4ea1a358a00897a08c07a36441a820836f07"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 1661,
+      "sha256": "95390d353b1853ff9188e6e9bce15315d4329fe9a0e0aba4c56c8f2600cb41d2"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 9435,
+      "sha256": "899a8864522c9f1308ac2d7f02f8757ac2a03343343ad33078b414054d847e25"
+    },
+    "task/tests/skill_execution/contract.json": {
+      "bytes": 2516,
+      "sha256": "5869711dcdcb9f81c424c0344b107ccccab94247e1f20fb8812a638c202102f5"
+    },
+    "task/tests/skill_execution/judge.py": {
+      "bytes": 16333,
+      "sha256": "0ae7f53f8b775d7a74fbe620caa143db5e479f6f6e35f2ab6ae0825e52007030"
+    },
+    "task/tests/skill_execution/prompt.md": {
+      "bytes": 1608,
+      "sha256": "4dae3dc956be7eb952c3f71aefc28c1a042965b541c024fb5c2fc12fc7493dba"
+    },
+    "task/tests/skill_execution/response.schema.json": {
+      "bytes": 10563,
+      "sha256": "b808379fc00a4029843b4f15b63c3629fe16454d99d4e63edf75c73790b5f46c"
+    },
+    "task/tests/skill_execution/runtime/__init__.py": {
+      "bytes": 54,
+      "sha256": "982b5bedad6ca57bdb97d8a1d07be8eac7fdbefa630c3b7aed6421b39214425b"
+    },
+    "task/tests/skill_execution/runtime/core.py": {
+      "bytes": 18755,
+      "sha256": "1dfc733d17afeaa13cd4f87f15024627fddf42a971f409172375ccf49c466c7b"
+    },
+    "task/tests/skill_execution/settings.json": {
+      "bytes": 717,
+      "sha256": "419db6d8d2e993396cdb2a922ca401858805674cf73924750375d435dee9d7e8"
+    },
+    "task/tests/test.sh": {
+      "bytes": 75,
+      "sha256": "5e0c56701fca60afd83d5f2b90c50cc68c1108b2a2c0736b6ac7482a4956d5cf"
+    },
+    "task/tests/validator.py": {
+      "bytes": 591,
+      "sha256": "453ccd8a761dc3d853670110c06646255f69d64eb56fbd5e27817f584cdc88c2"
+    }
+  }
+}

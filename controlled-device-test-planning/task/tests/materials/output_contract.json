@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "artifact": "output/LG_AKB76043105_Test_Case_List_EN.xlsx",
+  "language": "English",
+  "artifact_type": "planned test cases, not executed test results",
+  "case_table": {
+    "worksheet_name": "Any descriptive name; multiple case worksheets are acceptable.",
+    "fields": [
+      {
+        "name": "Test ID",
+        "meaning": "Unique reference for this planned case."
+      },
+      {
+        "name": "Test Category",
+        "meaning": "Functional area covered by this case."
+      },
+      {
+        "name": "Test Item Name",
+        "meaning": "Concise test objective."
+      },
+      {
+        "name": "Test Steps",
+        "meaning": "Ordered actions for the tester."
+      },
+      {
+        "name": "Preconditions",
+        "meaning": "Required setup and initial state."
+      },
+      {
+        "name": "Expected Results",
+        "meaning": "Expected observable behavior."
+      },
+      {
+        "name": "Priority",
+        "meaning": "Risk-based priority, using a defined scale."
+      },
+      {
+        "name": "Pass Criteria",
+        "meaning": "Acceptance condition, or explicit condition pending confirmation."
+      },
+      {
+        "name": "Test Result",
+        "meaning": "Leave blank or explicitly unexecuted."
+      },
+      {
+        "name": "Test Status",
+        "meaning": "Leave blank or mark Not Executed/Planned, as appropriate."
+      },
+      {
+        "name": "Remarks",
+        "meaning": "Basis, assumptions, applicability, limitations or unresolved requirements."
+      }
+    ],
+    "equivalence": "Equivalent English labels, merged evidence notes and reasonable sheet layouts are acceptable if the fields remain identifiable. No fixed case count or ID sequence is prescribed. Shared setup may be referenced explicitly by cases."
+  }
+}

@@ -1,0 +1,10 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /package/task
+COPY task/ /package/task/
+COPY golden/ /package/golden/
+COPY RUBRIC.md /package/RUBRIC.md
+RUN ln -s /package/task/tests /tests \
+    && ln -s /package/task/solution /solution \
+    && chown -R 20005:0 /package
+USER 20005

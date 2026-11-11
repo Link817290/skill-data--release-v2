@@ -1,0 +1,16 @@
+{
+  "schema_version": "controlled-source-bound-golden-v2",
+  "scope": "exact_golden_only",
+  "actor_visible": false,
+  "ordinary_cache_packaged": false,
+  "entries": {
+    "ffa41fc1904ccc9d57c887cb3499979f5636f6f9b26ecd680957e0a4b31a26a8": {
+      "entry": "ffa41fc1904ccc9d57c887cb3499979f5636f6f9b26ecd680957e0a4b31a26a8",
+      "artifact_sha256": "690f38a83a31fa7d480c4373c1ab49c023904002ee23d28891cdf7e3d9b189c9",
+      "context_sha256": "153ca2c8f79367c47583bded67ec47aa72758a2f15c90ca6858e8536cf935910",
+      "decision_sha256": "749ba10ce52a9fe3047161b27a114e8f54a31a173ebfe18c221fe99569333c9d",
+      "qualification_status": "qualified_gpt_responses",
+      "fresh_receipt_key": "974df80bc897069d7d3c8b3a5eaa6b48348a9afa013cf69d470024d319b086ac"
+    }
+  }
+}

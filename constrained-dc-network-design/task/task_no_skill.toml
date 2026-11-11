@@ -1,0 +1,44 @@
+artifacts = [{ source = "/workspace/network_design_recommendation.xlsx", destination = "network_design_recommendation.xlsx" }]
+
+version = "1.0"
+id = "constrained-dc-network-design-no-skill"
+title = "Compact distribution-center footprint and outage recovery"
+instruction = "instruction.md"
+difficulty = "expert"
+language = "en"
+
+[metadata]
+tags = ["supply-chain", "network-design", "facility-location", "outage-recovery", "xlsx", "optimization"]
+
+[verifier]
+timeout_sec = 900.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 900.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/network_design_recommendation.xlsx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

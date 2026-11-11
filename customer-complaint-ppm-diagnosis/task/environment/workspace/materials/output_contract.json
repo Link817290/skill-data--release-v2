@@ -1,0 +1,11 @@
+{
+  "artifact": "output/cppm_diagnosis.xlsx",
+  "worksheets": {
+    "说明": "Source identification, adopted period, data-quality observations and limits of the conclusions.",
+    "月度PPM": "One row per observed month with sales, complaints, overall PPM and product PPM values.",
+    "产品汇总": "One row per product with period sales, complaints, complaint share, aggregate PPM and ratio to overall PPM. A total row is allowed."
+  },
+  "equivalence": "Equivalent column labels and layouts are acceptable when each quantity, product and period is identifiable. Numeric ratios and clearly labelled percentage or multiplier displays are acceptable. Additional relevant analysis within this workbook is allowed.",
+  "source_identity": "Identify the supplied workbook. A source-file hash, when given, refers to that workbook rather than a hidden report or answer.",
+  "scope": "The deliverable is a diagnosis of supplied statistics, not a forecast or an investigation establishing unrecorded causal events."
+}

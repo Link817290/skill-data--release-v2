@@ -1,0 +1,1069 @@
+{
+  "schema_version": "pd-ledger-params-v1",
+  "contract_sha256": "3e9cdbc2f51819c97dff6fe4f89d0e49045e0ae170e4b53d24593c122b751f97",
+  "positive_weights": {
+    "P01": 0.06,
+    "P02": 0.08,
+    "P03": 0.06,
+    "P04": 0.08,
+    "P05": 0.08,
+    "P06": 0.08,
+    "P07": 0.06,
+    "P08": 0.08,
+    "P09": 0.06,
+    "P10": 0.07,
+    "P11": 0.06,
+    "P12": 0.07,
+    "P13": 0.08,
+    "P14": 0.08
+  },
+  "deduction_coefficients": {
+    "D01": 0.7,
+    "D02": 0.7,
+    "D03": 0.7,
+    "D04": 0.7,
+    "D05": 0.7,
+    "D06": 0.7,
+    "D07": 0.7,
+    "D08": 0.7,
+    "D09": 0.7,
+    "D10": 0.7
+  },
+  "assertion_counts": {
+    "P01": 11,
+    "P02": 3,
+    "P03": 3,
+    "P04": 3,
+    "P05": 3,
+    "P06": 3,
+    "P07": 3,
+    "P08": 4,
+    "P09": 3,
+    "P10": 3,
+    "P11": 3,
+    "P12": 5,
+    "P13": 3,
+    "P14": 3
+  },
+  "items": [
+    {
+      "id": "P01",
+      "title": "Shared foundational controls",
+      "weight": 0.06,
+      "topics": [
+        "*"
+      ],
+      "anchors": [
+        "Function Spec p2; SOP paragraphs 43-44; host product p2; manual pp11-12",
+        "SOP paragraphs 226-255,283-296; Function Spec pp44,60",
+        "Function Spec pp8,11,16-17; SOP paragraphs 269-282,431-508; manual pp11-12",
+        "SOP paragraphs 339-352; Function Spec pp30,57; manual p11",
+        "Function Spec p2; SOP paragraphs 202-225",
+        "Test Case Template!D11/F11/H11",
+        "SOP paragraphs273-280",
+        "Test Case Template!D14/F14/H14",
+        "Function Spec PDF pp23-25,58"
+      ],
+      "tag": "test-planning/common-controls",
+      "assertions": [
+        {
+          "id": "power-branch",
+          "description": "Power actions depend on confirmed hardware, not an assumed document priority.",
+          "predicate": "power-branch",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "host-distinction",
+          "description": "Host and supplied accessory facts do not establish DUT compatibility.",
+          "predicate": "host-distinction",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "decision-gate",
+          "description": "Unsupported and unresolved applicability have a documented non-pass disposition.",
+          "predicate": "decision-gate",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "motion-metric",
+          "description": "Measure physical-motion onset to pointer movement with adequate resolution.",
+          "predicate": "motion-metric",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "click-denominator",
+          "description": "Control coordinates and count successful clicks over attempts.",
+          "predicate": "click-denominator",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "back-exit-depth",
+          "description": "Observe Back returning one navigation level and Exit closing the applicable context; complementary controlled button cases may supply the two outcomes.",
+          "predicate": "back-exit-depth",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "voice-repeats",
+          "description": "Retain repeated observations and mean under recorded connection/service conditions.",
+          "predicate": "voice-repeats",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "bt-route",
+          "description": "Prove BT by physical remote movement producing the documented BT-only on-screen pointer motion, or by smart controls while competing IR is verifiably blocked. Ordinary key responses cannot inherit the pointer route.",
+          "predicate": "bt-route",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "wheel-inertia",
+          "description": "Release rapid wheel input and observe continued motion and deceleration to a stop.",
+          "predicate": "wheel-inertia",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D11/F11/H11",
+            "SOP paragraphs273-280"
+          ]
+        },
+        {
+          "id": "audio-external-state",
+          "description": "Observe the actual selected external audio device state rather than the host OSD alone.",
+          "predicate": "audio-external-state",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D14/F14/H14",
+            "Function Spec PDF pp23-25,58"
+          ]
+        },
+        {
+          "id": "risk-priority",
+          "description": "Use a defined risk scale that places primary-control, unsafe-operation or dependency-invalidating work ahead of lower-consequence tests.",
+          "predicate": "risk-priority",
+          "evidence_policy": "Every coherent case carries a recognized priority, the scale has at least two levels, and higher-consequence work is ranked ahead of at least one lower-consequence case."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P02",
+      "title": "Pairing event definitions",
+      "weight": 0.08,
+      "topics": [
+        "pair"
+      ],
+      "anchors": [
+        "SOP paragraphs 149-162; Function Spec pp62-63"
+      ],
+      "tag": "test-planning/pairing-event-definitions",
+      "assertions": [
+        {
+          "id": "pair-endpoints",
+          "description": "Separate trigger, indication, registration and usable-control events.",
+          "predicate": "pair-endpoints",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "pair-authority",
+          "description": "Completion criterion and protocol timeout remain distinct and scoped.",
+          "predicate": "pair-authority",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "pair-repeats",
+          "description": "Repeated attempts start from a controlled unpaired state and include failures.",
+          "predicate": "pair-repeats",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P03",
+      "title": "IR fallback causal proof",
+      "weight": 0.06,
+      "topics": [
+        "fallback"
+      ],
+      "anchors": [
+        "SOP paragraphs 177-188; Function Spec pp2,57,62"
+      ],
+      "tag": "test-planning/ir-fallback-causal-proof",
+      "assertions": [
+        {
+          "id": "bt-absent",
+          "description": "Establish BT unavailability using observed connection or smart-function state.",
+          "predicate": "bt-absent",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "ir-negative-control",
+          "description": "Compare the same basic control with IR open and blocked while BT cannot carry it.",
+          "predicate": "ir-negative-control",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "fallback-recovery",
+          "description": "Restore routes and verify basic and pointer recovery without claiming all keys use IR.",
+          "predicate": "fallback-recovery",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P04",
+      "title": "Interference and non-target observation",
+      "weight": 0.08,
+      "topics": [
+        "interference"
+      ],
+      "anchors": [
+        "SOP paragraphs 189-201; Function Spec pp62-63"
+      ],
+      "tag": "test-planning/interference-and-non-target-observation",
+      "assertions": [
+        {
+          "id": "target-observation",
+          "description": "During the RF interference experiment, observe intended and non-target hosts during the same addressed command.",
+          "predicate": "target-observation",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "route-classification",
+          "description": "Distinguish BT misbinding from shared IR broadcast effects.",
+          "predicate": "route-classification",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "interference-controls",
+          "description": "Compare baseline, interference and restoration with per-phase observations.",
+          "predicate": "interference-controls",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P05",
+      "title": "Power recovery and binding retention",
+      "weight": 0.08,
+      "topics": [
+        "power"
+      ],
+      "anchors": [
+        "Function Spec pp60-63; SOP paragraphs 43-44,549-562,593-608"
+      ],
+      "tag": "test-planning/power-recovery-and-binding-retention",
+      "assertions": [
+        {
+          "id": "safe-power",
+          "description": "Use removable-cell or approved sealed-unit procedure according to identified hardware.",
+          "predicate": "safe-power",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "before-manual-pair",
+          "description": "Check retained binding before manual re-pairing and classify both routes.",
+          "predicate": "before-manual-pair",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "retention-authority",
+          "description": "Do not promote observed recovery to an unqualified persistence or timing guarantee.",
+          "predicate": "retention-authority",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P06",
+      "title": "Pointer motion and timer separation",
+      "weight": 0.08,
+      "topics": [
+        "motion",
+        "sleep"
+      ],
+      "anchors": [
+        "SOP paragraphs 226-255,283-296; Function Spec pp44,60",
+        "Test Case Template!D10",
+        "Function Spec PDF p44; SOP paragraphs227-241"
+      ],
+      "tag": "test-planning/pointer-motion-and-timer-separation",
+      "assertions": [
+        {
+          "id": "hide-endpoint",
+          "description": "Measure the interval from last movement to pointer hiding.",
+          "predicate": "hide-clock",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "wake-endpoint",
+          "description": "Measure the interval from a physical wake stimulus to pointer reappearance.",
+          "predicate": "wake-clock",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "power-timer-distinction",
+          "description": "Distinguish pointer visibility from device power sleep; either independently measure the two objects or explicitly withhold an unmeasured power-sleep inference.",
+          "predicate": "power-timer-distinction",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "pointer-restored-location",
+          "description": "After hidden-pointer motion wake, compare restored screen location with its previous location.",
+          "predicate": "pointer-restored-location",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D10",
+            "Function Spec PDF p44; SOP paragraphs227-241"
+          ]
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P07",
+      "title": "Application and press context controls",
+      "weight": 0.06,
+      "topics": [
+        "wheel",
+        "context"
+      ],
+      "anchors": [
+        "Function Spec pp8,11,16-17; SOP paragraphs 269-282,431-508; manual pp11-12",
+        "Test Case Template!D13/F13/H13",
+        "Function Spec PDF pp20,35; SOP paragraphs509-522"
+      ],
+      "tag": "test-planning/application-and-press-context-controls",
+      "assertions": [
+        {
+          "id": "wheel-context",
+          "description": "Control starting position and qualify app-supported wheel behavior.",
+          "predicate": "wheel-context",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "press-context",
+          "description": "Compare short and timed long presses from the same recorded initial state.",
+          "predicate": "press-context",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "guide-tune",
+          "description": "Select another channel through Guide or its channel list and verify actual tuning.",
+          "predicate": "guide-tune",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D13/F13/H13",
+            "Function Spec PDF pp20,35; SOP paragraphs509-522"
+          ]
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P08",
+      "title": "Voice latency endpoint separation",
+      "weight": 0.08,
+      "topics": [
+        "voice-latency"
+      ],
+      "anchors": [
+        "SOP paragraphs 339-352; Function Spec pp30,57; manual p11",
+        "Test Case Template!D15",
+        "Function Spec p57"
+      ],
+      "tag": "test-planning/voice-latency-endpoint-separation",
+      "assertions": [
+        {
+          "id": "ui-clock",
+          "description": "Measure microphone-key actuation to visible voice UI.",
+          "predicate": "ui-component",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup."
+        },
+        {
+          "id": "action-clock",
+          "description": "Measure microphone-LED-on to executed action independently of the UI clock.",
+          "predicate": "action-component",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "local-cloud",
+          "description": "Classify local and network-dependent series and bind source limits to their endpoints.",
+          "predicate": "local-cloud",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "offline-cloud-branch",
+          "description": "While the host network is disconnected, issue a cloud-dependent command and observe the outcome.",
+          "predicate": "offline-cloud-branch",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D15",
+            "Function Spec p57"
+          ]
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P09",
+      "title": "Recognition and action denominators",
+      "weight": 0.06,
+      "topics": [
+        "recognition"
+      ],
+      "anchors": [
+        "SOP paragraphs 353-374; Function Spec p57"
+      ],
+      "tag": "test-planning/recognition-and-action-denominators",
+      "assertions": [
+        {
+          "id": "attempt-ledger",
+          "description": "Record reference command, recognition, executed action and failed attempts.",
+          "predicate": "attempt-ledger",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "two-rates",
+          "description": "Define recognition and execution correctness over all attempted commands.",
+          "predicate": "two-rates",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "wer-distinction",
+          "description": "If WER is used, its word denominator is distinct from command success.",
+          "conditional_term": "\\b(?:WER|word error rate)\\b",
+          "predicate": "wer-distinction",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P10",
+      "title": "Matched acoustic experiment",
+      "weight": 0.07,
+      "topics": [
+        "noise"
+      ],
+      "anchors": [
+        "SOP paragraphs 375-388; Function Spec p57"
+      ],
+      "tag": "test-planning/matched-acoustic-experiment",
+      "assertions": [
+        {
+          "id": "matched-corpus",
+          "description": "Compare quiet and noise on the same corpus with controlled speaking geometry and network.",
+          "predicate": "matched-corpus",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "acoustic-level",
+          "description": "Measure acoustic level at the microphone rather than substituting volume percentage.",
+          "predicate": "acoustic-level",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "drop-definition",
+          "description": "Distinguish absolute success, percentage-point change and relative loss with zero-baseline handling.",
+          "predicate": "drop-definition",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P11",
+      "title": "Learned IR versus CEC",
+      "weight": 0.06,
+      "topics": [
+        "universal"
+      ],
+      "anchors": [
+        "Function Spec pp58-59"
+      ],
+      "tag": "test-planning/learned-ir-versus-cec",
+      "assertions": [
+        {
+          "id": "unlearned-baseline",
+          "description": "Identify original remote and target, then verify selected unlearned control before learning.",
+          "predicate": "unlearned-baseline",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "cec-isolation",
+          "description": "Disable competing CEC, learn IR, and compare blocked/unblocked IR response.",
+          "predicate": "cec-isolation",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "persistence-evidence",
+          "description": "Retest the stored mapping after a variant-appropriate power cycle and record overwrites.",
+          "predicate": "persistence-evidence",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P12",
+      "title": "Radio geometry and nominal limits",
+      "weight": 0.07,
+      "topics": [
+        "bt-range",
+        "ir-range"
+      ],
+      "anchors": [
+        "Function Spec p2; SOP paragraphs 202-225",
+        "Test Case Template!D20/H20",
+        "SOP paragraphs202-213; Function Spec PDF p2",
+        "Test Case Template!D21/H21: distance/count experiment design",
+        "SOP paragraphs214-225: IR obstruction comparison; Function Spec PDF p2: nominal range"
+      ],
+      "tag": "test-planning/radio-geometry-and-nominal-limits",
+      "assertions": [
+        {
+          "id": "ir-route",
+          "description": "Remove competing BT and compare IR line of sight with obstruction.",
+          "predicate": "ir-route",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "geometry-series",
+          "description": "Hold distance/angle independently and retain per-point counts.",
+          "predicate": "geometry-series",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "nominal-not-guarantee",
+          "description": "Treat nominal range and selected angles as scoped measurements, not universal guarantees.",
+          "predicate": "nominal-not-guarantee",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "bt-distance-ledger",
+          "description": "At multiple measured distances, retain a fixed trial population and observed Bluetooth pointer outcomes.",
+          "predicate": "bt-distance-ledger",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D20/H20",
+            "SOP paragraphs202-213; Function Spec PDF p2"
+          ]
+        },
+        {
+          "id": "ir-distance-ledger",
+          "description": "At multiple measured distances with Bluetooth unavailable, retain basic IR command attempts and host responses.",
+          "predicate": "ir-distance-ledger",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D21/H21: distance/count experiment design",
+            "SOP paragraphs214-225: IR obstruction comparison; Function Spec PDF p2: nominal range"
+          ]
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P13",
+      "title": "Shortcut applicability and endpoint",
+      "weight": 0.08,
+      "topics": [
+        "shortcut"
+      ],
+      "anchors": [
+        "SOP paragraphs 523-534; Function Spec pp31-33; manual pp11-12"
+      ],
+      "tag": "test-planning/shortcut-applicability-and-endpoint",
+      "assertions": [
+        {
+          "id": "shortcut-context",
+          "description": "Confirm physical labels, region, installation and entitlement before testing.",
+          "predicate": "shortcut-context",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "shortcut-branches",
+          "description": "Test installed and unavailable branches from controlled starting state.",
+          "predicate": "shortcut-branches",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        },
+        {
+          "id": "launch-endpoint",
+          "description": "Define press-to-app-ready launch separately from playback and qualify timing authority.",
+          "predicate": "launch-endpoint",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components."
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    },
+    {
+      "id": "P14",
+      "title": "Audio endpoints and isolated external control",
+      "weight": 0.08,
+      "topics": [
+        "*"
+      ],
+      "anchors": [
+        "Test Case Template!D14/F14/H14",
+        "Function Spec PDF pp23-24",
+        "Test Case Template!D14/H14",
+        "Function Spec PDF pp23-25,58",
+        "Test Case Template!D18/H18",
+        "Function Spec PDF pp58-59"
+      ],
+      "tag": "test-planning/audio-endpoints",
+      "assertions": [
+        {
+          "id": "volume-clamp",
+          "description": "Drive volume to both endpoints and verify it stops at each limit without wrapping.",
+          "predicate": "volume-clamp",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D14/F14/H14",
+            "Function Spec PDF pp23-24"
+          ]
+        },
+        {
+          "id": "audio-audible",
+          "description": "Observe the selected external audio output, including sound silencing or restoration; an explicit conditional repeat inherits its sound checks.",
+          "predicate": "audio-audible",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D14/H14",
+            "Function Spec PDF pp23-25,58"
+          ]
+        },
+        {
+          "id": "cec-positive-ir-blocked",
+          "description": "With an external CEC control route active and competing IR blocked, send a representative command and observe the external device response.",
+          "predicate": "cec-positive-ir-blocked",
+          "evidence_policy": "Operative actions and expected observations in one coherent experiment, with declared common configuration and explicitly referenced setup; complementary independent workflows may supply separate event components.",
+          "reference_anchors": [
+            "Test Case Template!D18/H18",
+            "Function Spec PDF pp58-59"
+          ]
+        }
+      ],
+      "completion": "fulfilled applicable assertions / applicable assertions; conditional WER is excluded when unused",
+      "scope": "A coherent test case with its explicitly linked shared setup.",
+      "equivalence": "English synonyms, sheet/column labels, row order and case IDs are open; causal conditions, objects, units and event definitions must remain equivalent.",
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "case-row",
+      "ordinary_omission": "Only the omitted assertion loses positive credit."
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "title": "Unsafe power substitution or sealed-battery opening",
+      "professional_source": "Function Spec p2 and SOP paragraphs 43-44 power-construction conflict",
+      "professional_severity": "safety-critical",
+      "coefficient": 0.7,
+      "topics": [
+        "power",
+        "pair"
+      ],
+      "rules": [
+        {
+          "roles": [
+            "steps"
+          ],
+          "all_patterns": [
+            "(?:open|disassemble|force).{0,45}(?:sealed|non.removable|built.in).{0,35}(?:battery|pack)"
+          ]
+        },
+        {
+          "roles": [
+            "steps"
+          ],
+          "all_patterns": [
+            "(?:replace|substitute).{0,60}(?:USB.?C|lithium).{0,60}(?:AAA|AA batter)"
+          ]
+        }
+      ],
+      "damage_key": "unsafe-power-operation",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "unsafe-power-operation",
+      "damage_instance_key_rule": "unsafe-power-operation",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once."
+    },
+    {
+      "id": "D02",
+      "title": "Unqualified timing or range guarantee",
+      "professional_source": "Function Spec/SOP timing and range anchors under P02, P06, P08, P12 and P13",
+      "professional_severity": "high false-acceptance risk",
+      "coefficient": 0.7,
+      "topics": [
+        "pair",
+        "power",
+        "sleep",
+        "bt-range",
+        "ir-range",
+        "shortcut"
+      ],
+      "rules": [
+        {
+          "roles": [
+            "expected",
+            "acceptance"
+          ],
+          "all_patterns": [
+            "\\b(?:guaranteed|guarantee|every firmware|all variants|all angles|zero blind)\\b.{0,100}(?:100%|\\d+\\s*(?:ms|seconds|s\\b|m\\b))"
+          ]
+        },
+        {
+          "roles": [
+            "expected",
+            "acceptance"
+          ],
+          "all_patterns": [
+            "(?:100%).{0,80}(?:10\\s*m|all angles).{0,80}\\b(?:guaranteed|every|unconditional|all variants)\\b"
+          ]
+        }
+      ],
+      "damage_key": "unsupported-guarantee:{topic}",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "unsupported-guarantee:{topic}",
+      "damage_instance_key_rule": "unsupported-guarantee:{topic}",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once."
+    },
+    {
+      "id": "D03",
+      "title": "Invented execution results",
+      "professional_source": "Instruction prohibits invented executed results; skill separates proposed tests from results",
+      "professional_severity": "critical integrity failure",
+      "coefficient": 0.7,
+      "topics": [
+        "*"
+      ],
+      "kind": "executed-status",
+      "damage_key": "fabricated-execution",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "fabricated-execution",
+      "damage_instance_key_rule": "fabricated-execution",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once."
+    },
+    {
+      "id": "D04",
+      "title": "Wrong protocol attribution",
+      "professional_source": "Function Spec communication-route anchors under P03, P04, P11 and P14",
+      "professional_severity": "high causal misclassification",
+      "coefficient": 0.7,
+      "topics": [
+        "fallback",
+        "universal",
+        "bt-range",
+        "ir-range",
+        "motion",
+        "voice-latency",
+        "recognition",
+        "noise",
+        "*"
+      ],
+      "rules": [
+        {
+          "roles": [
+            "expected",
+            "acceptance"
+          ],
+          "all_patterns": [
+            "\\b(?:pointer|microphone audio|voice audio|audio stream|microphone stream)\\b.{0,40}\\b(?:works?|operates?|carried|transmitted)\\b.{0,30}\\b(?:via|over|through|using)\\b.{0,15}\\b(?:IR|infrared)\\b"
+          ]
+        },
+        {
+          "roles": [
+            "expected",
+            "acceptance"
+          ],
+          "all_patterns": [
+            "\\b(?:CEC|SimpLink)\\b.{0,35}(?:alone|by itself).{0,35}(?:proves?|confirms?).{0,35}(?:learned|learning).{0,15}(?:IR|infrared)"
+          ]
+        }
+      ],
+      "damage_key": "wrong-route:{topic}",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "wrong-route:{topic}",
+      "damage_instance_key_rule": "wrong-route:{topic}",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once."
+    },
+    {
+      "id": "D05",
+      "title": "Universal undocumented feature availability",
+      "professional_source": "Instruction documented-functions scope and skill applicability/authority method",
+      "professional_severity": "high unsupported acceptance claim",
+      "coefficient": 0.7,
+      "topics": [
+        "fallback",
+        "shortcut",
+        "universal"
+      ],
+      "rules": [
+        {
+          "roles": [
+            "expected",
+            "acceptance"
+          ],
+          "all_patterns": [
+            "\\b(?:all|every)\\b.{0,35}\\b(?:buttons?|keys?|apps?|services?)\\b.{0,45}\\b(?:always|guaranteed|universally)\\b.{0,45}\\b(?:IR|available|supported|works?)\\b"
+          ]
+        }
+      ],
+      "damage_key": "invented-availability:{topic}",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "invented-availability:{topic}",
+      "damage_instance_key_rule": "invented-availability:{topic}",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once."
+    },
+    {
+      "id": "D06",
+      "title": "Host facts adopted as DUT specifications",
+      "professional_source": "Function Spec p2 DUT identity versus host product p2 and manual applicability",
+      "professional_severity": "high entity and variant error",
+      "coefficient": 0.7,
+      "topics": [
+        "*"
+      ],
+      "rules": [
+        {
+          "roles": [
+            "preconditions",
+            "expected",
+            "acceptance"
+          ],
+          "all_patterns": [
+            "(?:DUT|remote).{0,30}(?:uses?|requires?|has|is|Bluetooth).{0,25}(?:Bluetooth\\s*5\\.1|2\\s*AA\\s+batteries).{0,60}(?:because|according to|based on).{0,30}(?:TV|host|product datasheet)"
+          ]
+        }
+      ],
+      "damage_key": "host-dut-conflation",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "host-dut-conflation",
+      "damage_instance_key_rule": "host-dut-conflation",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once."
+    },
+    {
+      "id": "D07",
+      "title": "Wrong time origin for a source-bound voice action limit",
+      "professional_source": "Test Case Template D15/H15 and Function Spec pp56-57",
+      "professional_severity": "high endpoint error",
+      "coefficient": 0.7,
+      "topics": [
+        "*"
+      ],
+      "damage_key": "voice-action-clock",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "voice-action-clock",
+      "damage_instance_key_rule": "voice-action-clock",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once.",
+      "kind": "business-relation",
+      "predicate": "wrong-voice-clock",
+      "reference_anchor": "Test Case Template!D15/H15; Function Spec PDF p57: clock; p56: category limits"
+    },
+    {
+      "id": "D08",
+      "title": "Joint action execution substituted for source recognition accuracy",
+      "professional_source": "Test Case Template D16/H16 and Function Spec p57",
+      "professional_severity": "high metric-denominator error",
+      "coefficient": 0.7,
+      "topics": [
+        "*"
+      ],
+      "damage_key": "recognition-population-object",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "recognition-population-object",
+      "damage_instance_key_rule": "recognition-population-object",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once.",
+      "kind": "business-relation",
+      "predicate": "wrong-recognition-metric",
+      "reference_anchor": "Test Case Template!D16/H16; Function Spec PDF p57"
+    },
+    {
+      "id": "D09",
+      "title": "Wrong-device reset or charger removal claimed as remote nonvolatile retention proof",
+      "professional_source": "Test Case Template D18/H18 and Function Spec p59",
+      "professional_severity": "high persistence-proof error",
+      "coefficient": 0.7,
+      "topics": [
+        "*"
+      ],
+      "damage_key": "retention-reset-owner",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "retention-reset-owner",
+      "damage_instance_key_rule": "retention-reset-owner",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once.",
+      "kind": "business-relation",
+      "predicate": "wrong-retention-reset",
+      "reference_anchor": "Test Case Template!D18/H18; Function Spec p59"
+    },
+    {
+      "id": "D10",
+      "title": "Functional pointer or wake proxy claimed as electrical low-power-state proof",
+      "professional_source": "Test Case Template D10/H10 and Function Spec pp44,60",
+      "professional_severity": "high measurement-object error",
+      "coefficient": 0.7,
+      "topics": [
+        "*"
+      ],
+      "damage_key": "electrical-state-proxy",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "affirmative_adopted_error_required": true,
+      "length_contract_id": "case-row",
+      "causal_root_rule": "electrical-state-proxy",
+      "damage_instance_key_rule": "electrical-state-proxy",
+      "manifestation_rule": "Keep every matched case/cell locator; charge the same harm once.",
+      "kind": "business-relation",
+      "predicate": "false-electrical-state",
+      "reference_anchor": "Test Case Template!D10/H10; Function Spec PDF p44: pointer; p60: electrical state"
+    }
+  ],
+  "readiness_contract": {
+    "critical_coverage_groups": {
+      "communication": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P12"
+      ],
+      "pointer": [
+        "P01",
+        "P06",
+        "P12"
+      ],
+      "buttons": [
+        "P07",
+        "P13",
+        "P14"
+      ],
+      "voice": [
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "universal_control": [
+        "P11",
+        "P14"
+      ]
+    },
+    "independent_control_deductions": [
+      "D04",
+      "D07",
+      "D10"
+    ],
+    "fabricated_execution_deduction": "D03",
+    "sources": {
+      "critical_coverage": "Instruction's five named functional domains; at least one substantive item per domain",
+      "independent_controls": "Skill controlled-variable/competing-cause method; D04 route, D07 clock-origin and D10 measurement-object conflation",
+      "no_fabricated_execution": "Instruction no invented results and skill proposed-tests/results separation"
+    },
+    "severity": {
+      "critical_coverage": "high",
+      "independent_controls": "high affirmative conflation; ordinary omission remains continuous only",
+      "no_fabricated_execution": "critical integrity; D03 charged once"
+    }
+  },
+  "normalizations": [
+    "Unicode NFKC; lowercase; whitespace and dash normalization",
+    "Lossless domain synonyms: log/logged/logging -> record; ascertain -> confirm; cursor -> pointer; trial/trials -> attempts",
+    "Equivalent English headers bind semantic roles",
+    "Positive predicates bind operative case content; titles and IDs are non-authoritative",
+    "Declared common execution/configuration rules and source-entity qualifications are workbook-scoped; named setup IDs and sheet!cell references retain original locators without executing formulas",
+    "Quoted, proposed and rejected actions are excluded; adopted negative safety/measurement constraints remain authoritative; deductions require an affirmative proposition within one sentence",
+    "Fixed all-N populations are valid denominators; directed metric arithmetic is checked by bounded exact symbolic rational algebra; an explicitly unused WER is conditionally inapplicable"
+  ],
+  "scoring_revision": "device-balanced-v1.2-20261103"
+}

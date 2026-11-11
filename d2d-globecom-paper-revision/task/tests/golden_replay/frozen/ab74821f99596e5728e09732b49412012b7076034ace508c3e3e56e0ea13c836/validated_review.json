@@ -1,0 +1,354 @@
+{
+  "items": [
+    {
+      "id": "framing",
+      "fraction": 1.0,
+      "quotes": [
+        "Optimal Time Reuse in Cooperative",
+        "    D2D Relaying Networks",
+        "interference management in a cooperative network with D2D",
+        "relays is critical. In this paper, we study the optimal time reuse",
+        "patterns in a cellular network with cooperative D2D relays and",
+        "derive the corresponding optimized relaying strategies. Due to the"
+      ],
+      "reason": "The title explicitly identifies cooperative D2D relaying networks, and the abstract retains the research question of optimizing time-reuse patterns and relaying strategies under interference and exponentially many patterns."
+    },
+    {
+      "id": "support_bound",
+      "fraction": 1.0,
+      "quotes": [
+        "Thus R lies in conv(Q). Let p be the affine dimension of",
+        "conv(Q), so p <= U. Caratheodory gives a representation",
+        "using at most p+1 points. If p < U, this is already at most",
+        "U active patterns. It remains to consider the full-dimensional",
+        "case p = U.",
+        "When p = U, the sum-log objective is strictly increasing on",
+        "the positive effective-rate domain. An optimum is therefore on",
+        "a supporting Pareto face of conv(Q), not in its full-dimensional",
+        "interior. That exposed face has affine dimension at most U-1,",
+        "so Caratheodory applied on the face represents R* with at most",
+        "U points. Together with the p < U case, there exists an optimal"
+      ],
+      "reason": "The proof separates affine dimension p<U, where Caratheodory already uses at most U points, from p=U, where strict monotonicity places the optimum on a supporting face of dimension at most U-1. Both cases yield at most U active patterns."
+    },
+    {
+      "id": "sparsity_bound",
+      "fraction": 1.0,
+      "quotes": [
+        "                   xi = 1, xi ≥0, ∀i, yu,n,i ≥0, ∀u, n, i",
+        "        R = Φ1, · · · , Φ2N−1 x,             (17)",
+        "Thus R lies in conv(Q). Let p be the affine dimension of",
+        "using at most p+1 points. If p < U, this is already at most",
+        "so Caratheodory applied on the face represents R* with at most",
+        "U points. Together with the p < U case, there exists an optimal",
+        "feasible patterns."
+      ],
+      "reason": "The nonnegative normalized profile expresses the effective-rate vector as a convex combination; the dimension-aware representation preserves the optimal effective rates with no more than U nonzero coefficients."
+    },
+    {
+      "id": "caratheodory_dimension",
+      "fraction": 1.0,
+      "quotes": [
+        "To describe the property of the effective data  rate vector",
+        "R := [R1, · · · , RU]T  clearly, we deﬁne the receiving and",
+        "Thus R lies in conv(Q). Let p be the affine dimension of",
+        "conv(Q), so p <= U. Caratheodory gives a representation",
+        "using at most p+1 points. If p < U, this is already at most",
+        "U active patterns. It remains to consider the full-dimensional",
+        "case p = U.",
+        "a supporting Pareto face of conv(Q), not in its full-dimensional",
+        "interior. That exposed face has affine dimension at most U-1,",
+        "so Caratheodory applied on the face represents R* with at most"
+      ],
+      "reason": "Caratheodory is applied to the effective-rate hull with affine dimension p<=U. The proof explicitly handles p<U directly and applies the theorem again on a supporting face when p=U."
+    },
+    {
+      "id": "simplex_dimension",
+      "fraction": 1.0,
+      "quotes": [
+        "When p = U, the sum-log objective is strictly increasing on",
+        "the positive effective-rate domain. An optimum is therefore on",
+        "a supporting Pareto face of conv(Q), not in its full-dimensional",
+        "interior. That exposed face has affine dimension at most U-1,",
+        "so Caratheodory applied on the face represents R* with at most",
+        "U points. Together with the p < U case, there exists an optimal"
+      ],
+      "reason": "The revised proof no longer assumes every Pareto optimum lies on a lower-dimensional face of an arbitrary p-simplex. It uses the p<U count directly and a supporting Pareto face only in the full-dimensional p=U case."
+    },
+    {
+      "id": "candidate_budget",
+      "fraction": 1.0,
+      "quotes": [
+        "               |V| ≤U,                               (20c)",
+        "where V ⊆˜V denotes the candidate set of reuse patterns",
+        "containing at most U  patterns. The problem in (20) is  still",
+        "• P1. Pattern Selection: Determine the pattern set Vt+1 such",
+        "               Vt+1 ⊆˜V, |Vt+1| ≤U;              (21)",
+        "  4:   Obtain ˆVt+1 with {vi∗n}n∈N as (34);",
+        "  5:   Solve (22) with ˆVt+1, obtain xt+1, yt+1, and P t+1;",
+        "  6: Compress to at most U patterns as in (35);",
+        "The union in (34) is temporary and may exceed U patterns. Solve",
+        "(22) on that union. At this optimum, apply Proposition 1 on its",
+        "supporting face: choose nonnegative weights on at most U",
+        "patterns that preserve the effective rate vector, hence the sum-log",
+        "objective. Adopt that compressed allocation and its support as",
+        "V^(t+1) before the next iteration. Threshold trimming alone does",
+        "not guarantee the budget. Thus |V^(t+1)| <= U. (35)"
+      ],
+      "reason": "The iterative formulation imposes |V|<=U, constructs a temporary enlarged union, re-optimizes allocation on it, and then compresses the optimal effective-rate representation to at most U patterns before adopting V^(t+1). It explicitly notes that threshold trimming alone would not guarantee the budget."
+    },
+    {
+      "id": "positive_rate_domain",
+      "fraction": 1.0,
+      "quotes": [
+        "         Ru = ¯Ru −˜Ru+B, Ru > 0, ∀u           (9d)",
+        "           Ru = ¯Ru −˜Ru+B, Ru > 0, ∀u        (10d)",
+        "When p = U, the sum-log objective is strictly increasing on",
+        "the positive effective-rate domain. An optimum is therefore on",
+        "profile x* with ||x*||_0 <= U. This argument uses the effective"
+      ],
+      "reason": "The manuscript limits strict positivity to effective user rates required by the sum-log objective and explicitly disclaims positivity of every intermediate link rate."
+    },
+    {
+      "id": "stale_bound_cleared",
+      "fraction": 1.0,
+      "quotes": [
+        "Proposition 1. There exists one optimal solution to the prob-",
+        "lem in (10) where at most U out of 2N −1 reuse patterns",
+        "                    ∥x∗∥0 ≤U.                    (11)",
+        "               |V| ≤U,                               (20c)",
+        "               Vt+1 ⊆˜V, |Vt+1| ≤U;              (21)",
+        "not guarantee the budget. Thus |V^(t+1)| <= U. (35)",
+        "the network performance ﬁrstly. In particular, we have proved",
+        "that the number of active reuse patterns can be no more",
+        "than the number of users. Secondly, we have put forward a"
+      ],
+      "reason": "All currently adopted dependent statements use the U-pattern bound: the proposition, sparsity inequality, optimization budget, iterative update/compression, and conclusion. No adopted 2U claim remains in the complete candidate."
+    },
+    {
+      "id": "decision_variables",
+      "fraction": 1.0,
+      "quotes": [
+        "yu,n,i ≥0 to denote the fraction of the total duration T",
+        "allocated to user u by server n under reuse pattern i. Clearly,",
+        "Additionally, as in the current cellular networks, each user",
+        "is allowed to be associated to a single server under each",
+        "time  reuse  pattern, which  is  characterized by  zu,n,i,  i.e.",
+        "zu,n,i = 1 indicates user u  is served by server n under",
+        "pattern  i and  zu,n,i =  0 otherwise. Due  to  this  single-",
+        "where the optimization variables x, y, z  are the  overall",
+        "time reuse proﬁle: {xi, ∀i}, the overall user time allocation",
+        "proﬁle: {yu,n,i, ∀u, n, i}, and the DUE association proﬁle:",
+        "{zu,n,i, ∀u, n, i} respectively. Problem (9) is a large knapsack"
+      ],
+      "reason": "The candidate defines x as the reuse profile, y as user time allocation by server and pattern, and binary z as single-server association, and includes their respective normalization, allocation, and association constraints."
+    },
+    {
+      "id": "time_reuse_profile",
+      "fraction": 1.0,
+      "quotes": [
+        "Let xi denote the fraction of the total time duration of length",
+        "T allocated to pattern i. The overall time reuse proﬁle is thus",
+        "given by the vector: x := [x1, · · · , x2N−1]T . In order to get",
+        "the optimal network performance, we need to utilize the whole",
+        "time duration, i.e.",
+        "                            xi = 1.                       (3)",
+        "one time. A server needs to divide the allocated time resource",
+        "under pattern i orthogonally among its served users. We use",
+        "yu,n,i ≥0 to denote the fraction of the total duration T",
+        "allocated to user u by server n under reuse pattern i. Clearly,",
+        "it is bounded as",
+        "                              yu,n,i ≤xi.                     (4)"
+      ],
+      "reason": "Each xi is the fraction of total duration assigned to pattern i, the profile is normalized by sum_i xi=1, and each server's user allocations under that pattern are bounded by xi."
+    },
+    {
+      "id": "log_objective",
+      "fraction": 1.0,
+      "quotes": [
+        "others. The effective data rate of user u  is thus given by",
+        "Ru = ¯Ru −˜R(u+B), where ˜R(u+B) denotes the service data",
+        " maximize      log(Ru)                               (9a)",
+        " subject to  ¯Ru = W           zu,n,i · yu,n,i · cu,n,i, ∀u (9b)",
+        "              ˜Rn = W          zu,n,i · yu,n,i · cu,n,i, ∀n  (9c)",
+        "         Ru = ¯Ru −˜Ru+B, Ru > 0, ∀u           (9d)",
+        "  In this section, we would like to maximize the PF metric",
+        "of the network through optimizing the time reuse proﬁle."
+      ],
+      "reason": "The model defines effective rate as received rate minus relayed service rate and maximizes the genuine proportional-fair objective sum_u log(Ru), subject to the effective-rate equations and Ru>0."
+    },
+    {
+      "id": "hamming_neighbourhood",
+      "fraction": 1.0,
+      "quotes": [
+        "  From Vt, we can deﬁne a set Vtd as",
+        "       Vtd := {v v ∈˜V, ∃v′ ∈Vt, DH(v, v′) ≤d},    (25)",
+        "where d ≤N and DH(v, v′) denotes the Hamming distance",
+        "between patterns v and v′. Furthermore, we add a particular",
+        "pattern set to the candidate pattern set Vt in the (t + 1)-th",
+        "iteration when |Vt| < U, i.e. Vt+1 = Vt  V∗and V∗⊆Vtd",
+        "denotes the pattern set to be included in the (t+1)-th iteration.",
+        "faster convergence, we select N time reuse patterns in each",
+        "iteration. Speciﬁcally, we modify the ON/OFF state of the n-",
+        "th server in each reuse pattern vi ∈Vt as vin := vi ⊕en and",
+        "       ¯Vtn = {vin|vin := vi ⊕en, vi ∈Vt, vi̸ = en}.     (32)"
+      ],
+      "reason": "Candidate generation uses a Hamming-distance neighborhood of the current active set and, for d=1, explicitly forms neighbors by toggling one server's ON/OFF bit with XOR."
+    },
+    {
+      "id": "frank_wolfe",
+      "fraction": 1.0,
+      "quotes": [
+        "Inspired by the pattern selection approach in [12] and the",
+        "Frank-Wolfe method [13], we put forward an iterative pattern",
+        "selection method according to the solution of the following",
+        "(V∗, x∗, y∗) = arg max  max  max ∇yP(xt, yt, Vt)T y.",
+        "Basically,  in  (26), we  identify a  set of reuse patterns  to",
+        "activate by ﬁnding the direction providing the most predom-",
+        "inant improvement in the objective value under the speciﬁed",
+        "constraints. Denoting the (u, n, i)-th entry of the gradient",
+        "vector [∇yP(xt, yt, Vt)]u,n,i by ptu,n,i, we can have",
+        "    ptu,n,i = W · cu,n,i · R−1u −1{n > B} · R−1n−B   .    (27)",
+        "           vi∗= arg max      ptu∗n,i,n,i.            (28)                         vi∈Vtd                       n∈N",
+        "The third maximization is a constrained linear programming",
+        "  τ u,n,i∗  = 1{u = u∗n,i}, where u∗n,i := arg max ptu,n,i.  (30)                                       u",
+        "         max  max     xi     ptu∗n,i,n,i.          (31)           V⊆Vtd x∈G(V)                           i∈I  n∈N",
+        "The problem in (31) is again a constrained LP and the solution",
+        "is: x∗i = 1{vi = vi∗}, vi∗= arg maxvi∈Vtd  n∈N ptu∗n,i,n,i."
+      ],
+      "reason": "The algorithm gives a Frank-Wolfe-inspired linearized objective using the allocation gradient, derives the per-user maximizing allocation and highest-gain pattern, and then re-optimizes resource allocation over the selected candidate set."
+    },
+    {
+      "id": "figure_evidence",
+      "fraction": 1.0,
+      "quotes": [
+        "Fig. 1. A cooperative network with D2D relays. DUE 1 is served by DUE",
+        "2 since its BS-based link is blocked. Both DUE 4 and DUE 5 are served by",
+        "DUE 3 for similar reasons.",
+        "Fig. 2. The active time reuse patterns obtained from the proposed algorithm",
+        "with respect to the network in Fig. 1. Solid color indicates that the particular",
+        "time slot is occupied by the corresponding server.",
+        "of activated time reuse patterns and the fraction of total time",
+        "allocated to each pattern are shown in Fig. 2. The total number",
+        "of active time reuse patterns is 4, which follows Proposition 1.",
+        "Fig. 3. The CDF of 30 DUE effective data rates. Our Alg.: solution with the",
+        "proposed algorithm. Orthogonal: solution with the orthogonal scheme [9]. BS",
+        "only: solution without D2D relays.",
+        "the minimum effective data rate obtained with our algorithm is",
+        "about 5.8Mbps, which is greater than almost 60% and 80% of",
+        "the DUEs with the orthogonal scheme and the BS only scheme",
+        "our proposed algorithm offers signiﬁcant median and tail gains",
+        "relative to the orthogonal scheme. Moreover, our proposed",
+        "algorithm achieves higher GM data rate than the other two",
+        "  Fig. 2(b). User association from the archived allocation figure; continuation",
+        "  of Fig. 2. This preserves the original evidence, without new experiments."
+      ],
+      "reason": "Inspection of the rendered pages confirms the archived evidence set is present: Fig. 1 preserves the BS/DUE topology, walls, blocked links, and relay links; Fig. 2 preserves the server-versus-time allocation with four active intervals and includes the archived user-association plot; Fig. 3 is a populated CDF with labeled axes and the three source-supported curves. The accompanying discussion accurately describes the active patterns, association behavior, tail/median trends, and geometric-mean ordering."
+    },
+    {
+      "id": "authorship_integrity",
+      "fraction": 1.0,
+      "quotes": [
+        "                Zhaowei Zhu, Shengda Jin and Xiliang Luo",
+        "        School of Information Science and Technology, ShanghaiTech University,",
+        "                                   Shanghai, China",
+        "                   Email: luoxl@shanghaitech.edu.cn"
+      ],
+      "reason": "The candidate retains Zhaowei Zhu, Shengda Jin, and Xiliang Luo, with the ShanghaiTech University affiliation and supplied contact email, without replacing or inventing identities."
+    },
+    {
+      "id": "citation_integrity",
+      "fraction": 1.0,
+      "quotes": [
+        "  With the ever-increasing mobile data trafﬁc demands, the",
+        "cellular networks [1]. Different from the base station (BS)-",
+        "mance without interfering distant users [2]. Moreover, due",
+        "to mobile users [3]. When both cellular networks and D2D",
+        "nearby users without careful resource management [4].",
+        "[12] Q. Kuang, W. Utschick, and A. Dotzler, “Optimal joint user association",
+        "    and multi-pattern resource allocation in heterogeneous networks,” IEEE",
+        "    Trans. Signal Process., vol. 64, no. 13, pp. 3388–3401, Jul. 2016.",
+        "[13] M. S. Bazaraa, H. D. Sherali, and C. M. Shetty, Nonlinear Programming:",
+        "    Theory and Algorithms, 3rd ed. Hoboken, NJ, USA: Wiley, 2006.",
+        "[14] D. Bertsimas and J. N. Tsitsiklis, Introduction to Linear Optimization.",
+        "    Belmont, MA, USA: Athena Scientiﬁc, 1997.",
+        "[16]  J. Meinil¨a, P. Ky¨osti, T. J¨ams¨a, and L. Hentil¨a, “WINNER II channel",
+        "    models,” in Radio Technologies and Concepts for IMT-Advanced. Hobo-",
+        "    ken, NJ, USA: Wiley, 2009, pp. 39–92."
+      ],
+      "reason": "Preserved technical and prior-work claims carry numbered citations, and the bibliography supplies corresponding traceable entries, including the optimization, Caratheodory/linear-programming, and channel-model sources accepted by the source contract."
+    },
+    {
+      "id": "capacity_constraint_integrity",
+      "fraction": 1.0,
+      "quotes": [
+        "             xi ≥      zu,n,i · yu,n,i, ∀n, i                 (9f)",
+        "  By allowing fractional user association, we can drop the",
+        "single-server association indicator variable z and rely on y to",
+        "imply the fractional user association proﬁle. Particularly, given",
+        "yu,n,i > 0, we can infer the u-th user is served by the n-th",
+        "server under pattern  i. The relaxed multi-server association",
+        "problem  is shown in (10), whose solution offers an upper",
+        "bound of the problem in  (9). Since the active servers in",
+        "each pattern  i will use  all the available time resources to",
+        "optimize the network performance, the inequalities in (9f)",
+        "indeed become the equalities in (10e).",
+        "               xi =      yu,n,i, ∀n, i                   (10e)",
+        "   F(x) := {y|     yu,n,i = xi, yu,n,i ≥0, ∀u, n, i}.    (24)"
+      ],
+      "reason": "The original single-server problem retains xi>=sum_u z[u,n,i]y[u,n,i], so idling remains allowed. Only after dropping z for the multi-server relaxation does the manuscript use sum_u y[u,n,i]=xi, explicitly identifies that problem as an upper bound, and explains the full-use equality. The algorithm consistently uses that downstream relaxed equality."
+    },
+    {
+      "id": "experimental_integrity",
+      "fraction": 1.0,
+      "quotes": [
+        "                      TABLE I",
+        "   BRUTE-FORCE CVX VS. PROPOSED LOW-COMPLEXITY SOLUTION.",
+        "   (θB, θL)    (8.63, 8.63)    (8.61, 8.51)    (7.12, 7.11)     · · ·     (?, 7.34)",
+        "     (t1, t2)      (735, 20)     (3004, 40)    (10608, 45)     · · ·     (?, 160)",
+        "Fig. 3. The CDF of 30 DUE effective data rates. Our Alg.: solution with the",
+        "proposed algorithm. Orthogonal: solution with the orthogonal scheme [9]. BS",
+        "only: solution without D2D relays.",
+        "  Fig. 2(b). User association from the archived allocation figure; continuation",
+        "  of Fig. 2. This preserves the original evidence, without new experiments."
+      ],
+      "reason": "All reported table values, allocation graphics, topology, and CDF measurements belong to the task-owner-supplied authoritative reference evidence. The appended association caption explicitly states that it preserves archived evidence without new experiments, and no unsupported third experimental data set appears."
+    },
+    {
+      "id": "internal_consistency",
+      "fraction": 1.0,
+      "quotes": [
+        "                    ∥x∗∥0 ≤U.                    (11)",
+        "         ∥x∗∥0 ≤U, R∗= [Φ1, ..., Φ2N−1]x∗.       (19)",
+        "               |V| ≤U,                               (20c)",
+        "               Vt+1 ⊆˜V, |Vt+1| ≤U;              (21)",
+        "  2: While |P t −P t−1| > ϵ2 and |Vt| ≤U",
+        "  6: Compress to at most U patterns as in (35);",
+        "The union in (34) is temporary and may exceed U patterns. Solve",
+        "not guarantee the budget. Thus |V^(t+1)| <= U. (35)",
+        "of active time reuse patterns is 4, which follows Proposition 1.",
+        "the network performance ﬁrstly. In particular, we have proved",
+        "that the number of active reuse patterns can be no more",
+        "than the number of users. Secondly, we have put forward a"
+      ],
+      "reason": "The adopted proposition, sparsity equation, optimization budget, loop condition, temporary-set treatment, compression step, numerical example, and conclusion consistently use the U-pattern result. The temporary union is expressly allowed to exceed U only before rate-preserving compression, so it does not contradict the maintained active-set budget."
+    },
+    {
+      "id": "manuscript_completeness",
+      "fraction": 1.0,
+      "quotes": [
+        "Optimal Time Reuse in Cooperative",
+        "                Zhaowei Zhu, Shengda Jin and Xiliang Luo",
+        "  Abstract—Device-to-device (D2D) communication has become",
+        "                         II. SYSTEM MODEL",
+        "Proof. Suppose we are given one particular optimal solution",
+        "Algorithm 1 Optimal time reuse with D2D relays.",
+        "                V. NUMERICAL RESULTS",
+        "Fig. 3. The CDF of 30 DUE effective data rates. Our Alg.: solution with the",
+        "                  VI. CONCLUSIONS",
+        "                 REFERENCES"
+      ],
+      "reason": "The rendered six-page conference manuscript contains a readable title and author block, abstract, introduction, system model, optimization formulations, substantive proof, complete iterative algorithm, numerical table and figures, conclusion, and bibliography."
+    }
+  ]
+}

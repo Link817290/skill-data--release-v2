@@ -1,0 +1,20 @@
+{
+  "schema_version": "source-manifest-v1",
+  "items": [
+    {
+      "path": "Dockerfile",
+      "sha256": "58d8ef9de51e2382874b275acdf03f42c4fa9a221300d87b7ccf1a1b7f68f816",
+      "bytes": 349
+    },
+    {
+      "path": "workspace/materials/event-proposal.docx",
+      "sha256": "b94fd0f8f051e1433b42f8aefba4962d6af1b166c93ee14828efa767a474ca73",
+      "bytes": 1422043
+    },
+    {
+      "path": "workspace/materials/materials-checklist.xlsx",
+      "sha256": "0379e67c07bf4e8f49e67fd5c1d3ff70a56a836c153b68ce5b7d4ac08ea1691b",
+      "bytes": 9918
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+version = "1.0"
+id = "d2d-globecom-paper-revision-no-skill"
+title = "Cooperative D2D relaying manuscript revision"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+domain = "wireless-communications-academic-revision"
+
+[[artifacts]]
+source = "/workspace/output/revised_manuscript.pdf"
+destination = "output/revised_manuscript.pdf"
+
+[verifier]
+timeout_sec = 300.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_REASONING_EFFORT = "${LLM_JUDGE_REASONING_EFFORT:-high}"
+
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+[agent]
+timeout_sec = 10800.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 2400.0
+
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "solution/reference_manuscript.pdf"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

@@ -1,0 +1,42 @@
+[dataset]
+version = "1.0"
+id = "controlled-device-test-planning"
+task_type = "skill-bench"
+domain = "consumer-electronics-device-testing"
+language = "en"
+status = "packaged"
+task = "task"
+with_skill = "task/task.toml"
+no_skill = "task/task_no_skill.toml"
+instruction = "task/instruction.md"
+materials = "task/environment/workspace/materials"
+deliverable = "/workspace/output/LG_AKB76043105_Test_Case_List_EN.xlsx"
+golden = "golden/LG_AKB76043105_Test_Case_List_EN.xlsx"
+rubric = "RUBRIC.md"
+contract = "task/rubric-contract.json"
+runtime_params = "task/tests/scoring_params.json"
+scoring_entrypoint = "task/tests/test.sh"
+
+[scoring]
+judge = "required_source_bound_mixed"
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+condition_blind = true
+strict = "positive_completion_times_independent_damage_retention"
+lenient = "domain_coverage_and_no_control_conflation_and_no_fabricated_execution"
+fixed_final_score_ceiling = false
+judge_protocol = "openai_responses"
+judge_model = "gpt-5.6-sol"
+golden_replay_status = "exact_golden_only"
+judge_failure = "UNMEASURED"
+
+[scoring.items]
+positive_owners = 14
+damage_owners = 10
+positive_weight_sum = 1.0
+
+[runtime]
+actor_network = "none"
+verifier_network = "public"
+with_skill_path = "/skills"
+artifact_transfer = "/workspace/output"

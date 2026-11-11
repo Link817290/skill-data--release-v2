@@ -1,0 +1,21 @@
+id = "customer-complaint-ppm-diagnosis"
+category = "skill-data"
+track = "bench"
+task_type = "skill-bench"
+deliverable = "output/cppm_diagnosis.xlsx"
+
+[scoring]
+primary_score = "reward"
+dual_score = true
+score_source = "source_verified_content_review"
+settlement_entrypoint = "task/tests/entrypoint.py"
+program_judge = "task/tests/validator.py"
+parameters = "task/tests/scoring_params.json"
+criteria = "task/tests/criteria.json"
+default_review_index = "task/tests/content_judge/index.json"
+evaluation_mode = "request-bound replay with evaluator-side live review on cache miss"
+external_judge_required = true
+unreviewed_artifact_policy = "live evaluator review required on replay miss; no numeric reward for an unmeasured artifact"
+rubric = "RUBRIC.md"
+condition_blind = true
+runtime_llm_client_available = true

@@ -1,0 +1,176 @@
+{
+  "type": "object",
+  "required": [
+    "gate",
+    "semantic",
+    "compliance"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "semantic": {
+      "type": "object",
+      "required": ["passed", "findings"],
+      "additionalProperties": false,
+      "properties": {
+        "passed": {"type": "boolean"},
+        "findings": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": ["where", "quote", "note"],
+            "additionalProperties": false,
+            "properties": {
+              "where": {"type": "string", "maxLength": 400},
+              "quote": {"type": "string", "maxLength": 400},
+              "note": {"type": "string", "maxLength": 400}
+            }
+          }
+        }
+      }
+    },
+    "gate": {
+      "type": "object",
+      "required": [
+        "verdict",
+        "findings"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "verdict": {
+          "enum": [
+            "pass",
+            "zero"
+          ]
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "class",
+              "scope",
+              "where",
+              "note"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "class": {
+                "enum": [
+                  "G01",
+                  "G02",
+                  "G03",
+                  "G04",
+                  "G07",
+                  "G10",
+                  "G11"
+                ]
+              },
+              "where": {
+                "type": "string",
+                "maxLength": 400
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 400
+              },
+              "scope": {
+                "enum": [
+                  "local",
+                  "pervasive"
+                ]
+              }
+            }
+          },
+          "maxItems": 6
+        }
+      }
+    },
+    "compliance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required_present",
+        "prohibited_absent"
+      ],
+      "properties": {
+        "required_present": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "answer",
+            "violations"
+          ],
+          "properties": {
+            "answer": {
+              "enum": [
+                "yes",
+                "no"
+              ]
+            },
+            "violations": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "quote",
+                  "note"
+                ],
+                "properties": {
+                  "quote": {
+                    "type": "string",
+                    "maxLength": 300
+                  },
+                  "note": {
+                    "type": "string",
+                    "maxLength": 300
+                  }
+                }
+              }
+            }
+          }
+        },
+        "prohibited_absent": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "answer",
+            "violations"
+          ],
+          "properties": {
+            "answer": {
+              "enum": [
+                "yes",
+                "no"
+              ]
+            },
+            "violations": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "quote",
+                  "note"
+                ],
+                "properties": {
+                  "quote": {
+                    "type": "string",
+                    "maxLength": 300
+                  },
+                  "note": {
+                    "type": "string",
+                    "maxLength": 300
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

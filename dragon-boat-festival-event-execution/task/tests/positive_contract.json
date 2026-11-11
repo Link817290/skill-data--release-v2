@@ -1,0 +1,236 @@
+{
+  "version": "festival-positive-business-semantics-v3",
+  "rules": [
+    {
+      "id": "setup-test",
+      "source_anchors": [
+        "M B14; L C7/C9; G B5"
+      ],
+      "meaning": "Before public opening, adopt a concrete setup, installation or operational test for the stage, sound or venue equipment. A heading, equipment list or unresolved question is insufficient."
+    },
+    {
+      "id": "inventory-preparation",
+      "source_anchors": [
+        "L C5/C10/C18-20; G B5"
+      ],
+      "meaning": "Before opening, adopt a count/check of required props or materials tied to preparation or custody. Merely listing supplies is insufficient."
+    },
+    {
+      "id": "rehearsal-transition",
+      "source_anchors": [
+        "M B14/B32; G B6"
+      ],
+      "meaning": "Adopt a pre-event full-flow rehearsal or walk-through that checks transitions, movement or handoffs. A performance introduction or vague training label is insufficient."
+    },
+    {
+      "id": "stage-control",
+      "source_anchors": [
+        "L C7/C9/G9/G15; G B19/B28 R3"
+      ],
+      "meaning": "Assign an owner concrete sound/equipment/playback or stage-flow control actions during operation. A title without duty is insufficient."
+    },
+    {
+      "id": "security",
+      "source_anchors": [
+        "M B63; G B19/B28 R5"
+      ],
+      "meaning": "Assign staff a real crowd/order/safety management action for the public area. A role name or static location alone is insufficient."
+    },
+    {
+      "id": "overall-control",
+      "source_anchors": [
+        "L G15; G B19/B28 R7"
+      ],
+      "meaning": "Assign an owner whole-event operating coordination, cross-zone dispatch or decision authority. Local watchkeeping or weather-only duty is insufficient."
+    },
+    {
+      "id": "slot-validation",
+      "source_anchors": [
+        "M B45/B54/B60; L C13; G B21/B31 R2"
+      ],
+      "meaning": "Adopt verification that a participant ticket, booking or voucher matches the actual craft session/time before admission."
+    },
+    {
+      "id": "capacity-enforcement",
+      "source_anchors": [
+        "M B42-44/B51-53; G B21/B31 R3"
+      ],
+      "meaning": "Adopt a session-specific stop/control that enforces no more than forty craft participants; copying the number without an admission action is insufficient."
+    },
+    {
+      "id": "overflow-alternative",
+      "source_anchors": [
+        "M B42-44/B60; G B45"
+      ],
+      "meaning": "When a craft session is full, adopt truthful explanation plus a feasible still-available alternative or non-guaranteeing waitlist."
+    },
+    {
+      "id": "hands-on-demonstration",
+      "source_anchors": [
+        "M B39/B48; L C13; G B21/B31 R2"
+      ],
+      "meaning": "Assign an instructor or teacher a concrete craft technique/process demonstration or teaching action."
+    },
+    {
+      "id": "assistance",
+      "source_anchors": [
+        "L C5/C13; G B21/B31 R2"
+      ],
+      "meaning": "Assign staff concrete craft-material/tool distribution, seating or hands-on guidance; unrelated ticket distribution is insufficient."
+    },
+    {
+      "id": "per-session-reset",
+      "source_anchors": [
+        "M three consecutive slots; L C17; G B21/B31 R2"
+      ],
+      "meaning": "After each craft session and before the next, adopt both work-surface cleanup and tool recovery/count/return."
+    },
+    {
+      "id": "audience-flow",
+      "source_anchors": [
+        "M B63; G B19/B28 R4"
+      ],
+      "meaning": "Assign an owner concrete spectator/visitor flow action such as queueing, diversion, passage protection or orderly seating."
+    },
+    {
+      "id": "conditional-shared-staff",
+      "source_anchors": [
+        "L C13; G B21/B31 R3"
+      ],
+      "meaning": "Resolve simultaneous plaza/hall duties through dedicated coverage, relief/handoff or secondary support explicitly conditional on primary-post coverage."
+    },
+    {
+      "id": "child-supervision",
+      "source_anchors": [
+        "M B20; L scissors C5; G B44"
+      ],
+      "meaning": "Adopt adult/teacher/staff supervision or close assistance while children use tools or perform the craft operation."
+    },
+    {
+      "id": "first-aid-provision",
+      "source_anchors": [
+        "G B43/B44; material-supported tool/participant risks"
+      ],
+      "meaning": "Adopt pre-opening first-aid supplies or assigned confirmation of usable venue response resources/access/contact path."
+    },
+    {
+      "id": "meal-coordination",
+      "source_anchors": [
+        "L G8; G B10/B35"
+      ],
+      "meaning": "Assign an owner concrete meal ordering, quantity, delivery or timing coordination for event staff."
+    },
+    {
+      "id": "continuous-coverage",
+      "source_anchors": [
+        "M morning/afternoon performances; G B35"
+      ],
+      "meaning": "Adopt relief, rotation, handoff or staggered breaks that prevent live operating posts from being abandoned."
+    },
+    {
+      "id": "weather-authority",
+      "source_anchors": [
+        "M outdoor performances; G B42"
+      ],
+      "meaning": "Assign a responsible role authority to decide a conditional weather pause, move, adjustment or termination."
+    },
+    {
+      "id": "weather-communication",
+      "source_anchors": [
+        "M outdoor performances; G B42"
+      ],
+      "meaning": "Adopt communication of a weather decision to affected operating posts, staff or participants."
+    },
+    {
+      "id": "performer-disruption",
+      "source_anchors": [
+        "M actor dependency; G B43"
+      ],
+      "meaning": "For performer/host illness, absence or nonarrival, adopt a concrete replacement, script adjustment, pause, escalation or other executable response."
+    },
+    {
+      "id": "instructor-delay",
+      "source_anchors": [
+        "M handcraft dependency; L C13; G B43"
+      ],
+      "meaning": "For instructor delay/nonarrival, assign a responsible role and concrete participant holding, explanation, contact or interim activity."
+    },
+    {
+      "id": "stage-surface",
+      "source_anchors": [
+        "M plaza performance; G B36"
+      ],
+      "meaning": "Adopt an inspection or concrete control of the stage/performance surface or slip hazard before use."
+    },
+    {
+      "id": "props-cables",
+      "source_anchors": [
+        "L C7; G B36"
+      ],
+      "meaning": "Adopt checks or protective controls for both performance props and electrical/audio cables in the same stage operating context."
+    },
+    {
+      "id": "controlled-access",
+      "source_anchors": [
+        "M controlled interaction; G B36, interpreted without forbidding organized interaction"
+      ],
+      "meaning": "Adopt a real prohibition/control preventing audience, children or unauthorized people entering/crossing the protected stage/work area, while allowing organized interaction."
+    },
+    {
+      "id": "stock-loss",
+      "source_anchors": [
+        "L C17/C18-20; G B48"
+      ],
+      "meaning": "At closeout, adopt a material/stock/tool count or reconciliation that can reveal loss, damage or consumption difference."
+    },
+    {
+      "id": "power-return",
+      "source_anchors": [
+        "L equipment and closeout; G B36/B50"
+      ],
+      "meaning": "At closeout, adopt both equipment power-off and performance-prop return/storage; equipment return alone is insufficient."
+    },
+    {
+      "id": "debrief",
+      "source_anchors": [
+        "two-day event; G B47"
+      ],
+      "meaning": "Adopt a daily/end-of-day issue, exception or unfinished-item debrief/record by an accountable owner."
+    },
+    {
+      "id": "photo-handoff",
+      "source_anchors": [
+        "L C16; G B49"
+      ],
+      "meaning": "Adopt selection/curation of photos and a concrete handoff/submission for publicity or project use."
+    },
+    {
+      "id": "video-review",
+      "source_anchors": [
+        "L C16; G B49"
+      ],
+      "meaning": "Bind an actual video/edit/draft deliverable to review or approval before external publication, or hand it off explicitly for review."
+    },
+    {
+      "id": "admission-lifecycle",
+      "source_anchors": [
+        "M fixed craft sessions and forty-person limit; G experience-session operating rows"
+      ],
+      "meaning": "Adopt the complete session-admission lifecycle: validate entitlement to the exact slot, mark or redeem it against reuse, count actual occupancy against forty, and transfer the confirmed count or status to the teaching team. A reservation check, copied limit or isolated ticket action is partial and does not complete this owner."
+    },
+    {
+      "id": "closeout-accountability",
+      "source_anchors": [
+        "L material and media duties; G daily closeout"
+      ],
+      "meaning": "Adopt all three daily closeout handoffs: material or asset reconciliation with a recipient or reconciliation purpose; unresolved-issue carryover with an owner and next checkpoint or deadline; and selected media handoff with recipient or purpose plus review before external publication. A collection-only checklist or raw-media transfer is partial and does not complete this owner."
+    }
+  ],
+  "shared_boundaries": [
+    "Read the complete candidate document, relevant table row, section context, public instruction and supplied source materials; no keyword, layout or literal title is required.",
+    "passed=true requires an adopted executable duty established by cited candidate evidence. A heading, copied noun list, rubric language, rejected/negated action or unresolved question is insufficient.",
+    "Accept supported Chinese synonyms, reordered prose, coherent related-row evidence, proposed operating methods and pending person identities where the duty itself is adopted.",
+    "Do not invent numeric, staffing, certification, medical, safety or media requirements beyond each declared meaning and supplied sources.",
+    "Return one assessment for every declared rule ID with real candidate evidence IDs. Do not score or infer model/condition identity."
+  ]
+}

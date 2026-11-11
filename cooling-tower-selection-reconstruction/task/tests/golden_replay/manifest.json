@@ -1,0 +1,21 @@
+{
+  "schema_version": "cooling-golden-replay-v2",
+  "scope": "Golden only",
+  "entries": {
+    "4f7b3fe80c04f6527e2e3024e6d5367cbb7f43948248d932a7fb933d392f698f": {
+      "entry": "frozen/4f7b3fe80c04f6527e2e3024e6d5367cbb7f43948248d932a7fb933d392f698f",
+      "files_sha256": {
+        "request.json": "827c9347c694b0dcd507d87ddfd1e1fca9c18d28b9e6a2da1f81a50ca9451ca8",
+        "raw_response.json": "684287e019aec93dcb42313aeb9013c63dcae5e0267965d54fd04b5414c7996f",
+        "validated_review.json": "63275df39011d887a503048d8d3f4cb292e54f0ed79eedc41e88812be84d6988",
+        "validation.json": "b2662c3d7460b783aba30bf088c39d442765129433a2dc5f9a52f066ae5396c6"
+      }
+    }
+  },
+  "provenance": {
+    "origin": "live-openai-responses",
+    "production_model": "gpt-5.6-sol",
+    "credentials_packaged": false,
+    "miss_policy": "fresh or UNMEASURED"
+  }
+}

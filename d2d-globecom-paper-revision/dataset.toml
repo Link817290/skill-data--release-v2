@@ -1,0 +1,39 @@
+version = "1.0"
+id = "d2d-globecom-paper-revision"
+title = "Cooperative D2D relaying manuscript revision"
+task_type = "skill-bench"
+domain = "wireless-communications-academic-revision"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/output/revised_manuscript.pdf"
+required_outputs = ["revised_manuscript.pdf"]
+network_access = false
+task = "task"
+stage = "release"
+reward = "continuous-mixed"
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer_version = "2.2.0"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+settlement = "bounded_additive_with_zero_floor"
+strict_formula = "max(0, sum(weight * completion) - sum(triggered deduction values))"
+lenient_formula = "1 iff native delivery is complete; every correction component equals 1; decision variables and log objective equal 1; at least one original algorithm mechanism equals 1; and every listed integrity item equals 1"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[scoring.judge]
+protocol = "openai_responses"
+endpoint_path = "/v1/responses"
+default_model = "gpt-5.6-sol"
+default_reasoning_effort = "high"
+failure_policy = "UNMEASURED"
+ordinary_candidate_fallback = "none"
+packaged_replay_scope = "exact Golden binding only"
+
+[skills]
+active = ["scientific-manuscript-revision"]

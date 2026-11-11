@@ -1,0 +1,9 @@
+{
+  "version": "ppm-semantic-llm-v1",
+  "model": "gpt-5.6-sol",
+  "protocol": "openai-responses",
+  "max_tokens": 16000,
+  "timeout_sec": 300,
+  "max_attempts": 3,
+  "max_evidence_chars": 800000
+}

@@ -1,0 +1,153 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "customer-complaint-ppm-diagnosis",
+  "tasks": [
+    "customer-complaint-ppm-diagnosis"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 35,
+  "bytes_excluding_manifest": 277817,
+  "scope": "Entire current release package; excludes this manifest and generated runtime state.",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3224,
+      "sha256": "271b2fc54d58f196bc3c8e236657c08e91e389c035dc7d9243eb309e92a4a3be"
+    },
+    "RUBRIC.md": {
+      "bytes": 17774,
+      "sha256": "dd3d040542363b472656c7762fbcea98feeaf5c0c23179c00ea9376934565417"
+    },
+    "dataset.toml": {
+      "bytes": 810,
+      "sha256": "2d0bd12556a308412380b5215009060cdd5438a22f0ddee70a92713bf9458d16"
+    },
+    "golden/cppm_diagnosis.xlsx": {
+      "bytes": 6483,
+      "sha256": "a8a5d87485388493ff1d6c2387a52563c74a1ccfd4673810046575d0b0104afc"
+    },
+    "task/README.md": {
+      "bytes": 270,
+      "sha256": "6631e98f75c8fcbbe506ef84c413beb2241bfce7a2dcf4ca641e0496bf200bcc"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 394,
+      "sha256": "407bb3dcc8839de4052a0dc49e9dfac4fd9c8e25603f8b04d8483d0b2c67d7a0"
+    },
+    "task/environment/skills/ppm-diagnosis/SKILL.md": {
+      "bytes": 3094,
+      "sha256": "b8844ad056c465fce048f5803885133622b8661c8331346923761fef6c37da01"
+    },
+    "task/environment/skills/ppm-diagnosis/references/ppm-arithmetic.md": {
+      "bytes": 1576,
+      "sha256": "5b9c07479b356b7a33a7ff334062bc79090cf8bdafd27cf62d7143f8aa088a77"
+    },
+    "task/environment/skills/ppm-diagnosis/references/product-decomposition.md": {
+      "bytes": 1099,
+      "sha256": "62e80cc5f905e10590d9c5780a25be9dd426f57940a5b8c9f7a279caf4632601"
+    },
+    "task/environment/skills/ppm-diagnosis/references/trend-reading.md": {
+      "bytes": 1004,
+      "sha256": "c4a527c1ba578d55752bf5cbf589e2d4cb5dbe1bedd8b307a9bf8b46109f628a"
+    },
+    "task/environment/workspace/materials/2024年客诉月CPPM统计表.xlsx": {
+      "bytes": 18770,
+      "sha256": "053e425b18ff73288f61f364e1bd86ec3228a51986de5453e7fc5739f3a17e1f"
+    },
+    "task/environment/workspace/materials/output_contract.json": {
+      "bytes": 1014,
+      "sha256": "7f24fbd8597e842c91eb1dabb691f0b3c1b90d7c744827c815da0c7524e9d23e"
+    },
+    "task/instruction.md": {
+      "bytes": 397,
+      "sha256": "3138059a129c5bd6722b616cb368532aebcad53946a23a3a2c351b7d9d4e3c71"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 225,
+      "sha256": "c302fbf1d86081e1f5f8c5b9f36b5d2b352683ca557845474c560d1c7b07bcde"
+    },
+    "task/task.toml": {
+      "bytes": 1207,
+      "sha256": "b4446b40d8bd5ae76bfd8ce9955a30d913e4a81bcc83083fa574022e4550a9ae"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1115,
+      "sha256": "c27277d707c65c7fe91f9d437ac04aef0e5c681b6bc6127f1a7fe3eece9675aa"
+    },
+    "task/tests/content_judge/config.json": {
+      "bytes": 197,
+      "sha256": "b25c805e3efbe8fa15e10cf0781ef661257aef78cf80cfc4e63cc9020a4efc4a"
+    },
+    "task/tests/content_judge/golden_replay/e2a6e4685464d71bb20ac6a0755562a01c6d75b109550262c9d7b71bb4e5891a/response.json": {
+      "bytes": 115725,
+      "sha256": "30d52c523a098c217c058202a64f1366cf95ff8c5a94a3ef52b9d5bf8cb3e267"
+    },
+    "task/tests/content_judge/index.json": {
+      "bytes": 332,
+      "sha256": "31c4d68f298178d2041f5742b9563951473ce7570450cc28215a6e6e907d236d"
+    },
+    "task/tests/content_judge/instruction.md": {
+      "bytes": 397,
+      "sha256": "3138059a129c5bd6722b616cb368532aebcad53946a23a3a2c351b7d9d4e3c71"
+    },
+    "task/tests/content_judge/prompt.md": {
+      "bytes": 4220,
+      "sha256": "2946a100e456059951549658331339629fcf2c020b18c84d9843584f3f4d471d"
+    },
+    "task/tests/content_judge/reference.xlsx": {
+      "bytes": 6483,
+      "sha256": "a8a5d87485388493ff1d6c2387a52563c74a1ccfd4673810046575d0b0104afc"
+    },
+    "task/tests/criteria.json": {
+      "bytes": 6095,
+      "sha256": "a139bda3d574bc9cb0d1908a36ca50fb4d5ffa4a55194ac790389a6a30342f33"
+    },
+    "task/tests/entrypoint.py": {
+      "bytes": 4715,
+      "sha256": "86749e62fc7534152440045ef722e1d858225c76e35d712d5c40904d1658fcb8"
+    },
+    "task/tests/judge_transport.py": {
+      "bytes": 3176,
+      "sha256": "578c28038616c0947a8b1f45330683daf923c71ac696fe1639d4f0bb3dff6580"
+    },
+    "task/tests/materials/2024年客诉月CPPM统计表.xlsx": {
+      "bytes": 18770,
+      "sha256": "053e425b18ff73288f61f364e1bd86ec3228a51986de5453e7fc5739f3a17e1f"
+    },
+    "task/tests/materials/output_contract.json": {
+      "bytes": 1014,
+      "sha256": "7f24fbd8597e842c91eb1dabb691f0b3c1b90d7c744827c815da0c7524e9d23e"
+    },
+    "task/tests/numeric_audit.py": {
+      "bytes": 9200,
+      "sha256": "c72791eb11e4a1a214220fa3ea5bbd2477cee2e14216ce6fee39432c9d9892b3"
+    },
+    "task/tests/review_contract.py": {
+      "bytes": 1887,
+      "sha256": "686a84ad0bf6eeb0b5d8ea42abb348526e326b540724e8a3a16374b1f95f9681"
+    },
+    "task/tests/runtime_assets.py": {
+      "bytes": 1459,
+      "sha256": "bdc47c12deff02db47e8404b87dbd33a084b089851281c2bd15b45a50acf7676"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 3459,
+      "sha256": "8a40a36fb29de3ee810b6f1bd5fabfaeb67791651980f9d317dc8eb554c98ab7"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 14098,
+      "sha256": "d37a9c4d475d79b40b9220b1ca319fed52c640390ca3a4f1eb8a3d7accb459d9"
+    },
+    "task/tests/test.sh": {
+      "bytes": 123,
+      "sha256": "e9f98f53346bad59d11f19268dc62309c8974387dc10e5e6315e2fa32e4a5581"
+    },
+    "task/tests/validator.py": {
+      "bytes": 13818,
+      "sha256": "4d25719a6acfdd398a526b87043028bc3e29a8400b748e8960a4b77c85a46ad8"
+    },
+    "task/tests/workbook_evidence.py": {
+      "bytes": 14193,
+      "sha256": "3f8b21349d045e7db7620fafca1fd96d0b5f927b79c702a448e937ae2cf72f64"
+    }
+  }
+}

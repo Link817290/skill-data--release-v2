@@ -1,0 +1,205 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "complaint-contractor-first-instance-epc-general-contracting",
+  "tasks": [
+    "complaint-contractor-first-instance-epc-general-contracting"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 48,
+  "bytes_excluding_manifest": 17222681,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 4653,
+      "sha256": "ec9421d4a33ce768ed770eadda38a348f9d3032645c03845f434a8f624948a87"
+    },
+    "RUBRIC.md": {
+      "bytes": 10565,
+      "sha256": "424c8e6b19516dc23d7fa149ff8ba7d0f8d0f62bfc597548c1e3f93e6a09168e"
+    },
+    "dataset.toml": {
+      "bytes": 562,
+      "sha256": "3092034ce933db8464b6898f0a9ce4295df5f2ec546eead46d912365e2d1d0d2"
+    },
+    "golden/civil-complaint.md": {
+      "bytes": 3507,
+      "sha256": "32465db144071832211f95ac3a4b96650168af971fe086813e21951bcdc435d8"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 281,
+      "sha256": "c699c202216cb58be4b1bd219aa8b81ac1d791d5effd0f7cd95458fd7aed4ff5"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 307,
+      "sha256": "ffc57289d1af22a5a0583151dfcfec235e3069cf080ae29c0aceb51abf467a0d"
+    },
+    "task/environment/skills/complaint-construction/SKILL.md": {
+      "bytes": 8345,
+      "sha256": "0763ad15e26690cf83bbf8ba1dfa64ec4e1cc9a21eab3afad9cdd8cd17cb8ea2"
+    },
+    "task/environment/skills/complaint-construction/references/construction-changes-and-delay.md": {
+      "bytes": 9514,
+      "sha256": "90248dfe6362fb7c1090e6ad5dc9056694e31a0467d6953469e8e67fdb2d124f"
+    },
+    "task/environment/skills/complaint-construction/references/construction-price-and-priority.md": {
+      "bytes": 9614,
+      "sha256": "416a346c08ffc5a70386e5febe75bc421f0f232efd4cfb069d39ceba9a0c1de4"
+    },
+    "task/environment/skills/complaint-construction/references/construction-termination-parties-forum.md": {
+      "bytes": 6444,
+      "sha256": "6ba4fdb93e042cedd3cfbae3231e29c81c65e798b5cf02715d0df61990f3aa77"
+    },
+    "task/environment/skills/complaint-construction/references/document-form-and-length.md": {
+      "bytes": 7124,
+      "sha256": "1eb2a65f29ec722ba098a9019667be593077b337ad9efca3c48eeef55a145dbc"
+    },
+    "task/environment/skills/complaint-construction/references/drafting-method.md": {
+      "bytes": 11228,
+      "sha256": "35b3105f0243834d726cb6f51084751cd518146bf26dbf12ad078d713e0fddce"
+    },
+    "task/environment/workspace/instruction.md": {
+      "bytes": 437,
+      "sha256": "e4cf3aaa1c7522f3cc70497c54a1c34d211495021e41a6047415026fc51f8cd6"
+    },
+    "task/environment/workspace/materials/1.证据目录.docx": {
+      "bytes": 168261,
+      "sha256": "8be68e96ea927ae04e82d283a1579c476f5907b00406f966062ba79a547fb821"
+    },
+    "task/environment/workspace/materials/2.证据材料.docx": {
+      "bytes": 8172650,
+      "sha256": "4e38373fd1707c01e9cc2e6d289f614b7fd67f0aa162eb5b340b48fdd4019176"
+    },
+    "task/environment/workspace/materials/2.证据材料.docx.ocr.md": {
+      "bytes": 85072,
+      "sha256": "046708ce01e2a7e06ca9ec646f90f254676bc51515bb04d372c09d6436471fcc"
+    },
+    "task/instruction.md": {
+      "bytes": 437,
+      "sha256": "e4cf3aaa1c7522f3cc70497c54a1c34d211495021e41a6047415026fc51f8cd6"
+    },
+    "task/solution/reference/civil-complaint.md": {
+      "bytes": 3507,
+      "sha256": "32465db144071832211f95ac3a4b96650168af971fe086813e21951bcdc435d8"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 343,
+      "sha256": "f2722a93490ab95db8f9a5919df7ce7592376ae63a42fa89371c95496e3f58b8"
+    },
+    "task/task.toml": {
+      "bytes": 1365,
+      "sha256": "8bbd66aaca49858634a3e0bdc9a2123e7361f80ba9580049d8819696ce5eac88"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1353,
+      "sha256": "75b28a6c6eaf5e717b02cb2c5fe86d4ac2d1e4e305a0aa574b5eb7eda9d37fee"
+    },
+    "task/tests/evaluator_adapter.py": {
+      "bytes": 1370,
+      "sha256": "22422b471042e76813bf8cc7c047a7c0f1673d1b8d4a4e8cd4fecb02e946e7c8"
+    },
+    "task/tests/golden_replay/56a8198732d38b2a63a2c5d2f5a12f69621735a2dc5ef871e1aa4f70f4a779ff.json": {
+      "bytes": 2975,
+      "sha256": "a7c389f52b15a1bcdb4dc0143c495dcd5dd99cf77893ea652a90f8642d06adbd"
+    },
+    "task/tests/pjroot/materials/1.证据目录.docx": {
+      "bytes": 168261,
+      "sha256": "8be68e96ea927ae04e82d283a1579c476f5907b00406f966062ba79a547fb821"
+    },
+    "task/tests/pjroot/materials/2.证据材料.docx": {
+      "bytes": 8172650,
+      "sha256": "4e38373fd1707c01e9cc2e6d289f614b7fd67f0aa162eb5b340b48fdd4019176"
+    },
+    "task/tests/pjroot/materials/2.证据材料.docx.ocr.md": {
+      "bytes": 85072,
+      "sha256": "046708ce01e2a7e06ca9ec646f90f254676bc51515bb04d372c09d6436471fcc"
+    },
+    "task/tests/pjroot/materials/3.材料核对说明.txt": {
+      "bytes": 930,
+      "sha256": "bb8fb9b503d4ef9c7448dc4d5fa203df0e8aec7987dbb46d41a6d74bcf587116"
+    },
+    "task/tests/pjroot/rubric-contract.json": {
+      "bytes": 52939,
+      "sha256": "f2c04040813386c30970821701d9ca0ffb376528389e479528971de4a285deaf"
+    },
+    "task/tests/pjroot/task/tests/program_judge/adversarial_guards.py": {
+      "bytes": 7457,
+      "sha256": "830a7efc0067334b05f9ab4862027b44a603acc77ae1d17f3751b4a2378c6068"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/amount_date_article_notation.md": {
+      "bytes": 4722,
+      "sha256": "57edcc313ba88739d14c70de8a62a4e1369fa1bbd2fa75efb968426db09760cd"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/crlf_line_endings.md": {
+      "bytes": 4795,
+      "sha256": "4a38a57afe991235493c3c012b62bd8405527e842a9d99e8aa6bb76c32f2e6fe"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/golden_canonical.md": {
+      "bytes": 4707,
+      "sha256": "7e6fabc57007516f457cfda9f42b502a01a22f63b589769036c45115c117b869"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/heading_list_markup.md": {
+      "bytes": 4816,
+      "sha256": "698ba93f2209ed8566c2e0692b3108f579687f9076ed40df13f72563c424d1ec"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/parse_failure_invalid_utf8.md": {
+      "bytes": 411,
+      "sha256": "f711984e265eed3197eea34e4b2a6a6916977fa61068f35482da88ad797f0872"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/party_block_table.md": {
+      "bytes": 4800,
+      "sha256": "19539d302c2fee11169a0c086b1df81ac553324ade93e1c99f97afc132fc966e"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/party_label_numbering.md": {
+      "bytes": 4730,
+      "sha256": "2087ebded80a6966d0cd91d036db43a81bfa39f6fb08eff3873cfaa3144661c4"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/rollout_html_title_carrier.md": {
+      "bytes": 4758,
+      "sha256": "d80f4aea5b628e998e859b5e16612280957ec827fe245154413193160623fb50"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/rollout_request_subsection_carrier.md": {
+      "bytes": 5147,
+      "sha256": "9c74c8a6ec332704ba31b5dbee6f5af3b58c0e623f6481faee9de16884a68cfa"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/rollout_subsection_list_carrier.md": {
+      "bytes": 5236,
+      "sha256": "899e52aad8abc102a7dbb7998c5d97f4c5750f261e3bf79788202e4a4724e8eb"
+    },
+    "task/tests/pjroot/task/tests/program_judge/judge-conformance-suite.json": {
+      "bytes": 7626,
+      "sha256": "3d9c75123eb7de0cd06fd75faf625b091ebde53ddf9edbc8debb45ead15e0eb1"
+    },
+    "task/tests/pjroot/task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22391,
+      "sha256": "345542bbd899941c12727420a9d069a52b0143f47bbcbd90195773a68794c1bd"
+    },
+    "task/tests/pjroot/task/tests/program_judge/task_judge.py": {
+      "bytes": 81799,
+      "sha256": "abd8939196d85aae8aceb9cdd7c67493ca6a35630c679176679b647ec6e63548"
+    },
+    "task/tests/professional-rules.md": {
+      "bytes": 1193,
+      "sha256": "fe6ed3c4f07eb368dfbac77dbb137215503ed96edaec4630e1f3284630a9dbd9"
+    },
+    "task/tests/review_source_conflicts.txt": {
+      "bytes": 930,
+      "sha256": "bb8fb9b503d4ef9c7448dc4d5fa203df0e8aec7987dbb46d41a6d74bcf587116"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 52939,
+      "sha256": "f2c04040813386c30970821701d9ca0ffb376528389e479528971de4a285deaf"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 7662,
+      "sha256": "36eba4696919a3457aae15ec02f46bef96c16a983d974acb1a74ec7fa82f15e4"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2319,
+      "sha256": "5fa556c99528eea76040a3a5983b917c21fd90b8114e0855d8fa661287cc9cd1"
+    },
+    "task/tests/validator.py": {
+      "bytes": 4477,
+      "sha256": "2325eca630c4976c189898758770306c5e2be507cc42f4b3eed1d958cd8fcd43"
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "P01": {
+    "capability": "dependency-planning",
+    "gold_units": [
+      "U08",
+      "U09",
+      "U10"
+    ],
+    "assertions": [
+      "setup-test",
+      "inventory-preparation",
+      "rehearsal-transition"
+    ]
+  },
+  "P02": {
+    "capability": "role-coordination",
+    "gold_units": [
+      "U28",
+      "U30",
+      "U32"
+    ],
+    "assertions": [
+      "stage-control",
+      "security",
+      "overall-control"
+    ]
+  },
+  "P03": {
+    "capability": "capacity-and-eligibility",
+    "gold_units": [
+      "U36",
+      "U39",
+      "U53"
+    ],
+    "assertions": [
+      "slot-validation",
+      "capacity-enforcement",
+      "overflow-alternative"
+    ]
+  },
+  "P04": {
+    "capability": "session-turnaround",
+    "gold_units": [
+      "U35",
+      "U37",
+      "U38"
+    ],
+    "assertions": [
+      "hands-on-demonstration",
+      "assistance",
+      "per-session-reset"
+    ]
+  },
+  "P05": {
+    "capability": "parallel-work-coordination",
+    "gold_units": [
+      "U29",
+      "U40"
+    ],
+    "assertions": [
+      "audience-flow",
+      "conditional-shared-staff"
+    ]
+  },
+  "P06": {
+    "capability": "risk-control",
+    "gold_units": [
+      "U11",
+      "U51"
+    ],
+    "assertions": [
+      "child-supervision",
+      "first-aid-provision"
+    ]
+  },
+  "P07": {
+    "capability": "staffing-continuity",
+    "gold_units": [
+      "U16",
+      "U43"
+    ],
+    "assertions": [
+      "meal-coordination",
+      "continuous-coverage"
+    ]
+  },
+  "P08": {
+    "capability": "contingency-planning",
+    "gold_units": [
+      "U48"
+    ],
+    "assertions": [
+      "weather-authority",
+      "weather-communication"
+    ]
+  },
+  "P09": {
+    "capability": "contingency-planning",
+    "gold_units": [
+      "U49",
+      "U50"
+    ],
+    "assertions": [
+      "performer-disruption",
+      "instructor-delay"
+    ]
+  },
+  "P10": {
+    "capability": "risk-control",
+    "gold_units": [
+      "U44",
+      "U45"
+    ],
+    "assertions": [
+      "stage-surface",
+      "props-cables",
+      "controlled-access"
+    ]
+  },
+  "P11": {
+    "capability": "asset-and-issue-closure",
+    "gold_units": [
+      "U46",
+      "U54",
+      "U55"
+    ],
+    "assertions": [
+      "stock-loss",
+      "power-return",
+      "debrief"
+    ]
+  },
+  "P12": {
+    "capability": "delivery-closure",
+    "gold_units": [
+      "U56"
+    ],
+    "assertions": [
+      "photo-handoff",
+      "video-review"
+    ]
+  },
+  "P14": {
+    "capability": "capacity-and-eligibility",
+    "gold_units": [
+      "U36",
+      "U39",
+      "U53"
+    ],
+    "assertions": [
+      "admission-lifecycle"
+    ]
+  },
+  "P15": {
+    "capability": "asset-and-issue-closure",
+    "gold_units": [
+      "U46",
+      "U54",
+      "U55",
+      "U56"
+    ],
+    "assertions": [
+      "closeout-accountability"
+    ]
+  }
+}

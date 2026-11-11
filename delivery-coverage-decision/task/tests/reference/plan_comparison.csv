@@ -1,0 +1,7 @@
+﻿plan_id,status,cost_kcny,worst_urgent,worst_served,sum_time_s
+P0,feasible,0,40,358,708439
+P1,feasible,75,40,398,820725
+P2,feasible,85,40,368,792979
+P3,feasible,110,52,445,823962
+P4,feasible,105,57,438,799936
+P5,over_budget,160,,,

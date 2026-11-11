@@ -1,0 +1,26 @@
+{
+  "recommended_plan": "P4",
+  "ranking": [
+    "P4",
+    "P3",
+    "P1",
+    "P2",
+    "P0"
+  ],
+  "budget_kcny": 120,
+  "objective_order": [
+    "maximize_worst_urgent",
+    "maximize_worst_served",
+    "minimize_cost",
+    "minimize_total_time",
+    "plan_id"
+  ],
+  "metrics": {
+    "plan_id": "P4",
+    "status": "feasible",
+    "cost_kcny": 105,
+    "worst_urgent": 57,
+    "worst_served": 438,
+    "sum_time_s": 799936
+  }
+}

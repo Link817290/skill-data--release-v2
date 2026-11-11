@@ -1,0 +1,18 @@
+{
+  "artifact_hashes": {
+    "candidate_report": "f27e93b3e2abf0d0b440f0b884cbd4df6b186d85768117fd14e2c7082d82a8e5",
+    "reference_report": "f27e93b3e2abf0d0b440f0b884cbd4df6b186d85768117fd14e2c7082d82a8e5",
+    "candidate_workbook": "b4647f1f23e4d6bc3d4e6fb1a69c0a6083a43c725dd4cbaca9d1b44e72e4e939",
+    "source/01_运营记录.docx": "c417378800ad066e38c1b7a23cad92efc2bc6aad061b276388257848d598f503",
+    "source/02_作业与接口说明.docx": "13a1f57ed2b3e6cb0219c44ab520eea19be9e8e3058aabb8181c6e3c73fae24b",
+    "source/03_改造报价.docx": "416a367df571e5a65fcb6099bd4ab9f3ca9ac236cc82dfee0b63647d58db0f63",
+    "verified_facts/decision": "35760b75a839446e469a1fd671a4eb37b776c8545f2a2cd402f5e340b37d623e",
+    "verified_facts/data_quality": "6cd113ccfb5048c6b21a1809f81690ad10ecd9288aa4a34bec84920d61fcea51",
+    "verified_facts/plan_comparison": "3555e2e79b8c2101568ed3e6c050bed77df10ea44f426f3a0127e905f8b52450",
+    "verified_facts/scenario_summary": "f4470caa6992352b1acde4a11621e11368f608e7680df271d8bc6f80738daa89"
+  },
+  "request_sha256": "a8d7b65a3114947248e671531388978d6fa6a1b63744bf544a8e6a7005ef4851",
+  "rollout_executed": false,
+  "visual_input": false,
+  "contract_sha256": "6461fd80c5fc61016c0ec1354eac508824d869a1001d40242fa887b0b7af7b1f"
+}

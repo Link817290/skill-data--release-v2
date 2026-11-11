@@ -1,0 +1,165 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "constrained-dc-network-design",
+  "tasks": [
+    "constrained-dc-network-design"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 38,
+  "bytes_excluding_manifest": 23211141,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 4811,
+      "sha256": "b3ebbc1deea1a6f2a28569fa574d220eb291f0d96a8cf0604e299b9d43a1babf"
+    },
+    "RUBRIC.md": {
+      "bytes": 23897,
+      "sha256": "772ed9908e3d9c376b88be072f42d1d3ec2272f81f627ea48372d56de95523bf"
+    },
+    "dataset.toml": {
+      "bytes": 922,
+      "sha256": "7cf581147811a22af81299f432e91f0201b709bcfdc8d1a63bc7825ed3570b31"
+    },
+    "golden/network_design_recommendation.xlsx": {
+      "bytes": 2085297,
+      "sha256": "f7cf949aa16f3677ecba870546554e3cd3d8a796491f59ec698cf499fc99a672"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1000,
+      "sha256": "dfead8187c8aee57952ff6980912084b1abcbab0ff4bf8d8b723ec0ab3888fc6"
+    },
+    "task/environment/skills/capacitated-network-design/SKILL.md": {
+      "bytes": 10848,
+      "sha256": "5644251fb1599b353c775c2d9e72598a52bc26d1cfdc9f71fe7cf460740d0718"
+    },
+    "task/environment/skills/capacitated-network-design/scripts/check_assignment_feasibility.py": {
+      "bytes": 4848,
+      "sha256": "2998a74f548caba96212ee9dcab28202c6d5f10469ea91f09b84f7ba73501cf3"
+    },
+    "task/environment/skills/network-constraint-reconciliation/SKILL.md": {
+      "bytes": 9372,
+      "sha256": "369a95bfa0be2d4cbb0f9d457a36e99d3b6a66376ba8e2725148d2e02db04214"
+    },
+    "task/environment/skills/network-constraint-reconciliation/scripts/profile_relation_tables.py": {
+      "bytes": 3408,
+      "sha256": "838ec30644bd1023d96bf617a73f7f039a2c676b274db9ee2a03c4d900bcd52d"
+    },
+    "task/environment/skills/xlsx-model-assurance/SKILL.md": {
+      "bytes": 8689,
+      "sha256": "42765a52f4de545a0576c60d11046d1f8801f0fdc747e75ff0e8ea12aae9a33f"
+    },
+    "task/environment/skills/xlsx-model-assurance/scripts/audit_xlsx_lineage.py": {
+      "bytes": 3409,
+      "sha256": "34c8010b69ce361d6a466db66dc65de3e999dc3394952b6cc0994edaa980d5fd"
+    },
+    "task/environment/wheels/et_xmlfile-2.0.0-py3-none-any.whl": {
+      "bytes": 18059,
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+    },
+    "task/environment/wheels/openpyxl-3.1.5-py2.py3-none-any.whl": {
+      "bytes": 250910,
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+    },
+    "task/environment/wheels/pulp-3.3.0-py3-none-any.whl": {
+      "bytes": 16387700,
+      "sha256": "dd6ad2d63f196d1254eddf9dcff5cd224912c1f046120cb7c143c5b0eda63fae"
+    },
+    "task/environment/workspace/Supply chain logisitcs problem.xlsx": {
+      "bytes": 680732,
+      "sha256": "9f720721d1959ce69a0ec403006cc703f60e487cbe82d41c8d1ad3d3a2dbe978"
+    },
+    "task/instruction.md": {
+      "bytes": 2073,
+      "sha256": "989f5b6142220f9fead274ce29a7ea355ed190e1e8240d12b397a86d0df83b7e"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 4942,
+      "sha256": "36e4687a58a34c5d7258bc4f1bf4c71f11df029fe91d80c891be88f2460ae299"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 38589,
+      "sha256": "bb55f7968541c17f201ae0ba9db08bfd1edeab410efc39d15d39c049ac2968c5"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 329,
+      "sha256": "cd5abef6e26c4d2ef49ee205c765f02c15270bcd6640cddb04c7511326f36311"
+    },
+    "task/task.toml": {
+      "bytes": 1240,
+      "sha256": "f4b62d004ca3d425940fab18b9bf7e3b6806f8a042a59dec5cc56ae4506bac32"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1219,
+      "sha256": "a43fc10cc8c7fba46194f9490e1ea32bd6aac84fcdc8348c965494017eb9bccd"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 1417257,
+      "sha256": "1136135116026799e4cc71f6a9ef685d215eca6dab5be7c67b83d2f75377be94"
+    },
+    "task/tests/mix_judge/TEMPLATE_SHA": {
+      "bytes": 13,
+      "sha256": "f392ffa725eb9cecd2074a9237a60a044b1a71abd6ed9fe14c38baed65189b7b"
+    },
+    "task/tests/mix_judge/gate.md": {
+      "bytes": 3846,
+      "sha256": "8cc9902a4ab7b4c406d2b91533d6d43cea6d6169814fd8fe0973a81c06c0688b"
+    },
+    "task/tests/mix_judge/gate.schema.json": {
+      "bytes": 4229,
+      "sha256": "da7e4968331baef5ba30398b18b09a6644e89b2d475821dfd3e090e4b66a9aba"
+    },
+    "task/tests/mix_judge/gate_runtime.py": {
+      "bytes": 33882,
+      "sha256": "84149fcfec6e1f1b38f845e3b0cf34e62907a7ab922b36b299a013bbf1981888"
+    },
+    "task/tests/mix_judge/golden_replay/a8d5f03961658598bf3a47be5dffb7893b1e134b6907a60c706552f7e55fdadb.json": {
+      "bytes": 222,
+      "sha256": "6a97f443d791719fc34c3d538eb1c894e37f41d1903314ce5a78a849893885b8"
+    },
+    "task/tests/mix_judge/golden_replay/manifest.json": {
+      "bytes": 479,
+      "sha256": "68086a9b2c2b6428e53d603caeb507fd5cd04e2d6158231270a6a1a8887073ff"
+    },
+    "task/tests/mix_judge/hacks.json": {
+      "bytes": 4772,
+      "sha256": "6fadafb65347912148d87ccc2638cbb51959c79bd3aea1ccdaf5ab6974e01b11"
+    },
+    "task/tests/mix_judge/llm.json": {
+      "bytes": 63,
+      "sha256": "4971c18cf2292ea5056ac80c0927a6e0a7cf668657191e7357001a600bb36832"
+    },
+    "task/tests/mix_judge/package/declared.json": {
+      "bytes": 38,
+      "sha256": "a94ce6ee2b162a18e9996ee2a739aff93201e3d952eba95fe90196e51fdb6e8d"
+    },
+    "task/tests/mix_judge/package/gate_notes.md": {
+      "bytes": 910,
+      "sha256": "399317ad30b2d171971af2e405560cdc52246e1ee409b498396119c95f9adc38"
+    },
+    "task/tests/mix_judge/package/golden/network_design_recommendation.xlsx": {
+      "bytes": 2085297,
+      "sha256": "f7cf949aa16f3677ecba870546554e3cd3d8a796491f59ec698cf499fc99a672"
+    },
+    "task/tests/mix_judge/package/instruction.md": {
+      "bytes": 2073,
+      "sha256": "989f5b6142220f9fead274ce29a7ea355ed190e1e8240d12b397a86d0df83b7e"
+    },
+    "task/tests/mix_judge/package/places.json": {
+      "bytes": 76,
+      "sha256": "653c45b1d3a36ed5b3c9d5b412790bf0809937ea78785a56113d8ff3f37010d4"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 5733,
+      "sha256": "11b5c4aa7e4af816b2b55cc75df65d70689eb9d47f4f536ef4e840d06c2ae81a"
+    },
+    "task/tests/test.sh": {
+      "bytes": 3154,
+      "sha256": "6186a9ff67e47733bd7dd4d1fa7b7178289988ac8e01e3ac4d22a4c034bdbc87"
+    },
+    "task/tests/validator.py": {
+      "bytes": 106803,
+      "sha256": "1b085c98f9649e912b2d118a3cc2203d635c31164e47f61c2e55d1c09bad71f3"
+    }
+  }
+}

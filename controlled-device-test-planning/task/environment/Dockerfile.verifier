@@ -1,0 +1,11 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+RUN python3 -c "import openpyxl" \
+    && test -s /tests/validator.py \
+    && test -s /tests/semantic_relations.py \
+    && test -s /tests/source_bound_judge.py \
+    && test -s /tests/scoring_params.json \
+    && mkdir -p /logs/verifier /logs/artifacts
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1

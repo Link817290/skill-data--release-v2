@@ -1,0 +1,426 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "dimensions",
+    "fatal_flags",
+    "overall_assessment",
+    "confidence",
+    "limitations"
+  ],
+  "properties": {
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "physical_basis",
+        "contact_and_integral",
+        "coupled_selection",
+        "spreadsheet_dependencies",
+        "behavioral_validation"
+      ],
+      "properties": {
+        "physical_basis": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "level",
+            "evidence_step_ids",
+            "evidence_quotes",
+            "reason"
+          ],
+          "properties": {
+            "level": {
+              "type": "integer",
+              "enum": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "evidence_step_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "evidence_quotes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "step_id",
+                  "quote"
+                ],
+                "properties": {
+                  "step_id": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 8
+                  }
+                }
+              }
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "level": {
+                    "minimum": 1
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "evidence_step_ids": {
+                    "minItems": 1
+                  },
+                  "evidence_quotes": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "contact_and_integral": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "level",
+            "evidence_step_ids",
+            "evidence_quotes",
+            "reason"
+          ],
+          "properties": {
+            "level": {
+              "type": "integer",
+              "enum": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "evidence_step_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "evidence_quotes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "step_id",
+                  "quote"
+                ],
+                "properties": {
+                  "step_id": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 8
+                  }
+                }
+              }
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "level": {
+                    "minimum": 1
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "evidence_step_ids": {
+                    "minItems": 1
+                  },
+                  "evidence_quotes": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "coupled_selection": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "level",
+            "evidence_step_ids",
+            "evidence_quotes",
+            "reason"
+          ],
+          "properties": {
+            "level": {
+              "type": "integer",
+              "enum": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "evidence_step_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "evidence_quotes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "step_id",
+                  "quote"
+                ],
+                "properties": {
+                  "step_id": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 8
+                  }
+                }
+              }
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "level": {
+                    "minimum": 1
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "evidence_step_ids": {
+                    "minItems": 1
+                  },
+                  "evidence_quotes": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "spreadsheet_dependencies": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "level",
+            "evidence_step_ids",
+            "evidence_quotes",
+            "reason"
+          ],
+          "properties": {
+            "level": {
+              "type": "integer",
+              "enum": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "evidence_step_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "evidence_quotes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "step_id",
+                  "quote"
+                ],
+                "properties": {
+                  "step_id": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 8
+                  }
+                }
+              }
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "level": {
+                    "minimum": 1
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "evidence_step_ids": {
+                    "minItems": 1
+                  },
+                  "evidence_quotes": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "behavioral_validation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "level",
+            "evidence_step_ids",
+            "evidence_quotes",
+            "reason"
+          ],
+          "properties": {
+            "level": {
+              "type": "integer",
+              "enum": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "evidence_step_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "evidence_quotes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "step_id",
+                  "quote"
+                ],
+                "properties": {
+                  "step_id": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 8
+                  }
+                }
+              }
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "level": {
+                    "minimum": 1
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "evidence_step_ids": {
+                    "minItems": 1
+                  },
+                  "evidence_quotes": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "fatal_flags": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "overall_assessment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "skill-execution-contract-v1",
+  "name": "cooling-tower-sizing-process",
+  "description": "Observable use of the supplied thermal sizing methodology, scored independently of final artifact reward.",
+  "dimensions": [
+    {"id": "physical_basis", "weight": 0.2, "criterion": "Observable implementation distinguishes dry-air mass, wet-air density, total versus per-fan quantities and consistent engineering units."},
+    {"id": "contact_and_integral", "weight": 0.2, "criterion": "Visible calculations or checks pair physically adjacent counterflow endpoint states and check the full driving-force profile before accepting a thermal integral."},
+    {"id": "coupled_selection", "weight": 0.2, "criterion": "Visible work connects candidate feasibility to selected air flow, aerodynamic pressure and installed drive adequacy without forcing a successful result."},
+    {"id": "spreadsheet_dependencies", "weight": 0.2, "criterion": "Observable workbook construction binds derived values to source input cells and maintains coupled recalculation rather than writing a baseline snapshot."},
+    {"id": "behavioral_validation", "weight": 0.2, "criterion": "Visible execution recalculates with a spreadsheet engine and tests distinct boundary changes including a feasibility or adequacy transition."}
+  ],
+  "level_anchors": {
+    "0": "No supporting visible execution, or the trajectory contradicts the method.",
+    "1": "A limited substantive action is visible but most of the dimension is not implemented or checked.",
+    "2": "The main method is partly implemented with visible evidence, but significant basis, coupling or validation gaps remain.",
+    "3": "The method is implemented coherently and supported by visible execution, with a limited remaining gap.",
+    "4": "The method is fully implemented and its relevant behavior is visibly checked with concrete artifacts or execution results."
+  },
+  "judge_rules": [
+    "Judge only supplied observable steps; every nonzero dimension requires supporting visible step IDs.",
+    "Opening, quoting or naming the skill earns no credit by itself.",
+    "Do not infer hidden reasoning, identity, model condition, reward or expected target performance.",
+    "Do not substitute final numerical correctness for evidence of procedural execution.",
+    "Return per-dimension levels and evidence only; the caller computes weighted normalized process score.",
+    "This contract has no fatal caps and cannot alter deterministic artifact reward."
+  ]
+}

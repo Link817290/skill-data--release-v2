@@ -1,0 +1,941 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "v9",
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "P02",
+      "units": [
+        "U05"
+      ],
+      "dimension": "claim_construction",
+      "weight": 0.24,
+      "scope": "request items of the 诉讼请求 section",
+      "object_key": "request.termination",
+      "source_location": "materials/1.证据目录.docx 证据6; golden p[8]",
+      "relation_predicate": "a request item asks that the 《建设项目工程总承包合同》 between B公司 and A公司 be terminated as of service of the complaint copy",
+      "golden_object_key": "U05",
+      "golden_relation_predicate": "判决被告B公司与原告A公司签订《建设项目工程总承包合同》自起诉状副本送达被告时解除",
+      "comparison_mode": "exact",
+      "adoption_status": "an affirmative request item (判令/判决/请求/确认) of the author",
+      "negative_context_exclusions": "negation before the key verb (R02), candidate or alternative markers, quoted or rejected speech, conditional statements, keyword lists, whitespace keyword soup and dense spray spans (R01) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "request_section.item",
+        "metric": "one request item",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "termination of the whole contract or the supported unperformed phase-II scope requested with effect from service of the complaint copy and no other date, and the facts section argues at least one of P10, P12, P13",
+        "partial": "0.5 when that termination request stands but the facts section earns none of P10, P12, P13 (the claim is not argued)",
+        "zero": "no termination request, no service-date effect, a dated termination, a voidness declaration only, or conflicting dates"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; section placement (party block / 诉讼请求 / 事实和理由) is bound because a civil complaint separates parties, claims and reasons",
+      "program_path": "R04 termination_items; N03 dates",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the author's own adopted position, that the object and payer direction match, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "Termination of the disputed unperformed phase-II obligations as of service is accepted, as is a supported whole-contract termination request.",
+      "reasoning_gate": "the employer's unilateral partial termination notice is ineffective (no termination right), so the contractor must seek judicial termination and fix its effective date at service of the complaint (Civil Code art. 565 practice)"
+    },
+    {
+      "id": "P10",
+      "units": [
+        "U16"
+      ],
+      "dimension": "loss_quantification",
+      "weight": 0.3,
+      "scope": "loss enumerations in facts paragraphs where B公司 compensates, or damages request items against B公司",
+      "object_key": "loss.reliance_items",
+      "source_location": "materials/1.证据目录.docx 证据3, 证据11-16; materials/2.证据材料.docx p21-26 二期工程临时设施汇总表 合计2583218.16; golden p[19]",
+      "relation_predicate": "loss items state 二期初步设计费 1,680,000 and 二期临时设施费 2,583,218.16",
+      "golden_object_key": "U16",
+      "golden_relation_predicate": "1.二期初步设计费1,680,000元；2.二期临时设施费2,583,218.16元",
+      "comparison_mode": "exact",
+      "adoption_status": "adopted loss items",
+      "negative_context_exclusions": "negation before the key verb (R02), candidate or alternative markers, quoted or rejected speech, conditional statements, keyword lists, whitespace keyword soup and dense spray spans (R01) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "facts_section.loss_block|request_section.item",
+        "metric": "one loss block (lead paragraph plus directly following enumerated lines) or one damages request item",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "both amounts correct",
+        "partial": "0.5 when one of the two is correct and the other absent or wrong",
+        "zero": "neither, or mixed candidate amounts"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; section placement (party block / 诉讼请求 / 事实和理由) is bound because a civil complaint separates parties, claims and reasons",
+      "program_path": "R08 loss_slot_hits (design, temp) with N02 money",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the author's own adopted position, that the object and payer direction match, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "phase II preliminary design fee 1,680,000 and temporary facilities 2,583,218.16 are compensable losses",
+      "reasoning_gate": "selects reliance losses actually incurred: only the preliminary-design share (35% of the 4.8 million phase II design fee) and the temporary facilities summary total, not the whole design fee"
+    },
+    {
+      "id": "P12",
+      "units": [
+        "U18"
+      ],
+      "dimension": "loss_quantification",
+      "weight": 0.1,
+      "scope": "loss enumerations in facts paragraphs where B公司 compensates, or damages request items against B公司",
+      "object_key": "loss.service_fee_share",
+      "source_location": "materials/1.证据目录.docx 证据10; golden p[19]",
+      "relation_predicate": "a loss item states the bid service fee share 8,487.5",
+      "golden_object_key": "U18",
+      "golden_relation_predicate": "4.二期分摊的中标服务费8,487.5元",
+      "comparison_mode": "exact",
+      "adoption_status": "adopted loss item",
+      "negative_context_exclusions": "negation before the key verb (R02), candidate or alternative markers, quoted or rejected speech, conditional statements, keyword lists, whitespace keyword soup and dense spray spans (R01) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "facts_section.loss_block|request_section.item",
+        "metric": "one loss block (lead paragraph plus directly following enumerated lines) or one damages request item",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "8,487.5 claimed as loss",
+        "partial": "none",
+        "zero": "absent, other amount or mixed"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; section placement (party block / 诉讼请求 / 事实和理由) is bound because a civil complaint separates parties, claims and reasons",
+      "program_path": "R08 loss_slot_hits (fee)",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the author's own adopted position, that the object and payer direction match, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "phase II share 8,487.5 of the 17,500 bid service fee is a loss",
+      "reasoning_gate": "apportions the service fee to phase II instead of claiming the whole 17,500"
+    },
+    {
+      "id": "P13",
+      "units": [
+        "U21"
+      ],
+      "dimension": "legal_reasoning",
+      "weight": 0.16,
+      "scope": "facts paragraphs of the 事实和理由 section",
+      "object_key": "facts.shareholder_liability",
+      "source_location": "materials/1.证据目录.docx 证据17; materials/2.证据材料.docx p71-72; golden p[22]-p[23]",
+      "relation_predicate": "one paragraph or R11 facts block asserts B公司 is a one-person company (or wholly owned by C公司) and C公司 bears joint liability for its debts",
+      "golden_object_key": "U21",
+      "golden_relation_predicate": "B公司是一人有限公司…B公司的股东C公司应当对B公司的债务承担连带责任",
+      "comparison_mode": "exact",
+      "adoption_status": "adopted legal conclusion",
+      "negative_context_exclusions": "negation before the key verb (R02), candidate or alternative markers, quoted or rejected speech, conditional statements, keyword lists, whitespace keyword soup and dense spray spans (R01) earn nothing; subsection titles (numbered short lines, Markdown headings, whole-bold lines) are not read - premise and conclusion come from body lines",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "facts_section.paragraph|facts_section.block",
+        "metric": "one facts paragraph (one line) of at most 700 characters, or one R11 facts block of 2-4 consecutive non-heading lines inside one subsection of at most 700 characters",
+        "max_units": 4
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "premise and conclusion in one paragraph",
+        "partial": "none",
+        "zero": "conclusion on another premise, or missing"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; section placement (party block / 诉讼请求 / 事实和理由) is bound because a civil complaint separates parties, claims and reasons",
+      "program_path": "ONE_PERSON and joint_c (R09) patterns (R09); R11 facts blocks",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the author's own adopted position, that the object and payer direction match, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "B公司 is a one-person company wholly owned by C公司, so C公司 is jointly liable",
+      "reasoning_gate": "connects the credit report's 法人独资 type and sole shareholder to the shareholder-liability rule"
+    },
+    {
+      "id": "P19",
+      "units": [
+        "UF-P19"
+      ],
+      "dimension": "format_request_order",
+      "weight": 0.1,
+      "scope": "诉讼请求 section",
+      "object_key": "format.request_order",
+      "source_location": "golden p[8]-p[11]; instruction.md (Chinese civil complaint)",
+      "relation_predicate": "termination (if any) first; B公司's principal money before the capital occupation fee; both before C公司's joint liability; costs the last, separate item; money, fee, joint liability and costs present",
+      "golden_object_key": "UF-P19",
+      "golden_relation_predicate": "termination (if any) first; B公司's principal money before the capital occupation fee; both before C公司's joint liability; costs the last, separate item; money, fee, joint liability and costs present (Golden satisfies every element)",
+      "comparison_mode": "exact",
+      "negative_context_exclusions": "negation before the key verb (R02), candidate or alternative markers, quoted or rejected speech, conditional statements, keyword lists, whitespace keyword soup and dense spray spans (R01) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "adoption_status": "structural element of the author's own complaint",
+      "evidence_span": {
+        "locator": "诉讼请求 section",
+        "metric": "one section or block",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "every element holds",
+        "partial": "none",
+        "zero": "any element wrong, missing or misplaced"
+      },
+      "dependencies": [],
+      "writing_binding": "order and section placement bound; wording open",
+      "program_path": "R13 eval_p19",
+      "semantic_audit": "check each element against the Golden block and the materials",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "practice of ordering requests main to accessory: 形成之诉 (termination) → principal money → interest/fee → derivative liability of another obligor → litigation costs",
+      "reasoning_gate": "格式、章节、顺序作为独立正分项; 逐要素全对才给分, 无半分"
+    },
+    {
+      "id": "P21",
+      "units": [
+        "UF-P21"
+      ],
+      "dimension": "format_legal_basis_placement",
+      "weight": 0.1,
+      "scope": "事实和理由 section",
+      "object_key": "format.legal_basis_placement",
+      "source_location": "golden p[18], p[21], p[23]; instruction.md (Chinese civil complaint)",
+      "relation_predicate": "Relevant current statutes sit beside the propositions they support; equivalent applicable authorities and several citations in one sentence are accepted. Legal correctness is assessed separately.",
+      "golden_object_key": "UF-P21",
+      "golden_relation_predicate": "at least two of the carrying statutes (民法典第五百八十四条 beside B公司's compensation, 公司法第二十三条 beside C公司's joint liability, 合同编通则解释第二十五条 beside B公司's capital occupation fee) cited, adopted and not negated in the paragraph of their proposition; no sentence cites three or more articles; no separate 法律依据 heading; no repealed 合同法 (Golden satisfies every element)",
+      "comparison_mode": "exact",
+      "negative_context_exclusions": "negation before the key verb (R02), candidate or alternative markers, quoted or rejected speech, conditional statements, keyword lists, whitespace keyword soup and dense spray spans (R01) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "adoption_status": "structural element of the author's own complaint",
+      "evidence_span": {
+        "locator": "事实和理由 section",
+        "metric": "one section or block",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "every element holds",
+        "partial": "none",
+        "zero": "any element wrong, missing or misplaced"
+      },
+      "dependencies": [],
+      "writing_binding": "order and section placement bound; wording open",
+      "program_path": "R13 eval_p21",
+      "semantic_audit": "check each element against the Golden block and the materials",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "practice and the task skill's rule that each statute is bound to the proposition it supports; a closing list of statutes is not a legal basis",
+      "reasoning_gate": "格式、章节、顺序作为独立正分项; 逐要素全对才给分, 无半分"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "trigger": "D公司 or E公司 is named as a defendant, or a request item orders D公司/E公司 to pay or bear liability",
+      "damage_basis": "sues strangers to the EPC contract (the affiliate tenderer or the new contractor), exposing A公司 to dismissal and cost liability against them",
+      "scope": "party block and request items",
+      "object_key": "party.defendants",
+      "source_location": "materials/1.证据目录.docx 证据5, 证据7",
+      "error_predicate": "defendant set contains D or E, or payer zone of a request item names D公司/E公司",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers",
+      "causal_root_rule": "R-party: confusing the re-tender actors with the contracting employer",
+      "damage_instance_key_rule": "wrong_defendant_non_party",
+      "manifestation_rule": "one per party line or request item and entity",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D02",
+      "trigger": "a concrete expected-profit amount is asserted although materials provide no profit rate or cost basis",
+      "damage_basis": "the materials contain no profit rate or cost basis, so an invented figure (e.g. a 6% or 10% rate on the phase II price, or the price difference to E公司's bid) misstates the claim and invites an unsupported quantum",
+      "scope": "facts sentences and request clauses",
+      "object_key": "loss.expected_profit_amount",
+      "source_location": "no material supports the profit figure (unit U17a)",
+      "error_predicate": "profit keyword adjacent to a concrete amount without a gap marker",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers",
+      "causal_root_rule": "R-fabrication-profit: inventing an unsupported quantum instead of marking the gap",
+      "damage_instance_key_rule": "fabricated_expected_profit_amount",
+      "manifestation_rule": "one per line and value",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.7,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D03",
+      "trigger": "a design-fee, temporary-facilities or bid-service-fee loss item carries an amount other than 1,680,000 / 2,583,218.16 / 8,487.5",
+      "damage_basis": "over- or mis-claims reliance losses (e.g. the whole 4.8 million design fee for undone design, or the whole 17,500 fee shared with phase I)",
+      "scope": "loss enumerations in facts paragraphs where B公司 compensates and damages request items against B公司",
+      "object_key": "loss.items",
+      "source_location": "materials/1.证据目录.docx 证据3, 证据10, 证据16",
+      "error_predicate": "loss slot value differs from the evidence-list figure",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers",
+      "causal_root_rule": "R-amount-<slot>: misreading the evidence list for that loss item",
+      "damage_instance_key_rule": "loss_item_amount_<slot> (design, temp and fee are independent damages)",
+      "manifestation_rule": "one per line and slot value",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.6,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D04",
+      "trigger": "the party block states street numbers, 18-character credit codes, phone numbers or representative names not in the materials; identifiers demonstrably present in the independent material copy are excluded",
+      "damage_basis": "invents party identifiers that no material provides instead of marking the gap, risking misidentification of parties",
+      "scope": "party block",
+      "object_key": "party.identifiers",
+      "source_location": "materials contain only masked identifiers (****, 某)",
+      "error_predicate": "party segment without a gap marker carries a digit address, a credit code, a phone number or a non-某 representative name",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers",
+      "causal_root_rule": "R-fabrication-party",
+      "damage_instance_key_rule": "fabricated_party_identifiers",
+      "manifestation_rule": "one per party line and identifier kind",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.5,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D05",
+      "trigger": "the facts section relies on the repealed Contract Law or Company Law art. 63",
+      "damage_basis": "a 2026 complaint on 2024 conduct must rely on the Civil Code and the 2023 Company Law; repealed bases weaken the pleading",
+      "scope": "facts paragraphs",
+      "object_key": "facts.legal_basis",
+      "source_location": "golden p[18], p[23]",
+      "error_predicate": "《合同法》 cited without a repeal note, or 公司法 article 63 cited as current (not when the 30 characters before the article carry a pre-2023 version qualifier: 19xx/2000-2022年修正/修订的《公司法》, 修正前, 修订前, 原《公司法》, 旧《公司法》)",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers; an explicit historical note on a pre-2023 version of the Company Law (e.g. （2018年修正的《公司法》第六十三条作相同规定）) is not reliance on art. 63 as current",
+      "causal_root_rule": "R-law",
+      "damage_instance_key_rule": "repealed_law_basis",
+      "manifestation_rule": "one per paragraph and citation kind",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.8,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D06",
+      "trigger": "the complaint concedes that B公司 had a termination right or that the contract was terminated on 2024-07-08 / by the notice",
+      "damage_basis": "concession destroys the breach and expectation-damages theory and contradicts the termination request",
+      "scope": "request items and facts sentences",
+      "object_key": "facts.termination_validity",
+      "source_location": "materials/1.证据目录.docx 证据6; golden p[17]",
+      "error_predicate": "B公司 享有/有权 解除, termination dated to 2024-07-08, or the notice declared effective, without negation",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers",
+      "causal_root_rule": "R-termination-theory",
+      "damage_instance_key_rule": "conceded_valid_termination",
+      "manifestation_rule": "one per line and pattern",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.8,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D07",
+      "trigger": "a request item uses an LPR multiple above 1, an annual rate above 3.65%, a daily penalty rate or liquidated damages",
+      "damage_basis": "no contract clause in the materials provides a termination penalty or a rate above LPR",
+      "scope": "request items",
+      "object_key": "request.rate",
+      "source_location": "materials/2.证据材料.docx contract scans (no termination liquidated damages clause); golden p[9]",
+      "error_predicate": "request item asserting such a rate or 违约金",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers",
+      "causal_root_rule": "R-rate",
+      "damage_instance_key_rule": "unsupported_rate_or_penalty",
+      "manifestation_rule": "one per request item",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D08",
+      "trigger": "inactive: no source-derived hard length threshold",
+      "damage_basis": "inactive; omissions lose positive credit and copying/language padding are handled separately",
+      "scope": "诉讼请求 and 事实和理由 sections, evaluated separately",
+      "object_key": "shape.S01|shape.S02",
+      "source_location": "golden p[8]-p[11], p[13]-p[24]",
+      "error_predicate": "never triggers",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate or alternative markers, quoted or rejected speech, conditional statements and gap-marked clauses do not trigger; omission never triggers",
+      "damage_instance_key_rule": "none",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_rule": "inactive",
+      "manifestation_rule": "none; never triggers",
+      "length_contract_id": "inactive"
+    },
+    {
+      "id": "D10",
+      "trigger": "an adopted sentence asserts that the preliminary design passed the employer's review, that a payment condition is fulfilled, that B公司 confirmed an amount, reminders, failed negotiation or phase-II acceptance",
+      "damage_basis": "no material records any of these events (evidence 14 only says temporary facilities were considered on the master plan; evidence 16 only says the design was completed)",
+      "scope": "request items and facts sentences",
+      "object_key": "facts.procedure",
+      "source_location": "golden/civil-complaint.md",
+      "error_predicate": "an adopted sentence asserts that the preliminary design passed the employer's review, that a payment condition is fulfilled, that B公司 confirmed an amount, reminders, failed negotiation or phase-II acceptance",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "negative_context_exclusions": "clauses with 视为/无法/不能/未能/尚未/未经/再无/不可能/阻止/拟/待/是否, quotations of 13+ characters, candidate or conditional spans, gap-marked sentences; omission never triggers",
+      "causal_root_rule": "R-fabricated_procedure",
+      "damage_instance_key_rule": "fabricated_procedure",
+      "manifestation_rule": "one per line; one damage instance per candidate",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.8
+    },
+    {
+      "id": "D11",
+      "trigger": "an internal drafting note anywhere in the filing, including a submission-time check/fill reminder",
+      "damage_basis": "the complaint is addressed to the court; notes about the drafting inputs are unrequested and expose the plaintiff's own evidence gaps",
+      "scope": "facts section sentences",
+      "object_key": "facts.extra_content",
+      "source_location": "golden/civil-complaint.md",
+      "error_predicate": "an internal drafting note in the filing: 输入材料, 本案材料未载明, 不在起诉状中/臆造, 证据目录中曾…, 本诉按…重新计算, (说明:…)",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "negative_context_exclusions": "request items (a note inside a request item is not charged here); omission never triggers",
+      "causal_root_rule": "R-drafting_note_in_filing",
+      "damage_instance_key_rule": "drafting_note_in_filing",
+      "manifestation_rule": "one per line; one damage instance per candidate",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.8
+    },
+    {
+      "id": "D12",
+      "trigger": "a 管辖 subsection or sentence arguing jurisdiction, an application for appraisal/audit/court investigation, or an evidence-submission plan",
+      "damage_basis": "the Golden complaint contains none; the instruction asks for a civil complaint, not procedural applications",
+      "scope": "facts section",
+      "object_key": "facts.extra_content",
+      "source_location": "golden/civil-complaint.md",
+      "error_predicate": "a 管辖 subsection or sentence arguing jurisdiction, an application for appraisal/audit/court investigation, or an evidence-submission plan",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "negative_context_exclusions": "negated spans; a costs request naming 鉴定费 is not an application; omission never triggers",
+      "causal_root_rule": "R-unrequested_procedural_content",
+      "damage_instance_key_rule": "unrequested_procedural_content",
+      "manifestation_rule": "one per line; one damage instance per candidate",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9
+    },
+    {
+      "id": "D13",
+      "trigger": "substantial reproduction of source/evidence-list wording instead of concise original pleading; semantic decision without fixed n-gram/share threshold",
+      "damage_basis": "a complaint that splices the evidence list and bundle verbatim does not state the plaintiff's case (Golden share 0.20)",
+      "scope": "facts section body",
+      "object_key": "facts.verbatim_copy",
+      "source_location": "golden/civil-complaint.md",
+      "error_predicate": "source-bound semantic bulk-copy decision",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "negative_context_exclusions": "headings are excluded; the metric is deterministic (R14); omission never triggers",
+      "causal_root_rule": "R-verbatim_material_copy",
+      "damage_instance_key_rule": "verbatim_material_copy",
+      "manifestation_rule": "one semantic causal root",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.8
+    },
+    {
+      "id": "D14",
+      "trigger": "a request or facts sentence of at least 40 Latin letters that make up more than half of its characters (prose not written in Chinese)",
+      "damage_basis": "instruction.md asks for the complaint in Chinese; a PRC court filing whose claims or reasons are written in another language is not a usable complaint",
+      "scope": "request items and facts section",
+      "object_key": "filing.language",
+      "source_location": "instruction.md (Write the complaint in Chinese)",
+      "error_predicate": "some sentence of the 诉讼请求 or 事实和理由 section has >= 40 Latin letters and Latin letters > 50% of its characters",
+      "adoption_status": "any sentence of the filing's own request or facts text",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "negative_context_exclusions": "abbreviations and standard numbers (LPR, EPC, GF-2017-0216) stay far below 40 letters; party block and title are not read",
+      "causal_root_rule": "R-language",
+      "damage_instance_key_rule": "non_chinese_filing",
+      "manifestation_rule": "one per line; one damage instance per filing",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.8
+    },
+    {
+      "adoption_status": "affirmatively adopted request, not quotation or speculation",
+      "negative_context_exclusions": "negated, withdrawn, candidate, quoted or rejected requests are excluded",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "S01",
+      "id": "D15",
+      "trigger": "an adopted 诉讼请求 asks for 优先受偿 over the phase-II loss heads",
+      "damage_basis": "Golden seeks contract breach losses, not construction price; the supplied record does not support a construction-price priority right",
+      "scope": "request items only",
+      "object_key": "request.priority",
+      "source_location": "golden/civil-complaint.md request 2 and facts loss enumeration; materials/1.证据目录.docx; skill construction-price-and-priority.md §7",
+      "error_predicate": "request item contains 优先受偿 and a request verb, without negation or excluded context",
+      "causal_root_rule": "R-priority-loss",
+      "damage_instance_key_rule": "unsupported_priority_claim",
+      "manifestation_rule": "one per filing",
+      "penalty_coefficient": 0.5
+    },
+    {
+      "adoption_status": "affirmatively adopted request, not quotation or speculation",
+      "negative_context_exclusions": "negated, withdrawn, candidate, quoted or rejected requests are excluded",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "S01",
+      "id": "G01",
+      "kind": "gate",
+      "trigger": "Inactive: ordinary omission affects positive completion only",
+      "damage_basis": "Golden request 3 seeks C公司 joint liability; the brief asks for relief against the employer side",
+      "scope": "request items only",
+      "object_key": "request.joint_liability",
+      "source_location": "golden/civil-complaint.md request 3; instruction.md",
+      "error_predicate": "never",
+      "causal_root_rule": "R-joint-request",
+      "damage_instance_key_rule": "gate_joint_request_missing",
+      "manifestation_rule": "one per identified request section when absent",
+      "penalty_coefficient": 0.9
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U03",
+      "golden_proposition": "defendants are B公司 (被告1) and C公司 (被告2); plaintiff A公司",
+      "golden_locator": "golden/civil-complaint.md p[3]-p[6]",
+      "program_item_ids": [
+        "D01",
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U05",
+      "golden_proposition": "判决被告B公司与原告A公司签订《建设项目工程总承包合同》自起诉状副本送达被告时解除",
+      "golden_locator": "golden/civil-complaint.md p[8]",
+      "program_item_ids": [
+        "P02",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U08",
+      "golden_proposition": "判决被告C公司对被告B公司的全部债务承担连带责任",
+      "source_location": "golden/civil-complaint.md request 3",
+      "scored_by": [
+        "G01"
+      ]
+    },
+    {
+      "unit_id": "U07",
+      "golden_proposition": "自合同解除之日起按同期贷款市场报价利率向原告A公司支付资金占用费至实际清偿之日",
+      "golden_locator": "golden/civil-complaint.md p[9], p[21]",
+      "program_item_ids": [
+        "D07"
+      ]
+    },
+    {
+      "unit_id": "U12a",
+      "golden_proposition": "2024年7月8日B公司向A公司发送《合同部分解除通知书》，通知不再实施二期工程",
+      "golden_locator": "golden/civil-complaint.md p[16]",
+      "program_item_ids": [
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U13",
+      "golden_proposition": "因B公司不享有合同解除权，故其擅自将案涉项目二期转由他人实施，并通知A公司解除部分合同的行为构成根本违约",
+      "golden_locator": "golden/civil-complaint.md p[17]",
+      "program_item_ids": [
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U16",
+      "golden_proposition": "1.二期初步设计费1,680,000元；2.二期临时设施费2,583,218.16元",
+      "golden_locator": "golden/civil-complaint.md p[19]",
+      "program_item_ids": [
+        "P10",
+        "D03"
+      ]
+    },
+    {
+      "unit_id": "U17",
+      "golden_proposition": "3.预期利润13,722,526.21元 (amount itself is U17a, not scored)",
+      "golden_locator": "golden/civil-complaint.md p[18]-p[19]",
+      "program_item_ids": [
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U18",
+      "golden_proposition": "4.二期分摊的中标服务费8,487.5元",
+      "golden_locator": "golden/civil-complaint.md p[19]",
+      "program_item_ids": [
+        "P12",
+        "D03"
+      ]
+    },
+    {
+      "unit_id": "U21",
+      "golden_proposition": "B公司是一人有限公司…B公司的股东C公司应当对B公司的债务承担连带责任",
+      "golden_locator": "golden/civil-complaint.md p[22]-p[23]",
+      "program_item_ids": [
+        "P13"
+      ]
+    },
+    {
+      "unit_id": "U22",
+      "golden_proposition": "根据《公司法》第二十三条第三款的规定…C公司应当对B公司的债务承担连带责任",
+      "golden_locator": "golden/civil-complaint.md p[23]",
+      "program_item_ids": [
+        "D05"
+      ]
+    },
+    {
+      "unit_id": "UF-P19",
+      "golden_proposition": "termination (if any) first; B公司's principal money before the capital occupation fee; both before C公司's joint liability; costs the last, separate item; money, fee, joint liability and costs present",
+      "golden_locator": "golden/civil-complaint.md golden p[8]-p[11]",
+      "program_item_ids": [
+        "P19"
+      ]
+    },
+    {
+      "unit_id": "UF-P21",
+      "golden_proposition": "at least two of the carrying statutes (民法典第五百八十四条 beside B公司's compensation, 公司法第二十三条 beside C公司's joint liability, 合同编通则解释第二十五条 beside B公司's capital occupation fee) cited, adopted and not negated in the paragraph of their proposition; no sentence cites three or more articles; no separate 法律依据 heading; no repealed 合同法",
+      "golden_locator": "golden/civil-complaint.md golden p[18], p[21], p[23]",
+      "program_item_ids": [
+        "P21"
+      ]
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "UTF-8 Markdown lines or DOCX body paragraphs and table rows in document order; NFKC fold, drop zero-width characters, Markdown heading/list/emphasis marks and table pipes (cells joined by colon, repeated merged cells collapsed), remove all whitespace"
+      },
+      {
+        "id": "N02",
+        "operation": "money amounts with 元/万元/人民币/¥ and thousands separators to one canonical yuan token; trailing zeros dropped (168万元 = 1,680,000元)"
+      },
+      {
+        "id": "N03",
+        "operation": "dates written as YYYY年M月D日 or YYYY-M-D, YYYY/M/D, YYYY.M.D to one ISO token"
+      },
+      {
+        "id": "N04",
+        "operation": "section headings resolved by alias plus whole-line structure (诉讼请求/诉讼请求事项/请求事项/诉请; 事实和理由/事实与理由/事实及理由/事实、理由/事实理由), optional leading numbering and trailing colon; more than one heading of a kind is unresolved; the facts section ends at a 此致/具状人/附件 line"
+      },
+      {
+        "id": "N05",
+        "operation": "statute article numbers 第X条 and paragraph numbers 第X款 in Chinese or Arabic numerals to article and paragraph tokens"
+      },
+      {
+        "id": "N06",
+        "operation": "fold declared gap markers and bracketed value-slot instructions into one gap token"
+      },
+      {
+        "id": "N07",
+        "operation": "quoted spans of 13 or more characters are replaced by an ellipsis token so quoted statutes or opponents' words never count as the author's assertion; directional quotes pair “…”/「…」, straight ASCII double quotes pair left to right on a line (1st with 2nd, 3rd with 4th), so author text between two short quotations is never folded"
+      },
+      {
+        "id": "N08",
+        "operation": "party labels 原告, 被告, 被告一/1, 第一被告, 被告(一), 第三人 resolve to roles; entity keys are the A-E公司 names at the head of the party value; a numbered defendant label naming one entity is rewritten to 被告<entity> in request and facts text"
+      },
+      {
+        "id": "N09",
+        "operation": "shape counter: non-whitespace characters of section body lines after N01, excluding headings, the document title and clauses containing a gap token"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "a span with six or more enumerated fragments mostly eight characters or shorter, a raw line of eight or more short whitespace- or comma-separated tokens, or a sentence with more than four distinct amounts or three distinct dates is spray and cannot be adopted"
+      },
+      {
+        "id": "R02",
+        "operation": "a span is not adopted when a negation precedes the key verb inside its clause, or it carries candidate/alternative markers, attributed or rejected speech, or a conditional"
+      },
+      {
+        "id": "R03",
+        "operation": "party entries: plaintiff set, defendant set, third parties; an entity in both plaintiff and defendant sets is mixed"
+      },
+      {
+        "id": "R04",
+        "operation": "termination request: request verb before a 合同…解除 phrase (not 解除通知/解除权), not negated and not a voidness declaration; effective point = 起诉状副本送达 or explicit dates; differing signatures across items are mixed candidates; the contract may be identified by its parties before the title (解除原告与(被告N)B公司…签订的《…合同》), and an explicit date immediately followed by 签订/订立/签署/签约/签定 identifies the contract and is not a termination date; a termination confined to part of the contract (…二期…部分, 部分解除) is recorded as partial scope and accepted when supported by the disputed unperformed obligations"
+      },
+      {
+        "id": "R05",
+        "operation": "subject resolution: an entity is a grammatical object when 向/对/给/与/致/通知/和/及/同 or the complement marker 作为 or the prepositional object markers 独立于/区别于/区分于/混同于 (optionally 原告/被告) directly precedes it; the payer of a damages request is the first non-object entity between the request verb and the compensation verb (赔偿/赔付/支付/给付 + loss object); a compensation predicate belongs to B公司 when B公司 is its nearest preceding non-object entity; the verb-to-loss-object window of a damages request is 20 characters (a project name may stand before the object)"
+      },
+      {
+        "id": "R06",
+        "operation": "capital occupation request accepts 资金占用费/利息/逾期付款损失/迟延付款损失 with supported start, LPR and actual-payment end"
+      },
+      {
+        "id": "R07",
+        "operation": "a cited article is attributed to the law name (民法典, 合同编通则…解释, 公司法, 合同法, 民事诉讼法) whose match ends nearest before it in the same paragraph"
+      },
+      {
+        "id": "R08",
+        "operation": "loss items: a loss block is a facts paragraph (at most 700 characters) where B公司 compensates plus the enumerated lines (at most 300 characters) that directly follow it; within a block, or a damages request item against B公司 split at , ; 。 、 and parentheses, a clause with a loss word or an enumerated entry binds design-fee, temporary-facilities, service-fee and expected-profit slots to the adjacent amount; clauses with a gap token are skipped; more than one distinct value per slot is ambiguous; in facts loss blocks a bid-service-fee amount followed in the same sentence by 分摊…amount is the allocation base, not a claimed loss amount"
+      },
+      {
+        "id": "R09",
+        "operation": "joint liability accepts explicit C subject or unambiguous nearby pronoun after C is identified as B sole shareholder"
+      },
+      {
+        "id": "R11",
+        "operation": "facts blocks: besides each single facts line, the conjunction predicate P13 is evaluated over every run of 2-4 consecutive non-heading facts lines inside one subsection whose joined text is at most 700 characters; heading lines (Markdown # headings, whole-bold lines, lines of at most 60 characters starting with 一、 or （一）) separate subsections and never join a block; lines are joined with a sentence stop so no pattern spans two lines, and every component must still come from an adopted, non-excluded sentence"
+      },
+      {
+        "id": "R13",
+        "operation": "format checks: request kinds per item (termination R04, B公司 money R05 damages_items, fee R06, C公司 joint liability R09, costs 诉讼费/受理费/保全费) in item order with offsets; § tokens per sentence"
+      },
+      {
+        "id": "R14",
+        "operation": "verbatim copy share: NFKC, whitespace and punctuation removed; share of facts-body characters covered by 12-character n-grams of the materials (evidence-list and evidence-bundle DOCX XML text and the OCR file)"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "package_id": "01_起诉状/根据案件材料为承包方生成起诉状",
+  "deliverable": {
+    "public_carrier": "artifacts/civil-complaint.md (Markdown, Chinese)",
+    "golden_carrier": "golden/civil-complaint.md"
+  },
+  "golden_deliverable": "civil-complaint.md",
+  "unscored_golden_units": [
+    {
+      "unit_id": "U01",
+      "disposition": "not_scored",
+      "reason": "title 民事起诉状 is format"
+    },
+    {
+      "unit_id": "U02",
+      "disposition": "not_scored",
+      "reason": "A公司 as plaintiff is given by the instruction (acting for the contractor); its address, credit code, contact and representative 范某 are not in the materials; fabrication charged by D04"
+    },
+    {
+      "unit_id": "U04",
+      "disposition": "not_scored",
+      "reason": "defendant addresses, credit codes, representatives (高某 shown as 经理 not 董事 in the credit report; 宋某 and C公司's address absent) are underspecified; fabrication charged by D04"
+    },
+    {
+      "unit_id": "U06a",
+      "disposition": "not_scored",
+      "reason": "total loss 17,994,231.87 depends on the expected-profit figure that no material supports (see U17a); a gap-marked or partial total is not charged"
+    },
+    {
+      "unit_id": "U09",
+      "disposition": "not_scored",
+      "reason": "cost-bearing request is boilerplate completeness"
+    },
+    {
+      "unit_id": "U10",
+      "disposition": "not_scored",
+      "reason": "contract signing date, EPC scope, lump-sum price composition and the 17,500 fee payment are copied from the evidence list (material_explicit background)"
+    },
+    {
+      "unit_id": "U11",
+      "disposition": "not_scored",
+      "reason": "phase I completion 2022-05-06 appears only in the untranscribed header scan of the notice; full payment of phase I settlement and retention by end of 2025 is in no material (underspecified)"
+    },
+    {
+      "unit_id": "U13a",
+      "disposition": "not_scored",
+      "reason": "rhetoric that the breach disrupts the construction market and good faith is not a verifiable proposition"
+    },
+    {
+      "unit_id": "U15",
+      "disposition": "warning_only",
+      "reason": "performance facts (phase II preliminary design done, groundbreaking ceremony preparation, list of temporary facilities) are copied from evidence 11-16; kept for Semantic Audit only"
+    },
+    {
+      "unit_id": "U17a",
+      "disposition": "not_scored",
+      "reason": "expected profit 13,722,526.21 cannot be derived: no profit rate or cost basis appears in any material (it equals 6% of 228,708,770.13 = phase II construction fee 227,691,988.29 - temporary facilities 2,583,218.16 + 3,600,000, a base the materials never state); gap marker expected, fabrication charged by D02"
+    },
+    {
+      "unit_id": "U23",
+      "disposition": "not_scored",
+      "reason": "closing formula, 此致, receiving court 某区人民法院 (not derivable) and signature/date are format"
+    }
+  ],
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[待填写]",
+      "【待填写】",
+      "[待核实]",
+      "【待核实】",
+      "[待计算]",
+      "【待计算】",
+      "[placeholder]",
+      "材料未提供",
+      "未提供",
+      "待补充",
+      "待填写",
+      "待核实",
+      "待计算",
+      "unspecified",
+      "TBD",
+      "【待补】",
+      "[待补]",
+      "待补"
+    ],
+    "normalization_rule_id": "N06",
+    "fabrication_deduction_ids": [
+      "D02",
+      "D04"
+    ],
+    "underspecified_units": [
+      "U02",
+      "U04",
+      "U06a",
+      "U11",
+      "U17a"
+    ]
+  },
+  "normalization_rules": [],
+  "derivation_rules": [],
+  "lenient_gate": {
+    "required_full_positive_items": [
+      "P02",
+      "P10"
+    ],
+    "critical_deductions": [
+      "D01",
+      "D02",
+      "D04",
+      "D05",
+      "D06",
+      "D10",
+      "D11",
+      "D12",
+      "D14",
+      "D15"
+    ],
+    "basis": "minimum judicial-termination and breach/loss chain; no statistical threshold, count threshold, score floor or cap"
+  }
+}

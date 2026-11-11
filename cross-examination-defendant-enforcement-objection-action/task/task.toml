@@ -1,0 +1,51 @@
+artifacts = ["/workspace/artifacts/质证意见.docx"]
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[metadata]
+name = "skill-data"
+instance_id = "cross-examination-defendant-enforcement-objection-action"
+task = "legal-evidence-opinion"
+source_repo = ""
+language = "en"
+programming_language = "python"
+prompt_creation_time = "2026-11-04"
+
+[environment]
+docker_image = "enforcement-evidence-opinion-agent:1.0"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+network_mode = "no-network"
+build_timeout_sec = 600.0
+
+[agent]
+timeout_sec = 3600.0
+
+[verifier]
+timeout_sec = 900.0
+environment_mode = "separate"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-240}"
+
+[verifier.environment]
+docker_image = "enforcement-evidence-opinion-agent:1.0"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+network_mode = "public"
+
+[solution]
+deliverable = "artifacts/质证意见.docx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"

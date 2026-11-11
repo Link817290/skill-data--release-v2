@@ -1,0 +1,572 @@
+{
+  "decisions": [
+    {
+      "assertion_id": "power-branch",
+      "case_keys": [
+        "TC-004",
+        "TC-005",
+        "TC-008"
+      ],
+      "explanation": "Common preconditions require identification of the actual removable-cell or sealed variant before any power action, and the operative cases branch to the supported procedure.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "host-distinction",
+      "case_keys": [
+        "TC-004",
+        "TC-005",
+        "TC-008"
+      ],
+      "explanation": "The common preconditions explicitly state that supplied host and MRM24 facts do not establish DUT power construction or compatibility.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "decision-gate",
+      "case_keys": [
+        "TC-004",
+        "TC-008",
+        "TC-019"
+      ],
+      "explanation": "Unsupported functions are assigned N/A with a basis, while unresolved applicability is held pending and cannot receive a pass/fail disposition.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "motion-metric",
+      "case_keys": [
+        "TC-009"
+      ],
+      "explanation": "The case measures physical-motion onset to first pointer displacement using synchronized video or equivalent instrumentation and records instrument resolution.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "click-denominator",
+      "case_keys": [
+        "TC-009"
+      ],
+      "explanation": "Known targets and fixed screen conditions establish coordinates, while successful target hits and total attempts are retained with positional deviation.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "back-exit-depth",
+      "case_keys": [
+        "TC-012"
+      ],
+      "explanation": "Controlled starting screens are restored between trials, with Back evaluated for one-level return and Exit for leaving the active context.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "voice-repeats",
+      "case_keys": [
+        "TC-015"
+      ],
+      "explanation": "The case records BT, language, account, consent, network and service conditions, repeats the measurements, retains each observation and calculates the mean.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "bt-route",
+      "case_keys": [
+        "TC-020"
+      ],
+      "explanation": "Bluetooth is demonstrated through pointer or smart control while the competing IR route is blocked; ordinary basic-key responses are not used to inherit the pointer route.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "wheel-inertia",
+      "case_keys": [
+        "TC-011"
+      ],
+      "explanation": "The case applies rapid wheel input, releases it, and observes continued motion, deceleration and the final stopped position.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "audio-external-state",
+      "case_keys": [
+        "TC-014"
+      ],
+      "explanation": "The selected external endpoint is observed audibly as well as through OSD state, and the acceptance text rejects OSD-only proof.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "risk-priority",
+      "case_keys": [
+        "TC-004",
+        "TC-005",
+        "TC-007",
+        "TC-009",
+        "TC-014"
+      ],
+      "explanation": "Every case has a recognized P0 or P1 priority, with pairing, fallback and primary pointer-control work ranked P0 ahead of lower-consequence P1 cases.",
+      "fulfilled": true,
+      "item_id": "P01"
+    },
+    {
+      "assertion_id": "pair-endpoints",
+      "case_keys": [
+        "TC-004"
+      ],
+      "explanation": "Synchronized timestamps separately capture the OK trigger, first pairing indication, registration confirmation and first successful control.",
+      "fulfilled": true,
+      "item_id": "P02"
+    },
+    {
+      "assertion_id": "pair-authority",
+      "case_keys": [
+        "TC-004"
+      ],
+      "explanation": "The case keeps user-visible completion, the protocol timeout and the post-deregistration OK window as separately scoped events and clocks.",
+      "fulfilled": true,
+      "item_id": "P02"
+    },
+    {
+      "assertion_id": "pair-repeats",
+      "case_keys": [
+        "TC-004"
+      ],
+      "explanation": "Repeat attempts begin from a cleared binding and retain successes, total attempts, failures, timeouts and retry outcomes.",
+      "fulfilled": true,
+      "item_id": "P02"
+    },
+    {
+      "assertion_id": "bt-absent",
+      "case_keys": [
+        "TC-005"
+      ],
+      "explanation": "Bluetooth unavailability must be verified through connection state or a pointer check before fallback attribution.",
+      "fulfilled": true,
+      "item_id": "P03"
+    },
+    {
+      "assertion_id": "ir-negative-control",
+      "case_keys": [
+        "TC-005"
+      ],
+      "explanation": "The same documented basic command is compared with IR unobstructed and blocked while Bluetooth remains unavailable.",
+      "fulfilled": true,
+      "item_id": "P03"
+    },
+    {
+      "assertion_id": "fallback-recovery",
+      "case_keys": [
+        "TC-005"
+      ],
+      "explanation": "The case restores IR and Bluetooth, repeats basic-button and pointer checks, and limits the IR conclusion to the verified basic keys.",
+      "fulfilled": true,
+      "item_id": "P03"
+    },
+    {
+      "assertion_id": "target-observation",
+      "case_keys": [
+        "TC-007"
+      ],
+      "explanation": "A BT-addressed pointer or smart command is sent while target and non-target TVs are observed concurrently.",
+      "fulfilled": true,
+      "item_id": "P04"
+    },
+    {
+      "assertion_id": "route-classification",
+      "case_keys": [
+        "TC-007"
+      ],
+      "explanation": "BT-addressed observations are separated from basic IR trials, and shared IR responses are explicitly excluded from BT-misbinding classification.",
+      "fulfilled": true,
+      "item_id": "P04"
+    },
+    {
+      "assertion_id": "interference-controls",
+      "case_keys": [
+        "TC-007"
+      ],
+      "explanation": "The procedure records a no-interference baseline, an interference phase and a restoration repeat with phase-specific counts and events.",
+      "fulfilled": true,
+      "item_id": "P04"
+    },
+    {
+      "assertion_id": "safe-power",
+      "case_keys": [
+        "TC-008"
+      ],
+      "explanation": "Removable cells are handled only on the confirmed removable-cell variant; sealed variants use an approved external procedure or remain pending and are never opened.",
+      "fulfilled": true,
+      "item_id": "P05"
+    },
+    {
+      "assertion_id": "before-manual-pair",
+      "case_keys": [
+        "TC-008"
+      ],
+      "explanation": "Retained binding and pointer resumption are checked before pressing OK, with auto-reconnect and manual re-pair routes recorded separately.",
+      "fulfilled": true,
+      "item_id": "P05"
+    },
+    {
+      "assertion_id": "retention-authority",
+      "case_keys": [
+        "TC-008"
+      ],
+      "explanation": "The case records observed route and elapsed time while explicitly refusing to infer universal persistence or a recovery deadline from power restoration.",
+      "fulfilled": true,
+      "item_id": "P05"
+    },
+    {
+      "assertion_id": "hide-endpoint",
+      "case_keys": [
+        "TC-010"
+      ],
+      "explanation": "hide-endpoint independently satisfied by the Golden pointer timing cases.",
+      "fulfilled": true,
+      "item_id": "P06"
+    },
+    {
+      "assertion_id": "wake-endpoint",
+      "case_keys": [
+        "TC-010"
+      ],
+      "explanation": "wake-endpoint independently satisfied by the Golden pointer timing cases.",
+      "fulfilled": true,
+      "item_id": "P06"
+    },
+    {
+      "assertion_id": "power-timer-distinction",
+      "case_keys": [
+        "TC-010"
+      ],
+      "explanation": "Pointer visibility is explicitly separated from remote current or power sleep, and the acceptance criteria prohibit merging their distinct timers.",
+      "fulfilled": true,
+      "item_id": "P06"
+    },
+    {
+      "assertion_id": "pointer-restored-location",
+      "case_keys": [
+        "TC-010"
+      ],
+      "explanation": "Screen coordinates are recorded before disappearance and compared with the coordinates restored after a controlled motion-only wake.",
+      "fulfilled": true,
+      "item_id": "P06"
+    },
+    {
+      "assertion_id": "wheel-context",
+      "case_keys": [
+        "TC-011"
+      ],
+      "explanation": "Known scrollable and wheel-supported contexts are selected, starting position is held or restored, and unsupported seeking is classified N/A.",
+      "fulfilled": true,
+      "item_id": "P07"
+    },
+    {
+      "assertion_id": "press-context",
+      "case_keys": [
+        "TC-012"
+      ],
+      "explanation": "Short and separately timed long presses are compared after resetting to the same recorded starting screen.",
+      "fulfilled": true,
+      "item_id": "P07"
+    },
+    {
+      "assertion_id": "guide-tune",
+      "case_keys": [
+        "TC-013"
+      ],
+      "explanation": "The case selects a different listed channel through the channel list or guide and confirms the actual resulting programme.",
+      "fulfilled": true,
+      "item_id": "P07"
+    },
+    {
+      "assertion_id": "ui-clock",
+      "case_keys": [
+        "TC-015"
+      ],
+      "explanation": "Microphone-button actuation to waveform or visible voice UI is measured as its own interval.",
+      "fulfilled": true,
+      "item_id": "P08"
+    },
+    {
+      "assertion_id": "action-clock",
+      "case_keys": [
+        "TC-015"
+      ],
+      "explanation": "Microphone LED-on to the actual commanded action is measured separately from the UI-wake interval.",
+      "fulfilled": true,
+      "item_id": "P08"
+    },
+    {
+      "assertion_id": "local-cloud",
+      "case_keys": [
+        "TC-015"
+      ],
+      "explanation": "Supported local and network-dependent commands are classified into separate series, with source limits applied only to their corresponding endpoints and conditions.",
+      "fulfilled": true,
+      "item_id": "P08"
+    },
+    {
+      "assertion_id": "offline-cloud-branch",
+      "case_keys": [
+        "TC-015"
+      ],
+      "explanation": "The network/service state is recorded and an offline trial exercises the network-dependent command path and records the unavailable-cloud outcome.",
+      "fulfilled": true,
+      "item_id": "P08"
+    },
+    {
+      "assertion_id": "attempt-ledger",
+      "case_keys": [
+        "TC-016"
+      ],
+      "explanation": "Each attempted command retains the spoken reference, recognized text or intent, executed action, correctness and failed or timed-out attempts.",
+      "fulfilled": true,
+      "item_id": "P09"
+    },
+    {
+      "assertion_id": "two-rates",
+      "case_keys": [
+        "TC-016"
+      ],
+      "explanation": "Recognition correctness and action correctness are separately defined over all attempted commands, including failures.",
+      "fulfilled": true,
+      "item_id": "P09"
+    },
+    {
+      "assertion_id": "wer-distinction",
+      "case_keys": [
+        "TC-016"
+      ],
+      "explanation": "WER uses reference words and edit counts, and the case explicitly states that it is not the command success rate.",
+      "fulfilled": true,
+      "item_id": "P09"
+    },
+    {
+      "assertion_id": "matched-corpus",
+      "case_keys": [
+        "TC-017"
+      ],
+      "explanation": "Quiet and noise trials use the same corpus, speaking geometry, language, network state, speaker level and trial count.",
+      "fulfilled": true,
+      "item_id": "P10"
+    },
+    {
+      "assertion_id": "acoustic-level",
+      "case_keys": [
+        "TC-017"
+      ],
+      "explanation": "A calibrated sound-level meter measures dB/SPL at the microphone position; TV volume percentage is explicitly rejected as a substitute.",
+      "fulfilled": true,
+      "item_id": "P10"
+    },
+    {
+      "assertion_id": "drop-definition",
+      "case_keys": [
+        "TC-017"
+      ],
+      "explanation": "The case separately calculates condition success rates, percentage-point drop and relative loss, with relative loss declared undefined for a zero quiet baseline.",
+      "fulfilled": true,
+      "item_id": "P10"
+    },
+    {
+      "assertion_id": "unlearned-baseline",
+      "case_keys": [
+        "TC-018"
+      ],
+      "explanation": "The original remote and target are identified, and the selected unlearned DUT key is shown not to control the target before learning.",
+      "fulfilled": true,
+      "item_id": "P11"
+    },
+    {
+      "assertion_id": "cec-isolation",
+      "case_keys": [
+        "TC-018"
+      ],
+      "explanation": "CEC and competing routes are disabled for learning, after which the learned command is compared with the IR path open and blocked.",
+      "fulfilled": true,
+      "item_id": "P11"
+    },
+    {
+      "assertion_id": "persistence-evidence",
+      "case_keys": [
+        "TC-018"
+      ],
+      "explanation": "The stored mapping is retested after an approved variant-specific power cycle, with device identity and overwritten mappings recorded.",
+      "fulfilled": true,
+      "item_id": "P11"
+    },
+    {
+      "assertion_id": "ir-route",
+      "case_keys": [
+        "TC-022"
+      ],
+      "explanation": "Bluetooth is first made unavailable, then the same basic command is compared with direct IR line of sight, opaque obstruction and restored line of sight.",
+      "fulfilled": true,
+      "item_id": "P12"
+    },
+    {
+      "assertion_id": "geometry-series",
+      "case_keys": [
+        "TC-020",
+        "TC-022"
+      ],
+      "explanation": "Distance trials hold angle fixed, angle trials hold distance fixed, and per-point attempts, outcomes and actual geometry are retained.",
+      "fulfilled": true,
+      "item_id": "P12"
+    },
+    {
+      "assertion_id": "nominal-not-guarantee",
+      "case_keys": [
+        "TC-020",
+        "TC-022"
+      ],
+      "explanation": "Both BT and IR cases treat nominal ranges and selected angles as scoped measurements and explicitly reject universal range or all-angle guarantees.",
+      "fulfilled": true,
+      "item_id": "P12"
+    },
+    {
+      "assertion_id": "bt-distance-ledger",
+      "case_keys": [
+        "TC-020"
+      ],
+      "explanation": "At marked multiple distances, the same fixed command population is attempted and pointer or smart-control successes, latency, disconnects and reconnection are recorded.",
+      "fulfilled": true,
+      "item_id": "P12"
+    },
+    {
+      "assertion_id": "ir-distance-ledger",
+      "case_keys": [
+        "TC-022"
+      ],
+      "explanation": "With Bluetooth unable to carry the command, multiple chosen distances use the same basic IR command and repetition count with successes, attempts and latency retained.",
+      "fulfilled": true,
+      "item_id": "P12"
+    },
+    {
+      "assertion_id": "shortcut-context",
+      "case_keys": [
+        "TC-019"
+      ],
+      "explanation": "The case inventories physical service labels and confirms region, installation, entitlement and network availability before evaluation.",
+      "fulfilled": true,
+      "item_id": "P13"
+    },
+    {
+      "assertion_id": "shortcut-branches",
+      "case_keys": [
+        "TC-019"
+      ],
+      "explanation": "Installed services and permitted uninstalled or unavailable services are exercised from the same initial screen, with the initial state restored.",
+      "fulfilled": true,
+      "item_id": "P13"
+    },
+    {
+      "assertion_id": "launch-endpoint",
+      "case_keys": [
+        "TC-019"
+      ],
+      "explanation": "Launch timing ends at the app-ready screen rather than playback completion, and any timing limit requires confirmed source and applicability.",
+      "fulfilled": true,
+      "item_id": "P13"
+    },
+    {
+      "assertion_id": "volume-clamp",
+      "case_keys": [
+        "TC-014"
+      ],
+      "explanation": "Volume is driven through minimum and maximum boundaries, with the expected result requiring that the limits do not wrap.",
+      "fulfilled": true,
+      "item_id": "P14"
+    },
+    {
+      "assertion_id": "audio-audible",
+      "case_keys": [
+        "TC-014"
+      ],
+      "explanation": "Mute, unmute and volume changes are observed audibly at the selected internal or supported external endpoint, including endpoint restoration behavior.",
+      "fulfilled": true,
+      "item_id": "P14"
+    },
+    {
+      "assertion_id": "cec-positive-ir-blocked",
+      "case_keys": [
+        "TC-018"
+      ],
+      "explanation": "HDMI-CEC is exercised separately with IR blocked, and successful external-target control is classified specifically as the CEC route.",
+      "fulfilled": true,
+      "item_id": "P14"
+    },
+    {
+      "assertion_id": "D01",
+      "case_keys": [],
+      "explanation": "No adopted case substitutes an unsafe power source or opens a sealed battery; the cases explicitly prohibit sealed-pack disassembly.",
+      "fulfilled": false,
+      "item_id": "D01"
+    },
+    {
+      "assertion_id": "D02",
+      "case_keys": [],
+      "explanation": "Timing and range values are consistently scoped by endpoint, source and applicability, with nominal or disputed values withheld from universal guarantees.",
+      "fulfilled": false,
+      "item_id": "D02"
+    },
+    {
+      "assertion_id": "D03",
+      "case_keys": [],
+      "explanation": "The workbook specifies proposed observations and recording procedures but does not present fabricated execution results.",
+      "fulfilled": false,
+      "item_id": "D03"
+    },
+    {
+      "assertion_id": "D04",
+      "case_keys": [],
+      "explanation": "The adopted experiments isolate Bluetooth, IR and HDMI-CEC and avoid attributing one route's response to another protocol.",
+      "fulfilled": false,
+      "item_id": "D04"
+    },
+    {
+      "assertion_id": "D05",
+      "case_keys": [],
+      "explanation": "Feature availability is conditioned on hardware, firmware, region, installation, entitlement and documented applicability rather than asserted universally.",
+      "fulfilled": false,
+      "item_id": "D05"
+    },
+    {
+      "assertion_id": "D06",
+      "case_keys": [],
+      "explanation": "Host Bluetooth and accessory facts are explicitly identified as insufficient to establish DUT construction or compatibility.",
+      "fulfilled": false,
+      "item_id": "D06"
+    },
+    {
+      "assertion_id": "D07",
+      "case_keys": [],
+      "explanation": "The voice action interval correctly begins at microphone LED-on, while microphone-button actuation is reserved for the separate visible-UI interval.",
+      "fulfilled": false,
+      "item_id": "D07"
+    },
+    {
+      "assertion_id": "D08",
+      "case_keys": [],
+      "explanation": "Recognition and action execution are separately recorded and calculated, so joint execution is not substituted for recognition accuracy.",
+      "fulfilled": false,
+      "item_id": "D08"
+    },
+    {
+      "assertion_id": "D09",
+      "case_keys": [],
+      "explanation": "Retention evidence uses an approved power cycle of the applicable learning-memory remote variant and does not rely on a charger or unrelated-device reset.",
+      "fulfilled": false,
+      "item_id": "D09"
+    },
+    {
+      "assertion_id": "D10",
+      "case_keys": [],
+      "explanation": "Pointer hiding and functional wake are explicitly separated from electrical or current-based remote power sleep, with no proxy claim adopted.",
+      "fulfilled": false,
+      "item_id": "D10"
+    }
+  ]
+}

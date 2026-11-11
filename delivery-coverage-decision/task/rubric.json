@@ -1,0 +1,405 @@
+{
+  "language": "English",
+  "instruction_contract": "instruction.md",
+  "scoring": {
+    "numeric": 0.82,
+    "llm_semantic": 0.18
+  },
+  "strict_scoring": {
+    "version": "delivery-independent-owners-v10",
+    "aggregation": "weighted_additive_independent_owners",
+    "minimum_retention": 0.5,
+    "components": {
+      "S01_source_state": {
+        "weight": 0.10,
+        "method": "identity",
+        "members": ["P01_source_state"]
+      },
+      "S02_event_lineage": {
+        "weight": 0.10,
+        "method": "identity",
+        "members": ["P02_event_lineage"]
+      },
+      "S03_spatial": {
+        "weight": 0.05,
+        "method": "identity",
+        "members": ["P03_coordinate_conversion"]
+      },
+      "S04_operational": {
+        "weight": 0.23,
+        "method": "identity",
+        "members": ["P04_operational_feasibility"]
+      },
+      "S05_reconciliation": {
+        "weight": 0.12,
+        "method": "identity",
+        "members": ["P05_reconciliation"]
+      },
+      "S06_plan_population": {
+        "weight": 0.07,
+        "method": "identity",
+        "members": ["P06_plan_population"]
+      },
+      "S07_investment_decision": {
+        "weight": 0.15,
+        "method": "identity",
+        "members": ["P07_investment_decision"]
+      },
+      "S08_recommendation_meaning": {
+        "weight": 0.054,
+        "method": "identity",
+        "members": ["P08_recommendation_meaning"]
+      },
+      "S09_priority_and_tradeoffs": {
+        "weight": 0.054,
+        "method": "identity",
+        "members": ["P09_priority_and_tradeoffs"]
+      },
+      "S10_evidence_interpretation": {
+        "weight": 0.045,
+        "method": "identity",
+        "members": ["P10_evidence_interpretation"]
+      },
+      "S11_scope_and_limits": {
+        "weight": 0.027,
+        "method": "identity",
+        "members": ["P11_scope_and_limits"]
+      }
+    },
+    "delivery_damage": {
+      "item_id": "DX_DELIVERABLE",
+      "penalty": 0.02,
+      "maximum_instances": 2
+    },
+    "critical_error_damage": {
+      "wrong_recommendation": {
+        "item_id": "DX_WRONG_RECOMMENDATION",
+        "penalty": 0.4
+      }
+    },
+    "completion_scales": {
+      "P02_event_lineage": {
+        "1": "All canonical orders preserve their latest revision, state and contributing event IDs.",
+        "0.5": "Exactly one canonical order has an isolated lineage mismatch.",
+        "0": "Two or more orders have lineage mismatches, or the canonical population is incomplete."
+      }
+    }
+  },
+  "lenient_policy": {
+    "version": "delivery-bench-must-have-v1",
+    "aggregation": "binary conjunction",
+    "must_have": {
+      "published_delivery": "The declared workbook, calculation entry point, README and one selected report are present.",
+      "source_lineage": "The canonical order population has no more than one isolated revision/state/event-lineage mismatch.",
+      "operational_viability": "Reported served assignments have complete directed service times and substantiate a source-feasible lexicographic optimum.",
+      "reconciled_results": "Resource-use rows and scenario summaries both reconcile to the submitted assignment ledger.",
+      "supported_decision": "Quoted terms, robust plan metrics and the adopted recommendation agree under the documented priority order."
+    }
+  },
+  "delivery_gate": {
+    "schema_version": "deliverable-gate-v1",
+    "root": "",
+    "required": ["analysis.xlsx", "calculations/solve.py", "calculations/README.md"],
+    "report_alternatives": ["decision_report.pdf", "decision_report.docx"],
+    "allowlist": [],
+    "extra_coefficient": 0.02,
+    "extra_cap": 2,
+    "item_id": "DX_DELIVERABLE",
+    "policy": "Use the shared Bench published-file gate. Select the first existing declared report format and charge extra root files through the capped extra-file damage rule. Missing core published files are fatal delivery failures. Nonfatal damage retains at least half of independently earned partial credit."
+  },
+  "numeric_criteria": [
+    {
+      "id": "record_state",
+      "weight_within_numeric": 0.12,
+      "criterion": "Reconstruct authoritative order states and reconcile message/entity populations.",
+      "clarification": "Keep exact duplicate deliveries and quarantined conflicting payloads in separately reconciled populations; subtracting retained messages from raw rows is insufficient when conflict groups are also removed."
+    },
+    {
+      "id": "document_precedence",
+      "weight_within_numeric": 0.08,
+      "criterion": "Apply scoped replacements, additions and outage overrides in their documented order."
+    },
+    {
+      "id": "coordinates",
+      "weight_within_numeric": 0.06,
+      "criterion": "Respect coordinate systems, axis order, snap limits and the demand denominator.",
+      "clarification": "Distinguish an invalid coordinate payload from a valid out-of-service-radius location. Apply the documented invalid-record policy without silently dropping unrelated demand. Boundary pro\u0062es are author robustness checks, not newly injected participant inputs."
+    },
+    {
+      "id": "directed_routing",
+      "weight_within_numeric": 0.12,
+      "criterion": "Compute legal directed shortest routes with closures and complete service times."
+    },
+    {
+      "id": "eligibility",
+      "weight_within_numeric": 0.08,
+      "criterion": "Assign only to available, capable sites; retain defensible unserved classifications."
+    },
+    {
+      "id": "resource_feasibility",
+      "weight_within_numeric": 0.13,
+      "criterion": "Respect independent date/wave capacities, handling minutes and refrigerated quotas."
+    },
+    {
+      "id": "objective_order",
+      "weight_within_numeric": 0.15,
+      "criterion": "Prove or substantiate the prescribed allocation objective order, accepting equivalent optima."
+    },
+    {
+      "id": "investment_selection",
+      "weight_within_numeric": 0.12,
+      "criterion": "Use exact monetary units, budget feasibility, package pricing and the declared robust ranking.",
+      "clarification": "An explicit adopted priority order must agree with the material even if the chosen option happens to be correct. Optional absent metadata is not an error; accept semantically equivalent explanations rather than requiring private enum strings."
+    },
+    {
+      "id": "reconciliation",
+      "weight_within_numeric": 0.08,
+      "criterion": "Reconcile assignment, resource, scenario and decision totals; reject missing keys and nonfinite values."
+    },
+    {
+      "id": "spatial_evidence",
+      "weight_within_numeric": 0.06,
+      "criterion": "Ensure presented spatial results correspond to actual orders and allocations."
+    }
+  ],
+  "evaluator_rules": [
+    "Use actual text-only LLM judgment to compare candidate business meaning with the source-verified Golden. Bind conclusions to candidate quotes and source/reference evidence. Do not grade appearance, phrasing identity, hidden filenames or exact allocation rows.",
+    "The participant-facing numerical entry point is tests/workbook_verify.py. Read the completed public Excel template by declared sheet/header names. Accept row and column reordering, added analysis sheets and equivalent optimal allocations. The legacy verify.py interface is author-only.",
+    "The public template is the submission contract: required fields, units and status codes are disclosed in input. Do not require private CSV/JSON files, unrequested certificates or the exact reference allocation. Optional worksheets may be omitted.",
+    "Sensitivity analysis and machine-readable spatial exports are useful reference enrichments, not hidden required deliverables. Evaluate equivalent relevant evidence.",
+    "Accept any feasible allocation with the same proven lexicographic objective; do not require exact reference assignment rows.",
+    "Malformed artifacts can abort several internal checks at once; this is a structural failure, not evidence of thirteen independent conceptual mistakes.",
+    "An incomplete judge response or solver timeout is a measurement error, never a passing score.",
+    "A required business objective hierarchy must be supported by participant-visible business records. If the materials do not establish a preference, accept feasible evidence-backed trade-offs rather than enforcing an undisclosed reference preference.",
+    "Optimality claims are conditional on data, constraints and documented objectives. A numerical optimum does not establish universal superiority or perfect communication.",
+    "Formula cells are allowed when they contain saved numeric values. An absent cache or Excel error is a localized unreadable artifact, not zero and not proof of unrelated business failures.",
+    "Workbook narrative fields may use equivalent wording. Only the recommended-plan field must begin with its identifier, as disclosed in the public form. Reason descriptions are not matched against private enum strings.",
+    "Do not score a candidate against answer values retained in a template: the distributed form contains labels and instructions only.",
+    "Submission filenames are declared in instruction.md. Default runtime reads that directory; explicit path arguments are explicit input overrides, not hidden alternative requirements."
+  ],
+  "quality_dimensions": [
+    {
+      "id": "evidence_quality",
+      "weight": 0.208,
+      "criteria": [
+        "record_state",
+        "document_precedence",
+        "coordinates"
+      ],
+      "evaluation_question": "Is the decision based on the authoritative business state and correctly interpreted geography?",
+      "evidence": [
+        "Order-state reconciliation",
+        "Document precedence and scope",
+        "Coordinate transformations and snap eligibility"
+      ],
+      "full_credit": "Counts, state transitions, applicable revisions, coordinate systems, axis order and demand denominator agree with independently reconstructed evidence.",
+      "partial_credit": "A separable subset is correct and traceable; score its existing criteria without treating the entire dimension as correct.",
+      "no_credit": "No usable evidence supports the applicable criteria, or the authoritative state is replaced by unsupported assumptions.",
+      "evaluation_method": "Independent programmatic reconciliation; inspect cited material when interpretation is disputed.",
+      "existing_checks": [
+        "record_state",
+        "document_precedence",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "operational_feasibility",
+      "weight": 0.264,
+      "criteria": [
+        "directed_routing",
+        "eligibility",
+        "resource_feasibility"
+      ],
+      "evaluation_question": "Could the reported service assignments actually operate under each scenario?",
+      "evidence": [
+        "Legal directed routes and complete service times",
+        "Site capability and availability",
+        "Per-date and per-wave handling and cold-storage ledgers"
+      ],
+      "full_credit": "Routes, eligibility and allocations obey closures, direction, service deadlines, outages, handling-minute limits and independent refrigerated quotas.",
+      "partial_credit": "Award only independently valid criteria or isolated subresults; disclose violations instead of accepting an infeasible aggregate as achievable.",
+      "no_credit": "The applicable route or allocation claims lack feasible evidence or systematically violate the documented constraints.",
+      "evaluation_method": "Independent shortest-path recomputation and assignment/resource checks.",
+      "existing_checks": [
+        "directed_routing",
+        "eligibility",
+        "resource_feasibility"
+      ]
+    },
+    {
+      "id": "decision_quality",
+      "weight": 0.216,
+      "criteria": [
+        "objective_order",
+        "investment_selection"
+      ],
+      "evaluation_question": "Does the recommendation follow from feasible alternatives and the business priorities actually stated in the materials?",
+      "evidence": [
+        "Within-plan allocation objectives",
+        "Cross-scenario comparison of quoted plans",
+        "Budget and package-price interpretation",
+        "Supported recommendation"
+      ],
+      "full_credit": "Allocation quality and investment selection satisfy the documented objective hierarchy, using exact monetary units and accepting equivalent optimal assignments.",
+      "partial_credit": "A feasible, substantiated result can earn the applicable supported criteria, but cannot receive optimality credit without establishing the required objective values or a valid bound.",
+      "no_credit": "The applicable decision claim relies on an infeasible plan, incorrect objective order or unsupported pricing or ranking.",
+      "evaluation_method": "Independent improvement-search certificates and alternative-plan comparison. Judge explanation quality under communication, not a second numerical score.",
+      "existing_checks": [
+        "objective_order",
+        "investment_selection"
+      ],
+      "scope_note": "Budget sensitivity is an optional worksheet, not a mandatory format gate."
+    },
+    {
+      "id": "auditability",
+      "weight": 0.112,
+      "criteria": [
+        "reconciliation",
+        "spatial_evidence"
+      ],
+      "evaluation_question": "Can the reported findings be traced to consistent records and independently checked?",
+      "evidence": [
+        "Agreement among assignments, resource ledgers, summary tables and recommendation",
+        "Spatial evidence tied to actual records",
+        "Submitted reproducible calculation files"
+      ],
+      "full_credit": "Presented totals reconcile and any spatial claims correspond to actual demand and allocations; equivalent inspectable representations are accepted.",
+      "partial_credit": "Credit the verified reconciliation or spatial components; explicitly mark missing or unverified links instead of assuming agreement.",
+      "no_credit": "The applicable totals or spatial claims cannot be substantiated or contradict their underlying records.",
+      "evaluation_method": "Programmatic reconciliation and spatial cross-checks; clean-directory replay is a separate author release check and requires its own receipt.",
+      "existing_checks": [
+        "reconciliation",
+        "spatial_evidence"
+      ],
+      "scope_note": "Spatial evidence is the link from the reported order-location ledger to assignments; no separate map or GeoJSON is required."
+    },
+    {
+      "id": "business_meaning",
+      "weight": 0.2,
+      "criteria": [
+        "recommendation_meaning",
+        "priority_and_tradeoffs",
+        "evidence_interpretation",
+        "scope_and_limits"
+      ],
+      "evaluation_question": "Does the candidate preserve the source-supported business meaning of the Golden while allowing equivalent correct expression?",
+      "evidence": [
+        "Candidate report text with location IDs",
+        "Workbook text/table samples",
+        "Golden reference meaning",
+        "Original business material",
+        "Independently verified facts"
+      ],
+      "full_credit": "The adopted recommendation, priority and trade-off reasoning, interpretation and scope are substantively correct and semantically consistent with the source-supported reference.",
+      "partial_credit": "A separable material omission is identified with exact evidence; do not deduct for different wording, order, layout or optional reference enrichment.",
+      "no_credit": "The applicable core meaning is missing or materially contradicted, with candidate and reference/source evidence.",
+      "evaluation_method": "Actual text-only LLM Judge; exact evidence-ID and quote binding, completed-response validation. No visual input or aesthetic score.",
+      "existing_checks": [
+        "recommendation_meaning",
+        "priority_and_tradeoffs",
+        "evidence_interpretation",
+        "scope_and_limits"
+      ]
+    }
+  ],
+  "task_identity": {
+    "primary_type": "Evidence-grounded operational investment decision under budget and service constraints",
+    "domain": "Last-mile delivery network upgrade planning",
+    "decision": "Select a deployable station upgrade from quoted alternatives using documented operating priorities and scenario-specific fulfillment results.",
+    "capabilities": [
+      "Cross-document reconciliation",
+      "Geospatial and directed-network analysis",
+      "Capacity-constrained allocation",
+      "Scenario-based robust comparison",
+      "Auditable business communication"
+    ],
+    "scope": "Compare the supplied upgrade alternatives and scenario definitions; do not claim globally optimal network design over unlisted sites, arbitrary budgets or unmodeled disruptions.",
+    "participant_prompt_style": "A brief English business wish and essential deliverables; evaluation dimensions remain author-facing."
+  },
+  "scoring_protocol": {
+    "aggregation": "Keep the existing criterion weights. Dimension weights are their sums and must not be added again. Calculate a dimension's earned score from its child criteria.",
+    "anchors": "Use 1 for fully substantiated satisfaction, 0.5 for a documented separable partial result, and 0 for failure. Withhold a score when measurement did not complete; never silently renormalize missing measurements.",
+    "evidence_requirement": "Each assigned score must identify a candidate artifact or page, the relevant source constraint, the observed result and the verification receipt. General impressions are insufficient.",
+    "failure_attribution": "Attribute deductions to the violated criterion. Do not multiply penalties merely because one malformed artifact prevents several checks; distinguish downstream unmeasured criteria from independently demonstrated failures.",
+    "golden_status": "Numerical certificates, semantic LLM judgment and package reproduction checks are distinct evidence. Visual appearance is not scored for this task."
+  },
+  "dimension_scoring_note": "Author-facing grouping of existing weighted criteria; do not add these weights a second time. These dimensions are not solver objective coefficients.",
+  "measurement_integrity": {
+    "scope": "Judge runtime requirements, not candidate deductions or extra rubric points.",
+    "requirements": [
+      "Require actual nonempty extracted candidate and reference evidence.",
+      "Bind every measured criterion to exact candidate and Golden/source/verified-fact quote locations.",
+      "Require completed responses, exact Boolean verdicts, declared score values and unique criterion IDs.",
+      "Withhold the semantic score when the reference conflicts with the materials; never treat missing measurement as pass."
+    ],
+    "active_runtime": "tests/mix_judge/judge.py"
+  },
+  "semantic_criteria": [
+    {
+      "id": "recommendation_meaning",
+      "weight_within_semantic": 0.3,
+      "criterion": "The adopted plan follows the independently reconstructed public budget, scenario allocation optima and documented lexicographic choice rule. Golden is not an authority when source evidence or a valid counterexample contradicts it. Accept equivalent feasible optimal assignments."
+    },
+    {
+      "id": "priority_and_tradeoffs",
+      "weight_within_semantic": 0.3,
+      "criterion": "The explanation preserves the documented business priority order and material trade-offs between feasible alternatives; it does not claim universal superiority where metrics conflict. Scenario-wise minima are computed separately; do not replace urgent-first by total volume or invent a cold-chain floor. Material cold-service trade-offs can justify a conditional alternative only when the changed premise is explicit."
+    },
+    {
+      "id": "evidence_interpretation",
+      "weight_within_semantic": 0.25,
+      "criterion": "The explanation interprets demand populations, scenario results and independent resource limits consistently with the Golden and source facts, with traceable supporting tables. Numeric calculation is graded separately. Evidence references must be inspectable in delivered artifacts or explicitly reproducible outputs; distinguish identity records, aggregate resources and actual operations."
+    },
+    {
+      "id": "scope_and_limits",
+      "weight_within_semantic": 0.15,
+      "criterion": "The adopted claims preserve the planning period, independent scenario scope, conditional optimality and limits of any spatial claim. Accept concise equivalent caveats; do not require every optional sentence or map in the Golden. Conditional modeled optimality does not establish station readiness or actual service promises; completion and operating assumptions require confirmation."
+    }
+  ],
+  "submission_contract": {
+    "public_template": "environment/workspace/input/配送方案交付模板.xlsx",
+    "required_sheets": [
+      "决策摘要",
+      "数据核对",
+      "方案比较",
+      "工况结果",
+      "资源核对",
+      "订单状态",
+      "分配明细"
+    ],
+    "optional_sheets": [
+      "预算敏感性",
+      "样例核对"
+    ],
+    "header_row": 5,
+    "first_data_row": 6,
+    "numeric_entry_point": "tests/workbook_verify.py",
+    "combined_entry_point": "tests/evaluate.py",
+    "output_paths": [
+      "output/analysis.xlsx",
+      "output/decision_report.pdf OR output/decision_report.docx",
+      "output/calculations/"
+    ]
+  },
+  "solver_evidence_contract": {
+    "source_reconstruction": "Public documents and events define eligibility, revisions, capacities and objective order; do not infer business priority from Golden.",
+    "feasibility": "Reconstruct direction, snap, time, separate daily wave resources and failure overrides.",
+    "optimality": "Search independently for a feasible urgent-count improvement, then total-count improvement with urgent optimum fixed, then lower time with both fixed. Solver timeout is unmeasured.",
+    "decision": "Compute each scenario minimum independently; compare only budget-feasible quoted bundles under their documented priority.",
+    "equiva\u006cence": "Different valid assignments with the same lexicographic optima are accepted. Conditional changed-policy alternatives must be labelled rather than adopted under unchanged rules.",
+    "business_finding": {
+      "id": "DELIVERY-B01",
+      "severity": "P2",
+      "kind": "Business evidence handoff",
+      "before": "Report page5 points to named route/coverage files as if supplied, but they are generated only after the delivered calculation scripts run.",
+      "repair": "Point to the actual workbook sheets and explain where to regenerate the optional route files.",
+      "numerical_result_changed": false
+    }
+  },
+  "business_failure_conditions": [
+    {
+      "criterion": "evidence_interpretation",
+      "failure": "A report cites an attachment that is neither delivered nor reproducible from its documented command."
+    }
+  ]
+}

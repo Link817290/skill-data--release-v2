@@ -1,0 +1,42 @@
+id = "electrical-drawing-set-dxf"
+task_type = "skill-bench"
+domain = "aec-electrical-cad"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/output/electrical_drawings.dxf"
+network_access = false
+rollouts_included = false
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = false
+free_text_compared = false
+
+[scoring.weights]
+semantic_content = 0.75
+diagram_topology = 0.25
+
+[scoring.gates]
+invalid_or_missing_dxf = 0.00
+raster_underlay = 0.00
+
+
+[scoring.lenient_quality_floor]
+detailed_sheets = 3
+coherent_partial_row_precision = 0.30
+coherent_partial_row_recall = 0.30
+incoming_accuracy = 0.50
+diagram_topology = 0.30
+independent_of_strict = false
+[skills]
+names = ["draw-electrical-panel-diagram", "draft-native-electrical-dxf", "check-electrical-drawing-set"]
+thresholds_in_skill = false
+answers_in_skill = false
+network_required = false

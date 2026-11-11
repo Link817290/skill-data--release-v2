@@ -1,0 +1,205 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "dragon-boat-festival-event-execution",
+  "tasks": [
+    "dragon-boat-festival-event-execution"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 48,
+  "bytes_excluding_manifest": 2122315,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3682,
+      "sha256": "cd0fca7a73a6c9dd859849b528ffc5d1664e87fb3558833b4dc7dae900352f98"
+    },
+    "RUBRIC.md": {
+      "bytes": 25940,
+      "sha256": "d11c198031dd9324102a16943f0a530a5f85ac83eff936d215ed91fcb6fb2cc6"
+    },
+    "dataset.toml": {
+      "bytes": 570,
+      "sha256": "3c0486ef145b048b7f48a8936495f6a7b602cd46e9f3eee05a5caedee5ba1073"
+    },
+    "golden/execution-plan.docx": {
+      "bytes": 211468,
+      "sha256": "dec70eb8da7ce7b1ad669d84683289e38c45e0b9d331917d89a56355b72f820e"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 349,
+      "sha256": "58d8ef9de51e2382874b275acdf03f42c4fa9a221300d87b7ccf1a1b7f68f816"
+    },
+    "task/environment/skills/event-operations/SKILL.md": {
+      "bytes": 2692,
+      "sha256": "8d0f6a074eef3dc61d0c02848fe47293fd96206ef8deb8cee0a34af5e299a345"
+    },
+    "task/environment/skills/event-operations/references/safety-and-recovery.md": {
+      "bytes": 1498,
+      "sha256": "04ea83dfea3e17f98e6439ee47b0cc4f0bead251e5becefe2b754eb98457f290"
+    },
+    "task/environment/skills/event-operations/references/staffing-and-flow.md": {
+      "bytes": 1483,
+      "sha256": "b5ecf1e041a9ae92b20167e8111f4a587fe11608865cbc7028d89d319c65ad40"
+    },
+    "task/environment/source_manifest.json": {
+      "bytes": 582,
+      "sha256": "8abc95d374210e7f29c8f2cf76cc2e8a413dba238c6709916863053b180b2c0a"
+    },
+    "task/environment/workspace/materials/event-proposal.docx": {
+      "bytes": 1422043,
+      "sha256": "b94fd0f8f051e1433b42f8aefba4962d6af1b166c93ee14828efa767a474ca73"
+    },
+    "task/environment/workspace/materials/materials-checklist.xlsx": {
+      "bytes": 9918,
+      "sha256": "0379e67c07bf4e8f49e67fd5c1d3ff70a56a836c153b68ce5b7d4ac08ea1691b"
+    },
+    "task/environment/workspace/source_manifest.json": {
+      "bytes": 413,
+      "sha256": "af6cc99f905b60873416aeefdce282e752809f894cd735750b1fc2a7d693e608"
+    },
+    "task/instruction.md": {
+      "bytes": 766,
+      "sha256": "1fc8d88411ba4b10b2626493797f56c988ba011cb126174bd6fe8083fb7149fa"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 254,
+      "sha256": "d6bbefd89b4b257b8c96d38ce1320b0b8f7819d30752f58c7aaf102fd63625f6"
+    },
+    "task/task.toml": {
+      "bytes": 1180,
+      "sha256": "e9b9afc5695c249839cbf1af4a0f8eb3a23e0a3d8423ce7a90c77f14e95258f9"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1189,
+      "sha256": "0540ba6db6983243c4b99fad1729f21d9a0302bb1652a8c215253289a4aea97c"
+    },
+    "task/tests/Dockerfile": {
+      "bytes": 351,
+      "sha256": "21a9f63d1f16c32d0bd975fd4680b81eaae16cd38d2a96696f3aaccddc7a481d"
+    },
+    "task/tests/capability_map.json": {
+      "bytes": 2796,
+      "sha256": "a9df013d6b0f957602b61c39ea482837b211f59eeaf81cd3ba517d01e3b1d2ca"
+    },
+    "task/tests/fact_judge.py": {
+      "bytes": 21550,
+      "sha256": "d045ef2d517add9823cc6faed0b5b21ecb5f822bf6807370886152a8e7949b5b"
+    },
+    "task/tests/fact_scope.py": {
+      "bytes": 7797,
+      "sha256": "52ee765c5a94abb4af7c84be6bba16779b8c224b4859eed02420048e184ee13e"
+    },
+    "task/tests/festival_actions.py": {
+      "bytes": 6345,
+      "sha256": "eb4bffedc7019b8930278b053f3feaf70b5708d9cf5b0b09f3e20f27444b57a3"
+    },
+    "task/tests/festival_control.py": {
+      "bytes": 6520,
+      "sha256": "91bcb65a1123264e44293ab034fd5eeb2c97aca0a756ab5613b002c64d376037"
+    },
+    "task/tests/festival_equivalence.py": {
+      "bytes": 5439,
+      "sha256": "10916684c3ba6f54dfe2a5f60f59291b902382f2f5ca58466c743c776bcd121c"
+    },
+    "task/tests/festival_facts.py": {
+      "bytes": 10875,
+      "sha256": "46836dead0a3faad0deb132902fb0ffdfabb0700a1d378607732a72b031f10ca"
+    },
+    "task/tests/festival_schedule.py": {
+      "bytes": 3804,
+      "sha256": "338aad039bf525b84f2d417e5b27df3a3a9868fdc5a10f9d20f089fb4df796eb"
+    },
+    "task/tests/festival_source_scope.py": {
+      "bytes": 4679,
+      "sha256": "1981e9f951ba3628997b64121ccb5041d2431ee6f89ea296104512a0f5f88980"
+    },
+    "task/tests/golden_replay/fact/9b2b9df75f6fe9a4c946f33cd7e8fc93814718b7ba4fbe899f28b100bc203fd5/evidence.json": {
+      "bytes": 28513,
+      "sha256": "bb15990b98123ea1db66d11250e42a07f6983a8515080754d5165736fef9c337"
+    },
+    "task/tests/golden_replay/fact/9b2b9df75f6fe9a4c946f33cd7e8fc93814718b7ba4fbe899f28b100bc203fd5/manifest.json": {
+      "bytes": 468,
+      "sha256": "ef70b1237e3cfb12ffe87450c4d2186d26e3298886fe7e3633ec6b605e0168d7"
+    },
+    "task/tests/golden_replay/fact/9b2b9df75f6fe9a4c946f33cd7e8fc93814718b7ba4fbe899f28b100bc203fd5/receipt.json": {
+      "bytes": 115,
+      "sha256": "4f99270f603bc6e20f6f07ab204aa5ce4a6c1fc9d56d428a5df68347ed07710e"
+    },
+    "task/tests/golden_replay/fact/9b2b9df75f6fe9a4c946f33cd7e8fc93814718b7ba4fbe899f28b100bc203fd5/request.json": {
+      "bytes": 33784,
+      "sha256": "9b2b9df75f6fe9a4c946f33cd7e8fc93814718b7ba4fbe899f28b100bc203fd5"
+    },
+    "task/tests/golden_replay/fact/9b2b9df75f6fe9a4c946f33cd7e8fc93814718b7ba4fbe899f28b100bc203fd5/response.json": {
+      "bytes": 31538,
+      "sha256": "39844e9f71a1933b11180b1a7469b35fd1ae5fa13e230fa816255845534ddcd9"
+    },
+    "task/tests/golden_replay/fact/9b2b9df75f6fe9a4c946f33cd7e8fc93814718b7ba4fbe899f28b100bc203fd5/review.json": {
+      "bytes": 166,
+      "sha256": "1dcc73431252961507b2d622ff755733b49d48b1b296b470e20509eaadc6ff9b"
+    },
+    "task/tests/golden_replay/positive/135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55/adjudication-request.json": {
+      "bytes": 46281,
+      "sha256": "af6544e469d1c606528b262bb654ae3e9c302f7a78c6fc27f0cf650d089f1207"
+    },
+    "task/tests/golden_replay/positive/135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55/adjudication-response.json": {
+      "bytes": 37543,
+      "sha256": "4696694318d6578bb30ba8bf4375ed3330f23229b6f87517cfd5a1034af319e1"
+    },
+    "task/tests/golden_replay/positive/135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55/decisions.json": {
+      "bytes": 7240,
+      "sha256": "e9434dbc719cb6b0c6722bf0cb21e12e2abc7889183fc71d8de98dfd8b957ead"
+    },
+    "task/tests/golden_replay/positive/135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55/evidence.json": {
+      "bytes": 12019,
+      "sha256": "54e1350c65372926703f2253759de4380f09814b9f03095ba7c7dbffc5db0142"
+    },
+    "task/tests/golden_replay/positive/135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55/initial-response.json": {
+      "bytes": 36661,
+      "sha256": "adc919001c29fcd6ee777bc0bc1422f785c22a9e5c9ee80b090a23dffbf8e2f7"
+    },
+    "task/tests/golden_replay/positive/135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55/manifest.json": {
+      "bytes": 633,
+      "sha256": "1b3453794d411c3781bf73cf43c873c2ef398d4631ab832a2f89ec6174b6b21f"
+    },
+    "task/tests/golden_replay/positive/135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55/request.json": {
+      "bytes": 38368,
+      "sha256": "135bbdbd1955a8d03ccc3516cef5ca89d2da6fd338ce4d47596875d501cd9d55"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 744,
+      "sha256": "350c8e835b7102be2108fdd89a4d813865ef12b4f2fbcaf03f6974dfcd46e00d"
+    },
+    "task/tests/positive_contract.json": {
+      "bytes": 9967,
+      "sha256": "2dc12c80c2dfebb2d155e541b84da07abaf3bd902f834fa41aea315f0d55efad"
+    },
+    "task/tests/positive_judge.py": {
+      "bytes": 11130,
+      "sha256": "bb85ea92d5f4855bef7bcd2bdb8ae25333bec30e8fcfc5edf0e162052e09cb61"
+    },
+    "task/tests/public_instruction.md": {
+      "bytes": 766,
+      "sha256": "1fc8d88411ba4b10b2626493797f56c988ba011cb126174bd6fe8083fb7149fa"
+    },
+    "task/tests/scoring_math.py": {
+      "bytes": 545,
+      "sha256": "d9840c183188871cb73f929e9663da04809f5322c85a1430f5c2ee2880238805"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 22001,
+      "sha256": "eb9f583616c55a15ef1e48f58a219861a61820d2d90aa43db897d3d2ddc03f38"
+    },
+    "task/tests/source_manifest.json": {
+      "bytes": 5876,
+      "sha256": "14c33aa89898086142dbad60df093af7d27060fd7a177ab69824cc6104556d8a"
+    },
+    "task/tests/test.sh": {
+      "bytes": 593,
+      "sha256": "f3e4c5925cb96ff9131d81f973ee7073ee2588766ecc32b925b9aec563339e8c"
+    },
+    "task/tests/validator.py": {
+      "bytes": 43181,
+      "sha256": "6b99c8c2205b7e5d5d93641288982500ce786877f745861738abec1d1979b8de"
+    }
+  }
+}

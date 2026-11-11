@@ -1,0 +1,43 @@
+# Runtime image must be built from the batch-level environment context.
+# Execution limits: two hours for the agent and verifier.
+artifacts = ["/workspace/output"]
+
+[metadata]
+name = "d5data / Gao Yihang"
+instance_id = "dragon-boat-festival-event-execution"
+task = "office-document-authoring"
+source_repo = ""
+language = "en"
+programming_language = ""
+prompt_creation_time = "2026-10-10"
+
+[environment]
+docker_image = "dragon-boat-festival-event-execution:1.0"
+cpus = 4
+workdir = "/workspace"
+memory_mb = 16384
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 7200.0
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 7200.0
+
+[verifier.env]
+FESTIVAL_SOURCE_DIR = "${FESTIVAL_SOURCE_DIR:-/workspace/materials}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+[verifier.environment]
+docker_image = "dragon-boat-festival-event-execution-verifier:1.0"
+network_mode = "public"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

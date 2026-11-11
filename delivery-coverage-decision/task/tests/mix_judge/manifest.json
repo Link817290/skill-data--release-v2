@@ -1,0 +1,25 @@
+{
+  "schema_version": "semantic-judge-manifest-v1",
+  "entry_count": 1,
+  "files_sha256": {
+    "judge.py": "071cd33530d38e7c07158e0014e70fd3ff2385635168d4c18a55422db6ad6cb3",
+    "contract.json": "6461fd80c5fc61016c0ec1354eac508824d869a1001d40242fa887b0b7af7b1f",
+    "prompt.md": "1bcee06d749907a713212a494865b1682d9278ccedc24b27c66e3db58d51a534",
+    "settings.json": "8e83d60b0c0c17857d8df35dbfbc6ca2f95e80f930d4c74fe16d2433517b471a",
+    "response.schema.json": "7c229d22b310be66bc5117e18d10aa95809f9ec355b9451ff976b608547f9a10"
+  },
+  "cache_entries": {
+    "4835504816801f60b684e632378a114495bf0d1ddd013a4e12474e1955c15103": {
+      "path": "cache/4835504816801f60b684e632378a114495bf0d1ddd013a4e12474e1955c15103",
+      "files_sha256": {
+        "request.json": "a8d7b65a3114947248e671531388978d6fa6a1b63744bf544a8e6a7005ef4851",
+        "evidence.json": "c725b8e173c4d948ae64ebcf13a45a7881adaa8f60b21ddbd1c6d70c9ba0c9a0",
+        "manifest.json": "014e25dcc3ffc59a927123c690633b96f9d3e29a7896d8b53c4f22b72433a57f",
+        "response.json": "aea3ac03fe5c0619c47f0abcd034283fa9f0ea292862f7aa1318b118dd910182",
+        "review.json": "9054627bdc96d422bd9cef5e947990c0afc26dc39f0160c57c7859220f6b4181"
+      },
+      "source_case": "golden-delivery-coverage-decision-v2-1110",
+      "score_version": "business10-delivery-bench-v8"
+    }
+  }
+}

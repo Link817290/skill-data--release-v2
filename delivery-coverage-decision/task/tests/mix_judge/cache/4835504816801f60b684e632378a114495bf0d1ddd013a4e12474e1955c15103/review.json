@@ -1,0 +1,124 @@
+{
+  "criteria": [
+    {
+      "id": "recommendation_meaning",
+      "score": 1,
+      "reason": "The adopted recommendation is P4, opening S5 for 10.5万元 within the 12万元 budget, and it applies the documented lexicographic comparison of scenario-wise minimum priority fulfillment before minimum total fulfillment. This agrees with the independently verified plan comparison.",
+      "evidence": [
+        {
+          "id": "C-P1-B5",
+          "quote": "建议采用P4，开通西环临时站（S5）。方案总价10.5 万元，预算余额1.5 万元。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-P1-B6",
+          "quote": "按约定的方案选用顺序，先比较各工况中的最低优先单履约量，再比较最低总履约量。P4 的两项",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S3-P4",
+          "quote": "选用原则：按各工况最优排单结果比较，以工况间最低优先单履约量较高者优先；相同时依次比较最低总履约量（较高优先）、整包金额（较低优先）及三工况合计承诺耗时（较低优先）。仍相同按方案编号顺序选用。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F-decision",
+          "quote": "[{\"label\": \"推荐方案\", \"value\": \"P4：开通西环临时站\"}, {\"label\": \"支出与预算\", \"value\": \"10.5万元 / 12万元\"}, {\"label\": \"关键取舍\", \"value\": \"优先单保障领先P3；故障时冷链保障弱于P3\"}, {\"label\": \"适用范围\", \"value\": \"2022-08-10至11日固定需求、三种独立工况\"}]",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ]
+    },
+    {
+      "id": "priority_and_tradeoffs",
+      "score": 1,
+      "reason": "The explanation preserves the urgent-first rule: P4 is selected despite P3 serving seven more orders at its scenario-wise minimum because P4 protects five more priority orders. It also discloses P4's materially weaker fault-scenario cold-chain result and makes any cold-chain floor an explicit new premise requiring re-optimization, rather than an invented current constraint.",
+      "evidence": [
+        {
+          "id": "C-P1-B17",
+          "quote": "P3 的最低总履约量为445 单，比P4 多7 单；但最低优先单只有52 单，比P4 少5 单。现行选",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-P1-B19",
+          "quote": "设备故障工况下，P4 的冷链履约量为22 单，P3 为42 单。若业务新增冷链保障底线，应按新约",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S3-P4",
+          "quote": "选用原则：按各工况最优排单结果比较，以工况间最低优先单履约量较高者优先；相同时依次比较最低总履约量（较高优先）、整包金额（较低优先）及三工况合计承诺耗时（较低优先）。仍相同按方案编号顺序选用。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F-scenario_summary",
+          "quote": "[{\"active_orders\": \"734\", \"chilled_served\": \"17\", \"no_feasible_site\": \"147\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P0\", \"resource_tradeoff\": \"145\", \"scenario_id\": \"BASE\", \"served\": \"392\", \"total_s\": \"235907\", \"urgent_demand\": \"115\", \"urgent_served\": \"46\"}, {\"active_orders\": \"734\", \"chilled_served\": \"20\", \"no_feasible_site\": \"203\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P0\", \"resource_tradeoff\": \"90\", \"scenario_id\": \"CLOSURE\", \"served\": \"391\", \"total_s\": \"257773\", \"urgent_demand\": \"115\", \"urgent_served\": \"40\"}, {\"active_orders\": \"734\", \"chilled_served\": \"14\", \"no_feasible_site\": \"183\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P0\", \"resource_tradeoff\": \"143\", \"scenario_id\": \"FAULT\", \"served\": \"358\", \"total_s\": \"214759\", \"urgent_demand\": \"115\", \"urgent_served\": \"43\"}, {\"active_orders\": \"734\", \"chilled_served\": \"31\", \"no_feasible_site\": \"147\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P1\", \"resource_tradeoff\": \"99\", \"scenario_id\": \"BASE\", \"served\": \"438\", \"total_s\": \"275499\", \"urgent_demand\": \"115\", \"urgent_served\": \"46\"}, {\"active_orders\": \"734\", \"chilled_served\": \"39\", \"no_feasible_site\": \"203\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P1\", \"resource_tradeoff\": \"51\", \"scenario_id\": \"CLOSURE\", \"served\": \"430\", \"total_s\": \"298173\", \"urgent_demand\": \"115\", \"urgent_served\": \"40\"}, {\"active_orders\": \"734\", \"chilled_served\": \"21\", \"no_feasible_site\": \"183\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P1\", \"resource_tradeoff\": \"103\", \"scenario_id\": \"FAULT\", \"served\": \"398\", \"total_s\": \"247053\", \"urgent_demand\": \"115\", \"urgent_served\": \"43\"}, {\"active_orders\": \"734\", \"chilled_served\": \"33\", \"no_feasible_site\": \"147\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P2\", \"resource_tradeoff\": \"100\", \"scenario_id\": \"BASE\", \"served\": \"437\", \"total_s\": \"277699\", \"urgent_demand\": \"115\", \"urgent_served\": \"46\"}, {\"active_orders\": \"734\", \"chilled_served\": \"38\", \"no_feasible_site\": \"203\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P2\", \"resource_tradeoff\": \"54\", \"scenario_id\": \"CLOSURE\", \"served\": \"427\", \"total_s\": \"290420\", \"urgent_demand\": \"115\", \"urgent_served\": \"40\"}, {\"active_orders\": \"734\", \"chilled_served\": \"21\", \"no_feasible_site\": \"183\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P2\", \"resource_tradeoff\": \"133\", \"scenario_id\": \"FAULT\", \"served\": \"368\", \"total_s\": \"224860\", \"urgent_demand\": \"115\", \"urgent_served\": \"43\"}, {\"active_orders\": \"734\", \"chilled_served\": \"50\", \"no_feasible_site\": \"126\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P3\", \"resource_tradeoff\": \"81\", \"scenario_id\": \"BASE\", \"served\": \"477\", \"total_s\": \"280662\", \"urgent_demand\": \"115\", \"urgent_served\": \"58\"}, {\"active_orders\": \"734\", \"chilled_served\": \"58\", \"no_feasible_site\": \"176\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P3\", \"resource_tradeoff\": \"45\", \"scenario_id\": \"CLOSURE\", \"served\": \"463\", \"total_s\": \"282507\", \"urgent_demand\": \"115\", \"urgent_served\": \"52\"}, {\"active_orders\": \"734\", \"chilled_served\": \"42\", \"no_feasible_site\": \"126\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P3\", \"resource_tradeoff\": \"113\", \"scenario_id\": \"FAULT\", \"served\": \"445\", \"total_s\": \"260793\", \"urgent_demand\": \"115\", \"urgent_served\": \"58\"}, {\"active_orders\": \"734\", \"chilled_served\": \"52\", \"no_feasible_site\": \"127\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P4\", \"resource_tradeoff\": \"69\", \"scenario_id\": \"BASE\", \"served\": \"488\", \"total_s\": \"276416\", \"urgent_demand\": \"115\", \"urgent_served\": \"61\"}, {\"active_orders\": \"734\", \"chilled_served\": \"44\", \"no_feasible_site\": \"159\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P4\", \"resource_tradeoff\": \"47\", \"scenario_id\": \"CLOSURE\", \"served\": \"478\", \"total_s\": \"283958\", \"urgent_demand\": \"115\", \"urgent_served\": \"57\"}, {\"active_orders\": \"734\", \"chilled_served\": \"22\", \"no_feasible_site\": \"163\", \"outside_snap_limit\": \"50\", \"plan_id\": \"P4\", \"resource_tradeoff\": \"83\", \"scenario_id\": \"FAULT\", \"served\": \"438\", \"total_s\": \"239562\", \"urgent_demand\": \"115\", \"urgent_served\": \"58\"}]",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ]
+    },
+    {
+      "id": "evidence_interpretation",
+      "score": 1,
+      "reason": "The candidate consistently identifies 734 effective orders including 115 priority orders, treats the three scenarios as independent rather than additive, and correctly distinguishes processing time from non-substitutable cold-chain capacity. Its workbook references and detailed reconciliation tables make the demand, scenario, and resource interpretations inspectable.",
+      "evidence": [
+        {
+          "id": "C-P2-B4",
+          "quote": "各工况均采用734 笔有效订单，其中优先订单115 笔。工况独立测算，不能把三个工况的履约量",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-P4-B5",
+          "quote": "为0；江北站的5 个冷链名额已用满。不同资源不能互相替代。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F-data_quality",
+          "quote": "[{\"label\": \"原始消息行数\", \"value\": \"839\"}, {\"label\": \"去重后消息数\", \"value\": \"824\"}, {\"label\": \"重复投递数\", \"value\": \"15\"}, {\"label\": \"业务订单数\", \"value\": \"764\"}, {\"label\": \"有效订单数\", \"value\": \"734\"}, {\"label\": \"已撤销订单数\", \"value\": \"12\"}, {\"label\": \"待核订单数\", \"value\": \"18\"}]",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P3",
+          "quote": "各站额度按日、按波次单独使用，当期余额不结转。冷链业务须同时具备可用工时及冷链名额。S4、S5 为待开通站点。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ]
+    },
+    {
+      "id": "scope_and_limits",
+      "score": 1,
+      "reason": "The candidate limits the result to the fixed demand, resources, quotations, and three independent scenarios for 10-11 August 2022. It distinguishes modeled planning results from actual operations and requires confirmation of station opening, supplier delivery, and continuing priorities, with recalculation after material changes.",
+      "evidence": [
+        {
+          "id": "C-P6-B22",
+          "quote": "本结果针对8 月10—11 日给定需求、站点额度、报价和三种独立工况。它是按约定规则形成的规",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-P6-B25",
+          "quote": "落实方案前，应确认站点开通条件、供应商交付能力及业务优先顺序仍有效。任何新增保障底",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F-decision",
+          "quote": "[{\"label\": \"推荐方案\", \"value\": \"P4：开通西环临时站\"}, {\"label\": \"支出与预算\", \"value\": \"10.5万元 / 12万元\"}, {\"label\": \"关键取舍\", \"value\": \"优先单保障领先P3；故障时冷链保障弱于P3\"}, {\"label\": \"适用范围\", \"value\": \"2022-08-10至11日固定需求、三种独立工况\"}]",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P17",
+          "quote": "各配送站、调度组：\n8 月 10 日至 11 日运营预案分别设置日常运行（BASE）、封路（CLOSURE）和设备故障（FAULT）三种工况，独立测算。封路工况停用 closure_segments.csv 所列路段的双向通行能力。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "reference_conflict": false,
+  "passed": true,
+  "evidence_binding": "model_selected_ids_runtime_exact_full_unit_text_v1",
+  "semantic_score": 1.0,
+  "measurement_status": "completed",
+  "response_id": "resp_02b36c28fcac8b8b016aec471ccd7c87d0a2c1aa9396cfb14f",
+  "model": "gpt-5.6-sol",
+  "seconds": 0.0,
+  "fresh_call": false,
+  "visual_input": false,
+  "rollout_executed": false
+}

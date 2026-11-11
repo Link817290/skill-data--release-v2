@@ -1,0 +1,11 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/environment/workspace/materials/ /reference/materials/
+RUN python3 -c "import openpyxl,et_xmlfile" \
+    && command -v libreoffice \
+    && test ! -e /skills \
+    && mkdir -p /logs/verifier \
+    && chmod -R 0700 /tests /reference
+CMD ["bash"]

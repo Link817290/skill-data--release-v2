@@ -1,0 +1,157 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "cross-examination-defendant-enforcement-objection-action",
+  "tasks": [
+    "cross-examination-defendant-enforcement-objection-action"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 36,
+  "bytes_excluding_manifest": 866775,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 5148,
+      "sha256": "631912142064ede7e0bd1b258a1d39a0cabaee8b8e96203ae7fc3298836a2182"
+    },
+    "RUBRIC.md": {
+      "bytes": 10903,
+      "sha256": "c928b06ffac846ee001e7abdda081badfbe3ac9c687753c4470ce088f76c3675"
+    },
+    "dataset.toml": {
+      "bytes": 563,
+      "sha256": "7d253d74a2cfebdc28aa3ee15b4f1e87a0952cf877007f9639d2d7a5641ac5fd"
+    },
+    "golden/质证意见.docx": {
+      "bytes": 23256,
+      "sha256": "6b1b28d619ceda3af5bc047248ebfc518c3f1783b7637c81bc90690a11588fff"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 281,
+      "sha256": "c699c202216cb58be4b1bd219aa8b81ac1d791d5effd0f7cd95458fd7aed4ff5"
+    },
+    "task/environment/skills/evidence-cross-examination/SKILL.md": {
+      "bytes": 8319,
+      "sha256": "de7d87732068c0d9e50bd28648f2ef0d93e715a03ae242c8fe777bc45cc763e6"
+    },
+    "task/environment/skills/evidence-cross-examination/references/cross-examination-method.md": {
+      "bytes": 11862,
+      "sha256": "6e9ed14a3361d52bb5172c434f8dbb87d189e0964e7d6c2da82839c09fc0a8df"
+    },
+    "task/environment/skills/evidence-cross-examination/references/figures-and-timeline.md": {
+      "bytes": 4430,
+      "sha256": "033bc03b7efeb6b30d66a219c29d4109c99d760a10ffa638fa470460df7ee934"
+    },
+    "task/environment/skills/evidence-cross-examination/references/filing-baseline.md": {
+      "bytes": 8483,
+      "sha256": "d22473779682187041ecb8bb1d7a53e2a3c73661d71999fd82860b84c454fa95"
+    },
+    "task/environment/skills/evidence-cross-examination/references/probative-value-limits.md": {
+      "bytes": 9705,
+      "sha256": "043004372905f6f3b4b23087899e4c3c2f38dbbf812eb8fa8cb5d4f2e420ef7f"
+    },
+    "task/environment/workspace/instruction.md": {
+      "bytes": 539,
+      "sha256": "0968790be1fd60b6971c9d878e52aa2d8b4f63fd6976fc0a211f95db95845ec1"
+    },
+    "task/environment/workspace/materials/1.起诉状.pdf.md": {
+      "bytes": 5759,
+      "sha256": "80639a30068af93c730f778a458058e95c3e5dda0415eb4d775b79d1cdd0f0e2"
+    },
+    "task/environment/workspace/materials/2.证据目录及证据材料.pdf.md": {
+      "bytes": 115755,
+      "sha256": "8cb51cecae8f8e40ee7819fc63b65cdd942b8ef61df6435739e08a1f172f2c84"
+    },
+    "task/instruction.md": {
+      "bytes": 539,
+      "sha256": "0968790be1fd60b6971c9d878e52aa2d8b4f63fd6976fc0a211f95db95845ec1"
+    },
+    "task/solution/reference/质证意见.docx": {
+      "bytes": 23256,
+      "sha256": "6b1b28d619ceda3af5bc047248ebfc518c3f1783b7637c81bc90690a11588fff"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 341,
+      "sha256": "fd0e9979b5864096c04b4b8903de1d89d03564b5ee398c89f2ac39c5ccf1ab31"
+    },
+    "task/task.toml": {
+      "bytes": 1201,
+      "sha256": "cd213f1e60273bc13bfab9dd22654d173f6ffc1ab7c0367e97dce86ac34cf179"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1201,
+      "sha256": "cd213f1e60273bc13bfab9dd22654d173f6ffc1ab7c0367e97dce86ac34cf179"
+    },
+    "task/tests/deliverable_gate.json": {
+      "bytes": 1371,
+      "sha256": "10badafadd0844a8a923a55856afd84919fb6ae7085f27c15b0c6295d3362a92"
+    },
+    "task/tests/deliverable_gate.py": {
+      "bytes": 38740,
+      "sha256": "15dab5832cdb6f0a0a88aa7154eec4a7e539fb3cf1285cde238eeba2f1e05549"
+    },
+    "task/tests/golden_replay/ae94fa7f5dd031c46fd431f3be7d09725a917a10b7b9440a839773a524c531b3.json": {
+      "bytes": 6725,
+      "sha256": "ef699f7554c5bca39b195d9b4231a252ff2640e86ffbb64caade4094ee754fe4"
+    },
+    "task/tests/pjroot/instruction.md": {
+      "bytes": 539,
+      "sha256": "0968790be1fd60b6971c9d878e52aa2d8b4f63fd6976fc0a211f95db95845ec1"
+    },
+    "task/tests/pjroot/materials/1.起诉状.pdf.md": {
+      "bytes": 5759,
+      "sha256": "80639a30068af93c730f778a458058e95c3e5dda0415eb4d775b79d1cdd0f0e2"
+    },
+    "task/tests/pjroot/materials/2.证据目录及证据材料.pdf.md": {
+      "bytes": 115755,
+      "sha256": "8cb51cecae8f8e40ee7819fc63b65cdd942b8ef61df6435739e08a1f172f2c84"
+    },
+    "task/tests/pjroot/rubric-contract.json": {
+      "bytes": 91525,
+      "sha256": "51fbd8307efdf0a02c5a76e625743d7f516a6fc4309c0d7c489feb5b01a45b07"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/golden_markdown_export.md": {
+      "bytes": 1075,
+      "sha256": "8afb853b5b43828ef264958997f5da33a3641b61d5b396a01aeb040becc87fd9"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/truncated_docx.docx": {
+      "bytes": 900,
+      "sha256": "68bf58c8cdbb48daee5cb07593e4f2fbbce114c82e22e91f99b368cc89bdf6f8"
+    },
+    "task/tests/pjroot/task/tests/program_judge/judge-conformance-suite.json": {
+      "bytes": 3368,
+      "sha256": "366351028f176cde2a4c9119460366d2b3bc4deef99cf783c004e6b3df5de25d"
+    },
+    "task/tests/pjroot/task/tests/program_judge/legal_prose.py": {
+      "bytes": 66485,
+      "sha256": "d94ba364633d7dbd682786439130ce19d17fda5ee2e8274ccaf5e4dbcf9d2fef"
+    },
+    "task/tests/pjroot/task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 24441,
+      "sha256": "57e3a6f229839ebab1fa0fc754e6489c3a91875236f4603c16e585d3e490e4c2"
+    },
+    "task/tests/pjroot/task/tests/program_judge/task_judge.py": {
+      "bytes": 39716,
+      "sha256": "893dfb2111aace7ad7d83f3916d396aca6f591221cc4b977546c815d2f293e10"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 91525,
+      "sha256": "51fbd8307efdf0a02c5a76e625743d7f516a6fc4309c0d7c489feb5b01a45b07"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 13567,
+      "sha256": "a46aa5823f9ce5f0e3971fab43d14618122e4d0e6e0d48939c89ff73cf420920"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 128094,
+      "sha256": "4a94cd6ee85476d6af4746d7f68c3838102615f18f7813884dbc861d53db37e2"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1713,
+      "sha256": "90d3dfe75cb4151831c8d4278af29962b9a680a675aece2266e09dc0ec42c398"
+    },
+    "task/tests/validator.py": {
+      "bytes": 3936,
+      "sha256": "e76e98c6d7b9c2d0ea402946043286e567938958445a6587ac40bdfe1e984ff2"
+    }
+  }
+}

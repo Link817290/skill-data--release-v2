@@ -1,0 +1,15 @@
+id = "complaint-contractor-first-instance-epc-general-contracting"
+task_type = "skill-bench"
+deliverable = "artifacts/civil-complaint.md"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from tests/pjroot/rubric-contract.json"
+scoring_params = "task/tests/pjroot/rubric-contract.json"
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/test.sh"
+rubric = "RUBRIC.md"
+condition_blind = true
+semantic_judge_required = true

@@ -1,0 +1,29 @@
+version = "1.0"
+id = "constrained-dc-network-design"
+task_type = "skill-bench"
+domain = "supply-chain-network-design"
+language = "en"
+difficulty = "expert"
+deliverable = "workspace/network_design_recommendation.xlsx"
+network_access = false
+
+[scoring]
+primary_score = "reward"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from tests/scoring_params.json"
+scoring_params = "task/tests/scoring_params.json"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 8
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+semantic_judge_required = true
+free_text_compared = true
+
+[skills]
+names = ["network-constraint-reconciliation", "capacitated-network-design", "xlsx-model-assurance"]
+answers_in_skill = false
+thresholds_in_skill = false
+condition_blind = true

@@ -1,0 +1,19 @@
+{
+  "deliverable": "revised_manuscript.pdf",
+  "delivery": {
+    "minimum_pages": 1
+  },
+  "correction": {
+    "unit": "bound on the number of active time-reuse patterns",
+    "superseded_factor": "twice the user count",
+    "corrected_factor": "the user count",
+    "propagation_sites": [
+      "proposition statement",
+      "sparsity bound on the time reuse profile",
+      "Caratheodory argument dimension",
+      "simplex dimensions in the optimality argument",
+      "candidate pattern set budget in the iterative algorithm"
+    ],
+    "added_domain": "strictly positive effective rates required by the sum-log objective"
+  }
+}

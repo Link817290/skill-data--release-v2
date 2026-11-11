@@ -1,0 +1,1872 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "2-11b-v1",
+  "task_mode": "generation",
+  "lenient_gate": {
+    "required_positive_all": [
+      "P12"
+    ],
+    "required_positive_any": [
+      "P08",
+      "P17"
+    ],
+    "blocking_deduction_ids": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D07",
+      "D10"
+    ],
+    "legal_basis": "A usable evidence opinion must be issued for defendant B and state at least one case-bound merits objection concerning specification of exhibits 4-6 or tracing and commingling shown by exhibit 7. Inverted stance, decoy-list substitution, self-defeating concession, fabrication, baseless denial of court instruments, a merits request outside evidence review, or the wrong delivery carrier makes it unusable. Omitted exhibits and a miscitation remain continuously scored when the core defense is still intelligible."
+  },
+  "positive_items": [
+    {
+      "id": "P01",
+      "dependencies": [],
+      "units": [
+        "Q-U000a"
+      ],
+      "weight": 0.0715,
+      "value_basis": "Segments a 53-page unindexed bundle: the (2025)某执异XXX号 ruling is exhibit 1 of THIS suit, which the decoy list inside that very ruling contradicts",
+      "reasoning_gate": "deterministic exhibit-number, document-type and case-number identity match; no semantic fraction controls this item",
+      "scope": "the evidence-detail region",
+      "object_key": "evidence 1 identity",
+      "source_location": "golden/质证意见.docx line 3 (evidence-detail entry 1)",
+      "relation_predicate": "the first court document among the plaintiff's exhibits is the (2025)某执异XXX号 enforcement ruling",
+      "golden_object_key": "evidence 1 identity",
+      "golden_relation_predicate": "1.《执行裁定书》（2025）某执异XXX号",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate, numbered candidate lead) plus the item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the evidence-detail region",
+        "metric": "normalized nonspace characters",
+        "max_units": 250
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "LIST"
+            ],
+            "groups": [
+              [
+                "执行裁定书|执行裁定|民事裁定书|裁定书"
+              ],
+              [
+                "2025[^0-9A-Za-z]{0,3}某执异\\s*XXX\\s*号|某执异XXX号"
+              ]
+            ],
+            "sentence_window": 2,
+            "max_chars": 160,
+            "exclude": [
+              "(?:19|20)(?!25)\\d{2}[^0-9A-Za-z]{0,3}某执异"
+            ]
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "none",
+        "zero": "otherwise"
+      }
+    },
+    {
+      "id": "P08",
+      "dependencies": [],
+      "units": [
+        "Q-U002b"
+      ],
+      "weight": 0.195,
+      "value_basis": "The package's one irreplaceable increment: it splits 『质权因登记而设立』 from 『质权对抗执行需账户特定化』 and attaches the second requirement to these three exhibits' probative force",
+      "reasoning_gate": "Evidence-bound semantic evaluation; equivalent grouped or separately reasoned opinions are accepted. Titles or blanket stances alone do not earn substantive-analysis credit.",
+      "scope": "the opinion on exhibits 4 to 6",
+      "object_key": "exhibits 4 to 6 cannot reach specification",
+      "source_location": "golden/质证意见.docx line 12 (the opinion on exhibits 4-6)",
+      "relation_predicate": "exhibits 4 to 6 cannot prove that the PLEDGE RIGHT was validly established through specification of the pledge account or the pledged property, so they cannot carry the pledge past registration into a right that resists enforcement. The object is the pledge right, not the account: saying the account is commingled restates the ruling at materials/2 line 49 and is not this proposition",
+      "golden_object_key": "exhibits 4 to 6 cannot reach specification",
+      "golden_relation_predicate": "不能证明质权因质押账户、质押财产的特定化而有效设立",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate, numbered candidate lead) plus the item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the opinion on exhibits 4 to 6",
+        "metric": "normalized nonspace characters",
+        "max_units": 250
+      },
+      "length_contract_id": "S03",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "EV4",
+              "EV5",
+              "EV6"
+            ],
+            "groups": [
+              [
+                "不能证明|不足以证明|无法证明|证明不了|不能证实|并不能证明|尚不能证明|不能据此证明|不能当然证明|不足以(?:认定|说明|表明)|无法(?:认定|说明|表明)|不能说明|不能表明|未(?:能)?证明|均不能证明"
+              ],
+              [
+                "特定化|特定于|专户化|(?:款项|财产|账户|标的)[^。；;]{0,6}特定"
+              ],
+              [
+                "质权(?!人)|质押权(?!人)|担保物权|优先受偿权|质押财产|质押物|出质[^。；;]{0,6}财产|质押标的|质押款项|金钱质押|动产质押|权利质押|质押(?:权)?(?:的)?(?:设立|成立|有效)"
+              ]
+            ],
+            "sentence_window": 3,
+            "max_chars": 300
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "none",
+        "zero": "otherwise"
+      }
+    },
+    {
+      "id": "P12",
+      "dependencies": [],
+      "units": [
+        "Q-U004"
+      ],
+      "weight": 0.039,
+      "value_basis": "Binds the whole filing to the right party; the appellation itself is an open equivalence set",
+      "reasoning_gate": "the complete proposition must be adopted by the author inside one bounded span",
+      "scope": "the caption and the signature block",
+      "object_key": "issuing party",
+      "source_location": "golden/质证意见.docx lines 1 and 15-16 (caption and signature block)",
+      "relation_predicate": "the document is issued by the defendant B公司",
+      "golden_object_key": "issuing party",
+      "golden_relation_predicate": "被告B公司质证意见： / 提交人：B公司",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate, numbered candidate lead) plus the item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the caption and the signature block",
+        "metric": "normalized nonspace characters",
+        "max_units": 90
+      },
+      "length_contract_id": "S05",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "__head__",
+              "__tail__"
+            ],
+            "groups": [
+              [
+                "(?:提交人|质证人|出具人|答辩人|异议人|具状人|被告一?|申请执行人|申请人|委托诉讼代理人|代理人)(?:[（(][^）)]{0,12}[）)])?\\s*[：:]|被告[^。；;]{0,8}质证意见|申请执行人[^。；;]{0,8}质证意见"
+              ],
+              [
+                "B公司"
+              ]
+            ],
+            "sentence_window": 1,
+            "max_chars": 90,
+            "exclude": [
+              "(?:提交人|质证人|出具人|答辩人|异议人|具状人)\\s*[：:]\\s*(?:Q银行|D公司|原告|案外人|某县人民法院)"
+            ]
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "none",
+        "zero": "otherwise"
+      },
+      "replay_rule_id": "R3"
+    },
+    {
+      "id": "P13",
+      "dependencies": [],
+      "units": [
+        "Q-U000b",
+        "Q-U000c",
+        "Q-U001"
+      ],
+      "weight": 0.078,
+      "value_basis": "Evidence-by-evidence coverage of the two court enforcement instruments the plaintiff actually filed as exhibits 2 and 3 (the (2024)某执XXX号之二 ruling and the 协助扣划存款通知书): the defendant identifies each and accepts its authenticity and legality. The identity half alone never earns; the stance half is bound to the right document, so a decoy-list 证据二/三 (应收账款质押合同) stance never earns",
+      "reasoning_gate": "50% deterministic identity of exhibits 2 and 3; 50% evidence-bound semantic stance on authenticity and legality",
+      "scope": "the evidence-detail region and the opinions on exhibits 2 and 3",
+      "object_key": "exhibits 2 and 3 identity and authenticity-legality stance",
+      "source_location": "golden/质证意见.docx lines 4-5 and 11",
+      "relation_predicate": "exhibit 2 is the (2024)某执XXX号之二 enforcement ruling and exhibit 3 is the court's 协助扣划存款通知书, and for each the defendant adopts that its authenticity and legality are not contested",
+      "golden_object_key": "exhibits 2 and 3 identity and authenticity-legality stance",
+      "golden_relation_predicate": "2.《执行裁定书》（2024）某执XXX号之二 / 3.某县人民法院《协助扣划存款通知书》 / 证据1-3：真实性、合法性无异议。",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions plus: 真实性/合法性 followed by 不予认可/不认可/有异议/无法确认 etc., 不(予)认可其真实性, decoy document names (价款合同/质押合同/借款合同) and 无从确认/核对/核验 in the stance sentence",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the evidence-detail region and the opinions on exhibits 2 and 3",
+        "metric": "normalized nonspace characters",
+        "max_units": 220
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "LIST"
+            ],
+            "groups": [
+              [
+                "执行裁定书|执行裁定|裁定书"
+              ],
+              [
+                "2024[^0-9A-Za-z]{0,3}某执\\s*XXX\\s*号之二|某执XXX号之二"
+              ]
+            ],
+            "sentence_window": 2,
+            "max_chars": 160
+          },
+          {
+            "sections": [
+              "LIST",
+              "EV2"
+            ],
+            "groups": [
+              [
+                "无异议|不持异议|没有异议|无争议|不表异议|均无异议|不提异议|(?:真实性|合法性|三性)(?:(?!不|无|未)[^。；;]{0,10})(?:予以|均|皆|一并)?(?:认可|确认)|(?:予以|均|皆)?认可(?:其)?(?:真实性|合法性|三性)"
+              ],
+              [
+                "真实性|三性"
+              ],
+              [
+                "合法性|三性"
+              ],
+              [
+                "之二|证据\\s*[1一]\\s*[-－—–~～至到]\\s*[3三]|证据\\s*[2二](?![0-9])|第\\s*[2二]\\s*项|[三两]份(?:法院|执行)?(?:执行)?文书"
+              ]
+            ],
+            "sentence_window": 3,
+            "max_chars": 220,
+            "exclude": [
+              "(?:真实性|合法性|三性)(?:[^。；;]{0,10})?(?:不予|不能|无法|难以|未予)(?:认可|确认|采信|采纳)",
+              "(?:真实性|合法性|三性)(?:[^。；;]{0,8})?(?:(?<![没无未不])有异议|存在异议|提出异议|持异议|予以否认|(?<![无])不认可)",
+              "(?:不予|不)认可(?:其)?(?:真实性|合法性|三性)",
+              "价款合同|质押合同|借款合同|无从(?:确认|核对|核验)"
+            ]
+          },
+          {
+            "sections": [
+              "LIST"
+            ],
+            "groups": [
+              [
+                "协助扣划存款通知书|协助扣划通知书|扣划存款通知书"
+              ],
+              [
+                "人民法院|某县法院|法院|某执"
+              ]
+            ],
+            "sentence_window": 2,
+            "max_chars": 160
+          },
+          {
+            "sections": [
+              "LIST",
+              "EV3"
+            ],
+            "groups": [
+              [
+                "无异议|不持异议|没有异议|无争议|不表异议|均无异议|不提异议|(?:真实性|合法性|三性)(?:(?!不|无|未)[^。；;]{0,10})(?:予以|均|皆|一并)?(?:认可|确认)|(?:予以|均|皆)?认可(?:其)?(?:真实性|合法性|三性)"
+              ],
+              [
+                "真实性|三性"
+              ],
+              [
+                "合法性|三性"
+              ],
+              [
+                "协助扣划|扣划存款通知|证据\\s*[1一]\\s*[-－—–~～至到]\\s*[3三]|证据\\s*[3三](?![0-9])|第\\s*[3三]\\s*项|[三两]份(?:法院|执行)?(?:执行)?文书"
+              ]
+            ],
+            "sentence_window": 3,
+            "max_chars": 220,
+            "exclude": [
+              "(?:真实性|合法性|三性)(?:[^。；;]{0,10})?(?:不予|不能|无法|难以|未予)(?:认可|确认|采信|采纳)",
+              "(?:真实性|合法性|三性)(?:[^。；;]{0,8})?(?:(?<![没无未不])有异议|存在异议|提出异议|持异议|予以否认|(?<![无])不认可)",
+              "(?:不予|不)认可(?:其)?(?:真实性|合法性|三性)",
+              "价款合同|质押合同|借款合同|无从(?:确认|核对|核验)"
+            ]
+          }
+        ],
+        "partial": {
+          "min_complete_propositions": 3,
+          "fraction": 0.5,
+          "meaning": "one of the two court instruments (exhibit 2 or exhibit 3) both identified and given the authenticity-and-legality acceptance; any 3 of the 4 propositions imply one complete identity+stance pair, and identities alone (at most 2) or stances alone (at most 2) never reach it"
+        }
+      },
+      "full_partial_zero": {
+        "full": "both exhibits identified and given the acceptance stance",
+        "partial": "the deterministic identity half and semantic stance half are combined; either half can earn independent credit",
+        "zero": "otherwise, including identities without stance and stance without identity"
+      }
+    },
+    {
+      "id": "P14",
+      "dependencies": [],
+      "units": [
+        "Q-U000d",
+        "Q-U002b"
+      ],
+      "weight": 0.0455,
+      "value_basis": "Evidence-by-evidence coverage of exhibit 4 (《应收账款质押登记协议》): it is identified and its OWN opinion carries the Golden ground that it cannot prove the pledge right was validly established through specification. P08 scores that ground once for the 4-6 group; this item requires it for exhibit 4 itself. Naming alone (copyable from the decoy list) never earns",
+      "reasoning_gate": "40% deterministic exhibit identity; 60% evidence-bound semantic proof-limitation analysis",
+      "scope": "the evidence-detail region and the opinion on exhibit 4",
+      "object_key": "exhibit 4 specification ground",
+      "source_location": "golden/质证意见.docx line 6 and line 12",
+      "relation_predicate": "exhibit 4 is the registration agreement, and the defendant adopts that it cannot prove the pledge right was validly established through specification of the pledged account/property",
+      "golden_object_key": "exhibit 4 specification ground",
+      "golden_relation_predicate": "4.《应收账款质押登记协议》 / 证据4-6：…不能证明质权因质押账户、质押财产的特定化而有效设立",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate, numbered candidate lead); an affirmative statement that the pledge is established or the property specified carries no denial verb and never matches",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the evidence-detail region and the opinion on exhibit 4",
+        "metric": "normalized nonspace characters",
+        "max_units": 300
+      },
+      "length_contract_id": "S03",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "LIST"
+            ],
+            "groups": [
+              [
+                "应收账款质押登记协议|质押登记协议"
+              ]
+            ],
+            "sentence_window": 2,
+            "max_chars": 160
+          },
+          {
+            "sections": [
+              "EV4"
+            ],
+            "groups": [
+              [
+                "不能证明|不足以证明|无法证明|证明不了|不能证实|并不能证明|尚不能证明|不能据此证明|不能当然证明|不足以(?:认定|说明|表明)|无法(?:认定|说明|表明)|不能说明|不能表明|未(?:能)?证明|均不能证明|不应采信其用于证明|不(?:予)?采纳其用于证明|不能填补|(?:并)?不等于"
+              ],
+              [
+                "特定化|特定于|专户化|(?:款项|财产|账户|标的)[^。；;]{0,6}特定"
+              ],
+              [
+                "质权(?!人)|质押权(?!人)|担保物权|优先受偿权|质押财产|质押物|出质[^。；;]{0,6}财产|质押标的|质押款项|金钱质押|动产质押|权利质押|质押(?:权)?(?:的)?(?:设立|成立|有效)"
+              ]
+            ],
+            "sentence_window": 3,
+            "max_chars": 300
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "identity and the specification ground both complete",
+        "partial": "0.4 for the deterministic identity alone; the remaining 0.6 follows semantic completion of the proof-limitation analysis",
+        "zero": "otherwise, including the name without the position"
+      }
+    },
+    {
+      "id": "P15",
+      "dependencies": [],
+      "units": [
+        "Q-U000d",
+        "Q-U002b"
+      ],
+      "weight": 0.0455,
+      "value_basis": "Evidence-by-evidence coverage of exhibit 5 (《账户质押托管合同》): it is identified and its OWN opinion carries the Golden ground that it cannot prove the pledge right was validly established through specification. P08 scores that ground once for the 4-6 group; this item requires it for exhibit 5 itself. Naming alone (copyable from the decoy list) never earns",
+      "reasoning_gate": "40% deterministic exhibit identity; 60% evidence-bound semantic proof-limitation analysis",
+      "scope": "the evidence-detail region and the opinion on exhibit 5",
+      "object_key": "exhibit 5 specification ground",
+      "source_location": "golden/质证意见.docx line 7 and line 12",
+      "relation_predicate": "exhibit 5 is the account-pledge custody contract, and the defendant adopts that it cannot prove the pledge right was validly established through specification of the pledged account/property",
+      "golden_object_key": "exhibit 5 specification ground",
+      "golden_relation_predicate": "5.《账户质押托管合同》 / 证据4-6：…不能证明质权因质押账户、质押财产的特定化而有效设立",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate, numbered candidate lead); an affirmative statement that the pledge is established or the property specified carries no denial verb and never matches",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the evidence-detail region and the opinion on exhibit 5",
+        "metric": "normalized nonspace characters",
+        "max_units": 300
+      },
+      "length_contract_id": "S03",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "LIST"
+            ],
+            "groups": [
+              [
+                "账户质押托管合同|质押托管合同|账户托管合同"
+              ]
+            ],
+            "sentence_window": 2,
+            "max_chars": 160
+          },
+          {
+            "sections": [
+              "EV5"
+            ],
+            "groups": [
+              [
+                "不能证明|不足以证明|无法证明|证明不了|不能证实|并不能证明|尚不能证明|不能据此证明|不能当然证明|不足以(?:认定|说明|表明)|无法(?:认定|说明|表明)|不能说明|不能表明|未(?:能)?证明|均不能证明|不应采信其用于证明|不(?:予)?采纳其用于证明|不能填补|(?:并)?不等于"
+              ],
+              [
+                "特定化|特定于|专户化|(?:款项|财产|账户|标的)[^。；;]{0,6}特定"
+              ],
+              [
+                "质权(?!人)|质押权(?!人)|担保物权|优先受偿权|质押财产|质押物|出质[^。；;]{0,6}财产|质押标的|质押款项|金钱质押|动产质押|权利质押|质押(?:权)?(?:的)?(?:设立|成立|有效)"
+              ]
+            ],
+            "sentence_window": 3,
+            "max_chars": 300
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "identity and the specification ground both complete",
+        "partial": "0.4 for the deterministic identity alone; the remaining 0.6 follows semantic completion of the proof-limitation analysis",
+        "zero": "otherwise, including the name without the position"
+      }
+    },
+    {
+      "id": "P16",
+      "dependencies": [],
+      "units": [
+        "Q-U000d",
+        "Q-U002b"
+      ],
+      "weight": 0.0455,
+      "value_basis": "Evidence-by-evidence coverage of exhibit 6 (《中国人民银行征信中心动产权属统一登记》): it is identified and its OWN opinion carries the Golden ground that it cannot prove the pledge right was validly established through specification. P08 scores that ground once for the 4-6 group; this item requires it for exhibit 6 itself. Naming alone (copyable from the decoy list) never earns",
+      "reasoning_gate": "40% deterministic exhibit identity; 60% evidence-bound semantic proof-limitation analysis",
+      "scope": "the evidence-detail region and the opinion on exhibit 6",
+      "object_key": "exhibit 6 specification ground",
+      "source_location": "golden/质证意见.docx line 8 and line 12",
+      "relation_predicate": "exhibit 6 is the PBOC credit-registry registration, and the defendant adopts that it cannot prove the pledge right was validly established through specification of the pledged account/property",
+      "golden_object_key": "exhibit 6 specification ground",
+      "golden_relation_predicate": "6.《中国人民银行征信中心动产权属统一登记》 / 证据4-6：…不能证明质权因质押账户、质押财产的特定化而有效设立",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate, numbered candidate lead); an affirmative statement that the pledge is established or the property specified carries no denial verb and never matches",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the evidence-detail region and the opinion on exhibit 6",
+        "metric": "normalized nonspace characters",
+        "max_units": 300
+      },
+      "length_contract_id": "S03",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "LIST"
+            ],
+            "groups": [
+              [
+                "征信中心|动产权属|质押(?:初始)?登记(?:证明|表)"
+              ]
+            ],
+            "sentence_window": 2,
+            "max_chars": 160
+          },
+          {
+            "sections": [
+              "EV6"
+            ],
+            "groups": [
+              [
+                "不能证明|不足以证明|无法证明|证明不了|不能证实|并不能证明|尚不能证明|不能据此证明|不能当然证明|不足以(?:认定|说明|表明)|无法(?:认定|说明|表明)|不能说明|不能表明|未(?:能)?证明|均不能证明|不应采信其用于证明|不(?:予)?采纳其用于证明|不能填补|(?:并)?不等于"
+              ],
+              [
+                "特定化|特定于|专户化|(?:款项|财产|账户|标的)[^。；;]{0,6}特定"
+              ],
+              [
+                "质权(?!人)|质押权(?!人)|担保物权|优先受偿权|质押财产|质押物|出质[^。；;]{0,6}财产|质押标的|质押款项|金钱质押|动产质押|权利质押|质押(?:权)?(?:的)?(?:设立|成立|有效)"
+              ]
+            ],
+            "sentence_window": 3,
+            "max_chars": 300
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "identity and the specification ground both complete",
+        "partial": "0.4 for the deterministic identity alone; the remaining 0.6 follows semantic completion of the proof-limitation analysis",
+        "zero": "otherwise, including the name without the position"
+      }
+    },
+    {
+      "id": "P17",
+      "dependencies": [],
+      "units": [
+        "EV7_FLOW"
+      ],
+      "weight": 0.13,
+      "value_basis": "Substantive analysis of the actual bank-flow report and its effect on account specificity.",
+      "reasoning_gate": "Evidence-bound semantic evaluation; equivalent grouped or separately reasoned opinions are accepted. Titles or blanket stances alone do not earn substantive-analysis credit.",
+      "scope": "opinion on exhibit 7",
+      "object_key": "exhibit 7 bank-flow analysis",
+      "source_location": "golden/质证意见.docx line 12 (the opinion on exhibits 4-6)",
+      "relation_predicate": "Explain mixed inflows and outflows with case-supported categories and why registration does not trace the frozen funds to specific pledged receivables.",
+      "golden_object_key": "exhibits 4 to 6 cannot reach specification",
+      "golden_relation_predicate": "账户含扶贫补贴、财政拨款、投资款，支出用于归还贷款、项目维护和经营，非专用账户，不能据此排除执行。",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim, not a quotation, the plaintiff's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate, numbered candidate lead) plus the item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the opinion on exhibits 4 to 6",
+        "metric": "normalized nonspace characters",
+        "max_units": 250
+      },
+      "length_contract_id": "S03",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "EV4",
+              "EV5",
+              "EV6"
+            ],
+            "groups": [
+              [
+                "不能证明|不足以证明|无法证明|证明不了|不能证实|并不能证明|尚不能证明|不能据此证明|不能当然证明|不足以(?:认定|说明|表明)|无法(?:认定|说明|表明)|不能说明|不能表明|未(?:能)?证明|均不能证明"
+              ],
+              [
+                "特定化|特定于|专户化|(?:款项|财产|账户|标的)[^。；;]{0,6}特定"
+              ],
+              [
+                "质权(?!人)|质押权(?!人)|担保物权|优先受偿权|质押财产|质押物|出质[^。；;]{0,6}财产|质押标的|质押款项|金钱质押|动产质押|权利质押|质押(?:权)?(?:的)?(?:设立|成立|有效)"
+              ]
+            ],
+            "sentence_window": 3,
+            "max_chars": 300
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "none",
+        "zero": "otherwise"
+      }
+    },
+    {
+      "id": "P18",
+      "dependencies": [],
+      "units": [
+        "Q-U005"
+      ],
+      "dimension": "account_identity_closure",
+      "weight": 0.12,
+      "value_basis": "Reconcile the masked debited-account identifier in the execution instruments with the account identifier in the pledge/registration/transaction records instead of silently assuming identity.",
+      "reasoning_gate": "required evidence-bound semantic adjudication; equivalent identifier-reconciliation language is accepted",
+      "scope": "opinions on exhibits 2-7",
+      "object_key": "debited account versus registered collection account identity",
+      "source_location": "materials/2 pp8,11 (****_1) and pp13,19,35-52 (****)",
+      "relation_predicate": "the masked materials use visibly different account strings and therefore do not by themselves establish that the debited account is the registered/managed transaction account",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "defendant B adopted evidentiary limitation",
+      "negative_context_exclusions": "mere generic tracing, commingling, or a quoted/adversary position",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinions on exhibits 2-7",
+        "metric": "connected proposition",
+        "max_units": 1
+      },
+      "length_contract_id": "S00",
+      "self_report_fields_are_non_authoritative": true,
+      "full_partial_zero": {
+        "full": "different masked identifiers identified and tied to the unclosed account-identity link",
+        "partial": "none",
+        "zero": "silent assumption, generic tracing only, or no consequence"
+      },
+      "golden_object_key": "debited account versus registered collection account identity",
+      "golden_relation_predicate": "执行文书****_1与登记、合同、流水****不能仅凭脱敏文本确认同一，账户对应关系未闭合",
+      "match": {
+        "require": "any",
+        "propositions": [
+          {
+            "sections": [
+              "EV2",
+              "EV3",
+              "EV4",
+              "EV5",
+              "EV6",
+              "EV7"
+            ],
+            "groups": [
+              [
+                "."
+              ]
+            ],
+            "sentence_window": 1,
+            "max_chars": 10000
+          }
+        ]
+      }
+    },
+    {
+      "id": "P19",
+      "dependencies": [],
+      "units": [
+        "Q-U006"
+      ],
+      "dimension": "registration_scope_closure",
+      "weight": 0.1,
+      "value_basis": "Treat the five incorporated but unprovided collateral-information attachments as a limit on what the visible registration certificate proves about registered scope.",
+      "reasoning_gate": "required evidence-bound semantic adjudication; no demand to request production",
+      "scope": "opinion on exhibit 6 and connected registration-chain reasoning",
+      "object_key": "unprovided registration attachments and collateral scope",
+      "source_location": "materials/2 p36 (five collateral-information attachment names; attachment contents absent from bundle)",
+      "relation_predicate": "the certificate incorporates five absent schedules, so the visible pages do not establish the complete registered collateral description/scope",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "defendant B adopted evidentiary limitation",
+      "negative_context_exclusions": "generic statement that other contracts are absent, or a request to supplement without stating the present proof limit",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion on exhibit 6",
+        "metric": "connected proposition",
+        "max_units": 1
+      },
+      "length_contract_id": "S00",
+      "self_report_fields_are_non_authoritative": true,
+      "full_partial_zero": {
+        "full": "five absent incorporated attachments identified and their scope consequence explained",
+        "partial": "none",
+        "zero": "absent or generic missing-material statement"
+      },
+      "golden_object_key": "unprovided registration attachments and collateral scope",
+      "golden_relation_predicate": "登记证明列示五份未提供附件，可见页面不能证明完整登记范围",
+      "match": {
+        "require": "any",
+        "propositions": [
+          {
+            "sections": [
+              "EV6"
+            ],
+            "groups": [
+              [
+                "."
+              ]
+            ],
+            "sentence_window": 1,
+            "max_chars": 10000
+          }
+        ]
+      }
+    },
+    {
+      "id": "P20",
+      "dependencies": [],
+      "units": [
+        "Q-U007"
+      ],
+      "dimension": "registration_field_amount_closure",
+      "weight": 0.13,
+      "value_basis": "Use the registration certificate’s visibly illegible pledge-contract number and stated 45,589.00 yuan collateral value as bounded proof limitations against treating it as coverage of the 15,839,770.26 yuan debit.",
+      "reasoning_gate": "required evidence-bound semantic adjudication; do not decide that an OCR-visible value is definitively right or wrong",
+      "scope": "opinion on exhibit 6 and connected amount/scope reasoning",
+      "object_key": "ambiguous registration fields and debit coverage",
+      "source_location": "materials/2 p36 (partly illegible pledge-contract number; collateral value45,589.00) and pp8,11 (debit15,839,770.26)",
+      "relation_predicate": "the ambiguous contract identifier and visible collateral-value record do not by themselves establish that the registered scope covers the debit",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "defendant B adopted evidentiary limitation",
+      "negative_context_exclusions": "unsupported correction of the registration, bare number recitation, or generic amount challenge",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "opinion on exhibit 6",
+        "metric": "connected proposition",
+        "max_units": 1
+      },
+      "length_contract_id": "S00",
+      "self_report_fields_are_non_authoritative": true,
+      "full_partial_zero": {
+        "full": "both illegible contract-number and 45,589.00-versus-debit limits with consequence",
+        "partial": "0.5 for one field problem with its consequence",
+        "zero": "absent, bare figures, or invented correction"
+      },
+      "golden_object_key": "ambiguous registration fields and debit coverage",
+      "golden_relation_predicate": "质押合同号部分无法辨认、质押财产价值45,589.00元不能直接覆盖15,839,770.26元扣划款",
+      "match": {
+        "require": "any",
+        "propositions": [
+          {
+            "sections": [
+              "EV6"
+            ],
+            "groups": [
+              [
+                "."
+              ]
+            ],
+            "sentence_window": 1,
+            "max_chars": 10000
+          }
+        ]
+      }
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "kind": "proposition",
+      "trigger": "Party stance inverted",
+      "damage_basis": "The opinion is written for, or signed by, the plaintiff side instead of the defendant B公司",
+      "scope": "whole document",
+      "object_key": "party stance",
+      "source_location": "materials/; golden/质证意见.docx",
+      "error_predicate": "the document presents itself as acting for 原告/Q银行/案外人, or the signature names a party other than B公司",
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; the matched span is built so it cannot swallow a negator",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "party_stance_error",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "length_contract_id": "S05",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.2,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "__all__"
+        ],
+        "error": "代理[^。；;]{0,6}原告|原告(?:的)?(?:诉讼)?代理人|作为原告[^。；;]{0,8}代理人|(?:提交人|质证人|出具人|答辩人|异议人|具状人|落款)\\s*[：:]\\s*(?:Q银行|原告|D公司|案外人)|(?:本代理人|我方|本方)(?:代表|系|即)(?:原告|Q银行|案外人)|(?:原告|Q银行|案外人)(?:的)?质证意见\\s*[：:]",
+        "damage_object": "party_stance",
+        "exclude": [
+          "原告Q银行证据(?:明细|清单|目录)"
+        ]
+      }
+    },
+    {
+      "id": "D02",
+      "kind": "proposition",
+      "trigger": "Misled by the superseded exhibit list inside the Materials",
+      "damage_basis": "The evidence-detail list reproduces Q银行's earlier enforcement-objection exhibit list (价款合同 and two 应收账款质押合同) instead of the seven documents actually filed in this suit",
+      "scope": "the evidence-detail region",
+      "object_key": "evidence list identity",
+      "source_location": "materials/; golden/质证意见.docx",
+      "error_predicate": "a numbered evidence-detail entry names 价款合同 or 应收账款质押合同 -- neither is among the documents bound in materials/2 pages 1-52; both come from the superseded list at materials/2 line 35-36",
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; the matched span is built so it cannot swallow a negator",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "decoy_exhibit_list",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "SHAPE_LIST"
+        ],
+        "error": "价款合同|应收账款质押合同|应收帐款质押合同",
+        "damage_object": "decoy_exhibit_list",
+        "exclude": [
+          "(?:未|没有|并未|不曾|亦未)(?:实际)?(?:提交|提供|提出|举示|随案提交|附卷)",
+          "未(?:见|收到|予提交)",
+          "所列而未",
+          "不详|无从核对"
+        ],
+        "exclude_paragraph": [
+          "(?:执行)?异议(?:审查)?(?:阶段|程序)",
+          "此前[^。；;]{0,8}(?:阶段|程序|提交)",
+          "未随本案",
+          "实际(?:仅|只)(?:包含|有)",
+          "(?:2025)?某执异XXX号[^。；;]{0,12}第\\s*4\\s*页",
+          "(?:均|皆)?未(?:随本案)?(?:证据)?提交"
+        ],
+        "heading_carrier": {
+          "pattern": "^(?:[（(]?[一二三四五六七八九十]+[）)、.．]\\s*)?(?:关于)?证据\\s*(?:第)?[1-7一二三四五六七]\\s*(?:[：:（(《、]|项)",
+          "max_chars": 60
+        }
+      }
+    },
+    {
+      "id": "D03",
+      "kind": "proposition",
+      "trigger": "Self-defeating concession of the plaintiff's case",
+      "damage_basis": "The opinion affirmatively concedes the very propositions this party must resist: that Q银行 holds a priority right, that its pledge resists this enforcement, or that the account is specified",
+      "scope": "the opinion region",
+      "object_key": "defence stance",
+      "source_location": "materials/; golden/质证意见.docx",
+      "error_predicate": "required evidence-bound semantic review of the whole paragraph: defendant B adopts that Q Bank has already proved a valid pledge over the debited money, a right sufficient to exclude execution, or an account that is in fact specific and exclusively controlled. A burden-of-proof statement, attributed plaintiff position, conditional discussion, or recognition of contract/registration while disputing tracing and control is not a concession. The deterministic scan supplies candidates only and cannot trigger D03 by itself",
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; the matched span is built so it cannot swallow a negator",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "self_defeating_concession",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "length_contract_id": "S03",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.5,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "OPINION"
+        ],
+        "error": "^(?:(?!不予|不能|不得|不足|不应|不认可|不采信|不采纳|无法|未能|难以|否认|拒绝|驳回|排除|并非|而非|均非|不属于|不构成|不成立)[^。；;])*?(?:(?:原告|Q银行|异议人|案外人)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,14}(?:享有|具有|拥有)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,8}优先受偿权|(?:质权|该权利|优先受偿权|质押权|原告|Q银行|异议人|案外人)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,10}(?:足以|可以|能够|得以)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,8}排除(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,10}执行|(?:案涉|该|本案)?账户(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,10}(?:具备|符合|满足)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,8}特定化|(?:案涉|该|本案)?(?:账户|质押财产|质押账户)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,10}(?:已经?|确已|业已)特定化|(?:案涉|该|本案)?账户(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,8}(?:系|为|属于|是)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,6}(?:质押)?专(?:用|门)(?:的)?(?:质押)?账户|(?:不存在|没有)(?:任何)?非质押(?:款项|资金)|资金(?:并)?未(?:发生)?混同|(?:质权|质押权|该质权)(?:(?!不|无|非|未|否|难|尚)[^。；;]){0,10}(?:(?:已|确已|业已)(?:依法)?(?:有效)?设立|有效设立|依法设立))",
+        "damage_object": "defence_stance",
+        "exclude": [
+          "不能排除|无法排除|不足以排除|难以排除|不享有|未享有|不具备|不符合|不满足",
+          "(?:不|无法|未|难以|不足)(?:能)?(?:证明|认定|说明|表明|反映|体现)",
+          "不予(?:采纳|认可|确认|支持)|不能(?:认定|成立)|难以(?:采信|认定)",
+          "(?:主张|认为|辩称|诉称|请求确认)[^。；;]{0,6}(?:享有|足以|可以)",
+          "不予采信|不应采信|不(?:予)?采纳|不作为[^。；;]{0,120}依据",
+          "(?:以之|以该[^。；;]{0,8}|提交[^。；;]{0,12}|用以|据以|拟|欲)证明|证明目的|(?:的|之|其)主张|主张相矛盾",
+          "(?:合同|协议|条款|第[0-9一二三四五六七八九十百]+条)[^。；;]{0,6}约定",
+          "(?:证明|主张|辩称|诉称|需|应|待|能否|是否|认为|拟)[^。；;]{0,20}(?:质权|质押权)[^。；;]{0,12}设立"
+        ]
+      }
+    },
+    {
+      "id": "D04",
+      "kind": "unsupported_specifics",
+      "trigger": "Specific facts the Materials do not establish",
+      "damage_basis": "A date, amount, period or identifier stated as fact that cannot be recomputed from Materials plus the instruction; inventing a value instead of marking the gap",
+      "scope": "whole document",
+      "object_key": "unsupported specific",
+      "source_location": "materials/; golden/质证意见.docx",
+      "error_predicate": "a specific date, amount, period or long identifier asserted in the document is not established by, and not derivable from, Materials plus instruction",
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; the matched span is built so it cannot swallow a negator",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "fabricated_specific",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "length_contract_id": "S04",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "match": {
+        "kind": "unsupported_specifics",
+        "damage_object": "unsupported_specific"
+      }
+    },
+    {
+      "id": "D05",
+      "kind": "proposition",
+      "trigger": "Baseless denial of a court instrument",
+      "damage_basis": "Contesting the authenticity or legality of the court's own rulings and assistance notice -- documents this party relies on, one of which dismissed the plaintiff's objection",
+      "scope": "the opinion on exhibits 1 to 3",
+      "object_key": "court instrument authenticity",
+      "source_location": "materials/; golden/质证意见.docx",
+      "error_predicate": "the opinion on exhibits 1 to 3 refuses to accept their authenticity or legality",
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; the matched span is built so it cannot swallow a negator",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "baseless_denial_of_court_instrument",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.1,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "EV1",
+          "EV2",
+          "EV3"
+        ],
+        "error": "(?:真实性|合法性|三性)(?:[^。；;]{0,12})?(?:不予认可|不认可|不予确认|不能认可|予以否认|(?<![没无未不])有异议|存在异议|提出异议|持有异议)",
+        "damage_object": "court_instrument_authenticity",
+        "exclude": [
+          "(?:真实性|合法性)[^。；;]{0,10}无异议",
+          "关联性[^。；;]{0,6}(?:不予认可|有异议)",
+          "未随卷提交|未(?:见|提交|附|收到)[^。；;]{0,24}(?:文本|载体|页面|原件|正文|签署页|签章页)|价款合同|应收账款质押合同|应收帐款质押合同|借款合同|融资租赁合同"
+        ],
+        "exclude_block": "价款合同|应收账款质押合同|应收帐款质押合同|借款合同|融资租赁合同"
+      }
+    },
+    {
+      "id": "D07",
+      "kind": "proposition",
+      "trigger": "A request for substantive judgment inside an evidence opinion",
+      "damage_basis": "The filing closes by asking the tribunal to dismiss the other side's claims, which is an answer's request, not an evidence opinion's. The document's own closing request decides how each exhibit is to be treated; taking it to the merits of the action states this party's case in the wrong filing and concedes nothing back if the tribunal disagrees on the evidence",
+      "scope": "whole document",
+      "object_key": "closing request scope",
+      "source_location": "materials/; golden/质证意见.docx",
+      "error_predicate": "an adopted request that the tribunal dismiss (or refuse to support) the opposing party's claims, or grant substantive relief, rather than rule on how the evidence is to be treated",
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; the matched span is built so it cannot swallow a negator",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "merits_request_in_evidence_opinion",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "length_contract_id": "S05",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.3,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "__all__"
+        ],
+        "error": "请求[^。；;]{0,18}(?:依法)?(?:驳回|不予支持)[^。；;]{0,14}(?:全部)?(?:诉讼请求|诉请)|(?:依法)?驳回[^。；;]{0,14}(?:原告|Q银行|案外人)[^。；;]{0,10}(?:全部)?诉讼请求|请求[^。；;]{0,14}判(?:令|决|定)|请求[^。；;]{0,14}确认[^。；;]{0,14}(?:不享有|无权|不成立)",
+        "damage_object": "closing_request_scope",
+        "exclude": [
+          "裁(?:定|判)(?:主文|如下)",
+          "驳回[^。；;]{0,10}异议(?:请求|申请)",
+          "(?:原告|Q银行|案外人)(?:的)?(?:诉讼请求|请求)(?:为|是|包括|系)",
+          "(?:载明|记载|认定|裁定)[^。；;]{0,10}驳回"
+        ],
+        "ignore_generic_exclusions": false
+      }
+    },
+    {
+      "id": "D08",
+      "kind": "proposition",
+      "trigger": "Evidence opinions silently missing for whole exhibits",
+      "damage_basis": "The filing gives no opinion at all on one or more of the seven exhibits it is asked to examine, without marking the gap. A 质证意见 that is silent on an exhibit leaves that exhibit uncontested; ordinary partial omission inside an opinion is not charged here (positive credit only), silent absence of the whole opinion is",
+      "scope": "the seven opinion regions EV1 to EV7",
+      "object_key": "missing evidence opinion",
+      "source_location": "golden/质证意见.docx lines 11-13 (one opinion per exhibit group, none silent)",
+      "error_predicate": "k = number of exhibits 1..7 whose opinion region is empty and which no unanchored long paragraph names by alias; k >= 1 opens ceil(k / 2) damage instances, capped at 2. A marked gap (【待补充】) is a paragraph in the region and is never counted",
+      "adoption_status": "affirmative adopted by the author (the filing as delivered is silent on the exhibit)",
+      "negative_context_exclusions": "a gap marker in the exhibit's region, or a long unanchored paragraph naming the exhibit's document, means the opinion is present or marked and nothing is charged",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "missing_evidence_opinion",
+      "damage_instance_key_rule": "item plus ordinal of the instance (missing_opinion:1, missing_opinion:2), one instance per two missing exhibits, capped at 2",
+      "manifestation_rule": "document-level: the set of missing exhibit numbers",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.8,
+      "match": {
+        "kind": "missing_opinion",
+        "damage_object": "missing_opinion",
+        "exhibits_per_instance": 2,
+        "instance_cap": 2
+      }
+    },
+    {
+      "id": "D09",
+      "kind": "proposition",
+      "trigger": "A statutory provision relied on for a proposition its chapter does not govern",
+      "damage_basis": "The opinion cites 《法名》第N条 (or 该解释/该法/该规定第N条) as the basis of a proposition that the cited chapter does not address - 《民法典》第六百八十八条 (连带责任保证) cited for the specification requirement of a money pledge. A mis-cited provision misleads the tribunal about the law and is charged whatever the surrounding argument is worth; an accurate citation is never charged",
+      "scope": "whole document",
+      "object_key": "cited provision",
+      "source_location": "materials/2 line 47, 54 (the ruling's own citations); the chapter-range table in match.laws",
+      "error_predicate": "required evidence-bound semantic review of the whole paragraph: a currently adopted reliance clearly applies a cited provision to a proposition outside the provision's subject. The deterministic chapter-range scan supplies candidates only and cannot trigger D09 by itself. Read procedural burden-of-proof context and recognize Civil Code article 445 as compatible with distinguishing receivables-pledge registration from proof of underlying receivables or traced proceeds",
+      "adoption_status": "affirmative adopted by the author: quoted authorities, gap-marked notes, and sentences attributed to the plaintiff or hedged as candidates are excluded",
+      "negative_context_exclusions": "generic exclusions (plaintiff attribution, hedged candidate) per sentence; paragraph lead exclusions; authority quotations blanked; gap markers removed; a title with no reliance cue and no trailing 规定 (a document's own printed legal basis) is not a reliance",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "miscited_provision",
+      "damage_instance_key_rule": "item plus law id and article number (miscited_provision:民法典:688); repeated reliance on the same provision is one instance",
+      "manifestation_rule": "structural paragraph path plus the provision key",
+      "length_contract_id": "S05",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "match": {
+        "kind": "miscited_provision",
+        "damage_object": "miscited_provision",
+        "instance_cap": 2,
+        "reliance_cue": "(?<!登记依据|法律依据)(?<!所载|载明|记载|所附|注明)(?:依据|依照|根据|按照|参照|适用|援引|基于|依|按)(?!为|是|系|即|[:：])[^。；;，,为是系即]{0,6}[《该前上同]",
+        "trailing_cue": "^(?:第[0-9一二三四五六七八九十]{1,4}款)?(?:第[（(]?[0-9一二三四五六七八九十]{1,3}[）)]?项)?(?:之|的)?规定",
+        "laws": [
+          {
+            "id": "民法典",
+            "title": "民法典",
+            "not_title": "解释",
+            "ranges": [
+              [
+                114,
+                116,
+                [
+                  "物权",
+                  "质权",
+                  "担保"
+                ]
+              ],
+              [
+                386,
+                389,
+                [
+                  "担保",
+                  "质权",
+                  "保证",
+                  "合同"
+                ]
+              ],
+              [
+                425,
+                439,
+                [
+                  "质权",
+                  "担保"
+                ]
+              ],
+              [
+                440,
+                446,
+                [
+                  "质权",
+                  "担保"
+                ]
+              ],
+              [
+                463,
+                594,
+                [
+                  "合同"
+                ]
+              ],
+              [
+                681,
+                702,
+                [
+                  "保证",
+                  "担保"
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "民诉法",
+            "title": "民事诉讼法|民诉法",
+            "not_title": "解释",
+            "ranges": [
+              [
+                64,
+                67,
+                [
+                  "举证"
+                ]
+              ],
+              [
+                238,
+                238,
+                [
+                  "执行异议",
+                  "执行"
+                ]
+              ],
+              [
+                253,
+                253,
+                [
+                  "执行"
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "民诉解释",
+            "title": "(?:民事诉讼法|民诉法?).{0,4}解释|民诉解释",
+            "not_title": null,
+            "ranges": [
+              [
+                90,
+                91,
+                [
+                  "举证"
+                ]
+              ],
+              [
+                305,
+                316,
+                [
+                  "执行异议",
+                  "执行",
+                  "举证"
+                ]
+              ],
+              [
+                463,
+                463,
+                [
+                  "执行"
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "担保解释",
+            "title": "担保制度.{0,6}解释|担保解释",
+            "not_title": null,
+            "ranges": [
+              [
+                61,
+                61,
+                [
+                  "质权",
+                  "担保"
+                ]
+              ],
+              [
+                70,
+                70,
+                [
+                  "质权",
+                  "担保"
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "执行异议复议规定",
+            "title": "执行异议和复议",
+            "not_title": null,
+            "ranges": [
+              [
+                1,
+                33,
+                [
+                  "执行异议",
+                  "执行"
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "物权法",
+            "title": "物权法",
+            "not_title": "解释",
+            "ranges": [
+              [
+                208,
+                229,
+                [
+                  "质权",
+                  "担保"
+                ]
+              ]
+            ]
+          }
+        ],
+        "topic_terms": {
+          "质权": "质权|质押|出质|特定化|优先受偿|质物|担保物权",
+          "担保": "担保",
+          "保证": "保证人|保证责任|保证合同|连带责任保证|一般保证|保证期间|保证方式",
+          "合同": "合同|协议|约定|条款|生效|效力|违约",
+          "举证": "举证|证明责任|证据|证明|质证",
+          "执行异议": "执行异议|案外人|排除执行|异议之诉|执行标的",
+          "执行": "执行|扣划|划拨|冻结|强制",
+          "物权": "物权"
+        },
+        "table_note": "Only ranges whose subject is settled are listed (民法典 物权法定 114-116, 担保物权一般规定 386-389, 动产质权 425-439, 权利质权 440-446, 合同编通则 463-594, 保证 681-702; 民诉法 举证 64-67, 案外人异议 238, 划拨存款 253 - both as the ruling in materials/2 cites them; 民诉解释 举证 90-91, 执行异议之诉 305-316, 执行依据 463; 担保解释 61 应收账款质押, 70 保证金账户特定化; 执行异议复议规定 whole; 物权法 质权 208-229). An article outside these is never charged: the item catches a provision used for a subject it does not govern, not an off-by-one number."
+      }
+    },
+    {
+      "id": "D10",
+      "kind": "proposition",
+      "trigger": "Deliverable not delivered as the Word document the brief names",
+      "damage_basis": "instruction.md: 'Deliver it as a Chinese Word document at artifacts/质证意见.docx'. A submission handed over as Markdown (the validator's fallback) is not a Word document; one delivered under another file name in artifacts/ is not at the named path. Either is a delivery defect the brief states explicitly",
+      "scope": "the delivered file",
+      "object_key": "delivery carrier and path",
+      "source_location": "instruction.md (last sentence); tests/validator.py fallback order (artifacts/质证意见.docx, then any artifacts/*.docx, then artifacts/*.md)",
+      "error_predicate": "the file the judge scores sits in the artifacts/ delivery directory and has a suffix other than .docx, or a name other than 质证意见.docx. One damage instance regardless of how many deviations. A file outside artifacts/ (Golden's own reference copies, the conformance suite's markdown export) is not a delivery and is never charged, so the judge still reads every carrier's content alike",
+      "adoption_status": "affirmative adopted by the author (the delivery as made)",
+      "negative_context_exclusions": "none needed: the check reads the file's own suffix and name, never its text",
+      "causal_root_rule": "one causal root per deduction item",
+      "causal_root_id": "delivery_path_error",
+      "damage_instance_key_rule": "item plus the constant object delivery_path: one instance",
+      "manifestation_rule": "document-level",
+      "length_contract_id": "S05",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "match": {
+        "kind": "delivery_carrier",
+        "damage_object": "delivery_path",
+        "required_suffix": ".docx",
+        "required_name": "质证意见.docx",
+        "delivery_dir": "artifacts"
+      }
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "Q-U000a",
+      "disposition": "scored",
+      "items": [
+        "P01"
+      ],
+      "program_item_ids": [
+        "P01"
+      ],
+      "golden_proposition": "1.《执行裁定书》（2025）某执异XXX号",
+      "golden_locator": "md 第3行"
+    },
+    {
+      "unit_id": "Q-U001",
+      "disposition": "scored",
+      "items": [
+        "P06",
+        "D05"
+      ],
+      "program_item_ids": [
+        "D05"
+      ],
+      "golden_proposition": "证据1-3：真实性、合法性无异议。",
+      "golden_locator": "md 第11行"
+    },
+    {
+      "unit_id": "Q-U002b",
+      "disposition": "scored",
+      "items": [
+        "P08"
+      ],
+      "program_item_ids": [
+        "P08"
+      ],
+      "golden_proposition": "不能证明质权因质押账户、质押财产的特定化而有效设立",
+      "golden_locator": "md 第12行中段"
+    },
+    {
+      "unit_id": "Q-U004",
+      "disposition": "scored as equivalent_set_replay R3: the appellation is an open equivalence set. The Golden signs 提交人：B公司 while the task skill's references/filing-baseline.md §5 teaches the procedural-role form; both, and 质证人/答辩人/被告, satisfy the item. No exact item exists in this package.",
+      "items": [
+        "P12",
+        "D01"
+      ],
+      "program_item_ids": [
+        "P12",
+        "D01"
+      ],
+      "golden_proposition": "提交人：B公司 / 日期：【待补充：提交日期】",
+      "golden_locator": "md 第15-16行"
+    },
+    {
+      "unit_id": "Q-U005",
+      "disposition": "scored",
+      "items": [
+        "P18"
+      ],
+      "program_item_ids": [
+        "P18"
+      ],
+      "golden_proposition": "执行文书****_1与登记/合同/流水****的脱敏账号不能仅凭现有文本确认同一",
+      "golden_locator": "Golden新增账号同一性段"
+    },
+    {
+      "unit_id": "Q-U006",
+      "disposition": "scored",
+      "items": [
+        "P19"
+      ],
+      "program_item_ids": [
+        "P19"
+      ],
+      "golden_proposition": "登记证明列示五份未提供附件，完整登记范围不能由可见页面确立",
+      "golden_locator": "Golden新增登记附件段"
+    },
+    {
+      "unit_id": "Q-U007",
+      "disposition": "scored",
+      "items": [
+        "P20"
+      ],
+      "program_item_ids": [
+        "P20"
+      ],
+      "golden_proposition": "质押合同号部分无法辨认、质押财产价值45,589.00元不能直接覆盖15,839,770.26元扣划款",
+      "golden_locator": "Golden新增登记字段段"
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "sections": [
+        "SHAPE_LIST"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "the evidence-detail list including its heading",
+      "golden_value": 136,
+      "declared_floor": 400,
+      "tau_over": 2.0,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific_practice_reference. The Golden is 375 nonspace characters in total and two of its five zones are under 35 characters, so a band anchored on the Golden counts would charge ordinary professional drafting as damage, and shape is not to become a scoring surface. The band is therefore anchored on PRACTICE, not on the Golden: a 质证意见 over a seven-exhibit bundle gives each exhibit group roughly 100 to 300 nonspace characters (one stance sentence plus its record-specific reasons), and the detail list needs about 400 to name seven documents. declared_floor encodes that practice ceiling, so the Golden's terseness never sets the bar. A zone is charged only once it stops being an evidence opinion and becomes a standalone brief: tau_over=2.0 with min_absolute_deviation=600 means roughly 900 nonspace characters for an opinion zone (750 for the caption block), i.e. three times a full professional opinion. min_absolute_deviation exceeds every baseline, so the under-run side is unreachable and ordinary omission costs positive credit only.",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "P01",
+        "D02"
+      ],
+      "min_absolute_deviation": 600
+    },
+    {
+      "id": "S02",
+      "sections": [
+        "SHAPE_OP13"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "the opinion paragraphs led by exhibits 1 to 3",
+      "golden_value": 17,
+      "declared_floor": 300,
+      "tau_over": 2.0,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific_practice_reference. The Golden is 375 nonspace characters in total and two of its five zones are under 35 characters, so a band anchored on the Golden counts would charge ordinary professional drafting as damage, and shape is not to become a scoring surface. The band is therefore anchored on PRACTICE, not on the Golden: a 质证意见 over a seven-exhibit bundle gives each exhibit group roughly 100 to 300 nonspace characters (one stance sentence plus its record-specific reasons), and the detail list needs about 400 to name seven documents. declared_floor encodes that practice ceiling, so the Golden's terseness never sets the bar. A zone is charged only once it stops being an evidence opinion and becomes a standalone brief: tau_over=2.0 with min_absolute_deviation=600 means roughly 900 nonspace characters for an opinion zone (750 for the caption block), i.e. three times a full professional opinion. min_absolute_deviation exceeds every baseline, so the under-run side is unreachable and ordinary omission costs positive credit only.",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "D05"
+      ],
+      "min_absolute_deviation": 600
+    },
+    {
+      "id": "S03",
+      "sections": [
+        "SHAPE_OP46"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "the opinion paragraphs led by exhibits 4 to 6",
+      "golden_value": 86,
+      "declared_floor": 300,
+      "tau_over": 2.0,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific_practice_reference. The Golden is 375 nonspace characters in total and two of its five zones are under 35 characters, so a band anchored on the Golden counts would charge ordinary professional drafting as damage, and shape is not to become a scoring surface. The band is therefore anchored on PRACTICE, not on the Golden: a 质证意见 over a seven-exhibit bundle gives each exhibit group roughly 100 to 300 nonspace characters (one stance sentence plus its record-specific reasons), and the detail list needs about 400 to name seven documents. declared_floor encodes that practice ceiling, so the Golden's terseness never sets the bar. A zone is charged only once it stops being an evidence opinion and becomes a standalone brief: tau_over=2.0 with min_absolute_deviation=600 means roughly 900 nonspace characters for an opinion zone (750 for the caption block), i.e. three times a full professional opinion. min_absolute_deviation exceeds every baseline, so the under-run side is unreachable and ordinary omission costs positive credit only.",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "P08",
+        "D03"
+      ],
+      "min_absolute_deviation": 600
+    },
+    {
+      "id": "S04",
+      "sections": [
+        "SHAPE_OP7"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "the opinion paragraphs led by exhibit 7",
+      "golden_value": 103,
+      "declared_floor": 300,
+      "tau_over": 2.0,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific_practice_reference. The Golden is 375 nonspace characters in total and two of its five zones are under 35 characters, so a band anchored on the Golden counts would charge ordinary professional drafting as damage, and shape is not to become a scoring surface. The band is therefore anchored on PRACTICE, not on the Golden: a 质证意见 over a seven-exhibit bundle gives each exhibit group roughly 100 to 300 nonspace characters (one stance sentence plus its record-specific reasons), and the detail list needs about 400 to name seven documents. declared_floor encodes that practice ceiling, so the Golden's terseness never sets the bar. A zone is charged only once it stops being an evidence opinion and becomes a standalone brief: tau_over=2.0 with min_absolute_deviation=600 means roughly 900 nonspace characters for an opinion zone (750 for the caption block), i.e. three times a full professional opinion. min_absolute_deviation exceeds every baseline, so the under-run side is unreachable and ordinary omission costs positive credit only.",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "D04"
+      ],
+      "min_absolute_deviation": 600
+    },
+    {
+      "id": "S05",
+      "sections": [
+        "SHAPE_ENDS"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "the caption line plus the signature block",
+      "golden_value": 33,
+      "declared_floor": 150,
+      "tau_over": 2.0,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific_practice_reference. The Golden is 375 nonspace characters in total and two of its five zones are under 35 characters, so a band anchored on the Golden counts would charge ordinary professional drafting as damage, and shape is not to become a scoring surface. The band is therefore anchored on PRACTICE, not on the Golden: a 质证意见 over a seven-exhibit bundle gives each exhibit group roughly 100 to 300 nonspace characters (one stance sentence plus its record-specific reasons), and the detail list needs about 400 to name seven documents. declared_floor encodes that practice ceiling, so the Golden's terseness never sets the bar. A zone is charged only once it stops being an evidence opinion and becomes a standalone brief: tau_over=2.0 with min_absolute_deviation=600 means roughly 900 nonspace characters for an opinion zone (750 for the caption block), i.e. three times a full professional opinion. min_absolute_deviation exceeds every baseline, so the under-run side is unreachable and ordinary omission costs positive credit only.",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "P12",
+        "D01",
+        "D07"
+      ],
+      "min_absolute_deviation": 600
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N1",
+        "operation": "strip whitespace before matching; DOCX paragraphs and table rows and Markdown lines share one Para schema"
+      },
+      {
+        "id": "N2",
+        "operation": "remove verbatim authority quotations from the author's own text before deduction scanning"
+      },
+      {
+        "id": "N3",
+        "operation": "declared surface synonyms are accepted by the item term groups"
+      },
+      {
+        "id": "N4",
+        "operation": "paragraphs introduced as candidate, hypothesis or the plaintiff's own position are excluded as a whole"
+      },
+      {
+        "id": "N5",
+        "operation": "exhibit references normalise to a set of numbers: 证据1-3, 证据1至3, 证据1、2、3, 证据一 and a blanket 全部证据 all expand; a paragraph without its own reference inherits the previous paragraph's set"
+      },
+      {
+        "id": "gap_marker_fold_v1",
+        "operation": "every declared gap marker folds into one gap observation: the marked span earns no positive credit, is dropped before the unsupported-specifics scan and before shape counting, and a region holding only markers is an ordinary omission, never a shape charge; inventing a value instead of marking it stays charged under fabrication_deduction_ids"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R1",
+        "operation": "nonspace character count per shape region"
+      },
+      {
+        "id": "R2",
+        "operation": "date, amount, period and identifier support check against Materials plus instruction"
+      },
+      {
+        "id": "R3",
+        "operation": "the issuing-party appellation replays as one equivalence class over 提交人/质证人/答辩人/被告/申请执行人/异议人 etc.; only the party identity B公司 is decided"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "task_matching": {
+    "exhibit_aliases": {
+      "1": [
+        "2025[^0-9A-Za-z]{0,3}某执异XXX号",
+        "^(?:(?!(?:19|20)(?!25)\\d{2}[^0-9A-Za-z]{0,3}某执异)[\\s\\S])*?某执异XXX号"
+      ],
+      "2": [
+        "2024[^0-9A-Za-z]{0,3}某执XXX号之二",
+        "某执XXX号之二"
+      ],
+      "3": [
+        "协助扣划存款通知书",
+        "协助扣划通知书",
+        "扣划存款通知书"
+      ],
+      "4": [
+        "应收账款质押登记协议",
+        "质押登记协议"
+      ],
+      "5": [
+        "账户质押托管合同",
+        "质押托管合同",
+        "账户托管合同"
+      ],
+      "6": [
+        "征信中心",
+        "动产权属",
+        "质押(?:初始)?登记(?:证明|表)"
+      ],
+      "7": [
+        "活期存款交易明细",
+        "存款交易明细",
+        "交易明细报表",
+        "交易明细报告",
+        "账户流水",
+        "银行流水",
+        "流水明细"
+      ]
+    },
+    "exhibit_alias_rule": "A paragraph of at most 60 nonspace characters that names one of these documents identifies that exhibit, exactly as an explicit 证据N label does; longer paragraphs never re-anchor on an incidental citation. Registered here because observation_normalization.task_aliases_must_be_explicit is true.",
+    "generic_exclusions": [
+      "(?:原告|Q银行|异议人|案外人|对方)[^，。；;]{0,8}(?:主张|认为|辩称|诉称|提出|陈述|称)(?!的)",
+      "可能|或许|也许|候选|备选|可考虑|或可|可以考虑|方案[一二三ABC]|假设|姑且"
+    ],
+    "paragraph_lead_exclusions": [
+      "^(候选|可考虑|可能的|或许|也许|对方主张|原告主张|原告认为|原告称|假设|参考)",
+      "^(原告|被告|对方)?(的)?(证明对象|证明目的|拟证明(的)?(事项|内容)?)[:：]"
+    ],
+    "rebuttal_turn": {
+      "attribution": "(?:原告|Q银行|异议人|案外人|对方)[^，。；;]{0,8}(?:主张|认为|辩称|诉称|提出|陈述|称)",
+      "turn": "[，,](?:但是|但|然而|可是|实则|实际上)",
+      "rule": "positive matching only: when a sentence's clause before the turn carries the plaintiff's contention and the clause after it does not, the attributed clause is blanked and the author's own clause after the turn stays usable"
+    }
+  },
+  "golden_deliverable": "质证意见.docx",
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[placeholder]",
+      "待补充",
+      "待确认",
+      "待核实",
+      "（待确认）",
+      "占位符",
+      "____ empty blanks",
+      "〔…〕/［…］ bracketed spans naming what is missing"
+    ],
+    "normalization_rule_id": "gap_marker_fold_v1",
+    "fabrication_deduction_ids": [
+      "D04"
+    ]
+  },
+  "requirement_trace": {
+    "instruction_sha256": "0968790be1fd60b6971c9d878e52aa2d8b4f63fd6976fc0a211f95db95845ec1",
+    "requirements": [
+      {
+        "quote": "Before drafting, consult and apply any available working procedures whose scope matches this assignment",
+        "reason": "Shared process-discovery instruction for both arms. It does not state a business conclusion, scoring criterion, method step, internal path or implementation mechanism, so no scoring item is attached."
+      },
+      {
+        "quote": "The materials folder contains the complaint and the evidence list with evidence in an enforcement objection action brought by `Q银行`",
+        "reason": "场景陈述：只说明 Materials 由哪两份文件组成与案由，不提出任何可计分的业务动作。两份文件的存在与原告身份由下面的 stated_facts 逐条实测。"
+      },
+      {
+        "quote": "Act for the defendant `B公司` and prepare its opinions on the plaintiff's evidence",
+        "item_ids": [
+          "P01",
+          "P08",
+          "P12",
+          "D01",
+          "D02",
+          "D03",
+          "D05",
+          "P13",
+          "P14",
+          "P15",
+          "P16"
+        ],
+        "reason": "本包的全部业务要求。先固定被质证的证据范围（P01 认定证据1 为 (2025)某执异XXX号执行裁定书，P13 认定证据2、3 两份法院文书并对其真实性、合法性无异议；D02 罚被 materials/2 第35-36行那份旧清单带偏），再逐组发表质证立场（P08 证据4-6 不能证明质权因特定化而有效设立，P14-P16 对证据4、5、6 逐份落实该理由；D05 罚无据否认法院自制文书，D03 罚自我挫败的让步），全篇以被告 B公司 立场出具（P12，D01 罚站错立场）。证据4-7 的名称与证据7 的两点结论方向都能从 materials 里现成的段落抄到，对应的 Golden 单元（Q-U000d、Q-U000e、Q-U003a、Q-U003c）因此不承载正分权重，逐单元复核照做，只是不产生正分。"
+      },
+      {
+        "quote": "Where the document needs a specific fact that the materials do not establish, leave a clearly marked placeholder instead of supplying one",
+        "item_ids": [
+          "D04"
+        ],
+        "reason": "占位符规则：本包没有以占位符计分的正分项（Golden 的待填空格只出现在日期栏，不承载任何命题），D04 罚编造材料未确立的具体日期、金额、期间或标识；标注缺口不扣分也不得分。"
+      },
+      {
+        "quote": "Deliver it as a Chinese Word document at `artifacts/质证意见.docx`",
+        "reason": "载体与路径要求。形态不给正分，故不绑任何正分项；交付载体不是 .docx 或路径不是 artifacts/质证意见.docx 时由 D10 扣分，未交付任何产物时全部 P 项自然为 zero。"
+      }
+    ],
+    "stated_facts": [
+      {
+        "id": "F1",
+        "quote": "The materials folder contains the complaint and the evidence list with evidence in an enforcement objection action brought by `Q银行`",
+        "check": {
+          "kind": "exists",
+          "path": "materials/1.起诉状.pdf.md"
+        }
+      },
+      {
+        "id": "F2",
+        "quote": "The materials folder contains the complaint and the evidence list with evidence in an enforcement objection action brought by `Q银行`",
+        "check": {
+          "kind": "exists",
+          "path": "materials/2.证据目录及证据材料.pdf.md"
+        }
+      },
+      {
+        "id": "F3",
+        "quote": "The materials folder contains the complaint and the evidence list with evidence in an enforcement objection action brought by `Q银行`",
+        "check": {
+          "kind": "contains",
+          "path": "materials/1.起诉状.pdf.md",
+          "text": "Q银行"
+        }
+      },
+      {
+        "id": "F4",
+        "quote": "Act for the defendant `B公司` and prepare its opinions on the plaintiff's evidence",
+        "check": {
+          "kind": "contains",
+          "path": "materials/1.起诉状.pdf.md",
+          "text": "B公司"
+        }
+      }
+    ],
+    "unchecked_tokens": [
+      {
+        "token": "artifacts/质证意见.docx",
+        "reason": "产出路径，不是对输入的事实陈述；它在 Materials 中不存在正是本任务的前提。"
+      }
+    ]
+  },
+  "golden_consistency": {
+    "source": {
+      "path": "golden/质证意见.docx",
+      "sha256": "6d87da7048d125103012a2f6f1c67c4b66789d81cbe2e8ba40ed91db14de5429"
+    },
+    "checks": [
+      {
+        "id": "GC1",
+        "kind": "equality",
+        "statement": "Golden 全篇只有一个出具人：正文抬头『被告B公司质证意见：』的主体与落款『提交人：』的主体必须是同一个当事人。这是 P12 与 D01 在 Golden 侧的自洽前提。",
+        "left": {
+          "file": "golden/质证意见.docx",
+          "regex": "^被告(\\S+?)质证意见[：:]"
+        },
+        "right": {
+          "file": "golden/质证意见.docx",
+          "regex": "^提交人[：:]\\s*(\\S+)"
+        }
+      },
+      {
+        "id": "GC2",
+        "kind": "equality",
+        "statement": "证据明细列到第几份，质证意见就必须评到第几份：明细最后一条的序号与最后一条质证意见所指的证据编号必须一致，否则文书自称覆盖了它并未评价的证据。",
+        "left": {
+          "file": "golden/质证意见.docx",
+          "regex": "^([0-9])\\.《活期存款交易明细报告》"
+        },
+        "right": {
+          "file": "golden/质证意见.docx",
+          "regex": "^证据([0-9])[：:]该证据"
+        }
+      }
+    ]
+  },
+  "unscored_golden_units": [
+    {
+      "unit_id": "Q-U000b",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "2.《执行裁定书》（2024）某执XXX号之二"
+    },
+    {
+      "unit_id": "Q-U000c",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "3.某县人民法院《协助扣划存款通知书》"
+    },
+    {
+      "unit_id": "Q-U000d",
+      "disposition": "not_scored",
+      "reason": "scored with zero positive weight (04b §7 COPY: reachable by transcribing the superseded exhibit list at materials/2 line 36). D02 carries the discriminating signal for this region.",
+      "golden_proposition": "4.《应收账款质押登记协议》 5.《账户质押托管合同》 6.《中国人民银行征信中心动产权属统一登记》"
+    },
+    {
+      "unit_id": "Q-U000e",
+      "disposition": "not_scored",
+      "reason": "scored with zero positive weight (04b §7 COPY: the superseded list's slot 7 already names this exhibit).",
+      "golden_proposition": "7.《活期存款交易明细报告》"
+    },
+    {
+      "unit_id": "Q-U002a",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "证据4-6：从内容看，仅能证明原告与D公司就应收账款质押达成合意并办理登记"
+    },
+    {
+      "unit_id": "Q-U002c",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "反而证据7证明质押财产并未特定化于案涉账户。"
+    },
+    {
+      "unit_id": "Q-U003a",
+      "disposition": "not_scored",
+      "reason": "scored with zero positive weight (04b §7 COPY: conclusion direction written out three times in the Materials).",
+      "golden_proposition": "证据7：该证据恰恰证明：（1）案涉账户资金混同，除电费外还存在多笔大额扶贫补贴、财政拨款、投资款等非质押款项"
+    },
+    {
+      "unit_id": "Q-U003b",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "证据7：该证据恰恰证明（反用对方证据这一角度）"
+    },
+    {
+      "unit_id": "Q-U003c",
+      "disposition": "not_scored",
+      "reason": "scored with zero positive weight (04b §7 COPY: same three passages).",
+      "golden_proposition": "（2）案涉账户用途广泛，并非质押的专用账户，资金流出包括偿还贷款、项目维护、日常经营等多种用途。"
+    }
+  ],
+  "deliverable": {
+    "public_carrier": "artifacts/质证意见.docx",
+    "golden_carrier": "golden/质证意见.docx"
+  }
+}

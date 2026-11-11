@@ -1,0 +1,10 @@
+{
+  "schema_version": "golden-source-bound-semantic-replay-v2",
+  "scope": "exact_golden_only",
+  "actor_visible": false,
+  "key": "a8d5f03961658598bf3a47be5dffb7893b1e134b6907a60c706552f7e55fdadb",
+  "response_sha256": "6a97f443d791719fc34c3d538eb1c894e37f41d1903314ce5a78a849893885b8",
+  "required_semantic_owner": true,
+  "ordinary_cache_packaged": false,
+  "miss_policy": "New artifact requires fresh required source-bound semantic judge; unavailable judge is UNMEASURED."
+}

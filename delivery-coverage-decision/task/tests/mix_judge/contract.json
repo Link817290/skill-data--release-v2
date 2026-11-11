@@ -1,0 +1,42 @@
+{
+  "modality": "text_and_tables",
+  "comparison": "Candidate meaning against source-verified Golden meaning, accepting semantically equivalent correct answers.",
+  "scoring_role": "These criterion weights report the semantic-review diagnostic. The published strict reward uses the owner weights in task/rubric.json; it does not silently reuse this diagnostic vector.",
+  "criteria": [
+    {
+      "id": "recommendation_meaning",
+      "weight": 0.3,
+      "criterion": "The adopted plan follows the independently reconstructed public budget, scenario allocation optima and documented lexicographic choice rule. Golden is not an authority when source evidence or a valid counterexample contradicts it. Accept equivalent feasible optimal assignments."
+    },
+    {
+      "id": "priority_and_tradeoffs",
+      "weight": 0.3,
+      "criterion": "The explanation preserves the documented business priority order and material trade-offs between feasible alternatives; it does not claim universal superiority where metrics conflict. Scenario-wise minima are computed separately; do not replace urgent-first by total volume or invent a cold-chain floor. Material cold-service trade-offs can justify a conditional alternative only when the changed premise is explicit."
+    },
+    {
+      "id": "evidence_interpretation",
+      "weight": 0.25,
+      "criterion": "The explanation interprets demand populations, scenario results and independent resource limits consistently with the Golden and source facts, with traceable supporting tables. Numeric calculation is graded separately. Evidence references must be inspectable in delivered artifacts or explicitly reproducible outputs; distinguish identity records, aggregate resources and actual operations."
+    },
+    {
+      "id": "scope_and_limits",
+      "weight": 0.15,
+      "criterion": "The adopted claims preserve the planning period, independent scenario scope, conditional optimality and limits of any spatial claim. Accept concise equivalent caveats; do not require every optional sentence or map in the Golden. Conditional modeled optimality does not establish station readiness or actual service promises; completion and operating assumptions require confirmation."
+    }
+  ],
+  "allowed_scores": [
+    0,
+    0.5,
+    1
+  ],
+  "missing_measurement": "unmeasured",
+  "reference_conflict": "Withhold semantic score and investigate the reference; do not penalize source-correct candidate content.",
+  "not_scored": [
+    "visual polish",
+    "fonts",
+    "page layout",
+    "identical phrasing",
+    "identical file naming",
+    "identical allocation rows"
+  ]
+}

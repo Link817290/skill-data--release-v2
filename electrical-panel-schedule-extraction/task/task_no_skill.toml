@@ -1,0 +1,41 @@
+id = "electrical-drawing-set-dxf-no-skill"
+title = "Electrical Drawing Set Redraw"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+
+[metadata]
+tags = ["aec", "electrical", "raster-reference", "cad", "dxf"]
+source_package = "huatai-ceiling-electrical-drawing-set-redacted-png"
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 120.0
+
+[verifier.environment]
+docker_image = "electrical-panel-schedule-extraction-verifier:1.3"
+dockerfile = "environment/Dockerfile.verifier"
+workdir = "/package/task"
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 600.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/output/electrical_drawings.dxf"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[judge]
+type = "programmatic"
+reward_kind = "continuous"

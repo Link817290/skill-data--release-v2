@@ -1,0 +1,369 @@
+{
+  "schema_version": "electrical-drawing-set-dxf-v2",
+  "reference_images": [
+    "S-01_电气设计说明.png",
+    "S-02_配电箱系统图.png",
+    "S-03_一层电气平面图.png",
+    "S-04_二层电气平面图.png"
+  ],
+  "sheets": [
+    {
+      "id": "S-01",
+      "anchors": [
+        "图纸目录",
+        "电气施工图设计说明",
+        "图例"
+      ],
+      "detail_anchors": [
+        "一、工程概况",
+        "四、供配电系统及设备安装:",
+        "六、接地系统:",
+        "配电箱"
+      ]
+    },
+    {
+      "id": "S-02",
+      "anchors": [
+        "1AL1",
+        "2AL1",
+        "2AL2"
+      ],
+      "detail_anchors": [
+        "回路编号",
+        "导 线 及 穿 管 规 格",
+        "负 荷 名 称",
+        "前级断路器整定电流50A"
+      ]
+    },
+    {
+      "id": "S-03",
+      "anchors": [
+        "引至楼层应急照明配电箱",
+        "主入口",
+        "财富管理室"
+      ],
+      "detail_anchors": [
+        "1AL1",
+        "WL1/1AL1",
+        "WX1/1AL1",
+        "拼接屏"
+      ]
+    },
+    {
+      "id": "S-04",
+      "anchors": [
+        "配电间",
+        "总经理室",
+        "等候室"
+      ],
+      "detail_anchors": [
+        "2AL1",
+        "2AL2",
+        "WL1/2AL1",
+        "WX1/2AL1"
+      ]
+    }
+  ],
+  "max_native_geometry": 25000,
+  "max_trace_geometry_per_text": 100,
+  "coverage_minimums": {
+    "S-01": {
+      "unique_geometry": 60,
+      "unique_text_characters": 1000
+    },
+    "S-02": {
+      "unique_geometry": 100,
+      "unique_text_characters": 400
+    },
+    "S-03": {
+      "unique_geometry": 180,
+      "unique_text_characters": 100
+    },
+    "S-04": {
+      "unique_geometry": 700,
+      "unique_text_characters": 500
+    }
+  },
+  "canvas": {
+    "width": 1600,
+    "height": 1400
+  },
+  "panels": [
+    {
+      "id": "1AL1",
+      "incoming": {
+        "feeder_cable": "WDZ-YJY-5x10,SC50",
+        "upstream_setting": "50A",
+        "main_breaker": "INT 63A/3P",
+        "enclosure_model": "PZ30R",
+        "installed_capacity_kw": "23kW",
+        "calculated_current_a": "35A"
+      },
+      "circuits": [
+        {
+          "circuit_id": "WL1",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL2",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL3",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX1",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX2",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX3",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX4",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WP1",
+          "load_name": "电子屏",
+          "capacity_kw": "2.0",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN20A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x4,JDG25"
+        },
+        {
+          "circuit_id": "WP2",
+          "load_name": "拼接屏",
+          "capacity_kw": "4.0",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN25A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x6,JDG25"
+        },
+        {
+          "circuit_id": "WP3",
+          "load_name": "电子屏",
+          "capacity_kw": "10.0",
+          "phase_sequence": "L123,N,PE",
+          "breaker": "C65N 32A/4P+Vigi 30mA",
+          "conductor_conduit": "WDZ-YJY-5x6,SC32"
+        }
+      ]
+    },
+    {
+      "id": "2AL2",
+      "incoming": {
+        "feeder_cable": "WDZ-YJY-5x4,SC25",
+        "upstream_setting": "25A",
+        "main_breaker": "INT 32A/3P",
+        "enclosure_model": "PZ30R",
+        "installed_capacity_kw": "6kW",
+        "calculated_current_a": "9.1A"
+      },
+      "circuits": [
+        {
+          "circuit_id": "WL1",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL2",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL3",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX1",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX2",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX3",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        }
+      ]
+    },
+    {
+      "id": "2AL1",
+      "incoming": {
+        "feeder_cable": "WDZ-YJY-4x25+1x16,SC50",
+        "upstream_setting": "80A",
+        "main_breaker": "INT 100A/3P",
+        "enclosure_model": "非标箱",
+        "installed_capacity_kw": "42kW",
+        "calculated_current_a": "63.8A"
+      },
+      "circuits": [
+        {
+          "circuit_id": "G1",
+          "load_name": "照明",
+          "capacity_kw": "0.6",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "G2",
+          "load_name": "照明",
+          "capacity_kw": "0.6",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "G3",
+          "load_name": "照明",
+          "capacity_kw": "0.6",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "G10",
+          "load_name": "照明",
+          "capacity_kw": "0.6",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL1",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL2",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL3",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WL12",
+          "load_name": "照明",
+          "capacity_kw": "0.8",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A/1P",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX1",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L3,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX2",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L1,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX3",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WX21",
+          "load_name": "插座",
+          "capacity_kw": "1.0",
+          "phase_sequence": "L2,N,PE",
+          "breaker": "DPN16A +VMA",
+          "conductor_conduit": "WDZ-BYJ-3x2.5,JDG20"
+        },
+        {
+          "circuit_id": "WP1",
+          "load_name": "拼接屏",
+          "capacity_kw": "5.0",
+          "phase_sequence": "L123,N,PE",
+          "breaker": "C65N 25A/3P",
+          "conductor_conduit": "WDZ-YJY-5x4,SC25"
+        }
+      ]
+    }
+  ],
+  "measurement_normalization": {
+    "semantic_content": 0.796175,
+    "diagram_topology": 0.928276,
+    "basis": "Current parser ceiling measured on the native reference drawing; applied identically to every candidate, never by artifact hash."
+  }
+}

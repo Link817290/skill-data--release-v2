@@ -1,0 +1,37 @@
+{
+ "schema_version": "deliverable-gate-v1",
+ "root": "artifacts",
+ "required": [
+  "质证意见.docx"
+ ],
+ "allowlist": [
+  "manifest.json"
+ ],
+ "extra_coefficient": 0.4,
+ "extra_cap": 2,
+ "item_id": "DX_DELIVERABLE",
+ "note": "missing required deliverable (质证意见.docx) -> score 0; each extra file under the delivery root -> one DX_DELIVERABLE instance (0.4, cap 2); harness files allow-listed",
+ "golden_carriers": {},
+ "source_dump": {
+  "materials": "pjroot/materials",
+  "window": 24,
+  "min_run": 500,
+  "coefficient": 0.4,
+  "cap": 2,
+  "item_id": "DX_SOURCE_DUMP",
+  "golden_longest_run": 0,
+  "note": "a run of >= 500 normalized characters copied verbatim from a materials file is one DX_SOURCE_DUMP instance (0.4, cap 2): the source pasted into the deliverable, the same class of excess as an extra file beside it. The Golden's own longest verbatim run is 0 (a quotation) and is not charged."
+ },
+ "language": {
+  "script": "han",
+  "deliverable": [
+   "质证意见.docx"
+  ],
+  "min_ratio": 0.5,
+  "coefficient": 0.1,
+  "cap": 2,
+  "item_id": "DX_LANGUAGE",
+  "brief": "Deliver it as a Chinese Word document at `artifacts/质证意见.",
+  "note": "Measured as the share of script-bearing characters (Han versus Latin letters). A 0.5 minimum requires the requested Chinese filing while tolerating identifiers and legal citations in Latin script."
+ }
+}

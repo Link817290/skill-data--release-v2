@@ -1,0 +1,17 @@
+{
+  "model": "gpt-5.6-sol",
+  "max_tokens": 12000,
+  "timeout_sec": 600,
+  "sampling": "provider default; no temperature field",
+  "max_attempts": 3,
+  "max_trace_chars": 1500000,
+  "observation_chars": 12000,
+  "message_chars": 12000,
+  "tool_argument_chars": 40000,
+  "endpoint_environment": "LLM_JUDGE_BASE_URL",
+  "credential_environment": "LLM_JUDGE_API_KEY",
+  "model_environment": "LLM_JUDGE_MODEL",
+  "score_role": "Separate observable Skill-process diagnostic; never changes artifact strict or lenient",
+  "projection_version": "agent-actions-head-tail-4-recursively-decoded",
+  "quote_validation": "Exact substring in a cited sanitized visible step; nonzero levels require an observable tool/action step"
+}

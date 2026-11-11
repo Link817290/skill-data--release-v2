@@ -1,0 +1,39 @@
+{
+  "schema_version": "scoring-params-v1",
+  "positive_weights": {
+    "P01": 0.07,
+    "P02": 0.06,
+    "P03": 0.14,
+    "P04": 0.3,
+    "P05": 0.1,
+    "P06": 0.16,
+    "P07": 0.12,
+    "P08": 0.05
+  },
+  "owner_basis": {
+    "P01": {"evaluates":"Current eligibility, route/rate validity, capacity integrity and route evidence for claimed primary assignments.","importance":"Illegal edges or capacity use make the operating plan infeasible.","weight_reason":"0.07 is material feasibility credit without duplicating maximum-service P08 and exception P02.","prerequisites":["submitted primary decisions","source relationship tables","current route and capacity records"],"calculation":"Weighted continuous mean of assignment eligibility, route integrity, capacity integrity and route evidence.","missing_vs_wrong":"Missing route evidence receives limited partial credit; an unsupported assignment fails eligibility."},
+    "P02": {"evaluates":"Decision population closure and structural-versus-capacity exception classification.","importance":"Unstated or misclassified demand hides the actual network constraint.","weight_reason":"0.06 reflects a required boundary record complementary to P01.","prerequisites":["primary decision register","recomputed eligibility","explicit unserved population"],"calculation":"Continuous mean of decision coverage, reason accuracy, structural coverage and conservation.","missing_vs_wrong":"Missing exceptions reduce coverage; an explicit wrong cause reduces accuracy."},
+    "P03": {"evaluates":"Facility register, flow-consistent status, count/capacity reconciliation and minimum full-service footprint.","importance":"This is the requested current operating-footprint decision.","weight_reason":"0.14 makes footprint optimization material but smaller than economics and combined resilience work.","prerequisites":["valid primary flow","facility capacities","source-derived minimum facility count"],"calculation":"Additive components; full compactness only at maximum service and minimum positive-flow facility count.","missing_vs_wrong":"Missing components lose their component; contradictory status/count loses reconciliation and may trigger damage."},
+    "P04": {"evaluates":"Maximum-service economic basis and correct displayed warehouse, freight and total costs.","importance":"Variable cost is the third objective and false displayed economics cannot support leadership review.","weight_reason":"0.30 is largest because the deliverable must be decision-ready and cost-auditable, while leaving independent network/resilience credit.","prerequisites":["capacity-feasible primary allocation","source costs and tariffs","submitted row-level cost fields"],"calculation":"(0.65 service effectiveness + 0.35 independent cost efficiency) multiplied by correct cost-field coverage.","missing_vs_wrong":"Missing and wrong displayed costs both fail audit coverage; hidden recomputation cannot rescue wrong values."},
+    "P05": {"evaluates":"Live detail, cross-sheet and summary formula lineage.","importance":"Reviewers need traceable calculations to reproduce and repair the recommendation.","weight_reason":"0.10 is substantial auditability credit but smaller than the economic decision it supports.","prerequisites":["recognised primary detail table","OOXML formulas with cell or range dependencies"],"calculation":"Weighted density ratios for primary detail, cross-sheet detail and non-detail summaries.","missing_vs_wrong":"Missing lineage receives zero for the absent ratio; constant or zero-factor decoration is excluded as wrong evidence."},
+    "P06": {"evaluates":"Every used-facility outage, service/cost/cause metrics and governing-event consistency.","importance":"The brief explicitly requires screening every facility the plan uses.","weight_reason":"0.16 reflects the complete event set; P07 separately owns detailed recovery.","prerequisites":["positive-flow facility set","source-derived outage results","outage comparison register"],"calculation":"Coverage and per-event accuracy, with 0.35 residual for an inconsistent governing verdict.","missing_vs_wrong":"Missing events reduce coverage; explicit wrong metrics reduce accuracy; silence is not invented."},
+    "P07": {"evaluates":"Complete feasible order-level recovery and facility reconciliation for the governing outage.","importance":"A summary-only outage finding is not an executable continuity plan.","weight_reason":"0.12 reflects a deep one-event deliverable complementary to P06's broader screen.","prerequisites":["correct governing event","failed facility removed","recovery population and remaining eligibility"],"calculation":"Continuous recovery components multiplied by event-binding consistency, with 0.35 residual for the wrong event.","missing_vs_wrong":"Missing rows reduce coverage; invalid assignments and retained failed-site flow lose validity/exclusion credit."},
+    "P08": {"evaluates":"Eligible, capacity-feasible served count against maximum service.","importance":"Maximum service is the first lexicographic objective.","weight_reason":"0.05 is focused because P01, P03 and P04 already measure supporting feasibility and evidence.","prerequisites":["valid assigned population","source-derived maximum service"],"calculation":"Capacity-feasible valid served count divided by maximum service; equivalent populations are accepted.","missing_vs_wrong":"Missing served decisions reduce the ratio; invalid claimed service is excluded."}
+  },
+  "deduction_coefficients": {
+    "D01": 0.1,
+    "D02": 0.9,
+    "D03": 0.9,
+    "D04": 0.9,
+    "D05": 0.8,
+    "D06": 0.8,
+    "D07": 0.8,
+    "D08": 0.9,
+    "D09": 0.5,
+    "D10": 0.3,
+    "D11": 0.3,
+    "D12": 0.5,
+    "D13": 0.5,
+    "D14": 0.5
+  }
+}

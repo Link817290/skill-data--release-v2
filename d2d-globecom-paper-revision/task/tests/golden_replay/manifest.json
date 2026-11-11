@@ -1,0 +1,25 @@
+{
+  "schema_version": "d2d-golden-replay-v2",
+  "scope": "Golden artifact only; no ordinary candidate, rollout or historical provider cache entries.",
+  "entries": {
+    "ab74821f99596e5728e09732b49412012b7076034ace508c3e3e56e0ea13c836": {
+      "entry": "frozen/ab74821f99596e5728e09732b49412012b7076034ace508c3e3e56e0ea13c836",
+      "artifact_sha256": "edd1ed10fca9e72256ca014905e6fb6e734ae5a2e9ccb1be65c2ac9718850523",
+      "request_sha256": "9aab7ebfb3163b4c08990a624f422d32d8c5b38187835f96d9b0f4c75688e0c7",
+      "evidence_sha256": "b2eaf73ecf4f561145ec3be8b8631fb2a83bb33b3cd44aa6522e5d65756043f3",
+      "files_sha256": {
+        "request.json": "d900ef7befa1f854fc291b73f194f0c2bc51747ac228666582c1a63f4a9018c7",
+        "raw_response.json": "3f3adbcd0a5a46055d5e7f401a6a2fb0acf6dd17dd2321445b92551f1677d9af",
+        "validated_review.json": "79b20e4f24df8ba853207f2a2372ecda0b74cbe4bd98bb45f43d2c0eebffa4eb",
+        "validation.json": "939f7da9ab8b215ad532339d118bc9c338a2405d9ad657df95a3e8b82251ba9c"
+      }
+    }
+  },
+  "provenance": {
+    "origin": "qualified OpenAI Responses-compatible adjudication",
+    "model": "gpt-5.6-sol",
+    "credentials_packaged": false,
+    "reasoning_payload_packaged": false,
+    "miss_policy": "Any binding miss proceeds to evaluator-owned exact cache or fresh semantic provider."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": "ppm-grouped-source-verified-settlement-v2",
+  "retention_coefficient": "0.7",
+  "lenient_domains": {
+    "scope_and_boundaries": ["P-FULL-SCOPE", "P-SCOPE", "P-METRIC-LIMIT", "P-SEVERITY-LIMIT", "P-CAUSAL-LIMIT"],
+    "quantitative_reconciliation": ["P-rate-reconciliation", "P-derived-product-risk", "P-A-EXCEPTION", "P-A-FEB-REPAIR"],
+    "trend_diagnosis": ["P-B-RISK", "P-B-SWING", "P-OVERALL-PEAKS", "P-PRODUCT-PEAKS"],
+    "decision_and_action": ["P-PRIORITY", "P-FOLLOWUP", "P-FOLLOWUP-FIELDS"]
+  },
+  "lenient_usable_profiles": {
+    "scope_omitted": ["quantitative_reconciliation", "trend_diagnosis", "decision_and_action"],
+    "quantitative_omitted": ["scope_and_boundaries", "trend_diagnosis", "decision_and_action"],
+    "trend_omitted": ["scope_and_boundaries", "quantitative_reconciliation", "decision_and_action"],
+    "action_omitted": ["scope_and_boundaries", "quantitative_reconciliation", "trend_diagnosis"]
+  },
+  "formula": "sum(active group weight * normalized source-check completion) * 0.7 ** independent confirmed errors",
+  "scoring_revision": "ppm-semantic-llm-v2.1-audited",
+  "positive_weights": {
+    "P-A-EXCEPTION": 0.05,
+    "P-A-FEB-REPAIR": 0.05,
+    "P-B-RISK": 0.05,
+    "P-B-SWING": 0.05,
+    "P-CAUSAL-LIMIT": 0.05,
+    "P-FOLLOWUP": 0.05,
+    "P-FOLLOWUP-FIELDS": 0.05,
+    "P-FULL-SCOPE": 0.08,
+    "P-METRIC-LIMIT": 0.1,
+    "P-OVERALL-PEAKS": 0.05,
+    "P-PRIORITY": 0.05,
+    "P-PRODUCT-PEAKS": 0.05,
+    "P-SCOPE": 0.05,
+    "P-SEVERITY-LIMIT": 0.17,
+    "P-rate-reconciliation": 0.05,
+    "P-derived-product-risk": 0.05
+  },
+  "positive_groups": {
+    "P-A-EXCEPTION": [
+      "P-A-EXCEPTION"
+    ],
+    "P-A-FEB-REPAIR": [
+      "P-A-FEB-REPAIR"
+    ],
+    "P-B-RISK": [
+      "P-B-RISK"
+    ],
+    "P-B-SWING": [
+      "P-B-SWING"
+    ],
+    "P-CAUSAL-LIMIT": [
+      "P-CAUSAL-LIMIT"
+    ],
+    "P-FOLLOWUP": [
+      "P-FOLLOWUP"
+    ],
+    "P-FOLLOWUP-FIELDS": [
+      "P-FOLLOWUP-FIELDS"
+    ],
+    "P-FULL-SCOPE": [
+      "P-FULL-SCOPE"
+    ],
+    "P-METRIC-LIMIT": [
+      "P-METRIC-LIMIT"
+    ],
+    "P-OVERALL-PEAKS": [
+      "P-OVERALL-PEAKS"
+    ],
+    "P-PRIORITY": [
+      "P-PRIORITY"
+    ],
+    "P-PRODUCT-PEAKS": [
+      "P-PRODUCT-PEAKS"
+    ],
+    "P-SCOPE": [
+      "P-SCOPE"
+    ],
+    "P-SEVERITY-LIMIT": [
+      "P-SEVERITY-LIMIT"
+    ],
+    "P-rate-reconciliation": [
+      "P-MONTH-TABLE",
+      "P-PRODUCT-TABLE",
+      "P-AGGREGATE-RECONCILE",
+      "P-RECONCILE"
+    ],
+    "P-derived-product-risk": [
+      "P-SHARE-A",
+      "P-SHARE-B",
+      "P-SHARE-C",
+      "P-SHARE-D",
+      "P-RELATIVE-A",
+      "P-RELATIVE-B",
+      "P-RELATIVE-C",
+      "P-RELATIVE-D"
+    ]
+  },
+  "leaf_aggregation_weights": {
+    "P-A-EXCEPTION": "0.05",
+    "P-A-FEB-REPAIR": "0.09",
+    "P-AGGREGATE-RECONCILE": "0.01",
+    "P-B-RISK": "0.05",
+    "P-B-SWING": "0.05",
+    "P-CAUSAL-LIMIT": "0.02",
+    "P-FOLLOWUP": "0.05",
+    "P-FOLLOWUP-FIELDS": "0.05",
+    "P-FULL-SCOPE": "0.08",
+    "P-METRIC-LIMIT": "0.05",
+    "P-OVERALL-PEAKS": "0.05",
+    "P-PRIORITY": "0.05",
+    "P-PRODUCT-PEAKS": "0.1",
+    "P-RECONCILE": "0.05",
+    "P-SCOPE": "0.05",
+    "P-SEVERITY-LIMIT": "0.06",
+    "P-SHARE-A": "0.0025",
+    "P-SHARE-B": "0.0025",
+    "P-SHARE-C": "0.0025",
+    "P-SHARE-D": "0.0025",
+    "P-RELATIVE-A": "0.0125",
+    "P-RELATIVE-B": "0.0125",
+    "P-RELATIVE-C": "0.0125",
+    "P-RELATIVE-D": "0.0125",
+    "P-MONTH-TABLE": "0.04",
+    "P-PRODUCT-TABLE": "0.04"
+  }
+}

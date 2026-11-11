@@ -1,0 +1,73 @@
+{
+  "schema_version": "d2d-manuscript-scoring-v2.2.0",
+  "scorer_version": "2.2.0",
+  "settlement": "bounded_additive_with_zero_floor",
+  "strict_formula": "max(0, sum(weight * completion) - sum(triggered deduction values))",
+  "lenient_formula": "1 iff native delivery is complete; every correction component equals 1; decision variables and log objective equal 1; at least one original algorithm mechanism equals 1; and every listed integrity item equals 1",
+  "judge_contract": {
+    "protocol": "openai_responses",
+    "endpoint_path": "/v1/responses",
+    "default_model": "gpt-5.6-sol",
+    "default_reasoning_effort": "high",
+    "failure_policy": "UNMEASURED",
+    "ordinary_candidate_fallback": "none",
+    "packaged_replay_scope": "exact Golden binding only"
+  },
+  "positive_owners": {
+    "framing": {"weight": 0.08, "aggregation": "semantic_fraction"},
+    "support_bound": {"weight": 0.15, "aggregation": "semantic_fraction"},
+    "sparsity_bound": {"weight": 0.12, "aggregation": "semantic_fraction"},
+    "caratheodory_dimension": {"weight": 0.12, "aggregation": "semantic_fraction"},
+    "simplex_dimension": {"weight": 0.08, "aggregation": "semantic_fraction"},
+    "candidate_budget": {"weight": 0.12, "aggregation": "semantic_fraction"},
+    "positive_rate_domain": {"weight": 0.10, "aggregation": "semantic_fraction"},
+    "stale_bound_cleared": {"weight": 0.10, "aggregation": "semantic_fraction"},
+    "preserved_core": {"weight": 0.08, "aggregation": "mean_of_six_semantic_subowners"},
+    "delivery_integrity": {"weight": 0.05, "aggregation": "mean_of_five_native_checks"}
+  },
+  "deduction_owners": {
+    "replaced_objective": 0.15,
+    "replaced_algorithm": 0.15,
+    "dropped_figure_evidence": 0.08,
+    "dropped_decision_variables": 0.12,
+    "fabricated_evidence_claim": 0.10,
+    "capacity_constraint_corruption": 0.12,
+    "authorship_or_affiliation_corruption": 0.15,
+    "citation_corruption": 0.10,
+    "material_internal_contradiction": 0.10,
+    "truncated_manuscript": 0.10
+  },
+  "core_subowners": [
+    "decision_variables",
+    "time_reuse_profile",
+    "log_objective",
+    "hamming_neighbourhood",
+    "frank_wolfe",
+    "figure_evidence"
+  ],
+  "delivery_checks": [
+    "readable",
+    "page_count_plausible",
+    "has_abstract",
+    "has_references",
+    "has_algorithm"
+  ],
+  "lenient_required_components": [
+    "framing",
+    "support_bound",
+    "sparsity_bound",
+    "caratheodory_dimension",
+    "simplex_dimension",
+    "candidate_budget",
+    "positive_rate_domain",
+    "stale_bound_cleared"
+  ],
+  "lenient_required_integrity": [
+    "authorship_integrity",
+    "citation_integrity",
+    "capacity_constraint_integrity",
+    "experimental_integrity",
+    "internal_consistency",
+    "manuscript_completeness"
+  ]
+}

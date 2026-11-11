@@ -1,0 +1,15 @@
+{
+  "schema_version": "source-manifest-v1",
+  "items": [
+    {
+      "path": "materials/event-proposal.docx",
+      "sha256": "b94fd0f8f051e1433b42f8aefba4962d6af1b166c93ee14828efa767a474ca73",
+      "bytes": 1422043
+    },
+    {
+      "path": "materials/materials-checklist.xlsx",
+      "sha256": "0379e67c07bf4e8f49e67fd5c1d3ff70a56a836c153b68ce5b7d4ac08ea1691b",
+      "bytes": 9918
+    }
+  ]
+}
