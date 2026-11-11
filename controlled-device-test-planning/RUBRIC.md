@@ -26,6 +26,19 @@ WER evidence is excluded when WER is explicitly unused.
 | P13 Shortcut applicability and endpoint | 0.08 |
 | P14 Audio endpoints and isolated external control | 0.08 |
 
+The weights follow causal-test consequence and dependency breadth. The 0.08
+owners govern event pairing, interference isolation, recovery retention,
+pointer/timer separation, voice endpoints, shortcut applicability and audio
+isolation; a defect in any of these can reverse the attribution of a test
+result. P10 and P12 receive 0.07 because matched acoustic comparison and radio
+geometry are material quantitative controls with narrower downstream scope.
+The 0.06 owners provide shared setup, fallback proof, context, denominators and
+route distinctions that support the higher-weight endpoint decisions without
+duplicating them. These are relative professional-risk shares, not pass
+thresholds. Each owner still earns the fraction of its applicable atomic
+assertions, so an isolated missing control does not erase unrelated correct
+test design.
+
 Detailed source anchors and atomic obligations live in
 `task/tests/scoring_params.json`. Equivalent controlled procedures receive the
 same completion when they preserve actor, initial state, action, observation,

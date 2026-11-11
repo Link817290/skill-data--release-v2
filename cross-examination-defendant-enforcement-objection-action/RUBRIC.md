@@ -38,6 +38,21 @@ Manifestations that share one damage instance are charged once, at the smallest 
 | P19 | identify the five incorporated but unprovided registration attachments and limit the complete registered-collateral scope accordingly | opinion on exhibit 6 | 0.100 |
 | P20 | address the partly illegible pledge-contract number and the stated `45,589.00` collateral value as limits on treating the registration as coverage of the `15,839,770.26` debit | opinion on exhibit 6 | 0.130 |
 
+The positive weights follow legal consequence and evidentiary dependency. P08
+receives 0.195 because the specification-and-control analysis is the principal
+merits objection across exhibits 4-6. P17-P20 jointly receive 0.48 because bank
+flow, account identity, missing incorporated attachments and the illegible
+contract/value boundary determine whether the plaintiff can trace the disputed
+funds; each is independently necessary and source-limited. P13 receives 0.078
+for the court-instrument identity and stance, while P14-P16 receive 0.0455 each
+for exhibit-specific identity plus a bounded evidentiary conclusion. P01 and
+P12 receive 0.0715 and 0.039 as deterministic orientation controls: they are
+necessary to read the filing correctly but do not substitute for the merits
+analysis. The allocations are relative professional-risk shares, not pass
+thresholds; multi-part owners award their documented completion fraction.
+Missing content loses only its positive share, while an affirmative harmful
+position is handled separately by the damage owner below.
+
 ## Deductions
 
 | Item | Dimension | Error | Damage instances | Coefficient |

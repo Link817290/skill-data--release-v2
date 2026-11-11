@@ -26,6 +26,22 @@ semantic_content is 55% square-root-scaled exact panel/circuit-row F1, 20% coher
 
 diagram_topology is 65% coherent geometry F1, 20% sheet completeness, 10% complete incoming-panel accuracy, 3% endpoint connectivity, and 2% junction density. Sheet completeness is 60% complete-sheet ratio plus 40% anchor recall. Connectivity and junction density each use a binary gate requiring at least one actually matched circuit; they are not multiplied by circuit recall. Complete incoming-panel accuracy is the fraction of the three reviewed panels with all incoming fields correctly represented in their panel region; it is not multiplied by a second coverage factor. A parseable native DXF with no raster, underlay, or raster-equivalent trace is a gate rather than an additive score; vector_delivery remains a diagnostic only.
 
+Within `semantic_content`, exact row reconstruction receives 55% because the
+panel/circuit schedule is the primary engineering record and requires all
+ratings and conductor fields to agree locally. Coherent partial rows receive
+20% so a usable but incomplete circuit record retains value without equaling a
+complete row. Sheet anchors receive 10% as navigation and ownership evidence,
+and the source-bound semantic review receives 15% for device, symbol and
+connection meanings that cannot be reduced to literal text matching. Within
+`diagram_topology`, coherent geometry receives 65% because native connectivity
+is the central editable-drawing responsibility; sheet completeness receives
+20%, incoming-panel accuracy 10%, and endpoint/junction checks 3%/2% as narrow
+supporting controls. These percentages express engineering responsibility and
+do not impose a hidden pass score. Missing evidence reduces the applicable
+recall or completeness component; conflicting or wrongly located evidence also
+reduces precision or exact-row credit. The same defect is not charged again by
+an unrelated component.
+
 ## Must-Have Score
 
 The lenient score is a delivery contract with a reconstruction-quality floor. It is

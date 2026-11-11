@@ -69,6 +69,29 @@ This numerical certificate does not certify every narrative claim in Golden.
 Request-bound replay checks current evidence against the archived request.
 Keep all runtime outputs outside the package.
 
+## Lenient Lens
+
+`reward_lenient` is a binary conjunction of the five must-have decisions in
+`task/rubric.json`; it is not derived from the weighted strict total. It equals
+1 only when:
+
+1. the declared workbook, calculation entry point, calculation README and one
+   selected report are all published;
+2. the canonical order population has at most one isolated
+   revision/state/event-lineage mismatch;
+3. served assignments carry complete directed service times and substantiate a
+   source-feasible lexicographic optimum;
+4. resource-use rows and scenario summaries reconcile to the submitted
+   assignment ledger; and
+5. quoted terms, robust-plan metrics and the adopted recommendation agree under
+   the documented priority order.
+
+These conditions represent the minimum usable decision package: a readable
+delivery, traceable source state, executable allocation, reconciled results and
+a supported recommendation. Failure of any one makes lenient 0 while strict
+retains continuous credit for independently correct owners. Evaluator or solver
+infrastructure failure remains unmeasured and is never converted into lenient 0.
+
 
 ## Skill Process Subability Tags
 
