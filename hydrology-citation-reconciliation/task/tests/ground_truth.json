@@ -1,0 +1,1783 @@
+{
+  "schema_version": 1,
+  "finding_count": 17,
+  "clearance_count": 8,
+  "occurrence_count": 50,
+  "reference_count": 28,
+  "patch_count": 19,
+  "controls": {
+    "body_occurrence_groups": 50,
+    "atomic_author_year_components": 61,
+    "distinct_source_form_author_year_suffix_identities": 35,
+    "end_reference_records": 28,
+    "records_with_one_or_more_candidate_links": 27,
+    "cited_only_atomic_components": 5,
+    "listed_only_records": 1,
+    "confirmed_patch_rows": 19,
+    "non_citation_date_exclusion_groups": 35,
+    "collision_register_rows": 10,
+    "action_ownership_rows": 17,
+    "confirmed_copyeditor_actions": 10,
+    "author_editor_hold_actions": 7
+  },
+  "findings": [
+    {
+      "key": "F01",
+      "heading": "Author decision required",
+      "category": "Cited-only work",
+      "location": "printed p. 4592, opening lines (physical p. 4)",
+      "observed_item": "Bergstrom and Forsman, 1973",
+      "counterpart": "No Bergstrom/Forsman 1973 entry appears on reference-list pp. 4605-4607.",
+      "manuscript_evidence": "The callout occurs in the HBV-96 expansion, while the supplied list contains Bergstrom records from 1994, 1995, and 2001 but none coauthored by Forsman in 1973.",
+      "recommended_disposition": "Ask the authors to supply the full 1973 record or remove/replace the callout; do not infer the missing metadata."
+    },
+    {
+      "key": "F02",
+      "heading": "Author decision required",
+      "category": "Cited-only work",
+      "location": "printed p. 4594, lines 23-25 (physical p. 6)",
+      "observed_item": "Van den Hurk et al., 2005",
+      "counterpart": "No Van den Hurk-led 2005 entry appears on reference-list pp. 4605-4607.",
+      "manuscript_evidence": "The PRUDENCE sentence gives 2005; the available Hurk van den-led record is explicitly 2006 and is a different year identity.",
+      "recommended_disposition": "Request the full 2005 record or author-confirmed replacement/removal of the callout; do not collapse it into the 2006 record."
+    },
+    {
+      "key": "F03",
+      "heading": "Author decision required",
+      "category": "Cited-only work",
+      "location": "printed p. 4603, lines 15-17 (physical p. 15)",
+      "observed_item": "Jacob et al., 2007",
+      "counterpart": "No Jacob-led 2007 entry appears on reference-list pp. 4605-4607.",
+      "manuscript_evidence": "The discussion groups this callout with two Leander studies; the only listed record containing Jacob is Lorenz and Jacob (2008), not a Jacob-led 2007 work.",
+      "recommended_disposition": "Ask the authors for the full Jacob et al. 2007 record or removal/replacement of that atomic callout."
+    },
+    {
+      "key": "F04",
+      "heading": "Author decision required",
+      "category": "Cited-only work",
+      "location": "printed pp. 4604-4605, line 25 and opening lines (physical pp. 16-17)",
+      "observed_item": "Leander et al. 2005",
+      "counterpart": "No Leander-led 2005 entry appears on reference-list pp. 4605-4607.",
+      "manuscript_evidence": "The work is invoked twice for HBV flood-peak and inundation limitations; the list contains Leander records only for 2007 and 2008.",
+      "recommended_disposition": "Request the full 2005 record or author-confirmed replacement/removal, preserving both occurrence locations in the query."
+    },
+    {
+      "key": "F05",
+      "heading": "Author decision required",
+      "category": "Listed-only record",
+      "location": "reference list, printed p. 4607, opening lines (physical p. 19)",
+      "observed_item": "Swedish Meteorological and Hydrological Institute (SMHI): The HBV model, 2007",
+      "counterpart": "No formal SMHI 2007 author-date callout occurs before the reference list.",
+      "manuscript_evidence": "The methods text mentions the institute and says HBV was developed in the early 1970s, but it does not attach 2007 to that attribution.",
+      "recommended_disposition": "Ask whether a claim should receive an SMHI (2007) callout; otherwise remove the unused record. Do not turn the undated institution mention into a citation silently."
+    },
+    {
+      "key": "F06",
+      "heading": "Author decision required",
+      "category": "Credited-author conflict",
+      "location": "callout at printed p. 4591, lines 25-26; candidate entry at p. 4607 (physical pp. 3 and 19)",
+      "observed_item": "STOWA, 2004",
+      "counterpart": "The only 2004 entry containing STOWA credits Smits, Wijngaarden, Versteeg, and Kok as authors and places STOWA later in the record.",
+      "manuscript_evidence": "The shared year and unique STOWA token make the Smits record a candidate, but the supplied manuscript does not establish that a publisher-like field may replace the credited author.",
+      "recommended_disposition": "Ask the authors to confirm the intended work and credited author; if the candidate is intended, change the callout to Smits et al. (2004), otherwise supply the intended STOWA-authored record."
+    },
+    {
+      "key": "F07",
+      "heading": "Confirmed discrepancy",
+      "category": "Two-author callout form",
+      "location": "printed p. 4595, lines 23-24 (physical p. 7)",
+      "observed_item": "Bergstrom et al., 1994",
+      "counterpart": "The p. 4606 record has exactly two authors: Bergstrom and Carlsson.",
+      "manuscript_evidence": "Elsewhere the manuscript distinguishes named pairs from multi-author et al. forms; the work identity is otherwise established by first author and year.",
+      "recommended_disposition": "Replace the callout component Bergstrom et al., 1994 with Bergstrom and Carlsson, 1994 within the parenthetical group, retaining the manuscript's chosen accent convention."
+    },
+    {
+      "key": "F08",
+      "heading": "Confirmed discrepancy",
+      "category": "Two-author callout form",
+      "location": "printed p. 4593, opening line (physical p. 5)",
+      "observed_item": "Warmerdam et al., 2001",
+      "counterpart": "The p. 4607 record has exactly two authors: Warmerdam and Wit de.",
+      "manuscript_evidence": "The author-year identity is unique, but et al. suppresses the second author of a two-author record.",
+      "recommended_disposition": "Change the callout component Warmerdam et al., 2001 to Warmerdam and de Wit, 2001 within the parenthetical group, using the manuscript's particle convention consistently."
+    },
+    {
+      "key": "F09",
+      "heading": "Confirmed discrepancy",
+      "category": "Two-author callout form",
+      "location": "printed p. 4593, lines 5-7 (physical p. 5)",
+      "observed_item": "Lorenz et al., 2008",
+      "counterpart": "The p. 4606 record has exactly two authors: Lorenz and Jacob.",
+      "manuscript_evidence": "The ENSEMBLES context and unique first-author/year link establish the record, leaving an author-cardinality error in the callout.",
+      "recommended_disposition": "Change the parenthetical callout to (Lorenz and Jacob, 2008)."
+    },
+    {
+      "key": "F10",
+      "heading": "Confirmed discrepancy",
+      "category": "Two-author callout form",
+      "location": "printed pp. 4593, 4595-4598 and 4603 (physical pp. 5, 7-10 and 15)",
+      "observed_item": "Leander et al., 2007",
+      "counterpart": "The p. 4606 record has exactly two authors: Leander and Buishand.",
+      "manuscript_evidence": "Multiple occurrences resolve to the same two-author 2007 record, whereas the listed 2008 Leander work has four authors.",
+      "recommended_disposition": "At each 2007 occurrence, use Leander and Buishand while preserving whether the source location is narrative or parenthetical; do not change correct 2008 et al. callouts."
+    },
+    {
+      "key": "F11",
+      "heading": "Confirmed discrepancy",
+      "category": "Single-author callout form",
+      "location": "printed pp. 4592 and 4604 (physical pp. 4 and 16)",
+      "observed_item": "Wit de et al., 2001a",
+      "counterpart": "The p. 4607 record for 2001a credits only M. J. M. de Wit.",
+      "manuscript_evidence": "The year suffix and unique title entry resolve identity; et al. invents additional authors. On p. 4604 the malformed item shares a group with the valid multi-author 2007b item.",
+      "recommended_disposition": "Use the single-author de Wit form with 2001a while preserving local citation grammar; on p. 4604 separate it from the retained de Wit et al. 2007b component."
+    },
+    {
+      "key": "F12",
+      "heading": "Confirmed discrepancy",
+      "category": "Year-suffix mismatch",
+      "location": "printed p. 4592, lines 10-13 (physical p. 4)",
+      "observed_item": "De Wit (2001)",
+      "counterpart": "The matching single-author record is labeled 2001a on p. 4607; no unsuffixed de Wit 2001 entry is listed.",
+      "manuscript_evidence": "The unique single-author record and matching climate-impact context establish the candidate without changing authorship.",
+      "recommended_disposition": "Change the narrative citation to De Wit (2001a)."
+    },
+    {
+      "key": "F13",
+      "heading": "Confirmed discrepancy",
+      "category": "Multi-author callout form",
+      "location": "printed p. 4592, lines 20-25 (physical p. 4)",
+      "observed_item": "De Wit (2007a)",
+      "counterpart": "The p. 4607 low-flows record labeled 2007a has six authors.",
+      "manuscript_evidence": "The same page later uses De Wit et al. (2007a) for the same low-flow work, establishing the manuscript's own applicable form.",
+      "recommended_disposition": "Change the singular narrative form to De Wit et al. (2007a)."
+    },
+    {
+      "key": "F14",
+      "heading": "Confirmed discrepancy",
+      "category": "Multi-author callout form",
+      "location": "printed p. 4604, line 25 (physical p. 16)",
+      "observed_item": "De Wit (2007b)",
+      "counterpart": "The p. 4607 record labeled 2007b has three authors: de Wit, Buiteveld, and van Deursen.",
+      "manuscript_evidence": "The suffix uniquely identifies the listed record, but the narrative form omits two credited authors.",
+      "recommended_disposition": "Change the narrative citation to De Wit et al. (2007b)."
+    },
+    {
+      "key": "F15",
+      "heading": "Author decision required",
+      "category": "Unsuffixed ambiguous callout",
+      "location": "printed p. 4605, lines 5-10 (physical p. 17)",
+      "observed_item": "De Wit (2007)",
+      "counterpart": "No unsuffixed de Wit 2007 record is listed; p. 4607 instead has distinct 2007a and 2007b multi-author records.",
+      "manuscript_evidence": "The surrounding critical-low-flow claim points toward the 2007a low-flows title, but context alone does not prove the authors' intended source.",
+      "recommended_disposition": "Ask the authors to confirm the intended work; if 2007a is intended, change to De Wit et al. (2007a), otherwise supply the correct identity."
+    },
+    {
+      "key": "F16",
+      "heading": "Confirmed discrepancy",
+      "category": "Compact narrative, 2007 component",
+      "location": "printed p. 4598, lines 13-15 (physical p. 10)",
+      "observed_item": "Leander (2007, 2008) - 2007 component",
+      "counterpart": "The p. 4606 record for 2007 has two authors: Leander and Buishand.",
+      "manuscript_evidence": "The one-name narrative cannot correctly represent this two-author component, and the adjacent year resolves to a different author group.",
+      "recommended_disposition": "Split the compact citation and render this component as Leander and Buishand (2007)."
+    },
+    {
+      "key": "F17",
+      "heading": "Confirmed discrepancy",
+      "category": "Compact narrative, 2008 component",
+      "location": "printed p. 4598, lines 13-15 (physical p. 10)",
+      "observed_item": "Leander (2007, 2008) - 2008 component",
+      "counterpart": "The p. 4606 record for 2008 has four authors: Leander, Buishand, van den Hurk, and de Wit.",
+      "manuscript_evidence": "The singular narrative omits coauthors, and the author list differs from the preceding 2007 component.",
+      "recommended_disposition": "Split the compact citation and render this component as Leander et al. (2008)."
+    }
+  ],
+  "clearances": [
+    {
+      "key": "C01",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "Ashagrie et al. (2006) / Ashagrie-led 2006 entry",
+      "location": "printed pp. 4594 and 4605",
+      "decision": "The formal body callout and the reference head agree; no listed-only finding is warranted."
+    },
+    {
+      "key": "C02",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "Bakker (2008) / Bakker 2008 entry",
+      "location": "printed pp. 4595 and 4606",
+      "decision": "This is a narrative callout split across text lines, not an unused record."
+    },
+    {
+      "key": "C03",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "Bergstrom et al. (2001) / Bergstrom-led 2001 entry",
+      "location": "printed pp. 4592 and 4606",
+      "decision": "Accent loss and Unicode composition do not change the author-year identity."
+    },
+    {
+      "key": "C04",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "Hurk van den et al. (2006) / Hurk van den-led 2006 entry",
+      "location": "printed pp. 4591 and 4606",
+      "decision": "Capitalization and surname-particle presentation preserve identity; this is distinct from the missing 2005 work."
+    },
+    {
+      "key": "C05",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "van Schrojenstein Lantman (2004) / Van Schrojenstein Lantman 2004 entry",
+      "location": "printed pp. 4596 and 4607",
+      "decision": "Sentence-position capitalization does not create a different author."
+    },
+    {
+      "key": "C06",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "Booij (2002b) / Booij 2002b entry",
+      "location": "printed pp. 4591 and 4606",
+      "decision": "The suffix agrees on both surfaces. The absence of a visible 2002a record is not evidence for changing a matching pair."
+    },
+    {
+      "key": "C07",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "Wit de / De Wit / de Wit",
+      "location": "multiple body locations and printed p. 4607",
+      "decision": "Reference inversion, sentence capitalization, and lowercase particles are compatible identity forms; author cardinality and suffix defects are evaluated separately."
+    },
+    {
+      "key": "C08",
+      "heading": "Cleared; no identity repair",
+      "compared_forms": "Leander et al. (2008) / four-author Leander 2008 entry",
+      "location": "multiple body locations and printed p. 4606",
+      "decision": "The et al. form is compatible with the four-author record and must not be changed with the defective 2007 forms."
+    }
+  ],
+  "occurrences": [
+    {
+      "key": "O01",
+      "physical_page": "2",
+      "printed_page": "4590",
+      "observed": "(IPCC, 2007)",
+      "components": "IPCC 2007",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R10"
+    },
+    {
+      "key": "O02",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "observed": "(Hurk van den et al., 2006)",
+      "components": "Hurk van den 2006",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R09"
+    },
+    {
+      "key": "O03",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "observed": "(Wit de et al., 2001b)",
+      "components": "Wit de 2001b",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R27"
+    },
+    {
+      "key": "O04",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "observed": "(Uijlenhoet et al., 2001)",
+      "components": "Uijlenhoet 2001",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R22"
+    },
+    {
+      "key": "O05",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "observed": "(Tu et al., 2005b)",
+      "components": "Tu 2005b",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R21"
+    },
+    {
+      "key": "O06",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "observed": "(Booij, 2002b)",
+      "components": "Booij 2002b",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R07"
+    },
+    {
+      "key": "O07",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "observed": "(STOWA, 2004)",
+      "components": "STOWA 2004",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "candidate",
+      "mapping": "R19"
+    },
+    {
+      "key": "O08",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Hydrologiska Byr\u00e5ns Vattenbalansavdelning; Hydrological Bureau Water balance-section; Bergstr\u00f6m and Forsman, 1973)",
+      "components": "Bergstrom Forsman 1973",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "cited-only",
+      "mapping": "none"
+    },
+    {
+      "key": "O09",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Bergstrom et al., 2001)",
+      "components": "Bergstrom 2001",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R04"
+    },
+    {
+      "key": "O10",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Pfister et al., 2004)",
+      "components": "Pfister 2004",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R16"
+    },
+    {
+      "key": "O11",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Wit de et al., 2001a; Wit de et al., 2007b)",
+      "components": "Wit de 2001a; Wit de 2007b",
+      "form": "grouped",
+      "explicitness": "explicit",
+      "status": "mixed",
+      "mapping": "R25; R26"
+    },
+    {
+      "key": "O12",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Tu et al., 2005a)",
+      "components": "Tu 2005a",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R20"
+    },
+    {
+      "key": "O13",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "De Wit (2001)",
+      "components": "De Wit 2001",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "suffix-defect",
+      "mapping": "R25"
+    },
+    {
+      "key": "O14",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Booij, 2005)",
+      "components": "Booij 2005",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R08"
+    },
+    {
+      "key": "O15",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Aalders et al., 2004)",
+      "components": "Aalders 2004",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R01"
+    },
+    {
+      "key": "O16",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "(Wit de et al., 2007a)",
+      "components": "Wit de 2007a",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R28"
+    },
+    {
+      "key": "O17",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "De Wit (2007a)",
+      "components": "De Wit 2007a",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R28"
+    },
+    {
+      "key": "O18",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "observed": "De Wit et al. (2007a)",
+      "components": "De Wit 2007a",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R28"
+    },
+    {
+      "key": "O19",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "observed": "(Warmerdam et al., 2001; Wit de et al., 2001b)",
+      "components": "Warmerdam 2001; Wit de 2001b",
+      "form": "grouped",
+      "explicitness": "explicit",
+      "status": "mixed",
+      "mapping": "R24; R27"
+    },
+    {
+      "key": "O20",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "observed": "(Lorenz et al., 2008)",
+      "components": "Lorenz 2008",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R15"
+    },
+    {
+      "key": "O21",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "observed": "(Leander et al., 2007; Wit de et al., 2007a; Leander et al., 2008)",
+      "components": "Leander 2007; Wit de 2007a; Leander 2008",
+      "form": "grouped",
+      "explicitness": "explicit",
+      "status": "mixed",
+      "mapping": "R12; R28; R13"
+    },
+    {
+      "key": "O22",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "observed": "(Booij, 2005)",
+      "components": "Booij 2005",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R08"
+    },
+    {
+      "key": "O23",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "observed": "(Leander et al., 2007)",
+      "components": "Leander 2007",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R12"
+    },
+    {
+      "key": "O24",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "observed": "(Leander et al., 2007)",
+      "components": "Leander 2007",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R12"
+    },
+    {
+      "key": "O25",
+      "physical_page": "6",
+      "printed_page": "4594",
+      "observed": "(Pfister et al., 2004)",
+      "components": "Pfister 2004",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R16"
+    },
+    {
+      "key": "O26",
+      "physical_page": "6",
+      "printed_page": "4594",
+      "observed": "(Ashagrie et al., 2006)",
+      "components": "Ashagrie 2006",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R02"
+    },
+    {
+      "key": "O27",
+      "physical_page": "6",
+      "printed_page": "4594",
+      "observed": "(Lenderink et al., 2003)",
+      "components": "Lenderink 2003",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R14"
+    },
+    {
+      "key": "O28",
+      "physical_page": "6",
+      "printed_page": "4594",
+      "observed": "(Van den Hurk et al, 2005)",
+      "components": "Van den Hurk 2005",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "cited-only",
+      "mapping": "none"
+    },
+    {
+      "key": "O29",
+      "physical_page": "7",
+      "printed_page": "4595",
+      "observed": "(Roeckner et al., 2003)",
+      "components": "Roeckner 2003",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R17"
+    },
+    {
+      "key": "O30",
+      "physical_page": "7",
+      "printed_page": "4595",
+      "observed": "Leander et al. (2007)",
+      "components": "Leander 2007",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R12"
+    },
+    {
+      "key": "O31",
+      "physical_page": "7",
+      "printed_page": "4595",
+      "observed": "(Leander et al., 2007)",
+      "components": "Leander 2007",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R12"
+    },
+    {
+      "key": "O32",
+      "physical_page": "7",
+      "printed_page": "4595",
+      "observed": "Bakker (2008)",
+      "components": "Bakker 2008",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R03"
+    },
+    {
+      "key": "O33",
+      "physical_page": "7",
+      "printed_page": "4595",
+      "observed": "(Bergstr\u00f6m et al., 1994; Bergstr\u00f6m, 1995)",
+      "components": "Bergstrom 1994; Bergstrom 1995",
+      "form": "grouped",
+      "explicitness": "explicit",
+      "status": "mixed",
+      "mapping": "R06; R05"
+    },
+    {
+      "key": "O34",
+      "physical_page": "8",
+      "printed_page": "4596",
+      "observed": "(Booij, 2005)",
+      "components": "Booij 2005",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R08"
+    },
+    {
+      "key": "O35",
+      "physical_page": "8",
+      "printed_page": "4596",
+      "observed": "(Leander et al., 2007)",
+      "components": "Leander 2007",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R12"
+    },
+    {
+      "key": "O36",
+      "physical_page": "8",
+      "printed_page": "4596",
+      "observed": "(van Schrojenstein Lantman, 2004)",
+      "components": "van Schrojenstein Lantman 2004",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R23"
+    },
+    {
+      "key": "O37",
+      "physical_page": "8",
+      "printed_page": "4596",
+      "observed": "(Wit de et al., 2007a)",
+      "components": "Wit de 2007a",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R28"
+    },
+    {
+      "key": "O38",
+      "physical_page": "9",
+      "printed_page": "4597",
+      "observed": "(Leander et al., 2007)",
+      "components": "Leander 2007",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R12"
+    },
+    {
+      "key": "O39",
+      "physical_page": "10",
+      "printed_page": "4598",
+      "observed": "Leander (2007, 2008)",
+      "components": "Leander 2007; Leander 2008",
+      "form": "compact",
+      "explicitness": "inherited/mixed",
+      "status": "compact-form-defect",
+      "mapping": "R12; R13"
+    },
+    {
+      "key": "O40",
+      "physical_page": "10",
+      "printed_page": "4598",
+      "observed": "(Leander et al., 2007)",
+      "components": "Leander 2007",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R12"
+    },
+    {
+      "key": "O41",
+      "physical_page": "11",
+      "printed_page": "4599",
+      "observed": "(Leander et al., 2008)",
+      "components": "Leander 2008",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R13"
+    },
+    {
+      "key": "O42",
+      "physical_page": "15",
+      "printed_page": "4603",
+      "observed": "(Jacob et al., 2007; Leander et al., 2007; Leander et al., 2008)",
+      "components": "Jacob 2007; Leander 2007; Leander 2008",
+      "form": "grouped",
+      "explicitness": "explicit",
+      "status": "mixed",
+      "mapping": "none; R12; R13"
+    },
+    {
+      "key": "O43",
+      "physical_page": "16",
+      "printed_page": "4604",
+      "observed": "(KNMI, 2006)",
+      "components": "KNMI 2006",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R11"
+    },
+    {
+      "key": "O44",
+      "physical_page": "16",
+      "printed_page": "4604",
+      "observed": "(Wit de et al., 2001a, 2007b; Booij, 2005)",
+      "components": "Wit de 2001a; Wit de 2007b; Booij 2005",
+      "form": "grouped",
+      "explicitness": "inherited/mixed",
+      "status": "mixed",
+      "mapping": "R25; R26; R08"
+    },
+    {
+      "key": "O45",
+      "physical_page": "16",
+      "printed_page": "4604",
+      "observed": "(Leander et al., 2008)",
+      "components": "Leander 2008",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R13"
+    },
+    {
+      "key": "O46",
+      "physical_page": "16",
+      "printed_page": "4604",
+      "observed": "(Booij 2005; Leander et al. 2005)",
+      "components": "Booij 2005; Leander 2005",
+      "form": "grouped",
+      "explicitness": "explicit",
+      "status": "mixed",
+      "mapping": "R08; none"
+    },
+    {
+      "key": "O47",
+      "physical_page": "16",
+      "printed_page": "4604",
+      "observed": "De Wit (2007b)",
+      "components": "De Wit 2007b",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "form-defect",
+      "mapping": "R26"
+    },
+    {
+      "key": "O48",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "observed": "Leander et al. (2005)",
+      "components": "Leander 2005",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "cited-only",
+      "mapping": "none"
+    },
+    {
+      "key": "O49",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "observed": "De Wit (2007)",
+      "components": "De Wit 2007",
+      "form": "narrative",
+      "explicitness": "explicit",
+      "status": "ambiguous",
+      "mapping": "R28; R26"
+    },
+    {
+      "key": "O50",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "observed": "(Wit de et al., 2007a)",
+      "components": "Wit de 2007a",
+      "form": "parenthetical",
+      "explicitness": "explicit",
+      "status": "linked",
+      "mapping": "R28"
+    }
+  ],
+  "references": [
+    {
+      "key": "R01",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "head": "Aalders, P., Warmerdam, P. M. M., and Torfs, P. J. J. F.",
+      "year": "2004",
+      "cardinality": "multiple",
+      "title": "Rainfall generator for the Meuse basin",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R02",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "head": "Ashagrie, A. G., Laat de, P. J. M., Wit de, M. J. M., and Uhlenbrook, S.",
+      "year": "2006",
+      "cardinality": "multiple",
+      "title": "Detecting the influence of land use changes",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R03",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Bakker, A.",
+      "year": "2008",
+      "cardinality": "1",
+      "title": "Bias correction and resampling of RCM daily precipitation",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R04",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Bergstrom, S., Carlsson, B., Gardelin, M., Lindstrom, G., Pettersson, A. and Rummukainen, M.",
+      "year": "2001",
+      "cardinality": "multiple",
+      "title": "Climate change impacts on runoff in Sweden",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R05",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Bergstr\u00f6m, S.",
+      "year": "1995",
+      "cardinality": "1",
+      "title": "The HBV model",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R06",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Bergstr\u00f6m, S. and Carlsson, B.",
+      "year": "1994",
+      "cardinality": "2",
+      "title": "River Runoff to the Baltic Sea",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R07",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Booij, M. J.",
+      "year": "2002b",
+      "cardinality": "1",
+      "title": "Extreme daily precipitation in western Europe",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R08",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Booij, M. J.",
+      "year": "2005",
+      "cardinality": "1",
+      "title": "Impact of climate change on river flooding",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R09",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Hurk van den, B., Albert, K. T., Lenderink, G., Ulden van, A., Oldenborgh van, G. J., Katsman, C., Brink van den, H., Keller, F., Bessembinder, J., Burgers, G., Komen, G., Hazeleger, W. and Drijfhout, S.",
+      "year": "2006",
+      "cardinality": "multiple",
+      "title": "KNMI Climate Change Scenarios 2006",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R10",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "IPCC",
+      "year": "2007",
+      "cardinality": "1",
+      "title": "Climate Change 2007: Synthesis Report",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R11",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "KNMI",
+      "year": "2006",
+      "cardinality": "1",
+      "title": "Climate in the 21st century",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R12",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Leander, R. and Buishand, T. A.",
+      "year": "2007",
+      "cardinality": "2",
+      "title": "Resampling of regional climate model output",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R13",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Leander, R., Buishand, T., van den Hurk, B., and de Wit, M.",
+      "year": "2008",
+      "cardinality": "multiple",
+      "title": "Estimated changes in flood quantiles",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R14",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Lenderink, G., Hurk van den, B., Meijgaard van, E., Ulden van, A., and Cuijpers, H.",
+      "year": "2003",
+      "cardinality": "multiple",
+      "title": "Simulation of present-day climate in RACMO 2",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R15",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Lorenz, P. and Jacob, D.",
+      "year": "2008",
+      "cardinality": "2",
+      "title": "Validation of temperature trends in the ENSEMBLES RCM runs",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R16",
+      "physical_page": "18",
+      "printed_page": "4606",
+      "head": "Pfister, L., Kwadijk, J., Musy, A., Bronstert, A., and Hoffmann, L.",
+      "year": "2004",
+      "cardinality": "multiple",
+      "title": "Climate change, land use change and runoff prediction",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R17",
+      "physical_page": "18",
+      "printed_page": "4606-4607",
+      "head": "Roeckner, E., B\u00e4uml, G., Bonaventura, L., Brokopf, R., Esch, M., Giorgetta, M., Hagemann, S., Kirchner, I., Kornblueh, L., Manzine, E., Rhodin, A., Schlese, U., Schulzweida, U., and Tompkins, A.",
+      "year": "2003",
+      "cardinality": "multiple",
+      "title": "The atmospheric general circulation model ECHAM 5",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R18",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Swedish Meteorological and Hydrological Institute (SMHI)",
+      "year": "2007",
+      "cardinality": "1",
+      "title": "The HBV model",
+      "status": "listed-only",
+      "owner": "author/editor"
+    },
+    {
+      "key": "R19",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Smits, I., Wijngaarden, J., Versteeg, R. and Kok, M.",
+      "year": "2004",
+      "cardinality": "multiple",
+      "title": "Statistiek van extreme neerslag in Nederland",
+      "status": "candidate-author-conflict",
+      "owner": "author/editor"
+    },
+    {
+      "key": "R20",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Tu, M., Hall, M. J., Laat de, P. J., and Wit de, M. J. M.",
+      "year": "2005a",
+      "cardinality": "multiple",
+      "title": "Extreme floods in the Meuse river",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R21",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Tu, M., Laat de, P. J. M., Hall, M. J., and Wit de, M. J. M.",
+      "year": "2005b",
+      "cardinality": "multiple",
+      "title": "Precipitation variability in the Meuse basin",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R22",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Uijlenhoet, R., Wit de, M. J. M., Warmerdam, P. M. M., and Torfs, P. J. J. F.",
+      "year": "2001",
+      "cardinality": "multiple",
+      "title": "Statistical analysis of daily discharge data",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R23",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Van Schrojenstein Lantman, J.",
+      "year": "2004",
+      "cardinality": "1",
+      "title": "Hoogwatervoorspellingen op de Maas",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R24",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Warmerdam, P. M. M. and Wit de, M. J. M.",
+      "year": "2001",
+      "cardinality": "2",
+      "title": "Climate change and low flows in the river Meuse",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R25",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Wit de, M. J. M.",
+      "year": "2001a",
+      "cardinality": "1",
+      "title": "Effect of climate change on the hydrology of the river Meuse",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R26",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Wit de, M. J. M., Buiteveld, H., and Deursen van, W. P. A.",
+      "year": "2007b",
+      "cardinality": "multiple",
+      "title": "Klimaatverandering en de afvoer van Rijn en Maas",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R27",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Wit de, M. J. M., Uijlenhoet, R., Warmerdam, P. M. M., Torfs, P. J. J. F., Roulin, E., and Dewil, P.",
+      "year": "2001b",
+      "cardinality": "multiple",
+      "title": "Statistical analysis of discharge time series",
+      "status": "used",
+      "owner": "copyeditor"
+    },
+    {
+      "key": "R28",
+      "physical_page": "19",
+      "printed_page": "4607",
+      "head": "Wit de, M. J. M., Hurk van den, B., Warmerdam, P. M. M., Torfs, P. J. J. F., Roulin, E., and Deursen van, W. P. A.",
+      "year": "2007a",
+      "cardinality": "multiple",
+      "title": "Impact of climate change on low-flows in the river Meuse",
+      "status": "used",
+      "owner": "copyeditor"
+    }
+  ],
+  "patches": [
+    {
+      "key": "P01",
+      "finding": "F07",
+      "location": "occurrence O33, 1994 component; physical p. 7 / printed p. 4595",
+      "current": "Bergstrom et al., 1994",
+      "proposed": "Bergstrom and Carlsson, 1994",
+      "record": "R06",
+      "evidence": "The matched record has exactly two authors; retain the enclosing parenthetical group."
+    },
+    {
+      "key": "P02",
+      "finding": "F08",
+      "location": "occurrence O19, Warmerdam component; physical p. 5 / printed p. 4593",
+      "current": "Warmerdam et al., 2001",
+      "proposed": "Warmerdam and de Wit, 2001",
+      "record": "R24",
+      "evidence": "The matched record has exactly two authors; retain the enclosing parenthetical group."
+    },
+    {
+      "key": "P03",
+      "finding": "F09",
+      "location": "occurrence O20; physical p. 5 / printed p. 4593",
+      "current": "(Lorenz et al., 2008)",
+      "proposed": "(Lorenz and Jacob, 2008)",
+      "record": "R15",
+      "evidence": "The matched record has exactly two authors and the occurrence is parenthetical."
+    },
+    {
+      "key": "P04",
+      "finding": "F10",
+      "location": "occurrence O21, 2007 component; physical p. 5 / printed p. 4593",
+      "current": "Leander et al., 2007",
+      "proposed": "Leander and Buishand, 2007",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors; retain the enclosing parenthetical group."
+    },
+    {
+      "key": "P05",
+      "finding": "F10",
+      "location": "occurrence O23; physical p. 5 / printed p. 4593",
+      "current": "(Leander et al., 2007)",
+      "proposed": "(Leander and Buishand, 2007)",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors and the occurrence is parenthetical."
+    },
+    {
+      "key": "P06",
+      "finding": "F10",
+      "location": "occurrence O24; physical p. 5 / printed p. 4593",
+      "current": "(Leander et al., 2007)",
+      "proposed": "(Leander and Buishand, 2007)",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors and the occurrence is parenthetical."
+    },
+    {
+      "key": "P07",
+      "finding": "F10",
+      "location": "occurrence O30; physical p. 7 / printed p. 4595",
+      "current": "Leander et al. (2007)",
+      "proposed": "Leander and Buishand (2007)",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors."
+    },
+    {
+      "key": "P08",
+      "finding": "F10",
+      "location": "occurrence O31; physical p. 7 / printed p. 4595",
+      "current": "(Leander et al., 2007)",
+      "proposed": "(Leander and Buishand, 2007)",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors and the occurrence is parenthetical."
+    },
+    {
+      "key": "P09",
+      "finding": "F10",
+      "location": "occurrence O35; physical p. 8 / printed p. 4596",
+      "current": "(Leander et al., 2007)",
+      "proposed": "(Leander and Buishand, 2007)",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors and the occurrence is parenthetical."
+    },
+    {
+      "key": "P10",
+      "finding": "F10",
+      "location": "occurrence O38; physical p. 9 / printed p. 4597",
+      "current": "(Leander et al., 2007)",
+      "proposed": "(Leander and Buishand, 2007)",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors and the occurrence is parenthetical."
+    },
+    {
+      "key": "P11",
+      "finding": "F10",
+      "location": "occurrence O40; physical p. 10 / printed p. 4598",
+      "current": "(Leander et al., 2007)",
+      "proposed": "(Leander and Buishand, 2007)",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors and the occurrence is parenthetical."
+    },
+    {
+      "key": "P12",
+      "finding": "F10",
+      "location": "occurrence O42, 2007 component; physical p. 15 / printed p. 4603",
+      "current": "Leander et al., 2007",
+      "proposed": "Leander and Buishand, 2007",
+      "record": "R12",
+      "evidence": "The 2007 record has exactly two authors; retain the enclosing parenthetical group."
+    },
+    {
+      "key": "P13",
+      "finding": "F11",
+      "location": "occurrence O11, 2001a component; physical p. 4 / printed p. 4592",
+      "current": "Wit de et al., 2001a",
+      "proposed": "de Wit, 2001a",
+      "record": "R25",
+      "evidence": "The 2001a record credits one author; retain the enclosing parenthetical group."
+    },
+    {
+      "key": "P14",
+      "finding": "F11",
+      "location": "occurrence O44, compact Wit de component; physical p. 16 / printed p. 4604",
+      "current": "Wit de et al., 2001a, 2007b",
+      "proposed": "de Wit, 2001a; de Wit et al., 2007b",
+      "record": "R25; R26",
+      "evidence": "Split the inherited years because the 2001a and 2007b records have different author cardinalities."
+    },
+    {
+      "key": "P15",
+      "finding": "F12",
+      "location": "occurrence O13; physical p. 4 / printed p. 4592",
+      "current": "De Wit (2001)",
+      "proposed": "De Wit (2001a)",
+      "record": "R25",
+      "evidence": "The only matching record carries suffix 2001a."
+    },
+    {
+      "key": "P16",
+      "finding": "F13",
+      "location": "occurrence O17; physical p. 4 / printed p. 4592",
+      "current": "De Wit (2007a)",
+      "proposed": "De Wit et al. (2007a)",
+      "record": "R28",
+      "evidence": "The 2007a record has multiple credited authors."
+    },
+    {
+      "key": "P17",
+      "finding": "F14",
+      "location": "occurrence O47; physical p. 16 / printed p. 4604",
+      "current": "De Wit (2007b)",
+      "proposed": "De Wit et al. (2007b)",
+      "record": "R26",
+      "evidence": "The 2007b record has three credited authors."
+    },
+    {
+      "key": "P18",
+      "finding": "F16",
+      "location": "occurrence O39, 2007 atomic component; physical p. 10 / printed p. 4598",
+      "current": "Leander (2007, 2008)",
+      "proposed": "Leander and Buishand (2007)",
+      "record": "R12",
+      "evidence": "When the compact narrative is split, the 2007 component takes the two credited authors."
+    },
+    {
+      "key": "P19",
+      "finding": "F17",
+      "location": "occurrence O39, 2008 atomic component; physical p. 10 / printed p. 4598",
+      "current": "Leander (2007, 2008)",
+      "proposed": "Leander et al. (2008)",
+      "record": "R13",
+      "evidence": "When the compact narrative is split, the 2008 component takes the four-author callout form."
+    }
+  ],
+  "exclusions": [
+    {
+      "key": "E01",
+      "physical_page": "1",
+      "printed_page": "4589",
+      "token": "2009",
+      "context": "journal masthead and article metadata",
+      "reason": "Publication metadata, not a source callout."
+    },
+    {
+      "key": "E02",
+      "physical_page": "1",
+      "printed_page": "4589",
+      "token": "Received: 3 June 2009",
+      "context": "received/accepted/published line",
+      "reason": "Editorial history dates, not citations."
+    },
+    {
+      "key": "E03",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "token": "1911-2002",
+      "context": "long observation records for the Meuse basin",
+      "reason": "Study-period range without an author expression."
+    },
+    {
+      "key": "E04",
+      "physical_page": "3",
+      "printed_page": "4591",
+      "token": "1980",
+      "context": "precipitation amounts have significantly increased since 1980",
+      "reason": "Measurement period, not a bibliographic year."
+    },
+    {
+      "key": "E05",
+      "physical_page": "4",
+      "printed_page": "4592",
+      "token": "21st century",
+      "context": "continue during the 21st century",
+      "reason": "Ordinal time phrase, not a four-digit citation year."
+    },
+    {
+      "key": "E06",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "token": "1950-2100",
+      "context": "transient simulation of the GCM ECHAM 5",
+      "reason": "Simulation horizon, not an author-year construction."
+    },
+    {
+      "key": "E07",
+      "physical_page": "5",
+      "printed_page": "4593",
+      "token": "1950-2000",
+      "context": "observed greenhouse gases for 1950-2000",
+      "reason": "Input-data period, not a citation."
+    },
+    {
+      "key": "E08",
+      "physical_page": "8",
+      "printed_page": "4596",
+      "token": "1951-2100",
+      "context": "model is run for the period 1951-2100",
+      "reason": "Model run period, not a source callout."
+    },
+    {
+      "key": "E09",
+      "physical_page": "9",
+      "printed_page": "4597",
+      "token": "1969-1998",
+      "context": "control period and observational records",
+      "reason": "Control/observation period, not a citation."
+    },
+    {
+      "key": "E10",
+      "physical_page": "10",
+      "printed_page": "4598",
+      "token": "1969-1998",
+      "context": "calendar month m in the period 1969-1998",
+      "reason": "Calibration period, not a citation."
+    },
+    {
+      "key": "E11",
+      "physical_page": "11",
+      "printed_page": "4599",
+      "token": "1969-1998",
+      "context": "averages for the period 1969-1998",
+      "reason": "Comparison period, not a citation."
+    },
+    {
+      "key": "E12",
+      "physical_page": "13",
+      "printed_page": "4601",
+      "token": "2071-2100",
+      "context": "RACMO2 scenario period 2071-2100",
+      "reason": "Scenario period, not a citation."
+    },
+    {
+      "key": "E13",
+      "physical_page": "14",
+      "printed_page": "4602",
+      "token": "1969-1998",
+      "context": "control period 1969-1998",
+      "reason": "Table/control period, not a citation."
+    },
+    {
+      "key": "E14",
+      "physical_page": "14",
+      "printed_page": "4602",
+      "token": "1969-1998",
+      "context": "annual mean control-period sentence in the Table 3 discussion",
+      "reason": "Control period, not a citation."
+    },
+    {
+      "key": "E15",
+      "physical_page": "16",
+      "printed_page": "4604",
+      "token": "1985-1998",
+      "context": "deviations in the HBV model for the 1985-1998 record",
+      "reason": "Data-record period, not a citation."
+    },
+    {
+      "key": "E16",
+      "physical_page": "16",
+      "printed_page": "4604",
+      "token": "1969-1998",
+      "context": "observed/control-period comparison before the KNMI callout",
+      "reason": "Comparison period, not a citation."
+    },
+    {
+      "key": "E17",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "token": "1969-1998",
+      "context": "bias corrections are developed using data from the period 1969-1998",
+      "reason": "Calibration period, not a citation."
+    },
+    {
+      "key": "E18",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "token": "1951-2100",
+      "context": "applied on the whole RACMO2 run of 1951-2100",
+      "reason": "Model run period, not a citation."
+    },
+    {
+      "key": "E19",
+      "physical_page": "17",
+      "printed_page": "4605",
+      "token": "1998-2100",
+      "context": "assumption is made for the period 1998-2100",
+      "reason": "Projection period, not a citation."
+    },
+    {
+      "key": "E20",
+      "physical_page": "20",
+      "printed_page": "4608",
+      "token": "1969-1998",
+      "context": "Table 1 statistics over period 1969-1998",
+      "reason": "Table period, not a citation."
+    },
+    {
+      "key": "E21",
+      "physical_page": "21",
+      "printed_page": "4609",
+      "token": "1969-1998",
+      "context": "Table 2 observed and column-label period",
+      "reason": "Table period, not a citation."
+    },
+    {
+      "key": "E22",
+      "physical_page": "22",
+      "printed_page": "4610",
+      "token": "1969-1998",
+      "context": "Table 3 control-period column labels",
+      "reason": "Table period, not a citation."
+    },
+    {
+      "key": "E23",
+      "physical_page": "22",
+      "printed_page": "4610",
+      "token": "2071-2100",
+      "context": "Table 3 scenario-period column labels",
+      "reason": "Table period, not a citation."
+    },
+    {
+      "key": "E24",
+      "physical_page": "22",
+      "printed_page": "4610",
+      "token": "2069",
+      "context": "Table 3 maximal-discharge value",
+      "reason": "Numeric model output, not a year or citation."
+    },
+    {
+      "key": "E25",
+      "physical_page": "23",
+      "printed_page": "4611",
+      "token": "2009",
+      "context": "representative recurring article header on physical pp. 2-30",
+      "reason": "Recurring publication furniture, not a source callout."
+    },
+    {
+      "key": "E26",
+      "physical_page": "24",
+      "printed_page": "4612",
+      "token": "1969-1998",
+      "context": "Fig. 2 control period",
+      "reason": "Figure caption period, not a citation."
+    },
+    {
+      "key": "E27",
+      "physical_page": "25",
+      "printed_page": "4613",
+      "token": "1969-1998",
+      "context": "Fig. 3 temperature-bias period",
+      "reason": "Figure caption period, not a citation."
+    },
+    {
+      "key": "E28",
+      "physical_page": "26",
+      "printed_page": "4614",
+      "token": "1969-1998",
+      "context": "Fig. 4 relative-bias period",
+      "reason": "Figure caption period, not a citation."
+    },
+    {
+      "key": "E29",
+      "physical_page": "27",
+      "printed_page": "4615",
+      "token": "1969-1998",
+      "context": "Fig. 5 ten-day precipitation period",
+      "reason": "Figure caption period, not a citation."
+    },
+    {
+      "key": "E30",
+      "physical_page": "28",
+      "printed_page": "4616",
+      "token": "1969-1998",
+      "context": "Fig. 6 observed control-period series",
+      "reason": "Figure data period, not a citation."
+    },
+    {
+      "key": "E31",
+      "physical_page": "28",
+      "printed_page": "4616",
+      "token": "2071-2100",
+      "context": "Fig. 6 scenario period",
+      "reason": "Figure caption period, not a citation."
+    },
+    {
+      "key": "E32",
+      "physical_page": "29",
+      "printed_page": "4617",
+      "token": "1969-1998",
+      "context": "Fig. 7 control period",
+      "reason": "Figure caption period, not a citation."
+    },
+    {
+      "key": "E33",
+      "physical_page": "29",
+      "printed_page": "4617",
+      "token": "2071-2100",
+      "context": "Fig. 7 scenario period",
+      "reason": "Figure caption period, not a citation."
+    },
+    {
+      "key": "E34",
+      "physical_page": "30",
+      "printed_page": "4618",
+      "token": "1969-1998",
+      "context": "Fig. 8 control period",
+      "reason": "Figure data period, not a citation."
+    },
+    {
+      "key": "E35",
+      "physical_page": "30",
+      "printed_page": "4618",
+      "token": "2071-2100",
+      "context": "Fig. 8 scenario-run labels",
+      "reason": "Figure data period, not a citation."
+    }
+  ],
+  "collisions": [
+    {
+      "key": "K01",
+      "stem": "Tu 2005",
+      "body_components": "(Tu et al., 2005a); (Tu et al., 2005b)",
+      "candidate_records": "R20; R21",
+      "explicitness": "explicit suffixes",
+      "state": "resolved as two records",
+      "evidence": "The two suffixes are printed on separate body callouts and on separate end records."
+    },
+    {
+      "key": "K02",
+      "stem": "Wit de 2001",
+      "body_components": "(Wit de et al., 2001a); (Wit de et al., 2001b); De Wit (2001)",
+      "candidate_records": "R25; R27",
+      "explicitness": "explicit and missing suffix",
+      "state": "2001a/2001b are distinct; the unsuffixed occurrence resolves to R25 from its single-author form and climate-impact context",
+      "evidence": "The source uses singular De Wit in the climate-impact statement, matching the single-author 2001a record; the separate multi-author 2001b record remains distinct."
+    },
+    {
+      "key": "K03",
+      "stem": "Wit de 2007",
+      "body_components": "Wit de et al. (2007a); Wit de et al. (2007b); De Wit (2007)",
+      "candidate_records": "R26; R28",
+      "explicitness": "explicit and missing suffix",
+      "state": "2007a/2007b are distinct; unsuffixed form is ambiguous",
+      "evidence": "Both suffixes occur in the reference list and the body, but the p. 4605 unsuffixed callout does not identify one of them."
+    },
+    {
+      "key": "K04",
+      "stem": "Leander 2007/2008",
+      "body_components": "Leander (2007, 2008)",
+      "candidate_records": "R12; R13",
+      "explicitness": "inherited within a compact group",
+      "state": "split required",
+      "evidence": "The compact narrative carries two years over one author token even though the two records have different author cardinalities."
+    },
+    {
+      "key": "K05",
+      "stem": "Leander 2005/2007/2008",
+      "body_components": "Leander et al. (2005); Leander et al. (2007); Leander et al. (2008)",
+      "candidate_records": "R12; R13; none for 2005",
+      "explicitness": "explicit years",
+      "state": "2005 is cited-only; 2007 is a two-author form defect; 2008 is linked",
+      "evidence": "The same first author spans a missing year and two listed years, so first-author matching alone is insufficient."
+    },
+    {
+      "key": "K06",
+      "stem": "Van den Hurk 2005/2006",
+      "body_components": "Van den Hurk et al, 2005; Hurk van den et al. (2006)",
+      "candidate_records": "R09; none for 2005",
+      "explicitness": "explicit years",
+      "state": "2005 is cited-only; 2006 is linked",
+      "evidence": "The body distinguishes the PRUDENCE 2005 callout from the listed 2006 scenario record."
+    },
+    {
+      "key": "K07",
+      "stem": "Bergstrom 1994/1995/2001",
+      "body_components": "Bergstr\u00f6m et al., 1994; Bergstr\u00f6m, 1995; Bergstrom et al., 2001",
+      "candidate_records": "R04; R05; R06",
+      "explicitness": "explicit years",
+      "state": "three distinct records",
+      "evidence": "The shared surname is paired with three different years and listed records; only 1994 has an author-cardinality defect."
+    },
+    {
+      "key": "K08",
+      "stem": "Booij 2002/2005",
+      "body_components": "(Booij, 2002b); (Booij, 2005)",
+      "candidate_records": "R07; R08",
+      "explicitness": "explicit suffix/year",
+      "state": "two distinct records",
+      "evidence": "The 2002b suffix and 2005 year resolve to separate listed titles; the visible 2002b pair is a clearance."
+    },
+    {
+      "key": "K09",
+      "stem": "Bergstrom/Forsman 1973",
+      "body_components": "Bergstr\u00f6m and Forsman, 1973",
+      "candidate_records": "none",
+      "explicitness": "explicit year",
+      "state": "cited-only; author query",
+      "evidence": "A shared Bergstr\u00f6m surname in later records does not supply the absent Forsman coauthor or 1973 record."
+    },
+    {
+      "key": "K10",
+      "stem": "SMHI 2007",
+      "body_components": "undated SMHI body mention",
+      "candidate_records": "R18",
+      "explicitness": "year absent in body",
+      "state": "listed-only; author/editor query",
+      "evidence": "The body names SMHI without a formal 2007 callout, while the end list contains an institutional 2007 record."
+    }
+  ],
+  "actions": [
+    {
+      "key": "A01",
+      "finding": "F01",
+      "owner": "author",
+      "precondition": "author supplies the missing 1973 record or confirms removal/replacement",
+      "state": "hold"
+    },
+    {
+      "key": "A02",
+      "finding": "F02",
+      "owner": "author",
+      "precondition": "author confirms the 2005 source or supplies a replacement",
+      "state": "hold"
+    },
+    {
+      "key": "A03",
+      "finding": "F03",
+      "owner": "author",
+      "precondition": "author supplies or replaces the Jacob 2007 source",
+      "state": "hold"
+    },
+    {
+      "key": "A04",
+      "finding": "F04",
+      "owner": "author",
+      "precondition": "author supplies or replaces both Leander 2005 occurrences",
+      "state": "hold"
+    },
+    {
+      "key": "A05",
+      "finding": "F05",
+      "owner": "editor",
+      "precondition": "editor and author decide whether the listed SMHI record supports a claim",
+      "state": "hold"
+    },
+    {
+      "key": "A06",
+      "finding": "F06",
+      "owner": "author",
+      "precondition": "author confirms whether STOWA or Smits et al. is the credited author",
+      "state": "hold"
+    },
+    {
+      "key": "A07",
+      "finding": "F07",
+      "owner": "copyeditor",
+      "precondition": "matched R06 is retained as the intended work",
+      "state": "confirmed"
+    },
+    {
+      "key": "A08",
+      "finding": "F08",
+      "owner": "copyeditor",
+      "precondition": "matched R24 is retained as the intended work",
+      "state": "confirmed"
+    },
+    {
+      "key": "A09",
+      "finding": "F09",
+      "owner": "copyeditor",
+      "precondition": "matched R15 is retained as the intended work",
+      "state": "confirmed"
+    },
+    {
+      "key": "A10",
+      "finding": "F10",
+      "owner": "copyeditor",
+      "precondition": "matched R12 is retained and every 2007 occurrence is patched",
+      "state": "confirmed"
+    },
+    {
+      "key": "A11",
+      "finding": "F11",
+      "owner": "copyeditor",
+      "precondition": "matched single-author R25 is retained and grouped components are split",
+      "state": "confirmed"
+    },
+    {
+      "key": "A12",
+      "finding": "F12",
+      "owner": "copyeditor",
+      "precondition": "matched R25 and its 2001a suffix are retained",
+      "state": "confirmed"
+    },
+    {
+      "key": "A13",
+      "finding": "F13",
+      "owner": "copyeditor",
+      "precondition": "matched multi-author R28 is retained",
+      "state": "confirmed"
+    },
+    {
+      "key": "A14",
+      "finding": "F14",
+      "owner": "copyeditor",
+      "precondition": "matched multi-author R26 is retained",
+      "state": "confirmed"
+    },
+    {
+      "key": "A15",
+      "finding": "F15",
+      "owner": "author",
+      "precondition": "author identifies which supplied or missing 2007 work is intended",
+      "state": "hold"
+    },
+    {
+      "key": "A16",
+      "finding": "F16",
+      "owner": "copyeditor",
+      "precondition": "author-year components are separated and R12 is retained",
+      "state": "confirmed"
+    },
+    {
+      "key": "A17",
+      "finding": "F17",
+      "owner": "copyeditor",
+      "precondition": "author-year components are separated and R13 is retained",
+      "state": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "immunoassay-compliance-review",
+  "tasks": [
+    "immunoassay-compliance-review"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 32,
+  "bytes_excluding_manifest": 1420829,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2493,
+      "sha256": "e593c888494bef1f1fb133f01b6ad06d790b602f37e5e9e7d24d0ad76f5f8434"
+    },
+    "RUBRIC.md": {
+      "bytes": 6287,
+      "sha256": "a78f112916f3fbdae6b42c558dbb915cfde3d56ea6495d4eebef4ee9ec614633"
+    },
+    "dataset.toml": {
+      "bytes": 457,
+      "sha256": "a00acff51137cb123f56188e544db7788cd3fa544e724e6786427edb3cfe54fd"
+    },
+    "golden/review_report.md": {
+      "bytes": 16438,
+      "sha256": "5f5cb24b93a86318c352da2f88d7e9c38c2bdc27f48d5285d663b28fe61a7aae"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 649,
+      "sha256": "b4bc48b7fac120268a93ab0b9162d8c4501627a8b722bd063a3948046a3511c9"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 497,
+      "sha256": "d03ee50602e8681c7095ea94c6ace5c4f9284b911365246290031e9937de1e1d"
+    },
+    "task/environment/skills/expert-task-method/SKILL.md": {
+      "bytes": 9908,
+      "sha256": "db930e22af1ca012f4c8cd0584c2a96e5f25649ab9190d9dd1d7d0b172f4d2eb"
+    },
+    "task/environment/skills/expert-task-method/references/calculation-interface.md": {
+      "bytes": 4208,
+      "sha256": "cdc52c5b9436da729824061054abbae49fd978fe60a3471f11584107317a8e08"
+    },
+    "task/environment/skills/expert-task-method/references/review-reasoning.md": {
+      "bytes": 3827,
+      "sha256": "417655a43f34b4027f34df6976a6d1d540fde2aff7d940959182cda71f1ff99c"
+    },
+    "task/environment/skills/expert-task-method/scripts/calculate.py": {
+      "bytes": 11043,
+      "sha256": "10f68d2f19010399805956e3a7193eb4301db3adf5c3c981a98333b18746bffd"
+    },
+    "task/environment/workspace/materials/03_原始材料.xlsx": {
+      "bytes": 401814,
+      "sha256": "b2f77b725afbe9751721af8016e2a1fb2ca07999084c2e499435bcb2e59c9185"
+    },
+    "task/environment/workspace/templates/review_report_template.md": {
+      "bytes": 2151,
+      "sha256": "f8109d8403dd8c178980e8a6940ce0d5e18dba39ace3af7d7bad9d8f6eab86a7"
+    },
+    "task/instruction.md": {
+      "bytes": 1073,
+      "sha256": "86692eb5395ae119572396074fd3960a9309d8645b13457a4b9b26ad3451b601"
+    },
+    "task/solution/reference_report.md": {
+      "bytes": 16438,
+      "sha256": "5f5cb24b93a86318c352da2f88d7e9c38c2bdc27f48d5285d663b28fe61a7aae"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 340,
+      "sha256": "ee83bfcd6858b1185902211b6507386177d10dcd980a9e449eea03800f24e8f1"
+    },
+    "task/task.toml": {
+      "bytes": 1422,
+      "sha256": "7cb194cc16e9ac9219a44cd36314e47713b27a05354c6ac91cafc69a98ab7b32"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1396,
+      "sha256": "d984df35f38049ac22408c7ab92f88126eaa43af130a78bce5bfd2eb9b531f32"
+    },
+    "task/tests/diagnosis.py": {
+      "bytes": 12753,
+      "sha256": "05e855ebc24dd5108e5d34165c171173d6a4f9eee6e170e86c663ae86e203600"
+    },
+    "task/tests/diagnosis_evidence.json": {
+      "bytes": 2371,
+      "sha256": "b7f6dd04e0a44547f6c3c23bb6a9e18f4ea1a9e34347bc4f65fc49ad3180a1d7"
+    },
+    "task/tests/evidence_map.json": {
+      "bytes": 6486,
+      "sha256": "29b4b6022e7eeb51aa78cb5eb594b27e9224cc2fb2b5b6a5f8f39545282b4ab3"
+    },
+    "task/tests/formula_audit.py": {
+      "bytes": 12096,
+      "sha256": "3e1a2da3c6ca204cf96d30852219a04b7238297e70a6563ae6e0802d5ad4ff43"
+    },
+    "task/tests/formula_audit_evidence.json": {
+      "bytes": 744294,
+      "sha256": "82997f9b8c2974c2cf81c0f00dbb539dfc83c0f2428015c9153ca70444b357e9"
+    },
+    "task/tests/golden_replay/75811ebd514a919961226dcd946395eaf67106c851abf5b98551eb3b8a1e7c5e.json": {
+      "bytes": 12853,
+      "sha256": "4851e99df35ee94f28f0c2d442cbec90063749deb915a58df9ba05e42b6e309a"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 1054,
+      "sha256": "52230d7df34876d36882c699f122cc79ad372e64e72a76fd09d7ab3aed6ecd8d"
+    },
+    "task/tests/input_populations.json": {
+      "bytes": 17687,
+      "sha256": "eaf898fbc6cdee3ad516c46db280050f86fe01abceaf5c8c774959d20ef0b828"
+    },
+    "task/tests/review_evidence.json": {
+      "bytes": 42795,
+      "sha256": "455456541e64347877540336bd267a5780345047cf912761bbf597e22000678a"
+    },
+    "task/tests/review_evidence.py": {
+      "bytes": 9419,
+      "sha256": "e45316acb9e0272825b3b2358f66ee8175cdc712ea5c2c93a6d98eab9a994bf3"
+    },
+    "task/tests/semantic_contract.json": {
+      "bytes": 6251,
+      "sha256": "884ba84c3863363e6d90bd0b8748c380cd1256f9afd23ce22f9f937d31b9b7cc"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 15348,
+      "sha256": "b81b321c52c89322fed3c1cb168e2614e255fa365cea6038b9764b6829ec132d"
+    },
+    "task/tests/semantic_prompt.md": {
+      "bytes": 2916,
+      "sha256": "1b7f405085159010d959c54c8a81b0491f3bfe79bf5e62c175e9c3e864a4a7be"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1379,
+      "sha256": "c93f87a8cdb0af86915960e65102a33bb7d81ca2d9c4b828150defbb1ae017c4"
+    },
+    "task/tests/validator.py": {
+      "bytes": 52686,
+      "sha256": "548080d5b6671f092f4b882b940d38c68d7ee6dd57fb565c60b90b017606e406"
+    }
+  }
+}

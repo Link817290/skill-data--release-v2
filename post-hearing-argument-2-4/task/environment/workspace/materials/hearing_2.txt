@@ -1,0 +1,406 @@
+[SOURCE PAGE 1/13]
+1
+[COURT_1]
+法庭审理笔录
+CASE_NUMBER_REDACTED
+时间：2025 年12 月4 日14 时30 分
+旁听人数3 人
+地点：第七法庭
+书记员查明当事人及其诉讼参与人是否到庭（到庭）
+书记员宣布当事人及其诉讼代理人入庭
+书记员宣布法庭纪律（略）
+书记员宣布全体起立，请审判员入庭。
+书记员向审判员报告当事人及其诉讼代理人的出庭情况。
+审判员核对当事人及其诉讼代理人身份。
+现在核对当事人的基本情况。
+原告（反诉被告）：[PLAINTIFF_1]，男，[BIRTH_DATE_REDACTED]，汉族，
+[ADDRESS_REDACTED]
+[ID_REDACTED]。
+委托诉讼代理人：[PLAINTIFF_COUNSEL_1]，[LAW_FIRM_1]律师（特别授权）
+被告一：[DEFENDANT_COMPANY_1]，[ADDRESS_REDACTED]
+[ADDRESS_REDACTED]
+法定代表人：[COMPANY_REP_1]，董事长。
+委托诉讼代理人：[COMPANY_COUNSEL_2]，女，系公司员工（特别授权）。
+被告（反诉原告）二：[DEFENDANT_PERSON_2]，男，[BIRTH_DATE_REDACTED]，
+汉族，[ADDRESS_REDACTED]
+[ID_REDACTED]。
+委托诉讼代理人：[PERSON_COUNSEL_2]，[LAW_FIRM_2]律师（特别授权）。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 2/13]
+2
+审：双方对对方出庭人员有无异议？
+均答：无异议。
+审判长（员）宣布到庭当事人及其诉讼代理人符合法律规定，可以
+参加本案诉讼。
+审：现在开庭。[COURT_1]民事审判第一庭，依照《中
+华人民共和国民事诉讼法》第一百三十七条的规定公开审理原告（反诉
+被告）[PLAINTIFF_1]诉被告[DEFENDANT_COMPANY_1]、被告（反诉原告）
+[DEFENDANT_PERSON_2]建设工程分包合同纠纷一案中，本案依法适用普通程序由审判
+员[COURT_OFFICIAL_2]独任审判，由书记员[COURT_OFFICIAL_1]担任法庭记录。
+依照《中华人民共和国民事诉讼法》第五十二条、第五十三条、第
+五十四条、第一百四十七条的规定，当事人有如下诉讼权当事人有如下
+诉讼权利和义务，有权委托诉讼代理人；提出回避申请；收集、提供证
+据；进行辩论；请求调解；提起上诉；申请执行；自行和解；原告可以
+放弃或变更诉讼请求，被告可以承认或反驳诉讼请求，有权提起反诉；
+可以查阅或复制本案有关法律文书。必须依法行使诉讼权利，遵守诉讼
+秩序，履行发生法律效力的判决书、裁定书和调解书。原告未经法庭许
+可中途退庭的，可以按撤诉处理；被告反诉的，可以缺席判决。被告未
+经法庭许可中途退庭的，可以缺席判决。
+审判员：双方对审判人员、书记员是否申请回避？
+原代：否。
+被一代：否。
+被二代：否。
+审：以上权利义务听清否？
+原代：听清楚了。
+被一代：听清楚了。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 3/13]
+3
+被二代：听清楚了。
+审：庭审活动分为法庭调查、法庭辩论、当事人最后陈述。首先进
+行法庭调查，先由原告陈述诉讼请求及所依据的事实和理由。
+原代：宣读起诉状（略）。诉讼请求：一、请求依法判令两被告向
+原告支付工程款100000 元；二、判令被告向原告支付资金占用利息暂计
+至2023 年5 月11 日止，共计5717.22 元（以100000 元为基数，按LPR
+自2021 年11 月1 日起计算至款清之日止），合计金额为105717.22 元；
+三、由被告承担本案诉讼费用。
+事实与理由：（略）
+审：原告除诉状外有无补充或变更？
+原代：变更诉请如下：一、请求判令被告[DEFENDANT_PERSON_2]、被告[DEFENDANT_COMPANY_1]向原告[PLAINTIFF_1]支付工程款2,467,271 元；二、请求判令
+被告[DEFENDANT_PERSON_2]、被告[DEFENDANT_COMPANY_1]向原告[PLAINTIFF_1]支付逾期付
+款利息316,135.13 元（利息以欠付工程款金额为基数，按全国银行间同
+业拆借中心公布的贷款市场报价利率自2021 年11 月1 日暂计算至2025
+年7 月5 日，此后利息按此利息计算至实际支付之日止）。以上两项诉
+请合计2,783,406.13 元）；三、判决被告[DEFENDANT_PERSON_2]、被告[DEFENDANT_COMPANY_1]承担本案全部诉讼费、鉴定费等全部相关费用。
+审：被告答辩。
+被一代：依法驳回原告对我方的所有诉请。原告与我们不存在合同
+关系，原告的主张即没有事实与没有法律依据。案涉项目的劳务分包工
+作是分包给[THIRD_PARTY_COMPANY_1]进行施工的，项目的工资代
+发也可以证明[DEFENDANT_COMPANY_1]对农工工资的发放，[DEFENDANT_COMPANY_1]与[THIRD_PARTY_COMPANY_1]的劳务合同支付比例也已支付99%，不存在未支付款项。
+所以请求依法驳回原告诉请。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 4/13]
+4
+被二代：一、原告倒欠被告1847274 元，正式的审计报告上已明确
+双方工程造价是4468031 元，存在的争议仅仅是利润部分334367 元，我
+们已经刚才经双方确定已经支付了5040500 元，我们还支付了两笔帮工
+的费用，第一笔是2021 年8 月到2022 年1 月支付给[WITNESS_NAME_VARIANT_2]211160 元，
+第二笔是2020 年12 月到2021 年1 月支付给[WORKER_1]1063645 元，这样算
+下来原告还欠我们1847274 元。所以我们不需要向原告支付任何款项。
+二、不存在利息，项目交付2021 年10 月份我们不认可，2023 年1 月17
+日整个项目竣工。
+被二代：宣读起诉状（略）。反诉诉讼请求：一、请求判令反诉被
+告返还价款1847274 元；二、请求判令反诉被告支付资金占用费2863.27
+元（以1847274 元为基数，按全国银行间同业拆借中心公布的贷款市场
+报价利率计算，自2024 年12 月30 日鉴定报告出具之日起暂计至2025
+年1 月16 日为2863.27 元)；三、请求判令本案诉讼费由反诉被告承担。
+（以上一、二项诉请金额暂计为1850137.27 元）
+事实与理由：（略）
+审：除诉请外有无补充或变更？
+被二代：无，没有补充或变更。
+审：答辩。
+原代（反被代）：一、[DEFENDANT_PERSON_2]自认案涉钢筋劳务工程由[PLAINTIFF_NAME_VARIANT_1]实际
+组织施工，并向[PLAINTIFF_1]支付工程款，故其就案涉工程对[PLAINTIFF_1]有付款义
+务。[DEFENDANT_PERSON_2]提交证据材料不能证明其累计支付金额共计6315305 元。事
+实上，[DEFENDANT_COMPANY_1]向[PLAINTIFF_1]班组代发的工人工资4890500 元，[DEFENDANT_PERSON_2]通过
+案外人[RELATED_PERSON_1]向[PLAINTIFF_1]转账支付工程款欠150000 元，故[PLAINTIFF_1]实际收取工
+程款共计仅5040500 元。二、2024 年12 月30 日出具的司法鉴定报告明
+显存在错漏，完全不能证明案涉工程价款，根本不能作为本案的定案依
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 5/13]
+5
+据。目前双方达成一致的代付工人工资已有4890500 元，这其中并不包
+括[PLAINTIFF_1]自行支出的工人工资及其他管理成本。按照常理来推断，案涉
+工程造价至少应该高于成本价，或者说，[PLAINTIFF_1]作为实际投入资金、组
+织人员和技术的施工方，其应获得的工程价款必然能够覆盖全部工人工
+资，并且应该包括管理费、利润等。现各方当事人就案涉[DISPUTED_PROJECT]钢筋工
+程施工未订立书面合同,对合同价款约定不明。根据《中华人民共和国民
+法典》第五百一十一条规定:“当事人就有关合同内容约定不明确，依据
+前条规定仍不能确定的，适用下列规定:......（二）价款或者报酬不明
+确的，按照订立合同时履行地的市场价格履行”，本案应按照市场价格
+计算工程造价。若按照[DEFENDANT_PERSON_2]主张以目前出具的鉴定意见为准，案涉工
+程造价仅4468031 元，甚至低于被告自认直接代付的工人工资，明显不
+符常理，严重偏离市场价格。而且鉴定意见虽然采用浙江省定额计价，
+但其错误地排除计取或者少计管理费、利润、规费、税金等，导致[PLAINTIFF_1]不能获得其实际投入资金、组织和管理人员种提供技术的合理对价，
+必然导致[PLAINTIFF_1]严重亏损，而[DEFENDANT_PERSON_2]却可从中不当获利的不公正后果。
+根据[DEFENDANT_PERSON_2]提交的证据材料，[PLAINTIFF_1]直接收取的工程款金额仅150000
+元，这15 万元已付工人工资或者生活费，其主张[PLAINTIFF_1]向其返还不当得
+利1847274 元及相应资金占用费，明显系滥用诉讼权利，应依法予以驳
+回。（详见答辩状）
+审：下面进行举证、质证，由原告方举证。
+原代：出示证一、微信聊天记录截图打印件，证明原告为被告提供
+钢筋分包工程建设施工的事实。
+二、施工图纸，证明原告施工工程。
+三、工资发放表复印件，证明被告向原告仅支付部分生活费的事实。
+四、考勤表复印件，证明原告提供钢筋工人组施工的事实。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 6/13]
+6
+五、施工现场图、钢筋配料表复印件、钢筋班组各工人汇总表复印
+件，证明原告提供钢筋工人组织施工的事实。
+六、银行流水打印件，证明被告向原告仅支付部分工程款的事实。
+七、司法鉴定征求意见稿、工程造价咨询报告书、司法鉴定回复函
+及鉴定费发票，证明案涉工程造价至少为7507771 元。
+补充八、中建三局价格指导手册（2023）版，证明劳务分包指导价
+格中房建主体结构地下室钢筋工程（正负零以下）华东地区不含税单价
+为1100 元/吨，地上钢筋工程华东地区不含税单价为1250 元/吨。
+补充九、[COMPARATOR_PROJECT_1]《钢筋
+班组施工承包协议（二标段）》、[COMPARATOR_PROJECT_2]二标段《钢筋工劳务内部承包协议》、[COMPARATOR_PROJECT_3]钢筋班组《劳务内
+部承包协议》、[COMPARATOR_PROJECT_4]《钢筋工班组劳务承揽协议书》、[COMPARATOR_PROJECT_5]钢
+筋班组（[COMPARATOR_SIGNATORY_1]）结算单、[COMPARATOR_PROJECT_6]钢筋班组结算、[COMPARATOR_PROJECT_7]工程量结算单、[COMPARATOR_PROJECT_8]钢筋工结算单（[COMPARATOR_SIGNATORY_1]），证明同时期江浙地区钢筋劳务的市场价。
+审：被告质证。
+被一代：对证据一、二、三、四、五、六中除代发工资部分，其他
+均与我们无关，代发工资部分原告在前述陈述中也已认可，该部分工资
+是[DEFENDANT_COMPANY_1]代发的，也能证明原告与[DEFENDANT_COMPANY_1]之间并没有关系。对证七内容无异
+议，不认可原告的意见。鉴定报告的程序及内容都符合法律规定。对证
+八三性均不认可，对本案及本案所涉项目无关。
+被二代：对证据一、二、三、四、五、六无异议。支付记录不完整。
+对证七三性无异议，鉴定公司从未作出过关于750 万元的鉴定意见。鉴
+定公司最终促进出具的鉴定报告上非常明确的写到他的鉴定分析部分，
+第一条可确定的造价是446803 亿元，争议造价334367 元。所谓管理费、
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 7/13]
+7
+利润、规费、税金只不过是应原告的要求，计算了一下，做一个参考，
+并不是鉴定公司的鉴定意见。这个是我们需要向法院特别强调了。鉴定
+公司在鉴定报告里面关于这些规费，为什么他不认可，已经有明确的说
+法。他是认为这个项目是属于劳务分包，是直接工程当中的人工费。所
+以企业管理费、规费，这些都是属于总施工总承包单位内的，都不会把
+钱算到原告的头上去的。另外所谓的争议项目334367 元，就是这个项目
+的利润，由于原告是劳务清包，所以他的利润已经包含在人工费当中的。
+所以我们认为这个利润部分，原告也不应计取。所以说鉴定报告的鉴定
+结论就只有这两个数字，并不存750 万元这个数字，这个数字是原告律
+师捏造出来的，也不能够讲捏造出来的，他把这几个数字硬性相加拼凑
+出来的，鉴定公司从来没有出具过一个750 万元的鉴定意见，这个需要
+向法院特别说明。对证八与本案也没有关系，我们都不认可。当时鉴定
+的时候，按照浙江的定额来鉴定，是在鉴定工作会议已经开了好几次，
+原告当时自己也是认可的。现在鉴定出来对他不满意了，他就说不认可，
+要按照市场价，这个是前后反言。我们认为法律不能不应该支持这样没
+有诚信的行为。
+审：被告举证。
+被一代：出示证一、[DEFENDANT_COMPANY_1]与[THIRD_PARTY_COMPANY_1]签订的
+劳务分包合同，证明[DEFENDANT_COMPANY_1]将[DISPUTED_PROJECT]
+2#楼、3#楼工程的一、二次结构、脚手架劳务工作发包给[THIRD_PARTY_COMPANY_NAME_VARIANT_1]，合同相对方为[THIRD_PARTY_COMPANY_SHORT_FORM_1]，合同约定了双方关于分包
+合同工作的计量计价的结算原则。
+二、[THIRD_PARTY_COMPANY_1]资质复印件，证明[THIRD_PARTY_COMPANY_NAME_VARIANT_2]具有承包证据一合同内容的合法资质，双方之间
+为合法分包。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 8/13]
+8
+审：[DEFENDANT_PERSON_2]与[THIRD_PARTY_COMPANY_1]的关系？
+被二代：2#楼、3#楼工程的一、二次结构、脚手架劳务转包给我们，
+我们把其中钢筋劳务清包给原告。
+审：质证。
+原代：对证一真实性无异议，[THIRD_PARTY_COMPANY_1]没有
+实际履行施工合同义务，证明其出借资质或转包工程的违法事实，且证
+明[DEFENDANT_COMPANY_1]以合法形式掩盖非法目的，规避对实际施工人[PLAINTIFF_1]的付款
+责任。对证二真实性无异议，但不能证明[THIRD_PARTY_COMPANY_1]实际参与施工的事实。原告[PLAINTIFF_1]作为实际投入资金、人力和技术的
+实际施工人，有权主张工程款。[DEFENDANT_COMPANY_1]多次代付工程款的行为进一步
+证明，[DEFENDANT_COMPANY_1]与[PLAINTIFF_1]之间也存在直接的事实合同关系，陈述完毕。
+被一代：原告陈述的是[DEFENDANT_COMPANY_1]以合法形式掩盖非法目的，他又认可实
+际我们是合法分包给劳务公司，这个陈述前后是矛盾的。
+审：[THIRD_PARTY_COMPANY_1]与[DEFENDANT_COMPANY_1]有没有结算？
+被一代：我们与[THIRD_PARTY_COMPANY_1]基本上已付清，按照清单的工程量，我们
+有工程量清单。[THIRD_PARTY_COMPANY_1]与下面转包我们不清楚。
+被二代：对证据均无异议。
+审：[THIRD_PARTY_COMPANY_1]与[DEFENDANT_PERSON_2]有没有结算？
+被二代：还没有结算完。
+审：被告二有无证据提交？
+被二代：出示证一、被告付款记录表复印件、被告通过[DEFENDANT_COMPANY_1]代发款
+项的月度支付证据复印件、[RELATED_PERSON_1]（[DEFENDANT_PERSON_2]女儿）转款银行回单复印件、
+帮工金额结算证据复印件，证明被告就[DISPUTED_PROJECT]支付于原告
+的金额共计为6315305 元。原告提供的出具于2024 年12 月30 日的该工
+程的司法鉴定报告中显示该工程的可确定造价为4468031 元。被告实际
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 9/13]
+9
+支付的款项走出应承担的工程1847274 元。
+二、[WORKER_2]班组的沟通记录打印件（[DEFENDANT_PERSON_2]与[WORKER_2]班组），证明确实
+存在帮工的事实。
+三、帮工金额支付证据复印件，证明支付[WITNESS_NAME_VARIANT_1]211160 元，支付[WORKER_1]1063645 元。
+四、证人[WITNESS_NAME_VARIANT_1]证言，证明确实存在帮工的事实，帮工发生的原因
+是[SITE_PERSON_1]主动要求被告增加人手，否则会耽误工期。
+审：质证。
+原代：对证一付款记录表真实性不认可。该份付款记录表系[DEFENDANT_PERSON_2]
+单方编制，内容与实际付款给[PLAINTIFF_1]的事实情况不符，不能作为定案依
+据，[DEFENDANT_COMPANY_1]代发的489050 元认可。对被告通过建工代发款项的月度支付证
+据，真实性不认可。帮工金额结算证据不认可。被告[DEFENDANT_PERSON_2]、[PERSON_NAME_VARIANT_1]并
+未经[PLAINTIFF_1]同意去找[WITNESS_1]班组来帮工，并且相关的考勤单价、应付款
+金额均未经[PLAINTIFF_1]确认。[WORKER_1]班组的清单都是由被告单方制作，没有
+确认及按手印，本身不是有效的证据材料，且相关的考勤单价也没有[PLAINTIFF_1]确认签字。如证据材料第240 页（21 年12 月工资支付表）落款无
+班组长等负责人签字或者盖章、第250 页（21 年12 月工资核算表）最
+后一栏“本人确认签名”无任何签字或按手印确认、第262 页（考勤报
+表）最后一栏“本人签字确认”无任何签字或按手印确认，未经当事人
+确认的单方记录不具备证明效力。被告[DEFENDANT_PERSON_2]统计21 年12 月代发款项
+为259850 元，较原告[PLAINTIFF_1]统计的254750 元多出5100 元。原告[PLAINTIFF_1]
+仅认可通过建工代发款项共4885400 元的事实。对[RELATED_PERSON_1]（[DEFENDANT_PERSON_2]女儿）
+转款银行回单，三性无异议。原告[PLAINTIFF_1]收到案涉工程款150000 元（收
+款时已全部用于发放工人工资或生活费）。对帮工金额结算证据，真实
+性不认可，不能证明被告支付帮工金额。1.[WITNESS_1]不是原告[PLAINTIFF_1]劳务
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 10/13]
+10
+班组人员,原告从未确认其考勤、应付款情况，对结账单真实性及与原告
+的关联性均不认可；2．《钢筋工外叫帮工清单》系被告单方编制清单，
+无确认人签字或按手印，不是有效证据材料；[WORKER_1]也不是原告[PLAINTIFF_1]
+劳务班组人员，原告从未确认其考勤、应付款情况，对落款人“[WORKER_1]”
+领款的事实及与原告的关联性均不认可。3.[WORKER_2]是其他劳务班组的负责
+人，与原告无关。对证二真实性无异议，是被告工作人员与其他钢筋劳
+务班组负责人的聊天记录，内容是在施工以后确认帮工明细，进一步证
+明被告并没有就[PLAINTIFF_1]班组请帮工或确认帮工金额的事实。对证三真实
+性不认可，给[WITNESS_1]支付记录与原告无关，结合[WITNESS_1]的证人证言及微
+信聊天记录，[WITNESS_1]给[WORKER_2]班组提供过帮工过的事实。支付[WORKER_1]的金
+额三性均不认可。对证四从合同关系上来看，[WITNESS_1]是由[PERSON_NAME_VARIANT_1]请过来
+的人。他每天工资的单价，包括最后的结算，也都是由[PERSON_NAME_VARIANT_1]跟[WITNESS_1]
+直接去办理的。跟原告[PLAINTIFF_1]没有直接的合同关系。即便说[WITNESS_1]是称，
+由[SITE_PERSON_1]来安排他做的事情。[THIRD_PARTY_PERSON_1]，打电话的。也没有提供[SITE_PERSON_1]，
+直接要求[WITNESS_1]过来帮工的证据材料，包括[WITNESS_1][SITE_PERSON_1]作为整个事情
+的当事人之一，他也没有出庭作证，不能说所有的这个事情，只要冠上
+[SITE_PERSON_1]的名义，也不管是事实材料是不是真实的，都由[PLAINTIFF_1]来承担这
+个后果，这个肯定是没有任何事实和法律依据的。然后我们再延伸一下
+来看，如果这个项目现场确实是需要帮工，按照常理来说，[THIRD_PARTY_PERSON_1]也好，
+[PERSON_NAME_VARIANT_3]也好，应该先告知[PLAINTIFF_1]，由[PLAINTIFF_1]来加派人手，来组织人来赶
+工，在[PLAINTIFF_1]确实找不到人的情况下，才有可能说他们再来找人来进场，
+显然前面相关的事实，包括证据链都是没有的。然后包括帮工退场以后，
+他们也没有把帮工的明细单价发给[PLAINTIFF_1]来确认。所以这个事实我们也
+没有办法确认，也是跟我们没有关系的。
+被一代：对证一、二、三对于代发工资的部分认可，其他与被告一
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 11/13]
+11
+无关，也没有办法核实，以法庭核实为准。对证四证人没有与[DEFENDANT_COMPANY_1]发生
+关系，对证人提到的[THIRD_PARTY_PERSON_1]是公司的人员，[THIRD_PARTY_PERSON_1]不是[DEFENDANT_COMPANY_1]的人。
+被二代：对于[WORKER_2]班组，[WORKER_2]班组就是我们为什么去找[WORKER_2]班组做
+这样一个沟通。首先我们强调一下这个沟通的时间，其实是就是今年不
+是说是那个现场刚刚做完我们去做沟通的。我们是诉讼发生以后去做的。
+那本来是发了班组也没有，也就是跟[WORKER_1]，[WITNESS_1]这种其实是一样的
+这个材料。但是我们也想做一个同另外一个班组的佐证。所以说我们向
+他去跟他讲之前发生过这些事情，你是不是确认？他说这个是真实的，
+我确认我们是向法院提供一个事实，而并不是像原告律师所说的，这个
+是施工完了以后就让他们来确认。由此可以推出，我们没有向[PLAINTIFF_1]去
+确认，所以说[PLAINTIFF_1]这边是没有得到过[PLAINTIFF_1]的认可，这个是逻辑是不
+通的。
+审：当时有没有得[PLAINTIFF_1]的认可？
+被二代：[SITE_PERSON_2]（[DEFENDANT_PERSON_2]派到项目的负责）当时打电话给[PLAINTIFF_1]，
+要求增加人手，[PLAINTIFF_1]说派出不人手，增加人手要[PLAINTIFF_1]付钱，所以只
+能我们自己找人手。有两个带班的，一个总带班，一个副带班。
+原：[DEFENDANT_PERSON_2]说找人不找人与我没有关系。[SITE_PERSON_2]认识的。
+审：[WORKER_1]班组结算的单据上有没有[PLAINTIFF_1]方的签字？
+被二代：确实没有签字，只有领款人的签字。
+被一代：与[WORKER_2]的微信聊天记录在诉讼过程中补充的，那就更加证
+明这份证据其实相当于是伪造的。请帮工的目的，与[WORKER_2]微天记录在之
+前的庭审当中，对方也一直在说，是因为现场需要赶工期，所以才请的
+帮工。赶工的费用在整个建筑工程领域，本来就是发包人应该另行支付
+给承包人的费费，但我们这个项目的工程造价里面也好，包括[PLAINTIFF_1]的
+主张里也好，从来没有提过要求被告来支付这笔赶工费用。即便说对方
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 12/13]
+12
+请了帮工来做赶工的事实，这笔费用也不应该由我们来承担，毕竟权利
+跟义务是相一致的。我们没有收到赶工的费用，增加人手的这个事情也
+不应该由[PLAINTIFF_1]来承担。
+被二代：关于赶工的事情，我其实这个赶工就是由于现场的人员，
+他可能表示不是清楚，是因为原告自己的公司完不成了，他需要他自己
+的工资。并不是说我们把它工期缩短，然后让他工期往前赶，让他加班。
+他自己原告的工资完不成了，人手不够，才会发生帮工的事实。
+审：现场有多少工人？
+原：在做基础的时候最多有70 多人，一直维持现场有60-70 人。
+原代：施工期20 年10 月到21 年10 月，然后对方提证据说帮工的
+这个事情基本上是发生在21 年8 月份。
+审：案涉的工程是从什么时候开始做？什么时候结束？
+原：2020 年10 月至2021 年10 月。
+被二代：2020 年10 月6 日[PLAINTIFF_1]进场至2022 年年初。
+审：工地上一直维持在60-70 人，点工结算单上面写的是80 个工人
+给[SITE_PERSON_1]绑扎钢筋。
+被二代：可能是80 个人天其实应该精确的讲，应该是他下面都有这
+个时间的跨度的。
+审：有无相互发问？
+均答：无。
+审：原、被告对事实有无补充？
+均答：无。
+审：法庭调查结束，下面进行法庭辩论，发表辩论意见。
+原代：本案的事实清楚，证据充分，请法庭支持诉请。
+被一代：坚持答辩及质证意见。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 13/13]
+13
+被二代：坚持答辩及质证意见。
+审：法庭辩论结束，下面征求最后意见，发表最后意见。
+原代：请求法庭支持诉请。
+被一代：坚持答辩及质证意见。
+被二代：坚持答辩及质证意见。
+审：双方是否同意调解？
+原代：同意。
+被一代：同意。
+被二代：同意。
+审：下面本庭主持调解，调解不成择期宣判，原、被告核对笔录无
+误后签字，下面休庭。
+审判员：
+书记员：
+当事人：
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]

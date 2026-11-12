@@ -1,0 +1,1983 @@
+{
+  "report_version": "1.1",
+  "manuscripts": [
+    {
+      "file": "manuscript_alternate.docx",
+      "bibliography_count": 45,
+      "cited_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "unmatched_references": [
+        {
+          "reference_number": 29,
+          "reference_text": "Luong M T, Sutskever I, Le Q V, et al. Addressing the rare word problem in neural machine translation[J]. arXiv preprint arXiv:1410.8206, 2014.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 603
+          },
+          "review": {
+            "status": "persistent_gap",
+            "compare_files": [
+              "manuscript_current.docx"
+            ],
+            "action": "escalate_editorial_decision",
+            "basis": "same_entry_uncited_in_all_revisions",
+            "peer_evidence": [
+              {
+                "file": "manuscript_current.docx",
+                "reference_number": 29,
+                "bibliography_paragraph_index": 646,
+                "cited_in_body": false,
+                "match_type": "exact_text"
+              }
+            ],
+            "identity_evidence": {
+              "local": {
+                "author": "luong m t sutskever i le q v et al",
+                "title": "addressing the rare word problem in neural machine translation"
+              },
+              "peers": [
+                {
+                  "file": "manuscript_current.docx",
+                  "reference_number": 29,
+                  "author": "luong m t sutskever i le q v et al",
+                  "title": "addressing the rare word problem in neural machine translation",
+                  "match_type": "exact_text"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "unmatched_citations": [],
+      "citation_occurrences": [
+        {
+          "paragraph_index": 141,
+          "literal": "[1,2,3,4]",
+          "labels": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "paragraph_text": "近几十年来，随着信息技术的时时提高，机器翻译技术也不断提升，期间先后提出了各种机器翻译技术。几十年来研究人员提出的机器翻译技术大致上可以分为几类：基于规则的机器翻译（Rule-Based Machine Translation，简写为RBMT）、基于实例的机器翻译（Example-Based Machine Translation，简写为EBMT）、基于统计的机器翻译（Statistics Machine Translation，简写为SMT）以及基于人工神经网络的机器翻译（Neural Machine Translation，简写为NMT）[1,2,3,4]。在二十世纪九十年代以前机器翻译的研究主要集中在基于规则的机器翻译，这种机器翻译技术需要重点研究语法、句法等语言学知识，受限于人工书写的规则的覆盖度，受不同语种的语言学家的知识与经验影响极大。规则的获取难度大、人工书写的规则覆盖度有限、不同规则之间相互冲突等等问题导致基于规则的机器翻译在大部分情况下可用性很低。"
+        },
+        {
+          "paragraph_index": 142,
+          "literal": "[5,6]",
+          "labels": [
+            5,
+            6
+          ],
+          "paragraph_text": "在二十世纪九十年代，IBM研究人员提出完全基于统计方法的机器翻译，这一方法完全抛弃了对语言学家的知识、经验的依赖，用信息论中的噪声信道模型对机器翻译进行解释，将其建模为信息传输的过程[5,6]。统计机器翻译方法建立概率模型求解机器翻译问题，统计机器翻译的发展极大提高了机器翻译的可用性。相比于传统的基于规则和统计的机器翻译，神经机器翻译使用神经网络对机器翻译任务建模，运用深度神经网络获取源语言与目标语言之间的映射关系。神经机器翻译的翻译性能相比传统方法的性能有着极大的提高，逐渐应用到新闻、金融、军事等各种场景。"
+        },
+        {
+          "paragraph_index": 149,
+          "literal": "[7,8]",
+          "labels": [
+            7,
+            8
+          ],
+          "paragraph_text": "传统的神经机器翻译主要使用循环神经网络（Recurrent Neural Network, 简写为RNN）训练机器翻译模型，然而基于循环网络的机器翻译模型受到很大的限制，循环神经网络计算当前状态时必须依赖于上一时刻，这要求循环神经网络必须按照时序进行输入，这就导致循环神经网络训练和解码都十分耗时，而且由于长距离依赖问题的存在，基于循环神经网络的机器翻译在处理长句子时候效果一般[7,8]。随着神经网络技术和深度学习的不断发展，基于自注意力（Self-attention）机制的神经网络在众多网络结构中脱颖而出[9]。基于自注意力机制的神经网络凭借极短信息传递距离、可并行化的优秀设计，具有优秀的翻译性能以及较为快速的训练、解码速度，在机器翻译等多项任务上取得了最优秀的性能水平。故本课题使用基于自注意力机制的神经机器翻译系统进行壮语-汉语神经机器翻译系统的研究与实现工作。"
+        },
+        {
+          "paragraph_index": 149,
+          "literal": "[9]",
+          "labels": [
+            9
+          ],
+          "paragraph_text": "传统的神经机器翻译主要使用循环神经网络（Recurrent Neural Network, 简写为RNN）训练机器翻译模型，然而基于循环网络的机器翻译模型受到很大的限制，循环神经网络计算当前状态时必须依赖于上一时刻，这要求循环神经网络必须按照时序进行输入，这就导致循环神经网络训练和解码都十分耗时，而且由于长距离依赖问题的存在，基于循环神经网络的机器翻译在处理长句子时候效果一般[7,8]。随着神经网络技术和深度学习的不断发展，基于自注意力（Self-attention）机制的神经网络在众多网络结构中脱颖而出[9]。基于自注意力机制的神经网络凭借极短信息传递距离、可并行化的优秀设计，具有优秀的翻译性能以及较为快速的训练、解码速度，在机器翻译等多项任务上取得了最优秀的性能水平。故本课题使用基于自注意力机制的神经机器翻译系统进行壮语-汉语神经机器翻译系统的研究与实现工作。"
+        },
+        {
+          "paragraph_index": 166,
+          "literal": "[5,6]",
+          "labels": [
+            5,
+            6
+          ],
+          "paragraph_text": "二十世纪九十年代，IBM的研究人员提出统计机器翻译（Statistical Machine Translation，简写为SMT），它基于概率与统计而不是语法与规则，大幅提高了机器翻译的可用性[5,6]。与传统的基于规则的方法不同，IBM的研究人员基于噪声信道模型把翻译问题建模为搜索概率最大的译文的问题。"
+        },
+        {
+          "paragraph_index": 171,
+          "literal": "[10]",
+          "labels": [
+            10
+          ],
+          "paragraph_text": "所谓神经机器翻译（Neural Machine Translation，简写为NMT），是指直接使用多层神经网络对翻译问题进行建模，这个过程不依赖人工定义的特征，模型泛化能力很强，神经机器翻译以端到端（End-to-End）的方式对翻译模型进行训练[10]。神经机器翻译模型的训练过程大部分是通过反向传播算法应用梯度下降进行训练的，神经机器翻译的翻译解码过程是对已经训练好的神经网络进行前向推断计算的过程。"
+        },
+        {
+          "paragraph_index": 173,
+          "literal": "[11,12]",
+          "labels": [
+            11,
+            12
+          ],
+          "paragraph_text": "机器翻译任务与图像识别、物体检测、字符识别等计算机视觉领域的任务有很大不同。计算机视觉领域的任务大多是以图片作为输入输出，即输入输出的维度是固定的问题[11,12]。而在机器翻译中，用户输入的待翻译的源语言文本的长度无法控制，同时应该获取的译文的长度以难以控制，这就导致了我们无法预先对神经机器翻译模型输入输出的维度进行预判，无法把已取得优秀结果的计算机视觉领域的神经网络框架直接应用到神经机器翻译任务中。"
+        },
+        {
+          "paragraph_index": 174,
+          "literal": "[13]",
+          "labels": [
+            13
+          ],
+          "paragraph_text": "为了解决机器翻译这种变长序列到变长序列的映射问题，Kyunghyun Cho等人最早提出将“编码器-解码器”框架应用到神经机器翻译任务中，神经机器翻译与传统的基于规则、统计的机器翻译技术不同，它将翻译问题视为序列到序列的转换问题[13]。编码器-解码器框架由两个分别充当编码器和解码器的神经网络组成。其中编码器负责将神经机器翻译的输入序列转化成一个固定长度的向量，这个输入序列允许输入可变长度的序列。而解码器将之前生成的固定长度的向量表示再转化成输出序列，如图2.1所示。 "
+        },
+        {
+          "paragraph_index": 175,
+          "literal": "[14,15,16]",
+          "labels": [
+            14,
+            15,
+            16
+          ],
+          "paragraph_text": "编码器-解码器框架是一个解决机器翻译等序列到序列映射问题的通用框架，它可以学习以另一个可变长度序列为条件的可变长度序列的条件分布。在Cho等人提出的方法中，编码器和解码器两部分都使用循环神经网络搭建，后续的科研工作者将GRU、LSTM等循环神经网络的变种应用到编码器-解码器框架中[14,15,16]。具体来说就是在编码阶段利用编码器的神经网络单元，如RNN、GRU、LSTM等结构对输入序列进行编码，对于一个长度为输入序列，这种方法每个时间步将输入的源语言序列中的一个序列片段所对应的的向量送入编码器的神经网络单元，输出当前的状态，并读取下一个时间步的输入，直到输入句子中的最后一个片段被读取完。神经元的输出被称为状态向量，又被称为隐层状态。隐层状态中包含着从输入序列开始到当前位置的所有信息，也就是说神经网络将序列的信息编码到隐层状态中不断传递。在每个时间步隐层状态的更新方式如公式2.2所示。"
+        },
+        {
+          "paragraph_index": 186,
+          "literal": "[17]",
+          "labels": [
+            17
+          ],
+          "paragraph_text": "编码器-解码器框架应用到神经机器翻译当中最早由Kyunghyun Cho等人提出，在他们的论文中提出使用上下文向量在解码的每个时间步参与计算。不过这个设计会是计算量较大，模型更为复杂。Cho这个设计在随后的Ilya Sutskever等人的研究工作中得到改善[17]。"
+        },
+        {
+          "paragraph_index": 197,
+          "literal": "[13]",
+          "labels": [
+            13
+          ],
+          "paragraph_text": "为了解决这种长输入序列编码到定长向量时出现的信息损失、难以解析问题，研究人员为编码器-解码器框架引入了注意力机制（Attention Mechanism）[13]。顾名思义，注意力机制类似于人类观察图片等事物的视觉识别过程，人类在观察事物时视觉系统是不是同时关注待观察事物的各个细节，而是使用选择性注意力机制。人类视觉获得需要关注的目标区域，即关注的焦点，然后在该区域投入更多的关注资源以获得关于目标的更详细的信息。如图2.3所示。"
+        },
+        {
+          "paragraph_index": 201,
+          "literal": "[13,18]",
+          "labels": [
+            13,
+            18
+          ],
+          "paragraph_text": "深度学习中的注意力机制与人类选择性视觉注意机制本质上是相似的：从众多信息中提取出对当前目标更为有帮助的部分。注意力机制在深度学习中最早由计算机视觉领域研究人员提出并应用，之后Bahdanau等人的研究工作把注意力机制应用到了神经网络机器翻译当中，这也是自然语言处理（Natural Language Processing）中第一个使用注意力机制的工作[13,18]。"
+        },
+        {
+          "paragraph_index": 202,
+          "literal": "[19]",
+          "labels": [
+            19
+          ],
+          "paragraph_text": "注意力机制可以分两个种类：软注意力（Soft Attention）和硬注意力（Hard Attention）。 这两个注意力机制的不同之处在于，硬注意力只关注较小的区域，而软注意力机制则更加宽泛[19]。在神经机器翻译待翻译的目标语言中每个单词的预测阶段，可以将硬注意力理解为仅涉及输入的源语言句子中的一个单词。然而使用硬注意力会导致的问题是，源语言句子的重点信息很大可能不止一个，待预测的词可能和源语言句子中的多个词相关，这一问题硬注意力机制无法解决。因此，现在关于神经机器翻译的研究主要以软注意力机制为主。"
+        },
+        {
+          "paragraph_index": 208,
+          "literal": "[20]",
+          "labels": [
+            20
+          ],
+          "paragraph_text": "Luong等人对这一问题提出了解决办法，他们将注意力机制应用于神经机器翻译的模型结构中[20]。Luong等人将注意力机制分为两类，一类是全局注意力机制（Global Attention），一类是局部注意力机制（Local Attention）。全局注意力机制与Bahdanau等人提出的方法相似，在神经机器翻译模型训练和解码的过程中，解码器根据前面时间步的已翻译目标语言状态等信息，得到当前时刻要预测的目标语言序列段和源语言端序列段之间的相关度，然后将该值作为源语言序列中每个片段的信息权重，之后使用这个分段信息的权重进行加权求和，得到输入序列的上下文向量。需要注意的是，全局注意力不再仅仅使用编码器的最后一个时间步的隐层状态作为上下文向量，同时，解码器计算时当前时间步的隐层状态不再与上一个隐层状态直接相关，隐层状态的计算方式可以用公式2.7表示。"
+        },
+        {
+          "paragraph_index": 242,
+          "literal": "[15,16]",
+          "labels": [
+            15,
+            16
+          ],
+          "paragraph_text": "长短时记忆网络LSTM有很多个版本，其中一个重要的版本是门限递归单元（Gated Recurrent Unit，简写为GRU），这是为了缓解长短时记忆网络结构复杂而设计的，GRU将遗忘门和输入门结合输入到单个更新门中，同时还将记忆向量和隐层状态合并，并提出出一些其他的改进。所得的GRU模型比标准的LSTM模型结构简单，且效果与长短时记忆网络相当[15,16]。"
+        },
+        {
+          "paragraph_index": 247,
+          "literal": "[9]",
+          "labels": [
+            9
+          ],
+          "paragraph_text": "一些研究人员开始着重研究注意力机制在神经机器翻译中的更多应用，2017年，谷歌的研究人员提出一种新的机器翻译模型Transformer[9]，它完全基于注意力机制，抛弃了传统的循环神经网络结构和卷积神经网络结构等单元，研究人员将自注意力（self-attention）机制引入到机器翻译中来，自注意力机制有着抽取信息能力强、可并行化的优点。自注意力机制的使用减少了不同位置输入序列片段间的信息传输距离，Transformer模型可以更完整地表示序列中不同位置之间的复杂关系。实验表明，Transformer模型在机器翻译任务中表现非常好，翻译性能优秀，并行度高，训练时间短，Transformer的模型结构如图2.8所示。Transformer模型同样采用编码器-解码器框架设计，Transformer标准模型的编码器由部分6个相同构造层堆叠的组成，这6层中的每个都有两个子层：多头注意力（Multi-Head Attention）和前向连接层（Feedforward Neural Network）。标准Transformer的解码器也由6层堆叠而成，与编码器中每层由两个子层组成不同，解码器中每层由三个子层组成，第一个子层以及最后一个子层和编码器比较相似，分别是带掩码的多头注意力（Masked Multi-Head Attention）和前向连接层，解码器的中间子层即编码器-解码器多头注意力（Encoder-Decoder Multi-Head Attention），负责处理编码器的输出。无论是Transformer的编码器还是解码器，每一个子层后都会有残差连接和层正则化（Layer Norm）操作，如公式2.13所示，以此来加速Transformer模型收敛过程。 "
+        },
+        {
+          "paragraph_index": 265,
+          "literal": "[21,22,23]",
+          "labels": [
+            21,
+            22,
+            23
+          ],
+          "paragraph_text": "Transformer模型是当前机器翻译性能最优的模型，近几年的研究工作主要都是以Transformer模型为基础开展的，Wang等人研究更深层结构的Transformer模型，Xiao等人在Transformer模型的基础上使用共享权重的方法进行加速都取得了令人瞩目的进展[21,22,23]。Transformer模型不局限于机器翻译领域，在其他自然语言处理的任务上也取得了令人瞩目的进展。"
+        },
+        {
+          "paragraph_index": 273,
+          "literal": "[24,25,26]",
+          "labels": [
+            24,
+            25,
+            26
+          ],
+          "paragraph_text": "研究人员一般把这种训练数据十分稀少情景称之为稀缺资源问题[24,25,26]。稀缺资源问题通常可以分为两种，一种是语种数据稀缺，另一种是领域数据稀缺。世界上有数千种语言，一些语种组合使用人数比较多、双语训练数据易获取，比如中文-英语，英语-法语，英语-德语，英语-俄语等。数据资源丰富语种仅是所有语言中的一小部分，但是大多数其他语言都是稀有资源语言，只有少量的双语语料，甚至没有双语语料。领域数据稀缺是指我们获得语料大部分都是单一领域的，比如新闻、口语等领域，但涉及一些专业性很强的领域，如医学、机械制造等相关领域的数据难以获得。"
+        },
+        {
+          "paragraph_index": 282,
+          "literal": "[27,28]",
+          "labels": [
+            27,
+            28
+          ],
+          "paragraph_text": "此外，本文针对壮语-汉语双语数据稀少，但是汉语单语数据数量多、易获得的特点，使用汉语单语数据进行数据增强。本文采取反向翻译技术（back translation）进行数据增强，首先使用壮-汉双语数据训练得到汉语到壮语的反向翻译模型，通过该模型将目标语言（汉语）的单语数据翻译为源语言（壮语），获取了大量伪数据，并使用上述语料处理方法进行高质量数据筛选，获取大量平行语料，有效提升了壮-汉机器翻译模型的翻译性能[27,28]。"
+        },
+        {
+          "paragraph_index": 326,
+          "literal": "[39]",
+          "labels": [
+            39
+          ],
+          "paragraph_text": "对于实验的评价方式，我们主要使用BLEU值分数作为主要评估手段，BLEU（Bilingual Evaluation Understudy）是机器翻译任务最常用的自动评价方法[39]。BLEU基本思想是以人工译文为标准，翻译质量优秀的机器翻译译文应该与翻译人员人工翻译的译文相接近。BLEU算法使用基于统计的方法计算人工翻译（参考译文）和机器翻译的译文间n-gram共同出现的几率。这种计算方法可以同时考虑到译文的流畅性和覆盖度，BLEU得分越高，对应的机器翻译质量越高，本文使用开源计算工具multi-bleu.perl脚本作为BLEU打分工具。"
+        },
+        {
+          "paragraph_index": 334,
+          "literal": "[40]",
+          "labels": [
+            40
+          ],
+          "paragraph_text": "对于训练数据，我们使用BPE子词切分算法进行处理，该算法将完成的词切分为更为常见的子词形式，比如“interesting”可以切分为“interest”和“ing”两个子词部分，子词切分算法的使用有效控制了词表大小，进而控制了神经机器翻译模型的大小[40]。在本文中，我们将BPE的合并次数设置为16000。"
+        },
+        {
+          "paragraph_index": 444,
+          "literal": "[30,31]",
+          "labels": [
+            30,
+            31
+          ],
+          "paragraph_text": "各个互联网公司提供的在线翻译服务，是企业将机器翻译提供给用户的主要方式。不过各个企业对机器翻译技术的关注点与学术界有所不同。学术界的机器翻译研究人员主要关注神经机器翻译系统的性能，包括神经机器翻译模型结构的研究、在稀缺资源场景下神经机器翻译的训练、使用不同技术最大可能性提升机器翻译系统的翻译效果。比如机器翻译的权威评测比赛WMT中，参赛队伍多使用集成学习、重排序等方式提升机器翻译的性能[30,31]。而互联网公司在关注机器翻译的翻译性能的同时，还会看重一些其他方面，比如解码时间的开销以及计算资源的开销，很多技术无法直接使用。"
+        },
+        {
+          "paragraph_index": 449,
+          "literal": "[32]",
+          "labels": [
+            32
+          ],
+          "paragraph_text": "集成学习是一种十分有效的机器学习方法，应用在机器翻译时的解码过程中能够联合多个不同模型预测的概率分布，得到翻译质量更优的译文[32]。该方法有效性已在CWMT、WMT等机器翻译评测得到了广泛应用[33]。集成学习能够有效减小了最终预测结果的方差和偏差，有效提高模型的鲁棒性和泛化能力，最终效果优于原始模型。集成学习在机器翻译中的应用主要是两种，第一种是针对于单模型，使用参数平均方法平均不同时间步保存的模型参数，另一种是在预测过程进行集成学习，通过联合数个各异的模型的预测结果，进行联合预测[34,35]。但是集成学习由于联合不同模型进行预测的方法，相当于使用多个模型分别进行解码，虽然提高了模型的翻译质量，但是对计算资源的开销加剧，同时也减慢了翻译速度，所以在互联网公司的线上机器翻译系统中很少使用集成学习技术，即使使用也往往仅仅使用两个模型进行集成学习，减少线上翻译模型计算资源的开销和翻译时间的损耗。"
+        },
+        {
+          "paragraph_index": 449,
+          "literal": "[33]",
+          "labels": [
+            33
+          ],
+          "paragraph_text": "集成学习是一种十分有效的机器学习方法，应用在机器翻译时的解码过程中能够联合多个不同模型预测的概率分布，得到翻译质量更优的译文[32]。该方法有效性已在CWMT、WMT等机器翻译评测得到了广泛应用[33]。集成学习能够有效减小了最终预测结果的方差和偏差，有效提高模型的鲁棒性和泛化能力，最终效果优于原始模型。集成学习在机器翻译中的应用主要是两种，第一种是针对于单模型，使用参数平均方法平均不同时间步保存的模型参数，另一种是在预测过程进行集成学习，通过联合数个各异的模型的预测结果，进行联合预测[34,35]。但是集成学习由于联合不同模型进行预测的方法，相当于使用多个模型分别进行解码，虽然提高了模型的翻译质量，但是对计算资源的开销加剧，同时也减慢了翻译速度，所以在互联网公司的线上机器翻译系统中很少使用集成学习技术，即使使用也往往仅仅使用两个模型进行集成学习，减少线上翻译模型计算资源的开销和翻译时间的损耗。"
+        },
+        {
+          "paragraph_index": 449,
+          "literal": "[34,35]",
+          "labels": [
+            34,
+            35
+          ],
+          "paragraph_text": "集成学习是一种十分有效的机器学习方法，应用在机器翻译时的解码过程中能够联合多个不同模型预测的概率分布，得到翻译质量更优的译文[32]。该方法有效性已在CWMT、WMT等机器翻译评测得到了广泛应用[33]。集成学习能够有效减小了最终预测结果的方差和偏差，有效提高模型的鲁棒性和泛化能力，最终效果优于原始模型。集成学习在机器翻译中的应用主要是两种，第一种是针对于单模型，使用参数平均方法平均不同时间步保存的模型参数，另一种是在预测过程进行集成学习，通过联合数个各异的模型的预测结果，进行联合预测[34,35]。但是集成学习由于联合不同模型进行预测的方法，相当于使用多个模型分别进行解码，虽然提高了模型的翻译质量，但是对计算资源的开销加剧，同时也减慢了翻译速度，所以在互联网公司的线上机器翻译系统中很少使用集成学习技术，即使使用也往往仅仅使用两个模型进行集成学习，减少线上翻译模型计算资源的开销和翻译时间的损耗。"
+        },
+        {
+          "paragraph_index": 450,
+          "literal": "[36]",
+          "labels": [
+            36
+          ],
+          "paragraph_text": "知识蒸馏方法由Hinton等人最先提出，核心思想是通过知识迁移，通过训练好的大模型得到更加适合推理的小模型[36]。知识蒸馏方法的本质可以理解为让学生模型的参数分布向教师模型的参数分布趋近，同时不损耗性能。知识蒸馏方法应用到机器翻译问题中，可以减少模型参数量，节约计算资源。"
+        },
+        {
+          "paragraph_index": 480,
+          "literal": "[37]",
+          "labels": [
+            37
+          ],
+          "paragraph_text": "我们选用序列级的知识蒸馏方法应用到神经机器翻译中，首先训练教师神经机器翻译模型，然后使用教师神经机器翻译模型对训练数据进行解码操作，使用源语数据和解码后的目标语译文形成新的训练数据，最后在新的训练集训练学生网络[37]。 "
+        },
+        {
+          "paragraph_index": 484,
+          "literal": "[30,33,38]",
+          "labels": [
+            30,
+            33,
+            38
+          ],
+          "paragraph_text": "集成学习的优势是对神经机器翻译系统的主要性能指标，即翻译质量的提升，所以在各个评测中使用十分广泛，在Wang等人、Li等人以及Sennrich等人的论文中可以看到，全球机器翻译评测竞赛的数个优胜队伍都使用了集成学习方法提升最终提交的翻译译文的质量[30,33,38]。评测比赛的大量使用证明了集成学习在神经机器翻译系统中的有效性，但是集成学习的弊端也十分明显。"
+        },
+        {
+          "paragraph_index": 527,
+          "literal": "[41]",
+          "labels": [
+            41
+          ],
+          "paragraph_text": "在模型收敛方面我们使用早停法（early stop），当模型多次保存参数时计算BLEU得分，如果连续多次没有性能提高，则认为模型已经收敛，停止训练[41]。在本文中，我们选取的early stop参数为7。"
+        },
+        {
+          "paragraph_index": 565,
+          "literal": "[42,43]",
+          "labels": [
+            42,
+            43
+          ],
+          "paragraph_text": "最近几年，自然语言处理领域的预训练工作飞速发展，BERT、XLNet等预训练模型在数个自然语言任务上获得了极大的成功[42,43]。但是由于机器翻译的端到端结构，目前将预训练结合到神经机器翻译的工作大多仅仅是在编码器端和解码器端分别进行对应语种的单语预训练，没有取得令人振奋的效果。"
+        },
+        {
+          "paragraph_index": 568,
+          "literal": "[44,45]",
+          "labels": [
+            44,
+            45
+          ],
+          "paragraph_text": "由于我们搭建壮-汉神经机器翻译系统的训练语料主要是在人民网、新华网等新闻网站上进行爬取的，所以导致了我们的壮-汉机器翻译系统在翻译新闻领域语料时，翻译质量十分优秀，但是如果需要处理口语或者医疗等其他领域数据，该系统的翻译质量相对较差。在其他机器翻译系统中，也经常面临领域迁移的需要，一个神经机器翻译希望往往只适配几个领域，如何让机器翻译可以处理不同领域的翻译需求一直是研究人员关心的内容[44,45]。"
+        }
+      ],
+      "ignored_bracket_expressions": [
+        {
+          "paragraph_index": 223,
+          "literal": "[−D，+D]",
+          "paragraph_text": "然而全局注意力机制的编码器端输出的所有时间步的隐层状态都需要参与计算，通常解码器中一些时间步的输出并不与编码端所有时间步的隐层状态都相关，或者影响很小。这就容易导致一些关系不大的编码端时间步隐层状态会影响输出，同时与所有时间步相关会导致计算次数增多，计算开销变大。针对这一问题，Luong等人提出了局部注意力机制（Local Attention），局部注意力仅基于编码端的隐层状态的一部分来计算解码器端当前预测的片段，局部注意力机制如图2.6所示。在局部注意力机制中，使用长度为2D的窗口来选取需要关注的隐藏层状态信息。由于只需要选取并计算编码器端隐藏层状态的一部分，所以消耗的计算资源较少。此时，局部注意力需要额外解决的是找到定位局部窗口中心点的位置，从而将区间[−D，+D]的局部信息作为要关注的部分。Loung等人提出两种确定的方法:1），即编码器中与解码器当前时间步一致；2）使用公式计算来寻找，如公式2.10所示。",
+          "reason": "non_numeric_expression"
+        }
+      ],
+      "boundary": {
+        "bibliography_heading_paragraph_index": 574,
+        "bibliography_end_paragraph_index": 622
+      }
+    },
+    {
+      "file": "manuscript_current.docx",
+      "bibliography_count": 43,
+      "cited_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "unmatched_references": [
+        {
+          "reference_number": 29,
+          "reference_text": "Luong M T, Sutskever I, Le Q V, et al. Addressing the rare word problem in neural machine translation[J]. arXiv preprint arXiv:1410.8206, 2014.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 646
+          },
+          "review": {
+            "status": "persistent_gap",
+            "compare_files": [
+              "manuscript_alternate.docx"
+            ],
+            "action": "escalate_editorial_decision",
+            "basis": "same_entry_uncited_in_all_revisions",
+            "peer_evidence": [
+              {
+                "file": "manuscript_alternate.docx",
+                "reference_number": 29,
+                "bibliography_paragraph_index": 603,
+                "cited_in_body": false,
+                "match_type": "exact_text"
+              }
+            ],
+            "identity_evidence": {
+              "local": {
+                "author": "luong m t sutskever i le q v et al",
+                "title": "addressing the rare word problem in neural machine translation"
+              },
+              "peers": [
+                {
+                  "file": "manuscript_alternate.docx",
+                  "reference_number": 29,
+                  "author": "luong m t sutskever i le q v et al",
+                  "title": "addressing the rare word problem in neural machine translation",
+                  "match_type": "exact_text"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "unmatched_citations": [],
+      "citation_occurrences": [
+        {
+          "paragraph_index": 152,
+          "literal": "[1,2,3,4]",
+          "labels": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "paragraph_text": "近几十年来，随着信息技术的时时提高，机器翻译技术也不断提升，期间先后提出了各种机器翻译技术。几十年来研究人员提出的机器翻译技术大致上可以分为几类：基于规则的机器翻译（Rule-Based Machine Translation，简写为RBMT）、基于实例的机器翻译（Example-Based Machine Translation，简写为EBMT）、基于统计的机器翻译（Statistics Machine Translation，简写为SMT）以及基于人工神经网络的机器翻译（Neural Machine Translation，简写为NMT）[1,2,3,4]。在二十世纪九十年代以前机器翻译的研究主要集中在基于规则的机器翻译，这种机器翻译技术需要重点研究语法、句法等语言学知识，受限于人工书写的规则的覆盖度，受不同语种的语言学家的知识与经验影响极大。规则的获取难度大、人工书写的规则覆盖度有限、不同规则之间相互冲突等等问题导致基于规则的机器翻译在大部分情况下可用性很低。"
+        },
+        {
+          "paragraph_index": 153,
+          "literal": "[5,6]",
+          "labels": [
+            5,
+            6
+          ],
+          "paragraph_text": "在二十世纪九十年代，IBM研究人员提出完全基于统计方法的机器翻译，这一方法完全抛弃了对语言学家的知识、经验的依赖，用信息论中的噪声信道模型对机器翻译进行解释，将其建模为信息传输的过程[5,6]。统计机器翻译方法建立概率模型求解机器翻译问题，统计机器翻译的发展极大提高了机器翻译的可用性。相比于传统的基于规则和统计的机器翻译，神经机器翻译使用神经网络对机器翻译任务建模，运用深度神经网络获取源语言与目标语言之间的映射关系。神经机器翻译的翻译性能相比传统方法的性能有着极大的提高，逐渐应用到新闻、金融、军事等各种场景。"
+        },
+        {
+          "paragraph_index": 160,
+          "literal": "[7,8]",
+          "labels": [
+            7,
+            8
+          ],
+          "paragraph_text": "传统的神经机器翻译主要使用循环神经网络（Recurrent Neural Network, 简写为RNN）训练机器翻译模型，然而基于循环网络的机器翻译模型受到很大的限制，循环神经网络计算当前状态时必须依赖于上一时刻，这导致循环神经网络必须必须按照时序进行输入，这就导致循环神经网络训练和解码都十分耗时，而且由于长距离依赖问题的存在，基于循环神经网络的机器翻译在处理长句子时候效果一般[7,8]。随着神经网络技术和深度学习的不断发展，基于自注意力（Self-attention）机制的神经网络在众多网络结构中脱颖而出[9]。基于自注意力机制的神经网络凭借极短信息传递距离、可并行化的优秀设计，具有优秀的翻译性能以及较为快速的训练、解码速度，在机器翻译等多项任务上取得了最优秀的性能水平。故本课题使用基于自注意力机制的神经机器翻译系统进行壮语-汉语神经机器翻译系统的研究与实现工作。"
+        },
+        {
+          "paragraph_index": 160,
+          "literal": "[9]",
+          "labels": [
+            9
+          ],
+          "paragraph_text": "传统的神经机器翻译主要使用循环神经网络（Recurrent Neural Network, 简写为RNN）训练机器翻译模型，然而基于循环网络的机器翻译模型受到很大的限制，循环神经网络计算当前状态时必须依赖于上一时刻，这导致循环神经网络必须必须按照时序进行输入，这就导致循环神经网络训练和解码都十分耗时，而且由于长距离依赖问题的存在，基于循环神经网络的机器翻译在处理长句子时候效果一般[7,8]。随着神经网络技术和深度学习的不断发展，基于自注意力（Self-attention）机制的神经网络在众多网络结构中脱颖而出[9]。基于自注意力机制的神经网络凭借极短信息传递距离、可并行化的优秀设计，具有优秀的翻译性能以及较为快速的训练、解码速度，在机器翻译等多项任务上取得了最优秀的性能水平。故本课题使用基于自注意力机制的神经机器翻译系统进行壮语-汉语神经机器翻译系统的研究与实现工作。"
+        },
+        {
+          "paragraph_index": 177,
+          "literal": "[5,6]",
+          "labels": [
+            5,
+            6
+          ],
+          "paragraph_text": "二十世纪九十年代，IBM的研究人员提出统计机器翻译（Statistical Machine Translation，简写为SMT），它基于概率与统计而不是语法与规则，大幅提高了机器翻译的可用性[5,6]。与传统的基于规则的方法不同，IBM的研究人员基于噪声信道模型把翻译问题建模为搜索概率最大的译文的问题。"
+        },
+        {
+          "paragraph_index": 182,
+          "literal": "[10]",
+          "labels": [
+            10
+          ],
+          "paragraph_text": "所谓神经机器翻译（Neural Machine Translation，简写为NMT），是指直接使用多层神经网络对翻译问题进行建模，这个过程不依赖人工定义的特征，模型泛化能力很强，神经机器翻译以端到端（End-to-End）的方式对翻译模型进行训练[10]。神经机器翻译模型的训练过程大部分是通过反向传播算法应用梯度下降进行训练的，神经机器翻译的翻译解码过程是对已经训练好的神经网络进行前向推断计算的过程。"
+        },
+        {
+          "paragraph_index": 184,
+          "literal": "[11,12]",
+          "labels": [
+            11,
+            12
+          ],
+          "paragraph_text": "机器翻译任务与图像识别、物体检测、字符识别等计算机视觉领域的任务有很大不同。计算机视觉领域的任务大多是以图片作为输入输出，即输入输出的维度是固定的问题[11,12]。而在机器翻译中，用户输入的待翻译的源语言文本的长度无法控制，同时应该获取的译文的长度以难以控制，这就导致了我们无法预先对神经机器翻译模型输入输出的维度进行预判，无法把已取得优秀结果的计算机视觉领域的神经网络框架直接应用到神经机器翻译任务中。"
+        },
+        {
+          "paragraph_index": 185,
+          "literal": "[13]",
+          "labels": [
+            13
+          ],
+          "paragraph_text": "为了解决机器翻译这种变长序列到变长序列的映射问题，Kyunghyun Cho等人最早提出将“编码器-解码器”框架应用到神经机器翻译任务中，神经机器翻译与传统的基于规则、统计的机器翻译技术不同，它将翻译问题视为序列到序列的转换问题[13]。编码器-解码器框架由两个分别充当编码器和解码器的神经网络组成。其中编码器负责将神经机器翻译的输入序列转化成一个固定长度的向量，这个输入序列允许输入可变长度的序列。而解码器将之前生成的固定长度的向量表示再转化成输出序列，如图2.1所示。 "
+        },
+        {
+          "paragraph_index": 186,
+          "literal": "[14,15,16]",
+          "labels": [
+            14,
+            15,
+            16
+          ],
+          "paragraph_text": "编码器-解码器框架是一个解决机器翻译等序列到序列映射问题的通用框架，它可以学习以另一个可变长度序列为条件的可变长度序列的条件分布。在Cho等人提出的方法中，编码器和解码器两部分都使用循环神经网络搭建，后续的科研工作者将GRU、LSTM等循环神经网络的变种应用到编码器-解码器框架中[14,15,16]。具体来说就是在编码阶段利用编码器的神经网络单元，如RNN、GRU、LSTM等结构对输入序列进行编码，对于一个长度为输入序列，这种方法每个时间步将输入的源语言序列中的一个序列片段所对应的的向量送入编码器的神经网络单元，输出当前的状态，并读取下一个时间步的输入，直到输入句子中的最后一个片段被读取完。神经元的输出被称为状态向量，又被称为隐层状态。隐层状态中包含着从输入序列开始到当前位置的所有信息，也就是说神经网络将序列的信息编码到隐层状态中不断传递。在每个时间步隐层状态的更新方式如公式2.2所示："
+        },
+        {
+          "paragraph_index": 197,
+          "literal": "[17]",
+          "labels": [
+            17
+          ],
+          "paragraph_text": "编码器-解码器框架应用到神经机器翻译当中最早由Kyunghyun Cho等人提出，在他们的论文中提出使用上下文向量在解码的每个时间步参与计算。不过这个设计会是计算量较大，模型更为复杂。Cho这个设计在随后的Ilya Sutskever等人的研究工作中得到改善[17]。"
+        },
+        {
+          "paragraph_index": 208,
+          "literal": "[13]",
+          "labels": [
+            13
+          ],
+          "paragraph_text": "为了解决这种长输入序列编码到定长向量时出现的信息损失、难以解析问题，研究人员为编码器-解码器框架引入了注意力机制（Attention Mechanism）[13]。顾名思义，注意力机制类似于人类观察图片等事物的视觉识别过程，人类在观察事物时视觉系统是不是同时关注待观察事物的各个细节，而是使用选择性注意力机制。人类视觉获得需要关注的目标区域，即关注的焦点，然后在该区域投入更多的关注资源以获得关于目标的更详细的信息。如图2.3所示。"
+        },
+        {
+          "paragraph_index": 212,
+          "literal": "[13,18]",
+          "labels": [
+            13,
+            18
+          ],
+          "paragraph_text": "深度学习中的注意力机制与人类选择性视觉注意机制本质上是相似的：从众多信息中提取出对当前目标更为有帮助的部分。注意力机制在深度学习中最早由计算机视觉领域研究人员提出并应用，之后Bahdanau等人的研究工作把注意力机制应用到了神经网络机器翻译当中，这也是自然语言处理（Natural Language Processing）中第一个使用注意力机制的工作[13,18]。"
+        },
+        {
+          "paragraph_index": 213,
+          "literal": "[19]",
+          "labels": [
+            19
+          ],
+          "paragraph_text": "注意力机制可以分两个种类：软注意力（Soft Attention）和硬注意力（Hard Attention）。 这两个注意力机制的不同之处在于，硬注意力只关注较小的区域，而软注意力机制则更加宽泛[19]。在神经机器翻译待翻译的目标语言中每个单词的预测阶段，可以将硬注意力理解为仅涉及输入的源语言句子中的一个单词。然而使用硬注意力会导致的问题是，源语言句子的重点信息很大可能不止一个，待预测的词可能和源语言句子中的多个词相关，这一问题硬注意力机制无法解决。因此，现在关于神经机器翻译的研究主要以软注意力机制为主。"
+        },
+        {
+          "paragraph_index": 219,
+          "literal": "[20]",
+          "labels": [
+            20
+          ],
+          "paragraph_text": "Luong等人对这一问题提出了解决办法，他们将注意力机制应用于神经机器翻译的模型结构中[20]。Luong等人将注意力机制分为两类，一类是全局注意力机制（Global Attention），一类是局部注意力机制（Local Attention）。全局注意力机制与Bahdanau等人提出的方法相似，在神经机器翻译模型训练和解码的过程中，解码器根据前面时间步的已翻译目标语言状态等信息，得到当前时刻要预测的目标语言序列段和源语言端序列段之间的相关度，然后将该值作为源语言序列中每个片段的信息权重，之后使用这个分段信息的权重进行加权求和，得到输入序列的上下文向量。需要注意的是，全局注意力不再仅仅使用编码器的最后一个时间步的隐藏状态作为上下文向量，同时，解码器计算时当前时间步的隐层状态不再与上一个隐层状态直接相关，隐层状态的计算方式可以用公式2.7表示。"
+        },
+        {
+          "paragraph_index": 253,
+          "literal": "[15,16]",
+          "labels": [
+            15,
+            16
+          ],
+          "paragraph_text": "长短时记忆网络LSTM有很多个版本，其中一个重要的版本是门限递归单元（Gated Recurrent Unit，简写为GRU），这是为了缓解长短时记忆网络结构复杂而设计的，GRU将遗忘门和输入门结合输入到单个更新门中，同时还将记忆向量和隐藏状态合并，并提出出一些其他的改进。所得的GRU模型比标准的LSTM模型结构简单，且效果与长短时记忆网络相当[15,16]。"
+        },
+        {
+          "paragraph_index": 258,
+          "literal": "[9]",
+          "labels": [
+            9
+          ],
+          "paragraph_text": "一些研究人员开始着重研究注意力机制在神经机器翻译中的更多应用，2017年，谷歌的研究人员提出一种新的机器翻译模型Transformer[9]，它完全基于注意力机制，抛弃了传统的循环神经网络结构和卷积神经网络结构等单元，研究人员将自注意力（self-attention）机制引入到机器翻译中来，自注意力机制有着抽取信息能力强、可并行化的优点。自注意力机制的使用减少了不同位置输入序列片段间的信息传输距离，Transformer模型可以更完整地表示序列中不同位置之间的复杂关系。实验表明，Transformer模型在机器翻译任务中表现非常好，翻译性能优秀，并行度高，训练时间短，Transformer的模型结构如图2.8所示。Transformer模型同样采用编码器-解码器框架设计，Transformer标准模型的编码器由部分6个相同构造层堆叠的组成，这6层中的每个都有两个子层：多头注意力（Multi-Head Attention）和前向连接层（Feedforward Neural Network）。标准Transformer的解码器也由6层堆叠而成，与编码器中每层由两个子层组成不同，解码器中每层由三个子层组成，第一个子层以及最后一个子层和编码器比较相似，分别是带掩码的多头注意力（Masked Multi-Head Attention）和前向连接层，解码器的中间子层即编码器-解码器多头注意力（Encoder-Decoder Multi-Head Attention），负责处理编码器的输出。无论是Transformer的编码器还是解码器，每一个子层后都会有残差连接和层正则化（Layer Norm）操作，如公式2.13所示，以此来加速Transformer模型收敛过程。 "
+        },
+        {
+          "paragraph_index": 276,
+          "literal": "[21,22,23]",
+          "labels": [
+            21,
+            22,
+            23
+          ],
+          "paragraph_text": "Transformer模型是当前机器翻译性能最优的模型，近几年的研究工作主要都是以Transformer模型为基础开展的，Wang等人研究更深层结构的Transformer模型，Xiao等人在Transformer模型的基础上使用共享权重的方法进行加速都取得了等人瞩目的进展[21,22,23]。Transformer模型不局限于机器翻译领域，在其他自然语言处理的任务上也取得了令人瞩目的进展。"
+        },
+        {
+          "paragraph_index": 284,
+          "literal": "[24,25,26]",
+          "labels": [
+            24,
+            25,
+            26
+          ],
+          "paragraph_text": "研究人员一般把这种训练数据十分稀少情景称之为稀缺资源问题[24,25,26]。稀缺资源问题通常可以分为两种，一种是语种数据稀缺，另一种是领域数据稀缺。世界上有数千中语言，一些使用人数比较多、双语训练数据易获取，比如中文-英语，英语-法语，英语-德语，英语-俄语等。数字资源丰富语种仅是所有语言中的一小部分，但是大多数其他语言都是稀有资源语言，只有少量的双语材料，甚至没有双语语料。领域数据稀缺是指我们获得语料大部分都是单一领域的，比如新闻、口语等领域，但涉及一些专业性很强的领域，如医学、机械制造等相关领域的数据难以获得。"
+        },
+        {
+          "paragraph_index": 293,
+          "literal": "[27,28]",
+          "labels": [
+            27,
+            28
+          ],
+          "paragraph_text": "此外，本文针对壮语-汉语双语数据稀少，但是汉语单元数据数量多、易获得的特点，使用汉语单语数据进行数据增强。本文采取反向翻译技术（back translation）进行数据增强，首先使用壮-汉双语数据训练得到汉语到壮语的反向翻译模型，通过该模型将目标语言（汉语）的单语数据翻译为源语言（壮语），获取了大量伪数据，并使用上述语料处理方法进行高质量数据筛选，获取大量平行语料，有效提升了壮-汉机器翻译模型的翻译性能[27,28]。"
+        },
+        {
+          "paragraph_index": 376,
+          "literal": "[30,31]",
+          "labels": [
+            30,
+            31
+          ],
+          "paragraph_text": "各个互联网公司提供的在线翻译服务，是企业将机器翻译提供给用户的主要方式。不过各个企业对机器翻译技术的关注点与学术界有所不同。学术界的机器翻译研究人员主要关注神经机器翻译系统的性能，包括神经机器翻译模型结构的研究、在稀缺资源场景下神经机器翻译的训练、使用不同技术最大可能性提升机器翻译系统的翻译效果。比如机器翻译的权威评测比赛WMT中，参赛队伍多使用集成学习、重排序等方式提升机器翻译的性能[30,31]。而互联网公司在关注机器翻译的翻译性能的同时，还会看重一些其他方面，比如解码时间的开销以及计算资源的开销，很多技术无法直接使用。"
+        },
+        {
+          "paragraph_index": 381,
+          "literal": "[32]",
+          "labels": [
+            32
+          ],
+          "paragraph_text": "集成学习是一种十分有效的机器学习方法，应用在机器翻译时的解码过程中能够联合多个不同模型预测的概率分布，得到翻译质量更优的译文[32]。该方法有效性已在CWMT、WMT等机器翻译评测得到了广泛应用[33]。集成学习能够有效减小了最终预测结果的方差和偏差，有效提高模型的鲁棒性和泛化能力，最终效果优于原始模型。集成学习在机器翻译中的应用主要是两种，第一种是针对于单模型，使用参数平均方法平均不同时间步保存的模型参数，另一种是在预测过程进行集成学习，通过联合数个各异的模型的预测结果，进行联合预测[34,35]。但是集成学习由于联合不同模型进行预测的方法，相当于使用多个模型分别进行解码，虽然提高了模型的翻译质量，但是对计算资源的开销加剧，同时也减慢了翻译速度，所以在互联网公司的线上机器翻译系统中很少使用集成学习技术，即使使用也往往仅仅使用两个模型进行集成学习，减少线上翻译模型计算资源的开销和翻译时间的损耗。"
+        },
+        {
+          "paragraph_index": 381,
+          "literal": "[33]",
+          "labels": [
+            33
+          ],
+          "paragraph_text": "集成学习是一种十分有效的机器学习方法，应用在机器翻译时的解码过程中能够联合多个不同模型预测的概率分布，得到翻译质量更优的译文[32]。该方法有效性已在CWMT、WMT等机器翻译评测得到了广泛应用[33]。集成学习能够有效减小了最终预测结果的方差和偏差，有效提高模型的鲁棒性和泛化能力，最终效果优于原始模型。集成学习在机器翻译中的应用主要是两种，第一种是针对于单模型，使用参数平均方法平均不同时间步保存的模型参数，另一种是在预测过程进行集成学习，通过联合数个各异的模型的预测结果，进行联合预测[34,35]。但是集成学习由于联合不同模型进行预测的方法，相当于使用多个模型分别进行解码，虽然提高了模型的翻译质量，但是对计算资源的开销加剧，同时也减慢了翻译速度，所以在互联网公司的线上机器翻译系统中很少使用集成学习技术，即使使用也往往仅仅使用两个模型进行集成学习，减少线上翻译模型计算资源的开销和翻译时间的损耗。"
+        },
+        {
+          "paragraph_index": 381,
+          "literal": "[34,35]",
+          "labels": [
+            34,
+            35
+          ],
+          "paragraph_text": "集成学习是一种十分有效的机器学习方法，应用在机器翻译时的解码过程中能够联合多个不同模型预测的概率分布，得到翻译质量更优的译文[32]。该方法有效性已在CWMT、WMT等机器翻译评测得到了广泛应用[33]。集成学习能够有效减小了最终预测结果的方差和偏差，有效提高模型的鲁棒性和泛化能力，最终效果优于原始模型。集成学习在机器翻译中的应用主要是两种，第一种是针对于单模型，使用参数平均方法平均不同时间步保存的模型参数，另一种是在预测过程进行集成学习，通过联合数个各异的模型的预测结果，进行联合预测[34,35]。但是集成学习由于联合不同模型进行预测的方法，相当于使用多个模型分别进行解码，虽然提高了模型的翻译质量，但是对计算资源的开销加剧，同时也减慢了翻译速度，所以在互联网公司的线上机器翻译系统中很少使用集成学习技术，即使使用也往往仅仅使用两个模型进行集成学习，减少线上翻译模型计算资源的开销和翻译时间的损耗。"
+        },
+        {
+          "paragraph_index": 382,
+          "literal": "[36]",
+          "labels": [
+            36
+          ],
+          "paragraph_text": "知识蒸馏方法由Hinton等人最先提出，核心思想是通过知识迁移，通过训练好的大模型得到更加适合推理的小模型[36]。知识蒸馏方法的本质可以理解为让学生模型的参数分布向教师模型的参数分布趋近，同时不损耗性能。知识蒸馏方法应用到机器翻译问题中，可以减少模型参数量，节约计算资源。"
+        },
+        {
+          "paragraph_index": 412,
+          "literal": "[37]",
+          "labels": [
+            37
+          ],
+          "paragraph_text": "我们选用序列级的知识蒸馏方法应用到神经机器翻译中，首先训练教师神经机器翻译模型，然后使用教师神经机器翻译模型对训练数据进行解码操作，使用源语数据和解码后的目标语译文形成新的训练数据，最后在新的训练集训练学生网络[37]。 "
+        },
+        {
+          "paragraph_index": 416,
+          "literal": "[30,33,38]",
+          "labels": [
+            30,
+            33,
+            38
+          ],
+          "paragraph_text": "集成学习的优势是对神经机器翻译系统的主要性能指标，即翻译质量的提升，所以在各个评测中使用十分广泛，在Wang等人、Li等人以及Sennrich等人的论文中可以看到，全球机器翻译评测竞赛的数个优胜队伍都使用了集成学习方法提升最终提交的翻译译文的质量[30,33,38]。评测比赛的大量使用证明了集成学习在神经机器翻译系统中的有效性，但是集成学习的弊端也十分明显。"
+        },
+        {
+          "paragraph_index": 431,
+          "literal": "[39]",
+          "labels": [
+            39
+          ],
+          "paragraph_text": "对于实验的评价方式，我们主要使用BLEU值分数作为主要评估手段，BLEU（Bilingual Evaluation Understudy）是机器翻译任务最常用的自动评价方法[39]。BLEU基本思想是以人工译文为标准，翻译质量优秀的机器翻译译文应该与翻译人员人工翻译的译文相接近。BLEU算法使用基于统计的方法计算人工翻译（参考译文）和机器翻译的译文间n-gram共同出现的几率。这种计算方法可以同时考虑到译文的流畅性和覆盖度，BLEU得分越高，对应的机器翻译质量越高，本文使用开源计算工具multi-bleu.perl脚本作为BLEU打分工具。"
+        },
+        {
+          "paragraph_index": 439,
+          "literal": "[40]",
+          "labels": [
+            40
+          ],
+          "paragraph_text": "对于训练数据，我们使用BPE子词切分算法进行处理，该算法将完成的词切分为更为常见的子词形式，比如“interesting”可以切分为“interest”和“ing”两个子词部分，子词切分算法的使用有效控制了词表大小，进而控制了神经机器翻译模型的大小[40]。在本文中，我们将BPE的合并次数设置为16000。"
+        },
+        {
+          "paragraph_index": 545,
+          "literal": "[41]",
+          "labels": [
+            41
+          ],
+          "paragraph_text": "在模型收敛方面我们使用早停法（early stop），当模型多次保存参数时计算BLEU得分，如果连续多次没有性能提高，则认为模型已经收敛，停止训练[41]。在本文中，我们选取的early stop参数为7。"
+        },
+        {
+          "paragraph_index": 594,
+          "literal": "[42,43]",
+          "labels": [
+            42,
+            43
+          ],
+          "paragraph_text": "最近几年，自然语言处理领域的预训练工作飞速发展，BERT、XLNet等预训练模型在数个自然语言任务上获得了极大的成功[42,43]。但是由于机器翻译的端到端结构，目前将预训练结合到神经机器翻译的工作大多仅仅是在编码器端和解码器端分别进行对应语种的单语预训练，没有取得令人振奋的效果。"
+        }
+      ],
+      "ignored_bracket_expressions": [
+        {
+          "paragraph_index": 234,
+          "literal": "[−D，+D]",
+          "paragraph_text": "然而全局注意力机制的编码器端输出的所有时间步的隐层状态都需要参与计算，通常解码器中一些时间步的输出并不与编码端所有时间步的隐层状态都相关，或者影响很小。这就容易导致一些关系不大的编码端时间步隐层状态会影响输出，同时与所有时间步相关会导致计算次数增多，计算开销变大。针对这一问题，Luong等人提出了局部注意力机制（Local Attention），局部注意力仅基于编码端的隐藏状态的一部分来计算解码器端当前预测的片段，局部注意力机制如图2.6所示。在局部注意力机制中，使用长度为2D的窗口来选取需要关注的隐藏层状态信息。由于只需要选取并计算编码器端隐藏层状态的一部分，所以消耗的计算资源较少。此时，局部注意力需要额外解决的是找到定位局部窗口中心点的位置，从而将区间[−D，+D]的局部信息作为要关注的部分。Loung等人提出两种确定的方法:1），即编码器中与解码器当前时间步一致；2）使用公式计算来寻找，如公式2.10所示。",
+          "reason": "non_numeric_expression"
+        }
+      ],
+      "boundary": {
+        "bibliography_heading_paragraph_index": 617,
+        "bibliography_end_paragraph_index": 662
+      }
+    },
+    {
+      "file": "manuscript_early.docx",
+      "bibliography_count": 50,
+      "cited_labels": [
+        13,
+        14
+      ],
+      "unmatched_references": [
+        {
+          "reference_number": 1,
+          "reference_text": "Mayor A, Alegria I, De Ilarraza A D, et al. Matxin, an open-source rule-based machine translation system for Basque[J]. Machine Translation, 2011, 25(1): 53-82.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 632
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "mayor a alegria i de ilarraza a d et al",
+                "title": "matxin an open source rule based machine translation system for basque"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 2,
+          "reference_text": "Lagarda A L, Alabau V, Casacuberta F, et al. Statistical Post-Editing of a Rule-Based Machine Translation System[C]. north american chapter of the association for computational linguistics, 2009: 217-220.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 633
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "lagarda a l alabau v casacuberta f et al",
+                "title": "statistical post editing of a rule based machine translation system"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 3,
+          "reference_text": "Hua W, Haifeng W. Improving statistical word alignment with a rule-based machine translation system[C]. international conference on computational linguistics, 2004.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 634
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "hua w haifeng w",
+                "title": "improving statistical word alignment with a rule based machine translation system"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 4,
+          "reference_text": "Somers H L. Review Article: Example-based Machine Translation[J]. Machine Translation, 1999, 14(2): 113-157.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 635
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "somers h l",
+                "title": "review article example based machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 5,
+          "reference_text": "Sumita E. Example-based machine translation using DP-matching between word sequences[C]. meeting of the association for computational linguistics, 2001: 1-8.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 636
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "sumita e",
+                "title": "example based machine translation using dp matching between word sequences"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 6,
+          "reference_text": "Liu Z, Wang H, Wu H, et al. Example-based machine translation based on tree---string correspondence and statistical generation[J]. Machine Translation, 2006, 20(1): 25-41.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 637
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "liu z wang h wu h et al",
+                "title": "example based machine translation based on tree string correspondence and statistical generation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 7,
+          "reference_text": "Brown P F, Pietra V J, Pietra S D, et al. The mathematics of statistical machine translation: parameter estimation[J]. Computational Linguistics, 1993, 19(2): 263-311.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 638
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "brown p f pietra v j pietra s d et al",
+                "title": "the mathematics of statistical machine translation parameter estimation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 8,
+          "reference_text": "Och F J, Ney H. Discriminative Training and Maximum Entropy Models for Statistical Machine Translation[C]. meeting of the association for computational linguistics, 2002: 295-302.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 639
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "och f j ney h",
+                "title": "discriminative training and maximum entropy models for statistical machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 9,
+          "reference_text": "Koehn, Philipp, Josef F, et al. Statistical phrase-based translation[J]. Proc. HLT-NAACL, 2003, 2003.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 640
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "koehn philipp josef f et al",
+                "title": "statistical phrase based translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 10,
+          "reference_text": "Och F J. Minimum Error Rate Training in Statistical Machine Translation[C]. meeting of the association for computational linguistics, 2003: 160-167.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 641
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "och f j",
+                "title": "minimum error rate training in statistical machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 11,
+          "reference_text": "Koehn, Philipp, Hoang, et al. Moses: open source toolkit for statistical machine translation[J]. in Proceedings of the Association for Computational Linguistics (ACL’07, 2007, 9(1):177--180.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 642
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "koehn philipp hoang et al",
+                "title": "moses open source toolkit for statistical machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 12,
+          "reference_text": "Nirenburg S, Somers H, Wilks Y. A Statistical Approach to Machine Translation[J]. Computational Linguistics, 1990, 16(2):79-85.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 643
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "nirenburg s somers h wilks y",
+                "title": "a statistical approach to machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 15,
+          "reference_text": "肖桐, 李天宁, 陈如山,等. 面向统计机器翻译的重对齐方法研究[J]. 中文信息学报, 2010, 24(1):110-117.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 646
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "肖桐 李天宁 陈如山 等",
+                "title": "面向统计机器翻译的重对齐方法研究"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 16,
+          "reference_text": "刘群. 基于句法的统计机器翻译模型与方法[J]. 中文信息学报, 2011, 25(6):63-71.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 647
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "刘群",
+                "title": "基于句法的统计机器翻译模型与方法"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 17,
+          "reference_text": "肖桐. 树到树统计机器翻译优化学习及解码方法研究[D]. 东北大学, 2012.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 648
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "肖桐",
+                "title": "树到树统计机器翻译优化学习及解码方法研究"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 18,
+          "reference_text": "Sutskever I, Vinyals O, Le Q V, et al. Sequence to Sequence Learning with Neural Networks[J]. neural information processing systems, 2014: 3104-3112.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 649
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "sutskever i vinyals o le q v et al",
+                "title": "sequence to sequence learning with neural networks"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 19,
+          "reference_text": "刘洋. 神经机器翻译前沿进展[J]. 计算机研究与发展, 2017(6).",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 650
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "刘洋",
+                "title": "神经机器翻译前沿进展"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 20,
+          "reference_text": "Bahdanau D, Cho K, Bengio Y, et al. Neural Machine Translation by Jointly Learning to Align and Translate[J]. international conference on learning representations, 2015.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 651
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "bahdanau d cho k bengio y et al",
+                "title": "neural machine translation by jointly learning to align and translate"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 21,
+          "reference_text": "Luong T, Pham H, Manning C D, et al. Effective Approaches to Attention-based Neural Machine Translation[J]. empirical methods in natural language processing, 2015: 1412-1421.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 652
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "luong t pham h manning c d et al",
+                "title": "effective approaches to attention based neural machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 22,
+          "reference_text": "Johnson M, Schuster M, Le Q V, et al. Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation[J]. Transactions of the Association for Computational Linguistics, 2017, 5(1): 339-351.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 653
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "johnson m schuster m le q v et al",
+                "title": "google s multilingual neural machine translation system enabling zero shot translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 23,
+          "reference_text": "Wu Y, Schuster M, Chen Z, et al. Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation[J]. arXiv: Computation and Language, 2016.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 654
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "wu y schuster m chen z et al",
+                "title": "google s neural machine translation system bridging the gap between human and machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 24,
+          "reference_text": "Cho K, Van Merrienboer B, Gulcehre C, et al. Learning Phrase Representations using RNN Encoder--Decoder for Statistical Machine Translation[J]. empirical methods in natural language processing, 2014: 1724-1734.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 655
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "cho k van merrienboer b gulcehre c et al",
+                "title": "learning phrase representations using rnn encoder decoder for statistical machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 25,
+          "reference_text": "Chung J, Gulcehre C, Cho K, et al. Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling[J]. arXiv: Neural and Evolutionary Computing, 2014.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 656
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "chung j gulcehre c cho k et al",
+                "title": "empirical evaluation of gated recurrent neural networks on sequence modeling"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 26,
+          "reference_text": "Gehring J, Auli M, Grangier D, et al. Convolutional sequence to sequence learning[J]. international conference on machine learning, 2017: 1243-1252.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 657
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "gehring j auli m grangier d et al",
+                "title": "convolutional sequence to sequence learning"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 27,
+          "reference_text": "LeCun Y, Bengio Y. Convolutional networks for images, speech, and time series[J]. The handbook of brain theory and neural networks, 1995, 3361(10): 1995.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 658
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "lecun y bengio y",
+                "title": "convolutional networks for images speech and time series"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 28,
+          "reference_text": "Vaswani A, Shazeer N, Parmar N, et al. Attention is All you Need[J]. neural information processing systems, 2017: 5998-6008.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 659
+          },
+          "review": {
+            "status": "variant_in_other_revision",
+            "compare_files": [
+              "manuscript_alternate.docx",
+              "manuscript_current.docx"
+            ],
+            "action": "verify_metadata_transfer",
+            "basis": "same_work_with_normalized_author_title_match",
+            "peer_evidence": [
+              {
+                "file": "manuscript_alternate.docx",
+                "reference_number": 9,
+                "bibliography_paragraph_index": 583,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              },
+              {
+                "file": "manuscript_current.docx",
+                "reference_number": 9,
+                "bibliography_paragraph_index": 626,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              }
+            ],
+            "identity_evidence": {
+              "local": {
+                "author": "vaswani a shazeer n parmar n et al",
+                "title": "attention is all you need"
+              },
+              "peers": [
+                {
+                  "file": "manuscript_alternate.docx",
+                  "reference_number": 9,
+                  "author": "vaswani a shazeer n parmar n et al",
+                  "title": "attention is all you need",
+                  "match_type": "author_title_identity"
+                },
+                {
+                  "file": "manuscript_current.docx",
+                  "reference_number": 9,
+                  "author": "vaswani a shazeer n parmar n et al",
+                  "title": "attention is all you need",
+                  "match_type": "author_title_identity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "reference_number": 29,
+          "reference_text": "Shaw P, Uszkoreit J, Vaswani A, et al. SELF-ATTENTION WITH RELATIVE POSITION REPRESENTATIONS[J]. north american chapter of the association for computational linguistics, 2018: 464-468.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 660
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "shaw p uszkoreit j vaswani a et al",
+                "title": "self attention with relative position representations"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 30,
+          "reference_text": "Lin Z, Feng M, Santos C N, et al. A STRUCTURED SELF-ATTENTIVE SENTENCE EMBEDDING[J]. international conference on learning representations, 2017.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 661
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "lin z feng m santos c n et al",
+                "title": "a structured self attentive sentence embedding"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 31,
+          "reference_text": "Mettes P, Koelma D C, Snoek C G, et al. The ImageNet Shuffle: Reorganized Pre-training for Video Event Detection[J]. international conference on multimedia retrieval, 2016: 175-182.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 662
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "mettes p koelma d c snoek c g et al",
+                "title": "the imagenet shuffle reorganized pre training for video event detection"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 32,
+          "reference_text": "Simon M, Rodner E, Denzler J, et al. ImageNet pre-trained models with batch normalization[J]. arXiv: Computer Vision and Pattern Recognition, 2016.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 663
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "simon m rodner e denzler j et al",
+                "title": "imagenet pre trained models with batch normalization"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 33,
+          "reference_text": "Bengio Y, Ducharme R, Vincent P, et al. A neural probabilistic language model[J]. Journal of Machine Learning Research, 2003, 3(6): 1137-1155.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 664
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "bengio y ducharme r vincent p et al",
+                "title": "a neural probabilistic language model"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 34,
+          "reference_text": "Mikolov T, Chen K, Corrado G S, et al. Efficient Estimation of Word Representations in Vector Space[J]. international conference on learning representations, 2013.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 665
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "mikolov t chen k corrado g s et al",
+                "title": "efficient estimation of word representations in vector space"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 35,
+          "reference_text": "Mikolov T, Sutskever I, Chen K, et al. Distributed Representations of Words and Phrases and their Compositionality[J]. neural information processing systems, 2013: 3111-3119.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 666
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "mikolov t sutskever i chen k et al",
+                "title": "distributed representations of words and phrases and their compositionality"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 36,
+          "reference_text": "Peters M E, Ammar W, Bhagavatula C, et al. Semi-supervised sequence tagging with bidirectional language models[J]. meeting of the association for computational linguistics, 2017: 1756-1765.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 667
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "peters m e ammar w bhagavatula c et al",
+                "title": "semi supervised sequence tagging with bidirectional language models"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 37,
+          "reference_text": "Mccann B, Bradbury J, Xiong C, et al. Learned in Translation: Contextualized Word Vectors.[J]. neural information processing systems, 2017: 6294-6305.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 668
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "mccann b bradbury j xiong c et al",
+                "title": "learned in translation contextualized word vectors"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 38,
+          "reference_text": "Peters M E, Neumann M, Iyyer M, et al. DEEP CONTEXTUALIZED WORD REPRESENTATIONS[J]. north american chapter of the association for computational linguistics, 2018: 2227-2237.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 669
+          },
+          "review": {
+            "status": "variant_in_other_revision",
+            "compare_files": [
+              "manuscript_alternate.docx",
+              "manuscript_current.docx"
+            ],
+            "action": "verify_metadata_transfer",
+            "basis": "same_work_with_normalized_author_title_match",
+            "peer_evidence": [
+              {
+                "file": "manuscript_alternate.docx",
+                "reference_number": 43,
+                "bibliography_paragraph_index": 617,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              },
+              {
+                "file": "manuscript_current.docx",
+                "reference_number": 43,
+                "bibliography_paragraph_index": 660,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              }
+            ],
+            "identity_evidence": {
+              "local": {
+                "author": "peters m e neumann m iyyer m et al",
+                "title": "deep contextualized word representations"
+              },
+              "peers": [
+                {
+                  "file": "manuscript_alternate.docx",
+                  "reference_number": 43,
+                  "author": "peters m e neumann m iyyer m et al",
+                  "title": "deep contextualized word representations",
+                  "match_type": "author_title_identity"
+                },
+                {
+                  "file": "manuscript_current.docx",
+                  "reference_number": 43,
+                  "author": "peters m e neumann m iyyer m et al",
+                  "title": "deep contextualized word representations",
+                  "match_type": "author_title_identity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "reference_number": 39,
+          "reference_text": "Radford A, Narasimhan K, Salimans T, et al. Improving language understanding with unsupervised learning. Technical report, OpenAI.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 670
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "radford a narasimhan k salimans t et al",
+                "title": "improving language understanding with unsupervised learning technical report openai"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 40,
+          "reference_text": "Devlin J, Chang M, Lee K, et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding[J]. arXiv: Computation and Language, 2018.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 671
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "devlin j chang m lee k et al",
+                "title": "bert pre training of deep bidirectional transformers for language understanding"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 41,
+          "reference_text": "Chung J, Gulcehre C, Cho K, et al. Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling[J]. arXiv: Neural and Evolutionary Computing, 2014.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 672
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "chung j gulcehre c cho k et al",
+                "title": "empirical evaluation of gated recurrent neural networks on sequence modeling"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 42,
+          "reference_text": "Hochreiter S, Schmidhuber J. Long short-term memory[J]. Neural Computation, 1997, 9(8): 1735-1780.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 673
+          },
+          "review": {
+            "status": "variant_in_other_revision",
+            "compare_files": [
+              "manuscript_alternate.docx",
+              "manuscript_current.docx"
+            ],
+            "action": "verify_metadata_transfer",
+            "basis": "same_work_with_normalized_author_title_match",
+            "peer_evidence": [
+              {
+                "file": "manuscript_alternate.docx",
+                "reference_number": 15,
+                "bibliography_paragraph_index": 589,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              },
+              {
+                "file": "manuscript_current.docx",
+                "reference_number": 15,
+                "bibliography_paragraph_index": 632,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              }
+            ],
+            "identity_evidence": {
+              "local": {
+                "author": "hochreiter s schmidhuber j",
+                "title": "long short term memory"
+              },
+              "peers": [
+                {
+                  "file": "manuscript_alternate.docx",
+                  "reference_number": 15,
+                  "author": "hochreiter s schmidhuber j",
+                  "title": "long short term memory",
+                  "match_type": "author_title_identity"
+                },
+                {
+                  "file": "manuscript_current.docx",
+                  "reference_number": 15,
+                  "author": "hochreiter s schmidhuber j",
+                  "title": "long short term memory",
+                  "match_type": "author_title_identity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "reference_number": 43,
+          "reference_text": "Lample G, Conneau A. Cross-lingual Language Model Pretraining.[J]. arXiv: Computation and Language, 2019.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 674
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "lample g conneau a",
+                "title": "cross lingual language model pretraining"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 44,
+          "reference_text": "Song K, Tan X, Qin T, et al. MASS: Masked Sequence to Sequence Pre-training for Language Generation[J]. arXiv: arXiv:1905.02450, 2019",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 675
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "song k tan x qin t et al",
+                "title": "mass masked sequence to sequence pre training for language generation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 45,
+          "reference_text": "Chen M X, Firat O, Bapna A, et al. The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation[J]. meeting of the association for computational linguistics, 2018: 76-86.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 676
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "chen m x firat o bapna a et al",
+                "title": "the best of both worlds combining recent advances in neural machine translation"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 46,
+          "reference_text": "Domhan T. How Much Attention Do You Need? A Granular Analysis of Neural Machine Translation Architectures[C]. meeting of the association for computational linguistics, 2018: 1799-1808.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 677
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "domhan t",
+                "title": "how much attention do you need a granular analysis of neural machine translation architectures"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 47,
+          "reference_text": "Papineni K, Roukos S, Ward T, et al. Bleu: a Method for Automatic Evaluation of Machine Translation[C]. meeting of the association for computational linguistics, 2002: 311-318.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 678
+          },
+          "review": {
+            "status": "variant_in_other_revision",
+            "compare_files": [
+              "manuscript_alternate.docx",
+              "manuscript_current.docx"
+            ],
+            "action": "verify_metadata_transfer",
+            "basis": "same_work_with_normalized_author_title_match",
+            "peer_evidence": [
+              {
+                "file": "manuscript_alternate.docx",
+                "reference_number": 39,
+                "bibliography_paragraph_index": 613,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              },
+              {
+                "file": "manuscript_current.docx",
+                "reference_number": 39,
+                "bibliography_paragraph_index": 656,
+                "cited_in_body": true,
+                "match_type": "author_title_identity"
+              }
+            ],
+            "identity_evidence": {
+              "local": {
+                "author": "papineni k roukos s ward t et al",
+                "title": "bleu a method for automatic evaluation of machine translation"
+              },
+              "peers": [
+                {
+                  "file": "manuscript_alternate.docx",
+                  "reference_number": 39,
+                  "author": "papineni k roukos s ward t et al",
+                  "title": "bleu a method for automatic evaluation of machine translation",
+                  "match_type": "author_title_identity"
+                },
+                {
+                  "file": "manuscript_current.docx",
+                  "reference_number": 39,
+                  "author": "papineni k roukos s ward t et al",
+                  "title": "bleu a method for automatic evaluation of machine translation",
+                  "match_type": "author_title_identity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "reference_number": 48,
+          "reference_text": "Sennrich R, Haddow B, Birch A, et al. Neural Machine Translation of Rare Words with Subword Units[J]. meeting of the association for computational linguistics, 2016: 1715-1725.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 679
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "sennrich r haddow b birch a et al",
+                "title": "neural machine translation of rare words with subword units"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 49,
+          "reference_text": "Srivastava N, Hinton G E, Krizhevsky A, et al. Dropout: a simple way to prevent neural networks from overfitting[J]. Journal of Machine Learning Research, 2014, 15(1): 1929-1958.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 680
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "srivastava n hinton g e krizhevsky a et al",
+                "title": "dropout a simple way to prevent neural networks from overfitting"
+              },
+              "peers": []
+            }
+          }
+        },
+        {
+          "reference_number": 50,
+          "reference_text": "Ba J L, Kiros J R, Hinton G E. Layer normalization[J]. arXiv preprint arXiv:1607.06450, 2016.",
+          "issue": "bibliography_entry_not_cited_in_body",
+          "evidence": {
+            "bibliography_paragraph_index": 681
+          },
+          "review": {
+            "status": "version_specific",
+            "compare_files": [],
+            "action": "verify_version_scope",
+            "basis": "entry_absent_from_other_revisions",
+            "peer_evidence": [],
+            "identity_evidence": {
+              "local": {
+                "author": "ba j l kiros j r hinton g e",
+                "title": "layer normalization"
+              },
+              "peers": []
+            }
+          }
+        }
+      ],
+      "unmatched_citations": [],
+      "citation_occurrences": [
+        {
+          "paragraph_index": 159,
+          "literal": "[14]",
+          "labels": [
+            14
+          ],
+          "paragraph_text": "随着信息化社会的不断发展，现代计算机的计算性能迅猛提高，其速度甚至可以达到每秒数十千万亿次，这使得计算机在处理数值运算以及逻辑运算方面更加高效。计算机的发展为人们在科学计算、信息处理、过程控制等领域提供了大量自动化的手段。随着计算性能的迅猛提高以及研究人员对人工神经网络的不断改进，人工神经网络技术也获得了长足的发展[14]。近几年来，研究人员将人工神经网络应用于自然语言处理领域里，使得自然语言处理领域的很多子任务性能都得到了显著的提高，神经机器翻译就其中的代表。"
+        },
+        {
+          "paragraph_index": 271,
+          "literal": "[13]",
+          "labels": [
+            13
+          ],
+          "paragraph_text": "一些研究人员开始着重研究注意力机制在神经机器翻译中的更多应用，2017年，谷歌的研究人员提出一种新的机器翻译模型Transformer[13]，这个完全基于注意力机制，抛弃了传统的循环神经网络结构和卷积神经网络结构等单元，研究人员将自注意力（self-attention）机制引入到机器翻译中来，自注意力机制有着抽取信息能力强、可并行化的优点。自注意力机制的使用减少了不同位置输入序列片段间的信息传输距离，Transformer模型可以更完整地表示序列中不同位置之间的复杂关系。实验表明，Transformer模型在机器翻译任务中表现非常好，翻译性能优秀，并行度高，训练时间短。Transformer的模型结构如图2.8所示。"
+        }
+      ],
+      "ignored_bracket_expressions": [
+        {
+          "paragraph_index": 248,
+          "literal": "[−D，+D]",
+          "paragraph_text": "然而全局注意力机制的编码器端输出的所有时间步的隐层状态都需要参与计算，通常解码器中一些时间步的输出并不与编码端所有时间步的隐层状态都相关，或者影响很小。这就容易导致一些关系不大的编码端时间步隐层状态会影响输出，同时与所有时间步相关会导致计算次数增多，计算开销变大。针对这一问题，Luong等人提出了局部注意力机制（Local Attention），局部注意力仅基于编码端的隐藏状态的一部分来计算解码器端当前预测的片段，局部注意力机制如图2.6所示。在局部注意力机制中，使用长度为2D的窗口来选取需要关注的隐藏层状态信息。由于只需要选取并计算编码器端隐藏层状态的一部分，所以消耗的计算资源较少。 此时，局部注意力需要额外解决的是找到定位局部窗口中心点的位置，从而将区间[−D，+D]的局部信息作为要关注的部分。Loung等人提出两种确定v的方法有两种解决方法:1）=t，即编码器中与解码器当前时间步一直；2）使用公式计算来寻找，如公式2.7所示;",
+          "reason": "non_numeric_expression"
+        }
+      ],
+      "boundary": {
+        "bibliography_heading_paragraph_index": 631,
+        "bibliography_end_paragraph_index": 682
+      }
+    }
+  ],
+  "summary": {
+    "manuscript_count": 3,
+    "unmatched_reference_count": 50,
+    "unmatched_citation_count": 0
+  },
+  "_usage": "Human-review illustration only; not loaded by the scorer. Expected records are derived from hash-bound original materials."
+}

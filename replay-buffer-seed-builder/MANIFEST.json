@@ -1,0 +1,105 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "replay-buffer-seed-builder",
+  "tasks": [
+    "replay-buffer-seed-builder"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 23,
+  "bytes_excluding_manifest": 260073,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 6331,
+      "sha256": "b85a02dbabef64b46ba79be73fec39df43d7c40efbfa0e66bdf8fe5e5afa319d"
+    },
+    "RUBRIC.md": {
+      "bytes": 11605,
+      "sha256": "2a0615402471acb950ce380f1c7e5601e6d9df63bbb2081a93db8cedb39755e4"
+    },
+    "dataset.toml": {
+      "bytes": 1304,
+      "sha256": "e7905b92c752ac8fdf3b988f4fd2bb4baf39e6a8e59626c5e1b34a676ca504be"
+    },
+    "golden/replay_buffer_seed.jsonl": {
+      "bytes": 1734,
+      "sha256": "780d1400404a71cbae125a0efcce0d5946af6ce17d212cf536d9388e6acfb7d5"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1788,
+      "sha256": "42679e7a185a4f2aac5f9f529c9c23f607724eb5a45adf169c4be3356a9f6482"
+    },
+    "task/environment/skills/replay-seed-method/SKILL.md": {
+      "bytes": 2721,
+      "sha256": "728f19c566855b01a592637db455c6b050263d793fb0d3b3ba71a4157eb715d5"
+    },
+    "task/environment/skills/replay-seed-method/references/replay-seed-validation.md": {
+      "bytes": 1575,
+      "sha256": "02a7e9459b3a750cba663f75312dfbeaaf77a286a02b10fd45e29f0d77d012c4"
+    },
+    "task/environment/skills/replay-seed-method/references/temporal-alignment.md": {
+      "bytes": 1691,
+      "sha256": "a74193bca1fde18ac645d44c9d667e0b5065fff90f1a1a54f675aed564055ea1"
+    },
+    "task/environment/workspace/materials/grasp_phase_segments.json": {
+      "bytes": 785,
+      "sha256": "3c9cd93891ef2ef060b9b5309882293798c2c836cb36d9f4e7872239e167c9aa"
+    },
+    "task/environment/workspace/materials/ppo_script.py": {
+      "bytes": 35842,
+      "sha256": "b3c1ce8c6622bdb3c79c86fe82e9b826a87538b95406121ae9b2bdc7064da7db"
+    },
+    "task/environment/workspace/materials/trajectory_unified.npz": {
+      "bytes": 78008,
+      "sha256": "842d47bd98f7d2b127aae3e10c2d334817206cc804043cad0af3f2b5ab1e293d"
+    },
+    "task/instruction.md": {
+      "bytes": 800,
+      "sha256": "e1cbf8b40a9ff5cd7de44d33252633e8f0017a1fe9efa08ceecc2013115e9223"
+    },
+    "task/solution/reference_replay_buffer_seed.jsonl": {
+      "bytes": 1734,
+      "sha256": "780d1400404a71cbae125a0efcce0d5946af6ce17d212cf536d9388e6acfb7d5"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 687,
+      "sha256": "919fc3ad95fb5b0f4b94ae6016153ae2cee8910320e994b040b8423f5c0b5d7b"
+    },
+    "task/task.toml": {
+      "bytes": 1264,
+      "sha256": "69d3d539f495b9943147b984890c1d9fc97e7300626897c86203199c68f5c9b3"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1174,
+      "sha256": "3f480f2cfc6e3b9a02e5d917fea7cc76bf0ed106f5bf6523285577264b6ec1fc"
+    },
+    "task/tests/golden_replay/ec7116d34e5ce1d0f7632ac14a0b44db29daab8b26ef7e9c7066a9cb9b6654ba.json": {
+      "bytes": 1029,
+      "sha256": "36ec76060a4c3fa3a54e445330ce41bc43bdbae0266cf5e1b7ed88a8fff81477"
+    },
+    "task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 8173,
+      "sha256": "80aeff75a6e6405f7d328f8e93f6dd45be3cab8b7f45669d61c167f953483e08"
+    },
+    "task/tests/program_judge/rubric-contract.json": {
+      "bytes": 62667,
+      "sha256": "cd84ac94afb335ebf1eea43a6dd0624b45de815e7c037d466ce89db357ead678"
+    },
+    "task/tests/program_judge/task_judge.py": {
+      "bytes": 16628,
+      "sha256": "e25bb72d4ff63f31520fc8e4fd9dde4fe78bc6e8568e4b6c7ef83b1e81f3dec7"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 7905,
+      "sha256": "6458f9adf2c545a847bfe494df7fdd423cce987ea263d17326caf002eb61c1d0"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2888,
+      "sha256": "be06d93b5b7f68af264f923bcc241a8711f0bf211d5773ba1c838f97e8a9556e"
+    },
+    "task/tests/validator.py": {
+      "bytes": 11740,
+      "sha256": "2bfe8b9e5c44f0810c44491f1f6386989dc0e6eeb3ee3503a69d239c30cc8dd6"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "outputs": [
+    "products.csv"
+  ],
+  "criteria": [
+    {
+      "id": "product_identity",
+      "weight": 0.1,
+      "description": "All ten English titles and bodies identify the correct physical product and preserve model distinctions. LEMON is one shared double-seat chair, not two separate chairs. Wrong core object identity/count is owned here once."
+    },
+    {
+      "id": "claims_c01_c02",
+      "weight": 0.1,
+      "description": "For C01 and C02, every adopted feature, material, accessory, mechanism, use or performance assertion is supported by the exact product card. Omission is allowed. A general feature must not be expanded into a per-chair supplied quantity: for C02 the source explicitly says each chair receives a pillow, side bag and outer bag, while the side table, side pockets and carrying straps are only general features. Score each page 1 when clean, 0.5 for a limited unsupported promotional claim with correct core identity/facts, and 0 for a direct contradiction, invented mechanism/item, safety/certification claim, or multiple material unsupported claims; the pair score is the two page scores mean. A bare ordinary place/activity may be neutral scene-setting; duration, comfort, ease/speed, comparative suitability, or built/ideal/perfect-for language is an adopted claim requiring exact-card support."
+    },
+    {
+      "id": "claims_c03_c04",
+      "weight": 0.1,
+      "description": "For C03 and C04, every adopted feature, material, accessory, mechanism, use or performance assertion is supported by the exact product card. Omission is allowed. Score each page 1 when clean, 0.5 for a limited unsupported promotional claim with correct core identity/facts, and 0 for a direct contradiction, invented mechanism/item, safety/certification claim, or multiple material unsupported claims; the pair score is the two page scores mean. A bare ordinary place/activity may be neutral scene-setting; duration, comfort, ease/speed, comparative suitability, or built/ideal/perfect-for language is an adopted claim requiring exact-card support."
+    },
+    {
+      "id": "claims_c05_c06",
+      "weight": 0.1,
+      "description": "For C05 and C06, every adopted feature, material, accessory, mechanism, use or performance assertion is supported by the exact product card. Omission is allowed. Score each page 1 when clean, 0.5 for a limited unsupported promotional claim with correct core identity/facts, and 0 for a direct contradiction, invented mechanism/item, safety/certification claim, or multiple material unsupported claims; the pair score is the two page scores mean. A bare ordinary place/activity may be neutral scene-setting; duration, comfort, ease/speed, comparative suitability, or built/ideal/perfect-for language is an adopted claim requiring exact-card support."
+    },
+    {
+      "id": "claims_c07_c08",
+      "weight": 0.1,
+      "description": "For C07 and C08, every adopted feature, material, accessory, mechanism, use or performance assertion is supported by the exact product card. Omission is allowed. Score each page 1 when clean, 0.5 for a limited unsupported promotional claim with correct core identity/facts, and 0 for a direct contradiction, invented mechanism/item, safety/certification claim, or multiple material unsupported claims; the pair score is the two page scores mean. A bare ordinary place/activity may be neutral scene-setting; duration, comfort, ease/speed, comparative suitability, or built/ideal/perfect-for language is an adopted claim requiring exact-card support."
+    },
+    {
+      "id": "claims_c09_c10",
+      "weight": 0.1,
+      "description": "For C09 and C10, every adopted feature, material, accessory, mechanism, use or performance assertion is supported by the exact product card. Omission is allowed. Score each page 1 when clean, 0.5 for a limited unsupported promotional claim with correct core identity/facts, and 0 for a direct contradiction, invented mechanism/item, safety/certification claim, or multiple material unsupported claims; the pair score is the two page scores mean. A bare ordinary place/activity may be neutral scene-setting; duration, comfort, ease/speed, comparative suitability, or built/ideal/perfect-for language is an adopted claim requiring exact-card support."
+    },
+    {
+      "id": "measurement_item_scope",
+      "weight": 0.1,
+      "description": "Whenever copy states product weight or load for a product with pack variants, it explicitly preserves that the value applies per chair rather than to the selected pack or shipping carton. A page that offers both 1-Pack and 2-Pack is not unambiguous merely because its title names the chair: each adopted weight/load needs a nearby per-chair/equivalent scope or a single shared statement clearly governing that page's weights and loads. Open/folded/packed-product dimensions are owned by measurement_state_scope and already identify one physical chair when their state label is preserved. Score 1 when all applicable series are explicit, 0.5 for one independently ambiguous series, and 0 for two or more."
+    },
+    {
+      "id": "measurement_state_scope",
+      "weight": 0.1,
+      "description": "Stated dimensions preserve open, folded and packed-product state and do not turn overall object dimensions into seat dimensions or shipping-carton dimensions. Omission of a nonessential dimension is allowed."
+    },
+    {
+      "id": "measurement_load_scope",
+      "weight": 0.1,
+      "description": "Every stated load retains its supplied qualifier: static, impact, front-edge/seat-edge or unqualified capacity. Do not add, drop or interchange a qualifier. Repetition of one changed load scope is one event."
+    },
+    {
+      "id": "physical_sales_unit",
+      "weight": 0.1,
+      "description": "For every page with both 1-Pack and 2-Pack variants, customer copy clearly explains that 1-Pack supplies one chair and 2-Pack supplies two separate chairs, using any equivalent wording. Listing option labels alone is incomplete. LEMON is outside this criterion because it has no pack option."
+    }
+  ],
+  "required_inputs": [
+    "products-template.csv",
+    "户外家具选款资料.docx",
+    "美国站露营椅选款.pdf"
+  ]
+}

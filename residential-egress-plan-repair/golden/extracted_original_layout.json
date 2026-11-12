@@ -1,0 +1,69 @@
+{
+  "identifiers": {
+    "route_id": "HALL-ROUTE-01",
+    "door_id": "HALL-DOOR-01",
+    "width_finding_id": "F-HALL-WIDTH",
+    "door_finding_id": "F-HALL-DOOR",
+    "swing_finding_id": "F-HALL-SWING"
+  },
+  "unit": "in",
+  "route_id": "HALL-ROUTE-01",
+  "room": {
+    "id": "HALL",
+    "polygon": [
+      [
+        -443.272926,
+        129.367132
+      ],
+      [
+        -306.772926,
+        129.367132
+      ],
+      [
+        -306.772926,
+        169.367132
+      ],
+      [
+        -443.272926,
+        169.367132
+      ]
+    ],
+    "label_anchor": [
+      -368.74084,
+      151.036908
+    ],
+    "source_handles": [
+      "162A",
+      "1642",
+      "140D"
+    ]
+  },
+  "door": {
+    "id": "HALL-DOOR-01",
+    "opening_line_length": 36.0,
+    "opening_segment": [
+      [
+        -450.772926,
+        169.867132
+      ],
+      [
+        -414.772926,
+        169.867132
+      ]
+    ],
+    "source_handle": "165D",
+    "clear_width_status": "not established by the opening line",
+    "operation": "not determinable from the selected opening geometry"
+  },
+  "route": {
+    "clear_width": 40.0,
+    "clear_width_m": 1.016,
+    "length": 136.5,
+    "obstructions": [],
+    "measurement_basis": "interior faces of the continuous wall runs enclosing HALL"
+  },
+  "source_hashes": {
+    "residential_floor_plan.dxf": "6d761ecb1ab59664425eb1dcc6837a12611536c8e03e3f7855951a76786d159c",
+    "fire_safety_code.pdf": "15ff67d8efa9f71a56dddb9af2b4d098b3e2420b409eac87a371526af1c9440c"
+  }
+}

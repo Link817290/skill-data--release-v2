@@ -1,0 +1,46 @@
+# Harbor task manifest. id must be ASCII; non-ASCII characters or spaces are
+# rejected by Harbor outright.
+version = "1.0"
+id = "replay-buffer-seed-builder"
+title = "Replay buffer seed from a corrected grasp trajectory"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+domain = "embodied-data-engineering"
+
+[metadata]
+tags = ["embodied-data", "data-generation", "expert-processing"]
+
+[verifier]
+timeout_sec = 300.0
+
+[agent]
+timeout_sec = 5400.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+network_access = false
+
+[skill]
+active = ["replay-seed-method"]
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "solution/reference_replay_buffer_seed.jsonl"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+
+# No [rollout_baseline] section: the matrix declared in dataset.toml under
+# [rollout_expectations] has not been run for this package.
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"

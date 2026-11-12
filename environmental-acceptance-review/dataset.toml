@@ -1,0 +1,2 @@
+name = "environmental-acceptance-review"
+tasks = ["."]

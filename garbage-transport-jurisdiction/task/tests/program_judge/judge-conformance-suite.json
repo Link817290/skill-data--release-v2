@@ -1,0 +1,121 @@
+{
+  "schema_version": "judge-conformance-suite-v2",
+  "stage": "calibrated",
+  "rubric": {
+    "path": "rubric-contract.json",
+    "sha256": "3e9f4f1c552f9f2e0d9b5df906b5d6ca38e4704a64f88ac54d206d67ec642250"
+  },
+  "judge_entrypoint": {
+    "path": "tests/program_judge/task_judge.py",
+    "sha256": "25ddb862de05e399917563e004e7bb333f3111d4b2787b7040fe45b9a787720d"
+  },
+  "judge_files": [
+    {
+      "path": "tests/program_judge/program_judge_runtime.py",
+      "sha256": "7133f0b188529528d757b96b53c57b61d8542660578294701a8c8e0cdf892bf9"
+    },
+    {
+      "path": "tests/program_judge/task_judge.py",
+      "sha256": "25ddb862de05e399917563e004e7bb333f3111d4b2787b7040fe45b9a787720d"
+    }
+  ],
+  "representation_scope": {
+    "scope_basis": "All seven frozen platform runs use DOCX prose and tables, bound in runs/.",
+    "public_output_contract": {
+      "path": "instruction.md",
+      "sha256": "553b2b562d16ee6110e6c55311c2505cc2b29236d56b276d2218d3379da06c5f"
+    },
+    "observed_rollout_carriers": [
+      {
+        "variant": "docx-table",
+        "artifact_manifest": {
+          "path": "runs/task__2U4uQeK/artifacts/manifest.json",
+          "sha256": "238cc72f90431d494654412cf0ef41d76ee1dedfb7a924dc64a72815a03317c8"
+        },
+        "metadata": {
+          "path": "runs/task__2U4uQeK/metadata.json",
+          "sha256": "aa509fd36d01174801ea766361c2ea79af3e184bbe005861c350cfcf6e7800ba"
+        }
+      }
+    ],
+    "applicable_variants": [
+      "docx-paraphrase",
+      "docx-table"
+    ],
+    "excluded_variants": [
+      {
+        "variant": "pdf-only",
+        "reason": "The public instruction requests editable DOCX, not a PDF-only submission."
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "golden",
+      "kind": "baseline",
+      "semantic_case_id": "jurisdiction-reference",
+      "variant": "docx-paragraphs",
+      "artifact": {
+        "path": "golden/管辖异议申请书.docx",
+        "sha256": "b99980497f40b2144857859bdb313076481798af5be4b0cd8a44c8103890a885"
+      }
+    },
+    {
+      "case_id": "paraphrase",
+      "kind": "required_equivalent",
+      "semantic_case_id": "jurisdiction-reference",
+      "variant": "docx-paraphrase",
+      "artifact": {
+        "path": "evidence/probe-inputs/paraphrased_golden/管辖异议申请书.docx",
+        "sha256": "408163636ff0af3e28bc113fd262287e5c3169604b486765abdd77e69d74c765"
+      }
+    },
+    {
+      "case_id": "table",
+      "kind": "required_equivalent",
+      "semantic_case_id": "jurisdiction-reference",
+      "variant": "docx-table",
+      "artifact": {
+        "path": "evidence/probe-inputs/table_representation/管辖异议申请书.docx",
+        "sha256": "974c5b59f008ce5015a53d7bc35ec23513878b8fa4e95b851ad1a9074f4ed41b"
+      }
+    },
+    {
+      "case_id": "parse-failure",
+      "kind": "parse_failure",
+      "semantic_case_id": "jurisdiction-reference",
+      "variant": "corrupt-docx",
+      "artifact": {
+        "path": "evidence/probe-inputs/parse_failure/corrupt.docx",
+        "sha256": "d104126bb1482bcd54970031ee517ab00daaa12645d5f101d19c021fe58a2510"
+      },
+      "protected_deduction_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05"
+      ]
+    },
+    {
+      "case_id": "request-base",
+      "kind": "baseline",
+      "semantic_case_id": "feng-reference",
+      "variant": "docx-paragraphs",
+      "artifact": {
+        "path": "golden/需要风格雨林小区提供证据的告知书.docx",
+        "sha256": "7404b67ac84a23604907848c0b3eb5c12f98b20a64d6cefb605bbfbe18a3e0e5"
+      }
+    },
+    {
+      "case_id": "request-title",
+      "kind": "required_equivalent",
+      "semantic_case_id": "feng-reference",
+      "variant": "docx-paraphrase",
+      "artifact": {
+        "path": "evidence/probe-inputs/request-title-equivalent/需要风格雨林小区提供证据的告知书.docx",
+        "sha256": "38a8863629309cbd760df16e161b4b4a88b56cc606e5fecf59ebda91e930dc04"
+      }
+    }
+  ]
+}

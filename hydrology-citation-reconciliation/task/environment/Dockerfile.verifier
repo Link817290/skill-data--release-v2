@@ -1,0 +1,15 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends poppler-utils \
+    && rm -rf /var/lib/apt/lists/*
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/environment/workspace/ /workspace/
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN mkdir -p /workspace/output /logs/verifier /logs/artifacts \
+    && test -s /workspace/materials/hydrology_manuscript.pdf \
+    && test -f /tests/ground_truth.json
+CMD ["/bin/sh"]

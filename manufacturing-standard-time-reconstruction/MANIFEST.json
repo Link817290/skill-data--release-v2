@@ -1,0 +1,81 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "manufacturing-standard-time-reconstruction",
+  "tasks": [
+    "manufacturing-standard-time-reconstruction"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 17,
+  "bytes_excluding_manifest": 116218,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2398,
+      "sha256": "15956cb08fd75c315b3122811d4f2f2202bb9b8d8155aaecc9b87928061a6b33"
+    },
+    "RUBRIC.md": {
+      "bytes": 6484,
+      "sha256": "279d7a7072cbbb840ee663cdefeecfa1b621880072e85d92c6be73fdec2cf094"
+    },
+    "dataset.toml": {
+      "bytes": 858,
+      "sha256": "a782b065ae6a4f6102767df501a61911e2301fd68fb72974d7ed5415029d5fc2"
+    },
+    "golden/standard_time.xlsx": {
+      "bytes": 21570,
+      "sha256": "4d615ccb62906f0fa3cafeb22d7bd39df171d72c9bd2d26449b8a02b67efa5f7"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 274,
+      "sha256": "f3b3be8c541def0800111b27a51b09fe8a458f9fcb75c07362da9fc44c9679a9"
+    },
+    "task/environment/skills/manufacturing-time-modeling/SKILL.md": {
+      "bytes": 978,
+      "sha256": "be0b8ac69f4c99235930b87009f0e4f94ba2c68f6aaec0cc82883a9fc25f3f6a"
+    },
+    "task/environment/workspace/materials/workspace.xlsx": {
+      "bytes": 15181,
+      "sha256": "8775413928a60f252d1060a075526000de66bb0de44ec20f2f6283f0f694b2e3"
+    },
+    "task/instruction.md": {
+      "bytes": 1338,
+      "sha256": "bcd716952696a998b5b1694a91980f97dd294c76734c15822b05567b2c8e8d8c"
+    },
+    "task/solution/original_formulas.json": {
+      "bytes": 27947,
+      "sha256": "fe610f5d0b92cf725557dc383c53340d1989ae32f06291d2921cf01453d8d727"
+    },
+    "task/solution/solve.py": {
+      "bytes": 1332,
+      "sha256": "2d358215e89231e64973bc037a47886e15613e32fd66cbcf52fac58c70644678"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 45,
+      "sha256": "fd97e9177aeeae9a071c944f3ab475ef496b9e561ddcef2e5fe43b76128342c9"
+    },
+    "task/task.toml": {
+      "bytes": 709,
+      "sha256": "c10740b3a6bc74bf32c24d8022f88ac08b11a0bae00322e78556388b99051c2c"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 638,
+      "sha256": "27212303c1584feee8fdb7c1442e3a25c9d2b056fe71ddebac56b090d4b6d642"
+    },
+    "task/tests/inputs.xlsx": {
+      "bytes": 15181,
+      "sha256": "8775413928a60f252d1060a075526000de66bb0de44ec20f2f6283f0f694b2e3"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 347,
+      "sha256": "789a0571f1f480ea37588318daab3fe7b02dae99e27648ae108186dfcbd50db2"
+    },
+    "task/tests/test.sh": {
+      "bytes": 364,
+      "sha256": "644ae76a79cfb32cd07db8b8aa42df862432f7bcb420544905b2e5791d1eef7f"
+    },
+    "task/tests/validator.py": {
+      "bytes": 20574,
+      "sha256": "1ba82ba6ad01a372a4dd21ccde9bc353b66e8fbc79b195ee2bcd23df71d7af78"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+Prepare our US store's camping-chair launch from the merchandising handover in `/workspace/input`. I want a ready-to-import English Shopify product file, with clear customer-facing titles and useful product descriptions, so the team can finish imagery and fulfillment setup before publication. Keep the selected range and retail pricing intact.
+
+Save the import file at `/workspace/output/products.csv`. Use the interface in `/workspace/input/products-template.csv`, the assortment and launch arrangements in `/workspace/input/美国站露营椅选款.pdf`, and the product specifications in `/workspace/input/户外家具选款资料.docx`.

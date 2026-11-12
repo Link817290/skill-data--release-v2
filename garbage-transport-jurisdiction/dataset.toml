@@ -1,0 +1,15 @@
+id = "garbage-transport-jurisdiction"
+task_type = "skill-bench"
+category = "skill-data"
+track = "bench"
+deliverable = "workspace/output"
+
+[scoring]
+primary_score = "reward_strict"
+dual_score = true
+program_judge = "tests/validator.py"
+scoring_params = "rubric-contract.json"
+strict_formula = "additive positive completion multiplied by one coefficient per independent damage instance"
+lenient_formula = "case support at least 0.5, nonexclusive forum treatment, and lawful request channels for both property managers"
+rubric = "RUBRIC.md"
+condition_blind = true

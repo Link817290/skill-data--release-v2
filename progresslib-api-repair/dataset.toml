@@ -1,0 +1,40 @@
+version = "1.0"
+id = "progresslib-api-repair"
+title = "Progress library API repair"
+task_type = "skill-bench"
+domain = "software engineering"
+language = "en"
+difficulty = "hard"
+instruction = "task/instruction.md"
+task = "task/task.toml"
+task_no_skill = "task/task_no_skill.toml"
+rubric = "RUBRIC.md"
+golden = "golden"
+required_outputs = ["/workspace/output/repair_report.md", "repaired source tree"]
+network_access = false
+
+[skill]
+answers_in_skill = false
+network_required = false
+
+[scoring]
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+pass_rate_basis = "reward_lenient"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+input_kind = "directory"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[scoring.weights]
+behavioral_repair = 0.55
+root_cause_diagnosis = 0.45
+scope_integrity = 0.0
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0

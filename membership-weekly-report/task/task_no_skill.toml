@@ -1,0 +1,50 @@
+version = "1.0"
+id = "membership-weekly-report-no-skill"
+name = "expert/no-skill/membership-weekly-report"
+title = "Membership weekly report for 17-23 March"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "zh"
+artifacts = [ "/workspace/output/weekly_report.docx",]
+
+[metadata]
+tags = [ "membership-weekly-report",]
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 5400.0
+
+[environment]
+docker_image = "membership-weekly-report-no-skill:1.3"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 1200.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "/workspace/output/weekly_report.docx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-240}"
+
+[verifier.environment]
+docker_image = "membership-weekly-report-verifier:1.3"
+network_mode = "public"

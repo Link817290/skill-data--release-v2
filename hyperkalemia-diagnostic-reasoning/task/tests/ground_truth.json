@@ -1,0 +1,10 @@
+{
+  "review_required_for_non_golden": true,
+  "authoritative_golden": {
+    "CASE-001_reasoning.docx": "ed25e1f5e487687684ef6838ccf6f203357687688e4253c747d53e50811bc58c",
+    "CASE-002_reasoning.docx": "70fbd2b30ac8c7b25e5cab7abb099008fe0df8b7d0491c2be216b4307f047f1b",
+    "CASE-003_reasoning.docx": "e52adbffda9ae568daa4330b734a57f08910deb8ef93b60f822d94404d0e81c1",
+    "hyperkalemia_reasoning_template.docx": "9c51667d68d917a8af3d3b1ce50bdfedabb1e59b91e4977d71336c3575e367bc"
+  },
+  "reference_revision": "source-audited-golden"
+}

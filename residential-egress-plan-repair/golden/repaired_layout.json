@@ -1,0 +1,72 @@
+{
+  "identifiers": {
+    "route_id": "HALL-ROUTE-01",
+    "door_id": "HALL-DOOR-01",
+    "width_finding_id": "F-HALL-WIDTH",
+    "door_finding_id": "F-HALL-DOOR",
+    "swing_finding_id": "F-HALL-SWING"
+  },
+  "unit": "in",
+  "route_id": "HALL-ROUTE-01",
+  "room": {
+    "id": "HALL",
+    "polygon": [
+      [
+        -443.272926,
+        126.060045
+      ],
+      [
+        -306.772926,
+        126.060045
+      ],
+      [
+        -306.772926,
+        169.367132
+      ],
+      [
+        -443.272926,
+        169.367132
+      ]
+    ],
+    "label_anchor": [
+      -368.74084,
+      151.036908
+    ]
+  },
+  "door": {
+    "id": "HALL-DOOR-01",
+    "opening_line_length": 36.0,
+    "opening_segment": [
+      [
+        -450.772926,
+        169.867132
+      ],
+      [
+        -414.772926,
+        169.867132
+      ]
+    ],
+    "source_handle": "165D",
+    "opening_line_length_m": 0.9144,
+    "clear_width_status": "coordination hold",
+    "operation": "review hold"
+  },
+  "route": {
+    "clear_width": 43.307087,
+    "clear_width_m": 1.1,
+    "length": 136.5,
+    "obstructions": [],
+    "repair_status": "coordination concept, not an as-built condition",
+    "repair_basis": "proposed lower wall-face relocation with the upper face retained; wall thickness, end connections, and adjacent impacts require design coordination"
+  },
+  "requirements": {
+    "route_min_m": 1.1,
+    "door_min_m": 0.9,
+    "evidence": "fire_safety_code.pdf, physical page 61, clause 5.5.30"
+  },
+  "repair_layers": [
+    "REPAIR-HALL",
+    "REPAIR-EGRESS",
+    "REPAIR-NOTES"
+  ]
+}

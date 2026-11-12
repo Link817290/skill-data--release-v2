@@ -1,0 +1,1156 @@
+Hydrol. Earth Syst. Sci. Discuss., 6, 4589–4618, 2009                  Hydrology and
+www.hydrol-earth-syst-sci-discuss.net/6/4589/2009/                      Earth System             HESSD
+© Author(s) 2009. This work is distributed under                            Sciences
+                                                                         Discussions     6, 4589–4618, 2009
+the Creative Commons Attribution 3.0 License.
+
+Papers published in Hydrology and Earth System Sciences Discussions are under               Discharge
+open-access review for the journal Hydrology and Earth System Sciences                     simulations
+                                                                                         performed with a
+                                                                                        hydrological model
+
+                                                                                          S. C. van Pelt et al.
+Discharge simulations performed with a
+hydrological model using bias corrected                                                           Title Page
+
+
+regional climate model input                                                             Abstract        Introduction
+
+                                                                                        Conclusions      References
+               1          2                 3                           2
+S. C. van Pelt , P. Kabat , H. W. ter Maat , B. J. J. M. van den Hurk , and
+             3                                                                            Tables           Figures
+A. H. Weerts
+1
+  Earth System Science and Climate Change Group, Wageningen UR, Droevendaalsesteeg 4,        J                  I
+6708 PB Wageningen, The Netherlands
+2
+  KNMI, P.O. Box 201, 3730 AE De Bilt, The Netherlands                                      J                   I
+3
+  Deltares, Rotterdamseweg 185, 2629 HD Delft, The Netherlands
+                                                                                           Back                Close
+Received: 3 June 2009 – Accepted: 17 June 2009 – Published: 29 June 2009
+                                                                                             Full Screen / Esc
+Correspondence to: S. C. van Pelt (saskia.vanpelt@wur.nl)
+Published by Copernicus Publications on behalf of the European Geosciences Union.         Printer-friendly Version
+
+                                                                                           Interactive Discussion
+
+
+                                          4589
+     Abstract
+                                                                                                             HESSD
+     Studies have demonstrated that precipitation on Northern Hemisphere mid-latitudes
+     has increased in the last decades and that it is likely that this trend will continue. This     6, 4589–4618, 2009
+     will have an influence on discharge of the river Meuse. The use of bias correction meth-
+ 5   ods is important when the effect of precipitation change on river discharge is studied.            Discharge
+     The objective of this paper is to investigate the effect of using two different bias correc-      simulations
+     tion methods on output from a Regional Climate Model (RCM) simulation. In this study            performed with a
+     a Regional Atmospheric Climate Model (RACMO2) run is used, forced by ECHAM-5                   hydrological model
+     under the condition of the SRES-A1B emission scenario, with a 25 km horizontal res-
+10   olution. The RACMO2 runs contain a systematic precipitation bias on which two bias               S. C. van Pelt et al.
+     correction methods are applied. The first method corrects for the wet day fraction and
+     wet day average (WD bias correction) and the second method corrects for the mean
+     and coefficient of variance (MV bias correction). The WD bias correction initially cor-                  Title Page
+
+     rects well for the average, but it appears that too many successive precipitation days          Abstract        Introduction
+15   were removed with this correction. The second method performed less well on aver-
+     age bias correction, but the temporal precipitation pattern was better. Subsequently,          Conclusions      References
+     the discharge was calculated by using RACMO2 output as forcing to the HBV-96 hy-
+                                                                                                      Tables           Figures
+     drological model. A large difference was found between the simulated discharge of the
+     uncorrected RACMO2 run, the WD bias corrected run and the MV bias corrected run.
+                                                                                                         J                  I
+20   These results show the importance of an appropriate bias correction.
+                                                                                                        J                   I
+
+     1 Introduction                                                                                    Back                Close
+
+     During the last few decades the world has become subject to a changing climate un-                  Full Screen / Esc
+     precedented in the last millennia. Temperature increase and other climate related
+     changes will have large global impacts. According to IPCC (IPCC, 2007) climate pro-              Printer-friendly Version
+25   jections for Northwest Europe one of the impacts is an increase in winter precipitation.
+                                                                                                       Interactive Discussion
+     This will increase the frequency and severity of extreme precipitation events. For the
+                                                4590
+     Netherlands the KNMI ‘06 climate change scenarios foresee wetter winters and ex-
+     treme precipitation amounts will increase (Hurk van den et al., 2006).                                      HESSD
+         A large fraction of precipitation received by river basins is buffered in natural reser-
+                                                                                                         6, 4589–4618, 2009
+     voirs, like soils, aquifers and lakes, and in artificial reservoirs. It is released only slowly.
+ 5   In a temperate climate such as is prevailing over the Meuse and Rhine basin, this
+     generally results in a continuous flow of water. However, exceptional meteorological                   Discharge
+     conditions can cause floods and longer periods of low flows (Wit de et al., 2001b). Oc-               simulations
+     currences in the past indicate that it is important to monitor and manage these rivers.             performed with a
+     As the Meuse is an almost purely rain-fed system, the seasonal and interannual vari-               hydrological model
+10   ability of the hydrological regime of this river is more pronounced than that of the Rhine.
+     It is also more likely to react stronger to the effect of global climate change (Uijlenhoet          S. C. van Pelt et al.
+     et al., 2001). Another aspect, which increases the variability of the system, is the sub-
+     strate characteristics of the Meuse. The restricted dimension of the floodplain of the
+                                                                                                                  Title Page
+     Ardennes Massif offers little room for natural flood retention areas, so water moves
+15   downstream relatively quickly.                                                                      Abstract        Introduction
+         By doing a statistical analysis of long observation records (1911–2002) for the Meuse
+                                                                                                        Conclusions      References
+     basin, it was shown that the frequencies of wet days hardly changed, but the associ-
+     ated precipitation amounts have significantly increased since 1980 (Tu et al., 2005b).               Tables           Figures
+     An average increase in extreme precipitation of 18% has been simulated by regional
+20   climate models over the recent history. The uncertainty of model simulations is signif-                 J                  I
+     icantly larger than the observed change. As different models, show the same trends
+     (e.g. higher temperatures and more extreme precipitation) and there are no indications                 J                   I
+     that these trends will change by abrupt climate change, the uncertainty does not com-
+                                                                                                           Back                Close
+     pletely overshadow the simulated change (Booij, 2002b). From recent simulations with
+25   (regional) climate models it appears that a large number of models, especially in sum-                  Full Screen / Esc
+     mer, show dryness as a consequence of a strong hydrological feedback between the
+     land surface and the atmosphere. This means that in these models the precipitation                   Printer-friendly Version
+     declines, which results in dehydration of the soil (STOWA, 2004).
+         The effect of climate change on the Meuse has been studied with different discharge               Interactive Discussion
+
+
+                                                  4591
+     models. The HBV-96 (hereafter HBV) model (Hydrologiska Byråns Vattenbalansavdel-
+     ning; Hydrological Bureau Water balance-section; Bergström and Forsman, 1973) is,                   HESSD
+     especially in Nordic countries, often used to simulate discharge response to a changing
+                                                                                                  6, 4589–4618, 2009
+     climate (Bergstrom et al., 2001).
+ 5      Increased precipitation will lead to more frequent high flow conditions. This trend
+     started in the second half of the 20th century, where an increased flooding probability         Discharge
+                                                                                            st
+     has been observed (Pfister et al., 2004) and will probably continue during the 21              simulations
+     century (Wit de et al., 2001a; Wit de et al., 2007b). A significant increase since the       performed with a
+     beginning of the 80s of the 20th century has been demonstrated statistically (Tu et         hydrological model
+10   al., 2005a) This holds for the annual extremes, the winter high tides and discharges
+                        3 −1                                                                       S. C. van Pelt et al.
+     larger than 800 m s . De Wit (2001) states that simulations performed with a number
+     of Global Climate Models (GCMs) suggest an increase in temperature, an increase in
+     winter precipitation and a decrease in summer precipitation in the Meuse basin by the
+                                                                                                           Title Page
+     end of the 21st century. This results in a small decrease of the average discharge and a
+15   small increase of discharge variability and extreme discharges (Booij, 2005). It should      Abstract        Introduction
+     be noted that simulations demonstrate that an extreme peak on the Meuse follows from
+                                                                                                 Conclusions      References
+     a long period of moderate wet days instead of one or two extreme wet days (Aalders
+     et al., 2004).                                                                                Tables           Figures
+        Also Regional Climate Model (RCM) simulations, driven by a range of Global Climate
+20   Model (GCM) projections, indicate a future with wetter winters and drier summers (Wit            J                  I
+     de et al., 2007a). On the occurrence of low flows in summer less research has been
+     done. De Wit (2007a) studied the possible impact of climate change on the occurrence            J                   I
+     of low-flow generating meteorological conditions and on the impact of climate change
+                                                                                                    Back                Close
+     on low-flows with HBV-model simulations. This research showed that it is challenging
+25   to project low flows for the future. In addition De Wit et al. (2007a) concluded that            Full Screen / Esc
+     decrease of summer discharge does not necessarily mean that critical summer low-
+     flows will become more severe and frequent. It was also found that the HBV-model,             Printer-friendly Version
+     with a generally good performance, did not accurately simulate critical low-flows of the
+     Meuse. So far, there is no ground to conclude that extreme low flows will occur more           Interactive Discussion
+
+
+                                              4592
+     frequently (Warmerdam et al., 2001; Wit de et al., 2001b).
+        This paper will present the results a new high (25 km) resolution Regional Atmo-                   HESSD
+     spheric Climate Model (RACMO2) forced by the a transient (1950–2100) simulation of
+                                                                                                   6, 4589–4618, 2009
+     the GCM ECHAM 5 using observed greenhouse gases for 1950–2000, and using the
+ 5   SRES A1B scenario for the 21st century. The RCM has been employed within the EU
+     funded project ENSEMBLE (Lorenz et al., 2008). As such, the model uses a higher                  Discharge
+     resolution than in earlier studies (Leander et al., 2007; Wit de et al., 2007a; Leander         simulations
+     et al., 2008), presumably resolving the average and extreme discharges at the basin           performed with a
+     outlet better (Booij, 2005).                                                                 hydrological model
+10      Another issue addressed in this paper is the use of bias correction methods. Bias
+     corrections are applied because it has been shown that the simulated precipitation dif-        S. C. van Pelt et al.
+     fers systematically from observed precipitation. Two non-linear bias correction methods
+     were explored to correct the precipitation data generated by RACMO2. When linear
+                                                                                                            Title Page
+     corrections were made for the bias in the mean precipitation, it led to an underestima-
+15   tion of large quantiles of their distribution (Leander et al., 2007). It was found that a     Abstract        Introduction
+     relatively simple nonlinear correction adjusting both the biases in the mean and vari-
+                                                                                                  Conclusions      References
+     ability led to a better reproduction of observed extreme daily and multi-day precipitation
+     amount than the commonly used linear scaling correction. This also resulted in more            Tables           Figures
+     realistic discharge extremes, suggesting that a correct representation of the variability
+20   of precipitation is important for the simulation of extreme flood quantiles (Leander et           J                  I
+     al., 2007). In this paper important details of non-linear bias correction methods will
+     be shown. Two different bias correction methods will be applied to the RCM gener-                J                   I
+     ated precipitation data. Subsequently, RCM output is used to drive the hydrological
+                                                                                                     Back                Close
+     model HBV for the Meuse basin to investigate the effect of the bias corrections on the
+25   simulated discharges for present day and future climate conditions.                               Full Screen / Esc
+
+
+                                                                                                    Printer-friendly Version
+
+                                                                                                     Interactive Discussion
+
+
+                                               4593
+     2 Meuse basin
+                                                                                                           HESSD
+     The Netherlands is one of the smaller, highly populated countries in Europe. It forms
+     the delta of a number of international river basins, including the Rhine and the Meuse.       6, 4589–4618, 2009
+     These rivers are used for multiple functions and have contributed to the prosperous
+ 5   development of Northwest Europe. The Meuse originates in France and flows through                Discharge
+     Belgium. Via the Netherlands it drains into the North-Sea. The Meuse is rain-fed and            simulations
+     has a length of approximately 875 km. The basin has an area of 36 000 km2 , and cov-          performed with a
+     ers parts of France, Belgium, Luxembourg, Germany and the Netherlands. Northwest             hydrological model
+     Europe has a temperate climate, with frequent eastward moving Atlantic depressions,
+                                                                                     −1             S. C. van Pelt et al.
+10   which results in a mean annual precipitation over the Meuse of 950 mm yr . The
+     spatial distribution patterns of rainfall in the Meuse basin are mainly the result of dif-
+     ferences in altitude. The rainfall is highest in the Ardennes Massif (1500 mm yr−1 ) and
+     lowest in the lowlands (Pfister et al., 2004). The mean discharge of the Meuse at Liege                Title Page
+                                     3 −1
+     for summer half year is 146 m s . In summer, flows are low and the evaporation rates          Abstract        Introduction
+                                          3 −1
+15   are high. In the winter, it is 406 m s with evaporation rates at the lowest level. The
+                                                                 3 −1
+     annual mean discharge for the Meuse at Liege is 276 m s (Ashagrie et al., 2006).             Conclusions      References
+     The Meuse has a relative fast response to rainfall, so it is relatively sensitive to both
+                                                                                                    Tables           Figures
+     flooding and drought. The river flood waves do mainly occur during the winter half year.
+                                                                                                       J                  I
+     3 Data and methodology
+                                                                                                      J                   I
+
+20   In this study the KNMI model RACMO2 (Lenderink et al., 2003) is used. The model                 Back                Close
+     is developed over the past few years and is the second version of a regional atmo-
+     spheric climate model developed by KNMI. RACMO2 has been applied in the frame-                    Full Screen / Esc
+     work of PRUDENCE (Prediction of Regional scenarios and Uncertainties for Defining
+     EuropeaN Climate change risks and Effects; e.g. Van den Hurk et al, 2005) and EN-              Printer-friendly Version
+25   SEMBLES. The RACMO2 run used in this study is forced with output from a transient
+                                                                                                     Interactive Discussion
+     run conducted with ECHAM-5 GCM member 3, under the condition of the SRES-A1B
+                                               4594
+     emission scenario. ECHAM-5 is the fifth generation atmospheric general circulation
+     model developed at the Max Planck institute for meteorology (Roeckner et al., 2003).                HESSD
+     The horizontal resolution of RACMO2 is approximately 25×25 km.
+                                                                                                 6, 4589–4618, 2009
+        The changes in river discharges are estimated using both the direct and bias cor-
+ 5   rected output from RACMO2, to force the hydrological model. In studies using RCMs,
+     systematic biases are considered, which result in under- or overestimation in precipita-       Discharge
+     tion or discharge. Leander et al. (2007) found that the simulated precipitation differed      simulations
+     systematically from the observed precipitation. Both the temperature and the precip-        performed with a
+     itation data created by RACMO2 are bias corrected in this paper. Temperature data          hydrological model
+10   are corrected using one method, and two bias correction methods are used to correct
+     the precipitation data. The first bias correction method is developed by (Leander et         S. C. van Pelt et al.
+     al., 2007) for the Meuse. The second bias correction method is developed by Bakker
+     (2008). Until now this latter method has only been applied to the Rhine river basin. The
+                                                                                                          Title Page
+     section below gives an overview of the used correction methods and the hydrological
+15   model used.                                                                                 Abstract        Introduction
+
+     3.1 The HBV model                                                                          Conclusions      References
+
+                                                                                                  Tables           Figures
+     For this research the HBV model is used, to simulate discharge until 2100 with use
+     of RACMO2 input. The HBV model is a rainfall-runoff model, which includes concep-
+     tual numerical descriptions of hydrological processes at the catchment scale. It was            J                  I
+
+20   originally developed by Swedish Meteorological and Hydrological Institute (SMHI) in            J                   I
+     the early 70s to assist hydropower operations. An advantage of the HBV model is the
+     large number of applications in more than 40 countries world-wide. Its applications           Back                Close
+     cover basins in different climatological and geographical regions, ranging in size from
+                                                                                                     Full Screen / Esc
+     less than one to more than 1 792 000 km2 (Bergström et al., 1994; Bergström, 1995).
+25   In comparison, the Meuse basin has a surface area of 36 000 km2 .
+                                                                                                  Printer-friendly Version
+        The model consists of subroutines for meteorological interpolation, snow accumu-
+     lation and melt, evapotranspiration estimation, soil moisture, runoff generation and a        Interactive Discussion
+     simple routing procedure between sub basins considering lakes. The processes in-
+                                               4595
+     filtration excess overland flow, saturation excess overland flow and subsurface storm
+     flow are represented by one fast flow component. Several sub basins can be combined                    HESSD
+     to obtain the appropriate spatial scale (Booij, 2005).
+                                                                                                    6, 4589–4618, 2009
+         The model used for this study is the HBV-96. For hydrological simulations, the Meuse
+ 5   basin is divided in 15 sub basins (Fig. 1). RACMO2 covers the basin by 15 grid boxes.
+     The simulated area-average precipitation for each of the sub basins was obtained as               Discharge
+     a weighted average over the grid boxes covering the sub basin. The weights were                  simulations
+     determined as the fraction of the sub basin area falling within a specific grid (Leander et    performed with a
+     al., 2007). The HBV model is run with both bias corrected data, the uncorrected dataset       hydrological model
+10   and observed data.The input for the HBV model is temperature (T ), precipitation (P )
+     and potential evapotranspiration (PET). These values are simulated by RACMO2, or                S. C. van Pelt et al.
+     observed. The model is run for the period 1951–2100, and different time-slices will be
+     used in the results.
+                                                                                                             Title Page
+
+     3.1.1 Performance HBV model                                                                    Abstract        Introduction
+
+15   In order to assess the performance of the HBV model, a run with observed temperature          Conclusions      References
+     and precipitation data was executed. The output was compared to the measured river
+                                                                                                     Tables           Figures
+     discharge data. The results are shown in Fig. 2.
+        As can be seen in Fig. 2 the measured discharge is slightly lower than the simulated
+     discharge for nearly every month. The cause of this deviation is not known and may                 J                  I
+
+20   have multiple sources like the stage-discharge relationship, model calibration and the            J                   I
+     limited number of temperature and precipitation observations.
+        Table 1 gives more insight in the performance of the HBV model. The table shows a             Back                Close
+     number of relevant statistics. For instance, the number of days with a discharge above
+                                                                                                        Full Screen / Esc
+     1500 m3 s−1 reflects the risk of flooding events (van Schrojenstein Lantman, 2004).
+25   Values below 60 m3 /s induce problems for shipping and other water supply functions
+                                                                                                     Printer-friendly Version
+     (Wit de et al., 2007a). In this table it can be seen that, especially, discharge during
+     spring and summer is overestimated. The observed value of the summer-half year                   Interactive Discussion
+                                                                                      3 −1
+     mean is much higher than the measured value. The number of days below 60 m s is
+                                               4596
+     almost twice as high for the measured values. This confirms that the HBV model has
+     difficulties in simulating low flows.                                                               HESSD
+     3.2 Bias correction methods for RACMO 2 data                                                6, 4589–4618, 2009
+
+     3.2.1 Temperature                                                                              Discharge
+                                                                                                   simulations
+ 5   For temperature, observed records from the Meuse basin were available from the pe-
+                                                                                                 performed with a
+     riod 1969–1998. See Fig. 1 for locations of observation stations. 30 years of output
+                                                                                                hydrological model
+     during the control period (arbitrarily taken to be the same years 1969–1998 in the fore-
+     cast) of this run was compared to the observed values and showed a systematic bias.          S. C. van Pelt et al.
+     A non-linear bias correction was applied involving shifting and scaling to adjust the
+10   mean and variance.
+                                      ∗
+        The corrected temperature T can be obtained by:                                                   Title Page
+
+     T ∗ = T m + (σT o,s /σT m,a )(T m − Tm ) + (T o,s − T m,a )                          (1)    Abstract        Introduction
+
+                                                                                                Conclusions      References
+     where Tm is the uncorrected daily temperature from RACMO2, To,s is the average of
+     observed temperatures and Tm,a is the corresponding basin average temperature from           Tables           Figures
+15   RACMO 2. An overbar denotes the 30 year average, subscript o the observed values,
+     m the modeled values and σ the standard deviation                                               J                  I
+        The 30 year average and the standard deviation were separately determined for each
+     five-day period of the year as the ratio between the average observed and RACMO2               J                   I
+     temperature in a 65-day running time window around the considered five-day period,
+                                                                                                   Back                Close
+20   following (Leander et al., 2007).
+                                                                                                     Full Screen / Esc
+     3.2.2 Precipitation
+                                                                                                  Printer-friendly Version
+     For precipitation observational records were available from the period 1969–1998 and
+     a similar control period was created from the RACMO2 data. The bias for precipitation         Interactive Discussion
+     was corrected using two different methods. In the first method, a two-step correction
+                                              4597
+     was executed to correct for the wet day frequency (Fwet ) and the wet day average
+     (Mwet ). A correction for Fwet is carried out by eliminating or creating wet days. Mwet is            HESSD
+     corrected by decreasing of increasing the wet day average. In the remainder of this
+                                                                                                   6, 4589–4618, 2009
+     report this procedure will be referred to as the “Wet Day (WD) bias correction”.
+ 5      The second correction method uses a non-linear method which corrects the coeffi-
+     cient of variation (CV ) as well as the mean. Each daily amount of precipitation P is            Discharge
+                                        ∗
+     transformed to a new amount P using:                                                            simulations
+                                                                                                   performed with a
+     P ∗ = aP b                                                                             (2)   hydrological model
+        The parameters aand b were estimated for each five-day period using a similar run-          S. C. van Pelt et al.
+10   ning time filter as for temperature. The value of b is determined such that the CV of
+     the corrected daily precipitation matches that of the observed daily precipitation. a is
+     calculated subsequently in order to match the mean of the corrected values to the ob-                  Title Page
+     served mean. This bias correction will be referred to as the “Mean Variance (MV) bias
+                                                                                                   Abstract        Introduction
+     correction”. It is also described by Leander (2007, 2008).
+15      Daily values of Potential Evapotranspiration (PET) for the RACMO2 run were calcu-         Conclusions      References
+     lated using daily values of PET for Belgian sub basins. Similar values for French basins
+     were not available, and therefore the area-weighted average of the Belgian basins was          Tables           Figures
+
+     used for this part. PET was derived for each of the sub basins from the daily tempera-
+     ture T using the relation:                                                                        J                  I
+
+                                                                                                      J                   I
+20   PET = [1 + αo (T − T o )]PETo                                                          (3)
+                                                                                                     Back                Close
+                                                      ◦
+       With T o the mean observed temperature ( C) and PETo the mean observed PET
+     (mm/day) for calendar month m in the period 1969–1998. The proportionality constant               Full Screen / Esc
+     αm was determined for each calendar month by means of a regression of the observed
+     values of PET for the Belgian part of the basin on the observed daily temperatures             Printer-friendly Version
+25   (Leander et al., 2007).
+                                                                                                     Interactive Discussion
+
+
+                                               4598
+     4 Result of bias corrections
+                                                                                                              HESSD
+     4.1 Temperature
+                                                                                                      6, 4589–4618, 2009
+     Bias corrections for temperature were performed on the RACMO2 data according to
+     the methodology described in the previous section. The corrections are performed on                 Discharge
+ 5   each basin separately and are averaged for all 15 sub basins. Figure 3 shows monthly               simulations
+     averages for the period 1969–1998 of the uncorrected and bias corrected temperature              performed with a
+     data for the Meuse basin.                                                                       hydrological model
+       In Fig. 3 the calculated absolute temperature bias for the period 1969–1998 can
+     be seen. The graph shows the difference of RACMO2 data with the observational                     S. C. van Pelt et al.
+10   data before the non-linear bias correction and after correction. Figure 3 shows that
+     the bias of the uncorrected data set is quite large, up to more than one degree in
+     August and December. The bias is very variable between months. After correction the                       Title Page
+     bias is reduced. The average reduction of the bias is 45% and especially the large
+                                                                                                      Abstract        Introduction
+     biases are reduced, together with a decrease in variability. A stronger reduction of
+15   temperature bias could be achieved when the bias correction method is improved. The             Conclusions      References
+     impact of further temperature bias reductions on simulated extreme flows is probably
+                                                                                                       Tables           Figures
+     low (Leander et al., 2008).
+
+     4.2 Precipitation                                                                                    J                  I
+
+
+     For precipitation data two different bias correction methods were applied as described              J                   I
+
+20   before. The corrections were performed on each sub basin and subsequently averaged                 Back                Close
+     for all basins. The MV method corrects for mean and variance, while the WD method
+     corrects the wet day frequency and wet day average. All series shown are corrected                   Full Screen / Esc
+     for the period 1969–1998.
+        In Fig. 4 it is shown that the precipitation bias before correction is highly variable and     Printer-friendly Version
+25   overall quite large, with an average bias of around 25%. In summer the bias is lower
+                                                                                                        Interactive Discussion
+     than in winter, spring and fall.
+                                                4599
+        The WD correction reduces the bias largely. While the original bias varied between
+     almost zero and 43%, the corrected data show a consistently low average bias of 1%.                   HESSD
+     It seems that this correction method is very well capable of reducing the average bias.
+                                                                                                   6, 4589–4618, 2009
+     The MV bias correction method shows more variability and a larger remaining bias,
+ 5   with an average of 6%. This is still quite a reduction in comparison with the original
+     bias of 25%. Only the basin and monthly averaged values are shown.                               Discharge
+        Table 2 gives more information about the bias correction methods. Some statistics            simulations
+     of daily precipitation are shown for comparison of both methods with the uncorrected          performed with a
+     data. A distinction is made between winter and summer half-year. The coefficient of          hydrological model
+10   variation (CV ) is calculated as the ratio between the standard deviation (St.Dev) and
+     the mean.                                                                                      S. C. van Pelt et al.
+        The differences between observed values (OBS) and the RACMO2 control uncor-
+     rected data for winter half-year are larger than the differences for the summer-half
+                                                                                                            Title Page
+     year. Again the reason for these smaller differences in summer could be that the total
+15   amount of precipitation and the extremes are smaller in this period. Table 2 shows that       Abstract        Introduction
+     RACMO2 overestimates the amount of precipitation in all seasons. Mwet is estimated
+                                                                                                  Conclusions      References
+     quite well by uncorrected RACMO2 data, while Fwet is overestimated for both winter and
+     summer half year (see also Fig. 4). It means that the simulated amount of wet days is          Tables           Figures
+     too large, while the mean amount of rainfall on these wet days is estimated fairly well.
+20   After both bias correction methods the average values are corresponding much better               J                  I
+     with observed winter and summer values. For both corrections this is approximately
+     the same. The standard deviation and coefficient of variation (CV) are estimated better          J                   I
+     by the MV method, but also the WD method results in a reduced CV. The Mwet and
+                                                                                                     Back                Close
+     Fwet are clearly estimated better by the WD bias correction method. This is not very re-
+25   markable, because the WD bias correction is aimed to produce correct values of Mwet               Full Screen / Esc
+     and Fwet .
+        As mentioned in the introduction, extremes in discharge are often preceded by mul-          Printer-friendly Version
+     tiple days of heavy rainfall. A realistic simulation should represent this temporal signa-
+     ture. To check whether this is the case, the yearly maxima of the ten-day precipitation         Interactive Discussion
+
+
+                                               4600
+     totals are calculated and displayed for both bias correction methods and the observed
+     rainfall in Fig. 5 as function of the reduced Gumbel variate.                                       HESSD
+        Figure 5 shows that the WD bias correction gives substantially lower results than the
+                                                                                                 6, 4589–4618, 2009
+     observed data. The uncorrected model output and MV bias correction resemble the
+ 5   observed data set better. This graph shows that the WD bias correction reduces the
+     number of successive rainy days, which are generally responsible for high discharge            Discharge
+     levels. The WD bias correction produces less high flood peaks which has an impact             simulations
+     on modelled future extreme discharges. Figure 6 shows the observed period in com-           performed with a
+     parison to the RACMO2 scenario period 2071–2100. The MV bias corrected data                hydrological model
+10   simulates increase of the number of successive rainy days for the scenario period than
+     present in the observed data. This implies that more high discharges will be simulated       S. C. van Pelt et al.
+     by the HBV model.
+        Figure 7 shows the relative change in the annual cycle of precipitation between the
+                                                                                                          Title Page
+     control period and the end of the 21st century using both bias correction methods. The
+15   data are basin and monthly averaged. For the end of this century it is projected that       Abstract        Introduction
+     the winter precipitation will increase and the summer period will be drier. The average
+                                                                                                Conclusions      References
+     change in summer (April–September) is −10% for the WD bias correction method and
+     −7% for the MV bias correction method. The average change in winter is +19% for WD           Tables           Figures
+     and +29% for the MV method. The summer change is fairly similar for both corrections,
+20   but the MV bias correction shows a much larger average change for the winter period.            J                  I
+     This is probably related to the wet day fraction corrected by WD, and the small change
+     of the mean precipitation on wet days.                                                         J                   I
+
+                                                                                                   Back                Close
+     5 Results HBV model
+                                                                                                     Full Screen / Esc
+
+     Figure 8 displays the average monthly discharges of calculated observed values and
+25   the RACMO2 runs. The simulated discharges for 2071–2100 are higher than the cur-             Printer-friendly Version
+
+     rent discharges, but there is a large variability between the different RACMO2 runs.          Interactive Discussion
+     The original RACMO2 run overestimates the discharge, which is related to the tem-
+                                              4601
+     perature and precipitation bias. The difference between the two bias corrections is not
+     very large. The MV bias correction estimates the discharge to be slightly higher than               HESSD
+     the WD bias correction. Summers are expected to become drier and the results on low
+                                                                                                 6, 4589–4618, 2009
+     flows seem to confirm this. The number of days with less than 60 m3 s−1 is higher for
+ 5   the RACMO2 runs than simulated for the control period 1969–1998.
+        The results of the discharge simulation runs with the HBV model are displayed in Ta-        Discharge
+     ble 3. The HBV-CTL values are simulated from the observed temperature and precipi-            simulations
+     tation data. These values are compared to the control period of RACMO2 uncorrected          performed with a
+     and the control and scenario period of RACMO2 bias corrected statistics.                   hydrological model
+10      Table 3 shows that the annual mean of the control period 1969–1998 is overesti-
+     mated by all RACMO2 runs. The higher values are also visible in winter and summer            S. C. van Pelt et al.
+     half-year mean. The overestimation of the annual mean is similar for the WD bias cor-
+     rection method (7%) and for the MV bias correction method (5%). The difference in
+                                                                                                          Title Page
+     average precipitation between the observed values and both correction methods was
+15   less than 1%. The table also shows that the number of days with more than 1500 m3 s−1       Abstract        Introduction
+     discharge is reduced by both bias correction methods. This indicates that extremes are
+                                                                                                Conclusions      References
+     not simulated accurately and could be underestimated.
+        In Table 3 the scenario period of both RACMO2 bias corrected runs are also shown.         Tables           Figures
+     Both bias corrected runs show an increase of discharge for the simulated 30 year sce-
+20   nario period at the end of this century, compared to their control simulations. RACMO2          J                  I
+     WD shows an increase of almost 9% between the future and control simulations.
+     RACMO2 MV results in a much larger increase of 20%. For the number of days above               J                   I
+             3 −1
+     1500 m s the WD correction method shows only a small increase, while RACMO2
+                                                                                                   Back                Close
+     MV has a very large increase. Note however that Fig. 5 showed that the WD method
+25   overcorrects the number of successive precipitation days. This effect is also visible in        Full Screen / Esc
+     the maximum discharge, which is considerably lower than the HBV-CTL maximum and
+     the values of the other RACMO2 runs. The future scenario of RACMO2 WD even has               Printer-friendly Version
+     a lower maximum than the present day climate. In Fig. 6, it was also shown that the
+     MV method yields higher values for the 10-day precipitation amounts. This effect could        Interactive Discussion
+
+
+                                              4602
+     result in a higher extreme discharge. The number of days with a moderately high dis-
+                                         3 −1
+     charge between 800 and 1500 m s is higher for the both RACMO2 runs. Overall, in                    HESSD
+     spite of the large differences, the RACMO2 data do indicate that with the A1B scenario,
+                                                                                                6, 4589–4618, 2009
+     used in the RACMO2 ECHAM 5 run, the river Meuse will have substantial higher peak
+ 5   discharges at the end of this century.
+                                                 3 −1
+         For low flow the threshold value is 60 m s . A sensitivity analysis shows that the        Discharge
+     discharge below and above this threshold decreases or increases linearly with days.          simulations
+                                                          3 −1
+     Table 3 shows that the number of days below 60 m s almost doubles for both bias            performed with a
+     corrected scenarios. The summer half-year mean decreases with almost 17% for the          hydrological model
+10   WD bias correction and with almost 13% for the MV bias correction method. This is
+     consistent with the expectations of drier summers: the precipitation decrease for WD        S. C. van Pelt et al.
+     method was 10% and for MV 7%. As evaporation rates are much higher in the summer,
+     it is expected that the decrease in discharge is higher.
+                                                                                                         Title Page
+
+                                                                                                Abstract        Introduction
+     6 Discussion
+                                                                                               Conclusions      References
+15   A problem with the use of RCMs for hydrological purposes is that the simulated pre-
+     cipitation differs systematically from the observed precipitation. This is observed in      Tables           Figures
+     multiple studies (Jacob et al., 2007; Leander et al., 2007; Leander et al., 2008). Two
+     different bias correction methods are used to correct the precipitation records. The           J                  I
+     results show large differences between these correction methods. The WD bias cor-
+                                                                                                   J                   I
+20   rection method shows almost no remaining bias in Fig. 4, but Fig. 5 shows that this
+     method removes too many successive precipitation events. The HBV model hardly                Back                Close
+     simulates extreme discharges with input of the WD bias corrected RACMO data. The
+                                                                                                    Full Screen / Esc
+     bias of the MV method compared to the observed data is a little larger, but the average
+     is simulated well and the standard deviation and CV are simulated better than the WD
+25   bias correction method. The yearly maxima of the ten-day precipitation totals are well      Printer-friendly Version
+
+     simulated.                                                                                   Interactive Discussion
+        For the WD bias correction the mean increase in winter discharge is 23%, which is
+                                             4603
+     higher than the relative increase in precipitation. For summer discharge the decrease
+     in discharge is 17%, which is also higher than the relative decrease in precipitation.               HESSD
+     For the MV bias correction the same applies, with a mean increase in winter discharge
+                                                                                                  6, 4589–4618, 2009
+     of 38% and a mean decrease in summer discharge of 13%. In winter the increase in
+ 5   precipitation is somewhat lower than the increase in discharge, which means that the
+     water storage changes in the winter. In summer the decrease in precipitation is lower           Discharge
+     than the decrease in discharge, due to increased evaporation rates in summer.                  simulations
+        The maximum discharges of the WD bias correction are not higher than the maxi-            performed with a
+     mum discharge of the historical period. This was expected, because the method cor-          hydrological model
+10   rected for the days with successive heavy rain, which is needed for high discharge
+     (see Fig. 5). The uncorrected and MV corrected discharge shows higher values than             S. C. van Pelt et al.
+     the observed period 1969–1998. This was expected from Fig. 6, which shows that the
+     scenario period of MV has more successive rainy days than the period 1969–1998.
+                                                                                                           Title Page
+        It is projected that winters will become wetter and extreme precipitation amounts will
+15   increase (KNMI, 2006). The results of this study, using a high resolution A1B RACMO2         Abstract        Introduction
+     scenario, show that HBV simulates higher discharges for the Meuse at the end of
+                                                                                                 Conclusions      References
+     this century. This confirms results from previous studies on discharges (Wit de et al.,
+     2001a, 2007b; Booij, 2005).                                                                   Tables           Figures
+        Only the SRES scenario A1B is used in this study, and the results need to be con-
+20   firmed by using a more comprehensive set of GCM simulations (Leander et al., 2008)               J                  I
+     as changes in mean precipitation, change in the CV of 10-day precipitation amount are
+     controlled strongly by the driving GCM.                                                         J                   I
+        The HBV model seems to have systematic biases, which result in over- or under-
+                                                                                                    Back                Close
+     estimations of the discharge. Research did point out that is not quite clear how well
+25   HBV can describe flood peaks (Booij 2005; Leander et al. 2005). De Wit (2007b) ob-               Full Screen / Esc
+     served some deviations in the HBV model for the 1985–1998 record. The HBV model
+     simulates monthly average discharges well for the months with the highest (January)           Printer-friendly Version
+     and lowest (August) discharge, but they are generally overestimated during spring and
+     underestimated during autumn. It also appears that in HBV most of the summer pre-              Interactive Discussion
+
+
+                                              4604
+     cipitation infiltrates the surface, whereas in reality summer precipitation often results in
+     small but fast responses in river discharge. Leander et al. (2005) stated that the model                     HESSD
+     does not consider the possibility of inundations upstream of Borgharen. This may limit
+                                                                                                          6, 4589–4618, 2009
+     the amount of water that can reach the Netherlands.
+ 5      For the critical low discharge this research only partly confirmed the results of De
+     Wit (2007). The HBV model does simulate substantially more low flows for the end                        Discharge
+     of this century. However, the HBV model overestimates the discharge in the summer                      simulations
+     period. Reason for this could be that refill from groundwater aquifers compensate for                performed with a
+     the reduced precipitation and increased evapotranspiration. Another reason could be                 hydrological model
+10   that HBV has problems with simulation of low flows. If the model is validated specifically
+     against low-flow indices the performance could be improved (Wit de et al., 2007a).                    S. C. van Pelt et al.
+        The results of this study emphasize the importance of an adequate bias correction
+     method. The bias corrections are developed using data from the period 1969-1998 and
+                                                                                                                   Title Page
+     are applied on the whole RACMO2 run of 1951–2100. Here the assumption is made
+15   that the corrections done for the historical period can also be applied to the period                Abstract        Introduction
+     1998–2100. It is important that these methods are tested when more historical records
+                                                                                                         Conclusions      References
+     are available.
+     Acknowledgements. Robert Leander and Alexander Bakker (KNMI) provided the codes for bias              Tables           Figures
+     corrections and helped with questions about the codes. The temperature and precipitation data
+20   of the Meuse basin were provided by KNMI and by the Royal Meteorological Institute of Belgian            J                  I
+     for the Belgian. The HBV-96 model was provided by Deltares.
+                                                                                                             J                   I
+
+     References                                                                                             Back                Close
+
+
+     Aalders, P., Warmerdam, P. M. M., and Torfs, P. J. J. F.: Rainfall generator for the Meuse basin;        Full Screen / Esc
+       3000 year discharge simulations in the Meuse basin, in: Wageningen UR, 2004.
+25   Ashagrie, A. G., Laat de, P. J. M., Wit de, M. J. M., and Uhlenbrook, S.: Detecting the influence     Printer-friendly Version
+       of land use changes on discharges and floods in the Meuse River Basin- the predictive power
+       of a ninety-year rainfall-runoff relation?, Hydrol. Earth Syst. Sci., 10, 691–701, 2006,             Interactive Discussion
+       http://www.hydrol-earth-syst-sci.net/10/691/2006/.
+                                                  4605
+     Bakker, A.: Bias correction and resampling of RCM daily precipitation and temperature for the
+        assessment of extreme Rhine discharges, in: 8th Annual Meeting of the EMS/7th ECAC,                     HESSD
+        2008.
+     Bergstrom, S., Carlsson, B., Gardelin, M., Lindstrom, G., Pettersson, A. and Rummukainen,          6, 4589–4618, 2009
+ 5      M.: Climate change impacts on runoff in Sweden-assessments by global climate models,
+        dynamical downscaling and hydrological modelling, Climate Res. 16, 101–112, 2001.
+     Bergström, S.: The HBV model, Water Resource Publications, 9, 443–476, 1995.                         Discharge
+     Bergström, S. and Carlsson, B.: River Runoff to the Baltic Sea, Ambio, 23, 280–287, 1994.           simulations
+     Booij, M. J.: Extreme daily precipitation in western Europe with climate change at appropriate     performed with a
+10      spatial scales, Int. J. Climatol., 22, 69–85, 2002b.                                           hydrological model
+     Booij, M. J.: Impact of climate change on river flooding assessed with different spatial model
+        resolutions, J. Hydrol., 303, 176–198, 2005.                                                     S. C. van Pelt et al.
+     Hurk van den, B., Albert, K. T., Lenderink, G., Ulden van, A., Oldenborgh van, G. J., Katsman,
+        C., Brink van den, H., Keller, F., Bessembinder, J., Burgers, G., Komen, G., Hazeleger, W.
+15      and Drijfhout, S.: KNMI Climate Change Scenarios 2006 for the Netherlands, in: De Bilt:                  Title Page
+        KNMI, 2006.
+     IPCC: Climate Change 2007: Synthesis Report, IPCC, 2007.                                           Abstract        Introduction
+     KNMI: Climate in the 21st century, four scenarios for the Netherlands, in: De Bilt: KNMI, 2006.
+     Leander, R. and Buishand, T. A.: Resampling of regional climate model output for the simulation   Conclusions      References
+20      of extreme river flows, J. Hydrol., 332, 487–496, 2007.
+                                                                                                         Tables           Figures
+     Leander, R., Buishand, T., van den Hurk, B., and de Wit, M.: Estimated changes in flood
+        quantiles of the river Meuse from resampling of regional climate model output, J. Hydrol.,
+        351, 331–343, 2008.                                                                                 J                  I
+     Lenderink, G., Hurk van den, B., Meijgaard van, E., Ulden van, A., and Cuijpers, H.: Simulation
+25      of present-day climate in RACMO 2: first results and model developments, in: KNMI, 2003.           J                   I
+     Lorenz, P. and Jacob, D.: Validation of temperature trends in the ENSEMBLES RCM runs
+                                                                                                          Back                Close
+        driven by ERA40, EMS8, 5, 2008.
+     Pfister, L., Kwadijk, J., Musy, A., Bronstert, A., and Hoffmann, L.: Climate change, land use          Full Screen / Esc
+        change and runoff prediction in the Rhine-Meuse basins, River Res. Applic., 20, 229–241,
+30      2004.
+     Roeckner, E., Bäuml, G., Bonaventura, L., Brokopf, R., Esch, M., Giorgetta, M., Hagemann,          Printer-friendly Version
+        S., Kirchner, I., Kornblueh, L., Manzine, E., Rhodin, A., Schlese, U., Schulzweida, U., and
+                                                                                                          Interactive Discussion
+        Tompkins, A.: The atmospheris general circulation model ECHAM 5, in: Max Planck Institut
+
+                                                 4606
+        für Meteorologie, 2003.
+     Swedish Meteorological and Hydrological Institute (SMHI): The HBV model, 2007.                                   HESSD
+     Smits, I., Wijngaarden, J., Versteeg, R. and Kok, M.: Statistiek van extreme neerslag in Neder-
+        land, Utrecht, STOWA, 2004.                                                                           6, 4589–4618, 2009
+ 5   Tu, M., Hall, M. J., Laat de, P. J. M., and Wit de, M. J. M.: Extreme floods in the Meuse river
+        over the past century: aggravated by land-use changes?, Phys. Chem. Earth, 30, 267–276,
+        2005a.                                                                                                   Discharge
+     Tu, M., Laat de, P. J. M., Hall, M. J., and Wit de, M. J. M.: Precipitation variability in the Meuse       simulations
+        basin in relation to atmospheric circulation, Water Sci. Technol., 51, 5–14, 2005b.                   performed with a
+10   Uijlenhoet, R., Wit de, M. J. M., Warmerdam, P. M. M., and Torfs, P. J. J. F.: Statistical analysis     hydrological model
+        of daily discharge data of the river Meuse and its tributaries (1968–1998): Assessment of
+        drought sensitivity, Wageningen University and Research Centre, Wageningen, The Nether-                S. C. van Pelt et al.
+        lands, 2001.
+     Van Schrojenstein Lantman, J.: Hoogwatervoorspellingen op de Maas in crisissituaties,
+15      Twente, Ministerie van Verkeer en Waterstaat, 2004.                                                            Title Page
+     Warmerdam, P. M. M. and Wit de, M. J. M.: Climate change and low flows in the river Meuse,
+        Wageningen University, Wageningen, 2001.                                                              Abstract        Introduction
+     Wit de, M. J. M.: Effect of climate change on the hydrology of the river Meuse, Wageningen
+        UR, 2001a.                                                                                           Conclusions      References
+20   Wit de, M. J. M., Buiteveld, H., and Deursen van, W. P. A.: Klimaatverandering en de afvoer
+                                                                                                               Tables           Figures
+        van Rijn en Maas, RIZA, 2007b.
+     Wit de, M. J. M., Uijlenhoet, R., Warmerdam, P. M. M., Torfs, P. J. J. F., Roulin, E., and Dewil, P.:
+        Statistical analysis of discharge time series in the Meuse basin, in: Sustainable Use of Land             J                  I
+        and Water, 19th European Regional Conference of ICID, Brrno & Prague, Czech Republic,
+25      2001b.                                                                                                   J                   I
+     Wit de, M. J. M., Hurk van den, B., Warmerdam, P. M. M., Torfs, P. J. J. F., Roulin, E., and
+                                                                                                                Back                Close
+        Deursen van, W. P. A.: Impact of climate change on low-flows in the river Meuse, Clim.
+        Change, 82, 351–372, 2007a.                                                                               Full Screen / Esc
+
+
+                                                                                                               Printer-friendly Version
+
+                                                                                                                Interactive Discussion
+
+
+                                                    4607
+                                                                                                       HESSD
+                                                                                               6, 4589–4618, 2009
+
+
+                                                                                                  Discharge
+                                                                                                 simulations
+                                                                                               performed with a
+                                                                                              hydrological model
+Table 1. Statistics of modeled and observed values over period 1969–1998 at Borgharen.
+HBV-CTL values are model calculations using observed temperature and precipitation records.     S. C. van Pelt et al.
+
+                                        Modeled values (HBV-CTL)      Observed values
+   Annual mean (m3 /s)                             257                     227                          Title Page
+
+   No of days >=1500 m3 s−1 (%)                     0.4                     0.5
+                                                                                               Abstract        Introduction
+   No of days 800 < >1500 m3 s−1 (%)                4.6                     4.2
+   No of days <=60 m3 s−1 (%)                      15.7                    29.0               Conclusions      References
+                        3
+   Maximal discharge (m /s)                        2837                    2959
+                       3                                                                        Tables           Figures
+   Minimal discharge (m /s)                         8.5                      0
+                            3
+   Winter half-year mean (m /s)                    329                     320
+                              3                                                                    J                  I
+   Summer half-year mean (m /s)                    183                     132
+                                                                                                  J                   I
+
+                                                                                                 Back                Close
+
+                                                                                                   Full Screen / Esc
+
+
+                                                                                                Printer-friendly Version
+
+                                                                                                 Interactive Discussion
+
+
+                                          4608
+                                                                                                          HESSD
+                                                                                                  6, 4589–4618, 2009
+
+
+                                                                                                     Discharge
+                                                                                                    simulations
+                                                                                                  performed with a
+Table 2. Statistics of both correction methods. OBS means observed values for the period         hydrological model
+1969–1998. St.Dev. means standard deviation and CV means coefficient of variation. Mwet
+                                                                                                   S. C. van Pelt et al.
+[>=0.3] are the number of days with an average of more than 0.3 mm precipitation. Fwet [>=0.3]
+refers to the percentage of wet days. The statistics are averages over all sub-basins. Winter
+half-year is from October to March, summer half-year is from April to September. No-corr
+means uncorrected RACMO2 data. WD or MV refer to the bias correction methods applied to                    Title Page
+the RACMO2 data.
+                                                                                                  Abstract        Introduction
+
+ 1969–1998          OBS Winter   No-corr   WD      MV    OBS Summer     No-corr   WD     MV
+                                                                                                 Conclusions      References
+ Average               2.78        3.60    2.79   2.77       2.43        2.81     2.44   2.42
+ St. Dev               4.78        4.89    4.61   4.77       4.42        4.55     4.51   4.42      Tables           Figures
+ CV                    1.73        1.36    1.66   1.72       1.82        1.63     1.85   1.84
+ Mwet [>=0.3]          4.97        4.93    4.99   4.49       4.85        4.66     4.90   4.32
+                                                                                                      J                  I
+ Fwet (%) [>=0.3]      55.3        72.2    55.2   61.1       49.9        59.8     50.1   55.7
+                                                                                                     J                   I
+
+                                                                                                    Back                Close
+
+                                                                                                      Full Screen / Esc
+
+
+                                                                                                   Printer-friendly Version
+
+                                                                                                    Interactive Discussion
+
+
+                                            4609
+                                                                                                                              HESSD
+                                                                                                                      6, 4589–4618, 2009
+
+
+                                                                                                                         Discharge
+                                                                                                                        simulations
+                                                                                                                      performed with a
+                                                                                                                     hydrological model
+Table 3. Statistics of the various HBV runs using observations (CTL) and uncorrected and
+                                                                                                                       S. C. van Pelt et al.
+corrected RACMO runs for the control and future periods. The HBV-CTL values reported in
+Table 1 are repeated here for comparison reasons.
+
+                                    HBV-CTL     RACMO2 uncorrected       RACMO2 WD               RACMO2 MV                     Title Page
+                                    1969–1998       1969–1998        1969–1998   2071–2100   1969–1998   2071–2100
+ Annual mean (m3 s−1 )                 256             413              274         298         271         325       Abstract        Introduction
+ No of days >=1500 m3 s−1 (%)          0.4              1.4              0.2        0.3         0.3          1.5
+ No of days 800< >1500 m3 s−1 (%)       4.5            13.6              4.6         9.0         4.9        11.5     Conclusions      References
+ No of days <=60 m3 s−1 (%)            15.7             7.3             13.5        25.7        15.1        26.7
+ Maximal discharge (m3 s−1 )          2836            3224             2384        2069        2868        3017        Tables           Figures
+ Minimal discharge (m3 s−1 )            8.4            29.6             23.8         3.2        18.5        2.8
+                         3 −1
+ Winter half-year mean (m s )          329             546              354         433         347         478
+                             3 −1
+ Summer half-year mean (m s )          182             412              194         161         194         169           J                  I
+
+                                                                                                                         J                   I
+
+                                                                                                                        Back                Close
+
+                                                                                                                          Full Screen / Esc
+
+
+                                                                                                                       Printer-friendly Version
+
+                                                                                                                        Interactive Discussion
+
+
+                                                       4610
+                                                           HESSD
+                                                   6, 4589–4618, 2009
+
+
+                                                      Discharge
+                                                     simulations
+                                                   performed with a
+                                                  hydrological model
+
+                                                    S. C. van Pelt et al.
+
+
+                                                            Title Page
+
+                                                   Abstract        Introduction
+
+                                                  Conclusions      References
+
+                                                    Tables           Figures
+
+
+                                                       J                  I
+
+                                                      J                   I
+
+                                                     Back                Close
+
+                                                       Full Screen / Esc
+
+
+Fig. 1. Meuse Basin and observation stations.       Printer-friendly Version
+
+                                                     Interactive Discussion
+
+
+                                           4611
+                                                                                                                 HESSD
+                                                                                                         6, 4589–4618, 2009
+
+
+                                                                                                            Discharge
+                                                         Discharge period 1969-1998                        simulations
+                                           500                                                           performed with a
+                                           450                           Calculated discharge           hydrological model
+                Average discharge (m3/s)
+
+
+                                                                         Measured discharge
+                                           400
+                                                                                                          S. C. van Pelt et al.
+                                           350
+                                           300
+                                           250                                                                    Title Page
+                                           200
+                                                                                                         Abstract        Introduction
+                                           150
+                                           100                                                          Conclusions      References
+                                            50
+                                                                                                          Tables           Figures
+                                             0
+                                                 J   F   M   A   M   J    J    A    S    O      N   D
+                                                                                                             J                  I
+                                                                     Month
+                                                                                                            J                   I
+Fig. 2. Performance of the HBV model. Shown are the mean annual cycle of calculated
+discharge with use of observed temperature and precipitation and measured discharge at                     Back                Close
+Borgharen for period 1969–1998. The discharge is averaged over 30 years.
+                                                                                                             Full Screen / Esc
+
+
+                                                                                                          Printer-friendly Version
+
+                                                                                                           Interactive Discussion
+
+
+                                                                 4612
+                                                                                                       HESSD
+                                                                                               6, 4589–4618, 2009
+
+
+                                                                                                  Discharge
+                                                                                                 simulations
+                             1.5
+                                                                   RACMO 1969-1998             performed with a
+                               1                                   RACMO 1969-1998            hydrological model
+                                                                   biascorrected
+
+                                                                                                S. C. van Pelt et al.
+                             0.5
+                 Bias [ºC]
+
+
+
+
+                               0
+                                                                                                        Title Page
+                             -0.5
+                                                                                               Abstract        Introduction
+
+                              -1
+                                                                                              Conclusions      References
+
+                             -1.5                                                               Tables           Figures
+                                    J   F   M   A   M     J    J   A    S     O      N   D
+                                                          Month
+                                                                                                   J                  I
+Fig. 3. Absolute temperature bias of RACMO2 data compared to observed data for the period
+                                                                                                  J                   I
+1969–1998, before and after bias correction. The bias is shown per month, averaged over all
+15 sub basin and 30 years                                                                        Back                Close
+
+                                                                                                   Full Screen / Esc
+
+
+                                                                                                Printer-friendly Version
+
+                                                                                                 Interactive Discussion
+
+
+                                                        4613
+                                                                                                                HESSD
+                                                                                                        6, 4589–4618, 2009
+
+
+                                                                                                           Discharge
+                                      50                                                                  simulations
+                                                                      RACMO 1969-1998
+                                                                                                        performed with a
+                                      40                              RACMO 1969-1998 MV
+                                                                      bias corrected
+                                                                                                       hydrological model
+                                                                      RACMO 1969-1998 WD
+                                      30                              bias corrected                     S. C. van Pelt et al.
+                  Relative bias (%)
+
+
+
+
+                                      20
+
+
+                                      10                                                                         Title Page
+
+                                       0                                                                Abstract        Introduction
+
+                                      -10                                                              Conclusions      References
+
+                                      -20                                                                Tables           Figures
+                                            J   F   M   A   M     J       J    A    S      O   N   D
+                                                                  Month                                     J                  I
+
+Fig. 4. Relative bias of RACMO2 data compared to the observed data for the period 1969–                    J                   I
+1998, before and after bias corrections. The bias is shown per month, averaged over all 15 sub
+basins and 30 years                                                                                       Back                Close
+
+                                                                                                            Full Screen / Esc
+
+
+                                                                                                         Printer-friendly Version
+
+                                                                                                          Interactive Discussion
+
+
+                                                                4614
+                                                                                                                   HESSD
+                                                                                                           6, 4589–4618, 2009
+
+                                                            160
+                                                                       Observed 1969−1998                     Discharge
+                 yearly maximum 10 day precipitation (mm)              WD                                    simulations
+                                                            140        No correction                       performed with a
+                                                                                                          hydrological model
+                                                                       MV
+                                                            120                                             S. C. van Pelt et al.
+
+
+                                                            100
+                                                                                                                    Title Page
+
+
+                                                             80                                            Abstract        Introduction
+
+                                                                                                          Conclusions      References
+                                                             60
+                                                                                                            Tables           Figures
+
+
+                                                             40                                                J                  I
+                                                              −2   −1      0      1      2        3   4
+                                                                    standardized Gumbel variate (−)           J                   I
+
+
+Fig. 5. Gumbel plot with ten-day precipitation amounts. Both observed and modeled values                     Back                Close
+are shown, including RACMO2 data with no bias correction, WD bias correction and MV bias
+                                                                                                               Full Screen / Esc
+correction. All data refer to the period 1969–1998.
+
+                                                                                                            Printer-friendly Version
+
+                                                                                                             Interactive Discussion
+
+
+                                                                             4615
+                                                                                                                   HESSD
+                                                                                                           6, 4589–4618, 2009
+
+
+                                                             160                                              Discharge
+                                                                       Observed 1969−1998
+                  yearly maximum 10 day precipitation (mm)
+                                                                                                             simulations
+                                                                       No correction                       performed with a
+                                                             140       MV                                 hydrological model
+                                                                       WD                                   S. C. van Pelt et al.
+                                                             120
+
+
+                                                             100                                                    Title Page
+
+                                                                                                           Abstract        Introduction
+                                                             80
+                                                                                                          Conclusions      References
+
+                                                                                                            Tables           Figures
+                                                             60
+
+                                                                                                               J                  I
+                                                             40
+                                                              −2   −1      0      1      2        3   4       J                   I
+                                                                    standardized Gumbel variate (−)
+                                                                                                             Back                Close
+Fig. 6. As Fig. 5, for the scenario period 2071–2100.
+                                                                                                               Full Screen / Esc
+
+
+                                                                                                            Printer-friendly Version
+
+                                                                                                             Interactive Discussion
+
+
+                                                                             4616
+                                                                                                      HESSD
+                                                                                              6, 4589–4618, 2009
+
+
+                                                                                                 Discharge
+                              60                                                                simulations
+                                                RACMO 2071-2100 MV bias
+                              50                correction                                    performed with a
+                              40
+                                                RACMO 2071-2100 WD bias
+                                                correction
+                                                                                             hydrological model
+                              30                                                               S. C. van Pelt et al.
+                 Change (%)
+
+
+
+
+                              20
+
+                              10
+                                                                                                       Title Page
+                               0
+
+                              -10                                                             Abstract        Introduction
+
+                              -20
+                                                                                             Conclusions      References
+                              -30
+                                                                                               Tables           Figures
+                              -40
+                                    J   F   M   A   M    J    J    A      S   O   N   D
+                                                         Month                                    J                  I
+
+Fig. 7. Relative change of precipitation in the Meuse basin. The simulated scenario period       J                   I
+2071–2100 of RACMO2 MV and WD bias corrections is compared to the RACMO2 control
+                                                                                                Back                Close
+period 1969–1998.
+                                                                                                  Full Screen / Esc
+
+
+                                                                                               Printer-friendly Version
+
+                                                                                                Interactive Discussion
+
+
+                                                     4617
+                                                                                                                    HESSD
+                                                                                                            6, 4589–4618, 2009
+
+
+                                                                                                               Discharge
+                                                                                                              simulations
+                                  1200                                                                      performed with a
+                                                                    Control period 1969-1998               hydrological model
+                                  1000                              RACMO uncorrected 2071-2100
+                                                                    RACMO WD 2071-2100
+                                                                    RACMO MV 2071-2100
+                                                                                                             S. C. van Pelt et al.
+               Discharge (m3/s)
+
+
+
+
+                                   800
+
+
+                                   600
+                                                                                                                     Title Page
+                                   400
+                                                                                                            Abstract        Introduction
+
+                                   200
+                                                                                                           Conclusions      References
+
+                                     0
+                                                                                                             Tables           Figures
+                                         J   F   M   A   M     J     J       A       S         O   N   D
+                                                               Month
+                                                                                                                J                  I
+Fig. 8. Discharge at Borgharen calculated by the HBV model. The input was the observed
+precipitation and temperature values for the control period, as well as simulated precipitation                J                   I
+and temperature values of the three RACMO2 runs.
+                                                                                                              Back                Close
+
+                                                                                                                Full Screen / Esc
+
+
+                                                                                                             Printer-friendly Version
+
+                                                                                                              Interactive Discussion
+
+
+                                                             4618
+

@@ -1,0 +1,61 @@
+version = "1.0"
+id = "exam-conclusion-generation"
+task_type = "skill-bench"
+domain = "medical"
+language = "zh"
+difficulty = "hard"
+case_count = 10
+detail_row_count = 1148
+gold_conclusion_count = 55
+abnormal_case_count = 6
+normal_case_count = 4
+deliverable = "workspace/体检总检结论.xlsx"
+network_access = false
+rollouts_included = false
+
+[scoring]
+primary_score = "reward"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true # only unresolved, evidence-linked conclusion equivalence
+free_text_compared = true
+
+[scoring.weights]
+identification_A = 0.45
+terminology_B = 0.35
+fidelity_C = 0.20
+
+# Every A/B/C hit is weighted by evidence precision, |cited ∩ gold| / |cited|.
+# Recall is not penalised: a gold conclusion backed by several rows does not
+# require the model to cite all of them. This prices citation padding, which is
+# what let candidate dumping survive under the previous formula.
+[scoring.evidence_precision]
+applies_to = ["identification_A", "terminology_B", "fidelity_C"]
+penalises = "citation padding"
+penalises_recall = false
+
+[scoring.gates]
+deliverables_present = "zero"
+source_integrity = "multiplier"
+case_coverage = 1.0
+evidence_same_case = 1.0
+
+[skill]
+name = "exam-conclusion-synthesis"
+reference_count = 4
+lines = 208
+
+# The institutional inclusion boundary is stated as decision criteria, not as
+# numeric cut-offs: no heart-rate, organ-size, or assay threshold appears in any
+# Skill file or in any agent-visible material. Both conditions must derive the
+# boundary themselves, so the comparison measures method rather than constant
+# possession. Gold-term literal overlap with the Skill is zero across all 55
+# conclusions, their recognition aliases, and their evidence row IDs.
+[conditions]
+thresholds_in_skill = false
+thresholds_in_workspace = false
+gold_term_overlap_with_skill = 0
+condition_blind = true

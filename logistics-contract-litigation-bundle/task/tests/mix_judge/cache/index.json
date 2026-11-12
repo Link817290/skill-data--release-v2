@@ -1,0 +1,12 @@
+{
+  "schema": "request-bound-semantic-index-v1",
+  "golden_artifact_signature": "6fc4f80d3bfc07ca6a721e8d8c9446535ab17d14ca3dfff60eadf47b99d266f7",
+  "program_weight": 0.70,
+  "semantic_weight": 0.30,
+  "entries": {
+    "6fc4f80d3bfc07ca6a721e8d8c9446535ab17d14ca3dfff60eadf47b99d266f7": {
+      "cache_key": "d5fea349492923ea9bfa8db02d6274507f6ed1da818108b602897918ae24ef59",
+      "path": "cache/live/d5fea349492923ea9bfa8db02d6274507f6ed1da818108b602897918ae24ef59"
+    }
+  }
+}

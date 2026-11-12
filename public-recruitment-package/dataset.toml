@@ -1,0 +1,39 @@
+version = "1.0"
+id = "public-recruitment-package"
+title = "Prepare a source-aligned public recruitment package"
+task_type = "skill-bench"
+domain = "human-resources"
+language = "zh"
+difficulty = "hard"
+deliverable = "workspace/output"
+required_outputs = [
+  "XX融资担保有限公司2026年公开招聘公告.doc",
+  "附件1某融资担保有限公司2026年公开招聘岗位明细表.xlsx",
+  "附件2 湖南省2026年考试录用公务员专业指导目录.xlsx",
+  "附件3某融资担保有限公司公开招聘诚信承诺书.docx",
+]
+network_access = false
+rollouts_included = false
+task = "task"
+stage = "release"
+reward = "continuous-mixed"
+
+[scoring]
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer_version = "3.4"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+answer_judge_model = "gpt-5.6-sol"
+judge_protocol = "openai-responses"
+
+[judge]
+type = "mixed"
+env = ["LLM_JUDGE_BASE_URL", "LLM_JUDGE_API_KEY", "LLM_JUDGE_MODEL", "LLM_JUDGE_CACHE_DIR", "LLM_JUDGE_MODE", "LLM_JUDGE_TIMEOUT_SECONDS"]
+
+[skills]
+active = ["assemble-public-recruitment-package"]

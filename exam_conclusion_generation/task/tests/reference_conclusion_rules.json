@@ -1,0 +1,267 @@
+{
+  "version": "benchmark-draft-v1",
+  "authority": "Evaluator-only reconstruction aid, not supplied task policy or historical doctor review; no solver access.",
+  "source_sha256": "fcc778e9dcb5936dae5dfaac31d6628ae1822407edd3a38dbe49a1a15539f8b9",
+  "scope": "Read all rows; exclude normal, negative, mere postoperative status and unmapped raw lab values. Match a named field and its positive result; no negated finding. Apply all matched rules, merge identical labels per case, retain distinct findings in a shared source row. No case IDs, conclusion lists or hidden answer required.",
+  "rules": [
+    {
+      "id": "R01",
+      "label": "肝内无回声灶",
+      "field": "肝脏检查",
+      "positive_result_pattern": "(?:肝内|肝脏内).*?无回声"
+    },
+    {
+      "id": "R02",
+      "label": "胆囊息肉样病变",
+      "field": "胆系检查",
+      "positive_result_pattern": "高回声.*?与壁相连.*?无明显声影"
+    },
+    {
+      "id": "R03",
+      "label": "胆囊壁强回声光点伴彗尾征",
+      "field": "胆系检查",
+      "positive_result_pattern": "强回声光点.*?彗尾征"
+    },
+    {
+      "id": "R04",
+      "label": "甲状腺右叶囊肿",
+      "field": "甲状腺彩超",
+      "positive_result_pattern": "甲状腺右叶(?:见|内见)[^；;。]*无回声"
+    },
+    {
+      "id": "R05",
+      "label": "甲状腺左叶两个无回声灶",
+      "field": "甲状腺彩超",
+      "positive_result_pattern": "甲状腺左叶(?:见|内见)[^；;。]*无回声"
+    },
+    {
+      "id": "R06",
+      "label": "甲状腺两叶囊肿",
+      "field": "甲状腺彩超",
+      "positive_result_pattern": "甲状腺两叶见[^；;。]*无回声"
+    },
+    {
+      "id": "R07",
+      "label": "甲状腺右叶低回声结节",
+      "field": "甲状腺彩超",
+      "positive_result_pattern": "甲状腺右叶内见[^；;。]*低回声"
+    },
+    {
+      "id": "R08",
+      "label": "甲状腺回声不均",
+      "field": "甲状腺彩超",
+      "positive_result_pattern": "回声稍粗[，,]不均"
+    },
+    {
+      "id": "R09",
+      "label": "甲状腺左侧结节",
+      "field": "甲状腺",
+      "positive_result_pattern": "甲状腺结节"
+    },
+    {
+      "id": "R10",
+      "label": "左肾无回声灶",
+      "field": "双肾检查",
+      "positive_result_pattern": "左肾实质内可见[^；;。]*无回声"
+    },
+    {
+      "id": "R11",
+      "label": "左肾结石",
+      "field": "双肾检查",
+      "positive_result_pattern": "左肾集合系统内探及[^；;。]*强回声[^；;。]*声影"
+    },
+    {
+      "id": "R12",
+      "label": "左肾高回声光点伴彗尾征",
+      "field": "双肾检查",
+      "positive_result_pattern": "左肾内显示[^；;。]*高回声光点[^；;。]*彗尾征"
+    },
+    {
+      "id": "R13",
+      "label": "右肾高回声光点伴彗尾征",
+      "field": "双肾检查",
+      "positive_result_pattern": "右肾内显示[^；;。]*高回声光点[^；;。]*彗尾征"
+    },
+    {
+      "id": "R14",
+      "label": "肝区回声密、增强",
+      "field": "肝脏检查",
+      "positive_result_pattern": "肝区回声密[，,]增强"
+    },
+    {
+      "id": "R15",
+      "label": "肝区回声密、反射略增强",
+      "field": "肝脏检查",
+      "positive_result_pattern": "肝区回声密[，,]反射略增强"
+    },
+    {
+      "id": "R16",
+      "label": "中度脂肪肝(肝脏脂肪含量约30%-40%)",
+      "field": "肝脏衰减结论",
+      "positive_result_pattern": "中度脂肪肝"
+    },
+    {
+      "id": "R17",
+      "label": "肝脏质地稍韧",
+      "field": "肝脏硬度结论",
+      "positive_result_pattern": "肝脏质地稍韧"
+    },
+    {
+      "id": "R18",
+      "label": "超重",
+      "field": "体重指数",
+      "positive_result_pattern": "超重"
+    },
+    {
+      "id": "R19",
+      "label": "肥胖",
+      "field": "体重指数",
+      "positive_result_pattern": "肥胖"
+    },
+    {
+      "id": "R20",
+      "label": "反射波增强指数异常",
+      "field": "反射波增强指数结论",
+      "positive_result_pattern": "反射波增强指数异常"
+    },
+    {
+      "id": "R21",
+      "label": "舒张压偏高",
+      "field": "血压结论",
+      "positive_result_pattern": "舒张压偏高"
+    },
+    {
+      "id": "R22",
+      "label": "轻度血管硬化",
+      "field": "踝肱脉搏波传导速度baPWV结论",
+      "positive_result_pattern": "轻度硬化"
+    },
+    {
+      "id": "R23",
+      "label": "二尖瓣环Em低于Am",
+      "field": "超声心动图+组织多普勒(TDI)",
+      "positive_result_pattern": "Em[＜<]Am"
+    },
+    {
+      "id": "R24",
+      "label": "基本正常超声心动图（左房饱满）",
+      "field": "超声心动图+组织多普勒(TDI)",
+      "positive_result_pattern": "左房饱满"
+    },
+    {
+      "id": "R25",
+      "label": "乳腺结节",
+      "field": "乳腺触诊成像检测",
+      "positive_result_pattern": "乳腺结节.*?单峰形态规则.*?基底窄边界清.*?活动度好"
+    },
+    {
+      "id": "R26",
+      "label": "双侧乳腺增生",
+      "field": "乳腺触诊成像检测",
+      "positive_result_pattern": "双侧乳腺增生"
+    },
+    {
+      "id": "R27",
+      "label": "双侧乳腺片状增厚",
+      "field": "乳腺",
+      "positive_result_pattern": "双侧片状增厚"
+    },
+    {
+      "id": "R28",
+      "label": "龋齿",
+      "field": "牙体",
+      "positive_result_pattern": "蛀牙"
+    },
+    {
+      "id": "R29",
+      "label": "牙龈炎",
+      "field": "牙周组织",
+      "positive_result_pattern": "牙龈炎"
+    },
+    {
+      "id": "R30",
+      "label": "牙结石2度",
+      "field": "牙周组织",
+      "positive_result_pattern": "牙结石2度"
+    },
+    {
+      "id": "R31",
+      "label": "牙周炎",
+      "field": "牙周组织",
+      "positive_result_pattern": "牙周炎"
+    },
+    {
+      "id": "R32",
+      "label": "鼻中隔弯曲",
+      "field": "鼻腔",
+      "positive_result_pattern": "鼻中隔弯曲"
+    },
+    {
+      "id": "R33",
+      "label": "扁桃体肥大",
+      "field": "咽喉部",
+      "positive_result_pattern": "扁桃体肥大"
+    },
+    {
+      "id": "R34",
+      "label": "宫颈新生物",
+      "field": "宫颈",
+      "positive_result_pattern": "黄豆大小新生物"
+    },
+    {
+      "id": "R35",
+      "label": "宫颈轻度糜烂",
+      "field": "宫颈",
+      "positive_result_pattern": "宫颈轻度糜烂"
+    },
+    {
+      "id": "R36",
+      "label": "宫颈数个无回声灶",
+      "field": "子宫附件检查",
+      "positive_result_pattern": "宫颈部位探及[^；;。]*无回声"
+    },
+    {
+      "id": "R37",
+      "label": "盆腔少量积液",
+      "field": "子宫附件检查",
+      "positive_result_pattern": "盆腔内见深11mm液性暗区"
+    },
+    {
+      "id": "R38",
+      "label": "左肺下叶小结节",
+      "field": "肺部CT检查所见",
+      "positive_result_pattern": "左肺下叶可见结节灶"
+    },
+    {
+      "id": "R39",
+      "label": "两肺索条影",
+      "field": "肺部CT检查所见",
+      "positive_result_pattern": "两肺上叶及右肺下叶可见索条影"
+    },
+    {
+      "id": "R43",
+      "label": "心率偏慢",
+      "field": "心电图",
+      "numeric_rule": {
+        "pattern": "心室率[:：]\\s*(\\d+(?:\\.\\d+)?)bpm",
+        "lt": 60
+      }
+    },
+    {
+      "id": "R44",
+      "label": "心率偏快",
+      "field": "心电图",
+      "numeric_rule": {
+        "pattern": "心室率[:：]\\s*(\\d+(?:\\.\\d+)?)bpm",
+        "gt": 100
+      }
+    }
+  ],
+  "special_conventions": [
+    "These are controlled benchmark labels, including the tactile-image and cervical-polyp mapping; they are declared conventions, not uniquely compelled diagnoses.",
+    "C14 result160 is included by this finite task rule; do not invent a universal threshold absent institution source.",
+    "The two provided prostate-size descriptions use the specified institution labels; this is a finite naming convention, not a general diagnostic cutoff.",
+    "For named textual conclusions accompanied by raw indicators, attach those co-located same-item supporting indicator rows when available; at least one actual supporting row suffices.",
+    "Basic-normal echo with left atrial fullness is an explicitly included controlled label; other routine small regurgitation is not included."
+  ]
+}

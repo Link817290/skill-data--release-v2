@@ -1,0 +1,173 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "post-hearing-argument-2-4",
+  "tasks": [
+    "post-hearing-argument-2-4"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 40,
+  "bytes_excluding_manifest": 916046,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2155,
+      "sha256": "1f9a4034ada3664c870f7d09aeb86f0fdd0faeecd1488b9fd6380eb533a1b0f2"
+    },
+    "RUBRIC.md": {
+      "bytes": 9733,
+      "sha256": "6592b94c7ffb273a88b4f7093b116ca0f40b8864d881efe5a368fe636b9e18ee"
+    },
+    "dataset.toml": {
+      "bytes": 921,
+      "sha256": "c63cbc5bbc1c3b97fa55fdae2e6812e20a82304a4b39af149118fcdf5ee8ed86"
+    },
+    "golden/native-golden.docx": {
+      "bytes": 170941,
+      "sha256": "496e471f4637dbab452ddafa6ff9361d9615c75ab863e13f5141c383f7351cc9"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 408,
+      "sha256": "1b80fe7cdcefa6755894cd7a003609f94d1f379d51dca91cf748bbb58ddda9b6"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 333,
+      "sha256": "ef0fe464f8a981566273387b4ec5530061206a92ccf299565ad2e0c3813488fc"
+    },
+    "task/environment/skills/post-hearing-evidence-control/SKILL.md": {
+      "bytes": 3618,
+      "sha256": "195733dfbd5f29778f22a7bd53992231e7ada23d23c58453d59b2d503ee7270c"
+    },
+    "task/environment/skills/post-hearing-evidence-control/references/payment-and-authority.md": {
+      "bytes": 1719,
+      "sha256": "a1418077bbfc8c3fdb974f028aac9189615ad9f0c0874160fcf593449ae3f81d"
+    },
+    "task/environment/skills/post-hearing-evidence-control/references/pricing-and-appraisal.md": {
+      "bytes": 1946,
+      "sha256": "546bd447dab51e3f0be95e355850cfad3c2f9769fcca831c22e683b79a8f3753"
+    },
+    "task/environment/workspace/materials/case_law_report.txt": {
+      "bytes": 8481,
+      "sha256": "107906241e56a62f8561062e4a55bf53049e226e134e6c04308f1410f2402e2c"
+    },
+    "task/environment/workspace/materials/hearing_1.txt": {
+      "bytes": 12970,
+      "sha256": "9242a87801bfb9a332af4f163e6c47b021041dc91dd53e5eb808b5869bcf6da7"
+    },
+    "task/environment/workspace/materials/hearing_2.txt": {
+      "bytes": 26330,
+      "sha256": "0bebb60f5fa4e7104de96b5d447def969b2dfdefa8d0d5334ee40a4cf73035c5"
+    },
+    "task/environment/workspace/materials/witness_hearing.txt": {
+      "bytes": 7399,
+      "sha256": "c07089bbd413dd9b12345ebf6aa55f9e619650f52680c9052aa628cc27ba0350"
+    },
+    "task/instruction.md": {
+      "bytes": 444,
+      "sha256": "2b9909ab8700eb0366b2dd877b805e20dc4ba7bbe148215a9b316f93b36d42d9"
+    },
+    "task/no-skill-input.json": {
+      "bytes": 290,
+      "sha256": "7fabf12de46671707e9201f2a774f9bec68f50851bd4d73fa948c0d17120ce2a"
+    },
+    "task/solution/reference/native-golden.docx": {
+      "bytes": 170941,
+      "sha256": "496e471f4637dbab452ddafa6ff9361d9615c75ab863e13f5141c383f7351cc9"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 345,
+      "sha256": "67fc0c697565902d3555654c4211a35f1163d7b67d90b22cee3cd7e0bd4ac0c1"
+    },
+    "task/task.toml": {
+      "bytes": 1362,
+      "sha256": "c1ea2f02b427bf577ac61fb946e904fb59f3785658ce2d9fab92e99582f52c45"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1371,
+      "sha256": "a8edf14ed32dfdc4094c573e6feec6fffe0ad50a91141a282b5c2a1dc963bd49"
+    },
+    "task/tests/deliverable_gate.json": {
+      "bytes": 1854,
+      "sha256": "2a00174d5fd96c12d9890874537f26ffa63441ebe0163ee5f3b37d143eaa637e"
+    },
+    "task/tests/deliverable_gate.py": {
+      "bytes": 37883,
+      "sha256": "18a2a26d797b592236795470caf4b616f5e655dcf655ce45527d4fc97ec873b4"
+    },
+    "task/tests/pjroot/rubric-contract.json": {
+      "bytes": 44060,
+      "sha256": "ea24f94489701f1fd7248c6bc63a40cb20ee3b2d03dbaa3a6ee18af54a1972bf"
+    },
+    "task/tests/pjroot/task/environment/workspace/materials/case_law_report.txt": {
+      "bytes": 8481,
+      "sha256": "107906241e56a62f8561062e4a55bf53049e226e134e6c04308f1410f2402e2c"
+    },
+    "task/tests/pjroot/task/environment/workspace/materials/hearing_1.txt": {
+      "bytes": 12970,
+      "sha256": "9242a87801bfb9a332af4f163e6c47b021041dc91dd53e5eb808b5869bcf6da7"
+    },
+    "task/tests/pjroot/task/environment/workspace/materials/hearing_2.txt": {
+      "bytes": 26330,
+      "sha256": "0bebb60f5fa4e7104de96b5d447def969b2dfdefa8d0d5334ee40a4cf73035c5"
+    },
+    "task/tests/pjroot/task/environment/workspace/materials/witness_hearing.txt": {
+      "bytes": 7399,
+      "sha256": "c07089bbd413dd9b12345ebf6aa55f9e619650f52680c9052aa628cc27ba0350"
+    },
+    "task/tests/pjroot/task/tests/program_judge/golden_replay/f9a47d279be42b4da8b3a56e3112dd67af40e5b54025c7b6df4ba7c2e36ce89d.json": {
+      "bytes": 12694,
+      "sha256": "7e4a1c33d87b8735b813436f731436bd910719ea26c8606c1794394e9fc54419"
+    },
+    "task/tests/pjroot/task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22227,
+      "sha256": "ec29a0b4bcc5e3fd2a96e1cffc116ea528f486048da41f4991cd9419d35dae9b"
+    },
+    "task/tests/pjroot/task/tests/program_judge/semantic_judge.py": {
+      "bytes": 10072,
+      "sha256": "b6141004ce610921955795a003b9dafc8317507d843b0627779a260f0e02cb83"
+    },
+    "task/tests/pjroot/task/tests/program_judge/semantic_source.json": {
+      "bytes": 57644,
+      "sha256": "bffa5f60ea9524cfd44d31c2d6519f6a29d2521c4d7d030bb3bd9779483e26cd"
+    },
+    "task/tests/pjroot/task/tests/program_judge/task_judge.py": {
+      "bytes": 46306,
+      "sha256": "03b464d961047b633726f79dc6754bf9df4422752ef7aeac29963793bd2fcc93"
+    },
+    "task/tests/program_judge/golden_replay/f9a47d279be42b4da8b3a56e3112dd67af40e5b54025c7b6df4ba7c2e36ce89d.json": {
+      "bytes": 12694,
+      "sha256": "7e4a1c33d87b8735b813436f731436bd910719ea26c8606c1794394e9fc54419"
+    },
+    "task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22227,
+      "sha256": "ec29a0b4bcc5e3fd2a96e1cffc116ea528f486048da41f4991cd9419d35dae9b"
+    },
+    "task/tests/program_judge/semantic_judge.py": {
+      "bytes": 10072,
+      "sha256": "b6141004ce610921955795a003b9dafc8317507d843b0627779a260f0e02cb83"
+    },
+    "task/tests/program_judge/semantic_source.json": {
+      "bytes": 57644,
+      "sha256": "bffa5f60ea9524cfd44d31c2d6519f6a29d2521c4d7d030bb3bd9779483e26cd"
+    },
+    "task/tests/program_judge/task_judge.py": {
+      "bytes": 46306,
+      "sha256": "03b464d961047b633726f79dc6754bf9df4422752ef7aeac29963793bd2fcc93"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 44060,
+      "sha256": "ea24f94489701f1fd7248c6bc63a40cb20ee3b2d03dbaa3a6ee18af54a1972bf"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2575,
+      "sha256": "417ff126815b594892568fb095f2f818dba6a4ec06530538036b25d120a6a178"
+    },
+    "task/tests/test_delivery_root.py": {
+      "bytes": 2592,
+      "sha256": "91dbd6a9028117d48d22491009ad002ebf882f854725b4518d9233e6491f0c5f"
+    },
+    "task/tests/validator.py": {
+      "bytes": 8249,
+      "sha256": "cab9445fd730c47229641612586eef564d79933762209f8d74a188804f48a17a"
+    }
+  }
+}

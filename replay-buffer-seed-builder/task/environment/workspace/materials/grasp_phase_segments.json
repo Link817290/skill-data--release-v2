@@ -1,0 +1,44 @@
+{
+  "episode_id": "pick_bottle_001",
+  "frame_count": 151,
+  "segments": [
+    {
+      "phase": "reach",
+      "start_frame": 0,
+      "end_frame": 39
+    },
+    {
+      "phase": "approach",
+      "start_frame": 40,
+      "end_frame": 57
+    },
+    {
+      "phase": "contact",
+      "start_frame": 58,
+      "end_frame": 63
+    },
+    {
+      "phase": "grasp",
+      "start_frame": 64,
+      "end_frame": 95
+    },
+    {
+      "phase": "lift",
+      "start_frame": 96,
+      "end_frame": 150
+    }
+  ],
+  "qc": {
+    "has_contact_phase": true,
+    "has_lift_phase": true,
+    "min_segment_len": 5,
+    "merged_short_segments": 0
+  },
+  "source_signals": {
+    "hand_depth_delta_m": {
+      "min": -0.032734,
+      "max": 0.046328
+    },
+    "grasp_source_frame": "frame_0095.jpg"
+  }
+}

@@ -1,0 +1,14 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+COPY task/ /task/
+COPY golden/ /task/golden/
+COPY task/environment/workspace/ /workspace/
+RUN test -f /task/tests/validator.py \
+    && test -f /task/tests/semantic_judge.py \
+    && test -f /task/tests/reference_golden/CASE-001_reasoning.docx \
+    && chmod +x /task/tests/test.sh \
+    && mkdir -p /workspace/output /logs/verifier /logs/artifacts
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+CMD ["/bin/sh"]

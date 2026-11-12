@@ -1,0 +1,14 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/environment/workspace/ /workspace/
+RUN tar -xzf /workspace/progress-library-release-candidate.tar.gz -C /workspace \
+    && test -f /workspace/project/tqdm/std.py \
+    && chmod +x /tests/test.sh \
+    && mkdir -p /workspace/output /logs/verifier /logs/artifacts \
+    && chown -R 1000:1000 /workspace /tests /logs
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+USER 1000:1000
+CMD ["/bin/sh"]

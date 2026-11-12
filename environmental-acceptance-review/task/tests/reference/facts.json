@@ -1,0 +1,99 @@
+{
+  "period": "September 2022; first phase only",
+  "source_scope": "Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.",
+  "outputs": [
+    "一期工程验收监测报告表（批注稿）.docx",
+    "验收材料补充意见.docx"
+  ],
+  "immutable_draft": "一期工程验收监测报告表（复核稿）.docx",
+  "facts": {
+    "product_conflict": "EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.",
+    "polymer_load": {
+      "annual_kg": 400,
+      "days": 300,
+      "daily_actual": [
+        1.2,
+        1.1
+      ],
+      "exact_percent": [
+        90,
+        82.5
+      ],
+      "reported_percent": [
+        92,
+        85
+      ]
+    },
+    "rate": {
+      "date": "2022-09-23",
+      "flow": 23192,
+      "concentration": 3.59,
+      "reported": 0.833,
+      "calculated": 0.08325928,
+      "unit": "kg/h",
+      "comparison_day": 0.06007437
+    },
+    "noise": {
+      "day_max": 59,
+      "night_max": 49,
+      "limits": [
+        65,
+        55
+      ],
+      "margins": [
+        6,
+        6
+      ],
+      "count": 16
+    },
+    "fume": {
+      "measured_out": [
+        0.3,
+        0.4
+      ],
+      "reference_out": [
+        0.2,
+        0.3
+      ],
+      "evaluation_out": [
+        0.3,
+        0.4
+      ],
+      "limit": 1,
+      "efficiency_min_percent": 90,
+      "efficiency_status": "Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows."
+    },
+    "canteen": {
+      "declared_scale": "medium",
+      "NMHC_draft_limit": 1,
+      "NMHC_guideline_large_only": 10,
+      "odor_true_limit": 500,
+      "odor_draft_limit": 6000,
+      "odor_out": [
+        229,
+        309
+      ],
+      "scope": "No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit."
+    },
+    "dates": {
+      "operating": [
+        "09-21",
+        "09-22"
+      ],
+      "water": [
+        "09-22",
+        "09-23"
+      ],
+      "canteen_sludge_noise": [
+        "09-23",
+        "09-24"
+      ]
+    },
+    "phosphorus": "No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.",
+    "ND": "COD detection limit4 mg/L; ND is censored, not zero.",
+    "investment": "22000 initial versus68800 EIA cell; investigate basis; not automatic major change.",
+    "waste": "Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.",
+    "annual_VOC_limit_kg": 69.8,
+    "acceptance": "Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion."
+  }
+}

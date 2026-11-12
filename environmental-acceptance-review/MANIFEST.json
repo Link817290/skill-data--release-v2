@@ -1,0 +1,161 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "environmental-acceptance-review",
+  "tasks": [
+    "environmental-acceptance-review"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 37,
+  "bytes_excluding_manifest": 616489,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 881,
+      "sha256": "7e89a4dbba0a1bdc238be1a0115315718e347d739872ddf7c991eebb042c94d8"
+    },
+    "RUBRIC.md": {
+      "bytes": 3498,
+      "sha256": "2a8ee24cab63ce78b924d2f4de8d4b66d58fcc195ab0df3a173005b3fff82cb6"
+    },
+    "dataset.toml": {
+      "bytes": 55,
+      "sha256": "e233e3ab308c27bedf473eba654fa10428bf1898164ef7438b2c331a6125eb22"
+    },
+    "golden/一期工程验收监测报告表（批注稿）.docx": {
+      "bytes": 47350,
+      "sha256": "52e78485be3be446c34db28127ec7a36815fbbc63b5db62f9db2bd2f5b044142"
+    },
+    "golden/验收材料补充意见.docx": {
+      "bytes": 38361,
+      "sha256": "88bfa30e8247f12341ccd16054bdfbba8871aa3a6b1f0cdd64113f82f3d64f79"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 276,
+      "sha256": "818955e607b05962d52a4a21ffe7060f278eefd78ada6d9f425ba9d7ad98b39a"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 202,
+      "sha256": "6233d6bcd325c365de671837446cb6a92d37ead5a2983f91a5d829e4c457ca06"
+    },
+    "task/environment/skills/review-environmental-acceptance/SKILL.md": {
+      "bytes": 2112,
+      "sha256": "530f52d6cdcf573fc6b20c4fa032fef74417b2bf5d0a3ac29c964ca4109bc684"
+    },
+    "task/environment/skills/review-environmental-acceptance/references/evidence-links.md": {
+      "bytes": 3584,
+      "sha256": "3806f10d02fb1a8ae226f29f2baa62df3c168cd49889617243909899e785c6a2"
+    },
+    "task/environment/skills/review-environmental-acceptance/references/measurement-decisions.md": {
+      "bytes": 4831,
+      "sha256": "97fa481701e3e45ee735811265ffb802d3b8ba7ed0ca2e15a0ccb3d0fa1f2c26"
+    },
+    "task/environment/skills/review-environmental-acceptance/references/review-disposition.md": {
+      "bytes": 3305,
+      "sha256": "69e5a3b409fe454d714668c3216f3d7ad1380d455f99e9b246a107477e8825ee"
+    },
+    "task/environment/skills/review-environmental-acceptance/scripts/read_word_comments.py": {
+      "bytes": 1940,
+      "sha256": "93546b085bf383ffcb4919f02a2a415866c65dfb9953cd5ba8636d9548643304"
+    },
+    "task/environment/skills/review-environmental-acceptance/scripts/review_checks.py": {
+      "bytes": 5695,
+      "sha256": "380d758bb53f4f4dbb46d5bf4c3eb0b8daf024fb860df41c1cf86d079dbffd3f"
+    },
+    "task/environment/workspace/input/一期工程验收监测报告表（复核稿）.docx": {
+      "bytes": 44110,
+      "sha256": "6e4d9c933f6c2d32ec29d5c6941a555528e1df48ac4353b7eb50401c751c7481"
+    },
+    "task/environment/workspace/input/审批要求及验收技术资料摘录.docx": {
+      "bytes": 38848,
+      "sha256": "698fa3fbaf7e1f4819e4728cd69baed41133c3932d5f23ba16a76deebd7ac831"
+    },
+    "task/instruction.md": {
+      "bytes": 752,
+      "sha256": "d009d4266047fc2457c238410728f581b3078c890ecf8584af18f98eb8c45afe"
+    },
+    "task/solution/solve.py": {
+      "bytes": 425,
+      "sha256": "58b2b2adaf4da714645f754bcdd629a532c7aafe7d3b43b35f3daa1f6a317edc"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 111,
+      "sha256": "31bc186ec0da45e8330441a9db0e3edd7e5bd78847d65872cb3bf22554f6604d"
+    },
+    "task/task.toml": {
+      "bytes": 1411,
+      "sha256": "748eb26c7b0342a0674785b138481f22a04d4f22ce20456363e39e279321b98e"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1367,
+      "sha256": "2edc3f1c3aaff750717934e3fd757f952525196ce75a3d99730efca74dda7e76"
+    },
+    "task/tests/evaluate.py": {
+      "bytes": 8267,
+      "sha256": "472363e38f541876585d8c57cb11a45fb69308bf6d2642ba83790d3712db9069"
+    },
+    "task/tests/golden_replay/a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32/evidence.json": {
+      "bytes": 127962,
+      "sha256": "41fabc0dc3d84061a721a36832e07b09221fbd658f18aa39c34b285b4e931f29"
+    },
+    "task/tests/golden_replay/a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32/manifest.json": {
+      "bytes": 1122,
+      "sha256": "e6b68e47399721f9216e129e7a4f3d0780c8d39c17d33694e613773b6b946a64"
+    },
+    "task/tests/golden_replay/a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32/request.json": {
+      "bytes": 132247,
+      "sha256": "a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32"
+    },
+    "task/tests/golden_replay/a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32/response.json": {
+      "bytes": 24904,
+      "sha256": "80edbe4ffc774f7136f3ce89d53b24b2c3312f41abe74ab8df3523b886d3eeff"
+    },
+    "task/tests/golden_replay/a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32/review.json": {
+      "bytes": 89883,
+      "sha256": "04be8aab00429ebebe52389375aed85b9a71975cd48858a613e292c4ab2ad32c"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 4324,
+      "sha256": "480aa120f4ffd8792b3e81070ed2738b538a89cbdfb8e508b2ce2af903f27874"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 13202,
+      "sha256": "a06f3d7740a769eacfa0476b1c0abb80b54cc65363b522ba780cc04a0afd9442"
+    },
+    "task/tests/mix_judge/manifest.json": {
+      "bytes": 1390,
+      "sha256": "38758f381b80d98640e18f069b3a5a3d4f32ab20718a8185a605a31a682274d6"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 2081,
+      "sha256": "02af3e7c1e5ee744157fb694569d0d6c791cfcb004d1d9e18988cddfde8eb977"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 1915,
+      "sha256": "bec00e961f835b656e2753e6f303a3211993e9523d0be67535dd63b9c89b7192"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 136,
+      "sha256": "e75b2da2b7d9baf1539ba49bb6990436c44bb9483e3fab66c92335b9f7f00e74"
+    },
+    "task/tests/read_word_comments.py": {
+      "bytes": 1940,
+      "sha256": "93546b085bf383ffcb4919f02a2a415866c65dfb9953cd5ba8636d9548643304"
+    },
+    "task/tests/reference/facts.json": {
+      "bytes": 2806,
+      "sha256": "045155ef9e545ba7a565048e235cef3e7369b6aab025e9ea393daa53a7ecb688"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 1098,
+      "sha256": "6ae537d8ae88da970988fbca1b2973ae5ee8955d0c663b97cda5991df07d45ab"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1218,
+      "sha256": "e7e650c09a3b065c904c92d90f844ba01008396b33676fa7681e1824218eeb39"
+    },
+    "task/tests/verify.py": {
+      "bytes": 2880,
+      "sha256": "b1c4bd34c360794c2932bc00be843b22f417c5b062954b035c79d032f59d36eb"
+    }
+  }
+}

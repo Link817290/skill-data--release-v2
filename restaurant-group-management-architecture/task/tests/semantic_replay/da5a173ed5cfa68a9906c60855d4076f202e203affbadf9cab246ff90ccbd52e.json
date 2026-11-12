@@ -1,0 +1,292 @@
+{
+  "schema": "restaurant-source-bound-replay-v1",
+  "request_sha256": "da5a173ed5cfa68a9906c60855d4076f202e203affbadf9cab246ff90ccbd52e",
+  "response_sha256": "71932437cf78740a8425563077dc5bf19dae122bfe02afa9635af744f99b4865",
+  "model": "gpt-5.6-sol",
+  "response": {
+    "items": [
+      {
+        "candidate_ids": [
+          "C0001"
+        ],
+        "fraction": 1,
+        "id": "P11_POSITION",
+        "reason": "候选明确将投资BU界定为虚拟BU、非总部，代股份公司实施管控；材料明确其不设部门并借力股份公司总部部门。",
+        "source_ids": [
+          "R10009",
+          "R10016"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0001",
+          "C0002",
+          "C0003"
+        ],
+        "fraction": 1,
+        "id": "P11_CAPITAL",
+        "reason": "候选将投资BU限定于多元存续业务的组合、资本与资产管理，并给出重组、引资合作、并购、可行性分析和专业审核等手段；同时明确排除酒店和重点孵化业务的直接经营。材料支持其组合策略分析、投资及资产变更专业审核职责和范围边界。",
+        "source_ids": [
+          "R10015",
+          "R10016"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0002",
+          "C0004"
+        ],
+        "fraction": 1,
+        "id": "P11_SUPERVISION",
+        "reason": "候选明确投资BU督导辖下企业达成目标，并对董事会下达的多元业务目标实施分解、落实、跟踪和纠偏，属于监督及纠偏而非直接经营。",
+        "source_ids": [
+          "R10016"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0003"
+        ],
+        "fraction": 1,
+        "id": "P11_INVESTMENT_REVIEW",
+        "reason": "候选明确投资BU对多元业务投资和资产变更组织可行性分析、专业审核、提出意见并跟踪落实，同时明确其没有最终审批权；与材料对投资BU及投资发展部的专业审核定位一致。",
+        "source_ids": [
+          "R10015",
+          "R10016",
+          "R30004"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0004",
+          "C0005"
+        ],
+        "fraction": 1,
+        "id": "N1_LEVELS",
+        "reason": "候选明确N+1情形继续采用近期三级管控模式，并将孵化成功且规模化发展的新增产业设为实体BU，未把全部BU虚拟化。",
+        "source_ids": [
+          "R10010",
+          "R10013",
+          "R50001",
+          "R50002"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005"
+        ],
+        "fraction": 1,
+        "id": "N1_DESTINATIONS",
+        "reason": "候选逐类处理集团直管对象：项目公司在项目完成前暂留、完成后终止或按强关联转入养老平台；有前景的非项目业务转入股份公司；前景不明业务可有条件暂留或转移并设置复核和退出条件。",
+        "source_ids": [
+          "R10013",
+          "R50003"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005"
+        ],
+        "fraction": 1,
+        "id": "N1_NEW_BU",
+        "reason": "候选以“已孵化成功并且规模化战略性发展”为新增BU的联合触发条件，符合材料中成功孵化、形成主产业以及规模化运行的要求。",
+        "source_ids": [
+          "R10010",
+          "R10016",
+          "R50002"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005"
+        ],
+        "fraction": 1,
+        "id": "N1_ENTITY",
+        "reason": "候选明确新增成熟产业形成实体BU，并仅配置产业专属能力，与N+1中独立主产业和三级管控结构一致。",
+        "source_ids": [
+          "R10010",
+          "R50001",
+          "R50002"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0004",
+          "C0005"
+        ],
+        "fraction": 1,
+        "id": "N1_FUNCTIONS",
+        "reason": "候选将目标管控、投资发展、证券、风控、人才、办公、财务、采购和信息等垂直管控、专业及共享服务职能保留在股份公司总部，并禁止新增实体BU重复建设共享职能。",
+        "source_ids": [
+          "R10014",
+          "R10015",
+          "R10016",
+          "R50004"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005",
+          "C0006"
+        ],
+        "fraction": 1,
+        "id": "TWO_PLATFORMS",
+        "reason": "候选明确采用酒店生活和养老园区两个板块，并称其为集团依托的两大平台。",
+        "source_ids": [
+          "R10010",
+          "R50001"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005",
+          "C0006"
+        ],
+        "fraction": 1,
+        "id": "TWO_LISTED",
+        "reason": "候选明确养老园区板块和酒店生活板块均由上市公司承载，且集团依托两个上市公司形成两大板块。",
+        "source_ids": [
+          "R10010"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005",
+          "C0006"
+        ],
+        "fraction": 1,
+        "id": "TWO_PARK_BU",
+        "reason": "候选在养老园区上市平台下明确设置园区BU，并进一步说明其属于该平台下的虚拟BU。",
+        "source_ids": [
+          "R10010",
+          "R50002"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005",
+          "C0006"
+        ],
+        "fraction": 1,
+        "id": "TWO_PENSION_BU",
+        "reason": "候选在养老园区上市平台下明确设置养老BU，并进一步说明其属于该平台下的虚拟BU。",
+        "source_ids": [
+          "R10010",
+          "R50002"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005",
+          "C0006"
+        ],
+        "fraction": 1,
+        "id": "TWO_LEVELS",
+        "reason": "候选明确两级管控模式，由集团管理两个上市平台；两个平台内的酒店、投资、关联产业、园区和养老BU均为虚拟BU且不另设部门，因此不额外形成实体管控层。",
+        "source_ids": [
+          "R10010",
+          "R50001",
+          "R50002"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0005",
+          "C0006"
+        ],
+        "fraction": 1,
+        "id": "TWO_FUNCTIONS",
+        "reason": "候选对酒店生活平台明确承接项目拓展、品牌运营、市场营销、工程咨询和餐饮研发等上移职能；对养老园区平台明确承接战略规划、投资审核、目标风控及财务、人力、采购、信息等职能，并在无正式部门名时未虚构名称。",
+        "source_ids": [
+          "R10010",
+          "R50002",
+          "R50004"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0004"
+        ],
+        "fraction": 1,
+        "id": "TARGET_GROUP",
+        "reason": "候选规定集团向其直接管理的股份公司和养老公司下达平台或产业汇总目标预算，并明确管理关系已转入股份公司的经营单位不再由集团越级下达。",
+        "source_ids": [
+          "R10013",
+          "R10015",
+          "R40001"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0004"
+        ],
+        "fraction": 1,
+        "id": "TARGET_LISTED",
+        "reason": "候选明确股份公司董事会向酒店BU、投资BU和重点孵化业务下达组织目标，覆盖材料所列股份公司直接管理节点。",
+        "source_ids": [
+          "R10015",
+          "R10016",
+          "R40001"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0004"
+        ],
+        "fraction": 1,
+        "id": "TARGET_DIVERSIFIED",
+        "reason": "候选明确由股份公司董事会正式向每个多元业务下达经营目标和预算，与材料所述董事会向每个多元业务下达目标的特定安排一致。",
+        "source_ids": [
+          "R10016",
+          "R40001",
+          "R40002"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0004"
+        ],
+        "fraction": 1,
+        "id": "TARGET_INVESTMENT_PROCESS",
+        "reason": "候选明确投资BU对董事会下达给各多元业务的目标组织拟订、执行分解、落实、跟踪和纠偏，同时保留董事会为正式下达主体。",
+        "source_ids": [
+          "R10016"
+        ]
+      },
+      {
+        "candidate_ids": [
+          "C0004"
+        ],
+        "fraction": 1,
+        "id": "TARGET_HOTELS",
+        "reason": "候选明确酒店BU向其管理的每个酒店下达目标和预算，特别包括核心酒店，并负责分解、跟踪和纠偏。",
+        "source_ids": [
+          "R10016",
+          "R40001",
+          "R40002"
+        ]
+      },
+      {
+        "candidate_ids": [],
+        "fraction": 0,
+        "id": "D02_SCOPE_ERROR",
+        "reason": "候选明确投资BU不纳入酒店或重点孵化业务，未将这些对象置于投资BU的直接管理、决策或目标下达范围。",
+        "source_ids": []
+      },
+      {
+        "candidate_ids": [],
+        "fraction": 0,
+        "id": "D03_GROUP_BYPASS_ERROR",
+        "reason": "候选只赋予集团平台或产业汇总目标下达权，并明确禁止对已转入股份公司管理的单位越级下达经营目标。",
+        "source_ids": []
+      },
+      {
+        "candidate_ids": [],
+        "fraction": 0,
+        "id": "D10_UNSUPPORTED_FACT_ERROR",
+        "reason": "候选没有采用具体且无材料支持的审批金额阈值或业务数值；金额阈值被明确标为待有权机构另行制定，百分比位置也只是未填占位而非具体数值。",
+        "source_ids": []
+      }
+    ]
+  }
+}

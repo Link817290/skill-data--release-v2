@@ -1,0 +1,10 @@
+{
+  "schema_version": "skill-data-no-skill-input-v1",
+  "condition": "no_skill",
+  "skill_mounted": false,
+  "allowed_paths": [
+    "task/instruction.md",
+    "task/environment/workspace/materials"
+  ],
+  "input_sha256": "a1f29008f6546c7b8e60d29089d73e0dd37ba85ed0d3de6e2b4381c969d27209"
+}

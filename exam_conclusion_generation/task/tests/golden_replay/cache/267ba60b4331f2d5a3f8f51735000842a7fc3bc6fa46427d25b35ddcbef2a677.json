@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "VAL-004_A3_G3:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A3_G3:A\", \"conclusion\": \"肥胖\", \"evidence\": [\"VAL-004-R111\"], \"explanation\": \"依据 VAL-004-R111 归纳\"}"
+      ],
+      "reason": "候选结论“肥胖”与源行明确记录的肥胖核心发现一致。"
+    },
+    {
+      "id": "VAL-004_A3_G3:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A3_G3:B\", \"conclusion\": \"肥胖\", \"evidence\": [\"VAL-004-R111\"], \"explanation\": \"依据 VAL-004-R111 归纳\"}"
+      ],
+      "reason": "“肥胖”是医学上规范且由体重指数结果明确支持的结论名称。"
+    },
+    {
+      "id": "VAL-004_A3_G3:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A3_G3:C\", \"conclusion\": \"肥胖\", \"evidence\": [\"VAL-004-R111\"], \"explanation\": \"依据 VAL-004-R111 归纳\"}"
+      ],
+      "reason": "结论完整保留了源行中的肥胖性质，未遗漏必要限定或增加无依据限定。"
+    },
+    {
+      "id": "VAL-004_A4_G4:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A4_G4:A\", \"conclusion\": \"牙周炎\", \"evidence\": [\"VAL-004-R071\"], \"explanation\": \"依据 VAL-004-R071 归纳\"}"
+      ],
+      "reason": "候选结论与源行明确记录的牙周炎为同一核心发现。"
+    },
+    {
+      "id": "VAL-004_A4_G4:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A4_G4:B\", \"conclusion\": \"牙周炎\", \"evidence\": [\"VAL-004-R071\"], \"explanation\": \"依据 VAL-004-R071 归纳\"}"
+      ],
+      "reason": "“牙周炎”是医学上规范并由源行直接支持的名称。"
+    },
+    {
+      "id": "VAL-004_A4_G4:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A4_G4:C\", \"conclusion\": \"牙周炎\", \"evidence\": [\"VAL-004-R071\"], \"explanation\": \"依据 VAL-004-R071 归纳\"}"
+      ],
+      "reason": "源行未给出需要保留的程度、状态等额外限定，候选名称语义完整。"
+    },
+    {
+      "id": "VAL-005_A0_G0:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A0_G0:A\", \"conclusion\": \"宫颈新生物\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "候选准确识别了源行中的宫颈新生物。"
+    },
+    {
+      "id": "VAL-005_A0_G0:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A0_G0:B\", \"conclusion\": \"宫颈新生物\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "“宫颈新生物”是规范且由宫颈检查结果直接支持的发现名称。"
+    },
+    {
+      "id": "VAL-005_A0_G0:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A0_G0:C\", \"conclusion\": \"宫颈新生物\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "候选保留了器官和发现性质；黄豆大小属于可省略的尺寸描述。"
+    },
+    {
+      "id": "VAL-005_A0_G1:A",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A0_G1:A\", \"conclusion\": \"宫颈新生物\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "本项核心发现是宫颈轻度糜烂，候选却采用同一源行中的另一发现“宫颈新生物”。"
+    },
+    {
+      "id": "VAL-005_A0_G1:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A0_G1:B\", \"conclusion\": \"宫颈新生物\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "虽然不是本项所匹配的核心发现，但“宫颈新生物”本身是医学上规范且由源行明确支持的名称。"
+    },
+    {
+      "id": "VAL-005_A0_G1:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A0_G1:C\", \"conclusion\": \"宫颈新生物\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "就候选所采用的新生物发现而言，器官和发现性质均被保留，尺寸描述无需写入结论名称。"
+    },
+    {
+      "id": "VAL-005_A1_G0:A",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A1_G0:A\", \"conclusion\": \"宫颈轻度糜烂\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "本项核心发现是宫颈新生物，候选却采用同一源行中的另一发现“宫颈轻度糜烂”。"
+    },
+    {
+      "id": "VAL-005_A1_G0:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A1_G0:B\", \"conclusion\": \"宫颈轻度糜烂\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "“宫颈轻度糜烂”是医学上规范且由源行直接支持的发现名称。"
+    },
+    {
+      "id": "VAL-005_A1_G0:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A1_G0:C\", \"conclusion\": \"宫颈轻度糜烂\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "候选对其采用的糜烂发现完整保留了宫颈部位、轻度程度和糜烂性质。"
+    },
+    {
+      "id": "VAL-005_A1_G1:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A1_G1:A\", \"conclusion\": \"宫颈轻度糜烂\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "候选与源行中的宫颈轻度糜烂核心发现一致。"
+    },
+    {
+      "id": "VAL-005_A1_G1:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A1_G1:B\", \"conclusion\": \"宫颈轻度糜烂\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "“宫颈轻度糜烂”是规范且由源行明确支持的名称。"
+    },
+    {
+      "id": "VAL-005_A1_G1:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A1_G1:C\", \"conclusion\": \"宫颈轻度糜烂\", \"evidence\": [\"VAL-005-R027\"], \"explanation\": \"依据 VAL-005-R027 归纳\"}"
+      ],
+      "reason": "候选完整保留了宫颈部位、轻度程度及糜烂性质。"
+    },
+    {
+      "id": "VAL-005_A2_G2:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A2_G2:A\", \"conclusion\": \"双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "候选准确识别了源行明确记录的双侧乳腺增生。"
+    },
+    {
+      "id": "VAL-005_A2_G2:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A2_G2:B\", \"conclusion\": \"双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "“双侧乳腺增生”是医学上规范并由源行直接支持的名称。"
+    },
+    {
+      "id": "VAL-005_A2_G2:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A2_G2:C\", \"conclusion\": \"双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "候选保留了乳腺器官、双侧范围及增生性质。"
+    },
+    {
+      "id": "VAL-005_A2_G3:A",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A2_G3:A\", \"conclusion\": \"双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "本项核心结论同时包含右侧乳腺结节和双侧乳腺增生，候选仅识别后者，遗漏了右侧乳腺结节。"
+    },
+    {
+      "id": "VAL-005_A2_G3:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A2_G3:B\", \"conclusion\": \"双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "候选采用的“双侧乳腺增生”本身是医学上规范且由源行明确支持的名称。"
+    },
+    {
+      "id": "VAL-005_A2_G3:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A2_G3:C\", \"conclusion\": \"双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "就候选采用的增生发现而言，乳腺器官、双侧范围和增生性质均完整保留。"
+    },
+    {
+      "id": "VAL-005_A3_G2:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A3_G2:A\", \"conclusion\": \"右侧乳腺结节伴双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "候选包含本项的双侧乳腺增生核心发现，附加的右侧乳腺结节也由同一源行明确支持。"
+    },
+    {
+      "id": "VAL-005_A3_G2:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A3_G2:B\", \"conclusion\": \"右侧乳腺结节伴双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "右侧乳腺结节和双侧乳腺增生均为医学上规范且由源行直接支持的名称。"
+    },
+    {
+      "id": "VAL-005_A3_G2:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A3_G2:C\", \"conclusion\": \"右侧乳腺结节伴双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "候选保留了结节的右侧范围以及增生的双侧范围和各自发现性质，未加入无来源限定。"
+    },
+    {
+      "id": "VAL-005_A3_G3:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A3_G3:A\", \"conclusion\": \"右侧乳腺结节伴双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "候选完整识别了右侧乳腺结节伴双侧乳腺增生这一组合发现。"
+    },
+    {
+      "id": "VAL-005_A3_G3:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A3_G3:B\", \"conclusion\": \"右侧乳腺结节伴双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "组合结论中的两项发现均为规范名称，并由同一源行明确支持。"
+    },
+    {
+      "id": "VAL-005_A3_G3:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A3_G3:C\", \"conclusion\": \"右侧乳腺结节伴双侧乳腺增生\", \"evidence\": [\"VAL-005-R107\"], \"explanation\": \"依据 VAL-005-R107 归纳\"}"
+      ],
+      "reason": "候选完整保留了结节的右侧限定、增生的双侧限定及两项发现性质。"
+    },
+    {
+      "id": "VAL-005_A4_G4:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A4_G4:A\", \"conclusion\": \"轻度血管硬化\", \"evidence\": [\"VAL-005-R009\", \"VAL-005-R011\", \"VAL-005-R012\"], \"explanation\": \"依据 VAL-005-R009;VAL-005-R011;VAL-005-R012 归纳\"}"
+      ],
+      "reason": "候选与源行明确给出的轻度血管硬化核心发现一致。"
+    },
+    {
+      "id": "VAL-005_A4_G4:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A4_G4:B\", \"conclusion\": \"轻度血管硬化\", \"evidence\": [\"VAL-005-R009\", \"VAL-005-R011\", \"VAL-005-R012\"], \"explanation\": \"依据 VAL-005-R009;VAL-005-R011;VAL-005-R012 归纳\"}"
+      ],
+      "reason": "“轻度血管硬化”是规范且由baPWV结论行直接支持的名称。"
+    },
+    {
+      "id": "VAL-005_A4_G4:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A4_G4:C\", \"conclusion\": \"轻度血管硬化\", \"evidence\": [\"VAL-005-R009\", \"VAL-005-R011\", \"VAL-005-R012\"], \"explanation\": \"依据 VAL-005-R009;VAL-005-R011;VAL-005-R012 归纳\"}"
+      ],
+      "reason": "候选保留了轻度程度和血管硬化性质，数值测量无需在名称中重复。"
+    },
+    {
+      "id": "VAL-005_A5_G5:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A5_G5:A\", \"conclusion\": \"心率偏快\", \"evidence\": [\"VAL-005-R121\", \"VAL-005-R124\"], \"explanation\": \"依据 VAL-005-R121;VAL-005-R124 归纳\"}"
+      ],
+      "reason": "心室率、心房率均为101 bpm且脉搏为111，候选识别的心率偏快与这些观测一致。"
+    },
+    {
+      "id": "VAL-005_A5_G5:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A5_G5:B\", \"conclusion\": \"心率偏快\", \"evidence\": [\"VAL-005-R121\", \"VAL-005-R124\"], \"explanation\": \"依据 VAL-005-R121;VAL-005-R124 归纳\"}"
+      ],
+      "reason": "“心率偏快”是对超过常用正常上限的实测心率和脉搏的规范描述，并未额外推断具体心律诊断。"
+    },
+    {
+      "id": "VAL-005_A5_G5:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A5_G5:C\", \"conclusion\": \"心率偏快\", \"evidence\": [\"VAL-005-R121\", \"VAL-005-R124\"], \"explanation\": \"依据 VAL-005-R121;VAL-005-R124 归纳\"}"
+      ],
+      "reason": "候选保留了心率升高这一发现性质，具体测量值无需在结论名称中重复。"
+    }
+  ]
+}

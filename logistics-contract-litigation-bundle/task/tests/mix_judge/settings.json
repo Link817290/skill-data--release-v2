@@ -1,0 +1,6 @@
+{
+  "fixed_cohort_replay": "request-bound cache",
+  "fresh_call_required_on_cache_miss": true,
+  "model": "gpt-5.6-sol",
+  "store": false
+}

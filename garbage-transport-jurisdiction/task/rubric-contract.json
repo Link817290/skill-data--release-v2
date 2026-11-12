@@ -1,0 +1,1849 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "weighted-local-conjunctive-bounded-retention-v1",
+  "allowed_penalty_coefficients": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "garbage-transport-jurisdiction-score-shape-v3",
+  "task_mode": "generation_analysis",
+  "positive_items": [
+    {
+      "id": "G_J_RELATION",
+      "weight": 0.08,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-RELATION"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P020,P028",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_J_RELATION__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_J_RELATION__CHAIN",
+          "predicate_id": "P01",
+          "roles": [
+            "jurisdiction"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_J_ORIGIN",
+      "weight": 0.15,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-ORIGIN"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P021",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_J_ORIGIN__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_J_ORIGIN__CHAIN",
+          "predicate_id": "P02",
+          "roles": [
+            "jurisdiction"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_J_RELIEF",
+      "weight": 0.07,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-RELIEF"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P014-P018",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_J_RELIEF__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_J_RELIEF__CHAIN",
+          "predicate_id": "P04",
+          "roles": [
+            "jurisdiction"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_J_FORUM_EXCLUSIVITY",
+      "weight": 0.12,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-CHOICE"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P023,P026",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_J_FORUM_EXCLUSIVITY__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_J_FORUM_EXCLUSIVITY__CHAIN",
+          "predicate_id": "P03",
+          "roles": [
+            "jurisdiction"
+          ],
+          "atom_indices": [
+            0
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_J_FORUM_CHOICE",
+      "weight": 0.18,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-CHOICE"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P023,P026",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_J_FORUM_CHOICE__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_J_FORUM_CHOICE__CHAIN",
+          "predicate_id": "P03",
+          "roles": [
+            "jurisdiction"
+          ],
+          "atom_indices": [
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_F_CONTRACT",
+      "weight": 0.05,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-CONTRACT"
+      ],
+      "scope": "feng",
+      "object_key": "feng",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P013,P016",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "feng",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_F_CONTRACT__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_F_CONTRACT__CHAIN",
+          "predicate_id": "P05",
+          "roles": [
+            "feng"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_F_EVENTS",
+      "weight": 0.06,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-EVENTS"
+      ],
+      "scope": "feng",
+      "object_key": "feng",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P014-P017",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "feng",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_F_EVENTS__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_F_EVENTS__CHAIN",
+          "predicate_id": "P06",
+          "roles": [
+            "feng"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_T_CONTRACT",
+      "weight": 0.05,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "T-CONTRACT"
+      ],
+      "scope": "tian",
+      "object_key": "tian",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P013,P016",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "tian",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-tian",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_T_CONTRACT__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_T_CONTRACT__CHAIN",
+          "predicate_id": "P07",
+          "roles": [
+            "tian"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_T_EVENTS",
+      "weight": 0.06,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "T-EVENTS"
+      ],
+      "scope": "tian",
+      "object_key": "tian",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P014-P017",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "tian",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-tian",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_T_EVENTS__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_T_EVENTS__CHAIN",
+          "predicate_id": "P08",
+          "roles": [
+            "tian"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_F_CHANNEL",
+      "weight": 0.04,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-CHANNEL"
+      ],
+      "scope": "feng",
+      "object_key": "feng",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P023,P025;golden/需要天广和花园小区提供证据的告知书.docx:P023,P025",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "feng",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_F_CHANNEL__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_F_CHANNEL__CHAIN",
+          "predicate_id": "P09",
+          "roles": [
+            "feng"
+          ],
+          "atom_indices": [
+            0
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_T_CHANNEL",
+      "weight": 0.04,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-CHANNEL"
+      ],
+      "scope": "tian",
+      "object_key": "tian",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P023,P025;golden/需要天广和花园小区提供证据的告知书.docx:P023,P025",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "tian",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_T_CHANNEL__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_T_CHANNEL__CHAIN",
+          "predicate_id": "P09",
+          "roles": [
+            "tian"
+          ],
+          "atom_indices": [
+            0
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_F_PURPOSE",
+      "weight": 0.05,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-PURPOSE"
+      ],
+      "scope": "feng",
+      "object_key": "feng",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P021;golden/需要天广和花园小区提供证据的告知书.docx:P021",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "feng",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_F_PURPOSE__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_F_PURPOSE__CHAIN",
+          "predicate_id": "P10",
+          "roles": [
+            "feng"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    },
+    {
+      "id": "G_T_PURPOSE",
+      "weight": 0.05,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-PURPOSE"
+      ],
+      "scope": "tian",
+      "object_key": "tian",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P021;golden/需要天广和花园小区提供证据的告知书.docx:P021",
+      "relation_predicate": "All source-linked prerequisites in this local business chain must be satisfied together.",
+      "golden_object_key": "tian",
+      "golden_relation_predicate": "The Golden satisfies every registered prerequisite in this owner-local chain.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "Every registered prerequisite is affirmatively adopted for the correct object, scope, polarity, conditions, and procedural status.",
+      "partial": "No within-chain averaging; partial credit is retained across independently weighted business owners.",
+      "zero": "At least one required prerequisite is missing, contradicted, unresolved, or bound to the wrong object.",
+      "copy_counterfactual": "A copied keyword cannot satisfy the complete object-bound prerequisite chain.",
+      "program_path": "raw OOXML -> role-bound local observations -> conjunctive chain -> independent owner credit",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "Review the complete local chain before combining independent owners.",
+      "member_item_ids": [
+        "G_T_PURPOSE__CHAIN"
+      ],
+      "member_specs": [
+        {
+          "id": "G_T_PURPOSE__CHAIN",
+          "predicate_id": "P10",
+          "roles": [
+            "tian"
+          ],
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "member_weights": [
+        1.0
+      ],
+      "aggregation": "conjunction_within_owner_partial_credit_across_owners"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "penalty_coefficient": 0.7,
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "materials/case-background.md;materials/court-review.pdf;golden DOCX scoped in positive anchors",
+      "trigger": "断言本案只能由被告住所地博白法院管辖、江南区不得受理",
+      "error_predicate": "断言本案只能由被告住所地博白法院管辖、江南区不得受理",
+      "damage_basis": "错误排除原告可选的始发地法院",
+      "adoption_status": "explicit affirmative operative assertion",
+      "negative_context_exclusions": "普通遗漏、否定、引用或拒绝的错误观点、未知值及未决候选不触发",
+      "causal_root_rule": "exclusive_domicile",
+      "damage_instance_key_rule": "error family plus independently affected document/business object",
+      "manifestation_rule": "artifact relative path plus OOXML section locator; repeated error manifestations retained but charged once",
+      "length_contract_id": "S-jurisdiction",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D02",
+      "penalty_coefficient": 0.7,
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "materials/case-background.md;materials/court-review.pdf;golden DOCX scoped in positive anchors",
+      "trigger": "断言无书面合同即不成立合同或不能主张运费",
+      "error_predicate": "断言无书面合同即不成立合同或不能主张运费",
+      "damage_basis": "错误否认口头约定产生的合同与债权",
+      "adoption_status": "explicit affirmative operative assertion",
+      "negative_context_exclusions": "普通遗漏、否定、引用或拒绝的错误观点、未知值及未决候选不触发",
+      "causal_root_rule": "writing_required",
+      "damage_instance_key_rule": "error family plus independently affected document/business object",
+      "manifestation_rule": "artifact relative path plus OOXML section locator; repeated error manifestations retained but charged once",
+      "length_contract_id": "S-jurisdiction",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D03",
+      "penalty_coefficient": 0.9,
+      "scope": "both_requests",
+      "object_key": "both_requests",
+      "source_location": "materials/case-background.md;materials/court-review.pdf;golden DOCX scoped in positive anchors",
+      "trigger": "以私人函件声称物业逾期即自动罚款或拘留，或伪造已签发调查令",
+      "error_predicate": "以私人函件声称物业逾期即自动罚款或拘留，或伪造已签发调查令",
+      "damage_basis": "虚构司法强制权或现有司法命令",
+      "adoption_status": "explicit affirmative operative assertion",
+      "negative_context_exclusions": "普通遗漏、否定、引用或拒绝的错误观点、未知值及未决候选不触发",
+      "causal_root_rule": "fabricated_authority",
+      "damage_instance_key_rule": "error family plus independently affected document/business object",
+      "manifestation_rule": "artifact relative path plus OOXML section locator; repeated error manifestations retained but charged once",
+      "length_contract_id": "S-feng",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D04",
+      "penalty_coefficient": 0.1,
+      "scope": "all",
+      "object_key": "all",
+      "source_location": "materials/case-background.md;materials/court-review.pdf;golden DOCX scoped in positive anchors",
+      "trigger": "An adopted assertion upgrades an unverified project fact to an established fact, including turning entry/photo records into completed transport counts or inventing an exact residence.",
+      "error_predicate": "An adopted assertion upgrades an unverified project fact to an established fact, including turning entry/photo records into completed transport counts or inventing an exact residence.",
+      "damage_basis": "Unsupported project facts can misstate jurisdiction, performance, or payment evidence.",
+      "adoption_status": "explicit affirmative operative assertion",
+      "negative_context_exclusions": "普通遗漏、否定、引用或拒绝的错误观点、未知值及未决候选不触发",
+      "causal_root_rule": "fabricated_case_fact",
+      "damage_instance_key_rule": "error family plus independently affected document/business object",
+      "manifestation_rule": "artifact relative path plus OOXML section locator; repeated error manifestations retained but charged once",
+      "length_contract_id": "S-feng",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D05",
+      "penalty_coefficient": 0.9,
+      "scope": "all",
+      "object_key": "all",
+      "source_location": "materials/case-background.md;materials/court-review.pdf;golden DOCX scoped in positive anchors",
+      "trigger": "Retired compatibility identifier; Golden-relative document length is not a business defect.",
+      "error_predicate": "Never fires.",
+      "damage_basis": "Length alone does not establish substantive legal or evidentiary harm.",
+      "adoption_status": "explicit affirmative operative assertion",
+      "negative_context_exclusions": "普通遗漏、否定、引用或拒绝的错误观点、未知值及未决候选不触发",
+      "causal_root_rule": "retired_document_overrun",
+      "damage_instance_key_rule": "error family plus independently affected document/business object",
+      "manifestation_rule": "artifact relative path plus OOXML section locator; repeated error manifestations retained but charged once",
+      "length_contract_id": "S-feng",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "J-ID",
+      "source_location": "golden/管辖异议申请书.docx:P003,P004,P005,P006,P008,P009,P010,P011",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "J-RELIEF",
+      "source_location": "golden/管辖异议申请书.docx:P014,P015,P018,P029",
+      "item_ids": [
+        "G_J_RELIEF"
+      ],
+      "scoring_disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "J-RELATION",
+      "source_location": "golden/管辖异议申请书.docx:P019,P020,P027,P028",
+      "item_ids": [
+        "G_J_RELATION"
+      ],
+      "scoring_disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "J-ORIGIN",
+      "source_location": "golden/管辖异议申请书.docx:P021",
+      "item_ids": [
+        "G_J_ORIGIN"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "J-CHOICE",
+      "source_location": "golden/管辖异议申请书.docx:P022,P023,P025,P026",
+      "item_ids": [
+        "G_J_FORUM_EXCLUSIVITY",
+        "G_J_FORUM_CHOICE"
+      ],
+      "scoring_disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "J-PROCEDURE",
+      "source_location": "golden/管辖异议申请书.docx:P024",
+      "item_ids": [],
+      "scoring_disposition": "warning_only"
+    },
+    {
+      "unit_id": "J-SIGN",
+      "source_location": "golden/管辖异议申请书.docx:P001,P013,P017,P031,P032,P033,P034",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "F-ID",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P003,P005,P006,P007,P008,P027,P028,P030,P031",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "F-PURPOSE",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P001,P010,P011,P012,P020,P021",
+      "item_ids": [
+        "G_F_PURPOSE"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "F-CONTRACT",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P013,P016",
+      "item_ids": [
+        "G_F_CONTRACT"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "F-EVENTS",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P014,P015,P017",
+      "item_ids": [
+        "G_F_EVENTS"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "F-LAW",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P018,P019",
+      "item_ids": [],
+      "scoring_disposition": "warning_only"
+    },
+    {
+      "unit_id": "F-CHANNEL",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P022,P023,P024,P025",
+      "item_ids": [
+        "G_F_CHANNEL"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "T-ID",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P003,P005,P006,P007,P008,P027,P028,P030,P031",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "T-PURPOSE",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P001,P010,P011,P012,P020,P021",
+      "item_ids": [
+        "G_T_PURPOSE"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "T-CONTRACT",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P013,P016",
+      "item_ids": [
+        "G_T_CONTRACT"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "T-EVENTS",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P014,P015,P017",
+      "item_ids": [
+        "G_T_EVENTS"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "T-LAW",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P018,P019",
+      "item_ids": [],
+      "scoring_disposition": "warning_only"
+    },
+    {
+      "unit_id": "T-CHANNEL",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P022,P023,P024,P025",
+      "item_ids": [
+        "G_T_CHANNEL"
+      ],
+      "scoring_disposition": "partial_credit"
+    },
+    {
+      "unit_id": "E-01",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page1",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-02",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page2",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-03",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page3",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-04",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page4",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-05",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page5",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-06",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page6",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-07",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page7",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-08",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page8",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-09",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page9",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-10",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page10",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-11",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page11",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    },
+    {
+      "unit_id": "E-12",
+      "source_location": "golden/清运垃圾的车辆数以及做工时间.pdf:page12",
+      "item_ids": [],
+      "scoring_disposition": "not_scored"
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S-jurisdiction",
+      "scope": "jurisdiction",
+      "golden_location": "golden/管辖异议申请书.docx",
+      "metric": "visible_nonwhitespace_characters",
+      "golden_value": 1418,
+      "declared_floor_u": 1,
+      "tau_over_u": 1.0,
+      "tau_under_u": 0.3,
+      "deduction_id": "D05",
+      "upper_harm": "显著超长给提交审阅增加负担",
+      "lower_harm": "普通遗漏仅失正分，不单独扣罚",
+      "basis": "采用文书惯例带的约3倍Gold明显臃肿阈值；短篇不奖励，不以页数或字号代替内容长度"
+    },
+    {
+      "id": "S-feng",
+      "scope": "feng",
+      "golden_location": "golden/需要风格雨林小区提供证据的告知书.docx",
+      "metric": "visible_nonwhitespace_characters",
+      "golden_value": 1119,
+      "declared_floor_u": 1,
+      "tau_over_u": 1.0,
+      "tau_under_u": 0.3,
+      "deduction_id": "D05",
+      "upper_harm": "显著超长给提交审阅增加负担",
+      "lower_harm": "普通遗漏仅失正分，不单独扣罚",
+      "basis": "采用文书惯例带的约3倍Gold明显臃肿阈值；短篇不奖励，不以页数或字号代替内容长度"
+    },
+    {
+      "id": "S-tian",
+      "scope": "tian",
+      "golden_location": "golden/需要天广和花园小区提供证据的告知书.docx",
+      "metric": "visible_nonwhitespace_characters",
+      "golden_value": 1126,
+      "declared_floor_u": 1,
+      "tau_over_u": 1.0,
+      "tau_under_u": 0.3,
+      "deduction_id": "D05",
+      "upper_harm": "显著超长给提交审阅增加负担",
+      "lower_harm": "普通遗漏仅失正分，不单独扣罚",
+      "basis": "采用文书惯例带的约3倍Gold明显臃肿阈值；短篇不奖励，不以页数或字号代替内容长度"
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N-WHITESPACE",
+        "operation": "Unicode NFKC and whitespace normalization only; preserve polarity, amounts, dates and named entities"
+      },
+      {
+        "id": "N-ROLE",
+        "operation": "resolve one of the three documents from filename/title, addressed object and content together; conflict is ambiguous"
+      },
+      {
+        "id": "N-GAP",
+        "operation": "未提供、待核实、待补充及unknown denote uncertainty, never an affirmative adopted fact"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R-LENGTH",
+        "operation": "count visible non-whitespace characters from the parsed document"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "task_skill_alignment": {
+    "required_after_skill_authoring": true,
+    "semantic_audit_binds_skill_sha256": true,
+    "all_positive_and_deduction_items_reviewed": true,
+    "unresolved_conflicts_forbid_judge_freeze": true,
+    "skill_cannot_override_golden": true
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "requirement_trace": {
+    "instruction_sha256": "553b2b562d16ee6110e6c55311c2505cc2b29236d56b276d2218d3379da06c5f",
+    "requirements": [
+      {
+        "quote": "The materials directory contains a court filing review screenshot, original garbage collection evidence, and the parties' case background.",
+        "reason": "输入可用性本身不产生正分"
+      },
+      {
+        "quote": "Prepare Chinese documents seeking reconsideration of the filing rejection and requesting supporting evidence from the two residential property managers.",
+        "item_ids": [
+          "G_J_RELATION",
+          "G_J_ORIGIN",
+          "G_J_RELIEF",
+          "G_J_FORUM_EXCLUSIVITY",
+          "G_J_FORUM_CHOICE",
+          "G_F_CONTRACT",
+          "G_F_EVENTS",
+          "G_T_CONTRACT",
+          "G_T_EVENTS",
+          "G_F_CHANNEL",
+          "G_T_CHANNEL",
+          "G_F_PURPOSE",
+          "G_T_PURPOSE"
+        ]
+      },
+      {
+        "quote": "Save an editable court submission as output/jurisdiction.docx and separate editable evidence requests as output/feng-request.docx and output/tian-request.docx.",
+        "item_ids": [
+          "G_J_RELATION",
+          "G_J_ORIGIN",
+          "G_J_RELIEF",
+          "G_J_FORUM_EXCLUSIVITY",
+          "G_J_FORUM_CHOICE",
+          "G_F_CONTRACT",
+          "G_F_EVENTS",
+          "G_T_CONTRACT",
+          "G_T_EVENTS",
+          "G_F_CHANNEL",
+          "G_T_CHANNEL",
+          "G_F_PURPOSE",
+          "G_T_PURPOSE"
+        ]
+      }
+    ],
+    "stated_facts": [],
+    "unchecked_tokens": []
+  },
+  "golden_consistency": {
+    "checks": [
+      {
+        "id": "GC-party-feng",
+        "kind": "equality",
+        "statement": "两份文书的告知人与申请人同名",
+        "left": {
+          "file": "golden/管辖异议申请书.docx",
+          "regex": "蒙柳钰"
+        },
+        "right": {
+          "file": "golden/需要风格雨林小区提供证据的告知书.docx",
+          "regex": "蒙柳钰"
+        }
+      },
+      {
+        "id": "GC-party-tian",
+        "kind": "equality",
+        "statement": "天广和函与申请书为同一当事人",
+        "left": {
+          "file": "golden/管辖异议申请书.docx",
+          "regex": "蒙柳钰"
+        },
+        "right": {
+          "file": "golden/需要天广和花园小区提供证据的告知书.docx",
+          "regex": "蒙柳钰"
+        }
+      },
+      {
+        "id": "GC-origin-feng",
+        "kind": "equality",
+        "statement": "风格雨林地址在申请书和该物业函具体事由中一致",
+        "left": {
+          "file": "golden/管辖异议申请书.docx",
+          "regex": "南宁市江南区壮锦大道28号"
+        },
+        "right": {
+          "file": "golden/需要风格雨林小区提供证据的告知书.docx",
+          "regex": "南宁市江南区壮锦大道28号"
+        }
+      },
+      {
+        "id": "GC-origin-tian",
+        "kind": "equality",
+        "statement": "天广和具体地址在申请书和该物业函具体事由中一致",
+        "left": {
+          "file": "golden/管辖异议申请书.docx",
+          "regex": "南宁市青秀区青秀路10号"
+        },
+        "right": {
+          "file": "golden/需要天广和花园小区提供证据的告知书.docx",
+          "regex": "南宁市青秀区青秀路10号"
+        }
+      }
+    ],
+    "warnings": [
+      {
+        "anchor": "golden/需要天广和花园小区提供证据的告知书.docx:P021",
+        "issue": "目的段泛指江南区，与P011天广和青秀区具体地址存在差异；地域精确一致性不设隐藏正分或扣分，本轮保留原文告知负责人"
+      },
+      {
+        "anchor": "golden/管辖异议申请书.docx:P020,P023,P024",
+        "issue": "条号及先立案再审管辖的绝对程序主张无冻结法源，warning_only，不要求照搬"
+      },
+      {
+        "anchor": "golden/需要风格雨林小区提供证据的告知书.docx:P019;golden/需要天广和花园小区提供证据的告知书.docx:P019",
+        "issue": "证人义务条号不作为精确评分点；有无私人强制权区别须语义复核"
+      }
+    ]
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "report_path": "task/tests/program_judge/judge-conformance-report.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "task_aliases": {
+    "jurisdiction": [
+      "管辖",
+      "立案",
+      "申请书"
+    ],
+    "feng": [
+      "风格雨林"
+    ],
+    "tian": [
+      "天广和"
+    ]
+  },
+  "gap_marker_contract": {
+    "normalization_rule_id": "N-GAP",
+    "accepted_markers": [
+      "未提供",
+      "待核实",
+      "待补充",
+      "unknown"
+    ],
+    "positive_credit": 0,
+    "deduction": false,
+    "fabrication_deduction_item_ids": [
+      "D03",
+      "D04"
+    ],
+    "probe": "gap_marker"
+  },
+  "positive_leaf_items": [
+    {
+      "id": "P01",
+      "weight": 0.29,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-RELATION"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P020,P028",
+      "relation_predicate": "口头约定下以自有车辆完成垃圾运输、对方按车次支付运费，形成运输合同关系",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "口头约定下以自有车辆完成垃圾运输、对方按车次支付运费，形成运输合同关系",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "口头约定下以自有车辆完成垃圾运输、对方按车次支付运费，形成运输合同关系",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P02",
+      "weight": 0.05,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-ORIGIN"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P021",
+      "relation_predicate": "风格雨林江南区起运地址使江南区法院获得运输始发地管辖连接点",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "风格雨林江南区起运地址使江南区法院获得运输始发地管辖连接点",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "风格雨林江南区起运地址使江南区法院获得运输始发地管辖连接点",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P03",
+      "weight": 0.05,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-CHOICE"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P023,P026",
+      "relation_predicate": "被告博白住所地不是唯一管辖点，原告可选择有权的江南区法院",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "被告博白住所地不是唯一管辖点，原告可选择有权的江南区法院",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "被告博白住所地不是唯一管辖点，原告可选择有权的江南区法院",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P04",
+      "weight": 0.05,
+      "dimension": "legal_application",
+      "unit_ids": [
+        "J-RELIEF"
+      ],
+      "scope": "jurisdiction",
+      "object_key": "jurisdiction",
+      "source_location": "golden/管辖异议申请书.docx:P014-P018",
+      "relation_predicate": "针对本次退回材料，请求江南区法院确认管辖并重新审查或受理立案",
+      "golden_object_key": "jurisdiction",
+      "golden_relation_predicate": "针对本次退回材料，请求江南区法院确认管辖并重新审查或受理立案",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-jurisdiction",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "针对本次退回材料，请求江南区法院确认管辖并重新审查或受理立案",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P05",
+      "weight": 0.05,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-CONTRACT"
+      ],
+      "scope": "feng",
+      "object_key": "feng",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P013,P016",
+      "relation_predicate": "为核实被告委托关系及服务地点，请风格雨林物业提供服务合同及结算凭证",
+      "golden_object_key": "feng",
+      "golden_relation_predicate": "为核实被告委托关系及服务地点，请风格雨林物业提供服务合同及结算凭证",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "为核实被告委托关系及服务地点，请风格雨林物业提供服务合同及结算凭证",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P06",
+      "weight": 0.05,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-EVENTS"
+      ],
+      "scope": "feng",
+      "object_key": "feng",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P014-P017",
+      "relation_predicate": "向风格雨林物业核取4月27日桂A3V5X9清运台账和门岗记录并找知情人员印证",
+      "golden_object_key": "feng",
+      "golden_relation_predicate": "向风格雨林物业核取4月27日桂A3V5X9清运台账和门岗记录并找知情人员印证",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "向风格雨林物业核取4月27日桂A3V5X9清运台账和门岗记录并找知情人员印证",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P07",
+      "weight": 0.06,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "T-CONTRACT"
+      ],
+      "scope": "tian",
+      "object_key": "tian",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P013,P016",
+      "relation_predicate": "为核实被告委托关系及服务地点，请天广和物业提供服务合同及结算凭证",
+      "golden_object_key": "tian",
+      "golden_relation_predicate": "为核实被告委托关系及服务地点，请天广和物业提供服务合同及结算凭证",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-tian",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "为核实被告委托关系及服务地点，请天广和物业提供服务合同及结算凭证",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P08",
+      "weight": 0.06,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "T-EVENTS"
+      ],
+      "scope": "tian",
+      "object_key": "tian",
+      "source_location": "golden/需要天广和花园小区提供证据的告知书.docx:P014-P017",
+      "relation_predicate": "向天广和物业核取5月11日桂A3V5X9、桂A3C1B9相关清运台账，并核取主车辆门岗证据及知情人员信息",
+      "golden_object_key": "tian",
+      "golden_relation_predicate": "向天广和物业核取5月11日桂A3V5X9、桂A3C1B9相关清运台账，并核取主车辆门岗证据及知情人员信息",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-tian",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "向天广和物业核取5月11日桂A3V5X9、桂A3C1B9相关清运台账，并核取主车辆门岗证据及知情人员信息",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P09",
+      "weight": 0.29,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-CHANNEL"
+      ],
+      "scope": "both_requests",
+      "object_key": "both_requests",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P023,P025;golden/需要天广和花园小区提供证据的告知书.docx:P023,P025",
+      "relation_predicate": "物业资料不能直接提供时采用申请调查令或法院调查取证的后续路径",
+      "golden_object_key": "both_requests",
+      "golden_relation_predicate": "物业资料不能直接提供时采用申请调查令或法院调查取证的后续路径",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "物业资料不能直接提供时采用申请调查令或法院调查取证的后续路径",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    },
+    {
+      "id": "P10",
+      "weight": 0.05,
+      "dimension": "evidence_closure",
+      "unit_ids": [
+        "F-PURPOSE"
+      ],
+      "scope": "both_requests",
+      "object_key": "both_requests",
+      "source_location": "golden/需要风格雨林小区提供证据的告知书.docx:P021;golden/需要天广和花园小区提供证据的告知书.docx:P021",
+      "relation_predicate": "把物业取证限定在本案诉讼及向法院提交，同时限制对无关第三方披露",
+      "golden_object_key": "both_requests",
+      "golden_relation_predicate": "把物业取证限定在本案诉讼及向法院提交，同时限制对无关第三方披露",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author-adopted final submission or operative evidence request",
+      "negative_context_exclusions": "排除否定、引述未采用、被驳回观点、未决备选、错对象及长篇撒网",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one coherent numbered section or evidence-request block",
+        "metric": "nonwhitespace_characters",
+        "max_units": 1800
+      },
+      "length_contract_id": "S-feng",
+      "self_report_fields_are_non_authoritative": true,
+      "full": "把物业取证限定在本案诉讼及向法院提交，同时限制对无关第三方披露",
+      "partial": "预登记两个独立子命题命中一项取0.5；两份函件共享项以各函件0或1均值；不跨局部拼词",
+      "zero": "仅复制背景、标题关键词、未采用候选、普通遗漏或无法可靠解析",
+      "copy_counterfactual": "case-background及原始图片均不包含法律适用和向物业发出的证据请求命题",
+      "program_path": "raw OOXML paragraphs/table rows -> role-bound local sections -> registered task predicate",
+      "public_requirement": "instruction.md:sentence2 or sentence3",
+      "semantic_audit": "独立核对完整命题及其采用状态，检查规则同义扩展是否造成漏判"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "items": [
+    {
+      "id": "VAL-002_A3_G5:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Candidate identifies a left renal cyst, whereas this item targets the right renal echogenic focus with comet-tail sign."
+    },
+    {
+      "id": "VAL-002_A3_G5:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The adopted name refers to a different renal finding, not the targeted right renal echogenic focus with comet-tail sign."
+    },
+    {
+      "id": "VAL-002_A3_G5:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The conclusion changes the organ laterality and finding nature from a right renal echogenic focus with comet-tail sign to a left renal cyst."
+    },
+    {
+      "id": "VAL-002_A4_G3:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Candidate identifies a left renal stone rather than the targeted left renal cystic finding."
+    },
+    {
+      "id": "VAL-002_A4_G3:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Although a left renal stone is another finding in the source row, it is not the source-supported name for this item's cystic finding."
+    },
+    {
+      "id": "VAL-002_A4_G3:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The conclusion changes the finding nature from a left renal cyst to a left renal stone."
+    },
+    {
+      "id": "VAL-002_A4_G4:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A4_G4:A\", \"conclusion\": \"左肾结石\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "Candidate identifies the source-observed left renal calculus represented by the strong echogenic focus with acoustic shadow in the collecting system."
+    },
+    {
+      "id": "VAL-002_A4_G4:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A4_G4:B\", \"conclusion\": \"左肾结石\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "Left renal stone is a medically standard, source-supported name for the collecting-system echogenic focus with acoustic shadow."
+    },
+    {
+      "id": "VAL-002_A4_G4:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A4_G4:C\", \"conclusion\": \"左肾结石\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "The conclusion preserves the material organ, laterality, and calculus nature; lesion dimensions and detailed sonographic signs need not be repeated."
+    },
+    {
+      "id": "VAL-002_A4_G5:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Candidate identifies the left renal stone rather than the targeted right renal echogenic focus with comet-tail sign."
+    },
+    {
+      "id": "VAL-002_A4_G5:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The adopted name belongs to a different source finding and does not name this item's right renal comet-tail focus."
+    },
+    {
+      "id": "VAL-002_A4_G5:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The conclusion changes both laterality and finding nature, replacing the right renal echogenic focus with a left renal stone."
+    },
+    {
+      "id": "VAL-002_A5_G3:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Candidate identifies the right renal echogenic focus with comet-tail sign rather than the targeted left renal cyst."
+    },
+    {
+      "id": "VAL-002_A5_G3:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The adopted wording names a different finding in the row, not this item's left renal cystic finding."
+    },
+    {
+      "id": "VAL-002_A5_G3:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The conclusion changes the laterality and finding nature from a left renal cyst to a right renal echogenic focus."
+    },
+    {
+      "id": "VAL-002_A5_G4:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Candidate identifies the right renal echogenic focus with comet-tail sign rather than the targeted left renal stone."
+    },
+    {
+      "id": "VAL-002_A5_G4:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The adopted wording names a different source finding and is not the name of this item's left renal calculus."
+    },
+    {
+      "id": "VAL-002_A5_G4:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The conclusion changes both laterality and finding nature from a left renal stone to a right renal echogenic focus."
+    },
+    {
+      "id": "VAL-002_A5_G5:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A5_G5:A\", \"conclusion\": \"右肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "Candidate exactly identifies the source-observed right renal echogenic focus accompanied by a comet-tail sign."
+    },
+    {
+      "id": "VAL-002_A5_G5:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A5_G5:B\", \"conclusion\": \"右肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "The conclusion is a medically standard descriptive name directly supported by the recorded right renal imaging signs."
+    },
+    {
+      "id": "VAL-002_A5_G5:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A5_G5:C\", \"conclusion\": \"右肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "The conclusion preserves the right-kidney location, echogenic-focus nature, and associated comet-tail sign; dimensions need not be repeated."
+    },
+    {
+      "id": "VAL-002_A6_G6:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A6_G6:A\", \"conclusion\": \"甲状腺两叶囊肿\", \"evidence\": [\"VAL-002-R006\"], \"explanation\": \"依据 VAL-002-R006 归纳\"}"
+      ],
+      "reason": "Candidate identifies the cystic findings observed in both thyroid lobes."
+    },
+    {
+      "id": "VAL-002_A6_G6:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A6_G6:B\", \"conclusion\": \"甲状腺两叶囊肿\", \"evidence\": [\"VAL-002-R006\"], \"explanation\": \"依据 VAL-002-R006 归纳\"}"
+      ],
+      "reason": "Bilateral thyroid-lobe cysts are a medically standard name supported by the anechoic, sharply marginated, avascular findings."
+    },
+    {
+      "id": "VAL-002_A6_G6:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A6_G6:C\", \"conclusion\": \"甲状腺两叶囊肿\", \"evidence\": [\"VAL-002-R006\"], \"explanation\": \"依据 VAL-002-R006 归纳\"}"
+      ],
+      "reason": "The conclusion preserves the thyroid location, bilateral distribution, and cystic nature; measurements and Doppler details need not be repeated."
+    },
+    {
+      "id": "VAL-002_A7_G7:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A7_G7:A\", \"conclusion\": \"基本正常超声心动图（左房饱满）\", \"evidence\": [\"VAL-002-R009\"], \"explanation\": \"依据 VAL-002-R009 归纳\"}"
+      ],
+      "reason": "Candidate captures the essentially normal echocardiographic assessment while retaining the observed left atrial fullness."
+    },
+    {
+      "id": "VAL-002_A7_G7:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A7_G7:B\", \"conclusion\": \"基本正常超声心动图（左房饱满）\", \"evidence\": [\"VAL-002-R009\"], \"explanation\": \"依据 VAL-002-R009 归纳\"}"
+      ],
+      "reason": "The adopted echocardiographic summary is medically standard and supported by the largely normal structural and functional findings with left atrial fullness."
+    },
+    {
+      "id": "VAL-002_A7_G7:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A7_G7:C\", \"conclusion\": \"基本正常超声心动图（左房饱满）\", \"evidence\": [\"VAL-002-R009\"], \"explanation\": \"依据 VAL-002-R009 归纳\"}"
+      ],
+      "reason": "The conclusion preserves the essentially normal status and the material left atrial fullness qualifier."
+    },
+    {
+      "id": "VAL-003_A0_G0:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A0_G0:A\", \"conclusion\": \"二尖瓣环Em低于Am\", \"evidence\": [\"VAL-003-R008\"], \"explanation\": \"依据 VAL-003-R008 归纳\"}"
+      ],
+      "reason": "Candidate exactly identifies the recorded tissue-Doppler finding that mitral annular Em is lower than Am."
+    },
+    {
+      "id": "VAL-003_A0_G0:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A0_G0:B\", \"conclusion\": \"二尖瓣环Em低于Am\", \"evidence\": [\"VAL-003-R008\"], \"explanation\": \"依据 VAL-003-R008 归纳\"}"
+      ],
+      "reason": "This is a medically standard descriptive name directly supported by the recorded TDI relationship Em<Am."
+    },
+    {
+      "id": "VAL-003_A0_G0:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A0_G0:C\", \"conclusion\": \"二尖瓣环Em低于Am\", \"evidence\": [\"VAL-003-R008\"], \"explanation\": \"依据 VAL-003-R008 归纳\"}"
+      ],
+      "reason": "The conclusion preserves the mitral-annular location, measured parameters, and inequality direction."
+    },
+    {
+      "id": "VAL-003_A1_G1:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A1_G1:A\", \"conclusion\": \"牙龈炎\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "Candidate exactly identifies the gingivitis recorded in the periodontal examination."
+    },
+    {
+      "id": "VAL-003_A1_G1:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A1_G1:B\", \"conclusion\": \"牙龈炎\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "Gingivitis is a medically standard diagnosis explicitly supported by the source row."
+    },
+    {
+      "id": "VAL-003_A1_G1:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A1_G1:C\", \"conclusion\": \"牙龈炎\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "The conclusion preserves the gingivitis finding; the recorded grade 2 qualifier applies to the separate dental-calculus finding."
+    },
+    {
+      "id": "VAL-003_A1_G2:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Candidate identifies gingivitis rather than the targeted grade 2 dental calculus."
+    },
+    {
+      "id": "VAL-003_A1_G2:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "Gingivitis is a different finding in the same row and does not name this item's dental-calculus finding."
+    },
+    {
+      "id": "VAL-003_A1_G2:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "The conclusion replaces dental calculus with gingivitis and omits the material grade 2 qualifier."
+    }
+  ]
+}

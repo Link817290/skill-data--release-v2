@@ -1,0 +1,625 @@
+{
+  "valid": true,
+  "errors": [],
+  "coverage": {
+    "Application": {
+      "filled_widget_count": 31,
+      "covered_widget_count": 31,
+      "unaccounted_widget_refs": [],
+      "unknown_or_unfilled_widget_refs": []
+    },
+    "Withholding record": {
+      "filled_widget_count": 0,
+      "covered_widget_count": 0,
+      "unaccounted_widget_refs": [],
+      "unknown_or_unfilled_widget_refs": []
+    },
+    "Employment eligibility record": {
+      "filled_widget_count": 0,
+      "covered_widget_count": 0,
+      "unaccounted_widget_refs": [],
+      "unknown_or_unfilled_widget_refs": []
+    }
+  },
+  "reviewed_field_count": 56,
+  "published_field_count": 43,
+  "counts": {
+    "ALIAS": 7,
+    "AUTH": 1,
+    "CONTACT": 15,
+    "DATE": 1,
+    "DOB": 1,
+    "GOV-ID": 2,
+    "OTHER": 9,
+    "SIGN": 1,
+    "TAX": 6
+  },
+  "counts_by_record": {
+    "Application": {
+      "ALIAS": 3,
+      "CONTACT": 5,
+      "OTHER": 9
+    },
+    "Withholding record": {
+      "ALIAS": 1,
+      "CONTACT": 6,
+      "GOV-ID": 1,
+      "TAX": 6
+    },
+    "Employment eligibility record": {
+      "ALIAS": 3,
+      "AUTH": 1,
+      "CONTACT": 4,
+      "DATE": 1,
+      "DOB": 1,
+      "GOV-ID": 1,
+      "SIGN": 1
+    }
+  },
+  "register_rows": [
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "01",
+      "action": "ALIAS",
+      "outcome": "REPLACED",
+      "sort_rect": [
+        222.528,
+        184.615,
+        385.714,
+        202.747
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "02",
+      "action": "ALIAS",
+      "outcome": "REPLACED",
+      "sort_rect": [
+        173.901,
+        185.44,
+        212.637,
+        204.396
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "03",
+      "action": "ALIAS",
+      "outcome": "REPLACED",
+      "sort_rect": [
+        72.75,
+        186.001,
+        167.845,
+        204.751
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "04",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        441.002,
+        189.56,
+        543.956,
+        205.501
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "05",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        156.001,
+        213.751,
+        386.251,
+        229.501
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "06",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        465.659,
+        220.055,
+        543.956,
+        231.593
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "07",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        439.502,
+        238.501,
+        547.609,
+        259.501
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "08",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        126.0,
+        242.251,
+        393.751,
+        260.251
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "09",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        469.502,
+        265.501,
+        539.252,
+        279.001
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "10",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        115.848,
+        486.161,
+        135.938,
+        499.554
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-1",
+      "row": "11",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        333.751,
+        717.753,
+        596.145,
+        738.753
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-2",
+      "row": "12",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        186.264,
+        79.945,
+        201.099,
+        93.132
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-2",
+      "row": "13",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        216.825,
+        127.5,
+        430.576,
+        276.001
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-2",
+      "row": "14",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        21.0,
+        133.5,
+        211.501,
+        169.501
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-6",
+      "row": "15",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        173.325,
+        555.002,
+        433.576,
+        587.178
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-6",
+      "row": "16",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        173.901,
+        587.637,
+        428.572,
+        611.539
+      ]
+    },
+    {
+      "record": "Application",
+      "logical_page": "APP-6",
+      "row": "17",
+      "action": "OTHER",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        175.549,
+        614.011,
+        427.747,
+        637.088
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "01",
+      "action": "GOV-ID",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        176.0,
+        163.0,
+        272.0,
+        179.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "02",
+      "action": "ALIAS",
+      "outcome": "REPLACED",
+      "sort_rect": [
+        323.0,
+        163.0,
+        443.0,
+        179.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "03",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        35.0,
+        187.0,
+        300.0,
+        202.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "04",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        323.0,
+        187.0,
+        580.0,
+        202.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "05",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        35.0,
+        211.0,
+        170.0,
+        227.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "06",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        175.0,
+        211.0,
+        270.0,
+        227.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "07",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        275.0,
+        211.0,
+        440.0,
+        227.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "08",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        444.0,
+        211.0,
+        580.0,
+        227.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "09",
+      "action": "TAX",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        66.0,
+        247.0,
+        81.0,
+        262.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "10",
+      "action": "TAX",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        489.0,
+        267.0,
+        508.0,
+        282.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "11",
+      "action": "TAX",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        493.0,
+        279.0,
+        585.0,
+        297.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "12",
+      "action": "TAX",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        124.0,
+        369.0,
+        139.0,
+        384.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "13",
+      "action": "TAX",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        425.0,
+        386.0,
+        443.0,
+        403.0
+      ]
+    },
+    {
+      "record": "Withholding record",
+      "logical_page": "TAX-1",
+      "row": "14",
+      "action": "TAX",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        425.0,
+        405.0,
+        526.0,
+        424.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "01",
+      "action": "ALIAS",
+      "outcome": "REPLACED",
+      "sort_rect": [
+        42.14,
+        214.0,
+        222.743,
+        230.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "02",
+      "action": "ALIAS",
+      "outcome": "REPLACED",
+      "sort_rect": [
+        224.749,
+        214.0,
+        366.221,
+        230.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "03",
+      "action": "ALIAS",
+      "outcome": "REPLACED",
+      "sort_rect": [
+        380.268,
+        214.0,
+        412.375,
+        230.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "04",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        42.14,
+        241.0,
+        351.171,
+        257.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "05",
+      "action": "DOB",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        417.391,
+        241.0,
+        556.856,
+        257.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "06",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        42.14,
+        269.0,
+        210.702,
+        285.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "07",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        211.706,
+        269.0,
+        349.164,
+        285.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "08",
+      "action": "CONTACT",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        351.171,
+        269.0,
+        413.378,
+        285.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "09",
+      "action": "GOV-ID",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        417.391,
+        269.0,
+        556.856,
+        285.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "10",
+      "action": "AUTH",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        296.99,
+        295.0,
+        312.04,
+        312.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "11",
+      "action": "SIGN",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        112.375,
+        351.0,
+        235.786,
+        381.0
+      ]
+    },
+    {
+      "record": "Employment eligibility record",
+      "logical_page": "ELIG-1",
+      "row": "12",
+      "action": "DATE",
+      "outcome": "REMOVED",
+      "sort_rect": [
+        377.258,
+        351.0,
+        501.672,
+        381.0
+      ]
+    }
+  ],
+  "source_sha256": {
+    "employment_eligibility_record.pdf": "2065783177d9fd6bf1b71d1638aa3b61ac50aba32b2a200bbfa5fab4b77d8d84",
+    "withholding_record.pdf": "4c1ed9eb6b6ba67f0b6f8757687b4604ca5015c5dfa80a86ab2e94d322320bd8",
+    "employment_application_record.pdf": "e3e59a04154fca2b44d1ee207b7541b8366359d2f7f4f32d6ded856d9246c074"
+  }
+}

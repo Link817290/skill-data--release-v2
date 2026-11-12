@@ -1,0 +1,205 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "restaurant-group-management-architecture",
+  "tasks": [
+    "restaurant-group-management-architecture"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 48,
+  "bytes_excluding_manifest": 4003457,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1660,
+      "sha256": "5ed675ea5290caa007bd3a57c87b44713922a7c48fac8b9f106f20a6f8d9472e"
+    },
+    "RUBRIC.md": {
+      "bytes": 5493,
+      "sha256": "0c5c3ae57ccbe54a78d2898512126d883a743f2ca9877e32ba3332a6ce8c3b71"
+    },
+    "dataset.toml": {
+      "bytes": 1029,
+      "sha256": "67275c11a0fc0be01b0eafdbcbb3189d8afd13d5fb8398cd5a6c7b88828ae2c4"
+    },
+    "golden/control-system-and-long-term-architecture.md": {
+      "bytes": 8831,
+      "sha256": "8233cdaee727f522b2e859e51ade97aba93555b89712d1f310d4896717e3267d"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 270,
+      "sha256": "fc332352c1351e4f2e2e3d58bea9e5af6ce5f2052e47f727a57770ad0af7cde6"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 442,
+      "sha256": "5170527625d4ff0ff8070943a9b120343f56ae765242db047c9a5b40877b64a1"
+    },
+    "task/environment/skills/group-control-design/SKILL.md": {
+      "bytes": 5100,
+      "sha256": "b5b18ae885facd0d1802a0604cd62c7f400f431ca034e71056f73324266845b4"
+    },
+    "task/environment/skills/group-control-design/references/decision-allocation.md": {
+      "bytes": 7228,
+      "sha256": "79b0edb8f6d75bfa4e1dbab6502c6a4b2c66dfd6be48a4174078803d662db0d4"
+    },
+    "task/environment/skills/group-control-design/references/long-term-variants.md": {
+      "bytes": 6204,
+      "sha256": "0ca04e874287b2dd30e2d60df1d0b3af4c605413f89a882937543b26fd942209"
+    },
+    "task/environment/skills/group-control-design/references/target-cascade.md": {
+      "bytes": 3449,
+      "sha256": "d14100c4a885542bbd8b90e7e349ec07ab9644bba5d98528cee75b885303ba86"
+    },
+    "task/environment/workspace/materials/images/fig-01.png": {
+      "bytes": 275977,
+      "sha256": "6678d8d7712964ceb39b5c3745f4e936364641190a243cc18f0386bfd07ea632"
+    },
+    "task/environment/workspace/materials/images/fig-02.png": {
+      "bytes": 92428,
+      "sha256": "80aa490bcf0684827d82cf5a735408f511c330a7fd2cd0cd4261e89cb05ba893"
+    },
+    "task/environment/workspace/materials/images/fig-03.png": {
+      "bytes": 171986,
+      "sha256": "d86e9271b8762e916cefd2a5337cb621b111858b253bd82424884d9226708889"
+    },
+    "task/environment/workspace/materials/images/fig-04.png": {
+      "bytes": 18124,
+      "sha256": "9e2bd7d1eb12f4738b56fc112eb481692765e9f80f0564987f773a8e199679dd"
+    },
+    "task/environment/workspace/materials/images/fig-05.png": {
+      "bytes": 104045,
+      "sha256": "4e667ece932e8c60327d3681e9aaa147d96f5ac67249fb09c333dd33d3649b01"
+    },
+    "task/environment/workspace/materials/images/fig-06.png": {
+      "bytes": 84629,
+      "sha256": "c4c8432315c5fb0da2c0698732f518b46f92c29299491b7b435f3d78e8736030"
+    },
+    "task/environment/workspace/materials/images/fig-07.png": {
+      "bytes": 84629,
+      "sha256": "c4c8432315c5fb0da2c0698732f518b46f92c29299491b7b435f3d78e8736030"
+    },
+    "task/environment/workspace/materials/images/fig-08.png": {
+      "bytes": 87147,
+      "sha256": "fbac2fbd7dcd4d445e66576c891a5cea8c315d744245610af61a7999cd92413b"
+    },
+    "task/environment/workspace/materials/images/fig-09.png": {
+      "bytes": 286667,
+      "sha256": "bf261873a4a03ab1366817af9488a7c42f10ac320aa1921d094f131db11ad926"
+    },
+    "task/environment/workspace/materials/images/fig-10.png": {
+      "bytes": 187068,
+      "sha256": "bd6f50b3574b5b5d44c1467cc2818e8d676c3563ae27e69fb1ebff6fdec24035"
+    },
+    "task/environment/workspace/materials/images/fig-11.png": {
+      "bytes": 143087,
+      "sha256": "161941c6c07cb294fd3b54a855f7b3feb633f847db7a8db39637ab682111f3d4"
+    },
+    "task/environment/workspace/materials/images/fig-12.png": {
+      "bytes": 255579,
+      "sha256": "bdc2c0a1a15f45a8656b39fb419b8cbd790b4561c34b9be38dc0539341e0ce22"
+    },
+    "task/environment/workspace/materials/material.md": {
+      "bytes": 69569,
+      "sha256": "09d9c7803f9e03812ca5ff4b8c60f5dc2f90c2ea411979ccbdf7ccb28fc8e3b8"
+    },
+    "task/instruction.md": {
+      "bytes": 839,
+      "sha256": "210a43ea8bdf0d5e16d660484ca2d4c9b220e77ac35f0a6915a8db97eecf7970"
+    },
+    "task/solution/reference/control-system-and-long-term-architecture.md": {
+      "bytes": 8831,
+      "sha256": "8233cdaee727f522b2e859e51ade97aba93555b89712d1f310d4896717e3267d"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 389,
+      "sha256": "959ae16071d06717feb503cfb469abd827c7e7a2930236a33cc1b375e61cdabe"
+    },
+    "task/task.toml": {
+      "bytes": 978,
+      "sha256": "d0c04c4ee2560d93365f7e9dd4c4e0dda734af9ab9d8c28d5c0271042d1cc69e"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 980,
+      "sha256": "bf0d06aedb137f91a28468bea5b2cb7d903281d92d38477dfbccf8e2d0c49e47"
+    },
+    "task/tests/golden/golden.md": {
+      "bytes": 8831,
+      "sha256": "8233cdaee727f522b2e859e51ade97aba93555b89712d1f310d4896717e3267d"
+    },
+    "task/tests/materials/images/fig-01.png": {
+      "bytes": 275977,
+      "sha256": "6678d8d7712964ceb39b5c3745f4e936364641190a243cc18f0386bfd07ea632"
+    },
+    "task/tests/materials/images/fig-02.png": {
+      "bytes": 92428,
+      "sha256": "80aa490bcf0684827d82cf5a735408f511c330a7fd2cd0cd4261e89cb05ba893"
+    },
+    "task/tests/materials/images/fig-03.png": {
+      "bytes": 171986,
+      "sha256": "d86e9271b8762e916cefd2a5337cb621b111858b253bd82424884d9226708889"
+    },
+    "task/tests/materials/images/fig-04.png": {
+      "bytes": 18124,
+      "sha256": "9e2bd7d1eb12f4738b56fc112eb481692765e9f80f0564987f773a8e199679dd"
+    },
+    "task/tests/materials/images/fig-05.png": {
+      "bytes": 104045,
+      "sha256": "4e667ece932e8c60327d3681e9aaa147d96f5ac67249fb09c333dd33d3649b01"
+    },
+    "task/tests/materials/images/fig-06.png": {
+      "bytes": 84629,
+      "sha256": "c4c8432315c5fb0da2c0698732f518b46f92c29299491b7b435f3d78e8736030"
+    },
+    "task/tests/materials/images/fig-07.png": {
+      "bytes": 84629,
+      "sha256": "c4c8432315c5fb0da2c0698732f518b46f92c29299491b7b435f3d78e8736030"
+    },
+    "task/tests/materials/images/fig-08.png": {
+      "bytes": 87147,
+      "sha256": "fbac2fbd7dcd4d445e66576c891a5cea8c315d744245610af61a7999cd92413b"
+    },
+    "task/tests/materials/images/fig-09.png": {
+      "bytes": 286667,
+      "sha256": "bf261873a4a03ab1366817af9488a7c42f10ac320aa1921d094f131db11ad926"
+    },
+    "task/tests/materials/images/fig-10.png": {
+      "bytes": 187068,
+      "sha256": "bd6f50b3574b5b5d44c1467cc2818e8d676c3563ae27e69fb1ebff6fdec24035"
+    },
+    "task/tests/materials/images/fig-11.png": {
+      "bytes": 143087,
+      "sha256": "161941c6c07cb294fd3b54a855f7b3feb633f847db7a8db39637ab682111f3d4"
+    },
+    "task/tests/materials/images/fig-12.png": {
+      "bytes": 255579,
+      "sha256": "bdc2c0a1a15f45a8656b39fb419b8cbd790b4561c34b9be38dc0539341e0ce22"
+    },
+    "task/tests/materials/material.md": {
+      "bytes": 69569,
+      "sha256": "09d9c7803f9e03812ca5ff4b8c60f5dc2f90c2ea411979ccbdf7ccb28fc8e3b8"
+    },
+    "task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22677,
+      "sha256": "e9abcb04ac48066ede81e6819c74094a19e45dab78933b4dc9a4c75eab6edcf9"
+    },
+    "task/tests/program_judge/semantic_judge.py": {
+      "bytes": 14787,
+      "sha256": "32fd64ae366fbeacf9c9e3600590b4804db8cf54c1efda9be2bfbebc4b282fb4"
+    },
+    "task/tests/program_judge/task_judge.py": {
+      "bytes": 91341,
+      "sha256": "c56a6bd09a72c8910b9759746b0526ece90bcfae2fdcd18477ddf45dcc9b7e5d"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 78914,
+      "sha256": "2bc269c293214879abf83dcf324b232c8f5eb10d735fa0816a2d6b201f46a797"
+    },
+    "task/tests/semantic_replay/da5a173ed5cfa68a9906c60855d4076f202e203affbadf9cab246ff90ccbd52e.json": {
+      "bytes": 9693,
+      "sha256": "9c85fac8ad375d0734524a520200719e4a41fd0430267df62c064f112d7e1b60"
+    },
+    "task/tests/test.sh": {
+      "bytes": 3621,
+      "sha256": "8df2271dc7a783b91c0b2e009cfb333f3b7eae92637d76d27be3688f36d21bf1"
+    }
+  }
+}

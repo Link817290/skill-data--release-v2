@@ -1,0 +1,13 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+COPY task/ /task/
+COPY task/tests/ /tests/
+COPY golden/ /task/golden/
+COPY task/environment/workspace/ /workspace/
+RUN python3 -c "import docx, openpyxl" \
+    && chmod +x /tests/test.sh /task/tests/test.sh \
+    && mkdir -p /workspace/output /logs/verifier /logs/artifacts
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+CMD ["/bin/sh"]

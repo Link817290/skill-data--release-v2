@@ -1,0 +1,733 @@
+{
+  "criteria": [
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-2",
+          "quote": "Reviewer annotation anchored to [表6-2　产量状况（年生产300天，每日8小时）]: 表1及审批摘录为电镀液725、化学镀液600 kg/a，表6-2却相反。请按产品台账核对名称与产量，先保留两处原值，不凭计算将实际日产量挪到另一产品。聚合树脂400/300＝1.333… kg/d，用未过早舍入的设计产量核算，9/21为90%、9/22为82.5%，并非92%、85%。更正负荷时应一并说明取舍口径。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P5",
+          "quote": "请核对六类产品的名称与设计产能，重点核实电镀液、化学镀液在表1与表6的对应关系；实际产量不能凭推断调换。聚合树脂按400 kg/a和300天复核的负荷为90%、82.5%，请统一计算口径。总投资概算22000万元与表2环评栏68800万元的依据应分别说明，不能仅凭投资变化认定重大变动。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P16",
+          "quote": "复合导热硅脂800 kg/a；树脂胶600 kg/a；电镀液725 kg/a；化学镀液600 kg/a；聚合树脂400 kg/a；底部填充胶96 kg/a。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P116",
+          "quote": "化学镀液",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P123",
+          "quote": "电镀液",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "product_mapping",
+      "reason": "The reviewer identifies the electroplating/chemical-plating 725/600 kg/a mapping reversal, preserves both reported mappings, requests product records, and expressly rejects reallocating actual daily output by inference.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-2",
+          "quote": "Reviewer annotation anchored to [表6-2　产量状况（年生产300天，每日8小时）]: 表1及审批摘录为电镀液725、化学镀液600 kg/a，表6-2却相反。请按产品台账核对名称与产量，先保留两处原值，不凭计算将实际日产量挪到另一产品。聚合树脂400/300＝1.333… kg/d，用未过早舍入的设计产量核算，9/21为90%、9/22为82.5%，并非92%、85%。更正负荷时应一并说明取舍口径。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P5",
+          "quote": "请核对六类产品的名称与设计产能，重点核实电镀液、化学镀液在表1与表6的对应关系；实际产量不能凭推断调换。聚合树脂按400 kg/a和300天复核的负荷为90%、82.5%，请统一计算口径。总投资概算22000万元与表2环评栏68800万元的依据应分别说明，不能仅凭投资变化认定重大变动。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P130",
+          "quote": "聚合树脂",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P131",
+          "quote": "400",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P133",
+          "quote": "1.2",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P135",
+          "quote": "1.1",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "polymer_load",
+      "reason": "The candidate uses the unrounded 400/300 = 1.333... kg/d denominator and correctly reports 1.2 and 1.1 kg/d as 90.0% and 82.5%, replacing the draft's 92% and 85%.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-1",
+          "quote": "Reviewer annotation anchored to [项目产能、组成、投资及员工等与环评一致，未涉及重大变动。]: 表1概算22000万元，而表2环评阶段为68800万元，不能保持“投资与环评一致”的无条件表述。请核对环评投资口径及设备投资变更资料；投资差异本身不能直接证明重大变动。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P5",
+          "quote": "请核对六类产品的名称与设计产能，重点核实电镀液、化学镀液在表1与表6的对应关系；实际产量不能凭推断调换。聚合树脂按400 kg/a和300天复核的负荷为90%、82.5%，请统一计算口径。总投资概算22000万元与表2环评栏68800万元的依据应分别说明，不能仅凭投资变化认定重大变动。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P18",
+          "quote": "总投资概算22000万元，环保投资概算1500万元；实际总投资68800万元，实际环保投资1700万元。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P57",
+          "quote": "68800万元",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "investment_basis",
+      "reason": "The candidate flags the 22000/68800 discrepancy, requests the respective investment bases and equipment-change records, and states that the monetary difference alone does not establish a major physical change.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-3",
+          "quote": "Reviewer annotation anchored to [据上述工况，监测时主体工程稳定，满足验收监测条件。]: 工况仅9/21—22。废水含9/23，食堂、污水站、噪声均在9/23—24，现有两天记录不能证明全部监测期间稳定。请补相应日期的生产、污水站和废气处理设施运行记录及食堂工作灶头记录；不是据此断言工况异常，也不先定全部重测。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P9",
+          "quote": "补9月23、24日生产及环保设施运行、污水站运行和食堂投用灶头情况，并与各类采样时间对应；已有9月21、22日工况不能替代。补检测原报告及相关原始采样/质控资料；如原始记录支持，应更正摘录及计算，只有证据不足或不满足采样条件时才安排必要补测，不能先把全部监测作废。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P80",
+          "quote": "连续2天，每天3次；结果日期9月21、22日。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P82",
+          "quote": "连续2天，每天4次；结果日期9月22、23日。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P84",
+          "quote": "连续2天；结果日期9月23、24日。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P86",
+          "quote": "连续2天，昼夜各1次；结果日期9月23、24日。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "operating_coverage",
+      "reason": "The candidate maps the available 21-22 September operating evidence against water monitoring through the 23rd and canteen, wastewater-station, and noise monitoring on the 23rd-24th. It requests date-matched records and treats their absence as an evidence gap rather than proof of instability.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-4",
+          "quote": "Reviewer annotation anchored to [0.833]: 表7-3食堂出口9/23：23192×3.59×10⁻⁶＝0.08325928 kg/h，约0.0833 kg/h，与0.833相差约10倍；请检测单位核对原始流量、浓度和速率后出具更正依据，不能改写原测值来消除矛盾。9/24为23017×2.61×10⁻⁶＝0.06007437 kg/h，约0.0601，与表相符。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P6",
+          "quote": "请检测单位核查食堂9月23日排放速率0.833 kg/h，流量和浓度乘积为0.08325928 kg/h；保留原记录，补更正说明。核实食堂中型规模依据、排气筒高度和适用限值，纠正NMHC 1.0、臭气6000等与所附条款不一致的引用；不能直接把食堂NMHC判作超标。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P236",
+          "quote": "23192",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P237",
+          "quote": "3.59",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P238",
+          "quote": "0.833",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P34",
+          "quote": "排放速率：kg/h＝mg/m³×m³/h×10⁻⁶，流量与浓度须属于同一采样条件。限值应与污染源、点位、时段和单位一致，不能把入口监测值按出口限值判定。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "exhaust_rate",
+      "reason": "The candidate preserves flow 23192 m3/h, concentration 3.59 mg/m3, and reported 0.833 kg/h; calculates 0.08325928 kg/h; confirms the comparison-day result; and requests a traceable correction from the testing organization.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-8",
+          "quote": "Reviewer annotation anchored to [各点位昼夜噪声均满足GB12348-2008的3类要求。]: 本表16个噪声结果均在相应65/55 dB(A)限值内，昼间最高59、夜间最高49，各余量6 dB；表9仅写昼间遗漏已有夜间结果。可补充本次各测点昼夜均满足表列限值，同时保留9/23—24工况资料待核，不要求重做已有夜间监测。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P10",
+          "quote": "油烟出口实测与基准浓度取大值为0.3、0.4 mg/m³，低于1.0，但90%净化效率尚缺同次进出口油烟质量流率证据。补对应浓度、风量、有效样次及计算过程，不能拿另项NMHC的日汇总流量拼算。食堂出口臭气229、309低于500；厂界噪声昼夜最大59、49 dB(A)，均低于65、55，本次数值比较可保留。ND记录按检出限解释。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P303",
+          "quote": "58",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P318",
+          "quote": "59",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P306",
+          "quote": "49",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P316",
+          "quote": "49",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P323",
+          "quote": "65",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P324",
+          "quote": "55",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "noise",
+      "reason": "The candidate evaluates all 16 day/night observations, identifies maxima of 59 and 49 dB(A), compares them with 65 and 55 dB(A), and correctly states six-dB margins while noting the draft conclusion omitted the night results.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-7",
+          "quote": "Reviewer annotation anchored to [总磷]: 总磷限值列“/”表示本表采用标准未列限值，不等于零或无限大，0.90—0.96等结果不能标“合格”；应改为无该项限值、不作达标判定，并核接管/许可是否另有限值。A楼COD的ND保持低于4 mg/L，不当作零计算去除率。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P7",
+          "quote": "总磷无表列限值时不作达标判定。沾染化学品包装不得同时表述为一般固废外售和危废委托；请补分类依据、对应代码及去向资料，再修订处置表述。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P190",
+          "quote": "总磷",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P193",
+          "quote": "/",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P194",
+          "quote": "合格",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P213",
+          "quote": "ND为低于检出限；“/”为执行标准中无该项限值；进口不附标准限值。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "phosphorus",
+      "reason": "The candidate interprets the slash as no limit in the cited table, rejects the draft's compliant designation, avoids treating the criterion as zero or infinity, and requests checking whether a permit or receiving-system requirement supplies another limit.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-7",
+          "quote": "Reviewer annotation anchored to [总磷]: 总磷限值列“/”表示本表采用标准未列限值，不等于零或无限大，0.90—0.96等结果不能标“合格”；应改为无该项限值、不作达标判定，并核接管/许可是否另有限值。A楼COD的ND保持低于4 mg/L，不当作零计算去除率。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P10",
+          "quote": "油烟出口实测与基准浓度取大值为0.3、0.4 mg/m³，低于1.0，但90%净化效率尚缺同次进出口油烟质量流率证据。补对应浓度、风量、有效样次及计算过程，不能拿另项NMHC的日汇总流量拼算。食堂出口臭气229、309低于500；厂界噪声昼夜最大59、49 dB(A)，均低于65、55，本次数值比较可保留。ND记录按检出限解释。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P155",
+          "quote": "ND、5、8、6",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P87",
+          "quote": "监测人员、仪器及分析方法按质量管理要求执行；噪声测量前后校准示值偏差不大于0.5 dB。COD方法检出限为4 mg/L。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P213",
+          "quote": "ND为低于检出限；“/”为执行标准中无该项限值；进口不附标准限值。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "censored_nd",
+      "reason": "The candidate retains COD ND as below the 4 mg/L detection limit, therefore censored in [0,4), and explicitly rejects treating it as zero for a removal-efficiency calculation.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-0",
+          "quote": "Reviewer annotation anchored to [表1-1　污染物排放标准]: 表1食堂NMHC列1.0 mg/m³与技术资料第5.2条不符，不能据此把3.59、2.61直接判超标。该条10 mg/m³仅针对大型，本项目批复写中型，应核实灶头/功率/面积及审批特别要求，再确定NMHC判据；同表臭气500与表7-3的6000也不一致。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P6",
+          "quote": "请检测单位核查食堂9月23日排放速率0.833 kg/h，流量和浓度乘积为0.08325928 kg/h；保留原记录，补更正说明。核实食堂中型规模依据、排气筒高度和适用限值，纠正NMHC 1.0、臭气6000等与所附条款不一致的引用；不能直接把食堂NMHC判作超标。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P32",
+          "quote": "油烟1.0 mg/m³；非甲烷总烃1.0 mg/m³；臭气浓度500；最低去除效率90%；排气筒24 m。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P33",
+          "quote": "SZDB/Z 254-2017，中型",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P22",
+          "quote": "按基准灶头数划分：大型≥6，中型≥3且<6，小型<3；按总功率或排气罩投影面积折算。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P26",
+          "quote": "现有大型和新建大型饮食业NMHC最高允许浓度10 mg/m³；现有及新建饮食业臭气浓度限值500。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "canteen_nmhc_scope",
+      "reason": "The candidate recognizes that the supplied 10 mg/m3 NMHC clause applies only to large units while the project is declared medium, rejects both the unsupported draft 1.0 criterion and an immediate exceedance finding, and requests evidence of scale and any special approval requirement.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-0",
+          "quote": "Reviewer annotation anchored to [表1-1　污染物排放标准]: 表1食堂NMHC列1.0 mg/m³与技术资料第5.2条不符，不能据此把3.59、2.61直接判超标。该条10 mg/m³仅针对大型，本项目批复写中型，应核实灶头/功率/面积及审批特别要求，再确定NMHC判据；同表臭气500与表7-3的6000也不一致。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C1-COMMENT-5",
+          "quote": "Reviewer annotation anchored to [表7-3注明排气筒高度均为25 m；处理前不附限值。]: 排气筒高度和限值需按点位核对：表1食堂24 m、表7-3均25 m，存在内部不一致；污水站高度还需竣工资料与审批要求支持。不能在高度未核实时用29 kg/h、14 kg/h等限值代替审批条件。提供排气筒台账、测高及适用限值计算后复核。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P6",
+          "quote": "请检测单位核查食堂9月23日排放速率0.833 kg/h，流量和浓度乘积为0.08325928 kg/h；保留原记录，补更正说明。核实食堂中型规模依据、排气筒高度和适用限值，纠正NMHC 1.0、臭气6000等与所附条款不一致的引用；不能直接把食堂NMHC判作超标。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P32",
+          "quote": "油烟1.0 mg/m³；非甲烷总烃1.0 mg/m³；臭气浓度500；最低去除效率90%；排气筒24 m。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P251",
+          "quote": "6000",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P263",
+          "quote": "表7-3注明排气筒高度均为25 m；处理前不附限值。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P26",
+          "quote": "现有大型和新建大型饮食业NMHC最高允许浓度10 mg/m³；现有及新建饮食业臭气浓度限值500。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "source_height_limits",
+      "reason": "The candidate identifies the canteen 24/25 m inconsistency and odor-limit conflict of 500 versus 6000, keeps source-specific limits unresolved pending stack records and measurements, and avoids substituting the wastewater-station 14 kg/h or other unverified limits.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-10",
+          "quote": "Reviewer annotation anchored to [项目环保手续齐全、设施完善，生产内容与环评一致；检测均合格达标，具备竣工环境保护验收条件，建议通过验收。]: 现有材料不支持直接建议通过。应先核清以上矛盾并补检测原报告、对应日期工况、固废分类及合同/转移记录、排污许可和审批落实证据。现有摘录无69.8 kg/a总量指标的年度核算，瞬时浓度/速率合格不能证明年总量合规；需核实际年运行时长、排放源及无组织口径。仅对一期已提供资料形成内部复核意见，不扩大到二期，不代作建设单位验收结论。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P12",
+          "quote": "提供排污许可材料、危废分类与处置合同/转移记录、排气筒竣工台账及审批落实说明，核对实际运行。对69.8 kg/a的VOCs指标提供源清单、实际年运行时间及年度核算；本次短期监测不能代替年度总量评价。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P75",
+          "quote": "项目属于一期工程。审批要求：综合废水28.664 m³/d、清净下水4.902 m³/d分别按规定排放；非甲烷总烃排放速率因排气筒高度条件按相应限值的50%执行；食堂按SZDB/Z 254-2017中型要求；噪声按3类要求；挥发性有机物总量控制指标69.8 kg/a；危废分类收集后委托依法处置。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P12",
+          "quote": "GB12348-2008的3类；挥发性有机物总量控制指标69.8 kg/a。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "annual_voc",
+      "reason": "The candidate states that short-duration concentration or rate results cannot establish compliance with the 69.8 kg/a VOC cap and requests a source inventory, actual annual operating time, relevant uncontrolled-emission scope, and annual accounting.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-6",
+          "quote": "Reviewer annotation anchored to [本表执行SZDB/Z 254-2017，处理前采样口不附标准限值。]: 按第7.2条取实测与基准浓度较大者，油烟出口9/23为0.3、9/24为0.4 mg/m³，均低于1.0；入口不作排放达标判定。但浓度达标不等于满足90%去除效率。需补油烟同次同步进出口浓度、流量及有效样次，不能把表7-3的NMHC流量与表7-4的平均油烟值仅按日期拼接，也不能用基准浓度比直接算效率。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P10",
+          "quote": "油烟出口实测与基准浓度取大值为0.3、0.4 mg/m³，低于1.0，但90%净化效率尚缺同次进出口油烟质量流率证据。补对应浓度、风量、有效样次及计算过程，不能拿另项NMHC的日汇总流量拼算。食堂出口臭气229、309低于500；厂界噪声昼夜最大59、49 dB(A)，均低于65、55，本次数值比较可保留。ND记录按检出限解释。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P279",
+          "quote": "0.3",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P280",
+          "quote": "0.2",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P281",
+          "quote": "1.0",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P291",
+          "quote": "0.4",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P292",
+          "quote": "0.3",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P293",
+          "quote": "1.0",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P32",
+          "quote": "实测浓度折算为单灶头基准排风量浓度；折算后与实测浓度比较，取较大者为最终监测结果。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "fume_outlet",
+      "reason": "For each outlet event, the candidate takes the larger measured/reference value, yielding 0.3 and 0.4 mg/m3, compares both with 1.0 mg/m3, and correctly excludes inlet concentrations from the outlet compliance test.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-6",
+          "quote": "Reviewer annotation anchored to [本表执行SZDB/Z 254-2017，处理前采样口不附标准限值。]: 按第7.2条取实测与基准浓度较大者，油烟出口9/23为0.3、9/24为0.4 mg/m³，均低于1.0；入口不作排放达标判定。但浓度达标不等于满足90%去除效率。需补油烟同次同步进出口浓度、流量及有效样次，不能把表7-3的NMHC流量与表7-4的平均油烟值仅按日期拼接，也不能用基准浓度比直接算效率。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P10",
+          "quote": "油烟出口实测与基准浓度取大值为0.3、0.4 mg/m³，低于1.0，但90%净化效率尚缺同次进出口油烟质量流率证据。补对应浓度、风量、有效样次及计算过程，不能拿另项NMHC的日汇总流量拼算。食堂出口臭气229、309低于500；厂界噪声昼夜最大59、49 dB(A)，均低于65、55，本次数值比较可保留。ND记录按检出限解释。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P273",
+          "quote": "1.7",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P279",
+          "quote": "0.3",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P285",
+          "quote": "2.1",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P291",
+          "quote": "0.4",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P28",
+          "quote": "去除效率以净化前后油烟质量流率计算：P＝（C前Q前－C后Q后）/（C前Q前）×100%；C为浓度，Q为对应排风量。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P30",
+          "quote": "三次采样数据需按规定有效性规则取舍后计算，至少两个有效数据；不符合时重新采样。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "fume_efficiency",
+      "reason": "The candidate keeps the 90% efficiency result unresolved until valid same-event inlet/outlet oil-fume concentrations and corresponding flows are supplied. It expressly rejects concentration-only ratios, use of baseline-concentration ratios, and splicing NMHC flows into the oil-fume calculation.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-9",
+          "quote": "Reviewer annotation anchored to [一般工业固体废物包括纯水制备废活性炭、废滤芯、废滤膜、沾染化学品的包装废弃物及废弃合格试验产品，外售回收利用；危险废物包括实验废液、含重金属清洗废水、沾染化学品的废包装物、不合格研发试验品、废一次性耗材、废气治理活性炭、污水站污泥及废紫外灯管，集中收集后委托处置。]: 同一类“沾染化学品的包装”同时放入一般固废外售和危废委托处置，去向互相冲突。请按实际物料残留、来源和危险特性核定分类、代码及处置记录；未核定前不能以此文作为允许按一般废品外售的依据。也不能把所有化学品包装一概指定同一个危废代码。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P7",
+          "quote": "总磷无表列限值时不作达标判定。沾染化学品包装不得同时表述为一般固废外售和危废委托；请补分类依据、对应代码及去向资料，再修订处置表述。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P332",
+          "quote": "一般工业固体废物包括纯水制备废活性炭、废滤芯、废滤膜、沾染化学品的包装废弃物及废弃合格试验产品，外售回收利用；危险废物包括实验废液、含重金属清洗废水、沾染化学品的废包装物、不合格研发试验品、废一次性耗材、废气治理活性炭、污水站污泥及废紫外灯管，集中收集后委托处置。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P14",
+          "quote": "危废分类后委托危废处置单位依法处置，委托合同按要求备案；一般工业固废分类回收，不准擅排或混入生活垃圾。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "waste_classification",
+      "reason": "The candidate identifies that contaminated chemical packaging is assigned simultaneously to ordinary-waste resale and hazardous-waste disposal, requests classification support, code and route records, and avoids inventing or universally assigning a hazardous-waste code.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-10",
+          "quote": "Reviewer annotation anchored to [项目环保手续齐全、设施完善，生产内容与环评一致；检测均合格达标，具备竣工环境保护验收条件，建议通过验收。]: 现有材料不支持直接建议通过。应先核清以上矛盾并补检测原报告、对应日期工况、固废分类及合同/转移记录、排污许可和审批落实证据。现有摘录无69.8 kg/a总量指标的年度核算，瞬时浓度/速率合格不能证明年总量合规；需核实际年运行时长、排放源及无组织口径。仅对一期已提供资料形成内部复核意见，不扩大到二期，不代作建设单位验收结论。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P9",
+          "quote": "补9月23、24日生产及环保设施运行、污水站运行和食堂投用灶头情况，并与各类采样时间对应；已有9月21、22日工况不能替代。补检测原报告及相关原始采样/质控资料；如原始记录支持，应更正摘录及计算，只有证据不足或不满足采样条件时才安排必要补测，不能先把全部监测作废。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P12",
+          "quote": "提供排污许可材料、危废分类与处置合同/转移记录、排气筒竣工台账及审批落实说明，核对实际运行。对69.8 kg/a的VOCs指标提供源清单、实际年运行时间及年度核算；本次短期监测不能代替年度总量评价。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P13",
+          "quote": "材料补齐后按“原记录—核实说明—修订位置”逐项回填，区分已确认数值、需更正的报告错误与仍待核的事项。最终意见仅限一期；二期不在本次范围。未提供附件不等于实际未办理、未建设或已违法，本意见不代替现场检查和建设单位依法组织的验收。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P3",
+          "quote": "本稿按建设项目验收监测报告表的表1—表9顺序编排，摘编项目建设、工况和监测结果供复核。未随本稿附入检测报告、排污许可材料及危废处置协议。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P329",
+          "quote": "建设、生产及环保措施按环评落实；检测报告信息齐全，危险废物处置协议齐全，设施正常运行。报告正文提及检测报告、排污许可材料和危废协议，附件未附入本复核稿。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P36",
+          "quote": "2018年《建设项目竣工环境保护验收技术指南　污染影响类》要求在主体工程工况稳定、环保设施运行正常时开展验收监测，如实记录监测时工况。监测结果的适用范围应与实际记录相符。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "targeted_records",
+      "reason": "The candidate requests decision-specific existing records, including original testing and quality-control records, date-matched operating logs, stack records, permits, and waste-transfer evidence. It limits additional sampling to cases where records cannot validate the result or sampling conditions, rather than ordering an automatic full retest.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C1-COMMENT-10",
+          "quote": "Reviewer annotation anchored to [项目环保手续齐全、设施完善，生产内容与环评一致；检测均合格达标，具备竣工环境保护验收条件，建议通过验收。]: 现有材料不支持直接建议通过。应先核清以上矛盾并补检测原报告、对应日期工况、固废分类及合同/转移记录、排污许可和审批落实证据。现有摘录无69.8 kg/a总量指标的年度核算，瞬时浓度/速率合格不能证明年总量合规；需核实际年运行时长、排放源及无组织口径。仅对一期已提供资料形成内部复核意见，不扩大到二期，不代作建设单位验收结论。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P3",
+          "quote": "所阅材料为2022年9月验收监测报告复核稿及审批、技术资料摘录。现阶段建议退回编制单位核实后再行复核，不宜据此作出通过验收结论。具体位置已在报告中批注。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C2-P13",
+          "quote": "材料补齐后按“原记录—核实说明—修订位置”逐项回填，区分已确认数值、需更正的报告错误与仍待核的事项。最终意见仅限一期；二期不在本次范围。未提供附件不等于实际未办理、未建设或已违法，本意见不代替现场检查和建设单位依法组织的验收。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P2",
+          "quote": "电子材料研发项目　　2022年9月",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P8",
+          "quote": "一期：2、5、6、7栋厂房，A栋办公楼、B栋宿舍；二期不在本次范围。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P333",
+          "quote": "项目环保手续齐全、设施完善，生产内容与环评一致；检测均合格达标，具备竣工环境保护验收条件，建议通过验收。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S2-P16",
+          "quote": "配套环保设施与主体工程同时设计、施工、投产使用；建设单位依法组织竣工验收；启动生产或实际排污前按规定办理排污许可手续。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F1",
+          "quote": "{\n  \"period\": \"September 2022; first phase only\",\n  \"source_scope\": \"Public rewritten excerpts, not a complete original monitoring dossier; no new site observation.\",\n  \"outputs\": [\n    \"一期工程验收监测报告表（批注稿）.docx\",\n    \"验收材料补充意见.docx\"\n  ],\n  \"immutable_draft\": \"一期工程验收监测报告表（复核稿）.docx\",\n  \"facts\": {\n    \"product_conflict\": \"EIA/basic table: electroplating725 chemical plating600 kg/a. Operating table swaps their product names. Actual daily data cannot be reassigned without records.\",\n    \"polymer_load\": {\n      \"annual_kg\": 400,\n      \"days\": 300,\n      \"daily_actual\": [\n        1.2,\n        1.1\n      ],\n      \"exact_percent\": [\n        90,\n        82.5\n      ],\n      \"reported_percent\": [\n        92,\n        85\n      ]\n    },\n    \"rate\": {\n      \"date\": \"2022-09-23\",\n      \"flow\": 23192,\n      \"concentration\": 3.59,\n      \"reported\": 0.833,\n      \"calculated\": 0.08325928,\n      \"unit\": \"kg/h\",\n      \"comparison_day\": 0.06007437\n    },\n    \"noise\": {\n      \"day_max\": 59,\n      \"night_max\": 49,\n      \"limits\": [\n        65,\n        55\n      ],\n      \"margins\": [\n        6,\n        6\n      ],\n      \"count\": 16\n    },\n    \"fume\": {\n      \"measured_out\": [\n        0.3,\n        0.4\n      ],\n      \"reference_out\": [\n        0.2,\n        0.3\n      ],\n      \"evaluation_out\": [\n        0.3,\n        0.4\n      ],\n      \"limit\": 1,\n      \"efficiency_min_percent\": 90,\n      \"efficiency_status\": \"Not proven; missing same-sample paired C/Q evidence; do not splice NMHC flows.\"\n    },\n    \"canteen\": {\n      \"declared_scale\": \"medium\",\n      \"NMHC_draft_limit\": 1,\n      \"NMHC_guideline_large_only\": 10,\n      \"odor_true_limit\": 500,\n      \"odor_draft_limit\": 6000,\n      \"odor_out\": [\n        229,\n        309\n      ],\n      \"scope\": \"No immediate NMHC exceedance claim from erroneous1.0 or automatic large-unit10 limit.\"\n    },\n    \"dates\": {\n      \"operating\": [\n        \"09-21\",\n        \"09-22\"\n      ],\n      \"water\": [\n        \"09-22\",\n        \"09-23\"\n      ],\n      \"canteen_sludge_noise\": [\n        \"09-23\",\n        \"09-24\"\n      ]\n    },\n    \"phosphorus\": \"No limit in supplied table; cannot mark compliant. Not zero, not automatically exceedance.\",\n    \"ND\": \"COD detection limit4 mg/L; ND is censored, not zero.\",\n    \"investment\": \"22000 initial versus68800 EIA cell; investigate basis; not automatic major change.\",\n    \"waste\": \"Contaminated chemical packaging appears in ordinary resale and hazardous disposal; classification and destination need verification, no invented waste code.\",\n    \"annual_VOC_limit_kg\": 69.8,\n    \"acceptance\": \"Do not recommend unqualified acceptance from supplied excerpts; targeted records/corrections then review; no administrative approval or invented onsite conclusion.\"\n  }\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "conditional_conclusion",
+      "reason": "The supplemental opinion withholds acceptance pending closure, limits itself to the supplied September 2022 first-phase dossier, excludes phase two, distinguishes missing attachments from proof of noncompliance or illegality, and disclaims administrative approval, onsite inspection, and substitution for the owner's statutory acceptance process.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C2-P14",
+          "quote": "另请单独补核实验室排气筒清单：DA001—DA009为15 m排气筒，非甲烷总烃速率限值8.4 kg/h按高度条件50%折减后为4.2 kg/h；DA010—DA012为20 m排气筒，14 kg/h按同一条件折减后为7 kg/h。现有报告应按排口逐项补齐并复核，不能以污水站或其他排口的14 kg/h记录替代实验室排气筒结论。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C1-P25",
+          "quote": "Preserved review draft, not endorsement: 实验室DA001—DA009",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C1-P28",
+          "quote": "Preserved review draft, not endorsement: 实验室DA010—DA012",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P26",
+          "quote": "非甲烷总烃120 mg/m³；15 m排气筒，速率8.4 kg/h减半后4.2 kg/h。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P29",
+          "quote": "非甲烷总烃120 mg/m³；20 m排气筒，速率14 kg/h减半后7 kg/h。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S1-P75",
+          "quote": "项目属于一期工程。审批要求：综合废水28.664 m³/d、清净下水4.902 m³/d分别按规定排放；非甲烷总烃排放速率因排气筒高度条件按相应限值的50%执行；食堂按SZDB/Z 254-2017中型要求；噪声按3类要求；挥发性有机物总量控制指标69.8 kg/a；危废分类收集后委托依法处置。",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "id": "laboratory_stack_derating",
+      "reason": "The candidate separately addresses laboratory stacks DA001-DA009 and DA010-DA012, identifies the incomplete outlet-specific review, applies the supported 50% derating to obtain 4.2 and 7 kg/h, requests completion and recalculation by outlet, and expressly prohibits substitution of the wastewater-station or another outlet's 14 kg/h value.",
+      "score": 1
+    }
+  ],
+  "passed": true,
+  "reference_conflict": false,
+  "semantic_score": 1.0,
+  "measurement_status": "completed",
+  "response_id": "resp_07f775714161f07f016af4808575fc87d09826f38494faf75b",
+  "model": "gpt-5.6-sol",
+  "seconds": 40.36,
+  "fresh_call": true,
+  "visual_input": false,
+  "rollout_executed": false
+}

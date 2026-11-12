@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "negative_interval",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: `format_interval(-1)` produced a wrapped negative clock instead of `-00:01`.",
+        "- Root cause: `tqdm/std.py` passed the negative value directly to `divmod`, whose floor behavior split sign and magnitude incorrectly.",
+        "- Change: preserve the sign, format the absolute magnitude, and prepend the sign to the result.",
+        "- Check outcome: probes at -1 and -100000 seconds passed, while existing positive interval tests still passed."
+      ],
+      "reason": "The record identifies tqdm/std.py format_interval behavior, explains that divmod mishandles the signed value, specifies separating the sign and formatting the absolute magnitude, and reports focused negative-value checks."
+    },
+    {
+      "id": "infinite_meter_total",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: direct `format_meter` use with an infinite total overflowed during ETA and remaining-time formatting.",
+        "- Root cause: `tqdm/std.py` normalized completed totals but let infinity reach remaining arithmetic instead of the established unknown-total policy.",
+        "- Change: normalize an infinite total to `None` before ETA calculations.",
+        "- Check outcome: the focused comparison with unknown-total formatting passed without an overflow."
+      ],
+      "reason": "The record ties the format_meter overflow to tqdm/std.py, normalizes infinity to the established unknown-total representation None, and reports a focused comparison that completed without overflow."
+    },
+    {
+      "id": "width_limited_returns",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: `format_meter` results exceeded `ncols` for custom no-bar formats and default unknown-total text.",
+        "- Root cause: three early return branches in `tqdm/std.py` bypassed the normal visible-width trim path.",
+        "- Change: apply `disp_trim` at each affected return when a width is present.",
+        "- Check outcome: all three focused branch probes passed with visible width at most 12 cells."
+      ],
+      "reason": "The record identifies three early returns in tqdm/std.py that bypassed visible-width trimming, applies disp_trim to each affected path, and reports focused probes bounded to 12 visible cells."
+    },
+    {
+      "id": "unavailable_output_stream",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: `tqdm.write` and its output context raised `AttributeError` when `sys.stdout` was `None`.",
+        "- Root cause: `tqdm/std.py` dereferenced the resolved output stream without checking whether it was unavailable.",
+        "- Change: guard a missing stream and make both public write paths a safe no-op.",
+        "- Check outcome: a focused test entered the context and called write with no standard output; it passed without an exception."
+      ],
+      "reason": "The record connects missing sys.stdout behavior to tqdm/std.py stream dereferencing in both write and its output context, specifies guarded no-op handling, and reports a focused no-exception check."
+    },
+    {
+      "id": "partial_cleanup",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: `close()` raised when construction failed before the `disable` attribute existed.",
+        "- Root cause: the cleanup path in `tqdm/std.py` assumed partial instances had all normal attributes and read `disable`, position, and GUI state directly.",
+        "- Change: use conservative `getattr`/attribute-presence guards before cleanup continues, covering both a completely uninitialised object and a construction interrupted after `disable` was set.",
+        "- Check outcome: both partial-construction probes passed without touching missing state."
+      ],
+      "reason": "The record connects close-time failure to missing lifecycle attributes on partially constructed tqdm/std.py instances, describes guarded attribute access for multiple partial-construction states, and reports both focused probes passing."
+    },
+    {
+      "id": "infinite_reset",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: `reset(total=float(\"inf\"))` retained infinity although initial construction treats it as unknown.",
+        "- Root cause: `reset` in `tqdm/std.py` did not apply the constructor's infinite-total normalization.",
+        "- Change: normalize infinity to `None` when reset updates the stored total.",
+        "- Check outcome: the reset probe passed and reported an unknown total consistently with construction."
+      ],
+      "reason": "The record ties reset(total=inf) to tqdm/std.py, explains that reset omitted constructor-style normalization, changes infinity to None, and verifies consistency with construction."
+    },
+    {
+      "id": "async_iterable_factory",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: an object with `__aiter__` but no `__anext__` was rejected even though it returned a valid separate async iterator.",
+        "- Root cause: dispatch in `tqdm/asyncio.py` skipped the asynchronous iterable protocol and fell through to synchronous iteration.",
+        "- Change: call `__aiter__`, retain the returned iterator, and take `__anext__` from that distinct object.",
+        "- Check outcome: the focused async test yielded `[2, 4, 6]` and passed alongside an ordinary async generator."
+      ],
+      "reason": "The record connects the failure to tqdm/asyncio.py dispatch and explicitly retains the distinct object returned by __aiter__ so its __anext__ method is used, with a focused async result check."
+    },
+    {
+      "id": "shortest_concurrent_total",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: the inferred concurrent map total followed the first of multiple inputs rather than the shortest input.",
+        "- Root cause: `tqdm/contrib/concurrent.py` used a single length hint even though mapping stops when any input ends.",
+        "- Change: derive the minimum known length across the mapped iterables.",
+        "- Check outcome: a recording progress wrapper observed total 2 for inputs of lengths 4 and 2; the probe passed."
+      ],
+      "reason": "The record ties inference to tqdm/contrib/concurrent.py, explains that mapping stops when any input ends, derives the minimum known length, and verifies total 2 for lengths 4 and 2."
+    },
+    {
+      "id": "unknown_concurrent_hint",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: placing an unsized generator first made the inferred total zero despite another input having a known bound.",
+        "- Root cause: `length_hint` in `tqdm/contrib/concurrent.py` used its zero default, conflating an unknown length with an empty workload, and `min()` raised when every input was unsized.",
+        "- Change: request a negative sentinel, filter unknown hints, aggregate remaining known lengths, and retain a zero/unknown bound when none are observable.",
+        "- Check outcome: mixed generator/sized input reported total 3, and two unsized generators completed without an exception with total 0."
+      ],
+      "reason": "The record identifies tqdm/contrib/concurrent.py length_hint's zero default as conflating unknown and empty, introduces an unknown sentinel and filtering, and verifies both mixed sized/unsized and all-unsized cases."
+    },
+    {
+      "id": "concurrent_warning_bound",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: the chunksize warning fired when only the longest of multiple inputs exceeded the threshold.",
+        "- Root cause: warning policy in `tqdm/contrib/concurrent.py` measured the longest iterable rather than the shortest mapped workload that can actually execute.",
+        "- Change: base the warning threshold on the same shortest-input calculation as the progress total.",
+        "- Check outcome: a patched execution probe with lengths 1001 and 2 passed without a warning."
+      ],
+      "reason": "The record connects warning policy to tqdm/contrib/concurrent.py, explains that the threshold must use the shortest executable mapped workload, and reports a focused 1001-and-2 input probe with no warning."
+    },
+    {
+      "id": "monitor_exit_signal",
+      "fraction": 1,
+      "quotes": [
+        "- Observed failure: the `atexit` handler could join a daemon monitor blocked behind a shared lock and deadlock shutdown.",
+        "- Root cause: `tqdm/_monitor.py` registered the ordinary joining exit method for interpreter-exit cleanup.",
+        "- Change: register a dedicated non-joining handler that only signals the monitor event; retain explicit joining for normal close.",
+        "- Check outcome: a focused test replaced join with a failure sentinel, invoked the captured exit-time handler, and passed after observing the signal."
+      ],
+      "reason": "The record ties the shutdown risk to tqdm/_monitor.py, explains that interpreter exit should only signal the monitor rather than join a blocked daemon, preserves joining for normal close, and reports a focused handler check."
+    },
+    {
+      "id": "competing_hypothesis",
+      "fraction": 1,
+      "quotes": [
+        "Investigation method: for each symptom I first tested two ownership hypotheses (the",
+        "public wrapper versus its state/formatting helper) and kept the source-local cause",
+        "only when the focused reproducer isolated it. A competing hypothesis was rejected",
+        "when the probe isolated the helper; rejected alternatives included",
+        "changing the caller's inputs and treating an unknown length as an empty workload."
+      ],
+      "reason": "The report explicitly contrasts public-wrapper ownership with state/formatting-helper ownership and says the focused reproducer rejected the competing explanation by isolating the helper; it also names rejected input-changing and unknown-as-empty alternatives."
+    },
+    {
+      "id": "command_outcome",
+      "fraction": 1,
+      "quotes": [
+        "python3 task/tests/validator.py /workspace",
+        "result: eleven focused contract probes passed; reward_strict=1.0000, reward_lenient=1.0000",
+        "python3 -m compileall task/solution task/tests",
+        "result: completed without syntax errors"
+      ],
+      "reason": "The report provides executable validator and compileall commands with concrete outcomes: eleven contract probes passed at full strict and lenient reward, and compilation completed without syntax errors."
+    }
+  ]
+}

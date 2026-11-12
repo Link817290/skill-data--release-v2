@@ -1,0 +1,233 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "progresslib-api-repair",
+  "tasks": [
+    "progresslib-api-repair"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 55,
+  "bytes_excluding_manifest": 333221,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3037,
+      "sha256": "dad2616b3c90783a7598939c9918188d1d5472352a889933978fe9d02dfc4ab4"
+    },
+    "RUBRIC.md": {
+      "bytes": 13524,
+      "sha256": "22774cc91b2a828e3979426bf137625d39209f62ac3791eea9b7ff08a79503fd"
+    },
+    "dataset.toml": {
+      "bytes": 975,
+      "sha256": "7fc11a61a9e8653e1fe5ac980c54511ec002dcfb8f1bb66c245c902aed499e48"
+    },
+    "golden/analysis/repair_report.md": {
+      "bytes": 6940,
+      "sha256": "f63a82f8c4ff46129b6652555a1f15113057e31d5b6f4d9429b1d42c80ef1253"
+    },
+    "golden/project/tqdm/__init__.py": {
+      "bytes": 1572,
+      "sha256": "f6640d6124aa3fdf496acb9b102d4f3892cc9a1924047e9c259c4f211e46da94"
+    },
+    "golden/project/tqdm/__main__.py": {
+      "bytes": 30,
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+    },
+    "golden/project/tqdm/_main.py": {
+      "bytes": 283,
+      "sha256": "f724af8268bfd92c38080a395035b44367717d3af26e8116187a217c2273d2c0"
+    },
+    "golden/project/tqdm/_monitor.py": {
+      "bytes": 3770,
+      "sha256": "966fe5e78444997969ef5b17bd0ff0e5aa261d4780a17896297ba66c5c3207ba"
+    },
+    "golden/project/tqdm/_tqdm.py": {
+      "bytes": 283,
+      "sha256": "2df2c2b89e9ba6c568f718a59ad057c849b5bc69d4085ae5896f398f727e9c3e"
+    },
+    "golden/project/tqdm/_tqdm_gui.py": {
+      "bytes": 287,
+      "sha256": "d371dcf0a6b2c49bde89e239fb4fb6346883a4bbf0f6365e9287c9515ec20b09"
+    },
+    "golden/project/tqdm/_tqdm_notebook.py": {
+      "bytes": 307,
+      "sha256": "06e1e22eec6eeae11f64568f256dd13e93dac5a55cb44400de47522520cbd61c"
+    },
+    "golden/project/tqdm/_tqdm_pandas.py": {
+      "bytes": 888,
+      "sha256": "73d8e9b5482280de9ac510e145de1189ff7c4e6c5ea297359c5345848a5b1541"
+    },
+    "golden/project/tqdm/_utils.py": {
+      "bytes": 553,
+      "sha256": "ff813bddb7c38f87f5b37b0ce3634b1cdad90ce9228d9a16abe9fac562e4759f"
+    },
+    "golden/project/tqdm/asyncio.py": {
+      "bytes": 2985,
+      "sha256": "eef77eab568ffed5662d75e6e752398319e37997c34aebb25d660c572133f0fe"
+    },
+    "golden/project/tqdm/auto.py": {
+      "bytes": 871,
+      "sha256": "9c365f963ea9db32a48c108d068babae14bcd7361f672d7f750bdb724add5bca"
+    },
+    "golden/project/tqdm/autonotebook.py": {
+      "bytes": 956,
+      "sha256": "61bf45e6e6a204f85f6c30c5a5bb681bc236614c37b9027cf6b5032db7d1eb0b"
+    },
+    "golden/project/tqdm/cli.py": {
+      "bytes": 11010,
+      "sha256": "49b2a537c432676a207a7aadfb04ffa7afecc7638e7428c2ca1a190459e59b22"
+    },
+    "golden/project/tqdm/completion.sh": {
+      "bytes": 946,
+      "sha256": "8fbf4a6d29a9223fc4d758df4df057ac69d44f3297569435bc6550becc83465e"
+    },
+    "golden/project/tqdm/contrib/__init__.py": {
+      "bytes": 2494,
+      "sha256": "3a04b05579bebe50c9fb68a6b6843dcfca9da26e2c9cc491ced1fbd8a300f360"
+    },
+    "golden/project/tqdm/contrib/bells.py": {
+      "bytes": 837,
+      "sha256": "631d47a860a61eb1120803bbd348f9c04fff24295e34e0c9c5e761d628cf2c3d"
+    },
+    "golden/project/tqdm/contrib/concurrent.py": {
+      "bytes": 4334,
+      "sha256": "ce1b506d2607f1cb414480fd3c349d6510f464cf6dc0bbf5fb35adae9f1b35f2"
+    },
+    "golden/project/tqdm/contrib/discord.py": {
+      "bytes": 5243,
+      "sha256": "32d5482f5b3f7711f6d46e2c2fc141810e167a2db7868f449394fe0289a6bcd7"
+    },
+    "golden/project/tqdm/contrib/itertools.py": {
+      "bytes": 774,
+      "sha256": "59d28a414e5e4b3b2a1eedbd48dfe81f5da1b98668d098a1aa88bdfa7561c33e"
+    },
+    "golden/project/tqdm/contrib/logging.py": {
+      "bytes": 3760,
+      "sha256": "36c62d9cab6d8f698cac69b9f2611da396bd0cfff6beff29672ae2992b96ba50"
+    },
+    "golden/project/tqdm/contrib/slack.py": {
+      "bytes": 4007,
+      "sha256": "78ffccaf9b10a27627887c7140d1ae7b78e4d899083e63d6159a886319ceba2d"
+    },
+    "golden/project/tqdm/contrib/telegram.py": {
+      "bytes": 5008,
+      "sha256": "be7ffd4804cc6dbc27d8f01bcd20f2397e9abf7781074d5006e835d4fe07f8e8"
+    },
+    "golden/project/tqdm/contrib/utils_worker.py": {
+      "bytes": 1207,
+      "sha256": "1c93f9333d52d71cb31247b625aa89dac60b1d7003628a367a94f9033437f1e0"
+    },
+    "golden/project/tqdm/dask.py": {
+      "bytes": 1319,
+      "sha256": "f448b9f1e56a4e8b2c44b8407d6c9414276e5d82a398b9b091a5c8cbe08761fb"
+    },
+    "golden/project/tqdm/gui.py": {
+      "bytes": 5479,
+      "sha256": "493201dcaf220f30e090d52a588a6f708feed0e1ad6c6372e4dc2900b5e17d6b"
+    },
+    "golden/project/tqdm/keras.py": {
+      "bytes": 4373,
+      "sha256": "a29f6c0646faaba73a770db0274483d99c293caef233555b838975422cb7308a"
+    },
+    "golden/project/tqdm/notebook.py": {
+      "bytes": 10895,
+      "sha256": "1ad67721aa4b2f5bfc58d0da4d2bcfc346c9193c9fa7bd557f3e470e7033c753"
+    },
+    "golden/project/tqdm/rich.py": {
+      "bytes": 5021,
+      "sha256": "63230f9041d5c98515511dda74929b557dba89398d2a934c7f70c4aa69be9bad"
+    },
+    "golden/project/tqdm/std.py": {
+      "bytes": 58004,
+      "sha256": "f0eefb947e8b9cd3c55102e43f0e94cdfe8f0b4753b661bb597c4a85735060ac"
+    },
+    "golden/project/tqdm/tk.py": {
+      "bytes": 6701,
+      "sha256": "1aed2ec17c0b0863d1187391762dd6bc12c68ac794a7fc715ff87f829f55a4ad"
+    },
+    "golden/project/tqdm/tqdm.1": {
+      "bytes": 7889,
+      "sha256": "6882f250f9364b838f7bfb96cb63f800c8d47f4a10e8f516d272d85c1f815b02"
+    },
+    "golden/project/tqdm/utils.py": {
+      "bytes": 11821,
+      "sha256": "e84d01430dd283bb8658a04cfdc0e7dcfe36b57b30461ce48206e10602c38e5f"
+    },
+    "golden/project/tqdm/version.py": {
+      "bytes": 333,
+      "sha256": "fb5c968dfbb73f47a0855b32b071f4edf6f376200335177346d60fa8e6aa4760"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 473,
+      "sha256": "32511dd47ddee768c35bacfb393754368ad195c6e30fdc74ca2bd34c313871a8"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 499,
+      "sha256": "90ab8e2a09c30a2d6cfea7ef2f1650620204b61f6168b41b4782f8ad6f3a3ff8"
+    },
+    "task/environment/skills/async-iteration-protocols/SKILL.md": {
+      "bytes": 1222,
+      "sha256": "a770c1dbdb6b4831b2aca527574bd34ddcf5f74cb6091172d42a1bc621d0ccbe"
+    },
+    "task/environment/skills/concurrent-map-contracts/SKILL.md": {
+      "bytes": 1940,
+      "sha256": "3443bd7fc8486cd09e9dd493e39b6546aeaa5874af968a6bc04388a1cae54e1c"
+    },
+    "task/environment/skills/progress-indicator-contracts/SKILL.md": {
+      "bytes": 2420,
+      "sha256": "007d0018866dfbd9b0c5d0589f08a796d1430380c3bdbdb1f795f4335eddfd91"
+    },
+    "task/environment/skills/progress-meter-formatting/SKILL.md": {
+      "bytes": 2528,
+      "sha256": "264859fe0375dad5a0bed35411d60724131503f77667e032b49fbdc1252b894b"
+    },
+    "task/environment/skills/python-debugging-deliverable/SKILL.md": {
+      "bytes": 4143,
+      "sha256": "36bd05f1b1a23b8c5a6b62838fb6a197fda5cf29794f8fdc98517b9e4b9c3ba7"
+    },
+    "task/environment/workspace/progress-library-release-candidate.tar.gz": {
+      "bytes": 61615,
+      "sha256": "86c02cb8b3e205e068d5d6fbc2674ae575614e6ecade76ea7018084f860d079f"
+    },
+    "task/instruction.md": {
+      "bytes": 1405,
+      "sha256": "14b34208986fffe868cbb45cceaf76c29e03b4cac64a8c5300fca751c4818f52"
+    },
+    "task/solution/solve.py": {
+      "bytes": 17167,
+      "sha256": "ed77d4d4c95552693c29a59dcbbd7b7f419bcf0669378c5cbf7541d705a7b8ac"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 106,
+      "sha256": "385aa7a58c61c8626d7a20309e646d03d9586c77fceac5cc129917c97d5643f8"
+    },
+    "task/task.toml": {
+      "bytes": 1321,
+      "sha256": "e1f3769631448024dc1427021fb1e51ae497d9fb1574ceec1affadb3c1b21319"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1319,
+      "sha256": "91f0b0bec46fa5e91f4044ef3b2e0114fb03bdab82f8d6325fa9c5301c1372d9"
+    },
+    "task/tests/golden_replay/dc8c9cac2988ee596e1569da394ab00fbe56ea1d5f387963f0243d743ea226bb.json": {
+      "bytes": 10535,
+      "sha256": "63c81037f1bf1c7116416cb76824ac41397dfe07e91b2288a0abecbfff25b969"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 892,
+      "sha256": "2d7f08d2706ad1aee8e8e2203ed2fb3371d3a9f9c8dd4a296e4d781a2e363249"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 8105,
+      "sha256": "6b37328ece4417ccd063507722430fa462f0e2e792aa4a860d0112f9263b9519"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1536,
+      "sha256": "9f3bd284957c3e7ce9e1ed49c84e41929c29c4bda0ed22782aca12787a352913"
+    },
+    "task/tests/validator.py": {
+      "bytes": 27279,
+      "sha256": "5e3d7f5e7795c1e21217a0ee3cec73cd8540e9f490d62a4985a7eeb0c1985dc8"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+COPY task/ /task/
+COPY golden/ /golden/
+RUN chmod -R a+rX /task /golden \
+    && chmod +x /task/tests/test.sh \
+    && python -c "import fitz" \
+    && mkdir -p /workspace/output /logs/verifier /logs/artifacts \
+    && chown -R 20005:0 /workspace /logs
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+USER 20005
+WORKDIR /workspace
+CMD ["/bin/sh"]

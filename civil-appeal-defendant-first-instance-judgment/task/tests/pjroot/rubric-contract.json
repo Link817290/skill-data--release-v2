@@ -1,0 +1,1171 @@
+{
+ "schema_version": "program-judge-contract-v4",
+ "policy_version": "skill-data-audit-policy-v3.5",
+ "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+ "golden_authority": "source_supported_reference",
+ "golden_source_required": false,
+ "rubric_version": "evidence-bound-professional-equivalence-v1",
+ "requirement_trace": {
+  "instruction_sha256": "6e26309ede3369e4d5a6f485c9e3917def30f2e0144c0180184dfcafab52e1ba",
+  "requirements": [
+   {
+    "quote": "The input is the first instance judgment `materials/原始材料-民事判决书（脱敏版）.pdf`",
+    "reason": "declares which inputs exist. It states no business requirement, so no item scores it; the material bindings check verifies the filenames, and every proposition an item scores has to be found in those inputs."
+   },
+   {
+    "quote": "Acting for the defendant, prepare a civil appeal petition against the judgment",
+    "item_ids": [
+     "P01",
+     "P03",
+     "D01",
+     "D05",
+     "D17"
+    ],
+    "note": "P01 and P03 score the requests the defendant's petition must make; D01, D05 and D17 charge a document that is not that petition at all (drafted for the other side, addressed to the wrong court, or without parties / court / sections)"
+   },
+   {
+    "quote": "Deliver the appeal petition written in Chinese to `artifacts/civil-appeal-petition.md`",
+    "reason": "names the deliverable language and path. The harness checks artifact presence and location, and no item scores the path or the language itself."
+   }
+  ],
+  "stated_facts": [],
+  "unchecked_tokens": [
+   {
+    "token": "artifacts/civil-appeal-petition.md",
+    "reason": "the deliverable path the solver writes to, not a fact asserted about the inputs."
+   }
+  ]
+ },
+ "golden_consistency": {
+  "checks": [
+   {
+    "id": "GC1-settlement-after-deduction",
+    "kind": "aggregate",
+    "statement": "Golden 复述并据以立论的结算口径：报价 194,970 元扣除折叠门安装费 1,530 元 = 上诉所针对的 193,440 元",
+    "target": {
+     "file": "golden/输出结果-民事上诉状（脱敏版）.docx",
+     "regex": "被告应当支付的工程款金额为([\\d,]+)元"
+    },
+    "components": [
+     {
+      "file": "golden/输出结果-民事上诉状（脱敏版）.docx",
+      "regex": "已向被告报价([\\d,]+)元"
+     },
+     {
+      "file": "golden/输出结果-民事上诉状（脱敏版）.docx",
+      "regex": "折叠门的安装费([\\d,]+)元",
+      "sign": -1
+     }
+    ]
+   }
+  ]
+ },
+ "task_mode": "generation",
+ "positive_items": [
+  {
+   "id": "P01",
+   "units": [
+    "U04"
+   ],
+   "dimension": "appeal_requests",
+   "weight": 0.05,
+   "value_basis": "the appellant must limit the appeal to the 下沉式广场 award (193,440) and its interest, preserve the admitted 1,222.19 interest, and seek reallocation of the separately ordered 1,543 preservation fee",
+   "reasoning_gate": "requires reading the defence (同意第一部分利息) against judgment items 1 and 2 and separating the two interest components of item 2",
+   "scope": "appeal-request section",
+   "object_key": "request.revocation_scope",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p1-p2 (被告辩称: 同意第一部分利息), p4-p5 (判决主文一、二 and preservation fee1,543); golden/输出结果-民事上诉状（脱敏版）.docx requests",
+   "relation_predicate": "the requests bind the plaza/193,440 principal and interest, preserve the 1,222.19 interest, and expressly seek reallocation of the 1,543 preservation fee without reaching the whole judgment",
+   "golden_object_key": "U04",
+   "golden_relation_predicate": "撤销判决第一项、第二项中涉及下沉式广场装修工程款193,440元及利息的部分",
+   "comparison_mode": "proposition_equivalent",
+   "adoption_status": "adopted, non-conditional request clause in the appeal-request section",
+   "negative_context_exclusions": "opponent or court attributed clauses (R02: 被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明 until a rebuttal marker or a turn clause), concessive or conditional clauses (即使/如果/如/假设), candidate markers (可能/或许/备选), generic or expressly rejected views, quoted spans of 13+ characters (N07), negation frames before the match (R04: 并非/不是/没有/并无/不存在), windows naming the G栋/B栋 硬装 object without 下沉式广场 (R05), keyword soup and dense spray (R01), and spans that also adopt the contrary concession (R06) earn nothing",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S00",
+   "full_partial_zero": {
+    "full": "correct plaza principal/interest scope, admitted1,222.19 preserved, and preservation fee1,543 expressly addressed",
+    "partial": "0.5 for correct substantive appeal scope with the fee or interest limb omitted",
+    "zero": "no such request, or a request line that also over-reaches (R07)"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, numbering and order of the requests are open; the request must sit in the appeal-request section",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the 下沉式广场 works and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "P03",
+   "units": [
+    "U06"
+   ],
+   "dimension": "appeal_requests",
+   "weight": 0.1,
+   "value_basis": "a concrete appellate disposition: substitute a record-derived result where ascertainable, or revoke and remand where the present record cannot establish scope, price, quality effect or handover",
+   "reasoning_gate": "requires choosing a disposition supported by the record, identifying the facts to establish on remand, and maintaining forward/backward closure between requests and grounds",
+   "scope": "appeal-request section",
+   "object_key": "request.alternative_actual_quantities",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p2 (原告已完成部分的工程款大概在7-8万元; 验收); golden/输出结果-民事上诉状（脱敏版）.docx p[12] second clause",
+   "relation_predicate": "An adopted disposition identifies the disputed principal/interest and either states an ascertainable substituted result or revokes/remands because identified basic facts cannot be resolved from the present record; bare remand and unsupported total dismissal are insufficient",
+   "golden_object_key": "U06",
+   "golden_relation_predicate": "如二审法院认定上诉人应当支付部分工程款，请求依法改判按实际完成工程量结算确定工程款金额，利息自工程实际交付使用之日起算",
+   "comparison_mode": "proposition_equivalent",
+   "adoption_status": "adopted request including supported conditional alternatives",
+   "negative_context_exclusions": "quoted, rejected or opponent-only claims; incomplete keyword lists",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S00",
+   "full_partial_zero": {
+    "full": "fact-specific supported disposition with request-ground closure and identified unresolved facts",
+    "partial": "0.5 for one supported disposition limb that is incomplete",
+    "zero": "bare remand, directional wish, unsupported total dismissal or relief inconsistent with the grounds"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, numbering and order of the requests are open; the request must sit in the appeal-request section",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the 下沉式广场 works and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true,
+   "semantic_rule": "Use only 0,0.5,1. Ascertain-and-amend or fact-specific remand according to evidentiary completeness; every ground and request must close in both directions."
+  },
+  {
+   "id": "P04",
+   "units": [
+    "U08"
+   ],
+   "dimension": "amount_grounds",
+   "weight": 0.22,
+   "value_basis": "the pre-construction quotation cannot be treated as the settlement price, given the confirmed habit of contract and settlement after works and the absence of any contract or settlement for the plaza",
+   "reasoning_gate": "connects the court's own finding of the parties' habit (G/B works) with its later reliance on the quotation",
+   "scope": "facts-and-reasons section",
+   "object_key": "amount.quotation_not_settlement",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p2-p3 (合作习惯; 报价清单194,970; 按照原告的报价支付); golden/输出结果-民事上诉状（脱敏版）.docx p[19]-p[20]",
+   "relation_predicate": "across connected evidence if needed: quotation is not/cannot be settlement (or court substituted quotation for settlement), plus the habit contradiction or no contract/settlement for the plaza; no fixed word-distance or wording list controls equivalence",
+   "golden_object_key": "U08",
+   "golden_relation_predicate": "报价不能等同于结算；原审以报价确认替代结算程序，与双方一致确认的交易习惯相悖；下沉式广场工程既未签订施工合同，也未签订结算协议",
+   "comparison_mode": "proposition_equivalent",
+   "adoption_status": "adopted non-attributed sentence of the appellant in the facts-and-reasons section",
+   "negative_context_exclusions": "opponent or court attributed clauses (R02: 被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明 until a rebuttal marker or a turn clause), concessive or conditional clauses (即使/如果/如/假设), candidate markers (可能/或许/备选), generic or expressly rejected views, quoted spans of 13+ characters (N07), negation frames before the match (R04: 并非/不是/没有/并无/不存在), windows naming the G栋/B栋 硬装 object without 下沉式广场 (R05), keyword soup and dense spray (R01), and spans that also adopt the contrary concession (R06) earn nothing",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "full_partial_zero": {
+    "full": "quotation≠settlement and habit/no-settlement limb in connected evidence",
+    "partial": "0.5 quotation≠settlement alone",
+    "zero": "habit or no-contract alone (copy of the defence), attributed, or a span conceding payment per quotation"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the facts-and-reasons section inside one line or one lowest-level heading block",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the 下沉式广场 works and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "P05",
+   "units": [
+    "U09"
+   ],
+   "dimension": "amount_grounds",
+   "weight": 0.3,
+   "value_basis": "the 'no objection' finding contradicts the recorded defence (部分项目未施工、第三方收尾) and the court never examined the actual scope of work",
+   "reasoning_gate": "requires comparing the judgment's summary of the defence with its later 'no objection' reasoning",
+   "scope": "facts-and-reasons section",
+   "object_key": "amount.defence_ignored_scope_unexamined",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p2 (被告辩称 部分项目未施工、第三方收尾), p4 (未提出过任何异议); golden/输出结果-民事上诉状（脱敏版）.docx p[21]-p[22]",
+   "relation_predicate": "across connected evidence if needed: the recorded objection/defence contradicts the 'no objection' finding, plus the court did not examine the actual construction scope; equivalent judicial-review verbs are accepted",
+   "golden_object_key": "U09",
+   "golden_relation_predicate": "原审“未提出过任何异议”的认定与上诉人当庭答辩相互矛盾；原审未审查被上诉人实际完成的施工项目范围",
+   "comparison_mode": "proposition_equivalent",
+   "adoption_status": "adopted non-attributed sentence of the appellant in the facts-and-reasons section",
+   "negative_context_exclusions": "opponent or court attributed clauses (R02: 被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明 until a rebuttal marker or a turn clause), concessive or conditional clauses (即使/如果/如/假设), candidate markers (可能/或许/备选), generic or expressly rejected views, quoted spans of 13+ characters (N07), negation frames before the match (R04: 并非/不是/没有/并无/不存在), windows naming the G栋/B栋 硬装 object without 下沉式广场 (R05), keyword soup and dense spray (R01), and spans that also adopt the contrary concession (R06) earn nothing",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "full_partial_zero": {
+    "full": "contradiction and unexamined scope",
+    "partial": "0.5 for one limb",
+    "zero": "neither, or conceding full completion"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the facts-and-reasons section inside one line or one lowest-level heading block",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the 下沉式广场 works and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "P09",
+   "units": [
+    "U13"
+   ],
+   "dimension": "interest_grounds",
+   "weight": 0.07,
+   "value_basis": "the 2025-04-21 delivery presumption is unsupported: on 2025-04-16 the folding door and pull-down window still needed days",
+   "reasoning_gate": "reads the chat record the court itself found against its 'next Monday' presumption",
+   "scope": "facts-and-reasons section",
+   "object_key": "interest.delivery_date_unsupported",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p3 (2025-04-16 chat: 折叠门和下拉窗要等几天), p4 (2025-04-21 交付); golden/输出结果-民事上诉状（脱敏版）.docx p[30]-p[31]",
+   "relation_predicate": "in one span: the 2025-04-21 delivery finding is rejected (不符/依据不足/错误) and the door/window were unfinished",
+   "golden_object_key": "U13",
+   "golden_relation_predicate": "以“未提出异议”推定交付时间基础不足；截至2025年4月16日折叠门、下拉窗均未完成，2025年4月21日交付使用时间与该事实难以相符",
+   "comparison_mode": "proposition_equivalent",
+   "adoption_status": "adopted non-attributed sentence of the appellant in the facts-and-reasons section",
+   "negative_context_exclusions": "opponent or court attributed clauses (R02: 被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明 until a rebuttal marker or a turn clause), concessive or conditional clauses (即使/如果/如/假设), candidate markers (可能/或许/备选), generic or expressly rejected views, quoted spans of 13+ characters (N07), negation frames before the match (R04: 并非/不是/没有/并无/不存在), windows naming the G栋/B栋 硬装 object without 下沉式广场 (R05), keyword soup and dense spray (R01), and spans that also adopt the contrary concession (R06) earn nothing",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S02",
+   "full_partial_zero": {
+    "full": "04-21 rejected and door/window unfinished",
+    "partial": "0.5 04-21 rejected without the chat facts",
+    "zero": "none, or conceding 04-21"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the facts-and-reasons section inside one line or one lowest-level heading block",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the 下沉式广场 works and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "P11",
+   "units": [
+    "U15"
+   ],
+   "dimension": "interest_grounds",
+   "weight": 0.16,
+   "value_basis": "Interest starts from verified actual delivery under Interpretation I article 27. Acceptance around May is a party statement, not a proved handover date.",
+   "reasoning_gate": "Distinguish acceptance, claimed use, and legally proved actual delivery; expressly request verification when date is disputed.",
+   "scope": "facts-and-reasons section",
+   "object_key": "interest.actual_delivery_verified",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p4 (解释一第九条、第二十七条; 2025年5月左右验收合格), p6 (条文); golden/输出结果-民事上诉状（脱敏版）.docx p[33]",
+   "relation_predicate": "Delivery-based interest rule plus evidence-based date or request to verify actual handover; no mandatory May date.",
+   "golden_object_key": "U15",
+   "golden_relation_predicate": "依照解释（一）第九条、第二十七条，案涉工程于2025年5月左右验收合格并投入使用，利息应当自该时起算",
+   "comparison_mode": "equivalent_set_replay",
+   "adoption_status": "adopted non-attributed sentence of the appellant in the facts-and-reasons section",
+   "negative_context_exclusions": "opponent or court attributed clauses (R02: 被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明 until a rebuttal marker or a turn clause), concessive or conditional clauses (即使/如果/如/假设), candidate markers (可能/或许/备选), generic or expressly rejected views, quoted spans of 13+ characters (N07), negation frames before the match (R04: 并非/不是/没有/并无/不存在), windows naming the G栋/B栋 硬装 object without 下沉式广场 (R05), keyword soup and dense spray (R01), and spans that also adopt the contrary concession (R06) earn nothing",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S02",
+   "full_partial_zero": {
+    "full": "Correct delivery rule and verified date or explicit need to establish actual delivery",
+    "partial": "Correct delivery-based alternative without legal rule",
+    "zero": "No delivery-based analysis or unsupported date treated as established"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the facts-and-reasons section inside one line or one lowest-level heading block",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the 下沉式广场 works and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true,
+   "replay_rule_id": "R09"
+  },
+  {
+   "id": "P13",
+   "units": [
+    "U10"
+   ],
+   "dimension": "amount_grounds",
+   "weight": 0.05,
+   "value_basis": "the contractor claiming the full quoted price bears the burden of proving it completed every quoted item; the first-instance court presumed completion from the absence of objection and so shifted that burden to the appellant, and the 2025-04-18 photos cannot prove all items",
+   "reasoning_gate": "applies the burden-of-proof rule to the disputed completion scope and identifies the court's presumption as a shift of that burden",
+   "scope": "facts-and-reasons section",
+   "object_key": "amount.completion_burden_shifted",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p3 (2025年4月18日照片显示装饰装修工作已完工), p4 (原告随后按照双方协商好的施工方案完成了施工，被告未提出过任何异议); golden/输出结果-民事上诉状（脱敏版）.docx p[23]-p[24] (（三）举证责任分配失当，以推定代替证明。)",
+   "relation_predicate": "in one span, in body lines: (A) the appellee / the party claiming the price bears the burden of proving completion (完成/工程量/施工范围/清单所列…), and (B) the court shifted, reduced or exempted that burden (转移/转由/倒置/减轻/免除, bound to the completion object or to A in the same span) or the photos cannot prove all quoted items were completed",
+   "golden_object_key": "U10",
+   "golden_relation_predicate": "被上诉人主张按报价清单全额结算工程款，应当就其完成清单所列全部施工项目承担举证责任；原审以“未提出过任何异议”推定全部项目施工完成，实质是将施工完成范围的举证责任转移给上诉人；照片不足以证明清单所列全部项目均已完成",
+   "comparison_mode": "proposition_equivalent",
+   "adoption_status": "adopted non-attributed sentence of the appellant in the facts-and-reasons section",
+   "negative_context_exclusions": "opponent or court attributed clauses (R02: 被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明 until a rebuttal marker or a turn clause), concessive or conditional clauses (即使/如果/如/假设), candidate markers (可能/或许/备选), generic or expressly rejected views, quoted spans of 13+ characters (N07), negation frames before the match (R04: 并非/不是/没有/并无/不存在), windows naming the G栋/B栋 硬装 object without 下沉式广场 (R05), keyword soup and dense spray (R01), and spans that also adopt the contrary concession (R06) earn nothing; for this item also: heading lines (N04 level > 0) earn nothing, a clause whose own subject before the modal is the appellant (上诉人应当…承担举证责任) is the contrary allocation, a negated shift (并未/未/没有 将…转移) earns nothing, and a burden whose own object is the delivery date or the price agreement (交付事实的举证责任 / 对价款约定负有举证责任) is a different proposition",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "full_partial_zero": {
+    "full": "A (burden on the appellee for completion) and B (the court shifted it, or the photos cannot prove all items)",
+    "partial": "0.5 for one limb alone",
+    "zero": "none, a heading only, a burden about the price agreement or delivery date only, or conceding full completion"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the facts-and-reasons section inside one line or one lowest-level heading block",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the completion of the 下沉式广场 quoted items and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "P14",
+   "units": [
+    "U16"
+   ],
+   "dimension": "interest_grounds",
+   "weight": 0.05,
+   "value_basis": "the first-instance court dismissed the quality defence only because it was not raised after delivery, without examining whether the defects exist, although established defects bear on the price payable",
+   "reasoning_gate": "identifies the court's non-examination of the quality defence and its consequence for the price",
+   "scope": "facts-and-reasons section",
+   "object_key": "quality.defence_rejected_unexamined",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p3 (被告还称下沉式广场装修工程存在一些质量问题), p4 (其却在工程交付后从未向原告提出，故对于其主张，本院难以认定); golden/输出结果-民事上诉状（脱敏版）.docx p[34]-p[35] (（三）对上诉人的质量抗辩未予实质审理。)",
+   "relation_predicate": "in connected body evidence: the quality defence was not examined or was summarily rejected, quality may affect price, and the ground is carried into principal/remand relief",
+   "golden_object_key": "U16",
+   "golden_relation_predicate": "原审既未审查质量问题是否存在，亦未审查上诉人提出质量异议的时间与内容；质量问题如成立，依法影响工程价款的支付，原审对该项抗辩未予实质审理即径行否定",
+   "comparison_mode": "proposition_equivalent",
+   "adoption_status": "adopted non-attributed sentence of the appellant in the facts-and-reasons section",
+   "negative_context_exclusions": "opponent or court attributed clauses (R02: 被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明 until a rebuttal marker or a turn clause), concessive or conditional clauses (即使/如果/如/假设), candidate markers (可能/或许/备选), generic or expressly rejected views, quoted spans of 13+ characters (N07), negation frames before the match (R04: 并非/不是/没有/并无/不存在), windows naming the G栋/B栋 硬装 object without 下沉式广场 (R05), keyword soup and dense spray (R01), and spans that also adopt the contrary concession (R06) earn nothing; for this item also: heading lines (N04 level > 0) earn nothing",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "candidate and source quotations",
+    "metric": "one complete connected proposition, across paragraphs if needed",
+    "max_units": 1
+   },
+   "length_contract_id": "S02",
+   "full_partial_zero": {
+    "full": "unexamined quality defence, possible price effect, and closure into principal/remand relief",
+    "partial": "0.5 for a supported quality-review point missing one consequence",
+    "zero": "none, a heading only, or a price effect without the unexamined defence"
+   },
+   "dependencies": [],
+   "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the facts-and-reasons section inside one line or one lowest-level heading block",
+   "program_path": "diagnostic regex only; required evidence-bound semantic rule controls settlement",
+   "manual_check": "check that the matched span states the complete Golden proposition as the appellant's own adopted position about the quality defence on the 下沉式广场 works and that no equivalent phrasing elsewhere was missed",
+   "self_report_fields_are_non_authoritative": true
+  }
+ ],
+ "deduction_items": [
+  {
+   "id": "D01",
+   "trigger": "party block names B公司 as 上诉人 or D公司 as 被上诉人, labels the appellant as 一审原告, or a request asks to order D公司/上诉人 to pay",
+   "damage_basis": "the petition is filed for the wrong side and cannot serve the client",
+   "scope": "header, intro and request lines",
+   "object_key": "party.roles",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p1 (原告B公司, 被告D公司); golden/输出结果-民事上诉状（脱敏版）.docx p[2]-p[6]",
+   "error_predicate": "PARTY_LABEL value binds the wrong company, or PAY_MORE request without negation",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "Opponent quotations and expressly rejected views are excluded. A supported alternative request that the appellant pay only the amount ultimately proved is not a role inversion. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-role",
+   "damage_instance_key_rule": "party_role_inverted (one damage for all manifestations)",
+   "manifestation_rule": "one per line and label",
+   "length_contract_id": "S00",
+   "penalty_coefficient": 0.3,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D02",
+   "trigger": "a request clause revokes judgment item 2 wholesale, 撤销原判 without qualification (and without remand), dismisses all claims, or disputes the 1,222.19/371,750 interest; or the reasons say that interest is not payable",
+   "damage_basis": "the defendant agreed to pay the 1,222.19 interest; attacking it contradicts its own first-instance position and over-reaches the appeal",
+   "scope": "request section and reasons sentences",
+   "object_key": "request.scope",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p2 (同意原告主张的第一部分利息), p3 (被告也同意支付该部分利息); golden/输出结果-民事上诉状（脱敏版）.docx p[11]",
+   "error_predicate": "R07 overscope_clauses on request sentences; consented-interest non-payment sentence in reasons",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "Opponent quotations, expressly rejected propositions, and unadopted hypothetical discussion are excluded. Conditional wording alone does not exempt an adopted erroneous request or consequence. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-scope",
+   "damage_instance_key_rule": "scope_overreach",
+   "manifestation_rule": "one per line and clause kind",
+   "length_contract_id": "S00",
+   "penalty_coefficient": 0.9,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D03",
+   "trigger": "adopts that the appellant must pay per the quotation/193,440, that settlement by quotation is proper, that the appellee completed all works, or that 2025-04-21 delivery / interest from 2025-04-21 is correct",
+   "damage_basis": "concedes the core finding the appeal attacks",
+   "scope": "intro, request and reasons sentences",
+   "object_key": "merits.concession",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p3-p4 (故被告应当按照原告的报价支付工程款; 2025年4月21日为工程交付使用时间); golden/输出结果-民事上诉状（脱敏版）.docx p[18]-p[33]",
+   "error_predicate": "D03_AMOUNT / D03_DATE patterns adopted without a following rejection",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "Opponent quotations, expressly rejected propositions, and unadopted hypothetical discussion are excluded. Conditional wording alone does not exempt an adopted erroneous request or consequence. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-concession",
+   "damage_instance_key_rule": "concede_amount or concede_date (two independent damages)",
+   "manifestation_rule": "one per line and group",
+   "length_contract_id": "S01",
+   "penalty_coefficient": 0.5,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true,
+   "semantic_subtypes": {
+    "D03_AMOUNT": {
+     "causal_root": "concede_amount",
+     "penalty_coefficient": 0.5
+    },
+    "D03_DATE": {
+     "causal_root": "concede_date",
+     "penalty_coefficient": 0.5
+    }
+   }
+  },
+  {
+   "id": "D04",
+   "trigger": "misstates a record figure: the 下沉式广场 award as other than 193,440 (194,970 only when framed as the quotation), the admitted value as other than 7-8万, the court's delivery date as another April day, or the folding-door fee as other than 1,530; or reverses the record attribution of the April16 statement by naming appellee/claimant staff instead of defendant/appellant staff",
+   "damage_basis": "wrong record facts undermine the appeal's credibility and can misdirect the court; reversing the speaker changes the evidentiary meaning of a core handover argument",
+   "scope": "intro, request and reasons sentences",
+   "object_key": "record.figures",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p3-p4 (1,530; 193,440; 2025-04-21), p2 (7-8万元)",
+   "error_predicate": "amount/range/date token bound to the court's finding or the admission differs from the record",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "attributed clauses (R02), conditional clauses, candidate markers, quoted spans (N07), negation frames (R04), a following rejection token (R08: 错误/不当/缺乏依据/不符/矛盾) and gap-marked segments do not trigger; omission never triggers",
+   "causal_root_rule": "R-record",
+   "damage_instance_key_rule": "misstated_<award|admission|delivery|door>",
+   "manifestation_rule": "one per line and figure",
+   "length_contract_id": "S01",
+   "penalty_coefficient": 0.7,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D05",
+   "trigger": "the closing addressee (first three closing lines) or the intro names a basic, district/county, high or supreme court instead of 某中级法院",
+   "damage_basis": "an appeal addressed to the wrong court is procedurally defective",
+   "scope": "closing and intro",
+   "object_key": "procedure.court",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p5 (上诉于某中级法院); golden/输出结果-民事上诉状（脱敏版）.docx p[39]-p[40]",
+   "error_predicate": "court name regex in closing lines without 中级",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "A correct statement that the appeal is submitted or handed through the first-instance basic court is a filing route, not the appellate addressee, and never triggers. Attributed, quoted, negated and gap-marked clauses do not trigger; omission never triggers.",
+   "causal_root_rule": "R-court",
+   "damage_instance_key_rule": "wrong_appellate_court",
+   "manifestation_rule": "one per line",
+   "length_contract_id": "S00",
+   "penalty_coefficient": 0.7,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D06",
+   "trigger": "invents digits for a case number, a credit code, a phone number, an address in the party block, a person name not in the judgment, a service date, a day for the May 2026 judgment, or a full filing date in the closing; or invents a specific May2025 handover/interest day from the record statement around May",
+   "damage_basis": "fabricated identifiers or dates are presented as facts the materials do not establish; an exact handover day cannot be manufactured from an approximate acceptance/use month",
+   "scope": "all zones, segment level",
+   "object_key": "party.identifiers",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p1 (匿名当事人与地址), p5 (二○二六年五月, no day); golden/输出结果-民事上诉状（脱敏版）.docx p[2]-p[8], p[43] (2026年　月　日)",
+   "error_predicate": "fabrication regexes on segments without a gap token (N06)",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "attributed clauses (R02), conditional clauses, candidate markers, quoted spans (N07), negation frames (R04), a following rejection token (R08: 错误/不当/缺乏依据/不符/矛盾) and gap-marked segments do not trigger; omission never triggers",
+   "causal_root_rule": "R-fabrication",
+   "damage_instance_key_rule": "fabricated_identifiers",
+   "manifestation_rule": "one per line and identifier kind",
+   "length_contract_id": "S00",
+   "penalty_coefficient": 0.8,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D07",
+   "trigger": "relies on 民事诉讼法 §170/§169 (superseded numbering), the repealed 合同法, or the repealed 2004/2018 construction interpretations",
+   "damage_basis": "outdated legal basis weakens the appeal and signals error",
+   "scope": "request and reasons sentences",
+   "object_key": "law.basis",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p5-p6 (current numbering: 民事诉讼法第二百六十四条, 解释（一）); golden/输出结果-民事上诉状（脱敏版）.docx p[27], p[33], p[37]",
+   "error_predicate": "N05 article tokens with law name",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "attributed clauses (R02), conditional clauses, candidate markers, quoted spans (N07), negation frames (R04), a following rejection token (R08: 错误/不当/缺乏依据/不符/矛盾) and gap-marked segments do not trigger; omission never triggers; sentences that say 已废止/失效 are exempt",
+   "causal_root_rule": "R-law",
+   "damage_instance_key_rule": "outdated_legal_basis",
+   "manifestation_rule": "one per line and basis",
+   "length_contract_id": "S01",
+   "penalty_coefficient": 0.8,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D13",
+   "trigger": "in the request or facts-and-reasons section: (a) a proposition the judgment's appendix binds to a known article (delivery-based interest start -> 解释(一) art.27; completion date -> art.9; interest standard -> art.26; 改判/发回 -> 民诉法 art.177; late-performance interest -> art.264; silence -> 民法典 art.140; …) is cited under another article of the same statute; (b) the petition says the first-instance court applied/relied on (援引/适用/依据/依照) an article the judgment never invoked (the judgment relied only on 民法典 §577/§579, 解释(一) §9/§26/§27 and 民诉法 §264); (c) the petition attributes to the appellee a claim the record does not carry (被上诉人主张…未答复故应视为认可)",
+   "damage_basis": "a mis-cited article or a legal basis the court never used is an error the appellate court will find on the face of the record; it misdirects the review and discredits the grounds. Typical forms: 一审适用《解释（一）》第二十条不当 or 一审援引该条(第十四条)驳回上诉人的质量主张 when the judgment invoked neither article; 被上诉人在一审中主张…上诉人未答复故应视为认可 when the plaintiff's recorded claim (judgment p1-p2) says no such thing",
+   "scope": "request and facts-and-reasons lines, one 。-sentence at a time (a citation followed by two propositions, 第九条、第二十七条…竣工日期；…利息自交付之日开始计付, stays one unit)",
+   "object_key": "law.attribution",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p4 (综上，依照《民法典》第五百七十七条、第五百七十九条、《解释（一）》第九条、第二十六条、第二十七条), p5 (民事诉讼法第二百六十四条), p6 appendix (the text of each article); golden/输出结果-民事上诉状（脱敏版）.docx p[27] p[33] p[37]",
+   "error_predicate": "(a) task_judge.law_miscites: for each statute name and the §N tokens in its scope, the union of PROPOSITION_ARTICLES for the propositions present in the sentence does not contain N (民诉法 §169/§170 excluded: D07 charges them); (b) task_judge.law_misattributions: COURT_APPLIED (一审/原审 + 援引/适用/依据/依照/引用/援用/运用) followed within 60 characters by §N or 该条/该项/该款/上述规定, resolved to the nearest cited article, not in COURT_RELIED_ON for that statute; (c) APPELLEE_CLAIM_DEEMED",
+   "adoption_status": "the citation or attribution must be the appellant's own assertion in the request or reasons section",
+   "negative_context_exclusions": "candidate markers (可能/或许/备选) on the line; an evaluative clause (实质是/相当于/等于/变相/无异于/实际上是) never reads as a claim that the court applied the article; 应当/本应/理应/未/并未/没有/拒绝/规避 immediately before the verb (the court should have / did not apply); 该条 followed by 聊天/记录/证据/微信 is not an article; a statute quoted verbatim carries its own proposition and cannot mis-cite; omission of a citation never triggers",
+   "causal_root_rule": "R-law-attribution",
+   "damage_instance_key_rule": "law_misattribution_m1 / law_misattribution_m2: one instance per distinct manifestation, capped at two per petition",
+   "manifestation_rule": "one manifestation per line and detail (miscite:<statute>:§N, misattributed:<statute>:§N, misattributed_claim:appellee-deemed-acceptance); the first two are charged",
+   "length_contract_id": "S01",
+   "penalty_coefficient": 0.7,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D14",
+   "trigger": "a request or reasons clause asserts, as a first-instance fact, that the appellant filed an appraisal application (上诉人的鉴定申请 / 上诉人一审已提出鉴定申请)",
+   "damage_basis": "the judgment records no appraisal application by the defendant (p2 被告辩称, p3 审理中…); telling the appellate court the first-instance court ignored an application that was never made is a record fact the court will not find. Typical form: 亦未对上诉人的鉴定申请、质量抗辩作出程序性处理",
+   "scope": "request and facts-and-reasons lines that mention 一审/原审",
+   "object_key": "record.procedure",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p2-p3 (被告辩称; 审理中，被告称…) - no 鉴定申请 anywhere; golden/输出结果-民事上诉状（脱敏版）.docx p[35] (Golden argues the quality defence was not examined, never that an appraisal was applied for)",
+   "error_predicate": "task_judge APPRAISAL_NOUN (上诉人[在一审中]的鉴定申请) or APPRAISAL_VERB (上诉人[一审/已/曾]提出|提交|申请…鉴定) on an own clause (own_clauses: rule statements, concessive clauses in the reasons and attributed clauses dropped), not preceded by 未/没有/是否/拟/建议/将/应当/可以/请求, and not about 二审",
+   "adoption_status": "the appellant's own affirmative assertion about the first-instance record",
+   "negative_context_exclusions": "Opponent quotations, expressly rejected propositions, and unadopted hypothetical discussion are excluded. Conditional wording alone does not exempt an adopted erroneous request or consequence. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-record-procedure",
+   "damage_instance_key_rule": "unrecorded_procedural_fact: one instance per petition",
+   "manifestation_rule": "one manifestation (the first line) per petition",
+   "length_contract_id": "S02",
+   "penalty_coefficient": 0.7,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D15",
+   "trigger": "any line marked as not part of the petition (非上诉状正文 / 不属于上诉状正文 / 供承办律师核改), or, after 此致, a heading containing 说明/提示/备注/注意事项/核对 whose following block talks of 律师/定稿/提交前/核对/替换/脱敏/填写/补充",
+   "damage_basis": "the deliverable is the petition alone; drafting notes to the lawyer (deadlines, weaknesses to check, what to replace before filing) inside the filing are content the filing must not carry (task skill references/filing-types.md). Typical forms: a 撰写说明（非上诉状正文，供承办律师核改） heading followed by numbered notes, or a 提交前核对提示（不属于上诉状正文） block after the signature",
+   "scope": "every line for the marker form; the closing zone (after 此致) for the heading+block form",
+   "object_key": "filing.notes",
+   "source_location": "environment/skills/prc-appellate-and-retrial-filings/references/filing-types.md (what a filing must not contain); golden/输出结果-民事上诉状（脱敏版）.docx p[39]-p[45] (此致 … 附：本上诉状副本1份。 and nothing else)",
+   "error_predicate": "task_judge NOT_FILING_TEXT on any cleaned line; else in doc.closing a heading-like line (Markdown depth, bold, or at most 40 characters) matching NOTE_HEAD followed by body lines matching NOTE_BODY",
+   "adoption_status": "the author's own appended block; it is never quoted or attributed text",
+   "negative_context_exclusions": "Opponent quotations, expressly rejected propositions, and unadopted hypothetical discussion are excluded. Conditional wording alone does not exempt an adopted erroneous request or consequence. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-filing-content",
+   "damage_instance_key_rule": "drafting_notes_in_filing: one instance per petition",
+   "manifestation_rule": "one manifestation (the marker line or the note heading) per petition, capped at one",
+   "length_contract_id": "S02",
+   "penalty_coefficient": 0.7,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D16",
+   "trigger": "an own request or reasons clause asserts that the plaza works were not delivered / no handover took place (未办理交付, 未交付, 从未办理交接验收手续), asks that interest run from the date of suit (利息自被上诉人起诉之日起算; 应付款时间应为起诉之日), or pleads that the claim under appeal has already been satisfied in full / the parties' obligations extinguished (已全额清偿/足额付清本案（全部）款项, 双方债权债务已归于消灭); or requests total dismissal/non-liability for all plaza principal while the filing or record adopts the defendant's admission that completed work had value around7-8万元 and the grounds only support an unresolved amount",
+   "damage_basis": "the appellant itself stated at first instance that the works were accepted and put into use around May 2025 (judgment p2 被告辩称: 案涉工程在2025年5月左右验收合格并投入使用), and Golden builds the interest ground on exactly that (p[12] 利息自工程实际交付使用之日起算; p[33] 案涉工程于2025年5月左右验收合格并投入使用，利息应当自该时起算). Pleading the opposite hands the appellee the client's own admission and makes the interest ground self-contradictory. The same damage arises when the petition pleads the claim away: the record establishes payment of the G/B 硬装 settlement only (judgment p2: 371,750 paid in 2025年11月 and 2026年2月10日; Golden 该部分款项已付清) and carries nothing about the 下沉式广场 sum being paid or the parties' obligations being extinguished, so 已全额清偿…双方债权债务已归于消灭 both states a fact the materials do not establish and concedes away the petition's own requests (撤销/改判驳回 193,440 及利息), leaving the appellate court an appeal with nothing left to decide. Typical forms: 判令利息自被上诉人起诉之日起算 / 自本案起诉之日…起计算 in the requests; 本案下沉式广场工程至今未办理交付与结算手续 / 既未验收、未结算、未交付 in the reasons; 上诉人已于…向被上诉人全额清偿上述全部款项，双方债权债务已归于消灭; total non-liability contradicts the appellant's own acknowledged partial value and is not supported by an amount-uncertainty ground",
+   "scope": "own clauses of the request and facts-and-reasons sections",
+   "object_key": "position.own",
+   "source_location": "materials/原始材料-民事判决书（脱敏版）.pdf p2 (被告辩称…2025年5月左右验收合格并投入使用; 被告已付371,750元两笔), p3-p4 (下沉式广场工程款未结算、未支付; 交付之日 reasoning); golden/输出结果-民事上诉状（脱敏版）.docx p[12], p[16] (该部分款项已付清 - the 硬装 settlement only), p[33]",
+   "error_predicate": "task_judge NOT_DELIVERED on an own clause (not preceded within 20 characters by a component/document object such as 折叠门/下拉窗/材料/凭证, no double negation), or INTEREST_CONTEXT + SUIT_DATE_START without SUIT_DATE_NEG, or CLAIM_SATISFIED (a totality quantifier 全额/足额/悉数/如数/全部/一次性 within 6 characters of 清偿/付清/结清/偿付/支付完毕/给付完毕/履行完毕, or 债权债务|债务关系 within 10 characters of 消灭/终止/了结/清结) with SATISFIED_OBJECT (本案/案涉/下沉式广场/广场工程/¥193440/债权债务 or 全部|所有|悉数 + 款项/工程款/价款/债务/债权) and SATISFIED_DONE (已/业已/早已/均已/完毕/了结/清结) in the same clause, no negation inside the match, no SATISFIED_NEG (未/没有/无/非/不/是否/若/如/拟/将/应/须/需/请求/要求/能否) in the 8 characters before it, no DOUBLE_NEG and no CONDITIONAL_OPEN at the head of the clause; own_clauses drops bare rule statements (a 。-sentence carrying §N/规定/下列时间/视为应付款 and no 本案/案涉/下沉式广场), concessive clauses in the reasons section, and clauses attributed to the court or the appellee",
+   "adoption_status": "the appellant's own adopted position; in the request section a conditional alternative request (若…则请求…利息自起诉之日起算) is the appellant's own request and counts",
+   "negative_context_exclusions": "Opponent quotations, expressly rejected propositions, and unadopted hypothetical discussion are excluded. Conditional wording alone does not exempt an adopted erroneous request or consequence. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-own-position",
+   "damage_instance_key_rule": "contradicts_own_record_position: one instance per petition (one drafting decision, however often restated)",
+   "manifestation_rule": "one manifestation per line carrying the position (works-not-delivered / interest-from-date-of-suit / claim-already-satisfied); all share the one instance",
+   "length_contract_id": "S02",
+   "penalty_coefficient": 0.7,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D17",
+   "trigger": "the header names no 上诉人 or no 被上诉人 (no PARTY_LABEL line with that label), the first three closing lines after 此致 name no 法院, the appeal-request section is confirmed missing, or the facts-and-reasons section is confirmed missing; one instance per absence, capped at two",
+   "damage_basis": "a petition that does not identify the appellant or the appellee, is addressed to no court, or has no requests or no reasons cannot be lodged at all; this is wholesale absence of a part the filing consists of, not an ordinary omission of one point (wholesale absence opens damage instances instead of only losing credit). Golden carries all five parts (p[2], p[5], p[10]-p[13], p[15]-p[37], p[39]-p[40])",
+   "scope": "header, intro, request, reasons and closing zones as N08 resolves them",
+   "object_key": "filing.skeleton",
+   "source_location": "golden/输出结果-民事上诉状（脱敏版）.docx p[2] (上诉人（一审被告）：D公司), p[5] (被上诉人（一审原告）：B公司), p[10] (上诉请求：), p[15] (事实与理由：), p[39]-p[40] (此致 某中级法院); task skill references/filing-types.md (parts of a civil appeal petition)",
+   "error_predicate": "task_judge eval_deductions D17: labels of PARTY_LABEL matches over header+intro lack 上诉人 / lack 被上诉人; no 法院 in doc.closing[:3]; doc.req_state == confirmed_missing; doc.rea_state == confirmed_missing",
+   "adoption_status": "structural absence in the delivered document itself; nothing is quoted or attributed",
+   "negative_context_exclusions": "Opponent quotations, expressly rejected propositions, and unadopted hypothetical discussion are excluded. Conditional wording alone does not exempt an adopted erroneous request or consequence. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-filing-skeleton",
+   "damage_instance_key_rule": "filing_skeleton_m1 / filing_skeleton_m2: one instance per absent part, capped at two",
+   "manifestation_rule": "one manifestation per absent part (no-appellant-party-line, no-appellee-party-line, no-addressee-court, no-request-section, no-reasons-section); the first two are charged",
+   "length_contract_id": "S00",
+   "penalty_coefficient": 0.4,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D08",
+   "trigger": "Inactive: no length-based damage",
+   "damage_basis": "Omissions assessed by positive completion only",
+   "scope": "reasons level-1 blocks classified as amount",
+   "object_key": "shape.S01",
+   "source_location": "golden/输出结果-民事上诉状（脱敏版）.docx p[18]-p[27]",
+   "error_predicate": "never",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "missing or ambiguous grouping and gap-marked clauses never trigger; omission never triggers",
+   "causal_root_rule": "R-shape-S01",
+   "damage_instance_key_rule": "shape_S01",
+   "manifestation_rule": "one manifestation per unit",
+   "length_contract_id": "S01",
+   "penalty_coefficient": 0.9,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D09",
+   "trigger": "Inactive: no length-based damage",
+   "damage_basis": "Omissions assessed by positive completion only",
+   "scope": "reasons level-1 blocks classified as interest",
+   "object_key": "shape.S02",
+   "source_location": "golden/输出结果-民事上诉状（脱敏版）.docx p[29]-p[37]",
+   "error_predicate": "never",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "missing or ambiguous grouping and gap-marked clauses never trigger; omission never triggers",
+   "causal_root_rule": "R-shape-S02",
+   "damage_instance_key_rule": "shape_S02",
+   "manifestation_rule": "one manifestation per unit",
+   "length_contract_id": "S02",
+   "penalty_coefficient": 0.9,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D10",
+   "trigger": "Inactive: no length-based damage",
+   "damage_basis": "Omissions assessed by positive completion only",
+   "scope": "appeal-request section lines",
+   "object_key": "shape.S00",
+   "source_location": "golden/输出结果-民事上诉状（脱敏版）.docx p[11]-p[13]",
+   "error_predicate": "never",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted position or request",
+   "negative_context_exclusions": "missing or ambiguous request section and gap-marked clauses never trigger; omission never triggers",
+   "causal_root_rule": "R-shape-S00",
+   "damage_instance_key_rule": "shape_S00",
+   "manifestation_rule": "one manifestation per unit",
+   "length_contract_id": "S00",
+   "penalty_coefficient": 0.9,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D11",
+   "trigger": "a closing section (a 结语/结论/综上 heading in the reasons) whose body restates the grounds: at least two of its sentences repeat an earlier reasons sentence (character 3-gram overlap >= 0.6), or the body runs past twice Golden's own closing paragraph (78 characters)",
+   "damage_basis": "restating the grounds in a separate closing section adds length that decides nothing; Golden argues each ground to its own conclusion and closes with one unheaded paragraph (原审判决认定基本事实不清,适用法律错误...请求二审法院查明事实,依法改判,支持上诉人的上诉请求。) straight before 此致, with no closing section of its own",
+   "scope": "facts-and-reasons section lines",
+   "object_key": "reason.closing",
+   "source_location": "golden/输出结果-民事上诉状（脱敏版）.docx p[37]-p[39] (the last ground runs into one unheaded closing paragraph and then 此致; no 结语/结论/综上 heading anywhere)",
+   "error_predicate": "task_judge.closing_restates: the block under a CLOSING_HEAD line (to the next heading of the same or higher level, or the end of the reasons) has >= 2 sentences with 3-gram overlap >= 0.6 against an earlier reasons sentence, or an N09 count > 2 x 78",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted structure; the heading is the author's own line, never quoted or attributed text",
+   "negative_context_exclusions": "An ordinary unheaded concluding paragraph beginning 综上 and asking the court to grant the stated relief is valid. Character count alone never triggers. Only a separate appended section that substantively repeats earlier grounds is charged.",
+   "causal_root_rule": "R-closing",
+   "damage_instance_key_rule": "appended_closing_summary",
+   "manifestation_rule": "one manifestation per closing heading whose body restates (restated-N-sentences or restated-N-chars-over-2x78)",
+   "length_contract_id": "S02",
+   "penalty_coefficient": 0.9,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  },
+  {
+   "id": "D12",
+   "trigger": "the tail lists enclosures other than the copy of the appeal petition itself",
+   "damage_basis": "the deliverable is the petition alone. Golden's tail carries exactly one enclosure line, 附:本上诉状副本1份。 - the extra copy 民事诉讼法 requires a party to file. Listing a photocopy of the judgment, a bundle of evidence, or an appraisal application asserts a filing package that was never produced and that the record does not establish exists; the first-instance judgment records that the defendant produced no such evidence",
+   "scope": "tail lines after 此致",
+   "object_key": "tail.attachments",
+   "source_location": "golden/输出结果-民事上诉状（脱敏版）.docx p[45] (附:本上诉状副本1份。 is the only enclosure line)",
+   "error_predicate": "an enclosure entry in the tail - a line opening an 附/附件/附录/证据清单 inventory, or an enumerated entry under one - naming a document that is not the appeal petition's own copy (上诉状副本/上诉状复印件)",
+   "adoption_status": "the error must be asserted affirmatively as the appellant's own adopted list of what accompanies the filing",
+   "negative_context_exclusions": "Opponent quotations, expressly rejected propositions, and unadopted hypothetical discussion are excluded. Conditional wording alone does not exempt an adopted erroneous request or consequence. Ordinary omission alone is not an affirmative error.",
+   "causal_root_rule": "R-attachments",
+   "damage_instance_key_rule": "asserted_attachment_inventory",
+   "manifestation_rule": "one manifestation per enclosure-entry locator; all entries of one inventory are one damage instance",
+   "length_contract_id": "S02",
+   "penalty_coefficient": 0.5,
+   "ordinary_omission_excluded": true,
+   "self_report_fields_are_non_authoritative": true
+  }
+ ],
+ "substantive_golden_units": [
+  {
+   "unit_id": "U02",
+   "golden_proposition": "D公司 is the appellant (一审被告) and B公司 the appellee (一审原告)",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[2]-p[6]",
+   "program_item_ids": [
+    "D01"
+   ]
+  },
+  {
+   "unit_id": "U04",
+   "golden_proposition": "revoke items 1 and 2 only as to the 下沉式广场 award 193,440 and its interest",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[11]",
+   "program_item_ids": [
+    "P01",
+    "D02"
+   ]
+  },
+  {
+   "unit_id": "U05",
+   "golden_proposition": "改判 dismissing the 下沉式广场 payment and interest claim",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[12]",
+   "program_item_ids": [
+    "D02"
+   ]
+  },
+  {
+   "unit_id": "U06",
+   "golden_proposition": "alternatively settle by actual quantities with interest from actual delivery",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[12]",
+   "program_item_ids": [
+    "P03"
+   ]
+  },
+  {
+   "unit_id": "U08",
+   "golden_proposition": "quotation is not settlement; contrary to the confirmed habit; no contract or settlement",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[19]-p[20]",
+   "program_item_ids": [
+    "P04",
+    "D03"
+   ]
+  },
+  {
+   "unit_id": "U09",
+   "golden_proposition": "'no objection' contradicts the defence; actual scope not examined",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[21]-p[22]",
+   "program_item_ids": [
+    "P05",
+    "D03"
+   ]
+  },
+  {
+   "unit_id": "U10",
+   "golden_proposition": "burden of proving completion lies on the appellee; photos insufficient",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[23]-p[24]",
+   "program_item_ids": [
+    "D03",
+    "P13"
+   ]
+  },
+  {
+   "unit_id": "U11",
+   "golden_proposition": "admitted 7-8万 far below 193,440 and unaddressed",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[25]-p[26]",
+   "program_item_ids": [
+    "D04"
+   ]
+  },
+  {
+   "unit_id": "U12",
+   "golden_proposition": "basic facts unclear under CPL art.177(1)(iii)/(ii)",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[27], p[37]",
+   "program_item_ids": [
+    "D07"
+   ]
+  },
+  {
+   "unit_id": "U13",
+   "golden_proposition": "04-21 delivery presumption unsupported; door and window unfinished on 04-16",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[30]-p[31]",
+   "program_item_ids": [
+    "P09",
+    "D03",
+    "D04"
+   ]
+  },
+  {
+   "unit_id": "U15",
+   "golden_proposition": "interest from May 2025 acceptance/delivery under Interpretation (I) art.27/9",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[33]",
+   "program_item_ids": [
+    "P11",
+    "D03",
+    "D07"
+   ]
+  },
+  {
+   "unit_id": "U16",
+   "golden_proposition": "quality defence not substantively examined; affects price",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[34]-p[35]",
+   "program_item_ids": [
+    "P14"
+   ]
+  },
+  {
+   "unit_id": "U17",
+   "golden_proposition": "addressed to 某中级法院",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[39]-p[40]",
+   "program_item_ids": [
+    "D05"
+   ]
+  },
+  {
+   "unit_id": "U18",
+   "golden_proposition": "filing date left blank; no invented identifiers",
+   "golden_locator": "golden/输出结果-民事上诉状（脱敏版）.docx p[2]-p[8], p[43]",
+   "program_item_ids": [
+    "D06"
+   ]
+  }
+ ],
+ "shape_units": [
+  {
+   "id": "S00",
+   "applicable_item_ids": [
+    "P01",
+    "P03",
+    "D01",
+    "D02",
+    "D05",
+    "D06",
+    "D10"
+   ],
+   "scope": "appeal-request section lines (after the 上诉请求 heading, before 事实与理由); the party block (D01), closing addressee (D05) and identifier slots (D06) are not reasoning text and are not measured, they bind here for lineage only",
+   "metric": "non-whitespace characters excluding , ; 。 (N09)",
+   "golden_value": 170,
+   "declared_floor": 120,
+   "counter": "task_judge.shape_count over Doc.requests",
+   "threshold_basis": "convention_band",
+   "threshold_rationale": "the request section is short (about 170 characters); a petition that adds an alternative request or a cost request is not charged; only a request section carrying argument past three times Golden is",
+   "overrun_tolerance_ratio": 2.0,
+   "underrun_tolerance_ratio": 0.3,
+   "deduction_id": "D10",
+   "overrun_instances": "none",
+   "underrun_instances": "none",
+   "scoring_status": "diagnostic_only"
+  },
+  {
+   "id": "S01",
+   "applicable_item_ids": [
+    "P04",
+    "P05",
+    "D03",
+    "D04",
+    "D07",
+    "D08",
+    "P13"
+   ],
+   "scope": "facts-and-reasons level-1 blocks whose heading first names an amount term (工程款/结算/报价/施工范围/工程量/举证/价款/193,440/未施工/自认); the overview paragraph before the first level-1 heading is not measured; D03/D04/D07 bind here as the amount-side manifestation location",
+   "metric": "non-whitespace characters excluding , ; 。 (N09)",
+   "golden_value": 1324,
+   "declared_floor": 500,
+   "counter": "task_judge.shape_count over R10 amount group",
+   "threshold_basis": "convention_band",
+   "overrun_tolerance_ratio": 2.0,
+   "underrun_tolerance_ratio": 0.3,
+   "deduction_id": "D08",
+   "overrun_instances": "none",
+   "underrun_instances": "none",
+   "scoring_status": "diagnostic_only"
+  },
+  {
+   "id": "S02",
+   "applicable_item_ids": [
+    "P09",
+    "P11",
+    "D09",
+    "D11",
+    "D12",
+    "P14"
+   ],
+   "scope": "facts-and-reasons level-1 blocks whose heading first names an interest/delivery/quality term (利息/交付/起算/验收/质量), including the concluding paragraph under the last block; D11 (an appended closing section) and D12 (an enclosure inventory in the tail) bind here for lineage only - neither is measured by the character count",
+   "metric": "non-whitespace characters excluding , ; 。 (N09)",
+   "golden_value": 1047,
+   "declared_floor": 400,
+   "counter": "task_judge.shape_count over R10 interest group",
+   "threshold_basis": "convention_band",
+   "overrun_tolerance_ratio": 2.0,
+   "underrun_tolerance_ratio": 0.3,
+   "deduction_id": "D09",
+   "overrun_instances": "none",
+   "underrun_instances": "none",
+   "scoring_status": "diagnostic_only"
+  }
+ ],
+ "observation_pipeline": {
+  "layers": [
+   "raw_carrier",
+   "normalized_business_observation",
+   "program_decision"
+  ],
+  "normalization_rules": [
+   {
+    "id": "N01",
+    "operation": "UTF-8 Markdown lines (code fences skipped) or DOCX body paragraphs and table rows in body order; NFKC fold, drop zero-width characters, Markdown heading/list/emphasis marks and table pipes (cells joined by colon), remove all whitespace"
+   },
+   {
+    "id": "N02",
+    "operation": "money amounts with 元/万元/人民币/¥ and thousands separators to one canonical yuan token; ranges such as 7-8万元, 7万元至8万元, 七八万元 to one ¥low~¥high range token"
+   },
+   {
+    "id": "N03",
+    "operation": "dates YYYY年M月D日 / YYYY-M-D / YYYY.M.D to @YYYY-MM-DD, YYYY年M月 / YYYY-MM to @YYYY-MM, year-less M月D日 to @--MM-DD and M月左右/底/初 to @--MM"
+   },
+   {
+    "id": "N04",
+    "operation": "heading levels in the facts-and-reasons section: 一、 level 1, (一) level 2, 1. level 3, (1) level 4, Markdown # depth when unnumbered, bold-only short lines level 3; a numbered line longer than 100 characters or containing an inner 。 is body text"
+   },
+   {
+    "id": "N05",
+    "operation": "statute article, paragraph and item numbers in Chinese or Arabic numerals (第一百七十七条第一款第(三)项) to §n ¶n #n tokens"
+   },
+   {
+    "id": "N06",
+    "operation": "fold every declared gap marker and blank runs (___, ××, XXX) into one gap token: a marked value earns no positive credit, is excluded from fabrication checks and from shape counting"
+   },
+   {
+    "id": "N07",
+    "operation": "quoted spans of 13 or more characters (“…”, \"…\", 「…」, 『…』) are replaced by an ellipsis token (keeping a sentence boundary when the quote ends a sentence) so quoted judgment text or the parties' words never count as the author's assertion"
+   },
+   {
+    "id": "N08",
+    "operation": "zones: leading title and party-label lines form the header; lines up to the 上诉请求 heading (alias 请求事项/上诉事项, numbering allowed, inline request text kept) form the intro; the request section runs to the 事实与理由 heading (alias 事实和理由/上诉理由/理由, heading line without text); the reasons section runs to the line starting 此致; the rest is the closing; two or more headings of one kind make that section ambiguous"
+   },
+   {
+    "id": "N09",
+    "operation": "shape counter: characters of measured lines after N01, excluding , ; 。 and clauses containing a gap token"
+   }
+  ],
+  "derivation_rules": [
+   {
+    "id": "R01",
+    "operation": "keyword spray: a raw line of eight or more short whitespace/comma/slash fragments (after collapsing spaces around digits), a sentence of six or more short enumerated fragments, or a sentence with more than four distinct amounts or dates cannot be adopted"
+   },
+   {
+    "id": "R02",
+    "operation": "asserted clauses: sentences with candidate markers, generic views (有观点认为) or an expressly rejected view (该观点不能成立) are not adopted; a clause opening with a concessive/conditional marker (即使/如果/如/假设) is dropped; an attribution to the appellee or the court (被上诉人/原告/原审/一审法院/判决书…认为/认定/主张/载明) drops the text up to the first rebuttal marker in the sentence, or, without one, until a clause opens with a turn marker (但/故/应当/该认定)"
+   },
+   {
+    "id": "R03",
+    "operation": "local spans: each reasons line of at most 900 characters with its heading chain, and each lowest-level heading block (heading plus following lines until the next heading) of at most 1600 characters"
+   },
+   {
+    "id": "R04",
+    "operation": "pattern adoption: a positive pattern match preceded within eight characters by a negation frame (并非/不是/没有/并无/不存在/并不/否认) is not adopted; overlapping candidates restart one character after each match start so a rejected early candidate never hides a later adopted one"
+   },
+   {
+    "id": "R05",
+    "operation": "object binding: a match whose window (20 characters before to the match end) names the G栋/B栋 硬装 object, the 补充协议 or its amounts (371,750 / 1,222.19 / 743,500) without naming 下沉式广场/193,440/194,970/报价清单 is the wrong object and is not adopted; span context must name the item's object family"
+   },
+   {
+    "id": "R06",
+    "operation": "span decision: every local span is scored; the best full or partial span wins; a span or request line that also adopts the contrary (D03 concession or R07 over-scope) cannot earn and makes the item ambiguous when nothing else earns"
+   },
+   {
+    "id": "R07",
+    "operation": "request over-scope: a request clause that revokes item 2 or the whole judgment without a 下沉式广场/193,440/部分 qualifier (bare 撤销原判 is exempt when the sentence asks for remand), dismisses all claims, or reaches the consented 1,222.19/371,750 interest"
+   },
+   {
+    "id": "R08",
+    "operation": "error adoption: an error pattern followed within the rest of its clause and the next clause (at most 30 characters) by a rejection token (错误/不当/缺乏依据/依据不足/不符/矛盾/不能成立) that is not itself negated is not adopted"
+   },
+   {
+    "id": "R09",
+    "operation": "equivalent-set replay: the admitted value is accepted as any range token ¥7xxxx~¥8xxxx including 70,000-80,000; the May 2025 interest start is accepted as @2025-05, @--05 or any @2025-05-DD, never 2025-04-21 or 2026"
+   },
+   {
+    "id": "R10",
+    "operation": "shape: request-section lines form S00; reasons lines are grouped by their level-1 heading, whose first amount keyword or interest/delivery/quality keyword decides S01 or S02; an unclassified level-1 block over 150 characters or no level-1 heading makes shape ambiguous (no damage); one damage instance per shape unit outside the tolerance band"
+   }
+  ]
+ },
+ "observation_normalization": {
+  "table_and_prose_share_structured_observation_schema": true,
+  "synonymous_section_resolution": "alias_plus_structure_plus_content",
+  "ambiguous_location_state": "unresolved",
+  "negative_context_exclusions_required_for_deductions": true,
+  "evidence_origins": [
+   "submitted",
+   "lossless_canonicalized",
+   "deterministically_derived"
+  ],
+  "task_aliases_must_be_explicit": true,
+  "first_nonempty_candidate_forbidden": true
+ },
+ "strict_equivalence": {
+  "close_enough_credit_forbidden": true,
+  "synonyms_require_complete_proposition_equivalence": true,
+  "comparison_modes": [
+   "exact",
+   "proposition_equivalent",
+   "equivalent_set_replay",
+   "formula_replay"
+  ],
+  "dimensions": [
+   "object",
+   "source_or_evidence_anchor",
+   "relation",
+   "polarity",
+   "modality",
+   "time_or_version_scope",
+   "units_or_quantities",
+   "conditions_or_exceptions",
+   "adoption_status",
+   "downstream_consequence"
+  ],
+  "coherent_single_evidence_span_required": false,
+  "self_report_fields_are_non_authoritative": true,
+  "keyword_spray_positive_earned": 0
+ },
+ "damage_lineage": {
+  "aggregation_key": "independent_business_damage_instance",
+  "causal_root_id_required": true,
+  "manifestation_id_required": true,
+  "repeated_manifestations_of_one_damage_are_charged_once": true,
+  "one_cause_may_create_multiple_independent_damage_instances": true
+ },
+ "package_id": "03_上诉与再审申请/8.民事上诉状",
+ "deliverable": {
+  "public_carrier": "artifacts/civil-appeal-petition.md",
+  "golden_carrier": "golden/civil-appeal-petition.md",
+  "golden_source_document": "golden/输出结果-民事上诉状（脱敏版）.docx",
+  "note": "golden/civil-appeal-petition.md is the Golden transcribed into the deliverable's carrier: one line per paragraph and one `|a|b|` line per table row of the source document, which is exactly how the judge reads the .docx, so both carriers settle to the same ledger."
+ },
+ "golden_deliverable": "civil-appeal-petition.md",
+ "unscored_golden_units": [
+  {
+   "unit_id": "U01",
+   "disposition": "not_scored",
+   "reason": "title 民事上诉状 is format"
+  },
+  {
+   "unit_id": "U03",
+   "disposition": "not_scored",
+   "reason": "intro sentence (case name, court, case number, judgment month) is copied from the judgment header"
+  },
+  {
+   "unit_id": "U07",
+   "disposition": "warning_only",
+   "reason": "overview p[16] restates that the G/B 硬装 price was paid on 2025-11 and 2026-02-10 and frames the dispute; copyable context that supports U04 but is not separately scored"
+  },
+  {
+   "unit_id": "U14",
+   "disposition": "not_scored",
+   "reason": "the inconsistent use of the May 2025 acceptance statement is the same fact U13 (delivery date) and U15 (interest start) argue; it carries no separate credit"
+  },
+  {
+   "unit_id": "U19",
+   "disposition": "not_scored",
+   "reason": "request 三 on litigation costs is boilerplate"
+  },
+  {
+   "unit_id": "U20",
+   "disposition": "not_scored",
+   "reason": "concluding paragraph p[37] restates U12; signature 上诉人：D公司 and 附：副本1份 are format"
+  }
+ ],
+ "gap_marker_contract": {
+  "markers": [
+   "[待补充]",
+   "【待补充】",
+   "[待填写]",
+   "【待填写】",
+   "[待核实]",
+   "【待核实】",
+   "[待定]",
+   "【待定】",
+   "[placeholder]",
+   "材料未提供",
+   "未提供",
+   "待补充",
+   "待填写",
+   "待核实",
+   "unspecified",
+   "TBD",
+   "____",
+   "××",
+   "XXX"
+  ],
+  "normalization_rule_id": "N06",
+  "fabrication_deduction_ids": [
+   "D06"
+  ],
+  "marked_unit": "U18: the petition's filing date (Golden 2026年　月　日, left blank) and the service date of the judgment are not in the materials; a solver must leave them marked, inventing a day triggers D06"
+ },
+ "completion_contract": {
+  "criteria": [
+   "C_FILING",
+   "C_RELIEF",
+   "C_MERITS"
+  ],
+  "professional_errors_must_be_absent": "Only core professional damage blocks lenient. D11 repeated closure and D12 unprovided enclosure inventory are local quality defects when C_FILING/C_RELIEF/C_MERITS otherwise pass; they reduce strict but do not alone make the appeal unusable.",
+  "strict_threshold": null,
+  "lenient_rule": "C_FILING and C_RELIEF pass; settled C_MERITS has at least one amount branch (P04/P05/P13>=.5), one interest branch (P09/P11>=.5), and no D03/D04/D06/D07/D13/D14/D16 core merits damage. D11/D12 alone do not block lenient."
+ },
+ "semantic_authority": "task/tests/semantic_judge.py RULES: source-bound professional meaning supersedes regex/span/wording proxies for semantic criteria; objective fact/arithmetic checks remain mandatory",
+ "causal_settlement": "D03_AMOUNT -> concede_amount; D03_DATE -> concede_date; each D03 coefficient unchanged. D16 own-record position is a distinct predicate. Shared evidence locations never merge independent claims. Repeated manifestations of each canonical root settle once.",
+ "conditional_adoption": "Adopted conditional requests and legal consequences remain subject to correctness. Exclude only opponent quotations, expressly rejected views, or hypothetical discussion not adopted as the filing position."
+}

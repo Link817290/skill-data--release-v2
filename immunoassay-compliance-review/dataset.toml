@@ -1,0 +1,19 @@
+version = "1.0"
+id = "immunoassay-compliance-review"
+task_type = "skill-bench"
+domain = "quality-assurance"
+language = "zh"
+difficulty = "hard"
+deliverable = "/workspace/output/review_report.md"
+required_outputs = ["/workspace/output/review_report.md"]
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+scorer_version = "5.0.0"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+judge = "mixed"
+
+[skills]
+names = ["expert-task-method"]

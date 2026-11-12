@@ -1,0 +1,141 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "exam_conclusion_generation",
+  "tasks": [
+    "exam_conclusion_generation"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 32,
+  "bytes_excluding_manifest": 359877,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1077,
+      "sha256": "ef7b56138e39f24401dbb171945422c97c1c9a21f504044e5593f1849aff4fbd"
+    },
+    "RUBRIC.md": {
+      "bytes": 4417,
+      "sha256": "3b320375ef08f29cc1709fea404700e4b84fc1ee6cbd22c0f518fb356c3fe6bf"
+    },
+    "dataset.toml": {
+      "bytes": 1958,
+      "sha256": "588c48166a896b65a7bf921392a7587115007005b3dbf54dbef79a5ea4343d10"
+    },
+    "golden/体检总检结论.xlsx": {
+      "bytes": 8601,
+      "sha256": "098d066c38aa7312d7c59129ea7bf96fb0db11b149e7db0d6f6b2f19824b09e3"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 464,
+      "sha256": "83399f8f088ed4cc83500462a4308d3abd9344a5ba90950172e76a8c0288bc2b"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 292,
+      "sha256": "97995129f133ebb917ad5a5e168f3a1a7095b19dca4766d940dd3af92e6102d7"
+    },
+    "task/environment/skills/exam-conclusion-synthesis/SKILL.md": {
+      "bytes": 4629,
+      "sha256": "fcb8b386718a508bb4ab6c5da1c3a23a40d98ecb1c626c3dab628eb532155526"
+    },
+    "task/environment/skills/exam-conclusion-synthesis/references/case-gating.md": {
+      "bytes": 6541,
+      "sha256": "76058b1a7f0356fdd887f646fd843778bd75a7fa3d17d986d7de750e4e6d7292"
+    },
+    "task/environment/skills/exam-conclusion-synthesis/references/closure-checklist.md": {
+      "bytes": 3585,
+      "sha256": "cf8cc893e20fcd8f09f2737fae5062543938a7580105d19fd5d3d09104bac7f4"
+    },
+    "task/environment/skills/exam-conclusion-synthesis/references/evidence-hierarchy.md": {
+      "bytes": 4744,
+      "sha256": "dfa4a3061dd6c12851e546de336a63967dafea4a585d5d3a32026d90dc364dae"
+    },
+    "task/environment/skills/exam-conclusion-synthesis/references/normalization-rules.md": {
+      "bytes": 6191,
+      "sha256": "66c1f4384534e72d876b35bb4f0b963b5f2dfa1b2db45634c32353021ca1c8bf"
+    },
+    "task/environment/skills/exam-conclusion-synthesis/scripts/check_deliverables.py": {
+      "bytes": 2426,
+      "sha256": "8009a6c17024e426c8786c2dab45a48bccc8c6e7110ad45e3b6228d036110c2f"
+    },
+    "task/environment/workspace/体检总检结论_填写模板.xlsx": {
+      "bytes": 6140,
+      "sha256": "70d749e7315108d995518a45f28498a2005de2b762769420b4775d2699d0ffaa"
+    },
+    "task/environment/workspace/匿名体检检查明细.xlsx": {
+      "bytes": 80263,
+      "sha256": "fcc778e9dcb5936dae5dfaac31d6628ae1822407edd3a38dbe49a1a15539f8b9"
+    },
+    "task/instruction.md": {
+      "bytes": 1316,
+      "sha256": "176011b1a21697145f4ee57820593fba8f5397470274af9944d561d900406843"
+    },
+    "task/solution/gold_payload.json": {
+      "bytes": 49533,
+      "sha256": "3bb1d15ea3ec67fe813c8c9f42f0b1a019325647cfcc313311c3695518627e35"
+    },
+    "task/solution/solve.py": {
+      "bytes": 2094,
+      "sha256": "03e02ec93582aed8f600918aaf4bed065d8e8370965fb2d64daab7d635cde015"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 339,
+      "sha256": "b222eefc6665e4cc1a30c165c622c380f79d5be45234b82d9a997b5a328bca24"
+    },
+    "task/task.toml": {
+      "bytes": 1198,
+      "sha256": "36e469dd310ee94e98165c72420b789308221a829efa5e0dd428313c6ff0a01c"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1205,
+      "sha256": "54208966fcd9ca15971e90bc1b75354cc8709d7d5195d41b0659c2cd7bf72860"
+    },
+    "task/tests/golden_replay/cache/1022392cb7f8eb74ee52d4cb15ff47ed99be8e05183619f90a708c87a083456c.json": {
+      "bytes": 11407,
+      "sha256": "7a0ed7e9e0576b939d80b42f02c045c69b7554048bb72261956e652d899be8f1"
+    },
+    "task/tests/golden_replay/cache/267ba60b4331f2d5a3f8f51735000842a7fc3bc6fa46427d25b35ddcbef2a677.json": {
+      "bytes": 13475,
+      "sha256": "8a1c65f923a368318349be35547eac695775f493639f840fa653199436549371"
+    },
+    "task/tests/golden_replay/cache/7133de666ba160fd395b42915d34d5e390bde9080dcd871275563007195d9eae.json": {
+      "bytes": 13473,
+      "sha256": "044c0690719cd3a7852b80a76c171f22c2853d926026ee17f94c3cac510afecb"
+    },
+    "task/tests/golden_replay/cache/d9131aa8da4b123702223981e45dbc9291cc54387432fe47305e561a7927bace.json": {
+      "bytes": 13408,
+      "sha256": "2f0b940f0842e8d3d4fab1bce3c6ad35995c4bc47fc7c2150c0cff139ebba05d"
+    },
+    "task/tests/golden_replay/cache/e0708195faa43eae2e9341eab44abd0705dc4a5ae5d7209602c87fb914362761.json": {
+      "bytes": 11110,
+      "sha256": "53cb81ae10af4062873751d960970aea9313a813a53aab1c2e0057781bedcf3a"
+    },
+    "task/tests/golden_replay/cache/f62466ff2d078013376b4f1b9f4199473980d7891be74ad8985c1ce8607c2f96.json": {
+      "bytes": 11179,
+      "sha256": "209c698f085be5f9f125174e547e4f74ebde9650b468d57115848195802d899d"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 49533,
+      "sha256": "3bb1d15ea3ec67fe813c8c9f42f0b1a019325647cfcc313311c3695518627e35"
+    },
+    "task/tests/reference_conclusion_rules.json": {
+      "bytes": 8446,
+      "sha256": "50ffb453ed293d6af4e1f5136b891c3ec82efc35bdcdd60059d1eec75ee84203"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 7489,
+      "sha256": "f5c772b528d0d815f919cb8b4f13fafc5d23a85ccff3de8be609df52ea96272c"
+    },
+    "task/tests/source_manifest.json": {
+      "bytes": 215,
+      "sha256": "9bc8f00f9e46b08bcaa6a05c34d77bcbb9bc1da75be54950bc1e5fa4387ceb28"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2943,
+      "sha256": "b1fde513f9b9a061c24d0a57e1a9be12ee7faebbd7406f7ffaaa47e7f062216d"
+    },
+    "task/tests/validator.py": {
+      "bytes": 30186,
+      "sha256": "0938a788b21ce0f5a2ef5eeb1070582fb8c8d5cbae3bd99ac7dd7ddd8917c336"
+    }
+  }
+}

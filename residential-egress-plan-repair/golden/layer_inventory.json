@@ -1,0 +1,145 @@
+{
+  "identifiers": {
+    "route_id": "HALL-ROUTE-01",
+    "door_id": "HALL-DOOR-01",
+    "width_finding_id": "F-HALL-WIDTH",
+    "door_finding_id": "F-HALL-DOOR",
+    "swing_finding_id": "F-HALL-SWING"
+  },
+  "drawing_unit": "in",
+  "insunits_header": 4,
+  "dxf_version": "AC1018",
+  "layers_found": {
+    "0": {
+      "entity_count": 2,
+      "entity_types": {
+        "MTEXT": 2
+      }
+    },
+    "A-DIMS-1": {
+      "entity_count": 137,
+      "entity_types": {
+        "DIMENSION": 63,
+        "LWPOLYLINE": 31,
+        "CIRCLE": 1,
+        "LEADER": 6,
+        "HATCH": 13,
+        "LINE": 21,
+        "MTEXT": 2
+      }
+    },
+    "A-NOTE": {
+      "entity_count": 183,
+      "entity_types": {
+        "TEXT": 52,
+        "LINE": 123,
+        "MTEXT": 2,
+        "LWPOLYLINE": 3,
+        "CIRCLE": 3
+      }
+    },
+    "A-TEXT": {
+      "entity_count": 31,
+      "entity_types": {
+        "TEXT": 30,
+        "CIRCLE": 1
+      }
+    },
+    "ANNTEXT": {
+      "entity_count": 52,
+      "entity_types": {
+        "TEXT": 7,
+        "MTEXT": 3,
+        "LINE": 40,
+        "LWPOLYLINE": 1,
+        "CIRCLE": 1
+      }
+    },
+    "xref-Bishop-Overland-08$0$A-CASE-1": {
+      "entity_count": 66,
+      "entity_types": {
+        "INSERT": 10,
+        "LINE": 45,
+        "ARC": 9,
+        "CIRCLE": 2
+      }
+    },
+    "xref-Bishop-Overland-08$0$A-FIXTURE": {
+      "entity_count": 2,
+      "entity_types": {
+        "CIRCLE": 1,
+        "LWPOLYLINE": 1
+      }
+    },
+    "xref-Bishop-Overland-08$0$A-FOOTPRINT": {
+      "entity_count": 5,
+      "entity_types": {
+        "LWPOLYLINE": 4,
+        "LINE": 1
+      }
+    },
+    "xref-Bishop-Overland-08$0$A-GARAGE-DOOR": {
+      "entity_count": 1,
+      "entity_types": {
+        "LWPOLYLINE": 1
+      }
+    },
+    "xref-Bishop-Overland-08$0$A-HEADER": {
+      "entity_count": 27,
+      "entity_types": {
+        "LWPOLYLINE": 27
+      }
+    },
+    "xref-Bishop-Overland-08$0$A-OPENING": {
+      "entity_count": 159,
+      "entity_types": {
+        "ARC": 11,
+        "LINE": 145,
+        "LWPOLYLINE": 3
+      }
+    },
+    "xref-Bishop-Overland-08$0$A-WALL": {
+      "entity_count": 177,
+      "entity_types": {
+        "LINE": 170,
+        "LWPOLYLINE": 7
+      }
+    },
+    "xref-Bishop-Overland-08$0$R-BEAM": {
+      "entity_count": 8,
+      "entity_types": {
+        "LWPOLYLINE": 8
+      }
+    },
+    "xref-Bishop-Overland-08$0$S-FOOTER": {
+      "entity_count": 87,
+      "entity_types": {
+        "LWPOLYLINE": 28,
+        "LINE": 59
+      }
+    },
+    "xref-Bishop-Overland-08$0$S-SLAB": {
+      "entity_count": 1,
+      "entity_types": {
+        "LINE": 1
+      }
+    },
+    "xref-Bishop-Overland-08$0$S-STEM-WALL": {
+      "entity_count": 26,
+      "entity_types": {
+        "LWPOLYLINE": 10,
+        "LINE": 16
+      }
+    },
+    "xref-Bishop-Overland-08$0$TEMP": {
+      "entity_count": 3,
+      "entity_types": {
+        "LINE": 3
+      }
+    }
+  },
+  "notes": [
+    "Native coordinates are retained in inches because the source dimensions and opening labels use inch notation.",
+    "The selected HALL boundary is reconstructed from the continuous interior A-WALL faces around the HALL text anchor."
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "items": [
+    {
+      "id": "VAL-005_A6_G6:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A6_G6:A\", \"conclusion\": \"甲状腺左侧结节\", \"evidence\": [\"VAL-005-R113\"], \"explanation\": \"依据 VAL-005-R113 归纳\"}"
+      ],
+      "reason": "候选结论与原始行一致，均为左侧甲状腺结节。"
+    },
+    {
+      "id": "VAL-005_A6_G6:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A6_G6:B\", \"conclusion\": \"甲状腺左侧结节\", \"evidence\": [\"VAL-005-R113\"], \"explanation\": \"依据 VAL-005-R113 归纳\"}"
+      ],
+      "reason": "“甲状腺左侧结节”是原始行直接记载且医学表达规范的发现名称。"
+    },
+    {
+      "id": "VAL-005_A6_G6:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A6_G6:C\", \"conclusion\": \"甲状腺左侧结节\", \"evidence\": [\"VAL-005-R113\"], \"explanation\": \"依据 VAL-005-R113 归纳\"}"
+      ],
+      "reason": "结论保留了甲状腺器官、左侧侧别及结节性质，未增加来源外限定。"
+    },
+    {
+      "id": "VAL-005_A7_G7:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A7_G7:A\", \"conclusion\": \"双侧乳腺片状增厚\", \"evidence\": [\"VAL-005-R119\"], \"explanation\": \"依据 VAL-005-R119 归纳\"}"
+      ],
+      "reason": "候选准确识别了双侧乳腺片状增厚这一核心发现。"
+    },
+    {
+      "id": "VAL-005_A7_G7:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A7_G7:B\", \"conclusion\": \"双侧乳腺片状增厚\", \"evidence\": [\"VAL-005-R119\"], \"explanation\": \"依据 VAL-005-R119 归纳\"}"
+      ],
+      "reason": "“双侧乳腺片状增厚”是来源直接支持的规范发现名称。"
+    },
+    {
+      "id": "VAL-005_A7_G7:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A7_G7:C\", \"conclusion\": \"双侧乳腺片状增厚\", \"evidence\": [\"VAL-005-R119\"], \"explanation\": \"依据 VAL-005-R119 归纳\"}"
+      ],
+      "reason": "结论完整保留乳腺器官、双侧侧别、片状形态和增厚性质。"
+    },
+    {
+      "id": "VAL-005_A8_G8:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A8_G8:A\", \"conclusion\": \"盆腔少量积液\", \"evidence\": [\"VAL-005-R008\"], \"explanation\": \"依据 VAL-005-R008 归纳\"}"
+      ],
+      "reason": "候选的盆腔少量积液对应来源中的盆腔液性暗区。"
+    },
+    {
+      "id": "VAL-005_A8_G8:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A8_G8:B\", \"conclusion\": \"盆腔少量积液\", \"evidence\": [\"VAL-005-R008\"], \"explanation\": \"依据 VAL-005-R008 归纳\"}"
+      ],
+      "reason": "“盆腔少量积液”是对盆腔内深11毫米液性暗区的标准、来源支持的命名。"
+    },
+    {
+      "id": "VAL-005_A8_G8:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A8_G8:C\", \"conclusion\": \"盆腔少量积液\", \"evidence\": [\"VAL-005-R008\"], \"explanation\": \"依据 VAL-005-R008 归纳\"}"
+      ],
+      "reason": "结论保留盆腔部位、积液性质及少量程度，未引入额外诊断。"
+    },
+    {
+      "id": "VAL-005_A8_G9:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "该键对应宫颈数个无回声灶，候选却采用同一来源行中的另一发现“盆腔少量积液”。"
+    },
+    {
+      "id": "VAL-005_A8_G9:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选名称虽可描述来源中的另一发现，但不是该键所对应的宫颈无回声灶名称。"
+    },
+    {
+      "id": "VAL-005_A8_G9:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选遗漏目标发现的宫颈部位、数个数量及无回声性质，转而描述盆腔积液。"
+    },
+    {
+      "id": "VAL-005_A9_G8:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "该键对应盆腔少量积液，候选却采用同一来源行中的宫颈无回声灶发现。"
+    },
+    {
+      "id": "VAL-005_A9_G8:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选名称不是该键目标盆腔积液的名称，而是来源中的另一项宫颈发现。"
+    },
+    {
+      "id": "VAL-005_A9_G8:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选未保留目标发现的盆腔部位、积液性质及少量程度。"
+    },
+    {
+      "id": "VAL-005_A9_G9:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A9_G9:A\", \"conclusion\": \"宫颈数个无回声灶\", \"evidence\": [\"VAL-005-R008\"], \"explanation\": \"依据 VAL-005-R008 归纳\"}"
+      ],
+      "reason": "候选准确识别了宫颈部位的数个无回声灶。"
+    },
+    {
+      "id": "VAL-005_A9_G9:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A9_G9:B\", \"conclusion\": \"宫颈数个无回声灶\", \"evidence\": [\"VAL-005-R008\"], \"explanation\": \"依据 VAL-005-R008 归纳\"}"
+      ],
+      "reason": "“宫颈数个无回声灶”是对来源影像发现的规范、直接支持的名称。"
+    },
+    {
+      "id": "VAL-005_A9_G9:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A9_G9:C\", \"conclusion\": \"宫颈数个无回声灶\", \"evidence\": [\"VAL-005-R008\"], \"explanation\": \"依据 VAL-005-R008 归纳\"}"
+      ],
+      "reason": "结论保留了宫颈部位、数个数量和无回声灶性质。"
+    },
+    {
+      "id": "VAL-005_A10_G10:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A10_G10:A\", \"conclusion\": \"甲状腺左叶两个无回声灶\", \"evidence\": [\"VAL-005-R006\"], \"explanation\": \"依据 VAL-005-R006 归纳\"}"
+      ],
+      "reason": "候选与来源一致，识别了甲状腺左叶的两个无回声灶。"
+    },
+    {
+      "id": "VAL-005_A10_G10:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A10_G10:B\", \"conclusion\": \"甲状腺左叶两个无回声灶\", \"evidence\": [\"VAL-005-R006\"], \"explanation\": \"依据 VAL-005-R006 归纳\"}"
+      ],
+      "reason": "该名称直接描述来源所见，没有推断为来源未明确的疾病。"
+    },
+    {
+      "id": "VAL-005_A10_G10:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-005_A10_G10:C\", \"conclusion\": \"甲状腺左叶两个无回声灶\", \"evidence\": [\"VAL-005-R006\"], \"explanation\": \"依据 VAL-005-R006 归纳\"}"
+      ],
+      "reason": "结论完整保留甲状腺器官、左叶侧别、两个数量及无回声灶性质。"
+    },
+    {
+      "id": "VAL-006_A0_G0:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A0_G0:A\", \"conclusion\": \"肝内多发无回声灶\", \"evidence\": [\"VAL-006-R004\"], \"explanation\": \"依据 VAL-006-R004 归纳\"}"
+      ],
+      "reason": "候选准确识别了肝内数个即多发无回声灶。"
+    },
+    {
+      "id": "VAL-006_A0_G0:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A0_G0:B\", \"conclusion\": \"肝内多发无回声灶\", \"evidence\": [\"VAL-006-R004\"], \"explanation\": \"依据 VAL-006-R004 归纳\"}"
+      ],
+      "reason": "“肝内多发无回声灶”是对来源影像所见的规范且不作额外诊断的名称。"
+    },
+    {
+      "id": "VAL-006_A0_G0:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A0_G0:C\", \"conclusion\": \"肝内多发无回声灶\", \"evidence\": [\"VAL-006-R004\"], \"explanation\": \"依据 VAL-006-R004 归纳\"}"
+      ],
+      "reason": "结论保留肝内部位、多发数量和无回声灶性质。"
+    },
+    {
+      "id": "VAL-006_A0_G1:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "该键对应肝区回声密、反射略增强，候选却描述同一来源行中的肝内多发无回声灶。"
+    },
+    {
+      "id": "VAL-006_A0_G1:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选名称属于来源中的另一项发现，并非该键目标回声密和反射增强的名称。"
+    },
+    {
+      "id": "VAL-006_A0_G1:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选没有保留目标发现的回声密、反射增强及“略”这一程度限定。"
+    },
+    {
+      "id": "VAL-006_A1_G0:A",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "该键对应肝内多发无回声灶，候选却描述肝区回声密、反射略增强。"
+    },
+    {
+      "id": "VAL-006_A1_G0:B",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选采用了来源中的另一影像发现，不是该键目标无回声灶的名称。"
+    },
+    {
+      "id": "VAL-006_A1_G0:C",
+      "fraction": 0.0,
+      "quotes": [],
+      "reason": "候选遗漏目标发现的肝内部位、多发数量和无回声灶性质。"
+    },
+    {
+      "id": "VAL-006_A1_G1:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A1_G1:A\", \"conclusion\": \"肝区回声密、反射略增强\", \"evidence\": [\"VAL-006-R004\"], \"explanation\": \"依据 VAL-006-R004 归纳\"}"
+      ],
+      "reason": "候选准确识别来源记载的肝区回声密及反射略增强。"
+    },
+    {
+      "id": "VAL-006_A1_G1:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A1_G1:B\", \"conclusion\": \"肝区回声密、反射略增强\", \"evidence\": [\"VAL-006-R004\"], \"explanation\": \"依据 VAL-006-R004 归纳\"}"
+      ],
+      "reason": "该结论是对原始超声征象的规范直接描述，没有添加推断性诊断。"
+    },
+    {
+      "id": "VAL-006_A1_G1:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A1_G1:C\", \"conclusion\": \"肝区回声密、反射略增强\", \"evidence\": [\"VAL-006-R004\"], \"explanation\": \"依据 VAL-006-R004 归纳\"}"
+      ],
+      "reason": "结论保留肝区部位、回声密、反射增强及“略”的程度限定。"
+    },
+    {
+      "id": "VAL-006_A2_G2:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A2_G2:A\", \"conclusion\": \"胆囊壁强回声光点伴彗尾征\", \"evidence\": [\"VAL-006-R003\"], \"explanation\": \"依据 VAL-006-R003 归纳\"}"
+      ],
+      "reason": "候选准确识别胆囊壁强回声光点伴彗尾征这一核心发现。"
+    },
+    {
+      "id": "VAL-006_A2_G2:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A2_G2:B\", \"conclusion\": \"胆囊壁强回声光点伴彗尾征\", \"evidence\": [\"VAL-006-R003\"], \"explanation\": \"依据 VAL-006-R003 归纳\"}"
+      ],
+      "reason": "该名称直接采用来源支持的影像征象，没有推断为胆固醇结晶等未明示诊断。"
+    },
+    {
+      "id": "VAL-006_A2_G2:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A2_G2:C\", \"conclusion\": \"胆囊壁强回声光点伴彗尾征\", \"evidence\": [\"VAL-006-R003\"], \"explanation\": \"依据 VAL-006-R003 归纳\"}"
+      ],
+      "reason": "结论保留胆囊壁部位、强回声光点性质及伴随彗尾征；尺寸等证据细节无需重复。"
+    }
+  ]
+}

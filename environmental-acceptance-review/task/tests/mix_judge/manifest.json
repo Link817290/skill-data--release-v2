@@ -1,0 +1,24 @@
+{
+  "schema_version": "request-bound-semantic-manifest-v1",
+  "cache_entries": {
+    "a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32": {
+      "path": "../golden_replay/a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32",
+      "source_case": "golden-environmental-acceptance-review",
+      "files_sha256": {
+        "evidence.json": "41fabc0dc3d84061a721a36832e07b09221fbd658f18aa39c34b285b4e931f29",
+        "manifest.json": "e6b68e47399721f9216e129e7a4f3d0780c8d39c17d33694e613773b6b946a64",
+        "request.json": "a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32",
+        "response.json": "80edbe4ffc774f7136f3ce89d53b24b2c3312f41abe74ab8df3523b886d3eeff",
+        "review.json": "04be8aab00429ebebe52389375aed85b9a71975cd48858a613e292c4ab2ad32c"
+      }
+    }
+  },
+  "files_sha256": {
+    "judge.py": "a06f3d7740a769eacfa0476b1c0abb80b54cc65363b522ba780cc04a0afd9442",
+    "contract.json": "480aa120f4ffd8792b3e81070ed2738b538a89cbdfb8e508b2ce2af903f27874",
+    "prompt.md": "02af3e7c1e5ee744157fb694569d0d6c791cfcb004d1d9e18988cddfde8eb977",
+    "response.schema.json": "bec00e961f835b656e2753e6f303a3211993e9523d0be67535dd63b9c89b7192",
+    "settings.json": "e75b2da2b7d9baf1539ba49bb6990436c44bb9483e3fab66c92335b9f7f00e74"
+  },
+  "replay_rule": "A response is accepted only when its complete request and artifact hashes match."
+}

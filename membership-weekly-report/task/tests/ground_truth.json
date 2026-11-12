@@ -1,0 +1,40 @@
+{
+  "deliverable": "weekly_report.docx",
+  "required_outputs": [
+    "weekly_report.docx"
+  ],
+  "format": "docx",
+  "output_dir": "output",
+  "template": "会员周报模板.docx",
+  "materials": [
+    "2024会员数据明细更新至0322.xlsx",
+    "2024会员项目进度更新至0322.xlsx",
+    "会员周报模板.docx"
+  ],
+  "scorer": "mechanical_score.py",
+  "scorer_version": "1.1.0",
+  "rubric_version": "v3.2",
+  "rubric": "RUBRIC.md",
+  "positive_weight_total": 1.0,
+  "items": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18"
+  ],
+  "note": "Per-item conditions, weights and the D01-D05 deduction table live in mechanical_score.py and RUBRIC.md. This file records only the deliverable contract validator.py needs in order to find and name the artifact and its materials."
+}

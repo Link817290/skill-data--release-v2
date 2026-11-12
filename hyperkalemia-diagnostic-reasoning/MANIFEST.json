@@ -1,0 +1,149 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "hyperkalemia-diagnostic-reasoning",
+  "tasks": [
+    "hyperkalemia-diagnostic-reasoning"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 34,
+  "bytes_excluding_manifest": 1936002,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1513,
+      "sha256": "36d4954583d11d7397614b82ef96da9ea2fe052e85893d88ba2576e517182e84"
+    },
+    "RUBRIC.md": {
+      "bytes": 5737,
+      "sha256": "f055c9c497cac6142941988649d36add368a1926523f256e0e9924aeb77b1fc7"
+    },
+    "dataset.toml": {
+      "bytes": 1558,
+      "sha256": "ce85bd4f8281d8640eba85f82211153382fa17aadc0e20971f033d4e9abe2f3f"
+    },
+    "golden/CASE-001_reasoning.docx": {
+      "bytes": 42704,
+      "sha256": "ed25e1f5e487687684ef6838ccf6f203357687688e4253c747d53e50811bc58c"
+    },
+    "golden/CASE-002_reasoning.docx": {
+      "bytes": 36186,
+      "sha256": "70fbd2b30ac8c7b25e5cab7abb099008fe0df8b7d0491c2be216b4307f047f1b"
+    },
+    "golden/CASE-003_reasoning.docx": {
+      "bytes": 39277,
+      "sha256": "e52adbffda9ae568daa4330b734a57f08910deb8ef93b60f822d94404d0e81c1"
+    },
+    "golden/hyperkalemia_reasoning_template.docx": {
+      "bytes": 32559,
+      "sha256": "9c51667d68d917a8af3d3b1ce50bdfedabb1e59b91e4977d71336c3575e367bc"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 375,
+      "sha256": "9df941b6794eab32c6aab574e1b3c2588fee85bd0d7f77cefc821778466a008e"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 483,
+      "sha256": "82b8e6b297557ddf7d094536efa3b6cedfe4438b81977d4e91c3c64074d7c354"
+    },
+    "task/environment/skills/clinical-diagnostic-reasoning-handbook/SKILL.md": {
+      "bytes": 4307,
+      "sha256": "623c874836419c7c6189019e1d7a0aa72df79afc3c20883c5aa6a413b5fca704"
+    },
+    "task/environment/workspace/materials/case-001.png": {
+      "bytes": 255123,
+      "sha256": "851a6bfb0a06fc1fa436783078c4477391a0692843b270c0353172217496a128"
+    },
+    "task/environment/workspace/materials/case-002.png": {
+      "bytes": 839276,
+      "sha256": "42f7156b88d812ca16f715fdf9018f2c65e7ce0c6d06de49b3b7e581c5deceee"
+    },
+    "task/environment/workspace/materials/case-003.png": {
+      "bytes": 280865,
+      "sha256": "b887fc055eab93b99395e42e58c0cd1a45517a4d088da7ad3550c43f29b5163b"
+    },
+    "task/instruction.md": {
+      "bytes": 540,
+      "sha256": "865438738a26c4a9f00e2133f5adf88c471c824d24445a797f5b45f9af05a050"
+    },
+    "task/solution/golden/CASE-001_reasoning.docx": {
+      "bytes": 42704,
+      "sha256": "ed25e1f5e487687684ef6838ccf6f203357687688e4253c747d53e50811bc58c"
+    },
+    "task/solution/golden/CASE-002_reasoning.docx": {
+      "bytes": 36186,
+      "sha256": "70fbd2b30ac8c7b25e5cab7abb099008fe0df8b7d0491c2be216b4307f047f1b"
+    },
+    "task/solution/golden/CASE-003_reasoning.docx": {
+      "bytes": 39277,
+      "sha256": "e52adbffda9ae568daa4330b734a57f08910deb8ef93b60f822d94404d0e81c1"
+    },
+    "task/solution/golden/hyperkalemia_reasoning_template.docx": {
+      "bytes": 32559,
+      "sha256": "9c51667d68d917a8af3d3b1ce50bdfedabb1e59b91e4977d71336c3575e367bc"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 556,
+      "sha256": "ce37960d43edd4b6ce1f2ef8bc2380598b2b48ec0e80050bd28e9c9f2b431f76"
+    },
+    "task/task.toml": {
+      "bytes": 1078,
+      "sha256": "8b2fe6cbafc6b91fb074a9401f2ce1a495abff735c95eadcbfee53c2428332b7"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1080,
+      "sha256": "68b4977448df838d0af52fb866cf5e0020445fbc2b16fd0ad3ba9e3c77df38b0"
+    },
+    "task/tests/golden_contract.json": {
+      "bytes": 13155,
+      "sha256": "1e488d31fb9ff10d24bbcf151bd774429da51dadd72472df1e9ec1f5e45b36f5"
+    },
+    "task/tests/golden_replay/fa4200897a4fa2f2efe065f937b9c8886cc90bd4c7d029ecdf53ef8ba7987a41.json": {
+      "bytes": 20156,
+      "sha256": "44766929063756dc4f30ef082a7c36cf196c374c786db859744ead271ea37a0c"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 535,
+      "sha256": "67e1be465e42e7a387c635d28438d28241f88fe97d332920a77e48c7ec6e0d44"
+    },
+    "task/tests/reference_golden/CASE-001_reasoning.docx": {
+      "bytes": 42704,
+      "sha256": "ed25e1f5e487687684ef6838ccf6f203357687688e4253c747d53e50811bc58c"
+    },
+    "task/tests/reference_golden/CASE-002_reasoning.docx": {
+      "bytes": 36186,
+      "sha256": "70fbd2b30ac8c7b25e5cab7abb099008fe0df8b7d0491c2be216b4307f047f1b"
+    },
+    "task/tests/reference_golden/CASE-003_reasoning.docx": {
+      "bytes": 39277,
+      "sha256": "e52adbffda9ae568daa4330b734a57f08910deb8ef93b60f822d94404d0e81c1"
+    },
+    "task/tests/reference_golden/hyperkalemia_reasoning_template.docx": {
+      "bytes": 32559,
+      "sha256": "9c51667d68d917a8af3d3b1ce50bdfedabb1e59b91e4977d71336c3575e367bc"
+    },
+    "task/tests/review_rubric.json": {
+      "bytes": 8067,
+      "sha256": "37a9ff71ed038b4af2e07f9be21fb7a80c6834cfb701dbe6fc65ff1ae4be3316"
+    },
+    "task/tests/score_review.py": {
+      "bytes": 27157,
+      "sha256": "64eb4aa068f07b264044f41fcfa7b0b745d7eead2fe0809cb1538d94ecaee410"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 11820,
+      "sha256": "5cb89e831dac9a31d97051c1dcceaf0dc283cd281cf46ee829cfcd434703d3dd"
+    },
+    "task/tests/source_fact_table.json": {
+      "bytes": 3697,
+      "sha256": "e38335c500e545a850c72300eb9f753f43b96834ad2096e1fee6addfd772d618"
+    },
+    "task/tests/test.sh": {
+      "bytes": 3357,
+      "sha256": "71f368243e04dd2e64bde89a76cbba9f7e613fb75f98fef8740a731a06751c38"
+    },
+    "task/tests/validator.py": {
+      "bytes": 3389,
+      "sha256": "1362e33cdf5a4ff37e199226cfba40c249884075d705418729ba519ade7582bd"
+    }
+  }
+}

@@ -1,0 +1,1242 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "source-bound-mixed-judge",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "restaurant-management-source-bound",
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "P03",
+      "units": [
+        "U19",
+        "U25"
+      ],
+      "weight": 0.09,
+      "scope": "unit-level competitive strategy approval",
+      "object_key": "decision_item.unit_comp",
+      "source_location": "material.md 1123, 1142-1146, 252, 602, 608",
+      "relation_predicate": "adopted final-approval triples for unit-level competitive strategies",
+      "golden_object_key": "其他酒店的竞争战略；辖下各企业的竞争战略",
+      "golden_relation_predicate": "其他酒店 → 酒店BU 终审；辖下各企业 → 投资BU 终审",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted statement in the near-term decision-authority chapter: outside headings about 现状/诊断/案例/借鉴/备选/不采纳/附录/背景/回顾/思考/问题/参考 and outside N+1 or 2型 variant sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "each constituent decision triple comes from one table cell line, list item or sentence clause (with its table headers, label line or lead-in as context); the P decision cites every supporting constituent",
+        "metric": "final triples",
+        "max_units": 8
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "0.5 hotels final at 酒店BU; 0.5 enterprises final at 投资BU; a core-hotel escalation is not required (U18 warning only)",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "Unit-level competitive strategy is delegated to the BU that directly manages the unit, symmetric for hotels and diversified enterprises.",
+      "reasoning_gate": "items hotel_unit_comp (其他/各/单体/辖下 酒店 competitive strategy) and div_unit_comp (辖下/下属/存续 企业 competitive strategy); final slot highest body is the managing BU"
+    },
+    {
+      "id": "P04",
+      "units": [
+        "U20",
+        "U21"
+      ],
+      "weight": 0.05,
+      "scope": "decision authority for pension strategies",
+      "object_key": "decision_item.pension",
+      "source_location": "material.md 945, 962, 995",
+      "relation_predicate": "adopted triples for 养老产业发展战略 and 养老产业竞争战略",
+      "golden_object_key": "养老产业整体发展战略；养老产业的竞争战略",
+      "golden_relation_predicate": "集团制定并终审养老产业整体发展战略；集团终审养老产业竞争战略",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted statement in the near-term decision-authority chapter: outside headings about 现状/诊断/案例/借鉴/备选/不采纳/附录/背景/回顾/思考/问题/参考 and outside N+1 or 2型 variant sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "each constituent decision triple comes from one table cell line, list item or sentence clause (with its table headers, label line or lead-in as context); the P decision cites every supporting constituent",
+        "metric": "draft/final triples",
+        "max_units": 8
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "0.5 养老发展战略同时明确集团起草与最终决定；0.5 养老竞争战略明确集团终审",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "Pension is under group operational control, unlike hotel under investment control; the strategy stays at group.",
+      "reasoning_gate": "养老发展和竞争战略均有明确最终决策者；制定不能替代终审"
+    },
+    {
+      "id": "P07",
+      "units": [
+        "U26",
+        "U27"
+      ],
+      "weight": 0.2,
+      "scope": "decision authority for incubation strategies",
+      "object_key": "decision_item.incubation",
+      "source_location": "material.md 1128-1134",
+      "relation_predicate": "adopted triples for 孵化业务发展战略 and 孵化业务竞争战略",
+      "golden_object_key": "重点孵化培养业务的整体发展战略；重点孵化培养业务的竞争战略",
+      "golden_relation_predicate": "股份制定并终审重点孵化业务整体发展战略；股份终审其竞争战略",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted statement in the near-term decision-authority chapter: outside headings about 现状/诊断/案例/借鉴/备选/不采纳/附录/背景/回顾/思考/问题/参考 and outside N+1 or 2型 variant sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "each constituent decision triple comes from one table cell line, list item or sentence clause (with its table headers, label line or lead-in as context); the P decision cites every supporting constituent",
+        "metric": "draft/final triples",
+        "max_units": 8
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "0.5 孵化发展战略同时明确股份起草与最终决定；0.5 孵化竞争战略明确股份终审",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "Key incubation businesses are managed directly by the listed company, not by the investment BU.",
+      "reasoning_gate": "孵化业务由股份直管；发展与竞争战略均须写明最终决策者"
+    },
+    {
+      "id": "P11",
+      "units": [
+        "U05",
+        "U13"
+      ],
+      "weight": 0.13,
+      "scope": "investment BU positioning and focus",
+      "object_key": "investment_bu.positioning",
+      "source_location": "material.md 415, 458, 608, 951, 1049-1054, 1113-1122",
+      "relation_predicate": "unified source-bound semantic decisions for virtual positioning, capital-operation mandate, target supervision/correction and professional investment review",
+      "golden_object_key": "管控模式、管控重点 / 投资BU",
+      "golden_relation_predicate": "投资BU为虚拟BU、代股份行使战略控制；以资本运作为主；负责多元业务目标落实/跟踪/纠偏；专业审核投资资产事项但不终审",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted statement in the near-term decision-authority chapter: outside headings about 现状/诊断/案例/借鉴/备选/不采纳/附录/背景/回顾/思考/问题/参考 and outside N+1 or 2型 variant sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "candidate spans selected by the source-bound semantic judge",
+        "metric": "four professional responsibility propositions",
+        "max_units": 4
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "0.35 virtual/on-behalf positioning; 0.20 capital-operation substance; 0.25 supervision/deviation correction; 0.20 professional investment review without final approval",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The investment BU is a virtual unit acting for the listed company, focused on capital operation rather than operations.",
+      "reasoning_gate": "gpt-5.6-sol source-bound semantic comparison with candidate and source citations; equivalent duties accepted without vocabulary lists"
+    },
+    {
+      "id": "P12",
+      "units": [
+        "U37",
+        "U38",
+        "U39"
+      ],
+      "weight": 0.31,
+      "scope": "N+1 management architecture",
+      "object_key": "architecture.n_plus_1",
+      "source_location": "material.md 737-742, 960, 986-987, 996-998, 1131-1132",
+      "relation_predicate": "source-bound N+1 propositions covering level count, conditional destination of every current Group-direct object, mature entity BUs and function ownership",
+      "golden_object_key": "若中远期形成N+1型业务架构",
+      "golden_relation_predicate": "保持三级管控；项目公司完成前暂留、完成后终止或按关系迁移；有前景非项目业务转股份；前景不明可有理由暂留或转移并设复核/退出条件；成熟业务形成实体BU；平台保留共享职能",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted statement in the near-term decision-authority chapter: outside headings about 现状/诊断/案例/借鉴/备选/不采纳/附录/背景/回顾/思考/问题/参考 and outside N+1 or 2型 variant sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "candidate spans selected across the N+1 section and comparison tables",
+        "metric": "five N+1 architecture propositions",
+        "max_units": 5
+      },
+      "length_contract_id": "S04",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "0.20 levels; 0.30 conditional destinations; 0.15 mature new BU; 0.15 entity nature; 0.20 function ownership",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "N+1 keeps the near-term control model while moving group-held businesses down and promoting incubated industries to entity BUs.",
+      "reasoning_gate": "gpt-5.6-sol source-bound semantic comparison; unconditional all-move simplification does not satisfy conditional destinations"
+    },
+    {
+      "id": "P13",
+      "units": [
+        "U42",
+        "U43",
+        "U44"
+      ],
+      "weight": 0.17,
+      "scope": "2型 group-level architecture",
+      "object_key": "architecture.two_segment.group",
+      "source_location": "material.md 710-726, 744-748, 799-801, 828-829, 945",
+      "relation_predicate": "source-bound 2-type propositions covering both platforms, BU placement/nature, two-level control and receiving functions",
+      "golden_object_key": "若中远期形成2型业务架构",
+      "golden_relation_predicate": "酒店生活与养老园区两个资本平台；园区BU和养老BU关系明确；两级架构且各BU属性一致；移出的BU职能由对应平台总部承接",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted statement in the near-term decision-authority chapter: outside headings about 现状/诊断/案例/借鉴/备选/不采纳/附录/背景/回顾/思考/问题/参考 and outside N+1 or 2型 variant sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "candidate spans selected across the 2-type section and comparison tables",
+        "metric": "six dual-sector architecture propositions",
+        "max_units": 6
+      },
+      "length_contract_id": "S05",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "0.10 two sectors; 0.10 listed/capital platforms; 0.15 park BU; 0.15 pension BU; 0.20 levels and BU nature; 0.30 function receivers",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "2型 turns the two business segments into listed-company segments with industry BUs and two-level control.",
+      "reasoning_gate": "gpt-5.6-sol source-bound semantic comparison; platform functions suffice where the material gives no department names"
+    },
+    {
+      "id": "P14",
+      "units": [
+        "U33",
+        "U36"
+      ],
+      "weight": 0.05,
+      "scope": "annual target and budget responsibility chain",
+      "object_key": "target_chain",
+      "source_location": "material.md 1113-1134, 618-622; golden.md 23 行",
+      "relation_predicate": "source-bound distinctions among formal issuance/approval, preparation/decomposition, execution, monitoring and correction",
+      "golden_object_key": "年度目标与预算的下达链",
+      "golden_relation_predicate": "集团下达平台/产业汇总目标且不越级；股份向BU和直管孵化业务下达组织目标；股份董事会正式向各多元业务下达经营目标；投资BU组织拟订/落实/跟踪/纠偏；酒店BU向各酒店下达",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted statement in the near-term decision-authority chapter: outside headings about 现状/诊断/案例/借鉴/备选/不采纳/附录/背景/回顾/思考/问题/参考 and outside N+1 or 2型 variant sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "candidate spans selected across target and budget responsibility statements",
+        "metric": "five distinct responsibility-chain propositions",
+        "max_units": 5
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "0.2 Group aggregate/boundary; 0.2 listed-company BU/incubation line; 0.2 board formal diversified-business line; 0.2 Investment-BU process responsibility; 0.2 Hotel-BU hotel line",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The listed company issues targets to its two BUs and the key incubation businesses, and each BU issues targets to its own units.",
+      "reasoning_gate": "gpt-5.6-sol source-bound semantic comparison; the specific material overrides the generic cascade default"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "penalty_coefficient": 0.2,
+      "trigger": "a strategy is approved at the wrong level: 集团 approves the hotel competitive strategy or a diversified strategy; the hotel development strategy is finally approved below 集团; 投资BU approves a diversified strategy without 股份; a pension strategy is drafted or approved by 股份 or a BU",
+      "damage_basis": "Breaks the settled positioning (group invests, listed company controls, BU operates) and the principle that each decision sits at the most suitable level; the plan would put approvals in the wrong hands.",
+      "scope": "decision triples",
+      "object_key": "decision_item",
+      "source_location": "material.md 160, 756, 946-964, 995",
+      "error_predicate": "adopted final or draft triple for item X with body B outside the allowed body for X",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "one root per item family (hotel_industry, diversified, pension)",
+      "damage_instance_key_rule": "authority:<item family>",
+      "manifestation_rule": "decision triple span path plus item and body",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "P04 loses credit for the missing correct allocation; D01 charges the separate adopted wrong allocation."
+    },
+    {
+      "id": "D02",
+      "penalty_coefficient": 0.8,
+      "trigger": "source-bound adjudication finds an adopted proposition that actually puts hotels or key incubation businesses under Investment-BU direct management, decision authority or target issuance",
+      "damage_basis": "Contradicts the settled scope of the investment BU (1123-1125) and the incubation arrangement (1128-1134); the incubation pipeline would be managed as a run-off portfolio.",
+      "scope": "decision triples, target observations and scope statements",
+      "object_key": "investment_bu.scope",
+      "source_location": "material.md 1123-1134; group-control-design references",
+      "error_predicate": "subject-relation-object semantic violation; parallel listed-company-direct objects and exclusions are preserved",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "investment_bu_scope",
+      "damage_instance_key_rule": "investment_bu_scope:misassigned",
+      "manifestation_rule": "source-bound candidate evidence spans",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "P07 loses credit for omission; D02 charges the adopted wrong scope."
+    },
+    {
+      "id": "D03",
+      "penalty_coefficient": 0.8,
+      "trigger": "source-bound adjudication finds Group bypassing the listed company to issue operating targets to transferred units",
+      "damage_basis": "Reproduces the diagnosed equity-driven management (250) that the settled 去法人 principle (618-622) removes.",
+      "scope": "target observations",
+      "object_key": "target_issuing.group",
+      "source_location": "material.md 250, 618-622, 997-998",
+      "error_predicate": "adopted Group direct-operating issuance; excludes platform/industry aggregates and still-valid Group-direct exceptions",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "target_routing",
+      "damage_instance_key_rule": "target:group->units",
+      "manifestation_rule": "source-bound candidate evidence spans",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "No positive item rewards the target-routing boundary; D03 is the only consequence."
+    },
+    {
+      "id": "D04",
+      "penalty_coefficient": 0.2,
+      "trigger": "the 2型 section states three-level control or keeps the hotel BU as an entity with departments",
+      "damage_basis": "Contradicts the 2型 logic (all BUs virtual, functions pulled up); the two long-term variants would collapse into one.",
+      "scope": "2型 section spans",
+      "object_key": "architecture.two_segment",
+      "source_location": "material.md 608, 744-748, 799-801, 828-829",
+      "error_predicate": "adopted control-level count of three to five (三级管控, 4 级管控, 管控仍为三级) without a transition word next to it, or hotel BU kept as entity (verb + 实体, 酒店BU（实体…）, table row 酒店BU | 实体) or with departments",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "arch2_model",
+      "damage_instance_key_rule": "arch2:control_levels | arch2:hotel_bu_entity",
+      "manifestation_rule": "span path",
+      "length_contract_id": "S05",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "P13 loses credit for omission; D04 charges the adopted contradiction."
+    },
+    {
+      "id": "D05",
+      "penalty_coefficient": 0.8,
+      "trigger": "the N+1 section states two-level control or makes all BUs virtual",
+      "damage_basis": "Contradicts N+1 keeping the near-term three-level model (960) and entity BUs for mature industries (1131).",
+      "scope": "N+1 section spans",
+      "object_key": "architecture.n_plus_1",
+      "source_location": "material.md 737-742, 960, 1131",
+      "error_predicate": "adopted 两级管控 without a transition word, or all BUs virtual",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "archN1_model",
+      "damage_instance_key_rule": "archN1:control_levels | archN1:all_virtual",
+      "manifestation_rule": "span path",
+      "length_contract_id": "S04",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "P12 loses credit for omission; D05 charges the adopted contradiction."
+    },
+    {
+      "id": "D06",
+      "penalty_coefficient": 0.2,
+      "trigger": "a body's settled headquarters type is rewritten: 集团 as 战略控制/运营管控/战略指导型, 股份 as 运营管控/投资管控/战略指导型, 酒店BU as 战略控制/投资管控/战略指导型",
+      "damage_basis": "Contradicts the settled upstream positioning (946, 951, 956) that instruction.md tells the solver to build on.",
+      "scope": "positioning clauses",
+      "object_key": "positioning",
+      "source_location": "material.md 946, 951, 956",
+      "error_predicate": "adopted clause binding exactly one body to a wrong type word; clauses about pension are skipped",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "positioning",
+      "damage_instance_key_rule": "positioning:<body>",
+      "manifestation_rule": "span path plus body",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "No positive item rewards copying the types; D06 is the only consequence."
+    },
+    {
+      "id": "D07",
+      "penalty_coefficient": 0.8,
+      "trigger": "the near-term investment BU is given functional departments, entity status or headquarters status",
+      "damage_basis": "Contradicts the settled virtual investment BU (1113-1114) and inflates its decision power.",
+      "scope": "near-term spans about 投资BU",
+      "object_key": "investment_bu.form",
+      "source_location": "material.md 608, 1113-1114",
+      "error_predicate": "adopted clause 投资BU + 实体BU/设部门/型总部 without negation or 虚拟",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "investment_bu_form",
+      "damage_instance_key_rule": "investment_bu:entity",
+      "manifestation_rule": "span path",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "P11 loses credit for omission; D07 charges the adopted wrong form."
+    },
+    {
+      "id": "D08",
+      "penalty_coefficient": 0.8,
+      "trigger": "酒店BU or 投资BU is given the final approval of investments or asset changes",
+      "damage_basis": "Contradicts 1121 (投资BU only reviews) and 1154 (股份董事会 decides); capital allocation would leave the control level.",
+      "scope": "investment approval clauses",
+      "object_key": "investment_approval",
+      "source_location": "material.md 1121, 1154",
+      "error_predicate": "adopted comma clause in investment context (R09) pairing a final role with a BU that does not also review, after negation (没有/无/不) is removed",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "investment_approval",
+      "damage_instance_key_rule": "investment_approval:<BU>",
+      "manifestation_rule": "span path plus BU",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "No positive item rewards the investment approval allocation; D08 is the only consequence."
+    },
+    {
+      "id": "D10",
+      "penalty_coefficient": 0.8,
+      "trigger": "source-bound adjudication finds an adopted unsupported approval threshold or business fact",
+      "damage_basis": "Materials contain no approval thresholds; inventing one presents an unsupported fact as settled (gap marker contract).",
+      "scope": "adopted concrete approval thresholds and business figures about XX餐饮",
+      "object_key": "business_fact.subject_metric_value_unit_scope",
+      "source_location": "material.md and group-control-design references, evaluated as bound fact tuples",
+      "error_predicate": "candidate subject, metric, value, unit and time/scope do not form a supported source proposition; comparison-case numbers cannot support XX餐饮 facts; supported calculations and marked unknowns are excluded",
+      "adoption_status": "affirmative adopted statement outside excluded sections",
+      "negative_context_exclusions": "Exclude spans under excluded headings (R01); spans with candidate markers 可考虑/或者/备选/待定/也可/是否/方案一 or rejection markers 不采纳/驳回/有观点认为 (R03); quoted propositions carrying a role or issuing verb (N07); role-body pairs with a negation 不/非/而非/无需/未 in the pair window (R05); spans over 300 characters, spans naming more than 8 decision items, or clauses with at least 3 bodies and 3 role words (R04 keyword spray); an item with 3 or more bodies in one role slot is ambiguous and earns nothing. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "unsupported_fact",
+      "damage_instance_key_rule": "fabricated:unsupported_fact",
+      "manifestation_rule": "source-bound candidate and source evidence spans",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "No positive item rewards approval thresholds; D10 is the only consequence."
+    },
+    {
+      "id": "D11",
+      "penalty_coefficient": 0.2,
+      "trigger": "a unit the brief requires is absent: the N+1 variant, the 2型 variant, the headquarters departments (at least 3 settled department names), any target-issuing statement, or a decision allocation (a body in a role for at least 2 decision items); each absent unit is one instance, compounding",
+      "damage_basis": "The brief asks for the decision-authority and target chapter and the management architecture of each development variant down to levels, BUs and headquarters departments; a deliverable missing a whole required unit is not the chapter that was asked for.",
+      "scope": "whole deliverable",
+      "object_key": "required_unit",
+      "source_location": "instruction.md; golden.md 2.8, 2.9",
+      "error_predicate": "R26: unit absent - variant named by ARCH_N1_HEADING / ARCH_TWO_HEADING anywhere or its variant item earns credit; HQ_DEPARTMENTS count >= 3; a non-rule target pair; decision triples for >= 2 items",
+      "adoption_status": "whole document",
+      "negative_context_exclusions": "Not a content predicate: it reads the whole deliverable (or its directory) and never charges ordinary omission of detail inside a unit.",
+      "causal_root_rule": "required_unit",
+      "damage_instance_key_rule": "required_unit:<unit>",
+      "manifestation_rule": "unit id",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Gate: every existing rollout meets every unit; a deliverable losing a unit keeps its positive credit times 0.2 per missing unit."
+    },
+    {
+      "id": "D12",
+      "penalty_coefficient": 0.3,
+      "trigger": "a second regular, non-hidden file is handed back beside the deliverable in output/",
+      "damage_basis": "The brief says hand back one file; extra files are deliverables the brief did not ask for.",
+      "scope": "deliverable directory",
+      "object_key": "deliverable_files",
+      "source_location": "instruction.md (Hand back one file)",
+      "error_predicate": "R27: each regular file in the deliverable's directory (output/) other than the deliverable; dot-files, the harness collection manifest.json and byte-code caches (*.pyc/*.pyo) excluded",
+      "adoption_status": "deliverable directory listing",
+      "negative_context_exclusions": "Not a content predicate: it reads the whole deliverable (or its directory) and never charges ordinary omission of detail inside a unit.",
+      "causal_root_rule": "extra_file",
+      "damage_instance_key_rule": "extra_file:<file name>",
+      "manifestation_rule": "file name",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Gate only; no positive item reads other files."
+    },
+    {
+      "id": "D13",
+      "penalty_coefficient": 0.3,
+      "trigger": "a section is written in a language other than Chinese: a span with at least 20 Latin letters and more Latin letters than CJK characters; one instance per section heading",
+      "damage_basis": "The brief asks for the chapter written in Chinese.",
+      "scope": "every span",
+      "object_key": "language",
+      "source_location": "instruction.md (written in Chinese)",
+      "error_predicate": "R28: span with Latin letters >= 20 and > CJK characters; instances keyed by heading path",
+      "adoption_status": "every span",
+      "negative_context_exclusions": "Not a content predicate: it reads the whole deliverable (or its directory) and never charges ordinary omission of detail inside a unit.",
+      "causal_root_rule": "language",
+      "damage_instance_key_rule": "language:<heading path>",
+      "manifestation_rule": "heading path",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Gate; content items read Chinese predicates, so an English section also loses their credit."
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U01",
+      "golden_proposition": "管控模式/集团：投资管控型总部",
+      "golden_locator": "golden.md 13 行",
+      "program_item_ids": [
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U03",
+      "golden_proposition": "管控模式/股份：战略控制型总部",
+      "golden_locator": "golden.md 13 行",
+      "program_item_ids": [
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U04",
+      "golden_proposition": "管控模式/酒店BU：运营管控型总部",
+      "golden_locator": "golden.md 13 行",
+      "program_item_ids": [
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U05",
+      "golden_proposition": "投资BU属虚拟BU，非总部，代股份公司行使战略控制",
+      "golden_locator": "golden.md 13 行",
+      "program_item_ids": [
+        "P11",
+        "D07"
+      ]
+    },
+    {
+      "unit_id": "U09",
+      "golden_proposition": "投资BU直管存续企业，不包括重点孵化培养业务",
+      "golden_locator": "golden.md 14 行",
+      "program_item_ids": [
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U13",
+      "golden_proposition": "投资BU管控重点：资本运作手段与督导辖下企业",
+      "golden_locator": "golden.md 15 行",
+      "program_item_ids": [
+        "P11"
+      ]
+    },
+    {
+      "unit_id": "U15",
+      "golden_proposition": "集团整体产业组合战略：集团制定",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U16",
+      "golden_proposition": "酒店产业整体发展战略：酒店BU制定，股份初审，集团终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U17",
+      "golden_proposition": "酒店产业的竞争战略：酒店BU制定，股份终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U19",
+      "golden_proposition": "其他酒店的竞争战略：酒店BU终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "P03",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U20",
+      "golden_proposition": "养老产业整体发展战略：集团制定并终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "P04",
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U21",
+      "golden_proposition": "养老产业的竞争战略：集团终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "P04",
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U22",
+      "golden_proposition": "多元投资业务组合战略：股份制定",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U23",
+      "golden_proposition": "多元业务整体发展战略：投资BU制定，股份终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U24",
+      "golden_proposition": "多元业务投融资战略：投资BU制定，股份终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U25",
+      "golden_proposition": "辖下各企业的竞争战略：投资BU终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "P03"
+      ]
+    },
+    {
+      "unit_id": "U26",
+      "golden_proposition": "重点孵化培养业务整体发展战略：股份制定并终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "P07",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U27",
+      "golden_proposition": "重点孵化培养业务的竞争战略：股份终审",
+      "golden_locator": "golden.md 21 行",
+      "program_item_ids": [
+        "P07",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U30",
+      "golden_proposition": "投资资产管理：投资BU/投资发展部专业审核，股份董事会与集团按金额、性质和战略重要性分层终审；未给具体阈值",
+      "golden_locator": "golden.md 22 行",
+      "program_item_ids": [
+        "P11",
+        "D08",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U32",
+      "golden_proposition": "管理关系已转入股份公司的，不再由集团下达年度目标",
+      "golden_locator": "golden.md 23 行",
+      "program_item_ids": [
+        "D03"
+      ]
+    },
+    {
+      "unit_id": "U33",
+      "golden_proposition": "股份正式下达酒店BU、投资BU、重点孵化业务的组织目标，并由董事会正式向每个多元业务下达经营目标",
+      "golden_locator": "golden.md 23 行",
+      "program_item_ids": [
+        "P14",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U37",
+      "golden_proposition": "N+1：集团直管对象按项目完成、产业前景和关联性分别迁移、终止或有理由暂留",
+      "golden_locator": "golden.md 29-58 行",
+      "program_item_ids": [
+        "P12"
+      ]
+    },
+    {
+      "unit_id": "U38",
+      "golden_proposition": "N+1：仍保持近期的三级管控模式",
+      "golden_locator": "golden.md 57 行",
+      "program_item_ids": [
+        "P12",
+        "D05"
+      ]
+    },
+    {
+      "unit_id": "U39",
+      "golden_proposition": "N+1：孵化成功并规模化的产业形成新的实体BU",
+      "golden_locator": "golden.md 59 行",
+      "program_item_ids": [
+        "P12",
+        "D05"
+      ]
+    },
+    {
+      "unit_id": "U42",
+      "golden_proposition": "2型：集团依托酒店生活与养老园区两个上市/资本平台",
+      "golden_locator": "golden.md 65-69, 98 行",
+      "program_item_ids": [
+        "P13"
+      ]
+    },
+    {
+      "unit_id": "U43",
+      "golden_proposition": "2型：养老园区平台下设虚拟园区BU、养老BU并由平台承接共享职能",
+      "golden_locator": "golden.md 66-68 行",
+      "program_item_ids": [
+        "P13"
+      ]
+    },
+    {
+      "unit_id": "U44",
+      "golden_proposition": "2型：形成与BU虚拟属性一致的两级管控模式",
+      "golden_locator": "golden.md 97 行",
+      "program_item_ids": [
+        "P13",
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U46",
+      "golden_proposition": "2型：股份公司下所有BU均设为虚拟BU",
+      "golden_locator": "golden.md 100 行",
+      "program_item_ids": [
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U47",
+      "golden_proposition": "2型：BU职能由对应平台总部承接，酒店BU不再设重复部门",
+      "golden_locator": "golden.md 101 行",
+      "program_item_ids": [
+        "P13",
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U36",
+      "golden_proposition": "投资BU组织多元业务目标拟订/分解/落实/跟踪/纠偏；酒店BU向每个酒店下达目标",
+      "golden_locator": "golden.md 23 行",
+      "program_item_ids": [
+        "P14"
+      ]
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "applicable_item_ids": [
+        "P03",
+        "P04",
+        "P07",
+        "P11",
+        "P14",
+        "D01",
+        "D02",
+        "D03",
+        "D06",
+        "D07",
+        "D08",
+        "D10"
+      ],
+      "scope": "whole deliverable",
+      "metric": "CJK characters plus ASCII letters and digits after removing <br> tags",
+      "golden_value": 1814,
+      "counter": "len(re.findall(r'[\\u4e00-\\u9fffA-Za-z0-9]', re.sub(r'<br\\s*/?>', '', NFKC(text))))",
+      "threshold_basis": "task_specific",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": null,
+      "deduction_id": null,
+      "underrun_gate": "none; diagnostic only",
+      "threshold_rationale": "Character counts support audit/debugging only; professional completeness is measured by P items.",
+      "overrun_arm": "diagnostic_only",
+      "overrun_note": "Character count is reported only as a diagnostic and never emits D09 or affects lenient."
+    },
+    {
+      "id": "S04",
+      "applicable_item_ids": [
+        "P12",
+        "D05"
+      ],
+      "scope": "N+1 variant section (heading naming N+1, heading line included)",
+      "metric": "same counter within the section",
+      "golden_value": 290,
+      "counter": "R08 section_chars(text, N+1)",
+      "threshold_basis": "explicit_default_fallback",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": null,
+      "deduction_id": null,
+      "underrun_gate": "none; diagnostic only",
+      "threshold_rationale": "Character counts support audit/debugging only; professional completeness is measured by P items.",
+      "overrun_arm": "diagnostic_only",
+      "overrun_note": "Character count is reported only as a diagnostic and never emits D09 or affects lenient."
+    },
+    {
+      "id": "S05",
+      "applicable_item_ids": [
+        "P13",
+        "D04"
+      ],
+      "scope": "2型 variant section (heading naming 2型, heading line included)",
+      "metric": "same counter within the section",
+      "golden_value": 306,
+      "counter": "R08 section_chars(text, 2型)",
+      "threshold_basis": "explicit_default_fallback",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": null,
+      "deduction_id": null,
+      "underrun_gate": "none; diagnostic only",
+      "threshold_rationale": "Character counts support audit/debugging only; professional completeness is measured by P items.",
+      "overrun_arm": "diagnostic_only",
+      "overrun_note": "Character count is reported only as a diagnostic and never emits D09 or affects lenient."
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "UTF-8 decode, NFKC fold, drop Markdown emphasis, code ticks and link targets; tables become cell lines split at <br> with row and column headers, lists become items with lead-in, paragraphs become sentences split at 。！？, fenced blocks become lines"
+      },
+      {
+        "id": "N02",
+        "operation": "map body aliases to 集团, 股份, 酒店BU (酒店事业部/酒管公司), 投资BU (投资事业部) and 养老公司, in that priority with masking (task_aliases)"
+      },
+      {
+        "id": "N03",
+        "operation": "decision item = subject token (集团/股份/酒店/核心酒店/其他酒店/养老/多元/孵化/辖下企业) joined only by 的/之/整体/层面 or a short parenthetical to a strategy token (组合战略, 投融资战略, 发展战略/发展规划/战略规划, 竞争战略/竞争策略/经营策略); missing subject inherits from the previous item, row header, lead-in or heading"
+      },
+      {
+        "id": "N04",
+        "operation": "role tokens fold to draft (制定/起草/拟定/编制/提出/提议/牵头/主导), review (初审/审核/审查/预审/复核/把关/评审/审议), final (终审/审批/批准/核准/审定/决策/决定/最终审批); a table label line 制定：/终审： sets the role for following lines of the same cell"
+      },
+      {
+        "id": "N05",
+        "operation": "target receivers fold to 酒店BU, 投资BU, incubation, hotel units (每个/各/所有/单体 酒店, 核心酒店), enterprise units (每个/各/辖下 企业/经营单位/多元业务), hotel, pension and diversified aggregates"
+      },
+      {
+        "id": "N06",
+        "operation": "declared gap markers fold into one gap observation that cannot carry fabrication (D10 skips the span)"
+      },
+      {
+        "id": "N07",
+        "operation": "quoted substrings carrying a role word or issuing verb are replaced by a quote marker and lose adoption; other quotes are unwrapped"
+      },
+      {
+        "id": "N08",
+        "operation": "a legend span defining at least two single-character codes (码=含义) maps each code whose meaning names exactly one role class to that role; inside table cells a standalone code (not adjacent to another CJK character) is read as that role word; codes whose meaning names no role (执, 知, —) stay non-roles"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "spans under headings containing 现状/诊断/案例/借鉴/备选/不采纳/未采纳/附录/背景/回顾/思考/问题/参考 are out of scope"
+      },
+      {
+        "id": "R02",
+        "operation": "architecture variant from the nearest table column header, row header or deepest heading naming N+1 or 2型; a source naming both is 'both' and scores neither; near-term decision and target observations exclude variant spans"
+      },
+      {
+        "id": "R03",
+        "operation": "adoption status from candidate markers and rejection markers"
+      },
+      {
+        "id": "R04",
+        "operation": "keyword spray: span over 300 characters, more than 8 decision items, or a clause with at least 3 bodies and 3 role words"
+      },
+      {
+        "id": "R05",
+        "operation": "pair each role with the nearest preceding body (coordinated 与/和/及/、 bodies share it), else a body at most 8 characters after it, else the inherited context body (table header, lead-in, heading, previous clause); drop a pair when 不/非/而非/无需/未/无权 occurs from 3 characters before the pair to its end"
+      },
+      {
+        "id": "R06",
+        "operation": "target issuing: in a clause with 目标/预算/指标 context and an issuing verb, issuer is the body after 由 or the nearest body before the verb not preceded by 向/对/给/至/到/为; in a target table the column or row body is the issuer, and a column headed 下达方/下达主体/由谁下达 makes the cell body the issuer and the row body the receiver; receivers are N05 tokens and other bodies; clauses stating 按管理关系/去法人 or negated issuing are rule clauses"
+      },
+      {
+        "id": "R07",
+        "operation": "aggregate triples per item into draft/review/final body sets; the final body is the highest ranked (集团 > 股份 = 养老公司 > BU) and lower final bodies count as review; three or more bodies in one slot is ambiguous"
+      },
+      {
+        "id": "R08",
+        "operation": "shape counters: S01 whole text, S04 and S05 characters under the heading naming N+1 or 2型; S04 or S05 is not applicable when the variant has no heading section of its own; every overrun manifestation shares damage key shape:overrun and every underrun shares shape:underrun, because nested units measure one length cause; each shape occurrence cites the first view of its section not already cited by an earlier shape occurrence"
+      },
+      {
+        "id": "R09",
+        "operation": "investment approval: clause with 投资/资产变更/并购 after masking body and item names (or an investment row header), roles paired by R05; clauses are paired one comma clause at a time with the body carried from the previous clause, and a sentence is in investment context from its first investment clause; 轻资产/重资产 and negated mentions (不涉及/不含/不包括/非 …投资) are not investment words"
+      },
+      {
+        "id": "R10",
+        "operation": "arrow trees: a fenced line containing → and a target word or issuing verb issues from the body named before the arrow, else from the nearest shallower fenced line in the same block naming exactly one body; receivers are read after the arrow; 养老公司 as a group receiver counts as the pension aggregate. Header-bound receivers: a table cell under a body column with an issuing verb or a final role, in a row whose header carries a target word, issues to the receivers named in the row header"
+      },
+      {
+        "id": "R11",
+        "operation": "N+1 new BU also from 由(原)孵化业务 升级/升为/转为 with a BU named in the span or its table row; the entity half reads 实体 in the span or its row and no 虚拟. 2型 D04 control levels: an affirmed count of three to five control levels (N级管控, 管控仍为N级) without transition wording next to it; D04 entity hotel BU also from 酒店BU（实体…） or a table row whose cell 酒店BU sits beside a cell starting with 实体. R05 pair negation window includes 没有/无, and an inherited body is negated by anything earlier in its clause"
+      },
+      {
+        "id": "R12",
+        "operation": "legend codes are also expanded in table column headers; in a role-column table (column header is one role) the decision item is read from the first other cell of the row that names an item, the body must be named in the cell (no inheritance from the row header), and dash or empty cells produce nothing; an item named in brackets next to an item outside brackets is a cross-reference, not a decision; decision scope resets at sentence ends; unit subjects include 其他…酒店, 酒店经营单位, 酒管公司 and (各/每个)存续业务, and a subject may be followed by a bracket of up to 40 characters; investment context in role-column tables also comes from the row's cells, and 投资发展部/投资孵化 are department names, not investment words; a clause 向X下达 in an issuer row takes the row or column body as issuer; the boundary window between 集团不 and 下达 is 40 characters; receivers accept 全部 and 业务, and a hotel BU's operating units count as its hotel units; 无论/不论…是否 is not a candidate marker; list items under a long-term heading whose lead-in says the decisions are common to both variants belong to both variant pools; 管控层级：N级 is a control-level count for P12, P13, D04 and D05; 集团最终只持有平台 counts as group-held businesses moved; 孵化业务…升为/转为 BU counts as a new BU; ledger text renders sets sorted so results do not depend on the hash seed"
+      },
+      {
+        "id": "R13",
+        "operation": "a column header is a role column only when it is at most four characters, names one role class, is not a matter header (决策, 事项, 内容) and is not negated; cells under a negated header (不做, 不负责, 不参与, 无权, 不包括, 不决定) are not paired; row investment context comes only from matter cells (事项, 决策, 内容, 对象, 项目, 范围); 参股 alone is not an investment word and clauses stating approval authority lies elsewhere (权限之外, 除外) are skipped; legend meanings end at whitespace and a code touching 并/与/和/及 is still a code; the row subject in a role-column table comes from its scope cell; unit subjects include 自有/委托/特许/合资/参股…酒店 lists; portfolio tokens include 资源配比, 内部组合, 之间的组合, and a portfolio token near 集团 without 股份 is the group portfolio; target trees accept ▶, ►, ⇒ and ->; a table cell line starting with an arrow issues from its row or column body; the group boundary object may be any 单位; level counts accept digits (3 级管控, 2 级管控); new BU verbs include 设为, 升格, 上升为"
+      },
+      {
+        "id": "R14",
+        "operation": "portfolio tokens (产业|业务)组合 not followed by 方式/管理/战略, 节奏配比 and 规模与节奏的配比; set subjects 存续业务组合, 存续业务群 and 投资BU所辖…业务群 are the diversified set; in role-column investment tables the body must be named in the cell and matter headers count as investment context; under a header role, bodies inside brackets are ignored when a body is named outside brackets (unclosed brackets included) and a negation up to six characters before a body drops it; list items and sentences starting with a single body and an arrow issue targets from that body, and under a target heading the receivers need no target word; target context reads the nearest heading; a variant table row headed 管控层级 whose cell starts with N级 is a level count for P12, P13, D04 and D05; new BU verbs include 各设; the entity half reads 实体 in the new-BU sentence or its row"
+      },
+      {
+        "id": "R15",
+        "operation": "a bare 决策 column header placed after a role column is the final-role column; in a role column, bodies outside brackets take the column role when the text outside brackets names no role, bracketed notes pair only their own explicit roles, bracket bodies stand in only when no body is named outside and the bracket opens in the clause, a body followed in its sentence by 不参与/不涉及/不介入/无权/不负责/不决定/不审批/授权 or negated within its window takes no role, a conditional clause (…时) assigns nothing and carries no body; a scope cell 集团/股份公司 + 整体/层面/总部/本部 names that subject and an inherited subject overrides the portfolio nearby-word fallback; N09 elliptical lists sharing one head noun (发展、竞争与投融资战略) name one strategy per member; the architecture-common marker ignores the document title heading; 下达关系/路径/方式/体系/机制/流程 are nouns, not issuing acts; receivers accept 电商、物业 as the incubation businesses (material.md 1126) and 所有/全部/各 + holding-type words + 酒店 as hotel units; the 2型 listed-platform half reads the whole paragraph or list block; the 2型 two-level half is not credited when every two-level statement is scoped to one segment or platform (板块/平台/一线 …2级) and the same 2型 pool affirms three to five levels; D04 hotel entity accepts the label 酒店BU：(为)实体"
+      },
+      {
+        "id": "R16",
+        "operation": "legends may define single uppercase Latin codes (D=起草, R=审核, F=最终决策), expanded in cells only when no other Latin letter touches them; in a decision matrix whose column headers name bodies, the decision item is read from the row's non-body, non-role cells and the role from the code in the body column; a subject phrase followed by a bracketed lowercase alias of one or two letters (多元投资与孵化业务（n）) defines that alias for the document, while uppercase brackets such as (BU) are labels; overlapping subject tokens resolve to the longest match; 存续(多元)业务集合/整体 is the diversified set and 存续(多元业务)单位 the unit subject; 投融资安排 is an investment-financing token; 养怡公司 names the pension company; in a target clause a body followed by 负责/承办/跟踪/准备/落实/统筹/支持/协助 is an executor, not a receiver; a list of two or more holding-type words before 酒店 is a hotel-units receiver; N+1 level count accepts 管控层(级)为…三级, moves accept 集团直管企业清零 or 集团不再直管经营单位 and read the table row header with its cell, and an upgrade to a BU in one sentence of a list item counts when the same item states the incubation or scale trigger; 2型 hotel BU without departments accepts 不再拥有/不再有部门, functions lifted to the listed-company headquarters in prose or list items count when the variant makes the hotel BU without departments, and related industries read a row header 酒店生活板块（股份公司）"
+      },
+      {
+        "id": "R17",
+        "operation": "in a table whose headers name 下达方 and 接收方, the row's issuer body issues to the bodies and receiver tokens of the 接收方 cell and to the aggregates named in the content cell, while cells under 编制/跟踪/承办/证据/依据/说明/备注 headers are not issuing lines; a body followed by 负责/落实/跟踪 or by 不是/并非/不作为下达方 is neither issuer nor receiver; strategy tokens accept 发展计划, 竞争规划 and 投资规划/计划, and elliptical lists accept 投资 and the heads 规划/计划; a bracketed clarification does not cancel the subject named outside it; matter headers include 标准/判定/条件; the investment BU positioning halves read only clauses naming 投资BU unless the span names no body and its context body is 投资BU; the boundary accepts 管理关系已转入(股份/酒店BU/投资BU)…目标随管理关系; the principle may span a comma; level counts accept N个控制/管控层级, and a two-level count scoped to a segment line (板块/平台/线) earns no two-level credit while the 2型 pool affirms three levels; the new-BU trigger rule also reads the other sentences of the same table cell; related industries accept the row header 股份公司（酒店生活板块）; sections headed 自查/自检 are excluded"
+      },
+      {
+        "id": "R18",
+        "operation": "是否X由Y决定/决策/审批/批准 assigns a decision and is not a candidate marker"
+      },
+      {
+        "id": "R19",
+        "operation": "elliptical lists accept 融资 as a member and 融资规划/计划/策略 and 竞争计划 are strategy tokens; a body directly followed by 所辖/辖下/下属/旗下/所属/直管的 is a possessive and is neither receiver nor issuer; level counts accept 管控层(级)N级 for the N+1 credit, the 2型 two-level credit and the 2型 three-to-five manifestation; the non-related half accepts 不在…板块内 and 不属于…板块 when the span or its table row names the investment BU and does not abolish it; 投资管控(型) is a control-type name, not an investment word; a scope cell that is exactly 酒店BU, 投资BU or 养老公司 gives the row the hotel, diversified or pension subject; for bracket-only candidates in a role column the decline window reads the unmasked remainder of the sentence"
+      },
+      {
+        "id": "R20",
+        "operation": "length overrun is dose-response: S01 excess beyond its tolerance in bands of 0.3 Golden lengths (at least one band once any shape unit is over tolerance), keys shape:overrun:band1..N under the single causal root shape:overrun; nested S04 and S05 overruns stay manifestations of band 1; underrun is unchanged. D04 arch2:control_levels also reads an affirmed 2型 organisation of four or five layers (四层/四级 结构 or 架构) that names a business-unit layer, without transition wording."
+      },
+      {
+        "id": "R21",
+        "operation": "核心企业/重点企业 are core-unit subjects; 发展策略 is a development token (组合发展策略 stays a portfolio token); a role-column approval table takes investment context from its nearest heading when it names 投资 or 资产变更 with 审批/决策/权限; 决定性 is a noun, not a role; a clause with 不(再)(越级)(直接)向/对/给 … 下达/下发/发指令 is a rule clause, and a sentence where 集团 … 不向 … 酒店/单位/存续业务/企业 … 下达 states the boundary; 园区/养老 unit patterns allow a space before BU and accept 养老…与园区…业务线设为(虚拟)单元; the functions-from-hotel-BU window is 24 characters and 不保留部门 counts as no departments; an N+1 two-level statement that names interfaces (…之间…之间) or says 与近期一致/相同 is not D05 and 管控…与近期一致 earns the N+1 level credit; the N+1 moves half skips clauses with 由集团直管 or 不纳入股份; a sentence that denies a BU the investment decision right (没有/无/不享有…投资决策权) yields no BU approval"
+      },
+      {
+        "id": "R22",
+        "operation": "the overrun tolerance decides whether a length violation exists; its dose is the whole S01 excess over the Golden length (ratio minus 1) in bands of 0.35 Golden lengths, at least one band once any shape unit is over tolerance; keys, causal root, nesting rule and the 0.8 coefficient are unchanged"
+      },
+      {
+        "id": "R23",
+        "operation": "in a role-column row a cell changes the row subject only when it names a subject outside brackets; the boundary accepts 目标…不由集团(直接)下达…由酒店BU/投资BU/股份 and 集团…不下达到…酒店/单位/企业; 不(另行|单独|再)下达 marks a rule clause in issuer rows and arrow cells; a table with a 下达方 header is target context for all its cells; 养老、园区两个(虚拟)业务单元 names both units; the non-related half rejects spans where the investment BU shrinks (收缩) or the businesses are handed over (改由…管理/处置); 各/每个业务类型 are the investment BU's units (material.md 622)"
+      },
+      {
+        "id": "R24",
+        "operation": "weights and the coefficients of D01 and D04 are contract parameters read at scoring time; predicates, shapes and band rules do not depend on them"
+      },
+      {
+        "id": "R25",
+        "operation": "a length overrun is charged as shape:overrun band instances under length_band (the R20 and R22 dose bands do not apply; nested S04 and S05 share the same instance keys, so a document carries at most overrun_instance_cap overrun instances)"
+      },
+      {
+        "id": "R26",
+        "operation": "required units of the brief: N+1 variant (ARCH_N1_HEADING anywhere, or P12 > 0), 2型 variant (ARCH_TWO_HEADING anywhere, or P13 > 0), headquarters departments (at least 3 of the settled department names), a non-rule target pair, and decision triples for at least 2 decision items; each absent unit is one D11 instance"
+      },
+      {
+        "id": "R27",
+        "operation": "the deliverable directory is output/; other regular non-hidden files there are D12 instances. Files submitted only at another path fail the strict delivery gate before the judge runs"
+      },
+      {
+        "id": "R28",
+        "operation": "a span whose Latin letters number at least 20 and exceed its CJK characters is not written in Chinese; one D13 instance per heading path"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "golden_deliverable": "golden.md",
+  "deliverable": {
+    "path": "output/control-system-and-long-term-architecture.md",
+    "carrier": "markdown",
+    "language": "zh"
+  },
+  "not_scored_golden_units": {
+    "basis": "Each exclusion below states why it carries no independent positive weight and where its remaining correctness is evaluated.",
+    "retired_items": [],
+    "unit_ids": [
+      "U02",
+      "U06",
+      "U07",
+      "U08",
+      "U09",
+      "U10",
+      "U11",
+      "U12",
+      "U14",
+      "U18",
+      "U28",
+      "U29",
+      "U34",
+      "U40",
+      "U41",
+      "U48",
+      "U49"
+    ],
+    "unit_rationales": {
+      "U02": {
+        "reason": "Group pension operating-control qualifier is context for P04, not an independent deliverable proposition.",
+        "remaining_coverage": "P04 evaluates the resulting pension decision chain; D01/D06 reject contradictory authority or positioning."
+      },
+      "U06": {
+        "reason": "Group direct-object enumeration is settled background and copying the list would not improve the requested allocation.",
+        "remaining_coverage": "Target boundary and long-term destinations are evaluated in P14/P12; contradictions remain deductible."
+      },
+      "U07": {
+        "reason": "Listed-company direct-object enumeration is structural context, not a separately weighted decision.",
+        "remaining_coverage": "P07, P14 and D02 evaluate incubation ownership and target responsibility."
+      },
+      "U08": {
+        "reason": "Hotel-BU managed-object enumeration is carrier detail; the professional outcome is the hotel decision/target chain.",
+        "remaining_coverage": "P03 and P14 evaluate hotel authority and target issuance."
+      },
+      "U09": {
+        "reason": "Investment-BU object scope is not rewarded for copying because omission is distinct from an adopted wrong scope.",
+        "remaining_coverage": "D02 source-bound review penalizes placing hotels/incubation under Investment BU; P11 evaluates its substantive duties."
+      },
+      "U10": {
+        "reason": "Group management-focus prose restates the settled control type without a new allocation.",
+        "remaining_coverage": "D06 protects the settled type and P04/P14 evaluate operative consequences."
+      },
+      "U11": {
+        "reason": "Listed-company management-focus prose is descriptive context rather than a discrete decision.",
+        "remaining_coverage": "P07/P14 cover its direct responsibilities; D01/D02 cover wrong allocations."
+      },
+      "U12": {
+        "reason": "Hotel-BU management-focus prose is descriptive and would reward copying instead of allocation quality.",
+        "remaining_coverage": "P03/P14 cover unit decisions and targets."
+      },
+      "U14": {
+        "reason": "The continuation-table heading has no standalone business proposition.",
+        "remaining_coverage": "Its decision rows are scored individually by P03/P04/P07 and deductions."
+      },
+      "U18": {
+        "reason": "Core-hotel escalation is a conditional design choice not conclusively settled by the source.",
+        "remaining_coverage": "P03 scores the settled ordinary-unit final authority; no penalty applies to a supported explicit escalation."
+      },
+      "U28": {
+        "reason": "Blank hotel-BU investment-approval cell is absence of authority, not affirmative content to copy.",
+        "remaining_coverage": "D08 penalizes granting unsupported final approval."
+      },
+      "U29": {
+        "reason": "Blank Investment-BU investment-approval cell is absence of authority, not affirmative content to copy.",
+        "remaining_coverage": "P11 professional-review credit and D08 final-approval deduction cover the distinction."
+      },
+      "U34": {
+        "reason": "Temporary restructuring exception is optional unless adopted; omission is not damage.",
+        "remaining_coverage": "P14 accepts the exception only with its condition and D02/D03 protect routing."
+      },
+      "U40": {
+        "reason": "N+1 organisation-tree names are structural presentation, not a separate outcome beyond architecture meaning.",
+        "remaining_coverage": "P12 evaluates levels, destinations, BU nature and function ownership."
+      },
+      "U41": {
+        "reason": "N+1 department-name inventory is not independently weighted because copying names can duplicate platform functions.",
+        "remaining_coverage": "P12 N1_FUNCTIONS evaluates professional function placement."
+      },
+      "U48": {
+        "reason": "2-type detailed hotel holding-mode list is unchanged source detail, not a new architecture decision.",
+        "remaining_coverage": "P13 evaluates platform, BU nature, levels and function receivers."
+      },
+      "U49": {
+        "reason": "Ellipsis and illustrative future-BU labels are placeholders rather than settled business propositions.",
+        "remaining_coverage": "P13 gives credit for explicit actual BUs and coherent functions; hollow placeholders earn none."
+      }
+    }
+  },
+  "task_aliases": {
+    "集团": [
+      "集团总部",
+      "集团公司",
+      "集团董事会"
+    ],
+    "股份": [
+      "股份公司",
+      "股份公司董事会",
+      "股份总部"
+    ],
+    "酒店BU": [
+      "酒店事业部",
+      "酒店业务单元",
+      "酒管公司",
+      "酒店管理公司"
+    ],
+    "投资BU": [
+      "投资事业部",
+      "投资业务单元"
+    ],
+    "制定": [
+      "起草",
+      "拟定",
+      "编制",
+      "提出",
+      "提议",
+      "牵头",
+      "主导"
+    ],
+    "初审": [
+      "审核",
+      "审查",
+      "预审",
+      "复核",
+      "把关",
+      "评审",
+      "审议"
+    ],
+    "终审": [
+      "审批",
+      "批准",
+      "核准",
+      "审定",
+      "决策",
+      "决定",
+      "最终审批"
+    ]
+  },
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[placeholder]",
+      "未提供",
+      "材料未提供",
+      "unspecified",
+      "TBD"
+    ],
+    "normalization_rule_id": "N06",
+    "fabrication_deduction_ids": [
+      "D10"
+    ]
+  },
+  "golden_scores": {
+    "program": {
+      "positive_earned": 1,
+      "retention_multiplier": 1,
+      "penalty_rate": 0,
+      "score_loss": 0,
+      "final_score": 1
+    }
+  },
+  "gap_marker_contract_note": "U30 approval thresholds: Materials give no amount; a marked threshold earns nothing and charges nothing, an invented amount triggers D10",
+  "length_band": {
+    "scoring_effect": "none",
+    "meaning": "Character counts are diagnostic only; no Golden-relative length penalty or lenient damage instance is emitted."
+  }
+}

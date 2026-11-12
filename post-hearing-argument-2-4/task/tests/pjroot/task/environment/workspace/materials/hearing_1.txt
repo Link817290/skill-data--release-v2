@@ -1,0 +1,259 @@
+[SOURCE PAGE 1/9]
+1
+[COURT_1]
+法庭审理笔录
+CASE_NUMBER_REDACTED
+时间：2025 年7 月2 日14 时30 分
+旁听人数3 人
+地点：第七法庭
+书记员查明当事人及其诉讼参与人是否到庭（到庭）
+书记员宣布当事人及其诉讼代理人入庭
+书记员宣布法庭纪律（略）
+书记员宣布全体起立，请审判员入庭。
+书记员向审判员报告当事人及其诉讼代理人的出庭情况。
+审判员核对当事人及其诉讼代理人身份。
+现在核对当事人的基本情况。
+原告（反诉被告）：[PLAINTIFF_1]，男，[BIRTH_DATE_REDACTED]，汉族，
+[ADDRESS_REDACTED]
+[ID_REDACTED]。
+委托诉讼代理人：[PLAINTIFF_COUNSEL_1]，[LAW_FIRM_1]律师（特别授权）
+被告（反诉原告）一：[DEFENDANT_COMPANY_1]，住所地[ADDRESS_REDACTED]
+法定代表人：[COMPANY_REP_1]，董事长。
+委托诉讼代理人：[COMPANY_COUNSEL_1]，男，系公司员工（特别授权）。
+被告（反诉原告）二：[DEFENDANT_PERSON_2]，男，[BIRTH_DATE_REDACTED]，
+汉族，[ADDRESS_REDACTED]
+[ID_REDACTED]。
+委托诉讼代理人：[PERSON_COUNSEL_2]，[LAW_FIRM_2]律师（特别授权）。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 2/9]
+2
+审：双方对对方出庭人员有无异议？
+均答：无异议。
+审判长（员）宣布到庭当事人及其诉讼代理人符合法律规定，可以
+参加本案诉讼。
+审：现在开庭。[COURT_1]民事审判第一庭，依照《中
+华人民共和国民事诉讼法》第一百三十七条的规定公开审理原告（反诉
+被告）[PLAINTIFF_1]诉被告（反诉原告）[DEFENDANT_COMPANY_1]、[DEFENDANT_PERSON_2]建设工程分包合同纠纷一案中，本案依法适用简易程序由审判员
+[COURT_OFFICIAL_2]独任审判，由书记员[COURT_OFFICIAL_1]担任法庭记录。
+依照《中华人民共和国民事诉讼法》第五十二条、第五十三条、第
+五十四条、第一百四十七条的规定，当事人有如下诉讼权当事人有如下
+诉讼权利和义务，有权委托诉讼代理人；提出回避申请；收集、提供证
+据；进行辩论；请求调解；提起上诉；申请执行；自行和解；原告可以
+放弃或变更诉讼请求，被告可以承认或反驳诉讼请求，有权提起反诉；
+可以查阅或复制本案有关法律文书。必须依法行使诉讼权利，遵守诉讼
+秩序，履行发生法律效力的判决书、裁定书和调解书。原告未经法庭许
+可中途退庭的，可以按撤诉处理；被告反诉的，可以缺席判决。被告未
+经法庭许可中途退庭的，可以缺席判决。
+审判员：双方对审判人员、书记员是否申请回避？
+原代：否。
+被一代：否。
+被二代：否。
+审：以上权利义务听清否？
+原代：听清楚了。
+被一代：听清楚了。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 3/9]
+3
+被二代：听清楚了。
+审：庭审活动分为法庭调查、法庭辩论、当事人最后陈述。首先进
+行法庭调查，先由原告陈述诉讼请求及所依据的事实和理由。
+原代：宣读起诉状（略）。诉讼请求：一、请求依法判令两被告向
+原告支付工程款100000 元；二、判令被告向原告支付资金占用利息暂计
+至2023 年5 月11 日止，共计5717.22 元（以100000 元为基数，按LPR
+自2021 年11 月1 日起计算至款清之日止），合计金额为105717.22 元；
+三、由被告承担本案诉讼费用。
+事实与理由：（略）
+审：原告除诉状外有无补充或变更？
+原代：无，与起诉状一致。
+审：对于已付款金额？
+原代：4885400 元是[DEFENDANT_COMPANY_1]代付，[RELATED_PERSON_1]转账给[PLAINTIFF_1]150000 元，共计
+5035400 元。
+被二代：150000 元转账给[PLAINTIFF_1]无异议，工资4890500 元，差5100
+元。
+审：双方是否能核对？
+原：就是2021 年12 月当月差了5100 元。
+审：要求双方把2021 年12 月的金额核对清楚。
+原：
+被二代：6315305 元是已付款金额，[DEFENDANT_COMPANY_1]代付4890500 元，[RELATED_PERSON_1]转
+付150000 元，现金支付在原告工作的帮工总金额1274805 元（一个班组
+是211160 元，另外一个班组是1063645 元）。
+审：帮工的工钱是怎么支付的？
+被二代：帮工工作完以后，以现金的方式支付给帮工。大部分是现
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 4/9]
+4
+金支付，少部分是转账。庭后提交支付流水。
+审：对鉴定机构回复函中的管理费、利润、税金、规费都要主张的？
+原代：是的。
+审：定额里面的管理费、利润、税金、规费都是针对有资质建筑企
+业，但是本案原、被告双方均为个人，原告要主张，那要提交相应的证
+据。
+原代：好的。措施费45 万多元我们要主张，申请鉴定机构对措施费
+重新出具一个回复意见。2025 年4 月10 日回复函中，二次结构部分的
+工程量只记取了424 吨的工程量，没有计算相应的工程造价。
+审：关于诉请金额，现鉴定报告已出具，按照你方的哪些需要计算
+在内的，把诉请的金额确定下来。三日之内将诉请金额以书面的形式发
+到微法院。
+原代：好的。
+审：被告方证人出庭作证申请书什么时候提交？
+被二代：尽早提交。
+审：本次庭审结束，双方核对笔录无误后签字，下面休庭。
+审判员：
+书记员：
+当事人：
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 5/9]
+5
+审：被告答辩。
+被一代：
+被二代：
+被二代：宣读起诉状（略）。反诉诉讼请求：一、请求判令反诉被
+告返还价款1847274 元；二、请求判令反诉被告支付资金占用费2863.27
+元（以1847274 元为基数按全国银行间同业拆借中心公布的贷款市场报
+价利率计算，自2024 年12 月30 日鉴定报告出具之日起暂计至2024 年
+1 月16 日为2863.27 元)；三、请求判令本案诉讼费由反诉被告承担。
+（以上一、二项诉请金额暂计为1850137.27 元）
+事实与理由：（略）
+审：除诉请外有无补充或变更？
+被二代：无，没有补充或变更。
+审：答辩。
+原代（反被代）：一、[DEFENDANT_PERSON_2]自认案涉钢筋劳务工程由[PLAINTIFF_1]实际
+组织施工，并向[PLAINTIFF_1]支付工程款，故其就案涉工程对[PLAINTIFF_1]有付款义
+务。[DEFENDANT_PERSON_2]提交证据材料不能证明其累计支付金额共计6315305 元。事
+实上[DEFENDANT_COMPANY_1]向[PLAINTIFF_1]班组代发的工人工资4885400 元，[DEFENDANT_PERSON_2]通过案
+外人[RELATED_PERSON_1]向[PLAINTIFF_1]转账支付工程寺150000 元，故[PLAINTIFF_1]实际收取工程款
+共计仅5035400 元。二、2024 年12 月30 日出具的司法鉴定报告明显存
+在错漏，守全不能证明案涉工程价款，根据不能作为本案的定案依据。
+目前双方达成一致的代付工人工资已有4885400 元，这其中并不包括[PLAINTIFF_1]自行支出的工人工资及管理成本。按照常理来推断，案涉工程造价
+至少应该高于成本价，或者说，[PLAINTIFF_1]作为实际投入资金、组织人员和
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 6/9]
+6
+技术的施工方，其应获得的工程价款必然能够覆盖全部工人工资，并且
+应该包括管理费、利润等。现各方当事人就案涉[DISPUTED_PROJECT]钢筋工程施工未
+订立书面合同，对合同价款约定不明。根据《民法典》第五百一十一条
+规定：“当事人就有关合同内容约定不明确，依据前条规定仍不能确定
+的，适用下列规定：……（二）价款或者报酬不明确的，按照订立合同
+时履行寺的市场价格履行”，本案应按照市场价格计算工程造价。若按
+照[DEFENDANT_PERSON_2]主张以目前出具的鉴定意见为准，案涉工程造价仅4468031 元，
+甚至低于被告自认直接代付的工人工资，明显不符合常理，严重偏离市
+场价格。而且鉴定意见虽然采用浙江省定额计价，但欺错误地排除计取
+或少计管理费、利润、规费、税金等，导致[PLAINTIFF_1]不能获得其实际投入
+资金、组织和管理人员和提供技术的合理对价，必然导致[PLAINTIFF_1]严重亏
+损，而[DEFENDANT_PERSON_2]却可从中不当获得的不公正后果。根据[PERSON_NAME_VARIANT_2]提交的证据
+材料，[PLAINTIFF_1]直接收取的工程款金额仅150000 元，其主张[PLAINTIFF_1]向其返
+还不当得利1847274 元及相应资金占用费，明显系滥用诉讼权利，应依
+法予以驳回。（详见答辩状）
+审：下面进行举证、质证，由原告方举证。
+原代：出示证一、原告身份证复印件、被告居住证库信息资料打印
+件、被告企业信息打印件一份，证明原、被告诉讼主体资格。
+二、微信聊天记录截图打印件，证明原告为被告提供钢筋分包工程
+建设施工的事实。
+三、施工图纸，证明原告施工工程。
+四、工资发放表，证明被告向原告仅支付部分生活费的事实。
+五、考勤表，证明原告提供钢筋工人组施工的事实。
+六、施工现场图、钢筋配料表、钢筋班组各工人汇总表，证明原告
+提供钢筋工人且施工的事实。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 7/9]
+7
+七、银行流水，证明被告向原告仅支付部分工程款的事实。
+八、鉴定报告及发票，证明
+审：当庭核对证据原件后，归还原告。是否已收到。
+原代：收到。
+审：被告质证。
+被一代：
+被二代：
+审：被告举证。
+被一代：出示证一、[DEFENDANT_COMPANY_1]与[THIRD_PARTY_COMPANY_1]签订的
+劳务分包合同，证明[DEFENDANT_COMPANY_1]将[DISPUTED_PROJECT]
+2#楼、3#楼工程的一、二次结构、脚手架劳务工作发包给[THIRD_PARTY_COMPANY_NAME_VARIANT_1]，合同相对方为[THIRD_PARTY_COMPANY_SHORT_FORM_1]，合同约定了双方关于分包
+合同工作的计量计价的结算原则。
+二、[THIRD_PARTY_COMPANY_1]资质复印件，证明[THIRD_PARTY_COMPANY_NAME_VARIANT_2]具有承包证据一合同内容的合法资质，双方之间
+为合法分包。
+审：质证。
+原代：
+被二代：
+审：被告二有无证据提交？
+被二代：出示证一、被告付款记录表、被告通过建工代发款项的月
+度支付证据、[RELATED_PERSON_1]（[DEFENDANT_PERSON_2]女儿）转款银行回单、帮工金额支付证据，
+证明被告就[DISPUTED_PROJECT]支付于原告的金额共计为6315305 元。
+原告提供的出具于2024 年12 月30 日的该工程的司法鉴定报告中显示该
+工程的可确定造价为4468031 元。被告实际支付的款项走出应承担的工
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 8/9]
+8
+程1847274 元。
+审：质证。
+原代：
+被一代：
+审：有无相互发问？
+均答：
+审：原、被告对事实有无补充？
+均答：无。
+审：法庭调查结束，下面进行法庭辩论，发表辩论意见。
+原代：本案的事实清楚，证据充分，请法庭支持诉请。
+被一代：坚持答辩及质证意见。
+被二代：坚持答辩及质证意见。
+审：法庭辩论结束，下面征求最后意见，发表最后意见。
+原代：请求法庭支持诉请。
+被一代：坚持答辩及质证意见。
+被二代：坚持答辩及质证意见。
+审：双方是否同意调解？
+原代：同意。
+被一代：同意。
+被二代：同意。
+审：下面本庭主持调解，调解不成择期宣判，原、被告核对笔录无
+误后签字，下面休庭。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 9/9]
+9
+审判员：
+书记员：
+当事人：
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]

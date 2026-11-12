@@ -1,0 +1,153 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "public-recruitment-package",
+  "tasks": [
+    "public-recruitment-package"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 35,
+  "bytes_excluding_manifest": 2281370,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2001,
+      "sha256": "3cb9748a171efecc9f5caa8f4cf7ff9904f8d9c1047bcbd4388674be5355b45b"
+    },
+    "RUBRIC.md": {
+      "bytes": 9821,
+      "sha256": "003acbba50d55886c259c66d4b19931319a30ca60c2a3cb87d3efcabb1df8ea8"
+    },
+    "dataset.toml": {
+      "bytes": 1217,
+      "sha256": "3461a8756bfd70c5591b8586bfa3f1f8c7d7e8a7421da4766e122d26a40af6f2"
+    },
+    "golden/XX融资担保有限公司2026年公开招聘公告.doc": {
+      "bytes": 30208,
+      "sha256": "bdcf45dcef2bac28a55516eaa693079ca96add17c1fcd3acf6630419de012589"
+    },
+    "golden/附件1某融资担保有限公司2026年公开招聘岗位明细表.xlsx": {
+      "bytes": 8634,
+      "sha256": "f4fa00dc5e0bb640c73c81303236f91c68bf1856bbebb7a9c3046a38462e0566"
+    },
+    "golden/附件2 湖南省2026年考试录用公务员专业指导目录.xlsx": {
+      "bytes": 336908,
+      "sha256": "b7e7be8cd3ce636b0555c1763af1126d0b0f7165f891f41ab28dce67928b21e4"
+    },
+    "golden/附件3某融资担保有限公司公开招聘诚信承诺书.docx": {
+      "bytes": 37054,
+      "sha256": "50e7465bf57c6afdfe966e89e41b158f28b2dcee00e7b5b71d46096fffbcb2d0"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1273,
+      "sha256": "12083f6812e2874c73a4308a4188c733756162b8438a86527952030e4645200a"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 300,
+      "sha256": "55834fc55331692ae5ea4f3f93ae09e322cad15ff822de37b3694adbf64921d6"
+    },
+    "task/environment/skills/assemble-public-recruitment-package/SKILL.md": {
+      "bytes": 8269,
+      "sha256": "6e14455cdddfb7e704414f2e68c909c29fc3c57f673af53626420a552914abb3"
+    },
+    "task/environment/skills/assemble-public-recruitment-package/references/publication_control.md": {
+      "bytes": 5497,
+      "sha256": "2ee74eebf356f4690c453ca6c5941b81b52ae413e08c6947f1b8fbf2fa058d91"
+    },
+    "task/environment/skills/assemble-public-recruitment-package/references/release_quality_assurance.md": {
+      "bytes": 4710,
+      "sha256": "823b398a36e6311a90b8670485ddd9fc58c9e0e337b04811969c832f6a89cebc"
+    },
+    "task/environment/skills/assemble-public-recruitment-package/references/source_authority.md": {
+      "bytes": 5687,
+      "sha256": "b89847391f8579a636abf212a83291fb76cc7d94ce415b9295af68ae42292cee"
+    },
+    "task/environment/workspace/materials/候选人1-融资担保总经理.docx": {
+      "bytes": 22980,
+      "sha256": "dace8c4aa4023805018c086d5bc1a31e589e1a41da275d2275e2a6931a25fa57"
+    },
+    "task/environment/workspace/materials/招聘岗位要求.docx": {
+      "bytes": 13657,
+      "sha256": "df1c2b6736f4aa7b2a7dc9b2b220bffc46cf9c07b2a5dc2b9953490f6ab82b5b"
+    },
+    "task/environment/workspace/materials/曾彬-33岁-本科.pdf": {
+      "bytes": 414063,
+      "sha256": "b666f678043424d1470c6e4f09bc687470a291d5c5aee0347cdde00c117168ef"
+    },
+    "task/environment/workspace/materials/罗闪-融资担保总经理.pdf": {
+      "bytes": 274381,
+      "sha256": "98f915fdffa9a890889808a6256806949dcd5b58f7b2b137320e2744b14912e8"
+    },
+    "task/environment/workspace/materials/融资担保经理-达先生.pdf": {
+      "bytes": 213149,
+      "sha256": "fe0a8fb2a5ec0855aec8348b148e23a47050e0e3a647f50eb70d3302b0ce973e"
+    },
+    "task/environment/workspace/materials/附件1公开招聘岗位明细表.xlsx": {
+      "bytes": 10250,
+      "sha256": "d478757c33391424f414d3ea9f1a52efb23b3f66fa39eb4a391f2d8b4d36d247"
+    },
+    "task/environment/workspace/materials/附件2 湖南省2026年考试录用公务员专业指导目录.xlsx": {
+      "bytes": 336908,
+      "sha256": "b7e7be8cd3ce636b0555c1763af1126d0b0f7165f891f41ab28dce67928b21e4"
+    },
+    "task/instruction.md": {
+      "bytes": 5519,
+      "sha256": "1b94d29b425957357eecd13de9803f57a582fb30a7debe046d46ba6d52648d6c"
+    },
+    "task/solution/reference_outputs/XX融资担保有限公司2026年公开招聘公告.doc": {
+      "bytes": 30208,
+      "sha256": "bdcf45dcef2bac28a55516eaa693079ca96add17c1fcd3acf6630419de012589"
+    },
+    "task/solution/reference_outputs/附件1某融资担保有限公司2026年公开招聘岗位明细表.xlsx": {
+      "bytes": 8634,
+      "sha256": "f4fa00dc5e0bb640c73c81303236f91c68bf1856bbebb7a9c3046a38462e0566"
+    },
+    "task/solution/reference_outputs/附件2 湖南省2026年考试录用公务员专业指导目录.xlsx": {
+      "bytes": 336908,
+      "sha256": "b7e7be8cd3ce636b0555c1763af1126d0b0f7165f891f41ab28dce67928b21e4"
+    },
+    "task/solution/reference_outputs/附件3某融资担保有限公司公开招聘诚信承诺书.docx": {
+      "bytes": 37054,
+      "sha256": "50e7465bf57c6afdfe966e89e41b158f28b2dcee00e7b5b71d46096fffbcb2d0"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 329,
+      "sha256": "6900f93ce7dddd6d4c86bf055df7278d00aec8645baa8abfc03e6c83f9d5f1fa"
+    },
+    "task/task.toml": {
+      "bytes": 1646,
+      "sha256": "a4a09d9eb98726b94223b1ca39b5df64b345b9349eeda8a2cf5a4bafa8f95244"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1655,
+      "sha256": "64fdb2aa86406a270c9bff35ec93ce77f11172c658b7dc87f36f6091e2741bed"
+    },
+    "task/tests/golden_replay/2436ea147f805736d29b2431d2151acf01af7b685dd0230ea02a90e71b990f94.json": {
+      "bytes": 8989,
+      "sha256": "aabf76832ffa73bc1be48967246cba13123e0b6d89824e68472a7c0cc5470706"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 3274,
+      "sha256": "24bda27de0bdd33f61bd2f1bc323335e77a8f27cafb55a60805647f5d610bffd"
+    },
+    "task/tests/package_score.py": {
+      "bytes": 60315,
+      "sha256": "758ac7c6d295d333773334f467431a8e198237d697527416331190c0cfb9f94c"
+    },
+    "task/tests/probe_package_score.py": {
+      "bytes": 25445,
+      "sha256": "1ea5367f6a66792508dcd4ebf9f6dd80b8cc4e21925a0ace59d8a581575f0036"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 17112,
+      "sha256": "f1b6ee1fb5243f3015f369e34d01e4f5a4c5594d6743240353973bd085e4e19e"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1659,
+      "sha256": "a015ee2f2696c9d8db3640651551b962f08e4de90b3362af37630bb889f8e745"
+    },
+    "task/tests/validator.py": {
+      "bytes": 5656,
+      "sha256": "b53bf8ab33477ea9f8a579d9687cb0e07026745260273c445e8fe483814c64aa"
+    }
+  }
+}

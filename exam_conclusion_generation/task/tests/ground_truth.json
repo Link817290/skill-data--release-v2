@@ -1,0 +1,1499 @@
+{
+  "case_count": 10,
+  "conclusion_count": 52,
+  "cases": [
+    {
+      "case_id": "VAL-001",
+      "status": "有异常结论",
+      "conclusions": [
+        {
+          "finding_id": "VAL-001-F01",
+          "label": "右肝无回声灶",
+          "evidence": [
+            "VAL-001-R004"
+          ],
+          "recognition_aliases": [
+            "右肝无回声灶"
+          ],
+          "fidelity_aliases": [
+            "右肝无回声灶"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R01"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-001-R004",
+                "field": "肝脏检查",
+                "result": "右肝内见一个无回声，大小约12mm×10mm，边清规则。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-001-F02",
+          "label": "胆囊息肉样病变",
+          "evidence": [
+            "VAL-001-R005"
+          ],
+          "recognition_aliases": [
+            "胆囊息肉样病变",
+            "胆囊息肉",
+            "胆囊息肉样改变"
+          ],
+          "fidelity_aliases": [
+            "胆囊息肉样病变"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R02"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-001-R005",
+                "field": "胆系检查",
+                "result": "胆囊壁探及一个高回声，与壁相连，无明显声影，大小约3mm×2mm。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-001-F03",
+          "label": "甲状腺右叶囊肿",
+          "evidence": [
+            "VAL-001-R006"
+          ],
+          "recognition_aliases": [
+            "甲状腺右叶囊肿",
+            "甲状腺右叶囊性结节"
+          ],
+          "fidelity_aliases": [
+            "甲状腺右叶囊肿"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R04"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-001-R006",
+                "field": "甲状腺彩超",
+                "result": "甲状腺右叶见一个无回声，大小为2mm×2mm，边清规则，CDFI：其内未见明显血流信号；甲状腺左叶及峡部未见明显占位。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-001-F04",
+          "label": "心率偏慢",
+          "evidence": [
+            "VAL-001-R078"
+          ],
+          "recognition_aliases": [
+            "心率偏慢",
+            "心动过缓",
+            "窦缓"
+          ],
+          "fidelity_aliases": [
+            "心率偏慢"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R43"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-001-R078",
+                "field": "心电图",
+                "result": "PR:158ms　QRS:80ms  心室率:57bpm  心房率:57bpm"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-001-F05",
+          "label": "左侧乳腺结节",
+          "evidence": [
+            "VAL-001-R073"
+          ],
+          "recognition_aliases": [
+            "左侧乳腺结节"
+          ],
+          "fidelity_aliases": [
+            "左侧乳腺结节"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R25"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-001-R073",
+                "field": "乳腺触诊成像检测",
+                "result": "左侧乳腺结节，位于1点方向，3D：峰值一般硬度一般；单峰形态规则；峰顶稍钝表面尚光滑；基底窄边界清；动态回放活动度好。2D：中心压力区呈橙色，硬度一般。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-001-F06",
+          "label": "龋齿",
+          "evidence": [
+            "VAL-001-R057"
+          ],
+          "recognition_aliases": [
+            "龋齿",
+            "蛀牙"
+          ],
+          "fidelity_aliases": [
+            "龋齿"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R28"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-001-R057",
+                "field": "牙体",
+                "result": "蛀牙牙体可见充填体牙缺失"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-001-F07",
+          "label": "二尖瓣环Em低于Am",
+          "evidence": [
+            "VAL-001-R009"
+          ],
+          "recognition_aliases": [
+            "二尖瓣环Em低于Am"
+          ],
+          "fidelity_aliases": [
+            "二尖瓣环Em低于Am"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R23"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-001-R009",
+                "field": "超声心动图+组织多普勒(TDI)",
+                "result": "二维：主动脉内径不宽，瓣呈三叶，回声偏亮，启闭尚可。左房、室及右心不大。室间隔及左室后壁不厚，呈异向运动，活动幅度尚可。主肺动脉内径尚可，瓣及二、三尖瓣形态、回声及启闭尚可。\n彩色：二、三尖瓣口见少许返流，TRPG 19mmHg。\n左心功能测定：FS 36%     LVEF 66%          二尖瓣口前向血流E峰＜A峰\n组织多普勒（TDI）：二尖瓣环Em＜Am"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "VAL-002",
+      "status": "有异常结论",
+      "conclusions": [
+        {
+          "finding_id": "VAL-002-F01",
+          "label": "心率偏慢",
+          "evidence": [
+            "VAL-002-R093"
+          ],
+          "recognition_aliases": [
+            "心率偏慢",
+            "心动过缓",
+            "窦缓"
+          ],
+          "fidelity_aliases": [
+            "心率偏慢"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R43"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R093",
+                "field": "心电图",
+                "result": "PR:158ms　QRS:96ms  心室率:56bpm  心房率:56bpm"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-002-F02",
+          "label": "超重",
+          "evidence": [
+            "VAL-002-R115"
+          ],
+          "recognition_aliases": [
+            "超重",
+            "体重超重",
+            "BMI提示超重"
+          ],
+          "fidelity_aliases": [
+            "超重"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R18"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R115",
+                "field": "体重指数",
+                "result": "25.49,超重"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-002-F03",
+          "label": "反射波增强指数异常",
+          "evidence": [
+            "VAL-002-R099",
+            "VAL-002-R094"
+          ],
+          "recognition_aliases": [
+            "反射波增强指数异常",
+            "左心功能测定反射波增强指数异常"
+          ],
+          "fidelity_aliases": [
+            "反射波增强指数异常"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R20"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R099",
+                "field": "反射波增强指数结论",
+                "result": "反射波增强指数异常"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-002-F04",
+          "label": "左肾囊肿",
+          "evidence": [
+            "VAL-002-R004"
+          ],
+          "recognition_aliases": [
+            "左肾囊肿",
+            "左肾囊性病变"
+          ],
+          "fidelity_aliases": [
+            "左肾囊肿"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R10"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R004",
+                "field": "双肾检查",
+                "result": "左肾实质内可见一个无回声，大小约14mm×12mm，边清规则；右肾内显示一个高回声光点，伴“彗尾征”，大小约2mm×2mm；左肾集合系统内探及一个强回声光团，伴声影，大小约6mm×4mm。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-002-F05",
+          "label": "左肾结石",
+          "evidence": [
+            "VAL-002-R004"
+          ],
+          "recognition_aliases": [
+            "左肾结石",
+            "左肾集合系统结石"
+          ],
+          "fidelity_aliases": [
+            "左肾结石"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R11"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R004",
+                "field": "双肾检查",
+                "result": "左肾实质内可见一个无回声，大小约14mm×12mm，边清规则；右肾内显示一个高回声光点，伴“彗尾征”，大小约2mm×2mm；左肾集合系统内探及一个强回声光团，伴声影，大小约6mm×4mm。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-002-F06",
+          "label": "右肾高回声光点伴彗尾征",
+          "evidence": [
+            "VAL-002-R004"
+          ],
+          "recognition_aliases": [
+            "右肾高回声光点伴彗尾征",
+            "右肾钙化灶",
+            "右肾点状高回声",
+            "右肾高回声光点"
+          ],
+          "fidelity_aliases": [
+            "右肾高回声光点伴彗尾征"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R13"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R004",
+                "field": "双肾检查",
+                "result": "左肾实质内可见一个无回声，大小约14mm×12mm，边清规则；右肾内显示一个高回声光点，伴“彗尾征”，大小约2mm×2mm；左肾集合系统内探及一个强回声光团，伴声影，大小约6mm×4mm。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-002-F07",
+          "label": "甲状腺两叶囊肿",
+          "evidence": [
+            "VAL-002-R006"
+          ],
+          "recognition_aliases": [
+            "甲状腺两叶囊肿",
+            "甲状腺双叶囊肿",
+            "甲状腺两叶囊性结节",
+            "甲状腺双叶囊性结节"
+          ],
+          "fidelity_aliases": [
+            "甲状腺两叶囊肿",
+            "甲状腺双叶囊肿"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R06"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R006",
+                "field": "甲状腺彩超",
+                "result": "甲状腺两叶见无回声，较大的约2mm×1mm，边清规则，CDFI：其内未见明显血流信号。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-002-F08",
+          "label": "基本正常超声心动图（左房饱满）",
+          "evidence": [
+            "VAL-002-R009"
+          ],
+          "recognition_aliases": [
+            "基本正常超声心动图（左房饱满）",
+            "左房饱满",
+            "基本正常超声心动图"
+          ],
+          "fidelity_aliases": [
+            "基本正常超声心动图（左房饱满）"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R24"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-002-R009",
+                "field": "超声心动图+组织多普勒(TDI)",
+                "result": "二维：主动脉内径不宽，瓣呈三叶，回声偏亮，启闭尚可。左房饱满（40mm），左室及右心不大。室间隔及左室后壁不厚，呈异向运动，活动幅度尚可。主肺动脉内径不宽，瓣及二、三尖瓣形态、回声及启闭尚可。\n\n彩色：二、三尖瓣口见少许返流，TRPG 13mmHg。\n\n左心功能测定：\tFS 34%     LVEF 63%\n\n二尖瓣前向血流E峰＞A峰\n\n组织多普勒（TDI）：二尖瓣环Em＞Am"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "VAL-003",
+      "status": "有异常结论",
+      "conclusions": [
+        {
+          "finding_id": "VAL-003-F01",
+          "label": "二尖瓣环Em低于Am",
+          "evidence": [
+            "VAL-003-R008"
+          ],
+          "recognition_aliases": [
+            "二尖瓣环Em低于Am"
+          ],
+          "fidelity_aliases": [
+            "二尖瓣环Em低于Am"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R23"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R008",
+                "field": "超声心动图+组织多普勒(TDI)",
+                "result": "二维：主动脉内径不宽，瓣呈三叶，回声偏亮，启闭尚可。左房、室及右心不大。室间隔及左室后壁不厚，呈异向运动，活动幅度尚可。主肺动脉内径尚可，瓣及二、三尖瓣形态、回声及启闭尚可。\n\n彩色：二尖瓣口见少许返流，三尖瓣口见少量返流，TRPG 23mmHg。主动脉瓣下见少许返流。\n\n左心功能测定：FS 34%     LVEF 64%          二尖瓣口前向血流E峰＞A峰\n\n组织多普勒（TDI）：二尖瓣环Em＜Am"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F02",
+          "label": "牙龈炎",
+          "evidence": [
+            "VAL-003-R064"
+          ],
+          "recognition_aliases": [
+            "牙龈炎",
+            "牙龈发炎"
+          ],
+          "fidelity_aliases": [
+            "牙龈炎"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R29"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R064",
+                "field": "牙周组织",
+                "result": "牙结石2度牙龈炎"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F03",
+          "label": "牙结石2度",
+          "evidence": [
+            "VAL-003-R064"
+          ],
+          "recognition_aliases": [
+            "牙结石2度",
+            "牙结石Ⅱ度",
+            "牙结石II度"
+          ],
+          "fidelity_aliases": [
+            "牙结石2度",
+            "牙结石Ⅱ度",
+            "牙结石II度"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R30"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R064",
+                "field": "牙周组织",
+                "result": "牙结石2度牙龈炎"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F04",
+          "label": "肝内无回声灶",
+          "evidence": [
+            "VAL-003-R002"
+          ],
+          "recognition_aliases": [
+            "肝内无回声灶"
+          ],
+          "fidelity_aliases": [
+            "肝内无回声灶"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R01"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R002",
+                "field": "肝脏检查",
+                "result": "肝脏内见一个无回声，大小约25mm×22mm，边清规则。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F05",
+          "label": "胆囊壁强回声光点伴彗尾征",
+          "evidence": [
+            "VAL-003-R001"
+          ],
+          "recognition_aliases": [
+            "胆囊壁强回声光点伴彗尾征",
+            "胆囊壁强回声光点伴彗尾征",
+            "胆囊壁点状强回声",
+            "胆囊壁强回声光点"
+          ],
+          "fidelity_aliases": [
+            "胆囊壁强回声光点伴彗尾征"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R03"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R001",
+                "field": "胆系检查",
+                "result": "胆囊壁探及一个强回声光点，大小约1mm×1mm，伴“彗尾征”。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F06",
+          "label": "左肾无回声灶",
+          "evidence": [
+            "VAL-003-R004"
+          ],
+          "recognition_aliases": [
+            "左肾无回声灶"
+          ],
+          "fidelity_aliases": [
+            "左肾无回声灶"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R10"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R004",
+                "field": "双肾检查",
+                "result": "左肾局部包膜欠规整（术后）；左肾实质内可见一个无回声，大小约13mm×12mm，边清规则。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F07",
+          "label": "甲状腺右叶低回声结节",
+          "evidence": [
+            "VAL-003-R006"
+          ],
+          "recognition_aliases": [
+            "甲状腺右叶低回声结节",
+            "右叶甲状腺低回声结节"
+          ],
+          "fidelity_aliases": [
+            "甲状腺右叶低回声结节"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R07"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R006",
+                "field": "甲状腺彩超",
+                "result": "甲状腺右叶内见一个低回声，大小约3mm×2mm，边界欠清尚规则，CDFI：其内未见明显血流信号；甲状腺左叶及峡部未见明显占位。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F08",
+          "label": "鼻中隔弯曲",
+          "evidence": [
+            "VAL-003-R013"
+          ],
+          "recognition_aliases": [
+            "鼻中隔弯曲",
+            "鼻中隔偏曲"
+          ],
+          "fidelity_aliases": [
+            "鼻中隔弯曲",
+            "鼻中隔偏曲"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R32"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R013",
+                "field": "鼻腔",
+                "result": "鼻中隔弯曲"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F09",
+          "label": "超重",
+          "evidence": [
+            "VAL-003-R117"
+          ],
+          "recognition_aliases": [
+            "超重",
+            "体重超重",
+            "BMI提示超重"
+          ],
+          "fidelity_aliases": [
+            "超重"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R18"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R117",
+                "field": "体重指数",
+                "result": "24.85,超重"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-003-F10",
+          "label": "心率偏慢",
+          "evidence": [
+            "VAL-003-R094"
+          ],
+          "recognition_aliases": [
+            "心率偏慢",
+            "心动过缓",
+            "窦缓"
+          ],
+          "fidelity_aliases": [
+            "心率偏慢"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R43"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-003-R094",
+                "field": "心电图",
+                "result": "PR:154ms　QRS:86ms  心室率:59bpm  心房率:59bpm"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "VAL-004",
+      "status": "有异常结论",
+      "conclusions": [
+        {
+          "finding_id": "VAL-004-F01",
+          "label": "肝区回声密、增强（左肝显示不清）",
+          "evidence": [
+            "VAL-004-R004"
+          ],
+          "recognition_aliases": [
+            "肝区回声密、增强（左肝显示不清）"
+          ],
+          "fidelity_aliases": [
+            "肝区回声密、增强（左肝显示不清）"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R14"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-004-R004",
+                "field": "肝脏检查",
+                "result": "腹腔胀气，左肝显示不清，肝区回声密，增强"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-004-F03",
+          "label": "左肾高回声光点伴彗尾征",
+          "evidence": [
+            "VAL-004-R002"
+          ],
+          "recognition_aliases": [
+            "左肾高回声光点伴彗尾征",
+            "左肾钙化灶",
+            "左肾点状高回声",
+            "左肾高回声光点"
+          ],
+          "fidelity_aliases": [
+            "左肾高回声光点伴彗尾征"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R12"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-004-R002",
+                "field": "双肾检查",
+                "result": "左肾内显示一个高回声光点，伴“彗尾征”，大小约2mm×2mm。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-004-F04",
+          "label": "甲状腺回声不均",
+          "evidence": [
+            "VAL-004-R006"
+          ],
+          "recognition_aliases": [
+            "甲状腺回声不均",
+            "甲状腺弥漫性回声改变",
+            "甲状腺回声粗不均",
+            "甲状腺回声稍粗不均匀"
+          ],
+          "fidelity_aliases": [
+            "甲状腺回声不均"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R08"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-004-R006",
+                "field": "甲状腺彩超",
+                "result": "甲状腺大小正常，腺体回声稍粗，不均，CDFI：其内见点条状血流信号"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-004-F05",
+          "label": "肥胖",
+          "evidence": [
+            "VAL-004-R111"
+          ],
+          "recognition_aliases": [
+            "肥胖",
+            "BMI提示肥胖"
+          ],
+          "fidelity_aliases": [
+            "肥胖"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R19"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-004-R111",
+                "field": "体重指数",
+                "result": "28.09,肥胖"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-004-F06",
+          "label": "牙周炎",
+          "evidence": [
+            "VAL-004-R071"
+          ],
+          "recognition_aliases": [
+            "牙周炎"
+          ],
+          "fidelity_aliases": [
+            "牙周炎"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R31"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-004-R071",
+                "field": "牙周组织",
+                "result": "牙周炎"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "VAL-005",
+      "status": "有异常结论",
+      "conclusions": [
+        {
+          "finding_id": "VAL-005-F01",
+          "label": "宫颈新生物",
+          "evidence": [
+            "VAL-005-R027"
+          ],
+          "recognition_aliases": [
+            "宫颈新生物"
+          ],
+          "fidelity_aliases": [
+            "宫颈新生物"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R34"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R027",
+                "field": "宫颈",
+                "result": "宫颈轻度糜烂、黄豆大小新生物"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F02",
+          "label": "宫颈轻度糜烂",
+          "evidence": [
+            "VAL-005-R027"
+          ],
+          "recognition_aliases": [
+            "宫颈轻度糜烂",
+            "宫颈柱状上皮异位",
+            "宫颈轻度柱状上皮异位"
+          ],
+          "fidelity_aliases": [
+            "宫颈轻度糜烂"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R35"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R027",
+                "field": "宫颈",
+                "result": "宫颈轻度糜烂、黄豆大小新生物"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F03",
+          "label": "双侧乳腺增生",
+          "evidence": [
+            "VAL-005-R107"
+          ],
+          "recognition_aliases": [
+            "双侧乳腺增生"
+          ],
+          "fidelity_aliases": [
+            "双侧乳腺增生"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R26"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R107",
+                "field": "乳腺触诊成像检测",
+                "result": "右侧乳腺结节，位于9点钟方向，3D：峰值一般硬度一般；单峰形态规则；峰顶稍钝表面光滑；基底窄边界清；动态回放活动度好。2D：中心压力区呈蓝色，硬度较小。双侧乳腺增生。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F04",
+          "label": "右侧乳腺结节伴双侧乳腺增生",
+          "evidence": [
+            "VAL-005-R107"
+          ],
+          "recognition_aliases": [
+            "右侧乳腺结节伴双侧乳腺增生"
+          ],
+          "fidelity_aliases": [
+            "右侧乳腺结节伴双侧乳腺增生"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R25"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R107",
+                "field": "乳腺触诊成像检测",
+                "result": "右侧乳腺结节，位于9点钟方向，3D：峰值一般硬度一般；单峰形态规则；峰顶稍钝表面光滑；基底窄边界清；动态回放活动度好。2D：中心压力区呈蓝色，硬度较小。双侧乳腺增生。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F05",
+          "label": "轻度血管硬化",
+          "evidence": [
+            "VAL-005-R009",
+            "VAL-005-R011",
+            "VAL-005-R012"
+          ],
+          "recognition_aliases": [
+            "轻度血管硬化",
+            "血管轻度硬化",
+            "动脉血管轻度硬化",
+            "轻度动脉硬化"
+          ],
+          "fidelity_aliases": [
+            "轻度血管硬化",
+            "血管轻度硬化",
+            "轻度动脉硬化"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R22"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R009",
+                "field": "踝肱脉搏波传导速度baPWV结论",
+                "result": "您的血管与同龄人相比轻度硬化"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F06",
+          "label": "心率偏快",
+          "evidence": [
+            "VAL-005-R121",
+            "VAL-005-R124"
+          ],
+          "recognition_aliases": [
+            "心率偏快",
+            "心动过速",
+            "窦速"
+          ],
+          "fidelity_aliases": [
+            "心率偏快"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R44"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R121",
+                "field": "心电图",
+                "result": "PR:138ms　QRS:92ms  心室率:101bpm  心房率:101bpm"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F07",
+          "label": "甲状腺左侧结节",
+          "evidence": [
+            "VAL-005-R113"
+          ],
+          "recognition_aliases": [
+            "甲状腺左侧结节"
+          ],
+          "fidelity_aliases": [
+            "甲状腺左侧结节"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R09"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R113",
+                "field": "甲状腺",
+                "result": "左侧甲状腺结节"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F08",
+          "label": "双侧乳腺片状增厚",
+          "evidence": [
+            "VAL-005-R119"
+          ],
+          "recognition_aliases": [
+            "双侧乳腺片状增厚"
+          ],
+          "fidelity_aliases": [
+            "双侧乳腺片状增厚"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R27"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R119",
+                "field": "乳腺",
+                "result": "双侧片状增厚"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F09",
+          "label": "盆腔少量积液",
+          "evidence": [
+            "VAL-005-R008"
+          ],
+          "recognition_aliases": [
+            "盆腔少量积液",
+            "盆腔积液",
+            "少量盆腔积液"
+          ],
+          "fidelity_aliases": [
+            "盆腔少量积液",
+            "少量盆腔积液"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R37"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R008",
+                "field": "子宫附件检查",
+                "result": "宫颈部位探及数个无回声，较大的约6mm*5mm，边清规则，双卵巢未见明显占位；盆腔内见深11mm液性暗区。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F10",
+          "label": "宫颈数个无回声灶",
+          "evidence": [
+            "VAL-005-R008"
+          ],
+          "recognition_aliases": [
+            "宫颈数个无回声灶"
+          ],
+          "fidelity_aliases": [
+            "宫颈数个无回声灶"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R36"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R008",
+                "field": "子宫附件检查",
+                "result": "宫颈部位探及数个无回声，较大的约6mm*5mm，边清规则，双卵巢未见明显占位；盆腔内见深11mm液性暗区。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-005-F11",
+          "label": "甲状腺左叶两个无回声灶",
+          "evidence": [
+            "VAL-005-R006"
+          ],
+          "recognition_aliases": [
+            "甲状腺左叶两个无回声灶"
+          ],
+          "fidelity_aliases": [
+            "甲状腺左叶两个无回声灶"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R05"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-005-R006",
+                "field": "甲状腺彩超",
+                "result": "甲状腺左叶见两个无回声，较大的3mm×2mm，边清规则，CDFI：其内未见明显血流信号；甲状腺右叶及峡部未见明显占位。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "VAL-006",
+      "status": "有异常结论",
+      "conclusions": [
+        {
+          "finding_id": "VAL-006-F02",
+          "label": "肝内多发无回声灶",
+          "evidence": [
+            "VAL-006-R004"
+          ],
+          "recognition_aliases": [
+            "肝内多发无回声灶"
+          ],
+          "fidelity_aliases": [
+            "肝内多发无回声灶"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R01"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R004",
+                "field": "肝脏检查",
+                "result": "肝区回声密，反射略增强；肝脏内见数个无回声，较大的约16mm×10mm，边清规则。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F03",
+          "label": "肝区回声密、反射略增强",
+          "evidence": [
+            "VAL-006-R004"
+          ],
+          "recognition_aliases": [
+            "肝区回声密、反射略增强"
+          ],
+          "fidelity_aliases": [
+            "肝区回声密、反射略增强"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R15"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R004",
+                "field": "肝脏检查",
+                "result": "肝区回声密，反射略增强；肝脏内见数个无回声，较大的约16mm×10mm，边清规则。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F04",
+          "label": "胆囊壁强回声光点伴彗尾征",
+          "evidence": [
+            "VAL-006-R003"
+          ],
+          "recognition_aliases": [
+            "胆囊壁强回声光点伴彗尾征",
+            "胆囊壁强回声光点伴彗尾征",
+            "胆囊壁点状强回声",
+            "胆囊壁强回声光点"
+          ],
+          "fidelity_aliases": [
+            "胆囊壁强回声光点伴彗尾征"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R03"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R003",
+                "field": "胆系检查",
+                "result": "胆囊壁探及一个强回声光点，大小约2mm×1mm，伴“彗尾征”。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F05",
+          "label": "左肾高回声光点伴彗尾征",
+          "evidence": [
+            "VAL-006-R005"
+          ],
+          "recognition_aliases": [
+            "左肾高回声光点伴彗尾征",
+            "左肾钙化灶",
+            "左肾点状高回声",
+            "左肾高回声光点"
+          ],
+          "fidelity_aliases": [
+            "左肾高回声光点伴彗尾征"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R12"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R005",
+                "field": "双肾检查",
+                "result": "左肾内显示一个高回声光点，伴“彗尾征”，大小约2mm×2mm。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F06",
+          "label": "肝脏质地稍韧",
+          "evidence": [
+            "VAL-006-R113",
+            "VAL-006-R116"
+          ],
+          "recognition_aliases": [
+            "肝脏质地稍韧",
+            "肝脏硬度轻度升高",
+            "肝质稍韧"
+          ],
+          "fidelity_aliases": [
+            "肝脏质地稍韧"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R17"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R116",
+                "field": "肝脏硬度结论",
+                "result": "肝脏质地稍韧"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F07",
+          "label": "中度脂肪肝(肝脏脂肪含量约30%-40%)",
+          "evidence": [
+            "VAL-006-R114",
+            "VAL-006-R115"
+          ],
+          "recognition_aliases": [
+            "中度脂肪肝(肝脏脂肪含量约30%-40%)",
+            "中度脂肪肝"
+          ],
+          "fidelity_aliases": [
+            "中度脂肪肝(肝脏脂肪含量约30%-40%)"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R16"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R114",
+                "field": "肝脏衰减结论",
+                "result": "中度脂肪肝(肝脏脂肪含量约30%-40%)"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F08",
+          "label": "舒张压偏高",
+          "evidence": [
+            "VAL-006-R097",
+            "VAL-006-R099",
+            "VAL-006-R100"
+          ],
+          "recognition_aliases": [
+            "舒张压偏高",
+            "舒张期血压偏高"
+          ],
+          "fidelity_aliases": [
+            "舒张压偏高"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R21"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R099",
+                "field": "血压结论",
+                "result": "舒张压偏高"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F09",
+          "label": "左肺下叶小结节",
+          "evidence": [
+            "VAL-006-R008"
+          ],
+          "recognition_aliases": [
+            "左肺下叶小结节",
+            "左肺下叶结节",
+            "左下肺小结节"
+          ],
+          "fidelity_aliases": [
+            "左肺下叶小结节"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R38"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R008",
+                "field": "肺部CT检查所见",
+                "result": "胸部螺旋CT平扫 两肺上叶及右肺下叶可见索条影，边界清楚，左肺下叶可见结节灶，直径约4mm，边界清楚，余双肺野清晰，未见明显异常密度影。双肺门无明显增大，气管及各叶、段支气管通畅，未见明显狭窄。纵隔内未见明显肿大淋巴结影。双侧胸腔未见明显积液影。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F10",
+          "label": "两肺索条影",
+          "evidence": [
+            "VAL-006-R008"
+          ],
+          "recognition_aliases": [
+            "两肺索条影",
+            "两肺索条影",
+            "双肺索条影",
+            "两肺索条影",
+            "两肺上叶及右肺下叶索条影"
+          ],
+          "fidelity_aliases": [
+            "两肺索条影"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R39"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R008",
+                "field": "肺部CT检查所见",
+                "result": "胸部螺旋CT平扫 两肺上叶及右肺下叶可见索条影，边界清楚，左肺下叶可见结节灶，直径约4mm，边界清楚，余双肺野清晰，未见明显异常密度影。双肺门无明显增大，气管及各叶、段支气管通畅，未见明显狭窄。纵隔内未见明显肿大淋巴结影。双侧胸腔未见明显积液影。"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F11",
+          "label": "扁桃体肥大",
+          "evidence": [
+            "VAL-006-R011"
+          ],
+          "recognition_aliases": [
+            "扁桃体肥大",
+            "扁桃腺肥大"
+          ],
+          "fidelity_aliases": [
+            "扁桃体肥大"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R33"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R011",
+                "field": "咽喉部",
+                "result": "扁桃体肥大"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        },
+        {
+          "finding_id": "VAL-006-F12",
+          "label": "超重",
+          "evidence": [
+            "VAL-006-R112"
+          ],
+          "recognition_aliases": [
+            "超重",
+            "体重超重",
+            "BMI提示超重"
+          ],
+          "fidelity_aliases": [
+            "超重"
+          ],
+          "decision_basis": {
+            "policy_rule_ids": [
+              "R18"
+            ],
+            "primary_support": [
+              {
+                "row_id": "VAL-006-R112",
+                "field": "体重指数",
+                "result": "26.8,超重"
+              }
+            ],
+            "authority": "evaluator reconstruction aid; original row evidence governs; not a supplied doctor review"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "VAL-007",
+      "status": "无异常结论",
+      "conclusions": []
+    },
+    {
+      "case_id": "VAL-008",
+      "status": "无异常结论",
+      "conclusions": []
+    },
+    {
+      "case_id": "VAL-009",
+      "status": "无异常结论",
+      "conclusions": []
+    },
+    {
+      "case_id": "VAL-010",
+      "status": "无异常结论",
+      "conclusions": []
+    }
+  ],
+  "authority": "Evaluator reference with row-level evidence; no doctor final-review source supplied. Reference rules are evaluator-only, not solver instructions.",
+  "policy_sha256": "f0c7948e73813a29bcd692b6576a9fea81b9ccbe18a1970c8e1e9500a01c95c7"
+}

@@ -1,0 +1,33 @@
+schema_version = "1.3"
+artifacts = ["/workspace/artifacts"]
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+[metadata]
+name = "civil-appeal-defendant-first-instance-judgment"
+difficulty = "hard"
+source_language = "zh-CN"
+deliverable_language = "zh-CN"
+[verifier]
+timeout_sec = 900
+environment_mode = "separate"
+user = "root"
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-240}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+[verifier.environment]
+docker_image = "civil-appeal-verifier:1.0"
+network_mode = "public"
+workdir = "/workspace"
+[agent]
+timeout_sec = 3600
+[environment]
+docker_image = "civil-appeal-actor-no-skill:1.0"
+dockerfile = "environment/Dockerfile.no_skill"
+workspace = "environment/workspace"
+network_mode = "no-network"
+workdir = "/workspace"

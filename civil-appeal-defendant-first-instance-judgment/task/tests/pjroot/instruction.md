@@ -1,0 +1,1 @@
+The input is the first instance judgment `materials/原始材料-民事判决书（脱敏版）.pdf`. Acting for the defendant, prepare a civil appeal petition against the judgment. Deliver the appeal petition written in Chinese to `artifacts/civil-appeal-petition.md`.

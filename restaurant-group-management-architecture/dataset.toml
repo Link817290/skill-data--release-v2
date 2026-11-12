@@ -1,0 +1,33 @@
+id = "restaurant-group-management-architecture"
+task_type = "skill-bench"
+domain = "organization-design"
+language = "zh"
+difficulty = "hard"
+deliverable = "workspace/output/control-system-and-long-term-architecture.md"
+required_outputs = ["workspace/output/control-system-and-long-term-architecture.md"]
+network_access = false
+rollouts_included = false
+
+[scoring]
+primary_score = "reward_strict"
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+formula = "positive_earned * product(distinct adopted damage coefficients)"
+rubric = "RUBRIC.md"
+contract = "task/tests/rubric-contract.json"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+semantic_model = "gpt-5.6-sol"
+semantic_protocol = "OpenAI-compatible Responses"
+semantic_replay = "request-bound Golden only; cache miss requires live measurement"
+hard_score_cap = false
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0
+
+[skills]
+names = ["group-control-design"]
+answers_in_skill = false
+network_required = false

@@ -1,0 +1,14 @@
+{
+  "artifact_hashes": {
+    "candidate/products.csv": "8aad0f029f6247945c674543a50e4b6cb03780d79f57b1869a43b8cfee779d17",
+    "golden_meaning/products.csv": "8aad0f029f6247945c674543a50e4b6cb03780d79f57b1869a43b8cfee779d17",
+    "source/products-template.csv": "2a527d1570847fbd3e341c064d1b3bdfb80ccb074285ed99aacc2c8a1b0de6b0",
+    "source/户外家具选款资料.docx": "551b3d81e3008f03423c2c3aa767d79a130eaaf0ade5b2287d6ae9d5e248e706",
+    "source/美国站露营椅选款.pdf": "b93f06bc5207331624e6e94258266336eca9366d959b7a85c8fc040f611c0e17",
+    "facts": "88d819b53d634bb1ac46ab9871eef10ea871f6b97f88d0f3ba40291937929c28"
+  },
+  "request_sha256": "97d07de245fdba1185fd8730c7306ab7936218b38f49485b9be1c909dbf3f44a",
+  "rollout_executed": false,
+  "visual_input": false,
+  "contract_sha256": "7a6dafc33c1ebecb6a959871e37c042fb343e712e04a1ef6b6c562ffcb9844c7"
+}

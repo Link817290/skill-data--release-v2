@@ -1,0 +1,101 @@
+{
+  "workbook_sha256": "b2f77b725afbe9751721af8016e2a1fb2ca07999084c2e499435bcb2e59c9185",
+  "counts": {
+    "formula_cells": 5811,
+    "nonempty_formula_texts": 1600
+  },
+  "scope": "Unambiguous baseline 1:60 QC OD means; differences above 0.001001. Counterfactual rounded floating thresholds, not formal acceptance.",
+  "compared_od_rows": 311,
+  "unresolved_summary_rows": [
+    {
+      "run": "Run53",
+      "sample": "QC-L01",
+      "summary_cell": "K155"
+    },
+    {
+      "run": "Run53",
+      "sample": "QC-L02",
+      "summary_cell": "K156"
+    },
+    {
+      "run": "Run54",
+      "sample": "QC-L01",
+      "summary_cell": "K162"
+    },
+    {
+      "run": "Run54",
+      "sample": "QC-L02",
+      "summary_cell": "K163"
+    }
+  ],
+  "discrepancies": [
+    {
+      "run": "Run30",
+      "sample": "HPC01",
+      "source_sheet": "run30",
+      "source_cell": "B24",
+      "raw_range": "B15:C15",
+      "raw_values": [
+        "2.4957",
+        "2.3547"
+      ],
+      "source_value": "2.425",
+      "summary_sheet": "Sheet1",
+      "summary_cell": "D92",
+      "summary_value": "2.247",
+      "absolute_difference": "0.178",
+      "mismatch": true
+    },
+    {
+      "run": "Run30",
+      "sample": "HPC02",
+      "source_sheet": "run30",
+      "source_cell": "J27",
+      "raw_range": "J18:K18",
+      "raw_values": [
+        "2.4975",
+        "2.5019"
+      ],
+      "source_value": "2.500",
+      "summary_sheet": "Sheet1",
+      "summary_cell": "D93",
+      "summary_value": "2.001",
+      "absolute_difference": "0.499",
+      "mismatch": true
+    },
+    {
+      "run": "Run30",
+      "sample": "LPC01",
+      "source_sheet": "run30",
+      "source_cell": "B23",
+      "raw_range": "B14:C14",
+      "raw_values": [
+        "0.0656",
+        "0.0636"
+      ],
+      "source_value": "0.065",
+      "summary_sheet": "Sheet1",
+      "summary_cell": "D94",
+      "summary_value": "0.067",
+      "absolute_difference": "0.002",
+      "mismatch": true
+    },
+    {
+      "run": "Run30",
+      "sample": "NC03",
+      "source_sheet": "run30",
+      "source_cell": "F29",
+      "raw_range": "F20:G20",
+      "raw_values": [
+        "0.0395",
+        "0.0381"
+      ],
+      "source_value": "0.039",
+      "summary_sheet": "Sheet1",
+      "summary_cell": "D98",
+      "summary_value": "0.037",
+      "absolute_difference": "0.002",
+      "mismatch": true
+    }
+  ]
+}

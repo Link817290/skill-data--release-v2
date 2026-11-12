@@ -1,0 +1,33 @@
+version = "1.0"
+id = "manufacturing-standard-time-reconstruction"
+title = "Manufacturing standard-time workbook reconstruction"
+task_type = "skill-bench"
+domain = "manufacturing-engineering"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/output/standard_time.xlsx"
+required_outputs = ["standard_time.xlsx"]
+network_access = false
+rollouts_included = false
+task = "task"
+stage = "pre-release"
+reward = "continuous-programmatic"
+
+[materials]
+contains_images = false
+image_count = 0
+vision_required = false
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer_version = "manufacturing-source-cycle"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = false
+
+[skills]
+active = ["manufacturing-time-modeling"]

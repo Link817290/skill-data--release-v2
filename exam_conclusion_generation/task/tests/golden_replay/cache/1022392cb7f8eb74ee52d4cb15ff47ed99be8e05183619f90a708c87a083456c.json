@@ -1,0 +1,244 @@
+{
+  "items": [
+    {
+      "id": "VAL-006_A3_G3:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A3_G3:A\", \"conclusion\": \"左肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-006-R005\"], \"explanation\": \"依据 VAL-006-R005 归纳\"}"
+      ],
+      "reason": "候选结论与来源一致，识别出左肾高回声光点及伴随彗尾征。"
+    },
+    {
+      "id": "VAL-006_A3_G3:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A3_G3:B\", \"conclusion\": \"左肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-006-R005\"], \"explanation\": \"依据 VAL-006-R005 归纳\"}"
+      ],
+      "reason": "该名称是对来源所述左肾高回声光点伴彗尾征的标准、直接表述。"
+    },
+    {
+      "id": "VAL-006_A3_G3:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A3_G3:C\", \"conclusion\": \"左肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-006-R005\"], \"explanation\": \"依据 VAL-006-R005 归纳\"}"
+      ],
+      "reason": "结论保留了左肾、光点的高回声性质及彗尾征；2mm×2mm属于可省略的测量细节。"
+    },
+    {
+      "id": "VAL-006_A4_G4:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A4_G4:A\", \"conclusion\": \"肝脏质地稍韧\", \"evidence\": [\"VAL-006-R113\", \"VAL-006-R116\"], \"explanation\": \"依据 VAL-006-R113;VAL-006-R116 归纳\"}"
+      ],
+      "reason": "候选结论准确复现来源明确记录的肝脏质地稍韧。"
+    },
+    {
+      "id": "VAL-006_A4_G4:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A4_G4:B\", \"conclusion\": \"肝脏质地稍韧\", \"evidence\": [\"VAL-006-R113\", \"VAL-006-R116\"], \"explanation\": \"依据 VAL-006-R113;VAL-006-R116 归纳\"}"
+      ],
+      "reason": "肝脏质地稍韧是来源直接给出的、医学上可接受的结论名称。"
+    },
+    {
+      "id": "VAL-006_A4_G4:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A4_G4:C\", \"conclusion\": \"肝脏质地稍韧\", \"evidence\": [\"VAL-006-R113\", \"VAL-006-R116\"], \"explanation\": \"依据 VAL-006-R113;VAL-006-R116 归纳\"}"
+      ],
+      "reason": "候选完整保留肝脏、质地及稍韧程度，未增加来源之外的诊断。"
+    },
+    {
+      "id": "VAL-006_A5_G5:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A5_G5:A\", \"conclusion\": \"中度脂肪肝(肝脏脂肪含量约30%-40%)\", \"evidence\": [\"VAL-006-R114\", \"VAL-006-R115\"], \"explanation\": \"依据 VAL-006-R114;VAL-006-R115 归纳\"}"
+      ],
+      "reason": "候选识别出来源明确记录的中度脂肪肝。"
+    },
+    {
+      "id": "VAL-006_A5_G5:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A5_G5:B\", \"conclusion\": \"中度脂肪肝(肝脏脂肪含量约30%-40%)\", \"evidence\": [\"VAL-006-R114\", \"VAL-006-R115\"], \"explanation\": \"依据 VAL-006-R114;VAL-006-R115 归纳\"}"
+      ],
+      "reason": "中度脂肪肝是来源直接支持的标准医学名称。"
+    },
+    {
+      "id": "VAL-006_A5_G5:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A5_G5:C\", \"conclusion\": \"中度脂肪肝(肝脏脂肪含量约30%-40%)\", \"evidence\": [\"VAL-006-R114\", \"VAL-006-R115\"], \"explanation\": \"依据 VAL-006-R114;VAL-006-R115 归纳\"}"
+      ],
+      "reason": "候选保留了中度程度及肝脏脂肪含量约30%-40%的限定，且未添加额外诊断。"
+    },
+    {
+      "id": "VAL-006_A6_G6:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A6_G6:A\", \"conclusion\": \"舒张压偏高\", \"evidence\": [\"VAL-006-R097\", \"VAL-006-R099\", \"VAL-006-R100\"], \"explanation\": \"依据 VAL-006-R097;VAL-006-R099;VAL-006-R100 归纳\"}"
+      ],
+      "reason": "候选与来源血压结论一致，核心发现为舒张压偏高。"
+    },
+    {
+      "id": "VAL-006_A6_G6:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A6_G6:B\", \"conclusion\": \"舒张压偏高\", \"evidence\": [\"VAL-006-R097\", \"VAL-006-R099\", \"VAL-006-R100\"], \"explanation\": \"依据 VAL-006-R097;VAL-006-R099;VAL-006-R100 归纳\"}"
+      ],
+      "reason": "舒张压偏高是来源直接给出的标准、受支持的结论名称。"
+    },
+    {
+      "id": "VAL-006_A6_G6:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A6_G6:C\", \"conclusion\": \"舒张压偏高\", \"evidence\": [\"VAL-006-R097\", \"VAL-006-R099\", \"VAL-006-R100\"], \"explanation\": \"依据 VAL-006-R097;VAL-006-R099;VAL-006-R100 归纳\"}"
+      ],
+      "reason": "候选完整保留舒张压这一对象及偏高状态；具体数值无需在结论名称中重复。"
+    },
+    {
+      "id": "VAL-006_A7_G7:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A7_G7:A\", \"conclusion\": \"左肺下叶小结节\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "候选正确识别来源中的左肺下叶约4mm结节灶。"
+    },
+    {
+      "id": "VAL-006_A7_G7:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A7_G7:B\", \"conclusion\": \"左肺下叶小结节\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "左肺下叶小结节是对来源所见约4mm结节灶的标准、受支持命名。"
+    },
+    {
+      "id": "VAL-006_A7_G7:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A7_G7:C\", \"conclusion\": \"左肺下叶小结节\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "候选保留左侧、肺下叶和小结节性质；约4mm及边界清楚属于无需重复的证据细节。"
+    },
+    {
+      "id": "VAL-006_A7_G8:A",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A7_G8:A\", \"conclusion\": \"左肺下叶小结节\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "该同键来源的目标发现是两肺上叶及右肺下叶索条影，候选却写成左肺下叶小结节，属于同一来源行中的另一项发现。"
+    },
+    {
+      "id": "VAL-006_A7_G8:B",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A7_G8:B\", \"conclusion\": \"左肺下叶小结节\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "左肺下叶小结节虽在来源行中出现，但不是本同键项目所对应的两肺索条影名称。"
+    },
+    {
+      "id": "VAL-006_A7_G8:C",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A7_G8:C\", \"conclusion\": \"左肺下叶小结节\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "候选未保留本项目应有的双肺范围及索条影性质，反而采用了另一发现的部位和性质。"
+    },
+    {
+      "id": "VAL-006_A8_G7:A",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A8_G7:A\", \"conclusion\": \"两肺索条影\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "该同键来源的目标发现是左肺下叶小结节，候选却写成两肺索条影，属于不同的肺部发现。"
+    },
+    {
+      "id": "VAL-006_A8_G7:B",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A8_G7:B\", \"conclusion\": \"两肺索条影\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "两肺索条影虽受同一来源行支持，但不是本同键项目所对应的左肺下叶小结节名称。"
+    },
+    {
+      "id": "VAL-006_A8_G7:C",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A8_G7:C\", \"conclusion\": \"两肺索条影\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "候选未保留本项目应有的左侧、肺下叶及小结节性质，而采用了另一发现的双肺范围和索条影性质。"
+    },
+    {
+      "id": "VAL-006_A8_G8:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A8_G8:A\", \"conclusion\": \"两肺索条影\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "候选正确识别来源中累及两肺的索条影。"
+    },
+    {
+      "id": "VAL-006_A8_G8:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A8_G8:B\", \"conclusion\": \"两肺索条影\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "两肺索条影是对来源中两肺上叶及右肺下叶索条影的标准、直接命名。"
+    },
+    {
+      "id": "VAL-006_A8_G8:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A8_G8:C\", \"conclusion\": \"两肺索条影\", \"evidence\": [\"VAL-006-R008\"], \"explanation\": \"依据 VAL-006-R008 归纳\"}"
+      ],
+      "reason": "候选保留双肺范围及索条影性质；具体肺叶分布和边界清楚可作为证据细节省略。"
+    },
+    {
+      "id": "VAL-006_A9_G9:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A9_G9:A\", \"conclusion\": \"扁桃体肥大\", \"evidence\": [\"VAL-006-R011\"], \"explanation\": \"依据 VAL-006-R011 归纳\"}"
+      ],
+      "reason": "候选与来源一致，核心发现为扁桃体肥大。"
+    },
+    {
+      "id": "VAL-006_A9_G9:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A9_G9:B\", \"conclusion\": \"扁桃体肥大\", \"evidence\": [\"VAL-006-R011\"], \"explanation\": \"依据 VAL-006-R011 归纳\"}"
+      ],
+      "reason": "扁桃体肥大是来源直接记录的标准医学结论名称。"
+    },
+    {
+      "id": "VAL-006_A9_G9:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A9_G9:C\", \"conclusion\": \"扁桃体肥大\", \"evidence\": [\"VAL-006-R011\"], \"explanation\": \"依据 VAL-006-R011 归纳\"}"
+      ],
+      "reason": "候选完整保留扁桃体这一器官及肥大状态，未遗漏材料限定或增加诊断。"
+    },
+    {
+      "id": "VAL-006_A10_G10:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A10_G10:A\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-006-R112\"], \"explanation\": \"依据 VAL-006-R112 归纳\"}"
+      ],
+      "reason": "候选与体重指数来源结论一致，识别出超重。"
+    },
+    {
+      "id": "VAL-006_A10_G10:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A10_G10:B\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-006-R112\"], \"explanation\": \"依据 VAL-006-R112 归纳\"}"
+      ],
+      "reason": "超重是来源在BMI 26.8旁直接给出的标准、受支持结论。"
+    },
+    {
+      "id": "VAL-006_A10_G10:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-006_A10_G10:C\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-006-R112\"], \"explanation\": \"依据 VAL-006-R112 归纳\"}"
+      ],
+      "reason": "候选保留了超重状态且未添加来源之外的限定；BMI具体数值无需重复。"
+    }
+  ]
+}

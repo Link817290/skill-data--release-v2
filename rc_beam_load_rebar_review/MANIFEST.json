@@ -1,0 +1,157 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "rc_beam_load_rebar_review",
+  "tasks": [
+    "rc_beam_load_rebar_review"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 36,
+  "bytes_excluding_manifest": 3954096,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2135,
+      "sha256": "94eeeb93258f59cfea5fc470cbb356f11641a6b0d6469ce08a40a482234b6244"
+    },
+    "RUBRIC.md": {
+      "bytes": 10885,
+      "sha256": "020b3422054f753c3f8ee487375cb3867aa64506421f696b378e1bf57aeba2d2"
+    },
+    "dataset.toml": {
+      "bytes": 871,
+      "sha256": "620ef70555d9d6ec2e9ab4708420dc5086225f395fffe4aa1d3128696cb94d85"
+    },
+    "golden/beam_review.xlsx": {
+      "bytes": 22662,
+      "sha256": "90a12a03bed2fcb4ff7d87dad39dd9ff7616d8d8cc7de0f2ce159d039c23448e"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 827,
+      "sha256": "c6684e224c1803c18ddf048a3588215d0a497c33a3f00736dd29d2d30607ac06"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 590,
+      "sha256": "91e38f759139f7e4acb8f009db36bc3ec6161cc189177d4b633b76cb7bc427a9"
+    },
+    "task/environment/skills/rc-load-and-rebar-verification/SKILL.md": {
+      "bytes": 6631,
+      "sha256": "0a0fc59ccd595331e9104f12395a923608d106f86d763b176323e990c0c4988d"
+    },
+    "task/environment/skills/rc-load-and-rebar-verification/references/aci-review-boundaries.md": {
+      "bytes": 445,
+      "sha256": "99b10c445486796df06a97535bce1561063cfa916ce63d61e55b9ac69973cf33"
+    },
+    "task/environment/skills/rc-load-and-rebar-verification/references/shear-branch-checklist.md": {
+      "bytes": 355,
+      "sha256": "1fe9a5e6afb1a184b131c95860fd28b821288cabe29a86b09791403dca7246a4"
+    },
+    "task/environment/skills/rc-load-and-rebar-verification/scripts/check_structural_chain.py": {
+      "bytes": 2040,
+      "sha256": "55201e3e0ac3506ae12d0f23b8e47540c5055390aa6c0382f4d6e9debdd89b7c"
+    },
+    "task/environment/skills/structural-evidence-extraction/SKILL.md": {
+      "bytes": 5507,
+      "sha256": "002213cbc3935069ed2dbefac060a6ba222baf475e8b0a4652dddba1d4437236"
+    },
+    "task/environment/skills/structural-evidence-extraction/references/mathml-locator-guide.md": {
+      "bytes": 562,
+      "sha256": "ef812287ba3ff23c33d41d2a8f8b0f0a8ce04d969e4d45664374db5aeda3ebc5"
+    },
+    "task/environment/skills/structural-evidence-extraction/scripts/extract_html_evidence.py": {
+      "bytes": 2429,
+      "sha256": "83b7b01a0e7d16b87aac61d998ca6ff938961e32bf2752bac6d9293b47900a67"
+    },
+    "task/environment/skills/xlsx-formula-audit/SKILL.md": {
+      "bytes": 4941,
+      "sha256": "024bc751310bc04b76a31d8346445b8e90afaafbb6b4d0188017ee715f6292c4"
+    },
+    "task/environment/skills/xlsx-formula-audit/references/status-vocabulary.md": {
+      "bytes": 328,
+      "sha256": "d441320f32f876e1621150684784ee9b1bd00461078cad95264cf2101dfc65c4"
+    },
+    "task/environment/skills/xlsx-formula-audit/references/workbook-closure.md": {
+      "bytes": 408,
+      "sha256": "23607aacb33e2f0dbc22fd58f4b26cd625d9e5c01832dbdf7f045854feb12380"
+    },
+    "task/environment/skills/xlsx-formula-audit/scripts/check_formula_lineage.py": {
+      "bytes": 1412,
+      "sha256": "2c9c9ee33b0fe719a677092e2c0445337e27a0cdea0f113afa03e69e8a2c5bfd"
+    },
+    "task/environment/wheels/et_xmlfile-2.0.0-py3-none-any.whl": {
+      "bytes": 18059,
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+    },
+    "task/environment/wheels/openpyxl-3.1.5-py2.py3-none-any.whl": {
+      "bytes": 250910,
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+    },
+    "task/environment/workspace/materials/beam_design_article.html": {
+      "bytes": 252923,
+      "sha256": "427a003d9822205fb73985a7918a0df545ea44bb1c0aeec620e863c0cbfc3b27"
+    },
+    "task/environment/workspace/materials/load_combinations_excerpt.pdf": {
+      "bytes": 2903403,
+      "sha256": "9c88a6603672388ac508345852378b1309ff168ca74bcc00b918004001b3a1ed"
+    },
+    "task/instruction.md": {
+      "bytes": 901,
+      "sha256": "c98ad19960a8ebdb743d174a2a921ee99fb539abf3553a2216189925e237274b"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 1303,
+      "sha256": "c9cd5cd884375a1e310a0ae2455a4ce91f57f0ef259691d2539d314e974d8bdd"
+    },
+    "task/solution/golden_deliverable.xlsx": {
+      "bytes": 22662,
+      "sha256": "90a12a03bed2fcb4ff7d87dad39dd9ff7616d8d8cc7de0f2ce159d039c23448e"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 19900,
+      "sha256": "04caf3b7bfbfc3ec6694b5ab0b727fe822493ae7e49e0c7aa0b1617d6dbfa8e3"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 1220,
+      "sha256": "bbe041ed53e92f91f1fe0f8eb69ac9abf697577bca14362e9193764b7beafefe"
+    },
+    "task/task.toml": {
+      "bytes": 1338,
+      "sha256": "857f3bb496b30ca38115bddb5b8c8864423cde8654b396eac580ef1d470432fe"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1301,
+      "sha256": "da2296b17204420cac3f78faea9b166be6e4b02a36ba3100283e182028069692"
+    },
+    "task/tests/golden_replay/a06b7bfb896987988fb432ebf1db5c932a5e5e9cc865590d3c5fc497653262fb.json": {
+      "bytes": 4291,
+      "sha256": "cedf05ae2f67f64fe9050d71fa9de1115baa5696b33bb90c93bf27cb7c9aa9df"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 1047,
+      "sha256": "15fe6c9d0d85979e7b1768d58c41ddc504c136cd3d94878c3694884cc9ead4e5"
+    },
+    "task/tests/ground_truth_lineage.json": {
+      "bytes": 1047,
+      "sha256": "c6120c3aa2c3168e1e32dddfb4be9ca53a9439eecba29d97e320e7923162175d"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 354,
+      "sha256": "ce29ca1f42004314f434a84105ad5226f97ac8cfee35c4038262017bcd67a576"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 6526,
+      "sha256": "03e92733a8451554f7094fd75dfbd496f47e8c1070f1f4933ed989fe1202d3ae"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 263350,
+      "sha256": "97259ce269e13f6df42b04ca07c2f6004afc2c312a72a845864ebaa3da60118c"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2583,
+      "sha256": "163caf2f22bb262c6adf61ca9bc3710fcae71ad03ca1bd4d1c3939a4399e04e1"
+    },
+    "task/tests/validator.py": {
+      "bytes": 137950,
+      "sha256": "28df81a808d64ade590e2c2a9102b0f2727df92883e754d0d557d0d45db8445b"
+    }
+  }
+}

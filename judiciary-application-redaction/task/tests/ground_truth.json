@@ -1,0 +1,263 @@
+{
+  "locked_inputs": {
+    "employment_application_record.pdf": "e3e59a04154fca2b44d1ee207b7541b8366359d2f7f4f32d6ded856d9246c074",
+    "withholding_record.pdf": "4c1ed9eb6b6ba67f0b6f8757687b4604ca5015c5dfa80a86ab2e94d322320bd8",
+    "employment_eligibility_record.pdf": "2065783177d9fd6bf1b71d1638aa3b61ac50aba32b2a200bbfa5fab4b77d8d84"
+  },
+  "source_pages": [
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 3029,
+      "widgets": 57,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 2532,
+      "widgets": 53,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 2142,
+      "widgets": 30,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 1450,
+      "widgets": 1,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 1820,
+      "widgets": 32,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 465,
+      "widgets": 8,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 5149,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        614.047,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 4037,
+      "widgets": 0,
+      "annotations": 0
+    }
+  ],
+  "golden_pages": [
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 500,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 2731,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 2442,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 2142,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 1450,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 1820,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 404,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 5019,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        614.047,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 3955,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 587,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 489,
+      "widgets": 0,
+      "annotations": 0
+    },
+    {
+      "rect": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "rotation": 0,
+      "text_chars": 471,
+      "widgets": 0,
+      "annotations": 0
+    }
+  ],
+  "golden_metadata": {
+    "title": "Privacy-Safe Onboarding Review Packet",
+    "author": "",
+    "subject": "HR archival review",
+    "keywords": "restricted; redacted",
+    "creator": "",
+    "producer": ""
+  },
+  "scoring": {
+    "strict": "one weighted continuous score after readability, source-packet, and direct-identifier gates",
+    "reward_alias": "strict"
+  }
+}

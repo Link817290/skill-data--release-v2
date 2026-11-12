@@ -1,0 +1,42 @@
+{
+  "changes": [
+    {
+      "id": "C-HALL-WIDTH",
+      "finding_id": "F-HALL-WIDTH",
+      "element_id": "HALL-ROUTE-01",
+      "status": "proposed for coordination",
+      "action": "remove the existing lower face and construct a parallel replacement face with end connections",
+      "before": {
+        "bottom": 129.367132,
+        "clear_width_in": 40.0,
+        "clear_width_m": 1.016
+      },
+      "after": {
+        "bottom": 126.060045,
+        "clear_width_in": 43.307087,
+        "clear_width_m": 1.1
+      },
+      "reason": "provide a dimensioned concept for the applicable residential egress-route minimum",
+      "coordination": "confirm wall thickness, end connections, structure/services, and adjacent-room impacts before issue for construction",
+      "evidence": "fire_safety_code.pdf, physical page 61, clause 5.5.30"
+    }
+  ],
+  "holds": [
+    {
+      "finding_id": "F-HALL-DOOR",
+      "element_id": "HALL-DOOR-01",
+      "source_handle": "165D",
+      "item": "door clear width and code classification",
+      "observed_plan_line_in": 36.0,
+      "observed_plan_line_m": 0.9144,
+      "reason": "the A-OPENING line does not establish jamb/leaf deductions or whether this internal opening is within the cited door or safety-exit scope"
+    },
+    {
+      "finding_id": "F-HALL-SWING",
+      "element_id": "HALL-DOOR-01",
+      "source_handle": "165D",
+      "item": "door operation",
+      "reason": "source plan does not establish a swing arc; field/design confirmation remains required"
+    }
+  ]
+}

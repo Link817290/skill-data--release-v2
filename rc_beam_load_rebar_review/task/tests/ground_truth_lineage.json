@@ -1,0 +1,18 @@
+{
+  "derived_from": "task/solution/derive_ground_truth.py",
+  "source_materials": [
+    "environment/workspace/materials/beam_design_article.html",
+    "environment/workspace/materials/load_combinations_excerpt.pdf"
+  ],
+  "anchors": {
+    "LC-01": "beam_design_article.html: Description and Shear Strength action paragraphs; load_combinations_excerpt.pdf: Table 5.3.1",
+    "FX-01": "beam_design_article.html: Moment Strength equilibrium and capacity paragraphs",
+    "FX-02": "beam_design_article.html: Moment Strength tension-strain paragraph",
+    "FX-03": "beam_design_article.html: Results reinforcement paragraph",
+    "SH-01": "beam_design_article.html: Shear Strength Equations a, b and c",
+    "SH-02": "beam_design_article.html: Shear Strength trial spacing paragraph",
+    "SH-03": "beam_design_article.html: Shear Strength adopted spacing and capacity paragraphs",
+    "SH-04": "beam_design_article.html: Shear Strength effective-depth note",
+    "SH-05": "beam_design_article.html: Shear Strength final verification paragraph"
+  }
+}

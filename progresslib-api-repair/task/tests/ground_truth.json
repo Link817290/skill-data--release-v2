@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    "negative intervals retain a sign and absolute clock magnitude",
+    "infinite totals use unknown-total formatting",
+    "width limits apply to no-bar and unknown-total formatter returns",
+    "writing and its context tolerate an unavailable standard output stream",
+    "cleanup tolerates construction that failed before normal state exists",
+    "reset applies the constructor's infinite-total policy",
+    "an asynchronous iterable may return a distinct asynchronous iterator",
+    "concurrent map totals follow the shortest sized input",
+    "unknown length hints do not replace known concurrent workload bounds, and all-unsized inputs remain safe",
+    "large-work warnings follow the shortest mapped input",
+    "interpreter-exit monitor handling signals without joining a blocked daemon"
+  ],
+  "report_concepts": ["summary", "defect records", "verification"]
+}

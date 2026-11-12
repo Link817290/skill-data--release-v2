@@ -1,0 +1,441 @@
+{
+  "schema": "golden-semantic-replay-v1",
+  "artifacts": {
+    "template": "9c51667d68d917a8af3d3b1ce50bdfedabb1e59b91e4977d71336c3575e367bc",
+    "case_001": "ed25e1f5e487687684ef6838ccf6f203357687688e4253c747d53e50811bc58c",
+    "case_002": "70fbd2b30ac8c7b25e5cab7abb099008fe0df8b7d0491c2be216b4307f047f1b",
+    "case_003": "e52adbffda9ae568daa4330b734a57f08910deb8ef93b60f822d94404d0e81c1"
+  },
+  "review": {
+    "rubric_sha256": "37a9ff71ed038b4af2e07f9be21fb7a80c6834cfb701dbe6fc65ff1ae4be3316",
+    "golden_contract_sha256": "1e488d31fb9ff10d24bbcf151bd774429da51dadd72472df1e9ec1f5e45b36f5",
+    "source_fact_table_sha256": "e38335c500e545a850c72300eb9f753f43b96834ad2096e1fee6addfd772d618",
+    "reviewer": {
+      "kind": "human",
+      "identity": "source-audited Golden criterion review",
+      "independence": "Reviewed against the issued case images and evaluator source-fact table, independent of rollout condition.",
+      "limitations": [
+        "The Golden is the designated reference; this record verifies criterion coverage and source fidelity rather than estimating model preference."
+      ]
+    },
+    "artifacts": {
+      "template": "9c51667d68d917a8af3d3b1ce50bdfedabb1e59b91e4977d71336c3575e367bc",
+      "case_001": "ed25e1f5e487687684ef6838ccf6f203357687688e4253c747d53e50811bc58c",
+      "case_002": "70fbd2b30ac8c7b25e5cab7abb099008fe0df8b7d0491c2be216b4307f047f1b",
+      "case_003": "e52adbffda9ae568daa4330b734a57f08910deb8ef93b60f822d94404d0e81c1"
+    },
+    "items": [
+      {
+        "id": "B1",
+        "checks": [
+          {
+            "id": "B1.1",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Compared with the Golden template, the submitted template can capture source evidence with comparable semantic completeness."
+          },
+          {
+            "id": "B1.2",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It keeps time point, observation, result, unit, reference interval, and source traceable without forcing them into ambiguous prose."
+          },
+          {
+            "id": "B1.3",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It supports missing findings, repeated tests, and non-laboratory observations as clearly as the Golden template."
+          },
+          {
+            "id": "B1.4",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It remains reusable and fillable rather than embedding answers from these cases."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "checks": [
+          {
+            "id": "B2.1",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Compared with the Golden template, it separates diagnosis, severity, urgency, evidence reliability, and missing information."
+          },
+          {
+            "id": "B2.2",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It supports explicit links among evidence, clinical meaning, supported judgment, and limitations."
+          },
+          {
+            "id": "B2.3",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It provides usable places for symptoms, history, ECG information, unresolved issues, and follow-up actions."
+          },
+          {
+            "id": "B2.4",
+            "met": true,
+            "evidence": [
+              "Golden: template source-audit record",
+              "Submission: identical hash-bound Golden template artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Its organization is comparably reviewable and concise even if its wording or layout differs from the Golden."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "checks": [
+          {
+            "id": "B3.1",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Like the Golden, it concludes that hyperkalemia can neither be diagnosed nor excluded because potassium is not provided."
+          },
+          {
+            "id": "B3.2",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It does not substitute another abnormal result for potassium or turn missing potassium into a normal result."
+          },
+          {
+            "id": "B3.3",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It leaves potassium-based severity undetermined and avoids claiming a confirmed hyperkalemic emergency."
+          },
+          {
+            "id": "B3.4",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It still treats the missing result as requiring prompt clarification rather than as proof of no risk."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "checks": [
+          {
+            "id": "B4.1",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It interprets low ionized calcium, elevated lactate, and bicarbonate-related abnormalities without using them to establish hyperkalemia."
+          },
+          {
+            "id": "B4.2",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It preserves the Golden distinction between a within-range pH and the possibility of an acid-base disorder."
+          },
+          {
+            "id": "B4.3",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It keeps unreported symptoms, history, ECG, kidney function, and specimen quality unknown rather than inventing them."
+          },
+          {
+            "id": "B4.4",
+            "met": true,
+            "evidence": [
+              "Golden: case_001 source-audit record",
+              "Submission: identical hash-bound Golden case_001 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Its proposed potassium testing and clinical follow-up are comparably purposeful and proportionate to the Golden."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "checks": [
+          {
+            "id": "B5.1",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Like the Golden, it bases the hyperkalemia assessment on potassium 6.69 mmol/L rather than on bradycardia alone."
+          },
+          {
+            "id": "B5.2",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It classifies the reported value as severe hyperkalemia, or gives a professionally equivalent risk classification."
+          },
+          {
+            "id": "B5.3",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It treats the report-level diagnosis as established enough to warrant action while still allowing confirmation and specimen review."
+          },
+          {
+            "id": "B5.4",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Diagnosis, severity, and urgency remain mutually consistent throughout the document."
+          }
+        ]
+      },
+      {
+        "id": "B6",
+        "checks": [
+          {
+            "id": "B6.1",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It calls for immediate confirmation of actual heart rate and blood pressure plus ECG assessment and monitoring, comparable to the Golden."
+          },
+          {
+            "id": "B6.2",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It recognizes the recorded bradycardia as a cardiac-risk concern without claiming a personally observed ECG change."
+          },
+          {
+            "id": "B6.3",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It places repeat potassium and specimen-quality review in parallel with risk assessment rather than before all risk attention."
+          },
+          {
+            "id": "B6.4",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Missing symptoms or ECG data do not lead it to downplay the severe reported value."
+          }
+        ]
+      },
+      {
+        "id": "B7",
+        "checks": [
+          {
+            "id": "B7.1",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It treats low TCO2 and high anion gap as acid-base clues without inventing pH, blood-gas results, or the degree of acidemia."
+          },
+          {
+            "id": "B7.2",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It does not infer a unique cause such as renal failure or ketoacidosis from the available chemistry alone."
+          },
+          {
+            "id": "B7.3",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It does not state that bradycardia is proven to be caused by hyperkalemia."
+          },
+          {
+            "id": "B7.4",
+            "met": true,
+            "evidence": [
+              "Golden: case_002 source-audit record",
+              "Submission: identical hash-bound Golden case_002 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Its proposed ECG, vital signs, repeat testing, specimen review, kidney function, blood gas, and history checks have purposes comparable to the Golden."
+          }
+        ]
+      },
+      {
+        "id": "B8",
+        "checks": [
+          {
+            "id": "B8.1",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Like the Golden, it interprets 2.90 mmol/L as an earlier low result that does not negate the later high results."
+          },
+          {
+            "id": "B8.2",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It retains both 6.84 and 6.71 mmol/L and classifies both as severe, or uses a professionally equivalent risk classification."
+          },
+          {
+            "id": "B8.3",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It aligns diagnosis, severity, and urgency with the three time points rather than merging them into one static state."
+          },
+          {
+            "id": "B8.4",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It calls for immediate ECG assessment, monitoring, and confirmation despite missing symptoms or the slightly lower second high value."
+          }
+        ]
+      },
+      {
+        "id": "B9",
+        "checks": [
+          {
+            "id": "B9.1",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It explains that two same-day high values reinforce one another while their independence depends on distinct specimens or collections."
+          },
+          {
+            "id": "B9.2",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It preserves possible collection, labeling, transport, or testing problems rather than claiming repetition eliminated all error."
+          },
+          {
+            "id": "B9.3",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It does not invent supplementation, medication, treatment, or another cause for the low-to-high change."
+          },
+          {
+            "id": "B9.4",
+            "met": true,
+            "evidence": [
+              "Golden: case_003 source-audit record",
+              "Submission: identical hash-bound Golden case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: It does not call 6.84 to 6.71 a treatment response or recovery and proposes the relevant records and confirmation checks."
+          }
+        ]
+      },
+      {
+        "id": "B10",
+        "checks": [
+          {
+            "id": "B10.1",
+            "met": true,
+            "evidence": [
+              "Golden: template, case_001, case_002, case_003 source-audit record",
+              "Submission: identical hash-bound Golden template, case_001, case_002, case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: The three completed documents use the submitted template coherently while achieving semantic coverage comparable to their Golden counterparts."
+          },
+          {
+            "id": "B10.2",
+            "met": true,
+            "evidence": [
+              "Golden: template, case_001, case_002, case_003 source-audit record",
+              "Submission: identical hash-bound Golden template, case_001, case_002, case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: Within each case, evidence, assessment, reasoning, limitations, and follow-up do not materially conflict."
+          },
+          {
+            "id": "B10.3",
+            "met": true,
+            "evidence": [
+              "Golden: template, case_001, case_002, case_003 source-audit record",
+              "Submission: identical hash-bound Golden template, case_001, case_002, case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: The documents keep cases separate and avoid cross-case conclusions or evidence substitution."
+          },
+          {
+            "id": "B10.4",
+            "met": true,
+            "evidence": [
+              "Golden: template, case_001, case_002, case_003 source-audit record",
+              "Submission: identical hash-bound Golden template, case_001, case_002, case_003 artifact"
+            ],
+            "reason": "Source audit confirms the designated reference satisfies: The portfolio is concise, editable, and professionally reviewable without being rewarded merely for visual polish or verbosity."
+          }
+        ]
+      }
+    ],
+    "unscored_observations": []
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schema": "task-files-v1",
+  "task": "garbage-transport-jurisdiction",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 945,
+      "sha256": "72871c4bf0ca4447d6f56ef4ad70e2cb5b302a7d30a6262443fec0fb3c332e6f"
+    },
+    {
+      "path": "RUBRIC.md",
+      "bytes": 4682,
+      "sha256": "329911b665081a1393277742f2a727c800674c4e1546a01bf726cdf9e912a557"
+    },
+    {
+      "path": "dataset.toml",
+      "bytes": 561,
+      "sha256": "41960b7203faa49ffa10b64403e8fad587e1f8a22dba59d34a4e44a3472b9652"
+    },
+    {
+      "path": "golden/feng-request.docx",
+      "bytes": 16202,
+      "sha256": "cb51715467c968ff3683d3f90029d4bffa4c15fd05b21870a81fd103af7a1289"
+    },
+    {
+      "path": "golden/jurisdiction.docx",
+      "bytes": 16462,
+      "sha256": "9f893e8475c9f24fbafa4e573d47a00034c4b347ae9bb72a8efad976ad418a42"
+    },
+    {
+      "path": "golden/tian-request.docx",
+      "bytes": 16193,
+      "sha256": "d1a4a5825096fc2b963f8e1219835040438e917de46b8faa7ce51b99d926d86a"
+    },
+    {
+      "path": "task/environment/Dockerfile",
+      "bytes": 712,
+      "sha256": "42acb81d960bedb72526380d52665b7884b5e531772ad549801337a80b1095c5"
+    },
+    {
+      "path": "task/environment/Dockerfile.verifier",
+      "bytes": 292,
+      "sha256": "97995129f133ebb917ad5a5e168f3a1a7095b19dca4766d940dd3af92e6102d7"
+    },
+    {
+      "path": "task/environment/skills/litigation-evidence-preparation/SKILL.md",
+      "bytes": 1893,
+      "sha256": "cacc67f6e8d898796433d8ec6479774b63e55f546e6b8d3c8319473ae6167fae"
+    },
+    {
+      "path": "task/environment/skills/litigation-evidence-preparation/references/evidence-requests.md",
+      "bytes": 3435,
+      "sha256": "bdf042c650a5e384519b48c613bb998f6c9011be80f5e83aa982d33ac54f3a8a"
+    },
+    {
+      "path": "task/environment/skills/litigation-evidence-preparation/references/jurisdiction-analysis.md",
+      "bytes": 3160,
+      "sha256": "e0ba28df1175a682b3109eb86da1d59b7c9c7a8c8ec20bf184ebe5c3954dd346"
+    },
+    {
+      "path": "task/environment/workspace/materials/case-background.md",
+      "bytes": 1918,
+      "sha256": "08cc21b9c084cb14f7fe760cb633be8b4e02dfcf423b4bac89e3e2b55a61e746"
+    },
+    {
+      "path": "task/environment/workspace/materials/court-review.pdf",
+      "bytes": 221505,
+      "sha256": "c4c1293bc8e0ff50de5ee2520a5b7e79c95d75f38ecf5d158164d56e79a52121"
+    },
+    {
+      "path": "task/environment/workspace/materials/transport-evidence.pdf",
+      "bytes": 7883031,
+      "sha256": "50306beaf0015716e8802843f45c1eb459d031eb8962072a386033e77406a9ef"
+    },
+    {
+      "path": "task/environment/workspace/source_manifest.json",
+      "bytes": 786,
+      "sha256": "b774bc397dead9e11650bab473779327c7105693fa88435ec31f1272e6681ccc"
+    },
+    {
+      "path": "task/instruction.md",
+      "bytes": 452,
+      "sha256": "553b2b562d16ee6110e6c55311c2505cc2b29236d56b276d2218d3379da06c5f"
+    },
+    {
+      "path": "task/rubric-contract.json",
+      "bytes": 80084,
+      "sha256": "160a1a048edf2c79ca503ab3d020378272c405ee5cc6f2704f5b544dfd0d10f2"
+    },
+    {
+      "path": "task/solution/solve.sh",
+      "bytes": 363,
+      "sha256": "9c0b1a1b7610bc3aac78f6a5a6ad3539ae19939f36b91410d67eeff1a568f337"
+    },
+    {
+      "path": "task/task.toml",
+      "bytes": 1224,
+      "sha256": "f8a4a6d7d7d91c1c4ec7aeabcc40364e517c869fb3cd705a04f8f68c17570aa9"
+    },
+    {
+      "path": "task/task_no_skill.toml",
+      "bytes": 1172,
+      "sha256": "95dfb873bcf3d4b9d59240883e57eef0764b81ba73978e98d2ca87fab4b51a52"
+    },
+    {
+      "path": "task/tests/mix_judge/apply.py",
+      "bytes": 7570,
+      "sha256": "017bbbb05ad21ce9d8573a5b61b0860c5bea8db885a74239b269cc3e2bb521d7"
+    },
+    {
+      "path": "task/tests/mix_judge/cache/live/f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa/evidence.json",
+      "bytes": 14508,
+      "sha256": "ce1ed342670bcdc726c55f8b42e5cbbd43af1430ee66886715477798b6f6c39c"
+    },
+    {
+      "path": "task/tests/mix_judge/cache/live/f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa/manifest.json",
+      "bytes": 289,
+      "sha256": "ae492ff17d5c0e7063af178622068e0249d01ca53a9d010d8672bd44947de83b"
+    },
+    {
+      "path": "task/tests/mix_judge/cache/live/f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa/request.json",
+      "bytes": 90575,
+      "sha256": "f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa"
+    },
+    {
+      "path": "task/tests/mix_judge/cache/live/f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa/response-1.json",
+      "bytes": 12189,
+      "sha256": "ce74d7ef2882fcc474dc3d3d032f51ee1f4b277f66b896841cc521d48d5f4840"
+    },
+    {
+      "path": "task/tests/mix_judge/cache/live/f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa/review.json",
+      "bytes": 50304,
+      "sha256": "c439b5fd323c0fcb07790e5cee04a506faf37e20a4009c4a69cd1973df96bd01"
+    },
+    {
+      "path": "task/tests/mix_judge/contract.json",
+      "bytes": 800,
+      "sha256": "6f29f5ab94522a408f767f5f188fc891b256557689c1ca8ed63977c4fd595a21"
+    },
+    {
+      "path": "task/tests/mix_judge/judge.py",
+      "bytes": 7091,
+      "sha256": "b08859ff9833bd47fd9b7425cf722b5256ce33cbdac3fb2ecfc143f7e206fe12"
+    },
+    {
+      "path": "task/tests/mix_judge/manifest.json",
+      "bytes": 1382,
+      "sha256": "6c65e1a1f0098f8a87ff7345ef271eb5f70301fae070baed355b98237f3330e2"
+    },
+    {
+      "path": "task/tests/mix_judge/prompt.md",
+      "bytes": 2083,
+      "sha256": "2cdb3c67fc133e7aa886426abfd970a0665ef0e233f4d899849e2c5684e3933b"
+    },
+    {
+      "path": "task/tests/mix_judge/response.schema.json",
+      "bytes": 1612,
+      "sha256": "7e3fe50f3b5c853f144df241c3fee95c2d1fa23cb2de14cfb4185748f0c3a603"
+    },
+    {
+      "path": "task/tests/mix_judge/semantic_live.py",
+      "bytes": 13069,
+      "sha256": "1095857a82d05ccc667afe8c719487054c17b3aa9747c04e40d4329b4311014b"
+    },
+    {
+      "path": "task/tests/mix_judge/settings.json",
+      "bytes": 140,
+      "sha256": "6144a34e4c4053b788a7951ffd4c109e1514db9e0939de1b17b2cef7c3d2b9c8"
+    },
+    {
+      "path": "task/tests/program_judge/judge-conformance-suite.json",
+      "bytes": 4087,
+      "sha256": "0c57f3e4f9ba364dc3de42f577a63056d30d188ed7c19ba3ba890e32a57da5f9"
+    },
+    {
+      "path": "task/tests/program_judge/program_judge_runtime.py",
+      "bytes": 24039,
+      "sha256": "667c1386c1f689011e0daf03a155d52eafa1732c620ed34f6caf2ee2114835ce"
+    },
+    {
+      "path": "task/tests/program_judge/task_judge.py",
+      "bytes": 29807,
+      "sha256": "bc719bb3d759aa5d06dde8da3924564c19d8ef8379e14d364572422ea3f71056"
+    },
+    {
+      "path": "task/tests/rubric-contract.json",
+      "bytes": 80084,
+      "sha256": "160a1a048edf2c79ca503ab3d020378272c405ee5cc6f2704f5b544dfd0d10f2"
+    },
+    {
+      "path": "task/tests/source_manifest.json",
+      "bytes": 979,
+      "sha256": "7c6cd7d727d28b4ca62d98e0f43e54affeb10bb24341ee6971a20e801a54ccac"
+    },
+    {
+      "path": "task/tests/test.sh",
+      "bytes": 2253,
+      "sha256": "bfff69d41fd1457eabdfe6e62844ecef0fa1a314467c13fd8a2bc92209cacf4d"
+    },
+    {
+      "path": "task/tests/validator.py",
+      "bytes": 1970,
+      "sha256": "d0fb48c52244aa5e9b0ea2218fdcd420af443f48a22774a70039fc4139e9b20f"
+    }
+  ],
+  "path_base": "github_task_root",
+  "self_excluded": "task/MANIFEST.json"
+}

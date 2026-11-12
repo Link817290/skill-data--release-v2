@@ -1,0 +1,38 @@
+id = "hyperkalemia-diagnostic-reasoning-no-skill"
+title = "Hyperkalemia diagnostic reasoning (no skill)"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+
+[metadata]
+tags = ["clinical-reasoning", "hyperkalemia", "laboratory-records", "docx", "image-extraction", "no-skill"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+verifier_dockerfile = "environment/Dockerfile.verifier"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 600.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/output/hyperkalemia_reasoning_template.docx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"

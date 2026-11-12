@@ -1,0 +1,33 @@
+{
+  "schema_version": "environmental-acceptance-review-responsibility-owners-v1",
+  "score_rule": "harmonic-balance-of-owner-breadth-and-critical-evidence-controls",
+  "critical_controls": [
+    "polymer_load",
+    "censored_nd",
+    "fume_efficiency",
+    "laboratory_stack_derating"
+  ],
+  "owners": {
+    "dossier_consistency": {
+      "weight": 0.20,
+      "items": ["artifact_contract", "product_mapping", "polymer_load", "investment_basis", "operating_coverage"]
+    },
+    "measurement_interpretation": {
+      "weight": 0.30,
+      "items": ["exhaust_rate", "noise", "phosphorus", "censored_nd"]
+    },
+    "criterion_applicability": {
+      "weight": 0.30,
+      "items": ["canteen_nmhc_scope", "source_height_limits", "annual_voc", "fume_outlet", "fume_efficiency", "laboratory_stack_derating"]
+    },
+    "evidence_bounded_disposition": {
+      "weight": 0.20,
+      "items": ["waste_classification", "targeted_records", "conditional_conclusion"]
+    }
+  },
+  "lenient": {
+    "type": "independent-binary",
+    "minimum_owner_score": 0.5,
+    "minimum_critical_control_score": 0.5
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "hydrology-citation-reconciliation",
+  "tasks": [
+    "hydrology-citation-reconciliation"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 27,
+  "bytes_excluding_manifest": 1484748,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2009,
+      "sha256": "6d471d0d5344c77f9c9ca949daded33ecec08448fb00f91a4c57a76bbf603bda"
+    },
+    "RUBRIC.md": {
+      "bytes": 16607,
+      "sha256": "c7227531e0685908d762ccb88276fc3f170fd87e97467ed179d060a59e1176d9"
+    },
+    "dataset.toml": {
+      "bytes": 694,
+      "sha256": "b9925ef3129ee46b13ae2dd85718d820215daac13fcf54eee48ca4f94fd77eec"
+    },
+    "golden/citation_reconciliation.md": {
+      "bytes": 39867,
+      "sha256": "7416fd4cb72824abfe6464db94e853fe875d9143513708338278c02d274ec5e9"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 605,
+      "sha256": "0f40895a124222b855f5940a4b950781fabfd8667543931a4a24a0c4b5530538"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 528,
+      "sha256": "ecd4e0da304dfadde34407eed1a9edc5c1d629472ea8a84a67970c84e1d56a36"
+    },
+    "task/environment/skills/author-date-citation-inventory/SKILL.md": {
+      "bytes": 8520,
+      "sha256": "f4d876fac4be730a25c8b0a928098ca08fb92b4cd9fc0848810c18e78d7b45f8"
+    },
+    "task/environment/skills/bibliographic-identity-resolution/SKILL.md": {
+      "bytes": 6642,
+      "sha256": "8457f9101c24fe72f04510ccb680105ba3fef1dc55ff01eb80302d661b317dc1"
+    },
+    "task/environment/skills/citation-discrepancy-disposition/SKILL.md": {
+      "bytes": 7126,
+      "sha256": "880994d4d5be914aa334b1c518664f6a0c90d1f42ec5ad46039da23fa32a704b"
+    },
+    "task/environment/skills/pdf-layout-text-extraction/SKILL.md": {
+      "bytes": 5052,
+      "sha256": "0a3b0d648cacb2d7d6a7b4cd974050e56f9c95c4f54ff3564c93124cfacc9cf0"
+    },
+    "task/environment/skills/pdf-layout-text-extraction/scripts/extract_pdf_pages.py": {
+      "bytes": 2277,
+      "sha256": "8e15bee1f568ba2e2d4886602dfb4a7ba15cd004590ecc4137206544e21f4fa6"
+    },
+    "task/environment/workspace/materials/hydrology_manuscript.pdf": {
+      "bytes": 923034,
+      "sha256": "55eb299c521ddcba76991e3de46ad205cb8a08be8f1b5f8c4a48ff6d01e74ed7"
+    },
+    "task/instruction.md": {
+      "bytes": 2697,
+      "sha256": "b893bcfefb86175ae3c022ea3be67d49d5a1d96d3468b42b0f76a69006cf541b"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 7685,
+      "sha256": "6881726ba06dd0e6dab1c1c5c0d7d13119e0f3667690d88ab464604b2024d896"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 63397,
+      "sha256": "366b78c0b66c1584b97c55f96ea5dac1b772eb7d9c788822fb86e5edc598842a"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 147,
+      "sha256": "898389dcc527405b83b207df3300ff42f3af43d40d2b9d39bb1bcf7c7f8d0bf1"
+    },
+    "task/task.toml": {
+      "bytes": 1578,
+      "sha256": "6f1c2a1a3ef70e7e04a5a4c27544d95f310483e68ba7c59fc8ef6d75b9e49630"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1387,
+      "sha256": "e458dbc4a351111e2b2ad341da5d9219cc46b6248240025c26d0283b1f56fbbf"
+    },
+    "task/tests/golden_replay/9dba8ffd9fa0d3849fc51b841c260ad14e16cbe92e89a66c5463d38ff54b1892.json": {
+      "bytes": 11594,
+      "sha256": "ecd6a1332b4f45d8dc5086301a70bbc615191fd2ddb7bfa180bebb0644f40f83"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 61086,
+      "sha256": "9e7638047949334336828e35855c7856136c8fd022da7c978dd5e876fe1a5d1f"
+    },
+    "task/tests/manuscript_text.txt": {
+      "bytes": 95263,
+      "sha256": "c42f199abe81232f97f1867947c973b1b4e67712420e95a33080b8a54c04e2b4"
+    },
+    "task/tests/rebuilt_units.json": {
+      "bytes": 35069,
+      "sha256": "9ef243494c6deda370dcd9304cbbe92aaf8d6f85912f548a0173b93d2d422ddd"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 552,
+      "sha256": "301df8e7c35d8a3a399868d6085486a1cbc680d8d7627be8c7087e999fcc4569"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 10759,
+      "sha256": "6c7f0a1d41716c5bfe86310a18449bc6a0d50c5eff3e1da68148d7b48ca288a4"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 56789,
+      "sha256": "ee43c8e10f3daffd51f6e3d33b7fa486ee7fab4457f89e2584476e647e0b59e4"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2217,
+      "sha256": "47b85094a3047f50a57d7bbb3db33a22fb1461d4f77107923ef8c60ad3313dd4"
+    },
+    "task/tests/validator.py": {
+      "bytes": 121567,
+      "sha256": "ef1b2321c0df976d95aa3ede0dc82e15d48027f797400668a473271e522660ab"
+    }
+  }
+}

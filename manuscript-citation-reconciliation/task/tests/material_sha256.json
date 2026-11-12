@@ -1,0 +1,8 @@
+{
+ "schema": "material-sha256-v1",
+ "files": {
+  "manuscript_alternate.docx": "eab898f80e6302df64d59adc14d26bc706e94396b71aa10a501ca60ea9f2cf81",
+  "manuscript_current.docx": "30540a830c7c29bab719bfe6cc2b29a56b94304ffde3d1c13e07d5e1d4f8cac7",
+  "manuscript_early.docx": "e26aa0d6481c74d4dcc289c67e79f49bef32dcc8ddf2192f5d22f97126706419"
+ }
+}

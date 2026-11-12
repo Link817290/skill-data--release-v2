@@ -1,0 +1,19 @@
+{
+    "files":  [
+                  {
+                      "path":  "materials/case-background.md",
+                      "bytes":  1918,
+                      "sha256":  "08cc21b9c084cb14f7fe760cb633be8b4e02dfcf423b4bac89e3e2b55a61e746"
+                  },
+                  {
+                      "path":  "materials/court-review.pdf",
+                      "bytes":  221505,
+                      "sha256":  "c4c1293bc8e0ff50de5ee2520a5b7e79c95d75f38ecf5d158164d56e79a52121"
+                  },
+                  {
+                      "path":  "materials/transport-evidence.pdf",
+                      "bytes":  7883031,
+                      "sha256":  "50306beaf0015716e8802843f45c1eb459d031eb8962072a386033e77406a9ef"
+                  }
+              ]
+}

@@ -1,0 +1,12 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/environment/workspace/ /workspace/
+RUN python3 -c "import docx" \
+    && command -v pdftotext \
+    && chmod +x /tests/test.sh \
+    && mkdir -p /workspace/output /logs/verifier /logs/artifacts
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+CMD ["/bin/sh"]

@@ -1,0 +1,46 @@
+version = "1.0"
+id = "replay-buffer-seed-builder"
+title = "Replay buffer seed from a corrected grasp trajectory"
+task_type = "skill-bench"
+domain = "embodied-data-engineering"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/output/replay_buffer_seed.jsonl"
+required_outputs = ["replay_buffer_seed.jsonl"]
+network_access = false
+rollouts_included = false
+task = "task"
+stage = "pre-release"
+reward = "continuous-programmatic"
+
+# The standard matrix. No rollout has been run for this package on this line,
+# so all four slots are recorded as not yet run.
+[rollout_expectations]
+opus_with_skill = 5
+opus_no_skill = 2
+model2_with_skill = 16
+model2_no_skill = 2
+
+[materials]
+contains_images = false
+image_count = 0
+vision_required = false
+# The materials are a .npz state array, a phase annotation JSON and a training
+# script - all text, or binary that numpy opens. A text-only model can serve as
+# the control condition.
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer_version = "1.0.0"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+judge_model = "gpt-5.6-sol"
+judge_protocol = "openai-responses"
+
+[skills]
+active = ["replay-seed-method"]

@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "P02",
+      "fraction": 1.0,
+      "quotes": [
+        "1.《鉴定报告》“可确定项目造价”仅计取直接工程费并排除措施费、企业管理费、利润、规费和税金。是否计取这些项目，不能仅凭原告身份或费用名称决定，应结合双方计价约定、定额适用范围、原告实际承担的施工组织、管理、安全措施及法定费用逐项审查。原告主张其确有相关投入的，应提交工资、社保、现场管理、安全文明施工及税费票据等可核证材料；证据不足的部分不应当然计入。",
+        "2.《鉴定报告》排除计取各项费用缺乏合同与法律依据，导致利益严重失衡。原、被告双方未签订书面合同，对计价方式无明确约定。在此情况下，参照定额计价应遵循其完整规则。根据《建筑安装工程费用项目组成》（44号文）及行业惯例，上述费用均是构成工程造价的法定和必要组成部分。原告作为实际施工人，已实际承担了相应的管理、组织等成本与义务。鉴定机构以原告为“个人”“劳务分包”为由排除计取，实质上是让原告承担了本应由价款覆盖的成本，而使被告不当获利，显失公平。"
+      ],
+      "reason": "The applicant connects management, organization, and safety-measure fees to actual site expenditures and requires review of supporting records. It rejects automatic inclusion where proof is lacking while also arguing that wholesale exclusion improperly shifts actual management and organization costs to the claimant."
+    },
+    {
+      "id": "P07",
+      "fraction": 1.0,
+      "quotes": [
+        "二、关于“帮工费用”的争议：原被告从未就赶工事宜达成任何合意，汪正文也从未委托李林友请帮工，更未以任何形式事后追认帮工的数量及金额，被告称付给帮工的211160元、1063645元应算作已支付给汪正文的款项缺乏事实与法律依据。",
+        "原告对“帮工”事宜不知情且未予追认。根据证人蒋振华的当庭证言，其系受“李林红”电话招用，工资与“李林红”结算，由“李林红”支付，其不认识原告汪正文，进场前也不认识原告带班陈海龙。该证据恰恰证明，所谓的“帮工”是被告（或关联方）单方面组织、雇佣和结算，未与原告建立合同关系，也从未将用工明细、费用金额交由原告确认。蒋振华作为仅提供劳务的钢筋工，对老板们之间的关系、合作，甚至李林宏是否为上海七建的人均不了解，相关表述不能证明任何与蒋振华本人无直接关联的事实。",
+        "关于已付款金额，第一次庭审中原告按代发工资4,885,400元陈述，被告按4,890,500元陈述，二者相差5,100元；分别加上双方无异议的150,000元转账，对应直接付款合计为5,035,400元和5,040,500元。该差异尚未核清，不能静默选择其中一个口径。法院应按付款日期、付款人、收款人、用途和对应工程逐笔制作对账表。两笔帮工费用应与直接付款分账，是否属于向原告支付的工程款仍须另行审查招用、结算、授权或追认依据，不能因被告主张支付即直接并入已付款。"
+      ],
+      "reason": "The applicant separately identifies 211,160 and 1,063,645, and explains that the helper payments were recruited, settled, and paid outside the claimant relationship. It requires transaction-specific confirmation, authorization, or ratification before either amount can be treated as payment attributable to the claimant."
+    },
+    {
+      "id": "P08",
+      "fraction": 1.0,
+      "quotes": [
+        "原告对“帮工”事宜不知情且未予追认。根据证人蒋振华的当庭证言，其系受“李林红”电话招用，工资与“李林红”结算，由“李林红”支付，其不认识原告汪正文，进场前也不认识原告带班陈海龙。该证据恰恰证明，所谓的“帮工”是被告（或关联方）单方面组织、雇佣和结算，未与原告建立合同关系，也从未将用工明细、费用金额交由原告确认。蒋振华作为仅提供劳务的钢筋工，对老板们之间的关系、合作，甚至李林宏是否为上海七建的人均不了解，相关表述不能证明任何与蒋振华本人无直接关联的事实。"
+      ],
+      "reason": "The applicant identifies who recruited and paid the witness, states that the witness did not know the claimant or the relevant contractual relationship, and emphasizes the witness's lack of personal knowledge about the relationships among the parties and whether the payer was connected to the defendant company."
+    },
+    {
+      "id": "P09",
+      "fraction": 1.0,
+      "quotes": [
+        "陈海龙的签字不构成对原告的表见代理或有效追认。被告称部分帮工结算单有“陈海龙”签字。首先，陈海龙仅为现场带班人员，负责生产安排，并无对外雇佣人员、确认大额工程款项的经济决策权和代理权。其次，在原告对此明确否认，且陈海龙本人未出庭说明的情况下，仅凭单方制作的单据上的签名，不能认定其行为代表原告或构成原告对费用的追认。法庭若径行认定，将实质处分案外人陈海龙的实体权利，程序不当。",
+        "关于“帮工”原因及费用归属，应审查赶工由谁决定、人员由谁招用和结算、原告是否事前授权或事后追认，以及双方有无费用承担约定。现有材料不足以证明两笔帮工费当然属于向原告支付的工程款，因此在上述关系和金额核清前，不应直接从原告工程价款中冲抵。"
+      ],
+      "reason": "The applicant distinguishes the foreman's limited production-arrangement role and signature from authority to employ workers, confirm large payments, bind the claimant, or ratify the expense. It separately requires examination of prior authorization or later ratification rather than treating the signature alone as sufficient."
+    },
+    {
+      "id": "P10",
+      "fraction": 1.0,
+      "quotes": [
+        "关于已付款金额，第一次庭审中原告按代发工资4,885,400元陈述，被告按4,890,500元陈述，二者相差5,100元；分别加上双方无异议的150,000元转账，对应直接付款合计为5,035,400元和5,040,500元。该差异尚未核清，不能静默选择其中一个口径。法院应按付款日期、付款人、收款人、用途和对应工程逐笔制作对账表。两笔帮工费用应与直接付款分账，是否属于向原告支付的工程款仍须另行审查招用、结算、授权或追认依据，不能因被告主张支付即直接并入已付款。"
+      ],
+      "reason": "The applicant preserves both direct-payment figures, 4,885,400 and 4,890,500, identifies the 5,100 discrepancy, adds the separate 150,000 transfer to reach 5,035,400 and 5,040,500, and directs that the two helper payments remain separately accounted for unless independently proved."
+    },
+    {
+      "id": "P11",
+      "fraction": 1.0,
+      "quotes": [
+        "原告对“帮工”事宜不知情且未予追认。根据证人蒋振华的当庭证言，其系受“李林红”电话招用，工资与“李林红”结算，由“李林红”支付，其不认识原告汪正文，进场前也不认识原告带班陈海龙。该证据恰恰证明，所谓的“帮工”是被告（或关联方）单方面组织、雇佣和结算，未与原告建立合同关系，也从未将用工明细、费用金额交由原告确认。蒋振华作为仅提供劳务的钢筋工，对老板们之间的关系、合作，甚至李林宏是否为上海七建的人均不了解，相关表述不能证明任何与蒋振华本人无直接关联的事实。",
+        "关于“帮工”原因及费用归属，应审查赶工由谁决定、人员由谁招用和结算、原告是否事前授权或事后追认，以及双方有无费用承担约定。现有材料不足以证明两笔帮工费当然属于向原告支付的工程款，因此在上述关系和金额核清前，不应直接从原告工程价款中冲抵。"
+      ],
+      "reason": "The applicant attributes the one-sided organization, hiring, and settlement of the helper arrangement to the defendant or its related party, then states that the cause, hiring, settlement, authorization, and allocation of the rush-work costs must be examined. Absent that basis, the amounts should not be offset against the claimant's construction price."
+    },
+    {
+      "id": "P12",
+      "fraction": 1.0,
+      "quotes": [
+        "一、关于案涉工程造价认定：《鉴定报告》中“可确定项目造价”4,468,031元严重偏离正常合理价格水平，案涉工程造价应完整计取措施费、管理费、规费、利润以及税金。",
+        "4.鉴定机构的“可确定项目造价”仍是证据之一，其计价范围和排除理由应由法庭审查。原告提交的价格指导手册及其他项目材料只能作为市场比较线索；需先核对项目地域、期间、工作内容、质量标准和计价口径是否可比，不能直接替代本案工程量与计价依据。原告提出的工程造价总额7,507,771元同样属于依据鉴定系列材料形成的争议主张，不是鉴定机构已认证或法院已确认的总价，应逐项核验其组成、范围和有无重复；如材料仍不能复算，应由鉴定机构补充说明后再由法院确定。",
+        "四、请求事项与待核清单：原告维持变更后的工程款本金2,467,271元及暂计利息316,135.13元请求，但两项数额均应接受证据核验。请法院在确认鉴定可确定项目及争议计价项目后，核验7,507,771元的组成并扣除逐笔核实的5,035,400元或5,040,500元直接付款；如现有材料不足以复算，应责令鉴定机构补充说明或补充鉴定，再以完整造价减去核实付款确定本金。对424吨二次结构是否漏计、管理费、措施费、规费、利润和税金是否实际发生及应否计取分别说明理由。利息以法院最终认定的欠付本金、具备付款条件之日及适用LPR期间计算；如2021年11月1日不能由案卷证明为应付日，则自法院查明的应付之日起按同一标准计算。对反诉返还1,847,274元及资金占用费2,863.27元，应先纠正材料中起止日期倒置并核对付款性质后决定是否支持。两被告责任应分别依据合同关系、实际收付款、招用帮工及授权追认事实认定，不作无证据的连带或个人责任推定。"
+      ],
+      "reason": "The applicant treats 4,468,031 as only the report's determinable project amount and 7,507,771 as a disputed claim rather than an adjudicated complete value. It asks the court to confirm determinable and contested components, verify the composition, and obtain supplemental appraisal or explanation where necessary."
+    },
+    {
+      "id": "P13",
+      "fraction": 1.0,
+      "quotes": [
+        "四、请求事项与待核清单：原告维持变更后的工程款本金2,467,271元及暂计利息316,135.13元请求，但两项数额均应接受证据核验。请法院在确认鉴定可确定项目及争议计价项目后，核验7,507,771元的组成并扣除逐笔核实的5,035,400元或5,040,500元直接付款；如现有材料不足以复算，应责令鉴定机构补充说明或补充鉴定，再以完整造价减去核实付款确定本金。对424吨二次结构是否漏计、管理费、措施费、规费、利润和税金是否实际发生及应否计取分别说明理由。利息以法院最终认定的欠付本金、具备付款条件之日及适用LPR期间计算；如2021年11月1日不能由案卷证明为应付日，则自法院查明的应付之日起按同一标准计算。对反诉返还1,847,274元及资金占用费2,863.27元，应先纠正材料中起止日期倒置并核对付款性质后决定是否支持。两被告责任应分别依据合同关系、实际收付款、招用帮工及授权追认事实认定，不作无证据的连带或个人责任推定。"
+      ],
+      "reason": "The requested disposition maintains the 2,467,271 principal and 316,135.13 interest but makes both subject to verification of the 7,507,771 composition, reconciliation of the competing direct-payment totals, and determination of the legally supported due date. It provides concrete routes of itemized verification, supplemental appraisal, and conditional calculation."
+    }
+  ]
+}

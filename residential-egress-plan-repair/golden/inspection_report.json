@@ -1,0 +1,87 @@
+{
+  "title": "Residential first-floor HALL egress inspection",
+  "basis": {
+    "baseline": "residential_floor_plan.dxf",
+    "controlling": "fire_safety_code.pdf",
+    "unit_reconciliation": "source inch coordinates converted to metres for rule comparisons",
+    "source_hashes": {
+      "residential_floor_plan.dxf": "6d761ecb1ab59664425eb1dcc6837a12611536c8e03e3f7855951a76786d159c",
+      "fire_safety_code.pdf": "15ff67d8efa9f71a56dddb9af2b4d098b3e2420b409eac87a371526af1c9440c"
+    }
+  },
+  "findings": [
+    {
+      "id": "F-HALL-WIDTH",
+      "element_id": "HALL-ROUTE-01",
+      "status": "nonconforming",
+      "observed": {
+        "value": 40.0,
+        "unit": "in",
+        "converted_m": 1.016
+      },
+      "required": {
+        "value": 1.1,
+        "unit": "m"
+      },
+      "disposition": "widen the route by moving the lower boundary while retaining the upper boundary",
+      "evidence": [
+        {
+          "file": "residential_floor_plan.dxf",
+          "location": "HALL text anchor and A-WALL handles 162A, 1642",
+          "supports": "measured route faces"
+        },
+        {
+          "file": "fire_safety_code.pdf",
+          "location": "fire_safety_code.pdf, physical page 61, clause 5.5.30",
+          "supports": "residential egress-route minimum"
+        }
+      ]
+    },
+    {
+      "id": "F-HALL-DOOR",
+      "element_id": "HALL-DOOR-01",
+      "source_handle": "165D",
+      "status": "coordination hold",
+      "observed": {
+        "plan_opening_line_length": 36.0,
+        "unit": "in",
+        "converted_m": 0.9144,
+        "clear_width": "not established"
+      },
+      "required": {
+        "value": 0.9,
+        "unit": "m",
+        "applicability": "conditional on confirming that this opening is within the cited door or safety-exit scope"
+      },
+      "disposition": "coordination hold: verify door classification, jamb and leaf deductions, hardware, and effective clear width before any compliance conclusion",
+      "evidence": [
+        {
+          "file": "residential_floor_plan.dxf",
+          "location": "north A-OPENING handle 165D adjacent to HALL",
+          "supports": "opening-line endpoints only; not installed clear width"
+        },
+        {
+          "file": "fire_safety_code.pdf",
+          "location": "fire_safety_code.pdf, physical page 61, clause 5.5.30",
+          "supports": "conditional door threshold; project classification remains to be confirmed"
+        }
+      ]
+    },
+    {
+      "id": "F-HALL-SWING",
+      "element_id": "HALL-DOOR-01",
+      "status": "review hold",
+      "observed": "The selected opening has no unambiguous swing arc in the supplied plan geometry.",
+      "required": "Confirm door operation and clear swing with the design team before issue.",
+      "disposition": "do not invent a swing or claim clearance; carry the hold in the memo",
+      "evidence": [
+        {
+          "file": "residential_floor_plan.dxf",
+          "location": "A-OPENING handle 165D adjacent to HALL",
+          "supports": "plan-view limitation"
+        }
+      ]
+    }
+  ],
+  "decision": "Issue the local route-widening geometry as a coordination concept, subject to wall tie-in and adjacent-impact review; hold both door clear-width compliance and door operation pending classification and construction evidence."
+}

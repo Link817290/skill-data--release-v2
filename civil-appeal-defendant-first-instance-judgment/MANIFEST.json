@@ -1,0 +1,149 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "civil-appeal-defendant-first-instance-judgment",
+  "tasks": [
+    "civil-appeal-defendant-first-instance-judgment"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 34,
+  "bytes_excluding_manifest": 776188,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 3326,
+      "sha256": "b36a1a09f73124618997b9266709448097e17521d89545df77cf5cb4d8e9d6d5"
+    },
+    "RUBRIC.md": {
+      "bytes": 11644,
+      "sha256": "ecb5a84470396f347b876a06b3c33d555c05308ce6a35e81a56dec11c4db6563"
+    },
+    "dataset.toml": {
+      "bytes": 499,
+      "sha256": "a8820cb05546e146ea02a754ef72983f35c973725d737cfd2ec2b46404b6efef"
+    },
+    "golden/civil-appeal-petition.md": {
+      "bytes": 9393,
+      "sha256": "6bc8ab84575b1dc861afea745835e83fc31c0aa34e759661270b442d608367ef"
+    },
+    "golden/输出结果-民事上诉状（脱敏版）.docx": {
+      "bytes": 43897,
+      "sha256": "29ea0a33d6160a7c86eef0922f4a751fa6e4f31be05a9d866a7b6ea0aafb20d7"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 277,
+      "sha256": "768a057a02acc45f4bc6745aca410ee8d9e5a7a1a40b084fa1b949b1227a010d"
+    },
+    "task/environment/Dockerfile.no_skill": {
+      "bytes": 255,
+      "sha256": "8d8c8dbc382de38975bce07f820bc843d0bc23588bab509e9ecc40cd72067999"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 365,
+      "sha256": "03b087e3d7ba1cfc637b1000d28cb9aba0b0876f9f601b9f2cf43491b7aeb70d"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/SKILL.md": {
+      "bytes": 13092,
+      "sha256": "2714e45c4954cdca9e8bd21a027ef66f13aa627db95677e287238aaa50eacffb"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/figures-and-arithmetic.md": {
+      "bytes": 4030,
+      "sha256": "c73f47bf61edfb625e7e00037b87c772ba772092309351000ff1f781e68459bc"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/filing-types.md": {
+      "bytes": 6838,
+      "sha256": "989a9ebeff925cfd7dcc8d617909b41051ac8cbf3f54ab54024a8efe0fc7a49a"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/ground-selection.md": {
+      "bytes": 5703,
+      "sha256": "05c2124219746fc496ee0ea61edc8052ddfc945243742d3e871c90e07ce69598"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/judgment-anatomy.md": {
+      "bytes": 3560,
+      "sha256": "b69b9186c3d764917ccfcf7c34dcfc41051facaca7b9fb93442090fea43bfa2d"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/relief-and-closure.md": {
+      "bytes": 3592,
+      "sha256": "2c1fe815cfd4c7cf3d0dd10936cf2a48b9e742f939e144da20021c4e47cf0b54"
+    },
+    "task/environment/workspace/instruction.md": {
+      "bytes": 270,
+      "sha256": "6e26309ede3369e4d5a6f485c9e3917def30f2e0144c0180184dfcafab52e1ba"
+    },
+    "task/environment/workspace/materials/原始材料-民事判决书（脱敏版）.pdf": {
+      "bytes": 124843,
+      "sha256": "7a62f6b1fd640454ac0a5b854ca9cc13379ae4ecee3c911bcd541310500b0463"
+    },
+    "task/instruction.md": {
+      "bytes": 270,
+      "sha256": "6e26309ede3369e4d5a6f485c9e3917def30f2e0144c0180184dfcafab52e1ba"
+    },
+    "task/solution/reference/civil-appeal-petition.md": {
+      "bytes": 9393,
+      "sha256": "6bc8ab84575b1dc861afea745835e83fc31c0aa34e759661270b442d608367ef"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 355,
+      "sha256": "5cc04a78983aef18d1f2d361fe5d87728af6aa06a1e08416934aa5373e6e01cf"
+    },
+    "task/task.toml": {
+      "bytes": 1017,
+      "sha256": "d03cbb167923f7b76052dc4cc8a4fb804b3456f622e611deb5b576898f550dd3"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 976,
+      "sha256": "92b0c55681a46688508d2fd5ac67e2039df592715bee45824975c82c79404e8b"
+    },
+    "task/tests/evaluator_adapter.py": {
+      "bytes": 1507,
+      "sha256": "3d0f835eea060fac93f02efa0f903546e9f11fbdf6d04a0d7f118fd5fc4fde4b"
+    },
+    "task/tests/golden_replay/d1ff9d6d23f47bd4ac219bd4144eb76507b92c780c9767cff0636cdd9e56dd64.json": {
+      "bytes": 50753,
+      "sha256": "5449cb97ce026a965181513bc025a285ffab2e44aee375efa1a427b1fdd32e22"
+    },
+    "task/tests/pjroot/instruction.md": {
+      "bytes": 270,
+      "sha256": "6e26309ede3369e4d5a6f485c9e3917def30f2e0144c0180184dfcafab52e1ba"
+    },
+    "task/tests/pjroot/materials/原始材料-民事判决书（脱敏版）.pdf": {
+      "bytes": 124843,
+      "sha256": "7a62f6b1fd640454ac0a5b854ca9cc13379ae4ecee3c911bcd541310500b0463"
+    },
+    "task/tests/pjroot/materials_text/原始材料-民事判决书（脱敏版）.pdf.txt": {
+      "bytes": 12415,
+      "sha256": "bed3d7d8f68a4da68cba362d9d1d76bd1652a17565a9e6a274dd9daecc98afe6"
+    },
+    "task/tests/pjroot/rubric-contract.json": {
+      "bytes": 80727,
+      "sha256": "f1b2d6693b33ea12e284a1a47aafbbd80afec85f794eff7e4061d68b9d64b58f"
+    },
+    "task/tests/pjroot/task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22095,
+      "sha256": "5d63b2ffa5e0f50ddcbb61bf63c9cd5769d602af38f9722b52bde840e214c81d"
+    },
+    "task/tests/pjroot/task/tests/program_judge/task_judge.py": {
+      "bytes": 99477,
+      "sha256": "fd2c982ef6109478eaccea0013ea441d7e015c0ab564d1b4db21ccc84f7276dc"
+    },
+    "task/tests/professional-rules.md": {
+      "bytes": 36825,
+      "sha256": "51a39862ac5ca960613b037aaf7725d4d1e3dde42695a60fa674f0246523e332"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 80727,
+      "sha256": "f1b2d6693b33ea12e284a1a47aafbbd80afec85f794eff7e4061d68b9d64b58f"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 14597,
+      "sha256": "a1d5e2786d6f06df967a033b647bd513f81667b33c488eb049442e25adeca03d"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1044,
+      "sha256": "3f7f963dc415d143e0438deb2a0ae9822f971209d841f9c2a5fa21f886659d76"
+    },
+    "task/tests/validator.py": {
+      "bytes": 7313,
+      "sha256": "20434a44b0d44196be05ca408fa83ef3465eb78eb74efb6bbcdfeb4e9239d8a1"
+    }
+  }
+}

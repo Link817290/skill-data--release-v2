@@ -1,0 +1,675 @@
+{
+  "provenance": "Packaged Golden DOCX portfolio reviewed against the issued images and the evaluator-side source-fact table.",
+  "golden_sha256": {
+    "CASE-001_reasoning.docx": "ed25e1f5e487687684ef6838ccf6f203357687688e4253c747d53e50811bc58c",
+    "CASE-002_reasoning.docx": "70fbd2b30ac8c7b25e5cab7abb099008fe0df8b7d0491c2be216b4307f047f1b",
+    "CASE-003_reasoning.docx": "e52adbffda9ae568daa4330b734a57f08910deb8ef93b60f822d94404d0e81c1",
+    "hyperkalemia_reasoning_template.docx": "9c51667d68d917a8af3d3b1ce50bdfedabb1e59b91e4977d71336c3575e367bc"
+  },
+  "checks": [
+    {
+      "id": "M01",
+      "weight": 6,
+      "criterion": "All four named Golden-corresponding DOCX deliverables are present and readable."
+    },
+    {
+      "id": "M02",
+      "weight": 4,
+      "criterion": "All four files contain substantive multi-cell editable table records rather than image-only, empty, or token-blob content."
+    },
+    {
+      "id": "M03",
+      "weight": 5,
+      "criterion": "The blank template provides the Golden evidence fields: time, item, result, unit, reference interval, and source."
+    },
+    {
+      "id": "M04",
+      "weight": 5,
+      "criterion": "The blank template separates diagnosis, severity, urgency, symptoms, history, ECG, missing information, and reliability."
+    },
+    {
+      "id": "M05",
+      "weight": 5,
+      "criterion": "The blank template provides the Golden reasoning and follow-up structure: evidence, meaning, assessment, limitations, unresolved issues, and next actions."
+    },
+    {
+      "id": "M06",
+      "weight": 3,
+      "criterion": "The template remains neutral and contains no case-specific Golden dates, identifiers, or distinctive values."
+    },
+    {
+      "id": "M07",
+      "weight": 3,
+      "criterion": "Each case file preserves the submitted template's main sections and records multiple analyte/value anchors in distinct structured table rows."
+    },
+    {
+      "id": "M08",
+      "weight": 6,
+      "criterion": "Distinctive Golden values remain in their corresponding case files and do not indicate a CASE-002/CASE-003 swap."
+    },
+    {
+      "id": "M09",
+      "weight": 5,
+      "criterion": "CASE-001 includes the 18 Golden analyte or observation labels."
+    },
+    {
+      "id": "M10",
+      "weight": 8,
+      "criterion": "CASE-001 includes all 18 Golden result values."
+    },
+    {
+      "id": "M11",
+      "weight": 4,
+      "criterion": "CASE-001 preserves Golden units and reported-reference-range structure."
+    },
+    {
+      "id": "M12",
+      "weight": 4,
+      "criterion": "CASE-001 preserves the Golden collection date/time and explicitly records potassium as not provided."
+    },
+    {
+      "id": "M13",
+      "weight": 5,
+      "criterion": "CASE-002 includes the five Golden laboratory labels and the bradycardia diagnosis entry."
+    },
+    {
+      "id": "M14",
+      "weight": 8,
+      "criterion": "CASE-002 includes all five Golden laboratory result values."
+    },
+    {
+      "id": "M15",
+      "weight": 4,
+      "criterion": "CASE-002 preserves Golden units and reported-reference-range structure."
+    },
+    {
+      "id": "M16",
+      "weight": 4,
+      "criterion": "CASE-002 preserves the Golden report date/time and identifies bradycardia as a recorded diagnosis."
+    },
+    {
+      "id": "M17",
+      "weight": 5,
+      "criterion": "CASE-003 records potassium, sodium, chloride, and calcium at all three Golden time points."
+    },
+    {
+      "id": "M18",
+      "weight": 8,
+      "criterion": "CASE-003 includes all twelve Golden result values across the three report groups."
+    },
+    {
+      "id": "M19",
+      "weight": 4,
+      "criterion": "CASE-003 preserves Golden units and reported-reference-range structure."
+    },
+    {
+      "id": "M20",
+      "weight": 4,
+      "criterion": "CASE-003 preserves both Golden dates and the two handwritten Golden times."
+    }
+  ],
+  "anti_gaming": {
+    "minimum_multi_cell_rows": {
+      "template": 4,
+      "case_001": 12,
+      "case_002": 10,
+      "case_003": 10
+    },
+    "minimum_distinct_anchor_rows": {
+      "case_001": 6,
+      "case_002": 4,
+      "case_003": 9
+    },
+    "row_association_anchors": {
+      "case_001": [
+        {
+          "aliases": [
+            "pH",
+            "酸碱度"
+          ],
+          "value": "7.37"
+        },
+        {
+          "aliases": [
+            "PCO2",
+            "二氧化碳分压"
+          ],
+          "value": "34.0"
+        },
+        {
+          "aliases": [
+            "PO2",
+            "氧分压"
+          ],
+          "value": "102.0"
+        },
+        {
+          "aliases": [
+            "TCO2",
+            "总二氧化碳"
+          ],
+          "value": "20.7"
+        },
+        {
+          "aliases": [
+            "HCO3",
+            "实际碳酸氢盐",
+            "碳酸氢"
+          ],
+          "value": "19.7"
+        },
+        {
+          "aliases": [
+            "HCT",
+            "红细胞压积"
+          ],
+          "value": "54"
+        },
+        {
+          "aliases": [
+            "Ca++",
+            "ionized calcium",
+            "离子钙"
+          ],
+          "value": "1.02"
+        },
+        {
+          "aliases": [
+            "LAC",
+            "lactate",
+            "乳酸"
+          ],
+          "value": "2.4"
+        }
+      ],
+      "case_002": [
+        {
+          "aliases": [
+            "K",
+            "K+",
+            "potassium",
+            "钾"
+          ],
+          "value": "6.69"
+        },
+        {
+          "aliases": [
+            "Na",
+            "Na+",
+            "sodium",
+            "钠"
+          ],
+          "value": "131.1"
+        },
+        {
+          "aliases": [
+            "Cl",
+            "Cl-",
+            "chloride",
+            "氯"
+          ],
+          "value": "93.3"
+        },
+        {
+          "aliases": [
+            "TCO2",
+            "carbon dioxide",
+            "二氧化碳结合力"
+          ],
+          "value": "3.30"
+        },
+        {
+          "aliases": [
+            "AG",
+            "anion gap",
+            "阴离子隙",
+            "阴离子间隙"
+          ],
+          "value": "41.19"
+        }
+      ],
+      "case_003": [
+        {
+          "aliases": [
+            "K",
+            "K+",
+            "potassium",
+            "钾"
+          ],
+          "value": "2.90"
+        },
+        {
+          "aliases": [
+            "Na",
+            "Na+",
+            "sodium",
+            "钠"
+          ],
+          "value": "142.18"
+        },
+        {
+          "aliases": [
+            "Cl",
+            "Cl-",
+            "chloride",
+            "氯"
+          ],
+          "value": "99.45"
+        },
+        {
+          "aliases": [
+            "Ca",
+            "Ca++",
+            "calcium",
+            "钙"
+          ],
+          "value": "1.18"
+        },
+        {
+          "aliases": [
+            "K",
+            "K+",
+            "potassium",
+            "钾"
+          ],
+          "value": "6.84"
+        },
+        {
+          "aliases": [
+            "Na",
+            "Na+",
+            "sodium",
+            "钠"
+          ],
+          "value": "138.34"
+        },
+        {
+          "aliases": [
+            "Cl",
+            "Cl-",
+            "chloride",
+            "氯"
+          ],
+          "value": "101.48"
+        },
+        {
+          "aliases": [
+            "Ca",
+            "Ca++",
+            "calcium",
+            "钙"
+          ],
+          "value": "1.19"
+        },
+        {
+          "aliases": [
+            "K",
+            "K+",
+            "potassium",
+            "钾"
+          ],
+          "value": "6.71"
+        },
+        {
+          "aliases": [
+            "Na",
+            "Na+",
+            "sodium",
+            "钠"
+          ],
+          "value": "140.89"
+        },
+        {
+          "aliases": [
+            "Cl",
+            "Cl-",
+            "chloride",
+            "氯"
+          ],
+          "value": "97.58"
+        },
+        {
+          "aliases": [
+            "Ca",
+            "Ca++",
+            "calcium",
+            "钙"
+          ],
+          "value": "1.20"
+        }
+      ]
+    }
+  },
+  "term_groups": {
+    "evidence_fields": [
+      [
+        "time",
+        "date",
+        "时间",
+        "日期"
+      ],
+      [
+        "test",
+        "item",
+        "observation",
+        "项目",
+        "检查"
+      ],
+      [
+        "result",
+        "value",
+        "结果",
+        "数值"
+      ],
+      [
+        "unit",
+        "单位"
+      ],
+      [
+        "reference",
+        "range",
+        "参考范围",
+        "参考区间"
+      ],
+      [
+        "source",
+        "evidence",
+        "来源",
+        "证据"
+      ]
+    ],
+    "assessment_fields": [
+      [
+        "diagnosis",
+        "诊断"
+      ],
+      [
+        "severity",
+        "严重程度",
+        "分级"
+      ],
+      [
+        "urgency",
+        "紧迫",
+        "紧急"
+      ],
+      [
+        "symptom",
+        "症状"
+      ],
+      [
+        "history",
+        "病史"
+      ],
+      [
+        "ecg",
+        "electrocard",
+        "心电"
+      ],
+      [
+        "missing",
+        "unknown",
+        "缺失",
+        "未知"
+      ],
+      [
+        "reliability",
+        "可信度",
+        "可靠性"
+      ]
+    ],
+    "reasoning_fields": [
+      [
+        "evidence",
+        "证据"
+      ],
+      [
+        "clinical meaning",
+        "meaning",
+        "临床意义"
+      ],
+      [
+        "assessment",
+        "judgment",
+        "支持判断",
+        "判断"
+      ],
+      [
+        "limitation",
+        "限制",
+        "局限",
+        "limits inference",
+        "inference not permitted",
+        "supports or limits",
+        "不可推断",
+        "支持或限制"
+      ],
+      [
+        "unresolved",
+        "undetermined",
+        "尚未确定",
+        "未解决"
+      ],
+      [
+        "follow-up",
+        "next step",
+        "action",
+        "补查",
+        "下一步"
+      ]
+    ],
+    "case_001_analytes": [
+      [
+        "ph",
+        "酸碱度"
+      ],
+      [
+        "pco2",
+        "二氧化碳分压"
+      ],
+      [
+        "po2",
+        "氧分压"
+      ],
+      [
+        "so2c",
+        "血氧饱和度"
+      ],
+      [
+        "tco2",
+        "总二氧化碳"
+      ],
+      [
+        "hco3",
+        "碳酸氢"
+      ],
+      [
+        "sb",
+        "标准hco3"
+      ],
+      [
+        "be"
+      ],
+      [
+        "beecf"
+      ],
+      [
+        "thb",
+        "总血红蛋白"
+      ],
+      [
+        "o2hb",
+        "氧合血红蛋白"
+      ],
+      [
+        "cohb",
+        "碳氧血红蛋白"
+      ],
+      [
+        "hhb",
+        "还原血红蛋白"
+      ],
+      [
+        "methb",
+        "高铁血红蛋白"
+      ],
+      [
+        "hct",
+        "红细胞压积"
+      ],
+      [
+        "ag",
+        "anion gap",
+        "阴离子间隙"
+      ],
+      [
+        "ionized calcium",
+        "离子钙"
+      ],
+      [
+        "lactate",
+        "lac",
+        "乳酸"
+      ]
+    ],
+    "case_002_analytes": [
+      [
+        "potassium",
+        "血钾",
+        "钾"
+      ],
+      [
+        "sodium",
+        "钠"
+      ],
+      [
+        "chloride",
+        "氯"
+      ],
+      [
+        "tco2",
+        "carbon dioxide",
+        "二氧化碳结合力"
+      ],
+      [
+        "anion gap",
+        "ag",
+        "阴离子间隙"
+      ],
+      [
+        "bradycardia",
+        "心动过缓"
+      ]
+    ],
+    "case_003_analytes": [
+      [
+        "potassium",
+        "血钾",
+        "钾"
+      ],
+      [
+        "sodium",
+        "钠"
+      ],
+      [
+        "chloride",
+        "氯"
+      ],
+      [
+        "calcium",
+        "钙"
+      ]
+    ],
+    "units": [
+      [
+        "mmol/l",
+        "mmol·l",
+        "mmol／l"
+      ],
+      [
+        "mmhg"
+      ],
+      [
+        "g/l",
+        "g·l",
+        "g／l"
+      ],
+      [
+        "%",
+        "percent",
+        "百分比"
+      ]
+    ],
+    "reference": [
+      [
+        "reference",
+        "range",
+        "参考范围",
+        "参考区间"
+      ]
+    ],
+    "case_sections": [
+      [
+        "source evidence",
+        "evidence",
+        "原始证据"
+      ],
+      [
+        "assessment",
+        "judgment",
+        "判断记录",
+        "诊断结论"
+      ],
+      [
+        "reasoning",
+        "rationale",
+        "结构化推理",
+        "推理链"
+      ]
+    ]
+  },
+  "numeric_results": {
+    "case_001": [
+      "7.37",
+      "34.0",
+      "102.0",
+      "97.7",
+      "20.7",
+      "19.7",
+      "21.0",
+      "-4.6",
+      "-5.6",
+      "178.0",
+      "96.2",
+      "1.2",
+      "1.5",
+      "1.1",
+      "54",
+      "8",
+      "1.02",
+      "2.4"
+    ],
+    "case_002": [
+      "6.69",
+      "131.1",
+      "93.3",
+      "3.30",
+      "41.19"
+    ],
+    "case_003": [
+      "2.90",
+      "142.18",
+      "99.45",
+      "1.18",
+      "6.84",
+      "138.34",
+      "101.48",
+      "1.19",
+      "6.71",
+      "140.89",
+      "97.58",
+      "1.20"
+    ]
+  },
+  "reference_revision": "source-audited-golden"
+}

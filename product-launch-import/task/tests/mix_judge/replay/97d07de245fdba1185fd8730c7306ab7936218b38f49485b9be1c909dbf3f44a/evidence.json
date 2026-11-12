@@ -1,0 +1,924 @@
+{
+  "candidate": [
+    {
+      "id": "C1-L1",
+      "text": "Title,URL handle,Description,Vendor,Type,Tags,Published on online store,Status,SKU,Option1 name,Option1 value,Option2 name,Option2 value,Price,Compare-at price,Charge tax,Inventory tracker,Continue selling when out of stock,Requires shipping,Fulfillment service"
+    },
+    {
+      "id": "C1-L2",
+      "text": "KingCamp Extra Wide High Back Camping Chair,kingcamp-extra-wide-high-back-camping-chair,\"<p>Extra wide high-back camping chair with a mesh back and padded headrest. The aluminum frame, carry bag and mesh storage pocket are listed for this chair. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat fabric with a mesh back.</li><li>Aluminum frame; product weight 1.5 kg (3.3 lb) per chair.</li><li>Rated weight capacity: 150 kg (330 lb) per chair.</li><li>Packed product size 52 x 13 x 17 cm; carry bag and mesh storage pocket included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2218_CYAN,Color,Cyan,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L3",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2228_CYAN,Color,Cyan,Pack,2-Pack,139.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L4",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_BLACK,Color,Black,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L5",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2228_BLACK,Color,Black,Pack,2-Pack,139.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L6",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_PINK,Color,Pink,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L7",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_KHAKI,Color,Khaki,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L8",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_GREY,Color,Grey,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L9",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2228_GREY,Color,Grey,Pack,2-Pack,139.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L10",
+      "text": "KingCamp WILLOW C20 Lounge Chair with Side Table,kingcamp-willow-c20-lounge-chair-with-side-table,\"<p>WILLOW C20 lounge chair with five backrest positions, a side table and side pockets. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>Five backrest positions from 120 to 180 degrees.</li><li>Textilene surface on a spray-coated steel frame.</li><li>Maximum load: 120 kg (264 lb) per chair; product weight 6.6 kg (14.5 lb) per chair.</li><li>Open size 190 x 59 x 34/37 cm; packed product size 76 x 15 x 60 cm for one chair.</li><li>Each chair is supplied with a pillow, side bag and outer bag.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2455_BLACK,Color,Black,Pack,1-Pack,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L11",
+      "text": ",kingcamp-willow-c20-lounge-chair-with-side-table,,,,,false,draft,KC2465_BLACK,Color,Black,Pack,2-Pack,219.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L12",
+      "text": ",kingcamp-willow-c20-lounge-chair-with-side-table,,,,,false,draft,KC2455_BEIGE,Color,Beige,Pack,1-Pack,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L13",
+      "text": ",kingcamp-willow-c20-lounge-chair-with-side-table,,,,,false,draft,KC2465_BEIGE,Color,Beige,Pack,2-Pack,219.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L14",
+      "text": "KingCamp Oversized Director Chair with Side Table,kingcamp-oversized-director-chair-with-side-table,\"<p>Oversized director chair with padded seat, foam armrests, retractable side table and cup holder. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>Polyester seat fabric with padding on a steel frame.</li><li>Rated static load: 200 kg (440 lb) per chair; seat front-edge static load: 180 kg (396 lb) per chair.</li><li>Product weight 5.7 kg (12.6 lb) per chair.</li><li>Open size 50 x 55 x 48/92 cm; folded size 52 x 15 x 50 cm for one chair.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2644_BLUE/GREY,Color,Blue,Pack,1-Pack,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L15",
+      "text": ",kingcamp-oversized-director-chair-with-side-table,,,,,false,draft,KC2684_BLUE/GREY,Color,Blue,Pack,2-Pack,199.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L16",
+      "text": ",kingcamp-oversized-director-chair-with-side-table,,,,,false,draft,KC2644_BLACK/GREY,Color,Black,Pack,1-Pack,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L17",
+      "text": ",kingcamp-oversized-director-chair-with-side-table,,,,,false,draft,KC2684_BLACK/GREY,Color,Black,Pack,2-Pack,199.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L18",
+      "text": "KingCamp MAGNOLIA B40 Padded Lounge Chair,kingcamp-magnolia-b40-padded-lounge-chair,\"<p>MAGNOLIA B40 padded lounge chair with full-length PU foam padding and five reclining positions including flat.</p><ul><li>600D Oxford fabric with PVC coating and a powder-coated steel frame.</li><li>Maximum static load: 200 kg (440.9 lb); seat-edge load: 150 kg (330.6 lb).</li><li>Product weight 8.8 kg (19.4 lb); folded size 80 x 15 x 72.5 cm.</li><li>One lounge chair with an adjustable pillow and detachable side storage pocket.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2641_BLACK,Color,Black,,,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L19",
+      "text": ",kingcamp-magnolia-b40-padded-lounge-chair,,,,,false,draft,KC2641_BLUE,Color,Blue,,,149.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L20",
+      "text": ",kingcamp-magnolia-b40-padded-lounge-chair,,,,,false,draft,KC2641_GREY,Color,Grey,,,149.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L21",
+      "text": "KingCamp ORCHID C20 Hammock Chair with Footrest,kingcamp-orchid-c20-hammock-chair-with-footrest,\"<p>ORCHID C20 hammock chair with adjustable backrest, detachable footrest, mesh back, padded headrest, cup pockets and shoulder bag.</p><ul><li>600D Oxford polyester and nylon mesh; aluminum-alloy and Q195 steel frame.</li><li>Rated static load: 250 kg (551 lb) per chair; seat front-edge static load: 180 kg (396 lb) per chair.</li><li>Net weight 5.1 kg (11.2 lb) per chair; folded size 19.5 x 18.5 x 93.5 cm for one chair.</li><li>Cup pockets and a shoulder bag included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2517_DARKBLUE/GREY,Color,Darkblue/Grey,,,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L22",
+      "text": ",kingcamp-orchid-c20-hammock-chair-with-footrest,,,,,false,draft,KC2517_BLACK/GREY,Color,Black/Grey,,,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L23",
+      "text": ",kingcamp-orchid-c20-hammock-chair-with-footrest,,,,,false,draft,KC2517_CYAN,Color,Cyan,,,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L24",
+      "text": "KingCamp Mesh Folding Director Chair,kingcamp-mesh-folding-director-chair,\"<p>Mesh folding director chair with folding side table, built-in cup holder and padded seat, back and armrests. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat material on a steel-tube frame.</li><li>Folding side table with built-in cup holder.</li><li>Weight capacity 136 kg (300 lb) per chair; product weight 5.4 kg (11.9 lb) per chair.</li><li>Packed product size 50 x 48 x 15 cm for one chair.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC3824_BLACK/MEDIUMGREY,Color,Black,Pack,1-Pack,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L25",
+      "text": ",kingcamp-mesh-folding-director-chair,,,,,false,draft,KC2010_BLACK/MEDIUMGREY,Color,Black,Pack,2-Pack,179.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L26",
+      "text": ",kingcamp-mesh-folding-director-chair,,,,,false,draft,KC3824_NAVY/MEDIUMGREY,Color,Navy,Pack,1-Pack,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L27",
+      "text": "KingCamp LEMON C20 Double Butterfly Chair,kingcamp-lemon-c20-double-butterfly-chair,\"<p>LEMON C20 double butterfly chair with one continuous double seat for two people, a detachable padded seat cover and one folding frame.</p><ul><li>One double-seat chair with an overall width of 132 cm.</li><li>600D Cationic Oxford fabric over a Q195 steel-tube frame.</li><li>Product weight 8.5 kg (18.7 lb) per chair; packed product size 32 x 25 x 95 cm for one chair.</li><li>Includes one frame, one double seat cover, one carry bag and two compression straps.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2424_KHAKI,Color,Khaki,,,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L28",
+      "text": ",kingcamp-lemon-c20-double-butterfly-chair,,,,,false,draft,KC2424_GREY,Color,Grey,,,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L29",
+      "text": "KingCamp Lightweight Folding Camp Chair,kingcamp-lightweight-folding-camp-chair,\"<p>Lightweight folding camp chair with adjustable armrests, mesh cup holder, steel frame and shoulder carry bag. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat on a steel-tube frame.</li><li>Maximum static load: 120 kg (265 lb) per chair; maximum impact load: 100 kg (220 lb) per chair.</li><li>Product weight 5.3 lb per chair.</li><li>Packed product size 6.3 x 6.3 x 32.6 in for one chair; shoulder carry bag included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2216_GREY,Color,Grey,Pack,1-Pack,54.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L30",
+      "text": ",kingcamp-lightweight-folding-camp-chair,,,,,false,draft,KC2256_GREY,Color,Grey,Pack,2-Pack,74.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L31",
+      "text": "KingCamp Reclined Mesh-Back Camping Chair,kingcamp-reclined-mesh-back-camping-chair,\"<p>Reclined mesh-back camping chair with padded seat and back, cup holder, side pocket and quick folding frame.</p><ul><li>600D Oxford seat material and a steel-tube frame.</li><li>Weight capacity 136 kg (300 lb) per chair.</li><li>Product weight 4.3 kg (9.4 lb) per chair; packed product size 97 x 18 x 17 cm for one chair.</li><li>Quick folding frame with a cup holder and side pocket.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC3825_BLACK/MEDIUMGREY,Color,Black,,,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L32",
+      "text": ",kingcamp-reclined-mesh-back-camping-chair,,,,,false,draft,KC3825_NAVY/MEDIUMGREY,Color,Navy,,,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L33",
+      "text": "KingCamp Low Sling Folding Beach Chair,kingcamp-low-sling-folding-beach-chair,\"<p>Low sling folding beach chair with three seating positions including lay-flat, foam pillow, mesh back, storage pouch and rear towel bar. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat material with an aluminum-alloy frame.</li><li>Weight capacity 136 kg (300 lb) per chair.</li><li>Three seating positions, including lay-flat.</li><li>Foam pillow, storage pouch and rear towel bar included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2105_BLUE,Color,Blue,Pack,2-Pack,169.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "C1-L34",
+      "text": ",kingcamp-low-sling-folding-beach-chair,,,,,false,draft,KC2104_BLUE,Color,Blue,Pack,1-Pack,99.99,,true,,deny,true,manual"
+    }
+  ],
+  "workbook_sample": [],
+  "golden_meaning": [
+    {
+      "id": "G1-L1",
+      "text": "Title,URL handle,Description,Vendor,Type,Tags,Published on online store,Status,SKU,Option1 name,Option1 value,Option2 name,Option2 value,Price,Compare-at price,Charge tax,Inventory tracker,Continue selling when out of stock,Requires shipping,Fulfillment service"
+    },
+    {
+      "id": "G1-L2",
+      "text": "KingCamp Extra Wide High Back Camping Chair,kingcamp-extra-wide-high-back-camping-chair,\"<p>Extra wide high-back camping chair with a mesh back and padded headrest. The aluminum frame, carry bag and mesh storage pocket are listed for this chair. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat fabric with a mesh back.</li><li>Aluminum frame; product weight 1.5 kg (3.3 lb) per chair.</li><li>Rated weight capacity: 150 kg (330 lb) per chair.</li><li>Packed product size 52 x 13 x 17 cm; carry bag and mesh storage pocket included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2218_CYAN,Color,Cyan,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L3",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2228_CYAN,Color,Cyan,Pack,2-Pack,139.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L4",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_BLACK,Color,Black,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L5",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2228_BLACK,Color,Black,Pack,2-Pack,139.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L6",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_PINK,Color,Pink,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L7",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_KHAKI,Color,Khaki,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L8",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2218_GREY,Color,Grey,Pack,1-Pack,59.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L9",
+      "text": ",kingcamp-extra-wide-high-back-camping-chair,,,,,false,draft,KC2228_GREY,Color,Grey,Pack,2-Pack,139.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L10",
+      "text": "KingCamp WILLOW C20 Lounge Chair with Side Table,kingcamp-willow-c20-lounge-chair-with-side-table,\"<p>WILLOW C20 lounge chair with five backrest positions, a side table and side pockets. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>Five backrest positions from 120 to 180 degrees.</li><li>Textilene surface on a spray-coated steel frame.</li><li>Maximum load: 120 kg (264 lb) per chair; product weight 6.6 kg (14.5 lb) per chair.</li><li>Open size 190 x 59 x 34/37 cm; packed product size 76 x 15 x 60 cm for one chair.</li><li>Each chair is supplied with a pillow, side bag and outer bag.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2455_BLACK,Color,Black,Pack,1-Pack,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L11",
+      "text": ",kingcamp-willow-c20-lounge-chair-with-side-table,,,,,false,draft,KC2465_BLACK,Color,Black,Pack,2-Pack,219.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L12",
+      "text": ",kingcamp-willow-c20-lounge-chair-with-side-table,,,,,false,draft,KC2455_BEIGE,Color,Beige,Pack,1-Pack,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L13",
+      "text": ",kingcamp-willow-c20-lounge-chair-with-side-table,,,,,false,draft,KC2465_BEIGE,Color,Beige,Pack,2-Pack,219.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L14",
+      "text": "KingCamp Oversized Director Chair with Side Table,kingcamp-oversized-director-chair-with-side-table,\"<p>Oversized director chair with padded seat, foam armrests, retractable side table and cup holder. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>Polyester seat fabric with padding on a steel frame.</li><li>Rated static load: 200 kg (440 lb) per chair; seat front-edge static load: 180 kg (396 lb) per chair.</li><li>Product weight 5.7 kg (12.6 lb) per chair.</li><li>Open size 50 x 55 x 48/92 cm; folded size 52 x 15 x 50 cm for one chair.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2644_BLUE/GREY,Color,Blue,Pack,1-Pack,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L15",
+      "text": ",kingcamp-oversized-director-chair-with-side-table,,,,,false,draft,KC2684_BLUE/GREY,Color,Blue,Pack,2-Pack,199.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L16",
+      "text": ",kingcamp-oversized-director-chair-with-side-table,,,,,false,draft,KC2644_BLACK/GREY,Color,Black,Pack,1-Pack,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L17",
+      "text": ",kingcamp-oversized-director-chair-with-side-table,,,,,false,draft,KC2684_BLACK/GREY,Color,Black,Pack,2-Pack,199.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L18",
+      "text": "KingCamp MAGNOLIA B40 Padded Lounge Chair,kingcamp-magnolia-b40-padded-lounge-chair,\"<p>MAGNOLIA B40 padded lounge chair with full-length PU foam padding and five reclining positions including flat.</p><ul><li>600D Oxford fabric with PVC coating and a powder-coated steel frame.</li><li>Maximum static load: 200 kg (440.9 lb); seat-edge load: 150 kg (330.6 lb).</li><li>Product weight 8.8 kg (19.4 lb); folded size 80 x 15 x 72.5 cm.</li><li>One lounge chair with an adjustable pillow and detachable side storage pocket.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2641_BLACK,Color,Black,,,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L19",
+      "text": ",kingcamp-magnolia-b40-padded-lounge-chair,,,,,false,draft,KC2641_BLUE,Color,Blue,,,149.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L20",
+      "text": ",kingcamp-magnolia-b40-padded-lounge-chair,,,,,false,draft,KC2641_GREY,Color,Grey,,,149.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L21",
+      "text": "KingCamp ORCHID C20 Hammock Chair with Footrest,kingcamp-orchid-c20-hammock-chair-with-footrest,\"<p>ORCHID C20 hammock chair with adjustable backrest, detachable footrest, mesh back, padded headrest, cup pockets and shoulder bag.</p><ul><li>600D Oxford polyester and nylon mesh; aluminum-alloy and Q195 steel frame.</li><li>Rated static load: 250 kg (551 lb) per chair; seat front-edge static load: 180 kg (396 lb) per chair.</li><li>Net weight 5.1 kg (11.2 lb) per chair; folded size 19.5 x 18.5 x 93.5 cm for one chair.</li><li>Cup pockets and a shoulder bag included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2517_DARKBLUE/GREY,Color,Darkblue/Grey,,,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L22",
+      "text": ",kingcamp-orchid-c20-hammock-chair-with-footrest,,,,,false,draft,KC2517_BLACK/GREY,Color,Black/Grey,,,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L23",
+      "text": ",kingcamp-orchid-c20-hammock-chair-with-footrest,,,,,false,draft,KC2517_CYAN,Color,Cyan,,,119.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L24",
+      "text": "KingCamp Mesh Folding Director Chair,kingcamp-mesh-folding-director-chair,\"<p>Mesh folding director chair with folding side table, built-in cup holder and padded seat, back and armrests. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat material on a steel-tube frame.</li><li>Folding side table with built-in cup holder.</li><li>Weight capacity 136 kg (300 lb) per chair; product weight 5.4 kg (11.9 lb) per chair.</li><li>Packed product size 50 x 48 x 15 cm for one chair.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC3824_BLACK/MEDIUMGREY,Color,Black,Pack,1-Pack,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L25",
+      "text": ",kingcamp-mesh-folding-director-chair,,,,,false,draft,KC2010_BLACK/MEDIUMGREY,Color,Black,Pack,2-Pack,179.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L26",
+      "text": ",kingcamp-mesh-folding-director-chair,,,,,false,draft,KC3824_NAVY/MEDIUMGREY,Color,Navy,Pack,1-Pack,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L27",
+      "text": "KingCamp LEMON C20 Double Butterfly Chair,kingcamp-lemon-c20-double-butterfly-chair,\"<p>LEMON C20 double butterfly chair with one continuous double seat for two people, a detachable padded seat cover and one folding frame.</p><ul><li>One double-seat chair with an overall width of 132 cm.</li><li>600D Cationic Oxford fabric over a Q195 steel-tube frame.</li><li>Product weight 8.5 kg (18.7 lb) per chair; packed product size 32 x 25 x 95 cm for one chair.</li><li>Includes one frame, one double seat cover, one carry bag and two compression straps.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2424_KHAKI,Color,Khaki,,,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L28",
+      "text": ",kingcamp-lemon-c20-double-butterfly-chair,,,,,false,draft,KC2424_GREY,Color,Grey,,,129.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L29",
+      "text": "KingCamp Lightweight Folding Camp Chair,kingcamp-lightweight-folding-camp-chair,\"<p>Lightweight folding camp chair with adjustable armrests, mesh cup holder, steel frame and shoulder carry bag. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat on a steel-tube frame.</li><li>Maximum static load: 120 kg (265 lb) per chair; maximum impact load: 100 kg (220 lb) per chair.</li><li>Product weight 5.3 lb per chair.</li><li>Packed product size 6.3 x 6.3 x 32.6 in for one chair; shoulder carry bag included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2216_GREY,Color,Grey,Pack,1-Pack,54.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L30",
+      "text": ",kingcamp-lightweight-folding-camp-chair,,,,,false,draft,KC2256_GREY,Color,Grey,Pack,2-Pack,74.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L31",
+      "text": "KingCamp Reclined Mesh-Back Camping Chair,kingcamp-reclined-mesh-back-camping-chair,\"<p>Reclined mesh-back camping chair with padded seat and back, cup holder, side pocket and quick folding frame.</p><ul><li>600D Oxford seat material and a steel-tube frame.</li><li>Weight capacity 136 kg (300 lb) per chair.</li><li>Product weight 4.3 kg (9.4 lb) per chair; packed product size 97 x 18 x 17 cm for one chair.</li><li>Quick folding frame with a cup holder and side pocket.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC3825_BLACK/MEDIUMGREY,Color,Black,,,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L32",
+      "text": ",kingcamp-reclined-mesh-back-camping-chair,,,,,false,draft,KC3825_NAVY/MEDIUMGREY,Color,Navy,,,99.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L33",
+      "text": "KingCamp Low Sling Folding Beach Chair,kingcamp-low-sling-folding-beach-chair,\"<p>Low sling folding beach chair with three seating positions including lay-flat, foam pillow, mesh back, storage pouch and rear towel bar. Choose a single chair or a two-chair pack from the available color and pack combinations.</p><ul><li>600D Oxford seat material with an aluminum-alloy frame.</li><li>Weight capacity 136 kg (300 lb) per chair.</li><li>Three seating positions, including lay-flat.</li><li>Foam pillow, storage pouch and rear towel bar included.</li></ul>\",KingCamp,Camping Chairs,\"camping, us-launch\",false,draft,KC2105_BLUE,Color,Blue,Pack,2-Pack,169.99,,true,,deny,true,manual"
+    },
+    {
+      "id": "G1-L34",
+      "text": ",kingcamp-low-sling-folding-beach-chair,,,,,false,draft,KC2104_BLUE,Color,Blue,Pack,1-Pack,99.99,,true,,deny,true,manual"
+    }
+  ],
+  "source_materials": [
+    {
+      "id": "S1-L1",
+      "text": "Title,URL handle,Description,Vendor,Type,Tags,Published on online store,Status,SKU,Option1 name,Option1 value,Option2 name,Option2 value,Price,Compare-at price,Charge tax,Inventory tracker,Continue selling when out of stock,Requires shipping,Fulfillment service"
+    },
+    {
+      "id": "S2-P0",
+      "text": "跨境商品组  /  户外家具选款资料"
+    },
+    {
+      "id": "S2-P1",
+      "text": "C01  Extra Wide High Back Camping Chair"
+    },
+    {
+      "id": "S2-P2",
+      "text": "加宽高背轻量露营椅"
+    },
+    {
+      "id": "S2-P3",
+      "text": "KC2218 / KC2228"
+    },
+    {
+      "id": "S2-P4",
+      "text": "Mesh back and padded headrest; aluminum frame; carry bag and a large mesh storage pocket."
+    },
+    {
+      "id": "S2-P5",
+      "text": "C02  WILLOW C20 Lounge Chair with Side Table"
+    },
+    {
+      "id": "S2-P6",
+      "text": "WILLOW C20 带边桌折叠躺椅"
+    },
+    {
+      "id": "S2-P7",
+      "text": "KC2455 / KC2465"
+    },
+    {
+      "id": "S2-P8",
+      "text": "Five backrest positions: 120, 140, 155, 170 and 180 degrees. Side table, adjustable pillow, side pockets and carrying straps."
+    },
+    {
+      "id": "S2-P10",
+      "text": "C03  Oversized Director Chair with Side Table"
+    },
+    {
+      "id": "S2-P11",
+      "text": "加大折叠导演椅（伸缩边桌）"
+    },
+    {
+      "id": "S2-P12",
+      "text": "KC2644 / KC2684"
+    },
+    {
+      "id": "S2-P13",
+      "text": "Padded seat and foam armrests; retractable side table with cup holder; press-to-open folding design."
+    },
+    {
+      "id": "S2-P14",
+      "text": "C04  MAGNOLIA B40 Padded Lounge Chair"
+    },
+    {
+      "id": "S2-P15",
+      "text": "MAGNOLIA B40 全垫折叠躺椅"
+    },
+    {
+      "id": "S2-P16",
+      "text": "KC2641"
+    },
+    {
+      "id": "S2-P17",
+      "text": "Five reclining positions including flat; full-length PU foam padding; adjustable pillow and detachable side storage pocket."
+    },
+    {
+      "id": "S2-P19",
+      "text": "C05  ORCHID C20 Hammock Chair with Footrest"
+    },
+    {
+      "id": "S2-P20",
+      "text": "ORCHID C20 网背吊床椅（可拆脚托）"
+    },
+    {
+      "id": "S2-P21",
+      "text": "KC2517"
+    },
+    {
+      "id": "S2-P22",
+      "text": "Detachable footrest, adjustable backrest, mesh back, padded headrest, cup pockets and shoulder bag."
+    },
+    {
+      "id": "S2-P23",
+      "text": "C06  Mesh Folding Director Chair"
+    },
+    {
+      "id": "S2-P24",
+      "text": "网面折叠导演椅"
+    },
+    {
+      "id": "S2-P25",
+      "text": "KC3824 / KC2010"
+    },
+    {
+      "id": "S2-P26",
+      "text": "Breathable mesh seat surface, padded seat/back/armrests, folding side table and built-in cup holder."
+    },
+    {
+      "id": "S2-P28",
+      "text": "C07  LEMON C20 Double Butterfly Chair"
+    },
+    {
+      "id": "S2-P29",
+      "text": "LEMON C20 双人蝴蝶椅"
+    },
+    {
+      "id": "S2-P30",
+      "text": "KC2424"
+    },
+    {
+      "id": "S2-P31",
+      "text": "A continuous double seat for two people; detachable padded seat cover; one folding frame, carry bag and two compression straps."
+    },
+    {
+      "id": "S2-P32",
+      "text": "C08  Lightweight Folding Camp Chair"
+    },
+    {
+      "id": "S2-P33",
+      "text": "轻量折叠露营椅（杯托款）"
+    },
+    {
+      "id": "S2-P34",
+      "text": "KC2216 / KC2256"
+    },
+    {
+      "id": "S2-P35",
+      "text": "Adjustable armrests, mesh cup holder, steel frame and shoulder carry bag."
+    },
+    {
+      "id": "S2-P37",
+      "text": "C09  Reclined Mesh-Back Camping Chair"
+    },
+    {
+      "id": "S2-P38",
+      "text": "高靠背网面露营椅（侧袋款）"
+    },
+    {
+      "id": "S2-P39",
+      "text": "KC3825"
+    },
+    {
+      "id": "S2-P40",
+      "text": "Reclined mesh back; padded seat and back; cup holder, side pocket and quick folding frame."
+    },
+    {
+      "id": "S2-P41",
+      "text": "C10  Low Sling Folding Beach Chair"
+    },
+    {
+      "id": "S2-P42",
+      "text": "低座折叠沙滩椅"
+    },
+    {
+      "id": "S2-P43",
+      "text": "KC2105 / KC2104"
+    },
+    {
+      "id": "S2-P44",
+      "text": "Three seating positions including lay-flat; foam pillow, mesh back, storage pouch and rear towel bar."
+    },
+    {
+      "id": "S2-T0-R0",
+      "text": " | Seat fabric: 600D Oxford\nFrame: Aluminum\nOpen size: 66 x 65 x 44/92 cm\nPacked product size: 52 x 13 x 17 cm\nProduct weight: 1.5 kg / 3.3 lb\nWeight capacity: 150 kg / 330 lb"
+    },
+    {
+      "id": "S2-T1-R0",
+      "text": " | Fabric: Textilene\nFrame: Spray-coated steel, 22 x 1.0 mm tube\nOpen size: 190 x 59 x 34/37 cm\nPacked product size: 76 x 15 x 60 cm\nProduct weight: 6.6 kg / 14.5 lb\nMaximum load: 120 kg / 264 lb\nSupplied with each chair: Pillow, side bag and outer bag"
+    },
+    {
+      "id": "S2-T2-R0",
+      "text": " | Seat fabric: 100% polyester 600 x 300D PVC\nFrame: Steel\nOpen size: 50 x 55 x 48/92 cm\nFolded size: 52 x 15 x 50 cm\nProduct weight: 5.7 kg / 12.6 lb\nRated static load: 200 kg / 440 lb\nFront edge static load: 180 kg / 396 lb"
+    },
+    {
+      "id": "S2-T3-R0",
+      "text": " | Seat fabric: 600D Oxford with PVC coating\nCushion: PU foam\nFrame: Powder-coated steel\nOpen size: 200 x 68 x 34/38 cm\nFolded size: 80 x 15 x 72.5 cm\nProduct weight: 8.8 kg / 19.4 lb\nMaximum static load: 200 kg / 440.9 lb\nSeat edge load: 150 kg / 330.6 lb\nIncluded: One chair, adjustable pillow, detachable storage pocket"
+    },
+    {
+      "id": "S2-T4-R0",
+      "text": " | Fabric: 600D Oxford polyester and nylon mesh\nFrame: 6063 aluminum alloy and Q195 steel\nOpen size: 96 x 69 x 58/120 cm\nFolded size: 19.5 x 18.5 x 93.5 cm\nNet weight: 5.1 kg / 11.2 lb\nRated static load: 250 kg / 551 lb\nSeat front-edge static load: 180 kg / 396 lb"
+    },
+    {
+      "id": "S2-T5-R0",
+      "text": " | Seat material: 600D Oxford\nFrame: Steel tube\nPacked product size: 50 x 48 x 15 cm\nProduct weight: 5.4 kg / 11.9 lb\nWeight capacity: 136 kg / 300 lb"
+    },
+    {
+      "id": "S2-T6-R0",
+      "text": " | Seat fabric: 600D Cationic Oxford\nFrame: Q195 steel tubing\nWidth x depth x height: 132 x 81 x 94 cm\nPacked product size: 32 x 25 x 95 cm\nProduct weight: 8.5 kg / 18.7 lb\nIncluded: One frame, one double seat cover, one carry bag, two compression straps"
+    },
+    {
+      "id": "S2-T7-R0",
+      "text": " | Seat material: 600D Oxford\nFrame: Steel tube\nOpen size: 19.68 x 19.68 x 32.3 in\nPacked product size: 6.3 x 6.3 x 32.6 in\nProduct weight: 5.3 lb\nMaximum static load: 120 kg / 265 lb\nMaximum impact load: 100 kg / 220 lb"
+    },
+    {
+      "id": "S2-T8-R0",
+      "text": " | Seat material: 600D Oxford\nFrame: Steel tube\nPacked product size: 97 x 18 x 17 cm\nProduct weight: 4.3 kg / 9.4 lb\nWeight capacity: 136 kg / 300 lb"
+    },
+    {
+      "id": "S2-T9-R0",
+      "text": " | Seat material: 600D Oxford\nFrame: Aluminum alloy\nWeight capacity: 136 kg / 300 lb\nRecline: Three positions, including lay-flat"
+    },
+    {
+      "id": "S3-P1-B1",
+      "text": "美国站露营椅选款"
+    },
+    {
+      "id": "S3-P1-B2",
+      "text": "款图用于辨认款式；颜色、销售规格及价格见「选款明细」。"
+    },
+    {
+      "id": "S3-P1-B3",
+      "text": "系列 / 款号\n款式参考图\n商品名称\n本批颜色\n销售规格"
+    },
+    {
+      "id": "S3-P1-B4",
+      "text": "C01\nKC2218\nKC2228"
+    },
+    {
+      "id": "S3-P1-B5",
+      "text": "加宽高背轻量露营椅"
+    },
+    {
+      "id": "S3-P1-B6",
+      "text": "Cyan\nBlack\nPink\nKhaki\nGrey"
+    },
+    {
+      "id": "S3-P1-B7",
+      "text": "1-Pack\n2-Pack"
+    },
+    {
+      "id": "S3-P1-B8",
+      "text": "C02\nKC2455\nKC2465"
+    },
+    {
+      "id": "S3-P1-B9",
+      "text": "WILLOW C20 带边桌折\n叠躺椅"
+    },
+    {
+      "id": "S3-P1-B10",
+      "text": "BLACK\nBEIGE"
+    },
+    {
+      "id": "S3-P1-B11",
+      "text": "1-PACK\n2-PACK"
+    },
+    {
+      "id": "S3-P1-B12",
+      "text": "C03\nKC2644\nKC2684"
+    },
+    {
+      "id": "S3-P1-B13",
+      "text": "加大折叠导演椅（伸\n缩边桌）"
+    },
+    {
+      "id": "S3-P1-B14",
+      "text": "BLUE\nBLACK"
+    },
+    {
+      "id": "S3-P1-B15",
+      "text": "1-Pack\n2-Pack"
+    },
+    {
+      "id": "S3-P1-B16",
+      "text": "C04\nKC2641"
+    },
+    {
+      "id": "S3-P1-B17",
+      "text": "MAGNOLIA B40 全垫折\n叠躺椅"
+    },
+    {
+      "id": "S3-P1-B18",
+      "text": "Black\nBlue\nGrey"
+    },
+    {
+      "id": "S3-P1-B19",
+      "text": "单把"
+    },
+    {
+      "id": "S3-P1-B20",
+      "text": "C05\nKC2517"
+    },
+    {
+      "id": "S3-P1-B21",
+      "text": "ORCHID C20 网背吊床\n椅（可拆脚托）"
+    },
+    {
+      "id": "S3-P1-B22",
+      "text": "DARKBLUE/GREY\nBLACK/GREY\nCYAN"
+    },
+    {
+      "id": "S3-P1-B23",
+      "text": "单把"
+    },
+    {
+      "id": "S3-P2-B1",
+      "text": "美国站露营椅选款"
+    },
+    {
+      "id": "S3-P2-B2",
+      "text": "款图用于辨认款式；颜色、销售规格及价格见「选款明细」。"
+    },
+    {
+      "id": "S3-P2-B3",
+      "text": "系列 / 款号\n款式参考图\n商品名称\n本批颜色\n销售规格"
+    },
+    {
+      "id": "S3-P2-B4",
+      "text": "C06\nKC3824\nKC2010"
+    },
+    {
+      "id": "S3-P2-B5",
+      "text": "网面折叠导演椅\nBlack\nNavy"
+    },
+    {
+      "id": "S3-P2-B6",
+      "text": "1-Pack\n2-Pack"
+    },
+    {
+      "id": "S3-P2-B7",
+      "text": "C07\nKC2424"
+    },
+    {
+      "id": "S3-P2-B8",
+      "text": "LEMON C20 双人蝴蝶\n椅"
+    },
+    {
+      "id": "S3-P2-B9",
+      "text": "KHAKI\nGREY\n双人椅一把"
+    },
+    {
+      "id": "S3-P2-B10",
+      "text": "C08\nKC2216\nKC2256"
+    },
+    {
+      "id": "S3-P2-B11",
+      "text": "轻量折叠露营椅（杯\n托款）\nGrey\n1-pack\n2-pack"
+    },
+    {
+      "id": "S3-P2-B12",
+      "text": "C09\nKC3825"
+    },
+    {
+      "id": "S3-P2-B13",
+      "text": "高靠背网面露营椅\n（侧袋款）"
+    },
+    {
+      "id": "S3-P2-B14",
+      "text": "Black\nNavy\n单把"
+    },
+    {
+      "id": "S3-P2-B15",
+      "text": "C10\nKC2105\nKC2104"
+    },
+    {
+      "id": "S3-P2-B16",
+      "text": "低座折叠沙滩椅\nBlue\n2-pack\n1-pack"
+    },
+    {
+      "id": "S3-P3-B1",
+      "text": "露营椅首发明细"
+    },
+    {
+      "id": "S3-P3-B2",
+      "text": "价格币种：USD    上线状态：草稿    选款：10 款 / 33 个货号"
+    },
+    {
+      "id": "S3-P3-B3",
+      "text": "系列\n商品名称\n颜色\n销售规格\n货号\n首发零售价 USD"
+    },
+    {
+      "id": "S3-P3-B4",
+      "text": "C01\n加宽高背轻量露营椅\nCyan\n1-Pack\nKC2218_CYAN\n$59.99"
+    },
+    {
+      "id": "S3-P3-B5",
+      "text": "C01\n加宽高背轻量露营椅\nCyan\n2-Pack\nKC2228_CYAN\n$139.99"
+    },
+    {
+      "id": "S3-P3-B6",
+      "text": "C01\n加宽高背轻量露营椅\nBlack\n1-Pack\nKC2218_BLACK\n$59.99"
+    },
+    {
+      "id": "S3-P3-B7",
+      "text": "C01\n加宽高背轻量露营椅\nBlack\n2-Pack\nKC2228_BLACK\n$139.99"
+    },
+    {
+      "id": "S3-P3-B8",
+      "text": "C01\n加宽高背轻量露营椅\nPink\n1-Pack\nKC2218_PINK\n$59.99"
+    },
+    {
+      "id": "S3-P3-B9",
+      "text": "C01\n加宽高背轻量露营椅\nKhaki\n1-Pack\nKC2218_KHAKI\n$59.99"
+    },
+    {
+      "id": "S3-P3-B10",
+      "text": "C01\n加宽高背轻量露营椅\nGrey\n1-Pack\nKC2218_GREY\n$59.99"
+    },
+    {
+      "id": "S3-P3-B11",
+      "text": "C01\n加宽高背轻量露营椅\nGrey\n2-Pack\nKC2228_GREY\n$139.99"
+    },
+    {
+      "id": "S3-P3-B12",
+      "text": "C02\nWILLOW C20 带边桌折叠躺椅\nBLACK\n1-PACK\nKC2455_BLACK\n$129.99"
+    },
+    {
+      "id": "S3-P3-B13",
+      "text": "C02\nWILLOW C20 带边桌折叠躺椅\nBLACK\n2-PACK\nKC2465_BLACK\n$219.99"
+    },
+    {
+      "id": "S3-P3-B14",
+      "text": "C02\nWILLOW C20 带边桌折叠躺椅\nBEIGE\n1-PACK\nKC2455_BEIGE\n$129.99"
+    },
+    {
+      "id": "S3-P3-B15",
+      "text": "C02\nWILLOW C20 带边桌折叠躺椅\nBEIGE\n2-PACK\nKC2465_BEIGE\n$219.99"
+    },
+    {
+      "id": "S3-P3-B16",
+      "text": "C03\n加大折叠导演椅（伸缩边桌）\nBLUE\n1-Pack\nKC2644_BLUE/GREY\n$119.99"
+    },
+    {
+      "id": "S3-P3-B17",
+      "text": "C03\n加大折叠导演椅（伸缩边桌）\nBLUE\n2-Pack\nKC2684_BLUE/GREY\n$199.99"
+    },
+    {
+      "id": "S3-P3-B18",
+      "text": "C03\n加大折叠导演椅（伸缩边桌）\nBLACK\n1-Pack\nKC2644_BLACK/GREY\n$119.99"
+    },
+    {
+      "id": "S3-P3-B19",
+      "text": "C03\n加大折叠导演椅（伸缩边桌）\nBLACK\n2-Pack\nKC2684_BLACK/GREY\n$199.99"
+    },
+    {
+      "id": "S3-P3-B20",
+      "text": "C04\nMAGNOLIA B40 全垫折叠躺椅\nBlack\n单把\nKC2641_BLACK\n$129.99"
+    },
+    {
+      "id": "S3-P3-B21",
+      "text": "C04\nMAGNOLIA B40 全垫折叠躺椅\nBlue\n单把\nKC2641_BLUE\n$149.99"
+    },
+    {
+      "id": "S3-P4-B1",
+      "text": "露营椅首发明细"
+    },
+    {
+      "id": "S3-P4-B2",
+      "text": "价格币种：USD    上线状态：草稿    选款：10 款 / 33 个货号"
+    },
+    {
+      "id": "S3-P4-B3",
+      "text": "系列\n商品名称\n颜色\n销售规格\n货号\n首发零售价 USD"
+    },
+    {
+      "id": "S3-P4-B4",
+      "text": "C04\nMAGNOLIA B40 全垫折叠躺椅\nGrey\n单把\nKC2641_GREY\n$149.99"
+    },
+    {
+      "id": "S3-P4-B5",
+      "text": "C05\nORCHID C20 网背吊床椅（可拆脚\n托）"
+    },
+    {
+      "id": "S3-P4-B6",
+      "text": "DARKBLUE/GREY\n单把\nKC2517_DARKBLUE/GREY\n$119.99"
+    },
+    {
+      "id": "S3-P4-B7",
+      "text": "C05\nORCHID C20 网背吊床椅（可拆脚\n托）"
+    },
+    {
+      "id": "S3-P4-B8",
+      "text": "BLACK/GREY\n单把\nKC2517_BLACK/GREY\n$119.99"
+    },
+    {
+      "id": "S3-P4-B9",
+      "text": "C05\nORCHID C20 网背吊床椅（可拆脚\n托）"
+    },
+    {
+      "id": "S3-P4-B10",
+      "text": "CYAN\n单把\nKC2517_CYAN\n$119.99"
+    },
+    {
+      "id": "S3-P4-B11",
+      "text": "C06\n网面折叠导演椅\nBlack\n1-Pack\nKC3824_BLACK/MEDIUMGREY\n$99.99"
+    },
+    {
+      "id": "S3-P4-B12",
+      "text": "C06\n网面折叠导演椅\nBlack\n2-Pack\nKC2010_BLACK/MEDIUMGREY\n$179.99"
+    },
+    {
+      "id": "S3-P4-B13",
+      "text": "C06\n网面折叠导演椅\nNavy\n1-Pack\nKC3824_NAVY/MEDIUMGREY\n$99.99"
+    },
+    {
+      "id": "S3-P4-B14",
+      "text": "C07\nLEMON C20 双人蝴蝶椅\nKHAKI\n双人椅一把\nKC2424_KHAKI\n$129.99"
+    },
+    {
+      "id": "S3-P4-B15",
+      "text": "C07\nLEMON C20 双人蝴蝶椅\nGREY\n双人椅一把\nKC2424_GREY\n$129.99"
+    },
+    {
+      "id": "S3-P4-B16",
+      "text": "C08\n轻量折叠露营椅（杯托款）\nGrey\n1-pack\nKC2216_GREY\n$54.99"
+    },
+    {
+      "id": "S3-P4-B17",
+      "text": "C08\n轻量折叠露营椅（杯托款）\nGrey\n2-pack\nKC2256_GREY\n$74.99"
+    },
+    {
+      "id": "S3-P4-B18",
+      "text": "C09\n高靠背网面露营椅（侧袋款）\nBlack\n单把\nKC3825_BLACK/MEDIUMGREY\n$99.99"
+    },
+    {
+      "id": "S3-P4-B19",
+      "text": "C09\n高靠背网面露营椅（侧袋款）\nNavy\n单把\nKC3825_NAVY/MEDIUMGREY\n$99.99"
+    },
+    {
+      "id": "S3-P4-B20",
+      "text": "C10\n低座折叠沙滩椅\nBlue\n2-pack\nKC2105_BLUE\n$169.99"
+    },
+    {
+      "id": "S3-P4-B21",
+      "text": "C10\n低座折叠沙滩椅\nBlue\n1-pack\nKC2104_BLUE\n$99.99"
+    },
+    {
+      "id": "S3-P5-B1",
+      "text": "美国站商品导入设置"
+    },
+    {
+      "id": "S3-P5-B2",
+      "text": "平台：Shopify    市场：美国    商品组：户外家具"
+    },
+    {
+      "id": "S3-P5-B3",
+      "text": "项目\n本批设置\n衔接事项"
+    },
+    {
+      "id": "S3-P5-B4",
+      "text": "导入范围\n按系列建商品页，保留选款明细中的全\n部货号。\n每个货号一行，同系列连续排列。"
+    },
+    {
+      "id": "S3-P5-B5",
+      "text": "商品分类"
+    },
+    {
+      "id": "S3-P5-B6",
+      "text": "Vendor：KingCamp\nType：Camping Chairs\nTags：camping, us-launch"
+    },
+    {
+      "id": "S3-P5-B7",
+      "text": "沿用本批店铺分类。"
+    },
+    {
+      "id": "S3-P5-B8",
+      "text": "币种 / 价格\nUSD；零售价见选款明细。\n本批无划线价活动，Compare-at price \n留空。"
+    },
+    {
+      "id": "S3-P5-B9",
+      "text": "状态 / 发布\nStatus：draft\nPublished on online store：false"
+    },
+    {
+      "id": "S3-P5-B10",
+      "text": "先存草稿；完成图片及仓配设置后再发布\n。"
+    },
+    {
+      "id": "S3-P5-B11",
+      "text": "税费 / 实物\nCharge tax：true\nRequires shipping：true\n本批均为实物商品。"
+    },
+    {
+      "id": "S3-P5-B12",
+      "text": "履约 / 库存"
+    },
+    {
+      "id": "S3-P5-B13",
+      "text": "Fulfillment service：manual\nInventory tracker：留空\nContinue selling when out of \nstock：deny"
+    },
+    {
+      "id": "S3-P5-B14",
+      "text": "仓配接续库存、条码及包裹重量尺寸。"
+    },
+    {
+      "id": "S3-P5-B15",
+      "text": "图片\n商品图片由视觉同事接续。\n本批导入文件不带图片字段；参考款图用\n于辨认款式。"
+    },
+    {
+      "id": "S3-P5-B16",
+      "text": "颜色 / 套装"
+    },
+    {
+      "id": "S3-P5-B17",
+      "text": "Color 使用明细颜色；有 1-Pack / 2-\nPack 的系列增加 Pack。单一销售规格\n只保留 Color。"
+    },
+    {
+      "id": "S3-P5-B18",
+      "text": "颜色名称可统一英文大小写。同一商品各\n规格行保持选项列顺序一致。"
+    },
+    {
+      "id": "S3-P5-B19",
+      "text": "页面文案\n英文标题；正文采用 HTML 段落及要点\n。"
+    },
+    {
+      "id": "S3-P5-B20",
+      "text": "写明特点、主要材质及有据的尺寸或载荷\n。套装选择说清；重量、尺寸和载荷沿用\n产品资料口径。"
+    },
+    {
+      "id": "S3-P5-B21",
+      "text": "文件 / 字段\nproducts-template.csv；UTF-8 编码。"
+    },
+    {
+      "id": "S3-P5-B22",
+      "text": "保留所给表头；每个货号一行，同系列共\n用一个英文 URL handle，名称适合网址\n使用。"
+    },
+    {
+      "id": "S3-P5-B23",
+      "text": "首行 / 续行\nTitle、Description、Vendor、Type、\nTags 只填同系列首行。"
+    },
+    {
+      "id": "S3-P5-B24",
+      "text": "上述字段续行留空，其余字段按规格行填\n写。"
+    },
+    {
+      "id": "S3-P5-B25",
+      "text": "留空字段\nCompare-at price：留空\nInventory tracker：留空"
+    },
+    {
+      "id": "S3-P5-B26",
+      "text": "单一销售规格系列的 Option2 name / \nvalue 留空。"
+    }
+  ],
+  "verified_facts": [
+    {
+      "id": "F1",
+      "text": "{\n  \"task\": \"product-launch-import\",\n  \"products\": 10,\n  \"variants\": 33,\n  \"rows\": [\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2218_CYAN\",\n      \"color\": \"Cyan\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"59.99\"\n    },\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2228_CYAN\",\n      \"color\": \"Cyan\",\n      \"pack\": \"2-Pack\",\n      \"price\": \"139.99\"\n    },\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2218_BLACK\",\n      \"color\": \"Black\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"59.99\"\n    },\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2228_BLACK\",\n      \"color\": \"Black\",\n      \"pack\": \"2-Pack\",\n      \"price\": \"139.99\"\n    },\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2218_PINK\",\n      \"color\": \"Pink\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"59.99\"\n    },\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2218_KHAKI\",\n      \"color\": \"Khaki\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"59.99\"\n    },\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2218_GREY\",\n      \"color\": \"Grey\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"59.99\"\n    },\n    {\n      \"series\": \"C01\",\n      \"source_handle\": \"extra-wide-high-back-camping-chair\",\n      \"name\": \"加宽高背轻量露营椅\",\n      \"sku\": \"KC2228_GREY\",\n      \"color\": \"Grey\",\n      \"pack\": \"2-Pack\",\n      \"price\": \"139.99\"\n    },\n    {\n      \"series\": \"C02\",\n      \"source_handle\": \"kingcamp-willow-c20-lounge-chair-with-table-attached\",\n      \"name\": \"WILLOW C20 带边桌折叠躺椅\",\n      \"sku\": \"KC2455_BLACK\",\n      \"color\": \"BLACK\",\n      \"pack\": \"1-PACK\",\n      \"price\": \"129.99\"\n    },\n    {\n      \"series\": \"C02\",\n      \"source_handle\": \"kingcamp-willow-c20-lounge-chair-with-table-attached\",\n      \"name\": \"WILLOW C20 带边桌折叠躺椅\",\n      \"sku\": \"KC2465_BLACK\",\n      \"color\": \"BLACK\",\n      \"pack\": \"2-PACK\",\n      \"price\": \"219.99\"\n    },\n    {\n      \"series\": \"C02\",\n      \"source_handle\": \"kingcamp-willow-c20-lounge-chair-with-table-attached\",\n      \"name\": \"WILLOW C20 带边桌折叠躺椅\",\n      \"sku\": \"KC2455_BEIGE\",\n      \"color\": \"BEIGE\",\n      \"pack\": \"1-PACK\",\n      \"price\": \"129.99\"\n    },\n    {\n      \"series\": \"C02\",\n      \"source_handle\": \"kingcamp-willow-c20-lounge-chair-with-table-attached\",\n      \"name\": \"WILLOW C20 带边桌折叠躺椅\",\n      \"sku\": \"KC2465_BEIGE\",\n      \"color\": \"BEIGE\",\n      \"pack\": \"2-PACK\",\n      \"price\": \"219.99\"\n    },\n    {\n      \"series\": \"C03\",\n      \"source_handle\": \"kingcamp-oversized-director-chair-with-side-table\",\n      \"name\": \"加大折叠导演椅（伸缩边桌）\",\n      \"sku\": \"KC2644_BLUE/GREY\",\n      \"color\": \"BLUE\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"119.99\"\n    },\n    {\n      \"series\": \"C03\",\n      \"source_handle\": \"kingcamp-oversized-director-chair-with-side-table\",\n      \"name\": \"加大折叠导演椅（伸缩边桌）\",\n      \"sku\": \"KC2684_BLUE/GREY\",\n      \"color\": \"BLUE\",\n      \"pack\": \"2-Pack\",\n      \"price\": \"199.99\"\n    },\n    {\n      \"series\": \"C03\",\n      \"source_handle\": \"kingcamp-oversized-director-chair-with-side-table\",\n      \"name\": \"加大折叠导演椅（伸缩边桌）\",\n      \"sku\": \"KC2644_BLACK/GREY\",\n      \"color\": \"BLACK\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"119.99\"\n    },\n    {\n      \"series\": \"C03\",\n      \"source_handle\": \"kingcamp-oversized-director-chair-with-side-table\",\n      \"name\": \"加大折叠导演椅（伸缩边桌）\",\n      \"sku\": \"KC2684_BLACK/GREY\",\n      \"color\": \"BLACK\",\n      \"pack\": \"2-Pack\",\n      \"price\": \"199.99\"\n    },\n    {\n      \"series\": \"C04\",\n      \"source_handle\": \"kingcamp-magnolia-b40-oversized-padded-lounge-chair\",\n      \"name\": \"MAGNOLIA B40 全垫折叠躺椅\",\n      \"sku\": \"KC2641_BLACK\",\n      \"color\": \"Black\",\n      \"pack\": null,\n      \"price\": \"129.99\"\n    },\n    {\n      \"series\": \"C04\",\n      \"source_handle\": \"kingcamp-magnolia-b40-oversized-padded-lounge-chair\",\n      \"name\": \"MAGNOLIA B40 全垫折叠躺椅\",\n      \"sku\": \"KC2641_BLUE\",\n      \"color\": \"Blue\",\n      \"pack\": null,\n      \"price\": \"149.99\"\n    },\n    {\n      \"series\": \"C04\",\n      \"source_handle\": \"kingcamp-magnolia-b40-oversized-padded-lounge-chair\",\n      \"name\": \"MAGNOLIA B40 全垫折叠躺椅\",\n      \"sku\": \"KC2641_GREY\",\n      \"color\": \"Grey\",\n      \"pack\": null,\n      \"price\": \"149.99\"\n    },\n    {\n      \"series\": \"C05\",\n      \"source_handle\": \"kingcamp-orchid-c20-mesh-back-hammock-chair-with-footrest\",\n      \"name\": \"ORCHID C20 网背吊床椅（可拆脚托）\",\n      \"sku\": \"KC2517_DARKBLUE/GREY\",\n      \"color\": \"DARKBLUE/GREY\",\n      \"pack\": null,\n      \"price\": \"119.99\"\n    },\n    {\n      \"series\": \"C05\",\n      \"source_handle\": \"kingcamp-orchid-c20-mesh-back-hammock-chair-with-footrest\",\n      \"name\": \"ORCHID C20 网背吊床椅（可拆脚托）\",\n      \"sku\": \"KC2517_BLACK/GREY\",\n      \"color\": \"BLACK/GREY\",\n      \"pack\": null,\n      \"price\": \"119.99\"\n    },\n    {\n      \"series\": \"C05\",\n      \"source_handle\": \"kingcamp-orchid-c20-mesh-back-hammock-chair-with-footrest\",\n      \"name\": \"ORCHID C20 网背吊床椅（可拆脚托）\",\n      \"sku\": \"KC2517_CYAN\",\n      \"color\": \"CYAN\",\n      \"pack\": null,\n      \"price\": \"119.99\"\n    },\n    {\n      \"series\": \"C06\",\n      \"source_handle\": \"oversized-camping-directors-chair\",\n      \"name\": \"网面折叠导演椅\",\n      \"sku\": \"KC3824_BLACK/MEDIUMGREY\",\n      \"color\": \"Black\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"99.99\"\n    },\n    {\n      \"series\": \"C06\",\n      \"source_handle\": \"oversized-camping-directors-chair\",\n      \"name\": \"网面折叠导演椅\",\n      \"sku\": \"KC2010_BLACK/MEDIUMGREY\",\n      \"color\": \"Black\",\n      \"pack\": \"2-Pack\",\n      \"price\": \"179.99\"\n    },\n    {\n      \"series\": \"C06\",\n      \"source_handle\": \"oversized-camping-directors-chair\",\n      \"name\": \"网面折叠导演椅\",\n      \"sku\": \"KC3824_NAVY/MEDIUMGREY\",\n      \"color\": \"Navy\",\n      \"pack\": \"1-Pack\",\n      \"price\": \"99.99\"\n    },\n    {\n      \"series\": \"C07\",\n      \"source_handle\": \"double-butterfly-chair\",\n      \"name\": \"LEMON C20 双人蝴蝶椅\",\n      \"sku\": \"KC2424_KHAKI\",\n      \"color\": \"KHAKI\",\n      \"pack\": null,\n      \"price\": \"129.99\"\n    },\n    {\n      \"series\": \"C07\",\n      \"source_handle\": \"double-butterfly-chair\",\n      \"name\": \"LEMON C20 双人蝴蝶椅\",\n      \"sku\": \"KC2424_GREY\",\n      \"color\": \"GREY\",\n      \"pack\": null,\n      \"price\": \"129.99\"\n    },\n    {\n      \"series\": \"C08\",\n      \"source_handle\": \"lightweight-folding-camp-chair\",\n      \"name\": \"轻量折叠露营椅（杯托款）\",\n      \"sku\": \"KC2216_GREY\",\n      \"color\": \"Grey\",\n      \"pack\": \"1-pack\",\n      \"price\": \"54.99\"\n    },\n    {\n      \"series\": \"C08\",\n      \"source_handle\": \"lightweight-folding-camp-chair\",\n      \"name\": \"轻量折叠露营椅（杯托款）\",\n      \"sku\": \"KC2256_GREY\",\n      \"color\": \"Grey\",\n      \"pack\": \"2-pack\",\n      \"price\": \"74.99\"\n    },\n    {\n      \"series\": \"C09\",\n      \"source_handle\": \"folding-lightweight-camping-chair\",\n      \"name\": \"高靠背网面露营椅（侧袋款）\",\n      \"sku\": \"KC3825_BLACK/MEDIUMGREY\",\n      \"color\": \"Black\",\n      \"pack\": null,\n      \"price\": \"99.99\"\n    },\n    {\n      \"series\": \"C09\",\n      \"source_handle\": \"folding-lightweight-camping-chair\",\n      \"name\": \"高靠背网面露营椅（侧袋款）\",\n      \"sku\": \"KC3825_NAVY/MEDIUMGREY\",\n      \"color\": \"Navy\",\n      \"pack\": null,\n      \"price\": \"99.99\"\n    },\n    {\n      \"series\": \"C10\",\n      \"source_handle\": \"stable-folding-beach-chair\",\n      \"name\": \"低座折叠沙滩椅\",\n      \"sku\": \"KC2105_BLUE\",\n      \"color\": \"Blue\",\n      \"pack\": \"2-pack\",\n      \"price\": \"169.99\"\n    },\n    {\n      \"series\": \"C10\",\n      \"source_handle\": \"stable-folding-beach-chair\",\n      \"name\": \"低座折叠沙滩椅\",\n      \"sku\": \"KC2104_BLUE\",\n      \"color\": \"Blue\",\n      \"pack\": \"1-pack\",\n      \"price\": \"99.99\"\n    }\n  ],\n  \"product_facts\": [\n    {\n      \"series\": \"C01\",\n      \"name\": \"Extra Wide High Back Camping Chair\",\n      \"features\": \"Mesh back and padded headrest; aluminum frame; carry bag and a large mesh storage pocket.\",\n      \"specs\": [\n        [\n          \"Seat fabric\",\n          \"600D Oxford\"\n        ],\n        [\n          \"Frame\",\n          \"Aluminum\"\n        ],\n        [\n          \"Open size\",\n          \"66 x 65 x 44/92 cm\"\n        ],\n        [\n          \"Packed product size\",\n          \"52 x 13 x 17 cm\"\n        ],\n        [\n          \"Product weight\",\n          \"1.5 kg / 3.3 lb\"\n        ],\n        [\n          \"Weight capacity\",\n          \"150 kg / 330 lb\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C02\",\n      \"name\": \"WILLOW C20 Lounge Chair with Side Table\",\n      \"features\": \"Five backrest positions: 120, 140, 155, 170 and 180 degrees. Side table, adjustable pillow, side pockets and carrying straps.\",\n      \"specs\": [\n        [\n          \"Fabric\",\n          \"Textilene\"\n        ],\n        [\n          \"Frame\",\n          \"Spray-coated steel, 22 x 1.0 mm tube\"\n        ],\n        [\n          \"Open size\",\n          \"190 x 59 x 34/37 cm\"\n        ],\n        [\n          \"Packed product size\",\n          \"76 x 15 x 60 cm\"\n        ],\n        [\n          \"Product weight\",\n          \"6.6 kg / 14.5 lb\"\n        ],\n        [\n          \"Maximum load\",\n          \"120 kg / 264 lb\"\n        ],\n        [\n          \"Supplied with each chair\",\n          \"Pillow, side bag and outer bag\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C03\",\n      \"name\": \"Oversized Director Chair with Side Table\",\n      \"features\": \"Padded seat and foam armrests; retractable side table with cup holder; press-to-open folding design.\",\n      \"specs\": [\n        [\n          \"Seat fabric\",\n          \"100% polyester 600 x 300D PVC\"\n        ],\n        [\n          \"Frame\",\n          \"Steel\"\n        ],\n        [\n          \"Open size\",\n          \"50 x 55 x 48/92 cm\"\n        ],\n        [\n          \"Folded size\",\n          \"52 x 15 x 50 cm\"\n        ],\n        [\n          \"Product weight\",\n          \"5.7 kg / 12.6 lb\"\n        ],\n        [\n          \"Rated static load\",\n          \"200 kg / 440 lb\"\n        ],\n        [\n          \"Front edge static load\",\n          \"180 kg / 396 lb\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C04\",\n      \"name\": \"MAGNOLIA B40 Padded Lounge Chair\",\n      \"features\": \"Five reclining positions including flat; full-length PU foam padding; adjustable pillow and detachable side storage pocket.\",\n      \"specs\": [\n        [\n          \"Seat fabric\",\n          \"600D Oxford with PVC coating\"\n        ],\n        [\n          \"Cushion\",\n          \"PU foam\"\n        ],\n        [\n          \"Frame\",\n          \"Powder-coated steel\"\n        ],\n        [\n          \"Open size\",\n          \"200 x 68 x 34/38 cm\"\n        ],\n        [\n          \"Folded size\",\n          \"80 x 15 x 72.5 cm\"\n        ],\n        [\n          \"Product weight\",\n          \"8.8 kg / 19.4 lb\"\n        ],\n        [\n          \"Maximum static load\",\n          \"200 kg / 440.9 lb\"\n        ],\n        [\n          \"Seat edge load\",\n          \"150 kg / 330.6 lb\"\n        ],\n        [\n          \"Included\",\n          \"One chair, adjustable pillow, detachable storage pocket\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C05\",\n      \"name\": \"ORCHID C20 Hammock Chair with Footrest\",\n      \"features\": \"Detachable footrest, adjustable backrest, mesh back, padded headrest, cup pockets and shoulder bag.\",\n      \"specs\": [\n        [\n          \"Fabric\",\n          \"600D Oxford polyester and nylon mesh\"\n        ],\n        [\n          \"Frame\",\n          \"6063 aluminum alloy and Q195 steel\"\n        ],\n        [\n          \"Open size\",\n          \"96 x 69 x 58/120 cm\"\n        ],\n        [\n          \"Folded size\",\n          \"19.5 x 18.5 x 93.5 cm\"\n        ],\n        [\n          \"Net weight\",\n          \"5.1 kg / 11.2 lb\"\n        ],\n        [\n          \"Rated static load\",\n          \"250 kg / 551 lb\"\n        ],\n        [\n          \"Seat front-edge static load\",\n          \"180 kg / 396 lb\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C06\",\n      \"name\": \"Mesh Folding Director Chair\",\n      \"features\": \"Breathable mesh seat surface, padded seat/back/armrests, folding side table and built-in cup holder.\",\n      \"specs\": [\n        [\n          \"Seat material\",\n          \"600D Oxford\"\n        ],\n        [\n          \"Frame\",\n          \"Steel tube\"\n        ],\n        [\n          \"Packed product size\",\n          \"50 x 48 x 15 cm\"\n        ],\n        [\n          \"Product weight\",\n          \"5.4 kg / 11.9 lb\"\n        ],\n        [\n          \"Weight capacity\",\n          \"136 kg / 300 lb\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C07\",\n      \"name\": \"LEMON C20 Double Butterfly Chair\",\n      \"features\": \"A continuous double seat for two people; detachable padded seat cover; one folding frame, carry bag and two compression straps.\",\n      \"specs\": [\n        [\n          \"Seat fabric\",\n          \"600D Cationic Oxford\"\n        ],\n        [\n          \"Frame\",\n          \"Q195 steel tubing\"\n        ],\n        [\n          \"Width x depth x height\",\n          \"132 x 81 x 94 cm\"\n        ],\n        [\n          \"Packed product size\",\n          \"32 x 25 x 95 cm\"\n        ],\n        [\n          \"Product weight\",\n          \"8.5 kg / 18.7 lb\"\n        ],\n        [\n          \"Included\",\n          \"One frame, one double seat cover, one carry bag, two compression straps\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C08\",\n      \"name\": \"Lightweight Folding Camp Chair\",\n      \"features\": \"Adjustable armrests, mesh cup holder, steel frame and shoulder carry bag.\",\n      \"specs\": [\n        [\n          \"Seat material\",\n          \"600D Oxford\"\n        ],\n        [\n          \"Frame\",\n          \"Steel tube\"\n        ],\n        [\n          \"Open size\",\n          \"19.68 x 19.68 x 32.3 in\"\n        ],\n        [\n          \"Packed product size\",\n          \"6.3 x 6.3 x 32.6 in\"\n        ],\n        [\n          \"Product weight\",\n          \"5.3 lb\"\n        ],\n        [\n          \"Maximum static load\",\n          \"120 kg / 265 lb\"\n        ],\n        [\n          \"Maximum impact load\",\n          \"100 kg / 220 lb\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C09\",\n      \"name\": \"Reclined Mesh-Back Camping Chair\",\n      \"features\": \"Reclined mesh back; padded seat and back; cup holder, side pocket and quick folding frame.\",\n      \"specs\": [\n        [\n          \"Seat material\",\n          \"600D Oxford\"\n        ],\n        [\n          \"Frame\",\n          \"Steel tube\"\n        ],\n        [\n          \"Packed product size\",\n          \"97 x 18 x 17 cm\"\n        ],\n        [\n          \"Product weight\",\n          \"4.3 kg / 9.4 lb\"\n        ],\n        [\n          \"Weight capacity\",\n          \"136 kg / 300 lb\"\n        ]\n      ]\n    },\n    {\n      \"series\": \"C10\",\n      \"name\": \"Low Sling Folding Beach Chair\",\n      \"features\": \"Three seating positions including lay-flat; foam pillow, mesh back, storage pouch and rear towel bar.\",\n      \"specs\": [\n        [\n          \"Seat material\",\n          \"600D Oxford\"\n        ],\n        [\n          \"Frame\",\n          \"Aluminum alloy\"\n        ],\n        [\n          \"Weight capacity\",\n          \"136 kg / 300 lb\"\n        ],\n        [\n          \"Recline\",\n          \"Three positions, including lay-flat\"\n        ]\n      ]\n    }\n  ],\n  \"business_plan\": {\n    \"currency\": \"USD\",\n    \"status\": \"draft\",\n    \"published\": false,\n    \"vendor\": \"KingCamp\",\n    \"type\": \"Camping Chairs\",\n    \"tags\": [\n      \"camping\",\n      \"us-launch\"\n    ],\n    \"inventory\": \"untracked\",\n    \"fulfillment\": \"manual\",\n    \"unknown\": [\n      \"barcodes\",\n      \"stock quantities\",\n      \"packed shipping dimensions\",\n      \"packed shipping weights\"\n    ]\n  },\n  \"meaning_boundaries\": [\n    \"A double-seat LEMON chair is one chair, not a two-chair pack.\",\n    \"Product weights, folded sizes and rated loads are per chair, not per shipping carton or combined set capacity.\",\n    \"Static, front-edge and impact load ratings have different scopes; do not interchange them.\",\n    \"Source variant availability is not merchant warehouse stock or a promise of immediate delivery.\",\n    \"No actual Shopify import or publication is evidenced.\"\n  ]\n}\n"
+    }
+  ],
+  "scope": "All supplied business document text and table rows. No visual assessment. Source evidence takes precedence over reference."
+}

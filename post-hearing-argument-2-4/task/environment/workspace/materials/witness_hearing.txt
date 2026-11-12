@@ -1,0 +1,145 @@
+[SOURCE PAGE 1/5]
+- 1 -
+[COURT_1]
+证人出庭作证笔录
+时间：2025 年12 月4 日16 时15 分
+地点：[COURT_1]第七法庭
+证人：[WITNESS_1]，男，[BIRTH_DATE_REDACTED]，汉族，[ADDRESS_REDACTED]
+[ADDRESS_REDACTED]
+[ID_REDACTED]，号码：[PHONE_REDACTED]。
+审：现在核对证人基本情况，请证人提交你的有效身份证明
+交法庭核对。
+（由证人提交身份证件）
+审：经核对证人身份与当事人申请的证人一致。原、被告双
+方对证人身份有无异议？
+原：无异议。
+被：无异议。
+审：今天本院依法审理原告（反诉被告）[PLAINTIFF_1]诉被告[DEFENDANT_COMPANY_1]、被告（反诉原告）[DEFENDANT_PERSON_2]建设工程分包
+合同纠纷一案。本院根据本案被告的申请，通知你作为本案的证
+人出庭作证。根据《中华人民共和国民事诉讼法》和最高人民法
+院《关于民事诉讼证据的若干规定》，现将有关事项告知如下：
+一、凡是知道案件情况的单位和个人，都有义务出庭作证。二、
+证人应当客观陈述亲身感知的事实，不得使用猜测、推断或者评
+论性的语言。证人不得宣读事先准备的书面证言。三、证人应当
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 2/5]
+- 2 -
+如实作证，并如实回答审判人员和当事人的询问，作伪证的，应
+承担相应的法律责任。四、证人不得旁听法庭审理，不得与当事
+人和其他证人交换意见。五、证人的合法权利受法律保护。
+审：证人对上述作证的权利义务有无听清？
+证：听清了。
+审：你与原告什么关系？
+证：我没有见过原告，不认识。我知道原告这个人，我知道
+有三个老板，其中一个是原告。
+审：你在案涉项目里做什么？
+证：我是就做钢筋的，是钢筋工。
+审：你的老板是谁？
+证：帮公司做的，是[THIRD_PARTY_PERSON_1]叫我来做的，不是[PLAINTIFF_1]叫我来
+做的。
+审：[THIRD_PARTY_PERSON_1]叫你来做的时候是怎么说的？
+证：400 元/天，每个下了班付钱。
+审：与[THIRD_PARTY_PERSON_1]有没有结算？
+证：付了，有100 多万元，有三个钢筋工老板，[WORKER_3]、[WORKER_2]、[PLAINTIFF_1]。
+审：[PLAINTIFF_1]有没有一个叫[SITE_PERSON_1]的？
+证：有的，[SITE_PERSON_1]是带班的，给[PLAINTIFF_1]带班的。如果[PLAINTIFF_1]
+忙不过来，到规定的时间做不完，就要加人，[SITE_PERSON_1]让我们到哪
+我们就去哪干活。安排的人太少，活多人没有这么多，工期紧不
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 3/5]
+- 3 -
+紧我不知道。
+审：钱为什么不找[PLAINTIFF_1]要？
+证：当开始我不认识[SITE_PERSON_1]，是[THIRD_PARTY_PERSON_1]让我们来，[THIRD_PARTY_PERSON_1]是
+[DEFENDANT_COMPANY_1]的，钱是[THIRD_PARTY_PERSON_1]给我的。
+审：帮[PLAINTIFF_1]干有多少钱？帮[WORKER_NAME_VARIANT_1]干是多少钱？[WORKER_2]干了
+是多少钱？
+证：具体不记得了，大概是100 多万元。
+审：[SITE_PERSON_1]怎么跟你讲的？
+证：我们到工地后，[SITE_PERSON_1]分配我们几个人到3 号楼，几个
+到2 号楼。
+被二代：当庭出示结算单，是不是你与[PLAINTIFF_1]班组的结算金
+额？微信聊天记录是否是真实的？
+证：是的。
+被二代：是不是[SITE_PERSON_1]觉得工期来不及，人手不够，找到了[THIRD_PARTY_PERSON_1]，然后[PERSON_NAME_VARIANT_4]再给你打电话，让你来帮[SITE_PERSON_1]干活。
+证：对的。
+被二代：结算单上的工作量及款项是否真实并已收到？
+证：真实并已收到。
+原代：你们是什么时候退场？
+证：天冷的时候，具体的时间不记得了。
+原代：结算单是谁给你签的？
+证：找[THIRD_PARTY_PERSON_1]要的。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 4/5]
+- 4 -
+原代：[SITE_PERSON_1]签字的时候你在场吗？
+证：签字的时候我与[SITE_PERSON_1]都在场，[THIRD_PARTY_PERSON_1]把他们都叫去了。我
+认识[SITE_PERSON_1]的，我有他的微信。
+审：你去案涉工地干活是什么时候？
+证：2020 年6 月还是2021 年6 月记不清。
+审：[PLAINTIFF_1]自己的钢筋工有没有？
+证：有的。我们去的人与[PLAINTIFF_1]的钢筋工插一起干活。
+审：为什么要临时加工人？
+证：大多数的工地都需要加工人，前几年金华的工地多，10 家工
+地有7-8 家都这样。加人的钱不是[PLAINTIFF_1]付的。
+审：加人的事情是[SITE_PERSON_1]主动向[THIRD_PARTY_PERSON_1]提的？
+证：对的。这是普遍存在的现象。[PLAINTIFF_1]从上海过来认识的人比
+较少，我们都在金华认识的人多，通过[THIRD_PARTY_PERSON_1]认识了[PLAINTIFF_1]。工地上
+管事的都是[SITE_PERSON_1]，早上[SITE_PERSON_1]给我们安排活。
+审：[PLAINTIFF_1]，临时加工人的情况是普遍存在的？
+原：我不知道，不清楚。
+审：[SITE_PERSON_1]是不是你带班的？
+原：[SITE_PERSON_1]是我带班的。
+审：工地上有临时加工人的情况，你是不是清楚？
+原：我经常过来的，加人我不知道。
+审：[PLAINTIFF_1]，在金华工地上普遍存在人手不够，案涉工地上人手
+够不够？
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE PAGE 5/5]
+- 5 -
+原：够的，不需要加人。多加人是抢工期。
+证：工地上需要30 个人，由于天气的原因，上午干了，下午就不
+干了，所以下午上班的人就少了。
+审：据你的观察，[PLAINTIFF_1]的陈述是否属实？
+证：如果人手够的话就不需要加人的，是不是抢工期我不知道，
+我只知道把活干好。
+审：为什么叫人来？
+证：[SITE_PERSON_1]说让我们赶快干活，让我们在规定的时间内干完。
+审：据你所知，老板与老板之间你们的费用是怎么安排？
+证：老板打电话来就是老板付，公司里有一个管事的，谁打电话
+来我们找谁要钱。[THIRD_PARTY_PERSON_1]打我电话，我就向[THIRD_PARTY_PERSON_1]要钱。来了以后我
+们听[SITE_PERSON_1]的安排。谁管现场就听谁的。
+审：[THIRD_PARTY_PERSON_1]与[SITE_PERSON_1]是什么关系?
+证：不知道，[SITE_PERSON_1]是替[PLAINTIFF_1]带班的，他们都是安徽的，[SITE_PERSON_1]说的，就干活的时候也会聊天。
+被一代：[THIRD_PARTY_PERSON_1]是公司的，你又说了，公司是指上海这件事，只
+是因为施工外面墙上的铭牌写的[DEFENDANT_COMPANY_1]是总承包单位是吗？
+证：牌了上写着的。
+审：证人有无补充？
+证：无。
+审：下面宣布证人退庭，请证人核对笔录，无误后请签字。
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]
+[SOURCE_WATERMARK_REDACTED]

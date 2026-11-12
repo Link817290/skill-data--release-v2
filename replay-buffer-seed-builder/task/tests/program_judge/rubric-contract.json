@@ -1,0 +1,1318 @@
+{
+ "schema_version": "program-judge-contract-v1",
+ "golden_authority": "authoritative_truth",
+ "golden_source_required": false,
+ "positive_items": [
+  {
+   "id": "P01",
+   "units": [
+    "U001"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "the record's phase equals the unique interval assignment for the time the record itself selects, after any justified terminal extension",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 0",
+   "object_key": "record_slot_0",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "the record's phase equals the unique interval assignment for the time the record itself selects, after any justified terminal extension",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[0]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00906667
+  },
+  {
+   "id": "P02",
+   "units": [
+    "U001"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "the record's phase equals the unique interval assignment for the time the record itself selects, after any justified terminal extension",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 1",
+   "object_key": "record_slot_1",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "the record's phase equals the unique interval assignment for the time the record itself selects, after any justified terminal extension",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[1]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00906667
+  },
+  {
+   "id": "P03",
+   "units": [
+    "U008"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "adopted residual authority is lower before contact than after contact",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "complete adopted JSONL record sequence",
+   "object_key": "replay_seed_sequence",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "adopted residual authority is lower before contact than after contact",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record_sequence",
+    "metric": "one coherent record sequence",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.085
+  },
+  {
+   "id": "P04",
+   "units": [
+    "U001"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "the record's phase equals the unique interval assignment for the time the record itself selects, after any justified terminal extension",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 3",
+   "object_key": "record_slot_3",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "the record's phase equals the unique interval assignment for the time the record itself selects, after any justified terminal extension",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[3]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00906667
+  },
+  {
+   "id": "P05",
+   "units": [
+    "U010"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "one scalar routing label is adopted per record and the precontact route differs from the later manipulation route",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "complete adopted JSONL record sequence",
+   "object_key": "replay_seed_sequence",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "one scalar routing label is adopted per record and the precontact route differs from the later manipulation route",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record_sequence",
+    "metric": "one coherent record sequence",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.05666667
+  },
+  {
+   "id": "P06",
+   "units": [
+    "U003"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "the compact seed includes the corrected trajectory terminal frame under the terminal phase",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "complete adopted JSONL record sequence",
+   "object_key": "replay_seed_sequence",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "the compact seed includes the corrected trajectory terminal frame under the terminal phase",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record_sequence",
+    "metric": "one coherent record sequence",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.03966667
+  },
+  {
+   "id": "P07",
+   "units": [
+    "U003"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "phase assignments preserve absolute annotation intervals and extend only the terminal tail",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "complete adopted JSONL record sequence",
+   "object_key": "replay_seed_sequence",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "phase assignments preserve absolute annotation intervals and extend only the terminal tail",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record_sequence",
+    "metric": "one coherent record sequence",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00906667
+  },
+  {
+   "id": "P08",
+   "units": [
+    "U005"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 0",
+   "object_key": "record_slot_0",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[0]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P09",
+   "units": [
+    "U005"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 1",
+   "object_key": "record_slot_1",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[1]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P10",
+   "units": [
+    "U005"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 2",
+   "object_key": "record_slot_2",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[2]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P11",
+   "units": [
+    "U005"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 3",
+   "object_key": "record_slot_3",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[3]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P12",
+   "units": [
+    "U005"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 4",
+   "object_key": "record_slot_4",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[4]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P13",
+   "units": [
+    "U005"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 5",
+   "object_key": "record_slot_5",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[5]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P14",
+   "units": [
+    "U005"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold; the terminal record also requires base_z to equal the corrected third coordinate within 0.0000005",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 6",
+   "object_key": "record_slot_6",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time, qpos_dim equals the corrected array width, and qpos_mean_abs equals its corrected row mean within 0.0000005, while a locally correct alternative row earns one eighth for a professionally valid alternative scaffold; the terminal record also requires base_z to equal the corrected third coordinate within 0.0000005",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[6]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P15",
+   "units": [
+    "U007"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 0",
+   "object_key": "record_slot_0",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[0]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P16",
+   "units": [
+    "U007"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 1",
+   "object_key": "record_slot_1",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[1]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P17",
+   "units": [
+    "U007"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 2",
+   "object_key": "record_slot_2",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[2]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P18",
+   "units": [
+    "U007"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 3",
+   "object_key": "record_slot_3",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[3]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P19",
+   "units": [
+    "U007"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 4",
+   "object_key": "record_slot_4",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[4]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435897
+  },
+  {
+   "id": "P20",
+   "units": [
+    "U007"
+   ],
+   "value_basis": "A correct local trajectory derivation is required for a usable replay seed.",
+   "reasoning_gate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "copy_counterfactual": "Copying a source file or emitting the field name without the bound row derivation earns zero.",
+   "scope": "JSONL record slot 5",
+   "object_key": "record_slot_5",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "record uses the adopted representative time and base_z equals its corrected third coordinate within 0.0000005, while a correct local coordinate at another time earns one eighth for a professionally valid alternative scaffold",
+   "adoption_status": "final emitted record",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.record[5]",
+    "metric": "one parsed record",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00435902
+  },
+  {
+   "id": "P21",
+   "units": [
+    "U001"
+   ],
+   "value_basis": "A seed that does not begin at the episode origin loses the state the episode is replayed from.",
+   "reasoning_gate": "the selected times include the episode origin",
+   "copy_counterfactual": "Emitting rows without a decided scaffold, or echoing the instruction's field names, earns zero.",
+   "scope": "selected time set",
+   "object_key": "scaffold_origin",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "the selected times include the episode origin",
+   "adoption_status": "final emitted record sequence",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.records",
+    "metric": "the selected time set",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.02833333
+  },
+  {
+   "id": "P22",
+   "units": [
+    "U001"
+   ],
+   "value_basis": "A phase with no representative cannot be trained on, whichever times the rest of the scaffold uses.",
+   "reasoning_gate": "every declared phase, including a short transition phase between coarse anchors, has at least one representative row",
+   "copy_counterfactual": "Emitting rows without a decided scaffold, or echoing the instruction's field names, earns zero.",
+   "scope": "selected time set",
+   "object_key": "scaffold_phase_coverage",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "every declared phase, including a short transition phase between coarse anchors, has at least one representative row",
+   "adoption_status": "final emitted record sequence",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.records",
+    "metric": "the selected time set",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.00906665
+  },
+  {
+   "id": "P23",
+   "units": [
+    "U001"
+   ],
+   "value_basis": "Anchors placed on a stable cadence are reproducible across episodes; arbitrary offsets are not.",
+   "reasoning_gate": "the interior anchors lie on one coarse cadence, apart from at most one interior point per short phase",
+   "copy_counterfactual": "Emitting rows without a decided scaffold, or echoing the instruction's field names, earns zero.",
+   "scope": "selected time set",
+   "object_key": "scaffold_cadence",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "the interior anchors lie on one coarse cadence, apart from at most one interior point per short phase",
+   "adoption_status": "final emitted record sequence",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.records",
+    "metric": "the selected time set",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.02833334
+  },
+  {
+   "id": "P24",
+   "units": [
+    "U010"
+   ],
+   "value_basis": "A target vector read on an arbitrary scale cannot be compared across records, and a dominance order that does not follow the phase objective trains the learner toward the wrong objective.",
+   "reasoning_gate": "every record's target components are normalised so the component the phase objective names carries the full value, and the dominant component follows tracking before contact, contact through closure, and lift only after stable grasp",
+   "copy_counterfactual": "Emitting the field with an unbound value, or a label the project context does not use, earns zero.",
+   "scope": "emitted target vectors",
+   "object_key": "reward_target_normalisation",
+   "source_location": "materials/trajectory_unified.npz and materials/grasp_phase_segments.json",
+   "relation_predicate": "every record's target components are normalised so the component the phase objective names carries the full value, and the dominant component follows tracking before contact, contact through closure, and lift only after stable grasp",
+   "adoption_status": "final emitted record sequence",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.records",
+    "metric": "the emitted metadata sequence",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.33
+  },
+  {
+   "id": "P25",
+   "units": [
+    "U010"
+   ],
+   "value_basis": "A downstream consumer selects records by the routing string it already uses; a locally invented label routes nothing.",
+   "reasoning_gate": "precontact routing labels are semantically equivalent to the source-supported phase-1/pretraining or imitation route and later manipulation labels are semantically equivalent to the PPO/reinforcement-learning route",
+   "copy_counterfactual": "Emitting the field with an unbound, reversed, mixed, empty, ambiguous, or locally invented routing meaning earns zero.",
+   "scope": "emitted routing labels",
+   "object_key": "routing_vocabulary",
+   "source_location": "materials/ppo_script.py and the submitted use_for values",
+   "relation_predicate": "precontact routing labels are semantically equivalent to the source-supported phase-1/pretraining or imitation route and later manipulation labels are semantically equivalent to the PPO/reinforcement-learning route",
+   "adoption_status": "final emitted record sequence",
+   "negative_context_exclusions": "Exclude missing, rejected, quoted, negated, conflicting, or keyword spray content.",
+   "equivalence_dimensions": [
+    "object",
+    "source_or_evidence_anchor",
+    "relation",
+    "polarity",
+    "modality",
+    "time_or_version_scope",
+    "units_or_quantities",
+    "conditions_or_exceptions",
+    "adoption_status",
+    "downstream_consequence"
+   ],
+   "evidence_span": {
+    "locator": "jsonl.records",
+    "metric": "the emitted metadata sequence",
+    "max_units": 1
+   },
+   "length_contract_id": "S01",
+   "weight": 0.33
+  }
+ ],
+ "deduction_items": [
+  {
+   "id": "D01",
+   "trigger": "artifact is not valid nonempty JSONL",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "artifact is not valid nonempty JSONL",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D02",
+   "trigger": "a JSONL line is not an object",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "a JSONL line is not an object",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D03",
+   "trigger": "t is not an integer",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "t is not an integer",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D04",
+   "trigger": "t is outside the corrected trajectory",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "t is outside the corrected trajectory",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D05",
+   "trigger": "two records reuse the same t",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "two records reuse the same t",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D06",
+   "trigger": "records are not strictly ascending by t",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "records are not strictly ascending by t",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D07",
+   "trigger": "phase contradicts the bound interval",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "phase contradicts the bound interval",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D08",
+   "trigger": "qpos_mean_abs contradicts corrected qpos",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "qpos_mean_abs contradicts corrected qpos",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D09",
+   "trigger": "qpos_dim contradicts corrected qpos width",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "qpos_dim contradicts corrected qpos width",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D10",
+   "trigger": "base_z contradicts the third corrected qpos coordinate",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "base_z contradicts the third corrected qpos coordinate",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D11",
+   "trigger": "a record adds unsupported top level fields",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "a record adds unsupported top level fields",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D12",
+   "trigger": "a nested scored object has an incompatible type",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "a nested scored object has an incompatible type",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D13",
+   "trigger": "an observation matches qpos_original while contradicting corrected qpos",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "an observation matches qpos_original while contradicting corrected qpos",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D14",
+   "trigger": "a scored numeric field is nonfinite",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "a scored numeric field is nonfinite",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D15",
+   "trigger": "finger residual limit is negative",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "finger residual limit is negative",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D16",
+   "trigger": "a reward target is outside zero to one",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "a reward target is outside zero to one",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D17",
+   "trigger": "phase is outside the declared phase vocabulary",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "phase is outside the declared phase vocabulary",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D19",
+   "trigger": "record field count exceeds the local shape upper bound",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "record field count exceeds the local shape upper bound",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D20",
+   "trigger": "the same object has conflicting adopted values",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "the same object has conflicting adopted values",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  },
+  {
+   "id": "D21",
+   "trigger": "record field count falls below the local shape lower bound",
+   "damage_basis": "The asserted defect makes a replay record incorrect, ambiguous, or unsafe for downstream consumption.",
+   "length_contract_id": "S02",
+   "scale": 0.01,
+   "max_deduction": 0.2,
+   "scope": "one parsed JSONL record or the bounded record sequence",
+   "object_key": "record time or record slot",
+   "source_location": "instruction.md, materials, and frozen Golden shape",
+   "normalization": "parse JSON values without string coercion and compare finite numeric values at full precision",
+   "trigger_predicate": "record field count falls below the local shape lower bound",
+   "occurrence": "one independently bound object or sequence root cause",
+   "root_cause_deduplication": "deduplicate by defect family and bound record identity",
+   "evidence_span": "one record or one coherent record sequence",
+   "parse_failure_boundary": "parsing uncertainty remains local and does not imply unrelated semantic defects",
+   "exclusions": "exclude ordinary omission, legal equivalents, quoted candidates, and rejected claims unless a separate contradiction is adopted"
+  }
+ ],
+ "shape_units": [
+  {
+   "id": "S01",
+   "applicable_item_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25"
+   ],
+   "scope": "parsed JSONL record sequence",
+   "metric": "nonempty parsed record count",
+   "golden_value": 7,
+   "counter": "count parsed nonempty JSONL lines",
+   "threshold_basis": "diagnostic_only_no_record_limit",
+   "overrun_tolerance_ratio": null,
+   "underrun_tolerance_ratio": null,
+   "deduction_id": null
+  },
+  {
+   "id": "S02",
+   "applicable_item_ids": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15",
+    "D16",
+    "D17",
+    "D19",
+    "D20",
+    "D21"
+   ],
+   "scope": "each parsed JSONL record",
+   "metric": "recursive key count",
+   "golden_value": 13,
+   "counter": "count mapping keys recursively in each record",
+   "threshold_basis": "explicit_default_fallback",
+   "overrun_tolerance_ratio": 0.15,
+   "underrun_tolerance_ratio": 0.3,
+   "deduction_id": "D19"
+  }
+ ],
+ "strict_equivalence": {
+  "close_enough_credit_forbidden": true,
+  "synonyms_require_complete_proposition_equivalence": true,
+  "coherent_single_evidence_span_required": true,
+  "keyword_spray_positive_earned": 0,
+  "dimensions": [
+   "object",
+   "source_or_evidence_anchor",
+   "relation",
+   "polarity",
+   "modality",
+   "time_or_version_scope",
+   "units_or_quantities",
+   "conditions_or_exceptions",
+   "adoption_status",
+   "downstream_consequence"
+  ]
+ },
+ "golden_scores": {
+  "program": {
+   "positive_earned": 1,
+   "deductions": 0,
+   "raw_score": 1,
+   "final_score": 1
+  }
+ }
+}

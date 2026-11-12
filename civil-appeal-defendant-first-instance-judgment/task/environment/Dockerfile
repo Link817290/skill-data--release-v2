@@ -1,0 +1,9 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /workspace
+COPY workspace/ /workspace/
+COPY skills/ /skills/
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN mkdir -p /workspace/artifacts /workspace/output && chown -R 20005:0 /workspace
+USER 20005
+CMD ["/bin/sh"]

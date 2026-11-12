@@ -1,0 +1,304 @@
+{
+  "sheet": "Sheet1",
+  "workbook_sha256": "b2f77b725afbe9751721af8016e2a1fb2ca07999084c2e499435bcb2e59c9185",
+  "scope": "B:G and I:O; ownership extends to the next batch label or final merged label block",
+  "blocks": [
+    {
+      "batch": "Run22",
+      "label_cell": "B2",
+      "label_value": "Run22",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 2,
+      "last_row": 8
+    },
+    {
+      "batch": "Run23",
+      "label_cell": "B9",
+      "label_value": "Run23",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 9,
+      "last_row": 15
+    },
+    {
+      "batch": "Run24",
+      "label_cell": "B16",
+      "label_value": "Run24",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 16,
+      "last_row": 22
+    },
+    {
+      "batch": "Run25",
+      "label_cell": "B23",
+      "label_value": "Run25",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 23,
+      "last_row": 46
+    },
+    {
+      "batch": "Run26",
+      "label_cell": "B47",
+      "label_value": "Run26",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 47,
+      "last_row": 53
+    },
+    {
+      "batch": "Run27",
+      "label_cell": "B54",
+      "label_value": "Run27",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 54,
+      "last_row": 60
+    },
+    {
+      "batch": "Run28",
+      "label_cell": "B61",
+      "label_value": "Run28",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 61,
+      "last_row": 67
+    },
+    {
+      "batch": "Run29",
+      "label_cell": "B68",
+      "label_value": "Run29",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 68,
+      "last_row": 91
+    },
+    {
+      "batch": "Run30",
+      "label_cell": "B92",
+      "label_value": "Run30",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 92,
+      "last_row": 98
+    },
+    {
+      "batch": "Run31",
+      "label_cell": "B99",
+      "label_value": "Run31",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 99,
+      "last_row": 122
+    },
+    {
+      "batch": "Run32",
+      "label_cell": "B123",
+      "label_value": "Run32",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 123,
+      "last_row": 129
+    },
+    {
+      "batch": "Run33",
+      "label_cell": "B130",
+      "label_value": "Run33",
+      "first_column": "B",
+      "last_column": "G",
+      "first_row": 130,
+      "last_row": 153
+    },
+    {
+      "batch": "Run34",
+      "label_cell": "I2",
+      "label_value": "34",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 2,
+      "last_row": 8
+    },
+    {
+      "batch": "Run35",
+      "label_cell": "I9",
+      "label_value": "35",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 9,
+      "last_row": 15
+    },
+    {
+      "batch": "Run36",
+      "label_cell": "I16",
+      "label_value": "36",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 16,
+      "last_row": 22
+    },
+    {
+      "batch": "Run37",
+      "label_cell": "I23",
+      "label_value": "37",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 23,
+      "last_row": 29
+    },
+    {
+      "batch": "Run38",
+      "label_cell": "I30",
+      "label_value": "38",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 30,
+      "last_row": 36
+    },
+    {
+      "batch": "Run39",
+      "label_cell": "I37",
+      "label_value": "39",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 37,
+      "last_row": 43
+    },
+    {
+      "batch": "Run40",
+      "label_cell": "I44",
+      "label_value": "40",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 44,
+      "last_row": 50
+    },
+    {
+      "batch": "Run41",
+      "label_cell": "I51",
+      "label_value": "41",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 51,
+      "last_row": 57
+    },
+    {
+      "batch": "Run42",
+      "label_cell": "I58",
+      "label_value": "42",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 58,
+      "last_row": 64
+    },
+    {
+      "batch": "Run43",
+      "label_cell": "I65",
+      "label_value": "43",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 65,
+      "last_row": 71
+    },
+    {
+      "batch": "Run44",
+      "label_cell": "I72",
+      "label_value": "44",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 72,
+      "last_row": 78
+    },
+    {
+      "batch": "Run45",
+      "label_cell": "I79",
+      "label_value": "45",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 79,
+      "last_row": 85
+    },
+    {
+      "batch": "Run46",
+      "label_cell": "I86",
+      "label_value": "46",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 86,
+      "last_row": 92
+    },
+    {
+      "batch": "Run47",
+      "label_cell": "I93",
+      "label_value": "47",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 93,
+      "last_row": 99
+    },
+    {
+      "batch": "Run48",
+      "label_cell": "I100",
+      "label_value": "48",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 100,
+      "last_row": 106
+    },
+    {
+      "batch": "Run49",
+      "label_cell": "I107",
+      "label_value": "49",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 107,
+      "last_row": 113
+    },
+    {
+      "batch": "Run50",
+      "label_cell": "I114",
+      "label_value": "50",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 114,
+      "last_row": 120
+    },
+    {
+      "batch": "Run51",
+      "label_cell": "I121",
+      "label_value": "51",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 121,
+      "last_row": 127
+    },
+    {
+      "batch": "Run52",
+      "label_cell": "I128",
+      "label_value": "52",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 128,
+      "last_row": 151
+    },
+    {
+      "batch": "Run53",
+      "label_cell": "I152",
+      "label_value": "53",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 152,
+      "last_row": 158
+    },
+    {
+      "batch": "Run54",
+      "label_cell": "I159",
+      "label_value": "54",
+      "first_column": "I",
+      "last_column": "O",
+      "first_row": 159,
+      "last_row": 165
+    }
+  ]
+}

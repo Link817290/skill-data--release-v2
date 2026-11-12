@@ -1,0 +1,25 @@
+{
+  "dimensions": {
+    "object_scope_binding": 0.15,
+    "polarity_and_status": 0.2,
+    "requirement_coverage": 0.4,
+    "source_fidelity": 0.25
+  },
+  "ownership": {
+    "program": [
+      "arithmetic",
+      "formulas",
+      "file contract",
+      "structure"
+    ],
+    "semantic": [
+      "requirement coverage",
+      "source fidelity",
+      "polarity/status",
+      "object/scope binding"
+    ]
+  },
+  "schema": "source-bound-semantic-score-v1",
+  "settlement": "strict is 75% source-bound program evidence coverage plus 25% source-bound semantic quality when all three declared documents are delivered; missing declared documents score zero",
+  "lenient": "the program filing gate must pass, all four semantic dimensions must be at least 0.75, and all three documents must be delivered"
+}

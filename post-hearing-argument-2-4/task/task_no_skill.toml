@@ -1,0 +1,51 @@
+version = "1.0"
+id = "post-hearing-argument-2-4-no-skill"
+name = "expert/no-skill/post-hearing-argument-2-4"
+title = "Post-Hearing Construction Payment Argument (no skill)"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+artifacts = [ "/workspace/output/post_hearing_argument.docx",]
+
+[metadata]
+tags = [ "legal", "construction", "post-hearing", "argument", "no-skill",]
+source_language = "zh-CN"
+deliverable_language = "zh-CN"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[verifier]
+timeout_sec = 900.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+docker_image = "post-hearing-argument-2-4-no-skill:1.3"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 600.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "/workspace/output/post_hearing_argument.docx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-240}"
+
+[verifier.environment]
+docker_image = "post-hearing-argument-2-4-verifier:1.3"
+network_mode = "public"

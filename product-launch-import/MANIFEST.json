@@ -1,0 +1,169 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "product-launch-import",
+  "tasks": [
+    "product-launch-import"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 39,
+  "bytes_excluding_manifest": 1547638,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1850,
+      "sha256": "9e57482cf58e40d03cab1d37f662b4f09c126f6603fc5f7b5e5f8a6c4034dc42"
+    },
+    "RUBRIC.md": {
+      "bytes": 5205,
+      "sha256": "fd8a2bfc67ddf6222d236d3c29debb0cd1e31e8aade41e3fdff050c9d8ca6a88"
+    },
+    "dataset.toml": {
+      "bytes": 543,
+      "sha256": "70ef919a8f0f6f52aa73d58893faba9b4f4e4a985584f3dde67c834937671b44"
+    },
+    "golden/products.csv": {
+      "bytes": 10173,
+      "sha256": "8aad0f029f6247945c674543a50e4b6cb03780d79f57b1869a43b8cfee779d17"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 193,
+      "sha256": "f33d009e3a5cb7be2ce8378080386f5b75405e81234597177dffd6c09ec4ac4a"
+    },
+    "task/environment/Dockerfile.skills": {
+      "bytes": 95,
+      "sha256": "c245331fef4b48561ece2b7b1a85d67bc10c5b9e77756cb0b5f8699dab271fcd"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 398,
+      "sha256": "f57ef8a630f02976f5f4a21f6f993846426f3eee317f0b4debbe2e303afed6ae"
+    },
+    "task/environment/skills/catalog-launch-production/SKILL.md": {
+      "bytes": 2597,
+      "sha256": "ca5454803397f3feea050e5ed563457be8297a29e64b94ebc86cd682cc8fd7f3"
+    },
+    "task/environment/skills/catalog-launch-production/references/copy-and-measurement.md": {
+      "bytes": 3752,
+      "sha256": "4478f44a2a5e3f2ed341c45f8838680eee24b49b2f9ed4908b05407036db70bc"
+    },
+    "task/environment/skills/catalog-launch-production/references/handover-and-staging.md": {
+      "bytes": 2234,
+      "sha256": "65ce171388aa65d227fdcb5754befbcb1c8ca197d1d743270c7ace01a16f99a2"
+    },
+    "task/environment/skills/catalog-launch-production/references/import-mechanics.md": {
+      "bytes": 2371,
+      "sha256": "05679e9262a17f648b88604335cb2bd98a36a4631fe42352fa78d5567db94648"
+    },
+    "task/environment/skills/catalog-launch-production/references/variant-modeling.md": {
+      "bytes": 2359,
+      "sha256": "4ac86cc216b7631cfe9f9e18b92111fe18ae55d6da47129c672831d116103b6b"
+    },
+    "task/environment/skills/catalog-launch-production/scripts/inspect_import.py": {
+      "bytes": 3595,
+      "sha256": "e2b7abe80b768b89728fef29b1d46051d967c138b47304837534b2b213929dc0"
+    },
+    "task/environment/workspace/input/products-template.csv": {
+      "bytes": 262,
+      "sha256": "2a527d1570847fbd3e341c064d1b3bdfb80ccb074285ed99aacc2c8a1b0de6b0"
+    },
+    "task/environment/workspace/input/户外家具选款资料.docx": {
+      "bytes": 617576,
+      "sha256": "551b3d81e3008f03423c2c3aa767d79a130eaaf0ade5b2287d6ae9d5e248e706"
+    },
+    "task/environment/workspace/input/美国站露营椅选款.pdf": {
+      "bytes": 636808,
+      "sha256": "b93f06bc5207331624e6e94258266336eca9366d959b7a85c8fc040f611c0e17"
+    },
+    "task/instruction.md": {
+      "bytes": 645,
+      "sha256": "d7ef9d0c7df71222bcd29d56bab62aef2122d4bae9c4c665ae0dc6797b5d6784"
+    },
+    "task/rubric.json": {
+      "bytes": 8374,
+      "sha256": "02bf7c00f3457f52cdf144f4b58a7020e3f15277ca61dd96960dd88c2a33d9cd"
+    },
+    "task/solution/README.md": {
+      "bytes": 328,
+      "sha256": "a7db7759626cdca511521b9dd96dd6399f24259557d74c995e20b8b8b1124c47"
+    },
+    "task/solution/solve.py": {
+      "bytes": 766,
+      "sha256": "82048eec3a1e9e201976238b3c072ad9d3a87cde4cfafe9c37fe0a9bd4ed1b6c"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 62,
+      "sha256": "bb920fc022a4a5356b32ddb13637489097b31b5682eb2756a4e25bb12b40dc56"
+    },
+    "task/task.toml": {
+      "bytes": 1291,
+      "sha256": "16fbaeaf8b547bebb6a3a34ab674632303a695c1ba00d350ad7a9f968f484c8c"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1261,
+      "sha256": "77a8d692992129875ec6a88bce2bf028673193b5ff20cf9091e30e1a581272f7"
+    },
+    "task/tests/criteria.json": {
+      "bytes": 6829,
+      "sha256": "39b765b037412a8e70b936f6fe3c8b85f29dd74d79e07ac69d4ddb237f3a75ab"
+    },
+    "task/tests/evaluate.py": {
+      "bytes": 10292,
+      "sha256": "788008938d5b5dc1a9c6ca515676a0c0b0773653be2eb5170474046857208f02"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 6218,
+      "sha256": "7a6dafc33c1ebecb6a959871e37c042fb343e712e04a1ef6b6c562ffcb9844c7"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 10804,
+      "sha256": "14fd3a000be69d6b39073d3b8e70a2751cf7e67041bc8f454d0c5a3aaa48a136"
+    },
+    "task/tests/mix_judge/manifest.json": {
+      "bytes": 1261,
+      "sha256": "9c1b47d8ee318a838331072fc22fe4ba6b7273ff069adbe42fb855b84c48be37"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 4087,
+      "sha256": "0a42c9cd67879e6f6063edb72ff9ba64cacdffa0eb132ad726b41cfe7d9d23dd"
+    },
+    "task/tests/mix_judge/replay/97d07de245fdba1185fd8730c7306ab7936218b38f49485b9be1c909dbf3f44a/evidence.json": {
+      "bytes": 61588,
+      "sha256": "478b811cac927548d9b13c4bf7564dc8ce189660ca382a0dd156083d2720e1d3"
+    },
+    "task/tests/mix_judge/replay/97d07de245fdba1185fd8730c7306ab7936218b38f49485b9be1c909dbf3f44a/manifest.json": {
+      "bytes": 869,
+      "sha256": "84a308908f6d579114574922632dfa156b9a1517bfcf5ec46f0c2f7a43036efa"
+    },
+    "task/tests/mix_judge/replay/97d07de245fdba1185fd8730c7306ab7936218b38f49485b9be1c909dbf3f44a/request.json": {
+      "bytes": 72411,
+      "sha256": "97d07de245fdba1185fd8730c7306ab7936218b38f49485b9be1c909dbf3f44a"
+    },
+    "task/tests/mix_judge/replay/97d07de245fdba1185fd8730c7306ab7936218b38f49485b9be1c909dbf3f44a/response.json": {
+      "bytes": 28287,
+      "sha256": "252ae6bb19b2525dab5a528a75fad6def6ae6a3f9e9ade9b5a53f76ed2277b5d"
+    },
+    "task/tests/mix_judge/replay/97d07de245fdba1185fd8730c7306ab7936218b38f49485b9be1c909dbf3f44a/review.json": {
+      "bytes": 12414,
+      "sha256": "0802ba5683da0629e6f87043d46cf307cda31a6eb81bb93052607f72b4288c65"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 335,
+      "sha256": "0b7c22cef6c506f1cf887bbb59f9936b9dfa1433a7063cd38aec02806e38fa93"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 135,
+      "sha256": "8e83d60b0c0c17857d8df35dbfbc6ca2f95e80f930d4c74fe16d2433517b471a"
+    },
+    "task/tests/reference/facts.json": {
+      "bytes": 17337,
+      "sha256": "88d819b53d634bb1ac46ab9871eef10ea871f6b97f88d0f3ba40291937929c28"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1575,
+      "sha256": "a61090f73289e7112899055553d1979c84ce7795d1cc5f6201e701485938a7ba"
+    },
+    "task/tests/verify.py": {
+      "bytes": 10458,
+      "sha256": "c6f801d1ec0758bea985a69841eca4f9a99fb2b97538a42cf6c7f9d00a961ef1"
+    }
+  }
+}

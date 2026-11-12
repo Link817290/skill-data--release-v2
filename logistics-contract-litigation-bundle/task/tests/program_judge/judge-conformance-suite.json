@@ -1,0 +1,93 @@
+{
+  "schema_version": "judge-conformance-suite-v2",
+  "rubric": {
+    "path": "rubric-contract.json",
+    "sha256": "dfe8d0441761c2c19ce65de2af0d83f9d54d9d04ec7f6973ebde5e8cc08bc237"
+  },
+  "judge_entrypoint": {
+    "path": "task/tests/program_judge/task_judge.py",
+    "sha256": "33b5f512c17d539829d41137408ed194fd72c0b857f31d4d85e1d12f75586502"
+  },
+  "judge_files": [
+    {
+      "path": "task/tests/program_judge/program_judge_runtime.py",
+      "sha256": "7133f0b188529528d757b96b53c57b61d8542660578294701a8c8e0cdf892bf9"
+    },
+    {
+      "path": "task/tests/program_judge/task_judge.py",
+      "sha256": "33b5f512c17d539829d41137408ed194fd72c0b857f31d4d85e1d12f75586502"
+    }
+  ],
+  "representation_scope": {
+    "scope_basis": "The public contract requires five editable DOCX files. Before rollout, conformance covers role recognition from document content when the filename changes, wrong-section isolation, and invalid DOCX parse failure.",
+    "public_output_contract": {
+      "path": "instruction.md",
+      "sha256": "cc9afeee8fde7854568b7de6a5f467df18492327227cf4f9d1cf41e0a0045f9e"
+    },
+    "observed_rollout_carriers": [],
+    "applicable_variants": [
+      "semantic-role-marker-docx"
+    ],
+    "excluded_variants": [
+      {
+        "variant": "pdf-only",
+        "reason": "The instruction requires editable DOCX deliverables."
+      },
+      {
+        "variant": "plain-text-only",
+        "reason": "The instruction requires editable DOCX deliverables."
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "baseline_complaint",
+      "kind": "baseline",
+      "semantic_case_id": "golden-complaint",
+      "variant": "baseline",
+      "artifact": {
+        "path": "probes/fixtures/conformance/baseline-complaint.docx",
+        "sha256": "ae6477e36d41a1bb2ae4e08bff9e697c21544ec4ca6abf73d4f5e520d9c49a49"
+      }
+    },
+    {
+      "case_id": "renamed_complaint",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden-complaint",
+      "variant": "semantic-role-marker-docx",
+      "artifact": {
+        "path": "probes/fixtures/conformance/renamed-complaint.docx",
+        "sha256": "ae6477e36d41a1bb2ae4e08bff9e697c21544ec4ca6abf73d4f5e520d9c49a49"
+      }
+    },
+    {
+      "case_id": "wrong_section",
+      "kind": "bound_non_equivalent",
+      "semantic_case_id": "wrong-section",
+      "variant": "wrong-section",
+      "artifact": {
+        "path": "probes/fixtures/wrong_section/refund-account-confirmation.docx",
+        "sha256": "efa0157a5d155b82044019916e19007246b6d7d1bae334f8d5fb5a64698c11ad"
+      }
+    },
+    {
+      "case_id": "parse_failure",
+      "kind": "parse_failure",
+      "semantic_case_id": "parse-failure",
+      "variant": "parse-failure",
+      "artifact": {
+        "path": "probes/fixtures/conformance/corrupt.docx",
+        "sha256": "486bb2a7d52bbf904df1122b03b2e9677357af70a3d2682c8a5326c3b486f5b8"
+      },
+      "protected_deduction_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06"
+      ]
+    }
+  ],
+  "stage": "pre_rollout"
+}

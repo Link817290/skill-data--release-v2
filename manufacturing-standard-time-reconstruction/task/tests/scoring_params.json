@@ -1,0 +1,16 @@
+{
+  "schema_version": "scoring-params-v1",
+  "score_profile": "bench",
+  "positive_weights": {
+    "statistics": 0.2,
+    "adjusted_time": 0.05,
+    "station_normalization": 0.05,
+    "station_cycle": 0.2,
+    "capacity": 0.4,
+    "ratio_numerator": 0.05,
+    "resources": 0.05
+  },
+  "deduction_coefficients": {
+    "D_ACTIVITY_BASIS": 0.3
+  }
+}

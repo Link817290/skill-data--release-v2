@@ -1,0 +1,92 @@
+{
+  "version": "1.0",
+  "completion_scale": [0, 0.25, 0.5, 0.75, 1],
+  "source_boundary": {
+    "supplied_material": "03_原始材料.xlsx only",
+    "missing_authorities": [
+      "approved protocol",
+      "approved analytical method",
+      "formal run-acceptance aggregation rules",
+      "minimum valid NC-set requirement",
+      "approved replicate or within-run CV acceptance rule",
+      "formal MPC inclusion rule"
+    ],
+    "required_consequence": "Formal objective dispositions for Run19 through Run54 remain PENDING. Workbook observations and source statuses may still be reported as observations."
+  },
+  "verified_values": {
+    "global": {"SCP": 0.041, "SCPF": 1.051, "CCP_percent": 10.965, "TCP": 0.043, "TCPF": 1.103},
+    "system_suitability": {
+      "NC_upper": 0.044,
+      "LPC_over_NC_lower": 1.296,
+      "HPC_over_NC_lower": 42.070,
+      "NC_inhibition_upper": 13.906,
+      "LPC_inhibition_lower": 24.955,
+      "HPC_inhibition_lower": 97.427
+    },
+    "system_inputs": {
+      "NC_upper": {"n": 118, "df": 117, "t": 2.359, "mean": 0.039, "sd": 0.002, "direction": "upper"},
+      "LPC_over_NC_lower": {"n": 50, "df": 49, "t": 2.405, "mean": 1.803, "sd": 0.211, "direction": "lower"},
+      "HPC_over_NC_lower": {"n": 91, "df": 90, "t": 2.368, "mean": 68.679, "sd": 11.237, "direction": "lower"},
+      "NC_inhibition_upper": {"n": 133, "df": 132, "t": 2.355, "mean": 3.417, "sd": 4.454, "direction": "upper"},
+      "LPC_inhibition_lower": {"n": 38, "df": 37, "t": 2.431, "mean": 45.927, "sd": 8.627, "direction": "lower"},
+      "HPC_inhibition_lower": {"n": 102, "df": 101, "t": 2.364, "mean": 98.030, "sd": 0.255, "direction": "lower"}
+    },
+    "formula_audit_families": {
+      "replicate_mean": 1487,
+      "replicate_sample_sd": 1487,
+      "replicate_cv": 1487,
+      "sir_reviewed": 605,
+      "mean_ncod": 37
+    },
+    "historical_changes": [
+      "Run25 NC04: old PASS to current FAIL",
+      "Run27 NC01: old PASS to current FAIL",
+      "Run32 NC01: old PASS to current FAIL",
+      "Run33 NC03: old PASS to current FAIL"
+    ],
+    "supported_discrepancy": "Sheet1 D92 is approximately 2.247 for Run30 HPC01 while run30 B24:C24 supports an approximately 2.425 replicate mean; source element data take precedence over the manual summary."
+  },
+  "criteria": [
+    {
+      "id": "metric_identity_and_input_binding",
+      "weight": 0.15,
+      "description": "Evaluate whether all five global and six system-suitability results are professionally identifiable, numerically correct, directionally correct and bound to their own input population, intermediate statistics/formula and workbook evidence. Accept semantically equivalent Chinese or English metric names and cross-table bindings. Do not require a fixed label, word order or Golden phrasing."
+    },
+    {
+      "id": "formal_rule_sufficiency",
+      "weight": 0.16,
+      "description": "Evaluate whether the report distinguishes workbook observations and source statuses from formal objective decisions, keeps all 36 formal run dispositions PENDING because governing rules are absent, and does not invent minimum NC sets, CV limits, MPC scope or batch aggregation rules. A definite formal PASS/FAIL based only on those missing rules is unsupported even if its number comparison is correct."
+    },
+    {
+      "id": "conclusion_traceability",
+      "weight": 0.10,
+      "description": "Evaluate whether every material numerical, discrepancy, source-status and run-specific conclusion carries a resolvable worksheet plus cell/range citation appropriate to that conclusion. A sheet name alone is not cell traceability. Shared citations are acceptable only when their scope clearly covers the claims."
+    },
+    {
+      "id": "formula_audit_quality",
+      "weight": 0.06,
+      "description": "Evaluate the five formula-audit families by semantic meaning, including combined rows and explanatory object names. Credit requires a checked quantity, correct calculation basis, reconciliation result and source scope. A keyword or count without those elements is not an audit. Do not infer full formula execution beyond the reported scope."
+    },
+    {
+      "id": "calculation_chain_and_evidence_boundary",
+      "weight": 0.09,
+      "description": "Evaluate whether global and system calculations preserve admissible inputs, formula direction, n, df, t, mean, sample SD, rounding/provenance and the boundary between arithmetic agreement and approved acceptance. Negated, hypothetical or contradicted claims receive no credit."
+    },
+    {
+      "id": "source_discrepancy_diagnosis",
+      "weight": 0.045,
+      "description": "Evaluate whether at least one concrete raw-versus-summary discrepancy is directly demonstrated with identity, both numerical sides, precise locations and the defensible source-priority conclusion. Direct numerical contrast is sufficient; no preferred discrepancy keyword is required. Negated, hypothetical or contradictory diagnosis receives no credit."
+    },
+    {
+      "id": "historical_impact_boundary",
+      "weight": 0.045,
+      "description": "Evaluate the four verified old-to-current SCPF comparison changes and the TCPF impact scope, while keeping sample comparison changes distinct from formal batch disposition and unaffected global/system values. Accept equivalent relational language. Negated or reversed changes do not count."
+    }
+  ],
+  "contradictions": [
+    {"id": "unsupported_formal_rule", "description": "The candidate affirmatively supplies, assumes or applies a governing NC-count, CV, MPC or batch-acceptance rule absent from the materials, or gives formal PASS/FAIL on that basis."},
+    {"id": "discrepancy_negated_or_priority_reversed", "description": "The candidate denies the verified Run30 HPC01 discrepancy or says the manual summary takes precedence over the source element records."},
+    {"id": "historical_change_negated_or_reversed", "description": "The candidate denies or reverses any of the four verified old-PASS to current-FAIL SCPF comparison changes."},
+    {"id": "material_internal_contradiction", "description": "The candidate materially contradicts its own formal dispositions, evidence boundary, source-priority conclusion or historical-impact conclusion."}
+  ]
+}

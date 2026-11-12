@@ -1,0 +1,121 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "membership-weekly-report",
+  "tasks": [
+    "membership-weekly-report"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 27,
+  "bytes_excluding_manifest": 277482,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2131,
+      "sha256": "bd9793886be8f1898caf809273be773c7ba731b663f808b2846e5d42be15e1aa"
+    },
+    "RUBRIC.md": {
+      "bytes": 29263,
+      "sha256": "0bbca95e390e27afaae6b4069df353d843ad574d03617df5778acc3923972c19"
+    },
+    "dataset.toml": {
+      "bytes": 889,
+      "sha256": "8e9e532192fe12f96853201679c19be0eb22ebf7db5058a585734d55b1f602fb"
+    },
+    "golden/weekly_report.docx": {
+      "bytes": 30907,
+      "sha256": "ead893d162509d5e92ee41426fbcb73951b2932e0ef3b665254dbfbfb429e718"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1661,
+      "sha256": "9ce2ea43d3e4b187044c2581f476ddde8c09aaa168d481e2606875f539a76840"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 408,
+      "sha256": "09dc1ff556afe450f0a1fd121ba46c4b6d94cdec9b47d2de346a57257112ef37"
+    },
+    "task/environment/skills/tabular-report-sections/SKILL.md": {
+      "bytes": 14088,
+      "sha256": "63759de2d4b4d5aef21415bd60f6f08f81a82f2df88a704787d335c08b6a4f4a"
+    },
+    "task/environment/skills/tabular-report-sections/references/claims-about-the-data.md": {
+      "bytes": 2575,
+      "sha256": "0355a387cd0ec5f39ec1ffbd8a3bc2fd681092b69e2654d5bdb8ced1b9f6ecc6"
+    },
+    "task/environment/skills/tabular-report-sections/references/nested-tables-in-documents.md": {
+      "bytes": 5968,
+      "sha256": "bfee4eae77db6403db9d79fd9ac712036a1927c1e8755b9e64d8ceaf6d63646e"
+    },
+    "task/environment/skills/tabular-report-sections/references/schedule-table-layout.md": {
+      "bytes": 6316,
+      "sha256": "991373a56f078d5848ae9bf26d2b71d7212a08a6b02d3022f03ff3ca150dfa42"
+    },
+    "task/environment/skills/tabular-report-sections/references/supporting-data-extracts.md": {
+      "bytes": 3748,
+      "sha256": "74ee6dddb356d23586b8dc47bd8ad7be00d8b27311d4e0588b28ebe39a158ed7"
+    },
+    "task/environment/workspace/materials/2024会员数据明细更新至0322.xlsx": {
+      "bytes": 11877,
+      "sha256": "8750b3d6bcbac33ecc9b98105bce3296321101d12fa4d6cc24a67ff5a8119ce6"
+    },
+    "task/environment/workspace/materials/2024会员项目进度更新至0322.xlsx": {
+      "bytes": 10524,
+      "sha256": "a3b6674e5a932733ddd5021d444213ad7decba2b64568ed531b067cea7f8edfd"
+    },
+    "task/environment/workspace/materials/会员周报模板.docx": {
+      "bytes": 19092,
+      "sha256": "21586e75a95714bfd3a4d29e205a009e270dd5c95c5e351e364ea34232590e96"
+    },
+    "task/instruction.md": {
+      "bytes": 1798,
+      "sha256": "afaa3dc2d05bd17aded7ba6b5c3b0a62f6515d771e4fce344274ca3bfcbeb284"
+    },
+    "task/solution/reference/weekly_report.docx": {
+      "bytes": 30907,
+      "sha256": "ead893d162509d5e92ee41426fbcb73951b2932e0ef3b665254dbfbfb429e718"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 329,
+      "sha256": "d05823b6b79d477f52a91eda078cbfd1433b929fe7e525a47d8d3c1f6bfe4e66"
+    },
+    "task/task.toml": {
+      "bytes": 1300,
+      "sha256": "968ad8c4c2b13758f9ac237b81324f8847d1a01506bd5e0873b4a5c281d75f7e"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1286,
+      "sha256": "3010947830ae56be94552919079c9f81f4cbccf5bb93571a903271e128543555"
+    },
+    "task/tests/golden_replay/3a39c05a3c349edcec86eda70431619da68e984924e6ae7801b390dd17933e7e.json": {
+      "bytes": 4357,
+      "sha256": "e56238415627e6cd14e85cfc40a3f5f16e2099bb0296b5323862d6a23d5581dd"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 937,
+      "sha256": "3652cc56453e2f7c4e63f93ee4f9d24040c5ccde7798f1aaf487111251f670e5"
+    },
+    "task/tests/mechanical_score.py": {
+      "bytes": 49055,
+      "sha256": "d5491443a57c8701f5018f866e17be200b2ca372bc386e913e37cd81e3f20f7c"
+    },
+    "task/tests/probes.py": {
+      "bytes": 28047,
+      "sha256": "84826821e5a0d2ccc8d2a0ddd1b6b4232aa13cc48d0bb1446ccd6ed7435c1bfc"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 8119,
+      "sha256": "180139bfa626ec091c515e8e86c35791c86cffd50c636e12a34fa73d74644584"
+    },
+    "task/tests/semantic_protocol.md": {
+      "bytes": 3057,
+      "sha256": "f75017048ac978c54a8baf4018599e167f90fa29b9215cc82fae26a3dd847ea3"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2749,
+      "sha256": "9b3ddd03e597236927ad09d68531ab899945336390c05673a1a0c8d8af75373d"
+    },
+    "task/tests/validator.py": {
+      "bytes": 6094,
+      "sha256": "fb67d32ea26b2b2c61641d31e3220ae341f370189360d5f9317c8a57a24ebc28"
+    }
+  }
+}

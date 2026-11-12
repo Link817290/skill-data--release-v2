@@ -1,0 +1,32 @@
+{
+  "schema_version": "ledger-map-v1",
+  "checks": {
+    "module": "report_checks.py",
+    "argv": [
+      "{workspace}"
+    ],
+    "env": {}
+  },
+  "items": {
+    "P03": [
+      "components",
+      "citation_occurrences"
+    ],
+    "P06": [
+      "components",
+      "discrepancy_coverage"
+    ],
+    "P07": [
+      "components",
+      "evidence_binding"
+    ],
+    "P08": [
+      "components",
+      "review_decision"
+    ]
+  },
+  "deductions": [],
+  "damage_instances": [
+    "damage_instances"
+  ]
+}

@@ -1,0 +1,47 @@
+id = "hyperkalemia-diagnostic-reasoning"
+task_type = "skill-bench"
+domain = "clinical-reasoning"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/output/hyperkalemia_reasoning_template.docx"
+required_outputs = [
+  "workspace/output/hyperkalemia_reasoning_template.docx",
+  "workspace/output/CASE-001_reasoning.docx",
+  "workspace/output/CASE-002_reasoning.docx",
+  "workspace/output/CASE-003_reasoning.docx"
+]
+network_access = false
+rollouts_included = false
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+diagnostic_components = ["factual_accuracy", "reasoning_quality"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+factual_accuracy_contract = "task/tests/golden_contract.json"
+reasoning_quality_rubric = "task/tests/review_rubric.json"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = true
+golden_used_for_factual_accuracy = true
+golden_used_for_reasoning_quality = true
+source_material_used_by_semantic_judge = false
+
+[scoring.formulas]
+factual_accuracy = "sum(weight * binary Golden-derived check) / 100"
+reasoning_quality = "sum(item_weight * passed atomic checks / item atomic checks) / 100"
+strict = "factual_accuracy * reasoning_quality"
+lenient = "binary M01, M02 and M06-M08 plus at least two of M10, M14 and M18"
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0
+
+[skills]
+names = ["clinical-diagnostic-reasoning-handbook"]
+answers_in_skill = false
+network_required = false

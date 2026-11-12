@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "passed": {
+      "type": "boolean"
+    },
+    "reference_conflict": {
+      "type": "boolean"
+    },
+    "criteria": {
+      "type": "array",
+      "minItems": 17,
+      "maxItems": 17,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "product_mapping",
+              "polymer_load",
+              "investment_basis",
+              "operating_coverage",
+              "exhaust_rate",
+              "noise",
+              "phosphorus",
+              "censored_nd",
+              "canteen_nmhc_scope",
+              "source_height_limits",
+              "annual_voc",
+              "fume_outlet",
+              "fume_efficiency",
+              "waste_classification",
+              "targeted_records",
+              "conditional_conclusion",
+              "laboratory_stack_derating"
+            ]
+          },
+          "score": {
+            "type": "number",
+            "enum": [
+              0,
+              0.5,
+              1
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "score",
+          "reason",
+          "evidence"
+        ]
+      }
+    }
+  },
+  "required": [
+    "passed",
+    "reference_conflict",
+    "criteria"
+  ]
+}

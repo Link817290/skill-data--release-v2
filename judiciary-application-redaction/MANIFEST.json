@@ -1,0 +1,133 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "judiciary-application-redaction",
+  "tasks": [
+    "judiciary-application-redaction"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 30,
+  "bytes_excluding_manifest": 978576,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2181,
+      "sha256": "f6920e3bf0d6c4bca45900044710c37aa773ba3ef6747ab22cf2f373e0ed79f3"
+    },
+    "RUBRIC.md": {
+      "bytes": 8707,
+      "sha256": "90b002f7bf66a3871486ff27672280259584b61e1a4c59a3d2eb7caa7982c108"
+    },
+    "dataset.toml": {
+      "bytes": 919,
+      "sha256": "e99570a29428ad2287b855d013eaaab0046f49379082b71d3c2f3ab8fa64ac79"
+    },
+    "golden/sanitized_onboarding_packet.pdf": {
+      "bytes": 317840,
+      "sha256": "345178264b8966fe473182479a9847ae62fce0201064ea39fa78400dd021e010"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 661,
+      "sha256": "7a4498bcb5dd5e967e4e87a22fec6f70315d3b0e4a6c027b5a8db0b40dbed094"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 340,
+      "sha256": "23d5958ef23666200f5a900a31e4f784a29e5e07938dc789d166af1ba1ea8e6f"
+    },
+    "task/environment/skills/layout-preserving-pdf-edits/SKILL.md": {
+      "bytes": 4773,
+      "sha256": "967ebff1f69db020087750bd6d43388ba9847d8677f25bf36c341d62a07c25b4"
+    },
+    "task/environment/skills/layout-preserving-pdf-edits/references/redaction_and_widgets.md": {
+      "bytes": 1607,
+      "sha256": "5d02d98c5588686658d274fc27cdd418a8a278752c9c6f5eba2019ce5c9b970d"
+    },
+    "task/environment/skills/layout-preserving-pdf-edits/scripts/render_check.py": {
+      "bytes": 1462,
+      "sha256": "8614130ef67d3291b4e7e9a37405bb856cfbd5bfa0e21319a219a6e78dcda445"
+    },
+    "task/environment/skills/pdf-disposition-ledgers/SKILL.md": {
+      "bytes": 8267,
+      "sha256": "867074cade9fd914f733f22060bd80b5ce05ffad687e87116137c49bffda2bda"
+    },
+    "task/environment/skills/pdf-disposition-ledgers/scripts/bootstrap_ledger.py": {
+      "bytes": 3331,
+      "sha256": "222f3711539dad5ad137243b30c7f516d60e3af4d69f36847b2983b28fa48d81"
+    },
+    "task/environment/skills/pdf-disposition-ledgers/scripts/close_ledger.py": {
+      "bytes": 14951,
+      "sha256": "70863bbb83e626ba2c4b7af65a5803f81febb43f9dd050891399e0348515871f"
+    },
+    "task/environment/skills/pdf-disposition-ledgers/scripts/validate_ledger.py": {
+      "bytes": 10782,
+      "sha256": "0b96329c73ed640ed77aac8a1bd7d15b19691f11d8b897e17dd55c7495cf4eca"
+    },
+    "task/environment/skills/pdf-form-inspection/SKILL.md": {
+      "bytes": 3592,
+      "sha256": "2ea98bd997b36705aaeea1c8fcb1cb92fd371b22cafb411de24f681a098cc1b3"
+    },
+    "task/environment/skills/pdf-form-inspection/scripts/inspect_pdf.py": {
+      "bytes": 2988,
+      "sha256": "435b9971a7a680917e6ccab8e695b4ae0791e9f00423db0cf58b8ff0d8061d12"
+    },
+    "task/environment/skills/pdf-pseudonymization/SKILL.md": {
+      "bytes": 2873,
+      "sha256": "e0e31a2d7b8dbc3b734ca92f5c44f0a66d02d5863243cfe68f9a0cf6a19f2d99"
+    },
+    "task/environment/skills/selective-record-redaction/SKILL.md": {
+      "bytes": 8413,
+      "sha256": "f4781fe73190e0bcdef90659b15880a7268c47cd5482bc83046e676330e6263c"
+    },
+    "task/environment/skills/selective-record-redaction/references/mapping_ledger.md": {
+      "bytes": 843,
+      "sha256": "8eef417e6d3e415e4c6a4253557e1d236d5419b06bda625e1bfb0f309fb08ff7"
+    },
+    "task/environment/workspace/materials/employment_application_record.pdf": {
+      "bytes": 361412,
+      "sha256": "e3e59a04154fca2b44d1ee207b7541b8366359d2f7f4f32d6ded856d9246c074"
+    },
+    "task/environment/workspace/materials/employment_eligibility_record.pdf": {
+      "bytes": 92653,
+      "sha256": "2065783177d9fd6bf1b71d1638aa3b61ac50aba32b2a200bbfa5fab4b77d8d84"
+    },
+    "task/environment/workspace/materials/withholding_record.pdf": {
+      "bytes": 48955,
+      "sha256": "4c1ed9eb6b6ba67f0b6f8757687b4604ca5015c5dfa80a86ab2e94d322320bd8"
+    },
+    "task/instruction.md": {
+      "bytes": 3550,
+      "sha256": "05e54c4b050cb52f19ee7c7c2d83abd667e35d38d0ea1d734abc9f5aa8de165c"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 2260,
+      "sha256": "45a07b518a8a740a38cda65f88e0f8343a725993510783ebe08e88eeb47e5fcf"
+    },
+    "task/solution/disposition-ledger.json": {
+      "bytes": 12188,
+      "sha256": "246ad77f820cfe9f0f2813addd948a2ec6567b60354eefec3fa51ae023b2d727"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 17311,
+      "sha256": "4d39384c72e544a41b194674b3eaca950d1da098e5149f5acdcf63d737a7a186"
+    },
+    "task/task.toml": {
+      "bytes": 1406,
+      "sha256": "923098f9fa5c32437a83e07b97fcde72148afa946f8983c5afc50c211b56565b"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1343,
+      "sha256": "edfd8ba969e041720816653645024b31a2b32d9f3a952ded5edf2fe4d854a935"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 4427,
+      "sha256": "e826b6313afedb8a136d9d9397fcc7269e354027aafee97d8243994e94b40db2"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1965,
+      "sha256": "bc35665fb0eb7f55cd438f6715b6ad54e522cf28099cf3329ba86df538b7e75a"
+    },
+    "task/tests/validator.py": {
+      "bytes": 36576,
+      "sha256": "73084aa7b67c0cff310f3889309991549520aad69673532749e362cd0b3197b8"
+    }
+  }
+}

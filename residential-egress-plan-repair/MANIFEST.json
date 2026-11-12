@@ -1,0 +1,225 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "residential-egress-plan-repair",
+  "tasks": [
+    "residential-egress-plan-repair"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 53,
+  "bytes_excluding_manifest": 32735113,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2271,
+      "sha256": "b3e2d20e9780c051cc954b3b6447d0890581fb347cb805be8da1cc04dc9a86e4"
+    },
+    "RUBRIC.md": {
+      "bytes": 11780,
+      "sha256": "c9f8819015912e0aad29bc7e83a740370d2ccabb954fe450eb1d653bf0adec1e"
+    },
+    "dataset.toml": {
+      "bytes": 1156,
+      "sha256": "9db234149043cb63a66e328359be5fdb3c359ab4d091b8a77c88c00ffc64bb5f"
+    },
+    "golden/changes.json": {
+      "bytes": 1527,
+      "sha256": "c4b8248bcd83380d49f2af63b359d2275d0c12ada9357dc98564e5c12db1fd41"
+    },
+    "golden/extracted_original_layout.json": {
+      "bytes": 1486,
+      "sha256": "7e6f84a8a2d6ece8735fd75e775927d19f81f70c1922c4ade740ed1668d234f8"
+    },
+    "golden/inspection_report.json": {
+      "bytes": 3312,
+      "sha256": "b69fdb51cc77fbc42bdc6dd90fbfe8ecd6552df9b3f668a3b0e6bcab19d908a7"
+    },
+    "golden/layer_inventory.json": {
+      "bytes": 3172,
+      "sha256": "ce075c2fb917d1c81e5fe21d5078f72b9850211a7d354b979f4b81483df96392"
+    },
+    "golden/repair_memo.md": {
+      "bytes": 1935,
+      "sha256": "5c0abb560f1963dfcfe135e619b30de50f0dbfcdf372f7f4272c9c8fad18e8c6"
+    },
+    "golden/repaired_layout.json": {
+      "bytes": 1559,
+      "sha256": "66106f21d373eb9492997abc3405d9fc9fb073c11b9d31d7b4813e477ff16d97"
+    },
+    "golden/repaired_plan.dxf": {
+      "bytes": 957191,
+      "sha256": "599f07c56db2fb9f7678e73fb3d53d9b1e25d1fdc747575f6ee241da861507c5"
+    },
+    "golden/violations_before.json": {
+      "bytes": 2640,
+      "sha256": "d0649e14aec20d491d118f2383a6c621c74ae661bb403e97053dc3be00bceeb0"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1021,
+      "sha256": "235c27999af64cfe112652167c377f06ebd389970dfa4b378682857cf6d5416c"
+    },
+    "task/environment/skills/dxf-plan-forensics/SKILL.md": {
+      "bytes": 2299,
+      "sha256": "8c5861d9a7c6022d754aaf24cc5b41ecd8b865c3eaff95db5289a44bc02a03c3"
+    },
+    "task/environment/skills/dxf-plan-forensics/scripts/inspect_dxf.py": {
+      "bytes": 1608,
+      "sha256": "f2609c1d38b0fa6199d018e9d91a568bb4af4805278941ff97b34e0a4132c7ea"
+    },
+    "task/environment/skills/egress-geometry-repair/SKILL.md": {
+      "bytes": 4226,
+      "sha256": "413c67a5b0b8a104e77047a93e5bfa485bf1f96aa93fa9d180e95df13199d8b2"
+    },
+    "task/environment/skills/evidence-handoff-json/SKILL.md": {
+      "bytes": 1592,
+      "sha256": "8fd1706ecdbe86deb75296ed7bec2d6e5afcf06242b238f78c29aaff6704c1ad"
+    },
+    "task/environment/skills/fire-egress-criteria/SKILL.md": {
+      "bytes": 1980,
+      "sha256": "3ff96aea3d0f17d601bfcbc4f15043b2f481b4d87f611cb83db66d91f7caef30"
+    },
+    "task/environment/wheels/ezdxf-1.4.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 5794671,
+      "sha256": "7f75a4f2924ebdda0f5b2779ff2135ba92de2596c95a8fa9b1d9ebcabea1be41"
+    },
+    "task/environment/wheels/fonttools-4.65.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": {
+      "bytes": 5457456,
+      "sha256": "a3991732c87b3f054a2a8cf86dd0d602833fa8cb37c911503173771646e1013d"
+    },
+    "task/environment/wheels/numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": {
+      "bytes": 16918164,
+      "sha256": "89cd468399cfd2504718f0ba50e410dca55a170b61a02ad92bb18c8a65186e93"
+    },
+    "task/environment/wheels/pyparsing-3.3.2-py3-none-any.whl": {
+      "bytes": 122781,
+      "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d"
+    },
+    "task/environment/wheels/typing_extensions-4.16.0-py3-none-any.whl": {
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    "task/environment/workspace/fire_safety_code.pdf": {
+      "bytes": 1150659,
+      "sha256": "15ff67d8efa9f71a56dddb9af2b4d098b3e2420b409eac87a371526af1c9440c"
+    },
+    "task/environment/workspace/residential_floor_plan.dxf": {
+      "bytes": 1117143,
+      "sha256": "6d761ecb1ab59664425eb1dcc6837a12611536c8e03e3f7855951a76786d159c"
+    },
+    "task/instruction.md": {
+      "bytes": 2309,
+      "sha256": "eb460cbeb8ffd8eda451332b7dfbffd1919690f631a2013a8be9812c549f9a7e"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 1557,
+      "sha256": "f961f03c97410f09551c3674bddf79ae13476d55ae940c64d68fd70632099cda"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 16271,
+      "sha256": "7a6b9c9b97b1589bca40fccd3f2ced0052dd3989316993df52f72a88ec6a9087"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 86,
+      "sha256": "742b106fed8ee1a29df3962265c7ce0104572abff108b20cffb62f0e55cdc359"
+    },
+    "task/task.toml": {
+      "bytes": 1101,
+      "sha256": "4eafb30e4d6a20e012187c9aa23150412a229ceb19b4927712b36d447edf0e0d"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 964,
+      "sha256": "ec3b2549f3929f6f8d4a65131ba279f67e27c7293e13e35c6553680a9b080f0c"
+    },
+    "task/tests/dxfreader.py": {
+      "bytes": 9815,
+      "sha256": "696a6e1810b43c54aecd7663884acd8be401c37f898b73dead481fa1df4cf2d9"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 1002,
+      "sha256": "5f70b06bb6c8b7d1549f0ce3c2dac2104554206d58828fe6e3018ede0ffde515"
+    },
+    "task/tests/mix_judge/TEMPLATE_SHA": {
+      "bytes": 13,
+      "sha256": "f392ffa725eb9cecd2074a9237a60a044b1a71abd6ed9fe14c38baed65189b7b"
+    },
+    "task/tests/mix_judge/cache/f3f349aedf33b1d1ccc1d70a4cb98520ac32c9e32b50552e171cf70092347a72.json": {
+      "bytes": 176,
+      "sha256": "1a9dcbb05a2b6e867013ad6770e5f2c1655cd29cf1e4f9ebdd70f0b159a94996"
+    },
+    "task/tests/mix_judge/gate.md": {
+      "bytes": 3526,
+      "sha256": "fc2e5f889c86906dd3d7d50a8cdb4acd6a9f845d69fa7848bb7bae49c4d6d212"
+    },
+    "task/tests/mix_judge/gate.schema.json": {
+      "bytes": 3551,
+      "sha256": "bbd8c80c7d53dcb1f6a50fab8e14158646beded4f1fb910bc6a18c5f960b7cdb"
+    },
+    "task/tests/mix_judge/gate_runtime.py": {
+      "bytes": 34553,
+      "sha256": "13fbe44960bdd966ff30ba7505a7a6788a724fe2d410323e8fb625511f4b6604"
+    },
+    "task/tests/mix_judge/hacks.json": {
+      "bytes": 4768,
+      "sha256": "577ab722bb537726d1bddb68f1be02d50c9f553cfc7a0eb821d2452d70e4ae38"
+    },
+    "task/tests/mix_judge/llm.json": {
+      "bytes": 70,
+      "sha256": "7fb00cf8aa823b5f651a7899f5bd0748ad15273113856e8a7702547e7fe9182f"
+    },
+    "task/tests/mix_judge/package/declared.json": {
+      "bytes": 189,
+      "sha256": "49b79a2616bebeb568885cfc5c5c9e547cfaeaa50e03ddc66ef9d281328dd8d9"
+    },
+    "task/tests/mix_judge/package/golden/changes.json": {
+      "bytes": 1527,
+      "sha256": "c4b8248bcd83380d49f2af63b359d2275d0c12ada9357dc98564e5c12db1fd41"
+    },
+    "task/tests/mix_judge/package/golden/extracted_original_layout.json": {
+      "bytes": 1486,
+      "sha256": "7e6f84a8a2d6ece8735fd75e775927d19f81f70c1922c4ade740ed1668d234f8"
+    },
+    "task/tests/mix_judge/package/golden/inspection_report.json": {
+      "bytes": 3312,
+      "sha256": "b69fdb51cc77fbc42bdc6dd90fbfe8ecd6552df9b3f668a3b0e6bcab19d908a7"
+    },
+    "task/tests/mix_judge/package/golden/layer_inventory.json": {
+      "bytes": 3172,
+      "sha256": "ce075c2fb917d1c81e5fe21d5078f72b9850211a7d354b979f4b81483df96392"
+    },
+    "task/tests/mix_judge/package/golden/repair_memo.md": {
+      "bytes": 1935,
+      "sha256": "5c0abb560f1963dfcfe135e619b30de50f0dbfcdf372f7f4272c9c8fad18e8c6"
+    },
+    "task/tests/mix_judge/package/golden/repaired_layout.json": {
+      "bytes": 1559,
+      "sha256": "66106f21d373eb9492997abc3405d9fc9fb073c11b9d31d7b4813e477ff16d97"
+    },
+    "task/tests/mix_judge/package/golden/repaired_plan.dxf": {
+      "bytes": 957191,
+      "sha256": "599f07c56db2fb9f7678e73fb3d53d9b1e25d1fdc747575f6ee241da861507c5"
+    },
+    "task/tests/mix_judge/package/golden/violations_before.json": {
+      "bytes": 2640,
+      "sha256": "d0649e14aec20d491d118f2383a6c621c74ae661bb403e97053dc3be00bceeb0"
+    },
+    "task/tests/mix_judge/package/instruction.md": {
+      "bytes": 2309,
+      "sha256": "eb460cbeb8ffd8eda451332b7dfbffd1919690f631a2013a8be9812c549f9a7e"
+    },
+    "task/tests/mix_judge/package/places.json": {
+      "bytes": 434,
+      "sha256": "5f71c9c0b94fa3faf5f00896b7e2cb2a738029e6fcab9c85e973015baec051bf"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 423,
+      "sha256": "b9e32e5c563d4c39aeb3532a5f3ed47f6b153c67f9a880cefeb6aa2069e9003a"
+    },
+    "task/tests/test.sh": {
+      "bytes": 3594,
+      "sha256": "dafd9e3b20171b3855f5f34f2cf7e65f74fc3c94bdd6ac26fd9e874ceb209e98"
+    },
+    "task/tests/validator.py": {
+      "bytes": 68380,
+      "sha256": "fdf5792c456d9877b565cb166bfcd094ebc44dc07babc5280cb26c39352e2870"
+    }
+  }
+}

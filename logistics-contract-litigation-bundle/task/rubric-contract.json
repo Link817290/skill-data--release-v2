@@ -1,0 +1,1217 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "illustrative_reference_public_sources_control_facts",
+  "golden_source_required": false,
+  "rubric_version": "logistics-contract-litigation-bundle-v1",
+  "task_mode": "generation",
+  "task_id": "logistics-contract-litigation-bundle",
+  "positive_items": [
+    {
+      "id": "P01",
+      "name": "complaint_core_facts",
+      "role": "complaint",
+      "weight": 0.05,
+      "scope": "complaint",
+      "object_key": "complaint_core_facts",
+      "source_location": "the adopted complaint DOCX",
+      "relation_predicate": "The complaint states the supported parties, forum, contract, notice dispute, takeover, and resulting loss of the operating right.",
+      "golden_object_key": "complaint_core_facts",
+      "golden_relation_predicate": "The complaint states the supported parties, forum, contract, notice dispute, takeover, and resulting loss of the operating right.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-PROSE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "complaint",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "P01_plaintiffs",
+          "all": [
+            "易泽杰",
+            "黄南隆",
+            "原告"
+          ]
+        },
+        {
+          "id": "P01_defendant",
+          "all": [
+            "广西凭祥越易通国际物流有限公司",
+            "被告"
+          ]
+        },
+        {
+          "id": "P01_representative",
+          "all": [
+            "法定代表人",
+            "待核实|待补|待确认|待提供|未提供|材料未载明|未知|待填写"
+          ]
+        },
+        {
+          "id": "P01_court",
+          "all": [
+            "凭祥市人民法院"
+          ]
+        },
+        {
+          "id": "P02_date",
+          "all": [
+            "2025年10月16日"
+          ]
+        },
+        {
+          "id": "P02_contract",
+          "all": [
+            "物流",
+            "承包合同|合作协议"
+          ]
+        },
+        {
+          "id": "P02_operating_right",
+          "all": [
+            "凭祥",
+            "安能物流",
+            "经营权"
+          ]
+        },
+        {
+          "id": "P02_performance",
+          "all": [
+            "履行|经营",
+            "合同"
+          ]
+        },
+        {
+          "id": "P03_notice_date",
+          "all": [
+            "2026年8月8日|2026年8月9日",
+            "违约通知书"
+          ]
+        },
+        {
+          "id": "P03_sender",
+          "all": [
+            "被告",
+            "违约通知书",
+            "送达|出具"
+          ]
+        },
+        {
+          "id": "P03_dispute",
+          "all": [
+            "不予认可|异议|否认|不认可",
+            "通知书"
+          ]
+        },
+        {
+          "id": "P04_takeover_date",
+          "all": [
+            "2026年9月1日"
+          ]
+        },
+        {
+          "id": "P04_takeover_actor",
+          "all": [
+            "被告",
+            "收回|接管|取回",
+            "经营权"
+          ]
+        },
+        {
+          "id": "P04_third_party",
+          "all": [
+            "第三方|他人|案外人",
+            "经营"
+          ]
+        },
+        {
+          "id": "P04_consequence",
+          "all": [
+            "无法继续经营|合同目的无法实现|剥夺",
+            "经营"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "complaint_relief_and_legal_basis",
+      "role": "complaint",
+      "weight": 0.05,
+      "scope": "complaint",
+      "object_key": "complaint_relief_and_legal_basis",
+      "source_location": "the adopted complaint DOCX",
+      "relation_predicate": "The complaint adopts a source-supported and internally coherent remedial route, including restoration/performance or termination with supported consequential relief.",
+      "golden_object_key": "complaint_relief_and_legal_basis",
+      "golden_relation_predicate": "The complaint adopts a source-supported and internally coherent remedial route, including restoration/performance or termination with supported consequential relief.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-PROSE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "complaint",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "P05_ineffective",
+          "all": [
+            "通知书|解除.{0,30}合同|合同关系",
+            "不发生法律效力|不产生法律效力|无效|不生效|请求解除|依法解除|终止合同|判令解除"
+          ]
+        },
+        {
+          "id": "P05_defendant_breach",
+          "all": [
+            "被告",
+            "构成违约|违约责任"
+          ]
+        },
+        {
+          "id": "P06_remedial_route",
+          "all": [
+            "继续履行|接续履行|恢复履行|返还|解除|终止|赔偿",
+            "经营权|合同|损失"
+          ]
+        },
+        {
+          "id": "P06_relief_consequence",
+          "all": [
+            "停止.{0,18}(?:第三方|他人|案外人).{0,18}经营|返还.{0,18}经营权|解除.{0,18}合同|终止.{0,18}合同|赔偿.{0,18}损失"
+          ]
+        },
+        {
+          "id": "P07_amount",
+          "all": [
+            "100000|100,000|壹拾万元|十万元"
+          ]
+        },
+        {
+          "id": "P07_basis",
+          "all": [
+            "违约金|经济损失|赔偿",
+            "合同|违约"
+          ]
+        },
+        {
+          "id": "P07_qualification",
+          "all": [
+            "暂计|具体金额|法院查明|合同约定|第十条"
+          ]
+        },
+        {
+          "id": "P08_civil_code",
+          "all": [
+            "民法典",
+            "第五百零九条|第五百七十七条|第五百七十八条|第五百八十四条"
+          ]
+        },
+        {
+          "id": "P08_application",
+          "all": [
+            "全面履行|继续履行|赔偿损失|补救措施",
+            "违约"
+          ]
+        },
+        {
+          "id": "P08_costs",
+          "all": [
+            "诉讼费|保全费|实现债权",
+            "承担"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "name": "evidence_inventory_and_purpose",
+      "role": "evidence_list",
+      "weight": 0.06,
+      "scope": "evidence_list",
+      "object_key": "evidence_inventory_and_purpose",
+      "source_location": "the adopted evidence_list DOCX",
+      "relation_predicate": "The evidence list includes the four supplied evidence groups and assigns bounded, source-appropriate proof purposes.",
+      "golden_object_key": "evidence_inventory_and_purpose",
+      "golden_relation_predicate": "The evidence list includes the four supplied evidence groups and assigns bounded, source-appropriate proof purposes.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "evidence_list",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "contract",
+          "all": [
+            "物流.*合同|物流.*协议",
+            "合作|承包|经营权"
+          ]
+        },
+        {
+          "id": "notice",
+          "all": [
+            "违约通知书",
+            "解除|违约指控|通知"
+          ]
+        },
+        {
+          "id": "chat",
+          "all": [
+            "聊天记录",
+            "交涉|异议|争议|收款|经营"
+          ]
+        },
+        {
+          "id": "reply",
+          "all": [
+            "异议.*回函|回函",
+            "不认可|异议|答辩"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "name": "case_handoff_closure",
+      "role": "case_handoff",
+      "weight": 0.05,
+      "scope": "case_handoff",
+      "object_key": "case_handoff_closure",
+      "source_location": "the adopted case_handoff DOCX",
+      "relation_predicate": "The handoff record captures the dispute, client objective, core timeline, and received evidence inventory.",
+      "golden_object_key": "case_handoff_closure",
+      "golden_relation_predicate": "The handoff record captures the dispute, client objective, core timeline, and received evidence inventory.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "case_handoff",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "dispute",
+          "all": [
+            "合同|违约",
+            "纠纷|诉讼|谈判"
+          ]
+        },
+        {
+          "id": "objective",
+          "all": [
+            "100000|100,000|十万元",
+            "违约金|赔偿|追回"
+          ]
+        },
+        {
+          "id": "timeline",
+          "document_wide": true,
+          "all": [
+            "2025年10月16日",
+            "2026年9月1日"
+          ]
+        },
+        {
+          "id": "inventory",
+          "all": [
+            "合同",
+            "违约通知书",
+            "回函",
+            "聊天记录"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "name": "service_address_form",
+      "role": "service_form",
+      "weight": 0.05,
+      "scope": "service_form",
+      "object_key": "service_address_form",
+      "source_location": "the adopted service_form DOCX",
+      "relation_predicate": "The service confirmation identifies the parties and explicitly marks source-unavailable service address and telephone information as pending confirmation.",
+      "golden_object_key": "service_address_form",
+      "golden_relation_predicate": "The service confirmation identifies the parties and explicitly marks source-unavailable service address and telephone information as pending confirmation.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-FORM",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "service_form",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "names",
+          "all": [
+            "易泽杰",
+            "黄南隆"
+          ]
+        },
+        {
+          "id": "address",
+          "all": [
+            "送达地址|地址",
+            "待核实|待补|待确认|待提供|未提供|材料未载明|未知|待填写"
+          ]
+        },
+        {
+          "id": "phone",
+          "all": [
+            "电话|联系方式|联系号码",
+            "待核实|待补|待确认|待提供|未提供|材料未载明|未知|待填写"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "name": "refund_form_parties",
+      "role": "refund_form",
+      "weight": 0.05,
+      "scope": "refund_form",
+      "object_key": "refund_form_parties",
+      "source_location": "the adopted refund_form DOCX",
+      "relation_predicate": "The refund confirmation identifies both plaintiffs.",
+      "golden_object_key": "refund_form_parties",
+      "golden_relation_predicate": "The refund confirmation identifies both plaintiffs.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-FORM",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "refund_form",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "parties",
+          "all": [
+            "易泽杰",
+            "黄南隆"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "name": "cross_document_control",
+      "role": "all",
+      "weight": 0.05,
+      "scope": "all",
+      "object_key": "cross_document_control",
+      "source_location": "the adopted all DOCX",
+      "relation_predicate": "The five-document set is complete and uses one consistent party, contract-date, dispute, amount, and evidence identity.",
+      "golden_object_key": "cross_document_control",
+      "golden_relation_predicate": "The five-document set is complete and uses one consistent party, contract-date, dispute, amount, and evidence identity.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-SET",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "all",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "five_roles",
+          "derived": "five_roles"
+        },
+        {
+          "id": "party_consistency",
+          "derived": "party_consistency"
+        },
+        {
+          "id": "date_consistency",
+          "derived": "date_consistency"
+        },
+        {
+          "id": "amount_consistency",
+          "derived": "amount_consistency"
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "name": "complete_supplied_evidence_inventory",
+      "role": "evidence_list",
+      "weight": 0.07,
+      "scope": "evidence_list",
+      "object_key": "complete_supplied_evidence_inventory",
+      "source_location": "the adopted evidence_list DOCX",
+      "relation_predicate": "The evidence list includes all four supplied source groups.",
+      "golden_object_key": "complete_supplied_evidence_inventory",
+      "golden_relation_predicate": "The evidence list includes all four supplied source groups.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "evidence_list",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "complete_inventory",
+          "derived": "complete_evidence_inventory"
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "name": "bounded_current_evidence_inventory",
+      "role": "evidence_list",
+      "weight": 0.27,
+      "scope": "evidence_list",
+      "object_key": "bounded_current_evidence_inventory",
+      "source_location": "the adopted evidence_list DOCX",
+      "relation_predicate": "The current evidence list does not present unprovided future evidence as part of the filed inventory.",
+      "golden_object_key": "bounded_current_evidence_inventory",
+      "golden_relation_predicate": "The current evidence list does not present unprovided future evidence as part of the filed inventory.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "evidence_list",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "bounded_inventory",
+          "derived": "bounded_evidence_inventory"
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "name": "supported_refund_payee",
+      "role": "refund_form",
+      "weight": 0.3,
+      "scope": "refund_form",
+      "object_key": "supported_refund_payee",
+      "source_location": "the adopted refund_form DOCX",
+      "relation_predicate": "The refund confirmation leaves the unsupported payee and bank details pending party confirmation; no hidden reference name is mandatory.",
+      "golden_object_key": "supported_refund_payee",
+      "golden_relation_predicate": "The refund confirmation leaves the unsupported payee and bank details pending party confirmation; no hidden reference name is mandatory.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted filing content",
+      "negative_context_exclusions": "Quotations, rejected alternatives, allegations attributed to the opposing party, negated statements, and self-reported correctness do not earn credit.",
+      "length_contract_id": "L-FORM",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "refund_form",
+        "metric": "adjacent_docx_units",
+        "max_units": 10
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "The fraction is the number of complete local proposition components established divided by the declared component count.",
+      "checks": [
+        {
+          "id": "payee",
+          "all": [
+            "收款人",
+            "待核实|待补|待确认|待提供|未提供|材料未载明|未知|待填写"
+          ]
+        }
+      ]
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "name": "wrong_contract_anchor",
+      "role": "all",
+      "trigger": "An adopted filing uses a materially different contract date, defendant, operating-right object, or agreed RMB 100,000 anchor.",
+      "damage_basis": "An adopted filing uses a materially different contract date, defendant, operating-right object, or agreed RMB 100,000 anchor.",
+      "scope": "all",
+      "object_key": "wrong_contract_anchor",
+      "source_location": "an adopted local span in the all DOCX",
+      "error_predicate": "An adopted filing uses a materially different contract date, defendant, operating-right object, or agreed RMB 100,000 anchor.",
+      "adoption_status": "affirmatively adopted final filing content",
+      "negative_context_exclusions": "Ordinary omission, blank fields, uncertainty markers, quotations, attributed allegations, rejected alternatives, negation, later correction, ambiguity, and parse failure are excluded.",
+      "causal_root_rule": "Group all manifestations caused by wrong-contract-anchor under one causal root.",
+      "damage_instance_key_rule": "litigation:wrong-contract-anchor:one independent business harm",
+      "manifestation_rule": "Keep every document location but charge one coefficient for repeated manifestations of the same underlying harm.",
+      "length_contract_id": "L-PROSE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.9,
+      "rules": [
+        {
+          "kind": "wrong_core_anchor"
+        }
+      ],
+      "damage_key": "wrong-contract-anchor"
+    },
+    {
+      "id": "D02",
+      "name": "reversed_breach_actor",
+      "role": "complaint",
+      "trigger": "An adopted filing reverses the parties and states that the plaintiffs' admitted breach is the case's operative conclusion.",
+      "damage_basis": "An adopted filing reverses the parties and states that the plaintiffs' admitted breach is the case's operative conclusion.",
+      "scope": "complaint",
+      "object_key": "reversed_breach_actor",
+      "source_location": "an adopted local span in the complaint DOCX",
+      "error_predicate": "An adopted filing reverses the parties and states that the plaintiffs' admitted breach is the case's operative conclusion.",
+      "adoption_status": "affirmatively adopted final filing content",
+      "negative_context_exclusions": "Ordinary omission, blank fields, uncertainty markers, quotations, attributed allegations, rejected alternatives, negation, later correction, ambiguity, and parse failure are excluded.",
+      "causal_root_rule": "Group all manifestations caused by reversed-breach-actor under one causal root.",
+      "damage_instance_key_rule": "litigation:reversed-breach-actor:one independent business harm",
+      "manifestation_rule": "Keep every document location but charge one coefficient for repeated manifestations of the same underlying harm.",
+      "length_contract_id": "L-PROSE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.9,
+      "rules": [
+        {
+          "kind": "reversed_actor"
+        }
+      ],
+      "damage_key": "reversed-breach-actor"
+    },
+    {
+      "id": "D03",
+      "name": "adverse_allegation_as_fact",
+      "role": "complaint",
+      "trigger": "A notice allegation such as unlawful personal collection or tax evasion is adopted as an established plaintiff fact without attribution or dispute status.",
+      "damage_basis": "A notice allegation such as unlawful personal collection or tax evasion is adopted as an established plaintiff fact without attribution or dispute status.",
+      "scope": "complaint",
+      "object_key": "adverse_allegation_as_fact",
+      "source_location": "an adopted local span in the complaint DOCX",
+      "error_predicate": "A notice allegation such as unlawful personal collection or tax evasion is adopted as an established plaintiff fact without attribution or dispute status.",
+      "adoption_status": "affirmatively adopted final filing content",
+      "negative_context_exclusions": "Ordinary omission, blank fields, uncertainty markers, quotations, attributed allegations, rejected alternatives, negation, later correction, ambiguity, and parse failure are excluded.",
+      "causal_root_rule": "Group all manifestations caused by adverse-allegation-as-fact under one causal root.",
+      "damage_instance_key_rule": "litigation:adverse-allegation-as-fact:one independent business harm",
+      "manifestation_rule": "Keep every document location but charge one coefficient for repeated manifestations of the same underlying harm.",
+      "length_contract_id": "L-PROSE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "rules": [
+        {
+          "kind": "unqualified_notice_allegation"
+        }
+      ],
+      "damage_key": "adverse-allegation-as-fact"
+    },
+    {
+      "id": "D04",
+      "name": "fabricated_official_or_financial_field",
+      "role": "all",
+      "trigger": "The filing set affirmatively invents a court-assigned case number or a bank account not supplied in the record.",
+      "damage_basis": "The filing set affirmatively invents a court-assigned case number or a bank account not supplied in the record.",
+      "scope": "all",
+      "object_key": "fabricated_official_or_financial_field",
+      "source_location": "an adopted local span in the all DOCX",
+      "error_predicate": "The filing set affirmatively invents a court-assigned case number or a bank account not supplied in the record.",
+      "adoption_status": "affirmatively adopted final filing content",
+      "negative_context_exclusions": "Ordinary omission, blank fields, uncertainty markers, quotations, attributed allegations, rejected alternatives, negation, later correction, ambiguity, and parse failure are excluded.",
+      "causal_root_rule": "Group all manifestations caused by fabricated-official-field under one causal root.",
+      "damage_instance_key_rule": "litigation:fabricated-official-field:one independent business harm",
+      "manifestation_rule": "Keep every document location but charge one coefficient for repeated manifestations of the same underlying harm.",
+      "length_contract_id": "L-FORM",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.9,
+      "rules": [
+        {
+          "kind": "invented_case_number"
+        },
+        {
+          "kind": "invented_bank_account"
+        }
+      ],
+      "damage_key": "fabricated-official-field"
+    },
+    {
+      "id": "D05",
+      "name": "cross_document_contradiction",
+      "role": "all",
+      "trigger": "Two adopted deliverables assign conflicting dates, amounts, party roles, or outcomes to the same core event.",
+      "damage_basis": "Two adopted deliverables assign conflicting dates, amounts, party roles, or outcomes to the same core event.",
+      "scope": "all",
+      "object_key": "cross_document_contradiction",
+      "source_location": "an adopted local span in the all DOCX",
+      "error_predicate": "Two adopted deliverables assign conflicting dates, amounts, party roles, or outcomes to the same core event.",
+      "adoption_status": "affirmatively adopted final filing content",
+      "negative_context_exclusions": "Ordinary omission, blank fields, uncertainty markers, quotations, attributed allegations, rejected alternatives, negation, later correction, ambiguity, and parse failure are excluded.",
+      "causal_root_rule": "Group all manifestations caused by cross-document-contradiction under one causal root.",
+      "damage_instance_key_rule": "litigation:cross-document-contradiction:one independent business harm",
+      "manifestation_rule": "Keep every document location but charge one coefficient for repeated manifestations of the same underlying harm.",
+      "length_contract_id": "L-SET",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.9,
+      "rules": [
+        {
+          "kind": "cross_document_contradiction"
+        }
+      ],
+      "damage_key": "cross-document-contradiction"
+    },
+    {
+      "id": "D06",
+      "name": "source_dump_or_shape_failure",
+      "role": "all",
+      "trigger": "A requested filing is replaced by a source dump, keyword spray, or grossly mismatched document shape rather than a usable filing.",
+      "damage_basis": "A requested filing is replaced by a source dump, keyword spray, or grossly mismatched document shape rather than a usable filing.",
+      "scope": "all",
+      "object_key": "source_dump_or_shape_failure",
+      "source_location": "an adopted local span in the all DOCX",
+      "error_predicate": "A requested filing is replaced by a source dump, keyword spray, or grossly mismatched document shape rather than a usable filing.",
+      "adoption_status": "affirmatively adopted final filing content",
+      "negative_context_exclusions": "Ordinary omission, blank fields, uncertainty markers, quotations, attributed allegations, rejected alternatives, negation, later correction, ambiguity, and parse failure are excluded.",
+      "causal_root_rule": "Group all manifestations caused by unusable-deliverable-shape under one causal root.",
+      "damage_instance_key_rule": "litigation:unusable-deliverable-shape:one independent business harm",
+      "manifestation_rule": "Keep every document location but charge one coefficient for repeated manifestations of the same underlying harm.",
+      "length_contract_id": "L-SET",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "rules": [
+        {
+          "kind": "source_dump_or_shape"
+        }
+      ],
+      "damage_key": "unusable-deliverable-shape"
+    },
+    {
+      "id": "D08",
+      "name": "unliquidated_monetary_prayer",
+      "role": "complaint",
+      "trigger": "The adopted prayer requests additional damages or a refund while leaving the requested amount as an unresolved blank, so the complaint is not filing-ready.",
+      "damage_basis": "The adopted prayer requests additional damages or a refund while leaving the requested amount as an unresolved blank, so the complaint is not filing-ready.",
+      "scope": "complaint",
+      "object_key": "unliquidated_monetary_prayer",
+      "source_location": "an adopted local span in the complaint DOCX",
+      "error_predicate": "The adopted prayer requests additional damages or a refund while leaving the requested amount as an unresolved blank, so the complaint is not filing-ready.",
+      "adoption_status": "affirmatively adopted final filing content",
+      "negative_context_exclusions": "Ordinary omission, blank fields, uncertainty markers, quotations, attributed allegations, rejected alternatives, negation, later correction, ambiguity, and parse failure are excluded.",
+      "causal_root_rule": "Group all manifestations caused by unliquidated-monetary-prayer under one causal root.",
+      "damage_instance_key_rule": "litigation:unliquidated-monetary-prayer:one independent business harm",
+      "manifestation_rule": "Keep every document location but charge one coefficient for repeated manifestations of the same underlying harm.",
+      "length_contract_id": "L-PROSE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.9,
+      "rules": [
+        {
+          "kind": "unliquidated_monetary_prayer"
+        }
+      ],
+      "damage_key": "unliquidated-monetary-prayer"
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "id": "G-P01",
+      "source_location": "the adopted complaint DOCX",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-P02",
+      "source_location": "the adopted complaint DOCX",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-P09",
+      "source_location": "the adopted evidence_list DOCX",
+      "item_ids": [
+        "P09"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-P10",
+      "source_location": "the adopted case_handoff DOCX",
+      "item_ids": [
+        "P10"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-P11",
+      "source_location": "the adopted service_form DOCX",
+      "item_ids": [
+        "P11"
+      ],
+      "disposition": "partial_credit",
+      "solver_accessibility": "directly_visible"
+    },
+    {
+      "id": "G-P12",
+      "source_location": "the adopted refund_form DOCX",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "partial_credit",
+      "solver_accessibility": "directly_visible"
+    },
+    {
+      "id": "G-P13",
+      "source_location": "the adopted all DOCX",
+      "item_ids": [
+        "P13"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-P14",
+      "source_location": "the adopted evidence_list DOCX",
+      "item_ids": [
+        "P14"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-P15",
+      "source_location": "the adopted evidence_list DOCX",
+      "item_ids": [
+        "P15"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-P16",
+      "source_location": "the adopted refund_form DOCX",
+      "item_ids": [
+        "P16"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "inferable"
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "L-PROSE",
+      "unit": "adjacent_docx_units",
+      "scope": "one complaint or narrative section",
+      "enforcement": "Default 15 percent over and 30 percent under the matching Golden local unit; omission affects P and gross source-dump substitution may trigger D06."
+    },
+    {
+      "id": "L-TABLE",
+      "unit": "nonempty_table_rows",
+      "scope": "one evidence-list or handoff table",
+      "enforcement": "Rows may be rearranged; omission affects P and a source dump may trigger D06."
+    },
+    {
+      "id": "L-FORM",
+      "unit": "nonempty_form_cells",
+      "scope": "one court form",
+      "enforcement": "Blank unsupported fields are valid; completion credit is limited to supported fields."
+    },
+    {
+      "id": "L-SET",
+      "unit": "document_roles",
+      "scope": "the five-document filing set",
+      "enforcement": "Each requested role is counted once; duplicate aliases do not add credit."
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "NFKC, lowercase Latin text, collapse whitespace and punctuation-only variation without changing actor, polarity, date, amount, or modality."
+      },
+      {
+        "id": "N02",
+        "operation": "Classify DOCX files by title, filename, field labels, and document-specific content; require a unique highest role score."
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "Recompute five requested document roles and cross-document core-field consistency from submitted DOCX text."
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "gap_marker_contract": {
+    "required": true,
+    "unsupported_content_must_be_marked_not_invented": true,
+    "explicit_marker_earns_no_positive_credit": true,
+    "explicit_marker_never_triggers_deduction": true,
+    "fabrication_in_place_of_a_marker_is_a_deduction": true,
+    "marker_wording_is_not_scored": true
+  },
+  "giveaway_unit_gate": {
+    "coefficient_per_missing_unit": 0.2,
+    "lenient_requires_all_units": true,
+    "lenient_item_policy": {
+      "aggregation": "logical_and",
+      "items": {
+        "evidence_list_complete": "P15 must be complete",
+        "cross_document_consistency": "P16 must be complete",
+        "relief_route_coherent": "P02 must be complete"
+      }
+    },
+    "units": [
+      {
+        "id": "complaint_prayer_section",
+        "requirement": "The complaint contains a substantive prayer-for-relief section.",
+        "rollout_support": "25/25 frozen outputs"
+      },
+      {
+        "id": "complaint_facts_section",
+        "requirement": "The complaint contains a substantive facts-and-reasons section.",
+        "rollout_support": "25/25 frozen outputs"
+      }
+    ]
+  },
+  "requirement_trace": {
+    "instruction_sha256": "cc9afeee8fde7854568b7de6a5f467df18492327227cf4f9d1cf41e0a0045f9e",
+    "requirements": [
+      {
+        "quote": "Use the four files in materials as the complete case record for the logistics contract dispute between Huang Nanlong and Yi Zejie and Guangxi Pingxiang Yueyitong International Logistics Co., Ltd.",
+        "item_ids": [
+          "P01",
+          "P02",
+          "P09",
+          "P10",
+          "P11",
+          "P12",
+          "P13",
+          "P14",
+          "P15",
+          "P16"
+        ]
+      },
+      {
+        "quote": "Prepare a coherent civil litigation filing set in editable DOCX format using only facts supported by those materials.",
+        "item_ids": [
+          "P01",
+          "P02",
+          "P09",
+          "P10",
+          "P11",
+          "P12",
+          "P13",
+          "P14",
+          "P15",
+          "P16"
+        ]
+      },
+      {
+        "quote": "Deliver civil-complaint.docx, evidence-list.docx, case-handoff.docx, service-address-confirmation.docx, and refund-account-confirmation.docx under output.",
+        "item_ids": [
+          "P01",
+          "P02",
+          "P09",
+          "P10",
+          "P11",
+          "P12",
+          "P13",
+          "P14",
+          "P15",
+          "P16"
+        ]
+      }
+    ],
+    "stated_facts": [
+      {
+        "id": "F-MATERIALS",
+        "quote": "four files in materials",
+        "check": {
+          "kind": "count",
+          "glob": "materials/*",
+          "expected": 4
+        }
+      }
+    ],
+    "unchecked_tokens": [
+      {
+        "token": "DOCX",
+        "reason": "Requested output carrier, not an input fact."
+      },
+      {
+        "token": "output",
+        "reason": "Requested output destination, not an input fact."
+      },
+      {
+        "token": "civil-complaint.docx",
+        "reason": "Requested output filename, not an input fact."
+      },
+      {
+        "token": "evidence-list.docx",
+        "reason": "Requested output filename, not an input fact."
+      },
+      {
+        "token": "case-handoff.docx",
+        "reason": "Requested output filename, not an input fact."
+      },
+      {
+        "token": "service-address-confirmation.docx",
+        "reason": "Requested output filename, not an input fact."
+      },
+      {
+        "token": "refund-account-confirmation.docx",
+        "reason": "Requested output filename, not an input fact."
+      }
+    ]
+  },
+  "golden_consistency": {
+    "checks": [
+      {
+        "id": "GC-AMOUNT",
+        "kind": "equality",
+        "statement": "Complaint and handoff use the same RMB 100,000 dispute amount.",
+        "left": {
+          "file": "golden/civil-complaint.docx",
+          "regex": "(100000)"
+        },
+        "right": {
+          "file": "golden/case-handoff.docx",
+          "regex": "(100000)"
+        }
+      },
+      {
+        "id": "GC-PARTY-YI",
+        "kind": "equality",
+        "statement": "Complaint and service form identify Yi Zejie consistently.",
+        "left": {
+          "file": "golden/civil-complaint.docx",
+          "regex": "(易泽杰)"
+        },
+        "right": {
+          "file": "golden/service-address-confirmation.docx",
+          "regex": "(易泽杰)"
+        }
+      },
+      {
+        "id": "GC-PARTY-HUANG",
+        "kind": "equality",
+        "statement": "Complaint and service form identify Huang Nanlong consistently.",
+        "left": {
+          "file": "golden/civil-complaint.docx",
+          "regex": "(黄南隆)"
+        },
+        "right": {
+          "file": "golden/service-address-confirmation.docx",
+          "regex": "(黄南隆)"
+        }
+      }
+    ]
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  }
+}

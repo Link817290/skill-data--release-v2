@@ -1,0 +1,15 @@
+{
+  "artifact_hashes": {
+    "candidate/一期工程验收监测报告表（批注稿）.docx": "52e78485be3be446c34db28127ec7a36815fbbc63b5db62f9db2bd2f5b044142",
+    "candidate/验收材料补充意见.docx": "88bfa30e8247f12341ccd16054bdfbba8871aa3a6b1f0cdd64113f82f3d64f79",
+    "golden_meaning/一期工程验收监测报告表（批注稿）.docx": "52e78485be3be446c34db28127ec7a36815fbbc63b5db62f9db2bd2f5b044142",
+    "golden_meaning/验收材料补充意见.docx": "88bfa30e8247f12341ccd16054bdfbba8871aa3a6b1f0cdd64113f82f3d64f79",
+    "source/一期工程验收监测报告表（复核稿）.docx": "6e4d9c933f6c2d32ec29d5c6941a555528e1df48ac4353b7eb50401c751c7481",
+    "source/审批要求及验收技术资料摘录.docx": "698fa3fbaf7e1f4819e4728cd69baed41133c3932d5f23ba16a76deebd7ac831",
+    "facts": "045155ef9e545ba7a565048e235cef3e7369b6aab025e9ea393daa53a7ecb688"
+  },
+  "request_sha256": "a52f70f100b81188c4c6e6948f3ff6a6e84f3557817317f3623c84d5ced3bc32",
+  "rollout_executed": false,
+  "visual_input": false,
+  "contract_sha256": "480aa120f4ffd8792b3e81070ed2738b538a89cbdfb8e508b2ce2af903f27874"
+}

@@ -1,0 +1,40 @@
+# No-skill condition: the skill is not mounted; every other clause is
+# word-for-word identical to task.toml. One scorer, one instruction, one
+# workspace - that is what makes the two conditions blind to each other.
+version = "1.0"
+id = "replay-buffer-seed-builder-no-skill"
+title = "Replay buffer seed from a corrected grasp trajectory"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+domain = "embodied-data-engineering"
+
+[metadata]
+tags = ["embodied-data", "data-generation", "expert-processing"]
+
+[verifier]
+timeout_sec = 300.0
+
+[agent]
+timeout_sec = 5400.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "solution/reference_replay_buffer_seed.jsonl"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"

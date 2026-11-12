@@ -1,0 +1,64 @@
+{
+  "required_fields": [
+    "dead_load",
+    "live_load",
+    "dead_factor",
+    "live_factor",
+    "span",
+    "h",
+    "bw",
+    "fc",
+    "fy",
+    "As_comp",
+    "d_prime",
+    "As_tension",
+    "d_flexure",
+    "d_shear",
+    "Av",
+    "beta1",
+    "phi_flex",
+    "phi_shear",
+    "Mu_reported",
+    "Vu_reported",
+    "s_trial",
+    "s_adopted",
+    "smax_reported"
+  ],
+  "findings": {
+    "LC-01": "PASS",
+    "FX-01": "PASS",
+    "FX-02": "PASS",
+    "FX-03": "PASS",
+    "SH-01": "PASS",
+    "SH-02": "FAIL",
+    "SH-03": "PASS",
+    "SH-04": "REVIEW",
+    "SH-05": "PASS"
+  },
+  "sheet_roles": [
+    "Source_Inputs",
+    "Load_Combinations",
+    "Flexure",
+    "Shear",
+    "Findings",
+    "Summary"
+  ],
+  "controlled_statuses": [
+    "PASS",
+    "FAIL",
+    "REVIEW"
+  ],
+  "numeric_tolerances": {
+    "actions": 0.01,
+    "capacities": 0.03,
+    "ratios": 0.03
+  },
+  "formula_requirements": {
+    "minimum_formula_count": 15,
+    "minimum_cross_sheet_count": 8
+  },
+  "golden_scores": {
+    "strict": 1.0,
+    "lenient": 1.0
+  }
+}

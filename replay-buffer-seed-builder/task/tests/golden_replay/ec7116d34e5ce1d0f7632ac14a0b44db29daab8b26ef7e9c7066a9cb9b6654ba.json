@@ -1,0 +1,25 @@
+{
+  "cache_key": "ec7116d34e5ce1d0f7632ac14a0b44db29daab8b26ef7e9c7066a9cb9b6654ba",
+  "request_sha256": "f4a5311e6319fa00cc26eae00c70330da4200f3477a853b73cf215d8a834b5a2",
+  "runtime_sha256": "6ee4544f7afb92a400d2adb95aee92d80c17a8f77f00ecc5bd002e14e9c18517",
+  "model": "gpt-5.6-sol",
+  "verdict": {
+    "id": "P25",
+    "passed": 1,
+    "candidate_evidence": [
+      "C0001",
+      "C0002",
+      "C0003"
+    ],
+    "source_evidence": [
+      "S0035",
+      "S0038",
+      "S0047",
+      "S0048",
+      "S0049",
+      "S0050",
+      "S0051"
+    ],
+    "reason": "Both required phase groups are present with scalar, unambiguous routing labels: reach/approach use ppo_phase1_pretraining, while contact/grasp/lift use ppo_phase2_rl. The source defines a two-phase PPO curriculum, trains phase 1 for contact, loads its saved PPO model and normalization state as pretrained inputs to phase 2, and trains phase 2 with the added lift objective, so the candidate routing is semantically consistent with the supported pipeline."
+  }
+}

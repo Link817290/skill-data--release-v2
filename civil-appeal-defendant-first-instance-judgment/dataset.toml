@@ -1,0 +1,15 @@
+id = "civil-appeal-defendant-first-instance-judgment"
+task_type = "skill-bench"
+task = "task/task.toml"
+task_no_skill = "task/task_no_skill.toml"
+golden = "golden/civil-appeal-petition.md"
+deliverable = "artifacts/civil-appeal-petition.md"
+[scoring]
+primary_score = "reward_strict"
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/test.sh"
+scoring_params = "task/tests/rubric-contract.json"
+rubric = "RUBRIC.md"
+condition_blind = true
+semantic_judge_required = true

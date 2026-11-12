@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "VAL-001_A0_G0:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A0_G0:A\", \"conclusion\": \"右肝无回声灶\", \"evidence\": [\"VAL-001-R004\"], \"explanation\": \"依据 VAL-001-R004 归纳\"}"
+      ],
+      "reason": "候选识别出右肝内的无回声灶，与源记录的核心观察一致。"
+    },
+    {
+      "id": "VAL-001_A0_G0:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A0_G0:B\", \"conclusion\": \"右肝无回声灶\", \"evidence\": [\"VAL-001-R004\"], \"explanation\": \"依据 VAL-001-R004 归纳\"}"
+      ],
+      "reason": "“右肝无回声灶”是对右肝无回声、边界清楚规则病灶的标准描述性名称，受源记录支持。"
+    },
+    {
+      "id": "VAL-001_A0_G0:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A0_G0:C\", \"conclusion\": \"右肝无回声灶\", \"evidence\": [\"VAL-001-R004\"], \"explanation\": \"依据 VAL-001-R004 归纳\"}"
+      ],
+      "reason": "候选保留了右肝这一部位及无回声灶这一性质；大小和边界细节无需写入简明结论。"
+    },
+    {
+      "id": "VAL-001_A1_G1:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A1_G1:A\", \"conclusion\": \"胆囊息肉样病变\", \"evidence\": [\"VAL-001-R005\"], \"explanation\": \"依据 VAL-001-R005 归纳\"}"
+      ],
+      "reason": "候选识别的是胆囊壁相连的息肉样病变，与源记录中的核心胆囊发现一致。"
+    },
+    {
+      "id": "VAL-001_A1_G1:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A1_G1:B\", \"conclusion\": \"胆囊息肉样病变\", \"evidence\": [\"VAL-001-R005\"], \"explanation\": \"依据 VAL-001-R005 归纳\"}"
+      ],
+      "reason": "胆囊息肉样病变是对胆囊壁相连、无明显声影的高回声病灶的医学标准且受支持的名称。"
+    },
+    {
+      "id": "VAL-001_A1_G1:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A1_G1:C\", \"conclusion\": \"胆囊息肉样病变\", \"evidence\": [\"VAL-001-R005\"], \"explanation\": \"依据 VAL-001-R005 归纳\"}"
+      ],
+      "reason": "结论保留了胆囊部位和息肉样病变性质，未加入源记录没有的程度、状态或其他限定。"
+    },
+    {
+      "id": "VAL-001_A2_G2:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A2_G2:A\", \"conclusion\": \"甲状腺右叶囊肿\", \"evidence\": [\"VAL-001-R006\"], \"explanation\": \"依据 VAL-001-R006 归纳\"}"
+      ],
+      "reason": "候选识别出甲状腺右叶的囊性无回声病灶，与源记录的核心发现一致。"
+    },
+    {
+      "id": "VAL-001_A2_G2:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A2_G2:B\", \"conclusion\": \"甲状腺右叶囊肿\", \"evidence\": [\"VAL-001-R006\"], \"explanation\": \"依据 VAL-001-R006 归纳\"}"
+      ],
+      "reason": "甲状腺右叶囊肿是对右叶内边界规则、内部无血流的无回声灶的标准且受支持名称。"
+    },
+    {
+      "id": "VAL-001_A2_G2:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A2_G2:C\", \"conclusion\": \"甲状腺右叶囊肿\", \"evidence\": [\"VAL-001-R006\"], \"explanation\": \"依据 VAL-001-R006 归纳\"}"
+      ],
+      "reason": "候选保留了甲状腺、右叶及囊肿性质；尺寸和血流等证据细节无需重复。"
+    },
+    {
+      "id": "VAL-001_A3_G3:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A3_G3:A\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-001-R078\"], \"explanation\": \"依据 VAL-001-R078 归纳\"}"
+      ],
+      "reason": "候选所述心率偏慢与心房率、心室率均为57 bpm的核心测量发现一致。"
+    },
+    {
+      "id": "VAL-001_A3_G3:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A3_G3:B\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-001-R078\"], \"explanation\": \"依据 VAL-001-R078 归纳\"}"
+      ],
+      "reason": "“心率偏慢”是对源记录所示57 bpm心率的标准、直接受支持的结论，并未推断心律类型。"
+    },
+    {
+      "id": "VAL-001_A3_G3:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A3_G3:C\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-001-R078\"], \"explanation\": \"依据 VAL-001-R078 归纳\"}"
+      ],
+      "reason": "结论准确保留心率及偏慢这一程度性质，没有增加源记录未载明的诊断。"
+    },
+    {
+      "id": "VAL-001_A4_G4:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A4_G4:A\", \"conclusion\": \"左侧乳腺结节\", \"evidence\": [\"VAL-001-R073\"], \"explanation\": \"依据 VAL-001-R073 归纳\"}"
+      ],
+      "reason": "候选识别出左侧乳腺结节，与源记录明确记载的核心发现一致。"
+    },
+    {
+      "id": "VAL-001_A4_G4:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A4_G4:B\", \"conclusion\": \"左侧乳腺结节\", \"evidence\": [\"VAL-001-R073\"], \"explanation\": \"依据 VAL-001-R073 归纳\"}"
+      ],
+      "reason": "“左侧乳腺结节”是源记录直接支持的标准医学名称。"
+    },
+    {
+      "id": "VAL-001_A4_G4:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A4_G4:C\", \"conclusion\": \"左侧乳腺结节\", \"evidence\": [\"VAL-001-R073\"], \"explanation\": \"依据 VAL-001-R073 归纳\"}"
+      ],
+      "reason": "候选保留了乳腺、左侧和结节性质；方位及成像形态属于可省略的证据细节。"
+    },
+    {
+      "id": "VAL-001_A5_G5:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A5_G5:A\", \"conclusion\": \"龋齿\", \"evidence\": [\"VAL-001-R057\"], \"explanation\": \"依据 VAL-001-R057 归纳\"}"
+      ],
+      "reason": "候选“龋齿”与源记录中的“蛀牙”是同一核心牙体发现。"
+    },
+    {
+      "id": "VAL-001_A5_G5:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A5_G5:B\", \"conclusion\": \"龋齿\", \"evidence\": [\"VAL-001-R057\"], \"explanation\": \"依据 VAL-001-R057 归纳\"}"
+      ],
+      "reason": "“龋齿”是“蛀牙”的标准医学名称，并由源记录直接支持。"
+    },
+    {
+      "id": "VAL-001_A5_G5:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A5_G5:C\", \"conclusion\": \"龋齿\", \"evidence\": [\"VAL-001-R057\"], \"explanation\": \"依据 VAL-001-R057 归纳\"}"
+      ],
+      "reason": "源记录未为龋齿提供需要保留的部位、程度或状态限定，候选也未添加无依据限定。"
+    },
+    {
+      "id": "VAL-001_A6_G6:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A6_G6:A\", \"conclusion\": \"二尖瓣环Em低于Am\", \"evidence\": [\"VAL-001-R009\"], \"explanation\": \"依据 VAL-001-R009 归纳\"}"
+      ],
+      "reason": "候选准确识别了组织多普勒所示二尖瓣环Em小于Am的核心发现。"
+    },
+    {
+      "id": "VAL-001_A6_G6:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A6_G6:B\", \"conclusion\": \"二尖瓣环Em低于Am\", \"evidence\": [\"VAL-001-R009\"], \"explanation\": \"依据 VAL-001-R009 归纳\"}"
+      ],
+      "reason": "“二尖瓣环Em低于Am”是对源记录“二尖瓣环Em＜Am”的标准等义表达。"
+    },
+    {
+      "id": "VAL-001_A6_G6:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-001_A6_G6:C\", \"conclusion\": \"二尖瓣环Em低于Am\", \"evidence\": [\"VAL-001-R009\"], \"explanation\": \"依据 VAL-001-R009 归纳\"}"
+      ],
+      "reason": "候选完整保留了二尖瓣环、Em与Am及两者低于关系，没有改变限定或对象。"
+    },
+    {
+      "id": "VAL-002_A0_G0:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A0_G0:A\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-002-R093\"], \"explanation\": \"依据 VAL-002-R093 归纳\"}"
+      ],
+      "reason": "候选所述心率偏慢与心房率、心室率均为56 bpm的核心测量发现一致。"
+    },
+    {
+      "id": "VAL-002_A0_G0:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A0_G0:B\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-002-R093\"], \"explanation\": \"依据 VAL-002-R093 归纳\"}"
+      ],
+      "reason": "“心率偏慢”是对源记录所示56 bpm心率的标准、直接受支持的结论。"
+    },
+    {
+      "id": "VAL-002_A0_G0:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A0_G0:C\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-002-R093\"], \"explanation\": \"依据 VAL-002-R093 归纳\"}"
+      ],
+      "reason": "候选保留了心率偏慢的性质和程度，且没有增加心律类型等未记载诊断。"
+    },
+    {
+      "id": "VAL-002_A1_G1:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A1_G1:A\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-002-R115\"], \"explanation\": \"依据 VAL-002-R115 归纳\"}"
+      ],
+      "reason": "候选识别出的超重与源记录明确给出的体重指数结论一致。"
+    },
+    {
+      "id": "VAL-002_A1_G1:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A1_G1:B\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-002-R115\"], \"explanation\": \"依据 VAL-002-R115 归纳\"}"
+      ],
+      "reason": "“超重”是源记录直接采用并支持的标准体重状态名称。"
+    },
+    {
+      "id": "VAL-002_A1_G1:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A1_G1:C\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-002-R115\"], \"explanation\": \"依据 VAL-002-R115 归纳\"}"
+      ],
+      "reason": "结论完整保留超重这一状态；具体BMI数值无需在结论名称中重复。"
+    },
+    {
+      "id": "VAL-002_A2_G2:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A2_G2:A\", \"conclusion\": \"反射波增强指数异常\", \"evidence\": [\"VAL-002-R094\", \"VAL-002-R099\"], \"explanation\": \"依据 VAL-002-R099;VAL-002-R094 归纳\"}"
+      ],
+      "reason": "候选准确识别出反射波增强指数异常，与源记录的明确结论一致。"
+    },
+    {
+      "id": "VAL-002_A2_G2:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A2_G2:B\", \"conclusion\": \"反射波增强指数异常\", \"evidence\": [\"VAL-002-R094\", \"VAL-002-R099\"], \"explanation\": \"依据 VAL-002-R099;VAL-002-R094 归纳\"}"
+      ],
+      "reason": "“反射波增强指数异常”是源记录直接记载的标准结论名称。"
+    },
+    {
+      "id": "VAL-002_A2_G2:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A2_G2:C\", \"conclusion\": \"反射波增强指数异常\", \"evidence\": [\"VAL-002-R094\", \"VAL-002-R099\"], \"explanation\": \"依据 VAL-002-R099;VAL-002-R094 归纳\"}"
+      ],
+      "reason": "候选保留了指标名称及异常状态；具体指数数值属于可省略的证据。"
+    },
+    {
+      "id": "VAL-002_A3_G3:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A3_G3:A\", \"conclusion\": \"左肾囊肿\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "候选识别出左肾实质内的囊性无回声病灶，与该项对应的核心发现一致。"
+    },
+    {
+      "id": "VAL-002_A3_G3:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A3_G3:B\", \"conclusion\": \"左肾囊肿\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "左肾囊肿是对左肾实质内边界清楚规则的无回声灶的标准且受支持名称。"
+    },
+    {
+      "id": "VAL-002_A3_G3:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A3_G3:C\", \"conclusion\": \"左肾囊肿\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "候选保留了左侧、肾脏及囊肿性质；尺寸和边界描述无需重复。"
+    },
+    {
+      "id": "VAL-002_A3_G4:A",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A3_G4:A\", \"conclusion\": \"左肾囊肿\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "该项对应的是左肾集合系统内伴声影的强回声结石发现，候选却采用左肾囊肿，属于同一源行中的另一个不同发现。"
+    },
+    {
+      "id": "VAL-002_A3_G4:B",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A3_G4:B\", \"conclusion\": \"左肾囊肿\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "虽然源行另有左肾囊性无回声灶，但本项目标发现是左肾结石；“左肾囊肿”不是该目标发现的医学名称。"
+    },
+    {
+      "id": "VAL-002_A3_G4:C",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-002_A3_G4:C\", \"conclusion\": \"左肾囊肿\", \"evidence\": [\"VAL-002-R004\"], \"explanation\": \"依据 VAL-002-R004 归纳\"}"
+      ],
+      "reason": "候选将目标发现的性质由结石改为囊肿，未保留左肾集合系统强回声伴声影所支持的结石性质。"
+    }
+  ]
+}

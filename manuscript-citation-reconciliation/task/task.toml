@@ -1,0 +1,51 @@
+version = "1.0"
+id = "manuscript-citation-reconciliation"
+name = "expert/manuscript-citation-reconciliation"
+title = "Evidence-grounded manuscript citation reconciliation"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+artifacts = [ "/workspace/output/citation_audit.json",]
+
+[metadata]
+tags = [ "academic-bibliography", "citation-reconciliation", "docx", "evidence-audit",]
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[verifier]
+timeout_sec = 120.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+docker_image = "manuscript-citation-reconciliation-with-skill:1.3"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 600.0
+skills = "environment/skills"
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "/workspace/output/citation_audit.json"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-240}"
+
+[verifier.environment]
+docker_image = "manuscript-citation-reconciliation-verifier:1.3"
+network_mode = "public"

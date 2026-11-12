@@ -1,0 +1,40 @@
+{
+ "schema_version": "deliverable-gate-v1",
+ "root": "output",
+ "required": [
+  "post_hearing_argument.docx"
+ ],
+ "allowlist": [
+  "manifest.json"
+ ],
+ "extra_coefficient": 0.4,
+ "extra_cap": 2,
+ "item_id": "DX_DELIVERABLE",
+ "note": "missing required deliverable (post_hearing_argument.docx) -> score 0; each extra file directly under the declared delivery directory -> one DX_DELIVERABLE instance (0.4, cap 2). Live runs and solve.sh use output/. Archived runs may stage that directory as artifacts/output/ or flatten it to artifacts/. Files elsewhere in the workspace are working files, not delivered files, and are never charged. The harness manifest.json is allow-listed.",
+ "golden_carriers": {
+  "native-golden.docx": "post_hearing_argument.docx"
+ },
+ "source_dump": {
+  "materials": "pjroot/task/environment/workspace/materials",
+  "window": 24,
+  "min_run": 500,
+  "golden_longest_run": 0,
+  "note": "Verbatim overlap is diagnostic only. A character run cannot determine whether a quotation supports independent analysis or replaces it; substantive owner items require the adopted consequence and provide the score."
+ },
+ "also_accept": [
+  "artifacts/output",
+  "artifacts"
+ ],
+ "language": {
+  "script": "han",
+  "deliverable": [
+   "post_hearing_argument.docx"
+  ],
+  "min_ratio": 0.5,
+  "coefficient": 0.1,
+  "cap": 2,
+  "item_id": "DX_LANGUAGE",
+  "brief": "Prepare an editable Chinese-language post-hearing written argument for the court concerning the parties' disputed construction payment and requested disposition.",
+  "note": "Measured as the share of script-bearing characters (Han vs Latin letters). Golden not measurable; the 13 delivered rollout readings measure 0.846-0.951. The opposite script measures under 0.06 anywhere in this cohort, so 0.5 sits in the gap between the two populations and moves no delivered rollout."
+ }
+}

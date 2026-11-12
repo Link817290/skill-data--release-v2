@@ -1,0 +1,7 @@
+# Task
+
+The release candidate in `/workspace/project` is a Python progress-reporting library used by command-line and batch-processing tools. Downstream integrations have reported incorrect status text, corrupted or over-wide terminal output, stalled shutdown, and failures on valid inputs outside the most common path. The supplied tests may not cover every reported boundary, so the candidate needs a focused repair before release.
+
+Work from the task materials under `/workspace`; there is no network access. Check what standing procedures are available to you and follow those whose stated scope matches the symptoms you are chasing. Repair the library source under `/workspace/project` without changing supplied tests, verifier files, or public APIs. Run relevant local checks and keep unrelated behavior intact. For each defect record, state the competing ownership hypothesis that the focused reproducer ruled out and show the command together with its outcome.
+
+Deliver the report in English at `/workspace/output/repair_report.md`, under the headings `# Repair Report`, `## Summary`, `## Defect Records` and `## Verification`. Under `## Defect Records`, use one `###` record per independent defect; each record must connect an observed failure or reproducer, its source path and root cause, the change made, and a focused check with its outcome. The repaired source tree is part of the delivery.

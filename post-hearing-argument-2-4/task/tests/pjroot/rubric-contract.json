@@ -1,0 +1,969 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "final-source-complete",
+  "task_mode": "generation_analysis",
+  "positive_items": [
+    {
+      "id": "P01",
+      "weight": 0.06,
+      "unit_id": "U01",
+      "scope": "one coherent issue paragraph or table row in the submitted argument",
+      "object_key": "appraisal_boundary",
+      "source_location": "hearing_1.txt:p4-7; hearing_2.txt:p4-8",
+      "relation_predicate": "Identify the 4,468,031 appraisal as a limited certain-value figure and dispute its completeness, not a final court debt.",
+      "golden_object_key": "appraisal_boundary",
+      "golden_relation_predicate": "Identify the 4,468,031 appraisal as a limited certain-value figure and dispute its completeness, not a final court debt. [golden:document:p4]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one contiguous issue paragraph or one complete table row",
+        "metric": "complete local proposition with object, status and consequence",
+        "max_units": 1
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "semantic_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P02",
+      "weight": 0.05,
+      "unit_id": "U02",
+      "scope": "one coherent issue paragraph or table row in the submitted argument",
+      "object_key": "fee_scope",
+      "source_location": "hearing_1.txt:p4,6; hearing_2.txt:p5-7",
+      "relation_predicate": "Relate excluded management and measures costs to necessary organization or site work rather than merely listing fee names.",
+      "golden_object_key": "fee_scope",
+      "golden_relation_predicate": "Relate excluded management and measures costs to necessary organization or site work rather than merely listing fee names. [golden:document:p5]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one contiguous issue paragraph or one complete table row",
+        "metric": "complete local proposition with object, status and consequence",
+        "max_units": 1
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "semantic_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P03",
+      "weight": 0.03,
+      "unit_id": "U03",
+      "scope": "one adopted, coherent issue paragraph, a single table row, or at most six contiguous paragraphs under one issue heading",
+      "object_key": "contract_price_method",
+      "source_location": "hearing_2.txt:p5-7; case_law_report.txt:body",
+      "relation_predicate": "Distinguish absence of written pricing agreement from an appraisal's partial formula and explain why exclusion requires a reasoned contract or valuation basis.",
+      "golden_object_key": "contract_price_method",
+      "golden_relation_predicate": "Distinguish absence of written pricing agreement from an appraisal's partial formula and explain why exclusion requires a reasoned contract or valuation basis. [golden:document:p6]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one paragraph, one table row, or exact original locators for at most six adjacent paragraphs in the same issue",
+        "metric": "missing written price agreement linked to appraisal exclusions and qualified treatment in the same bounded issue",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "copy_counterfactual": "Direct source copying, heading-only text, scattered keywords and unadopted alternatives receive zero credit.",
+      "semantic_audit_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P04",
+      "weight": 0.03,
+      "unit_id": "U04",
+      "scope": "one adopted, coherent issue paragraph, a single table row, or at most six contiguous paragraphs under one issue heading",
+      "object_key": "profit_qualification",
+      "source_location": "case_law_report.txt:case-table; hearing_2.txt:p5-7",
+      "relation_predicate": "Analyze profit treatment as dependent on actual work and legal analogy rather than automatically denying it based solely on personal qualification.",
+      "golden_object_key": "profit_qualification",
+      "golden_relation_predicate": "Analyze profit treatment as dependent on actual work and legal analogy rather than automatically denying it based solely on personal qualification. [golden:document:p7-8]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one paragraph, one table row, or exact original locators for at most six adjacent paragraphs in the same issue",
+        "metric": "complete linked business relation with object, status and consequence in one bounded issue; no cross-heading stitching",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "copy_counterfactual": "Direct source copying, heading-only text, scattered keywords and unadopted alternatives receive zero credit.",
+      "semantic_audit_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P05",
+      "weight": 0.04,
+      "unit_id": "U05",
+      "scope": "one adopted, coherent issue paragraph, a single table row, or at most six contiguous paragraphs under one issue heading",
+      "object_key": "tax_regulatory_fees",
+      "source_location": "hearing_2.txt:p5-7; case_law_report.txt:case-table",
+      "relation_predicate": "Relate regulatory fees or taxes to the appraisal scope and the actual burden; do not equate a cited precedent with a finding in this case.",
+      "golden_object_key": "tax_regulatory_fees",
+      "golden_relation_predicate": "Relate regulatory fees or taxes to the appraisal scope and the actual burden; do not equate a cited precedent with a finding in this case. [golden:document:p9]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one paragraph, one table row, or exact original locators for at most six adjacent paragraphs in the same issue",
+        "metric": "complete linked business relation with object, status and consequence in one bounded issue; no cross-heading stitching",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "semantic_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P06",
+      "weight": 0.04,
+      "unit_id": "U06",
+      "scope": "one adopted, coherent issue paragraph, a single table row, or at most six contiguous paragraphs under one issue heading",
+      "object_key": "appraisal_vs_market",
+      "source_location": "hearing_2.txt:p6-8",
+      "relation_predicate": "Distinguish party-asserted market comparators or proposed total from appraisal-certified value and leave final price for judicial assessment.",
+      "golden_object_key": "appraisal_vs_market",
+      "golden_relation_predicate": "Distinguish party-asserted market comparators or proposed total from appraisal-certified value and leave final price for judicial assessment. [golden:document:p10]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one paragraph, one table row, or exact original locators for at most six adjacent paragraphs in the same issue",
+        "metric": "complete linked business relation with object, status and consequence in one bounded issue; no cross-heading stitching",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "copy_counterfactual": "Direct source copying, heading-only text, scattered keywords and unadopted alternatives receive zero credit.",
+      "semantic_audit_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P07",
+      "weight": 0.18,
+      "unit_id": "U07",
+      "scope": "one adopted, coherent issue paragraph, a single table row, or at most six contiguous paragraphs under one issue heading",
+      "object_key": "additional_labor_account",
+      "source_location": "hearing_1.txt:p3; hearing_2.txt:p4,9-11",
+      "relation_predicate": "Analyze both distinct additional-labor sums, 211160 and 1063645, as claimed worker payments whose attribution to plaintiff depends on authorization or ratification.",
+      "golden_object_key": "additional_labor_account",
+      "golden_relation_predicate": "Analyze both distinct additional-labor sums, 211160 and 1063645, as claimed worker payments whose attribution to plaintiff depends on authorization or ratification. [golden:document:p12]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one paragraph, one table row, or exact original locators for at most six adjacent paragraphs in the same issue",
+        "metric": "complete linked business relation with object, status and consequence in one bounded issue; no cross-heading stitching",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "copy_counterfactual": "Direct source copying, heading-only text, scattered keywords and unadopted alternatives receive zero credit.",
+      "semantic_audit_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P08",
+      "weight": 0.09,
+      "unit_id": "U08",
+      "scope": "one adopted, coherent issue paragraph, a single table row, or at most six contiguous paragraphs under one issue heading",
+      "object_key": "witness_knowledge",
+      "source_location": "witness_hearing.txt:p2-5; hearing_2.txt:p9-11",
+      "relation_predicate": "Bind witness recruitment, payor, and the limits of the witness's knowledge to the disputed plaintiff-party relationship.",
+      "golden_object_key": "witness_knowledge",
+      "golden_relation_predicate": "Bind witness recruitment, payor, and the limits of the witness's knowledge to the disputed plaintiff-party relationship. [golden:document:p13]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one paragraph, one table row, or exact original locators for at most six adjacent paragraphs in the same issue",
+        "metric": "complete linked business relation with object, status and consequence in one bounded issue; no cross-heading stitching",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "semantic_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P09",
+      "weight": 0.09,
+      "unit_id": "U09",
+      "scope": "one coherent issue paragraph or table row in the submitted argument",
+      "object_key": "site_lead_authority",
+      "source_location": "hearing_2.txt:p8-11; witness_hearing.txt:p3-5",
+      "relation_predicate": "Distinguish a site lead's alleged attendance or settlement signature from proved authority to bind or ratify plaintiff's payment account.",
+      "golden_object_key": "site_lead_authority",
+      "golden_relation_predicate": "Distinguish a site lead's alleged attendance or settlement signature from proved authority to bind or ratify plaintiff's payment account. [golden:document:p14]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one contiguous issue paragraph or one complete table row",
+        "metric": "complete local proposition with object, status and consequence",
+        "max_units": 1
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "semantic_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P10",
+      "weight": 0.09,
+      "unit_id": "U10",
+      "scope": "one adopted, coherent issue paragraph, a single table row, or at most six contiguous paragraphs under one issue heading",
+      "object_key": "paid_amount_boundary",
+      "source_location": "hearing_1.txt:p3-4; hearing_2.txt:p4-5",
+      "relation_predicate": "Separate the stated 5,040,500 paid amount, the 5,100 wage discrepancy, and contested labor transfers without double counting.",
+      "golden_object_key": "paid_amount_boundary",
+      "golden_relation_predicate": "Separate the stated 5,040,500 paid amount, the 5,100 wage discrepancy, and contested labor transfers without double counting. [golden:document:p15]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one paragraph, one table row, or exact original locators for at most six adjacent paragraphs in the same issue",
+        "metric": "complete linked business relation with object, status and consequence in one bounded issue; no cross-heading stitching",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "copy_counterfactual": "Direct source copying, heading-only text, scattered keywords and unadopted alternatives receive zero credit.",
+      "semantic_audit_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P11",
+      "weight": 0.05,
+      "unit_id": "U11",
+      "scope": "one coherent issue paragraph or table row in the submitted argument",
+      "object_key": "rush_work_allocation",
+      "source_location": "hearing_2.txt:p9-11; witness_hearing.txt:p2-5",
+      "relation_predicate": "Connect the defendants' claimed rush-work rationale to the separate question of who contracted for and must bear the extra worker cost.",
+      "golden_object_key": "rush_work_allocation",
+      "golden_relation_predicate": "Connect the defendants' claimed rush-work rationale to the separate question of who contracted for and must bear the extra worker cost. [golden:document:p16]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one contiguous issue paragraph or one complete table row",
+        "metric": "complete local proposition with object, status and consequence",
+        "max_units": 1
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "semantic_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P12",
+      "weight": 0.08,
+      "unit_id": "U12",
+      "scope": "one coherent issue paragraph or table row in the submitted argument",
+      "object_key": "requested_valuation",
+      "source_location": "hearing_1.txt:p4-7; hearing_2.txt:p5-8",
+      "relation_predicate": "Request a reasoned court valuation that recognizes actual work and contested costs without pronouncing a party proposal an adjudicated sum.",
+      "golden_object_key": "requested_valuation",
+      "golden_relation_predicate": "Request a reasoned court valuation that recognizes actual work and contested costs without pronouncing a party proposal an adjudicated sum. [golden:document:p18-21]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted qualified legal analysis",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one contiguous issue paragraph or one complete table row",
+        "metric": "complete local proposition with object, status and consequence",
+        "max_units": 1
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "copy_counterfactual": "Direct source copying, heading-only text, scattered keywords and unadopted alternatives receive zero credit.",
+      "semantic_audit_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?"
+    },
+    {
+      "id": "P13",
+      "weight": 0.17,
+      "unit_id": "U13",
+      "scope": "the final requested-disposition section together with its bounded supporting calculation or qualification",
+      "object_key": "relief_calibration",
+      "source_location": "hearing_1.txt:p2-7; hearing_2.txt:p2-8; witness_hearing.txt:p2-5",
+      "relation_predicate": "Tie the pleaded principal and interest to verification of the disputed valuation composition, reconciled direct payments and a supported due date, with a concrete conditional or supplemental-review route.",
+      "golden_object_key": "relief_calibration",
+      "golden_relation_predicate": "Tie the pleaded principal and interest to verification of the disputed valuation composition, reconciled direct payments and a supported due date, with a concrete conditional or supplemental-review route. [golden:document:final requests]",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "affirmatively adopted calibrated requested disposition",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the final requested-disposition section and at most six adjacent supporting paragraphs under the same issue",
+        "metric": "concrete requested relief linked to valuation, payment and due-date verification",
+        "max_units": 6
+      },
+      "length_contract_id": "S_ISSUE",
+      "self_report_fields_are_non_authoritative": true,
+      "copy_counterfactual": "Direct source copying, heading-only text, scattered keywords and unadopted alternatives receive zero credit.",
+      "semantic_audit_question": "Does the candidate complete this Golden business relation from visible evidence without asserting an unavailable finding?",
+      "semantic_question": "Does the final request preserve concrete relief while conditioning exact principal and interest on the unresolved valuation, payment and due-date evidence rather than presenting disputed figures as adjudicated facts?"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "trigger": "Affirm that 4,468,031 is the court's final total or admitted debt, without distinguishing appraisal scope.",
+      "damage_basis": "Misstate the central valuation object.",
+      "scope": "one affirmative adopted local proposition in the submitted argument",
+      "object_key": "appraisal_as_final",
+      "source_location": "hearing_2.txt:p4-8",
+      "error_predicate": "Affirm that 4,468,031 is the court's final total or admitted debt, without distinguishing appraisal scope.",
+      "adoption_status": "adopted by author, not quoted/negated/contingent",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "causal_root_rule": "one independently adopted appraisal_as_final misstatement",
+      "damage_instance_key_rule": "one harm per wrong appraisal_as_final business relationship regardless of repeated mentions",
+      "manifestation_rule": "preserve every occurrence locator; do not multiply repeated text for the same harm",
+      "length_contract_id": "S_ISSUE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7
+    },
+    {
+      "id": "D02",
+      "trigger": "Affirm that the appraisal itself certified the party-proposed approximate 7.5 million or that the court already adopted it.",
+      "damage_basis": "Invent valuation authority for a party proposal.",
+      "scope": "one affirmative adopted local proposition in the submitted argument",
+      "object_key": "claimed_market_as_certified",
+      "source_location": "hearing_2.txt:p6-8",
+      "error_predicate": "Affirm that the appraisal itself certified the party-proposed approximate 7.5 million or that the court already adopted it.",
+      "adoption_status": "adopted by author, not quoted/negated/contingent",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "causal_root_rule": "one independently adopted claimed_market_as_certified misstatement",
+      "damage_instance_key_rule": "one harm per wrong claimed_market_as_certified business relationship regardless of repeated mentions",
+      "manifestation_rule": "preserve every occurrence locator; do not multiply repeated text for the same harm",
+      "length_contract_id": "S_ISSUE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.8
+    },
+    {
+      "id": "D03",
+      "trigger": "Affirm the contested worker payments were paid to plaintiff or admitted deductible without authorization or ratification evidence.",
+      "damage_basis": "Double count third-party labor as plaintiff payment.",
+      "scope": "one affirmative adopted local proposition in the submitted argument",
+      "object_key": "worker_payment_attribution",
+      "source_location": "hearing_2.txt:p4,9-11; witness_hearing.txt:p2-5",
+      "error_predicate": "Affirm the contested worker payments were paid to plaintiff or admitted deductible without authorization or ratification evidence.",
+      "adoption_status": "adopted by author, not quoted/negated/contingent",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "causal_root_rule": "one independently adopted worker_payment_attribution misstatement",
+      "damage_instance_key_rule": "one harm per wrong worker_payment_attribution business relationship regardless of repeated mentions",
+      "manifestation_rule": "preserve every occurrence locator; do not multiply repeated text for the same harm",
+      "length_contract_id": "S_ISSUE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7
+    },
+    {
+      "id": "D04",
+      "trigger": "Affirm that the site lead's alleged signature alone proves authority or plaintiff's ratification.",
+      "damage_basis": "Assign binding authority without a supported mandate.",
+      "scope": "one affirmative adopted local proposition in the submitted argument",
+      "object_key": "signature_conclusive_agency",
+      "source_location": "hearing_2.txt:p8-11",
+      "error_predicate": "Affirm that the site lead's alleged signature alone proves authority or plaintiff's ratification.",
+      "adoption_status": "adopted by author, not quoted/negated/contingent",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "causal_root_rule": "one independently adopted signature_conclusive_agency misstatement",
+      "damage_instance_key_rule": "one harm per wrong signature_conclusive_agency business relationship regardless of repeated mentions",
+      "manifestation_rule": "preserve every occurrence locator; do not multiply repeated text for the same harm",
+      "length_contract_id": "S_ISSUE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7
+    },
+    {
+      "id": "D05",
+      "trigger": "Affirm that the witness personally verified contracts or agency between other parties beyond first-hand knowledge.",
+      "damage_basis": "Transform a limited witness account into proof of another relationship.",
+      "scope": "one affirmative adopted local proposition in the submitted argument",
+      "object_key": "witness_overreach",
+      "source_location": "witness_hearing.txt:p2-5",
+      "error_predicate": "Affirm that the witness personally verified contracts or agency between other parties beyond first-hand knowledge.",
+      "adoption_status": "adopted by author, not quoted/negated/contingent",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "causal_root_rule": "one independently adopted witness_overreach misstatement",
+      "damage_instance_key_rule": "one harm per wrong witness_overreach business relationship regardless of repeated mentions",
+      "manifestation_rule": "preserve every occurrence locator; do not multiply repeated text for the same harm",
+      "length_contract_id": "S_ISSUE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7
+    },
+    {
+      "id": "D06",
+      "trigger": "Affirm a fabricated or reconciled payment total as an undisputed court finding while suppressing the stated 5,100 discrepancy.",
+      "damage_basis": "Distort the operative amount and reconciliation.",
+      "scope": "one affirmative adopted local proposition in the submitted argument",
+      "object_key": "payment_account_invention",
+      "source_location": "hearing_1.txt:p3-4; hearing_2.txt:p4-5",
+      "error_predicate": "Affirm a fabricated or reconciled payment total as an undisputed court finding while suppressing the stated 5,100 discrepancy.",
+      "adoption_status": "adopted by author, not quoted/negated/contingent",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "causal_root_rule": "one independently adopted payment_account_invention misstatement",
+      "damage_instance_key_rule": "one harm per wrong payment_account_invention business relationship regardless of repeated mentions",
+      "manifestation_rule": "preserve every occurrence locator; do not multiply repeated text for the same harm",
+      "length_contract_id": "S_ISSUE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7
+    },
+    {
+      "id": "D07",
+      "trigger": "Present the court as having already adjudicated the disputed counterclaim, refund or interest in this still-pending first-instance matter.",
+      "damage_basis": "Misstate an unresolved procedural posture as a concluded judicial ruling.",
+      "scope": "one affirmative adopted local proposition in the submitted argument",
+      "object_key": "unsupported_new_relief",
+      "source_location": "hearing_1.txt:p5-6; hearing_2.txt:p3-4",
+      "error_predicate": "Present the court as having already adjudicated the disputed counterclaim, refund or interest in this still-pending first-instance matter.",
+      "adoption_status": "adopted by author, not quoted/negated/contingent",
+      "negative_context_exclusions": [
+        "negated",
+        "quoted",
+        "opponent_only",
+        "candidate_only",
+        "rejected",
+        "later_corrected",
+        "wrong_object",
+        "source_copy",
+        "keyword_spray"
+      ],
+      "causal_root_rule": "one independently adopted unsupported_new_relief misstatement",
+      "damage_instance_key_rule": "one harm per wrong unsupported_new_relief business relationship regardless of repeated mentions",
+      "manifestation_rule": "preserve every occurrence locator; do not multiply repeated text for the same harm",
+      "length_contract_id": "S_ISSUE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U01",
+      "positive_item_id": "P01",
+      "golden_relation_predicate": "Identify the 4,468,031 appraisal as a limited certain-value figure and dispute its completeness, not a final court debt."
+    },
+    {
+      "unit_id": "U02",
+      "positive_item_id": "P02",
+      "golden_relation_predicate": "Relate excluded management and measures costs to necessary organization or site work rather than merely listing fee names."
+    },
+    {
+      "unit_id": "U03",
+      "positive_item_id": "P03",
+      "golden_relation_predicate": "Distinguish absence of written pricing agreement from an appraisal's partial formula and explain why exclusion requires a reasoned contract or valuation basis."
+    },
+    {
+      "unit_id": "U04",
+      "positive_item_id": "P04",
+      "golden_relation_predicate": "Analyze profit treatment as dependent on actual work and legal analogy rather than automatically denying it based solely on personal qualification."
+    },
+    {
+      "unit_id": "U05",
+      "positive_item_id": "P05",
+      "golden_relation_predicate": "Relate regulatory fees or taxes to the appraisal scope and the actual burden; do not equate a cited precedent with a finding in this case."
+    },
+    {
+      "unit_id": "U06",
+      "positive_item_id": "P06",
+      "golden_relation_predicate": "Distinguish party-asserted market comparators or proposed total from appraisal-certified value and leave final price for judicial assessment."
+    },
+    {
+      "unit_id": "U07",
+      "positive_item_id": "P07",
+      "golden_relation_predicate": "Analyze both distinct additional-labor sums, 211160 and 1063645, as claimed worker payments whose attribution to plaintiff depends on authorization or ratification."
+    },
+    {
+      "unit_id": "U08",
+      "positive_item_id": "P08",
+      "golden_relation_predicate": "Bind witness recruitment, payor, and the limits of the witness's knowledge to the disputed plaintiff-party relationship."
+    },
+    {
+      "unit_id": "U09",
+      "positive_item_id": "P09",
+      "golden_relation_predicate": "Distinguish a site lead's alleged attendance or settlement signature from proved authority to bind or ratify plaintiff's payment account."
+    },
+    {
+      "unit_id": "U10",
+      "positive_item_id": "P10",
+      "golden_relation_predicate": "Separate the stated 5,040,500 paid amount, the 5,100 wage discrepancy, and contested labor transfers without double counting."
+    },
+    {
+      "unit_id": "U11",
+      "positive_item_id": "P11",
+      "golden_relation_predicate": "Connect the defendants' claimed rush-work rationale to the separate question of who contracted for and must bear the extra worker cost."
+    },
+    {
+      "unit_id": "U12",
+      "positive_item_id": "P12",
+      "golden_relation_predicate": "Request a reasoned court valuation that recognizes actual work and contested costs without pronouncing a party proposal an adjudicated sum."
+    },
+    {
+      "unit_id": "U13",
+      "source_location": "golden:document:header1",
+      "scoring_disposition": "not_scored",
+      "reason": "native identity/case number absent from solver-visible de-identified materials"
+    },
+    {
+      "unit_id": "U14",
+      "source_location": "golden:document:p5",
+      "scoring_disposition": "not_scored",
+      "reason": "specific appraisal daily rate unavailable without underlying appraisal"
+    },
+    {
+      "unit_id": "U15",
+      "source_location": "golden:document:p19",
+      "scoring_disposition": "warning_only",
+      "reason": "exact approximately 7.5 million figure is party advocacy and not an appraisal finding"
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S_ISSUE",
+      "scope": "local legal-issue paragraph or single table row",
+      "metric": "non-whitespace characters",
+      "golden_reference": "golden:document:p4-p19",
+      "declared_floor": 60,
+      "tau_over": 0.15,
+      "tau_under": 0.3,
+      "positive_shape_credit": 0,
+      "shape_deduction": "warning_only_until_semantic_business_harm_is_evidenced"
+    }
+  ],
+  "gap_marker_contract": {
+    "accepted_markers": [
+      "未提供",
+      "有待核实",
+      "[待补充]",
+      "unspecified"
+    ],
+    "normalization_rule_id": "N_GAP",
+    "invented_content_deduction_items": [
+      "D02",
+      "D06",
+      "D07"
+    ],
+    "marker_credit": 0,
+    "marker_penalty": 1
+  },
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N_SPACE",
+        "operation": "Collapse whitespace, punctuation spacing and thousands separators without changing numbers or assertion state."
+      },
+      {
+        "id": "N_GAP",
+        "operation": "Treat explicit missing/unverified placeholders as a single not-adopted observation."
+      },
+      {
+        "id": "N_EQUIV",
+        "operation": "Recognize equivalent Chinese legal verbs without changing who acted, the asserted relationship, qualification or adopted outcome."
+      },
+      {
+        "id": "N_OOXML",
+        "operation": "Index DOCX body paragraphs, table rows, headers and textboxes, retaining exact part and structural locators."
+      }
+    ],
+    "derivation_rules": []
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  }
+}

@@ -1,0 +1,23 @@
+version = "1.0"
+id = "hydrology-citation-reconciliation"
+task_type = "skill-bench"
+domain = "scholarly-publishing-operations"
+language = "en"
+difficulty = "hard"
+task = "task"
+rubric = "RUBRIC.md"
+golden = "golden/citation_reconciliation.md"
+deliverable = "/workspace/output/citation_reconciliation.md"
+
+[scoring]
+type = "mixed"
+primary_score = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/validator.py"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+
+[skill]
+names = ["pdf-layout-text-extraction", "author-date-citation-inventory", "bibliographic-identity-resolution", "citation-discrepancy-disposition"]
+answers_in_skill = false
+thresholds_in_skill = false

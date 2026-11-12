@@ -1,0 +1,147 @@
+{
+  "items": [
+    {
+      "id": "L01",
+      "fraction": 1.0,
+      "quotes": [
+        "| E01 | 1 | 4589 | 2009 | journal masthead and article metadata | Publication metadata, not a source callout. |"
+      ],
+      "reason": "The p. 4589 journal masthead/article 2009 metadata is expressly classified as publication metadata rather than a source callout."
+    },
+    {
+      "id": "L02",
+      "fraction": 1.0,
+      "quotes": [
+        "| E25 | 23 | 4611 | 2009 | representative recurring article header on physical pp. 2-30 | Recurring publication furniture, not a source callout. |"
+      ],
+      "reason": "The recurring 2009 article header represented on printed p. 4611 is expressly excluded as publication furniture, not a source callout."
+    },
+    {
+      "id": "L03",
+      "fraction": 1.0,
+      "quotes": [
+        "| O32 | 7 | 4595 | Bakker (2008) | Bakker 2008 | narrative | explicit | linked | R03 |",
+        "| R03 | O32 | used |",
+        "| R03 | 18 | 4606 | Bakker, A. | 2008 | 1 | Bias correction and resampling of RCM daily precipitation | used | copyeditor |",
+        "- Decision: This is a narrative callout split across text lines, not an unused record."
+      ],
+      "reason": "The Bakker 2008 occurrence is linked to R03, the p. 4606 Bakker record is marked used, and the clearance explicitly rejects treating it as unused."
+    },
+    {
+      "id": "L04",
+      "fraction": 1.0,
+      "quotes": [
+        "| O33 | 7 | 4595 | (Bergström et al., 1994; Bergström, 1995) | Bergstrom 1994; Bergstrom 1995 | grouped | explicit | mixed | R06; R05 |",
+        "| R05 | O33 | used |",
+        "| R05 | 18 | 4606 | Bergström, S. | 1995 | 1 | The HBV model | used | copyeditor |"
+      ],
+      "reason": "The grouped p. 4595 occurrence maps Bergstrom 1995 to R05, and the p. 4606 R05 end record is explicitly marked used."
+    },
+    {
+      "id": "L05",
+      "fraction": 1.0,
+      "quotes": [
+        "- Counterpart: The p. 4606 record for 2007 has two authors: Leander and Buishand.",
+        "- Recommended disposition: Split the compact citation and render this component as Leander and Buishand (2007).",
+        "P18 and P19 are one joint edit at O39: replace the compact source string with `Leander and Buishand (2007) and Leander et al. (2008)`. Execute both atomic rows together; neither row is a standalone partial replacement."
+      ],
+      "reason": "The compact citation is ordered split into separate 2007 and 2008 components, with the 2007 component rendered as Leander and Buishand (2007)."
+    },
+    {
+      "id": "L06",
+      "fraction": 1.0,
+      "quotes": [
+        "| R12 | 18 | 4606 | Leander, R. and Buishand, T. A. | 2007 | 2 | Resampling of regional climate model output | used | copyeditor |",
+        "| R13 | 18 | 4606 | Leander, R., Buishand, T., van den Hurk, B., and de Wit, M. | 2008 | multiple | Estimated changes in flood quantiles | used | copyeditor |",
+        "- Counterpart: The p. 4606 record for 2008 has four authors: Leander, Buishand, van den Hurk, and de Wit."
+      ],
+      "reason": "The report distinguishes the two-author 2007 record from the 2008 record and identifies the latter's four credited authors as Leander, Buishand, van den Hurk, and de Wit."
+    },
+    {
+      "id": "L07",
+      "fraction": 1.0,
+      "quotes": [
+        "Every finding has an owner and an execution precondition. A hold is not a confirmed repair and must remain open until its stated input is available.",
+        "| A01 | F01 | author | author supplies the missing 1973 record or confirms removal/replacement | hold |",
+        "| A05 | F05 | editor | editor and author decide whether the listed SMHI record supports a claim | hold |",
+        "| A07 | F07 | copyeditor | matched R06 is retained as the intended work | confirmed |",
+        "| A10 | F10 | copyeditor | matched R12 is retained and every 2007 occurrence is patched | confirmed |",
+        "| A15 | F15 | author | author identifies which supplied or missing 2007 work is intended | hold |",
+        "| A16 | F16 | copyeditor | author-year components are separated and R12 is retained | confirmed |",
+        "| A17 | F17 | copyeditor | author-year components are separated and R13 is retained | confirmed |"
+      ],
+      "reason": "The matrix states that holds remain open pending evidence, assigns the unresolved rows to author/editor decisions, and marks copyeditor repairs confirmed under explicit retained-record or component-separation preconditions."
+    },
+    {
+      "id": "L08",
+      "fraction": 1.0,
+      "quotes": [
+        "- Decision: The formal body callout and the reference head agree; no listed-only finding is warranted.",
+        "- Decision: This is a narrative callout split across text lines, not an unused record.",
+        "- Decision: Accent loss and Unicode composition do not change the author-year identity.",
+        "- Decision: Capitalization and surname-particle presentation preserve identity; this is distinct from the missing 2005 work.",
+        "- Decision: Sentence-position capitalization does not create a different author.",
+        "- Decision: The suffix agrees on both surfaces. The absence of a visible 2002a record is not evidence for changing a matching pair.",
+        "- Decision: Reference inversion, sentence capitalization, and lowercase particles are compatible identity forms; author cardinality and suffix defects are evaluated separately.",
+        "- Decision: The et al. form is compatible with the four-author record and must not be changed with the defective 2007 forms."
+      ],
+      "reason": "All eight filed near matches contain affirmative, evidence-tied no-change conclusions, with defects outside the scope of each clearance expressly kept separate where relevant."
+    },
+    {
+      "id": "L09",
+      "fraction": 1.0,
+      "quotes": [
+        "Every date-like expression reviewed during the citation scan is retained here when it could be mistaken for an author-year callout. Grouping is limited to one page-local expression and keeps the exact source token separate from the classification reason.",
+        "| Exclusion | Physical page | Printed page | Exact date-like text | Local context | Why excluded |",
+        "| E01 | 1 | 4589 | 2009 | journal masthead and article metadata | Publication metadata, not a source callout. |",
+        "| E02 | 1 | 4589 | Received: 3 June 2009 | received/accepted/published line | Editorial history dates, not citations. |",
+        "| E14 | 14 | 4602 | 1969-1998 | annual mean control-period sentence in the Table 3 discussion | Control period, not a citation. |",
+        "| E25 | 23 | 4611 | 2009 | representative recurring article header on physical pp. 2-30 | Recurring publication furniture, not a source callout. |",
+        "| E35 | 30 | 4618 | 2071-2100 | Fig. 8 scenario-run labels | Figure data period, not a citation. |"
+      ],
+      "reason": "The register defines an evidence-bearing page-local screen and consistently supplies printed folio, exact expression, specific local context, and an exclusion rationale; the cited rows demonstrate this across metadata, editorial dates, prose periods, recurring furniture, and figure data."
+    },
+    {
+      "id": "L10",
+      "fraction": 1.0,
+      "quotes": [
+        "- Location: printed p. 4592, opening lines (physical p. 4)",
+        "- Manuscript evidence: The callout occurs in the HBV-96 expansion, while the supplied list contains Bergstrom records from 1994, 1995, and 2001 but none coauthored by Forsman in 1973.",
+        "- Recommended disposition: Ask the authors to supply the full 1973 record or remove/replace the callout; do not infer the missing metadata.",
+        "- Location: printed p. 4595, lines 23-24 (physical p. 7)",
+        "- Counterpart: The p. 4606 record has exactly two authors: Bergstrom and Carlsson.",
+        "- Manuscript evidence: Elsewhere the manuscript distinguishes named pairs from multi-author et al. forms; the work identity is otherwise established by first author and year.",
+        "- Recommended disposition: Replace the callout component Bergstrom et al., 1994 with Bergstrom and Carlsson, 1994 within the parenthetical group, retaining the manuscript's chosen accent convention.",
+        "- Location: printed p. 4605, lines 5-10 (physical p. 17)",
+        "- Counterpart: No unsuffixed de Wit 2007 record is listed; p. 4607 instead has distinct 2007a and 2007b multi-author records.",
+        "- Manuscript evidence: The surrounding critical-low-flow claim points toward the 2007a low-flows title, but context alone does not prove the authors' intended source.",
+        "- Recommended disposition: Ask the authors to confirm the intended work; if 2007a is intended, change to De Wit et al. (2007a), otherwise supply the correct identity.",
+        "Only confirmed, manuscript-supported repairs appear here. Items requiring author input remain in the findings and are not silently converted into patches."
+      ],
+      "reason": "The findings are source-located and evidence-based, distinguish author-decision cases from confirmed discrepancies, and give actions compatible with those classifications; the patch register is expressly limited to confirmed repairs."
+    },
+    {
+      "id": "L11",
+      "fraction": 1.0,
+      "quotes": [
+        "Every visible formal callout group has its own row. The atomic components and mapping column preserve grouped, repeated, compact, and unresolved uses.",
+        "| Occurrence | Physical page | Printed page | Exact callout group | Atomic components | Citation form | Author/year explicitness | Status | Candidate record(s) |",
+        "| O01 | 2 | 4590 | (IPCC, 2007) | IPCC 2007 | parenthetical | explicit | linked | R10 |",
+        "| O07 | 3 | 4591 | (STOWA, 2004) | STOWA 2004 | parenthetical | explicit | candidate | R19 |",
+        "| O08 | 4 | 4592 | (Hydrologiska Byråns Vattenbalansavdelning; Hydrological Bureau Water balance-section; Bergström and Forsman, 1973) | Bergstrom Forsman 1973 | parenthetical | explicit | cited-only | none |",
+        "| O39 | 10 | 4598 | Leander (2007, 2008) | Leander 2007; Leander 2008 | compact | inherited/mixed | compact-form-defect | R12; R13 |",
+        "| O44 | 16 | 4604 | (Wit de et al., 2001a, 2007b; Booij, 2005) | Wit de 2001a; Wit de 2007b; Booij 2005 | grouped | inherited/mixed | mixed | R25; R26; R08 |"
+      ],
+      "reason": "The occurrence ledger binds each source occurrence to its citation form, explicit or inherited components, status, and record mapping, including linked, candidate, cited-only, compact inherited, and grouped inherited cases."
+    },
+    {
+      "id": "L12",
+      "fraction": 1.0,
+      "quotes": [
+        "**Not reference-ready.** The manuscript has unresolved cited-only records and author-identity decisions that require author input. Copyediting can apply the confirmed callout-form repairs, but the reference list should not be released until the queries are closed.",
+        "Author input is required for the four missing end records, the uncited institutional record, the organization-versus-personal-author conflict, and the unsuffixed 2007 callout. After those decisions, apply the confirmed minimal callout repairs and repeat both cited-to-listed and listed-to-cited checks. No missing title, coauthor list, or publication field has been invented in this report."
+      ],
+      "reason": "The substantive editorial decision, operating instructions, findings, and handoff are written in English; non-English material is confined to names, titles, and source strings."
+    }
+  ]
+}

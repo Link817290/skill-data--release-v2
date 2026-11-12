@@ -1,0 +1,22 @@
+id = "product-launch-import"
+category = "skill-data"
+track = "bench"
+task_type = "skill-bench"
+deliverable = "workspace/output/products.csv"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+dual_score = true
+score_source = "reward_strict.txt"
+strict_formula = "numeric catalog completion multiplied by mean page-release closure"
+program_judge = "tests/evaluate.py"
+reward_alias = "strict"
+rubric = "RUBRIC.md"
+condition_blind = true
+
+[rollout_expectations]
+primary_with = 5
+primary_no = 2
+secondary_with = 16
+secondary_no = 2

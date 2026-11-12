@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "ROW_000",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_000: [\"LC-01\", \"Load combination\", \"PASS\", \"Load_Combinations!D2:H2\", \"Loads > Description; Load_Combinations\", \"The factor-weighted gravity action reproduces the stated design moment and section shear.\"]"
+      ],
+      "reason": "The row explains that the factor-weighted gravity action reproduces both the stated design moment and section shear, directly supporting the PASS disposition."
+    },
+    {
+      "id": "ROW_001",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_001: [\"FX-01\", \"Flexure\", \"PASS\", \"Flexure!B2:B13\", \"Moment Strength\", \"Strain compatibility, equilibrium and reduced moment support the tension reinforcement check.\"]"
+      ],
+      "reason": "The row links strain compatibility, equilibrium, and reduced moment capacity to the successful tension-reinforcement check."
+    },
+    {
+      "id": "ROW_002",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_002: [\"FX-02\", \"Flexure\", \"PASS\", \"Flexure!B12\", \"Moment Strength > tension strain\", \"The computed tension strain is in the stated tension-controlled range.\"]"
+      ],
+      "reason": "The row states that the calculated tension strain falls within the tension-controlled range, which directly justifies the PASS status."
+    },
+    {
+      "id": "ROW_003",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_003: [\"FX-03\", \"Reinforcement\", \"PASS\", \"Flexure!B13\", \"Results\", \"Provided tension steel is 4.71 in^2 versus 4.46 in^2 required, so the minimum-area check passes.\"]"
+      ],
+      "reason": "The row compares 4.71 in^2 provided with 4.46 in^2 required and explains that this surplus makes the minimum-area check pass."
+    },
+    {
+      "id": "ROW_004",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_004: [\"SH-01\", \"Shear\", \"PASS\", \"Shear!B2:B5\", \"Shear Strength > Equations a-c\", \"All concrete shear candidates are retained and the minimum governs.\"]"
+      ],
+      "reason": "The row explains that all concrete shear candidates were retained and that their minimum governs, providing a rationale for the shear-check disposition."
+    },
+    {
+      "id": "ROW_005",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_005: [\"SH-02\", \"Shear detailing\", \"FAIL\", \"Shear!B7\", \"Shear Strength > spacing paragraph\", \"The trial stirrup spacing exceeds the reported maximum and is not acceptable as detailed.\"]"
+      ],
+      "reason": "The row explains that the trial stirrup spacing exceeds the reported maximum, directly establishing why the detailing check fails."
+    },
+    {
+      "id": "ROW_006",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_006: [\"SH-03\", \"Shear detailing\", \"PASS\", \"Shear!B8:B11\", \"Shear Strength > adopted spacing\", \"The adopted spacing is within the limit and its reduced shear capacity exceeds the section demand.\"]"
+      ],
+      "reason": "The row links the adopted spacing being within the limit and the resulting reduced shear capacity exceeding demand to the PASS disposition."
+    },
+    {
+      "id": "ROW_007",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_007: [\"SH-04\", \"Detailing convention\", \"REVIEW\", \"Shear!B12\", \"Shear Strength > Note\", \"The shear check uses a different effective depth from flexure; confirm that the one-layer detailing actually provides that depth.\"]"
+      ],
+      "reason": "The row identifies the differing flexural and shear effective depths and defines the unresolved action: confirm that the assumed one-layer detailing actually achieves the shear depth."
+    },
+    {
+      "id": "ROW_008",
+      "fraction": 1.0,
+      "quotes": [
+        "ROW_008: [\"SH-05\", \"Section capacity\", \"PASS\", \"Shear!B12\", \"Shear Strength > Formula 15\", \"The complete Formula 15 recomputation includes the governing Vc term; it exceeds Vu. The article's printed 105.04-kip result is retained as a source observation and flagged as an omitted-term arithmetic error.\"]"
+      ],
+      "reason": "The row explains that the complete Formula 15 recomputation includes the governing Vc term and exceeds Vu, while also identifying the article's 105.04-kip value as an omitted-term arithmetic error."
+    }
+  ]
+}

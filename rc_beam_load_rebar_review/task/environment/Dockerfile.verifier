@@ -1,0 +1,19 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+
+COPY task/environment/wheels/ /tmp/wheels/
+RUN python3 -m pip install --no-index --no-cache-dir --break-system-packages \
+    --find-links=/tmp/wheels openpyxl==3.1.5
+
+COPY task/tests/ /tests/
+COPY task/tests/golden_replay/ /golden_replay/
+COPY task/environment/workspace/materials/ /workspace/materials/
+COPY golden/ /golden/
+RUN mkdir -p /workspace/output /logs/verifier /logs/artifacts \
+    && chown -R 1000:1000 /workspace /tests /golden /logs
+
+USER 1000
+CMD ["sh"]

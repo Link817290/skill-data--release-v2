@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "VAL-003_A2_G1:A",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A2_G1:A\", \"conclusion\": \"牙结石2度\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "该项源结论所对应的核心发现是牙龈炎，候选却采用同一来源行中的另一发现“牙结石2度”，不是同一核心发现。"
+    },
+    {
+      "id": "VAL-003_A2_G1:B",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A2_G1:B\", \"conclusion\": \"牙结石2度\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "“牙结石2度”虽见于来源行，但不是本项要求命名的牙龈炎，因此不是该项发现的正确结论名称。"
+    },
+    {
+      "id": "VAL-003_A2_G1:C",
+      "fraction": 0.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A2_G1:C\", \"conclusion\": \"牙结石2度\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "候选替换成了另一项牙周发现，未保留本项的发现性质“牙龈炎”。"
+    },
+    {
+      "id": "VAL-003_A2_G2:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A2_G2:A\", \"conclusion\": \"牙结石2度\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "候选准确识别了来源记录的牙结石，并保留其2度程度。"
+    },
+    {
+      "id": "VAL-003_A2_G2:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A2_G2:B\", \"conclusion\": \"牙结石2度\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "“牙结石2度”是来源明确记录且医学上规范的发现名称。"
+    },
+    {
+      "id": "VAL-003_A2_G2:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A2_G2:C\", \"conclusion\": \"牙结石2度\", \"evidence\": [\"VAL-003-R064\"], \"explanation\": \"依据 VAL-003-R064 归纳\"}"
+      ],
+      "reason": "候选完整保留了发现性质“牙结石”和程度“2度”，未增加来源外信息。"
+    },
+    {
+      "id": "VAL-003_A3_G3:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A3_G3:A\", \"conclusion\": \"肝内无回声灶\", \"evidence\": [\"VAL-003-R002\"], \"explanation\": \"依据 VAL-003-R002 归纳\"}"
+      ],
+      "reason": "候选与来源所见肝脏内无回声灶属于同一核心影像发现。"
+    },
+    {
+      "id": "VAL-003_A3_G3:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A3_G3:B\", \"conclusion\": \"肝内无回声灶\", \"evidence\": [\"VAL-003-R002\"], \"explanation\": \"依据 VAL-003-R002 归纳\"}"
+      ],
+      "reason": "“肝内无回声灶”是对来源直接观察结果的规范描述，未推断具体病理诊断。"
+    },
+    {
+      "id": "VAL-003_A3_G3:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A3_G3:C\", \"conclusion\": \"肝内无回声灶\", \"evidence\": [\"VAL-003-R002\"], \"explanation\": \"依据 VAL-003-R002 归纳\"}"
+      ],
+      "reason": "候选保留了肝脏部位和无回声灶的发现性质；尺寸、边界等证据细节无需写入结论名。"
+    },
+    {
+      "id": "VAL-003_A4_G4:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A4_G4:A\", \"conclusion\": \"胆囊壁强回声光点伴彗尾征\", \"evidence\": [\"VAL-003-R001\"], \"explanation\": \"依据 VAL-003-R001 归纳\"}"
+      ],
+      "reason": "候选准确对应胆囊壁强回声光点及其彗尾征。"
+    },
+    {
+      "id": "VAL-003_A4_G4:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A4_G4:B\", \"conclusion\": \"胆囊壁强回声光点伴彗尾征\", \"evidence\": [\"VAL-003-R001\"], \"explanation\": \"依据 VAL-003-R001 归纳\"}"
+      ],
+      "reason": "该名称直接采用来源支持的影像学发现，没有推断胆固醇结晶等未明示诊断。"
+    },
+    {
+      "id": "VAL-003_A4_G4:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A4_G4:C\", \"conclusion\": \"胆囊壁强回声光点伴彗尾征\", \"evidence\": [\"VAL-003-R001\"], \"explanation\": \"依据 VAL-003-R001 归纳\"}"
+      ],
+      "reason": "候选完整保留胆囊壁部位、强回声光点性质以及伴彗尾征这一重要特征。"
+    },
+    {
+      "id": "VAL-003_A5_G5:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A5_G5:A\", \"conclusion\": \"左肾无回声灶\", \"evidence\": [\"VAL-003-R004\"], \"explanation\": \"依据 VAL-003-R004 归纳\"}"
+      ],
+      "reason": "候选准确识别来源所见的左肾无回声灶。"
+    },
+    {
+      "id": "VAL-003_A5_G5:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A5_G5:B\", \"conclusion\": \"左肾无回声灶\", \"evidence\": [\"VAL-003-R004\"], \"explanation\": \"依据 VAL-003-R004 归纳\"}"
+      ],
+      "reason": "“左肾无回声灶”是来源直接支持的规范影像描述，未擅自诊断为囊肿。"
+    },
+    {
+      "id": "VAL-003_A5_G5:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A5_G5:C\", \"conclusion\": \"左肾无回声灶\", \"evidence\": [\"VAL-003-R004\"], \"explanation\": \"依据 VAL-003-R004 归纳\"}"
+      ],
+      "reason": "候选保留了左侧肾脏的部位和无回声灶性质；尺寸和边界细节可省略。"
+    },
+    {
+      "id": "VAL-003_A6_G6:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A6_G6:A\", \"conclusion\": \"甲状腺右叶低回声结节\", \"evidence\": [\"VAL-003-R006\"], \"explanation\": \"依据 VAL-003-R006 归纳\"}"
+      ],
+      "reason": "候选对应来源中甲状腺右叶内的局灶性低回声发现。"
+    },
+    {
+      "id": "VAL-003_A6_G6:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A6_G6:B\", \"conclusion\": \"甲状腺右叶低回声结节\", \"evidence\": [\"VAL-003-R006\"], \"explanation\": \"依据 VAL-003-R006 归纳\"}"
+      ],
+      "reason": "对具有尺寸和边界描述的甲状腺局灶低回声采用“低回声结节”是医学上标准且受来源支持的命名。"
+    },
+    {
+      "id": "VAL-003_A6_G6:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A6_G6:C\", \"conclusion\": \"甲状腺右叶低回声结节\", \"evidence\": [\"VAL-003-R006\"], \"explanation\": \"依据 VAL-003-R006 归纳\"}"
+      ],
+      "reason": "候选保留了甲状腺、右叶、低回声及结节性质，没有加入来源不支持的良恶性判断。"
+    },
+    {
+      "id": "VAL-003_A7_G7:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A7_G7:A\", \"conclusion\": \"鼻中隔弯曲\", \"evidence\": [\"VAL-003-R013\"], \"explanation\": \"依据 VAL-003-R013 归纳\"}"
+      ],
+      "reason": "候选与来源明确记录的鼻中隔弯曲完全一致。"
+    },
+    {
+      "id": "VAL-003_A7_G7:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A7_G7:B\", \"conclusion\": \"鼻中隔弯曲\", \"evidence\": [\"VAL-003-R013\"], \"explanation\": \"依据 VAL-003-R013 归纳\"}"
+      ],
+      "reason": "“鼻中隔弯曲”是来源直接支持的标准医学名称。"
+    },
+    {
+      "id": "VAL-003_A7_G7:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A7_G7:C\", \"conclusion\": \"鼻中隔弯曲\", \"evidence\": [\"VAL-003-R013\"], \"explanation\": \"依据 VAL-003-R013 归纳\"}"
+      ],
+      "reason": "候选完整保留了器官部位和弯曲这一发现性质，未增删材料性限定。"
+    },
+    {
+      "id": "VAL-003_A8_G8:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A8_G8:A\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-003-R117\"], \"explanation\": \"依据 VAL-003-R117 归纳\"}"
+      ],
+      "reason": "候选准确识别来源在体重指数结果中明确标注的超重。"
+    },
+    {
+      "id": "VAL-003_A8_G8:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A8_G8:B\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-003-R117\"], \"explanation\": \"依据 VAL-003-R117 归纳\"}"
+      ],
+      "reason": "“超重”是来源明确给出的标准体重状态名称。"
+    },
+    {
+      "id": "VAL-003_A8_G8:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A8_G8:C\", \"conclusion\": \"超重\", \"evidence\": [\"VAL-003-R117\"], \"explanation\": \"依据 VAL-003-R117 归纳\"}"
+      ],
+      "reason": "候选完整保留了来源所述体重状态；具体BMI测量值无需重复。"
+    },
+    {
+      "id": "VAL-003_A9_G9:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A9_G9:A\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-003-R094\"], \"explanation\": \"依据 VAL-003-R094 归纳\"}"
+      ],
+      "reason": "候选所述心率偏慢与来源记录的心房率及心室率均为59 bpm相符。"
+    },
+    {
+      "id": "VAL-003_A9_G9:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A9_G9:B\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-003-R094\"], \"explanation\": \"依据 VAL-003-R094 归纳\"}"
+      ],
+      "reason": "“心率偏慢”是对来源心率测量的标准描述，并未进一步推断窦性心动过缓等未记录诊断。"
+    },
+    {
+      "id": "VAL-003_A9_G9:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-003_A9_G9:C\", \"conclusion\": \"心率偏慢\", \"evidence\": [\"VAL-003-R094\"], \"explanation\": \"依据 VAL-003-R094 归纳\"}"
+      ],
+      "reason": "候选以“偏慢”保留了异常方向和程度，没有添加心律来源等未获支持的限定。"
+    },
+    {
+      "id": "VAL-004_A0_G0:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A0_G0:A\", \"conclusion\": \"肝区回声密、增强（左肝显示不清）\", \"evidence\": [\"VAL-004-R004\"], \"explanation\": \"依据 VAL-004-R004 归纳\"}"
+      ],
+      "reason": "候选准确识别肝区回声密、增强，并包含左肝显示不清的状态。"
+    },
+    {
+      "id": "VAL-004_A0_G0:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A0_G0:B\", \"conclusion\": \"肝区回声密、增强（左肝显示不清）\", \"evidence\": [\"VAL-004-R004\"], \"explanation\": \"依据 VAL-004-R004 归纳\"}"
+      ],
+      "reason": "该结论是来源直接支持的规范超声表现名称，未推断脂肪肝等诊断。"
+    },
+    {
+      "id": "VAL-004_A0_G0:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A0_G0:C\", \"conclusion\": \"肝区回声密、增强（左肝显示不清）\", \"evidence\": [\"VAL-004-R004\"], \"explanation\": \"依据 VAL-004-R004 归纳\"}"
+      ],
+      "reason": "候选保留了肝区部位、回声密和增强的性质，以及左肝显示不清这一重要状态限定。"
+    },
+    {
+      "id": "VAL-004_A1_G1:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A1_G1:A\", \"conclusion\": \"左肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-004-R002\"], \"explanation\": \"依据 VAL-004-R002 归纳\"}"
+      ],
+      "reason": "候选准确对应来源所见左肾高回声光点伴彗尾征。"
+    },
+    {
+      "id": "VAL-004_A1_G1:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A1_G1:B\", \"conclusion\": \"左肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-004-R002\"], \"explanation\": \"依据 VAL-004-R002 归纳\"}"
+      ],
+      "reason": "该名称直接描述来源影像表现，没有推断结石或结晶等未明示诊断。"
+    },
+    {
+      "id": "VAL-004_A1_G1:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A1_G1:C\", \"conclusion\": \"左肾高回声光点伴彗尾征\", \"evidence\": [\"VAL-004-R002\"], \"explanation\": \"依据 VAL-004-R002 归纳\"}"
+      ],
+      "reason": "候选完整保留左肾侧别、高回声光点性质及伴彗尾征的重要特征。"
+    },
+    {
+      "id": "VAL-004_A2_G2:A",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A2_G2:A\", \"conclusion\": \"甲状腺回声不均\", \"evidence\": [\"VAL-004-R006\"], \"explanation\": \"依据 VAL-004-R006 归纳\"}"
+      ],
+      "reason": "候选准确识别来源明确描述的甲状腺腺体回声不均。"
+    },
+    {
+      "id": "VAL-004_A2_G2:B",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A2_G2:B\", \"conclusion\": \"甲状腺回声不均\", \"evidence\": [\"VAL-004-R006\"], \"explanation\": \"依据 VAL-004-R006 归纳\"}"
+      ],
+      "reason": "“甲状腺回声不均”是来源直接支持的标准影像学描述，未推断具体甲状腺疾病。"
+    },
+    {
+      "id": "VAL-004_A2_G2:C",
+      "fraction": 1.0,
+      "quotes": [
+        "{\"id\": \"VAL-004_A2_G2:C\", \"conclusion\": \"甲状腺回声不均\", \"evidence\": [\"VAL-004-R006\"], \"explanation\": \"依据 VAL-004-R006 归纳\"}"
+      ],
+      "reason": "候选保留了甲状腺部位和回声不均这一核心性质；稍粗及血流信号属于可不在简洁结论名中重复的影像细节。"
+    }
+  ]
+}

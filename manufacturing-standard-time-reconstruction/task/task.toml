@@ -1,0 +1,33 @@
+version = "1.0"
+id = "manufacturing-standard-time-reconstruction"
+title = "Manufacturing standard-time workbook reconstruction"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+domain = "manufacturing-engineering"
+
+[metadata]
+tags = ["manufacturing", "time-study", "spreadsheet"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 5400.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+network_access = false
+
+[skill]
+active = ["manufacturing-time-modeling"]
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "solution/original_formulas.json"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"

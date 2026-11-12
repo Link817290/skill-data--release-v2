@@ -1,0 +1,24 @@
+{
+  "schema": "semantic-judge-manifest-v1",
+  "cache_entries": {
+    "f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa": {
+      "path": "cache/live/f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa",
+      "files_sha256": {
+        "evidence.json": "ce1ed342670bcdc726c55f8b42e5cbbd43af1430ee66886715477798b6f6c39c",
+        "manifest.json": "ae492ff17d5c0e7063af178622068e0249d01ca53a9d010d8672bd44947de83b",
+        "request.json": "f7fb747b58a05fb6d4bb550c3944f717a5f08a46f3d217ddf10e0bc392f08ffa",
+        "response-1.json": "ce74d7ef2882fcc474dc3d3d032f51ee1f4b277f66b896841cc521d48d5f4840",
+        "review.json": "c439b5fd323c0fcb07790e5cee04a506faf37e20a4009c4a69cd1973df96bd01"
+      }
+    }
+  },
+  "files_sha256": {
+    "apply.py": "017bbbb05ad21ce9d8573a5b61b0860c5bea8db885a74239b269cc3e2bb521d7",
+    "contract.json": "6f29f5ab94522a408f767f5f188fc891b256557689c1ca8ed63977c4fd595a21",
+    "judge.py": "b08859ff9833bd47fd9b7425cf722b5256ce33cbdac3fb2ecfc143f7e206fe12",
+    "prompt.md": "2cdb3c67fc133e7aa886426abfd970a0665ef0e233f4d899849e2c5684e3933b",
+    "response.schema.json": "7e3fe50f3b5c853f144df241c3fee95c2d1fa23cb2de14cfb4185748f0c3a603",
+    "semantic_live.py": "1095857a82d05ccc667afe8c719487054c17b3aa9747c04e40d4329b4311014b",
+    "settings.json": "6144a34e4c4053b788a7951ffd4c109e1514db9e0939de1b17b2cef7c3d2b9c8"
+  }
+}

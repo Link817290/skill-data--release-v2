@@ -1,0 +1,35 @@
+id = "residential-egress-plan-repair-no-skill"
+title = "Residential first-floor egress plan inspection and repair"
+instruction = "instruction.md"
+difficulty = "expert"
+language = "en"
+
+[metadata]
+tags = ["engineering-design", "inspection", "repair", "dxf", "drawing", "fire-egress", "geometric-method", "python", "terminal"]
+
+[agent]
+timeout_sec = 3600.0
+
+[verifier]
+timeout_sec = 240.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 900.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/output/repaired_plan.dxf"
+
+[tests]
+command = "tests/test.sh"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"

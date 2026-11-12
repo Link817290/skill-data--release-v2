@@ -1,0 +1,24 @@
+{
+  "outputs": ["一期工程验收监测报告表（批注稿）.docx", "验收材料补充意见.docx"],
+  "criteria": [
+    {"id":"product_mapping","weight":0.07,"description":"Identify the electroplating/chemical-plating product-capacity mapping conflict, preserve conflicting values, and request primary records rather than moving actual output."},
+    {"id":"polymer_load","weight":0.07,"description":"Recalculate polymer load from 400 kg/a over 300 days without prematurely rounding the daily denominator: 90.0% and 82.5%."},
+    {"id":"investment_basis","weight":0.05,"description":"Reconcile the 22000/68800 investment bases and scope without treating the amount change alone as proof of a major physical change."},
+    {"id":"operating_coverage","weight":0.08,"description":"Match operating and treatment records to the relevant 21-24 September monitoring dates; a missing record is an evidence gap, not proof of unstable operation."},
+    {"id":"exhaust_rate","weight":0.08,"description":"Preserve reported inputs and identify that 23192 x 3.59 x 10^-6 equals 0.08325928 kg/h, not 0.833 kg/h; request traceable correction."},
+    {"id":"noise","weight":0.05,"description":"Evaluate all day and night results against 65/55 dB(A), recognizing maxima 59/49 and six-dB margins."},
+    {"id":"phosphorus","weight":0.05,"description":"Treat slash/no listed total-phosphorus limit as unavailable compliance criterion, neither pass nor zero/infinity."},
+    {"id":"censored_nd","weight":0.05,"description":"Treat COD ND under the 4 mg/L detection limit as censored in [0,4), not measured zero, and avoid unsupported derived use."},
+    {"id":"canteen_nmhc_scope","weight":0.07,"description":"Recognize that the cited 10 mg/m3 NMHC clause is limited to large units while this project is stated medium; do not infer exceedance from unsupported draft 1.0."},
+    {"id":"source_height_limits","weight":0.05,"description":"Resolve source- and height-specific limit conflicts, including 24/25 m and odor 500 versus draft 6000, before scoped conclusions."},
+    {"id":"annual_voc","weight":0.06,"description":"Do not infer compliance with the 69.8 kg/a VOC cap from a short campaign; request source/activity/control accounting for an annual result."},
+    {"id":"fume_outlet","weight":0.06,"description":"For oil-fume outlet concentration, take the larger measured/reference value (0.3 and 0.4), compare it with 1.0, and keep inlet outside the outlet compliance test."},
+    {"id":"fume_efficiency","weight":0.09,"description":"Keep 90% removal efficiency unresolved until same-event paired oil-fume concentration and flow evidence is available; do not use concentration ratios or splice NMHC flows."},
+    {"id":"waste_classification","weight":0.07,"description":"Identify conflicting ordinary/hazardous classification and destination for contaminated chemical packaging and request supported classification and route without inventing a code."},
+    {"id":"targeted_records","weight":0.05,"description":"Request specific existing records tied to open decisions; request targeted additional work only when records cannot establish validity, not an automatic full retest."},
+    {"id":"conditional_conclusion","weight":0.05,"description":"Limit the opinion to the supplied September 2022 first-phase dossier, withhold unconditional acceptance pending closure, and avoid fabricated illegality, approval, inspection, or scope extension."},
+    {"id":"laboratory_stack_derating","weight":0.0,"description":"Review the laboratory stacks DA001 through DA012 as their own source group. Identify the incomplete stack table and the applicable 50% derating issue, including the 4.2 kg/h and 7 kg/h values where supported, and request source-specific completion or recalculation. Do not substitute the wastewater-station 14 kg/h value or award credit for unbound numbers and action words. Accept equivalent evidence-bounded Chinese expression."}
+  ],
+  "required_inputs": ["一期工程验收监测报告表（复核稿）.docx", "审批要求及验收技术资料摘录.docx"],
+  "evidence_extraction": "Read tests/read_word_comments.py extract_docx. Include native comments with their real anchors. Preserved draft assertions are evidence under review, not reviewer endorsement. Each business fact has one exclusive criterion owner."
+}

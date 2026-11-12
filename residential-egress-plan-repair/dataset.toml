@@ -1,0 +1,30 @@
+version = "1.0"
+id = "residential-egress-plan-repair"
+title = "Residential first-floor egress plan inspection and repair"
+task_type = "skill-bench"
+domain = "building-fire-egress-engineering"
+language = "en"
+difficulty = "expert"
+deliverable = "workspace/output/repaired_plan.dxf"
+required_outputs = ["inspection_report.json", "layer_inventory.json", "extracted_original_layout.json", "violations_before.json", "repaired_layout.json", "changes.json", "repair_memo.md", "repaired_plan.dxf"]
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from tests/scoring_params.json"
+scoring_params = "tests/scoring_params.json"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "tests/validator.py"
+rubric = "RUBRIC.md"
+input_kind = "directory"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[skill]
+names = ["dxf-plan-forensics", "egress-geometry-repair", "evidence-handoff-json", "fire-egress-criteria"]
+count = 4
+answers_in_skill = false
+thresholds_in_skill = false
+network_required = false

@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "test.sh",
+      "bytes": 2253,
+      "sha256": "bfff69d41fd1457eabdfe6e62844ecef0fa1a314467c13fd8a2bc92209cacf4d"
+    },
+    {
+      "path": "validator.py",
+      "bytes": 1970,
+      "sha256": "d0fb48c52244aa5e9b0ea2218fdcd420af443f48a22774a70039fc4139e9b20f"
+    },
+    {
+      "path": "rubric-contract.json",
+      "bytes": 80084,
+      "sha256": "160a1a048edf2c79ca503ab3d020378272c405ee5cc6f2704f5b544dfd0d10f2"
+    },
+    {
+      "path": "program_judge/program_judge_runtime.py",
+      "bytes": 24039,
+      "sha256": "667c1386c1f689011e0daf03a155d52eafa1732c620ed34f6caf2ee2114835ce"
+    },
+    {
+      "path": "program_judge/task_judge.py",
+      "bytes": 29807,
+      "sha256": "bc719bb3d759aa5d06dde8da3924564c19d8ef8379e14d364572422ea3f71056"
+    },
+    {
+      "path": "program_judge/judge-conformance-suite.json",
+      "bytes": 4087,
+      "sha256": "0c57f3e4f9ba364dc3de42f577a63056d30d188ed7c19ba3ba890e32a57da5f9"
+    }
+  ]
+}

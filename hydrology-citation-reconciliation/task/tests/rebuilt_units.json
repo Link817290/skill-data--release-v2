@@ -1,0 +1,2179 @@
+{
+ "schema_version": "rebuilt-units-v1",
+ "description": "One item per group of reference leaves of golden/citation_reconciliation.md: each table cell with its row identity and column header, each prose field with the sentence carrying it. A leaf is met only where its value appears on a line that also carries the row's identity tokens. Q11 is read record by record from the end-reference table (scored_by: cardinality); its leaves are the supplied records and their credited-author cardinality.",
+ "items": [
+  {
+   "id": "Q02",
+   "reference_values": 46,
+   "sections": [
+    "End-reference ledger",
+    "Non-citation date exclusion register",
+    "Body-citation occurrence ledger"
+   ],
+   "columns": [
+    "Printed page",
+    "Reference head",
+    "Year/suffix",
+    "Exact date-like text"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "1980",
+      "4591"
+     ],
+     "value": "4591",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1980",
+      "4591"
+     ],
+     "value": "1980",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1950",
+      "2000",
+      "4593"
+     ],
+     "value": "5",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1950",
+      "2000",
+      "4593"
+     ],
+     "value": "4593",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1950",
+      "2000",
+      "4593"
+     ],
+     "value": "1950-2000",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1951",
+      "4596"
+     ],
+     "value": "4596",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1951",
+      "4596"
+     ],
+     "value": "1951-2100",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4598"
+     ],
+     "value": "4598",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4598"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4599"
+     ],
+     "value": "4599",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4599"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4604"
+     ],
+     "value": "4604",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4604"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4592",
+      "wit"
+     ],
+     "value": "narrative",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4592",
+      "wit"
+     ],
+     "value": "narrative",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "2008",
+      "4598",
+      "leander"
+     ],
+     "value": "4598",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "2008",
+      "4598",
+      "leander"
+     ],
+     "value": "leander (2007, 2008)",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "2005",
+      "2007b",
+      "4604",
+      "booij",
+      "wit"
+     ],
+     "value": "4604",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "2005",
+      "2007b",
+      "4604",
+      "booij",
+      "wit"
+     ],
+     "value": "(wit de et al., 2001a, 2007b; booij, 2005)",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2001",
+      "4606",
+      "bergstrom",
+      "carlsson",
+      "gardelin",
+      "lindstrom"
+     ],
+     "value": "4606",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4606",
+      "bergstrom",
+      "carlsson",
+      "gardelin",
+      "lindstrom"
+     ],
+     "value": "bergstrom, s., carlsson, b., gardelin, m., lindstrom, g., pettersson, a. and rummukainen, m.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2001",
+      "4606",
+      "bergstrom",
+      "carlsson",
+      "gardelin",
+      "lindstrom"
+     ],
+     "value": "2001",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2002b",
+      "4606",
+      "booij"
+     ],
+     "value": "4606",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2002b",
+      "4606",
+      "booij"
+     ],
+     "value": "booij, m. j.",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2002b",
+      "4606",
+      "booij"
+     ],
+     "value": "2002b",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2002b",
+      "4606",
+      "booij"
+     ],
+     "value": "1",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4606",
+      "den",
+      "hurk",
+      "lenderink",
+      "meijgaard"
+     ],
+     "value": "4606",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4606",
+      "den",
+      "hurk",
+      "lenderink",
+      "meijgaard"
+     ],
+     "value": "lenderink, g., hurk van den, b., meijgaard van, e., ulden van, a., and cuijpers, h.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2003",
+      "4606",
+      "den",
+      "hurk",
+      "lenderink",
+      "meijgaard"
+     ],
+     "value": "2003",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005a",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "4607",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005a",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "tu, m., hall, m. j., laat de, p. j., and wit de, m. j. m.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2005a",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "2005a",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005b",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "4607",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005b",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "tu, m., laat de, p. j. m., hall, m. j., and wit de, m. j. m.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2005b",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "2005b",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4607",
+      "torfs",
+      "uijlenhoet",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "19",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4607",
+      "torfs",
+      "uijlenhoet",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "4607",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4607",
+      "torfs",
+      "uijlenhoet",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "uijlenhoet, r., wit de, m. j. m., warmerdam, p. m. m., and torfs, p. j. j. f.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2001",
+      "4607",
+      "torfs",
+      "uijlenhoet",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "2001",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "4607",
+      "wit"
+     ],
+     "value": "4607",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "4607",
+      "wit"
+     ],
+     "value": "wit de, m. j. m.",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "4607",
+      "wit"
+     ],
+     "value": "2001a",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "4607",
+      "wit"
+     ],
+     "value": "1",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007b",
+      "4607",
+      "buiteveld",
+      "deursen",
+      "van",
+      "wit"
+     ],
+     "value": "4607",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007b",
+      "4607",
+      "buiteveld",
+      "deursen",
+      "van",
+      "wit"
+     ],
+     "value": "wit de, m. j. m., buiteveld, h., and deursen van, w. p. a.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2007b",
+      "4607",
+      "buiteveld",
+      "deursen",
+      "van",
+      "wit"
+     ],
+     "value": "2007b",
+     "long": false
+    }
+   ]
+  },
+  {
+   "id": "Q03",
+   "reference_values": 39,
+   "sections": [
+    "End-reference ledger",
+    "Non-citation date exclusion register",
+    "Collision and inheritance register"
+   ],
+   "columns": [
+    "Title anchor",
+    "Printed page",
+    "Exact date-like text",
+    "Author-year stem"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4609"
+     ],
+     "value": "4609",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4609"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4612"
+     ],
+     "value": "4612",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4612"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4613"
+     ],
+     "value": "4613",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4613"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4614"
+     ],
+     "value": "4614",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4614"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4615"
+     ],
+     "value": "4615",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4615"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4616"
+     ],
+     "value": "4616",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4616"
+     ],
+     "value": "2071-2100",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4617"
+     ],
+     "value": "4617",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4617"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4617"
+     ],
+     "value": "4617",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4617"
+     ],
+     "value": "2071-2100",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "2005a",
+      "2005b"
+     ],
+     "value": "tu 2005",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4605",
+      "aalders",
+      "torfs",
+      "warmerdam"
+     ],
+     "value": "rainfall generator for the meuse basin",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4605",
+      "ashagrie",
+      "laat",
+      "uhlenbrook",
+      "wit"
+     ],
+     "value": "detecting the influence of land use changes",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2008",
+      "4606",
+      "bakker"
+     ],
+     "value": "bias correction and resampling of rcm daily precipitation",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2001",
+      "4606",
+      "bergstrom",
+      "carlsson",
+      "gardelin",
+      "lindstrom"
+     ],
+     "value": "climate change impacts on runoff in sweden",
+     "long": true
+    },
+    {
+     "anchor": [
+      "1995",
+      "4606",
+      "bergstrom"
+     ],
+     "value": "the hbv model",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1994",
+      "4606",
+      "bergstrom",
+      "carlsson"
+     ],
+     "value": "river runoff to the baltic sea",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2002b",
+      "4606",
+      "booij"
+     ],
+     "value": "extreme daily precipitation in western europe",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2005",
+      "4606",
+      "booij"
+     ],
+     "value": "impact of climate change on river flooding",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2006",
+      "4606",
+      "albert",
+      "den",
+      "hurk",
+      "lenderink"
+     ],
+     "value": "knmi climate change scenarios 2006",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "4606",
+      "ipcc"
+     ],
+     "value": "climate change 2007: synthesis report",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4606",
+      "knmi"
+     ],
+     "value": "climate in the 21st century",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "4606",
+      "buishand",
+      "leander"
+     ],
+     "value": "resampling of regional climate model output",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2008",
+      "4606",
+      "buishand",
+      "den",
+      "hurk",
+      "leander"
+     ],
+     "value": "estimated changes in flood quantiles",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4606",
+      "den",
+      "hurk",
+      "lenderink",
+      "meijgaard"
+     ],
+     "value": "simulation of present-day climate in racmo 2",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2008",
+      "4606",
+      "jacob",
+      "lorenz"
+     ],
+     "value": "validation of temperature trends in the ensembles rcm runs",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2005a",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "extreme floods in the meuse river",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005b",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "precipitation variability in the meuse basin",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2001",
+      "4607",
+      "torfs",
+      "uijlenhoet",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "statistical analysis of daily discharge data",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2004",
+      "4607",
+      "lantman",
+      "schrojenstein",
+      "van"
+     ],
+     "value": "hoogwatervoorspellingen op de maas",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4607",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "climate change and low flows in the river meuse",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2001a",
+      "4607",
+      "wit"
+     ],
+     "value": "effect of climate change on the hydrology of the river meuse",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2007b",
+      "4607",
+      "buiteveld",
+      "deursen",
+      "van",
+      "wit"
+     ],
+     "value": "klimaatverandering en de afvoer van rijn en maas",
+     "long": true
+    }
+   ]
+  },
+  {
+   "id": "Q05",
+   "reference_values": 26,
+   "sections": [
+    "Body-citation occurrence ledger"
+   ],
+   "columns": [
+    "Status"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "2007",
+      "4590",
+      "ipcc"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4591",
+      "den",
+      "hurk",
+      "van"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001b",
+      "4591",
+      "wit"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4591",
+      "uijlenhoet"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005b",
+      "4591"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2002b",
+      "4591",
+      "booij"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4592",
+      "bergstrom"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4592",
+      "pfister"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005a",
+      "4592"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4592",
+      "booij"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4592",
+      "aalders"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4592",
+      "wit"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4592",
+      "wit"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4593",
+      "booij"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4594",
+      "pfister"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4594",
+      "ashagrie"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4594",
+      "lenderink"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4595",
+      "roeckner"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4595",
+      "bakker"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4596",
+      "booij"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4596",
+      "lantman",
+      "schrojenstein",
+      "van"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4596",
+      "wit"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4599",
+      "leander"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4604",
+      "knmi"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4604",
+      "leander"
+     ],
+     "value": "linked",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4605",
+      "wit"
+     ],
+     "value": "linked",
+     "long": false
+    }
+   ]
+  },
+  {
+   "id": "Q06",
+   "reference_values": 15,
+   "sections": [
+    "Body-citation occurrence ledger"
+   ],
+   "columns": [
+    "Physical page",
+    "Printed page",
+    "Exact callout group",
+    "Citation form"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "2001a",
+      "2007b",
+      "4592",
+      "wit"
+     ],
+     "value": "4",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "2007b",
+      "4592",
+      "wit"
+     ],
+     "value": "4592",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001a",
+      "2007b",
+      "4592",
+      "wit"
+     ],
+     "value": "(wit de et al., 2001a; wit de et al., 2007b)",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2001",
+      "4592",
+      "wit"
+     ],
+     "value": "narrative",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "2001b",
+      "4593",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "5",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "2001b",
+      "4593",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "4593",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "2001b",
+      "4593",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "(warmerdam et al., 2001; wit de et al., 2001b)",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2007",
+      "2007a",
+      "2008",
+      "4593",
+      "leander",
+      "wit"
+     ],
+     "value": "5",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "2007a",
+      "2008",
+      "4593",
+      "leander",
+      "wit"
+     ],
+     "value": "4593",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "2007a",
+      "2008",
+      "4593",
+      "leander",
+      "wit"
+     ],
+     "value": "(leander et al., 2007; wit de et al., 2007a; leander et al., 2008)",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2007",
+      "4595",
+      "leander"
+     ],
+     "value": "narrative",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "2008",
+      "4603",
+      "jacob",
+      "leander"
+     ],
+     "value": "15",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "2008",
+      "4603",
+      "jacob",
+      "leander"
+     ],
+     "value": "4603",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "2008",
+      "4603",
+      "jacob",
+      "leander"
+     ],
+     "value": "(jacob et al., 2007; leander et al., 2007; leander et al., 2008)",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2007b",
+      "4604",
+      "wit"
+     ],
+     "value": "narrative",
+     "long": false
+    }
+   ]
+  },
+  {
+   "id": "Q07",
+   "reference_values": 12,
+   "sections": [
+    "Body-citation occurrence ledger"
+   ],
+   "columns": [
+    "Author/year explicitness"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "2001",
+      "4591",
+      "uijlenhoet"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4592",
+      "pfister"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4592",
+      "aalders"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4593",
+      "booij"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4594",
+      "pfister"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4594",
+      "ashagrie"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4594",
+      "lenderink"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4595",
+      "roeckner"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4595",
+      "bakker"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4596",
+      "booij"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4596",
+      "lantman",
+      "schrojenstein",
+      "van"
+     ],
+     "value": "explicit",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4599",
+      "leander"
+     ],
+     "value": "explicit",
+     "long": false
+    }
+   ]
+  },
+  {
+   "id": "Q08",
+   "reference_values": 12,
+   "sections": [
+    "End-reference ledger",
+    "Body-citation occurrence ledger",
+    "Collision and inheritance register"
+   ],
+   "columns": [
+    "Follow-up owner",
+    "Atomic components",
+    "Suffix/explicitness",
+    "Recommended disposition"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "2008",
+      "4599",
+      "leander"
+     ],
+     "value": "leander 2008",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4604",
+      "leander"
+     ],
+     "value": "leander 2008",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "2005a",
+      "2005b"
+     ],
+     "value": "explicit suffixes",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4605",
+      "aalders",
+      "torfs",
+      "warmerdam"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4605",
+      "ashagrie",
+      "laat",
+      "uhlenbrook",
+      "wit"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4606",
+      "bakker"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4606",
+      "albert",
+      "den",
+      "hurk",
+      "lenderink"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4606",
+      "knmi"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4606",
+      "den",
+      "hurk",
+      "lenderink",
+      "meijgaard"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005b",
+      "4607",
+      "hall",
+      "laat",
+      "wit"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2001",
+      "4607",
+      "torfs",
+      "uijlenhoet",
+      "warmerdam",
+      "wit"
+     ],
+     "value": "copyeditor",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "change",
+      "form",
+      "narrative",
+      "singular",
+      "wit"
+     ],
+     "value": "change the singular narrative form to de wit et al. (2007a).",
+     "long": true
+    }
+   ]
+  },
+  {
+   "id": "Q09",
+   "reference_values": 11,
+   "sections": [
+    "Body-citation occurrence ledger"
+   ],
+   "columns": [
+    "Atomic components"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "2001",
+      "4591",
+      "uijlenhoet"
+     ],
+     "value": "uijlenhoet 2001",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005b",
+      "4591"
+     ],
+     "value": "tu 2005b",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4592",
+      "booij"
+     ],
+     "value": "booij 2005",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4592",
+      "wit"
+     ],
+     "value": "de wit 2007a",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007a",
+      "4592",
+      "wit"
+     ],
+     "value": "de wit 2007a",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4593",
+      "lorenz"
+     ],
+     "value": "lorenz 2008",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4593",
+      "booij"
+     ],
+     "value": "booij 2005",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2008",
+      "4595",
+      "bakker"
+     ],
+     "value": "bakker 2008",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2005",
+      "4596",
+      "booij"
+     ],
+     "value": "booij 2005",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4596",
+      "lantman",
+      "schrojenstein",
+      "van"
+     ],
+     "value": "van schrojenstein lantman 2004",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007b",
+      "4604",
+      "wit"
+     ],
+     "value": "de wit 2007b",
+     "long": false
+    }
+   ]
+  },
+  {
+   "id": "Q10",
+   "reference_values": 10,
+   "sections": [
+    "Non-citation date exclusion register"
+   ],
+   "columns": [
+    "Physical page"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4609"
+     ],
+     "value": "21",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4610"
+     ],
+     "value": "22",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4610"
+     ],
+     "value": "22",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4612"
+     ],
+     "value": "24",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4613"
+     ],
+     "value": "25",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4614"
+     ],
+     "value": "26",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4615"
+     ],
+     "value": "27",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4616"
+     ],
+     "value": "28",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4617"
+     ],
+     "value": "29",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4617"
+     ],
+     "value": "29",
+     "long": false
+    }
+   ]
+  },
+  {
+   "id": "Q11",
+   "reference_values": 28,
+   "sections": [
+    "End-reference ledger"
+   ],
+   "columns": [
+    "Credited-author cardinality"
+   ],
+   "leaves": [
+    {
+     "record": "R01",
+     "head": "Aalders, P., Warmerdam, P. M. M., and Torfs, P. J. J. F.",
+     "year": "2004",
+     "value": "multiple"
+    },
+    {
+     "record": "R02",
+     "head": "Ashagrie, A. G., Laat de, P. J. M., Wit de, M. J. M., and Uhlenbrook, S.",
+     "year": "2006",
+     "value": "multiple"
+    },
+    {
+     "record": "R03",
+     "head": "Bakker, A.",
+     "year": "2008",
+     "value": "1"
+    },
+    {
+     "record": "R04",
+     "head": "Bergstrom, S., Carlsson, B., Gardelin, M., Lindstrom, G., Pettersson, A. and Rummukainen, M.",
+     "year": "2001",
+     "value": "multiple"
+    },
+    {
+     "record": "R05",
+     "head": "Bergström, S.",
+     "year": "1995",
+     "value": "1"
+    },
+    {
+     "record": "R06",
+     "head": "Bergström, S. and Carlsson, B.",
+     "year": "1994",
+     "value": "2"
+    },
+    {
+     "record": "R07",
+     "head": "Booij, M. J.",
+     "year": "2002b",
+     "value": "1"
+    },
+    {
+     "record": "R08",
+     "head": "Booij, M. J.",
+     "year": "2005",
+     "value": "1"
+    },
+    {
+     "record": "R09",
+     "head": "Hurk van den, B., Albert, K. T., Lenderink, G., Ulden van, A., Oldenborgh van, G. J., Katsman, C., Brink van den, H., Keller, F., Bessembinder, J., Burgers, G., Komen, G., Hazeleger, W. and Drijfhout, S.",
+     "year": "2006",
+     "value": "multiple"
+    },
+    {
+     "record": "R10",
+     "head": "IPCC",
+     "year": "2007",
+     "value": "1"
+    },
+    {
+     "record": "R11",
+     "head": "KNMI",
+     "year": "2006",
+     "value": "1"
+    },
+    {
+     "record": "R12",
+     "head": "Leander, R. and Buishand, T. A.",
+     "year": "2007",
+     "value": "2"
+    },
+    {
+     "record": "R13",
+     "head": "Leander, R., Buishand, T., van den Hurk, B., and de Wit, M.",
+     "year": "2008",
+     "value": "multiple"
+    },
+    {
+     "record": "R14",
+     "head": "Lenderink, G., Hurk van den, B., Meijgaard van, E., Ulden van, A., and Cuijpers, H.",
+     "year": "2003",
+     "value": "multiple"
+    },
+    {
+     "record": "R15",
+     "head": "Lorenz, P. and Jacob, D.",
+     "year": "2008",
+     "value": "2"
+    },
+    {
+     "record": "R16",
+     "head": "Pfister, L., Kwadijk, J., Musy, A., Bronstert, A., and Hoffmann, L.",
+     "year": "2004",
+     "value": "multiple"
+    },
+    {
+     "record": "R17",
+     "head": "Roeckner, E., Bäuml, G., Bonaventura, L., Brokopf, R., Esch, M., Giorgetta, M., Hagemann, S., Kirchner, I., Kornblueh, L., Manzine, E., Rhodin, A., Schlese, U., Schulzweida, U., and Tompkins, A.",
+     "year": "2003",
+     "value": "multiple"
+    },
+    {
+     "record": "R18",
+     "head": "Swedish Meteorological and Hydrological Institute (SMHI)",
+     "year": "2007",
+     "value": "1"
+    },
+    {
+     "record": "R19",
+     "head": "Smits, I., Wijngaarden, J., Versteeg, R. and Kok, M.",
+     "year": "2004",
+     "value": "multiple"
+    },
+    {
+     "record": "R20",
+     "head": "Tu, M., Hall, M. J., Laat de, P. J., and Wit de, M. J. M.",
+     "year": "2005a",
+     "value": "multiple"
+    },
+    {
+     "record": "R21",
+     "head": "Tu, M., Laat de, P. J. M., Hall, M. J., and Wit de, M. J. M.",
+     "year": "2005b",
+     "value": "multiple"
+    },
+    {
+     "record": "R22",
+     "head": "Uijlenhoet, R., Wit de, M. J. M., Warmerdam, P. M. M., and Torfs, P. J. J. F.",
+     "year": "2001",
+     "value": "multiple"
+    },
+    {
+     "record": "R23",
+     "head": "Van Schrojenstein Lantman, J.",
+     "year": "2004",
+     "value": "1"
+    },
+    {
+     "record": "R24",
+     "head": "Warmerdam, P. M. M. and Wit de, M. J. M.",
+     "year": "2001",
+     "value": "2"
+    },
+    {
+     "record": "R25",
+     "head": "Wit de, M. J. M.",
+     "year": "2001a",
+     "value": "1"
+    },
+    {
+     "record": "R26",
+     "head": "Wit de, M. J. M., Buiteveld, H., and Deursen van, W. P. A.",
+     "year": "2007b",
+     "value": "multiple"
+    },
+    {
+     "record": "R27",
+     "head": "Wit de, M. J. M., Uijlenhoet, R., Warmerdam, P. M. M., Torfs, P. J. J. F., Roulin, E., and Dewil, P.",
+     "year": "2001b",
+     "value": "multiple"
+    },
+    {
+     "record": "R28",
+     "head": "Wit de, M. J. M., Hurk van den, B., Warmerdam, P. M. M., Torfs, P. J. J. F., Roulin, E., and Deursen van, W. P. A.",
+     "year": "2007a",
+     "value": "multiple"
+    }
+   ],
+   "scored_by": "cardinality"
+  },
+  {
+   "id": "Q14",
+   "reference_values": 6,
+   "sections": [
+    "Non-citation date exclusion register",
+    "End-reference ledger",
+    "### F16 - Confirmed discrepancy"
+   ],
+   "columns": [
+    "Why excluded",
+    "Status",
+    "Recommended disposition",
+    "Counterpart"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "2009",
+      "4589"
+     ],
+     "value": "publication metadata, not a source callout.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2009",
+      "4611"
+     ],
+     "value": "recurring publication furniture, not a source callout.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2008",
+      "4606",
+      "bakker"
+     ],
+     "value": "used",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1995",
+      "4606",
+      "bergstrom"
+     ],
+     "value": "used",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2007",
+      "buishand",
+      "citation",
+      "compact",
+      "component",
+      "leander"
+     ],
+     "value": "split the compact citation and render this component as leander and buishand -2007.",
+     "long": true
+    },
+    {
+     "anchor": [
+      "2008",
+      "4606",
+      "authors",
+      "buishand",
+      "den",
+      "four"
+     ],
+     "value": "the p. 4606 record for 2008 has four authors: leander, buishand, van den hurk, and de wit.",
+     "long": true
+    }
+   ]
+  },
+  {
+   "id": "Q15",
+   "reference_values": 6,
+   "sections": [
+    "Non-citation date exclusion register"
+   ],
+   "columns": [
+    "Local context",
+    "Printed page",
+    "Exact date-like text"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "1980",
+      "4591"
+     ],
+     "value": "precipitation amounts have significantly increased since 1980",
+     "long": true
+    },
+    {
+     "anchor": [
+      "4592",
+      "century"
+     ],
+     "value": "continue during the 21st century",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4610"
+     ],
+     "value": "4610",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1969",
+      "1998",
+      "4610"
+     ],
+     "value": "1969-1998",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4610"
+     ],
+     "value": "4610",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2071",
+      "4610"
+     ],
+     "value": "2071-2100",
+     "long": false
+    }
+   ]
+  },
+  {
+   "id": "Q16",
+   "reference_values": 6,
+   "sections": [
+    "Body-citation occurrence ledger",
+    "Collision and inheritance register"
+   ],
+   "columns": [
+    "Atomic components",
+    "Author-year stem"
+   ],
+   "leaves": [
+    {
+     "anchor": [
+      "2006",
+      "4591",
+      "den",
+      "hurk",
+      "van"
+     ],
+     "value": "hurk van den 2006",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2004",
+      "4592",
+      "aalders"
+     ],
+     "value": "aalders 2004",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2006",
+      "4594",
+      "ashagrie"
+     ],
+     "value": "ashagrie 2006",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4594",
+      "lenderink"
+     ],
+     "value": "lenderink 2003",
+     "long": false
+    },
+    {
+     "anchor": [
+      "2003",
+      "4595",
+      "roeckner"
+     ],
+     "value": "roeckner 2003",
+     "long": false
+    },
+    {
+     "anchor": [
+      "1994",
+      "1995",
+      "2001",
+      "bergstrom"
+     ],
+     "value": "bergstrom 1994/1995/2001",
+     "long": false
+    }
+   ]
+  }
+ ]
+}
