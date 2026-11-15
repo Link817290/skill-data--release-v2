@@ -1,0 +1,153 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "rest-day-hours-reconciliation",
+  "tasks": [
+    "rest-day-hours-reconciliation"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 35,
+  "bytes_excluding_manifest": 269834,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1570,
+      "sha256": "d0edf8ac68a992f8983cd4381e68d647d483f144fb322affa6e74ba24c7b9e1a"
+    },
+    "RUBRIC.md": {
+      "bytes": 7033,
+      "sha256": "20635093de429ff7d3847f227f6190e0f3debb26c080629d46c4fe466793a529"
+    },
+    "dataset.toml": {
+      "bytes": 1193,
+      "sha256": "80668c853eba76a7144f819dd7969c6c171f3c28adff583071352bb53263f885"
+    },
+    "golden/rest-day-review.xlsx": {
+      "bytes": 13631,
+      "sha256": "2f3482adad826134755c8bb1c7448df844f5e83ab8ab4ed58dc4edded54241d8"
+    },
+    "golden/review-conclusions.txt": {
+      "bytes": 3630,
+      "sha256": "ecbcd785b56a4dfb4ee3d4b83477c63a05d04572648cdd3999fb5a34d737d8d0"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 697,
+      "sha256": "c6bd88082a5bf3ccdb7c33f31ce591460d64ad633008c2aece7fd3422045052e"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 364,
+      "sha256": "cd12d2b1580a75ee74a8df11afe989a21c0ad818c0942046f9ab19571d77dab6"
+    },
+    "task/environment/skills/attendance-leave-evidence-review/SKILL.md": {
+      "bytes": 3214,
+      "sha256": "bb49736f555c6294cfbe142597a85fd6c72e5122d098d2ca4b20258dcf2a561f"
+    },
+    "task/environment/skills/attendance-leave-evidence-review/references/closure-and-quality.md": {
+      "bytes": 2169,
+      "sha256": "91e274933e58a6ba4de36914af9327111e66a9240c15b897809a7543f3b4b09b"
+    },
+    "task/environment/skills/attendance-leave-evidence-review/references/event-evidence.md": {
+      "bytes": 2634,
+      "sha256": "5e047627623d1b26f66bc72295f7ffd4030dda55208aad45a8338657ca9445f5"
+    },
+    "task/environment/workspace/materials/01_门店排班版本记录.xlsx": {
+      "bytes": 14536,
+      "sha256": "b7e27f6033679e27ce185eb9d3a46935f349ac03fec7bf2614fb00341237c4a1"
+    },
+    "task/environment/workspace/materials/02_门禁考勤明细.xlsx": {
+      "bytes": 11056,
+      "sha256": "44cb191d126ddc4e5ac23af135ba33e48927f781b237628a0994142e9d4cb037"
+    },
+    "task/environment/workspace/materials/03_员工换班申请及审批记录.rtf": {
+      "bytes": 3237,
+      "sha256": "35c0181df62c4405901ec2b8ca88c6c40a6f8e36eafffaff9ef114893dadd8e7"
+    },
+    "task/environment/workspace/materials/03_员工换班申请及审批记录.txt": {
+      "bytes": 1173,
+      "sha256": "2fcc4a916767c439ac5adb95afc7e50ebd22cf4088e7f91dcfaf9bb686312b97"
+    },
+    "task/environment/workspace/materials/04_调休登记台账.xlsx": {
+      "bytes": 12403,
+      "sha256": "0220e058549243dc9a9364d1d7f78cb222663e9dea344fd2d0dc29ef32a62928"
+    },
+    "task/environment/workspace/materials/05_班组主管确认记录.rtf": {
+      "bytes": 9557,
+      "sha256": "c515a2effaae6e6097645d713ea88ae1171d32301ac3b150543c02c7c22eabb4"
+    },
+    "task/environment/workspace/materials/05_班组主管确认记录.txt": {
+      "bytes": 3657,
+      "sha256": "8b8bbbfc320d1e5d9d8579104d122fff1803d72530fd03179341b6f1319f2729"
+    },
+    "task/environment/workspace/materials/06_工资处理明细.xlsx": {
+      "bytes": 12245,
+      "sha256": "70961ee5607514f1b2f4c7152109ee672e1ecce4673f9c3a48eec688682cafb5"
+    },
+    "task/environment/workspace/materials/07_集团工时与调休管理办法节选.txt": {
+      "bytes": 2271,
+      "sha256": "1d276f6ab2231176b159d47509c1114ac12227564692cc6365c332f3219872d7"
+    },
+    "task/environment/workspace/source_manifest.json": {
+      "bytes": 1901,
+      "sha256": "afdc1d38a4cd7f8a354a2cb11a231a1a2cc1d96533b665add933fce28422423e"
+    },
+    "task/instruction.md": {
+      "bytes": 839,
+      "sha256": "e479259105af43bd9a38465d08aa2839480224d11c2e02e21209438a0dfbeb0f"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 332,
+      "sha256": "6de2b9f8f96663cbeb85503a479e4ff2aacb5c0d4551dcef4ba80b4da3e638db"
+    },
+    "task/task.toml": {
+      "bytes": 1380,
+      "sha256": "be4060e91a1dafc9e3b4670a607b72072637e52e8804de3bb986e572169d56fd"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1385,
+      "sha256": "025277c9e9f062dd296a110f2847b049e84fe4d9cbb4c416e7a92148d683b46f"
+    },
+    "task/tests/capability_map.json": {
+      "bytes": 247,
+      "sha256": "07a46daab079a7d44bf9da405a1ba0031a5e419d07af3bbe3b1115398b884772"
+    },
+    "task/tests/carrier.py": {
+      "bytes": 15932,
+      "sha256": "6258c525c17fbe93a8fe2d439f2ba6d35e2ebdb3ee67f0ed2d30dcdc8bf88eb5"
+    },
+    "task/tests/formulas.py": {
+      "bytes": 5588,
+      "sha256": "838a5d858b6cb365ddac3c0aa7c19ce09173cb633ae4da263c5f8c9d9ee364e2"
+    },
+    "task/tests/golden_replay/0b3e1fc4074b6b23189c53159c9ce5e20c55bbe5f0f422adaf2194e3efb6f810.json": {
+      "bytes": 22441,
+      "sha256": "9f2cdfac29459556c56fff9c63c0884788dcd3288915fdaeba0610d41f4ace39"
+    },
+    "task/tests/golden_replay/3a6292c6253ff088f93c6b45568b326b78dab1c613fbb586eab55f5140fd537a.json": {
+      "bytes": 21424,
+      "sha256": "7bfd964a58167ca28776e7a2c90236d947e6359f529c05605c029624abba4d22"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 32642,
+      "sha256": "71ff76e00c4baf336ae194ae02a2c4eb04f3c242674b4843b4baa5d85d056a17"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 2206,
+      "sha256": "e57e6fc8492baac76a13c61f5a620e9f3898b825b6d17a9a6536199658430aae"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 17961,
+      "sha256": "9dcc5ab7d97f04002aeb12a9da3894d99bfc3d92385d4e6f2e160bb8b00e91d3"
+    },
+    "task/tests/source_manifest.json": {
+      "bytes": 664,
+      "sha256": "199450e97c67b9577db93efc619c7b1467308d94c10bf224716758fe8fd6b74f"
+    },
+    "task/tests/test.sh": {
+      "bytes": 475,
+      "sha256": "53f856efc4ef8953b1cbde2b4b115e28d8e4e0fffcf9a6e39e01c739590d956e"
+    },
+    "task/tests/validator.py": {
+      "bytes": 38147,
+      "sha256": "90c488cbe1c33ebdd47118f2b402793be20ee0fdebad319dc4200e6180733118"
+    }
+  }
+}

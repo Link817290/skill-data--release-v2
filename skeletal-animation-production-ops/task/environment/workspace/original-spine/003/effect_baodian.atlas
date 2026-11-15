@@ -1,0 +1,97 @@
+
+effect_baodian.png
+size: 682,212
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/pic/gl_00043
+  rotate: false
+  xy: 195, 73
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+images/pic/skill0/bds/bds_00024
+  rotate: true
+  xy: 374, 15
+  size: 88, 71
+  orig: 144, 118
+  offset: 26, 24
+  index: -1
+images/pic/skill0/bds/bds_00025
+  rotate: false
+  xy: 2, 2
+  size: 137, 95
+  orig: 144, 118
+  offset: 2, 15
+  index: -1
+images/pic/skill0/bds/bds_00026
+  rotate: false
+  xy: 231, 4
+  size: 141, 97
+  orig: 144, 118
+  offset: 2, 13
+  index: -1
+images/pic/skill0/bds/bds_00027
+  rotate: false
+  xy: 559, 2
+  size: 121, 98
+  orig: 144, 118
+  offset: 7, 11
+  index: -1
+images/pic/skill0/bds/bds_00028
+  rotate: false
+  xy: 454, 107
+  size: 110, 103
+  orig: 144, 118
+  offset: 17, 8
+  index: -1
+images/pic/skill0/bds/bds_00029
+  rotate: false
+  xy: 231, 103
+  size: 110, 107
+  orig: 144, 118
+  offset: 16, 6
+  index: -1
+images/pic/skill0/bds/bds_00030
+  rotate: false
+  xy: 2, 99
+  size: 111, 111
+  orig: 144, 118
+  offset: 15, 4
+  index: -1
+images/pic/skill0/bds/bds_00031
+  rotate: true
+  xy: 115, 100
+  size: 110, 114
+  orig: 144, 118
+  offset: 15, 2
+  index: -1
+images/pic/skill0/bds/bds_00032
+  rotate: true
+  xy: 343, 105
+  size: 105, 109
+  orig: 144, 118
+  offset: 16, 3
+  index: -1
+images/pic/skill0/bds/bds_00033
+  rotate: false
+  xy: 566, 102
+  size: 103, 108
+  orig: 144, 118
+  offset: 17, 3
+  index: -1
+images/pic/skill0/bds/bds_00034
+  rotate: true
+  xy: 454, 3
+  size: 102, 103
+  orig: 144, 118
+  offset: 17, 6
+  index: -1
+images/pic/skill0/bds/bds_00035
+  rotate: false
+  xy: 141, 21
+  size: 52, 77
+  orig: 144, 118
+  offset: 67, 20
+  index: -1

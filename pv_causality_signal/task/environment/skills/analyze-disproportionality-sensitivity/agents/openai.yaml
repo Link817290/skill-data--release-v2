@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Disproportionality Sensitivity"
+  short_description: "Audit case-level signal sensitivity analyses"
+  default_prompt: "Use $analyze-disproportionality-sensitivity to calculate auditable signal sensitivity analyses."

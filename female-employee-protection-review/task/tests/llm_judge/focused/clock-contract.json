@@ -1,0 +1,49 @@
+{
+  "version": "same-original-clock-five-factual-prerequisites-v1",
+  "derivation": {
+    "affirmative_error": "same_output_relative_bound AND distinct_unresolved_events AND NOT specific_staging_qualification",
+    "positive": "substantive_followup AND trigger_present AND NOT affirmative_error"
+  },
+  "items": [
+    {
+      "id": "clock_atom_substantive_followup",
+      "completion_values": [
+        0,
+        1
+      ],
+      "criterion": "Only ChenXuan/HZ220031 unknown maternity allowance final reconciliation/follow-up. Exclude already-known 1680/400 payroll correction/payment and every other employee; those have separate owners. Read complete candidate rows and source. A specific actual qualification applies across linked rows/IDs and global rules with a genuine case/output binding. Do not invent stages or receipt definitions from business custom. Evidence must quote candidate scope, including material contrary evidence. Missing work is not affirmative error. The candidate actually plans the pending official allowance receipt/amount and subsequent reconciliation with an identifiable operative follow-up; no extra numeric service deadline is required."
+    },
+    {
+      "id": "clock_atom_trigger_present",
+      "completion_values": [
+        0,
+        1
+      ],
+      "criterion": "Only ChenXuan/HZ220031 unknown maternity allowance final reconciliation/follow-up. Exclude already-known 1680/400 payroll correction/payment and every other employee; those have separate owners. Read complete candidate rows and source. A specific actual qualification applies across linked rows/IDs and global rules with a genuine case/output binding. Do not invent stages or receipt definitions from business custom. Evidence must quote candidate scope, including material contrary evidence. Missing work is not affirmative error. That follow-up identifies a meaningful receipt/arrival/proof trigger or operative checkpoint, accepting distributed actions and responsible roles."
+    },
+    {
+      "id": "clock_atom_same_output_relative_bound",
+      "completion_values": [
+        0,
+        1
+      ],
+      "criterion": "Only ChenXuan/HZ220031 unknown maternity allowance final reconciliation/follow-up. Exclude already-known 1680/400 payroll correction/payment and every other employee; those have separate owners. Read complete candidate rows and source. A specific actual qualification applies across linked rows/IDs and global rules with a genuine case/output binding. Do not invent stages or receipt definitions from business custom. Evidence must quote candidate scope, including material contrary evidence. Missing work is not affirmative error. The SAME allowance output has an expressly adopted receipt+N relative completion bound, and a separate arrival+N completion clause or arrival prerequisite. Merely fixed calendar-date tracking, different employees, known wage correction, missing work, or two calendar-date upper bounds do not satisfy this atom. Identify both adopted output clauses and their actual triggers."
+    },
+    {
+      "id": "clock_atom_distinct_unresolved_events",
+      "completion_values": [
+        0,
+        1
+      ],
+      "criterion": "Only ChenXuan/HZ220031 unknown maternity allowance final reconciliation/follow-up. Exclude already-known 1680/400 payroll correction/payment and every other employee; those have separate owners. Read complete candidate rows and source. A specific actual qualification applies across linked rows/IDs and global rules with a genuine case/output binding. Do not invent stages or receipt definitions from business custom. Evidence must quote candidate scope, including material contrary evidence. Missing work is not affirmative error. For those SAME clauses the candidate actually treats receipt and arrival as separate unresolved events. Return0 if it defines the operative receipt as bank/arrival proof, including核定/到账回单 or equivalent distributed definition; do not assume every official receipt is merely an award letter. Merely separate spreadsheet fields are not by themselves proof of distinct events. If no relevant paired clauses exist, return0."
+    },
+    {
+      "id": "clock_atom_specific_staging_qualification",
+      "completion_values": [
+        0,
+        1
+      ],
+      "criterion": "Only ChenXuan/HZ220031 unknown maternity allowance final reconciliation/follow-up. Exclude already-known 1680/400 payroll correction/payment and every other employee; those have separate owners. Read complete candidate rows and source. A specific actual qualification applies across linked rows/IDs and global rules with a genuine case/output binding. Do not invent stages or receipt definitions from business custom. Evidence must quote candidate scope, including material contrary evidence. Missing work is not affirmative error. The bounded output itself is explicitly provisional/not final, or the candidate actually adopts a distinct preliminary amount/document output and a later final cash/settlement output. A specific statement attached to that output such as不得宣称最终清算完成 counts even if its document title contains清算单. Genericplan/not-yet-completed status, amount pending, closure proof not yet available, 核算/清算 words alone, or a different known-wage correction are not sufficient staging. If there is no such candidate-adopted qualification, return0."
+    }
+  ]
+}

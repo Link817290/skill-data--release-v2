@@ -1,0 +1,599 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "scene-frames.csv",
+      "present": true,
+      "left_sha256": "a65fece06ccdf01416aae9173c046c924092ce8a23d3cc73b190fef6729ecd1c",
+      "right_sha256": "a65fece06ccdf01416aae9173c046c924092ce8a23d3cc73b190fef6729ecd1c",
+      "equal": true,
+      "comparison": "parsed CSV records"
+    },
+    {
+      "path": "impact-events.csv",
+      "present": true,
+      "left_sha256": "3ad19c06d43d0fd09e104d94ca371f9bfcbab637066cc2ad9114c6b7d48f2c07",
+      "right_sha256": "3ad19c06d43d0fd09e104d94ca371f9bfcbab637066cc2ad9114c6b7d48f2c07",
+      "equal": true,
+      "comparison": "parsed CSV records"
+    },
+    {
+      "path": "contact-sheet.png",
+      "present": true,
+      "left_sha256": "0d8c812f4729435061b51d5eab790bbf423fe7a6584c6495ccc7afe068cea6b6",
+      "right_sha256": "0d8c812f4729435061b51d5eab790bbf423fe7a6584c6495ccc7afe068cea6b6",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "dark.gif",
+      "present": true,
+      "left_sha256": "3d825530d42a3d5650fafd4e541fc2a237f55808d821837a59b464654ae3ac8b",
+      "right_sha256": "3d825530d42a3d5650fafd4e541fc2a237f55808d821837a59b464654ae3ac8b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "light.gif",
+      "present": true,
+      "left_sha256": "c133f4fd45bba60a28f0067bc141838e73e12ee3516e83e58e7b0e7a4ed7ce72",
+      "right_sha256": "c133f4fd45bba60a28f0067bc141838e73e12ee3516e83e58e7b0e7a4ed7ce72",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_004_3543857256.png",
+      "present": true,
+      "left_sha256": "513b22292dd669bce6633e93bc43b07cdc0ca4699ca135f3784a716f424a1b6a",
+      "right_sha256": "513b22292dd669bce6633e93bc43b07cdc0ca4699ca135f3784a716f424a1b6a",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_005_423230114.png",
+      "present": true,
+      "left_sha256": "fa4bfa74e26bcd850c91872e6cfc6f66d09e7aaeca51b29f556b439ab81c7c0e",
+      "right_sha256": "fa4bfa74e26bcd850c91872e6cfc6f66d09e7aaeca51b29f556b439ab81c7c0e",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_006_930848048.png",
+      "present": true,
+      "left_sha256": "9434291c7f966ab9bf771fec4c6a287e693ae042e4ef8449319cb5e0acf2b1cc",
+      "right_sha256": "9434291c7f966ab9bf771fec4c6a287e693ae042e4ef8449319cb5e0acf2b1cc",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_007_2718556722.png",
+      "present": true,
+      "left_sha256": "c45737b040436c10f867a1ac1795a64c2c1e9c87010bb9e90cf5127bb3f56444",
+      "right_sha256": "c45737b040436c10f867a1ac1795a64c2c1e9c87010bb9e90cf5127bb3f56444",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_008_2952314858.png",
+      "present": true,
+      "left_sha256": "5beaf41f943158bbb9f121360af935428bee8ac1090d627705aaeaa08e66e15d",
+      "right_sha256": "5beaf41f943158bbb9f121360af935428bee8ac1090d627705aaeaa08e66e15d",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_009_2332181761.png",
+      "present": true,
+      "left_sha256": "3ed7afe93c9e7fe3fc4aebe36f045c0f9c0a9bd1816613bbdfa8aba2c5b968e4",
+      "right_sha256": "3ed7afe93c9e7fe3fc4aebe36f045c0f9c0a9bd1816613bbdfa8aba2c5b968e4",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_010_1119963352.png",
+      "present": true,
+      "left_sha256": "618d331028d6dd18c4175d3a1aa523354e9bc781b507a51fc16891fb4cc4e0c2",
+      "right_sha256": "618d331028d6dd18c4175d3a1aa523354e9bc781b507a51fc16891fb4cc4e0c2",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_011_1179715463.png",
+      "present": true,
+      "left_sha256": "4e247398e690142de13190d028fbf840924bc321c6042df7ac55b4d1853cd080",
+      "right_sha256": "4e247398e690142de13190d028fbf840924bc321c6042df7ac55b4d1853cd080",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_012_3966933743.png",
+      "present": true,
+      "left_sha256": "fc8a2941693e7d4e1148abd8abeaf5a932948c56998573edbdcbabf650f43716",
+      "right_sha256": "fc8a2941693e7d4e1148abd8abeaf5a932948c56998573edbdcbabf650f43716",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_013_1996067751.png",
+      "present": true,
+      "left_sha256": "e41c78cda4e662d1e76e50cb21177f3288c1a24f84046b294cb371888414f3be",
+      "right_sha256": "e41c78cda4e662d1e76e50cb21177f3288c1a24f84046b294cb371888414f3be",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_014_3789818212.png",
+      "present": true,
+      "left_sha256": "ca6b3932e45fb44e6546a8ec2286a1912a85fafa1f2d05eaf1ef0968b3491e80",
+      "right_sha256": "ca6b3932e45fb44e6546a8ec2286a1912a85fafa1f2d05eaf1ef0968b3491e80",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_015_3688938893.png",
+      "present": true,
+      "left_sha256": "b59661d5be9327d59998c3c3b92515b858fb5f9f74724253223082bc0b69608b",
+      "right_sha256": "b59661d5be9327d59998c3c3b92515b858fb5f9f74724253223082bc0b69608b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_016_1328677052.png",
+      "present": true,
+      "left_sha256": "4c7d993365f7603629c977c611a47280236382d95c0d39f0b1bfcdd4f64e667b",
+      "right_sha256": "4c7d993365f7603629c977c611a47280236382d95c0d39f0b1bfcdd4f64e667b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_017_3325533825.png",
+      "present": true,
+      "left_sha256": "f22395f72b25a02d6c71afa8b4f75bc93d9e504bd1f31eac7724070eb7a0a316",
+      "right_sha256": "f22395f72b25a02d6c71afa8b4f75bc93d9e504bd1f31eac7724070eb7a0a316",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_018_3953624752.png",
+      "present": true,
+      "left_sha256": "ac2a8e319c86b2a4b8adb88b7e97d03a819319c4ed8f0506501c284247c11904",
+      "right_sha256": "ac2a8e319c86b2a4b8adb88b7e97d03a819319c4ed8f0506501c284247c11904",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_019_2364973755.png",
+      "present": true,
+      "left_sha256": "57d598535e34a26ae12bcc575257ff15daf4098eef63cbb6e2204122dee91fad",
+      "right_sha256": "57d598535e34a26ae12bcc575257ff15daf4098eef63cbb6e2204122dee91fad",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_020_968766721.png",
+      "present": true,
+      "left_sha256": "55aeafa203892366e0c014c1064e722bbb0019a4ee58a83966c8a0418f2ad4ab",
+      "right_sha256": "55aeafa203892366e0c014c1064e722bbb0019a4ee58a83966c8a0418f2ad4ab",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_021_3065322335.png",
+      "present": true,
+      "left_sha256": "614826b43a23026e8620dcb0bc5104c2889dcf66fffcd1c8682e93e94c51e96b",
+      "right_sha256": "614826b43a23026e8620dcb0bc5104c2889dcf66fffcd1c8682e93e94c51e96b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_022_3065322335.png",
+      "present": true,
+      "left_sha256": "614826b43a23026e8620dcb0bc5104c2889dcf66fffcd1c8682e93e94c51e96b",
+      "right_sha256": "614826b43a23026e8620dcb0bc5104c2889dcf66fffcd1c8682e93e94c51e96b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_023_4065474957.png",
+      "present": true,
+      "left_sha256": "dca3b7648489cf5595474d5fed83752f003df55925bd90f613e70b0c4e748316",
+      "right_sha256": "dca3b7648489cf5595474d5fed83752f003df55925bd90f613e70b0c4e748316",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_024_3455510351.png",
+      "present": true,
+      "left_sha256": "7cd9d0533f437fbc5c4e226253795b12beb7518453b03cf1245e90ecab44323f",
+      "right_sha256": "7cd9d0533f437fbc5c4e226253795b12beb7518453b03cf1245e90ecab44323f",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_025_1651282324.png",
+      "present": true,
+      "left_sha256": "3dd99f410773008db23bffa6eaa8784a3050da6702d9f2178813fa22f17deddd",
+      "right_sha256": "3dd99f410773008db23bffa6eaa8784a3050da6702d9f2178813fa22f17deddd",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_026_1651282324.png",
+      "present": true,
+      "left_sha256": "3dd99f410773008db23bffa6eaa8784a3050da6702d9f2178813fa22f17deddd",
+      "right_sha256": "3dd99f410773008db23bffa6eaa8784a3050da6702d9f2178813fa22f17deddd",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_027_3637078762.png",
+      "present": true,
+      "left_sha256": "24697ca59086284c52725af25c28eb80d2285a703cf51539f7585dae8fb9d696",
+      "right_sha256": "24697ca59086284c52725af25c28eb80d2285a703cf51539f7585dae8fb9d696",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_028_3637078762.png",
+      "present": true,
+      "left_sha256": "24697ca59086284c52725af25c28eb80d2285a703cf51539f7585dae8fb9d696",
+      "right_sha256": "24697ca59086284c52725af25c28eb80d2285a703cf51539f7585dae8fb9d696",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_029_3637078762.png",
+      "present": true,
+      "left_sha256": "24697ca59086284c52725af25c28eb80d2285a703cf51539f7585dae8fb9d696",
+      "right_sha256": "24697ca59086284c52725af25c28eb80d2285a703cf51539f7585dae8fb9d696",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_030_1762684355.png",
+      "present": true,
+      "left_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "right_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_031_1762684355.png",
+      "present": true,
+      "left_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "right_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_032_1762684355.png",
+      "present": true,
+      "left_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "right_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_033_1762684355.png",
+      "present": true,
+      "left_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "right_sha256": "50a25534d11aa030118126589f0df9073cf52aeec27ac7be3b56bf6b9aee9a9d",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_034_1841468584.png",
+      "present": true,
+      "left_sha256": "5f7b0c3bc14169e7f0dd662608ce2fbb68880cfa4b36279dc5ddfaaa7aba412f",
+      "right_sha256": "5f7b0c3bc14169e7f0dd662608ce2fbb68880cfa4b36279dc5ddfaaa7aba412f",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_035_1052008708.png",
+      "present": true,
+      "left_sha256": "c5dd168a744acb655765434ab09f5f0a2902c0c84d43ce8a00da5a5ec007fa7b",
+      "right_sha256": "c5dd168a744acb655765434ab09f5f0a2902c0c84d43ce8a00da5a5ec007fa7b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_036_4236839817.png",
+      "present": true,
+      "left_sha256": "c3d90e3b17b3d906a744722ba750212097e075ddbfb642243588bd85ebfb2ed9",
+      "right_sha256": "c3d90e3b17b3d906a744722ba750212097e075ddbfb642243588bd85ebfb2ed9",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_037_2134433940.png",
+      "present": true,
+      "left_sha256": "2de2f33f53800af53f93e4f459f0f1969d50b9835d6b43efa2f7a801ae69c026",
+      "right_sha256": "2de2f33f53800af53f93e4f459f0f1969d50b9835d6b43efa2f7a801ae69c026",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_038_1736828360.png",
+      "present": true,
+      "left_sha256": "7f28a0eb5ad8583781e5baa34bf15ef35caaf30aa759c86cc2c300b7483c1655",
+      "right_sha256": "7f28a0eb5ad8583781e5baa34bf15ef35caaf30aa759c86cc2c300b7483c1655",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_039_1780683343.png",
+      "present": true,
+      "left_sha256": "79e27632c36de4aa8906974231b51f1c17353d5ef4bde08f07a704449aebbd60",
+      "right_sha256": "79e27632c36de4aa8906974231b51f1c17353d5ef4bde08f07a704449aebbd60",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_040_1913020853.png",
+      "present": true,
+      "left_sha256": "660f2a27671f70039a4b8bf562f0a5060ae30d81bfb1eb3196823c79f69e7e0a",
+      "right_sha256": "660f2a27671f70039a4b8bf562f0a5060ae30d81bfb1eb3196823c79f69e7e0a",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_041_1476974419.png",
+      "present": true,
+      "left_sha256": "695d6b16b1d826c628dd0dfe6e8b1dacf49366fa421f94a27e3923d34a77f276",
+      "right_sha256": "695d6b16b1d826c628dd0dfe6e8b1dacf49366fa421f94a27e3923d34a77f276",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_042_3770458541.png",
+      "present": true,
+      "left_sha256": "e6d1d29542c7201488dd6c124e3d51667893c0302de5cc29fa684588482beecc",
+      "right_sha256": "e6d1d29542c7201488dd6c124e3d51667893c0302de5cc29fa684588482beecc",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_043_451429436.png",
+      "present": true,
+      "left_sha256": "e91644ff56a22636fdcfee3f1a0f49ec37061a15c4e6071f5c60b28953127f0c",
+      "right_sha256": "e91644ff56a22636fdcfee3f1a0f49ec37061a15c4e6071f5c60b28953127f0c",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_044_694668659.png",
+      "present": true,
+      "left_sha256": "6f4ccfbbb2cfda6dbaad9c18c53af093fe55a4512b23f95d9db2f960f96d2a95",
+      "right_sha256": "6f4ccfbbb2cfda6dbaad9c18c53af093fe55a4512b23f95d9db2f960f96d2a95",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_045_1818415173.png",
+      "present": true,
+      "left_sha256": "2dfac3814bcedc35c7c32f17a7f0035f4f8c0a84942b6dc7a8a20778442d0ae5",
+      "right_sha256": "2dfac3814bcedc35c7c32f17a7f0035f4f8c0a84942b6dc7a8a20778442d0ae5",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_046_520114737.png",
+      "present": true,
+      "left_sha256": "67a535b653145ce501a3dcdf853a8514b8f35ee460030f318978d7faf67fea7d",
+      "right_sha256": "67a535b653145ce501a3dcdf853a8514b8f35ee460030f318978d7faf67fea7d",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_047_3729565347.png",
+      "present": true,
+      "left_sha256": "bb9d81144aed243a0a44ba54710d082468808ef5b92130827b76243e3e8ecdfd",
+      "right_sha256": "bb9d81144aed243a0a44ba54710d082468808ef5b92130827b76243e3e8ecdfd",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/appear_048_97442265.png",
+      "present": true,
+      "left_sha256": "31c8470af129fa3e962f1942392e7c00de8f2254afc708ba2720efc0baf5035c",
+      "right_sha256": "31c8470af129fa3e962f1942392e7c00de8f2254afc708ba2720efc0baf5035c",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_000_4052968376.png",
+      "present": true,
+      "left_sha256": "33f5c179efcbdbd340fa1af1dcd383050387540f8de33a240666f41e879ea23b",
+      "right_sha256": "33f5c179efcbdbd340fa1af1dcd383050387540f8de33a240666f41e879ea23b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_001_4052968376.png",
+      "present": true,
+      "left_sha256": "33f5c179efcbdbd340fa1af1dcd383050387540f8de33a240666f41e879ea23b",
+      "right_sha256": "33f5c179efcbdbd340fa1af1dcd383050387540f8de33a240666f41e879ea23b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_002_4052968376.png",
+      "present": true,
+      "left_sha256": "33f5c179efcbdbd340fa1af1dcd383050387540f8de33a240666f41e879ea23b",
+      "right_sha256": "33f5c179efcbdbd340fa1af1dcd383050387540f8de33a240666f41e879ea23b",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_003_3002517916.png",
+      "present": true,
+      "left_sha256": "c668516c70981152f7e8ff88872451cf5940cc44910b4a26a57f75361ea16152",
+      "right_sha256": "c668516c70981152f7e8ff88872451cf5940cc44910b4a26a57f75361ea16152",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_004_2549319750.png",
+      "present": true,
+      "left_sha256": "51a1b632e2ca38887c21310cfb8344a2e2cc5614c22e3ba0ac395c796e3bf2f3",
+      "right_sha256": "51a1b632e2ca38887c21310cfb8344a2e2cc5614c22e3ba0ac395c796e3bf2f3",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_005_1601142769.png",
+      "present": true,
+      "left_sha256": "56cb194b9edc9573281e565968a9fa784b34132984a829b5992579d8baf2d6f6",
+      "right_sha256": "56cb194b9edc9573281e565968a9fa784b34132984a829b5992579d8baf2d6f6",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_006_3057168716.png",
+      "present": true,
+      "left_sha256": "f19c00beac4d623bbd4852f00fd26815c12b5a2f02785477155d26e59b6c1e10",
+      "right_sha256": "f19c00beac4d623bbd4852f00fd26815c12b5a2f02785477155d26e59b6c1e10",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_007_2451199959.png",
+      "present": true,
+      "left_sha256": "cf6409b3f46cff9e866ac6dcf5efaeefcfe4924ef46ddd1a2d795742cd4a0393",
+      "right_sha256": "cf6409b3f46cff9e866ac6dcf5efaeefcfe4924ef46ddd1a2d795742cd4a0393",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_008_3388906058.png",
+      "present": true,
+      "left_sha256": "f4d5d3f1dd084c8856cddd150d311978208dc919d7d9acc47177d7a90f1b7141",
+      "right_sha256": "f4d5d3f1dd084c8856cddd150d311978208dc919d7d9acc47177d7a90f1b7141",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_009_3388906058.png",
+      "present": true,
+      "left_sha256": "f4d5d3f1dd084c8856cddd150d311978208dc919d7d9acc47177d7a90f1b7141",
+      "right_sha256": "f4d5d3f1dd084c8856cddd150d311978208dc919d7d9acc47177d7a90f1b7141",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_010_2611324606.png",
+      "present": true,
+      "left_sha256": "ea2db7c7a0031366da23bc40ce47a97b805f53b7195b4cbd620a03582e8e287a",
+      "right_sha256": "ea2db7c7a0031366da23bc40ce47a97b805f53b7195b4cbd620a03582e8e287a",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_011_825632704.png",
+      "present": true,
+      "left_sha256": "e72a611730225d3a481904df21eb3d1a82540905355fa9b68bf9e8fce367ed29",
+      "right_sha256": "e72a611730225d3a481904df21eb3d1a82540905355fa9b68bf9e8fce367ed29",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/fly_012_825632704.png",
+      "present": true,
+      "left_sha256": "e72a611730225d3a481904df21eb3d1a82540905355fa9b68bf9e8fce367ed29",
+      "right_sha256": "e72a611730225d3a481904df21eb3d1a82540905355fa9b68bf9e8fce367ed29",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_000_2033644684.png",
+      "present": true,
+      "left_sha256": "52d26fbb184c1d4d4777d13e7e6bda3324f469b1658cab153cb1939207ad38ab",
+      "right_sha256": "52d26fbb184c1d4d4777d13e7e6bda3324f469b1658cab153cb1939207ad38ab",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_001_2919810254.png",
+      "present": true,
+      "left_sha256": "e8d7670959b271adc8af85af1a9a7888869583981f9e04496fd1e2456aa5aaf4",
+      "right_sha256": "e8d7670959b271adc8af85af1a9a7888869583981f9e04496fd1e2456aa5aaf4",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_002_2971695429.png",
+      "present": true,
+      "left_sha256": "1820e61a8bc8e22e7ee0dc6ece57806fa181e9c98248de1c1da5890b02c1bb55",
+      "right_sha256": "1820e61a8bc8e22e7ee0dc6ece57806fa181e9c98248de1c1da5890b02c1bb55",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_003_4189435993.png",
+      "present": true,
+      "left_sha256": "02219ce055590fef2d11907680fece2c7fa36521c446200e6d7b563aeab5248e",
+      "right_sha256": "02219ce055590fef2d11907680fece2c7fa36521c446200e6d7b563aeab5248e",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_004_1186643984.png",
+      "present": true,
+      "left_sha256": "099730c2e61ede83441d11f3cdd6e68cd1ed3298623e84b6d34b93a7e39e53f7",
+      "right_sha256": "099730c2e61ede83441d11f3cdd6e68cd1ed3298623e84b6d34b93a7e39e53f7",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_005_3984323269.png",
+      "present": true,
+      "left_sha256": "42938fed422bc519bac9179aa5f6b3bdf2b1030ef8cbda0e3089b0a7c7b1b678",
+      "right_sha256": "42938fed422bc519bac9179aa5f6b3bdf2b1030ef8cbda0e3089b0a7c7b1b678",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_006_1029386244.png",
+      "present": true,
+      "left_sha256": "07c69d4cbb73963a76eb7586f9c265297ba0fe6a8da16b7bd1940bb35977dcdc",
+      "right_sha256": "07c69d4cbb73963a76eb7586f9c265297ba0fe6a8da16b7bd1940bb35977dcdc",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_007_1979133016.png",
+      "present": true,
+      "left_sha256": "a0bd1ac643e74eac020828fc14d4608c551fe9aa749cb99b2cacb383297aff16",
+      "right_sha256": "a0bd1ac643e74eac020828fc14d4608c551fe9aa749cb99b2cacb383297aff16",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_008_2601199691.png",
+      "present": true,
+      "left_sha256": "6fc2fc1bb3ca8c227ce5da762ad93ed4afad67203cd23a3c636b20c6728b4cc5",
+      "right_sha256": "6fc2fc1bb3ca8c227ce5da762ad93ed4afad67203cd23a3c636b20c6728b4cc5",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_009_1362157706.png",
+      "present": true,
+      "left_sha256": "34aef9d031cf7cbe285ca044eb1088f9de2bb66be43b8627c2ff09be817e84c1",
+      "right_sha256": "34aef9d031cf7cbe285ca044eb1088f9de2bb66be43b8627c2ff09be817e84c1",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    },
+    {
+      "path": "textures/hit_010_443387983.png",
+      "present": true,
+      "left_sha256": "2c622c7bd04354ad2da433cccb6ee25273d35a160420d21c4f6a4a0f49807ee6",
+      "right_sha256": "2c622c7bd04354ad2da433cccb6ee25273d35a160420d21c4f6a4a0f49807ee6",
+      "equal": true,
+      "comparison": "size, decoded frame count and exact RGBA bytes in every channel"
+    }
+  ],
+  "encoding_equivalence": true,
+  "compared_all_rgba_channels": true
+}

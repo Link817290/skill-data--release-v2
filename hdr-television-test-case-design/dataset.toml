@@ -1,0 +1,32 @@
+version = "1.0"
+id = "hdr-television-test-case-design"
+task_type = "skill-bench"
+domain = "display-testing"
+language = "en"
+difficulty = "hard"
+deliverable = "output/LG OLED65C22LB_Hardware_Test_Cases_EN.xlsx"
+network_access = false
+rollouts_included = false
+
+[scoring]
+primary_score = "reward"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[scoring.weights]
+required_hdr_objective_coverage = 0.20
+project_acceptance_relationships = 0.20
+evidence_and_equipment_role_correctness = 0.15
+executable_test_procedure = 0.35
+expected_result_and_decision_closure = 0.08
+english_spreadsheet_deliverable = 0.02
+
+[skill]
+name = "hdr-test-case-design"
+answer_mapping_in_skill = false
+
+# Source-bound semantic review is part of the result judge. Configure the six
+# verifier-only LLM_JUDGE_* settings externally for new candidates.

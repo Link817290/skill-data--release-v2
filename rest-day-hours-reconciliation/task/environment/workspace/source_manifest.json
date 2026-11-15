@@ -1,0 +1,50 @@
+{
+  "schema": "source-manifest-v1",
+  "files": [
+    {
+      "path": "materials/01_门店排班版本记录.xlsx",
+      "sha256": "b7e27f6033679e27ce185eb9d3a46935f349ac03fec7bf2614fb00341237c4a1",
+      "provenance": "owner-supplied original"
+    },
+    {
+      "path": "materials/02_门禁考勤明细.xlsx",
+      "sha256": "44cb191d126ddc4e5ac23af135ba33e48927f781b237628a0994142e9d4cb037",
+      "provenance": "owner-supplied original"
+    },
+    {
+      "path": "materials/03_员工换班申请及审批记录.rtf",
+      "sha256": "35c0181df62c4405901ec2b8ca88c6c40a6f8e36eafffaff9ef114893dadd8e7",
+      "provenance": "owner-supplied original"
+    },
+    {
+      "path": "materials/03_员工换班申请及审批记录.txt",
+      "sha256": "2fcc4a916767c439ac5adb95afc7e50ebd22cf4088e7f91dcfaf9bb686312b97",
+      "provenance": "lossless RTF text extraction"
+    },
+    {
+      "path": "materials/04_调休登记台账.xlsx",
+      "sha256": "0220e058549243dc9a9364d1d7f78cb222663e9dea344fd2d0dc29ef32a62928",
+      "provenance": "owner-supplied original"
+    },
+    {
+      "path": "materials/05_班组主管确认记录.rtf",
+      "sha256": "c515a2effaae6e6097645d713ea88ae1171d32301ac3b150543c02c7c22eabb4",
+      "provenance": "owner-supplied original"
+    },
+    {
+      "path": "materials/05_班组主管确认记录.txt",
+      "sha256": "8b8bbbfc320d1e5d9d8579104d122fff1803d72530fd03179341b6f1319f2729",
+      "provenance": "lossless RTF text extraction"
+    },
+    {
+      "path": "materials/06_工资处理明细.xlsx",
+      "sha256": "70961ee5607514f1b2f4c7152109ee672e1ecce4673f9c3a48eec688682cafb5",
+      "provenance": "owner-supplied original"
+    },
+    {
+      "path": "materials/07_集团工时与调休管理办法节选.txt",
+      "sha256": "1d276f6ab2231176b159d47509c1114ac12227564692cc6365c332f3219872d7",
+      "provenance": "owner-supplied original"
+    }
+  ]
+}

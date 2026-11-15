@@ -1,0 +1,283 @@
+{
+  "input_transformations": [],
+  "id": "resp_00d34aa5c8de9a58016af9d533f6b887d085ff3ce6e9692b62",
+  "object": "response",
+  "created_at": 1794757940,
+  "completed_at": 1794758033,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "model": "gpt-5.6-sol",
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_00d34aa5c8de9a58016af9d53fed8087d089d59da9e8c3af93",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_00d34aa5c8de9a58016af9d54b16b887d0b50912e4f2cd08c6",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_00d34aa5c8de9a58016af9d556c27c87d0b0248fedad8dfd08",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_00d34aa5c8de9a58016af9d561dc8c87d09ae5fefdf9eab018",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_00d34aa5c8de9a58016af9d56d7bb887d0b1cc49481c3a3fb0",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "message",
+      "id": "msg_00d34aa5c8de9a58016af9d56de46c87d08a33b2e22da82be4",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[18,50,62,63,108,110],\"id\":\"unit__he_task_conflict__analysis\",\"rationale\":\"报告明确绑定HZ230086并区分6月16日已发布“宴会布置”与现场“预订台”实际任务，认定两版记录不一致；同时明确6月26日布草篮约8kg、连续站立1小时40分未超过10kg和2小时限制，不据样本推出全期合规。\"},{\"completion\":1,\"evidence_ids\":[18,50,61,62,63,107,109,110],\"id\":\"unit__he_task_conflict__source\",\"rationale\":\"报告和审计总览均以HZ230086为对象，关联6月16日、6月26日、医疗证明、临时调整、排班版本和现场任务记录，并以医疗限制作为比较规则，具有实质事实和来源绑定。\"},{\"completion\":1,\"evidence_ids\":[34,40,65,85,100,109,110],\"id\":\"unit__he_task_conflict__action\",\"rationale\":\"R03要求餐饮经理和门店HR在9月5日前补充6月15日至7月31日实际任务确认并修正版本关联，以签字任务清单和版本修订记录关闭；R09及报告进一步要求保留原版本并提交检索或补证结果。\"},{\"completion\":1,\"evidence_ids\":[18,64,65,86,112,113],\"id\":\"unit__he_contract_hold__analysis\",\"rationale\":\"报告针对何琳明确识别2026年8月31日原到期日、在职待续签状态和仅有续签提醒，采用合同保护规则得出不得将提醒直接转为到期终止，并要求补当前阶段证明。审计总览同样记录该结论。\"},{\"completion\":1,\"evidence_ids\":[18,64,86,107,112,113],\"id\":\"unit__he_contract_hold__source\",\"rationale\":\"审查将何琳、8月31日合同节点、在职待续签记录、当前证明缺口和劳动合同保护规则相互绑定，而非仅列出HRIS或一般法律材料。\"},{\"completion\":1,\"evidence_ids\":[7,37,65,86,112],\"id\":\"unit__he_contract_hold__action\",\"rationale\":\"R06及报告处理意见要求立即暂停何琳合同到期处理，更新合同状态，并由门店HR、员工关系部和餐饮经理补充最新孕产证明或阶段确认记录；关闭证据和责任路径已列明。\"},{\"completion\":1,\"evidence_ids\":[34,65,85,99,109,110],\"id\":\"he_full_period_scope_analysis\",\"rationale\":\"报告和R03均采用6月15日至7月31日这一签字临时调整全期，要求补充实际任务确认并修正版本关联；该范围明确说明6月16日、6月26日材料不能代表每一天。\"},{\"completion\":1,\"evidence_ids\":[18,34,61,65,85,99,109,110],\"id\":\"he_full_period_source_binding\",\"rationale\":\"全期范围绑定何琳HZ230086、6月15日至7月31日、ADJ-260612-04签字调整、宴会布置/预订台实际任务和排班及现场记录，来源事实与员工和期间对应。\"},{\"completion\":1,\"evidence_ids\":[4,34,65,85,109,110],\"id\":\"he_full_period_executable_action\",\"rationale\":\"R03由餐饮经理和门店HR负责，截止9月5日，要求提交全期签字任务清单、版本修订记录；报告同时保留原版本并允许以无法补证说明关闭，构成可执行的全期补充核验。\"},{\"completion\":1,\"evidence_ids\":[10,40,99,100,109,110,112],\"id\":\"he_prior_reconfirmation_scope\",\"rationale\":\"报告和R09明确针对6月26日返回宴会区前的任务及重量重新确认，要求检索原始确认、审批和沟通记录；缺证保持未知、不倒签、不据缺记录推定违规，且独立保留8kg/100分钟数值结论。\"},{\"completion\":1,\"evidence_ids\":[11,41,49,65,101,107,109,112,113],\"id\":\"he_current_operational_control\",\"rationale\":\"R10及报告要求在当前证明补齐前持续执行不超过2小时站立和10kg搬抬限制、禁止夜班和延时劳动，并由员工、餐饮经理和门店HR进行当前岗位班次确认、保护登记及当前后续排班核对，设有立即和9月5日前的时点及关闭证据。\"},{\"completion\":1,\"evidence_ids\":[7,11,37,41,64,86,101,107,112],\"id\":\"he_current_evidence_action\",\"rationale\":\"R06要求补当前孕产阶段证明，R10将该证明与当前岗位、班次、保护登记和后续排班核验联动，责任人为门店HR、员工关系部、餐饮经理及员工，关闭证据为最新证明或阶段确认记录。\"},{\"completion\":1,\"evidence_ids\":[64,86,91,99,101,107],\"id\":\"he_current_stage_analysis\",\"rationale\":\"报告明确说明现有日期推算不能替代当前临床证明，当前阶段需补证，并在补证前维持医疗限制和保护安排；这既识别了6月10日证明的时效边界，也采取了后续临床证据行动。\"},{\"completion\":1,\"evidence_ids\":[50,61,64,65,91,101,107,109,112],\"id\":\"he_current_stage_source\",\"rationale\":\"何琳当前审查关联6月10日医疗证明、6月15日至7月31日签字临时调整、8月31日合同节点及当前孕产阶段证明缺口，并对应排班、合同和沟通来源，形成可追溯的员工和事件绑定。\"},{\"completion\":1,\"evidence_ids\":[10,40,99,100,109,112],\"id\":\"he_prior_confirmation_evidence_truth\",\"rationale\":\"材料只说明未提供6月26日前先行重新确认记录，报告和行动均明确保留未知、不倒签、不从缺记录认定未经确认已违规；没有把证据缺口表述为历史确认必然未履行。\"},{\"completion\":1,\"evidence_ids\":[64,86,91,99,101,107],\"id\":\"harm_he_current_stage\",\"rationale\":\"候选材料没有声称仅凭6月10日孕周和预产期已验证8月31日或9月的实际临床阶段，反而要求补最新孕产证明并明确日期推算不替代当前临床证明。\"},{\"completion\":1,\"evidence_ids\":[18,40,41,62,63,99,101,107,113],\"id\":\"safe_he_operational_decision\",\"rationale\":\"材料没有授权超过2小时或10kg限制的任务，也没有把6月26日样本当作全期合规依据；行动明确继续执行医疗限制、禁止夜班和延时，并将全期事实保持待核。\"},{\"completion\":1,\"evidence_ids\":[18,37,64,65,86,112,113],\"id\":\"safe_he_contract_decision\",\"rationale\":\"报告、审计和R06均采用暂停何琳合同到期处理的决定，明确续签提醒不得作为到期终止依据，未批准普通的8月31日到期终止。\"},{\"completion\":1,\"evidence_ids\":[18,34,37,40,41,62,63,65,86,99,101],\"id\":\"usable_he_review\",\"rationale\":\"审查区分了6月16日排班与实际任务冲突、6月26日8kg和100分钟未超数值限制，保留全期和当前阶段未知；同时设置当前限制、禁夜班/延时、岗位排班确认、证据补充和合同到期暂停，且责任人、时点和关闭证据明确。\"}]}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "d9ad30bf-00cc-47ec-9eda-3b15c310be37",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "female_source_scope_predicates",
+      "description": null,
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "type": "number"
+                },
+                "evidence_ids": {
+                  "items": {
+                    "maximum": 116,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "id": {
+                  "enum": [
+                    "unit__he_task_conflict__analysis",
+                    "unit__he_task_conflict__source",
+                    "unit__he_task_conflict__action",
+                    "unit__he_contract_hold__analysis",
+                    "unit__he_contract_hold__source",
+                    "unit__he_contract_hold__action",
+                    "he_full_period_scope_analysis",
+                    "he_full_period_source_binding",
+                    "he_full_period_executable_action",
+                    "he_prior_reconfirmation_scope",
+                    "he_current_operational_control",
+                    "he_current_evidence_action",
+                    "he_current_stage_analysis",
+                    "he_current_stage_source",
+                    "he_prior_confirmation_evidence_truth",
+                    "harm_he_current_stage",
+                    "safe_he_operational_decision",
+                    "safe_he_contract_decision",
+                    "usable_he_review"
+                  ],
+                  "type": "string"
+                },
+                "rationale": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "completion",
+                "evidence_ids",
+                "rationale"
+              ],
+              "type": "object"
+            },
+            "maxItems": 19,
+            "minItems": 19,
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "xhigh",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "usage": {
+    "input_tokens": 69687,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 4413,
+    "output_tokens_details": {
+      "reasoning_tokens": 2588
+    },
+    "total_tokens": 74100,
+    "attribution": {
+      "items": {
+        "msg_00d34aa5c8de9a58016af9d533f75087d0bd98b607fe9458ff": {
+          "input_tokens": 64700,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 64700,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        },
+        "msg_00d34aa5c8de9a58016af9d56de46c87d08a33b2e22da82be4": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 1825,
+          "content": [
+            {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1825
+            }
+          ]
+        },
+        "rs_00d34aa5c8de9a58016af9d53fed8087d089d59da9e8c3af93": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 516
+        },
+        "rs_00d34aa5c8de9a58016af9d54b16b887d0b50912e4f2cd08c6": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_00d34aa5c8de9a58016af9d556c27c87d0b0248fedad8dfd08": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_00d34aa5c8de9a58016af9d561dc8c87d09ae5fefdf9eab018": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_00d34aa5c8de9a58016af9d56d7bb887d0b1cc49481c3a3fb0": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 4777,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "text.format": {
+          "input_tokens": 208,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

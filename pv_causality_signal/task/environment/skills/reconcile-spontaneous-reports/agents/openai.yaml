@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconcile Spontaneous Reports"
+  short_description: "Build stable case populations from follow-ups"
+  default_prompt: "Use $reconcile-spontaneous-reports to build a version-stable case ledger before analysis."

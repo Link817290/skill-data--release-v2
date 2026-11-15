@@ -1,0 +1,12 @@
+{
+  "version": "godot-handover-source-and-professional-evidence-v3",
+  "runtime_files": {
+    "judge.py": "e0355ff55e083c9e558f3e86b09ef684359cdb877f5ba18478dceb0e75e00573",
+    "contract.json": "7fc47a6e01efc088337f98a4dcd3ceeacd6f264bbd48a581cf2767c06e7342b8",
+    "prompt.md": "289c189a2a1c3b293e3d36c689521269bfd50ef7431a24b2d045625287513c8a",
+    "settings.json": "5ec83a4ad590cd1d1c6c07ba7d595326573c8a4bfbaf1f3fba5b1cef68f78752",
+    "response.schema.json": "8dd277af3966e1471f95e5a236e41317e4efaae3a7dec64c3d808f26c195b6b6",
+    "authority.json": "ed09045d6db74a59070748e62070f2dd3c7eca7a84a01f19693124bfdc016710"
+  },
+  "no_scoring_parameters": true
+}

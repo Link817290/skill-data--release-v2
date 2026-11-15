@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "items": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "score": {"type": ["number", "null"], "enum": [0, 1, null]},
+          "reason": {"type": "string"}
+        },
+        "required": ["score", "reason"]
+      }
+    }
+  },
+  "required": ["items"]
+}

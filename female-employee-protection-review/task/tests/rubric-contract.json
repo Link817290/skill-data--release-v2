@@ -1,0 +1,53 @@
+{
+  "schema_version": "female-source-rubric-v1",
+  "positive_items": {
+    "chen_case": {
+      "weight": 0.07,
+      "definition": "Mean(conditional payroll analysis/known-error correction/source-payroll bridge; maternity/HRIS correction; receipt/trigger/funding reconciliation; three September-return nursing protection abilities)."
+    },
+    "he_historical_period": {
+      "weight": 0.05,
+      "definition": "Full signed-adjustment-period analysis .5 + correct source binding .25 + accountable historical actual-task query .25."
+    },
+    "he_other_protection": {
+      "weight": 0.05,
+      "definition": "Mean(task/version conflict, original prior-confirmation query, current-stage proof review, currently safe job controls, ordinary-expiry hold)."
+    },
+    "wang_contract": {
+      "weight": 0.05,
+      "definition": "Conditional source-bound expiry/ineffective-draft hold and continuation analysis."
+    },
+    "wang_current_nursing": {
+      "weight": 0.37,
+      "definition": "Actual current nursing arrangement and correction/verification of inappropriate existing schedule fields, with an accountable path. Future prevention alone is not a substitute."
+    },
+    "zhao_current": {
+      "weight": 0.05,
+      "definition": "Mean(actual-night source analysis, payroll correction/true deduction-period link, current protective controls)."
+    },
+    "zhao_historical_use": {
+      "weight": 0.31,
+      "definition": "Mean of six independent binary abilities: actual-use evidence boundary and accountable historical inquiry for each May18-22,July14,Aug8 episode. Whole-period mapped inquiries can cover multiple episodes."
+    },
+    "zhou_current": {
+      "weight": 0.05,
+      "definition": "Mean(actual-night source analysis, payroll correction/performance review, protection control, actual event correction)."
+    }
+  },
+  "deduction_items": {
+    "D_BLOCKING_OPERATION": {
+      "utility_debit": 0.6
+    },
+    "D_FACT_DETAIL": {
+      "utility_debit": 0.02
+    }
+  },
+  "settlement": {
+    "B": "weighted completion sum",
+    "U": "B**3",
+    "strict": "max(.3*U,U-sum(unique causal event utility debits))",
+    "binary": "All seven independently evaluated minimum-usable current-business predicates pass. No strict threshold."
+  },
+  "partial_credit": "Complementary abilities retain their means. Basic source-analysis units use adopted analysis*(.5+.25 source binding+.25 accountable action). An actual current clinical evidence plan itself establishes current-proof adoption. No lexical adoption gate.",
+  "damage_ownership": "Repeated same-cause renderings are one event. Adopted known-record blocking and same-final-output timing conflicts have exclusive error ownership, with only their corresponding correctness atom conditionally credited. Independent missing inquiries remain missing. Conservative nonblocking calendar/clinical/source details have .02 utility debit; actual blocking execution/rights errors .6."
+}

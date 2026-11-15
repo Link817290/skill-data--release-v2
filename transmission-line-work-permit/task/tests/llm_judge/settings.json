@@ -1,0 +1,18 @@
+{
+  "model": "gpt-5.6-sol",
+  "protocol": "responses",
+  "protocol_status": "Actual official-client provider wire capture with strict source-selector validation.",
+  "max_output_tokens": 16384,
+  "reasoning_effort": "medium",
+  "temperature": null,
+  "timeout_sec": 900,
+  "attempts": 1,
+  "endpoint_env": "LLM_JUDGE_ENDPOINT",
+  "api_key_env": "LLM_JUDGE_API_KEY",
+  "model_env": "LLM_JUDGE_MODEL",
+  "protocol_env": "LLM_JUDGE_PROTOCOL",
+  "mode_default": "replay",
+  "credentials_policy": "Trusted host/verifier only. No credentials in package, candidate environment, requests on disk or logs.",
+  "budget_note": "8192 is an explicit output budget for this multi-point JSON response, not an assertion of reasoning-token usage. No implicit AML juice/effort settings.",
+  "transport": "official-codex-cli"
+}

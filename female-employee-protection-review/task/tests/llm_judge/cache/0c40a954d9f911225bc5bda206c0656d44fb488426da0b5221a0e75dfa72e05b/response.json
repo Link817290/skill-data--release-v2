@@ -1,0 +1,2040 @@
+{
+  "transport": "parallel-source-scope-responses-v1",
+  "responses": {
+    "HZ240117": {
+      "input_transformations": [],
+      "id": "resp_0a438d6a6b878072016af9d533f15087d09521d320d71971d0",
+      "object": "response",
+      "created_at": 1794757940,
+      "completed_at": 1794758133,
+      "status": "completed",
+      "background": false,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "moderation": null,
+      "model": "gpt-5.6-sol",
+      "access_programs": null,
+      "previous_response_id": null,
+      "instructions": null,
+      "output": [
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d541124c87d09e8c586fda10495f",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d54d75bc87d0bd466eaabdca7a76",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5598a2487d0b5a025ceb1a8f9bb",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5647c3887d0bf75052576c7fda7",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d57030dc87d0b077e933bbd23a32",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d57a889087d0b5324b78d7250284",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d586144c87d09dc6f17f40bbfc9f",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d591df3487d0ba853764360d86d4",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d59c3f4487d08ad53d1aa0079c72",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5a8562c87d0a050f2a584c194aa",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5b32eec87d0904ef664aab6100d",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5bea1d887d09ef8d4392ee2ae10",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5c8ccdc87d08a8f3cc72ee49603",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5d38de087d090856493ac02afc7",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0a438d6a6b878072016af9d5d4e9b087d09d5ab13eba69a6ef",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "message",
+          "id": "msg_0a438d6a6b878072016af9d5d5302487d0a124075fd1fdce20",
+          "role": "assistant",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[49,57,17,108,110,112],\"id\":\"unit__zhou_actual_night__analysis\",\"rationale\":\"报告和审计行明确采纳HZ240117周倩在2026-07-21实际跨夜工作：将02-03的V2排班作为计划，将02-05的23:08至次日07:04门禁/考勤、夜审交接及现场任务作为实绩，并以02-07群聊说明临时安排。报告没有以津贴或到岗事实替代保护判断。\"},{\"completion\":1,\"evidence_ids\":[49,56,57,17,107,108,110,113],\"id\":\"unit__zhou_actual_night__source\",\"rationale\":\"结论绑定了正确员工、日期和原始记录：HZ240117、7月21日、7月7日孕周及7月8日申请、V2排班、门禁/夜审交接和夜间交接任务；报告与审计将其作为保护风险适用02-08关于孕期七个月以上不得安排夜班的规则，而非单纯列出文件。\"},{\"completion\":1,\"evidence_ids\":[47,57,59,83,32,108,110],\"id\":\"unit__zhou_actual_night__action\",\"rationale\":\"报告P12要求立即撤销后续夜班和延时、形成7月21日事实记录并由员工关系部复核；P0及R01进一步给出门店HR、客房经理、薪酬中心、2026-09-01和新排班/更正/冲正记录等关闭证据。报告按发布版本和实际记录建立链路，保留原V2排班及实绩来源的可追溯性。\"},{\"completion\":1,\"evidence_ids\":[58,59,17,26,111,113],\"id\":\"unit__zhou_pay__analysis\",\"rationale\":\"报告明确采纳撤销并恢复周倩300元绩效记录，且明确120元夜班津贴独立保留、不得与300元净额化；审计总览和金额核验也作出同一实体结论，适用了分项记录规则。\"},{\"completion\":1,\"evidence_ids\":[49,58,17,26,111,113],\"id\":\"unit__zhou_pay__source\",\"rationale\":\"该结论绑定HZ240117的2026年7月绩效处理和工资台账：02-05记录夜班覆盖未完成扣减300，02-06记录300扣减及120津贴，审计列明两项分开处理；报告将这些原始记录与适用的分项、不得抵销规则结合分析。\"},{\"completion\":1,\"evidence_ids\":[59,83,32,26,111],\"id\":\"unit__zhou_pay__action\",\"rationale\":\"P12、P0和R01形成了可执行的纠正计划：门店HR、客房经理、薪酬中心负责，截止2026-09-01，关闭证据包括绩效更正单和工资冲正记录；R01备注和金额核验均保留120元津贴单列，未将其作为300元扣减的抵销。\"},{\"completion\":1,\"evidence_ids\":[49,56,57,59,17,107,113],\"id\":\"unit__zhou_protection__analysis\",\"rationale\":\"报告采纳7月7日孕28周+5天及7月8日保护申请，确认7月21日实际夜班，并明确实际到岗或120元津贴不能抵销保护；P12要求撤销后续夜班和延时。审计行同步记录该保护风险及纠正动作。\"},{\"completion\":1,\"evidence_ids\":[56,57,59,17,107,108,110,113],\"id\":\"unit__zhou_protection__source\",\"rationale\":\"报告将周倩/HZ240117的医疗记录和申请、7月21日V2排班、23:08-07:04实际考勤、夜间交接任务及临时安排逐项绑定，并以02-08关于孕期七个月以上禁夜班/延时且不以津贴或自愿顶班为前提的规则作出实质结论。\"},{\"completion\":1,\"evidence_ids\":[59,83,32,113],\"id\":\"unit__zhou_protection__action\",\"rationale\":\"报告P12明确要求立即撤销后续夜班和延时；R01由门店HR、客房经理等负责，限期完成并以新排班等记录关闭，且审计行标明员工关系部复核、120元津贴单列。该计划建立了不以津贴、到岗或同意放弃保护为条件的后续排班控制。\"},{\"completion\":1,\"evidence_ids\":[58,59,32,26,111],\"id\":\"zhou_performance_record\",\"rationale\":\"报告P11要求撤销300元并恢复绩效记录，P12要求冲销，审计金额行和R01分别提供300元项目、绩效更正单及工资冲正记录，形成了可追踪的原记录到更正记录的调整，同时处理工资后果。\"},{\"completion\":1,\"evidence_ids\":[57,59,17,32,112],\"id\":\"zhou_event_review\",\"rationale\":\"报告P12明确要求对7月21日建立事实记录并由集团员工关系部复核；审计R01将集团员工关系部列为审批/复核人，且这些动作直接链接到报告和审计已确认的实际夜班事件，而非无关事项。\"},{\"completion\":1,\"evidence_ids\":[49,56,107],\"id\":\"safe_zhou_medical_arithmetic\",\"rationale\":\"报告和审计只采用原始材料中的2026-07-07孕28周+5天，没有把该数字绑定为7月21日或8月31日的错误孕周，也没有采纳额外的错误日期计算。\"},{\"completion\":1,\"evidence_ids\":[57,59,17,113],\"id\":\"safe_zhou_protection_decision\",\"rationale\":\"报告承认保护期内实际夜班已经发生，但明确其不能被津贴或实际到岗抵销，并采取撤销后续夜班/延时的保护措施；没有实际授权或采纳继续安排受保护夜班的结论。\"},{\"completion\":1,\"evidence_ids\":[58,59,26,32,111],\"id\":\"safe_zhou_payroll_decision\",\"rationale\":\"报告和审计明确要求撤销或冲销300元绩效扣减，并将120元夜班津贴单列；没有保留300元扣减有效或用120元抵销300元的采用性决定。\"},{\"completion\":1,\"evidence_ids\":[49,57,59,17,26,32],\"id\":\"usable_zhou_review\",\"rationale\":\"当前审查已识别HZ240117在2026-07-21的受保护实际夜班，明确未来取消夜班/延时，并提出300元绩效扣减更正且120元津贴独立保留；报告、审计和R01共同提供了责任人、时点及可观察关闭记录。\"}]}",
+              "annotations": [],
+              "logprobs": []
+            }
+          ],
+          "phase": "final_answer"
+        }
+      ],
+      "error": null,
+      "incomplete_details": null,
+      "tools": [],
+      "tool_choice": "auto",
+      "parallel_tool_calls": true,
+      "prompt_cache_key": "d143a6a3-424a-4b5e-ba96-1ee379849085",
+      "prompt_cache_retention": "24h",
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "name": "female_source_scope_predicates",
+          "description": null,
+          "schema": {
+            "additionalProperties": false,
+            "properties": {
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "completion": {
+                      "enum": [
+                        0,
+                        1
+                      ],
+                      "type": "number"
+                    },
+                    "evidence_ids": {
+                      "items": {
+                        "maximum": 116,
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "minItems": 1,
+                      "type": "array"
+                    },
+                    "id": {
+                      "enum": [
+                        "unit__zhou_actual_night__analysis",
+                        "unit__zhou_actual_night__source",
+                        "unit__zhou_actual_night__action",
+                        "unit__zhou_pay__analysis",
+                        "unit__zhou_pay__source",
+                        "unit__zhou_pay__action",
+                        "unit__zhou_protection__analysis",
+                        "unit__zhou_protection__source",
+                        "unit__zhou_protection__action",
+                        "zhou_performance_record",
+                        "zhou_event_review",
+                        "safe_zhou_medical_arithmetic",
+                        "safe_zhou_protection_decision",
+                        "safe_zhou_payroll_decision",
+                        "usable_zhou_review"
+                      ],
+                      "type": "string"
+                    },
+                    "rationale": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "completion",
+                    "evidence_ids",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 15,
+                "minItems": 15,
+                "type": "array"
+              }
+            },
+            "required": [
+              "items"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "top_p": 0.98,
+      "top_logprobs": 0,
+      "temperature": 1.0,
+      "reasoning": {
+        "effort": "xhigh",
+        "context": "all_turns",
+        "summary": null,
+        "mode": "standard"
+      },
+      "user": null,
+      "usage": {
+        "input_tokens": 68214,
+        "input_tokens_details": {
+          "cached_tokens": 68096,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 0,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 8920,
+        "output_tokens_details": {
+          "reasoning_tokens": 7312
+        },
+        "total_tokens": 77134,
+        "attribution": {
+          "items": {
+            "msg_0a438d6a6b878072016af9d533f23487d0a77752edcc2aeb57": {
+              "input_tokens": 63244,
+              "cached_tokens": 63128,
+              "cache_write_tokens": 0,
+              "output_tokens": 0,
+              "content": [
+                {
+                  "input_tokens": 63244,
+                  "cached_tokens": 63128,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 0
+                }
+              ]
+            },
+            "msg_0a438d6a6b878072016af9d5d5302487d0a124075fd1fdce20": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1608,
+              "content": [
+                {
+                  "input_tokens": 0,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 1608
+                }
+              ]
+            },
+            "rs_0a438d6a6b878072016af9d541124c87d09e8c586fda10495f": {
+              "input_tokens": 2,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 516
+            },
+            "rs_0a438d6a6b878072016af9d54d75bc87d0bd466eaabdca7a76": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5598a2487d0b5a025ceb1a8f9bb": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5647c3887d0bf75052576c7fda7": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d57030dc87d0b077e933bbd23a32": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d57a889087d0b5324b78d7250284": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d586144c87d09dc6f17f40bbfc9f": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d591df3487d0ba853764360d86d4": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d59c3f4487d08ad53d1aa0079c72": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5a8562c87d0a050f2a584c194aa": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5b32eec87d0904ef664aab6100d": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5bea1d887d09ef8d4392ee2ae10": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5c8ccdc87d08a8f3cc72ee49603": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5d38de087d090856493ac02afc7": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0a438d6a6b878072016af9d5d4e9b087d09d5ab13eba69a6ef": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 62
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "input_tokens": 4777,
+              "cached_tokens": 4777,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            },
+            "text.format": {
+              "input_tokens": 191,
+              "cached_tokens": 191,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          }
+        }
+      },
+      "tool_usage": {
+        "image_gen": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "input_tokens_details": {
+            "text_tokens": 0,
+            "image_tokens": 0
+          },
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          }
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+      "store": false,
+      "metadata": {},
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "service_tier": "default",
+      "truncation": "disabled",
+      "image": {
+        "context_compression": "disabled"
+      }
+    },
+    "HZ230144": {
+      "input_transformations": [],
+      "id": "resp_071dd5bf26286e17016af9d53405cc87d08a85767e51ddddaa",
+      "object": "response",
+      "created_at": 1794757940,
+      "completed_at": 1794758133,
+      "status": "completed",
+      "background": false,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "moderation": null,
+      "model": "gpt-5.6-sol",
+      "access_programs": null,
+      "previous_response_id": null,
+      "instructions": null,
+      "output": [
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d54099d887d0bf495265e2cdfe65",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d54c9f7087d080e25dcd64a38f17",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d558175c87d09efc4d20039d3973",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d56394e887d08293653ac10f4d3f",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d56f829887d09fa8725c5f0f6e0f",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d57b1f5487d08e0c7ca7b1009ce0",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d586896087d098448ff2ffcb7f8e",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d5929b7087d08b7db235d90ad2f9",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d59de7c087d0bdc9a6a16ae2c8a6",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d5a8170887d0b5171bb086fcfef5",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d5b38c1087d0ba7b8358dce64b8e",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d5bf046087d0a733fabb4dfc25ec",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d5caa89487d09e7891927fcad053",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_071dd5bf26286e17016af9d5d2b81c87d0960a3be5eaef1ef1",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "message",
+          "id": "msg_071dd5bf26286e17016af9d5d2f69c87d08330a3aaf5240112",
+          "role": "assistant",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[52,73,20,108,110,112],\"id\":\"unit__zhao_actual_night__analysis\",\"rationale\":\"报告明确区分7月12日补录的22:00-06:00计划与02-05门禁、夜审交接确认的21:58至次日06:08实际跨夜工作；审计总览也采用赵敏实际夜班结论。\"},{\"completion\":1,\"evidence_ids\":[20,52,72,73,108,110,112,113],\"id\":\"unit__zhao_actual_night__source\",\"rationale\":\"报告和审计行均绑定赵敏、2026年7月12日、出生及哺乳申请、排班补录、客房经理沟通、门禁/夜审交接和现场任务记录，并适用02-08的哺乳期禁夜班规则。\"},{\"completion\":1,\"evidence_ids\":[35,75,89,73,110],\"id\":\"unit__zhao_actual_night__action\",\"rationale\":\"R04由门店HR、客房经理和薪酬中心负责，规定9月2日前纠正、9月5日前全期核验，以无夜班及延时的新排班、记录和实际使用核验关闭；该计划与已确认的7月12日实际夜班直接关联。\"},{\"completion\":1,\"evidence_ids\":[20,27,52,74,75,111,113],\"id\":\"unit__zhao_pay__analysis\",\"rationale\":\"报告采用了175元哺乳时间扣减应立即冲正的实质结论，审计总览和日期金额核验行也明确列示赵敏175元应冲正，而非仅引用工资字段。\"},{\"completion\":1,\"evidence_ids\":[20,27,52,74,103,111,113],\"id\":\"unit__zhao_pay__source\",\"rationale\":\"分析绑定赵敏、2026年7月工资中的175元、哺乳申请及缺失的实际时段记录，并以02-08关于哺乳时间不得作缺勤或普通事假扣减的规则支持冲正结论。\"},{\"completion\":1,\"evidence_ids\":[35,75,89,111],\"id\":\"unit__zhao_pay__action\",\"rationale\":\"R04明确由薪酬中心参与，在9月2日前完成175元冲正，关闭证据包括冲正记录、扣减五日及所属月份明细和全期核验，形成可验证的纠正路径。\"},{\"completion\":1,\"evidence_ids\":[20,52,72,73,75,113],\"id\":\"unit__zhao_protection__analysis\",\"rationale\":\"报告采用出生日期2025年11月15日、每日1小时哺乳安排、7月12日实际夜班和02-08规则的联结结论，明确该夜班与未满一周岁哺乳保护冲突并要求删除后续夜班。\"},{\"completion\":1,\"evidence_ids\":[20,52,72,73,108,110,112,113],\"id\":\"unit__zhao_protection__source\",\"rationale\":\"报告及审计行绑定赵敏的出生证明和申请、02-04安排、7月12日排班及沟通、02-05实际工作记录，并适用哺乳未满一周岁不得安排夜班或延时且应安排哺乳时间的规则。\"},{\"completion\":1,\"evidence_ids\":[35,75,89,72,113],\"id\":\"unit__zhao_protection__action\",\"rationale\":\"R04计划删除赵敏后续夜班和延时安排并补建哺乳时间登记，由门店HR、客房经理和薪酬中心按明确期限执行，以新排班、登记和核验材料关闭，覆盖当前及后续保护控制。\"},{\"completion\":1,\"evidence_ids\":[103,108,110,35,93],\"id\":\"zhao_may18_22_evidence_boundary\",\"rationale\":\"报告明确指出5月18至22日排班字段为空不证明实际使用或拒绝，7月14日和8月8日的15:00-16:00字段也只证明计划；同时要求回溯5月13日至8月31日真实记录，缺证保持未知。\"},{\"completion\":1,\"evidence_ids\":[103,35,89,110,112],\"id\":\"zhao_may18_22_retrospective_verification\",\"rationale\":\"P51和R04要求由客房经理、薪酬共享中心及门店HR在明确期限内取得扣减导入资料、真实当班/交接记录及员工确认，逐日回溯实际哺乳安排，无法补证不倒签。\"},{\"completion\":1,\"evidence_ids\":[103,108,110,35],\"id\":\"zhao_july14_evidence_boundary\",\"rationale\":\"报告明确记载7月14日排班预留15:00-16:00仅是计划，不能据此认定实际已使用，并将该日期纳入全期实际使用核验。\"},{\"completion\":1,\"evidence_ids\":[103,35,89,110],\"id\":\"zhao_july14_retrospective_verification\",\"rationale\":\"R04及P51建立了覆盖7月14日的5月13日至8月31日历史回溯，由明确责任人按9月5日前取得真实记录和员工确认，缺证保留未知。\"},{\"completion\":1,\"evidence_ids\":[103,108,110,35],\"id\":\"zhao_aug8_evidence_boundary\",\"rationale\":\"报告保留8月8日15:00-16:00为排班计划，并结合02-05现场任务记录中哺乳时段未另记，明确不能由计划字段推定实际使用或拒绝。\"},{\"completion\":1,\"evidence_ids\":[103,35,89,110],\"id\":\"zhao_aug8_retrospective_verification\",\"rationale\":\"R04/P51将8月8日纳入全期逐日实际安排回溯，要求真实当班、交接记录及员工确认，并规定无法补证的日期保持未知。\"},{\"completion\":1,\"evidence_ids\":[103,110,111,35],\"id\":\"zhao_deduction_period_link\",\"rationale\":\"P51明确175元为2026年7月5日乘35元但没有五日明细，5月18至22日恰为五个空字段不证明日期相同，并要求取得扣减日期/导入明细及所属月份；该事项与175元冲正分开处理。\"},{\"completion\":1,\"evidence_ids\":[103,108,110],\"id\":\"safe_zhao_aug08_source_field\",\"rationale\":\"没有采用8月8日排班字段为空的错误断言；报告明确承认8月8日排班预留15:00-16:00，只将实际哺乳时段视为未单独记录并待核。\"},{\"completion\":1,\"evidence_ids\":[72,73,75,89,113],\"id\":\"safe_zhao_protection_decision\",\"rationale\":\"采用的操作决定是删除后续夜班、禁止延时并补建哺乳登记，未授权赵敏继续受保护夜班，也未删除每日哺乳时间权利。\"},{\"completion\":1,\"evidence_ids\":[27,74,75,111],\"id\":\"safe_zhao_payroll_decision\",\"rationale\":\"报告、审计核验和R04均采用175元哺乳时间扣减应冲正的决定，没有保留该扣减有效或采用错误抵销。\"},{\"completion\":1,\"evidence_ids\":[20,52,73,75,89,103,113],\"id\":\"usable_zhao_review\",\"rationale\":\"当前审查已识别7月12日实际夜班，要求停止后续夜班和延时，保留每日1小时哺乳安排并冲正175元；同时对5月及7月14日、8月8日实际使用保持未知并安排有责任人和期限的历史核验。\"}]}",
+              "annotations": [],
+              "logprobs": []
+            }
+          ],
+          "phase": "final_answer"
+        }
+      ],
+      "error": null,
+      "incomplete_details": null,
+      "tools": [],
+      "tool_choice": "auto",
+      "parallel_tool_calls": true,
+      "prompt_cache_key": "edf8170c-1b2b-4abd-9fa6-2abfe4c27b4c",
+      "prompt_cache_retention": "24h",
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "name": "female_source_scope_predicates",
+          "description": null,
+          "schema": {
+            "additionalProperties": false,
+            "properties": {
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "completion": {
+                      "enum": [
+                        0,
+                        1
+                      ],
+                      "type": "number"
+                    },
+                    "evidence_ids": {
+                      "items": {
+                        "maximum": 116,
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "minItems": 1,
+                      "type": "array"
+                    },
+                    "id": {
+                      "enum": [
+                        "unit__zhao_actual_night__analysis",
+                        "unit__zhao_actual_night__source",
+                        "unit__zhao_actual_night__action",
+                        "unit__zhao_pay__analysis",
+                        "unit__zhao_pay__source",
+                        "unit__zhao_pay__action",
+                        "unit__zhao_protection__analysis",
+                        "unit__zhao_protection__source",
+                        "unit__zhao_protection__action",
+                        "zhao_may18_22_evidence_boundary",
+                        "zhao_may18_22_retrospective_verification",
+                        "zhao_july14_evidence_boundary",
+                        "zhao_july14_retrospective_verification",
+                        "zhao_aug8_evidence_boundary",
+                        "zhao_aug8_retrospective_verification",
+                        "zhao_deduction_period_link",
+                        "safe_zhao_aug08_source_field",
+                        "safe_zhao_protection_decision",
+                        "safe_zhao_payroll_decision",
+                        "usable_zhao_review"
+                      ],
+                      "type": "string"
+                    },
+                    "rationale": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "completion",
+                    "evidence_ids",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 20,
+                "minItems": 20,
+                "type": "array"
+              }
+            },
+            "required": [
+              "items"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "top_p": 0.98,
+      "top_logprobs": 0,
+      "temperature": 1.0,
+      "reasoning": {
+        "effort": "xhigh",
+        "context": "all_turns",
+        "summary": null,
+        "mode": "standard"
+      },
+      "user": null,
+      "usage": {
+        "input_tokens": 72025,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 0,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 8899,
+        "output_tokens_details": {
+          "reasoning_tokens": 7107
+        },
+        "total_tokens": 80924,
+        "attribution": {
+          "items": {
+            "msg_071dd5bf26286e17016af9d53406ec87d0bcce61a169ca35aa": {
+              "input_tokens": 66985,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0,
+              "content": [
+                {
+                  "input_tokens": 66985,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 0
+                }
+              ]
+            },
+            "msg_071dd5bf26286e17016af9d5d2f69c87d08330a3aaf5240112": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1792,
+              "content": [
+                {
+                  "input_tokens": 0,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 1792
+                }
+              ]
+            },
+            "rs_071dd5bf26286e17016af9d54099d887d0bf495265e2cdfe65": {
+              "input_tokens": 2,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 516
+            },
+            "rs_071dd5bf26286e17016af9d54c9f7087d080e25dcd64a38f17": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d558175c87d09efc4d20039d3973": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d56394e887d08293653ac10f4d3f": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d56f829887d09fa8725c5f0f6e0f": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d57b1f5487d08e0c7ca7b1009ce0": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d586896087d098448ff2ffcb7f8e": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d5929b7087d08b7db235d90ad2f9": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d59de7c087d0bdc9a6a16ae2c8a6": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d5a8170887d0b5171bb086fcfef5": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d5b38c1087d0ba7b8358dce64b8e": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d5bf046087d0a733fabb4dfc25ec": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d5caa89487d09e7891927fcad053": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_071dd5bf26286e17016af9d5d2b81c87d0960a3be5eaef1ef1": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 375
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "input_tokens": 4777,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            },
+            "text.format": {
+              "input_tokens": 261,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          }
+        }
+      },
+      "tool_usage": {
+        "image_gen": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "input_tokens_details": {
+            "text_tokens": 0,
+            "image_tokens": 0
+          },
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          }
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+      "store": false,
+      "metadata": {},
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "service_tier": "default",
+      "truncation": "disabled",
+      "image": {
+        "context_compression": "disabled"
+      }
+    },
+    "HZ230086": {
+      "input_transformations": [],
+      "id": "resp_00d34aa5c8de9a58016af9d533f6b887d085ff3ce6e9692b62",
+      "object": "response",
+      "created_at": 1794757940,
+      "completed_at": 1794758033,
+      "status": "completed",
+      "background": false,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "moderation": null,
+      "model": "gpt-5.6-sol",
+      "access_programs": null,
+      "previous_response_id": null,
+      "instructions": null,
+      "output": [
+        {
+          "type": "reasoning",
+          "id": "rs_00d34aa5c8de9a58016af9d53fed8087d089d59da9e8c3af93",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_00d34aa5c8de9a58016af9d54b16b887d0b50912e4f2cd08c6",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_00d34aa5c8de9a58016af9d556c27c87d0b0248fedad8dfd08",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_00d34aa5c8de9a58016af9d561dc8c87d09ae5fefdf9eab018",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_00d34aa5c8de9a58016af9d56d7bb887d0b1cc49481c3a3fb0",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "message",
+          "id": "msg_00d34aa5c8de9a58016af9d56de46c87d08a33b2e22da82be4",
+          "role": "assistant",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[18,50,62,63,108,110],\"id\":\"unit__he_task_conflict__analysis\",\"rationale\":\"报告明确绑定HZ230086并区分6月16日已发布“宴会布置”与现场“预订台”实际任务，认定两版记录不一致；同时明确6月26日布草篮约8kg、连续站立1小时40分未超过10kg和2小时限制，不据样本推出全期合规。\"},{\"completion\":1,\"evidence_ids\":[18,50,61,62,63,107,109,110],\"id\":\"unit__he_task_conflict__source\",\"rationale\":\"报告和审计总览均以HZ230086为对象，关联6月16日、6月26日、医疗证明、临时调整、排班版本和现场任务记录，并以医疗限制作为比较规则，具有实质事实和来源绑定。\"},{\"completion\":1,\"evidence_ids\":[34,40,65,85,100,109,110],\"id\":\"unit__he_task_conflict__action\",\"rationale\":\"R03要求餐饮经理和门店HR在9月5日前补充6月15日至7月31日实际任务确认并修正版本关联，以签字任务清单和版本修订记录关闭；R09及报告进一步要求保留原版本并提交检索或补证结果。\"},{\"completion\":1,\"evidence_ids\":[18,64,65,86,112,113],\"id\":\"unit__he_contract_hold__analysis\",\"rationale\":\"报告针对何琳明确识别2026年8月31日原到期日、在职待续签状态和仅有续签提醒，采用合同保护规则得出不得将提醒直接转为到期终止，并要求补当前阶段证明。审计总览同样记录该结论。\"},{\"completion\":1,\"evidence_ids\":[18,64,86,107,112,113],\"id\":\"unit__he_contract_hold__source\",\"rationale\":\"审查将何琳、8月31日合同节点、在职待续签记录、当前证明缺口和劳动合同保护规则相互绑定，而非仅列出HRIS或一般法律材料。\"},{\"completion\":1,\"evidence_ids\":[7,37,65,86,112],\"id\":\"unit__he_contract_hold__action\",\"rationale\":\"R06及报告处理意见要求立即暂停何琳合同到期处理，更新合同状态，并由门店HR、员工关系部和餐饮经理补充最新孕产证明或阶段确认记录；关闭证据和责任路径已列明。\"},{\"completion\":1,\"evidence_ids\":[34,65,85,99,109,110],\"id\":\"he_full_period_scope_analysis\",\"rationale\":\"报告和R03均采用6月15日至7月31日这一签字临时调整全期，要求补充实际任务确认并修正版本关联；该范围明确说明6月16日、6月26日材料不能代表每一天。\"},{\"completion\":1,\"evidence_ids\":[18,34,61,65,85,99,109,110],\"id\":\"he_full_period_source_binding\",\"rationale\":\"全期范围绑定何琳HZ230086、6月15日至7月31日、ADJ-260612-04签字调整、宴会布置/预订台实际任务和排班及现场记录，来源事实与员工和期间对应。\"},{\"completion\":1,\"evidence_ids\":[4,34,65,85,109,110],\"id\":\"he_full_period_executable_action\",\"rationale\":\"R03由餐饮经理和门店HR负责，截止9月5日，要求提交全期签字任务清单、版本修订记录；报告同时保留原版本并允许以无法补证说明关闭，构成可执行的全期补充核验。\"},{\"completion\":1,\"evidence_ids\":[10,40,99,100,109,110,112],\"id\":\"he_prior_reconfirmation_scope\",\"rationale\":\"报告和R09明确针对6月26日返回宴会区前的任务及重量重新确认，要求检索原始确认、审批和沟通记录；缺证保持未知、不倒签、不据缺记录推定违规，且独立保留8kg/100分钟数值结论。\"},{\"completion\":1,\"evidence_ids\":[11,41,49,65,101,107,109,112,113],\"id\":\"he_current_operational_control\",\"rationale\":\"R10及报告要求在当前证明补齐前持续执行不超过2小时站立和10kg搬抬限制、禁止夜班和延时劳动，并由员工、餐饮经理和门店HR进行当前岗位班次确认、保护登记及当前后续排班核对，设有立即和9月5日前的时点及关闭证据。\"},{\"completion\":1,\"evidence_ids\":[7,11,37,41,64,86,101,107,112],\"id\":\"he_current_evidence_action\",\"rationale\":\"R06要求补当前孕产阶段证明，R10将该证明与当前岗位、班次、保护登记和后续排班核验联动，责任人为门店HR、员工关系部、餐饮经理及员工，关闭证据为最新证明或阶段确认记录。\"},{\"completion\":1,\"evidence_ids\":[64,86,91,99,101,107],\"id\":\"he_current_stage_analysis\",\"rationale\":\"报告明确说明现有日期推算不能替代当前临床证明，当前阶段需补证，并在补证前维持医疗限制和保护安排；这既识别了6月10日证明的时效边界，也采取了后续临床证据行动。\"},{\"completion\":1,\"evidence_ids\":[50,61,64,65,91,101,107,109,112],\"id\":\"he_current_stage_source\",\"rationale\":\"何琳当前审查关联6月10日医疗证明、6月15日至7月31日签字临时调整、8月31日合同节点及当前孕产阶段证明缺口，并对应排班、合同和沟通来源，形成可追溯的员工和事件绑定。\"},{\"completion\":1,\"evidence_ids\":[10,40,99,100,109,112],\"id\":\"he_prior_confirmation_evidence_truth\",\"rationale\":\"材料只说明未提供6月26日前先行重新确认记录，报告和行动均明确保留未知、不倒签、不从缺记录认定未经确认已违规；没有把证据缺口表述为历史确认必然未履行。\"},{\"completion\":1,\"evidence_ids\":[64,86,91,99,101,107],\"id\":\"harm_he_current_stage\",\"rationale\":\"候选材料没有声称仅凭6月10日孕周和预产期已验证8月31日或9月的实际临床阶段，反而要求补最新孕产证明并明确日期推算不替代当前临床证明。\"},{\"completion\":1,\"evidence_ids\":[18,40,41,62,63,99,101,107,113],\"id\":\"safe_he_operational_decision\",\"rationale\":\"材料没有授权超过2小时或10kg限制的任务，也没有把6月26日样本当作全期合规依据；行动明确继续执行医疗限制、禁止夜班和延时，并将全期事实保持待核。\"},{\"completion\":1,\"evidence_ids\":[18,37,64,65,86,112,113],\"id\":\"safe_he_contract_decision\",\"rationale\":\"报告、审计和R06均采用暂停何琳合同到期处理的决定，明确续签提醒不得作为到期终止依据，未批准普通的8月31日到期终止。\"},{\"completion\":1,\"evidence_ids\":[18,34,37,40,41,62,63,65,86,99,101],\"id\":\"usable_he_review\",\"rationale\":\"审查区分了6月16日排班与实际任务冲突、6月26日8kg和100分钟未超数值限制，保留全期和当前阶段未知；同时设置当前限制、禁夜班/延时、岗位排班确认、证据补充和合同到期暂停，且责任人、时点和关闭证据明确。\"}]}",
+              "annotations": [],
+              "logprobs": []
+            }
+          ],
+          "phase": "final_answer"
+        }
+      ],
+      "error": null,
+      "incomplete_details": null,
+      "tools": [],
+      "tool_choice": "auto",
+      "parallel_tool_calls": true,
+      "prompt_cache_key": "d9ad30bf-00cc-47ec-9eda-3b15c310be37",
+      "prompt_cache_retention": "24h",
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "name": "female_source_scope_predicates",
+          "description": null,
+          "schema": {
+            "additionalProperties": false,
+            "properties": {
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "completion": {
+                      "enum": [
+                        0,
+                        1
+                      ],
+                      "type": "number"
+                    },
+                    "evidence_ids": {
+                      "items": {
+                        "maximum": 116,
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "minItems": 1,
+                      "type": "array"
+                    },
+                    "id": {
+                      "enum": [
+                        "unit__he_task_conflict__analysis",
+                        "unit__he_task_conflict__source",
+                        "unit__he_task_conflict__action",
+                        "unit__he_contract_hold__analysis",
+                        "unit__he_contract_hold__source",
+                        "unit__he_contract_hold__action",
+                        "he_full_period_scope_analysis",
+                        "he_full_period_source_binding",
+                        "he_full_period_executable_action",
+                        "he_prior_reconfirmation_scope",
+                        "he_current_operational_control",
+                        "he_current_evidence_action",
+                        "he_current_stage_analysis",
+                        "he_current_stage_source",
+                        "he_prior_confirmation_evidence_truth",
+                        "harm_he_current_stage",
+                        "safe_he_operational_decision",
+                        "safe_he_contract_decision",
+                        "usable_he_review"
+                      ],
+                      "type": "string"
+                    },
+                    "rationale": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "completion",
+                    "evidence_ids",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 19,
+                "minItems": 19,
+                "type": "array"
+              }
+            },
+            "required": [
+              "items"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "top_p": 0.98,
+      "top_logprobs": 0,
+      "temperature": 1.0,
+      "reasoning": {
+        "effort": "xhigh",
+        "context": "all_turns",
+        "summary": null,
+        "mode": "standard"
+      },
+      "user": null,
+      "usage": {
+        "input_tokens": 69687,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 0,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 4413,
+        "output_tokens_details": {
+          "reasoning_tokens": 2588
+        },
+        "total_tokens": 74100,
+        "attribution": {
+          "items": {
+            "msg_00d34aa5c8de9a58016af9d533f75087d0bd98b607fe9458ff": {
+              "input_tokens": 64700,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0,
+              "content": [
+                {
+                  "input_tokens": 64700,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 0
+                }
+              ]
+            },
+            "msg_00d34aa5c8de9a58016af9d56de46c87d08a33b2e22da82be4": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1825,
+              "content": [
+                {
+                  "input_tokens": 0,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 1825
+                }
+              ]
+            },
+            "rs_00d34aa5c8de9a58016af9d53fed8087d089d59da9e8c3af93": {
+              "input_tokens": 2,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 516
+            },
+            "rs_00d34aa5c8de9a58016af9d54b16b887d0b50912e4f2cd08c6": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_00d34aa5c8de9a58016af9d556c27c87d0b0248fedad8dfd08": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_00d34aa5c8de9a58016af9d561dc8c87d09ae5fefdf9eab018": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_00d34aa5c8de9a58016af9d56d7bb887d0b1cc49481c3a3fb0": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "input_tokens": 4777,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            },
+            "text.format": {
+              "input_tokens": 208,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          }
+        }
+      },
+      "tool_usage": {
+        "image_gen": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "input_tokens_details": {
+            "text_tokens": 0,
+            "image_tokens": 0
+          },
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          }
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+      "store": false,
+      "metadata": {},
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "service_tier": "default",
+      "truncation": "disabled",
+      "image": {
+        "context_compression": "disabled"
+      }
+    },
+    "HZ220031": {
+      "input_transformations": [],
+      "id": "resp_0c7b40c60f5515dc016af9d53403dc87d0b13b95576168a4d6",
+      "object": "response",
+      "created_at": 1794757940,
+      "completed_at": 1794758082,
+      "status": "completed",
+      "background": false,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "moderation": null,
+      "model": "gpt-5.6-sol",
+      "access_programs": null,
+      "previous_response_id": null,
+      "instructions": null,
+      "output": [
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d5401ff887d0bc1a0db902ce212b",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d54c16b487d0af04eb58b7f502a7",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d556fea087d0bf6d1bb621b3333d",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d56291b087d0b66059284dbd7af1",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d56ed85087d0a4a3632efca530ff",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d57a73f487d09040f215c9c2c6dc",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d586208487d0a510735bdce3e9b1",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d59114c887d0a637af7a0cb5e33c",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0c7b40c60f5515dc016af9d59c0a3c87d080a148d843a93c38",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "message",
+          "id": "msg_0c7b40c60f5515dc016af9d59c731087d099c08b138ba02407",
+          "role": "assistant",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[67,68,70,19,25,33],\"id\":\"unit__chen_system__analysis\",\"rationale\":\"报告明确将陈璇2026年7月25日至31日的未打卡/普通缺勤处理认定为产假状态错误，要求删除普通缺勤标记并修正HRIS；审计总览、日期金额核验和R02整改行均支持该结论及冲正路径。\"},{\"completion\":1,\"evidence_ids\":[67,68,70,107,108,110,111,112,113,19,25],\"id\":\"unit__chen_system__source\",\"rationale\":\"复核将HZ220031、2026年7月25日至31日排班和未打卡记录、1680元扣减及400元冻结、等待津贴回单的沟通记录，与已核验出生证明和适用产假规则相互绑定，形成了具体来源审查而非文件清单。\"},{\"completion\":1,\"evidence_ids\":[3,33,70,105],\"id\":\"unit__chen_system__action\",\"rationale\":\"R02由门店HR、前厅经理和薪酬中心负责，设定9月2日及后续核验节点，并以HRIS日志、工资冲正、分项工资、冻结过账、银行勾稽和差额说明关闭；报告同时明确先纠正错误状态。\"},{\"completion\":1,\"evidence_ids\":[67,70,25,107,113],\"id\":\"chen_calendar_conditional_analysis\",\"rationale\":\"报告和审计核验识别了4月18日生育一孩、158日自然日，并作出9月22日截止、9月23日返岗的完整边界分析，同时要求修正产假截止日和系统状态。\"},{\"completion\":1,\"evidence_ids\":[17,25,68,69,70,102,111],\"id\":\"chen_pay_conditional_analysis\",\"rationale\":\"材料分别识别1680元缺勤扣减、400元考勤冻结和待回单津贴，报告要求分别纠正和勾稽；审计记录将周倩的120元夜班津贴作为独立项目处理，且工资源账分析了各项目关系。\"},{\"completion\":1,\"evidence_ids\":[3,33,92,105,111],\"id\":\"chen_receipt_followup\",\"rationale\":\"R02指定HR、前厅经理和薪酬中心取得工资分项、冻结过账、银行及津贴勾稽材料并留存关闭证据；报告确认回单尚未归档，规定以官方回单和实际资金路径继续核对，未提前确定最终净责任。\"},{\"completion\":1,\"evidence_ids\":[3,33,102,111],\"id\":\"chen_payroll_source_bridge\",\"rationale\":\"报告明确核对7200减1680等于5520、系统记录5120所形成的400元差额，并与另行记录的400元冻结关联，要求由薪酬共享中心、财务和门店HR分项说明，避免重复补付或漏补。\"},{\"completion\":1,\"evidence_ids\":[102,105,111,3,33],\"id\":\"chen_final_payment_responsibility_path\",\"rationale\":\"候选材料保留官方津贴、企业责任和净支付未决，并要求结合工资分项、实际银行支付、冻结过账、官方回单和员工收悉凭证，由薪酬共享中心、财务和门店HR完成最终责任勾稽，仅支付尚未支付的差额。\"},{\"completion\":1,\"evidence_ids\":[104,52,12,42,107,113],\"id\":\"chen_september_phase_handoff\",\"rationale\":\"报告和R11把4月18日一孩、158日、9月22日结束与9月实际返岗后的哺乳阶段衔接起来；明确实际返岗才切换阶段，若有合法延长则继续维持休假保护，不预设9月23日必然返岗。\"},{\"completion\":1,\"evidence_ids\":[104,52,12,42,113],\"id\":\"chen_postreturn_nursing_work_time\",\"rationale\":\"候选报告及R11明确规定陈璇实际返岗且婴儿未满一周岁时，每日劳动时间内安排1小时哺乳时间，计作劳动时间且不得作为缺勤扣薪，并由排班和HR流程核验留痕。\"},{\"completion\":1,\"evidence_ids\":[104,52,12,42,113],\"id\":\"chen_postreturn_no_night_overtime\",\"rationale\":\"报告和R11将陈璇实际返岗后的阶段控制明确为不得安排夜班或延长劳动时间，且与实际返岗、阶段登记和九月排班核验相连，而非仅保留到产假结束。\"},{\"completion\":1,\"evidence_ids\":[70,105,3,33,68,69],\"id\":\"chen_known_record_correction\",\"rationale\":\"报告要求删除普通缺勤标记、解冻400元冻结并对1680元扣减进行冲正；R02和分阶段关闭说明明确已知缺勤/冻结记录先行纠正，最终津贴净额另行处理。\"},{\"completion\":1,\"evidence_ids\":[69,70,105,14,44],\"id\":\"chen_affirmative_correction_consistency\",\"rationale\":\"没有 adopted 的“等津贴回单才纠正”指令。相反，报告要求先撤销错误缺勤和考勤状态，分阶段说明也明确已知记录纠正不等待回单，仅最终支付责任和净额等待后续证据。\"},{\"completion\":1,\"evidence_ids\":[105,14,3,33,92],\"id\":\"benefit_execution_trigger_consistency\",\"rationale\":\"候选材料有意义地区分了9月2日前的已知记录纠正和临时勾稽、9月5日前的工资/银行核验，以及收到官方回单和实际资金路径后的最终清算；临时期限未被转化为最终待遇清算截止日，流程触发关系一致。\"},{\"completion\":1,\"evidence_ids\":[105,14,44,3,33],\"id\":\"benefit_affirmative_execution_consistency\",\"rationale\":\"未发现同一最终待遇清算输出同时承担互不相容的回单期限和现金到账期限。材料明确将临时工资勾稽、实际支付核验和最终净责任结算作为分离阶段，最终阶段没有被赋予冲突的固定完成时钟。\"},{\"completion\":1,\"evidence_ids\":[67,25,104,107,113],\"id\":\"harm_chen_calendar\",\"rationale\":\"候选报告和审计核验均采用4月18日计第1天、158日、9月22日截止和9月23日返岗；未见采用错误日期、错误天数或提前结束保护的 affirmative calendar assertion。\"},{\"completion\":1,\"evidence_ids\":[69,70,105,14,44],\"id\":\"safe_chen_current_wage_execution\",\"rationale\":\"报告没有把待回单写成无需支付，也没有要求以津贴回单作为先行纠正7月记录的条件；其区分了已知缺勤/冻结纠正与最终津贴、企业责任和净额勾稽。\"},{\"completion\":1,\"evidence_ids\":[67,68,70,104,25,12,42],\"id\":\"safe_chen_leave_decision\",\"rationale\":\"候选材料没有提前结束产假、强制9月23日前返岗或保留7月25日至31日普通缺勤为合法状态，反而采用9月22日边界、删除普通缺勤并以实际返岗和可能延长休假作为后续条件。\"},{\"completion\":1,\"evidence_ids\":[67,68,69,70,102,105,25,33,107,111],\"id\":\"usable_chen_review\",\"rationale\":\"最低可用审查要求均具备：已核验4月18日一孩证明和158日边界，修正7月普通缺勤/未打卡处理，分别识别1680元和400元错误项目，提供有责任人和关闭证据的纠正及勾稽路径，并保留津贴、实际付款和最终企业/基金净责任未决。\"}]}",
+              "annotations": [],
+              "logprobs": []
+            }
+          ],
+          "phase": "final_answer"
+        }
+      ],
+      "error": null,
+      "incomplete_details": null,
+      "tools": [],
+      "tool_choice": "auto",
+      "parallel_tool_calls": true,
+      "prompt_cache_key": "f6049cfc-8a52-4594-9636-9d14df2751d4",
+      "prompt_cache_retention": "24h",
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "name": "female_source_scope_predicates",
+          "description": null,
+          "schema": {
+            "additionalProperties": false,
+            "properties": {
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "completion": {
+                      "enum": [
+                        0,
+                        1
+                      ],
+                      "type": "number"
+                    },
+                    "evidence_ids": {
+                      "items": {
+                        "maximum": 116,
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "minItems": 1,
+                      "type": "array"
+                    },
+                    "id": {
+                      "enum": [
+                        "unit__chen_system__analysis",
+                        "unit__chen_system__source",
+                        "unit__chen_system__action",
+                        "chen_calendar_conditional_analysis",
+                        "chen_pay_conditional_analysis",
+                        "chen_receipt_followup",
+                        "chen_payroll_source_bridge",
+                        "chen_final_payment_responsibility_path",
+                        "chen_september_phase_handoff",
+                        "chen_postreturn_nursing_work_time",
+                        "chen_postreturn_no_night_overtime",
+                        "chen_known_record_correction",
+                        "chen_affirmative_correction_consistency",
+                        "benefit_execution_trigger_consistency",
+                        "benefit_affirmative_execution_consistency",
+                        "harm_chen_calendar",
+                        "safe_chen_current_wage_execution",
+                        "safe_chen_leave_decision",
+                        "usable_chen_review"
+                      ],
+                      "type": "string"
+                    },
+                    "rationale": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "completion",
+                    "evidence_ids",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 19,
+                "minItems": 19,
+                "type": "array"
+              }
+            },
+            "required": [
+              "items"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "top_p": 0.98,
+      "top_logprobs": 0,
+      "temperature": 1.0,
+      "reasoning": {
+        "effort": "xhigh",
+        "context": "all_turns",
+        "summary": null,
+        "mode": "standard"
+      },
+      "user": null,
+      "usage": {
+        "input_tokens": 70550,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 0,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 6512,
+        "output_tokens_details": {
+          "reasoning_tokens": 4660
+        },
+        "total_tokens": 77062,
+        "attribution": {
+          "items": {
+            "msg_0c7b40c60f5515dc016af9d534056c87d0bc6e9f1853ca63e7": {
+              "input_tokens": 65557,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0,
+              "content": [
+                {
+                  "input_tokens": 65557,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 0
+                }
+              ]
+            },
+            "msg_0c7b40c60f5515dc016af9d59c731087d099c08b138ba02407": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1852,
+              "content": [
+                {
+                  "input_tokens": 0,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 1852
+                }
+              ]
+            },
+            "rs_0c7b40c60f5515dc016af9d5401ff887d0bc1a0db902ce212b": {
+              "input_tokens": 2,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 516
+            },
+            "rs_0c7b40c60f5515dc016af9d54c16b487d0af04eb58b7f502a7": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0c7b40c60f5515dc016af9d556fea087d0bf6d1bb621b3333d": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0c7b40c60f5515dc016af9d56291b087d0b66059284dbd7af1": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0c7b40c60f5515dc016af9d56ed85087d0a4a3632efca530ff": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0c7b40c60f5515dc016af9d57a73f487d09040f215c9c2c6dc": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0c7b40c60f5515dc016af9d586208487d0a510735bdce3e9b1": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0c7b40c60f5515dc016af9d59114c887d0a637af7a0cb5e33c": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0c7b40c60f5515dc016af9d59c0a3c87d080a148d843a93c38": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "input_tokens": 4777,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            },
+            "text.format": {
+              "input_tokens": 214,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          }
+        }
+      },
+      "tool_usage": {
+        "image_gen": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "input_tokens_details": {
+            "text_tokens": 0,
+            "image_tokens": 0
+          },
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          }
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+      "store": false,
+      "metadata": {},
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "service_tier": "default",
+      "truncation": "disabled",
+      "image": {
+        "context_compression": "disabled"
+      }
+    },
+    "HZ240052": {
+      "input_transformations": [],
+      "id": "resp_03fd183ed53e736f016af9d535936c87d0954880134ce1786f",
+      "object": "response",
+      "created_at": 1794757941,
+      "completed_at": 1794757995,
+      "status": "completed",
+      "background": false,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "moderation": null,
+      "model": "gpt-5.6-sol",
+      "access_programs": null,
+      "previous_response_id": null,
+      "instructions": null,
+      "output": [
+        {
+          "type": "reasoning",
+          "id": "rs_03fd183ed53e736f016af9d54232f487d0bcb5e5b7aa9fb5ba",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_03fd183ed53e736f016af9d54ef2b887d0a69ec112b16856bd",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_03fd183ed53e736f016af9d55b52f487d0994bdcf655ee5a58",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "message",
+          "id": "msg_03fd183ed53e736f016af9d55bcad487d088283ae13f473a09",
+          "role": "assistant",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[76,77,78,79,80,107,112,113],\"id\":\"wang_contract_conditional_analysis\",\"rationale\":\"报告明确采用王雪出生证明对应的2025-10-06出生日、原合同2026-08-31到期日及8月1日形成但未送达的离职审批草稿，认定草稿未生效且不得视为已解除；同时明确暂停到期离职处理并由员工关系部在保护期结束前复核其他法定事由和正式程序。相关分析绑定了02-02出生证明、02-07合同及沟通记录，并由R05规定责任人、状态更新和审批撤回证据。\"},{\"completion\":1,\"evidence_ids\":[39,53,97,98,107,108,109,113],\"id\":\"wang_nursing_schedule_correction\",\"rationale\":\"报告和R08采纳王雪当前每日劳动时间内1小时哺乳安排，并明确按劳动时间管理；同时将2026-08-25和08-31排班中的“不适用”字段认定为需更正，要求门店HR、财务经理和排班主管核实实际安排。R08规定立即至9月5日前完成原排班与更正版、每日1小时安排及员工实际情况确认，形成可观察关闭证据；结论与02-02出生证明、02-03排班记录及02-08制度绑定。\"},{\"completion\":1,\"evidence_ids\":[21,28,53,78,87,94,107,108,113],\"id\":\"harm_wang_calendar\",\"rationale\":\"候选材料采用2025-10-06出生日，并将哺乳保护截止写为2026-10-05或婴儿满1周岁前一日，没有把2026-10-06作为保护日。该边界与出生证明、排班日期和制度规则相符。\"},{\"completion\":1,\"evidence_ids\":[21,36,53,76,77,79,80,87,94,112],\"id\":\"safe_wang_contract_decision\",\"rationale\":\"候选材料明确离职审批草稿尚未送达、未生效且不能写成已经解除，并实际采用暂停离职审批、暂停到期离职标记和更新保护期状态的决定；没有采纳2026-08-31普通到期终止或在2026-10-05前停止保护。\"},{\"completion\":1,\"evidence_ids\":[39,53,78,80,87,97,98,107,108,112,113],\"id\":\"usable_wang_review\",\"rationale\":\"王雪审查同时区分未送达草稿与完成解除，暂停普通8月31日到期处理，维持保护至2026-10-05并安排保护期结束前的法定事由和正式程序复核；当前排班部分明确更正“不适用”字段、落实每日劳动时间内1小时哺乳且按劳动时间管理，并由门店HR、财务经理和排班主管以更正版排班、安排记录和员工确认闭环。\"}]}",
+              "annotations": [],
+              "logprobs": []
+            }
+          ],
+          "phase": "final_answer"
+        }
+      ],
+      "error": null,
+      "incomplete_details": null,
+      "tools": [],
+      "tool_choice": "auto",
+      "parallel_tool_calls": true,
+      "prompt_cache_key": "29c0a51c-6d2e-4e7d-afd4-1654be45dd22",
+      "prompt_cache_retention": "24h",
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "name": "female_source_scope_predicates",
+          "description": null,
+          "schema": {
+            "additionalProperties": false,
+            "properties": {
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "completion": {
+                      "enum": [
+                        0,
+                        0.25,
+                        0.5,
+                        0.75,
+                        1
+                      ],
+                      "type": "number"
+                    },
+                    "evidence_ids": {
+                      "items": {
+                        "maximum": 116,
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "minItems": 1,
+                      "type": "array"
+                    },
+                    "id": {
+                      "enum": [
+                        "wang_contract_conditional_analysis",
+                        "wang_nursing_schedule_correction",
+                        "harm_wang_calendar",
+                        "safe_wang_contract_decision",
+                        "usable_wang_review"
+                      ],
+                      "type": "string"
+                    },
+                    "rationale": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "completion",
+                    "evidence_ids",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 5,
+                "minItems": 5,
+                "type": "array"
+              }
+            },
+            "required": [
+              "items"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "top_p": 0.98,
+      "top_logprobs": 0,
+      "temperature": 1.0,
+      "reasoning": {
+        "effort": "xhigh",
+        "context": "all_turns",
+        "summary": null,
+        "mode": "standard"
+      },
+      "user": null,
+      "usage": {
+        "input_tokens": 66366,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 0,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 2258,
+        "output_tokens_details": {
+          "reasoning_tokens": 1552
+        },
+        "total_tokens": 68624,
+        "attribution": {
+          "items": {
+            "msg_03fd183ed53e736f016af9d535946087d080a933ba2030f1f0": {
+              "input_tokens": 61464,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0,
+              "content": [
+                {
+                  "input_tokens": 61464,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 0
+                }
+              ]
+            },
+            "msg_03fd183ed53e736f016af9d55bcad487d088283ae13f473a09": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 706,
+              "content": [
+                {
+                  "input_tokens": 0,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 706
+                }
+              ]
+            },
+            "rs_03fd183ed53e736f016af9d54232f487d0bcb5e5b7aa9fb5ba": {
+              "input_tokens": 2,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 516
+            },
+            "rs_03fd183ed53e736f016af9d54ef2b887d0a69ec112b16856bd": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_03fd183ed53e736f016af9d55b52f487d0994bdcf655ee5a58": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "input_tokens": 4777,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            },
+            "text.format": {
+              "input_tokens": 123,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          }
+        }
+      },
+      "tool_usage": {
+        "image_gen": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "input_tokens_details": {
+            "text_tokens": 0,
+            "image_tokens": 0
+          },
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          }
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+      "store": false,
+      "metadata": {},
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "service_tier": "default",
+      "truncation": "disabled",
+      "image": {
+        "context_compression": "disabled"
+      }
+    },
+    "all": {
+      "input_transformations": [],
+      "id": "resp_0f654fb32b6d2395016af9d5341a0487d0a8ceb317d36f4551",
+      "object": "response",
+      "created_at": 1794757940,
+      "completed_at": 1794758067,
+      "status": "completed",
+      "background": false,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "moderation": null,
+      "model": "gpt-5.6-sol",
+      "access_programs": null,
+      "previous_response_id": null,
+      "instructions": null,
+      "output": [
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d53e48d887d086189460ed45d1fc",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d5479bd087d08ceb57ccdb9b551b",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d550ee8c87d0b45dc58746f5f613",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d55a419c87d0885152c2250966fc",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d56394a087d0bb1c2e6229e28bf9",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d56ce79087d0b75fd80edd34ca67",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d5763a6c87d09b0cb24fb56b1b46",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d57f8d5487d0bce7adaf76260008",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d588e04487d0a3e2a2d732540c6f",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d592333887d0ad9eff35ee09e6fc",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d59b863887d0af9c474f40b8c9f6",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0f654fb32b6d2395016af9d59fc12887d0a2821fd6ec626d9a",
+          "summary": [],
+          "content": [],
+          "encrypted_content": "[omitted from portable replay]"
+        },
+        {
+          "type": "message",
+          "id": "msg_0f654fb32b6d2395016af9d59ffcf487d09eca9299bcbff6ef",
+          "role": "assistant",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[47,49,50,51,52,53,63,64,69,74,79,91,92,93,94,95,99,101,102,103,105,107,108,109,110,111,112,113],\"id\":\"usable_evidence_truth\",\"rationale\":\"The adopted findings are grounded in the supplied employee proofs, schedules, actual-task and attendance records, payroll ledger, communications, contract records and rules. The candidate preserves uncertainty for He Lin's current stage and prior confirmation record, Chen Xuan's benefit net and cash path, Zhao Min's daily nursing use, and Wang Xue's actual nursing arrangements. Corrections and holds remain expressly pending rather than being represented as completed, and no material protective, payroll or contract conclusion is fabricated or reversed.\"},{\"completion\":1,\"evidence_ids\":[2,3,4,5,6,7,9,10,11,12,14,83,84,85,86,87,89,98,100,101,102,103,104,105,106,113],\"id\":\"usable_accountable_open_controls\",\"rationale\":\"The linked report and action carriers assign responsible functions, executable timing, review or approval functions, status and observable closure evidence for all five employees. They cover Zhou Qian's schedule and RMB300 correction, He Lin's current restrictions and contract hold, Chen Xuan's known record corrections and staged reconciliation, Zhao Min's immediate correction plus full-period verification, and Wang Xue's contract hold and nursing-field correction. Missing proof is paired with protective interim controls and accountable checkpoints.\"},{\"completion\":1,\"evidence_ids\":[2,3,4,5,6,7,9,10,11,12,17,18,19,20,21,32,33,34,35,36,37,39,40,41,42,49,50,51,52,53,83,84,85,86,87,89,97,99,101,102,103,104,105],\"id\":\"delivery_cross_file_consistency\",\"rationale\":\"The report, audit workbook and action workbook preserve the same employee-specific findings, pending statuses and adopted actions. The September 2 current corrections and September 5 verification milestones for Zhao Min and Chen Xuan are staged outputs rather than conflicts; Chen Xuan's final benefit net remains conditional, and He Lin's under-limit task finding remains separate from the missing prior-confirmation record. No neighboring employee's date or action is transferred to another employee.\"},{\"completion\":1,\"evidence_ids\":[2,3,5,9,10,11,12,17,18,19,20,21,56,57,61,62,67,68,69,72,73,77,78,97,99,102,104,105,106,107,108,109,110,111,112,113],\"id\":\"delivery_reference_resolution\",\"rationale\":\"The material tokens 02-01 through 02-08 resolve to the eight supplied original records, including precise aliases such as 02-01/P12, 02-03 schedule rows 9-10 and 02-05 task row 4. R01-R11 resolve across the audit and action registers, while P0/P1 are identified priority labels rather than unsupported source authorities. No dangling source token is used to sustain an adopted finding.\"},{\"completion\":1,\"evidence_ids\":[47,56,57,61,62,64,67,68,69,72,73,74,77,78,79,98,99,101,102,103,104,105,107,108,109,110,111,112],\"id\":\"delivery_timeline_integrity\",\"rationale\":\"The review distinguishes proof and receipt dates, schedule publication, actual attendance or task performance, payroll record dates, contract-draft status, future correction deadlines and later verification. It does not treat Chen Xuan's September 23 date as an actual return, a planned nursing slot as actual use, a payroll ledger value as proven cash payment, or missing post-July records as proof that He Lin's protection stopped. Staged correction, verification and final settlement states remain distinct.\"},{\"completion\":1,\"evidence_ids\":[9,10,11,12,17,18,19,20,21,47,56,57,61,62,67,68,69,72,73,77,78,97,99,102,104,106,107,108,109,110,111,112,113],\"id\":\"delivery_source_inventory\",\"rationale\":\"The carriers provide a usable distributed source register: the report identifies the source categories and repeatedly maps findings to material IDs, the audit rows list principal evidence by employee, and the action rows add exact paragraph, row and policy aliases. Together these cover 02-01 through 02-08 and preserve relevant dates, May-August schedule versions, record provenance, payroll period and applicable policy version sufficiently for review.\"}]}",
+              "annotations": [],
+              "logprobs": []
+            }
+          ],
+          "phase": "final_answer"
+        }
+      ],
+      "error": null,
+      "incomplete_details": null,
+      "tools": [],
+      "tool_choice": "auto",
+      "parallel_tool_calls": true,
+      "prompt_cache_key": "aa773e6c-c104-4545-8275-09e0df10355e",
+      "prompt_cache_retention": "24h",
+      "text": {
+        "format": {
+          "type": "json_schema",
+          "name": "female_source_scope_predicates",
+          "description": null,
+          "schema": {
+            "additionalProperties": false,
+            "properties": {
+              "items": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "completion": {
+                      "enum": [
+                        0,
+                        1
+                      ],
+                      "type": "number"
+                    },
+                    "evidence_ids": {
+                      "items": {
+                        "maximum": 116,
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "minItems": 1,
+                      "type": "array"
+                    },
+                    "id": {
+                      "enum": [
+                        "usable_evidence_truth",
+                        "usable_accountable_open_controls",
+                        "delivery_cross_file_consistency",
+                        "delivery_reference_resolution",
+                        "delivery_timeline_integrity",
+                        "delivery_source_inventory"
+                      ],
+                      "type": "string"
+                    },
+                    "rationale": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "completion",
+                    "evidence_ids",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 6,
+                "minItems": 6,
+                "type": "array"
+              }
+            },
+            "required": [
+              "items"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "verbosity": "medium"
+      },
+      "top_p": 0.98,
+      "top_logprobs": 0,
+      "temperature": 1.0,
+      "reasoning": {
+        "effort": "xhigh",
+        "context": "all_turns",
+        "summary": null,
+        "mode": "standard"
+      },
+      "user": null,
+      "usage": {
+        "input_tokens": 66212,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 0,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 6998,
+        "output_tokens_details": {
+          "reasoning_tokens": 5931
+        },
+        "total_tokens": 73210,
+        "attribution": {
+          "items": {
+            "msg_0f654fb32b6d2395016af9d5341ac087d0b851d8aad789ab7a": {
+              "input_tokens": 61321,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0,
+              "content": [
+                {
+                  "input_tokens": 61321,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 0
+                }
+              ]
+            },
+            "msg_0f654fb32b6d2395016af9d59ffcf487d09eca9299bcbff6ef": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1067,
+              "content": [
+                {
+                  "input_tokens": 0,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 1067
+                }
+              ]
+            },
+            "rs_0f654fb32b6d2395016af9d53e48d887d086189460ed45d1fc": {
+              "input_tokens": 2,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 516
+            },
+            "rs_0f654fb32b6d2395016af9d5479bd087d08ceb57ccdb9b551b": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d550ee8c87d0b45dc58746f5f613": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d55a419c87d0885152c2250966fc": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d56394a087d0bb1c2e6229e28bf9": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d56ce79087d0b75fd80edd34ca67": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d5763a6c87d09b0cb24fb56b1b46": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d57f8d5487d0bce7adaf76260008": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d588e04487d0a3e2a2d732540c6f": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d592333887d0ad9eff35ee09e6fc": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d59b863887d0af9c474f40b8c9f6": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 518
+            },
+            "rs_0f654fb32b6d2395016af9d59fc12887d0a2821fd6ec626d9a": {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 235
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "input_tokens": 4777,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            },
+            "text.format": {
+              "input_tokens": 112,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          }
+        }
+      },
+      "tool_usage": {
+        "image_gen": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0,
+          "input_tokens_details": {
+            "text_tokens": 0,
+            "image_tokens": 0
+          },
+          "output_tokens_details": {
+            "image_tokens": 0,
+            "text_tokens": 0
+          }
+        },
+        "web_search": {
+          "num_requests": 0
+        }
+      },
+      "safety_identifier": "user-aYcHhBWdEWyiQJ1cgpK2f4vn",
+      "store": false,
+      "metadata": {},
+      "max_output_tokens": null,
+      "max_tool_calls": null,
+      "service_tier": "default",
+      "truncation": "disabled",
+      "image": {
+        "context_compression": "disabled"
+      }
+    }
+  }
+}

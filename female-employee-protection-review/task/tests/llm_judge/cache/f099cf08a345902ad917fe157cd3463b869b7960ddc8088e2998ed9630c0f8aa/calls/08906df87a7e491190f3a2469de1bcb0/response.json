@@ -1,0 +1,219 @@
+{
+  "input_transformations": [],
+  "id": "resp_0659a75afd09b404016af9d694742c87d0ab7d62a633bf9ae7",
+  "object": "response",
+  "created_at": 1794758292,
+  "completed_at": 1794758326,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "model": "gpt-5.6-sol",
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_0659a75afd09b404016af9d6a1e16087d09673ce78042602ab",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "message",
+      "id": "msg_0659a75afd09b404016af9d6a256c087d0a9462b89f4d92cb7",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[17,26,49,57,58,59,83],\"id\":\"usable_zhou_review\",\"rationale\":\"报告及原始排班、考勤和沟通记录共同确认周倩2026-07-21实际跨夜工作；处理意见撤销后续夜班、冲正300元绩效扣减，并明确120元夜班津贴单列，且已有责任人、时点和关闭证据。\"},{\"completion\":1,\"evidence_ids\":[18,50,60,62,63,64,65,85,86,99,101],\"id\":\"usable_he_review\",\"rationale\":\"材料区分了6月16日排班与实际任务不一致，以及6月26日8kg、1小时40分且未超过医疗数值限制；同时要求补证前持续执行医疗限制、禁夜班和延时，并暂停到期终止、落实当前岗位排班确认。\"},{\"completion\":1,\"evidence_ids\":[19,25,51,67,68,69,70,84,102,104,105],\"id\":\"usable_chen_review\",\"rationale\":\"已采用核验的一孩证明、158个自然日、4月18日计第1天，确定9月22日截止和9月23日返岗；明确纠正7月25日至31日普通缺勤，分别处理1680元扣减和400元冻结，并保留津贴及最终净支付待回单勾稽。\"},{\"completion\":1,\"evidence_ids\":[20,27,52,72,73,74,75,89,103],\"id\":\"usable_zhao_review\",\"rationale\":\"原始排班、考勤和现场记录确认7月12日实际22:00至次日06:00夜班；报告要求删除后续夜班、禁止延时、每日1小时哺乳时间按劳动时间管理并冲正175元，同时对5月缺失记录保持待核并安排全期追溯。\"},{\"completion\":1,\"evidence_ids\":[21,28,53,76,77,78,79,80,87,97,98],\"id\":\"usable_wang_review\",\"rationale\":\"材料明确离职草稿未送达、尚未完成终止，因此要求暂停到期处理并保护至2026-10-05 inclusive；同时要求更正8月25日和31日哺乳字段、落实每日1小时劳动时间安排、核实实际情况并留存关闭证据。\"},{\"completion\":1,\"evidence_ids\":[17,19,20,21,25,26,44,49,50,51,52,53,57,58,67,68,69,73,74,77,78,79,92,93,94,95,102,103,105],\"id\":\"usable_evidence_truth\",\"rationale\":\"报告保留了排班与实际任务、待回单、缺失哺乳记录和未送达离职草稿等不确定性，没有把拟执行动作写成已完成，也未发现虚构人员、原始记录、审批或现金支付的材料性断言；金额和保护结论按项目独立处理。\"},{\"completion\":1,\"evidence_ids\":[2,3,4,5,6,7,9,10,11,12,32,33,34,35,36,37,39,40,41,42,83,84,85,86,87,89,97,98,100,101,102,104,105],\"id\":\"usable_accountable_open_controls\",\"rationale\":\"整改清单和报告为五人当前纠正、保护性暂停、排班安排及未决事实分别指定了责任函数、完成时点和关闭证据；包括周倩、陈璇、赵敏的薪资/系统纠正，何琳的持续限制与合同 hold，以及王雪的合同和哺乳安排核验。\"}]}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "b3b5d8f7-c9fb-4ea6-8c05-bda6bfcf4e7e",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "focused_source_operation_review",
+      "description": null,
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "type": "integer"
+                },
+                "evidence_ids": {
+                  "items": {
+                    "maximum": 116,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "id": {
+                  "enum": [
+                    "usable_zhou_review",
+                    "usable_he_review",
+                    "usable_chen_review",
+                    "usable_zhao_review",
+                    "usable_wang_review",
+                    "usable_evidence_truth",
+                    "usable_accountable_open_controls"
+                  ],
+                  "type": "string"
+                },
+                "rationale": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "completion",
+                "evidence_ids",
+                "rationale"
+              ],
+              "type": "object"
+            },
+            "maxItems": 7,
+            "minItems": 7,
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "high",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "usage": {
+    "input_tokens": 68351,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 1390,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 69741,
+    "attribution": {
+      "items": {
+        "msg_0659a75afd09b404016af9d69474e887d0afeb3bd743a78b86": {
+          "input_tokens": 63768,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 63768,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        },
+        "msg_0659a75afd09b404016af9d6a256c087d0a9462b89f4d92cb7": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 874,
+          "content": [
+            {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 874
+            }
+          ]
+        },
+        "rs_0659a75afd09b404016af9d6a1e16087d09673ce78042602ab": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 516
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 4466,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "text.format": {
+          "input_tokens": 115,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-3rzQigvAxAP0K1pl0MqHDfcv",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schema","items"],
+  "properties":{
+    "schema":{"type":"string","const":"strict-golden-verdict-v1"},
+    "items":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "additionalProperties":false,
+        "required":["id","status","completion","confidence","golden_evidence","candidate_evidence","defects","reason"],
+        "properties":{
+          "id":{"type":"string"},
+          "status":{"type":"string","enum":["scored","uncertain"]},
+          "completion":{"type":["number","null"],"minimum":0,"maximum":1},
+          "confidence":{"type":"string","enum":["high","medium","low"]},
+          "expected_units":{"type":["number","null"],"minimum":0},
+          "correct_units":{"type":["number","null"],"minimum":0},
+          "golden_evidence":{"type":"array","items":{"type":"string"}},
+          "candidate_evidence":{"type":"array","items":{"type":"string"}},
+          "reason":{"type":"string"},
+          "defects":{"type":"array","items":{
+            "type":"object","additionalProperties":false,
+            "required":["requirement","golden_locator","candidate_locator","explanation"],
+            "properties":{
+              "requirement":{"type":"string"},"golden_locator":{"type":"string"},
+              "candidate_locator":{"type":"string"},"explanation":{"type":"string"}
+            }
+          }}
+        }
+      }
+    }
+  }
+}

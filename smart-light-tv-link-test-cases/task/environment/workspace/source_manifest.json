@@ -1,0 +1,30 @@
+{
+  "origin": "supplied expert materials",
+  "files": [
+    {
+      "path": "materials/b833e23cadd447019f69afb200c14703.pdf",
+      "sha256": "f118ccb140600029c5dfad8088b53b16e8b51e076e9bb87f742265066df279d6",
+      "original_sha256": "f118ccb140600029c5dfad8088b53b16e8b51e076e9bb87f742265066df279d6"
+    },
+    {
+      "path": "materials/Philips_Hue_Ambilight_Function_Spec.docx",
+      "sha256": "594e7ecb13b75ba68b3ab199856b32d442cfcabf8f1f1e1562d55185f8b2ea3a",
+      "original_sha256": "594e7ecb13b75ba68b3ab199856b32d442cfcabf8f1f1e1562d55185f8b2ea3a"
+    },
+    {
+      "path": "materials/Philips_Hue_Ambilight_TV_Function_Test_SOP_EN.docx",
+      "sha256": "9497184a884f6c4c76e0343876a4d18c173a70f0c5f0dc03836ca8007d6360bd",
+      "original_sha256": "9497184a884f6c4c76e0343876a4d18c173a70f0c5f0dc03836ca8007d6360bd"
+    },
+    {
+      "path": "materials/Philips_Hue_Product_Spec_and_Usage_Guide.docx",
+      "sha256": "dbcda39e538fcbc44590d1f87bba13919449d28e6b63ffee945d6666b900a165",
+      "original_sha256": "dbcda39e538fcbc44590d1f87bba13919449d28e6b63ffee945d6666b900a165"
+    },
+    {
+      "path": "materials/product-pdf.pdf",
+      "sha256": "0daf7d14733542da254faf6f994246b9fe0b7c4efa2e89c4e4ed3378a1029152",
+      "original_sha256": "0daf7d14733542da254faf6f994246b9fe0b7c4efa2e89c4e4ed3378a1029152"
+    }
+  ]
+}

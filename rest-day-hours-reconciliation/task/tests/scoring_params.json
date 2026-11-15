@@ -1,0 +1,83 @@
+{
+  "schema": "workflow-curvature-ledger-v1",
+  "version": "1.9",
+  "measurement_weights": {
+    "event_decisions": 0.54,
+    "evidence_chains": 0.18,
+    "intervals": 0.1,
+    "payroll_reconciliation": 0.04,
+    "followup_register": 0.08,
+    "report": 0.06
+  },
+  "settlement": {
+    "family": "curvature",
+    "gamma": 1,
+    "minimum_retention": 0.0,
+    "event_aggregation": "Each event retains partial credit for classification 25%, leave finding 25%, disposition 20%, chronology 18%, and evidence quality 12%; the Lenient gate still requires every core classification and leave decision."
+  },
+  "quality_owners": {
+    "approved_swap": {
+      "weight": 0.11,
+      "event_roles": [
+        "swap_work",
+        "swap_rest"
+      ]
+    },
+    "evidence_chains": {
+      "weight": 0.05,
+      "item_prefix": "evidence:"
+    },
+    "followup_register": {
+      "weight": 0.05,
+      "item_prefix": "followup:"
+    },
+    "intervals": {
+      "weight": 0.05,
+      "item_prefix": "interval:"
+    },
+    "nonwork_archive": {
+      "weight": 0.27,
+      "event_roles": [
+        "no_work"
+      ]
+    },
+    "payroll_reconciliation": {
+      "weight": 0.05,
+      "item_prefix": "payroll:"
+    },
+    "pending_drill": {
+      "weight": 0.19,
+      "event_roles": [
+        "investigate"
+      ]
+    },
+    "report": {
+      "weight": 0.05,
+      "item_prefix": "report:"
+    },
+    "supported_archive": {
+      "weight": 0.08,
+      "event_roles": [
+        "retain"
+      ]
+    },
+    "unarranged_leave": {
+      "weight": 0.05,
+      "event_roles": [
+        "missing_leave"
+      ]
+    },
+    "unsupported_reopen": {
+      "weight": 0.05,
+      "event_roles": [
+        "recheck"
+      ]
+    }
+  },
+  "damage_amounts": {
+    "unsupported_amount": 0.04
+  },
+  "deduplication": "Only independent extra payroll-amount assertions are charged. Required classification, leave, payroll and conflict failures lose their own positive credit without a second penalty.",
+  "omission_policy": "Omissions lose positive credit only.",
+  "lenient": "Binary conjunction of separately evidenced deliverables, core decisions, reproducible intervals, event citations, actionable followups and no adopted pay amount."
+}

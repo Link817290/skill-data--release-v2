@@ -1,0 +1,113 @@
+{
+  "score_profile": "bench",
+  "scoring_params": "tests/scoring_params.json",
+  "strict_formula": "0.90 * business_completion + 0.05 * embedded_independent_validation_receipt + 0.05 * maintainable_event_update_mechanism",
+  "criterion_weight_scope": "Numeric and semantic criterion weights describe their local diagnostic scores. Final strict settlement is defined by scoring_params.",
+  "numeric_criteria": [
+    {
+      "id": "scope",
+      "weight": 0.15,
+      "observable": "Every required work package exactly once"
+    },
+    {
+      "id": "duration_windows",
+      "weight": 0.2,
+      "observable": "Full duration inside a permitted continuous window, respecting readiness and tool availability"
+    },
+    {
+      "id": "resource_feasibility",
+      "weight": 0.15,
+      "observable": "Correct crews/tools and no shared-resource collision"
+    },
+    {
+      "id": "coupled_precedence",
+      "weight": 0.1,
+      "observable": "Replacement finishes before the paired test"
+    },
+    {
+      "id": "documented_priorities",
+      "weight": 0.15,
+      "observable": "Feasible ordered objectives from public planning conditions; accept equivalent starts"
+    },
+    {
+      "id": "followup_calendar",
+      "weight": 0.15,
+      "observable": "Candidate-dependent energization, continuous48h standby,14 calendar day report deadline and one calendar month oil follow-up"
+    },
+    {
+      "id": "gantt_consistency",
+      "weight": 0.1,
+      "observable": "Daily marks agree with actual candidate dates"
+    }
+  ],
+  "semantic_criteria": [
+    {
+      "id": "scope_grain_and_area_identity",
+      "weight": 0.11,
+      "description": "Preserve the Golden's scope grain: 19 radiator groups are one four-transformer total with no invented per-transformer allocation; S remains one package containing its source-listed auxiliary equipment; and T common-enclosure bus and S dock bus remain separate package scopes. An explicit prose comparison is not required when the workbook structure and scope text preserve the distinction. Score 1 for all three meanings, 0.5 for one material omission without contradiction, and 0 for a false count, allocation, aggregation, or merged area identity."
+    },
+    {
+      "id": "readiness_and_paired_deferral",
+      "weight": 0.08,
+      "description": "Treat M readiness as a release assumption rather than proof of arrival, and defer or replan both M and the paired T test when replacement cannot proceed. Score 1 for both controls, 0.5 for one with no contrary claim, and 0 for asserted readiness or an independently proceeding T plan."
+    },
+    {
+      "id": "estimated_duration_basis",
+      "weight": 0.08,
+      "description": "State that package durations are planning estimates rather than observed or manufacturer-standard durations and remain subject to pre-start confirmation. Score 1 when both the provisional status and confirmation boundary are present, otherwise 0."
+    },
+    {
+      "id": "lexicographic_priority",
+      "weight": 0.08,
+      "description": "Apply the documented ordered objective: among feasible plans first finish T as early as possible, then among ties finish all site work as early as possible. Score 1 only when the ordering and both objectives are preserved, otherwise 0."
+    },
+    {
+      "id": "earliest_t_completion_proof",
+      "weight": 0.15,
+      "description": "The adopted T milestone must be feasible under the public M/T precedence, continuous-duration, readiness and closure constraints. Accept a correct schedule and consistent milestone without a written lower-bound proof, enumeration or derivation; these extra explanations are optional. Score 1 for a feasible T milestone and 0 for an infeasible or missing milestone. The historical item identifier is retained only for compatibility."
+    },
+    {
+      "id": "execution_controls_and_closeout",
+      "weight": 0.1,
+      "description": "Preserve the public source's two execution boundaries: site work remains conditional on the approved work plan and applicable outage/work permission; package completion includes the source-required restoration, cleanup and handover rather than only the main intervention or test. Accept integrated workbook-wide conditions and equivalent cross-sheet evidence. Do not additionally require a separate blanket statement that every construction activity is subject to general test-readiness confirmation; the source's test and instrument controls apply in their stated operational context. Score 1 when both pre-start approval/permission and closeout meanings are preserved, 0.5 for one complete meaning with no contradiction, and 0 for an explicit materially unsafe approval, permission or completion boundary."
+    },
+    {
+      "id": "candidate_handback_and_electrical_boundary",
+      "weight": 0.12,
+      "description": "Treat every listed energization time as a candidate milestone requiring passed tests, restoration, handover and operator permission; recognize that circuit-to-protection associations are absent and package completion cannot establish independent energization. Workbook-wide release conditions and package completion definitions apply to all corresponding candidate nodes; do not require the same condition to be repeated in every row. Read cross-sheet evidence together, while respecting any explicit local override. Score 1 for both the release conditions and missing-association boundary, 0.5 for only one, and 0 for treating a planned package finish as authorization or completed energization."
+    },
+    {
+      "id": "actual_state_and_change_propagation",
+      "weight": 0.08,
+      "description": "Keep actual completion, test, permission and energization status pending where the inputs provide no result, and require relevant changes to propagate through paired M/T work and the standby, report and oil-analysis dates that depend on actual events. Score 1 for pending-state discipline plus this downstream propagation, 0.5 for one of them, and 0 for fabricated actual completion or explicitly frozen dependent dates."
+    },
+    {
+      "id": "continuous_standby_and_response",
+      "weight": 0.08,
+      "description": "Define standby as 48 continuous hours from actual energization, including closed site-work days; retain the two-hour response obligation and the public source's separately staffed arrangement that does not consume construction crews. A prospective programme may display standby from candidate energization when its workbook-wide actual-event rule requires the corresponding downstream nodes to be recalculated or shifted; this is equivalent to stating the actual trigger in every standby row. Read these conditions together and do not require automatic formulas. Score 1 for all meanings, 0.5 for an incomplete but noncontradictory arrangement, and 0 for explicit working-day standby, use of undeclared construction capacity, or a fixed planned end that remains unchanged despite delayed actual energization."
+    },
+    {
+      "id": "report_due_event",
+      "weight": 0.05,
+      "description": "Bind the written test report deadline to actual completion of all site work using the source two-week/14-calendar-day rule, while labeling the displayed date provisional. Score 1 for trigger, duration and provisional status, 0.5 for a correct displayed provisional date with an incomplete trigger rule, and 0 for a fixed or incorrectly triggered deadline."
+    },
+    {
+      "id": "oil_followup_event",
+      "weight": 0.07,
+      "description": "Bind the transformer oil follow-up to actual in-service date plus one calendar month and preserve chromatography, moisture and simplified testing. Score 1 for the trigger, calendar rule and complete test scope, 0.5 for a correct provisional date and trigger with incomplete test scope, and 0 for a 30-day/working-day rule, wrong trigger, or cancellation."
+    }
+  ],
+  "artifact_operational_criteria": [
+    {
+      "id": "embedded_independent_validation_receipt",
+      "completion_scale": [0, 0.25, 0.5, 0.75, 1],
+      "description": "A workbook-contained, reproducible validation receipt for interval/resource feasibility and the ordered T/site result; equivalent methods count and a written proof is not required."
+    },
+    {
+      "id": "maintainable_event_update_mechanism",
+      "completion_scale": [0, 0.25, 0.5, 0.75, 1],
+      "description": "A formula-driven or structured manual mechanism for recording actual events, rechecking affected feasibility and updating Gantt and follow-up nodes."
+    }
+  ],
+  "accepted variation": "Accept any source-supported business-equivalent result; programmatic facts and semantic actions have distinct ownership."
+}

@@ -1,0 +1,15 @@
+version = "1.0"
+id = "usb_claim_infringement_chart"
+task_type = "skill-bench"
+domain = "patent-analytics"
+language = "en"
+difficulty = "hard"
+deliverable = "/workspace/claim_chart.json"
+
+[scoring]
+type = "mixed"
+primary_score = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/validator.py"
+strict_formula = "weighted analysis-section completion with evidenced local damage"
+condition_blind = true

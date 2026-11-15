@@ -1,0 +1,13 @@
+{
+  "layer": "clock",
+  "request_sha256": "db3a59b7ffa940938106cb8a6cac4b12cd78481dfb7ae5dc0b35601cfd192eed",
+  "native_sha256": {
+    "actions.xlsx": "ebaf2af98d81f849c2e60e9b41f06b0e564c40b19eac223db5593080b37a94c8",
+    "audit.xlsx": "58360f0efdcaf0dd8c0fbe2ca3305c0a4a809549eba68cbce269485d0a166025",
+    "report.docx": "0dcebd6f1931f52a5e04adcc5b9636fcdc1aa35303bd7a443b302a42d17ab173"
+  },
+  "context_sha256": "835dc1d10a627964b2c5222ab6682aacc33893e44dda05bea34d3904a9632c24",
+  "criteria_sha256": "81e36d3898c0800b9d380cfe0d6a751f039c2ce5bed33895e04e376fd9707c2b",
+  "reader_runtime_sha256": "af492d0fd4219f61b93b78e2759fab67d3c05ca4e091349eb844bdd88bdb2e9a",
+  "focused_runtime_sha256": "c9d908eb590dc1104e4d1e246e24259b0b15a35b947a721e804718a81507f3fd"
+}

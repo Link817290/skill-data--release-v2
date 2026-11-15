@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "gold_file": "LG OLED65C22LB_Hardware_Test_Cases_EN.xlsx",
+  "required_headers": ["Test ID", "Test Module", "Test Case Name", "Preconditions", "Test Steps", "Expected Result"],
+  "module_aliases": {
+    "dolby_vision": ["dolby vision", "dv"],
+    "hlg": ["hlg", "hybrid log gamma"],
+    "hdr10_pro": ["hdr10 pro", "hdr 10 pro"]
+  },
+  "items": [
+    {
+      "id": "HDR-001",
+      "module": "dolby_vision",
+      "title": [
+        [["dolby vision", "dv"], ["dynamic metadata"]],
+        [["tone mapping", "tone map"]]
+      ],
+      "preconditions": [
+        [["hdmi 2.1", "hdmi2.1"]],
+        [["4k"]],
+        [["dolby vision", "filmmaker mode"]],
+        [["dolby vision"], ["output", "signal", "source"]]
+      ],
+      "steps": [
+        [["hdmi 2.1", "hdmi2.1"], ["connect"], ["tv"]],
+        [["photometer"], ["center", "centre"], ["screen"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["high frequency sampling", "high-frequency sampling", "time-based recording", "timeline recording"], ["record", "sampling"]],
+        [["dolby vision"], ["configure", "signal", "source"]],
+        [["test video", "test clip", "test pattern", "scene"], ["highlight", "light", "bright"], ["shadow", "dark"]],
+        [["send"], ["start recording", "record"]],
+        [["osd"], ["dolby vision"], ["indicator", "prompt"]],
+        [["brightness"], ["curve"], ["time", "timeline"]],
+        [["highlight", "clipping"], ["tone mapping", "transition"]]
+      ],
+      "expected": [
+        [["recognize", "recognise", "detect"], ["dolby vision"], ["indicator", "osd"]],
+        [["dynamic metadata"], ["tone curve", "tone mapping"], ["scene", "content"]],
+        [["highlight detail"], ["no hard clipping", "without hard clipping"]],
+        [["shadow", "dark"], ["detail", "gradation"], ["no banding", "without banding", "no tonal break"]]
+      ]
+    },
+    {
+      "id": "HDR-002",
+      "module": "dolby_vision",
+      "title": [
+        [["dolby vision", "dv"], ["color gamut", "colour gamut"]],
+        [["color depth", "colour depth"]]
+      ],
+      "preconditions": [
+        [["dark room", "darkroom"]],
+        [["dolby vision"], ["picture mode", "mode"]],
+        [["dolby vision"], ["color test pattern", "colour test pattern", "color pattern", "colour pattern", "color-pattern", "colour-pattern", "patch"]]
+      ],
+      "steps": [
+        [["colorimeter", "colourimeter"], ["connect", "probe"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["colorimeter measurement", "colourimeter measurement"], ["cie 1931"], ["2 degree", "2°"]],
+        [["calibration", "calibrate", "zero-calibrated", "zero calibrated"]],
+        [["p3d65"], ["colorchecker", "colourchecker"], ["10 bit", "10-bit"]],
+        [["dci-p3", "dci p3"], ["coverage", "gamut"]],
+        [["gradient"], ["banding"], ["10 bit", "10-bit"]],
+        [["delta e", "deltae"], ["skin tone"]]
+      ],
+      "expected": [
+        [["p3d65", "dci-p3", "dci p3"], ["close to 100", "approximately 100", "near 100"]],
+        [["10 bit", "10-bit"], ["smooth"], ["no banding", "without banding", "no visible color banding"]],
+        [["skin tone"], ["delta e", "deltae"], ["<3", "< 3", "less than 3", "below 3"]]
+      ]
+    },
+    {
+      "id": "HDR-003",
+      "module": "dolby_vision",
+      "title": [
+        [["dolby vision", "dv"], ["sdr"]],
+        [["fallback", "backward compatibility", "compatibility"]]
+      ],
+      "preconditions": [
+        [["sdr monitor", "hdr function turned off", "hdr disabled"]],
+        [["dolby vision", "dv"], ["sdr compatibility", "sdr fallback", "sdr layer", "down-conversion"]]
+      ],
+      "steps": [
+        [["hdmi 2.1", "hdmi2.1"], ["connect"]],
+        [["photometer"], ["center", "centre"], ["screen"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["brightness measurement", "measure"], ["brightness", "luminance"]],
+        [["dolby vision", "dv"], ["sdr compatibility layer", "sdr layer", "sdr fallback", "down-conversion"]],
+        [["sdr monitor"], ["observe", "display"]],
+        [["brightness"], ["gamma curve"]],
+        [["compare"], ["hdr"], ["sdr"]]
+      ],
+      "expected": [
+        [["sdr"], ["bt.709", "bt709"]],
+        [["highlight"], ["not blown out", "no clipping", "not overflow"], ["shadow detail", "shadows retain detail"]],
+        [["gamma"], ["2.2"]],
+        [["natural"], ["no oversaturation", "without oversaturation", "no color cast", "no colour cast"]]
+      ]
+    },
+    {
+      "id": "HDR-004",
+      "module": "hlg",
+      "title": [
+        [["hlg", "hybrid log gamma"], ["oetf", "eotf"]],
+        [["curve"], ["accuracy", "deviation"]]
+      ],
+      "preconditions": [
+        [["dark room", "darkroom"]],
+        [["hlg"], ["picture mode", "mode"]],
+        [["hlg"], ["source", "output", "signal"], ["measure", "measurement", "eotf", "curve"]]
+      ],
+      "steps": [
+        [["photometer"], ["center", "centre"], ["screen"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["brightness measurement", "measure"], ["brightness", "luminance"]],
+        [["bt.2100 hlg", "bt2100 hlg"]],
+        [["grayscale", "grey scale", "gray scale", "step pattern", "ramp"]],
+        [["measure"], ["brightness"], ["each step"]],
+        [["compare"], ["eotf"], ["bt.2100", "bt2100"]]
+      ],
+      "expected": [
+        [["eotf", "oetf"], ["bt.2100", "bt2100"], ["acceptable", "within"]],
+        [["40%-60%", "40 to 60"], ["mid-tone", "midtone"], ["accuracy"]],
+        [["highlight roll-off", "highlight roll off"], ["smooth", "natural"]]
+      ]
+    },
+    {
+      "id": "HDR-005",
+      "module": "hlg",
+      "title": [
+        [["hlg"], ["sdr"]],
+        [["backward compatibility", "fallback", "compatibility"], ["display"]]
+      ],
+      "preconditions": [
+        [["sdr monitor"]],
+        [["hlg"], ["signal output", "output"]],
+        [["hlg compatibility", "compatibility mode"]]
+      ],
+      "steps": [
+        [["hdmi 2.1", "hdmi2.1"], ["connect"]],
+        [["photometer"], ["center", "centre"], ["screen"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["brightness measurement", "measure"], ["brightness", "luminance"]],
+        [["hlg"], ["load", "signal"]],
+        [["sdr monitor"], ["observe", "mapped image"]],
+        [["brightness"], ["color", "colour"]],
+        [["compare"], ["native hlg", "hlg"], ["sdr fallback", "sdr"]]
+      ],
+      "expected": [
+        [["hlg"], ["sdr monitor"], ["no black screen", "without black screen"], ["no screen corruption", "without screen corruption", "screen corruption"]],
+        [["highlight"], ["not overflow", "not blown out", "no clipping", "not overflowing"], ["shadow detail", "shadows retain detail"]],
+        [["natural"], ["no color cast", "no colour cast", "without color cast", "no severe color cast"], ["no oversaturation", "without oversaturation", "excessive saturation"]],
+        [["gamma"], ["2.2"]]
+      ]
+    },
+    {
+      "id": "HDR-006",
+      "module": "hlg",
+      "title": [
+        [["hlg"], ["dynamic range"]],
+        [["brightness"], ["performance", "peak"]]
+      ],
+      "preconditions": [
+        [["dark room", "darkroom"]],
+        [["hlg"], ["picture mode", "mode"]],
+        [["brightness booster"], ["enabled", "on"]]
+      ],
+      "steps": [
+        [["photometer"], ["center", "centre"], ["screen"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["brightness measurement", "measure"], ["peak", "brightness", "luminance"]],
+        [["hlg"], ["10% white window", "10 percent white window"]],
+        [["peak brightness"], ["measure"]],
+        [["full-screen white", "full screen white"], ["abl"]],
+        [["dynamic hdr", "high dynamic range"], ["video"]],
+        [["brightness response", "brightness curve"], ["dynamic range"]]
+      ],
+      "expected": [
+        [["10%", "10 percent"], ["peak brightness"], ["800 nit", ">=800", "at least 800"]],
+        [["abl"], ["smooth"], ["no flicker", "without flicker", "no sudden change"]],
+        [["highlight"], ["shadow"], ["detail", "retained"]],
+        [["brightness booster"], ["enhancement", "increase", "brighter"]]
+      ]
+    },
+    {
+      "id": "HDR-007",
+      "module": "hdr10_pro",
+      "title": [
+        [["hdr10 pro", "hdr 10 pro"], ["dynamic tone mapping", "tone mapping"]],
+        [["enhancement", "comparison", "compare"]]
+      ],
+      "preconditions": [
+        [["dark room", "darkroom"]],
+        [["hdr10 pro", "hdr 10 pro"], ["picture mode", "mode"]],
+        [["hdr10"], ["output", "signal", "source"]]
+      ],
+      "steps": [
+        [["photometer"], ["center", "centre"], ["screen"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["brightness measurement", "measure"], ["brightness", "luminance"]],
+        [["hdr10"], ["complex light", "light/dark", "dark scene"]],
+        [["turn off", "disable"], ["hdr10 pro"], ["record"]],
+        [["turn on", "enable"], ["hdr10 pro"], ["same test video", "same video"]],
+        [["compare"], ["peak brightness"], ["contrast"], ["tone mapping", "tone curve"]]
+      ],
+      "expected": [
+        [["hdr10 pro"], ["peak brightness"], ["increase", "higher"]],
+        [["contrast"], ["highlight"], ["shadow"]],
+        [["tone mapping", "tone curve"], ["roll-off", "roll off"], ["smooth"]],
+        [["color saturation", "colour saturation", "vibrancy"], ["enhance", "increase"]]
+      ]
+    },
+    {
+      "id": "HDR-008",
+      "module": "hdr10_pro",
+      "title": [
+        [["hdr10 pro", "hdr 10 pro"], ["color gamut", "colour gamut"]],
+        [["color accuracy", "colour accuracy", "delta e"]]
+      ],
+      "preconditions": [
+        [["dark room", "darkroom"]],
+        [["hdr10 pro", "hdr 10 pro"], ["picture mode", "mode"]],
+        [["hdr10"], ["color test pattern", "colour test pattern", "color pattern", "colour pattern", "color-pattern", "colour-pattern", "patch"]]
+      ],
+      "steps": [
+        [["colorimeter", "colourimeter"], ["connect", "probe"]],
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["colorimeter measurement", "colourimeter measurement"], ["cie 1931"], ["2 degree", "2°"]],
+        [["calibration", "calibrate", "zero-calibrated", "zero calibrated"]],
+        [["hdr10"], ["colorchecker", "colourchecker"]],
+        [["dci-p3", "dci p3"], ["coverage", "gamut"]],
+        [["delta e", "deltae"], ["measure"]],
+        [["compare"], ["hdr10 pro"], ["standard hdr10", "hdr10"]]
+      ],
+      "expected": [
+        [["dci-p3", "dci p3"], ["close to 100", "near 100", "approximately 100"]],
+        [["color saturation", "colour saturation", "vivid"], ["enhance", "increase"]],
+        [["color accuracy", "colour accuracy"], ["acceptable", "maintain"]],
+        [["skin tone"], ["natural"], ["no oversaturation", "without oversaturation", "no color cast", "no colour cast"]]
+      ]
+    },
+    {
+      "id": "HDR-009",
+      "module": "hdr10_pro",
+      "title": [
+        [["hdr10 pro", "hdr 10 pro"], ["dolby vision", "dv"], ["hlg"]],
+        [["mode switching", "format switching", "switching consistency"]]
+      ],
+      "preconditions": [
+        [["dark room", "darkroom"]],
+        [["hdr10"], ["dolby vision", "dv"], ["hlg"], ["signal output", "output"]],
+        [["connection"], ["stable"]]
+      ],
+      "steps": [
+        [["power on", "switch on"], ["30 second", "30s"]],
+        [["hdr10", "hdr10 pro"]],
+        [["dolby vision", "dv"]],
+        [["hlg"]],
+        [["same test image", "same image"], ["sequential", "in sequence"]],
+        [["response time"], ["osd", "prompt"]],
+        [["peak brightness"], ["contrast"], ["color gamut", "colour gamut"]],
+        [["consistency"], ["compare", "evaluate"]]
+      ],
+      "expected": [
+        [["switching response time", "response time"], ["<2 second", "< 2 second", "less than 2 second", "below 2 second"]],
+        [["no screen corruption", "without screen corruption", "screen corruption"], ["no black screen", "without black screen", "corruption, black screen"], ["no flicker", "without flicker", "no abnormal flickering", "black screen, or abnormal flickering"]],
+        [["brightness"], ["color", "colour"], ["respective", "corresponding"], ["specification"]],
+        [["osd"], ["current hdr format", "format type"], ["display", "show", "indicate"]]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "items": [
+    {
+      "fraction": 1,
+      "id": "case:R01:same_day_order_unresolved",
+      "quotes": [
+        "CASE R01: same_day_order_unresolved positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R01 span explicitly states same_day_order_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R01:positive_dechallenge",
+      "quotes": [
+        "CASE R01: same_day_order_unresolved positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R01 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R01:case_level_rechallenge_only",
+      "quotes": [
+        "CASE R01: same_day_order_unresolved positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R01 span explicitly states case_level_rechallenge_only."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R01:no_documented_reexposure_course",
+      "quotes": [
+        "CASE R01: same_day_order_unresolved positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R01 span explicitly states no_documented_reexposure_course."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R01:alternatives_unresolved",
+      "quotes": [
+        "CASE R01: same_day_order_unresolved positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R01 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R02:temporal_supported",
+      "quotes": [
+        "CASE R02: temporal_supported positive_dechallenge rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R02 span explicitly states temporal_supported."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R02:positive_dechallenge",
+      "quotes": [
+        "CASE R02: temporal_supported positive_dechallenge rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R02 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R02:rechallenge_unknown",
+      "quotes": [
+        "CASE R02: temporal_supported positive_dechallenge rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R02 span explicitly states rechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R02:co_reported_context",
+      "quotes": [
+        "CASE R02: temporal_supported positive_dechallenge rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R02 span explicitly states co_reported_context."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R02:alternatives_unresolved",
+      "quotes": [
+        "CASE R02: temporal_supported positive_dechallenge rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R02 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R03:start_after_event",
+      "quotes": [
+        "CASE R03: start_after_event negative_dechallenge rechallenge_unknown the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R03 span explicitly states start_after_event."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R03:negative_dechallenge",
+      "quotes": [
+        "CASE R03: start_after_event negative_dechallenge rechallenge_unknown the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R03 span explicitly states negative_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R03:rechallenge_unknown",
+      "quotes": [
+        "CASE R03: start_after_event negative_dechallenge rechallenge_unknown the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R03 span explicitly states rechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R04:partial_start_interval_precedes_event",
+      "quotes": [
+        "CASE R04: partial_start_interval_precedes_event positive_dechallenge rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R04 span explicitly states partial_start_interval_precedes_event."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R04:positive_dechallenge",
+      "quotes": [
+        "CASE R04: partial_start_interval_precedes_event positive_dechallenge rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R04 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R04:rechallenge_unknown",
+      "quotes": [
+        "CASE R04: partial_start_interval_precedes_event positive_dechallenge rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R04 span explicitly states rechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R04:alternatives_unresolved",
+      "quotes": [
+        "CASE R04: partial_start_interval_precedes_event positive_dechallenge rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R04 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R05:partial_start_interval_precedes_event",
+      "quotes": [
+        "CASE R05: partial_start_interval_precedes_event dechallenge_unknown rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R05 span explicitly states partial_start_interval_precedes_event."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R05:dechallenge_unknown",
+      "quotes": [
+        "CASE R05: partial_start_interval_precedes_event dechallenge_unknown rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R05 span explicitly states dechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R05:rechallenge_unknown",
+      "quotes": [
+        "CASE R05: partial_start_interval_precedes_event dechallenge_unknown rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R05 span explicitly states rechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R05:alternatives_unresolved",
+      "quotes": [
+        "CASE R05: partial_start_interval_precedes_event dechallenge_unknown rechallenge_unknown alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R05 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R06:start_after_event",
+      "quotes": [
+        "CASE R06: start_after_event positive_dechallenge secondary_courses_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R06 span explicitly states start_after_event."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R06:positive_dechallenge",
+      "quotes": [
+        "CASE R06: start_after_event positive_dechallenge secondary_courses_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R06 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R06:secondary_courses_not_substituted",
+      "quotes": [
+        "CASE R06: start_after_event positive_dechallenge secondary_courses_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R06 span explicitly states secondary_courses_not_substituted."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R06:alternatives_unresolved",
+      "quotes": [
+        "CASE R06: start_after_event positive_dechallenge secondary_courses_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R06 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R07:temporal_supported",
+      "quotes": [
+        "CASE R07: temporal_supported positive_dechallenge rechallenge_unknown concomitant_present alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R07 span explicitly states temporal_supported."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R07:positive_dechallenge",
+      "quotes": [
+        "CASE R07: temporal_supported positive_dechallenge rechallenge_unknown concomitant_present alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R07 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R07:rechallenge_unknown",
+      "quotes": [
+        "CASE R07: temporal_supported positive_dechallenge rechallenge_unknown concomitant_present alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R07 span explicitly states rechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R07:concomitant_present",
+      "quotes": [
+        "CASE R07: temporal_supported positive_dechallenge rechallenge_unknown concomitant_present alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R07 span explicitly states concomitant_present."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R07:alternatives_unresolved",
+      "quotes": [
+        "CASE R07: temporal_supported positive_dechallenge rechallenge_unknown concomitant_present alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R07 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R08:event_onset_missing",
+      "quotes": [
+        "CASE R08: event_onset_missing negative_dechallenge rechallenge_unknown the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R08 span explicitly states event_onset_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R08:negative_dechallenge",
+      "quotes": [
+        "CASE R08: event_onset_missing negative_dechallenge rechallenge_unknown the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R08 span explicitly states negative_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R08:rechallenge_unknown",
+      "quotes": [
+        "CASE R08: event_onset_missing negative_dechallenge rechallenge_unknown the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R08 span explicitly states rechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R09:temporal_supported",
+      "quotes": [
+        "CASE R09: temporal_supported dechallenge_unknown rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R09 span explicitly states temporal_supported."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R09:dechallenge_unknown",
+      "quotes": [
+        "CASE R09: temporal_supported dechallenge_unknown rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R09 span explicitly states dechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R09:rechallenge_unknown",
+      "quotes": [
+        "CASE R09: temporal_supported dechallenge_unknown rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R09 span explicitly states rechallenge_unknown."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R09:co_reported_context",
+      "quotes": [
+        "CASE R09: temporal_supported dechallenge_unknown rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R09 span explicitly states co_reported_context."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R09:alternatives_unresolved",
+      "quotes": [
+        "CASE R09: temporal_supported dechallenge_unknown rechallenge_unknown co_reported_context alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R09 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R10:event_onset_missing",
+      "quotes": [
+        "CASE R10: event_onset_missing positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course concomitant_present the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R10 span explicitly states event_onset_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R10:positive_dechallenge",
+      "quotes": [
+        "CASE R10: event_onset_missing positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course concomitant_present the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R10 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R10:case_level_rechallenge_only",
+      "quotes": [
+        "CASE R10: event_onset_missing positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course concomitant_present the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R10 span explicitly states case_level_rechallenge_only."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R10:no_documented_reexposure_course",
+      "quotes": [
+        "CASE R10: event_onset_missing positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course concomitant_present the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R10 span explicitly states no_documented_reexposure_course."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R10:concomitant_present",
+      "quotes": [
+        "CASE R10: event_onset_missing positive_dechallenge case_level_rechallenge_only no_documented_reexposure_course concomitant_present the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R10 span explicitly states concomitant_present."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R11:exposure_start_missing",
+      "quotes": [
+        "CASE R11: exposure_start_missing positive_dechallenge negative_rechallenge co_reported_context the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R11 span explicitly states exposure_start_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R11:positive_dechallenge",
+      "quotes": [
+        "CASE R11: exposure_start_missing positive_dechallenge negative_rechallenge co_reported_context the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R11 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R11:negative_rechallenge",
+      "quotes": [
+        "CASE R11: exposure_start_missing positive_dechallenge negative_rechallenge co_reported_context the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R11 span explicitly states negative_rechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R11:co_reported_context",
+      "quotes": [
+        "CASE R11: exposure_start_missing positive_dechallenge negative_rechallenge co_reported_context the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R11 span explicitly states co_reported_context."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R12:temporal_supported",
+      "quotes": [
+        "CASE R12: temporal_supported positive_dechallenge negative_rechallenge secondary_course_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R12 span explicitly states temporal_supported."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R12:positive_dechallenge",
+      "quotes": [
+        "CASE R12: temporal_supported positive_dechallenge negative_rechallenge secondary_course_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R12 span explicitly states positive_dechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R12:negative_rechallenge",
+      "quotes": [
+        "CASE R12: temporal_supported positive_dechallenge negative_rechallenge secondary_course_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R12 span explicitly states negative_rechallenge."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R12:secondary_course_not_substituted",
+      "quotes": [
+        "CASE R12: temporal_supported positive_dechallenge negative_rechallenge secondary_course_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R12 span explicitly states secondary_course_not_substituted."
+    },
+    {
+      "fraction": 1,
+      "id": "case:R12:alternatives_unresolved",
+      "quotes": [
+        "CASE R12: temporal_supported positive_dechallenge negative_rechallenge secondary_course_not_substituted alternatives_unresolved the_category_is_limited_to_what_can_be_established_from_the_retained_structured_report_fields"
+      ],
+      "reason": "The R12 span explicitly states alternatives_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S01|18263300:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S01|18263300: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S01|23203180:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S01|23203180: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S02|14392010:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S02|14392010: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S02|22518080:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S02|22518080: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S03|18671410:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S03|18671410: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S03|20559130:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S03|20559130: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S04|12991330:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S04|12991330: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S04|23326070:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S04|23326070: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S05|16886720:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S05|16886720: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S05|19816840:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S05|19816840: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S06|14762680:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S06|14762680: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S06|21118690:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S06|21118690: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S07|18372880:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S07|18372880: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S07|18605850:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S07|18605850: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S08|16886720:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S08|16886720: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S08|16900590:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S08|16900590: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S09|23274690:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S09|23274690: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S09|23331050:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S09|23331050: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S10|16886720:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S10|16886720: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S10|23267270:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S10|23267270: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S11|23028790:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S11|23028790: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S11|23145750:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S11|23145750: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S12|16886720:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S12|16886720: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S12|23293150:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S12|23293150: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S13|22839700:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S13|22839700: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S13|23086130:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S13|23086130: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S15|23072320:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S15|23072320: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S15|23315650:TARGET_EVENT_REMOVED",
+      "quotes": [
+        "DRIVER S15|23315650: target_event_removed"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S16|22923210:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S16|22923210: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S17|18671410:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S17|18671410: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S17|19611460:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S17|19611460: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S18|22790550:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S18|22790550: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "driver:S18|23224460:TARGET_EVENT_ADDED",
+      "quotes": [
+        "DRIVER S18|23224460: target_event_added"
+      ],
+      "reason": "The correctly scoped driver span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L01:target_event_added",
+      "quotes": [
+        "LONG L01: target_event_added pair_membership_added the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L01 span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L01:pair_membership_added",
+      "quotes": [
+        "LONG L01: target_event_added pair_membership_added the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L01 span explicitly identifies pair_membership_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L02:target_event_added",
+      "quotes": [
+        "LONG L02: target_event_added therapy_added event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L02 span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L02:therapy_added",
+      "quotes": [
+        "LONG L02: target_event_added therapy_added event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L02 span explicitly identifies therapy_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L02:event_onset_still_missing",
+      "quotes": [
+        "LONG L02: target_event_added therapy_added event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L02 span explicitly identifies event_onset_still_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L03:target_event_removed",
+      "quotes": [
+        "LONG L03: target_event_removed pair_membership_removed withdrawal_code_removed therapy_added_after_target_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L03 span explicitly identifies target_event_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L03:pair_membership_removed",
+      "quotes": [
+        "LONG L03: target_event_removed pair_membership_removed withdrawal_code_removed therapy_added_after_target_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L03 span explicitly identifies pair_membership_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L03:withdrawal_code_removed",
+      "quotes": [
+        "LONG L03: target_event_removed pair_membership_removed withdrawal_code_removed therapy_added_after_target_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L03 span explicitly identifies withdrawal_code_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L03:therapy_added_after_target_removed",
+      "quotes": [
+        "LONG L03: target_event_removed pair_membership_removed withdrawal_code_removed therapy_added_after_target_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L03 span explicitly identifies therapy_added_after_target_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L04:target_event_added",
+      "quotes": [
+        "LONG L04: target_event_added pair_membership_added positive_dechallenge_added primary_course_start_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L04 span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L04:pair_membership_added",
+      "quotes": [
+        "LONG L04: target_event_added pair_membership_added positive_dechallenge_added primary_course_start_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L04 span explicitly identifies pair_membership_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L04:positive_dechallenge_added",
+      "quotes": [
+        "LONG L04: target_event_added pair_membership_added positive_dechallenge_added primary_course_start_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L04 span explicitly identifies positive_dechallenge_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L04:primary_course_start_missing",
+      "quotes": [
+        "LONG L04: target_event_added pair_membership_added positive_dechallenge_added primary_course_start_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L04 span explicitly identifies primary_course_start_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L05:event_onset_added",
+      "quotes": [
+        "LONG L05: event_onset_added positive_dechallenge_added exposure_start_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L05 span explicitly identifies event_onset_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L05:positive_dechallenge_added",
+      "quotes": [
+        "LONG L05: event_onset_added positive_dechallenge_added exposure_start_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L05 span explicitly identifies positive_dechallenge_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L05:exposure_start_still_missing",
+      "quotes": [
+        "LONG L05: event_onset_added positive_dechallenge_added exposure_start_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L05 span explicitly identifies exposure_start_still_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L06:therapy_course_added",
+      "quotes": [
+        "LONG L06: therapy_course_added positive_dechallenge_added event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L06 span explicitly identifies therapy_course_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L06:positive_dechallenge_added",
+      "quotes": [
+        "LONG L06: therapy_course_added positive_dechallenge_added event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L06 span explicitly identifies positive_dechallenge_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L06:event_onset_still_missing",
+      "quotes": [
+        "LONG L06: therapy_course_added positive_dechallenge_added event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L06 span explicitly identifies event_onset_still_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L07:positive_rechallenge_added",
+      "quotes": [
+        "LONG L07: positive_rechallenge_added secondary_suspect_only case_level_rechallenge_not_event_specific the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L07 span explicitly identifies positive_rechallenge_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L07:secondary_suspect_only",
+      "quotes": [
+        "LONG L07: positive_rechallenge_added secondary_suspect_only case_level_rechallenge_not_event_specific the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L07 span explicitly identifies secondary_suspect_only."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L07:case_level_rechallenge_not_event_specific",
+      "quotes": [
+        "LONG L07: positive_rechallenge_added secondary_suspect_only case_level_rechallenge_not_event_specific the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L07 span explicitly identifies case_level_rechallenge_not_event_specific."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L08:positive_dechallenge_removed",
+      "quotes": [
+        "LONG L08: positive_dechallenge_removed event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L08 span explicitly identifies positive_dechallenge_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L08:event_onset_still_missing",
+      "quotes": [
+        "LONG L08: positive_dechallenge_removed event_onset_still_missing the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L08 span explicitly identifies event_onset_still_missing."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L09:event_onset_added",
+      "quotes": [
+        "LONG L09: event_onset_added positive_dechallenge_added supported_chronology competing_events_present the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L09 span explicitly identifies event_onset_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L09:positive_dechallenge_added",
+      "quotes": [
+        "LONG L09: event_onset_added positive_dechallenge_added supported_chronology competing_events_present the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L09 span explicitly identifies positive_dechallenge_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L09:supported_chronology",
+      "quotes": [
+        "LONG L09: event_onset_added positive_dechallenge_added supported_chronology competing_events_present the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L09 span explicitly identifies supported_chronology."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L09:competing_events_present",
+      "quotes": [
+        "LONG L09: event_onset_added positive_dechallenge_added supported_chronology competing_events_present the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L09 span explicitly identifies competing_events_present."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L10:event_onset_added",
+      "quotes": [
+        "LONG L10: event_onset_added positive_dechallenge_added same_day_order_unresolved the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L10 span explicitly identifies event_onset_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L10:positive_dechallenge_added",
+      "quotes": [
+        "LONG L10: event_onset_added positive_dechallenge_added same_day_order_unresolved the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L10 span explicitly identifies positive_dechallenge_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L10:same_day_order_unresolved",
+      "quotes": [
+        "LONG L10: event_onset_added positive_dechallenge_added same_day_order_unresolved the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L10 span explicitly identifies same_day_order_unresolved."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L11:event_onset_revised_earlier",
+      "quotes": [
+        "LONG L11: event_onset_revised_earlier primary_course_start_added start_after_event positive_dechallenge_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L11 span explicitly identifies event_onset_revised_earlier."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L11:primary_course_start_added",
+      "quotes": [
+        "LONG L11: event_onset_revised_earlier primary_course_start_added start_after_event positive_dechallenge_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L11 span explicitly identifies primary_course_start_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L11:start_after_event",
+      "quotes": [
+        "LONG L11: event_onset_revised_earlier primary_course_start_added start_after_event positive_dechallenge_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L11 span explicitly identifies start_after_event."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L11:positive_dechallenge_removed",
+      "quotes": [
+        "LONG L11: event_onset_revised_earlier primary_course_start_added start_after_event positive_dechallenge_removed the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L11 span explicitly identifies positive_dechallenge_removed."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L12:target_event_added",
+      "quotes": [
+        "LONG L12: target_event_added target_product_added_as_concomitant no_suspect_exposure the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L12 span explicitly identifies target_event_added."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L12:target_product_added_as_concomitant",
+      "quotes": [
+        "LONG L12: target_event_added target_product_added_as_concomitant no_suspect_exposure the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L12 span explicitly identifies target_product_added_as_concomitant."
+    },
+    {
+      "fraction": 1,
+      "id": "long:L12:no_suspect_exposure",
+      "quotes": [
+        "LONG L12: target_event_added target_product_added_as_concomitant no_suspect_exposure the_later_submission_changes_only_the_conclusions_supported_by_version_specific_structured_fields_unsupported_scope_is_not_upgraded"
+      ],
+      "reason": "The L12 span explicitly identifies no_suspect_exposure."
+    }
+  ]
+}

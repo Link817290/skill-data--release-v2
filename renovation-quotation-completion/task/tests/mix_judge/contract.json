@@ -1,0 +1,27 @@
+{
+  "dimensions": {
+    "object_scope_binding": 0.15,
+    "polarity_and_status": 0.2,
+    "requirement_coverage": 0.4,
+    "source_fidelity": 0.25
+  },
+  "golden_normalization": "semantic_score is already normalized to [0,1] by the source-bound judge",
+  "ownership": {
+    "program": [
+      "arithmetic",
+      "formulas",
+      "file contract",
+      "structure"
+    ],
+    "semantic": [
+      "requirement coverage",
+      "source fidelity",
+      "polarity/status",
+      "object/scope binding"
+    ]
+  },
+  "schema": "source-bound-semantic-score-v1",
+  "program_weight": 0.80,
+  "semantic_weight": 0.20,
+  "settlement": "strict = 0.80 * program_score + 0.20 * semantic_score"
+}

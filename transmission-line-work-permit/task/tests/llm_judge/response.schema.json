@@ -1,0 +1,1104 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "decisions"
+  ],
+  "properties": {
+    "contract_version": {
+      "type": "string",
+      "enum": [
+        "permit-semantic-v28-full-provider-evidence"
+      ]
+    },
+    "decisions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "S-contact_final_permitter",
+        "S-communicate_work_content",
+        "S-permission_before_entry",
+        "S-voltage_test",
+        "S-ground_work_ends",
+        "S-test_ground_then_work",
+        "S-completion_inspection",
+        "S-remove_grounds",
+        "S-withdraw_after_removal",
+        "S-report_after_withdrawal",
+        "S-closeout_after_report",
+        "S-check_line_before_climbing",
+        "S-check_tower_before_climbing",
+        "S-inspect_base",
+        "S-inspect_guy_wires",
+        "S-inspect_steps",
+        "S-good_weather",
+        "S-stop_thunderstorms",
+        "S-wind_limit_exact",
+        "S-fix_after_installation",
+        "S-fix_on_tower",
+        "S-prevent_ground_swing",
+        "S-belt_at_height",
+        "S-no_people_below",
+        "V-explicit-bypass",
+        "V-execution-claim",
+        "V-grader-instruction"
+      ],
+      "properties": {
+        "S-contact_final_permitter": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-communicate_work_content": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Explain the actual actor/action/object/condition/direction. No free-text literal markers are required."
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "communication",
+                "recipient_and_content"
+              ],
+              "properties": {
+                "communication": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "recipient_and_content": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "S-permission_before_entry": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-voltage_test": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-ground_work_ends": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-test_ground_then_work": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-completion_inspection": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-remove_grounds": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Explain the actual actor/action/object/condition/direction. No free-text literal markers are required."
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "inspection_event",
+                "later_removal_event"
+              ],
+              "properties": {
+                "inspection_event": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "later_removal_event": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "S-withdraw_after_removal": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Explain the actual actor/action/object/condition/direction. No free-text literal markers are required."
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "removal_event",
+                "later_site_withdrawal_event"
+              ],
+              "properties": {
+                "removal_event": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "later_site_withdrawal_event": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "S-report_after_withdrawal": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-closeout_after_report": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-check_line_before_climbing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-check_tower_before_climbing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-inspect_base": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-inspect_guy_wires": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Explain the actual actor/action/object/condition/direction. No free-text literal markers are required."
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "inspection",
+                "inspected_guy_wire_object"
+              ],
+              "properties": {
+                "inspection": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "inspected_guy_wire_object": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "S-inspect_steps": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-good_weather": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-stop_thunderstorms": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-wind_limit_exact": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-fix_after_installation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "installed_grounding_leads",
+                "securing_those_installed_leads"
+              ],
+              "properties": {
+                "installed_grounding_leads": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "securing_those_installed_leads": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "S-fix_on_tower": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "grounding_lead_securing",
+                "tower_attachment_target"
+              ],
+              "properties": {
+                "grounding_lead_securing": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "tower_attachment_target": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "S-prevent_ground_swing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "grounding_leads",
+                "swing_prevention"
+              ],
+              "properties": {
+                "grounding_leads": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "swing_prevention": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "S-belt_at_height": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "S-no_people_below": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale",
+            "proof"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Explain the actual actor/action/object/condition/direction. No free-text literal markers are required."
+            },
+            "proof": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "prohibition",
+                "ground_personnel_and_work_area"
+              ],
+              "properties": {
+                "prohibition": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "ground_personnel_and_work_area": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^frag-[0-9]{6,}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "V-explicit-bypass": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "V-execution-claim": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "V-grader-instruction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "evidence",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^cand-[0-9]{4,}$"
+              }
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "description": "Schema template. prepare() binds every evidence item to actual candidate ID/full-block pairs via a shared $defs; the saved request contains the fully instantiated schema."
+}

@@ -1,0 +1,1370 @@
+{
+  "schema_version": "1242-material-facts-v1",
+  "purpose": "Internal relation audit only; not solver-visible",
+  "facts": {
+    "annual.assets": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 3,
+      "row_label": "资产总计",
+      "raw_row": "资产总计                                         63,356,328,781           54,428,623,122",
+      "unit": "yuan",
+      "values": {
+        "2025": "63356328781",
+        "2024": "54428623122"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.equity": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 4,
+      "row_label": "所有者权益合计",
+      "raw_row": "所有者权益合计                                  7,327,457,464             5,780,214,722",
+      "unit": "yuan",
+      "values": {
+        "2025": "7327457464",
+        "2024": "5780214722"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.insurance_income": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 5,
+      "row_label": "保险业务收入",
+      "raw_row": "保险业务收入                                5,983,091,719           5,664,162,012",
+      "unit": "yuan",
+      "values": {
+        "2025": "5983091719",
+        "2024": "5664162012"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.profit": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 5,
+      "row_label": "净利润",
+      "raw_row": "五、净利润                                         423,425,592            368,561,313",
+      "unit": "yuan",
+      "values": {
+        "2025": "423425592",
+        "2024": "368561313"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.investment_income": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 5,
+      "row_label": "投资收益",
+      "raw_row": "投资收益                                       2,258,605,725           2,103,577,590",
+      "unit": "yuan",
+      "values": {
+        "2025": "2258605725",
+        "2024": "2103577590"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.comprehensive_income": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 6,
+      "row_label": "综合收益总额",
+      "raw_row": "七、综合收益总额                                    1,597,242,742          1,590,953,715",
+      "unit": "yuan",
+      "values": {
+        "2025": "1597242742",
+        "2024": "1590953715"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.operating_cashflow": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 7,
+      "row_label": "经营活动产生的现金流量净额",
+      "raw_row": "经营活动产生的现金流量净额                     3,408,035,159         3,275,885,793",
+      "unit": "yuan",
+      "values": {
+        "2025": "3408035159",
+        "2024": "3275885793"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.participating": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 29,
+      "row_label": "分红保险",
+      "raw_row": "分红保险                                  4,254,004,149            3,725,966,563",
+      "unit": "yuan",
+      "values": {
+        "2025": "4254004149",
+        "2024": "3725966563"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.health": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 29,
+      "row_label": "健康险",
+      "raw_row": "健康险                                     1,227,816,179            1,231,675,570",
+      "unit": "yuan",
+      "values": {
+        "2025": "1227816179",
+        "2024": "1231675570"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.first_year": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 29,
+      "row_label": "首年",
+      "raw_row": "首年                                       1,235,723,031             893,392,907",
+      "unit": "yuan",
+      "values": {
+        "2025": "1235723031",
+        "2024": "893392907"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.renewal": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 29,
+      "row_label": "续年",
+      "raw_row": "续年                                       4,295,131,793            4,259,308,232",
+      "unit": "yuan",
+      "values": {
+        "2025": "4295131793",
+        "2024": "4259308232"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.personal_agent": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 29,
+      "row_label": "个人代理",
+      "raw_row": "个人代理                                   3,545,063,310            3,297,716,806",
+      "unit": "yuan",
+      "values": {
+        "2025": "3545063310",
+        "2024": "3297716806"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.bank_post": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 30,
+      "row_label": "银行及邮政兼业代理",
+      "raw_row": "银行及邮政兼业代理                       1,777,180,007            1,934,508,676",
+      "unit": "yuan",
+      "values": {
+        "2025": "1777180007",
+        "2024": "1934508676"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.intermediary": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 30,
+      "row_label": "保险中介代理",
+      "raw_row": "保险中介代理                               552,391,722             321,227,638",
+      "unit": "yuan",
+      "values": {
+        "2025": "552391722",
+        "2024": "321227638"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.direct": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 30,
+      "row_label": "公司直销",
+      "raw_row": "公司直销                                   108,456,680             110,708,892",
+      "unit": "yuan",
+      "values": {
+        "2025": "108456680",
+        "2024": "110708892"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.individual_business": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 30,
+      "row_label": "个险",
+      "raw_row": "个险                                        5,903,405,084           5,579,287,114",
+      "unit": "yuan",
+      "values": {
+        "2025": "5903405084",
+        "2024": "5579287114"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "annual.group_business": {
+      "source_path": "original/task/environment/materials/安联25年年度报告.pdf",
+      "source_sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605",
+      "pdf_page": 30,
+      "row_label": "团险",
+      "raw_row": "团险                                          79,686,635             84,874,898",
+      "unit": "yuan",
+      "values": {
+        "2025": "79686635",
+        "2024": "84874898"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.insurance_income": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "保险业务收入（元）",
+      "raw_row": "保险业务收入（元）                               1,969,779,210.90         1,969,779,210.90",
+      "unit": "yuan",
+      "values": {
+        "quarter": "1969779210.90",
+        "ytd": "1969779210.90"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.profit": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "净利润（元）",
+      "raw_row": "净利润（元）                                       182,080,742.05           182,080,742.05",
+      "unit": "yuan",
+      "values": {
+        "quarter": "182080742.05",
+        "ytd": "182080742.05"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.assets": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "总资产（元）",
+      "raw_row": "总资产（元）                                     63,421,484,052.90        63,421,484,052.90",
+      "unit": "yuan",
+      "values": {
+        "quarter": "63421484052.90",
+        "ytd": "63421484052.90"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.equity": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "净资产（元）",
+      "raw_row": "净资产（元）                                      5,539,906,704.97         5,539,906,704.97",
+      "unit": "yuan",
+      "values": {
+        "quarter": "5539906704.97",
+        "ytd": "5539906704.97"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.roe": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "净资产收益率（％）",
+      "raw_row": "净资产收益率（％）                                   3.31%                3.31%",
+      "unit": "percent",
+      "values": {
+        "quarter": "3.31",
+        "ytd": "3.31"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.roa": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "总资产收益率（％）",
+      "raw_row": "总资产收益率（％）                                   0.29%                0.29%",
+      "unit": "percent",
+      "values": {
+        "quarter": "0.29",
+        "ytd": "0.29"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.investment_yield": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "投资收益率（％）",
+      "raw_row": "投资收益率（％）                                     1.01%                1.01%",
+      "unit": "percent",
+      "values": {
+        "quarter": "1.01",
+        "ytd": "1.01"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.comprehensive_yield": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "综合投资收益率（％）",
+      "raw_row": "综合投资收益率（％）                                  -0.10%                 -0.10%",
+      "unit": "percent",
+      "values": {
+        "quarter": "-0.10",
+        "ytd": "-0.10"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.residual_margin": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "剩余边际（元）",
+      "raw_row": "剩余边际（元）                                    4,707,655,175.12         4,707,655,175.12",
+      "unit": "yuan",
+      "values": {
+        "quarter": "4707655175.12",
+        "ytd": "4707655175.12"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.nb_margin": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "新业务利润率（%）",
+      "raw_row": "新业务利润率（%）                                   7.68%                7.68%",
+      "unit": "percent",
+      "values": {
+        "quarter": "7.68",
+        "ytd": "7.68"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.nb_value": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "新业务价值（元）",
+      "raw_row": "新业务价值（元）                                    80,109,789.65            80,109,789.65",
+      "unit": "yuan",
+      "values": {
+        "quarter": "80109789.65",
+        "ytd": "80109789.65"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.signed_total": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "签单保费（元）",
+      "raw_row": "签单保费（元）                                    1,996,083,422.39         1,996,083,422.39",
+      "unit": "yuan",
+      "values": {
+        "quarter": "1996083422.39",
+        "ytd": "1996083422.39"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.bank": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "其中：银保渠道（元）",
+      "raw_row": "其中：银保渠道（元）                              542,689,468.71           542,689,468.71",
+      "unit": "yuan",
+      "values": {
+        "quarter": "542689468.71",
+        "ytd": "542689468.71"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.personal": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "个人渠道（元）",
+      "raw_row": "个人渠道（元）                             1,206,589,054.38         1,206,589,054.38",
+      "unit": "yuan",
+      "values": {
+        "quarter": "1206589054.38",
+        "ytd": "1206589054.38"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.group": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "团险渠道（元）",
+      "raw_row": "团险渠道（元）                               27,866,673.73            27,866,673.73",
+      "unit": "yuan",
+      "values": {
+        "quarter": "27866673.73",
+        "ytd": "27866673.73"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.internet": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "互联网渠道（元）",
+      "raw_row": "互联网渠道（元）                             30,838,128.73            30,838,128.73",
+      "unit": "yuan",
+      "values": {
+        "quarter": "30838128.73",
+        "ytd": "30838128.73"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.other": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "其他渠道（元）",
+      "raw_row": "其他渠道（元）                              188,100,096.84           188,100,096.84",
+      "unit": "yuan",
+      "values": {
+        "quarter": "188100096.84",
+        "ytd": "188100096.84"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.renewal": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "续期签单保费（元）",
+      "raw_row": "续期签单保费（元）                               1,424,605,462.14         1,424,605,462.14",
+      "unit": "yuan",
+      "values": {
+        "quarter": "1424605462.14",
+        "ytd": "1424605462.14"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.agents": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 16,
+      "row_label": "期末个人营销员数量（人）",
+      "raw_row": "期末个人营销员数量（人）                                  5,553                    5,553",
+      "unit": "persons",
+      "values": {
+        "quarter": "5553",
+        "ytd": "5553"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.insurance_income": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "保险业务收入（元）",
+      "raw_row": "保险业务收入（元）                               1,615,128,928.31         3,584,908,139.21",
+      "unit": "yuan",
+      "values": {
+        "quarter": "1615128928.31",
+        "ytd": "3584908139.21"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.profit": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "净利润（元）",
+      "raw_row": "净利润（元）                                       207,847,578.13           389,928,320.18",
+      "unit": "yuan",
+      "values": {
+        "quarter": "207847578.13",
+        "ytd": "389928320.18"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.assets": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "总资产（元）",
+      "raw_row": "总资产（元）                                     67,573,897,068.35        67,573,897,068.35",
+      "unit": "yuan",
+      "values": {
+        "quarter": "67573897068.35",
+        "ytd": "67573897068.35"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.equity": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "净资产（元）",
+      "raw_row": "净资产（元）                                      5,868,569,411.74         5,868,569,411.74",
+      "unit": "yuan",
+      "values": {
+        "quarter": "5868569411.74",
+        "ytd": "5868569411.74"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.roe": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "净资产收益率（％）",
+      "raw_row": "净资产收益率（％）                                   3.64%                6.89%",
+      "unit": "percent",
+      "values": {
+        "quarter": "3.64",
+        "ytd": "6.89"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.roa": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "总资产收益率（％）",
+      "raw_row": "总资产收益率（％）                                   0.32%                0.60%",
+      "unit": "percent",
+      "values": {
+        "quarter": "0.32",
+        "ytd": "0.60"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.investment_yield": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "投资收益率（％）",
+      "raw_row": "投资收益率（％）                                     0.98%                1.96%",
+      "unit": "percent",
+      "values": {
+        "quarter": "0.98",
+        "ytd": "1.96"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.comprehensive_yield": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "综合投资收益率（％）",
+      "raw_row": "综合投资收益率（％）                                 3.44%                3.37%",
+      "unit": "percent",
+      "values": {
+        "quarter": "3.44",
+        "ytd": "3.37"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.residual_margin": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "剩余边际（元）",
+      "raw_row": "剩余边际（元）                                    4,885,631,555.00         4,885,631,555.00",
+      "unit": "yuan",
+      "values": {
+        "quarter": "4885631555.00",
+        "ytd": "4885631555.00"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.nb_margin": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "新业务利润率（%）",
+      "raw_row": "新业务利润率（%）                                   8.18%                8.04%",
+      "unit": "percent",
+      "values": {
+        "quarter": "8.18",
+        "ytd": "8.04"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.nb_value": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "新业务价值（元）",
+      "raw_row": "新业务价值（元）                                   110,171,191.43           190,280,981.08",
+      "unit": "yuan",
+      "values": {
+        "quarter": "110171191.43",
+        "ytd": "190280981.08"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.signed_total": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "签单保费（元）",
+      "raw_row": "签单保费（元）                                    1,635,878,997.17         3,631,962,419.56",
+      "unit": "yuan",
+      "values": {
+        "quarter": "1635878997.17",
+        "ytd": "3631962419.56"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.bank": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "其中：银保渠道（元）",
+      "raw_row": "其中：银保渠道（元）                              455,501,145.50           998,190,614.21",
+      "unit": "yuan",
+      "values": {
+        "quarter": "455501145.50",
+        "ytd": "998190614.21"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.personal": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "个人渠道（元）",
+      "raw_row": "个人渠道（元）                              815,759,591.58         2,022,348,645.96",
+      "unit": "yuan",
+      "values": {
+        "quarter": "815759591.58",
+        "ytd": "2022348645.96"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.group": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "团险渠道（元）",
+      "raw_row": "团险渠道（元）                               36,816,400.81            64,683,074.54",
+      "unit": "yuan",
+      "values": {
+        "quarter": "36816400.81",
+        "ytd": "64683074.54"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.internet": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "互联网渠道（元）",
+      "raw_row": "互联网渠道（元）                             26,566,040.39            57,404,169.12",
+      "unit": "yuan",
+      "values": {
+        "quarter": "26566040.39",
+        "ytd": "57404169.12"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.other": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "其他渠道（元）",
+      "raw_row": "其他渠道（元）                              301,235,818.89           489,335,915.73",
+      "unit": "yuan",
+      "values": {
+        "quarter": "301235818.89",
+        "ytd": "489335915.73"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.renewal": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "续期签单保费（元）",
+      "raw_row": "续期签单保费（元）                               1,040,369,682.18         2,464,975,144.32",
+      "unit": "yuan",
+      "values": {
+        "quarter": "1040369682.18",
+        "ytd": "2464975144.32"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.agents": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 17,
+      "row_label": "期末个人营销员数量（人）",
+      "raw_row": "期末个人营销员数量（人）                                  5,549                    5,549",
+      "unit": "persons",
+      "values": {
+        "quarter": "5549",
+        "ytd": "5549"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.core_solvency": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 14,
+      "row_label": "核心偿付能力充足率（%）",
+      "raw_row": "核心偿付能力充足率（%）           308.65%            307.77%            298.14%",
+      "unit": "percent",
+      "values": {
+        "quarter": "308.65",
+        "previous_quarter": "307.77",
+        "next_quarter_base_scenario": "298.14"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.comprehensive_solvency": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 14,
+      "row_label": "综合偿付能力充足率（%）",
+      "raw_row": "综合偿付能力充足率（%）           314.61%            317.75%            300.54%",
+      "unit": "percent",
+      "values": {
+        "quarter": "314.61",
+        "previous_quarter": "317.75",
+        "next_quarter_base_scenario": "300.54"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.actual_capital": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 14,
+      "row_label": "实际资本（元）",
+      "raw_row": "实际资本（元）                 6,691,804,091.92       6,972,673,030.12      6,464,630,196.34",
+      "unit": "yuan",
+      "values": {
+        "quarter": "6691804091.92",
+        "previous_quarter": "6972673030.12",
+        "next_quarter_base_scenario": "6464630196.34"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.minimum_capital": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 14,
+      "row_label": "最低资本（元）",
+      "raw_row": "最低资本（元）                 2,126,984,950.10       2,194,419,663.28      2,151,018,914.49",
+      "unit": "yuan",
+      "values": {
+        "quarter": "2126984950.10",
+        "previous_quarter": "2194419663.28",
+        "next_quarter_base_scenario": "2151018914.49"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.core_solvency": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 15,
+      "row_label": "核心偿付能力充足率（%）",
+      "raw_row": "核心偿付能力充足率（%）           336.79%            308.65%            306.66%",
+      "unit": "percent",
+      "values": {
+        "quarter": "336.79",
+        "previous_quarter": "308.65",
+        "next_quarter_base_scenario": "306.66"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.comprehensive_solvency": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 15,
+      "row_label": "综合偿付能力充足率（%）",
+      "raw_row": "综合偿付能力充足率（%）           344.06%            314.61%            309.35%",
+      "unit": "percent",
+      "values": {
+        "quarter": "344.06",
+        "previous_quarter": "314.61",
+        "next_quarter_base_scenario": "309.35"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.actual_capital": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 15,
+      "row_label": "实际资本（元）",
+      "raw_row": "实际资本（元）                 7,303,607,312.98       6,691,804,091.92      6,638,739,400.91",
+      "unit": "yuan",
+      "values": {
+        "quarter": "7303607312.98",
+        "previous_quarter": "6691804091.92",
+        "next_quarter_base_scenario": "6638739400.91"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.minimum_capital": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 15,
+      "row_label": "最低资本（元）",
+      "raw_row": "最低资本（元）                 2,122,801,614.87       2,126,984,950.10      2,145,997,766.41",
+      "unit": "yuan",
+      "values": {
+        "quarter": "2122801614.87",
+        "previous_quarter": "2126984950.10",
+        "next_quarter_base_scenario": "2145997766.41"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "q1.previous_annual_signed": {
+      "source_path": "original/task/environment/materials/2026Q1偿付能力.pdf",
+      "source_sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3",
+      "pdf_page": 18,
+      "row_label": "最近会计年度的签单保费（元）",
+      "raw_row": "最近会计年度的签单保费（元）                   6,184,210,584.71",
+      "unit": "yuan",
+      "values": {
+        "2025": "6184210584.71"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    },
+    "h1.previous_annual_signed": {
+      "source_path": "original/task/environment/materials/26年H1偿付能力.pdf",
+      "source_sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9",
+      "pdf_page": 19,
+      "row_label": "最近会计年度的签单保费（元）",
+      "raw_row": "最近会计年度的签单保费（元）                   6,184,210,584.71",
+      "unit": "yuan",
+      "values": {
+        "2025": "6184210584.71"
+      },
+      "extraction": "PyMuPDF get_text(sort=True), numeric columns of one exact labeled row"
+    }
+  },
+  "derived_relations": [
+    {
+      "id": "annual_insurance_income_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.insurance_income",
+          "column": "2025",
+          "value": "5983091719"
+        },
+        {
+          "fact": "annual.insurance_income",
+          "column": "2024",
+          "value": "5664162012"
+        }
+      ],
+      "result": "5.630660039813847047848178700",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_profit_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.profit",
+          "column": "2025",
+          "value": "423425592"
+        },
+        {
+          "fact": "annual.profit",
+          "column": "2024",
+          "value": "368561313"
+        }
+      ],
+      "result": "14.88606564628773177829437570",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_assets_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.assets",
+          "column": "2025",
+          "value": "63356328781"
+        },
+        {
+          "fact": "annual.assets",
+          "column": "2024",
+          "value": "54428623122"
+        }
+      ],
+      "result": "16.40259324397906638634885000",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_investment_income_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.investment_income",
+          "column": "2025",
+          "value": "2258605725"
+        },
+        {
+          "fact": "annual.investment_income",
+          "column": "2024",
+          "value": "2103577590"
+        }
+      ],
+      "result": "7.369736953700861587900829500",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_operating_cashflow_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.operating_cashflow",
+          "column": "2025",
+          "value": "3408035159"
+        },
+        {
+          "fact": "annual.operating_cashflow",
+          "column": "2024",
+          "value": "3275885793"
+        }
+      ],
+      "result": "4.034004063340067728667609300",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_participating_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.participating",
+          "column": "2025",
+          "value": "4254004149"
+        },
+        {
+          "fact": "annual.participating",
+          "column": "2024",
+          "value": "3725966563"
+        }
+      ],
+      "result": "14.17182835840709072943980680",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_first_year_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.first_year",
+          "column": "2025",
+          "value": "1235723031"
+        },
+        {
+          "fact": "annual.first_year",
+          "column": "2024",
+          "value": "893392907"
+        }
+      ],
+      "result": "38.31798095974809435105577800",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_personal_agent_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.personal_agent",
+          "column": "2025",
+          "value": "3545063310"
+        },
+        {
+          "fact": "annual.personal_agent",
+          "column": "2024",
+          "value": "3297716806"
+        }
+      ],
+      "result": "7.500538055601612505473582500",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_bank_post_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.bank_post",
+          "column": "2025",
+          "value": "1777180007"
+        },
+        {
+          "fact": "annual.bank_post",
+          "column": "2024",
+          "value": "1934508676"
+        }
+      ],
+      "result": "-8.132745588161942159209008380",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_intermediary_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.intermediary",
+          "column": "2025",
+          "value": "552391722"
+        },
+        {
+          "fact": "annual.intermediary",
+          "column": "2024",
+          "value": "321227638"
+        }
+      ],
+      "result": "71.96270079351017735279677270",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_direct_growth",
+      "formula": "(current / prior - 1) * 100",
+      "inputs": [
+        {
+          "fact": "annual.direct",
+          "column": "2025",
+          "value": "108456680"
+        },
+        {
+          "fact": "annual.direct",
+          "column": "2024",
+          "value": "110708892"
+        }
+      ],
+      "result": "-2.034355108530938960169522790",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_participating_share",
+      "formula": "component / insurance_income * 100",
+      "inputs": [
+        {
+          "fact": "annual.participating",
+          "column": "2025",
+          "value": "4254004149"
+        },
+        {
+          "fact": "annual.insurance_income",
+          "column": "2025",
+          "value": "5983091719"
+        }
+      ],
+      "result": "71.10043350147746581786940512",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_health_share",
+      "formula": "component / insurance_income * 100",
+      "inputs": [
+        {
+          "fact": "annual.health",
+          "column": "2025",
+          "value": "1227816179"
+        },
+        {
+          "fact": "annual.insurance_income",
+          "column": "2025",
+          "value": "5983091719"
+        }
+      ],
+      "result": "20.52143334358267757653273575",
+      "unit": "percent"
+    },
+    {
+      "id": "annual_renewal_share",
+      "formula": "component / insurance_income * 100",
+      "inputs": [
+        {
+          "fact": "annual.renewal",
+          "column": "2025",
+          "value": "4295131793"
+        },
+        {
+          "fact": "annual.insurance_income",
+          "column": "2025",
+          "value": "5983091719"
+        }
+      ],
+      "result": "71.78783135415277092796310516",
+      "unit": "percent"
+    },
+    {
+      "id": "personal_quarterly_growth",
+      "formula": "(Q2 / Q1 - 1) * 100",
+      "inputs": [
+        {
+          "fact": "h1.personal",
+          "column": "quarter",
+          "value": "815759591.58"
+        },
+        {
+          "fact": "q1.personal",
+          "column": "ytd",
+          "value": "1206589054.38"
+        }
+      ],
+      "result": "-32.39126539241033024561490387",
+      "unit": "percent"
+    },
+    {
+      "id": "personal_h1_share",
+      "formula": "H1 channel / H1 total * 100",
+      "inputs": [
+        {
+          "fact": "h1.personal",
+          "column": "ytd",
+          "value": "2022348645.96"
+        },
+        {
+          "fact": "h1.signed_total",
+          "column": "ytd",
+          "value": "3631962419.56"
+        }
+      ],
+      "result": "55.68198159398908976083381377",
+      "unit": "percent"
+    },
+    {
+      "id": "bank_quarterly_growth",
+      "formula": "(Q2 / Q1 - 1) * 100",
+      "inputs": [
+        {
+          "fact": "h1.bank",
+          "column": "quarter",
+          "value": "455501145.50"
+        },
+        {
+          "fact": "q1.bank",
+          "column": "ytd",
+          "value": "542689468.71"
+        }
+      ],
+      "result": "-16.06596925811938150002063267",
+      "unit": "percent"
+    },
+    {
+      "id": "bank_h1_share",
+      "formula": "H1 channel / H1 total * 100",
+      "inputs": [
+        {
+          "fact": "h1.bank",
+          "column": "ytd",
+          "value": "998190614.21"
+        },
+        {
+          "fact": "h1.signed_total",
+          "column": "ytd",
+          "value": "3631962419.56"
+        }
+      ],
+      "result": "27.48350612975030250921212260",
+      "unit": "percent"
+    },
+    {
+      "id": "other_quarterly_growth",
+      "formula": "(Q2 / Q1 - 1) * 100",
+      "inputs": [
+        {
+          "fact": "h1.other",
+          "column": "quarter",
+          "value": "301235818.89"
+        },
+        {
+          "fact": "q1.other",
+          "column": "ytd",
+          "value": "188100096.84"
+        }
+      ],
+      "result": "60.14655172997304874752769430",
+      "unit": "percent"
+    },
+    {
+      "id": "other_h1_share",
+      "formula": "H1 channel / H1 total * 100",
+      "inputs": [
+        {
+          "fact": "h1.other",
+          "column": "ytd",
+          "value": "489335915.73"
+        },
+        {
+          "fact": "h1.signed_total",
+          "column": "ytd",
+          "value": "3631962419.56"
+        }
+      ],
+      "result": "13.47304457487424652729327207",
+      "unit": "percent"
+    },
+    {
+      "id": "group_quarterly_growth",
+      "formula": "(Q2 / Q1 - 1) * 100",
+      "inputs": [
+        {
+          "fact": "h1.group",
+          "column": "quarter",
+          "value": "36816400.81"
+        },
+        {
+          "fact": "q1.group",
+          "column": "ytd",
+          "value": "27866673.73"
+        }
+      ],
+      "result": "32.11623736192500359819585830",
+      "unit": "percent"
+    },
+    {
+      "id": "group_h1_share",
+      "formula": "H1 channel / H1 total * 100",
+      "inputs": [
+        {
+          "fact": "h1.group",
+          "column": "ytd",
+          "value": "64683074.54"
+        },
+        {
+          "fact": "h1.signed_total",
+          "column": "ytd",
+          "value": "3631962419.56"
+        }
+      ],
+      "result": "1.780940083290733398240371302",
+      "unit": "percent"
+    },
+    {
+      "id": "internet_quarterly_growth",
+      "formula": "(Q2 / Q1 - 1) * 100",
+      "inputs": [
+        {
+          "fact": "h1.internet",
+          "column": "quarter",
+          "value": "26566040.39"
+        },
+        {
+          "fact": "q1.internet",
+          "column": "ytd",
+          "value": "30838128.73"
+        }
+      ],
+      "result": "-13.85326709478328323976744746",
+      "unit": "percent"
+    },
+    {
+      "id": "internet_h1_share",
+      "formula": "H1 channel / H1 total * 100",
+      "inputs": [
+        {
+          "fact": "h1.internet",
+          "column": "ytd",
+          "value": "57404169.12"
+        },
+        {
+          "fact": "h1.signed_total",
+          "column": "ytd",
+          "value": "3631962419.56"
+        }
+      ],
+      "result": "1.580527618095627804420420251",
+      "unit": "percent"
+    },
+    {
+      "id": "core_solvency_q2_increase",
+      "formula": "Q2 ratio - Q1 ratio",
+      "inputs": [
+        {
+          "fact": "h1.core_solvency",
+          "column": "quarter",
+          "value": "336.79"
+        },
+        {
+          "fact": "q1.core_solvency",
+          "column": "quarter",
+          "value": "308.65"
+        }
+      ],
+      "result": "28.14",
+      "unit": "percentage_points"
+    },
+    {
+      "id": "comprehensive_solvency_q2_increase",
+      "formula": "Q2 ratio - Q1 ratio",
+      "inputs": [
+        {
+          "fact": "h1.comprehensive_solvency",
+          "column": "quarter",
+          "value": "344.06"
+        },
+        {
+          "fact": "q1.comprehensive_solvency",
+          "column": "quarter",
+          "value": "314.61"
+        }
+      ],
+      "result": "29.45",
+      "unit": "percentage_points"
+    },
+    {
+      "id": "nb_margin_change",
+      "formula": "H1 cumulative NB margin - Q1 NB margin",
+      "inputs": [
+        {
+          "fact": "h1.nb_margin",
+          "column": "ytd",
+          "value": "8.04"
+        },
+        {
+          "fact": "q1.nb_margin",
+          "column": "ytd",
+          "value": "7.68"
+        }
+      ],
+      "result": "0.36",
+      "unit": "percentage_points"
+    },
+    {
+      "id": "h1_fraction_of_annual",
+      "formula": "H1 signed / 2025 signed * 100",
+      "inputs": [
+        {
+          "fact": "h1.signed_total",
+          "column": "ytd",
+          "value": "3631962419.56"
+        },
+        {
+          "fact": "h1.previous_annual_signed",
+          "column": "2025",
+          "value": "6184210584.71"
+        }
+      ],
+      "result": "58.72960452769439210696467150",
+      "unit": "percent"
+    }
+  ],
+  "accounting_note": {
+    "source": "h1",
+    "pdf_page": 17,
+    "text": "Insurance income remains old-basis; profit/assets/equity are new-basis. No same-basis annual growth inference is made across that boundary."
+  },
+  "gold_modified": false,
+  "model_calls": 0
+}

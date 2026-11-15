@@ -1,0 +1,1184 @@
+{
+  "candidate": [
+    {
+      "id": "C-WORKBOOK",
+      "text": "Workbook 边坡支护专业分包招标清单.xlsx; selected BOQ sheets: Tender BOQ"
+    },
+    {
+      "id": "C-I0001",
+      "text": "基坑支护-原方案一期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 252.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1000(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F7 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F7 = 252 m; Tender BOQ!F5 = 252 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0002",
+      "text": "基坑支护-原方案一期部分 | 10.0 | 截（凿）桩头 φ1200 | 1.桩类型：灌注桩，有筋 2.桩头截面、高度：综合考虑 3.混凝土强度等级：综合考虑 4.桩头处理：截（凿）除下的桩头处理，处理方式应符合有关部门规定和甲方要求，中标后不再单独计取与桩头处理有关的费用 5.破除桩头后的桩头钢筋整理综合考虑在报价内 6.外运处置费用：弃置的所有费用由投标人自行考虑，外弃运距自行综合考虑，运输方式及外弃场地必须满足当地相关行政主管部门的要求、应随时生产随时清运，其费用包含在投标单价中综合考虑 7.试验截桩不单独计量，试验截桩的材料费、施工费等所有费用综合考虑在报价内 8.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 以立方计量，按设计图示数量乘规范要求长度(0.5m)以体积计算，实际数量不超过对上工程 | m3 | 50.23 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 截（凿）桩头 φ1200; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F16 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F16 = 50.23 m3; Tender BOQ!F14 = 50.23 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0003",
+      "text": "基坑支护-原方案一期部分 | 11.0 | 坡顶返边、素砼回填浇筑 C20 | 1.部位：坡顶返边、素砼回填 2.混凝土种类:商品混凝土 3.混凝土强度等级:C20 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 38.02 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 坡顶返边、素砼回填浇筑 C20; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F17 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F17 = 38.02 m3; Tender BOQ!F15 = 38.02 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0004",
+      "text": "基坑支护-原方案一期部分 | 12.0 | C30冠梁 | 1.部位：冠梁 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 176.07 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for C30冠梁; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F18 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F18 = 176.07 m3; Tender BOQ!F16 = 176.07 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0005",
+      "text": "基坑支护-原方案一期部分 | 13.0 | C30连板 | 1.部位：连板 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 81.14 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for C30连板; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F19 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F19 = 81.14 m3; Tender BOQ!F17 = 81.14 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0006",
+      "text": "基坑支护-原方案一期部分 | 14.0 | 喷射C20混凝土护壁(网喷) 厚80mm | 1.部位：综合 2.厚度：80mm 3.材料种类：C20混凝土 4.钢筋及泄水管：另列 5.混凝土的所有外加剂的费用含在综合单价中 6.投标人应综合考虑施工平台搭设、拆除等措施费用，无论现场采用何种措施，费用都包含在综合单价中不做调整 7.商品砼的运输、浇筑、养护、泵送费、原浆收面压光,清理等综合考虑在投标报价中等费用投标人自行综合考虑在投标报价中，结算时不作调整 8.综合单价包含速凝剂、高压胶皮管，泄水孔φ50PVC管安装等费用 9.泵送方式由投标人根据现场条件自行综合考虑，电费、油费、水费等综合考虑在投标报价中 10.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 2058.42 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 喷射C20混凝土护壁(网喷) 厚80mm; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F20 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F20 = 2058.42 m2; Tender BOQ!F18 = 2058.42 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0007",
+      "text": "基坑支护-原方案一期部分 | 15.0 | 钢筋笼吊装 | 1.钢筋种类、规格：综合考虑 2.钢筋笼长度：综合考虑 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 129.923 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 钢筋笼吊装; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F21 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F21 = 129.923 t; Tender BOQ!F19 = 129.923 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0008",
+      "text": "基坑支护-原方案一期部分 | 16.0 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | 1.钢筋种类、规格：HPB300 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 26.138 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F22 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F22 = 26.138 t; Tender BOQ!F20 = 26.138 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0009",
+      "text": "基坑支护-原方案一期部分 | 17.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 8.994 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F23 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F23 = 8.994 t; Tender BOQ!F21 = 8.994 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0010",
+      "text": "基坑支护-原方案一期部分 | 18.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 94.79 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F24 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F24 = 94.79 t; Tender BOQ!F22 = 94.79 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0011",
+      "text": "基坑支护-原方案一期部分 | 19.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 8.337 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ8-10; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F25 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F25 = 8.337 t; Tender BOQ!F23 = 8.337 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0012",
+      "text": "基坑支护-原方案一期部分 | 2.0 | 旋挖灌注桩成孔 φ1000(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 680.6 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1000(四类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F8 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F8 = 680.6 m; Tender BOQ!F6 = 680.6 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0013",
+      "text": "基坑支护-原方案一期部分 | 20.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ12-14 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 1.478 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ12-14; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F26 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F26 = 1.478 t; Tender BOQ!F24 = 1.478 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0014",
+      "text": "基坑支护-原方案一期部分 | 21.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ16 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 4.526 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ16; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F27 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F27 = 4.526 t; Tender BOQ!F25 = 4.526 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0015",
+      "text": "基坑支护-原方案一期部分 | 22.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 3.631 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ18-22; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F28 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F28 = 3.631 t; Tender BOQ!F26 = 3.631 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0016",
+      "text": "基坑支护-原方案一期部分 | 23.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 18.862 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ25; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F29 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F29 = 18.862 t; Tender BOQ!F27 = 18.862 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0017",
+      "text": "基坑支护-原方案一期部分 | 24.0 | 护坡脚手架 | 1.搭设高度：综合 2.场内、外材料搬运；搭拆脚手架、斜道、上料平台、安全网及拆除后的材料堆放 3.包括单位工程在合理工期内完成全部工程项目所需的综合脚手架、外脚手架等脚手架费用，脚手架材料由投标人综合考虑,结算时不因现场脚手架用材料变化而调整本项目价格 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 2058.42 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 护坡脚手架; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F30 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F30 = 2058.42 m2; Tender BOQ!F28 = 2058.42 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0018",
+      "text": "基坑支护-原方案一期部分 | 25.0 | 冠梁 模板安拆 | 1.模板及支撑制作 2.模板及支撑安装、拆除、整理堆放及场内外运输 3.清理模板粘结物及模内杂物、刷隔离剂等 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 394.54 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 冠梁 模板安拆; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F31 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F31 = 394.54 m2; Tender BOQ!F29 = 394.54 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0019",
+      "text": "基坑支护-原方案一期部分 | 26.0 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 275.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 成井; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F32 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F32 = 275 m; Tender BOQ!F30 = 275 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0020",
+      "text": "基坑支护-原方案一期部分 | 27.0 | 深井泵 | 1.设备名称:深井泵 2.型号、规格:综合考虑，满足施工现场需求 3.包含：水泵、配套阀门、控制箱、电缆等全部附件 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 套 | 11.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 深井泵; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F33 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F33 = 11 套; Tender BOQ!F31 = 11 套; variance = 0 套. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0021",
+      "text": "基坑支护-原方案一期部分 | 28.0 | 机上人工 | 1.深井降水计日工，工种综合考虑 2.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 3.降排水工期暂按施工进度计划表中地下室肥槽回填完计算，本次工程量暂估，结算据实调整 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 工日 | 410.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 机上人工; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F34 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F34 = 410 工日; Tender BOQ!F32 = 410 工日; variance = 0 工日. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0022",
+      "text": "基坑支护-原方案一期部分 | 29.0 | 砂砾石回填 | 1.填方材料品种：合格砂砾石 2.回填方式：人机综合考虑 3.适用部位：综合考虑 4.填方粒径要求：满足施工验收及规范要求，分层碾压 5.其它：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 49.83 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 砂砾石回填; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F35 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F35 = 49.83 m3; Tender BOQ!F33 = 49.83 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0023",
+      "text": "基坑支护-原方案一期部分 | 3.0 | 旋挖灌注桩成孔 φ1200(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1200mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 95.2 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1200(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F9 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F9 = 95.2 m; Tender BOQ!F7 = 95.2 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0024",
+      "text": "基坑支护-原方案一期部分 | 30.0 | 砖砌挡墙 | 1.砌砖名称、部位:砖砌挡墙，厚度24cm 2.砖品种、规格、强度等级: 页岩实心砖,砖规格及强度综合 3.在防水层和保护墙之间缝隙填实投标人综合考虑价格 4.砂浆强度等级、配合比:M5.0砂浆砌筑 5.护臂砖柱综合考虑在报价中 6.其它：满足设计、规范及现行施工验收要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 6.48 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 砖砌挡墙; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F36 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F36 = 6.48 m3; Tender BOQ!F34 = 6.48 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0025",
+      "text": "基坑支护-原方案一期部分 | 31.0 | 排水沟土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：排水沟等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 38.64 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 排水沟土方开挖及外运; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F37 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F37 = 38.64 m3; Tender BOQ!F35 = 38.64 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0026",
+      "text": "基坑支护-原方案一期部分 | 32.0 | 现浇商品混凝土垫层 C15（排水沟） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.62 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇商品混凝土垫层 C15（排水沟）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F38 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F38 = 13.62 m3; Tender BOQ!F36 = 13.62 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0027",
+      "text": "基坑支护-原方案一期部分 | 33.0 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | 1.砖品种、规格、强度等级：排水沟采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.25 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F39 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F39 = 13.25 m3; Tender BOQ!F37 = 13.25 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0028",
+      "text": "基坑支护-原方案一期部分 | 34.0 | 20厚M15预拌抹灰砂浆抹面（排水沟） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 165.6 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 20厚M15预拌抹灰砂浆抹面（排水沟）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F40 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F40 = 165.6 m2; Tender BOQ!F38 = 165.6 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0029",
+      "text": "基坑支护-原方案一期部分 | 35.0 | 沉砂池土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：沉砂池等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 18.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 沉砂池土方开挖及外运; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F41 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F41 = 18 m3; Tender BOQ!F39 = 18 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0030",
+      "text": "基坑支护-原方案一期部分 | 36.0 | 现浇商品混凝土垫层 C15（沉砂池） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 4.05 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇商品混凝土垫层 C15（沉砂池）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F42 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F42 = 4.05 m3; Tender BOQ!F40 = 4.05 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0031",
+      "text": "基坑支护-原方案一期部分 | 37.0 | M7.5预拌砂浆砌筑MU10页岩砖沉沙池、集水坑 | 1.砖品种、规格、强度等级：沉砂池采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 18.47 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for M7.5预拌砂浆砌筑MU10页岩砖沉沙池、集水坑; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F43 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F43 = 18.47 m3; Tender BOQ!F41 = 18.47 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0032",
+      "text": "基坑支护-原方案一期部分 | 38.0 | 20厚M15预拌抹灰砂浆抹面（沉砂池） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 48.9 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 20厚M15预拌抹灰砂浆抹面（沉砂池）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F44 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F44 = 48.9 m2; Tender BOQ!F42 = 48.9 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0033",
+      "text": "基坑支护-原方案一期部分 | 4.0 | 旋挖灌注桩成孔 φ1200(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1200mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 404.3 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1200(四类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F10 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F10 = 404.3 m; Tender BOQ!F8 = 404.3 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0034",
+      "text": "基坑支护-原方案一期部分 | 5.0 | 旋挖灌注桩成孔 φ1300(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 15.92 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1300(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F11 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F11 = 15.92 m3; Tender BOQ!F9 = 15.92 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0035",
+      "text": "基坑支护-原方案一期部分 | 6.0 | 旋挖灌注桩成孔 φ1300(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 50.94 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1300(四类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F12 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F12 = 50.94 m3; Tender BOQ!F10 = 50.94 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0036",
+      "text": "基坑支护-原方案一期部分 | 7.0 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 912.42 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F13 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F13 = 912.42 m3; Tender BOQ!F11 = 912.42 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0037",
+      "text": "基坑支护-原方案一期部分 | 8.0 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.护筒造成桩径变大增加的砼量、因各种原因钢护筒需留置的费用、试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 301.33 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F14 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F14 = 301.33 m3; Tender BOQ!F12 = 301.33 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0038",
+      "text": "基坑支护-原方案一期部分 | 9.0 | 钢护筒 | 1.构件名称：护壁桩钢护筒，规格、材质、尺寸综合 2.埋设深度：综合 3.安装、拔除方式：综合考虑 4.钢构件运输：综合考虑 5.其他：结算工程量以实际工程量为准 6.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 211.636 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 钢护筒; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F15 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F15 = 211.636 t; Tender BOQ!F13 = 211.636 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0039",
+      "text": "基坑支护-原方案二期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 149.6 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1000(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F46 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F46 = 149.6 m; Tender BOQ!F44 = 149.6 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0040",
+      "text": "基坑支护-原方案二期部分 | 10.0 | C30冠梁 | 1.部位：冠梁 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 112.31 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for C30冠梁; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F55 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F55 = 112.31 m3; Tender BOQ!F53 = 112.31 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0041",
+      "text": "基坑支护-原方案二期部分 | 11.0 | 喷射C20混凝土护壁(网喷) 厚80mm | 1.部位：综合 2.厚度：80mm 3.材料种类：C20混凝土 4.钢筋及泄水管：另列 5.混凝土的所有外加剂的费用含在综合单价中 6.投标人应综合考虑施工平台搭设、拆除等措施费用，无论现场采用何种措施，费用都包含在综合单价中不做调整 7.商品砼的运输、浇筑、养护、泵送费、原浆收面压光,清理等综合考虑在投标报价中等费用投标人自行综合考虑在投标报价中，结算时不作调整 8.综合单价包含速凝剂、高压胶皮管，泄水孔φ50PVC管安装等费用 9.泵送方式由投标人根据现场条件自行综合考虑，电费、油费、水费等综合考虑在投标报价中 10.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1311.19 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 喷射C20混凝土护壁(网喷) 厚80mm; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F56 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F56 = 1311.19 m2; Tender BOQ!F54 = 1311.19 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0042",
+      "text": "基坑支护-原方案二期部分 | 12.0 | 钢筋笼吊装 | 1.钢筋种类、规格：综合考虑 2.钢筋笼长度：综合考虑 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 88.075 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 钢筋笼吊装; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F57 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F57 = 88.075 t; Tender BOQ!F55 = 88.075 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0043",
+      "text": "基坑支护-原方案二期部分 | 13.0 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | 1.钢筋种类、规格：HPB300 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 17.938 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F58 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F58 = 17.938 t; Tender BOQ!F56 = 17.938 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0044",
+      "text": "基坑支护-原方案二期部分 | 14.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 6.285 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F59 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F59 = 6.285 t; Tender BOQ!F57 = 6.285 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0045",
+      "text": "基坑支护-原方案二期部分 | 15.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 63.852 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F60 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F60 = 63.852 t; Tender BOQ!F58 = 63.852 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0046",
+      "text": "基坑支护-原方案二期部分 | 16.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 5.528 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ8-10; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F61 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F61 = 5.528 t; Tender BOQ!F59 = 5.528 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0047",
+      "text": "基坑支护-原方案二期部分 | 17.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ12-14 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 0.175 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ12-14; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F62 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F62 = 0.175 t; Tender BOQ!F60 = 0.175 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0048",
+      "text": "基坑支护-原方案二期部分 | 18.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ16 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 2.746 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ16; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F63 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F63 = 2.746 t; Tender BOQ!F61 = 2.746 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0049",
+      "text": "基坑支护-原方案二期部分 | 19.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 12.171 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ25; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F64 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F64 = 12.171 t; Tender BOQ!F62 = 12.171 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0050",
+      "text": "基坑支护-原方案二期部分 | 2.0 | 旋挖灌注桩成孔 φ1000(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 352.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1000(四类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F47 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F47 = 352 m; Tender BOQ!F45 = 352 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0051",
+      "text": "基坑支护-原方案二期部分 | 20.0 | 护坡脚手架 | 1.搭设高度：综合 2.场内、外材料搬运；搭拆脚手架、斜道、上料平台、安全网及拆除后的材料堆放 3.包括单位工程在合理工期内完成全部工程项目所需的综合脚手架、外脚手架等脚手架费用，脚手架材料由投标人综合考虑,结算时不因现场脚手架用材料变化而调整本项目价格 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1311.19 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 护坡脚手架; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F65 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F65 = 1311.19 m2; Tender BOQ!F63 = 1311.19 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0052",
+      "text": "基坑支护-原方案二期部分 | 21.0 | 冠梁 模板安拆 | 1.模板及支撑制作 2.模板及支撑安装、拆除、整理堆放及场内外运输 3.清理模板粘结物及模内杂物、刷隔离剂等 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 223.09 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 冠梁 模板安拆; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F66 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F66 = 223.09 m2; Tender BOQ!F64 = 223.09 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0053",
+      "text": "基坑支护-原方案二期部分 | 22.0 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 225.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 成井; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F67 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F67 = 225 m; Tender BOQ!F65 = 225 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0054",
+      "text": "基坑支护-原方案二期部分 | 23.0 | 深井泵 | 1.设备名称:深井泵 2.型号、规格:综合考虑，满足施工现场需求 3.包含：水泵、配套阀门、控制箱、电缆等全部附件 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 套 | 9.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 深井泵; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F68 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F68 = 9 套; Tender BOQ!F66 = 9 套; variance = 0 套. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0055",
+      "text": "基坑支护-原方案二期部分 | 24.0 | 机上人工 | 1.深井降水计日工，工种综合考虑 2.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 3.降排水工期暂按施工进度计划表中地下室肥槽回填完计算，本次工程量暂估，结算据实调整 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | 工日 | 410.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 机上人工; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F69 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F69 = 410 工日; Tender BOQ!F67 = 410 工日; variance = 0 工日. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0056",
+      "text": "基坑支护-原方案二期部分 | 25.0 | 砂砾石回填 | 1.填方材料品种：合格砂砾石 2.回填方式：人机综合考虑 3.适用部位：综合考虑 4.填方粒径要求：满足施工验收及规范要求，分层碾压 5.其它：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 40.77 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 砂砾石回填; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F70 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F70 = 40.77 m3; Tender BOQ!F68 = 40.77 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0057",
+      "text": "基坑支护-原方案二期部分 | 26.0 | 排水沟土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：排水沟等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 38.64 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 排水沟土方开挖及外运; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F71 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F71 = 38.64 m3; Tender BOQ!F69 = 38.64 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0058",
+      "text": "基坑支护-原方案二期部分 | 27.0 | 现浇商品混凝土垫层 C15（排水沟） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.62 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇商品混凝土垫层 C15（排水沟）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F72 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F72 = 13.62 m3; Tender BOQ!F70 = 13.62 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0059",
+      "text": "基坑支护-原方案二期部分 | 28.0 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | 1.砖品种、规格、强度等级：排水沟采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.25 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F73 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F73 = 13.25 m3; Tender BOQ!F71 = 13.25 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0060",
+      "text": "基坑支护-原方案二期部分 | 29.0 | 20厚M15预拌抹灰砂浆抹面（排水沟） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 165.6 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 20厚M15预拌抹灰砂浆抹面（排水沟）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F74 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F74 = 165.6 m2; Tender BOQ!F72 = 165.6 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0061",
+      "text": "基坑支护-原方案二期部分 | 3.0 | 旋挖灌注桩成孔 φ1300(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 15.92 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1300(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F48 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F48 = 15.92 m3; Tender BOQ!F46 = 15.92 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0062",
+      "text": "基坑支护-原方案二期部分 | 4.0 | 旋挖灌注桩成孔 φ1300(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 50.94 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1300(四类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F49 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F49 = 50.94 m3; Tender BOQ!F47 = 50.94 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0063",
+      "text": "基坑支护-原方案二期部分 | 5.0 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 269.79 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F50 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F50 = 269.79 m3; Tender BOQ!F48 = 269.79 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0064",
+      "text": "基坑支护-原方案二期部分 | 6.0 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.护筒造成桩径变大增加的砼量、因各种原因钢护筒需留置的费用、试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 115.58 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F51 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F51 = 115.58 m3; Tender BOQ!F49 = 115.58 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0065",
+      "text": "基坑支护-原方案二期部分 | 7.0 | 钢护筒 | 1.构件名称：护壁桩钢护筒，规格、材质、尺寸综合 2.埋设深度：综合 3.安装、拔除方式：综合考虑 4.钢构件运输：综合考虑 5.其他：结算工程量以实际工程量为准 6.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 161.057 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 钢护筒; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F52 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F52 = 161.057 t; Tender BOQ!F50 = 161.057 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0066",
+      "text": "基坑支护-原方案二期部分 | 8.0 | 截（凿）桩头 φ1200 | 1.桩类型：灌注桩，有筋 2.桩头截面、高度：综合考虑 3.混凝土强度等级：综合考虑 4.桩头处理：截（凿）除下的桩头处理，处理方式应符合有关部门规定和甲方要求，中标后不再单独计取与桩头处理有关的费用 5.破除桩头后的桩头钢筋整理综合考虑在报价内 6.外运处置费用：弃置的所有费用由投标人自行考虑，外弃运距自行综合考虑，运输方式及外弃场地必须满足当地相关行政主管部门的要求、应随时生产随时清运，其费用包含在投标单价中综合考虑 7.试验截桩不单独计量，试验截桩的材料费、施工费等所有费用综合考虑在报价内 8.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 以立方计量，按设计图示数量乘规范要求长度(0.5m)以体积计算，实际数量不超过对上工程 | m3 | 19.28 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 截（凿）桩头 φ1200; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F53 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F53 = 19.28 m3; Tender BOQ!F51 = 19.28 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0067",
+      "text": "基坑支护-原方案二期部分 | 9.0 | 坡顶返边、素砼回填浇筑 C20 | 1.部位：坡顶返边、素砼回填 2.混凝土种类:商品混凝土 3.混凝土强度等级:C20 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 16.01 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 坡顶返边、素砼回填浇筑 C20; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F54 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F54 = 16.01 m3; Tender BOQ!F52 = 16.01 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0068",
+      "text": "基坑支护-方案变更新增部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 161.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1000(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F76 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F76 = 161 m; Tender BOQ!F74 = 161 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0069",
+      "text": "基坑支护-方案变更新增部分 | 10.0 | C30冠梁 | 1.部位：冠梁 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 116.2 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for C30冠梁; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F85 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F85 = 116.2 m3; Tender BOQ!F83 = 116.2 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0070",
+      "text": "基坑支护-方案变更新增部分 | 11.0 | 喷射C20混凝土护壁(网喷) 厚80mm | 1.部位：综合 2.厚度：80mm 3.材料种类：C20混凝土 4.钢筋及泄水管：另列 5.混凝土的所有外加剂的费用含在综合单价中 6.投标人应综合考虑施工平台搭设、拆除等措施费用，无论现场采用何种措施，费用都包含在综合单价中不做调整 7.商品砼的运输、浇筑、养护、泵送费、原浆收面压光,清理等综合考虑在投标报价中等费用投标人自行综合考虑在投标报价中，结算时不作调整 8.综合单价包含速凝剂、高压胶皮管，泄水孔φ50PVC管安装等费用 9.泵送方式由投标人根据现场条件自行综合考虑，电费、油费、水费等综合考虑在投标报价中 10.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1105.24 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 喷射C20混凝土护壁(网喷) 厚80mm; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F86 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F86 = 1105.24 m2; Tender BOQ!F84 = 1105.24 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0071",
+      "text": "基坑支护-方案变更新增部分 | 12.0 | 钢筋笼吊装 | 1.钢筋种类、规格：综合考虑 2.钢筋笼长度：综合考虑 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 83.375 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 钢筋笼吊装; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F87 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F87 = 83.375 t; Tender BOQ!F85 = 83.375 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0072",
+      "text": "基坑支护-方案变更新增部分 | 13.0 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | 1.钢筋种类、规格：HPB300 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 17.114 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F88 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F88 = 17.114 t; Tender BOQ!F86 = 17.114 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0073",
+      "text": "基坑支护-方案变更新增部分 | 14.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 6.163 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F89 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F89 = 6.163 t; Tender BOQ!F87 = 6.163 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0074",
+      "text": "基坑支护-方案变更新增部分 | 15.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 60.098 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F90 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F90 = 60.098 t; Tender BOQ!F88 = 60.098 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0075",
+      "text": "基坑支护-方案变更新增部分 | 16.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 5.063 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ8-10; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F91 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F91 = 5.063 t; Tender BOQ!F89 = 5.063 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0076",
+      "text": "基坑支护-方案变更新增部分 | 17.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ12-14 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 0.665 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ12-14; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F92 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F92 = 0.665 t; Tender BOQ!F90 = 0.665 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0077",
+      "text": "基坑支护-方案变更新增部分 | 18.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ16 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 2.829 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ16; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F93 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F93 = 2.829 t; Tender BOQ!F91 = 2.829 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0078",
+      "text": "基坑支护-方案变更新增部分 | 19.0 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 13.071 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇构件钢筋 HRB400/HRB400E 直径φ25; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F94 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F94 = 13.071 t; Tender BOQ!F92 = 13.071 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0079",
+      "text": "基坑支护-方案变更新增部分 | 2.0 | 旋挖灌注桩成孔 φ1000(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 525.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1000(四类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F77 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F77 = 525 m; Tender BOQ!F75 = 525 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0080",
+      "text": "基坑支护-方案变更新增部分 | 20.0 | 护坡脚手架 | 1.搭设高度：综合 2.场内、外材料搬运；搭拆脚手架、斜道、上料平台、安全网及拆除后的材料堆放 3.包括单位工程在合理工期内完成全部工程项目所需的综合脚手架、外脚手架等脚手架费用，脚手架材料由投标人综合考虑,结算时不因现场脚手架用材料变化而调整本项目价格 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1105.24 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 护坡脚手架; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F95 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F95 = 1105.24 m2; Tender BOQ!F93 = 1105.24 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0081",
+      "text": "基坑支护-方案变更新增部分 | 21.0 | 冠梁 模板安拆 | 1.模板及支撑制作 2.模板及支撑安装、拆除、整理堆放及场内外运输 3.清理模板粘结物及模内杂物、刷隔离剂等 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 221.15 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 冠梁 模板安拆; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F96 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F96 = 221.15 m2; Tender BOQ!F94 = 221.15 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0082",
+      "text": "基坑支护-方案变更新增部分 | 22.0 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 175.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 成井; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F97 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F97 = 175 m; Tender BOQ!F95 = 175 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0083",
+      "text": "基坑支护-方案变更新增部分 | 23.0 | 深井泵 | 1.设备名称:深井泵 2.型号、规格:综合考虑，满足施工现场需求 3.包含：水泵、配套阀门、控制箱、电缆等全部附件 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 套 | 7.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 深井泵; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F98 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F98 = 7 套; Tender BOQ!F96 = 7 套; variance = 0 套. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0084",
+      "text": "基坑支护-方案变更新增部分 | 24.0 | 砂砾石回填 | 1.填方材料品种：合格砂砾石 2.回填方式：人机综合考虑 3.适用部位：综合考虑 4.填方粒径要求：满足施工验收及规范要求，分层碾压 5.其它：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 31.71 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 砂砾石回填; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F99 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F99 = 31.71 m3; Tender BOQ!F97 = 31.71 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0085",
+      "text": "基坑支护-方案变更新增部分 | 25.0 | 排水沟土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：排水沟等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 35.7 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 排水沟土方开挖及外运; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F100 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F100 = 35.7 m3; Tender BOQ!F98 = 35.7 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0086",
+      "text": "基坑支护-方案变更新增部分 | 26.0 | 现浇商品混凝土垫层 C15（排水沟） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 12.58 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 现浇商品混凝土垫层 C15（排水沟）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F101 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F101 = 12.58 m3; Tender BOQ!F99 = 12.58 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0087",
+      "text": "基坑支护-方案变更新增部分 | 27.0 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | 1.砖品种、规格、强度等级：排水沟采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 12.24 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F102 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F102 = 12.24 m3; Tender BOQ!F100 = 12.24 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0088",
+      "text": "基坑支护-方案变更新增部分 | 28.0 | 20厚M15预拌抹灰砂浆抹面（排水沟） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 153.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 20厚M15预拌抹灰砂浆抹面（排水沟）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F103 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F103 = 153 m2; Tender BOQ!F101 = 153 m2; variance = 0 m2. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0089",
+      "text": "基坑支护-方案变更新增部分 | 3.0 | 旋挖灌注桩成孔 φ1300(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 90.21 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1300(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F78 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F78 = 90.21 m3; Tender BOQ!F76 = 90.21 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0090",
+      "text": "基坑支护-方案变更新增部分 | 4.0 | 旋挖灌注桩成孔 φ1300(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 288.68 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1300(四类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F79 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F79 = 288.68 m3; Tender BOQ!F77 = 288.68 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0091",
+      "text": "基坑支护-方案变更新增部分 | 5.0 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 572.28 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F80 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F80 = 572.28 m3; Tender BOQ!F78 = 572.28 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0092",
+      "text": "基坑支护-方案变更新增部分 | 6.0 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.护筒造成桩径变大增加的砼量、因各种原因钢护筒需留置的费用、试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 232.51 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分）; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F81 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F81 = 232.51 m3; Tender BOQ!F79 = 232.51 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0093",
+      "text": "基坑支护-方案变更新增部分 | 7.0 | 钢护筒 | 1.构件名称：护壁桩钢护筒，规格、材质、尺寸综合 2.埋设深度：综合 3.安装、拔除方式：综合考虑 4.钢构件运输：综合考虑 5.其他：结算工程量以实际工程量为准 6.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 161.944 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 钢护筒; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F82 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F82 = 161.944 t; Tender BOQ!F80 = 161.944 t; variance = 0 t. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0094",
+      "text": "基坑支护-方案变更新增部分 | 8.0 | 截（凿）桩头 φ1200 | 1.桩类型：灌注桩，有筋 2.桩头截面、高度：综合考虑 3.混凝土强度等级：综合考虑 4.桩头处理：截（凿）除下的桩头处理，处理方式应符合有关部门规定和甲方要求，中标后不再单独计取与桩头处理有关的费用 5.破除桩头后的桩头钢筋整理综合考虑在报价内 6.外运处置费用：弃置的所有费用由投标人自行考虑，外弃运距自行综合考虑，运输方式及外弃场地必须满足当地相关行政主管部门的要求、应随时生产随时清运，其费用包含在投标单价中综合考虑 7.试验截桩不单独计量，试验截桩的材料费、施工费等所有费用综合考虑在报价内 8.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 以立方计量，按设计图示数量乘规范要求长度(0.5m)以体积计算，实际数量不超过对上工程 | m3 | 38.76 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 截（凿）桩头 φ1200; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F83 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F83 = 38.76 m3; Tender BOQ!F81 = 38.76 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-I0095",
+      "text": "基坑支护-方案变更新增部分 | 9.0 | 坡顶返边、素砼回填浇筑 C20 | 1.部位：坡顶返边、素砼回填 2.混凝土种类:商品混凝土 3.混凝土强度等级:C20 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 16.85 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 坡顶返边、素砼回填浇筑 C20; 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F84 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F84 = 16.85 m3; Tender BOQ!F82 = 16.85 m3; variance = 0 m3. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+    },
+    {
+      "id": "C-A0001",
+      "text": "parameter | P-01 | 基坑支护-原方案一期部分 | 1;2;3;4 | 基坑支护说明 剖面大样图.dwg / pile details; 项目基坑支---计算书.docx / support calculation section | Phase-I linked lines 1-4 use only 1000 mm and 1200 mm pile diameters. Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities. | Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities. | verified"
+    },
+    {
+      "id": "C-A0002",
+      "text": "parameter | P-02 | 基坑支护-原方案二期部分 | 1;2;3;4 | 基坑支护说明 剖面大样图.dwg / pile details; 项目基坑支---计算书.docx / support calculation section | Phase-II linked lines 1-4 use only 1000 mm and 1300 mm pile diameters. Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities. | Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities. | verified"
+    },
+    {
+      "id": "C-A0003",
+      "text": "parameter | P-03 | 基坑支护-方案变更新增部分 | 1;2;3;4 | 基坑支护说明 剖面大样图.dwg / pile details; 项目基坑支---计算书.docx / support calculation section | Variation-section linked lines 1-4 use only the diameters supported by the applicable revised profiles: 1000 mm and 1300 mm. Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities; retain unresolved profile conflicts as review-required. | Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities. | verified"
+    },
+    {
+      "id": "C-A0004",
+      "text": "uncertainty | U-01 | 基坑支护-原方案一期部分；基坑支护-原方案二期部分；基坑支护-方案变更新增部分 | 基坑支护-原方案一期部分-26；基坑支护-原方案一期部分-27；基坑支护-原方案二期部分-22；基坑支护-原方案二期部分-23；基坑支护-方案变更新增部分-22；基坑支护-方案变更新增部分-23 | 招标范围及方案版本分段说明.md / scope section list; 基坑支护说明 剖面大样图.dwg / 5.4 and 5.5; 项目基坑支---计算书.docx / section water-control tables | Phase boundary and version differences may change dewatering-well and pump allocation; the supplied design states both 44 and 51 wells. | Before tender pricing, compare the latest signed design revision with the section allocation and field-confirm JSJ well schedule; retain affected quantities as provisional/review-required until the clarification is issued. | review-required"
+    },
+    {
+      "id": "C-A0005",
+      "text": "closure | C-01 | 基坑支护-原方案一期部分 | 14;24 | Tender BOQ / 基坑支护-原方案一期部分 sequences 14 and 24 | Actual linked quantities: sequence 14 = 2058.42 m2; sequence 24 = 2058.42 m2; actual difference = 0.00 m2. | Completed numerical reconciliation: 0.00 m2 is within the 0.01 m2 comparison tolerance; result PASS. | verified"
+    },
+    {
+      "id": "C-A0006",
+      "text": "closure | C-02 | 基坑支护-原方案二期部分 | 11;20 | Tender BOQ / 基坑支护-原方案二期部分 sequences 11 and 20 | Actual linked quantities: sequence 11 = 1311.19 m2; sequence 20 = 1311.19 m2; actual difference = 0.00 m2. | Completed numerical reconciliation: 0.00 m2 is within the 0.01 m2 comparison tolerance; result PASS. | verified"
+    },
+    {
+      "id": "C-A0007",
+      "text": "closure | C-03 | 基坑支护-方案变更新增部分 | 11;20 | Tender BOQ / 基坑支护-方案变更新增部分 sequences 11 and 20 | Actual linked quantities: sequence 11 = 1105.24 m2; sequence 20 = 1105.24 m2; actual difference = 0.00 m2. | Completed numerical reconciliation: 0.00 m2 is within the 0.01 m2 comparison tolerance; result PASS. | verified"
+    }
+  ],
+  "professional_record": [
+    {
+      "id": "G-I0001",
+      "text": "基坑支护-原方案一期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 252.0"
+    },
+    {
+      "id": "G-I0002",
+      "text": "基坑支护-原方案一期部分 | 2 | 旋挖灌注桩成孔 φ1000(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 680.6"
+    },
+    {
+      "id": "G-I0003",
+      "text": "基坑支护-原方案一期部分 | 3 | 旋挖灌注桩成孔 φ1200(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1200mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 95.2"
+    },
+    {
+      "id": "G-I0004",
+      "text": "基坑支护-原方案一期部分 | 4 | 旋挖灌注桩成孔 φ1200(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1200mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 404.3"
+    },
+    {
+      "id": "G-I0005",
+      "text": "基坑支护-原方案一期部分 | 5 | 旋挖灌注桩成孔 φ1300(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 15.92"
+    },
+    {
+      "id": "G-I0006",
+      "text": "基坑支护-原方案一期部分 | 6 | 旋挖灌注桩成孔 φ1300(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 50.94"
+    },
+    {
+      "id": "G-I0007",
+      "text": "基坑支护-原方案一期部分 | 7 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 912.42"
+    },
+    {
+      "id": "G-I0008",
+      "text": "基坑支护-原方案一期部分 | 8 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.护筒造成桩径变大增加的砼量、因各种原因钢护筒需留置的费用、试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 301.33"
+    },
+    {
+      "id": "G-I0009",
+      "text": "基坑支护-原方案一期部分 | 9 | 钢护筒 | 1.构件名称：护壁桩钢护筒，规格、材质、尺寸综合 2.埋设深度：综合 3.安装、拔除方式：综合考虑 4.钢构件运输：综合考虑 5.其他：结算工程量以实际工程量为准 6.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 211.636"
+    },
+    {
+      "id": "G-I0010",
+      "text": "基坑支护-原方案一期部分 | 10 | 截（凿）桩头 φ1200 | 1.桩类型：灌注桩，有筋 2.桩头截面、高度：综合考虑 3.混凝土强度等级：综合考虑 4.桩头处理：截（凿）除下的桩头处理，处理方式应符合有关部门规定和甲方要求，中标后不再单独计取与桩头处理有关的费用 5.破除桩头后的桩头钢筋整理综合考虑在报价内 6.外运处置费用：弃置的所有费用由投标人自行考虑，外弃运距自行综合考虑，运输方式及外弃场地必须满足当地相关行政主管部门的要求、应随时生产随时清运，其费用包含在投标单价中综合考虑 7.试验截桩不单独计量，试验截桩的材料费、施工费等所有费用综合考虑在报价内 8.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 以立方计量，按设计图示数量乘规范要求长度(0.5m)以体积计算，实际数量不超过对上工程 | m3 | 50.23"
+    },
+    {
+      "id": "G-I0011",
+      "text": "基坑支护-原方案一期部分 | 11 | 坡顶返边、素砼回填浇筑 C20 | 1.部位：坡顶返边、素砼回填 2.混凝土种类:商品混凝土 3.混凝土强度等级:C20 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 38.02"
+    },
+    {
+      "id": "G-I0012",
+      "text": "基坑支护-原方案一期部分 | 12 | C30冠梁 | 1.部位：冠梁 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 176.07"
+    },
+    {
+      "id": "G-I0013",
+      "text": "基坑支护-原方案一期部分 | 13 | C30连板 | 1.部位：连板 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 81.14"
+    },
+    {
+      "id": "G-I0014",
+      "text": "基坑支护-原方案一期部分 | 14 | 喷射C20混凝土护壁(网喷) 厚80mm | 1.部位：综合 2.厚度：80mm 3.材料种类：C20混凝土 4.钢筋及泄水管：另列 5.混凝土的所有外加剂的费用含在综合单价中 6.投标人应综合考虑施工平台搭设、拆除等措施费用，无论现场采用何种措施，费用都包含在综合单价中不做调整 7.商品砼的运输、浇筑、养护、泵送费、原浆收面压光,清理等综合考虑在投标报价中等费用投标人自行综合考虑在投标报价中，结算时不作调整 8.综合单价包含速凝剂、高压胶皮管，泄水孔φ50PVC管安装等费用 9.泵送方式由投标人根据现场条件自行综合考虑，电费、油费、水费等综合考虑在投标报价中 10.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 2058.42"
+    },
+    {
+      "id": "G-I0015",
+      "text": "基坑支护-原方案一期部分 | 15 | 钢筋笼吊装 | 1.钢筋种类、规格：综合考虑 2.钢筋笼长度：综合考虑 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 129.923"
+    },
+    {
+      "id": "G-I0016",
+      "text": "基坑支护-原方案一期部分 | 16 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | 1.钢筋种类、规格：HPB300 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 26.138"
+    },
+    {
+      "id": "G-I0017",
+      "text": "基坑支护-原方案一期部分 | 17 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 8.994"
+    },
+    {
+      "id": "G-I0018",
+      "text": "基坑支护-原方案一期部分 | 18 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 94.79"
+    },
+    {
+      "id": "G-I0019",
+      "text": "基坑支护-原方案一期部分 | 19 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 8.337"
+    },
+    {
+      "id": "G-I0020",
+      "text": "基坑支护-原方案一期部分 | 20 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ12-14 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 1.478"
+    },
+    {
+      "id": "G-I0021",
+      "text": "基坑支护-原方案一期部分 | 21 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ16 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 4.526"
+    },
+    {
+      "id": "G-I0022",
+      "text": "基坑支护-原方案一期部分 | 22 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 3.631"
+    },
+    {
+      "id": "G-I0023",
+      "text": "基坑支护-原方案一期部分 | 23 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 18.862"
+    },
+    {
+      "id": "G-I0024",
+      "text": "基坑支护-原方案一期部分 | 24 | 护坡脚手架 | 1.搭设高度：综合 2.场内、外材料搬运；搭拆脚手架、斜道、上料平台、安全网及拆除后的材料堆放 3.包括单位工程在合理工期内完成全部工程项目所需的综合脚手架、外脚手架等脚手架费用，脚手架材料由投标人综合考虑,结算时不因现场脚手架用材料变化而调整本项目价格 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 2058.42"
+    },
+    {
+      "id": "G-I0025",
+      "text": "基坑支护-原方案一期部分 | 25 | 冠梁 模板安拆 | 1.模板及支撑制作 2.模板及支撑安装、拆除、整理堆放及场内外运输 3.清理模板粘结物及模内杂物、刷隔离剂等 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 394.54"
+    },
+    {
+      "id": "G-I0026",
+      "text": "基坑支护-原方案一期部分 | 26 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 275.0"
+    },
+    {
+      "id": "G-I0027",
+      "text": "基坑支护-原方案一期部分 | 27 | 深井泵 | 1.设备名称:深井泵 2.型号、规格:综合考虑，满足施工现场需求 3.包含：水泵、配套阀门、控制箱、电缆等全部附件 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 套 | 11.0"
+    },
+    {
+      "id": "G-I0028",
+      "text": "基坑支护-原方案一期部分 | 28 | 机上人工 | 1.深井降水计日工，工种综合考虑 2.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 3.降排水工期暂按施工进度计划表中地下室肥槽回填完计算，本次工程量暂估，结算据实调整 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 工日 | 410.0"
+    },
+    {
+      "id": "G-I0029",
+      "text": "基坑支护-原方案一期部分 | 29 | 砂砾石回填 | 1.填方材料品种：合格砂砾石 2.回填方式：人机综合考虑 3.适用部位：综合考虑 4.填方粒径要求：满足施工验收及规范要求，分层碾压 5.其它：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 49.83"
+    },
+    {
+      "id": "G-I0030",
+      "text": "基坑支护-原方案一期部分 | 30 | 砖砌挡墙 | 1.砌砖名称、部位:砖砌挡墙，厚度24cm 2.砖品种、规格、强度等级: 页岩实心砖,砖规格及强度综合 3.在防水层和保护墙之间缝隙填实投标人综合考虑价格 4.砂浆强度等级、配合比:M5.0砂浆砌筑 5.护臂砖柱综合考虑在报价中 6.其它：满足设计、规范及现行施工验收要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 6.48"
+    },
+    {
+      "id": "G-I0031",
+      "text": "基坑支护-原方案一期部分 | 31 | 排水沟土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：排水沟等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 38.64"
+    },
+    {
+      "id": "G-I0032",
+      "text": "基坑支护-原方案一期部分 | 32 | 现浇商品混凝土垫层 C15（排水沟） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.62"
+    },
+    {
+      "id": "G-I0033",
+      "text": "基坑支护-原方案一期部分 | 33 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | 1.砖品种、规格、强度等级：排水沟采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.25"
+    },
+    {
+      "id": "G-I0034",
+      "text": "基坑支护-原方案一期部分 | 34 | 20厚M15预拌抹灰砂浆抹面（排水沟） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 165.6"
+    },
+    {
+      "id": "G-I0035",
+      "text": "基坑支护-原方案一期部分 | 35 | 沉砂池土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：沉砂池等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 18.0"
+    },
+    {
+      "id": "G-I0036",
+      "text": "基坑支护-原方案一期部分 | 36 | 现浇商品混凝土垫层 C15（沉砂池） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 4.05"
+    },
+    {
+      "id": "G-I0037",
+      "text": "基坑支护-原方案一期部分 | 37 | M7.5预拌砂浆砌筑MU10页岩砖沉沙池、集水坑 | 1.砖品种、规格、强度等级：沉砂池采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 18.47"
+    },
+    {
+      "id": "G-I0038",
+      "text": "基坑支护-原方案一期部分 | 38 | 20厚M15预拌抹灰砂浆抹面（沉砂池） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 48.9"
+    },
+    {
+      "id": "G-I0039",
+      "text": "基坑支护-原方案二期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 149.6"
+    },
+    {
+      "id": "G-I0040",
+      "text": "基坑支护-原方案二期部分 | 2 | 旋挖灌注桩成孔 φ1000(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 352.0"
+    },
+    {
+      "id": "G-I0041",
+      "text": "基坑支护-原方案二期部分 | 3 | 旋挖灌注桩成孔 φ1300(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 15.92"
+    },
+    {
+      "id": "G-I0042",
+      "text": "基坑支护-原方案二期部分 | 4 | 旋挖灌注桩成孔 φ1300(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 50.94"
+    },
+    {
+      "id": "G-I0043",
+      "text": "基坑支护-原方案二期部分 | 5 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 269.79"
+    },
+    {
+      "id": "G-I0044",
+      "text": "基坑支护-原方案二期部分 | 6 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.护筒造成桩径变大增加的砼量、因各种原因钢护筒需留置的费用、试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 115.58"
+    },
+    {
+      "id": "G-I0045",
+      "text": "基坑支护-原方案二期部分 | 7 | 钢护筒 | 1.构件名称：护壁桩钢护筒，规格、材质、尺寸综合 2.埋设深度：综合 3.安装、拔除方式：综合考虑 4.钢构件运输：综合考虑 5.其他：结算工程量以实际工程量为准 6.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 161.057"
+    },
+    {
+      "id": "G-I0046",
+      "text": "基坑支护-原方案二期部分 | 8 | 截（凿）桩头 φ1200 | 1.桩类型：灌注桩，有筋 2.桩头截面、高度：综合考虑 3.混凝土强度等级：综合考虑 4.桩头处理：截（凿）除下的桩头处理，处理方式应符合有关部门规定和甲方要求，中标后不再单独计取与桩头处理有关的费用 5.破除桩头后的桩头钢筋整理综合考虑在报价内 6.外运处置费用：弃置的所有费用由投标人自行考虑，外弃运距自行综合考虑，运输方式及外弃场地必须满足当地相关行政主管部门的要求、应随时生产随时清运，其费用包含在投标单价中综合考虑 7.试验截桩不单独计量，试验截桩的材料费、施工费等所有费用综合考虑在报价内 8.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 以立方计量，按设计图示数量乘规范要求长度(0.5m)以体积计算，实际数量不超过对上工程 | m3 | 19.28"
+    },
+    {
+      "id": "G-I0047",
+      "text": "基坑支护-原方案二期部分 | 9 | 坡顶返边、素砼回填浇筑 C20 | 1.部位：坡顶返边、素砼回填 2.混凝土种类:商品混凝土 3.混凝土强度等级:C20 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 16.01"
+    },
+    {
+      "id": "G-I0048",
+      "text": "基坑支护-原方案二期部分 | 10 | C30冠梁 | 1.部位：冠梁 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 112.31"
+    },
+    {
+      "id": "G-I0049",
+      "text": "基坑支护-原方案二期部分 | 11 | 喷射C20混凝土护壁(网喷) 厚80mm | 1.部位：综合 2.厚度：80mm 3.材料种类：C20混凝土 4.钢筋及泄水管：另列 5.混凝土的所有外加剂的费用含在综合单价中 6.投标人应综合考虑施工平台搭设、拆除等措施费用，无论现场采用何种措施，费用都包含在综合单价中不做调整 7.商品砼的运输、浇筑、养护、泵送费、原浆收面压光,清理等综合考虑在投标报价中等费用投标人自行综合考虑在投标报价中，结算时不作调整 8.综合单价包含速凝剂、高压胶皮管，泄水孔φ50PVC管安装等费用 9.泵送方式由投标人根据现场条件自行综合考虑，电费、油费、水费等综合考虑在投标报价中 10.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1311.19"
+    },
+    {
+      "id": "G-I0050",
+      "text": "基坑支护-原方案二期部分 | 12 | 钢筋笼吊装 | 1.钢筋种类、规格：综合考虑 2.钢筋笼长度：综合考虑 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 88.075"
+    },
+    {
+      "id": "G-I0051",
+      "text": "基坑支护-原方案二期部分 | 13 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | 1.钢筋种类、规格：HPB300 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 17.938"
+    },
+    {
+      "id": "G-I0052",
+      "text": "基坑支护-原方案二期部分 | 14 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 6.285"
+    },
+    {
+      "id": "G-I0053",
+      "text": "基坑支护-原方案二期部分 | 15 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 63.852"
+    },
+    {
+      "id": "G-I0054",
+      "text": "基坑支护-原方案二期部分 | 16 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 5.528"
+    },
+    {
+      "id": "G-I0055",
+      "text": "基坑支护-原方案二期部分 | 17 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ12-14 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 0.175"
+    },
+    {
+      "id": "G-I0056",
+      "text": "基坑支护-原方案二期部分 | 18 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ16 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 2.746"
+    },
+    {
+      "id": "G-I0057",
+      "text": "基坑支护-原方案二期部分 | 19 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 12.171"
+    },
+    {
+      "id": "G-I0058",
+      "text": "基坑支护-原方案二期部分 | 20 | 护坡脚手架 | 1.搭设高度：综合 2.场内、外材料搬运；搭拆脚手架、斜道、上料平台、安全网及拆除后的材料堆放 3.包括单位工程在合理工期内完成全部工程项目所需的综合脚手架、外脚手架等脚手架费用，脚手架材料由投标人综合考虑,结算时不因现场脚手架用材料变化而调整本项目价格 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1311.19"
+    },
+    {
+      "id": "G-I0059",
+      "text": "基坑支护-原方案二期部分 | 21 | 冠梁 模板安拆 | 1.模板及支撑制作 2.模板及支撑安装、拆除、整理堆放及场内外运输 3.清理模板粘结物及模内杂物、刷隔离剂等 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 223.09"
+    },
+    {
+      "id": "G-I0060",
+      "text": "基坑支护-原方案二期部分 | 22 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 225.0"
+    },
+    {
+      "id": "G-I0061",
+      "text": "基坑支护-原方案二期部分 | 23 | 深井泵 | 1.设备名称:深井泵 2.型号、规格:综合考虑，满足施工现场需求 3.包含：水泵、配套阀门、控制箱、电缆等全部附件 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 套 | 9.0"
+    },
+    {
+      "id": "G-I0062",
+      "text": "基坑支护-原方案二期部分 | 24 | 机上人工 | 1.深井降水计日工，工种综合考虑 2.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 3.降排水工期暂按施工进度计划表中地下室肥槽回填完计算，本次工程量暂估，结算据实调整 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | 工日 | 410.0"
+    },
+    {
+      "id": "G-I0063",
+      "text": "基坑支护-原方案二期部分 | 25 | 砂砾石回填 | 1.填方材料品种：合格砂砾石 2.回填方式：人机综合考虑 3.适用部位：综合考虑 4.填方粒径要求：满足施工验收及规范要求，分层碾压 5.其它：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 40.77"
+    },
+    {
+      "id": "G-I0064",
+      "text": "基坑支护-原方案二期部分 | 26 | 排水沟土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：排水沟等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 38.64"
+    },
+    {
+      "id": "G-I0065",
+      "text": "基坑支护-原方案二期部分 | 27 | 现浇商品混凝土垫层 C15（排水沟） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.62"
+    },
+    {
+      "id": "G-I0066",
+      "text": "基坑支护-原方案二期部分 | 28 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | 1.砖品种、规格、强度等级：排水沟采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 13.25"
+    },
+    {
+      "id": "G-I0067",
+      "text": "基坑支护-原方案二期部分 | 29 | 20厚M15预拌抹灰砂浆抹面（排水沟） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 165.6"
+    },
+    {
+      "id": "G-I0068",
+      "text": "基坑支护-方案变更新增部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 161.0"
+    },
+    {
+      "id": "G-I0069",
+      "text": "基坑支护-方案变更新增部分 | 2 | 旋挖灌注桩成孔 φ1000(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 525.0"
+    },
+    {
+      "id": "G-I0070",
+      "text": "基坑支护-方案变更新增部分 | 3 | 旋挖灌注桩成孔 φ1300(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 90.21"
+    },
+    {
+      "id": "G-I0071",
+      "text": "基坑支护-方案变更新增部分 | 4 | 旋挖灌注桩成孔 φ1300(四类土) | 1.地层情况：四类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1300mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 288.68"
+    },
+    {
+      "id": "G-I0072",
+      "text": "基坑支护-方案变更新增部分 | 5 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 572.28"
+    },
+    {
+      "id": "G-I0073",
+      "text": "基坑支护-方案变更新增部分 | 6 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼，水下商品混凝土增加费用综合考虑在报价中，投标人报价时应综合考虑砼充盈系数、桩头浮浆砼及超灌量,并由投标人自行考虑在综合单价中 3.桩头防水处理投标人自行考虑进入综合单价,结算时不调整综合单价和另外增加费用 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.钢筋：另计 6.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 7.桩的自行质量控制检测费，投标人综合考虑在投标报价内；结算时，综合单价不做调整 8.护筒造成桩径变大增加的砼量、因各种原因钢护筒需留置的费用、试成孔增加费等需综合考虑在综合单价中，不再另行计量计价 9.试验桩增加费考虑在报价中，结算时按工程桩计算 10.扩大头部分施工、混凝土等费用包含在综合单价内 11.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 232.51"
+    },
+    {
+      "id": "G-I0074",
+      "text": "基坑支护-方案变更新增部分 | 7 | 钢护筒 | 1.构件名称：护壁桩钢护筒，规格、材质、尺寸综合 2.埋设深度：综合 3.安装、拔除方式：综合考虑 4.钢构件运输：综合考虑 5.其他：结算工程量以实际工程量为准 6.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 161.944"
+    },
+    {
+      "id": "G-I0075",
+      "text": "基坑支护-方案变更新增部分 | 8 | 截（凿）桩头 φ1200 | 1.桩类型：灌注桩，有筋 2.桩头截面、高度：综合考虑 3.混凝土强度等级：综合考虑 4.桩头处理：截（凿）除下的桩头处理，处理方式应符合有关部门规定和甲方要求，中标后不再单独计取与桩头处理有关的费用 5.破除桩头后的桩头钢筋整理综合考虑在报价内 6.外运处置费用：弃置的所有费用由投标人自行考虑，外弃运距自行综合考虑，运输方式及外弃场地必须满足当地相关行政主管部门的要求、应随时生产随时清运，其费用包含在投标单价中综合考虑 7.试验截桩不单独计量，试验截桩的材料费、施工费等所有费用综合考虑在报价内 8.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 以立方计量，按设计图示数量乘规范要求长度(0.5m)以体积计算，实际数量不超过对上工程 | m3 | 38.76"
+    },
+    {
+      "id": "G-I0076",
+      "text": "基坑支护-方案变更新增部分 | 9 | 坡顶返边、素砼回填浇筑 C20 | 1.部位：坡顶返边、素砼回填 2.混凝土种类:商品混凝土 3.混凝土强度等级:C20 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 16.85"
+    },
+    {
+      "id": "G-I0077",
+      "text": "基坑支护-方案变更新增部分 | 10 | C30冠梁 | 1.部位：冠梁 2.混凝土种类:商品混凝土 3.混凝土强度等级:C30 4.混凝土拌合料要求：满足设计并符合规范要求，骨料粒径综合 5.混凝土的所有外加剂（除抗渗剂、膨胀剂、抗裂纤维）费用含在综合单价中，结算时不因材料及配合比 6.运输距离：投标人自行考虑 7.输送方式:综合单价应当包括泵送费用、油费、水费等,无论施工期间采用何种砼输送设备,结算时综合单价均不作调整 8.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 116.2"
+    },
+    {
+      "id": "G-I0078",
+      "text": "基坑支护-方案变更新增部分 | 11 | 喷射C20混凝土护壁(网喷) 厚80mm | 1.部位：综合 2.厚度：80mm 3.材料种类：C20混凝土 4.钢筋及泄水管：另列 5.混凝土的所有外加剂的费用含在综合单价中 6.投标人应综合考虑施工平台搭设、拆除等措施费用，无论现场采用何种措施，费用都包含在综合单价中不做调整 7.商品砼的运输、浇筑、养护、泵送费、原浆收面压光,清理等综合考虑在投标报价中等费用投标人自行综合考虑在投标报价中，结算时不作调整 8.综合单价包含速凝剂、高压胶皮管，泄水孔φ50PVC管安装等费用 9.泵送方式由投标人根据现场条件自行综合考虑，电费、油费、水费等综合考虑在投标报价中 10.其他要求;必须满足施工规范及现行相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1105.24"
+    },
+    {
+      "id": "G-I0079",
+      "text": "基坑支护-方案变更新增部分 | 12 | 钢筋笼吊装 | 1.钢筋种类、规格：综合考虑 2.钢筋笼长度：综合考虑 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 83.375"
+    },
+    {
+      "id": "G-I0080",
+      "text": "基坑支护-方案变更新增部分 | 13 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | 1.钢筋种类、规格：HPB300 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 17.114"
+    },
+    {
+      "id": "G-I0081",
+      "text": "基坑支护-方案变更新增部分 | 14 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ18-22 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 6.163"
+    },
+    {
+      "id": "G-I0082",
+      "text": "基坑支护-方案变更新增部分 | 15 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 60.098"
+    },
+    {
+      "id": "G-I0083",
+      "text": "基坑支护-方案变更新增部分 | 16 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ8-10 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 5.063"
+    },
+    {
+      "id": "G-I0084",
+      "text": "基坑支护-方案变更新增部分 | 17 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ12-14 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 0.665"
+    },
+    {
+      "id": "G-I0085",
+      "text": "基坑支护-方案变更新增部分 | 18 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ16 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 2.829"
+    },
+    {
+      "id": "G-I0086",
+      "text": "基坑支护-方案变更新增部分 | 19 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | 1.钢筋种类、规格：螺纹钢HRB400/HRB400E 直径φ25 直形、弧形综合考虑 2.除设计（包括规范规定）标明的搭接外，其他施工搭接工程量不再单独计算，该费用投标人自行考虑在综合单价中 3.除锈、调直费用、弧形构件钢筋投标人综合考虑，进入综合单价中，抗震与非抗震钢筋综合报价，中标后得不因此而调增综合单价 4.钢筋连接方式无论绑扎搭接、焊接、套筒等机械连接（含连接头）或其他连接方式，其所有费用综合考虑在投标报价内，不再另行计取 5.投标人综合考虑埋设的方式，综合考虑二次结构（如构造柱、砌体等）钢筋与主体的各种连接方式，无论采用预留、植筋或其他施工方式其所有费用综合考虑在投标报价内，不再另行计取 6.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | t | 13.071"
+    },
+    {
+      "id": "G-I0087",
+      "text": "基坑支护-方案变更新增部分 | 20 | 护坡脚手架 | 1.搭设高度：综合 2.场内、外材料搬运；搭拆脚手架、斜道、上料平台、安全网及拆除后的材料堆放 3.包括单位工程在合理工期内完成全部工程项目所需的综合脚手架、外脚手架等脚手架费用，脚手架材料由投标人综合考虑,结算时不因现场脚手架用材料变化而调整本项目价格 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 1105.24"
+    },
+    {
+      "id": "G-I0088",
+      "text": "基坑支护-方案变更新增部分 | 21 | 冠梁 模板安拆 | 1.模板及支撑制作 2.模板及支撑安装、拆除、整理堆放及场内外运输 3.清理模板粘结物及模内杂物、刷隔离剂等 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 221.15"
+    },
+    {
+      "id": "G-I0089",
+      "text": "基坑支护-方案变更新增部分 | 22 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 175.0"
+    },
+    {
+      "id": "G-I0090",
+      "text": "基坑支护-方案变更新增部分 | 23 | 深井泵 | 1.设备名称:深井泵 2.型号、规格:综合考虑，满足施工现场需求 3.包含：水泵、配套阀门、控制箱、电缆等全部附件 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | 套 | 7.0"
+    },
+    {
+      "id": "G-I0091",
+      "text": "基坑支护-方案变更新增部分 | 24 | 砂砾石回填 | 1.填方材料品种：合格砂砾石 2.回填方式：人机综合考虑 3.适用部位：综合考虑 4.填方粒径要求：满足施工验收及规范要求，分层碾压 5.其它：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 31.71"
+    },
+    {
+      "id": "G-I0092",
+      "text": "基坑支护-方案变更新增部分 | 25 | 排水沟土方开挖及外运 | 1.土壤类别、土石比例：各类土层（含素填土、粘土、粉质黏土、硬塑粘土、可塑粘土、稍密卵石、中密卵石、含卵石粉质粘土、泥岩、强风化泥岩、中风化泥岩、淤泥、流沙等），地下及地上障碍物（含砖、石、钢筋砼、砼、垃圾、建渣及地上附着物、树兜等），具体详地勘报告，投标人根据现场勘查情况及地勘报告进行综合考虑，综合单价均不作调整 2.本项目在挖土石方时可能遇见原有地面的钢筋砼、砼路面、已拆房屋或构筑物等遗留的老旧砼基础、砖基础、石基础、构筑物、树蔸、管道、原有建筑垃圾或生活垃圾等不明障碍物的破除费用由投标人在综合单价中自行考虑 3.挖土石方深度：投标人综合考虑（严禁超挖（必须进行基底换填的除外））报价，结算时不因挖土深度变化调整综合单价 4.投标人应根据设计要求并结合企业自身施工方案综合考虑机械挖装土石方与人工检底的比例报价，结算时综合单价不做调整 5.挖土运距：土方开挖及外运包含在此综合单价中，投标人综合考虑报价 6.开挖方式：人工、机械等综合 7.人工捡底、钎探、岩石破除等费用包含在内，报价综合考虑，综合单价不做调整 8.范围：排水沟等 9.若涉及砂石资源，按《成都市双流区人民政府办公室关于印发<成都市双流区砂石资源管理利用实施办法（试行）>的通知》（双办发【2020】21号）及相关规定执行其他 10.投标人投标报价时应充分考虑施工片区已经实施的政策性文件引起的施工成本增加，结算不作调整 11.其他：满足设计图纸、招标技术标准、施工及验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 35.7"
+    },
+    {
+      "id": "G-I0093",
+      "text": "基坑支护-方案变更新增部分 | 26 | 现浇商品混凝土垫层 C15（排水沟） | 1.垫层材料种类、厚度：100mm 2.混凝土强度等级：C15 3.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 12.58"
+    },
+    {
+      "id": "G-I0094",
+      "text": "基坑支护-方案变更新增部分 | 27 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | 1.砖品种、规格、强度等级：排水沟采用MU10页岩砖、M7.5水泥砂浆砌筑 2.沟截面尺寸：540mm*300mm高 3.砂浆强度等级：M7.5水泥砂浆 4.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m3 | 12.24"
+    },
+    {
+      "id": "G-I0095",
+      "text": "基坑支护-方案变更新增部分 | 28 | 20厚M15预拌抹灰砂浆抹面（排水沟） | 1.沟壁四周及底面抹20厚1:2.5水泥砂浆 。 2.其它：满足施工图设计要求及施工验收规范要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m2 | 153.0"
+    }
+  ],
+  "verified_facts": [
+    {
+      "id": "F-Q0001",
+      "text": "基坑支护-原方案一期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | source_professional_boq.xls | 招标工程量清单!F7 = 252.0 m | published F5 = 252.0 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0002",
+      "text": "基坑支护-原方案一期部分 | 2 | 旋挖灌注桩成孔 φ1000(四类土) | source_professional_boq.xls | 招标工程量清单!F8 = 680.6 m | published F6 = 680.6 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0003",
+      "text": "基坑支护-原方案一期部分 | 3 | 旋挖灌注桩成孔 φ1200(一、二类土) | source_professional_boq.xls | 招标工程量清单!F9 = 95.2 m | published F7 = 95.2 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0004",
+      "text": "基坑支护-原方案一期部分 | 4 | 旋挖灌注桩成孔 φ1200(四类土) | source_professional_boq.xls | 招标工程量清单!F10 = 404.3 m | published F8 = 404.3 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0005",
+      "text": "基坑支护-原方案一期部分 | 5 | 旋挖灌注桩成孔 φ1300(一、二类土) | source_professional_boq.xls | 招标工程量清单!F11 = 15.92 m3 | published F9 = 15.92 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0006",
+      "text": "基坑支护-原方案一期部分 | 6 | 旋挖灌注桩成孔 φ1300(四类土) | source_professional_boq.xls | 招标工程量清单!F12 = 50.94 m3 | published F10 = 50.94 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0007",
+      "text": "基坑支护-原方案一期部分 | 7 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | source_professional_boq.xls | 招标工程量清单!F13 = 912.42 m3 | published F11 = 912.42 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0008",
+      "text": "基坑支护-原方案一期部分 | 8 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | source_professional_boq.xls | 招标工程量清单!F14 = 301.33 m3 | published F12 = 301.33 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0009",
+      "text": "基坑支护-原方案一期部分 | 9 | 钢护筒 | source_professional_boq.xls | 招标工程量清单!F15 = 211.636 t | published F13 = 211.636 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0010",
+      "text": "基坑支护-原方案一期部分 | 10 | 截（凿）桩头 φ1200 | source_professional_boq.xls | 招标工程量清单!F16 = 50.23 m3 | published F14 = 50.23 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0011",
+      "text": "基坑支护-原方案一期部分 | 11 | 坡顶返边、素砼回填浇筑 C20 | source_professional_boq.xls | 招标工程量清单!F17 = 38.02 m3 | published F15 = 38.02 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0012",
+      "text": "基坑支护-原方案一期部分 | 12 | C30冠梁 | source_professional_boq.xls | 招标工程量清单!F18 = 176.07 m3 | published F16 = 176.07 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0013",
+      "text": "基坑支护-原方案一期部分 | 13 | C30连板 | source_professional_boq.xls | 招标工程量清单!F19 = 81.14 m3 | published F17 = 81.14 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0014",
+      "text": "基坑支护-原方案一期部分 | 14 | 喷射C20混凝土护壁(网喷) 厚80mm | source_professional_boq.xls | 招标工程量清单!F20 = 2058.42 m2 | published F18 = 2058.42 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0015",
+      "text": "基坑支护-原方案一期部分 | 15 | 钢筋笼吊装 | source_professional_boq.xls | 招标工程量清单!F21 = 129.923 t | published F19 = 129.923 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0016",
+      "text": "基坑支护-原方案一期部分 | 16 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F22 = 26.138 t | published F20 = 26.138 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0017",
+      "text": "基坑支护-原方案一期部分 | 17 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F23 = 8.994 t | published F21 = 8.994 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0018",
+      "text": "基坑支护-原方案一期部分 | 18 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F24 = 94.79 t | published F22 = 94.79 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0019",
+      "text": "基坑支护-原方案一期部分 | 19 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | source_professional_boq.xls | 招标工程量清单!F25 = 8.337 t | published F23 = 8.337 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0020",
+      "text": "基坑支护-原方案一期部分 | 20 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | source_professional_boq.xls | 招标工程量清单!F26 = 1.478 t | published F24 = 1.478 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0021",
+      "text": "基坑支护-原方案一期部分 | 21 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | source_professional_boq.xls | 招标工程量清单!F27 = 4.526 t | published F25 = 4.526 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0022",
+      "text": "基坑支护-原方案一期部分 | 22 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22 | source_professional_boq.xls | 招标工程量清单!F28 = 3.631 t | published F26 = 3.631 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0023",
+      "text": "基坑支护-原方案一期部分 | 23 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | source_professional_boq.xls | 招标工程量清单!F29 = 18.862 t | published F27 = 18.862 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0024",
+      "text": "基坑支护-原方案一期部分 | 24 | 护坡脚手架 | source_professional_boq.xls | 招标工程量清单!F30 = 2058.42 m2 | published F28 = 2058.42 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0025",
+      "text": "基坑支护-原方案一期部分 | 25 | 冠梁 模板安拆 | source_professional_boq.xls | 招标工程量清单!F31 = 394.54 m2 | published F29 = 394.54 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0026",
+      "text": "基坑支护-原方案一期部分 | 26 | 成井 | source_professional_boq.xls | 招标工程量清单!F32 = 275.0 m | published F30 = 275.0 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0027",
+      "text": "基坑支护-原方案一期部分 | 27 | 深井泵 | source_professional_boq.xls | 招标工程量清单!F33 = 11.0 套 | published F31 = 11.0 套 | variance = 0.0 套"
+    },
+    {
+      "id": "F-Q0028",
+      "text": "基坑支护-原方案一期部分 | 28 | 机上人工 | source_professional_boq.xls | 招标工程量清单!F34 = 410.0 工日 | published F32 = 410.0 工日 | variance = 0.0 工日"
+    },
+    {
+      "id": "F-Q0029",
+      "text": "基坑支护-原方案一期部分 | 29 | 砂砾石回填 | source_professional_boq.xls | 招标工程量清单!F35 = 49.83 m3 | published F33 = 49.83 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0030",
+      "text": "基坑支护-原方案一期部分 | 30 | 砖砌挡墙 | source_professional_boq.xls | 招标工程量清单!F36 = 6.48 m3 | published F34 = 6.48 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0031",
+      "text": "基坑支护-原方案一期部分 | 31 | 排水沟土方开挖及外运 | source_professional_boq.xls | 招标工程量清单!F37 = 38.64 m3 | published F35 = 38.64 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0032",
+      "text": "基坑支护-原方案一期部分 | 32 | 现浇商品混凝土垫层 C15（排水沟） | source_professional_boq.xls | 招标工程量清单!F38 = 13.62 m3 | published F36 = 13.62 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0033",
+      "text": "基坑支护-原方案一期部分 | 33 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | source_professional_boq.xls | 招标工程量清单!F39 = 13.25 m3 | published F37 = 13.25 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0034",
+      "text": "基坑支护-原方案一期部分 | 34 | 20厚M15预拌抹灰砂浆抹面（排水沟） | source_professional_boq.xls | 招标工程量清单!F40 = 165.6 m2 | published F38 = 165.6 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0035",
+      "text": "基坑支护-原方案一期部分 | 35 | 沉砂池土方开挖及外运 | source_professional_boq.xls | 招标工程量清单!F41 = 18.0 m3 | published F39 = 18.0 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0036",
+      "text": "基坑支护-原方案一期部分 | 36 | 现浇商品混凝土垫层 C15（沉砂池） | source_professional_boq.xls | 招标工程量清单!F42 = 4.05 m3 | published F40 = 4.05 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0037",
+      "text": "基坑支护-原方案一期部分 | 37 | M7.5预拌砂浆砌筑MU10页岩砖沉沙池、集水坑 | source_professional_boq.xls | 招标工程量清单!F43 = 18.47 m3 | published F41 = 18.47 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0038",
+      "text": "基坑支护-原方案一期部分 | 38 | 20厚M15预拌抹灰砂浆抹面（沉砂池） | source_professional_boq.xls | 招标工程量清单!F44 = 48.9 m2 | published F42 = 48.9 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0039",
+      "text": "基坑支护-原方案二期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | source_professional_boq.xls | 招标工程量清单!F46 = 149.6 m | published F44 = 149.6 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0040",
+      "text": "基坑支护-原方案二期部分 | 2 | 旋挖灌注桩成孔 φ1000(四类土) | source_professional_boq.xls | 招标工程量清单!F47 = 352.0 m | published F45 = 352.0 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0041",
+      "text": "基坑支护-原方案二期部分 | 3 | 旋挖灌注桩成孔 φ1300(一、二类土) | source_professional_boq.xls | 招标工程量清单!F48 = 15.92 m3 | published F46 = 15.92 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0042",
+      "text": "基坑支护-原方案二期部分 | 4 | 旋挖灌注桩成孔 φ1300(四类土) | source_professional_boq.xls | 招标工程量清单!F49 = 50.94 m3 | published F47 = 50.94 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0043",
+      "text": "基坑支护-原方案二期部分 | 5 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | source_professional_boq.xls | 招标工程量清单!F50 = 269.79 m3 | published F48 = 269.79 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0044",
+      "text": "基坑支护-原方案二期部分 | 6 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | source_professional_boq.xls | 招标工程量清单!F51 = 115.58 m3 | published F49 = 115.58 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0045",
+      "text": "基坑支护-原方案二期部分 | 7 | 钢护筒 | source_professional_boq.xls | 招标工程量清单!F52 = 161.057 t | published F50 = 161.057 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0046",
+      "text": "基坑支护-原方案二期部分 | 8 | 截（凿）桩头 φ1200 | source_professional_boq.xls | 招标工程量清单!F53 = 19.28 m3 | published F51 = 19.28 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0047",
+      "text": "基坑支护-原方案二期部分 | 9 | 坡顶返边、素砼回填浇筑 C20 | source_professional_boq.xls | 招标工程量清单!F54 = 16.01 m3 | published F52 = 16.01 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0048",
+      "text": "基坑支护-原方案二期部分 | 10 | C30冠梁 | source_professional_boq.xls | 招标工程量清单!F55 = 112.31 m3 | published F53 = 112.31 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0049",
+      "text": "基坑支护-原方案二期部分 | 11 | 喷射C20混凝土护壁(网喷) 厚80mm | source_professional_boq.xls | 招标工程量清单!F56 = 1311.19 m2 | published F54 = 1311.19 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0050",
+      "text": "基坑支护-原方案二期部分 | 12 | 钢筋笼吊装 | source_professional_boq.xls | 招标工程量清单!F57 = 88.075 t | published F55 = 88.075 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0051",
+      "text": "基坑支护-原方案二期部分 | 13 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F58 = 17.938 t | published F56 = 17.938 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0052",
+      "text": "基坑支护-原方案二期部分 | 14 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F59 = 6.285 t | published F57 = 6.285 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0053",
+      "text": "基坑支护-原方案二期部分 | 15 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F60 = 63.852 t | published F58 = 63.852 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0054",
+      "text": "基坑支护-原方案二期部分 | 16 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | source_professional_boq.xls | 招标工程量清单!F61 = 5.528 t | published F59 = 5.528 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0055",
+      "text": "基坑支护-原方案二期部分 | 17 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | source_professional_boq.xls | 招标工程量清单!F62 = 0.175 t | published F60 = 0.175 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0056",
+      "text": "基坑支护-原方案二期部分 | 18 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | source_professional_boq.xls | 招标工程量清单!F63 = 2.746 t | published F61 = 2.746 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0057",
+      "text": "基坑支护-原方案二期部分 | 19 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | source_professional_boq.xls | 招标工程量清单!F64 = 12.171 t | published F62 = 12.171 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0058",
+      "text": "基坑支护-原方案二期部分 | 20 | 护坡脚手架 | source_professional_boq.xls | 招标工程量清单!F65 = 1311.19 m2 | published F63 = 1311.19 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0059",
+      "text": "基坑支护-原方案二期部分 | 21 | 冠梁 模板安拆 | source_professional_boq.xls | 招标工程量清单!F66 = 223.09 m2 | published F64 = 223.09 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0060",
+      "text": "基坑支护-原方案二期部分 | 22 | 成井 | source_professional_boq.xls | 招标工程量清单!F67 = 225.0 m | published F65 = 225.0 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0061",
+      "text": "基坑支护-原方案二期部分 | 23 | 深井泵 | source_professional_boq.xls | 招标工程量清单!F68 = 9.0 套 | published F66 = 9.0 套 | variance = 0.0 套"
+    },
+    {
+      "id": "F-Q0062",
+      "text": "基坑支护-原方案二期部分 | 24 | 机上人工 | source_professional_boq.xls | 招标工程量清单!F69 = 410.0 工日 | published F67 = 410.0 工日 | variance = 0.0 工日"
+    },
+    {
+      "id": "F-Q0063",
+      "text": "基坑支护-原方案二期部分 | 25 | 砂砾石回填 | source_professional_boq.xls | 招标工程量清单!F70 = 40.77 m3 | published F68 = 40.77 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0064",
+      "text": "基坑支护-原方案二期部分 | 26 | 排水沟土方开挖及外运 | source_professional_boq.xls | 招标工程量清单!F71 = 38.64 m3 | published F69 = 38.64 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0065",
+      "text": "基坑支护-原方案二期部分 | 27 | 现浇商品混凝土垫层 C15（排水沟） | source_professional_boq.xls | 招标工程量清单!F72 = 13.62 m3 | published F70 = 13.62 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0066",
+      "text": "基坑支护-原方案二期部分 | 28 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | source_professional_boq.xls | 招标工程量清单!F73 = 13.25 m3 | published F71 = 13.25 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0067",
+      "text": "基坑支护-原方案二期部分 | 29 | 20厚M15预拌抹灰砂浆抹面（排水沟） | source_professional_boq.xls | 招标工程量清单!F74 = 165.6 m2 | published F72 = 165.6 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0068",
+      "text": "基坑支护-方案变更新增部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | source_professional_boq.xls | 招标工程量清单!F76 = 161.0 m | published F74 = 161.0 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0069",
+      "text": "基坑支护-方案变更新增部分 | 2 | 旋挖灌注桩成孔 φ1000(四类土) | source_professional_boq.xls | 招标工程量清单!F77 = 525.0 m | published F75 = 525.0 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0070",
+      "text": "基坑支护-方案变更新增部分 | 3 | 旋挖灌注桩成孔 φ1300(一、二类土) | source_professional_boq.xls | 招标工程量清单!F78 = 90.21 m3 | published F76 = 90.21 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0071",
+      "text": "基坑支护-方案变更新增部分 | 4 | 旋挖灌注桩成孔 φ1300(四类土) | source_professional_boq.xls | 招标工程量清单!F79 = 288.68 m3 | published F77 = 288.68 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0072",
+      "text": "基坑支护-方案变更新增部分 | 5 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | source_professional_boq.xls | 招标工程量清单!F80 = 572.28 m3 | published F78 = 572.28 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0073",
+      "text": "基坑支护-方案变更新增部分 | 6 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分） | source_professional_boq.xls | 招标工程量清单!F81 = 232.51 m3 | published F79 = 232.51 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0074",
+      "text": "基坑支护-方案变更新增部分 | 7 | 钢护筒 | source_professional_boq.xls | 招标工程量清单!F82 = 161.944 t | published F80 = 161.944 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0075",
+      "text": "基坑支护-方案变更新增部分 | 8 | 截（凿）桩头 φ1200 | source_professional_boq.xls | 招标工程量清单!F83 = 38.76 m3 | published F81 = 38.76 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0076",
+      "text": "基坑支护-方案变更新增部分 | 9 | 坡顶返边、素砼回填浇筑 C20 | source_professional_boq.xls | 招标工程量清单!F84 = 16.85 m3 | published F82 = 16.85 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0077",
+      "text": "基坑支护-方案变更新增部分 | 10 | C30冠梁 | source_professional_boq.xls | 招标工程量清单!F85 = 116.2 m3 | published F83 = 116.2 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0078",
+      "text": "基坑支护-方案变更新增部分 | 11 | 喷射C20混凝土护壁(网喷) 厚80mm | source_professional_boq.xls | 招标工程量清单!F86 = 1105.24 m2 | published F84 = 1105.24 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0079",
+      "text": "基坑支护-方案变更新增部分 | 12 | 钢筋笼吊装 | source_professional_boq.xls | 招标工程量清单!F87 = 83.375 t | published F85 = 83.375 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0080",
+      "text": "基坑支护-方案变更新增部分 | 13 | 现浇构件钢筋 HPB300 直径φ8-10（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F88 = 17.114 t | published F86 = 17.114 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0081",
+      "text": "基坑支护-方案变更新增部分 | 14 | 现浇构件钢筋 HRB400/HRB400E 直径φ18-22（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F89 = 6.163 t | published F87 = 6.163 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0082",
+      "text": "基坑支护-方案变更新增部分 | 15 | 现浇构件钢筋 HRB400/HRB400E 直径φ25（桩钢筋） | source_professional_boq.xls | 招标工程量清单!F90 = 60.098 t | published F88 = 60.098 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0083",
+      "text": "基坑支护-方案变更新增部分 | 16 | 现浇构件钢筋 HRB400/HRB400E 直径φ8-10 | source_professional_boq.xls | 招标工程量清单!F91 = 5.063 t | published F89 = 5.063 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0084",
+      "text": "基坑支护-方案变更新增部分 | 17 | 现浇构件钢筋 HRB400/HRB400E 直径φ12-14 | source_professional_boq.xls | 招标工程量清单!F92 = 0.665 t | published F90 = 0.665 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0085",
+      "text": "基坑支护-方案变更新增部分 | 18 | 现浇构件钢筋 HRB400/HRB400E 直径φ16 | source_professional_boq.xls | 招标工程量清单!F93 = 2.829 t | published F91 = 2.829 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0086",
+      "text": "基坑支护-方案变更新增部分 | 19 | 现浇构件钢筋 HRB400/HRB400E 直径φ25 | source_professional_boq.xls | 招标工程量清单!F94 = 13.071 t | published F92 = 13.071 t | variance = 0.0 t"
+    },
+    {
+      "id": "F-Q0087",
+      "text": "基坑支护-方案变更新增部分 | 20 | 护坡脚手架 | source_professional_boq.xls | 招标工程量清单!F95 = 1105.24 m2 | published F93 = 1105.24 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0088",
+      "text": "基坑支护-方案变更新增部分 | 21 | 冠梁 模板安拆 | source_professional_boq.xls | 招标工程量清单!F96 = 221.15 m2 | published F94 = 221.15 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-Q0089",
+      "text": "基坑支护-方案变更新增部分 | 22 | 成井 | source_professional_boq.xls | 招标工程量清单!F97 = 175.0 m | published F95 = 175.0 m | variance = 0.0 m"
+    },
+    {
+      "id": "F-Q0090",
+      "text": "基坑支护-方案变更新增部分 | 23 | 深井泵 | source_professional_boq.xls | 招标工程量清单!F98 = 7.0 套 | published F96 = 7.0 套 | variance = 0.0 套"
+    },
+    {
+      "id": "F-Q0091",
+      "text": "基坑支护-方案变更新增部分 | 24 | 砂砾石回填 | source_professional_boq.xls | 招标工程量清单!F99 = 31.71 m3 | published F97 = 31.71 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0092",
+      "text": "基坑支护-方案变更新增部分 | 25 | 排水沟土方开挖及外运 | source_professional_boq.xls | 招标工程量清单!F100 = 35.7 m3 | published F98 = 35.7 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0093",
+      "text": "基坑支护-方案变更新增部分 | 26 | 现浇商品混凝土垫层 C15（排水沟） | source_professional_boq.xls | 招标工程量清单!F101 = 12.58 m3 | published F99 = 12.58 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0094",
+      "text": "基坑支护-方案变更新增部分 | 27 | M7.5预拌砂浆砌筑MU10页岩砖地沟、明沟 | source_professional_boq.xls | 招标工程量清单!F102 = 12.24 m3 | published F100 = 12.24 m3 | variance = 0.0 m3"
+    },
+    {
+      "id": "F-Q0095",
+      "text": "基坑支护-方案变更新增部分 | 28 | 20厚M15预拌抹灰砂浆抹面（排水沟） | source_professional_boq.xls | 招标工程量清单!F103 = 153.0 m2 | published F101 = 153.0 m2 | variance = 0.0 m2"
+    },
+    {
+      "id": "F-POLICY",
+      "text": "A reproducible source-stated basis identifies a source field or cell and its value. A reproducible calculated basis states material inputs, operation, result, and unit. A completed closure states actual compared quantities, unit, actual difference or ratio, and disposition. Merely instructing a future check is not completed evidence."
+    }
+  ]
+}

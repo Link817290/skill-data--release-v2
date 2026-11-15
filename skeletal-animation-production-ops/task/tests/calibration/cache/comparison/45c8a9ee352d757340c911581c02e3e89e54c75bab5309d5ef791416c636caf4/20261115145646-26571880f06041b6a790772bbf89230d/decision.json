@@ -1,0 +1,573 @@
+{
+  "actual_command_ids": [],
+  "completion": 1,
+  "evidence": "The retained comparison record is substantive submitted-versus-fresh evidence, not merely a producer recipe: it reports an overall pass and concrete left/right results for the parsed scene-state and impact-event records. The submitted and fresh sides have matching SHA-256 values for both CSVs. It also records matching submitted/fresh contact-sheet, dark-preview, and light-preview media, with each comparison checking dimensions, decoded frame count, and exact RGBA channel bytes. Thus the complete rendered presentations on both backgrounds correspond, in addition to the underlying state/event traces. The retained left hashes are the hashes of the delivered preview artifacts listed in the actual inventory. The handover identifies the independent capture as the same delivered project exported to `/tmp/reference-repeat`, followed by comparison against `output/preview`, and binds the tested source through hashes for project.godot, stage.tscn, stage.gd, and delivery.cfg. Its declared producer model samples actual headless Godot state and runtime texture pixels and composes the preview with Pillow. No material state, artwork, or presentation correspondence scope remains unestablished; byte-identical image encoding is not being imposed as a separate requirement.",
+  "source_citations": [
+    {
+      "line_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_file_id": "artifact-25"
+    },
+    {
+      "line_numbers": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "source_file_id": "artifact-25"
+    },
+    {
+      "line_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        21,
+        22,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "source_file_id": "artifact-0"
+    },
+    {
+      "line_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "source_file_id": "authority-5"
+    }
+  ],
+  "why": "Full comparison sufficiency is established by a retained fresh-export comparison covering corresponding state records, events, and the complete decoded dark/light GIF and contact-sheet rendering outputs. The supplied source identities and handover context tie that fresh capture to the delivered project. No actual execution command IDs were supplied, so the command-ID list is correctly empty.",
+  "materialized_source_citations": [
+    {
+      "line_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_file_id": "artifact-25",
+      "source_sha256": "6fd48f9027206f29ff2d39be9c88942392ba2404ae6dfea8bddb09e19e36cb73",
+      "quoted_lines": [
+        {
+          "line_number": 1,
+          "text": "{\n"
+        },
+        {
+          "line_number": 2,
+          "text": "  \"passed\": true,\n"
+        },
+        {
+          "line_number": 3,
+          "text": "  \"files\": [\n"
+        },
+        {
+          "line_number": 4,
+          "text": "    {\n"
+        },
+        {
+          "line_number": 5,
+          "text": "      \"path\": \"scene-frames.csv\",\n"
+        },
+        {
+          "line_number": 6,
+          "text": "      \"present\": true,\n"
+        },
+        {
+          "line_number": 7,
+          "text": "      \"left_sha256\": \"a65fece06ccdf01416aae9173c046c924092ce8a23d3cc73b190fef6729ecd1c\",\n"
+        },
+        {
+          "line_number": 8,
+          "text": "      \"right_sha256\": \"a65fece06ccdf01416aae9173c046c924092ce8a23d3cc73b190fef6729ecd1c\",\n"
+        },
+        {
+          "line_number": 9,
+          "text": "      \"equal\": true,\n"
+        },
+        {
+          "line_number": 10,
+          "text": "      \"comparison\": \"parsed CSV records\"\n"
+        },
+        {
+          "line_number": 11,
+          "text": "    },\n"
+        },
+        {
+          "line_number": 12,
+          "text": "    {\n"
+        },
+        {
+          "line_number": 13,
+          "text": "      \"path\": \"impact-events.csv\",\n"
+        },
+        {
+          "line_number": 14,
+          "text": "      \"present\": true,\n"
+        },
+        {
+          "line_number": 15,
+          "text": "      \"left_sha256\": \"3ad19c06d43d0fd09e104d94ca371f9bfcbab637066cc2ad9114c6b7d48f2c07\",\n"
+        },
+        {
+          "line_number": 16,
+          "text": "      \"right_sha256\": \"3ad19c06d43d0fd09e104d94ca371f9bfcbab637066cc2ad9114c6b7d48f2c07\",\n"
+        },
+        {
+          "line_number": 17,
+          "text": "      \"equal\": true,\n"
+        },
+        {
+          "line_number": 18,
+          "text": "      \"comparison\": \"parsed CSV records\"\n"
+        },
+        {
+          "line_number": 19,
+          "text": "    },\n"
+        },
+        {
+          "line_number": 20,
+          "text": "    {\n"
+        },
+        {
+          "line_number": 21,
+          "text": "      \"path\": \"contact-sheet.png\",\n"
+        },
+        {
+          "line_number": 22,
+          "text": "      \"present\": true,\n"
+        },
+        {
+          "line_number": 23,
+          "text": "      \"left_sha256\": \"0d8c812f4729435061b51d5eab790bbf423fe7a6584c6495ccc7afe068cea6b6\",\n"
+        },
+        {
+          "line_number": 24,
+          "text": "      \"right_sha256\": \"0d8c812f4729435061b51d5eab790bbf423fe7a6584c6495ccc7afe068cea6b6\",\n"
+        },
+        {
+          "line_number": 25,
+          "text": "      \"equal\": true,\n"
+        },
+        {
+          "line_number": 26,
+          "text": "      \"comparison\": \"size, decoded frame count and exact RGBA bytes in every channel\"\n"
+        }
+      ]
+    },
+    {
+      "line_numbers": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "source_file_id": "artifact-25",
+      "source_sha256": "6fd48f9027206f29ff2d39be9c88942392ba2404ae6dfea8bddb09e19e36cb73",
+      "quoted_lines": [
+        {
+          "line_number": 29,
+          "text": "      \"path\": \"dark.gif\",\n"
+        },
+        {
+          "line_number": 30,
+          "text": "      \"present\": true,\n"
+        },
+        {
+          "line_number": 31,
+          "text": "      \"left_sha256\": \"3d825530d42a3d5650fafd4e541fc2a237f55808d821837a59b464654ae3ac8b\",\n"
+        },
+        {
+          "line_number": 32,
+          "text": "      \"right_sha256\": \"3d825530d42a3d5650fafd4e541fc2a237f55808d821837a59b464654ae3ac8b\",\n"
+        },
+        {
+          "line_number": 33,
+          "text": "      \"equal\": true,\n"
+        },
+        {
+          "line_number": 34,
+          "text": "      \"comparison\": \"size, decoded frame count and exact RGBA bytes in every channel\"\n"
+        },
+        {
+          "line_number": 35,
+          "text": "    },\n"
+        },
+        {
+          "line_number": 36,
+          "text": "    {\n"
+        },
+        {
+          "line_number": 37,
+          "text": "      \"path\": \"light.gif\",\n"
+        },
+        {
+          "line_number": 38,
+          "text": "      \"present\": true,\n"
+        },
+        {
+          "line_number": 39,
+          "text": "      \"left_sha256\": \"c133f4fd45bba60a28f0067bc141838e73e12ee3516e83e58e7b0e7a4ed7ce72\",\n"
+        },
+        {
+          "line_number": 40,
+          "text": "      \"right_sha256\": \"c133f4fd45bba60a28f0067bc141838e73e12ee3516e83e58e7b0e7a4ed7ce72\",\n"
+        },
+        {
+          "line_number": 41,
+          "text": "      \"equal\": true,\n"
+        },
+        {
+          "line_number": 42,
+          "text": "      \"comparison\": \"size, decoded frame count and exact RGBA bytes in every channel\"\n"
+        }
+      ]
+    },
+    {
+      "line_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        21,
+        22,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "source_file_id": "artifact-0",
+      "source_sha256": "9b487a3cd4a2384f2c06152e3fb87f550ae6b19ee1c977025367d18f0325043f",
+      "quoted_lines": [
+        {
+          "line_number": 6,
+          "text": "Use the supplied task image (Godot4.4.1/Python3), from /workspace with this delivered directory at output/.\n"
+        },
+        {
+          "line_number": 7,
+          "text": "The image default user requires writable Godot user-data. Use a writable HOME, for example:\n"
+        },
+        {
+          "line_number": 8,
+          "text": "HOME=/tmp python3 /opt/fx-tools/export_effects.py --project output/project --output output/preview\n"
+        },
+        {
+          "line_number": 9,
+          "text": "From the delivery root, use --project project --output preview with the same writable HOME context.\n"
+        },
+        {
+          "line_number": 10,
+          "text": "For an independent fresh capture, change only the output path to /tmp/reference-repeat. Then compare state records and all decoded image channels:\n"
+        },
+        {
+          "line_number": 11,
+          "text": "python3 output/verification/compare_preview.py --submitted output/preview --fresh /tmp/reference-repeat --output /tmp/preview-correspondence.json\n"
+        },
+        {
+          "line_number": 12,
+          "text": "Different PNG encodings are acceptable when decoded image pixels match. Reproducibility does not by itself establish correctness; independent API and world/timing observations below remain separate.\n"
+        },
+        {
+          "line_number": 21,
+          "text": "## Capture Model\n"
+        },
+        {
+          "line_number": 22,
+          "text": "The prescribed exporter samples real headless Godot state and runtime texture pixels, then composes dark/light images with Pillow. These are CPU reconstructions, not GPU framebuffer screenshots. The ordinary MIX/source-texture project uses supported features; arbitrary custom shaders, clipping or occluding/draw-order interventions are outside this preview model. The paired images support their declared state/artwork scope. The independent public-API checks support event/object/timing relations separately. A repeat export demonstrates artifact correspondence; reproducibility alone is not proof of correctness.\n"
+        },
+        {
+          "line_number": 27,
+          "text": "## Tested Runtime Source Identity\n"
+        },
+        {
+          "line_number": 28,
+          "text": "{\n"
+        },
+        {
+          "line_number": 29,
+          "text": "  \"project.godot\": \"60be9d7d5066582966e87ca6d78c8c8255b95d4a8c2417b5433b1b0949f68d30\",\n"
+        },
+        {
+          "line_number": 30,
+          "text": "  \"stage.tscn\": \"1792bb2f2529b17a8aa3ddf01e1696bf494dff23ad85dca8d11b19a4e7d93974\",\n"
+        },
+        {
+          "line_number": 31,
+          "text": "  \"stage.gd\": \"71495363b0b28c5f9fd8094b2ead8d576c00552531b94e2959cfb9021f14ab47\",\n"
+        },
+        {
+          "line_number": 32,
+          "text": "  \"delivery.cfg\": \"0a1eaed866fba94cb9716412c014715329fe7e626cc6d88c3190d0723dd45792\"\n"
+        }
+      ]
+    },
+    {
+      "line_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "source_file_id": "authority-5",
+      "source_sha256": "e7410fc210cd89c529fff3cc02f599bde96693e0d4526ec003953a36a8ed86a3",
+      "quoted_lines": [
+        {
+          "line_number": 6,
+          "text": "def sample(project,out,godot=None):\n"
+        },
+        {
+          "line_number": 7,
+          "text": "    out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True)\n"
+        },
+        {
+          "line_number": 8,
+          "text": "    cmd=[godot_binary(godot),'--headless','--fixed-fps','60','--path',str(Path(project).resolve()),'--script',str(Path(__file__).with_name('sample_effects.gd')),'--',str(out),'--verification']\n"
+        },
+        {
+          "line_number": 9,
+          "text": "    p=subprocess.run(cmd,capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=120)\n"
+        },
+        {
+          "line_number": 10,
+          "text": "    (out/'engine.log').write_text(p.stdout+p.stderr,encoding='utf-8')\n"
+        },
+        {
+          "line_number": 11,
+          "text": "    if p.returncode or 'ERROR:' in p.stderr:raise RuntimeError(p.stdout+p.stderr)\n"
+        },
+        {
+          "line_number": 13,
+          "text": "def render(out):\n"
+        },
+        {
+          "line_number": 14,
+          "text": "    out=Path(out);groups={}\n"
+        },
+        {
+          "line_number": 15,
+          "text": "    with (out/'scene-frames.csv').open(encoding='utf-8',newline='') as f:\n"
+        },
+        {
+          "line_number": 16,
+          "text": "        for r in csv.DictReader(f):\n"
+        },
+        {
+          "line_number": 17,
+          "text": "            group=groups.setdefault(int(r['frame']),[])\n"
+        },
+        {
+          "line_number": 18,
+          "text": "            if r['node']:group.append(r)\n"
+        },
+        {
+          "line_number": 19,
+          "text": "    sheet=Image.new('RGB',(4*640,2*390),(20,30,40))\n"
+        },
+        {
+          "line_number": 20,
+          "text": "    sampled=[20,34,44,58]\n"
+        },
+        {
+          "line_number": 21,
+          "text": "    for row,(theme,bg,ink) in enumerate([('dark',(15,25,40,255),'#A7C4D1'),('light',(230,236,241,255),'#385465')]):\n"
+        },
+        {
+          "line_number": 22,
+          "text": "        frames=[]\n"
+        },
+        {
+          "line_number": 23,
+          "text": "        for frame in range(0,121,2):\n"
+        },
+        {
+          "line_number": 24,
+          "text": "            im=Image.new('RGBA',(640,360),bg);d=ImageDraw.Draw(im)\n"
+        },
+        {
+          "line_number": 29,
+          "text": "            for r in groups[frame]:\n"
+        },
+        {
+          "line_number": 30,
+          "text": "                if r.get('visible','true').lower()!='true':continue\n"
+        },
+        {
+          "line_number": 31,
+          "text": "                src=Image.open(out/r['texture']).convert('RGBA')\n"
+        },
+        {
+          "line_number": 32,
+          "text": "                channels=src.split()\n"
+        },
+        {
+          "line_number": 33,
+          "text": "                src=Image.merge('RGBA',[ch.point(lambda x,f=float(r.get(k,1)):max(0,min(255,round(x*f)))) for ch,k in zip(channels,['red','green','blue','alpha'])])\n"
+        },
+        {
+          "line_number": 34,
+          "text": "                a,b,c,e,tx,ty,ox,oy=[float(r[k]) for k in ['a','b','c','d','tx','ty','offset_x','offset_y']]\n"
+        },
+        {
+          "line_number": 38,
+          "text": "                coeff=(ia,ib,-ia*tx-ib*ty-ox,ic,ie,-ic*tx-ie*ty-oy)\n"
+        },
+        {
+          "line_number": 39,
+          "text": "                transformed=src.transform(im.size,Image.Transform.AFFINE,coeff,resample=Image.Resampling.BICUBIC)\n"
+        },
+        {
+          "line_number": 40,
+          "text": "                if int(r['blend'])==1:\n"
+        },
+        {
+          "line_number": 41,
+          "text": "                    rgb=ImageChops.multiply(transformed.convert('RGB'),Image.merge('RGB',[transformed.getchannel('A')]*3))\n"
+        },
+        {
+          "line_number": 42,
+          "text": "                    im=ImageChops.add(im.convert('RGB'),rgb).convert('RGBA')\n"
+        },
+        {
+          "line_number": 43,
+          "text": "                else:im=Image.alpha_composite(im,transformed)\n"
+        }
+      ]
+    }
+  ],
+  "status": "measured"
+}

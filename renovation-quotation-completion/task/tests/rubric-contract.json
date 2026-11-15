@@ -1,0 +1,6491 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "weighted-owner-local-min-v1",
+  "allowed_penalty_coefficients": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "quotation-complete-cohort-v6-local-chain",
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "O01",
+      "name": "source_input_integrity",
+      "rows": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        85,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        119,
+        120,
+        121,
+        122,
+        127,
+        128,
+        129,
+        130,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        142,
+        143,
+        144,
+        145,
+        148,
+        149,
+        150,
+        151,
+        154,
+        155,
+        156,
+        158
+      ],
+      "mode": "local_conjunctive_owner",
+      "weight": 0.1,
+      "scope": "source_input_integrity",
+      "object_key": "source_input_integrity",
+      "source_location": "materials quotation workbook, target project sheet",
+      "relation_predicate": "All supplied quantity, rate, unit and scope inputs remain unchanged; additions may annotate but cannot silently replace source inputs.",
+      "golden_object_key": "source_input_integrity",
+      "golden_relation_predicate": "All supplied quantity, rate, unit and scope inputs remain unchanged; additions may annotate but cannot silently replace source inputs.",
+      "comparison_mode": "formula_replay",
+      "replay_rule_id": "R-CALC",
+      "adoption_status": "final quoted amount in the output workbook",
+      "negative_context_exclusions": "Unpriced markers, alternatives, other project sheets and self-reported verification do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "source_input_integrity",
+        "metric": "business_rows",
+        "max_units": 180
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "Weighted cross-owner credit; within this owner, only declared local min chains earn credit.",
+      "owner_id": "source_input_integrity",
+      "aggregation": "local_min_then_chain_mean",
+      "checks": [
+        {
+          "unit_id": "I-19",
+          "relation": "Preserve supplied inputs at source row 19",
+          "source_row": 19
+        },
+        {
+          "unit_id": "I-20",
+          "relation": "Preserve supplied inputs at source row 20",
+          "source_row": 20
+        },
+        {
+          "unit_id": "I-21",
+          "relation": "Preserve supplied inputs at source row 21",
+          "source_row": 21
+        },
+        {
+          "unit_id": "I-22",
+          "relation": "Preserve supplied inputs at source row 22",
+          "source_row": 22
+        },
+        {
+          "unit_id": "I-23",
+          "relation": "Preserve supplied inputs at source row 23",
+          "source_row": 23
+        },
+        {
+          "unit_id": "I-24",
+          "relation": "Preserve supplied inputs at source row 24",
+          "source_row": 24
+        },
+        {
+          "unit_id": "I-25",
+          "relation": "Preserve supplied inputs at source row 25",
+          "source_row": 25
+        },
+        {
+          "unit_id": "I-26",
+          "relation": "Preserve supplied inputs at source row 26",
+          "source_row": 26
+        },
+        {
+          "unit_id": "I-27",
+          "relation": "Preserve supplied inputs at source row 27",
+          "source_row": 27
+        },
+        {
+          "unit_id": "I-28",
+          "relation": "Preserve supplied inputs at source row 28",
+          "source_row": 28
+        },
+        {
+          "unit_id": "I-29",
+          "relation": "Preserve supplied inputs at source row 29",
+          "source_row": 29
+        },
+        {
+          "unit_id": "I-32",
+          "relation": "Preserve supplied inputs at source row 32",
+          "source_row": 32
+        },
+        {
+          "unit_id": "I-33",
+          "relation": "Preserve supplied inputs at source row 33",
+          "source_row": 33
+        },
+        {
+          "unit_id": "I-34",
+          "relation": "Preserve supplied inputs at source row 34",
+          "source_row": 34
+        },
+        {
+          "unit_id": "I-35",
+          "relation": "Preserve supplied inputs at source row 35",
+          "source_row": 35
+        },
+        {
+          "unit_id": "I-36",
+          "relation": "Preserve supplied inputs at source row 36",
+          "source_row": 36
+        },
+        {
+          "unit_id": "I-37",
+          "relation": "Preserve supplied inputs at source row 37",
+          "source_row": 37
+        },
+        {
+          "unit_id": "I-38",
+          "relation": "Preserve supplied inputs at source row 38",
+          "source_row": 38
+        },
+        {
+          "unit_id": "I-41",
+          "relation": "Preserve supplied inputs at source row 41",
+          "source_row": 41
+        },
+        {
+          "unit_id": "I-42",
+          "relation": "Preserve supplied inputs at source row 42",
+          "source_row": 42
+        },
+        {
+          "unit_id": "I-43",
+          "relation": "Preserve supplied inputs at source row 43",
+          "source_row": 43
+        },
+        {
+          "unit_id": "I-44",
+          "relation": "Preserve supplied inputs at source row 44",
+          "source_row": 44
+        },
+        {
+          "unit_id": "I-45",
+          "relation": "Preserve supplied inputs at source row 45",
+          "source_row": 45
+        },
+        {
+          "unit_id": "I-46",
+          "relation": "Preserve supplied inputs at source row 46",
+          "source_row": 46
+        },
+        {
+          "unit_id": "I-47",
+          "relation": "Preserve supplied inputs at source row 47",
+          "source_row": 47
+        },
+        {
+          "unit_id": "I-48",
+          "relation": "Preserve supplied inputs at source row 48",
+          "source_row": 48
+        },
+        {
+          "unit_id": "I-49",
+          "relation": "Preserve supplied inputs at source row 49",
+          "source_row": 49
+        },
+        {
+          "unit_id": "I-50",
+          "relation": "Preserve supplied inputs at source row 50",
+          "source_row": 50
+        },
+        {
+          "unit_id": "I-53",
+          "relation": "Preserve supplied inputs at source row 53",
+          "source_row": 53
+        },
+        {
+          "unit_id": "I-54",
+          "relation": "Preserve supplied inputs at source row 54",
+          "source_row": 54
+        },
+        {
+          "unit_id": "I-55",
+          "relation": "Preserve supplied inputs at source row 55",
+          "source_row": 55
+        },
+        {
+          "unit_id": "I-56",
+          "relation": "Preserve supplied inputs at source row 56",
+          "source_row": 56
+        },
+        {
+          "unit_id": "I-57",
+          "relation": "Preserve supplied inputs at source row 57",
+          "source_row": 57
+        },
+        {
+          "unit_id": "I-58",
+          "relation": "Preserve supplied inputs at source row 58",
+          "source_row": 58
+        },
+        {
+          "unit_id": "I-61",
+          "relation": "Preserve supplied inputs at source row 61",
+          "source_row": 61
+        },
+        {
+          "unit_id": "I-62",
+          "relation": "Preserve supplied inputs at source row 62",
+          "source_row": 62
+        },
+        {
+          "unit_id": "I-63",
+          "relation": "Preserve supplied inputs at source row 63",
+          "source_row": 63
+        },
+        {
+          "unit_id": "I-64",
+          "relation": "Preserve supplied inputs at source row 64",
+          "source_row": 64
+        },
+        {
+          "unit_id": "I-65",
+          "relation": "Preserve supplied inputs at source row 65",
+          "source_row": 65
+        },
+        {
+          "unit_id": "I-66",
+          "relation": "Preserve supplied inputs at source row 66",
+          "source_row": 66
+        },
+        {
+          "unit_id": "I-69",
+          "relation": "Preserve supplied inputs at source row 69",
+          "source_row": 69
+        },
+        {
+          "unit_id": "I-70",
+          "relation": "Preserve supplied inputs at source row 70",
+          "source_row": 70
+        },
+        {
+          "unit_id": "I-71",
+          "relation": "Preserve supplied inputs at source row 71",
+          "source_row": 71
+        },
+        {
+          "unit_id": "I-72",
+          "relation": "Preserve supplied inputs at source row 72",
+          "source_row": 72
+        },
+        {
+          "unit_id": "I-73",
+          "relation": "Preserve supplied inputs at source row 73",
+          "source_row": 73
+        },
+        {
+          "unit_id": "I-74",
+          "relation": "Preserve supplied inputs at source row 74",
+          "source_row": 74
+        },
+        {
+          "unit_id": "I-76",
+          "relation": "Preserve supplied inputs at source row 76",
+          "source_row": 76
+        },
+        {
+          "unit_id": "I-77",
+          "relation": "Preserve supplied inputs at source row 77",
+          "source_row": 77
+        },
+        {
+          "unit_id": "I-78",
+          "relation": "Preserve supplied inputs at source row 78",
+          "source_row": 78
+        },
+        {
+          "unit_id": "I-79",
+          "relation": "Preserve supplied inputs at source row 79",
+          "source_row": 79
+        },
+        {
+          "unit_id": "I-80",
+          "relation": "Preserve supplied inputs at source row 80",
+          "source_row": 80
+        },
+        {
+          "unit_id": "I-81",
+          "relation": "Preserve supplied inputs at source row 81",
+          "source_row": 81
+        },
+        {
+          "unit_id": "I-82",
+          "relation": "Preserve supplied inputs at source row 82",
+          "source_row": 82
+        },
+        {
+          "unit_id": "I-83",
+          "relation": "Preserve supplied inputs at source row 83",
+          "source_row": 83
+        },
+        {
+          "unit_id": "I-85",
+          "relation": "Preserve supplied inputs at source row 85",
+          "source_row": 85
+        },
+        {
+          "unit_id": "I-88",
+          "relation": "Preserve supplied inputs at source row 88",
+          "source_row": 88
+        },
+        {
+          "unit_id": "I-89",
+          "relation": "Preserve supplied inputs at source row 89",
+          "source_row": 89
+        },
+        {
+          "unit_id": "I-90",
+          "relation": "Preserve supplied inputs at source row 90",
+          "source_row": 90
+        },
+        {
+          "unit_id": "I-91",
+          "relation": "Preserve supplied inputs at source row 91",
+          "source_row": 91
+        },
+        {
+          "unit_id": "I-92",
+          "relation": "Preserve supplied inputs at source row 92",
+          "source_row": 92
+        },
+        {
+          "unit_id": "I-93",
+          "relation": "Preserve supplied inputs at source row 93",
+          "source_row": 93
+        },
+        {
+          "unit_id": "I-96",
+          "relation": "Preserve supplied inputs at source row 96",
+          "source_row": 96
+        },
+        {
+          "unit_id": "I-97",
+          "relation": "Preserve supplied inputs at source row 97",
+          "source_row": 97
+        },
+        {
+          "unit_id": "I-98",
+          "relation": "Preserve supplied inputs at source row 98",
+          "source_row": 98
+        },
+        {
+          "unit_id": "I-99",
+          "relation": "Preserve supplied inputs at source row 99",
+          "source_row": 99
+        },
+        {
+          "unit_id": "I-100",
+          "relation": "Preserve supplied inputs at source row 100",
+          "source_row": 100
+        },
+        {
+          "unit_id": "I-101",
+          "relation": "Preserve supplied inputs at source row 101",
+          "source_row": 101
+        },
+        {
+          "unit_id": "I-102",
+          "relation": "Preserve supplied inputs at source row 102",
+          "source_row": 102
+        },
+        {
+          "unit_id": "I-103",
+          "relation": "Preserve supplied inputs at source row 103",
+          "source_row": 103
+        },
+        {
+          "unit_id": "I-104",
+          "relation": "Preserve supplied inputs at source row 104",
+          "source_row": 104
+        },
+        {
+          "unit_id": "I-105",
+          "relation": "Preserve supplied inputs at source row 105",
+          "source_row": 105
+        },
+        {
+          "unit_id": "I-106",
+          "relation": "Preserve supplied inputs at source row 106",
+          "source_row": 106
+        },
+        {
+          "unit_id": "I-107",
+          "relation": "Preserve supplied inputs at source row 107",
+          "source_row": 107
+        },
+        {
+          "unit_id": "I-108",
+          "relation": "Preserve supplied inputs at source row 108",
+          "source_row": 108
+        },
+        {
+          "unit_id": "I-109",
+          "relation": "Preserve supplied inputs at source row 109",
+          "source_row": 109
+        },
+        {
+          "unit_id": "I-110",
+          "relation": "Preserve supplied inputs at source row 110",
+          "source_row": 110
+        },
+        {
+          "unit_id": "I-111",
+          "relation": "Preserve supplied inputs at source row 111",
+          "source_row": 111
+        },
+        {
+          "unit_id": "I-112",
+          "relation": "Preserve supplied inputs at source row 112",
+          "source_row": 112
+        },
+        {
+          "unit_id": "I-113",
+          "relation": "Preserve supplied inputs at source row 113",
+          "source_row": 113
+        },
+        {
+          "unit_id": "I-114",
+          "relation": "Preserve supplied inputs at source row 114",
+          "source_row": 114
+        },
+        {
+          "unit_id": "I-115",
+          "relation": "Preserve supplied inputs at source row 115",
+          "source_row": 115
+        },
+        {
+          "unit_id": "I-116",
+          "relation": "Preserve supplied inputs at source row 116",
+          "source_row": 116
+        },
+        {
+          "unit_id": "I-119",
+          "relation": "Preserve supplied inputs at source row 119",
+          "source_row": 119
+        },
+        {
+          "unit_id": "I-120",
+          "relation": "Preserve supplied inputs at source row 120",
+          "source_row": 120
+        },
+        {
+          "unit_id": "I-121",
+          "relation": "Preserve supplied inputs at source row 121",
+          "source_row": 121
+        },
+        {
+          "unit_id": "I-122",
+          "relation": "Preserve supplied inputs at source row 122",
+          "source_row": 122
+        },
+        {
+          "unit_id": "I-127",
+          "relation": "Preserve supplied inputs at source row 127",
+          "source_row": 127
+        },
+        {
+          "unit_id": "I-128",
+          "relation": "Preserve supplied inputs at source row 128",
+          "source_row": 128
+        },
+        {
+          "unit_id": "I-129",
+          "relation": "Preserve supplied inputs at source row 129",
+          "source_row": 129
+        },
+        {
+          "unit_id": "I-130",
+          "relation": "Preserve supplied inputs at source row 130",
+          "source_row": 130
+        },
+        {
+          "unit_id": "I-133",
+          "relation": "Preserve supplied inputs at source row 133",
+          "source_row": 133
+        },
+        {
+          "unit_id": "I-134",
+          "relation": "Preserve supplied inputs at source row 134",
+          "source_row": 134
+        },
+        {
+          "unit_id": "I-135",
+          "relation": "Preserve supplied inputs at source row 135",
+          "source_row": 135
+        },
+        {
+          "unit_id": "I-136",
+          "relation": "Preserve supplied inputs at source row 136",
+          "source_row": 136
+        },
+        {
+          "unit_id": "I-137",
+          "relation": "Preserve supplied inputs at source row 137",
+          "source_row": 137
+        },
+        {
+          "unit_id": "I-138",
+          "relation": "Preserve supplied inputs at source row 138",
+          "source_row": 138
+        },
+        {
+          "unit_id": "I-139",
+          "relation": "Preserve supplied inputs at source row 139",
+          "source_row": 139
+        },
+        {
+          "unit_id": "I-142",
+          "relation": "Preserve supplied inputs at source row 142",
+          "source_row": 142
+        },
+        {
+          "unit_id": "I-143",
+          "relation": "Preserve supplied inputs at source row 143",
+          "source_row": 143
+        },
+        {
+          "unit_id": "I-144",
+          "relation": "Preserve supplied inputs at source row 144",
+          "source_row": 144
+        },
+        {
+          "unit_id": "I-145",
+          "relation": "Preserve supplied inputs at source row 145",
+          "source_row": 145
+        },
+        {
+          "unit_id": "I-148",
+          "relation": "Preserve supplied inputs at source row 148",
+          "source_row": 148
+        },
+        {
+          "unit_id": "I-149",
+          "relation": "Preserve supplied inputs at source row 149",
+          "source_row": 149
+        },
+        {
+          "unit_id": "I-150",
+          "relation": "Preserve supplied inputs at source row 150",
+          "source_row": 150
+        },
+        {
+          "unit_id": "I-151",
+          "relation": "Preserve supplied inputs at source row 151",
+          "source_row": 151
+        },
+        {
+          "unit_id": "I-154",
+          "relation": "Preserve supplied inputs at source row 154",
+          "source_row": 154
+        },
+        {
+          "unit_id": "I-155",
+          "relation": "Preserve supplied inputs at source row 155",
+          "source_row": 155
+        },
+        {
+          "unit_id": "I-156",
+          "relation": "Preserve supplied inputs at source row 156",
+          "source_row": 156
+        },
+        {
+          "unit_id": "I-158",
+          "relation": "Preserve supplied inputs at source row 158",
+          "source_row": 158
+        }
+      ],
+      "chains": [
+        {
+          "id": "source-input-integrity-chain",
+          "unit_ids": [
+            "I-19",
+            "I-20",
+            "I-21",
+            "I-22",
+            "I-23",
+            "I-24",
+            "I-25",
+            "I-26",
+            "I-27",
+            "I-28",
+            "I-29",
+            "I-32",
+            "I-33",
+            "I-34",
+            "I-35",
+            "I-36",
+            "I-37",
+            "I-38",
+            "I-41",
+            "I-42",
+            "I-43",
+            "I-44",
+            "I-45",
+            "I-46",
+            "I-47",
+            "I-48",
+            "I-49",
+            "I-50",
+            "I-53",
+            "I-54",
+            "I-55",
+            "I-56",
+            "I-57",
+            "I-58",
+            "I-61",
+            "I-62",
+            "I-63",
+            "I-64",
+            "I-65",
+            "I-66",
+            "I-69",
+            "I-70",
+            "I-71",
+            "I-72",
+            "I-73",
+            "I-74",
+            "I-76",
+            "I-77",
+            "I-78",
+            "I-79",
+            "I-80",
+            "I-81",
+            "I-82",
+            "I-83",
+            "I-85",
+            "I-88",
+            "I-89",
+            "I-90",
+            "I-91",
+            "I-92",
+            "I-93",
+            "I-96",
+            "I-97",
+            "I-98",
+            "I-99",
+            "I-100",
+            "I-101",
+            "I-102",
+            "I-103",
+            "I-104",
+            "I-105",
+            "I-106",
+            "I-107",
+            "I-108",
+            "I-109",
+            "I-110",
+            "I-111",
+            "I-112",
+            "I-113",
+            "I-114",
+            "I-115",
+            "I-116",
+            "I-119",
+            "I-120",
+            "I-121",
+            "I-122",
+            "I-127",
+            "I-128",
+            "I-129",
+            "I-130",
+            "I-133",
+            "I-134",
+            "I-135",
+            "I-136",
+            "I-137",
+            "I-138",
+            "I-139",
+            "I-142",
+            "I-143",
+            "I-144",
+            "I-145",
+            "I-148",
+            "I-149",
+            "I-150",
+            "I-151",
+            "I-154",
+            "I-155",
+            "I-156",
+            "I-158"
+          ],
+          "operation": "min"
+        }
+      ]
+    },
+    {
+      "id": "O02",
+      "name": "supported_main_material_closure",
+      "rows": [
+        127,
+        128,
+        129,
+        130,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        142,
+        143,
+        144,
+        145,
+        148,
+        149,
+        150,
+        151,
+        154,
+        156
+      ],
+      "mode": "local_conjunctive_owner",
+      "weight": 0.4,
+      "scope": "supported_main_material_closure",
+      "object_key": "supported_main_material_closure",
+      "source_location": "materials quotation workbook, target project sheet",
+      "relation_predicate": "Main-material closure requires every local section chain, the supported installed-equipment component, and the supported main-material totals together.",
+      "golden_object_key": "supported_main_material_closure",
+      "golden_relation_predicate": "Main-material closure requires every local section chain, the supported installed-equipment component, and the supported main-material totals together.",
+      "comparison_mode": "formula_replay",
+      "replay_rule_id": "R-CALC",
+      "adoption_status": "final quoted amount in the output workbook",
+      "negative_context_exclusions": "Unpriced markers, alternatives, other project sheets and self-reported verification do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "supported_main_material_closure",
+        "metric": "business_rows",
+        "max_units": 180
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "Weighted cross-owner credit; within this owner, only declared local min chains earn credit.",
+      "owner_id": "supported_main_material_closure",
+      "aggregation": "local_min_then_chain_mean",
+      "checks": [
+        {
+          "unit_id": "M-doors",
+          "relation": "Complete local main-material section doors"
+        },
+        {
+          "unit_id": "M-sanitary",
+          "relation": "Complete local main-material section sanitary"
+        },
+        {
+          "unit_id": "M-ceiling",
+          "relation": "Complete local main-material section ceiling"
+        },
+        {
+          "unit_id": "M-stone_glass",
+          "relation": "Complete local main-material section stone_glass"
+        },
+        {
+          "unit_id": "M-equipment",
+          "relation": "Adopt supported installed-equipment quantity 2 x rate 450 = 900"
+        },
+        {
+          "unit_id": "M-totals",
+          "relation": "Reconcile source-supported main-material totals 154 and 156"
+        }
+      ],
+      "chains": [
+        {
+          "id": "supported-main-material-closure-chain",
+          "unit_ids": [
+            "M-doors",
+            "M-sanitary",
+            "M-ceiling",
+            "M-stone_glass",
+            "M-equipment",
+            "M-totals"
+          ],
+          "operation": "min"
+        }
+      ]
+    },
+    {
+      "id": "O03",
+      "name": "quotation_total_reconciliation",
+      "rows": [
+        116,
+        119,
+        122,
+        154,
+        156,
+        158
+      ],
+      "mode": "local_conjunctive_owner",
+      "weight": 0.05,
+      "scope": "quotation_total_reconciliation",
+      "object_key": "quotation_total_reconciliation",
+      "source_location": "materials quotation workbook, target project sheet",
+      "relation_predicate": "Each adopted total earns credit only when its own complete supported dependency tree reconciles.",
+      "golden_object_key": "quotation_total_reconciliation",
+      "golden_relation_predicate": "Each adopted total earns credit only when its own complete supported dependency tree reconciles.",
+      "comparison_mode": "formula_replay",
+      "replay_rule_id": "R-CALC",
+      "adoption_status": "final quoted amount in the output workbook",
+      "negative_context_exclusions": "Unpriced markers, alternatives, other project sheets and self-reported verification do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "quotation_total_reconciliation",
+        "metric": "business_rows",
+        "max_units": 180
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "Weighted cross-owner credit; within this owner, only declared local min chains earn credit.",
+      "owner_id": "quotation_total_reconciliation",
+      "aggregation": "local_min_then_chain_mean",
+      "checks": [
+        {
+          "unit_id": "T-116",
+          "relation": "Reconcile supported dependency tree at row 116",
+          "source_row": 116
+        },
+        {
+          "unit_id": "T-119",
+          "relation": "Reconcile supported dependency tree at row 119",
+          "source_row": 119
+        },
+        {
+          "unit_id": "T-122",
+          "relation": "Reconcile supported dependency tree at row 122",
+          "source_row": 122
+        },
+        {
+          "unit_id": "T-154",
+          "relation": "Reconcile supported dependency tree at row 154",
+          "source_row": 154
+        },
+        {
+          "unit_id": "T-156",
+          "relation": "Reconcile supported dependency tree at row 156",
+          "source_row": 156
+        },
+        {
+          "unit_id": "T-158",
+          "relation": "Reconcile supported dependency tree at row 158",
+          "source_row": 158
+        }
+      ],
+      "chains": [
+        {
+          "id": "total-116-chain",
+          "unit_ids": [
+            "T-116"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "total-119-chain",
+          "unit_ids": [
+            "T-119"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "total-122-chain",
+          "unit_ids": [
+            "T-122"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "total-154-chain",
+          "unit_ids": [
+            "T-154"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "total-156-chain",
+          "unit_ids": [
+            "T-156"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "total-158-chain",
+          "unit_ids": [
+            "T-158"
+          ],
+          "operation": "min"
+        }
+      ]
+    },
+    {
+      "id": "O04",
+      "name": "foundation_sections",
+      "rows": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        85,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "mode": "local_conjunctive_owner",
+      "weight": 0.45,
+      "scope": "foundation_sections",
+      "object_key": "foundation_sections",
+      "source_location": "materials quotation workbook, target project sheet",
+      "relation_predicate": "Each section is a local conjunction of all supported detail calculations, safe treatment of every unresolved commercial input, and its own supported subtotal closure.",
+      "golden_object_key": "foundation_sections",
+      "golden_relation_predicate": "Each section is a local conjunction of all supported detail calculations, safe treatment of every unresolved commercial input, and its own supported subtotal closure.",
+      "comparison_mode": "formula_replay",
+      "replay_rule_id": "R-CALC",
+      "adoption_status": "final quoted amount in the output workbook",
+      "negative_context_exclusions": "Unpriced markers, alternatives, other project sheets and self-reported verification do not earn credit.",
+      "length_contract_id": "L-TABLE",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "foundation_sections",
+        "metric": "business_rows",
+        "max_units": 180
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "partial_credit": "Weighted cross-owner credit; within this owner, only declared local min chains earn credit.",
+      "owner_id": "foundation_sections",
+      "aggregation": "local_min_then_chain_mean",
+      "checks": [
+        {
+          "unit_id": "living_dining-details",
+          "relation": "All supported detail calculations in living_dining",
+          "source_rows": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27
+          ]
+        },
+        {
+          "unit_id": "living_dining-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in living_dining",
+          "source_rows": [
+            24,
+            28
+          ]
+        },
+        {
+          "unit_id": "living_dining-subtotal",
+          "relation": "Supported subtotal closure in living_dining",
+          "source_row": 29
+        },
+        {
+          "unit_id": "bedroom-details",
+          "relation": "All supported detail calculations in bedroom",
+          "source_rows": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        {
+          "unit_id": "bedroom-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in bedroom",
+          "source_rows": []
+        },
+        {
+          "unit_id": "bedroom-subtotal",
+          "relation": "Supported subtotal closure in bedroom",
+          "source_row": 38
+        },
+        {
+          "unit_id": "side_room-details",
+          "relation": "All supported detail calculations in side_room",
+          "source_rows": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        },
+        {
+          "unit_id": "side_room-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in side_room",
+          "source_rows": [
+            49
+          ]
+        },
+        {
+          "unit_id": "side_room-subtotal",
+          "relation": "Supported subtotal closure in side_room",
+          "source_row": 50
+        },
+        {
+          "unit_id": "kitchen-details",
+          "relation": "All supported detail calculations in kitchen",
+          "source_rows": [
+            53,
+            54,
+            55,
+            56
+          ]
+        },
+        {
+          "unit_id": "kitchen-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in kitchen",
+          "source_rows": [
+            57
+          ]
+        },
+        {
+          "unit_id": "kitchen-subtotal",
+          "relation": "Supported subtotal closure in kitchen",
+          "source_row": 58
+        },
+        {
+          "unit_id": "bathroom-details",
+          "relation": "All supported detail calculations in bathroom",
+          "source_rows": [
+            61,
+            62,
+            63,
+            64,
+            65
+          ]
+        },
+        {
+          "unit_id": "bathroom-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in bathroom",
+          "source_rows": []
+        },
+        {
+          "unit_id": "bathroom-subtotal",
+          "relation": "Supported subtotal closure in bathroom",
+          "source_row": 66
+        },
+        {
+          "unit_id": "balcony-details",
+          "relation": "All supported detail calculations in balcony",
+          "source_rows": [
+            69,
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        {
+          "unit_id": "balcony-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in balcony",
+          "source_rows": []
+        },
+        {
+          "unit_id": "balcony-subtotal",
+          "relation": "Supported subtotal closure in balcony",
+          "source_row": 74
+        },
+        {
+          "unit_id": "joinery_other-details",
+          "relation": "All supported detail calculations in joinery_other",
+          "source_rows": [
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83
+          ]
+        },
+        {
+          "unit_id": "joinery_other-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in joinery_other",
+          "source_rows": []
+        },
+        {
+          "unit_id": "joinery_other-subtotal",
+          "relation": "Supported subtotal closure in joinery_other",
+          "source_row": 85
+        },
+        {
+          "unit_id": "electrical_plumbing-details",
+          "relation": "All supported detail calculations in electrical_plumbing",
+          "source_rows": [
+            88,
+            89,
+            90,
+            91
+          ]
+        },
+        {
+          "unit_id": "electrical_plumbing-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in electrical_plumbing",
+          "source_rows": [
+            92
+          ]
+        },
+        {
+          "unit_id": "electrical_plumbing-subtotal",
+          "relation": "Supported subtotal closure in electrical_plumbing",
+          "source_row": 93
+        },
+        {
+          "unit_id": "external_services-details",
+          "relation": "All supported detail calculations in external_services",
+          "source_rows": [
+            96,
+            97,
+            98,
+            99,
+            107,
+            109,
+            110,
+            114
+          ]
+        },
+        {
+          "unit_id": "external_services-uncertain",
+          "relation": "All unresolved commercial inputs remain unpriced or explicitly excluded in external_services",
+          "source_rows": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            108,
+            111,
+            112,
+            113
+          ]
+        },
+        {
+          "unit_id": "external_services-subtotal",
+          "relation": "Supported subtotal closure in external_services",
+          "source_row": 115
+        }
+      ],
+      "chains": [
+        {
+          "id": "living_dining-local-chain",
+          "unit_ids": [
+            "living_dining-details",
+            "living_dining-uncertain",
+            "living_dining-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "bedroom-local-chain",
+          "unit_ids": [
+            "bedroom-details",
+            "bedroom-uncertain",
+            "bedroom-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "side_room-local-chain",
+          "unit_ids": [
+            "side_room-details",
+            "side_room-uncertain",
+            "side_room-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "kitchen-local-chain",
+          "unit_ids": [
+            "kitchen-details",
+            "kitchen-uncertain",
+            "kitchen-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "bathroom-local-chain",
+          "unit_ids": [
+            "bathroom-details",
+            "bathroom-uncertain",
+            "bathroom-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "balcony-local-chain",
+          "unit_ids": [
+            "balcony-details",
+            "balcony-uncertain",
+            "balcony-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "joinery_other-local-chain",
+          "unit_ids": [
+            "joinery_other-details",
+            "joinery_other-uncertain",
+            "joinery_other-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "electrical_plumbing-local-chain",
+          "unit_ids": [
+            "electrical_plumbing-details",
+            "electrical_plumbing-uncertain",
+            "electrical_plumbing-subtotal"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "external_services-local-chain",
+          "unit_ids": [
+            "external_services-details",
+            "external_services-uncertain",
+            "external_services-subtotal"
+          ],
+          "operation": "min"
+        }
+      ]
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "name": "basic_line_miscalculation",
+      "trigger": "An adopted supported base-work line amount contradicts its source-supported arithmetic.",
+      "damage_basis": "Incorrect payable quotation for the identified work scope.",
+      "scope": "target project quotation",
+      "object_key": "basic_line_miscalculation",
+      "source_location": "adopted output workbook row",
+      "error_predicate": "An adopted supported base-work line amount contradicts its source-supported arithmetic.",
+      "adoption_status": "one unambiguous final row amount",
+      "negative_context_exclusions": "Missing, unpriced, provisional text, alternatives, parsing failures, ambiguous matches and source-only unknown amounts are excluded.",
+      "causal_root_rule": "Group repeated manifestations by business section; suppress aggregate penalties caused solely by a charged child error.",
+      "damage_instance_key_rule": "quotation:<section>:<independent calculation or input error>",
+      "manifestation_rule": "Each erroneous row remains in the observation evidence; one retention coefficient per affected section and cause.",
+      "length_contract_id": "L-TABLE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "owner_id": "foundation_sections",
+      "settlement": "already_reflected_in_owner_chain"
+    },
+    {
+      "id": "D02",
+      "name": "main_material_miscalculation",
+      "trigger": "An adopted main-material amount contradicts the quantity and applicable absolute loss quantity.",
+      "damage_basis": "Incorrect payable quotation for the identified work scope.",
+      "scope": "target project quotation",
+      "object_key": "main_material_miscalculation",
+      "source_location": "adopted output workbook row",
+      "error_predicate": "An adopted main-material amount contradicts the quantity and applicable absolute loss quantity.",
+      "adoption_status": "one unambiguous final row amount",
+      "negative_context_exclusions": "Missing, unpriced, provisional text, alternatives, parsing failures, ambiguous matches and source-only unknown amounts are excluded.",
+      "causal_root_rule": "Group repeated manifestations by business section; suppress aggregate penalties caused solely by a charged child error.",
+      "damage_instance_key_rule": "quotation:<section>:<independent calculation or input error>",
+      "manifestation_rule": "Each erroneous row remains in the observation evidence; one retention coefficient per affected section and cause.",
+      "length_contract_id": "L-TABLE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "owner_id": "supported_main_material_closure",
+      "settlement": "already_reflected_in_owner_chain"
+    },
+    {
+      "id": "D03",
+      "name": "aggregate_miscalculation",
+      "trigger": "An adopted complete subtotal or total contradicts its own adopted dependencies; propagated child errors are not charged again.",
+      "damage_basis": "Incorrect payable quotation for the identified work scope.",
+      "scope": "target project quotation",
+      "object_key": "aggregate_miscalculation",
+      "source_location": "adopted output workbook row",
+      "error_predicate": "An adopted complete subtotal or total contradicts its own adopted dependencies; propagated child errors are not charged again.",
+      "adoption_status": "one unambiguous final row amount",
+      "negative_context_exclusions": "Missing, unpriced, provisional text, alternatives, parsing failures, ambiguous matches and source-only unknown amounts are excluded.",
+      "causal_root_rule": "Group repeated manifestations by business section; suppress aggregate penalties caused solely by a charged child error.",
+      "damage_instance_key_rule": "quotation:<section>:<independent calculation or input error>",
+      "manifestation_rule": "Each erroneous row remains in the observation evidence; one retention coefficient per affected section and cause.",
+      "length_contract_id": "L-TABLE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "owner_id": "quotation_total_reconciliation",
+      "settlement": "already_reflected_in_owner_chain"
+    },
+    {
+      "id": "D04",
+      "name": "unauthorized_input_change",
+      "trigger": "A supplied numeric quantity or rate is silently replaced in a priced row; clearly marked alternate scenarios are excluded.",
+      "damage_basis": "Incorrect payable quotation for the identified work scope.",
+      "scope": "target project quotation",
+      "object_key": "unauthorized_input_change",
+      "source_location": "adopted output workbook row",
+      "error_predicate": "A supplied numeric quantity or rate is silently replaced in a priced row; clearly marked alternate scenarios are excluded.",
+      "adoption_status": "one unambiguous final row amount",
+      "negative_context_exclusions": "Missing, unpriced, provisional text, alternatives, parsing failures, ambiguous matches and source-only unknown amounts are excluded.",
+      "causal_root_rule": "Group repeated manifestations by business section; suppress aggregate penalties caused solely by a charged child error.",
+      "damage_instance_key_rule": "quotation:<section>:<independent calculation or input error>",
+      "manifestation_rule": "Each erroneous row remains in the observation evidence; one retention coefficient per affected section and cause.",
+      "length_contract_id": "L-TABLE",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "penalty_coefficient": 0.7,
+      "owner_id": "source_input_integrity",
+      "settlement": "already_reflected_in_owner_chain"
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "id": "G-H19",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H19",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H20",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H20",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H21",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H21",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H22",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H22",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H23",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H23",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H24",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H24",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H25",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H25",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H26",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H26",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H27",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H27",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H28",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H28",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H29",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H29",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H32",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H32",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H33",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H33",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H34",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H34",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H35",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H35",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H36",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H36",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H37",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H37",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H38",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H38",
+      "item_ids": [
+        "P11"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H41",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H41",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H42",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H42",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H43",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H43",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H44",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H44",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H45",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H45",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H46",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H46",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H47",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H47",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H48",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H48",
+      "item_ids": [
+        "P03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H49",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H49",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H50",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H50",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H53",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H53",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H54",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H54",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H55",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H55",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H56",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H56",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H57",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H57",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H58",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H58",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H61",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H61",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H62",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H62",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H63",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H63",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H64",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H64",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H65",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H65",
+      "item_ids": [
+        "P04"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H66",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H66",
+      "item_ids": [
+        "P11"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H69",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H69",
+      "item_ids": [
+        "P05"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H70",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H70",
+      "item_ids": [
+        "P05"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H71",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H71",
+      "item_ids": [
+        "P05"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H72",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H72",
+      "item_ids": [
+        "P05"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H73",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H73",
+      "item_ids": [
+        "P05"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H74",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H74",
+      "item_ids": [
+        "P11"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H76",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H76",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H77",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H77",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H78",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H78",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H79",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H79",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H80",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H80",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H81",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H81",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H82",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H82",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H83",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H83",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H85",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H85",
+      "item_ids": [
+        "P11"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H88",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H88",
+      "item_ids": [
+        "P07"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H89",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H89",
+      "item_ids": [
+        "P07"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H90",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H90",
+      "item_ids": [
+        "P07"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H91",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H91",
+      "item_ids": [
+        "P07"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H92",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H92",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H93",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H93",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H96",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H96",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H97",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H97",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H98",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H98",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H99",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H99",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H100",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H100",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H101",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H101",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H102",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H102",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H103",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H103",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H104",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H104",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H105",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H105",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H106",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H106",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H107",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H107",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H108",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H108",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H109",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H109",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H110",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H110",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H111",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H111",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H112",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H112",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H113",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H113",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H114",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H114",
+      "item_ids": [
+        "P08"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H115",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H115",
+      "item_ids": [
+        "P11"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H116",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H116",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H119",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H119",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H120",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H120",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H121",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H121",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H122",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H122",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H127",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H127",
+      "item_ids": [
+        "P09"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H128",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H128",
+      "item_ids": [
+        "P09"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H129",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H129",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H130",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H130",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H133",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H133",
+      "item_ids": [
+        "P09"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H134",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H134",
+      "item_ids": [
+        "P09"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H135",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H135",
+      "item_ids": [
+        "P09"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H136",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H136",
+      "item_ids": [
+        "P09"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H137",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H137",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "equivalent_set",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H138",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H138",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H139",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H139",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H142",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H142",
+      "item_ids": [
+        "P10"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H143",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H143",
+      "item_ids": [
+        "P10"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H144",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H144",
+      "item_ids": [
+        "P10"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H145",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H145",
+      "item_ids": [
+        "P11"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H148",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H148",
+      "item_ids": [
+        "P10"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H149",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H149",
+      "item_ids": [
+        "P10"
+      ],
+      "disposition": "exact",
+      "solver_accessibility": "inferable"
+    },
+    {
+      "id": "G-H150",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H150",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H151",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H151",
+      "item_ids": [
+        "D03"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H154",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H154",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H156",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H156",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    },
+    {
+      "id": "G-H158",
+      "source_location": "golden/复桥602计价清单.xls#置信李先生!H158",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "warning_only",
+      "solver_accessibility": "underspecified"
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "L-TABLE",
+      "unit": "business_rows",
+      "scope": "one section of the existing quotation schedule",
+      "enforcement": "No additional length penalty: the original workbook is the task-specific output shape; omission affects P only."
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N-KEY",
+        "operation": "Normalize whitespace and Unicode width in section, label and unit identifiers; bind by section plus row label, never first matching label."
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R-CALC",
+        "operation": "Evaluate workbook formulas with the formulas library, then compare amounts and supplied numeric inputs in business_units; follow explicit aggregate dependencies, not physical row adjacency."
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "task_skill_alignment": {
+    "required_after_skill_authoring": true,
+    "semantic_audit_binds_skill_sha256": true,
+    "all_positive_and_deduction_items_reviewed": true,
+    "unresolved_conflicts_forbid_judge_freeze": true,
+    "skill_cannot_override_golden": true
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "requirement_trace": {
+    "instruction_sha256": "e9a08f92629c02bfce9ae4b9e6cf31b730b87b1d5c35057ed88b95895ecbc5de",
+    "requirements": [
+      {
+        "quote": "Use the quotation workbook, renovation drawing and visual references in `materials/` to complete the renovation cost quotation for the project represented by the unpriced schedule.",
+        "item_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P11",
+          "P12"
+        ]
+      },
+      {
+        "quote": "Deliver the completed Chinese quotation as an editable XLS or XLSX workbook in `output/`.",
+        "item_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P11",
+          "P12"
+        ]
+      }
+    ],
+    "stated_facts": [
+      {
+        "id": "F-MATERIALS",
+        "quote": "materials/",
+        "check": {
+          "kind": "exists",
+          "path": "materials"
+        }
+      }
+    ],
+    "unchecked_tokens": [
+      {
+        "token": "output/",
+        "reason": "Requested output destination, not an input fact."
+      }
+    ]
+  },
+  "golden_consistency": {
+    "checks": [
+      {
+        "id": "GC-H29",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H29 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H29"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H19"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H20"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H21"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H22"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H23"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H24"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H25"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H26"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H27"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H28"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H38",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H38 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H38"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H32"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H33"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H34"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H35"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H36"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H37"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H50",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H50 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H50"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H41"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H42"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H43"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H44"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H45"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H46"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H47"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H48"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H49"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H58",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H58 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H58"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H53"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H54"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H55"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H56"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H57"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H66",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H66 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H66"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H61"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H62"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H63"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H64"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H65"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H74",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H74 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H74"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H69"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H70"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H71"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H72"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H73"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H85",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H85 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H85"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H76"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H77"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H78"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H79"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H80"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H81"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H82"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H83"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H93",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H93 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H93"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H88"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H89"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H90"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H91"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H92"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H115",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H115 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H115"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H96"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H97"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H98"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H99"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H130",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H130 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H130"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H127"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H128"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H129"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H139",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H139 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H139"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H133"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H134"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H135"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H136"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H137"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H138"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H145",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H145 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H145"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H142"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H143"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H144"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H151",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H151 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H151"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H148"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H149"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H150"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H116",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H116 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H116"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H115"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H93"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H74"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H66"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H58"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H29"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H85"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H100"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H50"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H101"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H102"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H103"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H104"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H38"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H106"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H109"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H108"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H107"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H111"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H110"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H112"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H113"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H114"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H105"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H119",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H119 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H119"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H116"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H122",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H122 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H122"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H119"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H120"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H121"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H154",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H154 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H154"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H145"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H139"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H130"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H151"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H156",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H156 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H156"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H154"
+          }
+        ],
+        "tolerance": 0.011
+      },
+      {
+        "id": "GC-H158",
+        "kind": "aggregate",
+        "statement": "Quotation aggregate H158 equals its declared component amounts.",
+        "target": {
+          "file": "golden/复桥602计价清单.xls",
+          "sheet": "置信李先生",
+          "cell": "H158"
+        },
+        "components": [
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H156"
+          },
+          {
+            "file": "golden/复桥602计价清单.xls",
+            "sheet": "置信李先生",
+            "cell": "H122"
+          }
+        ],
+        "tolerance": 0.011
+      }
+    ]
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "report_path": "task/tests/program_judge/judge-conformance-report.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "task_id": "renovation-quotation-completion",
+  "business_units": [
+    {
+      "id": "G-H19",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H19",
+      "label": "墙/顶面基层处理",
+      "truth_authority": "golden",
+      "value": 3630.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 110.0,
+        "E": 15.0,
+        "F": 2.0,
+        "G": 16.0
+      },
+      "gold_formula": "(G19+F19+E19)*D19",
+      "material_formula": null,
+      "standard_calculation": 3630.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 19,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H20",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H20",
+      "label": "墙顶面乳胶漆",
+      "truth_authority": "golden",
+      "value": 1705.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 110.0,
+        "E": 12.5,
+        "F": 1.5,
+        "G": 1.5
+      },
+      "gold_formula": "(G20+F20+E20)*D20",
+      "material_formula": null,
+      "standard_calculation": 1705.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 20,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H21",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H21",
+      "label": "地砖铺贴+主材800*800",
+      "truth_authority": "golden",
+      "value": 3000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 25.0,
+        "E": 35.0,
+        "F": 50.0,
+        "G": 35.0
+      },
+      "gold_formula": "(G21+F21+E21)*D21",
+      "material_formula": null,
+      "standard_calculation": 3000.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 21,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H22",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H22",
+      "label": "边箱",
+      "truth_authority": "golden",
+      "value": 2875.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 25.0,
+        "E": 40.0,
+        "F": 25.0,
+        "G": 50.0
+      },
+      "gold_formula": "(G22+F22+E22)*D22",
+      "material_formula": null,
+      "standard_calculation": 2875.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 22,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H23",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H23",
+      "label": "电视柜",
+      "truth_authority": "golden",
+      "value": 1800.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 5.0,
+        "E": 240.0,
+        "F": 45.0,
+        "G": 75.0
+      },
+      "gold_formula": "(G23+F23+E23)*D23",
+      "material_formula": null,
+      "standard_calculation": 1800.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 23,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H24",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H24",
+      "label": "电视墙开门洞",
+      "truth_authority": "golden",
+      "value": 300.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 1.0,
+        "E": 200.0,
+        "F": 15.0,
+        "G": 22.0
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "standard_calculation": 237.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "pricing_override",
+      "row": 24,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H25",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H25",
+      "label": "客厅双边实木门套+入户门套",
+      "truth_authority": "golden",
+      "value": 931.5,
+      "material_value": "",
+      "material_inputs": {
+        "D": 6.9,
+        "E": 120.0,
+        "F": 0.0,
+        "G": 15.0
+      },
+      "gold_formula": "(G25+F25+E25)*D25",
+      "material_formula": null,
+      "standard_calculation": 931.5,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 25,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H26",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H26",
+      "label": "铝合金踢脚线",
+      "truth_authority": "golden",
+      "value": 1020.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 30.0,
+        "E": 15.0,
+        "F": 2.0,
+        "G": 17.0
+      },
+      "gold_formula": "(G26+F26+E26)*D26",
+      "material_formula": null,
+      "standard_calculation": 1020.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 26,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H27",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H27",
+      "label": "“美缝剂”勾缝",
+      "truth_authority": "golden",
+      "value": 702.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 26.0,
+        "E": 13.0,
+        "F": 2.0,
+        "G": 12.0
+      },
+      "gold_formula": "(G27+F27+E27)*D27",
+      "material_formula": null,
+      "standard_calculation": 702.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 27,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H28",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H28",
+      "label": "沙发背景墙造型",
+      "truth_authority": "golden",
+      "value": 2000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 28,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H29",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H29",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 17963.5,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H19:H28)",
+      "material_formula": null,
+      "sum_of_visible_items": 17963.5,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 29,
+      "section": "客厅餐厅及过道装饰工程",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H32",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H32",
+      "label": "墙/顶面基层处理",
+      "truth_authority": "golden",
+      "value": 2376.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 72.0,
+        "E": 15.0,
+        "F": 2.0,
+        "G": 16.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=31 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2376.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 32,
+      "section": "房间一装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H33",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H33",
+      "label": "墙顶面乳胶漆",
+      "truth_authority": "golden",
+      "value": 1116.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 72.0,
+        "E": 12.5,
+        "F": 1.5,
+        "G": 1.5
+      },
+      "gold_formula": "SHARED FMLA at rowx=31 colx=7",
+      "material_formula": null,
+      "standard_calculation": 1116.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 33,
+      "section": "房间一装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H34",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H34",
+      "label": "地砖铺贴+主材800*800",
+      "truth_authority": "golden",
+      "value": 2011.2000000000003,
+      "material_value": "",
+      "material_inputs": {
+        "D": 16.76,
+        "E": 35.0,
+        "F": 50.0,
+        "G": 35.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=31 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2011.2,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 34,
+      "section": "房间一装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H35",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H35",
+      "label": "石膏线",
+      "truth_authority": "golden",
+      "value": 302.40000000000003,
+      "material_value": "",
+      "material_inputs": {
+        "D": 16.8,
+        "E": 8.0,
+        "F": 5.0,
+        "G": 5.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=31 colx=7",
+      "material_formula": null,
+      "standard_calculation": 302.4,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 35,
+      "section": "房间一装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H36",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H36",
+      "label": "铝合金踢脚线",
+      "truth_authority": "golden",
+      "value": 578.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 17.0,
+        "E": 15.0,
+        "F": 2.0,
+        "G": 17.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=31 colx=7",
+      "material_formula": null,
+      "standard_calculation": 578.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 36,
+      "section": "房间一装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H37",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H37",
+      "label": "“美缝剂”勾缝",
+      "truth_authority": "golden",
+      "value": 454.95000000000005,
+      "material_value": "",
+      "material_inputs": {
+        "D": 16.85,
+        "E": 13.0,
+        "F": 2.0,
+        "G": 12.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=31 colx=7",
+      "material_formula": null,
+      "standard_calculation": 454.95,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 37,
+      "section": "房间一装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H38",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H38",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 6838.55,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H32:H37)",
+      "material_formula": null,
+      "sum_of_visible_items": 6838.55,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "supported_subtotal",
+      "row": 38,
+      "section": "房间一装饰工程",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H41",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H41",
+      "label": "墙/顶面基层处理",
+      "truth_authority": "golden",
+      "value": 2112.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 64.0,
+        "E": 15.0,
+        "F": 2.0,
+        "G": 16.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=40 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2112.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 41,
+      "section": "右边耳房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H42",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H42",
+      "label": "墙顶面乳胶漆",
+      "truth_authority": "golden",
+      "value": 976.5,
+      "material_value": "",
+      "material_inputs": {
+        "D": 63.0,
+        "E": 12.5,
+        "F": 1.5,
+        "G": 1.5
+      },
+      "gold_formula": "SHARED FMLA at rowx=40 colx=7",
+      "material_formula": null,
+      "standard_calculation": 976.5,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 42,
+      "section": "右边耳房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H43",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H43",
+      "label": "墙板防撞板",
+      "truth_authority": "golden",
+      "value": 12000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 200.0,
+        "E": 25.0,
+        "F": 10.0,
+        "G": 25.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=40 colx=7",
+      "material_formula": null,
+      "standard_calculation": 12000.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 43,
+      "section": "右边耳房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H44",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H44",
+      "label": "铝合金踢脚线",
+      "truth_authority": "golden",
+      "value": 2169.2,
+      "material_value": "",
+      "material_inputs": {
+        "D": 63.8,
+        "E": 15.0,
+        "F": 2.0,
+        "G": 17.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=40 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2169.2,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 44,
+      "section": "右边耳房装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H45",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H45",
+      "label": "地砖铺贴+主材800*800",
+      "truth_authority": "golden",
+      "value": 10080.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 84.0,
+        "E": 35.0,
+        "F": 50.0,
+        "G": 35.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=40 colx=7",
+      "material_formula": null,
+      "standard_calculation": 10080.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 45,
+      "section": "右边耳房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H46",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H46",
+      "label": "边箱",
+      "truth_authority": "golden",
+      "value": 2300.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 20.0,
+        "E": 40.0,
+        "F": 25.0,
+        "G": 50.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=40 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2300.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 46,
+      "section": "右边耳房装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H47",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H47",
+      "label": "飘窗打拆",
+      "truth_authority": "golden",
+      "value": 300.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 1.0,
+        "E": 0.0,
+        "F": 0.0,
+        "G": 300.0
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "standard_calculation": 300.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 47,
+      "section": "右边耳房装饰工程",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H48",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H48",
+      "label": "“美缝剂”勾缝",
+      "truth_authority": "golden",
+      "value": 2268.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 84.0,
+        "E": 13.0,
+        "F": 2.0,
+        "G": 12.0
+      },
+      "gold_formula": "(G48+F48+E48)*D48",
+      "material_formula": null,
+      "standard_calculation": 2268.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 48,
+      "section": "右边耳房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H49",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H49",
+      "label": "背景墙一面造型",
+      "truth_authority": "golden",
+      "value": 2000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 49,
+      "section": "右边耳房装饰工程",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H50",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H50",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 34205.7,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H41:H49)",
+      "material_formula": null,
+      "sum_of_visible_items": 34205.7,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 50,
+      "section": "右边耳房装饰工程",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H53",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H53",
+      "label": "地砖铺贴+主材800*800",
+      "truth_authority": "golden",
+      "value": 2580.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 12.0,
+        "E": 100.0,
+        "F": 50.0,
+        "G": 65.0
+      },
+      "gold_formula": "(G53+F53+E53)*D53",
+      "material_formula": null,
+      "standard_calculation": 2580.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 53,
+      "section": "厨房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H54",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H54",
+      "label": "墙砖铺贴+主材400*800",
+      "truth_authority": "golden",
+      "value": 5100.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 30.0,
+        "E": 90.0,
+        "F": 45.0,
+        "G": 35.0
+      },
+      "gold_formula": "(G54+F54+E54)*D54",
+      "material_formula": null,
+      "standard_calculation": 5100.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 54,
+      "section": "厨房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H55",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H55",
+      "label": "涤纶砂浆防水",
+      "truth_authority": "golden",
+      "value": 1002.3,
+      "material_value": "",
+      "material_inputs": {
+        "D": 25.7,
+        "E": 27.0,
+        "F": 0.0,
+        "G": 12.0
+      },
+      "gold_formula": "(G55+F55+E55)*D55",
+      "material_formula": null,
+      "standard_calculation": 1002.3,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 55,
+      "section": "厨房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H56",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H56",
+      "label": "“美缝剂”勾缝",
+      "truth_authority": "golden",
+      "value": 864.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 32.0,
+        "E": 13.0,
+        "F": 2.0,
+        "G": 12.0
+      },
+      "gold_formula": "(G56+F56+E56)*D56",
+      "material_formula": null,
+      "standard_calculation": 864.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 56,
+      "section": "厨房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H57",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H57",
+      "label": "开窗洞+横梁",
+      "truth_authority": "golden",
+      "value": 500.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 57,
+      "section": "厨房装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H58",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H58",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 10046.3,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H53:H57)",
+      "material_formula": null,
+      "sum_of_visible_items": 10046.3,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 58,
+      "section": "厨房装饰工程",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H61",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H61",
+      "label": "地砖铺贴",
+      "truth_authority": "golden",
+      "value": 531.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 3.0,
+        "E": 90.0,
+        "F": 45.0,
+        "G": 42.0
+      },
+      "gold_formula": "(G61+F61+E61)*D61",
+      "material_formula": null,
+      "standard_calculation": 531.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 61,
+      "section": "卫生间装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H62",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H62",
+      "label": "墙砖铺贴+主材",
+      "truth_authority": "golden",
+      "value": 4760.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 28.0,
+        "E": 90.0,
+        "F": 45.0,
+        "G": 35.0
+      },
+      "gold_formula": "(G62+F62+E62)*D62",
+      "material_formula": null,
+      "standard_calculation": 4760.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 62,
+      "section": "卫生间装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H63",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H63",
+      "label": "回填+赵平",
+      "truth_authority": "golden",
+      "value": 400.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 1.0,
+        "E": 0.0,
+        "F": 0.0,
+        "G": 400.0
+      },
+      "gold_formula": "(G63+F63+E63)*D63",
+      "material_formula": null,
+      "standard_calculation": 400.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 63,
+      "section": "卫生间装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H64",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H64",
+      "label": "涤纶砂浆防水",
+      "truth_authority": "golden",
+      "value": 1209.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 31.0,
+        "E": 27.0,
+        "F": 0.0,
+        "G": 12.0
+      },
+      "gold_formula": "(G64+F64+E64)*D64",
+      "material_formula": null,
+      "standard_calculation": 1209.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 64,
+      "section": "卫生间装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H65",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H65",
+      "label": "“美缝剂”勾缝",
+      "truth_authority": "golden",
+      "value": 864.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 32.0,
+        "E": 13.0,
+        "F": 2.0,
+        "G": 12.0
+      },
+      "gold_formula": "(G65+F65+E65)*D65",
+      "material_formula": null,
+      "standard_calculation": 864.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 65,
+      "section": "卫生间装饰工程",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H66",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H66",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 7764.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H61:H65)",
+      "material_formula": null,
+      "sum_of_visible_items": 7764.0,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "supported_subtotal",
+      "row": 66,
+      "section": "卫生间装饰工程",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H69",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H69",
+      "label": "地砖铺贴+主材800*800",
+      "truth_authority": "golden",
+      "value": 1075.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 5.0,
+        "E": 100.0,
+        "F": 50.0,
+        "G": 65.0
+      },
+      "gold_formula": "(G69+F69+E69)*D69",
+      "material_formula": null,
+      "standard_calculation": 1075.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 69,
+      "section": "休闲阳台",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H70",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H70",
+      "label": "双眼皮顶线制作",
+      "truth_authority": "golden",
+      "value": 671.6,
+      "material_value": "",
+      "material_inputs": {
+        "D": 14.6,
+        "E": 20.0,
+        "F": 1.0,
+        "G": 25.0
+      },
+      "gold_formula": "(G70+F70+E70)*D70",
+      "material_formula": null,
+      "standard_calculation": 671.6,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 70,
+      "section": "休闲阳台",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H71",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H71",
+      "label": "墙/地面墙固",
+      "truth_authority": "golden",
+      "value": 15.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 5.0,
+        "E": 1.5,
+        "F": 0.5,
+        "G": 1.0
+      },
+      "gold_formula": "(G71+F71+E71)*D71",
+      "material_formula": null,
+      "standard_calculation": 15.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 71,
+      "section": "休闲阳台",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H72",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H72",
+      "label": "墙/顶面基层处理",
+      "truth_authority": "golden",
+      "value": 165.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 5.0,
+        "E": 15.0,
+        "F": 2.0,
+        "G": 16.0
+      },
+      "gold_formula": "(G72+F72+E72)*D72",
+      "material_formula": null,
+      "standard_calculation": 165.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 72,
+      "section": "休闲阳台",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H73",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H73",
+      "label": "墙顶面乳胶漆",
+      "truth_authority": "golden",
+      "value": 77.5,
+      "material_value": "",
+      "material_inputs": {
+        "D": 5.0,
+        "E": 12.5,
+        "F": 1.5,
+        "G": 1.5
+      },
+      "gold_formula": "(G73+F73+E73)*D73",
+      "material_formula": null,
+      "standard_calculation": 77.5,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 73,
+      "section": "休闲阳台",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H74",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H74",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 2004.1,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H69:H73)",
+      "material_formula": null,
+      "sum_of_visible_items": 2004.1,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "supported_subtotal",
+      "row": 74,
+      "section": "休闲阳台",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H76",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H76",
+      "label": "橱柜地柜+柜门",
+      "truth_authority": "golden",
+      "value": 2248.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 4.0,
+        "E": 560.0,
+        "F": 1.0,
+        "G": 1.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2248.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 76,
+      "section": "其他项目",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H77",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H77",
+      "label": "橱柜R倒角石英台面",
+      "truth_authority": "golden",
+      "value": 1044.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 4.0,
+        "E": 260.0,
+        "F": 1.0,
+        "G": ""
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 1044.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 77,
+      "section": "其他项目",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H78",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H78",
+      "label": "橱柜吊柜",
+      "truth_authority": "golden",
+      "value": 2023.2,
+      "material_value": "",
+      "material_inputs": {
+        "D": 3.6,
+        "E": 560.0,
+        "F": 1.0,
+        "G": 1.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2023.2,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 78,
+      "section": "其他项目",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H79",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H79",
+      "label": "封阳台",
+      "truth_authority": "golden",
+      "value": 20250.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 45.0,
+        "E": 450.0,
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 20250.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 79,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H80",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H80",
+      "label": "圆弧+开窗",
+      "truth_authority": "golden",
+      "value": 7901.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 1.0,
+        "E": 0.0,
+        "F": 7900.0,
+        "G": 1.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 7901.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 80,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H81",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H81",
+      "label": "楼梯步台阶",
+      "truth_authority": "golden",
+      "value": 7800.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 30.0,
+        "E": "",
+        "F": "",
+        "G": 260.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 7800.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 81,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H82",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H82",
+      "label": "打拆",
+      "truth_authority": "golden",
+      "value": 1300.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 20.0,
+        "E": "",
+        "F": "",
+        "G": 65.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 1300.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 82,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H83",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H83",
+      "label": "新建",
+      "truth_authority": "golden",
+      "value": 2650.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 10.0,
+        "E": "",
+        "F": "",
+        "G": 265.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=75 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2650.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 83,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H85",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H85",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 45216.2,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H76:H84)",
+      "material_formula": null,
+      "sum_of_visible_items": 45216.2,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "supported_subtotal",
+      "row": 85,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H88",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H88",
+      "label": "室内强电改造",
+      "truth_authority": "golden",
+      "value": 13650.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 28.0,
+        "F": 12.0,
+        "G": 25.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=87 colx=7",
+      "material_formula": null,
+      "standard_calculation": 13650.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 88,
+      "section": "水电项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H89",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H89",
+      "label": "室内弱电改造",
+      "truth_authority": "golden",
+      "value": 4830.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 10.0,
+        "F": 5.0,
+        "G": 8.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=87 colx=7",
+      "material_formula": null,
+      "standard_calculation": 4830.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 89,
+      "section": "水电项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H90",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H90",
+      "label": "给排水改造",
+      "truth_authority": "golden",
+      "value": 7350.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 20.0,
+        "F": 5.0,
+        "G": 10.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=87 colx=7",
+      "material_formula": null,
+      "standard_calculation": 7350.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 90,
+      "section": "水电项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H91",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H91",
+      "label": "打线槽、线盒",
+      "truth_authority": "golden",
+      "value": 1260.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 0.0,
+        "F": 0.0,
+        "G": 6.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=87 colx=7",
+      "material_formula": null,
+      "standard_calculation": 1260.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 91,
+      "section": "水电项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H92",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H92",
+      "label": "耳房改造电",
+      "truth_authority": "golden",
+      "value": 5000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 92,
+      "section": "水电项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H93",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H93",
+      "label": "合计",
+      "truth_authority": "golden",
+      "value": 32090.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H88:H92)",
+      "material_formula": null,
+      "sum_of_visible_items": 32090.0,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 93,
+      "section": "水电项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H96",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H96",
+      "label": "建渣垃圾清运费",
+      "truth_authority": "golden",
+      "value": 1680.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 0.0,
+        "F": 0.0,
+        "G": 8.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=95 colx=7",
+      "material_formula": null,
+      "standard_calculation": 1680.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 96,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H97",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H97",
+      "label": "日常清洁及完工初步保洁",
+      "truth_authority": "golden",
+      "value": 1680.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 0.0,
+        "F": 0.0,
+        "G": 8.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=95 colx=7",
+      "material_formula": null,
+      "standard_calculation": 1680.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 97,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H98",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H98",
+      "label": "材料采运及上楼1",
+      "truth_authority": "golden",
+      "value": 2730.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 0.0,
+        "F": 0.0,
+        "G": 13.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=95 colx=7",
+      "material_formula": null,
+      "standard_calculation": 2730.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 98,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H99",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H99",
+      "label": "成品保护费",
+      "truth_authority": "golden",
+      "value": 420.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 210.0,
+        "E": 0.0,
+        "F": 0.0,
+        "G": 2.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=95 colx=7",
+      "material_formula": null,
+      "standard_calculation": 420.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 99,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H100",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H100",
+      "label": "房间2",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 100,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H101",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H101",
+      "label": "房间3",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 101,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H102",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H102",
+      "label": "房间4",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 102,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H103",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H103",
+      "label": "房间5",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 103,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H104",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H104",
+      "label": "房间6",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 104,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H105",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H105",
+      "label": "房间7",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 105,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H106",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H106",
+      "label": "客厅2",
+      "truth_authority": "golden",
+      "value": 8000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 106,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H107",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H107",
+      "label": "真石漆",
+      "truth_authority": "golden",
+      "value": 5940.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 66.0,
+        "E": "",
+        "F": "",
+        "G": 90.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=106 colx=7",
+      "material_formula": null,
+      "standard_calculation": 5940.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 107,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": "耳房"
+    },
+    {
+      "id": "G-H108",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H108",
+      "label": "钢架防护",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 7000.0,
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "misplaced_lump_sum",
+      "row": 108,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H109",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H109",
+      "label": "真石漆",
+      "truth_authority": "golden",
+      "value": 17280.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 192.0,
+        "E": "",
+        "F": "",
+        "G": 90.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=106 colx=7",
+      "material_formula": null,
+      "standard_calculation": 17280.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 109,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": "主屋"
+    },
+    {
+      "id": "G-H110",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H110",
+      "label": "门口地坪贴砖",
+      "truth_authority": "golden",
+      "value": 8600.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 40.0,
+        "E": 100.0,
+        "F": 50.0,
+        "G": 65.0
+      },
+      "gold_formula": "SHARED FMLA at rowx=106 colx=7",
+      "material_formula": null,
+      "standard_calculation": 8600.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 110,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H111",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H111",
+      "label": "地坪",
+      "truth_authority": "golden",
+      "value": 1200.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 40.0,
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 111,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H112",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H112",
+      "label": "钢构挑空平台+护栏",
+      "truth_authority": "golden",
+      "value": 8500.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 112,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H113",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H113",
+      "label": "水沟",
+      "truth_authority": "golden",
+      "value": 4500.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 45.0,
+        "E": "",
+        "F": "混凝土",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 113,
+      "section": "其他项目",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H114",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H114",
+      "label": "屋顶翻新",
+      "truth_authority": "golden",
+      "value": 7150.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 130.0,
+        "E": 25.0,
+        "F": "",
+        "G": 30.0
+      },
+      "gold_formula": "(G114+F114+E114)*D114",
+      "material_formula": null,
+      "standard_calculation": 7150.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "quantity_times_rate_sum",
+      "row": 114,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H115",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H115",
+      "label": "小计",
+      "truth_authority": "golden",
+      "value": 6510.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H96:H99)",
+      "material_formula": null,
+      "sum_of_visible_items": 6510.0,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "supported_subtotal",
+      "row": 115,
+      "section": "其他项目",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H116",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H116",
+      "label": "基装合计",
+      "truth_authority": "golden",
+      "value": 272808.35,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "H115+H93+H74+H66+H58+H29+H85+H100+H50+H101+H102+H103+H104+H38+H106+H109+H108+H107+H111+H110+H112+H113+H114+H105",
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 116,
+      "section": "其他项目",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H119",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H119",
+      "label": "基装合计",
+      "truth_authority": "golden",
+      "value": 272808.35,
+      "material_value": "",
+      "material_inputs": {
+        "D": 0.0,
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "H116",
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 119,
+      "section": "基础装修项目合计",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H120",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H120",
+      "label": "工程管理费",
+      "truth_authority": "golden",
+      "value": 7000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 0.0,
+        "E": 0.06,
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 120,
+      "section": "基础装修项目合计",
+      "unit": "项",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H121",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H121",
+      "label": "设计费",
+      "truth_authority": "golden",
+      "value": 0.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 0.0,
+        "E": 50.0,
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "E121*D121",
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "zero_quantity_fee",
+      "row": 121,
+      "section": "基础装修项目合计",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H122",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H122",
+      "label": "基装总计：",
+      "truth_authority": "golden",
+      "value": 279808.35,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "H121+H120+H119",
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 122,
+      "section": "基础装修项目合计",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H127",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H127",
+      "label": "卧室套装门",
+      "truth_authority": "golden",
+      "value": 5700.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 6.0,
+        "E": "套装",
+        "F": 0.0,
+        "G": 950.0
+      },
+      "gold_formula": "G127*D127",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 5700.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 127,
+      "section": "门类",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H128",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H128",
+      "label": "卫生间钛合金门",
+      "truth_authority": "golden",
+      "value": 1900.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 2.0,
+        "E": "套装",
+        "F": 0.0,
+        "G": 950.0
+      },
+      "gold_formula": "G128*D128",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 1900.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 128,
+      "section": "门类",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H129",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H129",
+      "label": "入户大门",
+      "truth_authority": "golden",
+      "value": 6000.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 129,
+      "section": "门类",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H130",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H130",
+      "label": "小计",
+      "truth_authority": "golden",
+      "value": 13600.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H127:H129)",
+      "material_formula": null,
+      "sum_of_visible_items": 13600.0,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 130,
+      "section": "门类",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H133",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H133",
+      "label": "主卫生间浴室柜",
+      "truth_authority": "golden",
+      "value": 1600.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 2.0,
+        "E": "九牧/帝王",
+        "F": 0.0,
+        "G": 800.0
+      },
+      "gold_formula": "G133*D133",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 1600.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 133,
+      "section": "洁具",
+      "unit": "套",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H134",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H134",
+      "label": "蹲便+水箱",
+      "truth_authority": "golden",
+      "value": 600.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 1.0,
+        "E": "九牧/帝王",
+        "F": 0.0,
+        "G": 600.0
+      },
+      "gold_formula": "G134*D134",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 600.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 134,
+      "section": "洁具",
+      "unit": "套",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H135",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H135",
+      "label": "淋浴花洒",
+      "truth_authority": "golden",
+      "value": 1100.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 2.0,
+        "E": "九牧/帝王",
+        "F": 0.0,
+        "G": 550.0
+      },
+      "gold_formula": "G135*D135",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 1100.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 135,
+      "section": "洁具",
+      "unit": "套",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H136",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H136",
+      "label": "地漏",
+      "truth_authority": "golden",
+      "value": 105.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 3.0,
+        "E": "九牧",
+        "F": 0.0,
+        "G": 35.0
+      },
+      "gold_formula": "G136*D136",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 105.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 136,
+      "section": "洁具",
+      "unit": "个",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H137",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H137",
+      "label": "浴室暖风机",
+      "truth_authority": "golden",
+      "value": 900.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 2.0,
+        "E": "",
+        "F": 1.0,
+        "G": 450.0
+      },
+      "gold_formula": "G137*D137",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 1350.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "equivalent_set",
+      "group": "loss_exception",
+      "row": 137,
+      "section": "洁具",
+      "unit": "个",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H138",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H138",
+      "label": "马桶",
+      "truth_authority": "golden",
+      "value": 1200.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "九牧/帝王",
+        "F": "",
+        "G": 800.0
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 138,
+      "section": "洁具",
+      "unit": "个",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H139",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H139",
+      "label": "小计",
+      "truth_authority": "golden",
+      "value": 5505.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H133:H138)",
+      "material_formula": null,
+      "sum_of_visible_items": 5505.0,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 139,
+      "section": "洁具",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H142",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H142",
+      "label": "厨房铝扣板",
+      "truth_authority": "golden",
+      "value": 1584.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 12.0,
+        "E": "法狮龙",
+        "F": 1.2000000000000002,
+        "G": 120.0
+      },
+      "gold_formula": "(D142+F142)*G142",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 1584.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 142,
+      "section": "铝扣板",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H143",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H143",
+      "label": "卫生间铝扣板",
+      "truth_authority": "golden",
+      "value": 858.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 6.5,
+        "E": "法狮龙",
+        "F": 0.65,
+        "G": 120.0
+      },
+      "gold_formula": "(D143+F143)*G143",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 858.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 143,
+      "section": "铝扣板",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H144",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H144",
+      "label": "铝扣板阴角线",
+      "truth_authority": "golden",
+      "value": 511.5,
+      "material_value": "",
+      "material_inputs": {
+        "D": 18.6,
+        "E": "法狮龙",
+        "F": 1.8600000000000003,
+        "G": 25.0
+      },
+      "gold_formula": "(D144+F144)*G144",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 511.5,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 144,
+      "section": "铝扣板",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H145",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H145",
+      "label": "小计",
+      "truth_authority": "golden",
+      "value": 2953.5,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "SUM(H142:H144)",
+      "material_formula": null,
+      "sum_of_visible_items": 2953.5,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "supported_subtotal",
+      "row": 145,
+      "section": "铝扣板",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H148",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H148",
+      "label": "窗台石材",
+      "truth_authority": "golden",
+      "value": 900.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 7.5,
+        "E": "",
+        "F": 0.0,
+        "G": 120.0
+      },
+      "gold_formula": "G148*D148",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 900.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 148,
+      "section": "其他",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H149",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H149",
+      "label": "窗台玻璃护栏",
+      "truth_authority": "golden",
+      "value": 2170.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": 5.0,
+        "E": "",
+        "F": 1.2,
+        "G": 350.0
+      },
+      "gold_formula": "(D149+F149)*G149",
+      "material_formula": null,
+      "quantity_plus_loss_times_rate": 2170.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "inferable",
+      "scoring_disposition": "exact",
+      "group": "material_quantity_plus_loss",
+      "row": 149,
+      "section": "其他",
+      "unit": "m",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H150",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H150",
+      "label": "屋顶防水",
+      "truth_authority": "golden",
+      "value": 1500.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": null,
+      "material_formula": null,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "missing_quote",
+      "row": 150,
+      "section": "其他",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H151",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H151",
+      "label": "小计",
+      "truth_authority": "golden",
+      "value": 4570.0,
+      "material_value": "",
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "H149+H148+H150",
+      "material_formula": null,
+      "sum_of_visible_items": 4570.0,
+      "visible_sum_delta": 0.0,
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 151,
+      "section": "其他",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H154",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H154",
+      "label": "主材项目合计",
+      "truth_authority": "golden",
+      "value": 26628.5,
+      "material_value": 0.0,
+      "material_inputs": {
+        "D": 0.0,
+        "E": 0.0,
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "H145+H139+H130+H151",
+      "material_formula": "H145+H139+H130+H151",
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 154,
+      "section": "主材项目合计",
+      "unit": "m2",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H156",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H156",
+      "label": "主材总计：",
+      "truth_authority": "golden",
+      "value": 26628.5,
+      "material_value": 0.0,
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "H155+H154",
+      "material_formula": "H155+H154",
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 156,
+      "section": "主材项目合计",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H158",
+      "gold_location": "golden/复桥602计价清单.xls#置信李先生!H158",
+      "label": "主材+辅料合计",
+      "truth_authority": "golden",
+      "value": 306436.85,
+      "material_value": 0.0,
+      "material_inputs": {
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": ""
+      },
+      "gold_formula": "H156+H122",
+      "material_formula": "H156+H122",
+      "derivation_kind": "expert_reasoning",
+      "solver_accessibility": "underspecified",
+      "scoring_disposition": "warning_only",
+      "group": "aggregate_or_fee",
+      "row": 158,
+      "section": "主材项目合计",
+      "unit": "",
+      "object_prefix": ""
+    },
+    {
+      "id": "G-H155",
+      "row": 155,
+      "section": "主材项目合计",
+      "label": "主材管理费",
+      "unit": "项",
+      "material_inputs": {
+        "D": 0.0,
+        "E": 0.05,
+        "F": "",
+        "G": ""
+      },
+      "value": null,
+      "scoring_disposition": "warning_only",
+      "group": "optional_fee"
+    }
+  ],
+  "sections": {
+    "17": "客厅餐厅及过道装饰工程",
+    "30": "房间一装饰工程",
+    "39": "右边耳房装饰工程",
+    "51": "厨房装饰工程",
+    "59": "卫生间装饰工程",
+    "67": "休闲阳台",
+    "75": "其他项目",
+    "86": "水电项目",
+    "94": "其他项目",
+    "117": "基础装修项目合计",
+    "125": "门类",
+    "131": "洁具",
+    "140": "铝扣板",
+    "146": "其他",
+    "152": "主材项目合计"
+  },
+  "source_sheet_name": "置信李先生",
+  "aggregate_relations": {
+    "29": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "38": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "50": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "58": [
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "66": [
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "74": [
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "85": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "93": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "115": [
+      96,
+      97,
+      98,
+      99
+    ],
+    "130": [
+      127,
+      128,
+      129
+    ],
+    "139": [
+      133,
+      134,
+      135,
+      136,
+      137,
+      138
+    ],
+    "145": [
+      142,
+      143,
+      144
+    ],
+    "151": [
+      148,
+      149,
+      150
+    ],
+    "116": [
+      115,
+      93,
+      74,
+      66,
+      58,
+      29,
+      85,
+      100,
+      50,
+      101,
+      102,
+      103,
+      104,
+      38,
+      106,
+      109,
+      108,
+      107,
+      111,
+      110,
+      112,
+      113,
+      114,
+      105
+    ],
+    "119": [
+      116
+    ],
+    "122": [
+      119,
+      120,
+      121
+    ],
+    "154": [
+      145,
+      139,
+      130,
+      151
+    ],
+    "156": [
+      154,
+      155
+    ],
+    "158": [
+      156,
+      122
+    ]
+  },
+  "blank_optional_aggregate_inputs": [
+    155
+  ],
+  "uncertain_units": [
+    "G-H24",
+    "G-H28",
+    "G-H29",
+    "G-H49",
+    "G-H50",
+    "G-H57",
+    "G-H58",
+    "G-H92",
+    "G-H93",
+    "G-H100",
+    "G-H101",
+    "G-H102",
+    "G-H103",
+    "G-H104",
+    "G-H105",
+    "G-H106",
+    "G-H108",
+    "G-H111",
+    "G-H112",
+    "G-H113",
+    "G-H116",
+    "G-H119",
+    "G-H120",
+    "G-H122",
+    "G-I122",
+    "G-H129",
+    "G-H130",
+    "G-H137",
+    "G-H138",
+    "G-H139",
+    "G-H150",
+    "G-H151",
+    "G-H154",
+    "G-H156",
+    "G-H158"
+  ],
+  "gap_marker_contract": {
+    "required": true,
+    "scope": "source-underspecified rows",
+    "policy": "Blank, pending, provisional or explicit unavailable quote earns no exact-value credit and causes no deduction. No invented fixed price is required.",
+    "exact_values_from_private_reference_are_not_required": true
+  },
+  "numeric_tolerance": {
+    "currency_absolute": 0.011,
+    "input_absolute": 1e-07
+  },
+  "reference_project_identity": {
+    "project_name": "置信李先生",
+    "area": 124.5,
+    "source": "materials original workbook KK!F6:F7; target area is 210"
+  },
+  "equivalent_business_labels": {
+    "小计": [
+      "已知费用小计",
+      "已知成本小计",
+      "已知价小计"
+    ],
+    "合计": [
+      "已知费用小计",
+      "已知成本小计",
+      "已知价小计"
+    ],
+    "回填+赵平": [
+      "回填+找平"
+    ],
+    "材料采运及上楼1": [
+      "材料采运及上楼"
+    ],
+    "基装合计": [
+      "基装已知小计",
+      "基装已知成本合计",
+      "基装已知价合计"
+    ],
+    "基装总计：": [
+      "基装已知总计：",
+      "基装已知价总计："
+    ],
+    "主材项目合计": [
+      "主材已知小计",
+      "主材已知价合计"
+    ],
+    "主材总计：": [
+      "主材已知总计：",
+      "主材已知价总计："
+    ],
+    "主材+辅料合计": [
+      "已知费用总计",
+      "主材+辅料已知成本合计",
+      "未税合计",
+      "基装+主材已知价合计",
+      "主材+基装已知价合计"
+    ]
+  },
+  "equivalent_aggregate_relations": {
+    "115": [
+      [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ]
+    ],
+    "116": [
+      [
+        29,
+        38,
+        50,
+        58,
+        66,
+        74,
+        85,
+        93,
+        115
+      ]
+    ]
+  },
+  "require_leaf_conservation": [
+    "116"
+  ],
+  "settlement": "local-conjunctive-additive",
+  "completeness_gates": [],
+  "lenient_criteria": {
+    "required_owner_ids": [
+      "source_input_integrity"
+    ],
+    "require_native_workbook": true,
+    "require_no_adopted_error": false,
+    "description": "Independent binary usability check: one native workbook and preserved source inputs."
+  }
+}

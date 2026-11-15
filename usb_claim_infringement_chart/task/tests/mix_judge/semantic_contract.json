@@ -1,0 +1,10 @@
+{
+  "dimensions": {
+    "claim_meaning": "The adopted element and terminal conclusions preserve the actual claim subject, actor, direction, event order and version. Static voltage, optional protocol support or a shared term does not establish a different claimed relationship.",
+    "evidence_binding": "Decisive propositions are bound to the correct target and controlling claim or specification evidence. Explicitly labelled contextual material may explain a conclusion but does not become target proof.",
+    "reasoning_coherence": "Reasons, evidence classes, construction dependencies, sensitivity assumptions and terminal calls are mutually consistent under the all-elements rule.",
+    "scope_calibration": "The chart distinguishes published and issued claims, printed and candidate dependency relations, direct, composite, not-shown and contradicted evidence, and technical triage from ultimate legal opinions."
+  },
+  "score_values": [0, 0.25, 0.5, 0.75, 1],
+  "evidence_policy": "Judge adopted meaning and evidence relationships, not preferred wording, JSON order or Golden prose."
+}

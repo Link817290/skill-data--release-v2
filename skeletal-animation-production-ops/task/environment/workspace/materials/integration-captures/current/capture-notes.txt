@@ -1,0 +1,10 @@
+Current faulty-build integration capture
+Godot 4.4.1; 640 x 360; 1/60 second samples; duration 0-2 seconds.
+Appearance at 0; launches at 0.15 and 0.45 seconds; target (480,190).
+Impact events: 3
+  t=0.65 point=(480.0,190.0)
+  t=0.65 point=(480.0,190.0)
+  t=0.95 point=(480.0,190.0)
+Remaining effect nodes at 2 seconds: 1
+  hit_004 animation=hit frame=10
+Actual engine state and textures; CPU-composited GIFs and contact sheet. Open project/project.godot to reproduce.

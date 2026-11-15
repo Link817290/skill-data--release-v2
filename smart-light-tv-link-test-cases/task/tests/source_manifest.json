@@ -1,0 +1,35 @@
+{
+  "id": "smart-light-tv-link-test-cases",
+  "files": [
+    {
+      "path": "capability_map.json",
+      "bytes": 2863,
+      "sha256": "f53bc87803d9848c92c54f151f1aeb39b8bb5251838e3d5ba022925ef4356396"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 238,
+      "sha256": "3dc881ed4bbdd7d6db03beb81424a45b1e21d606c5c3a3ae2ba8a3242f26395a"
+    },
+    {
+      "path": "ground_truth.json",
+      "bytes": 13790,
+      "sha256": "4d8c78386ee98943f42a4de26caa87996ad23735adf5583276e225309a4ca701"
+    },
+    {
+      "path": "scoring_params.json",
+      "bytes": 849,
+      "sha256": "dd4d09130bcf337ce52112a70665ef1d07e560cb09f262a6b68ed1990505e6a1"
+    },
+    {
+      "path": "test.sh",
+      "bytes": 424,
+      "sha256": "12189c4b8ecf70b029fb54ee7ae9f2ddd5815abbda6f6a89322bfc61ea5b5174"
+    },
+    {
+      "path": "validator.py",
+      "bytes": 43563,
+      "sha256": "cf6ced9ecc8a69751e4b4aa8d584c0a605dd7f0766cb1ecd1667a5712ea4531e"
+    }
+  ]
+}

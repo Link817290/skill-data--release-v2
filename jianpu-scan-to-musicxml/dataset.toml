@@ -1,0 +1,15 @@
+version = "1.0"
+id = "jianpu-scan-to-musicxml"
+task_type = "skill-bench"
+domain = "music-notation"
+language = "en"
+difficulty = "hard"
+deliverable = "output/揚州慢.mei"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+dual_score = true
+scorer = "task/tests/test.sh"
+rubric = "RUBRIC.md"
+condition_blind = true

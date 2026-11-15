@@ -1,0 +1,113 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "smoked-fish-haccp-audit",
+  "tasks": [
+    "smoked-fish-haccp-audit"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 25,
+  "bytes_excluding_manifest": 6294922,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1753,
+      "sha256": "b48979c44008e99ffc80eb73a31985e4769f1814464585a27a90e752bb09fb30"
+    },
+    "RUBRIC.md": {
+      "bytes": 13935,
+      "sha256": "63189870e632d4d060df4315933c9d91c0b04b8279825eef338260dcbf9c5516"
+    },
+    "dataset.toml": {
+      "bytes": 1870,
+      "sha256": "a5f632bc560ddb81a728dfc8dc8570cbb1c58866d8444d9a2e075a926effb954"
+    },
+    "golden/haccp_audit.json": {
+      "bytes": 18878,
+      "sha256": "b9694121d70a43c7f7c0d194a263a0ee3e30b4b44f316b6bbe5b87d0c1016dc7"
+    },
+    "golden/material_integrity.sha256": {
+      "bytes": 187,
+      "sha256": "19443d86189c020f6c079b4acb1c39f887b0c44041ef44bdff9b5f841fba6f71"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 515,
+      "sha256": "07ff242d0779bdda819de8253547b49adf6c3c071b01708519bb1a03a7b82d0d"
+    },
+    "task/environment/skills/audit-haccp-evidence-chain/SKILL.md": {
+      "bytes": 12306,
+      "sha256": "24dab1e28dab48b0186159023f63ae9a105ca1045b86165541a50435a6d6d27a"
+    },
+    "task/environment/skills/audit-haccp-evidence-chain/scripts/pdf_page_search.py": {
+      "bytes": 4058,
+      "sha256": "95f30741e1018217d88298ddcd373da79e5ebef513567984cc07e452ce2758de"
+    },
+    "task/environment/skills/review-seafood-process-controls/SKILL.md": {
+      "bytes": 12629,
+      "sha256": "78a9049abc3b2367fae31471de57ab7686986ff72855661f5e2c0a88da3a0f89"
+    },
+    "task/environment/workspace/applicable_regulatory_authority.pdf": {
+      "bytes": 5627254,
+      "sha256": "28d166877548f821004ef76cdc5dcd139402c4ced9f9f1bd4407ba3dc301765c"
+    },
+    "task/environment/workspace/review_dossier.pdf": {
+      "bytes": 267926,
+      "sha256": "884c0ec32988bd806592f84aeb90c9c08928bb86e584b477fb64b11aea4d3ada"
+    },
+    "task/instruction.md": {
+      "bytes": 1146,
+      "sha256": "09f2cd0890209c6ca9807c31f896f1ace393cb1e7b219d74958b6fe57f346f2c"
+    },
+    "task/solution/reference_output.json": {
+      "bytes": 18878,
+      "sha256": "b9694121d70a43c7f7c0d194a263a0ee3e30b4b44f316b6bbe5b87d0c1016dc7"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 23300,
+      "sha256": "57e643bd8d19283ed555ca0169e60cb4d9d3c9d80a0849580b7640071c024122"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 220,
+      "sha256": "1ce47e699a5ef4af7ffc8f78a7a804bdcc3547e864bbd377228be5b6d8cdd697"
+    },
+    "task/task.toml": {
+      "bytes": 866,
+      "sha256": "2eb362cb8d544b085d7bb4578d9cc74916733819d6764f84c709285ae1fd73a2"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 845,
+      "sha256": "bb87547014382bd0bd64e797e46345d86b68138e82ca69f928aaf3703acfe688"
+    },
+    "task/tests/derive_ground_truth.py": {
+      "bytes": 1989,
+      "sha256": "6b87eebf38d18de96168936ff93ad528e6713e0b103590fe64de54a2a556423d"
+    },
+    "task/tests/golden_replay/af726f6714ab66ca273753aaba50561c56c1edfc8fcecd9a7e07afb9e6b09889.json": {
+      "bytes": 15500,
+      "sha256": "07c81ffbd4ea180e688b279104e102c639db9255522f0e60d452848bdc4e5d75"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 3992,
+      "sha256": "80f31922bfcc312034d3c6177273b24471902084647bb95e9dede03bf24f35aa"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 25303,
+      "sha256": "ba3e98e4810385c9f18453c89f1fe335645ca6a75103f878b668b62e722bd9bd"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 217285,
+      "sha256": "2118064181f286febb0c4b26e48fa65dd02c4e7754e0990a2c31f053b1cb8bc0"
+    },
+    "task/tests/source_integrity.json": {
+      "bytes": 204,
+      "sha256": "e86e0d6549bf17e9b2e8ed0afe3ebc507e3490cd9991891539dcbd5d94509178"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1411,
+      "sha256": "3e2f8ad22197dd356bbc98ac3e1f9570ed3377ad0647351c26edb8bff34f3ff6"
+    },
+    "task/tests/validator.py": {
+      "bytes": 22672,
+      "sha256": "c54d79cecb49a8dd902c21b5df56e4033379968e57c67b68cd8375b865b0b608"
+    }
+  }
+}

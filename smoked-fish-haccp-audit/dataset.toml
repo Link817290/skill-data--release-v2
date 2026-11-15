@@ -1,0 +1,69 @@
+version = "1.0"
+id = "smoked-fish-haccp-audit"
+task_type = "skill-bench"
+domain = "food_safety"
+language = "en"
+difficulty = "expert"
+document_count = 2
+deliverable = "workspace/haccp_audit.json"
+network_access = false
+rollouts_included = true
+
+[rollout_expectations]
+opus5_no_skill = 2
+opus5_with_skill = 5
+hy4_no_skill = 2
+hy4_with_skill = 16
+
+[scoring]
+semantic_judge_model = "gpt-5.6-sol"
+semantic_judge_required = true
+semantic_judge_env = ["LLM_JUDGE_BASE_URL", "LLM_JUDGE_API_KEY", "LLM_JUDGE_MODEL", "LLM_JUDGE_CACHE_DIR", "LLM_JUDGE_MODE", "LLM_JUDGE_TIMEOUT_SECONDS"]
+semantic_judge_golden_replay = "task/tests/golden_replay"
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = true
+
+[scoring.weights]
+decision_boundary = 0.08
+applicability_hazard_scope = 0.14
+botulinum_control_chain = 0.17
+process_validation = 0.09
+cooling_control = 0.11
+monitoring_limit_alignment = 0.08
+corrective_action_closure = 0.08
+verification_calibration = 0.07
+distribution_and_storage = 0.06
+postprocess_boundary = 0.04
+evidence_binding = 0.08
+
+[scoring.gates]
+source_integrity = "zero"
+authorization_decision = "zero unless current authorization is withheld pending evidence closure and re-review; applies to both lenses"
+
+[scoring.verified]
+gold_reward = 1.000000
+
+[scoring.lenient_quality_floor]
+recognized_anchors = 8
+evidence_bound_anchors = 7
+anchor_count = 13
+independent_of_strict = false
+gold_reward_strict = 1.000000
+gold_reward_lenient = 1.000000
+reward_alias_verified = true
+
+[skill]
+names = ["audit-haccp-evidence-chain", "review-seafood-process-controls"]
+reference_count = 0
+
+[conditions]
+answers_in_skill = false
+thresholds_in_skill = false
+condition_blind = true

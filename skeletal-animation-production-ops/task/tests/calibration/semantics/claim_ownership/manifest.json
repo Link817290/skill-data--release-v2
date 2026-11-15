@@ -1,0 +1,17 @@
+{
+  "runtime_files": {
+    "judge.py": "688e7361b76bc4ac1aee992de1c36279636231ad7c8d7940158bcb9b79f86954",
+    "contract.json": "74846baa1c60e9fe2dc71574e8db0bf3ccf5dee3b35d9e7824fa7ba971db01c5",
+    "prompt.md": "8e82bfc8ffd2bf28b6fd8c3f58c9a786d8d28315fa1fb46f00a3fdd3e2b76ed6"
+  },
+  "base_runtime": {
+    "judge.py": "aee45e674807878b3dff8d70998a45fb8efdccdb8f536c95422cf6285f64fa23",
+    "contract.json": "88281e472936aff4f78ccc752b30f068b1ea04cb7e08560082317dc543dae06c",
+    "prompt.md": "b49cc571cd98ed5a97491efbac54d3f444ae83dd3d8bcbe8fe3f291bb8b1e60f",
+    "settings.json": "6a5c299d3b644a4d5f2c6f5c65c275b22f901814b5b364096b3e66b8838b0066",
+    "response.schema.json": "8dd277af3966e1471f95e5a236e41317e4efaae3a7dec64c3d808f26c195b6b6",
+    "authority.json": "ed09045d6db74a59070748e62070f2dd3c7eca7a84a01f19693124bfdc016710"
+  },
+  "transport_sha256": "dfe5e35a8c98f8f82fd2e386beddf964965cdc159e0ba24cadfb3f0550be1c44",
+  "no_scoring_parameters": true
+}

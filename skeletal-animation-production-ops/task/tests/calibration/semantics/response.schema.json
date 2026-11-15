@@ -1,0 +1,650 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "tickets",
+    "professional",
+    "source_claims"
+  ],
+  "properties": {
+    "tickets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "FX-301",
+        "FX-302",
+        "FX-303",
+        "FX-304",
+        "FX-305"
+      ],
+      "properties": {
+        "FX-301": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "summary_accurate",
+            "recorded_command_corresponds",
+            "artifact_bindings_supported",
+            "selected_actual_command_ids",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "summary_accurate": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "recorded_command_corresponds": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "artifact_bindings_supported": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_actual_command_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        },
+        "FX-302": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "summary_accurate",
+            "recorded_command_corresponds",
+            "artifact_bindings_supported",
+            "selected_actual_command_ids",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "summary_accurate": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "recorded_command_corresponds": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "artifact_bindings_supported": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_actual_command_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        },
+        "FX-303": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "summary_accurate",
+            "recorded_command_corresponds",
+            "artifact_bindings_supported",
+            "selected_actual_command_ids",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "summary_accurate": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "recorded_command_corresponds": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "artifact_bindings_supported": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_actual_command_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        },
+        "FX-304": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "summary_accurate",
+            "recorded_command_corresponds",
+            "artifact_bindings_supported",
+            "selected_actual_command_ids",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "summary_accurate": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "recorded_command_corresponds": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "artifact_bindings_supported": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_actual_command_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        },
+        "FX-305": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "summary_accurate",
+            "recorded_command_corresponds",
+            "artifact_bindings_supported",
+            "selected_actual_command_ids",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "summary_accurate": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "recorded_command_corresponds": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "artifact_bindings_supported": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "selected_actual_command_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "professional": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "capture_model_and_bounds",
+        "independent_observation_evidence",
+        "actionable_reproduction_context"
+      ],
+      "properties": {
+        "capture_model_and_bounds": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "completion",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "completion": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "enum": [
+                0,
+                0.5,
+                1,
+                null
+              ]
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        },
+        "independent_observation_evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "completion",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "completion": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "enum": [
+                0,
+                0.5,
+                1,
+                null
+              ]
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        },
+        "actionable_reproduction_context": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "completion",
+            "source_citations",
+            "evidence",
+            "why"
+          ],
+          "properties": {
+            "completion": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "enum": [
+                0,
+                0.5,
+                1,
+                null
+              ]
+            },
+            "source_citations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_file_id",
+                  "line_numbers"
+                ],
+                "properties": {
+                  "source_file_id": {
+                    "type": "string"
+                  },
+                  "line_numbers": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 30,
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "source_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "asserted_value",
+          "verdict",
+          "adopted_claim_citations",
+          "source_citations",
+          "evidence",
+          "why"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "original_png_count",
+              "played_frame_count",
+              "source_fps",
+              "delivery_fps",
+              "preview_file_count",
+              "tool_version",
+              "reported_acceptance_observation",
+              "capture_model_assurance"
+            ]
+          },
+          "asserted_value": {
+            "type": "string"
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "accurate",
+              "contradicted",
+              "unsupported",
+              "unclear"
+            ]
+          },
+          "adopted_claim_citations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source_file_id",
+                "line_numbers"
+              ],
+              "properties": {
+                "source_file_id": {
+                  "type": "string"
+                },
+                "line_numbers": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 30,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          },
+          "source_citations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source_file_id",
+                "line_numbers"
+              ],
+              "properties": {
+                "source_file_id": {
+                  "type": "string"
+                },
+                "line_numbers": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 30,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "why": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

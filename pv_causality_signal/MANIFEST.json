@@ -1,0 +1,145 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "pv_causality_signal",
+  "tasks": [
+    "pv_causality_signal"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 33,
+  "bytes_excluding_manifest": 59429542,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 868,
+      "sha256": "7d914c42f7c06c4027402d60ca8d1aeeacc31c2e34227f3d97fba76140623acb"
+    },
+    "RUBRIC.md": {
+      "bytes": 13264,
+      "sha256": "7063db64b05b76eb06d025c4baff8e87bddfe80dcc70068abc8059edd314c3e4"
+    },
+    "dataset.toml": {
+      "bytes": 1591,
+      "sha256": "8722214e611a9ee3d69ae980b3cc23e0a3a0ae19541755af6946ce327bcd0241"
+    },
+    "golden/faers_adjudication.json": {
+      "bytes": 141071,
+      "sha256": "71ff7b0abf4145ca1ee30715ef8845ea60b482dcd7d4bd8e00cb2007b2786a53"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 599,
+      "sha256": "974f913884f721cb718f557114da592bbf59da17569d745b20e3804e2df56d24"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 299,
+      "sha256": "c05d0b18e0bad6cd30e73b1efbdaafd463777baa54a2b431a61f8f01e63e071a"
+    },
+    "task/environment/skills/analyze-disproportionality-sensitivity/SKILL.md": {
+      "bytes": 7219,
+      "sha256": "b6b6bb315b7e6fe9bf7f1dada10656bc43c7c9a61bcf344599ea89d894d32dac"
+    },
+    "task/environment/skills/analyze-disproportionality-sensitivity/agents/openai.yaml": {
+      "bytes": 252,
+      "sha256": "a297b34aec0c60fc9995bc5f8bd1a09a1ac646c6ca3f5cb6a1036ba72544bd6c"
+    },
+    "task/environment/skills/analyze-disproportionality-sensitivity/scripts/check_table_math.py": {
+      "bytes": 3150,
+      "sha256": "3c45b53ee7f2531de2cfabe1a626292b4034190cbba442d8e0dc32a227b2f7bd"
+    },
+    "task/environment/skills/assess-structured-icsr-causality/SKILL.md": {
+      "bytes": 9383,
+      "sha256": "b4c3148acee5dbdeec3c1dc39bed4a7371ce5fcce457f107406ed23cb161c8d3"
+    },
+    "task/environment/skills/assess-structured-icsr-causality/agents/openai.yaml": {
+      "bytes": 257,
+      "sha256": "f33f11275f178617a0c1983c59365abfb854c0e22585d11850547c505a37b5f7"
+    },
+    "task/environment/skills/reconcile-spontaneous-reports/SKILL.md": {
+      "bytes": 8144,
+      "sha256": "634e1f3551349c23f0df74a3818127a4aac8cb2d031f1e4c3ee24706d9852596"
+    },
+    "task/environment/skills/reconcile-spontaneous-reports/agents/openai.yaml": {
+      "bytes": 238,
+      "sha256": "f8e15816eeb4c3948c8eedad9faf0bcb97149c1183a5df347bee38d37d356873"
+    },
+    "task/environment/skills/reconcile-spontaneous-reports/scripts/canonicalize_rows.py": {
+      "bytes": 3456,
+      "sha256": "5c6234a70aa0c2c3c5ba9cd0cf89883195b846b7f39f12944c53685a875b3d57"
+    },
+    "task/environment/workspace/faers/demo.csv": {
+      "bytes": 5948744,
+      "sha256": "72b49558091587d921abe5b1781ddfcd5196dbcde770a72d537c1721c376e561"
+    },
+    "task/environment/workspace/faers/drug.csv": {
+      "bytes": 32294514,
+      "sha256": "47d297e380720cdec81a57f673ed638091efb545310100604b94bc2dcc5ed894"
+    },
+    "task/environment/workspace/faers/outc.csv": {
+      "bytes": 1856478,
+      "sha256": "9aa71814b1a7bcc288fb9a5e2913bd083ae5d2f81281c63531c29052915dffe0"
+    },
+    "task/environment/workspace/faers/reac.csv": {
+      "bytes": 13343217,
+      "sha256": "283a31b0c35e2e1a5df5ae7d5615e9f0676d443d05cc7412efdbef30c1826def"
+    },
+    "task/environment/workspace/faers/ther.csv": {
+      "bytes": 5469094,
+      "sha256": "83b67cdbe018c911b5bd2763d8fc0bab9755524c9d4b04b88c899c4efdb15cb3"
+    },
+    "task/environment/workspace/faers_readme.txt": {
+      "bytes": 20193,
+      "sha256": "b4b1d23ce465ce1c341a3491640fe0f4a773dbc8d54039cffef5fbe8992f6829"
+    },
+    "task/instruction.md": {
+      "bytes": 7498,
+      "sha256": "3f6d9e39299b71ac8ad6acc0e4a5883bf01c1a17e2409a590185e63da9ad29eb"
+    },
+    "task/solution/build_reference.py": {
+      "bytes": 24553,
+      "sha256": "4536e53ea2fd803e16b2f1e292474910a1171f0ec97ff53fb24fb44ae7391db6"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 1388,
+      "sha256": "bee6d7b5acced3b660de97f1f7a5615c36059cd1a89fdec1b5497c03dfed2fff"
+    },
+    "task/solution/golden_deliverable.md": {
+      "bytes": 459,
+      "sha256": "c31dd3b1925e08e09fffd5a0ba026eb17e4f5493f299335fb0df60e41cef12a1"
+    },
+    "task/solution/review_scope.json": {
+      "bytes": 7274,
+      "sha256": "9bf00d856f59a656a28a571b053acbd823a60638bcbebbb9de2cd0170f126df3"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 101,
+      "sha256": "404eaf8f8199274abec253ab1b2b5b08c5d7608a5e59035f17d48220dff3a3e3"
+    },
+    "task/task.toml": {
+      "bytes": 1436,
+      "sha256": "52ba95c3f5e5341637f345aaa6a963aa5cfd0c87f2669e1d33de91bf88cc3326"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1422,
+      "sha256": "5e2d1bb18f95dabe41200e349e29f8f58a24238815854d34153aa6a0e591bae5"
+    },
+    "task/tests/golden_replay/3f2b4a46b07322604d20d86b74f20a54a8078c90a87ef9b0200e8d6e2d8406bb.json": {
+      "bytes": 45262,
+      "sha256": "a85687d1fa8da923f1f935f7aa6627604f6ed792659801b42f8923c75f29d998"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 140973,
+      "sha256": "aef3b49eab432daee67b8e4cc5bee2d9f885b4b643fa4b845a3f8d967e6a5e94"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 9110,
+      "sha256": "fded935e855789a881d089dcbee15c09cb921c00b7a70371cc022999214d744a"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1464,
+      "sha256": "53cb2c1ebadf5f61d444defb58c15cbae2be1bd9d2951384b5496a2b47299f20"
+    },
+    "task/tests/validator.py": {
+      "bytes": 66571,
+      "sha256": "efe0e273f7929c6ecffbc5608aa1034afa10cc4d3d2045485d0ca5708931dac6"
+    }
+  }
+}

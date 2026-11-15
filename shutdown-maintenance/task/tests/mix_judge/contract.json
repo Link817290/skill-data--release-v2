@@ -1,0 +1,138 @@
+{
+  "judge_version": "shutdown-maintenance-review-chain-v14-source-equivalence",
+  "score_profile": "bench",
+  "owner_aggregation": "weighted_additive_professional_responsibility_domains",
+  "source_bindings": {
+    "environment/workspace/input/电力设备试验请购说明.docx": "cada20b9e43dc0ffcd69c68cf003badaa040daf618cfa7368c653baa9d5a123c",
+    "environment/workspace/input/检修安排/电力检修施工组织安排.xlsx": "647c283cd293460670b75a33ae48bb5472e0b76f547c3566bb8b0be9337d83a5",
+    "environment/workspace/input/检修安排/电力检修进度计划表（待编）.xlsx": "43eed9202fe2c71e3aedc88f1a166191cb3eab2893380d8cff2367b79068e63f"
+  },
+  "owners": [
+    {"id": "schedule_witness", "criterion": "A publishable schedule witness requires all linked scope, feasibility, precedence, priority, calendar and T-milestone-feasibility owners. A written lower-bound proof is optional."},
+    {"id": "independent_controls", "criterion": "Independent readiness, duration-basis, execution, handback, state, standby and follow-up controls retain weighted partial credit."}
+  ],
+  "lenient_policy": {
+    "settlement": "binary_conjunction",
+    "must_have": {
+      "core_schedule": ["scope", "duration_windows", "resource_feasibility", "coupled_precedence"],
+      "calendar_matches_schedule": ["gantt_consistency"],
+      "planning_basis": ["estimated_duration_basis"],
+      "safe_handback": ["candidate_handback_and_electrical_boundary"],
+      "standby_handoff": ["continuous_standby_and_response"]
+    }
+  },
+  "must_have": {
+    "core_schedule": "All four deterministic feasibility owners pass.",
+    "calendar_matches_schedule": "The Gantt marks match the tabular schedule.",
+    "planning_basis": "Durations remain provisional and pre-start confirmed.",
+    "safe_handback": "Candidate handback retains evidence and permission boundaries.",
+    "standby_handoff": "Standby is continuous, responsive and independently staffed."
+  },
+  "native_scopes": {
+    "schedule_witness": "schedule_witness_measurement",
+    "independent_controls": "independent_controls_measurement"
+  },
+  "semantic_items": [
+    {"id": "scope_grain_and_area_identity_present", "completion_values": [0, 1], "criterion": "At least partial source-bound scope-grain evidence is present."},
+    {"id": "scope_grain_and_area_identity_complete", "completion_values": [0, 1], "criterion": "Scope-grain and area-identity evidence is complete."},
+    {"id": "readiness_and_paired_deferral_present", "completion_values": [0, 1], "criterion": "At least partial readiness and paired-deferral control is present."},
+    {"id": "readiness_and_paired_deferral_complete", "completion_values": [0, 1], "criterion": "Readiness and paired-deferral control is complete."},
+    {"id": "estimated_duration_basis_present", "completion_values": [0, 1], "criterion": "At least partial estimated-duration basis is present."},
+    {"id": "estimated_duration_basis_complete", "completion_values": [0, 1], "criterion": "Estimated-duration basis is complete."},
+    {"id": "lexicographic_priority_present", "completion_values": [0, 1], "criterion": "At least partial ordered-priority evidence is present."},
+    {"id": "lexicographic_priority_complete", "completion_values": [0, 1], "criterion": "Ordered-priority evidence is complete."},
+    {"id": "earliest_t_completion_proof_present", "completion_values": [0, 1], "criterion": "A feasible T milestone is present; written proof is optional."},
+    {"id": "earliest_t_completion_proof_complete", "completion_values": [0, 1], "criterion": "The T milestone is feasible and consistent; written proof is optional."},
+    {"id": "execution_controls_and_closeout_present", "completion_values": [0, 1], "criterion": "At least partial execution and closeout control is present."},
+    {"id": "execution_controls_and_closeout_complete", "completion_values": [0, 1], "criterion": "Execution and closeout control is complete."},
+    {"id": "candidate_handback_and_electrical_boundary_present", "completion_values": [0, 1], "criterion": "At least partial handback boundary is present."},
+    {"id": "candidate_handback_and_electrical_boundary_complete", "completion_values": [0, 1], "criterion": "Handback and electrical boundary is complete."},
+    {"id": "actual_state_and_change_propagation_present", "completion_values": [0, 1], "criterion": "At least partial actual-state propagation is present."},
+    {"id": "actual_state_and_change_propagation_complete", "completion_values": [0, 1], "criterion": "Actual-state propagation is complete."},
+    {"id": "continuous_standby_and_response_present", "completion_values": [0, 1], "criterion": "At least partial standby response control is present."},
+    {"id": "continuous_standby_and_response_complete", "completion_values": [0, 1], "criterion": "Standby response control is complete."},
+    {"id": "report_due_event_present", "completion_values": [0, 1], "criterion": "At least partial report due-event control is present."},
+    {"id": "report_due_event_complete", "completion_values": [0, 1], "criterion": "Report due-event control is complete."},
+    {"id": "oil_followup_event_present", "completion_values": [0, 1], "criterion": "At least partial oil follow-up control is present."},
+    {"id": "oil_followup_event_complete", "completion_values": [0, 1], "criterion": "Oil follow-up control is complete."}
+  ],
+  "row_templates": [
+    {"id_pattern": "numeric:{owner}", "completion_values": [0, 1], "criterion": "A deterministic numeric owner is measured from the workbook."}
+  ],
+  "outputs": [
+    "电力设备检修进度计划表.xlsx"
+  ],
+  "criteria": [
+    {
+      "id": "scope_grain_and_area_identity",
+      "weight": 0.11,
+      "description": "Preserve the Golden's scope grain: 19 radiator groups are one four-transformer total with no invented per-transformer allocation; S remains one package containing its source-listed auxiliary equipment; and T common-enclosure bus and S dock bus remain separate package scopes. An explicit prose comparison is not required when the workbook structure and scope text preserve the distinction. Score 1 for all three meanings, 0.5 for one material omission without contradiction, and 0 for a false count, allocation, aggregation, or merged area identity.",
+      "completion_scale": [0, 0.5, 1]
+    },
+    {
+      "id": "readiness_and_paired_deferral",
+      "weight": 0.08,
+      "description": "Treat M readiness as a release assumption rather than proof of arrival, and defer or replan both M and the paired T test when replacement cannot proceed. Score 1 for both controls, 0.5 for one with no contrary claim, and 0 for asserted readiness or an independently proceeding T plan.",
+      "completion_scale": [0, 0.5, 1]
+    },
+    {
+      "id": "estimated_duration_basis",
+      "weight": 0.08,
+      "description": "State that package durations are planning estimates rather than observed or manufacturer-standard durations and remain subject to pre-start confirmation. Score 1 when both the provisional status and confirmation boundary are present, otherwise 0.",
+      "completion_scale": [0, 1]
+    },
+    {
+      "id": "lexicographic_priority",
+      "weight": 0.08,
+      "description": "Apply the documented ordered objective: among feasible plans first finish T as early as possible, then among ties finish all site work as early as possible. Score 1 only when the ordering and both objectives are preserved, otherwise 0.",
+      "completion_scale": [0, 1]
+    },
+    {
+      "id": "earliest_t_completion_proof",
+      "weight": 0.15,
+      "description": "The adopted T milestone must be feasible under the public M/T precedence, continuous-duration, readiness and closure constraints. Accept a correct schedule and consistent milestone without a written lower-bound proof, enumeration or derivation; these extra explanations are optional. Score 1 for a feasible T milestone and 0 for an infeasible or missing milestone. The historical item identifier is retained only for compatibility.",
+      "completion_scale": [0, 1]
+    },
+    {
+      "id": "execution_controls_and_closeout",
+      "weight": 0.1,
+      "description": "Preserve the public source's two execution boundaries: site work remains conditional on the approved work plan and applicable outage/work permission; package completion includes the source-required restoration, cleanup and handover rather than only the main intervention or test. Accept integrated workbook-wide conditions and equivalent cross-sheet evidence. Do not additionally require a separate blanket statement that every construction activity is subject to general test-readiness confirmation; the source's test and instrument controls apply in their stated operational context. Score 1 when both pre-start approval/permission and closeout meanings are preserved, 0.5 for one complete meaning with no contradiction, and 0 for an explicit materially unsafe approval, permission or completion boundary.",
+      "completion_scale": [0, 0.5, 1]
+    },
+    {
+      "id": "candidate_handback_and_electrical_boundary",
+      "weight": 0.12,
+      "description": "Treat every listed energization time as a candidate milestone requiring passed tests, restoration, handover and operator permission; recognize that circuit-to-protection associations are absent and package completion cannot establish independent energization. Workbook-wide release conditions and package completion definitions apply to all corresponding candidate nodes; do not require the same condition to be repeated in every row. Read cross-sheet evidence together, while respecting any explicit local override. Score 1 for both the release conditions and missing-association boundary, 0.5 for only one, and 0 for treating a planned package finish as authorization or completed energization.",
+      "completion_scale": [0, 0.5, 1]
+    },
+    {
+      "id": "actual_state_and_change_propagation",
+      "weight": 0.08,
+      "description": "Keep actual completion, test, permission and energization status pending where the inputs provide no result, and require relevant changes to propagate through paired M/T work and the standby, report and oil-analysis dates that depend on actual events. Score 1 for pending-state discipline plus this downstream propagation, 0.5 for one of them, and 0 for fabricated actual completion or explicitly frozen dependent dates.",
+      "completion_scale": [0, 0.5, 1]
+    },
+    {
+      "id": "continuous_standby_and_response",
+      "weight": 0.08,
+      "description": "Define standby as 48 continuous hours from actual energization, including closed site-work days; retain the two-hour response obligation and the public source's separately staffed arrangement that does not consume construction crews. A prospective programme may display standby from candidate energization when its workbook-wide actual-event rule requires the corresponding downstream nodes to be recalculated or shifted; this is equivalent to stating the actual trigger in every standby row. Read these conditions together and do not require automatic formulas. Score 1 for all meanings, 0.5 for an incomplete but noncontradictory arrangement, and 0 for explicit working-day standby, use of undeclared construction capacity, or a fixed planned end that remains unchanged despite delayed actual energization.",
+      "completion_scale": [0, 0.5, 1]
+    },
+    {
+      "id": "report_due_event",
+      "weight": 0.05,
+      "description": "Bind the written test report deadline to actual completion of all site work using the source two-week/14-calendar-day rule, while labeling the displayed date provisional. Score 1 for trigger, duration and provisional status, 0.5 for a correct displayed provisional date with an incomplete trigger rule, and 0 for a fixed or incorrectly triggered deadline.",
+      "completion_scale": [0, 0.5, 1]
+    },
+    {
+      "id": "oil_followup_event",
+      "weight": 0.07,
+      "description": "Bind the transformer oil follow-up to actual in-service date plus one calendar month and preserve chromatography, moisture and simplified testing. Score 1 for the trigger, calendar rule and complete test scope, 0.5 for a correct provisional date and trigger with incomplete test scope, and 0 for a 30-day/working-day rule, wrong trigger, or cancellation.",
+      "completion_scale": [0, 0.5, 1]
+    }
+  ],
+  "required_inputs": [
+    "电力设备试验请购说明.docx",
+    "检修安排/电力检修施工组织安排.xlsx",
+    "检修安排/电力检修进度计划表（待编）.xlsx"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "source_files": {
+    "PAT_APP": "published_application.pdf",
+    "PAT_ISSUED": "issued_patent.pdf",
+    "ON_DS": "controller_datasheet.pdf",
+    "TI_RD": "reference_design.pdf",
+    "APPLE_UG": "product_guide.pdf",
+    "TYPE_C_SPEC": "type_c_specification.pdf",
+    "PD_SPEC": "power_delivery_specification.pdf"
+  },
+  "target_definitions": {
+    "PI_SPEC_EMBODIMENT": "charging-device embodiment 400 described in the supplied patent specification",
+    "ON_NCP4371": "NCP4371 datasheet-described charger implementation",
+    "TI_QC2_REFERENCE": "TPS61088 and CHY100 reference design",
+    "APPLE_A2246_LOW_INPUT": "power adapter model A2246 in the 100-127 V input mode",
+    "APPLE_A2246_HIGH_INPUT": "power adapter model A2246 in the 200-240 V input mode"
+  },
+  "target_ids": [
+    "PI_SPEC_EMBODIMENT",
+    "ON_NCP4371",
+    "TI_QC2_REFERENCE",
+    "APPLE_A2246_LOW_INPUT",
+    "APPLE_A2246_HIGH_INPUT"
+  ],
+  "published_chart_claim_ids": ["1", "5", "7", "9"],
+  "published_review_pairs": [
+    {"target_id": "PI_SPEC_EMBODIMENT", "claim_id": "1"},
+    {"target_id": "ON_NCP4371", "claim_id": "5"},
+    {"target_id": "TI_QC2_REFERENCE", "claim_id": "7"},
+    {"target_id": "APPLE_A2246_LOW_INPUT", "claim_id": "9"},
+    {"target_id": "APPLE_A2246_HIGH_INPUT", "claim_id": "1"},
+    {"target_id": "APPLE_A2246_HIGH_INPUT", "claim_id": "5"},
+    {"target_id": "APPLE_A2246_HIGH_INPUT", "claim_id": "7"},
+    {"target_id": "APPLE_A2246_HIGH_INPUT", "claim_id": "9"}
+  ],
+  "same_number_claim_ids": ["1", "5", "7", "9", "10", "19"],
+  "issued_review_pairs": [
+    {"target_id": "PI_SPEC_EMBODIMENT", "claim_id": "1"},
+    {"target_id": "ON_NCP4371", "claim_id": "5"},
+    {"target_id": "TI_QC2_REFERENCE", "claim_id": "7"},
+    {"target_id": "APPLE_A2246_LOW_INPUT", "claim_id": "9"},
+    {"target_id": "APPLE_A2246_HIGH_INPUT", "claim_id": "9"},
+    {"target_id": "PI_SPEC_EMBODIMENT", "claim_id": "10"},
+    {"target_id": "ON_NCP4371", "claim_id": "10"},
+    {"target_id": "PI_SPEC_EMBODIMENT", "claim_id": "19"},
+    {"target_id": "TI_QC2_REFERENCE", "claim_id": "19"},
+    {"target_id": "APPLE_A2246_HIGH_INPUT", "claim_id": "19"}
+  ],
+  "published_element_ids": {
+    "1": ["1.0", "1.1", "1.2", "1.3"],
+    "5": ["1.0", "1.1", "1.2", "1.3", "5.1", "5.2"],
+    "7": ["1.0", "1.1", "1.2", "1.3", "7.1", "7.2"],
+    "9": ["1.0", "1.1", "1.2", "1.3", "9.1"]
+  },
+  "additional_feature_refs": [
+    "AUTH_ALLOW_POWER",
+    "POWER_MAGNITUDE_INFO",
+    "POWER_LEVEL_CAPABILITY",
+    "CURRENT_LEVEL_CAPABILITY",
+    "MEDIUM_PROGRAM_CODE",
+    "CHARGING_DEVICE_APPARATUS",
+    "USB_PORT",
+    "POWER_SUPPLY_CONVERTER",
+    "USB_COMMUNICATION_MODULE"
+    ,"ATTACHMENT_DETECTION"
+    ,"PORT_CLASSIFICATION"
+    ,"ENABLE_SIGNAL"
+    ,"POWERED_DEVICE_IDENTIFICATION"
+    ,"AUTH_ALLOW_VARY_POWER"
+  ],
+  "feature_reference_policy": "For an issued claim, reuse a published element ID whenever the issued text carries that same proposition. Use an additional feature reference only for an issued requirement that has no corresponding published element ID. Use the resulting references consistently in granted_required_feature_refs, feature_findings, and decisive_feature_refs.",
+  "evidence_bridge_issues": [
+    {
+      "bridge_id": "B_HIGH_MODE_PD_LABEL",
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "proposed_sources": ["APPLE_UG", "PD_SPEC"],
+      "proposition": "The product-mode record links this mode to mandatory USB Power Delivery source behavior."
+    },
+    {
+      "bridge_id": "B_LOW_MODE_PD_LABEL",
+      "target_id": "APPLE_A2246_LOW_INPUT",
+      "proposed_sources": ["APPLE_UG", "PD_SPEC"],
+      "proposition": "The product-mode record links this mode to mandatory USB Power Delivery source behavior."
+    },
+    {
+      "bridge_id": "B_HIGH_MODE_CC_PATH",
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "proposed_sources": ["APPLE_UG", "TYPE_C_SPEC", "PD_SPEC"],
+      "proposition": "Power Delivery packet communication over the Type-C configuration channel is target-linked for this mode."
+    },
+    {
+      "bridge_id": "B_HIGH_MODE_SOURCE_CAPS",
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "proposed_sources": ["APPLE_UG", "PD_SPEC"],
+      "proposition": "The source communicates its offered voltage and current capabilities in Source_Capabilities data."
+    },
+    {
+      "bridge_id": "B_CC_EXCLUDES_DPLUS",
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "proposed_sources": ["APPLE_UG", "TYPE_C_SPEC", "PD_SPEC"],
+      "proposition": "Use of the CC path proves that the same product mode cannot also perform the claimed D+/D- signaling."
+    },
+    {
+      "bridge_id": "B_PD_PHASE_EQUIVALENCE",
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "proposed_sources": ["PAT_APP", "APPLE_UG", "PD_SPEC"],
+      "proposition": "Type-C attachment and PD contract formation establish the patent's handshake-end and normal-operation boundaries."
+    },
+    {
+      "bridge_id": "B_TI_TO_ON",
+      "target_id": "ON_NCP4371",
+      "proposed_sources": ["ON_DS", "TI_RD"],
+      "proposition": "The reference design may complete missing implementation facts for the datasheet-described target."
+    },
+    {
+      "bridge_id": "B_ON_TO_TI",
+      "target_id": "TI_QC2_REFERENCE",
+      "proposed_sources": ["TI_RD", "ON_DS"],
+      "proposition": "The controller datasheet may complete missing implementation facts for the reference-design target."
+    },
+    {
+      "bridge_id": "B_PATENT_TO_PRODUCT",
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "proposed_sources": ["APPLE_UG", "PAT_APP"],
+      "proposition": "The patent embodiment may complete internal implementation facts absent from the product guide."
+    },
+    {
+      "bridge_id": "B_REGIONAL_GENERALIZATION",
+      "target_id": "APPLE_A2246_LOW_INPUT",
+      "proposed_sources": ["APPLE_UG", "PD_SPEC"],
+      "proposition": "The high-input mode's protocol label may be generalized to the low-input mode of the same model."
+    }
+  ],
+  "construction_issues": [
+    {"issue_id": "C_HANDSHAKE_PD", "question": "Do Type-C attachment and PD contract formation resolve the claimed handshaking-period boundary in light of the patent specification's BC1.2 example?"},
+    {"issue_id": "C_CC_DATA_CONDUCTOR", "question": "Does the Type-C configuration channel resolve the claims' USB data-conductor language?"},
+    {"issue_id": "C_POWER_MAGNITUDE", "question": "Do voltage and current fields necessarily resolve the issued requirement for information about a magnitude of power?"},
+    {"issue_id": "C_OUTPUT_AS_CAPABILITY_MESSAGE", "question": "Does changing VBUS in response to a powered-device command resolve charger-originated communication of available output levels?"},
+    {"issue_id": "C_STATIC_LEVEL_AS_TOGGLE_PATTERN", "question": "Does maintaining one lookup-table voltage state resolve a pattern of voltage-level toggles?"},
+    {"issue_id": "C_OUTPUT_CHANGE_AS_BEGIN_DATA", "question": "Does beginning an output-voltage change resolve beginning digital-data communication in response to the received pattern?"},
+    {"issue_id": "C_HVDCP_AS_NORMAL_OPERATION", "question": "Does entry into HVDCP mode resolve the claimed beginning of normal operation?"},
+    {"issue_id": "C_EQUAL_LEVEL_AS_PHYSICAL_SHORT", "question": "Do equal observed voltages on two conductors resolve a requirement that the charging device shorts those conductors together?"}
+  ],
+  "sensitivity_scenarios": [
+    {"scenario_id": "S_HIGH_PUB1_PD_BOUNDARIES", "target_id": "APPLE_A2246_HIGH_INPUT", "claim_version": "PUBLISHED", "claim_id": "1", "hypothesis": "Treat Type-C attachment completion as handshake end and Explicit Contract as normal-operation start."},
+    {"scenario_id": "S_HIGH_PUB9_PD_BOUNDARIES", "target_id": "APPLE_A2246_HIGH_INPUT", "claim_version": "PUBLISHED", "claim_id": "9", "hypothesis": "Apply the same PD boundary mapping and the target-linked Source_Capabilities rule."},
+    {"scenario_id": "S_HIGH_PUB7_CC_AS_DATA", "target_id": "APPLE_A2246_HIGH_INPUT", "claim_version": "PUBLISHED", "claim_id": "7", "hypothesis": "Treat the Type-C CC wire as the claimed data conductor."},
+    {"scenario_id": "S_HIGH_PUB5_EQUAL_AS_SHORT", "target_id": "APPLE_A2246_HIGH_INPUT", "claim_version": "PUBLISHED", "claim_id": "5", "hypothesis": "Treat equal conductor voltage as proof of a physical short."},
+    {"scenario_id": "S_LOW_PUB9_COPY_HIGH_MODE", "target_id": "APPLE_A2246_LOW_INPUT", "claim_version": "PUBLISHED", "claim_id": "9", "hypothesis": "Generalize the high-input mode's USB-PD label to the low-input mode."},
+    {"scenario_id": "S_ON_PUB9_OUTPUT_AS_MESSAGE", "target_id": "ON_NCP4371", "claim_version": "PUBLISHED", "claim_id": "9", "hypothesis": "Treat a commanded output-voltage change as charger-originated capability communication."},
+    {"scenario_id": "S_ON_ISS5_BORROW_TI", "target_id": "ON_NCP4371", "claim_version": "ISSUED", "claim_id": "5", "hypothesis": "Treat the TI reference design as target-linked implementation evidence."},
+    {"scenario_id": "S_TI_ISS7_BORROW_ON", "target_id": "TI_QC2_REFERENCE", "claim_version": "ISSUED", "claim_id": "7", "hypothesis": "Treat the NCP4371 datasheet as target-linked implementation evidence."},
+    {"scenario_id": "S_TI_PUB7_STATIC_AND_RESPONSE", "target_id": "TI_QC2_REFERENCE", "claim_version": "PUBLISHED", "claim_id": "7", "hypothesis": "Treat static D+/D- lookup levels as a toggle pattern and the resulting VBUS change as responsive digital-data communication."},
+    {"scenario_id": "S_HIGH_ISS9_PDO_POWER", "target_id": "APPLE_A2246_HIGH_INPUT", "claim_version": "ISSUED", "claim_id": "9", "hypothesis": "Treat the fixed-supply PDO voltage and current fields as communication of power magnitude."}
+  ],
+  "dependency_audit_claim_refs": [
+    "PUBLISHED:12", "PUBLISHED:13", "PUBLISHED:17", "PUBLISHED:18",
+    "PUBLISHED:19", "PUBLISHED:22", "PUBLISHED:23", "PUBLISHED:24",
+    "PUBLISHED:28", "ISSUED:10", "ISSUED:11", "ISSUED:18",
+    "ISSUED:19", "ISSUED:20", "ISSUED:23"
+  ],
+  "family_correspondence_published_claim_ids": [
+    "12", "17", "18", "19", "23", "24", "25"
+  ],
+  "top_level_schema": {
+    "comparisons": "complete published-claim target comparison collection",
+    "version_impact": {
+      "same_number_claims": "one mapping for each designated claim number",
+      "granted_comparisons": "the designated representative issued-claim comparison collection"
+    },
+    "evidence_bridges": "one assessment for each evidence_bridge_issues row",
+    "construction_dependencies": "one assessment for each construction_issues row",
+    "sensitivity_matrix": "one assessment for each sensitivity_scenarios row",
+    "dependency_audit": "one row for every dependency_audit_claim_refs entry",
+    "family_correspondence": "one row for every family_correspondence_published_claim_ids claim",
+    "assumptions_and_scope": "non-empty string array"
+  },
+  "published_comparison_schema": {
+    "row_keys": ["target_id", "claim_id", "terminal_call", "findings"],
+    "finding_keys": ["element_id", "evidence_class", "source_ids", "evidence_locator", "reason", "actor_direction", "medium_or_pins", "sequence_test"]
+  },
+  "issued_comparison_schema": {
+    "row_keys": ["target_id", "claim_id", "terminal_call", "decisive_feature_refs", "source_ids", "feature_findings", "actor_attribution", "medium_boundary", "temporal_boundary"],
+    "finding_keys": ["feature_ref", "evidence_class", "source_ids", "evidence_locator", "reason"]
+  },
+  "same_number_claim_schema": {
+    "row_keys": ["claim_id", "granted_required_feature_refs", "source_published_claim_ids", "same_number_scope_relation", "change_reason"]
+  },
+  "evidence_bridge_schema": {
+    "row_keys": ["bridge_id", "link_status", "proposition_status", "controlling_effect", "affected_feature_refs", "source_ids", "evidence_locators", "reason"]
+  },
+  "construction_dependency_schema": {
+    "row_keys": ["issue_id", "disposition", "affected_claim_refs", "affected_feature_refs", "claim_locators", "reason"]
+  },
+  "sensitivity_schema": {
+    "row_keys": ["scenario_id", "baseline_call", "hypothetical_call", "result_effect", "decisive_feature_refs", "reason"]
+  },
+  "dependency_audit_schema": {
+    "row_keys": [
+      "claim_ref", "declared_parent_claim_id", "dependency_status",
+      "expansion_policy", "candidate_coherent_parent_claim_id",
+      "candidate_basis", "claim_locator", "reason"
+    ]
+  },
+  "family_correspondence_schema": {
+    "row_keys": [
+      "published_claim_id", "candidate_issued_claim_ids", "correspondence_status",
+      "dependency_effect", "issued_expanded_feature_refs",
+      "published_claim_locator", "issued_claim_locator", "reason"
+    ]
+  },
+  "terminal_calls": ["PASS", "FAIL", "REVIEW"],
+  "evidence_classes": ["DIRECT", "COMPOSITE", "CONTRADICTED", "NOT_SHOWN"],
+  "same_number_scope_relations": ["GRANTED_NARROWER", "PUBLISHED_NARROWER", "EQUIVALENT", "OVERLAPPING_NOT_NESTED", "INDETERMINATE_DEPENDENCY_DEFECT"],
+  "bridge_link_statuses": ["ESTABLISHED", "LIMITED", "NOT_ESTABLISHED"],
+  "bridge_proposition_statuses": ["SUPPORTED", "CONTRADICTED", "UNRESOLVED"],
+  "bridge_effects": ["SUPPORTS_FEATURE", "BLOCKS_FEATURE", "NON_DISPOSITIVE"],
+  "construction_dispositions": ["TEXT_RESOLVES_YES", "TEXT_RESOLVES_NO", "CONSTRUCTION_REQUIRED"],
+  "sensitivity_effects": ["CHANGES_RESULT", "NO_CHANGE"],
+  "dependency_statuses": ["INDEPENDENT", "VALID", "FACIALLY_INCONSISTENT", "SELF_REFERENCE"],
+  "dependency_expansion_policies": ["EXPAND", "DO_NOT_REPAIR", "NONE"],
+  "dependency_candidate_bases": ["PARALLEL_CLAIM_FAMILY", "SEMANTIC_DEPENDENCY", "NONE"]
+  ,"family_correspondence_statuses": [
+    "BASE_RETAINED_WITH_ADDED_LIMITATIONS",
+    "RENUMBERED_SUBJECT_MATTER",
+    "ABSORBED_INTO_INDEPENDENT",
+    "DEPENDENCY_REPAIRED_AND_RENUMBERED"
+  ]
+  ,"family_dependency_effects": ["NONE", "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON"]
+}

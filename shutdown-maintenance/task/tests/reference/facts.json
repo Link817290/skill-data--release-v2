@@ -1,0 +1,186 @@
+{
+  "source_counts": {
+    "main_transformers": 4,
+    "radiator_groups_total": 19,
+    "main_bus_groups": 4,
+    "dock_transformers": 12,
+    "switchgear": 42,
+    "protection_devices": 296,
+    "ups": 9,
+    "battery_groups": 13
+  },
+  "base_date": "2026-10-20",
+  "packages": [
+    [
+      "M",
+      "主变散热片更换及油处理",
+      "4台主变；散热片合计19组",
+      "机务组",
+      "滤油装置",
+      4,
+      "2026-10-21",
+      "无"
+    ],
+    [
+      "T",
+      "主变及配套共箱母线试验",
+      "主变4台；共箱母线4组",
+      "电试组",
+      "电试装置",
+      2,
+      "2026-10-20",
+      "M"
+    ],
+    [
+      "D",
+      "码头变压器试验",
+      "环氧干变9台、整流干变2台、油变1台",
+      "电试组",
+      "电试装置",
+      3,
+      "2026-10-20",
+      "无"
+    ],
+    [
+      "S",
+      "盘柜及附属一次设备试验",
+      "盘柜42面及所列附属设备",
+      "电试组",
+      "电试装置",
+      4,
+      "2026-10-20",
+      "无"
+    ],
+    [
+      "R",
+      "保护装置校验",
+      "保护装置296台",
+      "继保组",
+      "继保试验仪",
+      5,
+      "2026-10-20",
+      "无"
+    ],
+    [
+      "U",
+      "UPS试验",
+      "160 kVA 2台；30 kVA 7台",
+      "直流组",
+      "放电装置",
+      2,
+      "2026-10-20",
+      "无"
+    ],
+    [
+      "B",
+      "EPS及直流电源蓄电池试验",
+      "≤100 Ah 8组；>100至200 Ah 3组；>200 Ah 2组",
+      "直流组",
+      "放电装置",
+      3,
+      "2026-10-20",
+      "无"
+    ]
+  ],
+  "available_days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "starts": {
+    "M": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "T": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "D": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "S": [
+      0,
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "R": [
+      0,
+      1,
+      8,
+      9,
+      10
+    ],
+    "U": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10
+    ],
+    "B": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9
+    ]
+  },
+  "lexicographic_best": [
+    9,
+    12
+  ],
+  "reference_plan": {
+    "M": 1,
+    "T": 8,
+    "D": 10,
+    "S": 0,
+    "R": 0,
+    "U": 0,
+    "B": 2
+  },
+  "proof": {
+    "enumerated_feasible_core_plans": 164,
+    "method": "exhaust all legal M/T/D/S starts; exact non-overlap and precedence; independent R and U/B fit no later than core finish"
+  },
+  "scope": "Prospective planning under supplied estimates, not observed outage durations. Shift start 08:00/end16:00, followed by continuous standby."
+}

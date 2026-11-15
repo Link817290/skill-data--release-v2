@@ -1,0 +1,87 @@
+{
+  "schema_version": "shutdown-maintenance-bench-scoring-v2",
+  "score_profile": "bench",
+  "version": "shutdown-maintenance-review-chain-v15",
+  "program_source_of_truth": "mix_judge/contract.json",
+  "positive_weights": {"business_completion": 0.90, "maintainability": 0.10},
+  "credit_bands": [["0", "0"], ["1/4", "1/4"], ["1/2", "1/2"], ["1", "1"]],
+  "strict": {
+    "settlement": "additive_professional_responsibility_domains",
+    "formula": "0.90 * business_completion + 0.05 * embedded_independent_validation_receipt + 0.05 * maintainable_event_update_mechanism",
+    "business_strict_formula": "weighted sum of the declared completion_reference controls",
+    "artifact_operational_evidence": {
+      "embedded_independent_validation_receipt": "tests/maintainability_judge/contract.json",
+      "maintainable_event_update_mechanism": "tests/maintainability_judge/contract.json",
+      "scope": "artifact_only"
+    },
+    "schedule_witness": {
+      "operator": "mean",
+      "numeric": [
+        "scope",
+        "duration_windows",
+        "resource_feasibility",
+        "coupled_precedence",
+        "documented_priorities",
+        "gantt_consistency"
+      ],
+      "semantic": [
+        "lexicographic_priority",
+        "earliest_t_completion_proof"
+      ],
+      "top_level_weight": 0.8333333333333334
+    },
+    "independent_controls": {
+      "operator": "weighted_mean",
+      "top_level_weight": 0.16666666666666666,
+      "numeric": {
+        "followup_calendar": 0.105
+      },
+      "semantic": {
+        "scope_grain_and_area_identity": 0.033,
+        "readiness_and_paired_deferral": 0.024,
+        "estimated_duration_basis": 0.024,
+        "execution_controls_and_closeout": 0.03,
+        "candidate_handback_and_electrical_boundary": 0.036,
+        "actual_state_and_change_propagation": 0.024,
+        "continuous_standby_and_response": 0.024,
+        "report_due_event": 0.015,
+        "oil_followup_event": 0.021
+      }
+    },
+    "completion_reference": {
+      "purpose": "unsettled weighted completion used only for retention audits",
+      "numeric": {
+        "scope": 0.05,
+        "duration_windows": 0.05,
+        "resource_feasibility": 0.05,
+        "coupled_precedence": 0.05,
+        "documented_priorities": 0.05,
+        "followup_calendar": 0.05,
+        "gantt_consistency": 0.12
+      },
+      "semantic": {
+        "scope_grain_and_area_identity": 0.05,
+        "readiness_and_paired_deferral": 0.05,
+        "estimated_duration_basis": 0.05,
+        "lexicographic_priority": 0.05,
+        "earliest_t_completion_proof": 0.08,
+        "execution_controls_and_closeout": 0.05,
+        "candidate_handback_and_electrical_boundary": 0.05,
+        "actual_state_and_change_propagation": 0.05,
+        "continuous_standby_and_response": 0.05,
+        "report_due_event": 0.05,
+        "oil_followup_event": 0.05
+      }
+    }
+  },
+  "lenient_policy": {
+    "settlement": "binary_conjunction",
+    "must_have": {
+      "core_schedule": ["scope", "duration_windows", "resource_feasibility", "coupled_precedence"],
+      "calendar_matches_schedule": ["gantt_consistency"],
+      "planning_basis": ["estimated_duration_basis"],
+      "safe_handback": ["candidate_handback_and_electrical_boundary"],
+      "standby_handoff": ["continuous_standby_and_response"]
+    }
+  }
+}

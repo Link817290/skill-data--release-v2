@@ -1,0 +1,190 @@
+{
+  "schema": "haccp-audit-ground-truth",
+  "golden_sha256": "daafa603e761c0ce1c96db69051f47e3bcbbcb06183edc9e4fcee5527c245020",
+  "anchor_ids": [
+    "release_boundary",
+    "scope_hazard_analysis",
+    "scombrotoxin_applicability",
+    "botulinum_hazard_identity",
+    "brining_drying_endpoint",
+    "process_schedule_support",
+    "periodic_product_verification",
+    "cooling_measurement",
+    "cooking_monitoring",
+    "corrective_action_closure",
+    "instrument_verification",
+    "storage_distribution",
+    "postprocess_boundary"
+  ],
+  "dimension_anchors": {
+    "decision_boundary": [
+      "release_boundary"
+    ],
+    "applicability_hazard_scope": [
+      "scope_hazard_analysis",
+      "scombrotoxin_applicability"
+    ],
+    "botulinum_control_chain": [
+      "botulinum_hazard_identity",
+      "brining_drying_endpoint"
+    ],
+    "process_validation": [
+      "process_schedule_support",
+      "periodic_product_verification"
+    ],
+    "cooling_control": [
+      "cooling_measurement"
+    ],
+    "monitoring_limit_alignment": [
+      "cooking_monitoring"
+    ],
+    "corrective_action_closure": [
+      "corrective_action_closure"
+    ],
+    "verification_calibration": [
+      "instrument_verification"
+    ],
+    "distribution_and_storage": [
+      "storage_distribution"
+    ],
+    "postprocess_boundary": [
+      "postprocess_boundary"
+    ]
+  },
+  "accepted_evidence": {
+    "release_boundary": {
+      "documents": [
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        18,
+        19
+      ]
+    },
+    "scope_hazard_analysis": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        311
+      ]
+    },
+    "scombrotoxin_applicability": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        132,
+        133
+      ]
+    },
+    "botulinum_hazard_identity": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        302,
+        308
+      ]
+    },
+    "brining_drying_endpoint": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        311,
+        313
+      ]
+    },
+    "process_schedule_support": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        313
+      ]
+    },
+    "periodic_product_verification": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        314
+      ]
+    },
+    "cooling_measurement": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        281
+      ]
+    },
+    "cooking_monitoring": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        29
+      ]
+    },
+    "corrective_action_closure": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        30
+      ]
+    },
+    "instrument_verification": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        313,
+        314
+      ]
+    },
+    "storage_distribution": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        302,
+        309
+      ]
+    },
+    "postprocess_boundary": {
+      "documents": [
+        "applicable_regulatory_authority.pdf",
+        "review_dossier.pdf"
+      ],
+      "pdf_pages": [
+        19,
+        371
+      ]
+    }
+  }
+}

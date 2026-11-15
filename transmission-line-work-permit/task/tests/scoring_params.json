@@ -1,0 +1,169 @@
+{
+  "schema_version": "scoring-params-v5-item-credit",
+  "score_profile": "bench",
+  "positive_weights": {
+    "identity": 0.12,
+    "station_controls": 0.25,
+    "P07": 0.20,
+    "P08": 0.08,
+    "P10": 0.05,
+    "location_35": 0.10,
+    "location_37": 0.10,
+    "location_48": 0.10
+  },
+  "assertion_counts": {
+    "identity": 11,
+    "station_controls": 25,
+    "P07": 6,
+    "P08": 2,
+    "P10": 2,
+    "location_35": 1,
+    "location_37": 1,
+    "location_48": 1
+  },
+  "item_subcapabilities": {
+    "identity": [
+      "domain-judgment",
+      "constraint-satisfaction"
+    ],
+    "station_controls": [
+      "multi-step-reasoning",
+      "constraint-satisfaction"
+    ],
+    "P07": [
+      "constraint-satisfaction"
+    ],
+    "P08": [
+      "multi-step-reasoning",
+      "constraint-satisfaction"
+    ],
+    "P10": [
+      "format-conformance",
+      "constraint-satisfaction"
+    ],
+    "location_35": [
+      "multi-step-reasoning",
+      "constraint-satisfaction"
+    ],
+    "location_37": [
+      "multi-step-reasoning",
+      "constraint-satisfaction"
+    ],
+    "location_48": [
+      "multi-step-reasoning",
+      "constraint-satisfaction"
+    ]
+  },
+  "lenient_policy": {
+    "policy": "bench-core-static-permit-review-v4",
+    "must_have": {
+      "required_artifacts": {
+        "source": "instruction.md; one Chinese Word permit",
+        "path": [
+          "core_checks",
+          "required_artifacts",
+          "passed"
+        ]
+      },
+      "case_identity": {
+        "source": "Supplied scenario; Angui 6.3.3.5, 6.4.1.2, 6.4.1.4; Derived Oracle ticket head/task",
+        "path": [
+          "core_checks",
+          "case_identity",
+          "passed"
+        ]
+      },
+      "source_isolation": {
+        "source": "Supplied wiring diagram; Angui 7.2.1.1, 7.2.3.2; Derived Oracle isolation field",
+        "path": [
+          "core_checks",
+          "source_isolation",
+          "passed"
+        ]
+      },
+      "protective_grounding_coverage": {
+        "source": "Supplied topology and work scope: protect all three separated directions at pole 36; accept adjacent-pole or work-pole placement and either grouped or phase-split sets when traceable.",
+        "path": [
+          "core_checks",
+          "protective_grounding_coverage",
+          "passed"
+        ]
+      },
+      "safe_entry_and_signage": {
+        "source": "instruction.md: isolation, grounding, signage and core planned safety measures; Golden; strict retains all 26 approved-plan semantic propositions.",
+        "path": [
+          "core_checks",
+          "safe_entry_and_signage",
+          "passed"
+        ],
+        "scope": "Core static permit review; not issue-ready engineering approval. Full plan completeness remains the strict lens.",
+        "semantic_points": [
+          "S-permission_before_entry",
+          "S-voltage_test",
+          "S-ground_work_ends",
+          "S-test_ground_then_work",
+          "S-check_line_before_climbing",
+          "S-check_tower_before_climbing",
+          "S-inspect_base",
+          "S-inspect_steps",
+          "S-belt_at_height",
+          "S-no_people_below",
+          "S-stop_thunderstorms",
+          "S-report_after_withdrawal",
+          "S-closeout_after_report"
+        ],
+        "program_prerequisites": [
+          "procedure_classification.controls.weather_stop_control",
+          "all required signage",
+          "no adopted explicit bypass"
+        ]
+      },
+      "preissue_integrity": {
+        "source": "instruction.md blank later-stage records; no adopted operational completion or grader instruction.",
+        "path": [
+          "core_checks",
+          "preissue_integrity",
+          "passed"
+        ]
+      }
+    }
+  },
+  "raw_assertion_counts": {
+    "P01": 2,
+    "P02": 6,
+    "P03": 3,
+    "P04": 13,
+    "P05": 3,
+    "P06": 9,
+    "P07": 6,
+    "P08": 2,
+    "P10": 2,
+    "P08_location": 3
+  },
+  "aggregation": {
+    "identity": "item-partial-credit",
+    "station_controls": "item-partial-credit",
+    "P07": "item-partial-credit",
+    "P08": "item-partial-credit",
+    "P10": "item-partial-credit",
+    "location_35": "item-partial-credit",
+    "location_37": "item-partial-credit",
+    "location_48": "item-partial-credit"
+  },
+  "damage_items": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D10",
+    "D11"
+  ],
+  "settlement": {
+    "family": "item-partial-credit-v1",
+    "aggregation": "weighted-sum"
+  }
+}

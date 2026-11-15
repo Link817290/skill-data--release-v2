@@ -1,0 +1,36 @@
+{
+  "version": "2.0-material-first-flat-grid",
+  "positive_weights": {
+    "bridge": 0.06,
+    "multi_bridge": 0.03,
+    "lights": 0.03,
+    "movie": 0.06,
+    "game": 0.03,
+    "music": 0.03,
+    "fixed": 0.06,
+    "voice": 0.06,
+    "latency": 0.03,
+    "manual": 0.03,
+    "smoothness": 0.03,
+    "concurrent": 0.06,
+    "network_loss": 0.06,
+    "recovery": 0.06,
+    "lamp_loss": 0.06,
+    "priority": 0.03,
+    "weak_network": 0.04,
+    "upgrade": 0.03,
+    "day": 0.03,
+    "night": 0.06,
+    "stability": 0.06,
+    "environment": 0.03,
+    "priority_rationale": 0.03
+  },
+  "damage_amounts": {
+    "fabricated_execution": 0.03,
+    "contradicted_behavior": 0.04,
+    "unsupported_timing": 0.03
+  },
+  "basis": "Executable business relationships and source-grounded measurement; equipment setup receives supporting credit.",
+  "calibration_version": "archive-two-20261015-final-v3",
+  "calibration_method": "score-calibration 2.0; common artifact-blind parameters for every model and condition"
+}

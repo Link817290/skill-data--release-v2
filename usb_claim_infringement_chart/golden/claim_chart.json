@@ -1,0 +1,2688 @@
+{
+  "claim_versions": {
+    "published": "supplied published-application claims",
+    "issued": "supplied issued-patent claims"
+  },
+  "claims": [
+    {
+      "claim_id": "1",
+      "limitations": [
+        {
+          "element_id": "1.0",
+          "text": "USB digital-data communication between a powered device and a charging device"
+        },
+        {
+          "element_id": "1.1",
+          "text": "a USB handshaking period between the powered device and charging device"
+        },
+        {
+          "element_id": "1.2",
+          "text": "after handshake end, normal charger operation supplies power from its power supply over USB"
+        },
+        {
+          "element_id": "1.3",
+          "text": "digital-data communication occurs after handshake end and before normal-operation start"
+        }
+      ]
+    },
+    {
+      "claim_id": "5",
+      "limitations": [
+        {
+          "element_id": "1.0",
+          "text": "USB digital-data communication between a powered device and a charging device"
+        },
+        {
+          "element_id": "1.1",
+          "text": "a USB handshaking period between the powered device and charging device"
+        },
+        {
+          "element_id": "1.2",
+          "text": "after handshake end, normal charger operation supplies power from its power supply over USB"
+        },
+        {
+          "element_id": "1.3",
+          "text": "digital-data communication occurs after handshake end and before normal-operation start"
+        },
+        {
+          "element_id": "5.1",
+          "text": "the USB has two data conductors and two power conductors"
+        },
+        {
+          "element_id": "5.2",
+          "text": "the charging device shorts the two data conductors during the handshake"
+        }
+      ]
+    },
+    {
+      "claim_id": "7",
+      "limitations": [
+        {
+          "element_id": "1.0",
+          "text": "USB digital-data communication between a powered device and a charging device"
+        },
+        {
+          "element_id": "1.1",
+          "text": "a USB handshaking period between the powered device and charging device"
+        },
+        {
+          "element_id": "1.2",
+          "text": "after handshake end, normal charger operation supplies power from its power supply over USB"
+        },
+        {
+          "element_id": "1.3",
+          "text": "digital-data communication occurs after handshake end and before normal-operation start"
+        },
+        {
+          "element_id": "7.1",
+          "text": "after handshake end, the charger receives a voltage-toggle pattern from the powered device on a USB data conductor"
+        },
+        {
+          "element_id": "7.2",
+          "text": "digital-data communication begins in response to that voltage-toggle pattern"
+        }
+      ]
+    },
+    {
+      "claim_id": "9",
+      "limitations": [
+        {
+          "element_id": "1.0",
+          "text": "USB digital-data communication between a powered device and a charging device"
+        },
+        {
+          "element_id": "1.1",
+          "text": "a USB handshaking period between the powered device and charging device"
+        },
+        {
+          "element_id": "1.2",
+          "text": "after handshake end, normal charger operation supplies power from its power supply over USB"
+        },
+        {
+          "element_id": "1.3",
+          "text": "digital-data communication occurs after handshake end and before normal-operation start"
+        },
+        {
+          "element_id": "9.1",
+          "text": "the charger communicates the voltage levels its power supply can output to the powered device over USB"
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "target_id": "PI_SPEC_EMBODIMENT",
+      "claim_id": "1",
+      "terminal_call": "PASS",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "PAT_APP"
+          ],
+          "evidence_locator": "PAT_APP: PDF pages 7-10",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "PAT_APP"
+          ],
+          "evidence_locator": "PAT_APP: PDF pages 7-10",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "PAT_APP"
+          ],
+          "evidence_locator": "PAT_APP: PDF pages 7-10",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "PAT_APP"
+          ],
+          "evidence_locator": "PAT_APP: PDF pages 7-10",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    },
+    {
+      "target_id": "ON_NCP4371",
+      "claim_id": "5",
+      "terminal_call": "REVIEW",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "ON_DS"
+          ],
+          "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "ON_DS"
+          ],
+          "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "ON_DS"
+          ],
+          "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "ON_DS"
+          ],
+          "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+          "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "5.1",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "ON_DS"
+          ],
+          "evidence_locator": "ON_DS: PDF page 2, Figure 1",
+          "reason": "Figure 1 directly shows D+, D-, VBUS and GND: two data conductors and two power conductors. This does not establish separate handshake-timing limitations.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "5.2",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "ON_DS"
+          ],
+          "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 5.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    },
+    {
+      "target_id": "TI_QC2_REFERENCE",
+      "claim_id": "7",
+      "terminal_call": "REVIEW",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "TI_RD"
+          ],
+          "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "DIRECT",
+          "source_ids": [
+            "TI_RD"
+          ],
+          "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+          "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "TI_RD"
+          ],
+          "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+          "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "TI_RD"
+          ],
+          "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+          "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "7.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "TI_RD"
+          ],
+          "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+          "reason": "The target record shows selected voltage levels but does not establish the claimed post-handshake voltage-toggle pattern with its required timing boundary.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "7.2",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "TI_RD"
+          ],
+          "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+          "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 7.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    },
+    {
+      "target_id": "APPLE_A2246_LOW_INPUT",
+      "claim_id": "9",
+      "terminal_call": "REVIEW",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "9.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 9.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    },
+    {
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "claim_id": "1",
+      "terminal_call": "REVIEW",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    },
+    {
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "claim_id": "5",
+      "terminal_call": "REVIEW",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "5.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 5.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "5.2",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 5.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    },
+    {
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "claim_id": "7",
+      "terminal_call": "REVIEW",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "7.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "7.2",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    },
+    {
+      "target_id": "APPLE_A2246_HIGH_INPUT",
+      "claim_id": "9",
+      "terminal_call": "REVIEW",
+      "findings": [
+        {
+          "element_id": "1.0",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.0.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.1",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.2",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.2.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "1.3",
+          "evidence_class": "NOT_SHOWN",
+          "source_ids": [
+            "APPLE_UG"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+          "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        },
+        {
+          "element_id": "9.1",
+          "evidence_class": "COMPOSITE",
+          "source_ids": [
+            "APPLE_UG",
+            "PD_SPEC"
+          ],
+          "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+          "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 9.1.",
+          "actor_direction": "powered-device requests and charger-originated information are tested separately",
+          "medium_or_pins": "legacy data lines, the Type-C configuration channel, and the power rail are not conflated",
+          "sequence_test": "attachment, handshake, pre-operation exchange, and normal operation are separately ordered"
+        }
+      ]
+    }
+  ],
+  "version_impact": {
+    "same_number_claims": [
+      {
+        "claim_id": "1",
+        "granted_required_feature_refs": [
+          "1.0",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2"
+        ],
+        "source_published_claim_ids": [
+          "1",
+          "6",
+          "7",
+          "11"
+        ],
+        "same_number_scope_relation": "GRANTED_NARROWER",
+        "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+        "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+        "change_reason": "The issued claim imports limitations from multiple published claims and is expanded before comparison."
+      },
+      {
+        "claim_id": "5",
+        "granted_required_feature_refs": [
+          "1.0",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2",
+          "5.1",
+          "5.2"
+        ],
+        "source_published_claim_ids": [
+          "1",
+          "5",
+          "6",
+          "7",
+          "11"
+        ],
+        "same_number_scope_relation": "GRANTED_NARROWER",
+        "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+        "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+        "change_reason": "The issued claim imports limitations from multiple published claims and is expanded before comparison."
+      },
+      {
+        "claim_id": "7",
+        "granted_required_feature_refs": [
+          "1.0",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2",
+          "9.1"
+        ],
+        "source_published_claim_ids": [
+          "1",
+          "6",
+          "7",
+          "9",
+          "11"
+        ],
+        "same_number_scope_relation": "GRANTED_NARROWER",
+        "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+        "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+        "change_reason": "The issued claim imports limitations from multiple published claims and is expanded before comparison."
+      },
+      {
+        "claim_id": "9",
+        "granted_required_feature_refs": [
+          "1.0",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2",
+          "POWER_LEVEL_CAPABILITY"
+        ],
+        "source_published_claim_ids": [
+          "1",
+          "6",
+          "7",
+          "11"
+        ],
+        "same_number_scope_relation": "OVERLAPPING_NOT_NESTED",
+        "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+        "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+        "change_reason": "The issued claim imports limitations from multiple published claims and is expanded before comparison."
+      },
+      {
+        "claim_id": "10",
+        "granted_required_feature_refs": [
+          "MEDIUM_PROGRAM_CODE",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2"
+        ],
+        "source_published_claim_ids": [
+          "12",
+          "17",
+          "19",
+          "22"
+        ],
+        "same_number_scope_relation": "OVERLAPPING_NOT_NESTED",
+        "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+        "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+        "change_reason": "The issued claim imports limitations from multiple published claims and is expanded before comparison."
+      },
+      {
+        "claim_id": "19",
+        "granted_required_feature_refs": [
+          "CHARGING_DEVICE_APPARATUS",
+          "USB_PORT",
+          "POWER_SUPPLY_CONVERTER",
+          "USB_COMMUNICATION_MODULE",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2"
+        ],
+        "source_published_claim_ids": [
+          "23",
+          "24",
+          "25",
+          "28"
+        ],
+        "same_number_scope_relation": "INDETERMINATE_DEPENDENCY_DEFECT",
+        "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+        "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+        "change_reason": "The issued claim imports limitations from multiple published claims and is expanded before comparison."
+      }
+    ],
+    "granted_comparisons": [
+      {
+        "target_id": "PI_SPEC_EMBODIMENT",
+        "claim_id": "1",
+        "terminal_call": "PASS",
+        "decisive_feature_refs": [],
+        "source_ids": [
+          "PAT_ISSUED"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "1.0",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.0."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.2."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "ON_NCP4371",
+        "claim_id": "5",
+        "terminal_call": "REVIEW",
+        "decisive_feature_refs": [
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "5.1"
+        ],
+        "source_ids": [
+          "ON_DS"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "1.0",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.0."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.2."
+          },
+          {
+            "feature_ref": "5.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF page 2, Figure 1",
+            "reason": "Figure 1 directly shows D+, D-, VBUS and GND: two data conductors and two power conductors. This does not establish separate handshake-timing limitations."
+          },
+          {
+            "feature_ref": "5.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 5.2."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "TI_QC2_REFERENCE",
+        "claim_id": "7",
+        "terminal_call": "REVIEW",
+        "decisive_feature_refs": [
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2",
+          "9.1"
+        ],
+        "source_ids": [
+          "TI_RD"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "1.0",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.0."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record shows selected voltage levels but does not establish the claimed post-handshake voltage-toggle pattern with its required timing boundary."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.2."
+          },
+          {
+            "feature_ref": "9.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 9.1."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "APPLE_A2246_LOW_INPUT",
+        "claim_id": "9",
+        "terminal_call": "REVIEW",
+        "decisive_feature_refs": [
+          "1.0",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2",
+          "POWER_LEVEL_CAPABILITY"
+        ],
+        "source_ids": [
+          "APPLE_UG"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "1.0",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.0."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.2."
+          },
+          {
+            "feature_ref": "POWER_LEVEL_CAPABILITY",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by POWER_LEVEL_CAPABILITY."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "APPLE_A2246_HIGH_INPUT",
+        "claim_id": "9",
+        "terminal_call": "REVIEW",
+        "decisive_feature_refs": [
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER"
+        ],
+        "source_ids": [
+          "APPLE_UG"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "1.0",
+            "evidence_class": "COMPOSITE",
+            "source_ids": [
+              "APPLE_UG",
+              "PD_SPEC"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+            "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.0."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "COMPOSITE",
+            "source_ids": [
+              "APPLE_UG",
+              "PD_SPEC"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+            "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "COMPOSITE",
+            "source_ids": [
+              "APPLE_UG",
+              "PD_SPEC"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+            "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.2."
+          },
+          {
+            "feature_ref": "POWER_LEVEL_CAPABILITY",
+            "evidence_class": "COMPOSITE",
+            "source_ids": [
+              "APPLE_UG",
+              "PD_SPEC"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+            "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for POWER_LEVEL_CAPABILITY."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "PI_SPEC_EMBODIMENT",
+        "claim_id": "10",
+        "terminal_call": "PASS",
+        "decisive_feature_refs": [],
+        "source_ids": [
+          "PAT_ISSUED"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "MEDIUM_PROGRAM_CODE",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for MEDIUM_PROGRAM_CODE."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.2."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "ON_NCP4371",
+        "claim_id": "10",
+        "terminal_call": "REVIEW",
+        "decisive_feature_refs": [
+          "MEDIUM_PROGRAM_CODE",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO"
+        ],
+        "source_ids": [
+          "ON_DS"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "MEDIUM_PROGRAM_CODE",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by MEDIUM_PROGRAM_CODE."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "ON_DS"
+            ],
+            "evidence_locator": "ON_DS: PDF pages 1 and 9-12",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.2."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "PI_SPEC_EMBODIMENT",
+        "claim_id": "19",
+        "terminal_call": "PASS",
+        "decisive_feature_refs": [],
+        "source_ids": [
+          "PAT_ISSUED"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "CHARGING_DEVICE_APPARATUS",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for CHARGING_DEVICE_APPARATUS."
+          },
+          {
+            "feature_ref": "USB_PORT",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for USB_PORT."
+          },
+          {
+            "feature_ref": "POWER_SUPPLY_CONVERTER",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for POWER_SUPPLY_CONVERTER."
+          },
+          {
+            "feature_ref": "USB_COMMUNICATION_MODULE",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for USB_COMMUNICATION_MODULE."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "PAT_ISSUED"
+            ],
+            "evidence_locator": "PAT_ISSUED: PDF pages 8-11",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.2."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "TI_QC2_REFERENCE",
+        "claim_id": "19",
+        "terminal_call": "REVIEW",
+        "decisive_feature_refs": [
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2"
+        ],
+        "source_ids": [
+          "TI_RD"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "CHARGING_DEVICE_APPARATUS",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for CHARGING_DEVICE_APPARATUS."
+          },
+          {
+            "feature_ref": "USB_PORT",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for USB_PORT."
+          },
+          {
+            "feature_ref": "POWER_SUPPLY_CONVERTER",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for POWER_SUPPLY_CONVERTER."
+          },
+          {
+            "feature_ref": "USB_COMMUNICATION_MODULE",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for USB_COMMUNICATION_MODULE."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target record shows selected voltage levels but does not establish the claimed post-handshake voltage-toggle pattern with its required timing boundary."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "TI_RD"
+            ],
+            "evidence_locator": "TI_RD: PDF pages 1, 4, and 6-10",
+            "reason": "The target-specific record does not close every actor, medium, and sequence fact required by 1.2."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      },
+      {
+        "target_id": "APPLE_A2246_HIGH_INPUT",
+        "claim_id": "19",
+        "terminal_call": "REVIEW",
+        "decisive_feature_refs": [
+          "POWER_SUPPLY_CONVERTER",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER"
+        ],
+        "source_ids": [
+          "APPLE_UG"
+        ],
+        "feature_findings": [
+          {
+            "feature_ref": "CHARGING_DEVICE_APPARATUS",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for CHARGING_DEVICE_APPARATUS."
+          },
+          {
+            "feature_ref": "USB_PORT",
+            "evidence_class": "DIRECT",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The target record expressly supplies the actor, signaling, or sequence fact needed for USB_PORT."
+          },
+          {
+            "feature_ref": "POWER_SUPPLY_CONVERTER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by POWER_SUPPLY_CONVERTER."
+          },
+          {
+            "feature_ref": "USB_COMMUNICATION_MODULE",
+            "evidence_class": "COMPOSITE",
+            "source_ids": [
+              "APPLE_UG",
+              "PD_SPEC"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+            "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for USB_COMMUNICATION_MODULE."
+          },
+          {
+            "feature_ref": "1.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.1."
+          },
+          {
+            "feature_ref": "7.1",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.1."
+          },
+          {
+            "feature_ref": "7.2",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 7.2."
+          },
+          {
+            "feature_ref": "1.3",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by 1.3."
+          },
+          {
+            "feature_ref": "AUTH_ALLOW_POWER",
+            "evidence_class": "NOT_SHOWN",
+            "source_ids": [
+              "APPLE_UG"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5",
+            "reason": "The identified mode record and any established mandatory bridge do not close the signaling fact required by AUTH_ALLOW_POWER."
+          },
+          {
+            "feature_ref": "POWER_MAGNITUDE_INFO",
+            "evidence_class": "COMPOSITE",
+            "source_ids": [
+              "APPLE_UG",
+              "PD_SPEC"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+            "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for POWER_MAGNITUDE_INFO."
+          },
+          {
+            "feature_ref": "1.2",
+            "evidence_class": "COMPOSITE",
+            "source_ids": [
+              "APPLE_UG",
+              "PD_SPEC"
+            ],
+            "evidence_locator": "APPLE_UG: English section, PDF pages 3-5; PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1",
+            "reason": "The target-mode label and a mandatory protocol rule jointly supply the proposition for 1.2."
+          }
+        ],
+        "actor_attribution": "powered-device requests are not treated as charger-originated capability communications",
+        "medium_boundary": "legacy D+/D-, Type-C CC, and VBUS are kept as distinct paths",
+        "temporal_boundary": "handshake, pre-contract exchange, and normal operation are kept as distinct intervals unless construction resolves them"
+      }
+    ]
+  },
+  "evidence_bridges": [
+    {
+      "bridge_id": "B_HIGH_MODE_PD_LABEL",
+      "link_status": "ESTABLISHED",
+      "proposition_status": "SUPPORTED",
+      "controlling_effect": "SUPPORTS_FEATURE",
+      "affected_feature_refs": [
+        "1.0",
+        "1.2",
+        "9.1",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ],
+      "evidence_locators": [
+        "APPLE_UG: English section, PDF pages 3-5",
+        "PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_LOW_MODE_PD_LABEL",
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.0",
+        "1.2",
+        "9.1",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ],
+      "evidence_locators": [
+        "APPLE_UG: English section, PDF pages 3-5",
+        "PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_HIGH_MODE_CC_PATH",
+      "link_status": "ESTABLISHED",
+      "proposition_status": "SUPPORTED",
+      "controlling_effect": "SUPPORTS_FEATURE",
+      "affected_feature_refs": [
+        "1.0",
+        "5.1",
+        "7.1"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "TYPE_C_SPEC",
+        "PD_SPEC"
+      ],
+      "evidence_locators": [
+        "APPLE_UG: English section, PDF pages 3-5",
+        "TYPE_C_SPEC: sections 2.1, 2.2, 4.5, and 4.6",
+        "PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_HIGH_MODE_SOURCE_CAPS",
+      "link_status": "ESTABLISHED",
+      "proposition_status": "SUPPORTED",
+      "controlling_effect": "SUPPORTS_FEATURE",
+      "affected_feature_refs": [
+        "9.1",
+        "POWER_MAGNITUDE_INFO",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ],
+      "evidence_locators": [
+        "APPLE_UG: English section, PDF pages 3-5",
+        "PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_CC_EXCLUDES_DPLUS",
+      "link_status": "LIMITED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "5.2",
+        "7.1",
+        "7.2"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "TYPE_C_SPEC",
+        "PD_SPEC"
+      ],
+      "evidence_locators": [
+        "APPLE_UG: English section, PDF pages 3-5",
+        "TYPE_C_SPEC: sections 2.1, 2.2, 4.5, and 4.6",
+        "PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_PD_PHASE_EQUIVALENCE",
+      "link_status": "LIMITED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "source_ids": [
+        "PAT_APP",
+        "APPLE_UG",
+        "PD_SPEC"
+      ],
+      "evidence_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "APPLE_UG: English section, PDF pages 3-5",
+        "PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_TI_TO_ON",
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.3",
+        "7.2",
+        "9.1",
+        "AUTH_ALLOW_POWER"
+      ],
+      "source_ids": [
+        "ON_DS",
+        "TI_RD"
+      ],
+      "evidence_locators": [
+        "ON_DS: PDF pages 1 and 9-12",
+        "TI_RD: PDF pages 1, 4, and 6-10"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_ON_TO_TI",
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.2",
+        "1.3",
+        "7.2",
+        "9.1",
+        "AUTH_ALLOW_POWER"
+      ],
+      "source_ids": [
+        "TI_RD",
+        "ON_DS"
+      ],
+      "evidence_locators": [
+        "TI_RD: PDF pages 1, 4, and 6-10",
+        "ON_DS: PDF pages 1 and 9-12"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_PATENT_TO_PRODUCT",
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.1",
+        "1.3",
+        "7.1",
+        "7.2",
+        "AUTH_ALLOW_POWER"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PAT_APP"
+      ],
+      "evidence_locators": [
+        "APPLE_UG: English section, PDF pages 3-5",
+        "PAT_APP: PDF pages 7-10"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    },
+    {
+      "bridge_id": "B_REGIONAL_GENERALIZATION",
+      "link_status": "LIMITED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.0",
+        "1.2",
+        "9.1",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ],
+      "evidence_locators": [
+        "APPLE_UG: English section, PDF pages 3-5",
+        "PD_SPEC: sections 1.1, 2.2, 5.8, and 6.4.1"
+      ],
+      "reason": "The proposed bridge is limited to the target, mode, mandatory rule, and proposition actually established by the cited records."
+    }
+  ],
+  "construction_dependencies": [
+    {
+      "issue_id": "C_HANDSHAKE_PD",
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "PUB:1",
+        "PUB:5",
+        "PUB:7",
+        "PUB:9",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    },
+    {
+      "issue_id": "C_CC_DATA_CONDUCTOR",
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "PUB:5",
+        "PUB:7",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "5.1",
+        "7.1"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    },
+    {
+      "issue_id": "C_POWER_MAGNITUDE",
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "POWER_MAGNITUDE_INFO"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    },
+    {
+      "issue_id": "C_OUTPUT_AS_CAPABILITY_MESSAGE",
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:9",
+        "ISS:7"
+      ],
+      "affected_feature_refs": [
+        "9.1"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    },
+    {
+      "issue_id": "C_STATIC_LEVEL_AS_TOGGLE_PATTERN",
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:7",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "7.1"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    },
+    {
+      "issue_id": "C_OUTPUT_CHANGE_AS_BEGIN_DATA",
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:7",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "7.2"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    },
+    {
+      "issue_id": "C_HVDCP_AS_NORMAL_OPERATION",
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "PUB:1",
+        "PUB:5",
+        "PUB:7",
+        "PUB:9",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "1.2",
+        "1.3"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    },
+    {
+      "issue_id": "C_EQUAL_LEVEL_AS_PHYSICAL_SHORT",
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:5",
+        "ISS:5"
+      ],
+      "affected_feature_refs": [
+        "5.2"
+      ],
+      "claim_locators": [
+        "PAT_APP: PDF pages 7-10",
+        "PAT_ISSUED: PDF pages 8-11"
+      ],
+      "reason": "Intrinsic wording resolves only distinctions the claim and specification make; remaining protocol-to-claim mappings stay explicit dependencies."
+    }
+  ],
+  "sensitivity_matrix": [
+    {
+      "scenario_id": "S_HIGH_PUB1_PD_BOUNDARIES",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "PASS",
+      "result_effect": "CHANGES_RESULT",
+      "decisive_feature_refs": [],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_HIGH_PUB9_PD_BOUNDARIES",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "PASS",
+      "result_effect": "CHANGES_RESULT",
+      "decisive_feature_refs": [],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_HIGH_PUB7_CC_AS_DATA",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "1.3",
+        "7.1",
+        "7.2"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_HIGH_PUB5_EQUAL_AS_SHORT",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "1.3",
+        "5.1"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_LOW_PUB9_COPY_HIGH_MODE",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "1.3"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_ON_PUB9_OUTPUT_AS_MESSAGE",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.3"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_ON_ISS5_BORROW_TI",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "5.1"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_TI_ISS7_BORROW_ON",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "9.1"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_TI_PUB7_STATIC_AND_RESPONSE",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.2",
+        "1.3"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    },
+    {
+      "scenario_id": "S_HIGH_ISS9_PDO_POWER",
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER"
+      ],
+      "reason": "Only the stated hypothesis is changed; every unrelated open feature retains its record-limited classification."
+    }
+  ],
+  "dependency_audit": [
+    {
+      "claim_ref": "PUBLISHED:12",
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The claim is written as a standalone claim and contains no parent-claim reference."
+    },
+    {
+      "claim_ref": "PUBLISHED:13",
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The printed parent exists but belongs to a different statutory claim category, so the dependency cannot be coherently expanded as written."
+    },
+    {
+      "claim_ref": "PUBLISHED:17",
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The printed parent exists but belongs to a different statutory claim category, so the dependency cannot be coherently expanded as written."
+    },
+    {
+      "claim_ref": "PUBLISHED:18",
+      "declared_parent_claim_id": "18",
+      "dependency_status": "SELF_REFERENCE",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "17",
+      "candidate_basis": "SEMANTIC_DEPENDENCY",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The printed parent number is the claim's own number, so the dependency cannot be expanded as written."
+    },
+    {
+      "claim_ref": "PUBLISHED:19",
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The printed parent exists but belongs to a different statutory claim category, so the dependency cannot be coherently expanded as written."
+    },
+    {
+      "claim_ref": "PUBLISHED:22",
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The printed parent exists but belongs to a different statutory claim category, so the dependency cannot be coherently expanded as written."
+    },
+    {
+      "claim_ref": "PUBLISHED:23",
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The claim is written as a standalone claim and contains no parent-claim reference."
+    },
+    {
+      "claim_ref": "PUBLISHED:24",
+      "declared_parent_claim_id": "21",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "23",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The printed parent exists but belongs to a different statutory claim category, so the dependency cannot be coherently expanded as written."
+    },
+    {
+      "claim_ref": "PUBLISHED:28",
+      "declared_parent_claim_id": "21",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "23",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY",
+      "claim_locator": "PAT_APP: PDF pages 9-10",
+      "reason": "The printed parent exists but belongs to a different statutory claim category, so the dependency cannot be coherently expanded as written."
+    },
+    {
+      "claim_ref": "ISSUED:10",
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_ISSUED: PDF pages 10-11",
+      "reason": "The claim is written as a standalone claim and contains no parent-claim reference."
+    },
+    {
+      "claim_ref": "ISSUED:11",
+      "declared_parent_claim_id": "10",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_ISSUED: PDF pages 10-11",
+      "reason": "The printed parent exists in the same claim set and supplies the category recited by the dependent claim."
+    },
+    {
+      "claim_ref": "ISSUED:18",
+      "declared_parent_claim_id": "10",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_ISSUED: PDF pages 10-11",
+      "reason": "The printed parent exists in the same claim set and supplies the category recited by the dependent claim."
+    },
+    {
+      "claim_ref": "ISSUED:19",
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_ISSUED: PDF pages 10-11",
+      "reason": "The claim is written as a standalone claim and contains no parent-claim reference."
+    },
+    {
+      "claim_ref": "ISSUED:20",
+      "declared_parent_claim_id": "19",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_ISSUED: PDF pages 10-11",
+      "reason": "The printed parent exists in the same claim set and supplies the category recited by the dependent claim."
+    },
+    {
+      "claim_ref": "ISSUED:23",
+      "declared_parent_claim_id": "19",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE",
+      "claim_locator": "PAT_ISSUED: PDF pages 10-11",
+      "reason": "The printed parent exists in the same claim set and supplies the category recited by the dependent claim."
+    }
+  ],
+  "family_correspondence": [
+    {
+      "published_claim_id": "12",
+      "candidate_issued_claim_ids": [
+        "10"
+      ],
+      "correspondence_status": "BASE_RETAINED_WITH_ADDED_LIMITATIONS",
+      "dependency_effect": "NONE",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+      "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+      "reason": "The destination follows the terminal subject matter and its issued dependency chain; claim numbers alone do not establish correspondence, and any broken published edge remains non-controlling."
+    },
+    {
+      "published_claim_id": "17",
+      "candidate_issued_claim_ids": [
+        "10"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+      "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+      "reason": "The destination follows the terminal subject matter and its issued dependency chain; claim numbers alone do not establish correspondence, and any broken published edge remains non-controlling."
+    },
+    {
+      "published_claim_id": "18",
+      "candidate_issued_claim_ids": [
+        "15"
+      ],
+      "correspondence_status": "DEPENDENCY_REPAIRED_AND_RENUMBERED",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2",
+        "POWERED_DEVICE_IDENTIFICATION"
+      ],
+      "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+      "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+      "reason": "The destination follows the terminal subject matter and its issued dependency chain; claim numbers alone do not establish correspondence, and any broken published edge remains non-controlling."
+    },
+    {
+      "published_claim_id": "19",
+      "candidate_issued_claim_ids": [
+        "10"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+      "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+      "reason": "The destination follows the terminal subject matter and its issued dependency chain; claim numbers alone do not establish correspondence, and any broken published edge remains non-controlling."
+    },
+    {
+      "published_claim_id": "23",
+      "candidate_issued_claim_ids": [
+        "19"
+      ],
+      "correspondence_status": "BASE_RETAINED_WITH_ADDED_LIMITATIONS",
+      "dependency_effect": "NONE",
+      "issued_expanded_feature_refs": [
+        "CHARGING_DEVICE_APPARATUS",
+        "USB_PORT",
+        "POWER_SUPPLY_CONVERTER",
+        "USB_COMMUNICATION_MODULE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+      "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+      "reason": "The destination follows the terminal subject matter and its issued dependency chain; claim numbers alone do not establish correspondence, and any broken published edge remains non-controlling."
+    },
+    {
+      "published_claim_id": "24",
+      "candidate_issued_claim_ids": [
+        "19"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "CHARGING_DEVICE_APPARATUS",
+        "USB_PORT",
+        "POWER_SUPPLY_CONVERTER",
+        "USB_COMMUNICATION_MODULE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+      "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+      "reason": "The destination follows the terminal subject matter and its issued dependency chain; claim numbers alone do not establish correspondence, and any broken published edge remains non-controlling."
+    },
+    {
+      "published_claim_id": "25",
+      "candidate_issued_claim_ids": [
+        "19"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "CHARGING_DEVICE_APPARATUS",
+        "USB_PORT",
+        "POWER_SUPPLY_CONVERTER",
+        "USB_COMMUNICATION_MODULE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "published_claim_locator": "PAT_APP: published claims, PDF pages 9-10",
+      "issued_claim_locator": "PAT_ISSUED: issued claims, PDF pages 10-11",
+      "reason": "The destination follows the terminal subject matter and its issued dependency chain; claim numbers alone do not establish correspondence, and any broken published edge remains non-controlling."
+    }
+  ],
+  "assumptions_and_scope": [
+    "Published and issued claim sets are independently expanded even when numbers match.",
+    "Direct target records are separated from composite inferences that require mandatory reference rules.",
+    "The two documented input modes of the same product are not generalized across one another.",
+    "Silence remains an evidentiary gap, and unresolved claim-to-protocol mappings remain construction dependencies.",
+    "The chart is technical triage rather than an ultimate legal opinion."
+  ]
+}

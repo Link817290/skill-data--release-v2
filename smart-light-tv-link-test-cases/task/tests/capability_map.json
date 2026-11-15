@@ -1,0 +1,94 @@
+{
+  "bridge": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.04
+  },
+  "multi_bridge": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.03
+  },
+  "lights": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.04
+  },
+  "movie": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.04
+  },
+  "game": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.05
+  },
+  "music": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.035
+  },
+  "fixed": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.025
+  },
+  "voice": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.04
+  },
+  "latency": {
+    "capability": "measurement design",
+    "weight": 0.1
+  },
+  "manual": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.075
+  },
+  "smoothness": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.055
+  },
+  "concurrent": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.07
+  },
+  "network_loss": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.045
+  },
+  "recovery": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.05
+  },
+  "lamp_loss": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.04
+  },
+  "priority": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.04
+  },
+  "weak_network": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.03
+  },
+  "upgrade": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.035
+  },
+  "day": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.03
+  },
+  "night": {
+    "capability": "measurement design",
+    "weight": 0.045
+  },
+  "stability": {
+    "capability": "measurement design",
+    "weight": 0.045
+  },
+  "environment": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.03
+  },
+  "priority_rationale": {
+    "capability": "source applicability and executable state-transition test design",
+    "weight": 0.01
+  }
+}

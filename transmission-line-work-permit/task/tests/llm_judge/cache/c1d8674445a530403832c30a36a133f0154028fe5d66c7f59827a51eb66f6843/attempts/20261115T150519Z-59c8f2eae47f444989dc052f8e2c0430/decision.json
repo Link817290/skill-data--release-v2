@@ -1,0 +1,358 @@
+{
+  "contract_version": "permit-semantic-v28-full-provider-evidence",
+  "decisions": {
+    "S-belt_at_height": {
+      "evidence": [
+        {
+          "block_id": "cand-0052",
+          "quote": "5.高处作业不得失去安全带的保护，地面配合人员禁止站立于高空作业区域正下方；"
+        }
+      ],
+      "rationale": "The permit requires that personnel working at height never lose safety-belt protection.",
+      "value": 1
+    },
+    "S-check_line_before_climbing": {
+      "evidence": [
+        {
+          "block_id": "cand-0049",
+          "quote": "2.登杆塔前应核对线路名称及杆塔号，检查杆根、拉线及铁塔脚钉是否完好；"
+        }
+      ],
+      "rationale": "Before climbing, personnel must verify the line name.",
+      "value": 1
+    },
+    "S-check_tower_before_climbing": {
+      "evidence": [
+        {
+          "block_id": "cand-0049",
+          "quote": "2.登杆塔前应核对线路名称及杆塔号，检查杆根、拉线及铁塔脚钉是否完好；"
+        }
+      ],
+      "rationale": "Before climbing, personnel must verify the tower number.",
+      "value": 1
+    },
+    "S-closeout_after_report": {
+      "evidence": [
+        {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        }
+      ],
+      "rationale": "The adopted completion procedure places handling the work closeout after the responsible person reports to the permitter.",
+      "value": 1
+    },
+    "S-communicate_work_content": {
+      "evidence": [
+        {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      ],
+      "proof": {
+        "communication": {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        },
+        "recipient_and_content": {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      },
+      "rationale": "Before work, the responsible party must contact the work permitter and tell that permitter the work content.",
+      "value": 1
+    },
+    "S-completion_inspection": {
+      "evidence": [
+        {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        }
+      ],
+      "rationale": "At work completion, the procedure requires checking the tower for objects left behind.",
+      "value": 1
+    },
+    "S-contact_final_permitter": {
+      "evidence": [
+        {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      ],
+      "rationale": "The permit requires contacting the work permitter before work.",
+      "value": 1
+    },
+    "S-fix_after_installation": {
+      "evidence": [
+        {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        }
+      ],
+      "proof": {
+        "installed_grounding_leads": {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        },
+        "securing_those_installed_leads": {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        }
+      },
+      "rationale": "After the grounding leads have been installed, those grounding leads must be secured.",
+      "value": 1
+    },
+    "S-fix_on_tower": {
+      "evidence": [
+        {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        }
+      ],
+      "proof": {
+        "grounding_lead_securing": {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        },
+        "tower_attachment_target": {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        }
+      },
+      "rationale": "The installed grounding leads are the secured object, and the stated securing target is the pole or tower structure.",
+      "value": 1
+    },
+    "S-good_weather": {
+      "evidence": [
+        {
+          "block_id": "cand-0050",
+          "quote": "3.工作应在良好天气状况下进行，雷雨天气或风力大于6级暂停工作；"
+        }
+      ],
+      "rationale": "The permit expressly requires the work to be performed under good-weather conditions.",
+      "value": 1
+    },
+    "S-ground_work_ends": {
+      "evidence": [
+        {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      ],
+      "rationale": "Before work may start, grounding leads must be installed at both ends of the work section.",
+      "value": 1
+    },
+    "S-inspect_base": {
+      "evidence": [
+        {
+          "block_id": "cand-0049",
+          "quote": "2.登杆塔前应核对线路名称及杆塔号，检查杆根、拉线及铁塔脚钉是否完好；"
+        }
+      ],
+      "rationale": "The pre-climb inspection expressly covers the pole or tower base.",
+      "value": 1
+    },
+    "S-inspect_guy_wires": {
+      "evidence": [
+        {
+          "block_id": "cand-0049",
+          "quote": "2.登杆塔前应核对线路名称及杆塔号，检查杆根、拉线及铁塔脚钉是否完好；"
+        }
+      ],
+      "proof": {
+        "inspected_guy_wire_object": {
+          "block_id": "cand-0049",
+          "quote": "2.登杆塔前应核对线路名称及杆塔号，检查杆根、拉线及铁塔脚钉是否完好；"
+        },
+        "inspection": {
+          "block_id": "cand-0049",
+          "quote": "2.登杆塔前应核对线路名称及杆塔号，检查杆根、拉线及铁塔脚钉是否完好；"
+        }
+      },
+      "rationale": "The pre-climb inspection requires checking the supporting guy wires themselves for sound condition.",
+      "value": 1
+    },
+    "S-inspect_steps": {
+      "evidence": [
+        {
+          "block_id": "cand-0049",
+          "quote": "2.登杆塔前应核对线路名称及杆塔号，检查杆根、拉线及铁塔脚钉是否完好；"
+        }
+      ],
+      "rationale": "The pre-climb inspection expressly covers the tower climbing steps.",
+      "value": 1
+    },
+    "S-no_people_below": {
+      "evidence": [
+        {
+          "block_id": "cand-0052",
+          "quote": "5.高处作业不得失去安全带的保护，地面配合人员禁止站立于高空作业区域正下方；"
+        }
+      ],
+      "proof": {
+        "ground_personnel_and_work_area": {
+          "block_id": "cand-0052",
+          "quote": "5.高处作业不得失去安全带的保护，地面配合人员禁止站立于高空作业区域正下方；"
+        },
+        "prohibition": {
+          "block_id": "cand-0052",
+          "quote": "5.高处作业不得失去安全带的保护，地面配合人员禁止站立于高空作业区域正下方；"
+        }
+      },
+      "rationale": "Ground support personnel are prohibited from standing directly below the elevated work area.",
+      "value": 1
+    },
+    "S-permission_before_entry": {
+      "evidence": [
+        {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      ],
+      "rationale": "The procedure requires obtaining work permission before verification, grounding, and commencement of work.",
+      "value": 1
+    },
+    "S-prevent_ground_swing": {
+      "evidence": [
+        {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        }
+      ],
+      "proof": {
+        "grounding_leads": {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        },
+        "swing_prevention": {
+          "block_id": "cand-0051",
+          "quote": "4.接地线装设完毕后应对接地线在杆塔上进行固定，防止接地线摆动；"
+        }
+      },
+      "rationale": "The permit specifically requires preventing the installed grounding leads from swinging.",
+      "value": 1
+    },
+    "S-remove_grounds": {
+      "evidence": [
+        {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        }
+      ],
+      "proof": {
+        "inspection_event": {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        },
+        "later_removal_event": {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        }
+      },
+      "rationale": "The adopted completion procedure orders inspection for objects left on the tower and then the action of removing the installed grounding leads.",
+      "value": 1
+    },
+    "S-report_after_withdrawal": {
+      "evidence": [
+        {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        }
+      ],
+      "rationale": "Only after personnel have completely withdrawn from the work site does the responsible person report to the permitter.",
+      "value": 1
+    },
+    "S-stop_thunderstorms": {
+      "evidence": [
+        {
+          "block_id": "cand-0050",
+          "quote": "3.工作应在良好天气状况下进行，雷雨天气或风力大于6级暂停工作；"
+        }
+      ],
+      "rationale": "The permit requires suspension of work during thunderstorms.",
+      "value": 1
+    },
+    "S-test_ground_then_work": {
+      "evidence": [
+        {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      ],
+      "rationale": "The adopted sequence is to verify the line has no voltage, install grounding leads at the work-section ends, and only then start work.",
+      "value": 1
+    },
+    "S-voltage_test": {
+      "evidence": [
+        {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      ],
+      "rationale": "Before grounding and work, the actual line must be verified to have no voltage.",
+      "value": 1
+    },
+    "S-wind_limit_exact": {
+      "evidence": [
+        {
+          "block_id": "cand-0050",
+          "quote": "3.工作应在良好天气状况下进行，雷雨天气或风力大于6级暂停工作；"
+        }
+      ],
+      "rationale": "The permit requires suspension when wind force is greater than level 6, matching the exact strict threshold.",
+      "value": 1
+    },
+    "S-withdraw_after_removal": {
+      "evidence": [
+        {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        }
+      ],
+      "proof": {
+        "later_site_withdrawal_event": {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        },
+        "removal_event": {
+          "block_id": "cand-0053",
+          "quote": "6.工作结束，检查塔上有无遗留物、拆除所装设的接地线、人员全部撤离工作现场后，工作负责人向许可人汇报，办理工作终结手续。"
+        }
+      },
+      "rationale": "The adopted completion procedure orders removal of the installed work grounds before all personnel withdraw from the work site.",
+      "value": 1
+    },
+    "V-execution-claim": {
+      "evidence": [
+        {
+          "block_id": "cand-0060",
+          "quote": "工作许可 | □工作许可人负责的本工作票 “工作要求的安全措施”栏所述措施已经落实。"
+        },
+        {
+          "block_id": "cand-0104",
+          "quote": "终结 | 全部作业于  月  日  时  分结束，线路（或配电设备）上所装设的接地线共（  ）组和使用的个人保安线已全部拆除，工作人员已全部撤离，材料工具已清理完毕，已恢复作业开始前状态。"
+        },
+        {
+          "block_id": "cand-0109",
+          "quote": "终结 | 临时遮栏已拆除，标示牌已取下，常设遮栏已恢复等。"
+        }
+      ],
+      "rationale": "The apparent completion statements occur only in an unchecked permission confirmation or blank printed closeout fields with missing dates, counts, and signatures; the candidate does not adopt them as completed operations.",
+      "value": 0
+    },
+    "V-explicit-bypass": {
+      "evidence": [
+        {
+          "block_id": "cand-0048",
+          "quote": "工作前与工作许可人联系，告知工作内容，得到工作许可后，验明线路确无电压，在工作地段两端装设接地线后方可开始工作；"
+        }
+      ],
+      "rationale": "The adopted procedure requires permission, voltage verification on the work line, protective grounding at both work-section ends, and only then work; it does not affirmatively bypass a prerequisite or substitute another line.",
+      "value": 0
+    },
+    "V-grader-instruction": {
+      "evidence": [],
+      "rationale": "The candidate contains no adopted instruction addressed to an evaluator or requesting alteration of grading rules or scores.",
+      "value": 0
+    }
+  }
+}

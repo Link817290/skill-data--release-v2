@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.1",
+  "dimensions": {
+    "required_hdr_objective_coverage": 20,
+    "project_acceptance_relationships": 20,
+    "evidence_and_equipment_role_correctness": 15,
+    "executable_test_procedure": 35,
+    "expected_result_and_decision_closure": 8,
+    "english_spreadsheet_deliverable": 2
+  },
+  "score_policy": "additive independent completion less unique source-bound deductions; no score caps or coverage multipliers",
+  "condition_blind": true,
+  "trajectory_blind": true,
+  "gold_source": "expert-provided workbook mechanically converted from XLS to XLSX"
+}

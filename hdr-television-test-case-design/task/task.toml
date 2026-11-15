@@ -1,0 +1,30 @@
+version = "1.0"
+id = "hdr-television-test-case-design"
+title = "LG OLED65C22LB HDR Function Test Design"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+network_access = false
+
+verifier_dockerfile = "environment/Dockerfile.verifier"
+[solution]
+script = "solution/solve.sh"
+deliverable = "output/LG OLED65C22LB_Hardware_Test_Cases_EN.xlsx"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"

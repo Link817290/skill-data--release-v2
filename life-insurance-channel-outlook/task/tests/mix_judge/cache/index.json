@@ -1,0 +1,14 @@
+{
+  "schema": "request-bound-semantic-index-v1",
+  "golden_artifact_signature": "5a752b4939c983383dd2a3721ae998491e9638ae927ed7102d4957e5a333790e",
+  "golden_semantic_score": 0.6,
+  "semantic_weight": 0.075,
+  "semantic_center": 0.75,
+  "shared_scale": 0.97,
+  "entries": {
+    "5a752b4939c983383dd2a3721ae998491e9638ae927ed7102d4957e5a333790e": {
+      "cache_key": "97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a",
+      "path": "cache/live/97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a"
+    }
+  }
+}

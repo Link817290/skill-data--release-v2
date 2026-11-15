@@ -1,0 +1,225 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "renovation-quotation-completion",
+  "tasks": [
+    "renovation-quotation-completion"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 53,
+  "bytes_excluding_manifest": 72181586,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1822,
+      "sha256": "af2d0fb6b542c21b426557ebb86de2e3abf37171f27bab02d0caeea9dcee725a"
+    },
+    "RUBRIC.md": {
+      "bytes": 2329,
+      "sha256": "afe3574ae7a6d84ab2e0f264eb06aededf6c33fe300d99474fac4b53dd6f2ad2"
+    },
+    "dataset.toml": {
+      "bytes": 1060,
+      "sha256": "ac9ae15b53f3d2c7c743969b2b03125c7920717b9c3b1d1934c8a26dc394e853"
+    },
+    "golden/复桥602计价清单.xlsx": {
+      "bytes": 152364,
+      "sha256": "2c50a33d569d5d2f23de155d6848dca018f355d0c8429cfa2dfb0a20bac4a96c"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 445,
+      "sha256": "6317168c117011aab673001d56842bf089e7a28f911dd2df15ea3f8a14559238"
+    },
+    "task/environment/skills/renovation-quotation/SKILL.md": {
+      "bytes": 1827,
+      "sha256": "65f2362e33876c1f48f90c448b7a0a6899997d1c8146fe57ecabdbf2b712053a"
+    },
+    "task/environment/skills/renovation-quotation/references/pricing-regimes.md": {
+      "bytes": 2364,
+      "sha256": "9a8aedc5bb2d9eb3663340bb33e8e7e75d58536461fd7253227cea93425d9230"
+    },
+    "task/environment/skills/renovation-quotation/references/scope-and-closure.md": {
+      "bytes": 2350,
+      "sha256": "46a26e7fa98f6d6a91867d1753349c3050e304f3ea38d9b42413510fe7f500ef"
+    },
+    "task/environment/wheels/et_xmlfile-2.0.0-py3-none-any.whl": {
+      "bytes": 18059,
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+    },
+    "task/environment/wheels/openpyxl-3.1.5-py2.py3-none-any.whl": {
+      "bytes": 250910,
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+    },
+    "task/environment/wheels/xlrd-2.0.2-py2.py3-none-any.whl": {
+      "bytes": 96555,
+      "sha256": "ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9"
+    },
+    "task/environment/workspace/instruction.md": {
+      "bytes": 271,
+      "sha256": "e9a08f92629c02bfce9ae4b9e6cf31b730b87b1d5c35057ed88b95895ecbc5de"
+    },
+    "task/environment/workspace/materials/复桥602 - 清单标价.xls": {
+      "bytes": 170496,
+      "sha256": "fb4fa81f4cc508fee080215ab17e3c4fa4754aabf9a3769333753c9b8532f9d5"
+    },
+    "task/environment/workspace/materials/复桥效果图.pdf": {
+      "bytes": 193169,
+      "sha256": "f50a44f945731a6463d1dad3e6e23719018145e2e94af636e3350cd07cf2c14c"
+    },
+    "task/environment/workspace/materials/复桥效果图PDF2.pdf": {
+      "bytes": 144400,
+      "sha256": "5d11eb79f9a325e160b4d9c568f096217a0ca7291bcdbec84746e3c18b822951"
+    },
+    "task/environment/workspace/materials/装修图纸 pdf.pdf": {
+      "bytes": 76260,
+      "sha256": "e2d39712d4a9f8301883106b4e4832c1274bbdd9b44e837db285076c499df39c"
+    },
+    "task/instruction.md": {
+      "bytes": 271,
+      "sha256": "e9a08f92629c02bfce9ae4b9e6cf31b730b87b1d5c35057ed88b95895ecbc5de"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 327,
+      "sha256": "c0a548a271f9f90db7efb98c14fcf9641f11c3e58b5c09dd6b832a589ae01a38"
+    },
+    "task/task.toml": {
+      "bytes": 1304,
+      "sha256": "d03c4eab445f4ceadd8d87659d1b9f455b7af921bf6492e310c8fe0550665f1d"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1226,
+      "sha256": "d71a151df7328646bdc4a7f1ba8f3e0804b6aba5a62276d1c62c8800d4114789"
+    },
+    "task/tests/mix_judge/apply.py": {
+      "bytes": 5692,
+      "sha256": "4f792e6c4144500aa0c7cea943a11e5ddd5ed41eb8a6963957e692552dafbc45"
+    },
+    "task/tests/mix_judge/cache/live/0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5/evidence.json": {
+      "bytes": 757518,
+      "sha256": "bc4997a4d8e7c1eec576897d4202af5bc9db0151021441cff9a4447e56b6b3a0"
+    },
+    "task/tests/mix_judge/cache/live/0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5/manifest.json": {
+      "bytes": 289,
+      "sha256": "5cc8e669c171f7c0d7f22340b880cb54a54860ec4975c0a560a10140dc559127"
+    },
+    "task/tests/mix_judge/cache/live/0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5/request.json": {
+      "bytes": 909694,
+      "sha256": "0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5"
+    },
+    "task/tests/mix_judge/cache/live/0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5/response-1.json": {
+      "bytes": 8594,
+      "sha256": "b84104ee150efc4fe036b5118d317384d939d5432b3feeaecfa055abd29e0ea9"
+    },
+    "task/tests/mix_judge/cache/live/0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5/review.json": {
+      "bytes": 1617348,
+      "sha256": "d42f10f21701049cc2cf3da67af0b63fcf2f420e72215bbf6796ce7d70f5c5fe"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 684,
+      "sha256": "4dbaa70d1f859cedaf7dbaeb5cece5d6d3698c30dadb3506de9c093b1c768123"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 5454,
+      "sha256": "13668204bba2231c9a788ba6d883e8b0f51daecb35d3adf1bf7f12aa1fed6d18"
+    },
+    "task/tests/mix_judge/manifest.json": {
+      "bytes": 742,
+      "sha256": "05fb93581f061786243ae51936ec4632ab3a2392844c1730bc717adb70945c36"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 263,
+      "sha256": "a1f7a874539d575551529bad8ca0f11dff0fb04e710229bde3adcffccdba1944"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 1612,
+      "sha256": "7e3fe50f3b5c853f144df241c3fee95c2d1fa23cb2de14cfb4185748f0c3a603"
+    },
+    "task/tests/mix_judge/semantic_live.py": {
+      "bytes": 13389,
+      "sha256": "4889500104bf4bc6a99ef71c53d3fc724691de95d196f581767e4351924e1ffa"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 140,
+      "sha256": "6144a34e4c4053b788a7951ffd4c109e1514db9e0939de1b17b2cef7c3d2b9c8"
+    },
+    "task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 25729,
+      "sha256": "f33c06188538f4b9861f202198770b8ac25c9533a18462dad9abfce876e165d8"
+    },
+    "task/tests/program_judge/quotation_judge.py": {
+      "bytes": 24783,
+      "sha256": "cb264dead1b978a18d655e1eced6a057ac0b376329547005ebb82399e68aead9"
+    },
+    "task/tests/program_judge/task_judge.py": {
+      "bytes": 140,
+      "sha256": "fb05bcd4198b416e96008b32e56b88333a65126fd6673544131ab4119f73e5a3"
+    },
+    "task/tests/requirements.txt": {
+      "bytes": 214,
+      "sha256": "fc44e6932cec36fc23be58ac229ad1a58de561c72fdbf2a2ed793f95adfc479f"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 181506,
+      "sha256": "b5bc40f53adfb12433af448962100ce5eb21ebc4853e9e5e23928bcfbc3effbd"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1170,
+      "sha256": "828487b147897e47c5a1ff7ec61075fca584a4acb509df6a6e799a82ce3d2525"
+    },
+    "task/tests/validator.py": {
+      "bytes": 3983,
+      "sha256": "490ef6054a93bd69d203e8ab357d4ba893694d002fbd93b61ece4cba9b263e6d"
+    },
+    "task/tests/wheels/click-8.1.8-py3-none-any.whl": {
+      "bytes": 98188,
+      "sha256": "63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2"
+    },
+    "task/tests/wheels/et_xmlfile-2.0.0-py3-none-any.whl": {
+      "bytes": 18059,
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+    },
+    "task/tests/wheels/formulas-1.3.4-py2.py3-none-any.whl": {
+      "bytes": 126489,
+      "sha256": "ee2c9795217885158d9ce8d68a78ea0fb0a96e0814d491aa83759ef96e5645a0"
+    },
+    "task/tests/wheels/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 18252005,
+      "sha256": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5"
+    },
+    "task/tests/wheels/numpy_financial-1.0.0-py3-none-any.whl": {
+      "bytes": 14025,
+      "sha256": "bae534b357516f12258862d1f0181d911032d0467f215bfcd1c264b4da579047"
+    },
+    "task/tests/wheels/openpyxl-3.1.5-py2.py3-none-any.whl": {
+      "bytes": 250910,
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+    },
+    "task/tests/wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl": {
+      "bytes": 229892,
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+    },
+    "task/tests/wheels/regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 792727,
+      "sha256": "f2a19f302cd1ce5dd01a9099aaa19cae6173306d1302a43b627f62e21cf18ac0"
+    },
+    "task/tests/wheels/schedula-1.6.15-py2.py3-none-any.whl": {
+      "bytes": 6371149,
+      "sha256": "69b7c84931d484406828d7568f3d7d86c4edea319e349a021a8b08db518b8c39"
+    },
+    "task/tests/wheels/scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "bytes": 41165244,
+      "sha256": "fef8c87f8abfb884dac04e97824b61299880c43f4ce675dd2cbeadd3c9b466d2"
+    },
+    "task/tests/wheels/six-1.17.0-py2.py3-none-any.whl": {
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    "task/tests/wheels/tqdm-4.67.1-py3-none-any.whl": {
+      "bytes": 78540,
+      "sha256": "26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2"
+    },
+    "task/tests/wheels/xlrd-2.0.2-py2.py3-none-any.whl": {
+      "bytes": 96555,
+      "sha256": "ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9"
+    }
+  }
+}

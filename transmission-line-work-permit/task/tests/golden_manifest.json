@@ -1,0 +1,16 @@
+{
+  "schema_version": "supplied-golden-v1",
+  "role": "User-supplied Golden with a localized wording correction and work-pole protection addition; solution/solve.sh materializes a verified byte-identical copy",
+  "filename": "110kV 万文瑞线标准工作票.docx",
+  "bytes": 19528,
+  "sha256": "c0c7747b80526099c38159b1d212de5e405bf4a42e8b3a78736981e72aecf9e3",
+  "derived_reference_directory": "solution/derived_reference",
+  "score_compatibility": "Current complete cached verifier: supplied Golden strict=1.0 and lenient=1.0",
+  "derived_reference_role": "Parser/negative-control regression fixture, not the passing oracle",
+  "current_replay": {
+    "strict": 1.0,
+    "lenient": 1.0,
+    "entrypoint": "tests/score_cached.sh",
+    "evidence": "docs/transmission-line-work-permit/verifier_logs/current/golden/reward.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "runtime_files": {
+    "judge.py": "dfe5e35a8c98f8f82fd2e386beddf964965cdc159e0ba24cadfb3f0550be1c44",
+    "contract.json": "2110bb02bf0e93c8f1e6c91436908d09a6c3eff3db7142893676cd4307de994d",
+    "prompt.md": "99e62930044570a2bcbbf8147fd301f4bb58bfa3c0c96a4ad0ae6ff5b5894189"
+  },
+  "base_runtime": {
+    "judge.py": "aee45e674807878b3dff8d70998a45fb8efdccdb8f536c95422cf6285f64fa23",
+    "contract.json": "88281e472936aff4f78ccc752b30f068b1ea04cb7e08560082317dc543dae06c",
+    "prompt.md": "b49cc571cd98ed5a97491efbac54d3f444ae83dd3d8bcbe8fe3f291bb8b1e60f",
+    "settings.json": "6a5c299d3b644a4d5f2c6f5c65c275b22f901814b5b364096b3e66b8838b0066",
+    "response.schema.json": "8dd277af3966e1471f95e5a236e41317e4efaae3a7dec64c3d808f26c195b6b6",
+    "authority.json": "ed09045d6db74a59070748e62070f2dd3c7eca7a84a01f19693124bfdc016710"
+  },
+  "source_reference_qualification": "7189659eaa1666852c7e38e0bece44e0efc543f4084daf1ad988c90f822f7caa",
+  "no_scoring_parameters": true
+}

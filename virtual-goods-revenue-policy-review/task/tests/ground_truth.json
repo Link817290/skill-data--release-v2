@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "golden_rows": [
+    {
+      "finding_id": "RR-01",
+      "topic": "Prior hosting performance obligation; restatement and material weakness",
+      "conclusion": "EXCEPTION - the prior single hosting-service performance-obligation position is superseded by the final record.",
+      "accounting_effect": "The prior model misstated platform-revenue timing for 2018 and 2019, required restatement, and reflects a material weakness in performance-obligation identification controls.",
+      "rationale": "The response and amended filing treated virtual currency, virtual goods, and platform hosting as one integrated obligation beginning at currency purchase. The final prospectus identifies that conclusion as an error and instead centers the obligation on customers' ability to acquire, use, and hold virtual items.",
+      "evidence": "02_company_response.htm, response to Comment 15; 03_amended_registration_statement.htm, Note 1 - Revenue Recognition; 04_issued_filing.htm, Risk Factors - material weakness and Note 1 - Revenue Recognition Policy.",
+      "residual_evidence": "The restatement bridge and evidence that remediation controls operated effectively through the current period.",
+      "audit_response": "Reconcile the restated revenue and deferred-revenue bridge to the ledger, inspect the revised performance-obligation control, and test its design and operating effectiveness across each item population."
+    },
+    {
+      "finding_id": "RR-01A",
+      "topic": "Final virtual-item performance obligation",
+      "conclusion": "SUPPORTED AT THE POLICY LEVEL, SUBJECT TO AUDIT TESTING - the final record adopts an item-centered performance obligation.",
+      "accounting_effect": "Revenue and deferred revenue follow the customer's ability to acquire, use, and hold virtual items, with satisfaction determined by the nature of each item rather than a general hosting service.",
+      "rationale": "The final prospectus expressly replaces the former integrated-hosting model with a performance obligation to provide the ability to acquire, use, and hold virtual items. The issued disclosure establishes the adopted accounting unit but does not itself prove transaction-level application.",
+      "evidence": "02_company_response.htm, response to Comment 15 - former integrated obligation; 04_issued_filing.htm, Risk Factors - material weakness and Note 1 - Revenue Recognition Policy, Roblox Platform.",
+      "residual_evidence": "Executed user terms, item entitlement data, and controls proving that the adopted accounting unit is completely and consistently applied.",
+      "audit_response": "Inspect user terms and item rights, trace samples from currency purchase through item entitlement, and test the revised performance-obligation control across the complete item population."
+    },
+    {
+      "finding_id": "RR-01B",
+      "topic": "Revenue-recognition material weakness and its identified cause",
+      "conclusion": "SUPPORTED AS A REPORTED CONTROL CONCLUSION - the final record identifies a material weakness caused by ineffective performance-obligation identification controls.",
+      "accounting_effect": "The control deficiency permitted a material revenue-recognition error and the restatement of the 2018 and 2019 financial statements.",
+      "rationale": "The issued prospectus attributes the restatement to ineffective controls over identifying performance obligations and identifies the former integrated-hosting obligation as the resulting error. This establishes the reported control conclusion separately from whether remediation later operated effectively.",
+      "evidence": "04_issued_filing.htm, Risk Factors - material weakness and Management's discussion of internal control over financial reporting.",
+      "residual_evidence": "The control-risk assessment, deficiency evaluation, affected-account mapping, and evidence supporting the completeness of the restatement population.",
+      "audit_response": "Inspect the deficiency evaluation, map the failed review control to affected accounts and assertions, and test the completeness of transactions and periods included in the restatement analysis."
+    },
+    {
+      "finding_id": "RR-01C",
+      "topic": "Operating effectiveness of revenue-control remediation at issuance",
+      "conclusion": "OPEN - the supplied record says remediation was in process and does not establish operating effectiveness at issuance.",
+      "accounting_effect": "The material weakness remains an open control matter until revised controls have operated for a sufficient period and are tested; the final prospectus cannot imply completed remediation.",
+      "rationale": "The final record describes planned and ongoing measures, including additional technical resources and a consultant, but it does not state that the material weakness was remediated or provide evidence of sustained operation. A remediation plan is not an effectiveness conclusion.",
+      "evidence": "04_issued_filing.htm, Risk Factors and Management's discussion of internal control over financial reporting, paragraph beginning 'We are in the process of implementing measures'.",
+      "residual_evidence": "Implemented control descriptions, owner competence, complete execution populations, review evidence, exception resolution, and a sufficient period of operation.",
+      "audit_response": "Obtain the implemented control matrix, select executions across a sufficient operating period, test precision and exception follow-up, and evaluate whether the material weakness can be considered remediated."
+    },
+    {
+      "finding_id": "RR-02",
+      "topic": "Recognition commencement at virtual-currency purchase versus item acquisition",
+      "conclusion": "EXCEPTION - the earlier policy of commencing recognition when virtual currency was purchased is superseded.",
+      "accounting_effect": "Cash receipts remain deferred and revenue cutoff follows the customer's acquisition and use of virtual items rather than the initial stored-value purchase.",
+      "rationale": "Management defended purchase-date commencement with same-day redemption and an immaterial measured difference. The final accounting policy instead records currency proceeds as deferred revenue and recognizes revenue as users purchase and use items, so the short delay did not establish satisfaction of the promise.",
+      "evidence": "01_staff_comment.pdf, Comment 15; 02_company_response.htm, response to Comment 15; 04_issued_filing.htm, Note 1 - Revenue Recognition Policy, Roblox Platform.",
+      "residual_evidence": "Event-level completeness and cutoff evidence linking cash receipt, item acquisition, item use, and the revenue subledger.",
+      "audit_response": "Sample transactions around period end, trace each event timestamp from processor settlement through currency balance and item acquisition, and reconcile deferred revenue and recognized revenue to the general ledger."
+    },
+    {
+      "finding_id": "RR-03",
+      "topic": "Superseded uniform user-life recognition pattern",
+      "conclusion": "EXCEPTION - the prior uniform user-life method is replaced by item-nature recognition patterns.",
+      "accounting_effect": "The earlier method misstated the timing of revenue by applying one availability period to consumption-type and continuing-access items and contributed to the prior-period restatement.",
+      "rationale": "The response acknowledged that systems could not distinguish item types but retained one user-based pattern. The final record says ineffective performance-obligation controls caused an error and replaces that uniform method with different satisfaction patterns based on item nature.",
+      "evidence": "01_staff_comment.pdf, Comment 16; 02_company_response.htm, response to Comment 16; 04_issued_filing.htm, Risk Factors - material weakness and Note 1 - Revenue Recognition Policy.",
+      "residual_evidence": "Population-completeness evidence and controlled definitions showing that an item's continuing benefit or consumption event drives its classification.",
+      "audit_response": "Inspect item definitions and configuration changes, sample both classes to usage events, test classification controls, and reperform the resulting revenue pattern and restatement effect."
+    },
+    {
+      "finding_id": "RR-03A",
+      "topic": "Recognition pattern for consumable virtual items",
+      "conclusion": "SUPPORTED AT THE POLICY LEVEL, SUBJECT TO AUDIT TESTING - consumable-item revenue is recognized at consumption.",
+      "accounting_effect": "Revenue and associated deferred cost are released when the customer action exhausts the item's benefit rather than over an estimated availability period.",
+      "rationale": "The final policy defines consumable items by an action that removes the item or ends continuing benefit and recognizes revenue as those items are consumed. That is an item-specific point-in-time satisfaction pattern distinct from the durable population.",
+      "evidence": "01_staff_comment.pdf, Comment 16; 02_company_response.htm, response to Comment 16 - former data limitation; 04_issued_filing.htm, Note 1 - Revenue Recognition Policy, consumable-item paragraph.",
+      "residual_evidence": "Complete consumption-event data, item-definition governance, and controls connecting each consumable classification to revenue release.",
+      "audit_response": "Sample consumable items to their exhaustion events, test classification and event completeness, and reconcile event-driven revenue and cost release to the subledger and general ledger."
+    },
+    {
+      "finding_id": "RR-04",
+      "topic": "Classification estimate for the remaining virtual-item population",
+      "conclusion": "SUPPORTED SUBJECT TO TESTING - the final policy permits an estimate for purchases not specifically classified.",
+      "accounting_effect": "The estimated consumable-versus-durable mix determines current revenue, deferred revenue, and the related deferred-cost release for the unclassified population.",
+      "rationale": "The final policy specifically classifies the majority of purchases and estimates the remaining population from known purchases and expected behavior in similar experiences. This closes the former blanket data limitation at the policy level but creates a significant estimation and representativeness risk.",
+      "evidence": "02_company_response.htm, response to Comment 16 - insufficient discrete information; 04_issued_filing.htm, Note 1 - Revenue Recognition Policy, paragraph beginning 'To separately account'.",
+      "residual_evidence": "A complete classified-to-unclassified reconciliation, similarity analysis, model methodology, data lineage, bias testing, and review-control evidence.",
+      "audit_response": "Reconcile the full purchase population, test known-item classifications, compare known and remaining populations by product and behavior, and reperform the allocation with sensitivity and back-testing."
+    },
+    {
+      "finding_id": "RR-05",
+      "topic": "Estimated life of durable virtual items",
+      "conclusion": "SUPPORTED SUBJECT TO TESTING - paying-user life is the final measure for the availability period of durable items.",
+      "accounting_effect": "The 23-month estimate controls the release of durable-item deferred revenue and deferred processing costs and is a management estimate subject to change.",
+      "rationale": "The final prospectus limits the user-life measure to durable items, explains that it is calculated from historical monthly retention by cohort, and states that it best represents the average life of those items. That is narrower than the superseded uniform policy but still requires model evidence.",
+      "evidence": "02_company_response.htm, response to Comment 16; 04_issued_filing.htm, Note 1 - Revenue Recognition Policy, durable-item and average-life paragraphs.",
+      "residual_evidence": "Complete cohort data, treatment of censored users, stability of the inactivity endpoint, model-change governance, and retrospective estimate performance.",
+      "audit_response": "Validate the cohort source data, reperform retention and weighting, test endpoint assumptions and sensitivity, compare earlier estimates with subsequent outcomes, and evaluate estimate-change controls."
+    },
+    {
+      "finding_id": "RR-06",
+      "topic": "Gross presentation for developer-created content",
+      "conclusion": "SUPPORTED SUBJECT TO CONTRACT AND OPERATING TESTS - the final record retains principal and gross presentation for the end-user service.",
+      "accounting_effect": "User consideration is reported gross, while amounts paid to developers and creators are expenses rather than reductions of revenue.",
+      "rationale": "The response reconciles facilitator language with operating facts: the issuer controls hosted content, can remove it, integrates content into the platform, bears support and chargeback responsibility, and delivers the combined service. The final policy adopts control, hosting, and integration as the basis for principal status.",
+      "evidence": "01_staff_comment.pdf, Comment 17; 02_company_response.htm, response to Comment 17; 04_issued_filing.htm, Note 1 - Revenue Recognition Policy, principal paragraph.",
+      "residual_evidence": "Executed developer and user terms plus operating evidence for content control, dispute resolution, pricing discretion, refunds, and chargebacks.",
+      "audit_response": "Inspect developer and user contracts, sample takedowns and disputes, test pricing and chargeback records, and reconcile gross user billings, developer expense, and recorded revenue."
+    },
+    {
+      "finding_id": "RR-07",
+      "topic": "Gross presentation through third-party distribution channels",
+      "conclusion": "SUPPORTED SUBJECT TO CHANNEL-CONTRACT TESTING - the final record retains principal presentation when app stores or processors are involved.",
+      "accounting_effect": "Revenue is recorded gross and the distribution-channel fee is recorded as cost of revenue because the channel does not control the end-user service before transfer.",
+      "rationale": "The response separately analyzes channel partners and says they provide marketplace access but never control the integrated service; the issuer hosts the platform, sets the currency price, fulfills the user promise, and bears chargebacks. The final policy retains gross presentation and expenses processor fees.",
+      "evidence": "01_staff_comment.pdf, Comment 18; 02_company_response.htm, response to Comment 18; 04_issued_filing.htm, Note 1 - Revenue Recognition Policy, principal paragraph and Cost of Revenue.",
+      "residual_evidence": "Current channel agreements, service-level terms, settlement reports, price-setting evidence, refund obligations, and channel-specific exceptions.",
+      "audit_response": "Inspect material channel contracts, test a sample of settlements and chargebacks, confirm who fulfills the user service, and reconcile gross billings and retained channel fees to revenue and cost of revenue."
+    },
+    {
+      "finding_id": "RR-08A",
+      "topic": "Eligibility and recoverability of deferred payment-processing contract costs",
+      "conclusion": "SUPPORTED AT THE POLICY LEVEL, SUBJECT TO AUDIT TESTING - the final record retains deferral of direct incremental processing costs expected to be recovered.",
+      "accounting_effect": "Qualifying payment-processing fees are capitalized as deferred contract costs rather than expensed immediately, subject to recovery and impairment.",
+      "rationale": "The final policy identifies payment-processing fees as direct and incremental costs of obtaining user contracts, states that recovery is expected, classifies the asset by expected release, and requires impairment review. Those adopted premises are distinct from the separate assertion about whether later-sale fees are economically commensurate.",
+      "evidence": "04_issued_filing.htm, Note 1 - Deferred Cost of Revenue.",
+      "residual_evidence": "Processor contracts, transaction evidence that the fees would not arise without obtaining the contract, recoverability support, asset classification, and impairment controls.",
+      "audit_response": "Inspect processor agreements, sample fee-bearing transactions to executed user sales, test incrementality and recoverability, and reconcile additions, classification, and impairment review to the deferred-cost ledger."
+    },
+    {
+      "finding_id": "RR-08C",
+      "topic": "Commensurateness of initial-sale and subsequent-sale processing fees",
+      "conclusion": "SUPPORTED AS AN ADOPTED POLICY PREMISE, SUBJECT TO AUDIT TESTING - the final record retains management's commensurate-fee assertion.",
+      "accounting_effect": "Whether later-sale fees are commensurate determines whether the initial contract-cost asset relates only to the initial contract or also to specifically anticipated future contracts.",
+      "rationale": "Management answered the staff by asserting there were no noncommensurate subsequent-sale fees, and the final note repeats that initial-contract fees are commensurate with subsequent sales. The record establishes the adopted premise but supplies no contracts, rate schedules, or transaction-level comparison to prove it.",
+      "evidence": "01_staff_comment.pdf, Comment 19; 02_company_response.htm, response to Comment 19; 04_issued_filing.htm, Note 1 - Deferred Cost of Revenue.",
+      "residual_evidence": "Processor and channel rate schedules, fee tiers and incentives, and a transaction-level comparison of initial and later-sale economics by channel and period.",
+      "audit_response": "Inspect all material fee schedules, stratify initial and subsequent sales by channel and tier, compare effective fee rates and incentives, and investigate exceptions to economic commensurateness."
+    },
+    {
+      "finding_id": "RR-08B",
+      "topic": "Amortization of deferred payment-processing contract costs",
+      "conclusion": "EXCEPTION - the blanket user-life amortization pattern is superseded, although deferral and the commensurate-fee premise remain.",
+      "accounting_effect": "Direct incremental processing costs are deferred and released in proportion to the related revenue, using consumable or durable item patterns rather than one period for every sale.",
+      "rationale": "Management's response said subsequent-sale fees were commensurate and amortized all processing fees over one user-life period. The final policy retains the direct-and-incremental asset and commensurate premise but explicitly aligns amortization with the nature of each item and its revenue recognition.",
+      "evidence": "01_staff_comment.pdf, Comment 19; 02_company_response.htm, response to Comment 19; 03_amended_registration_statement.htm, Note 1 - Deferred Cost of Revenue; 04_issued_filing.htm, Note 1 - Deferred Cost of Revenue.",
+      "residual_evidence": "Processor rate schedules, proof that renewal and subsequent-sale charges are economically commensurate, cost-pool attribution, recoverability, and impairment review evidence.",
+      "audit_response": "Inspect processor contracts and rates, test incrementality and recoverability, map cost pools to item classes, and reperform amortization and impairment across the revised revenue patterns."
+    },
+    {
+      "finding_id": "RR-09",
+      "topic": "Premium subscription bundle - identification of distinct promises",
+      "conclusion": "OPEN - the supplied accounting-policy record through the latest annual report does not close whether non-currency subscription benefits are distinct promises.",
+      "accounting_effect": "Distinct continuing benefits could create one or more additional performance obligations rather than being subsumed into the virtual-currency promise.",
+      "rationale": "The response describes monthly stored value plus continuing in-experience benefits, marketplace benefits, and trading rights, then assumes any separate service would be immaterial. It does not analyze whether those promised benefits are capable of being distinct and separately identifiable under the revised item-centered accounting unit, and each supplied issued revenue policy remains silent.",
+      "evidence": "01_staff_comment.pdf, Comment 14; 02_company_response.htm, response to Comment 14; 04_issued_filing.htm, 05_remediation_annual_report.pdf, and 06_estimate_change_annual_report.pdf, product descriptions and revenue-recognition policies (no subscription promise analysis).",
+      "residual_evidence": "Executed subscription terms, a complete inventory of promised benefits, customer-use evidence, and a capable-of-being-distinct and context-of-the-contract analysis under the revised accounting unit.",
+      "audit_response": "Inspect subscription terms and product configuration, inventory each promised benefit, test how subscribers use and retain it, and evaluate each promise separately before determining the accounting unit."
+    },
+    {
+      "finding_id": "RR-09B",
+      "topic": "Premium subscription bundle - transaction-price allocation and timing",
+      "conclusion": "OPEN - the record does not establish the allocation basis or resulting recognition pattern if subscription benefits are separate promises.",
+      "accounting_effect": "Allocating consideration to continuing benefits could change subscription deferred revenue and the timing of revenue relative to currency-funded item use.",
+      "rationale": "Management says an allocation would be highly immaterial but provides neither standalone values nor a calculation. The earlier response also applies the superseded integrated-hosting model, while the final revenue note does not explain how the subscription consideration enters the revised item-centered model.",
+      "evidence": "01_staff_comment.pdf, Comment 14; 02_company_response.htm, response to Comment 14; 04_issued_filing.htm, 05_remediation_annual_report.pdf, and 06_estimate_change_annual_report.pdf, revenue-recognition policies (no subscription allocation or timing discussion).",
+      "residual_evidence": "Standalone selling-value estimates, allocation calculations, benefit satisfaction patterns, subscription-to-item data lineage, and a deferred-revenue sensitivity under the revised policy.",
+      "audit_response": "Develop or test standalone-value estimates, reperform the allocation and recognition schedule by promise, trace subscription consideration into item activity, and quantify the deferred-revenue sensitivity."
+    },
+    {
+      "finding_id": "RR-09C",
+      "topic": "Premium subscription bundle - materiality and final policy disclosure",
+      "conclusion": "OPEN - the supplied record does not substantiate management's materiality assertion or close the final policy-disclosure assessment.",
+      "accounting_effect": "An unsupported omission can obscure a distinct revenue stream, recognition pattern, or qualitative control issue even if subscription revenue is below a stated share of total revenue.",
+      "rationale": "The response relies on subscription revenue being below ten percent and calls the hypothetical allocation highly immaterial, but it supplies no allocation effect, balance-sheet impact, qualitative analysis, or later-period update. The issued reports describe the product commercially while omitting its accounting from the revenue-recognition policies.",
+      "evidence": "02_company_response.htm, response to Comment 14; 04_issued_filing.htm, 05_remediation_annual_report.pdf, and 06_estimate_change_annual_report.pdf, product descriptions and revenue-recognition policies (no subscription accounting discussion).",
+      "residual_evidence": "Current-period subscription revenue, allocation and deferred-balance effects, trend and control considerations, qualitative materiality, and the disclosure committee's assessment.",
+      "audit_response": "Reperform quantitative and qualitative materiality using the revised policy and current period, evaluate trend and control implications, and determine whether the final accounting-policy disclosure is complete."
+    },
+    {
+      "finding_id": "RR-10A",
+      "topic": "Developer Exchange Program eligibility and recorded expense-liability policy",
+      "conclusion": "SUPPORTED AT THE POLICY LEVEL, SUBJECT TO COMPLETENESS TESTING - the final record states the eligibility conditions and records program expense and liability.",
+      "accounting_effect": "Amounts earned under the program are recorded as developer exchange expense and a corresponding liability when the program criteria and accounting policy apply.",
+      "rationale": "The response and final filing identify the minimum earned balance, verified account, good-standing, and legal-compliance conditions. The final note also states that the related program expense and liability are recorded, establishing the adopted policy for the eligible population.",
+      "evidence": "01_staff_comment.pdf, Comment 20; 02_company_response.htm, response to Comment 20; 04_issued_filing.htm, Note 1 - Developer Exchange Fees.",
+      "residual_evidence": "Complete earned-balance data, eligibility status history, approval and suspension controls, exchange rates, payouts, and the developer-exchange liability reconciliation.",
+      "audit_response": "Reconcile earned balances to the liability, sample eligible accounts through approval and payout, test status changes and exchange rates, and search for eligible balances omitted from the accrual."
+    },
+    {
+      "finding_id": "RR-10B",
+      "topic": "Accounting for earned currency held by developers who cannot exchange it",
+      "conclusion": "OPEN - the supplied record through the latest annual report does not establish the accounting policy or materiality for the nonpermitted population.",
+      "accounting_effect": "Depending on the rights and policy, ineligible earned balances could affect developer expense, liabilities, breakage or other income, and completeness of disclosure.",
+      "rationale": "Management declined to disclose the accounting because it asserted the amounts were immaterial. The prospectus and later annual reports explain eligibility and the eligible-program expense and liability but do not state the treatment of earned balances held by developers who are not permitted to exchange them or substantiate the omitted amount.",
+      "evidence": "01_staff_comment.pdf, Comment 20; 02_company_response.htm, response to Comment 20; 04_issued_filing.htm, 05_remediation_annual_report.pdf, and 06_estimate_change_annual_report.pdf, Developer Exchange Fees policies and business descriptions (no policy for nonpermitted balances).",
+      "residual_evidence": "A complete ineligible-balance population, contractual rights by ineligibility reason, aging and subsequent qualification or forfeiture, accounting entries, and quantitative and qualitative materiality.",
+      "audit_response": "Reconcile all earned balances by eligibility state, inspect program terms for each ineligibility reason, test subsequent qualification and forfeiture, trace entries, and evaluate quantitative and qualitative materiality."
+    },
+    {
+      "finding_id": "RR-11A",
+      "topic": "Implementation of the revenue-control remediation measures during 2021",
+      "conclusion": "SUPPORTED AS A MANAGEMENT-REPORTED CONTROL CHANGE - the 2021 annual report states that the planned revenue-control remediation measures were implemented.",
+      "accounting_effect": "The technical-accounting resources, external assistance, and new review controls address the performance-obligation identification failure that caused the restatement.",
+      "rationale": "The registration prospectus described remediation as in process. The 2021 report later identifies the measures actually implemented, including added resources and controls over complex accounting and revenue judgments. Implementation is a separate conclusion from formal management assessment or external attestation.",
+      "evidence": "04_issued_filing.htm, Internal Control Over Financial Reporting - remediation in process; 05_remediation_annual_report.pdf, Item 9A - Changes in Internal Control and remediation measures.",
+      "residual_evidence": "Control designs, implementation dates, owner competence, execution populations, review precision, and exception follow-up for the new controls.",
+      "audit_response": "Inspect the implemented control matrix and change records, identify owners and effective dates, and test complete populations of technical-accounting reviews and exception resolution."
+    },
+    {
+      "finding_id": "RR-11B",
+      "topic": "Management's 2021 conclusion that the specific revenue material weakness was eliminated",
+      "conclusion": "SUPPORTED AS MANAGEMENT'S REPORTED CONCLUSION, WITH AN ASSURANCE LIMITATION - management states the specific weakness was eliminated by year-end 2021, but no formal Section 404 assessment was included.",
+      "accounting_effect": "The registration-stage weakness is reported as remediated for management's 2021 monitoring purposes, while the filing does not provide a formal management ICFR effectiveness assessment for that year.",
+      "rationale": "Item 9A expressly says the remediation efforts eliminated the previously identified weakness, then separately explains that the annual report omits management's formal assessment because of the newly public company transition period. Those statements must not be collapsed into either an unqualified effectiveness conclusion or a still-open implementation claim.",
+      "evidence": "05_remediation_annual_report.pdf, Item 9A - Management's Report on Internal Control and Changes in Internal Control.",
+      "residual_evidence": "Management's 2021 remediation testing, monitoring results, deficiency evaluation, and the evidence supporting elimination of the specific weakness.",
+      "audit_response": "Inspect management's remediation test plan and results, verify a sufficient operating period, evaluate identified exceptions, and retain the transition-period limitation in the 2021 conclusion."
+    },
+    {
+      "finding_id": "RR-11C",
+      "topic": "External-auditor ICFR assurance scope for 2021",
+      "conclusion": "SUPPORTED - the 2021 financial-statement audit did not include an ICFR audit and the auditor expressed no opinion on control effectiveness.",
+      "accounting_effect": "The unqualified financial-statement opinion cannot be used as external assurance over the 2021 remediation or ICFR effectiveness.",
+      "rationale": "The auditor's report says the company was not required to have, and the auditor was not engaged to perform, an ICFR audit. Understanding controls for the financial-statement audit does not convert the opinion into control attestation.",
+      "evidence": "05_remediation_annual_report.pdf, Report of Independent Registered Public Accounting Firm - Basis for Opinion.",
+      "residual_evidence": "The 2021 audit engagement scope and any separate communications or procedures over remediation not contained in the public report.",
+      "audit_response": "Confirm the 2021 engagement scope, separate financial-statement procedures from ICFR attestation, and do not attribute a control opinion to the auditor for that date."
+    },
+    {
+      "finding_id": "RR-11D",
+      "topic": "Management's formal ICFR effectiveness assessment for 2022",
+      "conclusion": "SUPPORTED - management formally concluded that ICFR was effective as of year-end 2022.",
+      "accounting_effect": "The latest management conclusion closes the transition-period absence of a formal assessment, subject to the scope and date of the 2022 evaluation.",
+      "rationale": "Unlike the 2021 annual report, the 2022 Item 9A includes management's assessment under the COSO framework and concludes that ICFR was effective. This is a current-date overall effectiveness conclusion, not retroactive external assurance for 2021.",
+      "evidence": "05_remediation_annual_report.pdf, Item 9A - no formal management assessment; 06_estimate_change_annual_report.pdf, Item 9A - Management's Report on Internal Control over Financial Reporting.",
+      "residual_evidence": "Management's 2022 scope, entity and process coverage, testing populations, deficiencies considered, and period-end evaluation documentation.",
+      "audit_response": "Inspect management's COSO assessment, reconcile process coverage to revenue risks, test the completeness of identified deficiencies, and confirm the conclusion is limited to the stated year-end date."
+    },
+    {
+      "finding_id": "RR-11E",
+      "topic": "External-auditor opinion on ICFR effectiveness for 2022",
+      "conclusion": "SUPPORTED - the independent auditor expressed an unqualified opinion on ICFR as of year-end 2022.",
+      "accounting_effect": "The latest record adds external control assurance that was absent in 2021 and supports the current overall ICFR conclusion.",
+      "rationale": "The 2022 filing contains a separate PCAOB report on ICFR and the financial-statement report also identifies the unqualified control opinion. This assurance is dated and does not erase the historical material weakness or create a 2021 ICFR opinion.",
+      "evidence": "05_remediation_annual_report.pdf, financial-statement auditor report - no ICFR opinion; 06_estimate_change_annual_report.pdf, Reports of Independent Registered Public Accounting Firm, including Opinion on Internal Control over Financial Reporting.",
+      "residual_evidence": "The auditor's detailed control-testing workpapers and any scope exclusions, if reliance beyond the public opinion is planned.",
+      "audit_response": "Verify the opinion date, entity and framework scope, read the basis and limitations, and obtain relevant auditor communications before placing planned reliance on specific revenue controls."
+    },
+    {
+      "finding_id": "RR-12A",
+      "topic": "Classification and chronology of the 2022 paying-user-life changes",
+      "conclusion": "SUPPORTED AS CHANGES IN ACCOUNTING ESTIMATE - the durable-item life estimate moved from 23 months to 25 months and then 28 months during 2022.",
+      "accounting_effect": "The longer estimate slows recognition of durable-item deferred revenue and the associated deferred processing costs on a prospective estimate basis.",
+      "rationale": "The annual report labels the matter a change in accounting estimate, links the measure to quarterly cohort reassessment, and gives the two sequential 2022 updates. Nothing in the supplied later record characterizes these updates as another performance-obligation error or accounting-principle change.",
+      "evidence": "06_estimate_change_annual_report.pdf, MD&A - Change in Accounting Estimate and Note 1 - Revenue Recognition.",
+      "residual_evidence": "Quarterly governance, cohort data, qualitative-factor support, change thresholds, prospective application, and evidence separating estimate updates from error correction.",
+      "audit_response": "Inspect each quarterly estimate memo and approval, reperform cohort calculations at 23, 25, and 28 months, test prospective application, and evaluate whether new information supports estimate rather than error classification."
+    },
+    {
+      "finding_id": "RR-12B",
+      "topic": "Recognized financial-statement effect of the 2022 life-estimate changes",
+      "conclusion": "SUPPORTED AS A REPORTED CURRENT-PERIOD EFFECT - the estimate changes decreased 2022 revenue by $344.9 million and cost of revenue by $79.3 million.",
+      "accounting_effect": "The net reported effect reduced 2022 gross profit by $265.6 million while extending the release of related deferred revenue and deferred cost balances.",
+      "rationale": "MD&A and Note 1 present the revenue and cost effects using the December 31, 2021 carrying amounts. The cost effect follows the related durable-item revenue pattern rather than being evaluated independently of the revised service period.",
+      "evidence": "06_estimate_change_annual_report.pdf, MD&A - Change in Accounting Estimate and Note 1 - Revenue Recognition.",
+      "residual_evidence": "The estimate-change rollforward by cohort and item population, journal entries, deferred-balance tie-out, tax effects, and prospective release schedule.",
+      "audit_response": "Reperform the estimate-change model, reconcile the $344.9 million revenue and $79.3 million cost effects to journal entries and deferred balances, and test prospective release and presentation."
+    },
+    {
+      "finding_id": "RR-12C",
+      "topic": "Scope of the paying-user-life estimate within the continuing item policy",
+      "conclusion": "SUPPORTED - the later annual reports continue to apply user life only to durable items, while consumable-item revenue remains recognized at consumption.",
+      "accounting_effect": "The 2022 estimate changes affect durable-item revenue and related deferred costs; they do not reinstate the superseded uniform user-life model for all virtual items.",
+      "rationale": "The later notes retain separate consumable and durable definitions and patterns, and describe paying-user life as the estimate of durable-item availability. MD&A shorthand about revenue over user life or consumption must be read with that item-specific policy.",
+      "evidence": "04_issued_filing.htm, 05_remediation_annual_report.pdf, and 06_estimate_change_annual_report.pdf, Note 1 - Revenue Recognition; 06_estimate_change_annual_report.pdf, Change in Accounting Estimate.",
+      "residual_evidence": "Controls proving the life change was applied only to durable populations and that consumable event-driven release remained unaffected.",
+      "audit_response": "Trace the estimate-change population to durable-item classifications, inspect model filters, and test that consumable transactions continued to release at verified consumption events."
+    },
+    {
+      "finding_id": "RR-13A",
+      "topic": "Critical-audit-matter identification of the two revenue estimates",
+      "conclusion": "SUPPORTED - the 2022 auditor report identifies customer life and remaining-population allocation as separate high-judgment components of the revenue-recognition critical audit matter.",
+      "accounting_effect": "Both the durable-item release period and the consumable-versus-durable allocation remain significant estimation risks despite effective overall ICFR.",
+      "rationale": "The critical audit matter names the two estimates separately and explains that their complexity required a high degree of auditor judgment and increased effort. An effective-control opinion does not remove their inherent estimation risk.",
+      "evidence": "06_estimate_change_annual_report.pdf, Report of Independent Registered Public Accounting Firm - Critical Audit Matter, Revenue Recognition.",
+      "residual_evidence": "The auditor's risk assessment, materiality, scoping, specialist involvement, significant findings, and audit-committee communications.",
+      "audit_response": "Align the current audit plan to both estimate risks, inspect the CAM-related risk assessment and findings, and confirm that procedures and review evidence address each estimate separately."
+    },
+    {
+      "finding_id": "RR-13B",
+      "topic": "Auditor procedures described for the customer-life estimate",
+      "conclusion": "SUPPORTED AS DESCRIBED AUDIT COVERAGE, NOT A STANDALONE ESTIMATE OPINION - the 2022 CAM reports testing of data, calculations, trends, and qualitative factors.",
+      "accounting_effect": "The public description corroborates that the durable-life estimate received focused audit work but does not replace the underlying workpapers or create separate assurance on 28 months.",
+      "rationale": "The CAM says the auditor tested historical monthly retention data for accuracy and completeness, mathematical accuracy of projections, and qualitative factors using competitor information and recent cohort trends. The overall financial-statement opinion remains the assurance conclusion.",
+      "evidence": "06_estimate_change_annual_report.pdf, Report of Independent Registered Public Accounting Firm - How the Critical Audit Matter Was Addressed, customer-life procedures.",
+      "residual_evidence": "Test populations, exceptions, competitor-data relevance, sensitivity, retrospective review, reviewer sign-off, and the auditor's final estimate conclusion.",
+      "audit_response": "Obtain or inspect the detailed customer-life workpapers, reperform key data and model tests, evaluate exceptions and sensitivity, and reconcile the work to the overall audit conclusion."
+    },
+    {
+      "finding_id": "RR-13C",
+      "topic": "Auditor procedures described for the remaining-population allocation",
+      "conclusion": "SUPPORTED AS DESCRIBED AUDIT COVERAGE, NOT A STANDALONE ALLOCATION OPINION - the 2022 CAM reports classification, calculation, similarity, and application tests.",
+      "accounting_effect": "The public description corroborates focused work over the estimate that allocates unclassified purchases between consumable and durable patterns, but does not itself prove population completeness or representativeness.",
+      "rationale": "The CAM says the auditor sampled purchased and platform items, tested the known-population percentages, compared known and unknown population composition, and tested application to the remainder. These are different procedures from the customer-life model work.",
+      "evidence": "06_estimate_change_annual_report.pdf, Report of Independent Registered Public Accounting Firm - How the Critical Audit Matter Was Addressed, remaining-population procedures.",
+      "residual_evidence": "Population reconciliations, sample selections, exception evaluation, similarity thresholds, bias analysis, calculation workpapers, and reviewer conclusions.",
+      "audit_response": "Inspect the allocation workpapers, test population completeness and samples, reperform percentage application, challenge similarity and bias, and evaluate all exceptions and review controls."
+    }
+  ],
+  "weights": {
+    "RR-01": 0.03333333333333333,
+    "RR-01A": 0.03333333333333333,
+    "RR-01B": 0.03333333333333333,
+    "RR-01C": 0.03333333333333333,
+    "RR-02": 0.03333333333333333,
+    "RR-03": 0.03333333333333333,
+    "RR-03A": 0.03333333333333333,
+    "RR-04": 0.03333333333333333,
+    "RR-05": 0.03333333333333333,
+    "RR-06": 0.03333333333333333,
+    "RR-07": 0.03333333333333333,
+    "RR-08A": 0.03333333333333333,
+    "RR-08C": 0.03333333333333333,
+    "RR-08B": 0.03333333333333333,
+    "RR-09": 0.03333333333333333,
+    "RR-09B": 0.03333333333333333,
+    "RR-09C": 0.03333333333333333,
+    "RR-10A": 0.03333333333333333,
+    "RR-10B": 0.03333333333333333,
+    "RR-11A": 0.03333333333333333,
+    "RR-11B": 0.03333333333333333,
+    "RR-11C": 0.03333333333333333,
+    "RR-11D": 0.03333333333333333,
+    "RR-11E": 0.03333333333333333,
+    "RR-12A": 0.03333333333333333,
+    "RR-12B": 0.03333333333333333,
+    "RR-12C": 0.03333333333333333,
+    "RR-13A": 0.03333333333333333,
+    "RR-13B": 0.03333333333333333,
+    "RR-13C": 0.03333333333333333
+  },
+  "source_sha256": {
+    "01_staff_comment.pdf": "9f12ef8eaa71aa3618763975d176062b94c6ea99bfd4c3717859d768aa3dab06",
+    "02_company_response.htm": "b4e31b56fcc9c1665d7e1eb4ad04f1a897156baf3984e05438bb2c78e1a7d415",
+    "03_amended_registration_statement.htm": "88ef24b357aa0515be1fd5d98789421c641afdf6a79d89ffa0ed643a44d18f48",
+    "04_issued_filing.htm": "11b3fccdcc8c112768795ad1ccaf0445d7bad47e8928e40e325ab5c7ab97ba2e",
+    "05_remediation_annual_report.pdf": "d4c1649215ebfe87f6046fc56b103198be6b9f2f300dfa1666403fed39c3d871",
+    "06_estimate_change_annual_report.pdf": "304b3af964bf3a7d33350469d034f3b04c937f93e6b47cc906cef998fcdee45c",
+    "review_template.csv": "32ee72305f383fed86a9f33ac1fe29133f9607df0c3402696dcc0f39150bf7ab"
+  },
+  "reward_formulas": {
+    "strict": "integrity_gate * sum(issue_weight * evidence_state_score)",
+    "lenient": "1 if usable_traceable_issue_ledger else 0"
+  }
+}

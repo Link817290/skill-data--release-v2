@@ -1,0 +1,41 @@
+{
+  "criteria_values": {
+    "derivation": "Values, per-end task conditions, source conflict, and input hashes were derived from the supplied instruction and criteria PDFs by scoped table extraction and figure OCR.",
+    "expected_values": {
+      "apz_end_width": 152.4,
+      "apz_length": 243.84,
+      "apz_start_width": 81.38,
+      "clear_zone_end_width": 81.38,
+      "clear_zone_length": 121.92,
+      "clear_zone_start_width": 45.72,
+      "east_chapi_guide_angle": 6.0,
+      "figure_adjustment_terminal_m": 42.72,
+      "legacy_adcs_end_width": 152.4,
+      "legacy_adcs_length": 365.76,
+      "legacy_adcs_slope": 8.0,
+      "legacy_apz_width": 45.72,
+      "legacy_clear_zone_width": 45.72,
+      "normal_chapi_end_width": 278.9,
+      "normal_chapi_glide_angle": 6.0,
+      "normal_chapi_length": 749.82,
+      "normal_chapi_slope": 16.4,
+      "pad_size": 30.0,
+      "primary_size": 45.72,
+      "table_terminal_elevation_m": 45.72,
+      "west_chapi_guide_angle": 8.0
+    },
+    "expert_judgments": {
+      "basis": "The supplied figure requires adjustment from the lowest on-course visual signal but does not state that signal angle, and its metric terminal elevation conflicts with Table 4-7 item 11 for the same reference-unit value.",
+      "evidence": [
+        "current_airfield_criteria.pdf, printed page 106, Figure 4-9a, Notes 3 and 6",
+        "current_airfield_criteria.pdf, printed page 123, Table 4-7, item 11"
+      ],
+      "west_chapi_numeric_boundary": "unresolved design hold"
+    },
+    "locked_inputs": {
+      "current_airfield_criteria.pdf": "6c86cb24c3690d848156852b75631306a7bedc24c1c8ee718c6ad6b58ccdc342",
+      "legacy_airfield_criteria.pdf": "2d15426b0e45bef7def2a7f57c77ba6ea6e839fc88c14f7cacb9409d593bc896"
+    }
+  },
+  "scope": "Only two criterion PDFs supplied, no property/title, land-use control, obstacle survey or site-rights records. East service-specific Figure 4-9a normal 6 degree CHAPI is dimensioned; western non-standard angle has unresolved dependencies."
+}

@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "endpoint": "",
+  "model": "gpt-5.6-sol",
+  "flavor": "openai"
+}

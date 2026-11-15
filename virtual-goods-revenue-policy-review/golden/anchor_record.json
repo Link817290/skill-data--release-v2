@@ -1,0 +1,5 @@
+{
+  "golden_built_from_workspace": true,
+  "source_anchor_validation": "task/solution/reference_solution.py",
+  "ground_truth_derivation": "task/solution/derive_ground_truth.py"
+}

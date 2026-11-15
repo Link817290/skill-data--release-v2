@@ -1,0 +1,144 @@
+{
+  "format": "skill-data-source-v1",
+  "package": "usb_claim_infringement_chart",
+  "tasks": [
+    "usb_claim_infringement_chart"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 33,
+  "bytes_excluding_manifest": 7037110,
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1084,
+      "sha256": "47c90968f36cac9cb70ca710147bddf24d1c739381e934b30d05508aade669dd"
+    },
+    "RUBRIC.md": {
+      "bytes": 10067,
+      "sha256": "67c15fa1b194692579ea60312b012edc9d6369b1d4f738099beb3c04109043df"
+    },
+    "dataset.toml": {
+      "bytes": 416,
+      "sha256": "aedf8debe1b7404fd62a175d0957caec0d2e5405ea5a26f6b3fe68ab529c3259"
+    },
+    "golden/claim_chart.json": {
+      "bytes": 110501,
+      "sha256": "a06dea51f87fede100d8d06381e7da7fe8698b5be46e9913723b0c53605b83e9"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 658,
+      "sha256": "f940f9100252f059b926e767470efeeaf7d9ed9c90a0002d1df0ed15f954e305"
+    },
+    "task/environment/skills/patent-claim-version-triage/SKILL.md": {
+      "bytes": 6317,
+      "sha256": "b30c8f0773173c55f3477376a0f6c40ecaa7d382cdb5959014eaa8a00fcf05b1"
+    },
+    "task/environment/skills/patent-claim-version-triage/references/claim-chart-method.md": {
+      "bytes": 10128,
+      "sha256": "9be85c7a10969bab9e4f1ba8953ebcee9dead7ade7b914bd43aba635f412bb6f"
+    },
+    "task/environment/skills/patent-claim-version-triage/references/claim-chart-quality.md": {
+      "bytes": 5733,
+      "sha256": "29e8de96106fd9bbc8759ab81367db485b8bc65d7727c64b3dc61abd31be2433"
+    },
+    "task/environment/skills/patent-claim-version-triage/references/claim-construction-sensitivity.md": {
+      "bytes": 7847,
+      "sha256": "80d36939ae67fe8d5bec0dbe38919d324e9ba71280479dcf63d59ba71d913875"
+    },
+    "task/environment/skills/patent-claim-version-triage/references/claim-version-control.md": {
+      "bytes": 9546,
+      "sha256": "6e806912e454be9f74e1ee432412159d811cee122812c32ed52245dc14d30c35"
+    },
+    "task/environment/skills/patent-claim-version-triage/scripts/compile_claim_decisions.py": {
+      "bytes": 5918,
+      "sha256": "d86f13f2e94e36283d41e2120df55509b61774f7efd965a5445ac81c9e3645ec"
+    },
+    "task/environment/skills/patent-claim-version-triage/scripts/init_claim_artifact.py": {
+      "bytes": 5503,
+      "sha256": "221bc0144c0b79ae03ae4f237ece500c40a487da30a825fd09f1918a358101e6"
+    },
+    "task/environment/skills/patent-claim-version-triage/scripts/matrix_lint.py": {
+      "bytes": 5574,
+      "sha256": "8ec34e5f645e9a42b8cdb5a8c44a9a62d8a368805f724f5d90fa118f92d61dd7"
+    },
+    "task/environment/workspace/analysis_contract.json": {
+      "bytes": 13826,
+      "sha256": "0bf7b3b061cb2f7f10572b57ff169341a39f01d0a3681aa58af88747e4317b51"
+    },
+    "task/environment/workspace/sources/controller_datasheet.pdf": {
+      "bytes": 253107,
+      "sha256": "97dca387f7fb7b36ab0bbb7b053960643c3a69aac1109368f3062b4bf66157cf"
+    },
+    "task/environment/workspace/sources/issued_patent.pdf": {
+      "bytes": 814872,
+      "sha256": "a1b73f953e802d4673c820d5e97ce6ae018ff35afe1a72b5532c1a25275ea3f7"
+    },
+    "task/environment/workspace/sources/power_delivery_specification.pdf": {
+      "bytes": 1207360,
+      "sha256": "ec977e6605b78b44efd6cf090eab68de0de6232ed0d64df7fb0c113a387d77d6"
+    },
+    "task/environment/workspace/sources/product_guide.pdf": {
+      "bytes": 1374679,
+      "sha256": "a248c6f0d3df603235bc900bfca146801d13739515c828b9ebe444d0c26cba24"
+    },
+    "task/environment/workspace/sources/published_application.pdf": {
+      "bytes": 759606,
+      "sha256": "68a77d0b963506e191ed86e316eb0de3646c653f23055712a174343e658c0cb3"
+    },
+    "task/environment/workspace/sources/reference_design.pdf": {
+      "bytes": 1475294,
+      "sha256": "a2a9a64e8fdb8ca31b4e9f6db891c72107aa8bd83490380193cdbc063d23ae03"
+    },
+    "task/environment/workspace/sources/type_c_specification.pdf": {
+      "bytes": 844307,
+      "sha256": "b9ce81bfd65e7b45a320943cdb8ea3cea466f702be3555998e47f245626ef9cf"
+    },
+    "task/instruction.md": {
+      "bytes": 1353,
+      "sha256": "01b100d6ca915d8c8ceddcf9bc195bb995acc180d908ef2d8a46b57ffb0ac1c8"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 183,
+      "sha256": "65e89d69c285fa1c96b3f35916b8e0a0375fa80a047910b292f6b1e2513f6c59"
+    },
+    "task/task.toml": {
+      "bytes": 1195,
+      "sha256": "ebf086d91389180d2d095180cc1942c9556202517fd2ad28f7e0287e95a2e0b0"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1110,
+      "sha256": "8a37cfb8c577636385e263e0e168a68449296c9996e4d67df63ce68d6a357ed4"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 27755,
+      "sha256": "c2c74303a00aaa7d6c6c9ace31a166b6b94f7fd86038029320045482745c49c4"
+    },
+    "task/tests/mix_judge/apply_semantic.py": {
+      "bytes": 2800,
+      "sha256": "55d2ff1ccc338d8890f2157345c2cc53b114e452393aaaffeaa7700d4041721b"
+    },
+    "task/tests/mix_judge/semantic_cache/352b3bd40323b06579a9d357b788586f7b6a46d1a4bb0e0b248d7f386289d2e4.json": {
+      "bytes": 3024,
+      "sha256": "04d635b795e0e9842020a011edc9ca9918696f589db957d71b533dd87daacabf"
+    },
+    "task/tests/mix_judge/semantic_contract.json": {
+      "bytes": 1093,
+      "sha256": "30c5324293acea445a120b10c6b7998ee3d49f9eb05699e774e0179ec10485e7"
+    },
+    "task/tests/mix_judge/semantic_live.py": {
+      "bytes": 7906,
+      "sha256": "9b4eb8b94b111efad10533709205ab6159d9e0ea1198145741cd22623aec7efd"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 384,
+      "sha256": "d5f75ce0ef18ced829aa348cb845b057f7106e1a8d55015048627341fbf0e36e"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1526,
+      "sha256": "4134a213acf7033b563dbface24807965a895bbfc32c61eee75291c775b70701"
+    },
+    "task/tests/validator.py": {
+      "bytes": 66438,
+      "sha256": "b32e596fb37324fd341db9d98b9d7a0560e7ba43578cb773e2cda1b597ad0023"
+    }
+  }
+}

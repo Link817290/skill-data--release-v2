@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "P09",
+      "fraction": 1,
+      "quotes": [
+        "    \"Obstacle penetrations and property or land-use control cannot be verified without site records.\","
+      ],
+      "reason": "The report keeps property or land-use control open because the supplied record has no site records."
+    },
+    {
+      "id": "EAST_HOLD",
+      "fraction": 0,
+      "quotes": [],
+      "reason": "The report resolves the fully dimensioned east normal CHAPI surface without an authority hold."
+    }
+  ]
+}

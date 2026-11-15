@@ -1,0 +1,1300 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "bench-final-score-shape-local-chain-v1",
+  "scoring_formula": "additive-positive-local-chain-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "life-insurance-channel-outlook-local-chain-20261020",
+  "task_mode": "generation_analysis",
+  "positive_items": [
+    {
+      "id": "P01",
+      "weight": 0.01,
+      "title": "Historical same-basis growth",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Historical same-basis growth",
+      "source_location": "Audited local Materials and Gold: G-P03-U05, G-P03-U08, G-P03-U10",
+      "relation_predicate": "Compute annual income, assets and profit growth from the respective 2024/2025 pairs, with metric, years, units and direction intact.",
+      "golden_object_key": "Historical same-basis growth",
+      "golden_relation_predicate": "Compute annual income, assets and profit growth from the respective 2024/2025 pairs, with metric, years, units and direction intact.",
+      "golden_unit_ids": [
+        "G-P03-U05",
+        "G-P03-U08",
+        "G-P03-U10"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "All independent checks match the complete relation with object, period, unit and adoption intact",
+      "partial": "Arithmetic mean of the predeclared independent relation checks; no fractional keyword matches",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P02",
+      "weight": 0.105,
+      "title": "Measurement boundaries",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Measurement boundaries",
+      "source_location": "Audited local Materials and Gold: G-P02-U02, G-P02-U03",
+      "relation_predicate": "Explain why signed premiums and accounting income/channel classes cannot be treated as one series, and why new-basis balance-sheet/profit data are not a same-basis annual comparison.",
+      "golden_object_key": "Measurement boundaries",
+      "golden_relation_predicate": "Explain why signed premiums and accounting income/channel classes cannot be treated as one series, and why new-basis balance-sheet/profit data are not a same-basis annual comparison.",
+      "golden_unit_ids": [
+        "G-P02-U02",
+        "G-P02-U03"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "All independent checks match the complete relation with object, period, unit and adoption intact",
+      "partial": "Arithmetic mean of the predeclared independent relation checks; no fractional keyword matches",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P03",
+      "weight": 0.01,
+      "title": "Capital uplift and headroom",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Capital uplift and headroom",
+      "source_location": "Audited local Materials and Gold: G-P05-U19, G-P05-U20, G-P05-U21, G-P05-U22, G-P05-U23, G-P05-U24, G-P07-U33, G-P07-U34, G-P07-U35",
+      "relation_predicate": "Relate H1 capital adequacy to Q1 through percentage-point changes and distinguish Q3 company forecasts from actuals.",
+      "golden_object_key": "Capital uplift and headroom",
+      "golden_relation_predicate": "Relate H1 capital adequacy to Q1 through percentage-point changes and distinguish Q3 company forecasts from actuals.",
+      "golden_unit_ids": [
+        "G-P05-U19",
+        "G-P05-U20",
+        "G-P05-U21",
+        "G-P05-U22",
+        "G-P05-U23",
+        "G-P05-U24",
+        "G-P07-U33",
+        "G-P07-U34",
+        "G-P07-U35"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "All independent checks match the complete relation with object, period, unit and adoption intact",
+      "partial": "Arithmetic mean of the predeclared independent relation checks; no fractional keyword matches",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P04",
+      "weight": 0.01,
+      "title": "Product and renewal structure",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Product mix and growth",
+      "source_location": "Audited local Materials and Gold: G-P05-U19, G-P05-U20, G-P05-U21, G-P05-U22, G-P05-U23, G-P05-U24",
+      "relation_predicate": "Derive participating and health shares and participating growth, and derive the annual renewal share without attributing the company total to personal channels.",
+      "golden_object_key": "Product mix and growth",
+      "golden_relation_predicate": "Derive participating and health shares and participating growth, and derive the annual renewal share without attributing the company total to personal channels.",
+      "golden_unit_ids": [
+        "G-P05-U19",
+        "G-P05-U20",
+        "G-P05-U21",
+        "G-P05-U22",
+        "G-P05-U23",
+        "G-P05-U24"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "All product-mix checks and the annual renewal-share boundary are complete",
+      "partial": "Arithmetic mean of the four predeclared product and renewal checks",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P05",
+      "weight": 0.01,
+      "title": "First-year premium growth",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Payment mix and renewal base",
+      "source_location": "Audited local Materials and Gold: G-P05-U19, G-P05-U20, G-P05-U21, G-P05-U22, G-P05-U23, G-P05-U24",
+      "relation_predicate": "Derive the 2025 first-year premium growth from the 2024 and 2025 annual amounts, with metric, years, direction and units intact.",
+      "golden_object_key": "Payment mix and renewal base",
+      "golden_relation_predicate": "Derive the 2025 first-year premium growth from the 2024 and 2025 annual amounts, with metric, years, direction and units intact.",
+      "golden_unit_ids": [
+        "G-P05-U19",
+        "G-P05-U20",
+        "G-P05-U21",
+        "G-P05-U22",
+        "G-P05-U23",
+        "G-P05-U24"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "The bound first-year premium growth relation is complete",
+      "partial": "No partial credit; the complete bound relation is either present or absent",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P06",
+      "weight": 0.01,
+      "title": "Channel actuals and measurement boundaries",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Personal channel seasonality",
+      "source_location": "Audited local Materials and Gold: G-P09-U37 through G-P12-U59",
+      "relation_predicate": "Reconcile the five channels' Q1, Q2 and H1 signed premiums and quarter-on-quarter directions; include the supported historical bank/post and intermediary comparisons while preserving the annual-report versus signed-premium measurement boundary.",
+      "golden_object_key": "Personal channel seasonality",
+      "golden_relation_predicate": "Reconcile the five channels' Q1, Q2 and H1 signed premiums and quarter-on-quarter directions; include the supported historical bank/post and intermediary comparisons while preserving the annual-report versus signed-premium measurement boundary.",
+      "golden_unit_ids": [
+        "G-P09-U37",
+        "G-P09-U38",
+        "G-P09-U39",
+        "G-P10-U40",
+        "G-P10-U41",
+        "G-P10-U42",
+        "G-P10-U43",
+        "G-P10-U44",
+        "G-P11-U45",
+        "G-P11-U46",
+        "G-P11-U47",
+        "G-P11-U48",
+        "G-P11-U49",
+        "G-P11-U50",
+        "G-P11-U51",
+        "G-P11-U52",
+        "G-P11-U53",
+        "G-P12-U54",
+        "G-P12-U55",
+        "G-P12-U56",
+        "G-P12-U57",
+        "G-P12-U58",
+        "G-P12-U59"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "Original-weighted completion of all component channel relations",
+      "partial": "Original-weighted mean of the predeclared component checks",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P10",
+      "weight": 0.12,
+      "title": "Channel forecasts and total reconciliation",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Assumption-bound channel forecasts",
+      "source_location": "Audited local Materials and Gold: G-P10-U40 through G-P13-U61",
+      "relation_predicate": "Provide assumption-bound 2026 and 2027 forecasts for all five channels, reconcile their intervals to feasible company totals, and calculate total growth against the 2025 signed-premium base.",
+      "golden_object_key": "Assumption-bound channel forecasts",
+      "golden_relation_predicate": "Provide assumption-bound 2026 and 2027 forecasts for all five channels, reconcile their intervals to feasible company totals, and calculate total growth against the 2025 signed-premium base.",
+      "golden_unit_ids": [
+        "G-P10-U40",
+        "G-P10-U41",
+        "G-P10-U42",
+        "G-P10-U43",
+        "G-P10-U44",
+        "G-P11-U45",
+        "G-P11-U46",
+        "G-P11-U47",
+        "G-P11-U48",
+        "G-P11-U49",
+        "G-P11-U50",
+        "G-P11-U51",
+        "G-P11-U52",
+        "G-P11-U53",
+        "G-P12-U54",
+        "G-P12-U55",
+        "G-P12-U56",
+        "G-P12-U57",
+        "G-P12-U58",
+        "G-P12-U59",
+        "G-P13-U60",
+        "G-P13-U61"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "Original-weighted completion of forecasts and both reconciliation checks",
+      "partial": "Original-weighted mean of the predeclared forecast and reconciliation checks",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P12",
+      "weight": 0.01,
+      "title": "Causal risks and response",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Causal risks and response",
+      "source_location": "Audited local Materials and Gold: G-P06-U25, G-P06-U26, G-P06-U27, G-P06-U28, G-P06-U29, G-P06-U30, G-P06-U31, G-P06-U32, G-P07-U33, G-P07-U34, G-P07-U35, G-P13-U60, G-P13-U61",
+      "relation_predicate": "Connect interest-rate/duration mismatch, agent capacity and channel compliance evidence to business consequences and proportionate responses, with no mandatory unsupported industry ranking.",
+      "golden_object_key": "Causal risks and response",
+      "golden_relation_predicate": "Connect interest-rate/duration mismatch, agent capacity and channel compliance evidence to business consequences and proportionate responses, with no mandatory unsupported industry ranking.",
+      "golden_unit_ids": [
+        "G-P06-U25",
+        "G-P06-U26",
+        "G-P06-U27",
+        "G-P06-U28",
+        "G-P06-U29",
+        "G-P06-U30",
+        "G-P06-U31",
+        "G-P06-U32",
+        "G-P07-U33",
+        "G-P07-U34",
+        "G-P07-U35",
+        "G-P13-U60",
+        "G-P13-U61"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "All independent checks match the complete relation with object, period, unit and adoption intact",
+      "partial": "Arithmetic mean of the predeclared independent relation checks; no fractional keyword matches",
+      "zero": "No complete adopted relation; missing/ambiguous/unparsed evidence",
+      "copy_counterfactual": "Raw disclosure extraction lacks the report-level calculation, scope decision or assumption; headings and token lists contain no adopted relationship."
+    },
+    {
+      "id": "P13",
+      "weight": 0.01,
+      "title": "Regulatory solvency thresholds",
+      "scope": "One coherent metric paragraph, channel section or forecast table; no cross-topic token union",
+      "object_key": "Regulatory solvency thresholds",
+      "source_location": "Audited Gold: G-P07-U35",
+      "relation_predicate": "Correctly state both regulatory minima: core solvency 50% and comprehensive solvency 100%.",
+      "golden_object_key": "Regulatory solvency thresholds",
+      "golden_relation_predicate": "Correctly state both regulatory minima: core solvency 50% and comprehensive solvency 100%.",
+      "golden_unit_ids": [
+        "G-P07-U35"
+      ],
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {
+        "locator": "PDF page/line bounded paragraph or channel section",
+        "metric": "normalized_characters",
+        "max_units": 2400
+      },
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "full": "Both minima are correctly stated and bound to their respective core and comprehensive ratios.",
+      "partial": "No partial credit: this is a conjunctive regulatory control.",
+      "zero": "Either minimum is absent, misstated or bound to the wrong ratio.",
+      "copy_counterfactual": "Current solvency ratios and generic capital-headroom language do not supply the two regulatory minima."
+    },
+    {
+      "id": "C01",
+      "weight": 0.40,
+      "title": "Channel outlook integrity chain",
+      "scope": "One coherent channel actuals and forecast section",
+      "object_key": "Channel outlook integrity",
+      "source_location": "Audited local Materials and Gold: channel actuals, basis boundary, forecast",
+      "relation_predicate": "Connect measurement boundaries, channel actuals and assumption-bound forecasts as one local business outcome.",
+      "golden_object_key": "Channel outlook integrity",
+      "golden_relation_predicate": "Connect measurement boundaries, channel actuals and assumption-bound forecasts as one local business outcome.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {"locator": "PDF page/line bounded paragraph or channel section", "metric": "normalized_characters", "max_units": 2400},
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": ["object", "source_or_evidence_anchor", "relation", "polarity", "modality", "time_or_version_scope", "units_or_quantities", "conditions_or_exceptions", "adoption_status", "downstream_consequence"],
+      "full": "All three local channel owners are complete.",
+      "partial": "Arithmetic mean of the three local channel owners.",
+      "zero": "No complete adopted local channel outcome.",
+      "copy_counterfactual": "A topic list without a coherent channel conclusion earns no chain credit."
+    },
+    {
+      "id": "C02",
+      "weight": 0.08,
+      "title": "Signed premium forecast chain",
+      "scope": "One coherent channel forecast section",
+      "object_key": "Signed premium forecast chain",
+      "source_location": "Audited local Materials and Gold: signed-premium channel base and forecast",
+      "relation_predicate": "Bind channel actuals to the signed-premium forecast baseline.",
+      "golden_object_key": "Signed premium forecast chain",
+      "golden_relation_predicate": "Bind channel actuals to the signed-premium forecast baseline.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {"locator": "PDF page/line bounded paragraph or channel section", "metric": "normalized_characters", "max_units": 2400},
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": ["object", "source_or_evidence_anchor", "relation", "polarity", "modality", "time_or_version_scope", "units_or_quantities", "conditions_or_exceptions", "adoption_status", "downstream_consequence"],
+      "full": "The signed-premium baseline and forecast are jointly bound.",
+      "partial": "The local forecast chain is partially complete.",
+      "zero": "No complete adopted signed-premium forecast chain.",
+      "copy_counterfactual": "A scale-premium trend without a signed-premium baseline earns no chain credit."
+    },
+    {
+      "id": "C03",
+      "weight": 0.225,
+      "title": "Capital headroom chain",
+      "scope": "One coherent solvency section",
+      "object_key": "Capital headroom chain",
+      "source_location": "Audited local Materials and Gold: H1 uplift and regulatory minima",
+      "relation_predicate": "Connect H1 capital uplift to the two correctly bound regulatory minima.",
+      "golden_object_key": "Capital headroom chain",
+      "golden_relation_predicate": "Connect H1 capital uplift to the two correctly bound regulatory minima.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "An affirmative author-adopted conclusion; identified alternatives are not adopted conclusions",
+      "negative_context_exclusions": "Exclude quoted, negated, rejected, mutually exclusive and unresolved candidate claims",
+      "length_contract_id": "coherent-local-span",
+      "evidence_span": {"locator": "PDF page/line bounded paragraph or solvency section", "metric": "normalized_characters", "max_units": 2400},
+      "self_report_fields_are_non_authoritative": true,
+      "equivalence_dimensions": ["object", "source_or_evidence_anchor", "relation", "polarity", "modality", "time_or_version_scope", "units_or_quantities", "conditions_or_exceptions", "adoption_status", "downstream_consequence"],
+      "full": "Both local capital owners are complete.",
+      "partial": "Weighted completion: 80% H1 current/forecast solvency analysis and 20% correctly bound regulatory-minimum context.",
+      "zero": "No complete adopted capital headroom outcome.",
+      "copy_counterfactual": "Copied current ratios without report-level uplift or headroom analysis do not complete the primary 80% owner; copied thresholds alone complete at most the 20% context owner."
+    }
+  ],
+  "positive_chain_items": {
+    "description": "Local source-supported chains are explicit weighted outcomes; they do not replace direct owner credit.",
+    "damage_scope": "Each adopted error affects only the channel, signed-forecast, or capital chain whose business conclusion depends on it.",
+    "global_score_shape": "No global gamma, power, or damage multiplier."
+  },
+  "deduction_items": [
+    {
+      "id": "D01",
+      "trigger": "A bound historical growth/share/quarter calculation contradicts the supplied numeric pair",
+      "damage_basis": "An incorrect comparison distorts channel prioritisation or financial growth.",
+      "scope": "Affirmative adopted local proposition or complete forecast table",
+      "object_key": "D01",
+      "source_location": "Material page facts, equations, and adjacent final Gold text corrections",
+      "error_predicate": "A bound historical growth/share/quarter calculation contradicts the supplied numeric pair",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Omission, quotation, negation, hypothesis, rejected values, estimates and errata excluded",
+      "causal_root_rule": "Bound metric, period and comparison or forecast table",
+      "damage_instance_key_rule": "One metric-period false conclusion; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D02",
+      "trigger": "The H1 cumulative total or channel amount is affirmatively labelled Q2 single-quarter",
+      "damage_basis": "Period inflation distorts size, seasonality and forecasts.",
+      "scope": "Affirmative adopted local proposition or complete forecast table",
+      "object_key": "D02",
+      "source_location": "Material page facts, equations, and adjacent final Gold text corrections",
+      "error_predicate": "The H1 cumulative total or channel amount is affirmatively labelled Q2 single-quarter",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Omission, quotation, negation, hypothesis, rejected values, estimates and errata excluded",
+      "causal_root_rule": "Bound metric, period and comparison or forecast table",
+      "damage_instance_key_rule": "One metric-period false conclusion; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D03",
+      "trigger": "The company-wide H1 renewal premium 24.65亿元 is adopted as personal-channel renewal premium",
+      "damage_basis": "The channel forecast is supported by a renewal base larger than the entire channel.",
+      "scope": "Affirmative adopted local proposition or complete forecast table",
+      "object_key": "D03",
+      "source_location": "Material page facts, equations, and adjacent final Gold text corrections",
+      "error_predicate": "The company-wide H1 renewal premium 24.65亿元 is adopted as personal-channel renewal premium",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Omission, quotation, negation, hypothesis, rejected values, estimates and errata excluded",
+      "causal_root_rule": "Bound metric, period and comparison or forecast table",
+      "damage_instance_key_rule": "One metric-period false conclusion; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D04",
+      "trigger": "An explicitly same-basis 2026 versus 2025 profit/equity/assets growth claim ignores the changed accounting basis",
+      "damage_basis": "The financial outlook is built on a non-comparable growth series.",
+      "scope": "Affirmative adopted local proposition or complete forecast table",
+      "object_key": "D04",
+      "source_location": "Material page facts, equations, and adjacent final Gold text corrections",
+      "error_predicate": "An explicitly same-basis 2026 versus 2025 profit/equity/assets growth claim ignores the changed accounting basis",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Omission, quotation, negation, hypothesis, rejected values, estimates and errata excluded",
+      "causal_root_rule": "Bound metric, period and comparison or forecast table",
+      "damage_instance_key_rule": "One metric-period false conclusion; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D05",
+      "trigger": "A 2025 internet premium is presented as a disclosed actual, or a 2027 forecast as already realised",
+      "damage_basis": "Invented disclosures or future actuals are used as evidence.",
+      "scope": "Affirmative adopted local proposition or complete forecast table",
+      "object_key": "D05",
+      "source_location": "Material page facts, equations, and adjacent final Gold text corrections",
+      "error_predicate": "A 2025 internet premium is presented as a disclosed actual, or a 2027 forecast as already realised",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Omission, quotation, negation, hypothesis, rejected values, estimates and errata excluded",
+      "causal_root_rule": "Bound metric, period and comparison or forecast table",
+      "damage_instance_key_rule": "One metric-period false conclusion; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D06",
+      "trigger": "An adopted regulatory core minimum of 150% contradicts the 50% correction",
+      "damage_basis": "Capital headroom is mismeasured; rejected original chart annotations are excluded.",
+      "scope": "Affirmative adopted local proposition or complete forecast table",
+      "object_key": "D06",
+      "source_location": "Material page facts, equations, and adjacent final Gold text corrections",
+      "error_predicate": "An adopted regulatory core minimum of 150% contradicts the 50% correction",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Omission, quotation, negation, hypothesis, rejected values, estimates and errata excluded",
+      "causal_root_rule": "Bound metric, period and comparison or forecast table",
+      "damage_instance_key_rule": "One metric-period false conclusion; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D07",
+      "trigger": "A complete adopted five-channel forecast table has no feasible overlap with its total",
+      "damage_basis": "The report contains mutually infeasible channel and company forecasts.",
+      "scope": "Affirmative adopted local proposition or complete forecast table",
+      "object_key": "D07",
+      "source_location": "Material page facts, equations, and adjacent final Gold text corrections",
+      "error_predicate": "A complete adopted five-channel forecast table has no feasible overlap with its total",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Omission, quotation, negation, hypothesis, rejected values, estimates and errata excluded",
+      "causal_root_rule": "Bound metric, period and comparison or forecast table",
+      "damage_instance_key_rule": "One metric-period false conclusion; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D08",
+      "trigger": "A 2025 annual-report sales-method share and a 2026 or 2027 signed-premium channel share are adopted as one continuous trend",
+      "damage_basis": "The report turns incompatible measurement bases and channel populations into a quantitative channel-share movement.",
+      "scope": "Affirmative adopted cross-period channel-share conclusion",
+      "object_key": "D08",
+      "source_location": "Gold data-basis section and channel comparison notes",
+      "error_predicate": "A personal-channel share is said to move from the 2025 annual-report share to a 2026 or 2027 signed-premium share without an explicit non-comparability limitation",
+      "adoption_status": "Explicit adopted assertion only",
+      "negative_context_exclusions": "Separate displays, directional references with an explicit basis limitation, uncertainty, and rejected comparisons are excluded",
+      "causal_root_rule": "Bind the two share endpoints and the asserted movement",
+      "damage_instance_key_rule": "One cross-basis channel-share trend; repeated manifestations share the key",
+      "manifestation_rule": "Stable PDF page and character offset for each adopted false assertion",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D09",
+      "trigger": "Scale-premium growth is treated as signed-premium growth to derive a historical signed-premium baseline, seasonality or forecast.",
+      "damage_basis": "The report substitutes a broader disclosed growth metric for signed-premium growth and adopts downstream historical or forecast quantities from that substitution.",
+      "scope": "Affirmative adopted backsolve or approximation using the 12.60% scale-premium growth disclosure or its 1.126 factor",
+      "object_key": "D09",
+      "source_location": "Gold measurement-boundary discussion and frozen-output semantic audit",
+      "error_predicate": "Bind scale-premium growth 12.60% or factor 1.126 to signed premium and an adopted backsolve such as 2025H1 32.26亿元, H2/H1 0.917, or an explicitly derived forecast.",
+      "adoption_status": "Explicit adopted calculation, including one labelled as an assumption; rejected or unused substitutions are excluded.",
+      "negative_context_exclusions": "Warnings that the metrics differ, without adopting the backsolve downstream, and explicitly rejected calculations are excluded.",
+      "causal_root_rule": "Bind the cross-metric substitution to the historical baseline or downstream seasonality/forecast.",
+      "damage_instance_key_rule": "One scale-growth-as-signed-baseline error; repeated downstream manifestations share the key.",
+      "manifestation_rule": "Stable PDF page and character offset for the adopted substitution.",
+      "length_contract_id": "coherent-local-span",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "G-P02-U01",
+      "item_ids": [],
+      "disposition": "not_scored"
+    },
+    {
+      "unit_id": "G-P02-U02",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P02-U03",
+      "item_ids": [
+        "P02"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P02-U04",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P03-U05",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P03-U06",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P03-U07",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P03-U08",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P03-U09",
+      "item_ids": [],
+      "disposition": "not_scored"
+    },
+    {
+      "unit_id": "G-P03-U10",
+      "item_ids": [
+        "P01"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P03-U11",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P03-U12",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P03-U13",
+      "item_ids": [],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P03-U14",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P03-U15",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P04-U16",
+      "item_ids": [],
+      "disposition": "not_scored"
+    },
+    {
+      "unit_id": "G-P04-U17",
+      "item_ids": [],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P04-U18",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P05-U19",
+      "item_ids": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P05-U20",
+      "item_ids": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P05-U21",
+      "item_ids": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P05-U22",
+      "item_ids": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P05-U23",
+      "item_ids": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P05-U24",
+      "item_ids": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P06-U25",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P06-U26",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P06-U27",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P06-U28",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P06-U29",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "not_scored"
+    },
+    {
+      "unit_id": "G-P06-U30",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P06-U31",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P06-U32",
+      "item_ids": [
+        "P12"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P07-U33",
+      "item_ids": [
+        "P03",
+        "P12"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P07-U34",
+      "item_ids": [
+        "P03",
+        "P12"
+      ],
+      "disposition": "warning_only"
+    },
+    {
+      "unit_id": "G-P07-U35",
+      "item_ids": [
+        "P03",
+        "P12",
+        "P13"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P08-U36",
+      "item_ids": [],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P09-U37",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P09-U38",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "not_scored"
+    },
+    {
+      "unit_id": "G-P09-U39",
+      "item_ids": [
+        "P06"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P10-U40",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P10-U41",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P10-U42",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P10-U43",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P10-U44",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U45",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U46",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U47",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U48",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U49",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U50",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U51",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "warning_only"
+    },
+    {
+      "unit_id": "G-P11-U52",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P11-U53",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P12-U54",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P12-U55",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P12-U56",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "partial_credit"
+    },
+    {
+      "unit_id": "G-P12-U57",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P12-U58",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P12-U59",
+      "item_ids": [
+        "P06",
+        "P10"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P13-U60",
+      "item_ids": [
+        "P10",
+        "P12"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P13-U61",
+      "item_ids": [
+        "P10",
+        "P12"
+      ],
+      "disposition": "equivalent_set"
+    },
+    {
+      "unit_id": "G-P14-U62",
+      "item_ids": [],
+      "disposition": "equivalent_set"
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "coherent-local-span",
+      "metric": "normalized_characters",
+      "maximum": 2400,
+      "overrun_disposition": "Ambiguous evidence earns no P; no unbriefed page/word-count penalty."
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "Position-aware PyMuPDF text; NFKC; remove layout whitespace; normalize interval dashes and percent symbols; retain raw page/line text"
+      },
+      {
+        "id": "N02",
+        "operation": "Preserve company, metric and channel context; exclude quotations, negation, unresolved choices, rejected chart annotations and explicit errata values"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "Growth=(new/old-1)*100; share=part/total*100; percentage points=current-prior; tolerances reflect printed rounding"
+      },
+      {
+        "id": "R02",
+        "operation": "Five-channel forecast intervals must overlap adopted total interval; growth endpoints use prior signed-premium base"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "task_skill_alignment": {
+    "required_after_skill_authoring": true,
+    "semantic_audit_binds_skill_sha256": true,
+    "all_positive_and_deduction_items_reviewed": true,
+    "unresolved_conflicts_forbid_judge_freeze": true,
+    "skill_cannot_override_golden": true
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "requirement_trace": {
+    "instruction_sha256": "06cfb487ec7626d2877a3774e888143d89874367017cd633b99a15eb99295d80",
+    "requirements": [
+      {
+        "id": "I1",
+        "text": "Using the three disclosure PDFs in /workspace/materials, prepare a Chinese report assessing the life insurer's business outlook and forecasting its distribution channels for 2026 and 2027.",
+        "item_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P10",
+          "P12"
+        ]
+      },
+      {
+        "id": "I2",
+        "text": "Support the assessment and forecasts with the supplied disclosures, calculations and clearly stated assumptions.",
+        "item_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P10",
+          "P12"
+        ]
+      },
+      {
+        "id": "I3",
+        "text": "Save the final report as /workspace/output/report.pdf.",
+        "item_ids": [],
+        "not_scored_reason": "Carrier/path requirement; unreadable or missing carrier earns no content credit; omission incurs no D."
+      }
+    ],
+    "stated_facts": [
+      {
+        "id": "F1",
+        "text": "three disclosure PDFs",
+        "check": "count",
+        "path": "task/environment/workspace/materials",
+        "glob": "*.pdf",
+        "expected": 3
+      }
+    ],
+    "unchecked_tokens": [],
+    "regulatory_solvency_thresholds": {
+      "item_ids": [
+        "P13"
+      ],
+      "golden_unit_ids": [
+        "G-P07-U35"
+      ]
+    }
+  },
+  "golden_consistency": {
+    "checks": [
+      {
+        "id": "G-C01",
+        "operation": "pdf_forecast_interval_replay",
+        "artifact": "golden/安联人寿未来发展以及渠道预测.pdf",
+        "sha256": "8bc00171c440b1ae0afe1f9e15b3eff9bc26320285b9087c9b344d2fdc99791d",
+        "implementation": "repro/check_initial.py",
+        "meaning": "Re-extract the adopted forecast table from locked PDF; recompute component interval feasibility and total growth endpoints."
+      }
+    ],
+    "shared_checker_limitation": "Shared traceability checker has no PDF adapter. Task-local PDF recomputation is required, not a JSON scalar substitute."
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "report_path": "task/tests/program_judge/judge-conformance-report.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "owner_gold_lock": {
+    "sha256": "8bc00171c440b1ae0afe1f9e15b3eff9bc26320285b9087c9b344d2fdc99791d",
+    "reference_path": "golden/安联人寿未来发展以及渠道预测.pdf"
+  },
+  "gap_marker_contract": {
+    "markers": [
+      "未披露",
+      "未提供",
+      "待补充",
+      "unspecified",
+      "not disclosed"
+    ],
+    "normalization_rule_id": "N02",
+    "positive_credit": 0,
+    "deduction_on_marker": false,
+    "fabrication_item_ids": [
+      "D05"
+    ]
+  }
+}

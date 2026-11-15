@@ -1,0 +1,18 @@
+{
+  "judge_version": "shutdown-artifact-maintainability-evidence-v1",
+  "outputs": ["电力设备检修进度计划表.xlsx"],
+  "criteria": [
+    {
+      "id": "embedded_independent_validation_receipt",
+      "weight": 0.5,
+      "completion_scale": [0, 0.25, 0.5, 0.75, 1],
+      "description": "Assess an artifact-internal independent validation receipt, separately from whether the final dates happen to be correct. Score 1 when the workbook records enough normalized interval/resource inputs and validation outputs to reproduce both the no-collision result and the ordered T-then-all-site result, such as a compact check table, formulas with stated checked results, or an exhaustive result with its relevant count/bounds. Score .75 when an independent validation method and both results are identified but either normalized reservations or a key output is not fully recorded. Score .5 for a checkable hand derivation of the T lower bound and overall finish using the actual durations, closure and serial resource constraints, but no independent validation receipt. Score .25 for only stating constraints and results or claiming that a check occurred without enough derivation; score 0 for no validation evidence. Do not require a particular script, exact Golden dates beyond the valid ordered objective, a written mathematical proof, an exhaustive count, or another deliverable. This criterion rewards reproducibility evidence and must not zero otherwise correct business results."
+    },
+    {
+      "id": "maintainable_event_update_mechanism",
+      "weight": 0.5,
+      "completion_scale": [0, 0.25, 0.5, 0.75, 1],
+      "description": "Assess whether the workbook can be maintained when planned or actual events change. Score 1 for a structured actual-event register plus linked or explicitly sequenced recalculation of affected package dates, resource/window feasibility, Gantt marks and standby/report/oil nodes. Score .75 for functioning cross-sheet formulas that update planned candidate/follow-up dates together with a clear manual rule for actual-event correction, or an equivalently complete structured manual mechanism. Score .5 for a designated actual-execution/record section enumerating the event fields and downstream updates but lacking writable per-event cells or linked recalculation. Score .25 for generic narrative-only update or顺延 guidance; score 0 when no update rule exists or downstream dates are explicitly frozen. Equivalent formulas, tables or manual workflows count. Do not require macros, automatic actual-event formulas, another worksheet, a named planner, signatures, or repeated prose in every row."
+    }
+  ]
+}

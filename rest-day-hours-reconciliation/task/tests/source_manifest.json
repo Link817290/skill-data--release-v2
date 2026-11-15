@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "capability_map.json",
+      "sha256": "07a46daab079a7d44bf9da405a1ba0031a5e419d07af3bbe3b1115398b884772"
+    },
+    {
+      "path": "ground_truth.json",
+      "sha256": "71ff76e00c4baf336ae194ae02a2c4eb04f3c242674b4843b4baa5d85d056a17"
+    },
+    {
+      "path": "scoring_params.json",
+      "sha256": "3f0105bc456e2ab62c9c3298bf6fe49c9715fc419c37fcb7fb4bd222726f6932"
+    },
+    {
+      "path": "test.sh",
+      "sha256": "d937d3f4bde5432a2455091ef035da2de7b90aba12a8989c1f259dfe27ac2f9b"
+    },
+    {
+      "path": "validator.py",
+      "sha256": "ae48edd63e8c72e2288ae7da749ac073f7feec73cfca3f2fafd2f6b12041af76"
+    }
+  ]
+}

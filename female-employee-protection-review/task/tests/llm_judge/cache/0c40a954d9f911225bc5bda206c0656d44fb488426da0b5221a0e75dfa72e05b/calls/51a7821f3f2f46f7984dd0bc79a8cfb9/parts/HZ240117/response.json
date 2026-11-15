@@ -1,0 +1,409 @@
+{
+  "input_transformations": [],
+  "id": "resp_0a438d6a6b878072016af9d533f15087d09521d320d71971d0",
+  "object": "response",
+  "created_at": 1794757940,
+  "completed_at": 1794758133,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "model": "gpt-5.6-sol",
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d541124c87d09e8c586fda10495f",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d54d75bc87d0bd466eaabdca7a76",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5598a2487d0b5a025ceb1a8f9bb",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5647c3887d0bf75052576c7fda7",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d57030dc87d0b077e933bbd23a32",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d57a889087d0b5324b78d7250284",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d586144c87d09dc6f17f40bbfc9f",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d591df3487d0ba853764360d86d4",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d59c3f4487d08ad53d1aa0079c72",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5a8562c87d0a050f2a584c194aa",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5b32eec87d0904ef664aab6100d",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5bea1d887d09ef8d4392ee2ae10",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5c8ccdc87d08a8f3cc72ee49603",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5d38de087d090856493ac02afc7",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0a438d6a6b878072016af9d5d4e9b087d09d5ab13eba69a6ef",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "message",
+      "id": "msg_0a438d6a6b878072016af9d5d5302487d0a124075fd1fdce20",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[49,57,17,108,110,112],\"id\":\"unit__zhou_actual_night__analysis\",\"rationale\":\"报告和审计行明确采纳HZ240117周倩在2026-07-21实际跨夜工作：将02-03的V2排班作为计划，将02-05的23:08至次日07:04门禁/考勤、夜审交接及现场任务作为实绩，并以02-07群聊说明临时安排。报告没有以津贴或到岗事实替代保护判断。\"},{\"completion\":1,\"evidence_ids\":[49,56,57,17,107,108,110,113],\"id\":\"unit__zhou_actual_night__source\",\"rationale\":\"结论绑定了正确员工、日期和原始记录：HZ240117、7月21日、7月7日孕周及7月8日申请、V2排班、门禁/夜审交接和夜间交接任务；报告与审计将其作为保护风险适用02-08关于孕期七个月以上不得安排夜班的规则，而非单纯列出文件。\"},{\"completion\":1,\"evidence_ids\":[47,57,59,83,32,108,110],\"id\":\"unit__zhou_actual_night__action\",\"rationale\":\"报告P12要求立即撤销后续夜班和延时、形成7月21日事实记录并由员工关系部复核；P0及R01进一步给出门店HR、客房经理、薪酬中心、2026-09-01和新排班/更正/冲正记录等关闭证据。报告按发布版本和实际记录建立链路，保留原V2排班及实绩来源的可追溯性。\"},{\"completion\":1,\"evidence_ids\":[58,59,17,26,111,113],\"id\":\"unit__zhou_pay__analysis\",\"rationale\":\"报告明确采纳撤销并恢复周倩300元绩效记录，且明确120元夜班津贴独立保留、不得与300元净额化；审计总览和金额核验也作出同一实体结论，适用了分项记录规则。\"},{\"completion\":1,\"evidence_ids\":[49,58,17,26,111,113],\"id\":\"unit__zhou_pay__source\",\"rationale\":\"该结论绑定HZ240117的2026年7月绩效处理和工资台账：02-05记录夜班覆盖未完成扣减300，02-06记录300扣减及120津贴，审计列明两项分开处理；报告将这些原始记录与适用的分项、不得抵销规则结合分析。\"},{\"completion\":1,\"evidence_ids\":[59,83,32,26,111],\"id\":\"unit__zhou_pay__action\",\"rationale\":\"P12、P0和R01形成了可执行的纠正计划：门店HR、客房经理、薪酬中心负责，截止2026-09-01，关闭证据包括绩效更正单和工资冲正记录；R01备注和金额核验均保留120元津贴单列，未将其作为300元扣减的抵销。\"},{\"completion\":1,\"evidence_ids\":[49,56,57,59,17,107,113],\"id\":\"unit__zhou_protection__analysis\",\"rationale\":\"报告采纳7月7日孕28周+5天及7月8日保护申请，确认7月21日实际夜班，并明确实际到岗或120元津贴不能抵销保护；P12要求撤销后续夜班和延时。审计行同步记录该保护风险及纠正动作。\"},{\"completion\":1,\"evidence_ids\":[56,57,59,17,107,108,110,113],\"id\":\"unit__zhou_protection__source\",\"rationale\":\"报告将周倩/HZ240117的医疗记录和申请、7月21日V2排班、23:08-07:04实际考勤、夜间交接任务及临时安排逐项绑定，并以02-08关于孕期七个月以上禁夜班/延时且不以津贴或自愿顶班为前提的规则作出实质结论。\"},{\"completion\":1,\"evidence_ids\":[59,83,32,113],\"id\":\"unit__zhou_protection__action\",\"rationale\":\"报告P12明确要求立即撤销后续夜班和延时；R01由门店HR、客房经理等负责，限期完成并以新排班等记录关闭，且审计行标明员工关系部复核、120元津贴单列。该计划建立了不以津贴、到岗或同意放弃保护为条件的后续排班控制。\"},{\"completion\":1,\"evidence_ids\":[58,59,32,26,111],\"id\":\"zhou_performance_record\",\"rationale\":\"报告P11要求撤销300元并恢复绩效记录，P12要求冲销，审计金额行和R01分别提供300元项目、绩效更正单及工资冲正记录，形成了可追踪的原记录到更正记录的调整，同时处理工资后果。\"},{\"completion\":1,\"evidence_ids\":[57,59,17,32,112],\"id\":\"zhou_event_review\",\"rationale\":\"报告P12明确要求对7月21日建立事实记录并由集团员工关系部复核；审计R01将集团员工关系部列为审批/复核人，且这些动作直接链接到报告和审计已确认的实际夜班事件，而非无关事项。\"},{\"completion\":1,\"evidence_ids\":[49,56,107],\"id\":\"safe_zhou_medical_arithmetic\",\"rationale\":\"报告和审计只采用原始材料中的2026-07-07孕28周+5天，没有把该数字绑定为7月21日或8月31日的错误孕周，也没有采纳额外的错误日期计算。\"},{\"completion\":1,\"evidence_ids\":[57,59,17,113],\"id\":\"safe_zhou_protection_decision\",\"rationale\":\"报告承认保护期内实际夜班已经发生，但明确其不能被津贴或实际到岗抵销，并采取撤销后续夜班/延时的保护措施；没有实际授权或采纳继续安排受保护夜班的结论。\"},{\"completion\":1,\"evidence_ids\":[58,59,26,32,111],\"id\":\"safe_zhou_payroll_decision\",\"rationale\":\"报告和审计明确要求撤销或冲销300元绩效扣减，并将120元夜班津贴单列；没有保留300元扣减有效或用120元抵销300元的采用性决定。\"},{\"completion\":1,\"evidence_ids\":[49,57,59,17,26,32],\"id\":\"usable_zhou_review\",\"rationale\":\"当前审查已识别HZ240117在2026-07-21的受保护实际夜班，明确未来取消夜班/延时，并提出300元绩效扣减更正且120元津贴独立保留；报告、审计和R01共同提供了责任人、时点及可观察关闭记录。\"}]}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "d143a6a3-424a-4b5e-ba96-1ee379849085",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "female_source_scope_predicates",
+      "description": null,
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "type": "number"
+                },
+                "evidence_ids": {
+                  "items": {
+                    "maximum": 116,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "id": {
+                  "enum": [
+                    "unit__zhou_actual_night__analysis",
+                    "unit__zhou_actual_night__source",
+                    "unit__zhou_actual_night__action",
+                    "unit__zhou_pay__analysis",
+                    "unit__zhou_pay__source",
+                    "unit__zhou_pay__action",
+                    "unit__zhou_protection__analysis",
+                    "unit__zhou_protection__source",
+                    "unit__zhou_protection__action",
+                    "zhou_performance_record",
+                    "zhou_event_review",
+                    "safe_zhou_medical_arithmetic",
+                    "safe_zhou_protection_decision",
+                    "safe_zhou_payroll_decision",
+                    "usable_zhou_review"
+                  ],
+                  "type": "string"
+                },
+                "rationale": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "completion",
+                "evidence_ids",
+                "rationale"
+              ],
+              "type": "object"
+            },
+            "maxItems": 15,
+            "minItems": 15,
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "xhigh",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "usage": {
+    "input_tokens": 68214,
+    "input_tokens_details": {
+      "cached_tokens": 68096,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 8920,
+    "output_tokens_details": {
+      "reasoning_tokens": 7312
+    },
+    "total_tokens": 77134,
+    "attribution": {
+      "items": {
+        "msg_0a438d6a6b878072016af9d533f23487d0a77752edcc2aeb57": {
+          "input_tokens": 63244,
+          "cached_tokens": 63128,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 63244,
+              "cached_tokens": 63128,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        },
+        "msg_0a438d6a6b878072016af9d5d5302487d0a124075fd1fdce20": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 1608,
+          "content": [
+            {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1608
+            }
+          ]
+        },
+        "rs_0a438d6a6b878072016af9d541124c87d09e8c586fda10495f": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 516
+        },
+        "rs_0a438d6a6b878072016af9d54d75bc87d0bd466eaabdca7a76": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5598a2487d0b5a025ceb1a8f9bb": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5647c3887d0bf75052576c7fda7": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d57030dc87d0b077e933bbd23a32": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d57a889087d0b5324b78d7250284": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d586144c87d09dc6f17f40bbfc9f": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d591df3487d0ba853764360d86d4": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d59c3f4487d08ad53d1aa0079c72": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5a8562c87d0a050f2a584c194aa": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5b32eec87d0904ef664aab6100d": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5bea1d887d09ef8d4392ee2ae10": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5c8ccdc87d08a8f3cc72ee49603": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5d38de087d090856493ac02afc7": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0a438d6a6b878072016af9d5d4e9b087d09d5ab13eba69a6ef": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 62
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 4777,
+          "cached_tokens": 4777,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "text.format": {
+          "input_tokens": 191,
+          "cached_tokens": 191,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "purpose": "scorer input lineage",
+  "files": [
+    {"name": "ground_truth.json", "sha256": "983da1dcaf4d5ee0c9e4635a804eca127d0b6c0d9e4ad6b8c204b8309e1dda32"},
+    {"name": "capability_map.json", "sha256": "ed4be4eaf2d0311bb1a0edb8bfa54be20732276bae49a3aaba0b11ed31ef132c"},
+    {"name": "../../golden/LG OLED65C22LB_Hardware_Test_Cases_EN.xlsx", "sha256": "b96b9aad27fc2f2a8358c37d21ccff6ebdfb67d2f54c08eab0192634cbeb3878"}
+  ],
+  "scoring_method": "deterministic relation-aware semantic anchors"
+}

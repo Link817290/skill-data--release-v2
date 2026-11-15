@@ -1,0 +1,225 @@
+{
+  "kind": "dimensions",
+  "cache_key": "d1a2c42fda99ec57faf100911aee1f336e89c954b48fac0b7373d42d0afb5769",
+  "request_sha256": "b7750ab68c1fa3f9e4ace230268da415cba00c4b6f360314f375f1a56f6ed8c6",
+  "runtime_sha256": {
+    "semantic_judge.py": "f7b3e43ce10cd0a10ca82c6a6a64a832b8ebe78ce349dec91260764daac95de9",
+    "validator.py": "12faabf4a7dc374fa6c58cbabfa66e00bb10c8a26229dbb6d9d8ecd499bfff5c",
+    "semantic_source.json": "03878a49a4d719f26b321ac6bf5c81245c5933dc9176774dfaa23c8a07be2a21",
+    "ground_truth.json": "abdc37992534af63c9a33984bad7e4a3c1a564c8db92bced5fc2f3f392de30d4"
+  },
+  "verdict": {
+    "items": {
+      "RR-01": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the expected conclusion, supporting evidence and rationale, residual evidence needs, and audit response."
+      },
+      "RR-01A": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the expected policy-level conclusion and qualification, evidence basis, residual testing needs, and audit response."
+      },
+      "RR-01B": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the reported material-weakness conclusion, its cause and effect, residual evidence, and audit response."
+      },
+      "RR-01C": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the open remediation-effectiveness conclusion, supporting record, outstanding evidence, and proposed testing."
+      },
+      "RR-02": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the superseded purchase-date conclusion, cutoff implications, evidence, residual needs, and audit response."
+      },
+      "RR-03": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the exception concerning the uniform user-life method, its effects, supporting evidence, and required testing."
+      },
+      "RR-03A": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the policy-level consumable-item conclusion, evidence and qualification, residual needs, and audit procedures."
+      },
+      "RR-04": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the supported-but-untested classification-estimate conclusion, estimation risks, residual evidence, and audit response."
+      },
+      "RR-05": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the durable-item life conclusion, 23-month effect, model rationale, residual evidence, and testing response."
+      },
+      "RR-06": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the qualified principal and gross-presentation conclusion, operating rationale, residual evidence, and audit response."
+      },
+      "RR-07": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the channel-specific principal conclusion, gross accounting effect, evidence basis, residual needs, and audit response."
+      },
+      "RR-08A": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the policy-level contract-cost deferral conclusion, recoverability qualification, residual evidence, and audit response."
+      },
+      "RR-08C": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the adopted commensurate-fee premise without overstating proof, together with the residual evidence and testing required."
+      },
+      "RR-08B": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the exception to blanket user-life amortization while retaining deferral and commensurateness, with matching evidence and procedures."
+      },
+      "RR-09": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the open distinct-promises conclusion, policy-record limitations, residual evidence, and audit response."
+      },
+      "RR-09B": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the open allocation-and-timing conclusion, unsupported areas, residual evidence, and proposed testing."
+      },
+      "RR-09C": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the open materiality and disclosure conclusion, evidentiary limitations, residual needs, and audit response."
+      },
+      "RR-10A": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the policy-level Developer Exchange eligibility and accrual conclusion, completeness qualification, residual evidence, and testing."
+      },
+      "RR-10B": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the open conclusion for nonpermitted developer balances, possible accounting effects, residual evidence, and audit response."
+      },
+      "RR-11A": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the management-reported implementation conclusion while distinguishing implementation from effectiveness assurance, with matching follow-up."
+      },
+      "RR-11B": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves management's 2021 elimination conclusion and the Section 404 assurance limitation, including residual evidence and audit procedures."
+      },
+      "RR-11C": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the absence of a 2021 ICFR audit and opinion, its assurance implication, residual evidence, and response."
+      },
+      "RR-11D": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves management's formal 2022 ICFR effectiveness conclusion, date and scope limitations, residual evidence, and audit response."
+      },
+      "RR-11E": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the auditor's unqualified 2022 ICFR opinion without making it retroactive, with matching residual evidence and response."
+      },
+      "RR-12A": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the estimate-change classification and 23-to-25-to-28-month chronology, prospective effect, residual evidence, and audit response."
+      },
+      "RR-12B": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the reported 2022 revenue, cost, and gross-profit effects, supporting basis, residual evidence, and audit procedures."
+      },
+      "RR-12C": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the durable-only scope of the user-life estimate and continued consumption accounting, with matching residual evidence and testing."
+      },
+      "RR-13A": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the CAM identification of two separate high-judgment estimates, their risk implications, residual evidence, and audit response."
+      },
+      "RR-13B": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the described customer-life audit coverage and its non-opinion limitation, together with residual evidence and follow-up procedures."
+      },
+      "RR-13C": {
+        "conclusion": 1,
+        "evidence": 1,
+        "residual": 1,
+        "action": 1,
+        "reason": "Candidate exactly preserves the described allocation audit coverage and its evidentiary limitations, together with residual evidence and follow-up procedures."
+      }
+    }
+  }
+}

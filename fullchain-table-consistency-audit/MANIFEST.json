@@ -1,0 +1,157 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "fullchain-table-consistency-audit",
+  "tasks": [
+    "fullchain-table-consistency-audit"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 36,
+  "bytes_excluding_manifest": 5666636,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 991,
+      "sha256": "e35f06a6ceb1ce48f68edc210e38362ac2d4675ac55332d2cdfaaea518c1fcbe"
+    },
+    "RUBRIC.md": {
+      "bytes": 4869,
+      "sha256": "f36e8f9de9b61d00cd70b0142e0d0904c197320cf3957f4d86087e45e891b93f"
+    },
+    "dataset.toml": {
+      "bytes": 471,
+      "sha256": "85192f88a374af191f845c6136750369e810d08b25b46df1083a3a7b6482efb5"
+    },
+    "golden/table-consistency-audit.md": {
+      "bytes": 45180,
+      "sha256": "021c763a52c0ffc6e1d922645695bacf60b1ab45203067abb6f57ab7eeffb860"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 573,
+      "sha256": "9090cae41d52de4c267262b803797309ef4e76a84010c005c3fc218112908705"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 292,
+      "sha256": "97995129f133ebb917ad5a5e168f3a1a7095b19dca4766d940dd3af92e6102d7"
+    },
+    "task/environment/skills/table-consistency-audit/SKILL.md": {
+      "bytes": 5214,
+      "sha256": "ce4c10d944cbe6c09f514a32dbce177c5eed535ea65ae6c059225cf6d331ee62"
+    },
+    "task/environment/skills/table-consistency-audit/references/cross-table-alignment.md": {
+      "bytes": 4009,
+      "sha256": "a046dce7d7dd12e530f4b5ef73c3d43ba767b7f4794c4fdcc195561dd742b0db"
+    },
+    "task/environment/skills/table-consistency-audit/references/grading-and-reporting.md": {
+      "bytes": 4767,
+      "sha256": "1d18c5ba88319fe22073839461196ee47aa680e213dee4197f4a547b066ced45"
+    },
+    "task/environment/skills/table-consistency-audit/references/table-checks.md": {
+      "bytes": 4452,
+      "sha256": "5d00d286cea15a43f21898c4384dbb877749ddeb8f1b360272800476bd815d39"
+    },
+    "task/environment/workspace/materials/AI全链路商业化破局解决方案.docx": {
+      "bytes": 2387590,
+      "sha256": "47a9573e817af2b97983c034036b73de6ab7d58975a9c6b201b77629994bd705"
+    },
+    "task/environment/workspace/materials/AI全链路商业化破局解决方案.md": {
+      "bytes": 231023,
+      "sha256": "5d31fce51ef95f329a54a9af884ecaedf8adeee3ae3c63b78e6ab69d08023ddc"
+    },
+    "task/instruction.md": {
+      "bytes": 813,
+      "sha256": "3aa716621e3f3c60c067dd2ff7f813b96076094fb31ca283f5e26b834d59e01a"
+    },
+    "task/solution/reference/table-consistency-audit.md": {
+      "bytes": 45180,
+      "sha256": "021c763a52c0ffc6e1d922645695bacf60b1ab45203067abb6f57ab7eeffb860"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 353,
+      "sha256": "1cb747f52c7e79136032ff5d6981809658a4a9f669d5a600d2da2550c575295d"
+    },
+    "task/task.toml": {
+      "bytes": 1189,
+      "sha256": "217e3f260f73247578270f3168eadc06e281b4f47bf8c1d0eb81de9f1634bfb6"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1180,
+      "sha256": "a92b36fc8b7849c4f824514dc9a32ffb5477ec72dcbe32284f0e2540353267bb"
+    },
+    "task/tests/golden/golden.md": {
+      "bytes": 16902,
+      "sha256": "9ef91564c402b09cc37c95b9d5540a8bdaf06eec2b3c1447fe4ac5ed7289f5e9"
+    },
+    "task/tests/materials/AI全链路商业化破局解决方案.docx": {
+      "bytes": 2387590,
+      "sha256": "47a9573e817af2b97983c034036b73de6ab7d58975a9c6b201b77629994bd705"
+    },
+    "task/tests/materials/AI全链路商业化破局解决方案.md": {
+      "bytes": 231023,
+      "sha256": "5d31fce51ef95f329a54a9af884ecaedf8adeee3ae3c63b78e6ab69d08023ddc"
+    },
+    "task/tests/mix_judge/TEMPLATE_SHA": {
+      "bytes": 13,
+      "sha256": "f392ffa725eb9cecd2074a9237a60a044b1a71abd6ed9fe14c38baed65189b7b"
+    },
+    "task/tests/mix_judge/cache/68957e3d1f86e0d8c411ba626b2986361187720356304c0785f6d801a6ea3cfa.json": {
+      "bytes": 176,
+      "sha256": "1a9dcbb05a2b6e867013ad6770e5f2c1655cd29cf1e4f9ebdd70f0b159a94996"
+    },
+    "task/tests/mix_judge/gate.md": {
+      "bytes": 3526,
+      "sha256": "fc2e5f889c86906dd3d7d50a8cdb4acd6a9f845d69fa7848bb7bae49c4d6d212"
+    },
+    "task/tests/mix_judge/gate.schema.json": {
+      "bytes": 3551,
+      "sha256": "bbd8c80c7d53dcb1f6a50fab8e14158646beded4f1fb910bc6a18c5f960b7cdb"
+    },
+    "task/tests/mix_judge/gate_runtime.py": {
+      "bytes": 34771,
+      "sha256": "d8f4f8bb3a82626dd90e515df4b4e9645430d7630ea2c93d65106b344e511401"
+    },
+    "task/tests/mix_judge/hacks.json": {
+      "bytes": 4772,
+      "sha256": "6fadafb65347912148d87ccc2638cbb51959c79bd3aea1ccdaf5ab6974e01b11"
+    },
+    "task/tests/mix_judge/llm.json": {
+      "bytes": 68,
+      "sha256": "68c970d79fd74535fea73ca2fc9ad24e1c063cd4882c14dfd6ef4222831f4ab3"
+    },
+    "task/tests/mix_judge/package/declared.json": {
+      "bytes": 30,
+      "sha256": "16497a130eb885286903caea2c463275cb3c0a94aeb01b6d19fd601c23e9aa80"
+    },
+    "task/tests/mix_judge/package/golden/table-consistency-audit.md": {
+      "bytes": 16902,
+      "sha256": "9ef91564c402b09cc37c95b9d5540a8bdaf06eec2b3c1447fe4ac5ed7289f5e9"
+    },
+    "task/tests/mix_judge/package/instruction.md": {
+      "bytes": 813,
+      "sha256": "3aa716621e3f3c60c067dd2ff7f813b96076094fb31ca283f5e26b834d59e01a"
+    },
+    "task/tests/mix_judge/package/places.json": {
+      "bytes": 67,
+      "sha256": "80428b26f2a06e6a195e048e2fe00be1411e4a503748f83ee4943a58fc93069d"
+    },
+    "task/tests/program_judge/adversarial_guards.py": {
+      "bytes": 7457,
+      "sha256": "830a7efc0067334b05f9ab4862027b44a603acc77ae1d17f3751b4a2378c6068"
+    },
+    "task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22879,
+      "sha256": "4b77fa6ecac6c282478dc62a8c84a2e2e98693a8898e975c7eef2c4cdaab9e17"
+    },
+    "task/tests/program_judge/task_judge.py": {
+      "bytes": 89352,
+      "sha256": "78c7e06ff84154d0d21e57b674157ed6ced8b53cb56eece31a88e4194288e679"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 104148,
+      "sha256": "272ce9cfd11543842fff89752d4d7fb3a3e318afae6abff7ae345a9f5501f4c1"
+    },
+    "task/tests/test.sh": {
+      "bytes": 4450,
+      "sha256": "d7ccb84326c97e7fce1c61e04555036c0cefb9b0440d3f18326dbfe3f92e08de"
+    }
+  }
+}

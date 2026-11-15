@@ -1,0 +1,10 @@
+config_version=5
+[application]
+config/name="Skill FX Integration"
+run/main_scene="res://stage.tscn"
+[display]
+window/size/viewport_width=640
+window/size/viewport_height=360
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.05,0.08,0.13,1)

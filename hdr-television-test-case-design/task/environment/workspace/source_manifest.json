@@ -1,0 +1,13 @@
+{
+  "algorithm": "sha256",
+  "contains_gold": false,
+  "network_required": false,
+  "files": [
+    {"name": "HDR_Technology_Complete_Specification_Guide.pdf", "role": "HDR technical concepts", "sha256": "d4e345aabe02ab53a807b9a8f329cbda98773026af752189a3646b640bc16330"},
+    {"name": "LG OLED65C22LB.pdf", "role": "device capability specification", "sha256": "281f0ee92c9a329788824f10cdbbeb8ea430e5dfc6bd077e19fa8942fd764d3a"},
+    {"name": "LG_OLED65C22LB_HDR_Acceptance_Requirements.docx", "role": "project acceptance requirements", "sha256": "d82f01d5074638964a44a5c7f2ecbc6013f33a7f02e98f81631530166f1e7d7d"},
+    {"name": "SMW200A_GettingStarted_en_13.pdf", "role": "instrument getting-started documentation", "sha256": "695ea72db58b16efbfd0f754938df724a428e4fc5b277367443ec26951f690a3"},
+    {"name": "SNW200A_Project_Operating_Basis_Sanitized.md", "role": "sanitized project display-test equipment operating basis", "sha256": "c3955ecd081f11879d415366c78365fcffdc24e9fa6e03ccf47715583fbce0bc"},
+    {"name": "HDR_Function_Test_Item_List_Template.xlsx", "role": "blank delivery template", "sha256": "bca1974dd0dea28fe269a4689d6ed930cc7960534ac94150ec56df90cc37bcac"}
+  ]
+}

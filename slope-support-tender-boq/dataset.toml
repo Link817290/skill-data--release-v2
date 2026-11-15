@@ -1,0 +1,29 @@
+version = "1.0"
+id = "slope-support-tender-boq"
+title = "Slope-support subcontract tender bill of quantities"
+task_type = "skill-bench"
+domain = "construction-cost-engineering"
+language = "en"
+difficulty = "hard"
+deliverable = "workspace/边坡支护专业分包招标清单.xlsx"
+required_outputs = ["边坡支护专业分包招标清单.xlsx"]
+network_access = false
+rollouts_included = false
+task = "task"
+stage = "pre-release"
+reward = "continuous-programmatic"
+
+[scoring]
+type = "mixed"
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer_version = "slope-support-bench"
+scorer = "task/tests/entrypoint.py"
+rubric = "RUBRIC.md"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[skills]
+active = ["engineering-source-evidence", "boq-scope-and-measurement", "quantity-parameter-closure"]

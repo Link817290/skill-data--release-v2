@@ -1,0 +1,2026 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "v3.5-with-skill-r12-batch5",
+  "task_mode": "analysis",
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "UTF-8 decode; NFKC; drop ** __ and code ticks; remove thousands separators between digits; unify minus, en dash and wave dash"
+      },
+      {
+        "id": "N02",
+        "operation": "Markdown carrier: headings build a section chain; tables become labelled rows (header: cell); list items merge nested children; paragraphs join lines"
+      },
+      {
+        "id": "N03",
+        "operation": "disposition vocabularies (task_aliases.disposition) fold row labels, in-span labels and heading words to reported, doubtful or cleared"
+      },
+      {
+        "id": "N04",
+        "operation": "rejection, candidate and sentence-level negation markers (task_aliases) remove adoption"
+      },
+      {
+        "id": "N05",
+        "operation": "audit-object topic anchors (task_aliases.topics) identify which of C01-C10, U01-U10, X01-X12 a span binds"
+      },
+      {
+        "id": "N06",
+        "operation": "declared gap markers after a correction verb fold into one gap observation that carries no value and cannot be fabrication"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R00",
+        "operation": "span segmentation: a heading section binding at most two audit objects and at most 2000 non-whitespace characters is one span; otherwise each table row is a span and consecutive blocks group until a block introduces a new object"
+      },
+      {
+        "id": "R01",
+        "operation": "span disposition: row label column, then in-span label (判定/结论/类型/状态: value or a leading bracket label), then the nearest heading carrying disposition vocabulary, else reported"
+      },
+      {
+        "id": "R02",
+        "operation": "confirmed-unit proposition predicates C01-C10 with component fractions (task_aliases.proposition_predicates)"
+      },
+      {
+        "id": "R03",
+        "operation": "trap claim: sentence with trap anchor, surface-anomaly claim and conflict cue in a reported span lacking the trap clearing replay"
+      },
+      {
+        "id": "R04",
+        "operation": "arithmetic replay of a+b=c, a/b=c (plain, percent, growth, decline), (a-b)/c=d and $a x N + $bK = $cM with tolerance of one unit in the last stated decimal"
+      },
+      {
+        "id": "R05",
+        "operation": "non-eligible proposition status: spray, rejected_or_candidate, cleared, no_relation_cue"
+      },
+      {
+        "id": "R06",
+        "operation": "send decision: not-send sentence, send-as-is sentence without correction condition, global no-issue sentence without exceptions"
+      },
+      {
+        "id": "R07",
+        "operation": "outlier direction clauses for C01, C04, C08 (task_aliases.direction_rules)"
+      },
+      {
+        "id": "R08",
+        "operation": "section references that name real Materials headings compared with task_aliases.allowed_sections"
+      },
+      {
+        "id": "R09",
+        "operation": "definitive correction sentence for C07/C08 with a numeric replacement and no hedge"
+      },
+      {
+        "id": "R10",
+        "operation": "finding units: letter-ID headings, numeric-ID headings below level 2, bold or ID title paragraphs with following blocks, ID-first-cell table rows; containers about scope, method, conclusion, summary, disposition, advice or appendix are skipped; unit disposition by R01 plus leading labels"
+      },
+      {
+        "id": "R11",
+        "operation": "overgraded item: reported unit text satisfies every pattern of a doubtful or excluded item predicate (task_aliases.overgraded_predicates) without bound negation"
+      },
+      {
+        "id": "R12",
+        "operation": "count of reported units with a problem cue that match no C, U, X or excluded topic; bands by over_reporting_contract"
+      },
+      {
+        "id": "R13",
+        "operation": "false clearance: unit proposition stated in a cleared or negated span while no span reports it"
+      },
+      {
+        "id": "R14",
+        "operation": "author-confirmation filing: unit or span satisfies the item's value predicate; disposition by R01 plus leading labels; alternative reading by task_aliases.u_reading"
+      },
+      {
+        "id": "R15",
+        "operation": "cleared anomaly: trap anchor in a cleared unit with its reading or replay, or a sentence holding the replay with a consistent verdict"
+      },
+      {
+        "id": "R16",
+        "operation": "aspects of an identified confirmed unit on its carrier spans: replay, basis, impact (task_aliases.aspects)"
+      },
+      {
+        "id": "R17",
+        "operation": "figure-as-finding: a sentence in a reported span that names a figure (图片/架构图/示意图/流程图/图中/图示/配图/插图/图N), carries a value and a conflict cue, with no scope-exclusion wording (不在审校范围/未纳入/未核对/排除 ...) and no negation"
+      },
+      {
+        "id": "R18",
+        "operation": "misstated source range: a sentence in a reported span that names 通用(大)模型 and a range a-b other than 800-1200 and 200-500 that contains at least two of the measured latencies 420/180/210, stated with a conflict cue"
+      },
+      {
+        "id": "R-language",
+        "operation": "after excluding inline backtick code, count CJK characters and Latin words of at least two letters in the report; a CJK share below .90 creates one language_not_chinese gate instance"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "golden_deliverable": "golden.md",
+  "deliverable": {
+    "path": "output/table-consistency-audit.md",
+    "carrier": "markdown",
+    "language": "zh"
+  },
+  "not_scored_golden_units": {
+    "basis": "U011-U020 (golden 二 U01-U10) are not confirmed conflicts. They are not scored as confirmed findings, but they are not free: U011, U012, U013, U016 and U020 earn P12, P13, P14, P17 and P21 when filed for author confirmation, and all ten are charged by D08 when reported as confirmed defects. Traps U021-U032 earn P28/P30/P33 (X07/X09/X12) when cleared and are charged by D01 when reported as conflicts. Figures are out of scope (D12).",
+    "warning_only_unit_ids": [
+      "U011",
+      "U012",
+      "U013",
+      "U014",
+      "U015",
+      "U016",
+      "U017",
+      "U018",
+      "U019",
+      "U020"
+    ]
+  },
+  "task_aliases": {
+    "note": "Frozen copies of the vocabularies in task/tests/program_judge/task_judge.py; the Judge module constants are the executable form.",
+    "disposition": {
+      "cleared": "DISP_CLEARED",
+      "doubtful": "DISP_DOUBTFUL",
+      "reported": "DISP_CONFIRMED",
+      "label_keys": "LABEL_KEYS"
+    },
+    "adoption_markers": [
+      "REJECTION",
+      "CANDIDATE",
+      "NEGATION"
+    ],
+    "topics": "TOPICS",
+    "trap_claims": "TRAP_CLAIM",
+    "trap_clearing": "TRAP_CLEAR",
+    "proposition_predicates": "c_components()",
+    "direction_rules": "DIRECTION_RULES",
+    "allowed_sections": {
+      "C01": [
+        "1.2",
+        "1.2.1"
+      ],
+      "C02": [
+        "5.1",
+        "5.1.2"
+      ],
+      "C03": [],
+      "C04": [
+        "10.2",
+        "10.2.2"
+      ],
+      "C05": [
+        "4.2",
+        "4.2.1"
+      ],
+      "C06": [
+        "3.1",
+        "3.1.1"
+      ],
+      "C07": [
+        "9.2"
+      ],
+      "C08": [
+        "2.1",
+        "2.1.2"
+      ],
+      "C09": [
+        "7.2",
+        "7.2.1"
+      ],
+      "C10": [
+        "3.1"
+      ]
+    },
+    "conclusion": [
+      "NOT_SEND",
+      "SEND_AS_IS",
+      "SEND_CONDITION",
+      "NO_ISSUE_GLOBAL"
+    ],
+    "fabrication": [
+      "CORRECTION",
+      "FABRICATION_RULES",
+      "HEDGE"
+    ],
+    "aspects": "ASPECTS, ASPECT_WEIGHTS, IMPACT",
+    "u_filing": "U_CREDIT_PRED",
+    "u_reading": "U_READING",
+    "finding_units": [
+      "LETTER_ID",
+      "NUMERIC_ID",
+      "CONTAINER_EXCLUDE",
+      "PROBLEM_CUE"
+    ],
+    "overgraded_predicates": "U_PRED",
+    "false_clearance": [
+      "c_components()",
+      "C05_CLEARED_LOOSE"
+    ]
+  },
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[placeholder]",
+      "未提供",
+      "材料未提供",
+      "unspecified",
+      "TBD",
+      "待补充",
+      "无法确定"
+    ],
+    "normalization_rule_id": "N06",
+    "fabrication_deduction_ids": [
+      "D06"
+    ]
+  },
+  "golden_scores": {
+    "program": {
+      "positive_earned": 1,
+      "retention_multiplier": 1,
+      "penalty_rate": 0,
+      "score_loss": 0,
+      "final_score": 1
+    }
+  },
+  "over_reporting_contract": {
+    "allowance": 3,
+    "band_width": 5,
+    "max_tiers": 3,
+    "basis": "confirmed findings outside Golden are counted by R12 (units that touch any Golden topic are never counted); allowance 3 keeps reasonable valid extras free; each started block of 5 findings beyond the allowance adds one band, up to 3 bands"
+  },
+  "overgrade_contract": {
+    "band_width": 4,
+    "max_bands": 3,
+    "basis": "overgraded items per report; width 4 puts a single slip at one band and a habitual overgrade at the cap of three"
+  },
+  "positive_items": [
+    {
+      "id": "P01",
+      "units": [
+        "U001"
+      ],
+      "weight": 0.0,
+      "scope": "one or two adopted finding spans about C01",
+      "object_key": "C01.confirmed_conflict",
+      "source_location": "materials T003 (1.2.1), T005 (2); golden 一 C01",
+      "relation_predicate": "Retired as a mandatory conflict: equal power does not establish identical GPU model or architecture.",
+      "golden_object_key": "U001",
+      "golden_relation_predicate": "同一通用 GPU 的 200/250 TOPS 算力矛盾；相同功耗排除不同型号解释",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "at most two finding spans about C01",
+        "metric": "finding spans",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "core component fraction times weighted replay/basis/impact aspects declared for C01 in ASPECTS; doubtful findings receive half except C05",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "同一通用 GPU 的 200/250 TOPS 算力矛盾；相同功耗排除不同型号解释",
+      "reasoning_gate": "同一通用 GPU 的 200/250 TOPS 算力矛盾；相同功耗排除不同型号解释"
+    },
+    {
+      "id": "P02",
+      "units": [
+        "U002"
+      ],
+      "weight": 0.04,
+      "scope": "single-table sum",
+      "object_key": "5.1.2 T28.weights",
+      "source_location": "materials T28 (5.1.2)",
+      "relation_predicate": "weight column total is 75% not 100%",
+      "golden_object_key": "T28 权重 30+25+20",
+      "golden_relation_predicate": "三行权重合计 75%，缺 25%",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "fraction = core x (0.55 + hit aspect weights) / (0.55 + defined aspect weights); aspect weights replay 0.15, basis 0.1, direction 0.1, impact 0.1; defined aspects per item in task_aliases.aspects; core partials: binary",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The comprehensive test score cannot be computed from a weight column that sums to 75%.",
+      "reasoning_gate": "one span binds the weight column of the 5.1 test-dimension table to a 75% total or a 25% shortfall; full credit also needs the replay, the basis or proven direction, and the impact where Golden states them"
+    },
+    {
+      "id": "P03",
+      "units": [
+        "U003"
+      ],
+      "weight": 0.05,
+      "scope": "one or two adopted finding spans about C03",
+      "object_key": "C03.confirmed_conflict",
+      "source_location": "materials T18 (4); golden 一 C03",
+      "relation_predicate": "提升幅度列混用百分点与相对增幅",
+      "golden_object_key": "U003",
+      "golden_relation_predicate": "同一提升幅度列混用绝对百分点与相对变化率",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "at most two finding spans about C03",
+        "metric": "finding spans",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "core component fraction times weighted replay/basis/impact aspects declared for C03 in ASPECTS; doubtful findings receive half except C05",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "同一提升幅度列混用绝对百分点与相对变化率",
+      "reasoning_gate": "同一提升幅度列混用绝对百分点与相对变化率"
+    },
+    {
+      "id": "P04",
+      "units": [
+        "U004"
+      ],
+      "weight": 0.05,
+      "scope": "one or two adopted finding spans about C04",
+      "object_key": "C04.confirmed_conflict",
+      "source_location": "materials T59 (10.2), T66 (10.2.2), section prose; golden 一 C04",
+      "relation_predicate": "两张故障响应时限表及正文 P1 时限冲突",
+      "golden_object_key": "U004",
+      "golden_relation_predicate": "P1 1小时与30分钟、P2 4小时与2小时等相互矛盾",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "at most two finding spans about C04",
+        "metric": "finding spans",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "core component fraction times weighted replay/basis/impact aspects declared for C04 in ASPECTS; doubtful findings receive half except C05",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "P1 1小时与30分钟、P2 4小时与2小时等相互矛盾",
+      "reasoning_gate": "P1 1小时与30分钟、P2 4小时与2小时等相互矛盾"
+    },
+    {
+      "id": "P05",
+      "units": [
+        "U005"
+      ],
+      "weight": 0.0,
+      "scope": "same-case threshold alignment",
+      "object_key": "4.2 manufacturing.latency",
+      "source_location": "materials T22 (4.2), T23 (4.2.1)",
+      "relation_predicate": "Retired as a mandatory conflict: a 200 ms achieved analysis can satisfy a less-than-500 ms acceptance threshold.",
+      "golden_object_key": "制造业案例 <500ms vs 200ms内完成产线图像分析",
+      "golden_relation_predicate": "两阈值不可同时成立",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "fraction = core x (0.55 + hit aspect weights) / (0.55 + defined aspect weights); aspect weights replay 0.15, basis 0.1, direction 0.1, impact 0.1; defined aspects per item in task_aliases.aspects; core partials: equivalent set {reported, doubtful} both full",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "replay_rule_id": "R02",
+      "value_basis": "The manufacturing case cannot both allow 500 ms inference and finish line image analysis within 200 ms.",
+      "reasoning_gate": "one span binds the manufacturing case latency <500ms and the 200ms line-image test target with a conflict cue; full credit also needs the replay, the basis or proven direction, and the impact where Golden states them"
+    },
+    {
+      "id": "P06",
+      "units": [
+        "U006"
+      ],
+      "weight": 0.0,
+      "scope": "range test against same-section measurements",
+      "object_key": "3.1 T13.latency_ranges",
+      "source_location": "materials T12 (3.1), T13 (3.1.1)",
+      "relation_predicate": "Retired as a mandatory conflict unless test stage, workload and latency definition are source-bound.",
+      "golden_object_key": "T13 800-1200 / 200-500 vs T12 420,180,210 / 150",
+      "golden_relation_predicate": "两处区间均不包含同节实测值",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "at most two finding spans about T12/T13 latency",
+        "metric": "finding spans",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "fraction = core x (0.55 + hit aspect weights) / (0.55 + defined aspect weights); aspect weights replay 0.15, basis 0.1, direction 0.1, impact 0.1; defined aspects per item in task_aliases.aspects; core partials: 0.5 per independent conflict; the two may come from at most two spans",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The model comparison table contradicts the measured values in the same section, undermining model selection.",
+      "reasoning_gate": "general model range 800-1200 against at least two of 420/180/210, and domain model 200-500 against 150; full credit also needs the replay, the basis or proven direction, and the impact where Golden states them"
+    },
+    {
+      "id": "P07",
+      "units": [
+        "U007"
+      ],
+      "weight": 0.05,
+      "scope": "one or two adopted finding spans about C07",
+      "object_key": "C07.confirmed_conflict",
+      "source_location": "materials 9.2 智能投顾表; golden 一 C07",
+      "relation_predicate": "客户覆盖率非数值取值不能推出 300%",
+      "golden_object_key": "U007",
+      "golden_relation_predicate": "高净值与全客群是定性类别，300% 无可复算基础",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "at most two finding spans about C07",
+        "metric": "finding spans",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "core component fraction times weighted replay/basis/impact aspects declared for C07 in ASPECTS; doubtful findings receive half except C05",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "高净值与全客群是定性类别，300% 无可复算基础",
+      "reasoning_gate": "高净值与全客群是定性类别，300% 无可复算基础"
+    },
+    {
+      "id": "P08",
+      "units": [
+        "U008"
+      ],
+      "weight": 0.05,
+      "scope": "one or two adopted finding spans about C08",
+      "object_key": "C08.confirmed_conflict",
+      "source_location": "materials T7 (2.1.2); golden 一 C08",
+      "relation_predicate": "FPGA 10K 节点 TCO $2.28M 与表记 $3.2M 不符",
+      "golden_object_key": "U008",
+      "golden_relation_predicate": "FPGA 220×10000+80K=2.28M，表为3.2M；ASIC 行可复算",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "at most two finding spans about C08",
+        "metric": "finding spans",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "core component fraction times weighted replay/basis/impact aspects declared for C08 in ASPECTS; doubtful findings receive half except C05",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "FPGA 220×10000+80K=2.28M，表为3.2M；ASIC 行可复算",
+      "reasoning_gate": "FPGA 220×10000+80K=2.28M，表为3.2M；ASIC 行可复算"
+    },
+    {
+      "id": "P09",
+      "units": [
+        "U009"
+      ],
+      "weight": 0.17,
+      "scope": "lead-sentence count",
+      "object_key": "7.2.1 T44.rows",
+      "source_location": "materials T44 and lead P985 (7.2.1)",
+      "relation_predicate": "lead promises six layers, table lists three",
+      "golden_object_key": "建立六层合规验证机制 vs 3 行",
+      "golden_relation_predicate": "引导句六层，表仅 3 行",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "fraction = core x (0.55 + hit aspect weights) / (0.55 + defined aspect weights); aspect weights replay 0.15, basis 0.1, direction 0.1, impact 0.1; defined aspects per item in task_aliases.aspects; core partials: binary",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The compliance framework presented to the client lacks half of the layers its lead sentence promises.",
+      "reasoning_gate": "one span binds 六层 in the lead sentence to the three table rows; full credit also needs the replay, the basis or proven direction, and the impact where Golden states them"
+    },
+    {
+      "id": "P10",
+      "units": [
+        "U010"
+      ],
+      "weight": 0.05,
+      "scope": "one or two adopted finding spans about C10",
+      "object_key": "C10.confirmed_conflict",
+      "source_location": "materials T12 (3.1); golden 一 C10",
+      "relation_predicate": "满分10分的评分表混入原始测量值",
+      "golden_object_key": "U010",
+      "golden_relation_predicate": "同一满分10分表中 420ms、6500美元、类别值无法直接加权",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "at most two finding spans about C10",
+        "metric": "finding spans",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "core component fraction times weighted replay/basis/impact aspects declared for C10 in ASPECTS; doubtful findings receive half except C05",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "同一满分10分表中 420ms、6500美元、类别值无法直接加权",
+      "reasoning_gate": "同一满分10分表中 420ms、6500美元、类别值无法直接加权"
+    },
+    {
+      "id": "P12",
+      "units": [
+        "U011"
+      ],
+      "weight": 0.05,
+      "scope": "author-confirmation grading",
+      "object_key": "U01.filing",
+      "source_location": "golden 二 U01",
+      "relation_predicate": "difference filed for author confirmation with the reading that would make it consistent",
+      "golden_object_key": "9.1 T54/T55 肺结节 准确率 98.2% vs 微小结节 检出率 94%",
+      "golden_relation_predicate": "存疑：不同指标与对象范围",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "1.0 doubtful with reading; 0.6 doubtful without reading; 0.5 cleared with the reading; 0 when reported as confirmed or filed both ways",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The 98.2% lung-nodule accuracy (9.1 T54) and the 94% micro-nodule detection rate (T55) measure different metrics over different ranges, so the pair must reach the author as a question, not as a defect and not silently dropped.",
+      "reasoning_gate": "one unit binds both values and is filed for author confirmation; full credit also states the alternative reading"
+    },
+    {
+      "id": "P13",
+      "units": [
+        "U012"
+      ],
+      "weight": 0.03,
+      "scope": "author-confirmation grading",
+      "object_key": "U02.filing",
+      "source_location": "golden 二 U02",
+      "relation_predicate": "difference filed for author confirmation with the reading that would make it consistent",
+      "golden_object_key": "8.1 端侧 <100ms vs 12.2 边缘设备 <50ms",
+      "golden_relation_predicate": "存疑：不同层级的指标",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "1.0 doubtful with reading; 0.6 doubtful without reading; 0.5 cleared with the reading; 0 when reported as confirmed or filed both ways",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The <100 ms device-side latency (8.1) and the <50 ms edge-device latency (12.2) may be targets at different levels, so the pair must reach the author as a question, not as a defect and not silently dropped.",
+      "reasoning_gate": "one unit binds both values and is filed for author confirmation; full credit also states the alternative reading"
+    },
+    {
+      "id": "P14",
+      "units": [
+        "U013"
+      ],
+      "weight": 0.03,
+      "scope": "author-confirmation grading",
+      "object_key": "U03.filing",
+      "source_location": "golden 二 U03",
+      "relation_predicate": "difference filed for author confirmation with the reading that would make it consistent",
+      "golden_object_key": "11 T67 区间 vs 11.1 T68 45/30/25",
+      "golden_relation_predicate": "存疑：示例且参与方分类不同",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "1.0 doubtful with reading; 0.6 doubtful without reading; 0.5 cleared with the reading; 0 when reported as confirmed or filed both ways",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The revenue-share range in 11 T67 and the 45/30/25 split in 11.1 T68 may be an example over differently grouped participants, so the pair must reach the author as a question, not as a defect and not silently dropped.",
+      "reasoning_gate": "one unit binds both values and is filed for author confirmation; full credit also states the alternative reading"
+    },
+    {
+      "id": "P17",
+      "units": [
+        "U016"
+      ],
+      "weight": 0.03,
+      "scope": "author-confirmation grading",
+      "object_key": "U06.filing",
+      "source_location": "golden 二 U06",
+      "relation_predicate": "difference filed for author confirmation with the reading that would make it consistent",
+      "golden_object_key": "8 T46 边缘 <200ms、云端 ≥1s 之间未覆盖",
+      "golden_relation_predicate": "存疑：倾向条件而非划分",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "1.0 doubtful with reading; 0.6 doubtful without reading; 0.5 cleared with the reading; 0 when reported as confirmed or filed both ways",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The edge <200 ms and cloud ≥1 s latencies in 8 T46 leave the band between them uncovered, which reads as a leaning condition rather than a partition, so the gap must reach the author as a question, not as a defect and not silently dropped.",
+      "reasoning_gate": "one unit binds both values and is filed for author confirmation; full credit also states the alternative reading"
+    },
+    {
+      "id": "P21",
+      "units": [
+        "U020"
+      ],
+      "weight": 0.05,
+      "scope": "author-confirmation grading",
+      "object_key": "U10.filing",
+      "source_location": "golden 二 U10",
+      "relation_predicate": "difference filed for author confirmation with the reading that would make it consistent",
+      "golden_object_key": "9.1.1 正文 漏诊率降 5-8 个百分点 vs T55 检出率升 12-23 个百分点",
+      "golden_relation_predicate": "存疑：正文病种与表不同",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "1.0 doubtful with reading; 0.6 doubtful without reading; 0.5 cleared with the reading; 0 when reported as confirmed or filed both ways",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The 5-8 point miss-rate reduction in the 9.1.1 body and the 12-23 point detection-rate gain in T55 may concern different diseases, so the pair must reach the author as a question, not as a defect and not silently dropped.",
+      "reasoning_gate": "one unit binds both values and is filed for author confirmation; full credit also states the alternative reading"
+    },
+    {
+      "id": "P28",
+      "units": [
+        "U027"
+      ],
+      "weight": 0.03,
+      "scope": "checked-and-consistent coverage",
+      "object_key": "X07.clearance",
+      "source_location": "golden 三 X07",
+      "relation_predicate": "apparent anomaly cleared by replay or reading",
+      "golden_object_key": "9.2 AUC 以 0.72 为共同基准 +12.5%/+16.7%",
+      "golden_relation_predicate": "经核查无误",
+      "comparison_mode": "formula_replay",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "binary; ambiguous when the same anomaly is also charged by D01",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "replay_rule_id": "R15",
+      "value_basis": "Showing that an apparent anomaly was checked and holds tells the requester the audit covered it and protects a correct table from edits.",
+      "reasoning_gate": "the anomaly anchor appears in a cleared unit with its replay or reading, or in a sentence that replays it with a consistent verdict"
+    },
+    {
+      "id": "P30",
+      "units": [
+        "U029"
+      ],
+      "weight": 0.03,
+      "scope": "checked-and-consistent coverage",
+      "object_key": "X09.clearance",
+      "source_location": "golden 三 X09",
+      "relation_predicate": "apparent anomaly cleared by replay or reading",
+      "golden_object_key": "4.1 综合优先级 = 业务×0.6+技术×0.4 四行全对",
+      "golden_relation_predicate": "经核查无误",
+      "comparison_mode": "formula_replay",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "binary; ambiguous when the same anomaly is also charged by D01",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "replay_rule_id": "R15",
+      "value_basis": "Showing that an apparent anomaly was checked and holds tells the requester the audit covered it and protects a correct table from edits.",
+      "reasoning_gate": "the anomaly anchor appears in a cleared unit with its replay or reading, or in a sentence that replays it with a consistent verdict"
+    },
+    {
+      "id": "P33",
+      "units": [
+        "U032"
+      ],
+      "weight": 0.06,
+      "scope": "checked-and-consistent coverage",
+      "object_key": "X12.clearance",
+      "source_location": "golden 三 X12",
+      "relation_predicate": "The full high-performance to energy-saving transition exceeds the stated frequency, power and latency-change ranges.",
+      "golden_object_key": "6.2.2 相邻档位降幅落入区间",
+      "golden_relation_predicate": "45.2% frequency and 52.0% power reductions exceed 15%-30% and 22%-41%; observed latency changes also exceed 3%.",
+      "comparison_mode": "formula_replay",
+      "adoption_status": "reported (confirmed or unlabelled) finding; a finding labelled doubtful earns half except where the unit's equivalent set includes doubtful",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one finding span: a heading section binding at most two audit objects, else one grouped block run or one table row",
+        "metric": "finding spans",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "binary; ambiguous when the same anomaly is also charged by D01",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "replay_rule_id": "R15",
+      "value_basis": "Showing that an apparent anomaly was checked and holds tells the requester the audit covered it and protects a correct table from edits.",
+      "reasoning_gate": "the anomaly anchor appears in a cleared unit with its replay or reading, or in a sentence that replays it with a consistent verdict"
+    },
+    {
+      "id": "P41",
+      "units": [
+        "U001",
+        "U002",
+        "U003",
+        "U004",
+        "U005",
+        "U006",
+        "U007",
+        "U008",
+        "U009",
+        "U010"
+      ],
+      "weight": 0.03,
+      "scope": "confirmed units C01-C10",
+      "object_key": "report.located_findings",
+      "source_location": "golden 一 C01-C10 位置 lines; instruction 'locate it in the document'",
+      "relation_predicate": "an identified confirmed conflict whose finding span names the section, chapter or heading title that holds its tables",
+      "golden_object_key": "C01-C10 位置",
+      "golden_relation_predicate": "每条确认冲突写明所在节号或节标题",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "identified confirmed unit (state identified in R02-R05)",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the carrier spans of each identified confirmed unit",
+        "metric": "confirmed units",
+        "max_units": 10
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "fraction = located identified confirmed units / 10 (fixed denominator; a unit not identified counts 0)",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The brief asks that each problem be described well enough to locate it in the document.",
+      "reasoning_gate": "a carrier span cites an allowed section number (task_aliases.allowed_sections), an allowed chapter (第N章) or the allowed heading title"
+    },
+    {
+      "id": "P42",
+      "units": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11",
+        "T12",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T17",
+        "T18",
+        "T19",
+        "T20",
+        "T21",
+        "T22",
+        "T23",
+        "T24",
+        "T25",
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T30",
+        "T31",
+        "T32",
+        "T33",
+        "T34",
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T39",
+        "T40",
+        "T41",
+        "T42",
+        "T43",
+        "T44",
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T49",
+        "T50",
+        "T51",
+        "T52",
+        "T53",
+        "T54",
+        "T55",
+        "T56",
+        "T57",
+        "T58",
+        "T59",
+        "T60",
+        "T61",
+        "T62",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67",
+        "T68",
+        "T69",
+        "T70",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76",
+        "T77",
+        "T78",
+        "T79",
+        "T80",
+        "T81",
+        "T82",
+        "T83",
+        "T84",
+        "T85",
+        "T86",
+        "T87",
+        "T88",
+        "T89",
+        "T90",
+        "T91",
+        "T92",
+        "T93",
+        "T94",
+        "T95",
+        "T96",
+        "T97",
+        "PSEUDO-A",
+        "PSEUDO-B",
+        "PSEUDO-C",
+        "PSEUDO-D"
+      ],
+      "weight": 0.2,
+      "scope": "all 97 numbered tables and four paragraph pseudo tables",
+      "object_key": "report.table_coverage_ledger",
+      "source_location": "instruction 'comprehensively audit every table'; source document T1-T97 plus four pseudo tables",
+      "relation_predicate": "Each table is represented in an auditable ledger as reviewed, with a finding reference or an explicit no-additional-inconsistency disposition.",
+      "golden_object_key": "table coverage appendix",
+      "golden_relation_predicate": "T1-T97 and PSEUDO-A through PSEUDO-D are each listed",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "identified confirmed unit (state identified in R02-R05)",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and earns 0.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "table coverage ledger",
+        "metric": "source tables",
+        "max_units": 101
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "partial_boundary": "fraction = distinct listed source tables / 101",
+      "wording_binding": "open",
+      "structure_binding": "open",
+      "order_binding": "open",
+      "value_basis": "The instruction requires a comprehensive audit of every table.",
+      "reasoning_gate": "table identity and review disposition are both present"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "penalty_coefficient": 0.8,
+      "trigger": "a checked-consistent trap (X01-X12) is reported as a conflict: its surface anomaly is asserted in a reported span without the replay that clears it",
+      "damage_basis": "Substantive defect: a false alarm on a client document triggers edits to correct numbers and erodes trust in the real findings.",
+      "scope": "all finding spans",
+      "object_key": "trap unit X01-X12",
+      "source_location": "golden 三 X01-X12 (units U021-U032)",
+      "error_predicate": "sentence binds the trap anchor and its surface-anomaly claim with a conflict cue; span disposition reported; no trap-specific clearing replay (e.g. 按行, 41.8%, 相邻档位) and no negation",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "trap:<unit>",
+      "damage_instance_key_rule": "trap_reported_as_conflict:<unit> (each trap is an independent false alarm)",
+      "manifestation_rule": "<unit>@<span_id>",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Traps carry no positive item; the damage is the false conflict, not an omission.",
+      "units": [
+        "U021",
+        "U022",
+        "U023",
+        "U024",
+        "U025",
+        "U026",
+        "U027",
+        "U028",
+        "U029",
+        "U030",
+        "U031",
+        "U032"
+      ]
+    },
+    {
+      "id": "D02",
+      "penalty_coefficient": 0.9,
+      "trigger": "an explicit recomputation stated in a finding does not replay (sum, ratio, difference over base, unit cost x nodes + development cost)",
+      "damage_basis": "Substantive defect: a wrong derived value presented as audit evidence misleads the author's correction.",
+      "scope": "reported and doubtful finding spans",
+      "object_key": "stated arithmetic expression",
+      "source_location": "any finding; golden recomputations C01, C02, C08, X01-X12",
+      "error_predicate": "expression a+b=c, a/b=c, (a-b)/c=d or $a x N + $bK = $cM whose result differs from the replay beyond the last stated decimal",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "arith:<normalized expression>",
+      "damage_instance_key_rule": "misstated_recomputation:<normalized expression>",
+      "manifestation_rule": "<expression>@<span_id>",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Positive items do not reward arithmetic strings; this charges only a wrong derived value.",
+      "units": [
+        "U001",
+        "U002",
+        "U008",
+        "U011",
+        "U012",
+        "U013",
+        "U014",
+        "U015",
+        "U016",
+        "U017",
+        "U018",
+        "U019",
+        "U020"
+      ]
+    },
+    {
+      "id": "D03",
+      "penalty_coefficient": 0.9,
+      "trigger": "the consistent side of a confirmed conflict is declared wrong: C01 250 TOPS, C04 the 1-hour/4-hour table, C08 the ASIC row",
+      "damage_basis": "Core conclusion on the wrong object: the author would change the correct value and keep the defect.",
+      "scope": "eligible spans of C01, C04, C08",
+      "object_key": "outlier side",
+      "source_location": "golden C01 判定依据, C04 同节正文佐证, C08 ASIC 行一致",
+      "error_predicate": "clause declares the consistent side erroneous or the outlier side authoritative, and no clause states the correct direction",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "direction:<unit>",
+      "damage_instance_key_rule": "reversed_direction:<unit>",
+      "manifestation_rule": "<unit>@<span_id>",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "The reported conflict earns no positive credit; D03 charges the separate wrong correction target.",
+      "units": [
+        "U001",
+        "U004",
+        "U008"
+      ]
+    },
+    {
+      "id": "D04",
+      "penalty_coefficient": 0.9,
+      "trigger": "a confirmed-conflict finding cites only document sections that do not hold its tables or sentences",
+      "damage_basis": "Substantive defect: the requester cannot locate the problem and may edit the wrong table.",
+      "scope": "eligible spans of C01-C10",
+      "object_key": "finding location",
+      "source_location": "materials heading numbers and table positions (task_aliases.allowed_sections)",
+      "error_predicate": "section references that name real headings (followed by 节/章 or the heading title, or preceded by 第/见/于/在) exist, none is in the allowed set and no allowed section title appears",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "location:<unit>",
+      "damage_instance_key_rule": "wrong_location:<unit>",
+      "manifestation_rule": "<unit>@<span_id>",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "The positive item keeps its credit for the proposition; D04 charges the separate locating damage.",
+      "units": [
+        "U001",
+        "U002",
+        "U003",
+        "U004",
+        "U005",
+        "U006",
+        "U007",
+        "U008",
+        "U009",
+        "U010"
+      ]
+    },
+    {
+      "id": "D05",
+      "penalty_coefficient": 0.9,
+      "trigger": "the report concludes the proposal can be sent as is, or that no table problem exists across the whole document",
+      "damage_basis": "Core conclusion wrong: ten confirmed defects would reach the client.",
+      "scope": "conclusion sentences in non-spray spans",
+      "object_key": "report.send_decision",
+      "source_location": "golden 首部结论",
+      "error_predicate": "affirmative send-as-is sentence without a correction condition, or a global no-issue sentence without exceptions; contradicted by a not-send sentence it becomes ambiguous",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "conclusion",
+      "damage_instance_key_rule": "send_as_is",
+      "manifestation_rule": "send@<span_id>",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "No positive item scores the send decision; D05 charges the adopted wrong decision.",
+      "units": [
+        "U033"
+      ]
+    },
+    {
+      "id": "D06",
+      "penalty_coefficient": 0.9,
+      "trigger": "a definitive corrected value the Materials cannot support is asserted: FPGA TCO 应改为 <value>, 客户覆盖率提升幅度 应改为 <percent> ; also a C02 sentence naming the dimension of the missing 25% of the 5.1 weight column (e.g. 缺失的 25% 即「安全性」维度 / 应补为 安全性 25%) without a hedge - the Materials only establish the 75% total",
+      "damage_basis": "Unsupported addition: the Materials only establish the inconsistency; a definitive replacement invents a figure for the client.",
+      "scope": "reported and doubtful spans about C02, C07 and C08",
+      "object_key": "corrected value",
+      "source_location": "golden C07 建议改为定性表述, C08 only the inconsistency",
+      "error_predicate": "sentence with a correction verb followed by a number, without hedge (或/可能/若/核实/按…口径) and without a declared gap marker",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "fabrication:<unit>",
+      "damage_instance_key_rule": "fabricated_correction:<unit>",
+      "manifestation_rule": "<unit>@<span_id>",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Declared gap markers fold to one gap observation (N06) and never trigger; positive credit is unaffected by the extra claim.",
+      "units": [
+        "U007",
+        "U008"
+      ]
+    },
+    {
+      "id": "D07",
+      "penalty_coefficient": 0.9,
+      "trigger": "Retired; the evaluator always records not_triggered.",
+      "damage_basis": "Shape deviation: a terse finding lacks the basis the requester needs to locate and judge the problem.",
+      "scope": "S01 matched finding spans; S02 whole deliverable",
+      "object_key": "report shape",
+      "source_location": "golden/golden.md measured by the Judge",
+      "error_predicate": "deterministic non-whitespace counter ratios against Golden measurements",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "length",
+      "damage_instance_key_rule": "length_underrun",
+      "manifestation_rule": "<shape>:<tier>",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Length never earns positive credit.",
+      "units": [
+        "U033"
+      ]
+    },
+    {
+      "id": "D08",
+      "penalty_coefficient": 0.9,
+      "trigger": "Retired; the evaluator always records not_triggered.",
+      "damage_basis": "The requester takes a maybe to the author as a definite defect; the document supports a consistent reading or does not support a confident defect.",
+      "scope": "finding units with reported disposition",
+      "object_key": "doubtful or excluded item",
+      "source_location": "golden 二 U01-U10; excluded items T75, B05, B06, B10, B12, B13 (task_aliases.overgraded_predicates)",
+      "error_predicate": "a finding unit (letter-ID heading, titled paragraph group or ID table row) outside scope, conclusion, doubtful and cleared containers states the item proposition (task_aliases.overgraded_predicates), without negation, rejection or candidate markers",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "overgrade",
+      "damage_instance_key_rule": "overgraded_as_confirmed:band<k>, k = 1..min(3, ceil(items / 4))",
+      "manifestation_rule": "overgraded:band<k>",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "U011/U012/U013/U016/U020 earn P12/P13/P14/P17/P21 when filed for author confirmation; D08 never triggers on filing a doubtful unit for author confirmation, clearing it or omitting it.",
+      "units": [
+        "U011",
+        "U012",
+        "U013",
+        "U014",
+        "U015",
+        "U016",
+        "U017",
+        "U018",
+        "U019",
+        "U020"
+      ]
+    },
+    {
+      "id": "D09",
+      "penalty_coefficient": 0.9,
+      "trigger": "Retired; the evaluator always records not_triggered.",
+      "damage_basis": "Scope violation and dilution: out-of-scope and unverified extras bury the send-blocking defects and send the author after non-defects.",
+      "scope": "finding units with reported disposition",
+      "object_key": "report.extra_confirmed_findings",
+      "source_location": "golden scope paragraph; instruction scope sentence",
+      "error_predicate": "count of reported finding units with a problem cue that match no C, U, X or excluded topic; allowance 3; one instance per started band of 5 above the allowance; at most 3",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "over_reporting",
+      "damage_instance_key_rule": "over_reporting:band<k>",
+      "manifestation_rule": "extras:band<k>",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Findings filed for author confirmation or as checked-and-consistent are never counted; valid extras inside the allowance are free.",
+      "units": [
+        "U033"
+      ]
+    },
+    {
+      "id": "D10",
+      "penalty_coefficient": 0.9,
+      "trigger": "a confirmed Golden conflict is stated as checked and consistent (cleared section, cleared label or bound negation) and reported nowhere else",
+      "damage_basis": "False assurance: the requester is told the suspicious pair was checked and holds, so the defect goes to the client with the audit's endorsement.",
+      "scope": "non-spray spans about C01-C10",
+      "object_key": "confirmed unit",
+      "source_location": "golden 一 C01-C10",
+      "error_predicate": "span states the unit proposition (c_components, or the same-case latency triple for C05) with cleared disposition or a negation bound to its anchor, while no span reports it; an additional reported span makes the unit ambiguous and never triggers",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "false_clear:<unit>",
+      "damage_instance_key_rule": "confirmed_defect_cleared:<unit>",
+      "manifestation_rule": "<unit>@<span_id>",
+      "length_contract_id": "S01",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "The positive item earns 0 either way; D10 charges the adopted wrong clearance, which an ordinary omission does not carry.",
+      "units": [
+        "U001",
+        "U002",
+        "U003",
+        "U004",
+        "U005",
+        "U006",
+        "U007",
+        "U008",
+        "U009",
+        "U010"
+      ]
+    },
+    {
+      "id": "D11",
+      "penalty_coefficient": 0.2,
+      "trigger": "Retired; the evaluator always records not_triggered.",
+      "damage_basis": "Incomplete work product: an audit that leaves out tables the brief requires or the send decision cannot be used to decide whether to send the proposal.",
+      "scope": "whole report",
+      "object_key": "report.required_units",
+      "source_location": "instruction: audit every table; decide whether to send",
+      "error_predicate": "each absent unit: the sections 2.1, 3.1, 5.1, 6.2, 9.2 (cited as a section number per R08 context rules), the table objects C03 (检出率/假阳性率/阅片速度 提升幅度), C07 (客户覆盖率), X08 (144), and a not-send decision (R06)",
+      "adoption_status": "whole report",
+      "negative_context_exclusions": "None: presence anywhere in the report, in any disposition, meets the unit.",
+      "causal_root_rule": "required:<unit>",
+      "damage_instance_key_rule": "missing_required_unit:<unit> (each absent unit is its own instance)",
+      "manifestation_rule": "required:<unit>",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "A multiplicative gate: each absent unit x0.2, compounding.",
+      "units": [
+        "U033"
+      ]
+    },
+    {
+      "id": "D12",
+      "penalty_coefficient": 0.8,
+      "trigger": "a figure's value is used as one side of a reported conflict (R17)",
+      "damage_basis": "Scope violation: the brief excludes figures, and a conflict built on a figure sends the author to edit outside the audited scope.",
+      "scope": "reported spans",
+      "object_key": "report.figure_findings",
+      "source_location": "instruction 'but not the figures'",
+      "error_predicate": "R17 sentence in a reported, non-rejected, non-candidate span",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "figure",
+      "damage_instance_key_rule": "figure_as_finding:figure@<span_id>",
+      "manifestation_rule": "figure@<span_id>",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "No positive item; scope statements that exclude figures are never charged.",
+      "units": [
+        "U033"
+      ]
+    },
+    {
+      "id": "D13",
+      "penalty_coefficient": 0.1,
+      "trigger": "Retired; the evaluator always records not_triggered.",
+      "damage_basis": "The brief asks for one file; extra deliverables dilute the hand-back and are not what was requested.",
+      "scope": "the deliverable's folder",
+      "object_key": "deliverable_folder.extra_files",
+      "source_location": "instruction 'Hand back one file'",
+      "error_predicate": "each non-hidden regular file in the deliverable's folder other than table-consistency-audit.md (the verifier's own program.json is not counted)",
+      "adoption_status": "files handed back",
+      "negative_context_exclusions": "Hidden files and the verifier's program.json are not counted.",
+      "causal_root_rule": "extra_file:<name>",
+      "damage_instance_key_rule": "extra_deliverable:<name>",
+      "manifestation_rule": "extra_file:<name>",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "A multiplicative file-count gate.",
+      "units": [
+        "U033"
+      ]
+    },
+    {
+      "id": "D14",
+      "penalty_coefficient": 0.8,
+      "trigger": "the source's general-model latency range (C06) is restated with a wrong value (R18) ; also a numeric string quoted as the source's own words (正文写「…」/表记“…”) that the Materials do not contain - supported when the normalized quote occurs in the Materials, or one Materials line (a table row with its header row) holds every number and Latin token of the quote and at least 60% of its CJK bigrams; recommendations (建议写明「…」, 应改为「…」) are not source quotes",
+      "damage_basis": "Misquoting the source value makes the conflict unverifiable and asserts a range the document does not contain.",
+      "scope": "reported spans (C06 range, and any source-attributed quote)",
+      "object_key": "C06.general_model_range",
+      "source_location": "materials 3.1 通用与专用模型对比表 800-1200ms",
+      "error_predicate": "R18 sentence in a reported, non-rejected, non-candidate span",
+      "adoption_status": "affirmative reported finding or conclusion outside cleared, doubtful, rejected and candidate contexts",
+      "negative_context_exclusions": "Exclude spans whose disposition is cleared (heading, row label or in-span label such as 无误/未发现/不构成/经核查一致), spans with rejection markers (该观点不成立/予以驳回/有观点认为/误报), candidate markers (候选/未核实/猜测/也许/或许), a sentence that negates the claim anchor (不存在冲突/并不矛盾/未发现), and keyword spray (a span binding 3 or more audit objects or over 2000 non-whitespace characters). The same proposition appearing both as reported and as cleared, or as reported and doubtful, is ambiguous and never triggers. Ordinary omission, ambiguity and parse failure never trigger.",
+      "causal_root_rule": "misstated:C06",
+      "damage_instance_key_rule": "misstated_source_value:C06",
+      "manifestation_rule": "C06@<span_id>",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "Independent of P06's C06 core credit.",
+      "units": [
+        "U006"
+      ]
+    },
+    {
+      "id": "G-LANG",
+      "penalty_coefficient": 0.2,
+      "trigger": "Chinese share of the delivered report is below 0.90 after inline code spans are excluded",
+      "damage_basis": "instruction.md explicitly requires the table-consistency audit to be written in Chinese, so it is a coverage gate",
+      "scope": "whole output/table-consistency-audit.md",
+      "object_key": "report.language",
+      "source_location": "instruction.md written in Chinese; Golden whole report",
+      "error_predicate": "CJK characters / (CJK characters + Latin words of two or more letters) < 0.90, excluding inline backtick code",
+      "adoption_status": "delivered prose, not quoted source material",
+      "negative_context_exclusions": "backtick code spans are excluded; technical English tokens in otherwise Chinese text remain allowed up to the 0.10 share threshold",
+      "causal_root_rule": "R-language: one report-language failure",
+      "damage_instance_key_rule": "language_not_chinese",
+      "manifestation_rule": "one gate occurrence per report",
+      "length_contract_id": "S02",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "relation_to_positive_items": "multiplicative brief-coverage gate"
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U001",
+      "golden_proposition": "C01 通用GPU 算力 200 TOPS（1.2.1）与 250 TOPS（2）冲突，功耗同为 300W，前表 200 离群",
+      "golden_locator": "golden 一 C01",
+      "program_item_ids": [
+        "P01",
+        "D03",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U002",
+      "golden_proposition": "C02 5.1.2 测试维度权重 30+25+20=75%，缺 25%",
+      "golden_locator": "golden 一 C02",
+      "program_item_ids": [
+        "P02",
+        "D02",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U003",
+      "golden_proposition": "C03 4 T18 提升幅度列混用百分点与相对增幅",
+      "golden_locator": "golden 一 C03",
+      "program_item_ids": [
+        "P03",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U004",
+      "golden_proposition": "C04 T59 与 T66 高/P1、常规/P2 响应时间冲突，10.2 正文 P1 1小时内 与 T66 ≤30分钟 冲突",
+      "golden_locator": "golden 一 C04",
+      "program_item_ids": [
+        "P04",
+        "D03",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U005",
+      "golden_proposition": "C05 4.2 制造业推理延迟 <500ms 与 200ms 内完成产线图像分析冲突（确认或存疑均可）",
+      "golden_locator": "golden 一 C05",
+      "program_item_ids": [
+        "P05",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U006",
+      "golden_proposition": "C06 3.1.1 通用大模型 800-1200ms 与 420/180/210；专用 200-500ms 与 150",
+      "golden_locator": "golden 一 C06",
+      "program_item_ids": [
+        "P06",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U007",
+      "golden_proposition": "C07 9.2 客户覆盖率 高净值→全客群 记 300% 无推导",
+      "golden_locator": "golden 一 C07",
+      "program_item_ids": [
+        "P07",
+        "D04",
+        "D10",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U008",
+      "golden_proposition": "C08 2.1.2 T7 FPGA $220×10,000+$80K=$2.28M 与 $3.2M 不符，ASIC 行一致",
+      "golden_locator": "golden 一 C08",
+      "program_item_ids": [
+        "P08",
+        "D02",
+        "D03",
+        "D04",
+        "D10",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U009",
+      "golden_proposition": "C09 7.2.1 引导句六层合规验证机制与 T44 仅 3 行不符",
+      "golden_locator": "golden 一 C09",
+      "program_item_ids": [
+        "P09",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U010",
+      "golden_proposition": "C10 3.1 T12 满分10分评分表混入 ms、$、是否等原始值，无法加权",
+      "golden_locator": "golden 一 C10",
+      "program_item_ids": [
+        "P10",
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U011",
+      "golden_proposition": "U01 存疑项（应交作者确认：报为需作者确认得 P12 正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U01",
+      "program_item_ids": [
+        "P12",
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U012",
+      "golden_proposition": "U02 存疑项（应交作者确认：报为需作者确认得 P13 正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U02",
+      "program_item_ids": [
+        "P13",
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U013",
+      "golden_proposition": "U03 存疑项（应交作者确认：报为需作者确认得 P14 正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U03",
+      "program_item_ids": [
+        "P14",
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U014",
+      "golden_proposition": "U04 存疑项（应交作者确认：不计正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U04",
+      "program_item_ids": [
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U015",
+      "golden_proposition": "U05 存疑项（应交作者确认：不计正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U05",
+      "program_item_ids": [
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U016",
+      "golden_proposition": "U06 存疑项（应交作者确认：报为需作者确认得 P17 正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U06",
+      "program_item_ids": [
+        "P17",
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U017",
+      "golden_proposition": "U07 存疑项（应交作者确认：不计正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U07",
+      "program_item_ids": [
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U018",
+      "golden_proposition": "U08 存疑项（应交作者确认：不计正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U08",
+      "program_item_ids": [
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U019",
+      "golden_proposition": "U09 存疑项（应交作者确认：不计正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U09",
+      "program_item_ids": [
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U020",
+      "golden_proposition": "U10 存疑项（应交作者确认：报为需作者确认得 P21 正分；报为确认冲突由 D08 扣分；不报不扣分；所陈述的复算与材料不符时由 D02 收费）",
+      "golden_locator": "golden 二 U10",
+      "program_item_ids": [
+        "P21",
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U021",
+      "golden_proposition": "X01 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X01",
+      "program_item_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U022",
+      "golden_proposition": "X02 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X02",
+      "program_item_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U023",
+      "golden_proposition": "X03 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X03",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U024",
+      "golden_proposition": "X04 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X04",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U025",
+      "golden_proposition": "X05 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X05",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U026",
+      "golden_proposition": "X06 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X06",
+      "program_item_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U027",
+      "golden_proposition": "X07 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X07",
+      "program_item_ids": [
+        "P28",
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U028",
+      "golden_proposition": "X08 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X08",
+      "program_item_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U029",
+      "golden_proposition": "X09 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X09",
+      "program_item_ids": [
+        "P30",
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U030",
+      "golden_proposition": "X10 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X10",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U031",
+      "golden_proposition": "X11 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X11",
+      "program_item_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U032",
+      "golden_proposition": "X12 经核查无误的陷阱：报为确认冲突即 D01；列为无误不强制给分",
+      "golden_locator": "golden 三 X12",
+      "program_item_ids": [
+        "P33",
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U033",
+      "golden_proposition": "不建议直接提交；必须修正 7 处、补全 2 处、删改 1 处、确认 10 处",
+      "golden_locator": "golden 首部结论 + 四 处置建议",
+      "program_item_ids": [
+        "D05",
+        "D07",
+        "D09"
+      ]
+    },
+    {
+      "unit_id": "U034",
+      "golden_proposition": "report written in Chinese as the brief expressly requires",
+      "golden_locator": "Golden whole report",
+      "program_item_ids": [
+        "G-LANG"
+      ]
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "applicable_item_ids": [
+        "P02",
+        "P05",
+        "P06",
+        "P09",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D06",
+        "D08",
+        "D10"
+      ],
+      "scope": "finding spans that carry identified confirmed-unit propositions",
+      "metric": "non-whitespace characters",
+      "golden_value": 2993,
+      "golden_unit_values": {
+        "C01": 253,
+        "C02": 203,
+        "C03": 271,
+        "C04": 559,
+        "C05": 155,
+        "C06": 299,
+        "C07": 194,
+        "C08": 428,
+        "C09": 214,
+        "C10": 417
+      },
+      "declared_floor": 150,
+      "counter": "sum of len(re.sub(r'\\s','',span)) over distinct carrier spans of identified C units, against the Golden carrier spans of the same units",
+      "threshold_basis": "no overrun arm: neither instruction.md nor the task skill states a length requirement for this deliverable, so overrun_tolerance_ratio is null and only the underrun arm applies.",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": 0.3,
+      "tier_width": 0.5,
+      "max_tiers": 3,
+      "deduction_id": "D07",
+      "underrun_gate": "underrun is charged only when positive_earned > 0"
+    },
+    {
+      "id": "S02",
+      "applicable_item_ids": [
+        "P12",
+        "P13",
+        "P14",
+        "P17",
+        "P21",
+        "P28",
+        "P30",
+        "P33",
+        "D05",
+        "D07",
+        "D09"
+      ],
+      "scope": "whole deliverable",
+      "metric": "non-whitespace characters",
+      "golden_value": 6863,
+      "declared_floor": 1000,
+      "counter": "len(re.sub(r'\\s','',file_text))",
+      "threshold_basis": "no overrun arm: neither instruction.md nor the task skill states a length requirement for this deliverable, so overrun_tolerance_ratio is null and only the underrun arm applies.",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": 0.3,
+      "tier_width": 0.5,
+      "max_tiers": 3,
+      "deduction_id": "D07",
+      "underrun_gate": "not charged at document level: missing findings already lose P, and trap coverage is optional"
+    }
+  ]
+}

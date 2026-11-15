@@ -1,0 +1,13 @@
+check,result,detail
+Visible hit anchors align with both requested points,FAIL,World-space artwork anchors
+Hit artwork uses ordinary alpha blending,FAIL,Actual sprite materials
+Repeated hits have independent visible instances,FAIL,Distinct returned instances
+Visual-only playback never emits a combat event,FAIL,"[[2, (320.0, 180.0)]]"
+Hit playback and release meet the contracted interval,FAIL,Independent 60 Hz observations; one-tick end tolerance
+Appearance begins at source frame 04 at its ground anchor,FAIL,0
+Appearance plays and releases within one sampling interval,FAIL,Independent 60 Hz observations
+"Original runtime artwork, rate and nonlooping playback",PASS,Full appearance sequence or ordered playback subset accepted
+Visible flight artwork faces its travel direction,FAIL,Both travel directions
+World-space flight anchor follows a constant-speed half-second path,FAIL,"Every 60 Hz sample, independent of scene clock"
+Each arrival emits exactly one timely impact at its destination,PASS,"[[152, (380.0, 260.0)], [207, (150.0, 280.0)]]"
+Each projectile produces a hit and all instances are reclaimed,FAIL,Both arrivals and final scene tree

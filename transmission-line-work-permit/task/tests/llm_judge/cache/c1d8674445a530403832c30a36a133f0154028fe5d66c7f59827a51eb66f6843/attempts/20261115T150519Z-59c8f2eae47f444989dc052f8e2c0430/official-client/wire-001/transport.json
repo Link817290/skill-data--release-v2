@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-11-15T15:05:19.964900+00:00",
+  "finished_at": "2026-11-15T15:06:02.271503+00:00",
+  "endpoint": "http://192.168.77.30:9003/v1/responses/v1/responses",
+  "http_status": 200,
+  "exception_type": null,
+  "request_sha256": "e17a243b8aba509eb2e31c37c020c3b09c31af556c7072edb9c8ca75fdc71294",
+  "response_sha256": "6ae96cf687f02023ae97a0f96ab42ae77262f9e4d81e03fff9e75ef98b7d1362",
+  "client": "official-codex-cli",
+  "credentials_recorded": false,
+  "explicit_max_output_tokens": 16384
+}

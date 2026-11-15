@@ -1,0 +1,221 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "jianpu-scan-to-musicxml",
+  "tasks": [
+    "jianpu-scan-to-musicxml"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 52,
+  "bytes_excluding_manifest": 1959126,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 862,
+      "sha256": "6bd6ae999215626495b9cc35646eb0f055ac98d9e7c6de693556d3c07c3d74d9"
+    },
+    "RUBRIC.md": {
+      "bytes": 2919,
+      "sha256": "6235a1f4c9e1fad13914766befefb5a39502a903eec4d712bd1ab6fc49f9880a"
+    },
+    "dataset.toml": {
+      "bytes": 330,
+      "sha256": "e3f0c174401fe827365ab2e13c84b3ae749f131fcc0eb574af0d175788a94b7a"
+    },
+    "golden/揚州慢.mei": {
+      "bytes": 70703,
+      "sha256": "eac8fbc91d383fb197b9a8e70fbb54ae592145d987f8a3306edd0869aec04260"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 310,
+      "sha256": "c9f59abab8838747e900da0a7db051206fa2f3c8555664a41a92b216d76f8722"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 59,
+      "sha256": "a01099b6248447fc477589ab7000871b385b3caf7ab771f8979bc1c2f2c520b1"
+    },
+    "task/environment/skills/historical-chinese-score-reading/SKILL.md": {
+      "bytes": 9078,
+      "sha256": "511cb1225bd6282559ea0e9163095858a9d47a4c22ac2443bcd10c445ca21556"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/add_dadun.png": {
+      "bytes": 1089,
+      "sha256": "4380775d1a0e96fc208bff396ae9d428204ec6cf469706570e7f0d4571bfa139"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/add_dazhu.png": {
+      "bytes": 1171,
+      "sha256": "4904c288831132ce96d0f70d419b414b3aab99a81acc39297c66d0c72edf97a5"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/add_dingzhu.png": {
+      "bytes": 916,
+      "sha256": "c584da65231cc3f60bdcddccf6333c4ed5e920ad03b25cda8d3933c2ceee6b40"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/add_xiaozhu.png": {
+      "bytes": 852,
+      "sha256": "0a698e9db9a5a888f1defd3ac7c8f0c49c4e6451819bc4334730075bdf4b3494"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/add_ye.png": {
+      "bytes": 754,
+      "sha256": "bc367d6e62eea608cef198bbac3c7776b36a06ddf47ba60f1453755dfa368bb3"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/add_zhe.png": {
+      "bytes": 1010,
+      "sha256": "9dc91bcdbad8f540e008ef57aacf6bea8a9c67faa399e1769bcc0e2219d27c4f"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/che.png": {
+      "bytes": 980,
+      "sha256": "dc9ec99e999580cafea0c5f273f768271ea52fe2fac2aee7b64955f03f829e21"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/fan.png": {
+      "bytes": 852,
+      "sha256": "cf701bb9f999c44bb43b394a7b7efc78f1823d2d246c32beff2cf04f23ab24c8"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/gao_wu.png": {
+      "bytes": 1131,
+      "sha256": "46d5718d380f3126404232490bf1ff4829050e88d30abbe8c29f32fb460d8319"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/gong.png": {
+      "bytes": 916,
+      "sha256": "a3c8e46817b38809c5233767511b20f3b92e9aebfbdcc84f99a358ef062cc744"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/gou.png": {
+      "bytes": 870,
+      "sha256": "e00929eefc5f9cb6ce82085b094404a1daf226807ee5b81f5ae316b873c9c80f"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/he.png": {
+      "bytes": 970,
+      "sha256": "0e1000dfe346e181b8a53d9651cadc63802d6bb77fc3d506172fd2eae7eb1421"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/liu.png": {
+      "bytes": 1087,
+      "sha256": "b2f5bd27dfd80d6f0a7f42caeb4439432ad1dd2efa45bf3db7a29c73d5b98ac0"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/shang.png": {
+      "bytes": 1088,
+      "sha256": "2188ad304c61c861a576f13b5754fe461a8b3a7e676ed8811834a0d8adb6b777"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/si.png": {
+      "bytes": 980,
+      "sha256": "d0f51709570c6438b23eff2ea38c288732ce6536a28eb0f8b896128fc301b4bd"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/wu.png": {
+      "bytes": 1089,
+      "sha256": "20062dc413d7d135d35a7a306e3327d91341542dc8d4ec29190702d55c0f4c7f"
+    },
+    "task/environment/skills/historical-chinese-score-reading/references/yi.png": {
+      "bytes": 734,
+      "sha256": "e34adadc772d5b6529a07a8c4975b25e6541cda8e5bae5c0192cb565744883be"
+    },
+    "task/environment/skills/mei-facsimile-encoding/SKILL.md": {
+      "bytes": 7483,
+      "sha256": "edbf5996ff8f30ca7706d7eed0d099200e17e352e0b44e91cd2f595fdd9434ef"
+    },
+    "task/environment/skills/mei-facsimile-encoding/scripts/validate_mei_facsimile.py": {
+      "bytes": 4406,
+      "sha256": "d2f49a61e93359c95d63c0c0c5f0a9dba2200c7516f842ea4bf3722143ff025c"
+    },
+    "task/environment/workspace/materials/source_page_01.png": {
+      "bytes": 29817,
+      "sha256": "07d2f714777b9ae1cf2cfc1cf67b1267f8d2b189682a12f0ed02dbbe20f0aca8"
+    },
+    "task/environment/workspace/materials/source_page_02.png": {
+      "bytes": 31875,
+      "sha256": "342f405755c426ad220a08684521b8b569d16122db0587f5e0952a610da818e1"
+    },
+    "task/instruction.md": {
+      "bytes": 1277,
+      "sha256": "7544a2ab2e37da9ae8745bdd528fcbd75702b438e6eb51e4b9dedcfc8f3393fe"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 1855,
+      "sha256": "3e3c8ef0dc17297734ad1066b5b678425181691b2daa3d5f9c05598c92a83b66"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 6677,
+      "sha256": "b37774429c32a022e72ea2f6d69694580b2b04a7dfb4e5f0a2324f720f097199"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 158,
+      "sha256": "22c58248601fe4a6f3c8c6ad2561a856daa17026b4bf595912e69aa74f1aae0d"
+    },
+    "task/solution/source_annotation.json": {
+      "bytes": 69185,
+      "sha256": "20deeee71bdad090a21cbe4c98d1939cde96f4be8e272fc75f57c91e12d01a7b"
+    },
+    "task/task.toml": {
+      "bytes": 971,
+      "sha256": "e1c6642e8dc1b5ab9e4afa634da865322f227c8698e99837d6e0df29e50a91df"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 950,
+      "sha256": "e0393c970453c5e976d028b4a1bc095be993927ac8fef266274e03814e927816"
+    },
+    "task/tests/content_checks.py": {
+      "bytes": 3593,
+      "sha256": "146b520fe465f829963ce22d1248d31a772d872ff602c7389e5240b4fa24970d"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 1594095,
+      "sha256": "25ec02fb6640bfe0f64ed354153b97569b186cae6b878630ab5f854f4ca3e540"
+    },
+    "task/tests/position_checks.py": {
+      "bytes": 11642,
+      "sha256": "0e5083613e87b16dbbce019b09c058f2eebe56a210f1b468ccccb6fbcb72d201"
+    },
+    "task/tests/scoreio.py": {
+      "bytes": 18076,
+      "sha256": "670ee530ce6d372a345897d001826554eacae4a4b22eec217dfa87aa21203e43"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 611,
+      "sha256": "3e1d6b4f582110a287178b29e819d28015a067c8e4beedeabed3071befc0d39a"
+    },
+    "task/tests/semantic_context.py": {
+      "bytes": 9658,
+      "sha256": "dbee1b3796c99eda2b8cd29de434068ee233acfe70797835a296f7140251f1a2"
+    },
+    "task/tests/semantic_judge_schema.json": {
+      "bytes": 1441,
+      "sha256": "1ead8f4cd394ca28f2ac043e16053571ae2606feab9763df8c8ddc0743dd03b8"
+    },
+    "task/tests/semantic_rubric.json": {
+      "bytes": 5284,
+      "sha256": "55ec5899dee24029488cf463e120d43efb73fc49fa50a1870806f9b27039ee9f"
+    },
+    "task/tests/semantic_unit_predicates.py": {
+      "bytes": 5515,
+      "sha256": "b74d8b3d96ff8327072d8dd76068aef53349a2758b27db89c58301617125d96d"
+    },
+    "task/tests/skill_process/replay.py": {
+      "bytes": 6300,
+      "sha256": "1fdec16762ddb92b854a5ba80de3674eb6f8f8acd5dc8a8d230b012ccdb2a4af"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2174,
+      "sha256": "a16c352bf91fe360a7d2f38875d253102e1045588b0ede181220d997b58d0947"
+    },
+    "task/tests/test_content_checks.py": {
+      "bytes": 3305,
+      "sha256": "52eb58a3ba7bda4fde3a139ecf4bde6653f49ee1c36ecfd0e2f9937540f98ecb"
+    },
+    "task/tests/test_lenient.py": {
+      "bytes": 2750,
+      "sha256": "23d8beca61bf7f2e4b870a1c193f5ff422440472f8a530ff81b42f64711ad2df"
+    },
+    "task/tests/test_modern_claims.py": {
+      "bytes": 1513,
+      "sha256": "e6c9ef51b4a1637df278f13c547f7e4d07b2d7ea1fa6629a136d56832300022e"
+    },
+    "task/tests/test_semantic_unit_predicates.py": {
+      "bytes": 8416,
+      "sha256": "89d21cf74be38901e7ccae5cdf55f4f115253955a9f38383ca6e656a30e7f8fc"
+    },
+    "task/tests/test_semantics.py": {
+      "bytes": 14009,
+      "sha256": "151e304c2abe7d68c034ad9062e2a9674fa5b22077d64d5d6a4bf3d768e6c20b"
+    },
+    "task/tests/validator.py": {
+      "bytes": 15340,
+      "sha256": "bec2bbca95cbc6b4b252cd964df5720e33b08a186ec35890978044774a5192ea"
+    }
+  }
+}

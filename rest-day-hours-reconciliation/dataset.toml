@@ -1,0 +1,40 @@
+version = "1.0"
+id = "rest-day-hours-reconciliation"
+name = "expert/rest-day-hours-reconciliation"
+title = "Rest-day attendance and compensatory-leave reconciliation"
+task_type = "skill-bench"
+domain = "human-resources"
+language = "en"
+difficulty = "hard"
+deliverable = "/workspace/output/rest-day-review.xlsx and /workspace/output/review-conclusions.txt"
+required_outputs = ["rest-day-review.xlsx", "review-conclusions.txt"]
+network_access = false
+
+[judge]
+type = "mixed"
+model = "gpt-5.6-sol"
+cache_required_for_replay = true
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+input_kind = "directory"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = true
+
+[scoring.semantic_judge]
+required = true
+env = ["LLM_JUDGE_BASE_URL", "LLM_JUDGE_API_KEY", "LLM_JUDGE_MODEL", "LLM_JUDGE_CACHE_DIR", "LLM_JUDGE_MODE", "LLM_JUDGE_TIMEOUT_SECONDS"]
+default_model = "gpt-5.6-sol"
+default_timeout_seconds = 240
+replay_cache = "task/tests/golden_replay"
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0

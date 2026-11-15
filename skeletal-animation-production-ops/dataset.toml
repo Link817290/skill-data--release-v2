@@ -1,0 +1,29 @@
+version = "1.0"
+id = "skeletal-animation-production-ops"
+title = "Godot skeletal-animation effects integration and handover"
+task_type = "skill-bench"
+domain = "game-effects-production-engineering"
+language = "en"
+difficulty = "expert"
+deliverable = "workspace/output"
+required_outputs = ["project", "preview", "delivery-register.xlsx"]
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+strict_formula = "sum(weight[owner] * completion[owner])"
+scoring_params = "tests/calibration/params.json"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "tests/test.sh"
+rubric = "RUBRIC.md"
+input_kind = "directory"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[skill]
+names = ["effect-lifecycle-measurement", "preview-delivery-validation", "sequence-display-measurement"]
+count = 3
+answers_in_skill = false
+network_required = false

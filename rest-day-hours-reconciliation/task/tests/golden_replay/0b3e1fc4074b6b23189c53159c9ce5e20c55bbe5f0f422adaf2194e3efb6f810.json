@@ -1,0 +1,550 @@
+{
+  "cache_key": "0b3e1fc4074b6b23189c53159c9ce5e20c55bbe5f0f422adaf2194e3efb6f810",
+  "request_sha256": "2e0e548a4092f76f6a3ec5aaaa372119a6f55e72c9ba662625f39ad1b373d48e",
+  "runtime_sha256": "5110619bf48b84001f48adb8c43ff96773faa50c21a16be0668e44b19e668f1c",
+  "model": "gpt-5.6-sol",
+  "verdict": {
+    "items": [
+      {
+        "id": "EV260705-17:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260705-17-C0001"
+        ],
+        "reason": "The candidate identifies 2026-07-05 as a published rest day changed for employer-arranged group check-in coverage, with the manager's notice and employee acknowledgment."
+      },
+      {
+        "id": "EV260705-17:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260705-17-C0001",
+          "EV260705-17-C0004"
+        ],
+        "reason": "The candidate accepts the compensatory-rest record as supported and states that the original attendance, work, approval, and compensatory-rest-date records correspond."
+      },
+      {
+        "id": "EV260705-17:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260705-17-C0002",
+          "EV260705-17-C0005",
+          "EV260705-17-C0006"
+        ],
+        "reason": "The candidate retains the rest treatment, preserves the citation chain, and completes monthly filing."
+      },
+      {
+        "id": "EV260705-17:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260705-17-C0001",
+          "EV260705-17-C0002"
+        ],
+        "reason": "The candidate reconciles the published rest-day schedule and effective arrangement, manager notification and employee acknowledgment, access records versus supervisor-supported work, the approved rest treatment versus actual rest-date access, and the not-generated payroll status."
+      },
+      {
+        "id": "EV260705-17:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260705-17-C0001"
+        ],
+        "reason": "The candidate gives event-specific references, states what the records establish, preserves the limitation that access does not equal paid work hours, and binds the conclusion to H-4A17 on 2026-07-05."
+      },
+      {
+        "id": "EV260705-17:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260705-17-C0001"
+        ],
+        "reason": "The candidate records payroll as not generated and makes no payment or final-settlement claim."
+      },
+      {
+        "id": "EV260706-02:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260706-02-C0007",
+          "EV260706-02-C0010"
+        ],
+        "reason": "The candidate classifies the event as a rest day changed to employer-arranged attendance and states that the original attendance fact is supported."
+      },
+      {
+        "id": "EV260706-02:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260706-02-C0008",
+          "EV260706-02-C0013"
+        ],
+        "reason": "The candidate refuses to close compensatory rest as completed because the later date has attendance and work evidence, expressly preserving the conflict."
+      },
+      {
+        "id": "EV260706-02:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260706-02-C0008",
+          "EV260706-02-C0012"
+        ],
+        "reason": "The candidate requires additional evidence and a fresh decision on the compensatory-rest or payroll path rather than relying on the completed ledger flag."
+      },
+      {
+        "id": "EV260706-02:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260706-02-C0007",
+          "EV260706-02-C0008"
+        ],
+        "reason": "The candidate reconciles the original rest-day schedule and later attendance arrangement, employer notification with absent employee-confirmation trace, access versus supervisor-described activity, the disputed rest date versus actual attendance, and the not-generated payroll status."
+      },
+      {
+        "id": "EV260706-02:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260706-02-C0007",
+          "EV260706-02-C0013"
+        ],
+        "reason": "The candidate uses event-bound references, accurately describes access and supervisor evidence, preserves the contradiction about the alleged rest date, and binds it to H-9C02 and the relevant July dates."
+      },
+      {
+        "id": "EV260706-02:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260706-02-C0007"
+        ],
+        "reason": "The candidate states that payroll is not generated and does not claim payment or settlement."
+      },
+      {
+        "id": "EV260712-03:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-03-C0015",
+          "EV260712-03-C0018"
+        ],
+        "reason": "The candidate treats 2026-07-12 as the working side of an employee-requested, approved shift swap rather than temporary employer-arranged rest-day attendance."
+      },
+      {
+        "id": "EV260712-03:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-03-C0015"
+        ],
+        "reason": "The candidate marks compensatory-rest treatment as not applicable because this is an approved shift-swap event."
+      },
+      {
+        "id": "EV260712-03:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-03-C0016",
+          "EV260712-03-C0017"
+        ],
+        "reason": "The candidate archives the approved swap and explicitly excludes it from rest-day-work and compensatory-rest review."
+      },
+      {
+        "id": "EV260712-03:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-03-C0015",
+          "EV260712-03-C0018",
+          "EV260712-03-C0019"
+        ],
+        "reason": "The candidate reconciles the original and effective schedules, employee initiation and pre-shift approval/synchronization, access versus the approved work schedule, the non-applicability of leave/rest adjudication, and the no-payroll-item status."
+      },
+      {
+        "id": "EV260712-03:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-03-C0015"
+        ],
+        "reason": "The candidate cites event-specific records, explains that approval and synchronized scheduling establish a swap, limits the access record to presence, and binds the conclusion to H-7K31 on 2026-07-12."
+      },
+      {
+        "id": "EV260712-03:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-03-C0015"
+        ],
+        "reason": "The candidate states that no payroll item is generated and makes no payment or settlement claim."
+      },
+      {
+        "id": "EV260712-04:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-04-C0021",
+          "EV260712-04-C0024"
+        ],
+        "reason": "The candidate treats the event as the resting side of the approved employee shift swap and states that no work was required or recorded on that day."
+      },
+      {
+        "id": "EV260712-04:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-04-C0021"
+        ],
+        "reason": "The candidate treats compensatory-rest adjudication as not applicable to the approved shift-swap event."
+      },
+      {
+        "id": "EV260712-04:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-04-C0022",
+          "EV260712-04-C0023"
+        ],
+        "reason": "The candidate archives the approved swap and excludes the event from rest-day-work treatment."
+      },
+      {
+        "id": "EV260712-04:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-04-C0021",
+          "EV260712-04-C0024",
+          "EV260712-04-C0025"
+        ],
+        "reason": "The candidate reconciles the original work schedule and effective rest schedule, employee swap initiation and pre-shift approval/synchronization, the lack of work evidence without treating missing access as conclusive, the non-applicability of compensatory rest, and the no-payroll-item status."
+      },
+      {
+        "id": "EV260712-04:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-04-C0021"
+        ],
+        "reason": "The candidate provides event-specific references, accurately distinguishes the approved rest arrangement from the limited absence of access records, preserves that absence as only a limitation, and binds the conclusion to H-5M88 on 2026-07-12."
+      },
+      {
+        "id": "EV260712-04:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260712-04-C0021"
+        ],
+        "reason": "The candidate states that the approved-swap rest day creates no payroll item and makes no payment or settlement claim."
+      },
+      {
+        "id": "EV260719-05:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260719-05-C0027",
+          "EV260719-05-C0030"
+        ],
+        "reason": "The candidate identifies the date as an original rest day with employer-arranged attendance for a temporary banquet increase."
+      },
+      {
+        "id": "EV260719-05:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260719-05-C0028",
+          "EV260719-05-C0033"
+        ],
+        "reason": "The candidate does not accept compensatory rest as completed because the recorded rest date also has a normal schedule, access, and reported work, while preserving the evidence conflict."
+      },
+      {
+        "id": "EV260719-05:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260719-05-C0028",
+          "EV260719-05-C0032"
+        ],
+        "reason": "The candidate requires further evidence and reopens the decision on compensatory-rest versus payroll treatment instead of closing the case from the ledger status."
+      },
+      {
+        "id": "EV260719-05:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260719-05-C0027",
+          "EV260719-05-C0028"
+        ],
+        "reason": "The candidate reconciles the original rest-day schedule and attendance arrangement, manager phone notification with absent employee-confirmation trace, access versus supervisor-reported work, the disputed compensatory-rest date, and the not-generated payroll status."
+      },
+      {
+        "id": "EV260719-05:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260719-05-C0027",
+          "EV260719-05-C0033"
+        ],
+        "reason": "The candidate uses event-bound references, accurately states what access and supervisor records establish, preserves the contradiction and missing confirmation field, and binds the conclusion to H-2R46 and the relevant July dates."
+      },
+      {
+        "id": "EV260719-05:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260719-05-C0027"
+        ],
+        "reason": "The candidate records payroll as not generated and does not claim payment or final settlement."
+      },
+      {
+        "id": "EV260802-06:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260802-06-C0035"
+        ],
+        "reason": "The candidate identifies 2026-08-02 as a published rest day with employer-arranged four-hour coverage for a colleague's absence."
+      },
+      {
+        "id": "EV260802-06:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260802-06-C0035",
+          "EV260802-06-C0038"
+        ],
+        "reason": "The candidate accepts the four-hour compensatory-rest record as supported and states that the attendance, work, approval, and rest-date records correspond."
+      },
+      {
+        "id": "EV260802-06:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260802-06-C0036",
+          "EV260802-06-C0039",
+          "EV260802-06-C0040"
+        ],
+        "reason": "The candidate retains the four-hour rest treatment, preserves the evidence chain, and completes monthly filing."
+      },
+      {
+        "id": "EV260802-06:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260802-06-C0035",
+          "EV260802-06-C0036"
+        ],
+        "reason": "The candidate reconciles the published rest-day schedule, manager notification and employee acknowledgment, access versus supervisor-supported work, the four-hour record versus the actual rest date, and the not-generated payroll status."
+      },
+      {
+        "id": "EV260802-06:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260802-06-C0035"
+        ],
+        "reason": "The candidate provides event-specific references, accurately limits access to presence while relying on the supervisor record for work, preserves the relevant evidence distinction, and binds the conclusion to H-8D13 on 2026-08-02."
+      },
+      {
+        "id": "EV260802-06:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260802-06-C0035"
+        ],
+        "reason": "The candidate states that payroll output is not generated and does not claim payment or final settlement."
+      },
+      {
+        "id": "EV260809-07:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260809-07-C0041",
+          "EV260809-07-C0044"
+        ],
+        "reason": "The candidate recognizes employer-linked rest-day attendance while expressly keeping the activity purpose unresolved rather than erasing the event."
+      },
+      {
+        "id": "EV260809-07:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260809-07-C0042",
+          "EV260809-07-C0046",
+          "EV260809-07-C0050"
+        ],
+        "reason": "The candidate keeps compensatory-rest adjudication pending because the fire-drill activity and task assignment are not resolved by the current records."
+      },
+      {
+        "id": "EV260809-07:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260809-07-C0041",
+          "EV260809-07-C0047"
+        ],
+        "reason": "The candidate requests the fire-drill schedule, sign-in, and task-assignment evidence before deciding the leave and payroll route."
+      },
+      {
+        "id": "EV260809-07:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260809-07-C0041",
+          "EV260809-07-C0042"
+        ],
+        "reason": "The candidate reconciles the published rest-day schedule, manager phone notification, access versus uncertain activity, the rest date's presence versus unresolved work status, and the not-generated payroll status."
+      },
+      {
+        "id": "EV260809-07:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260809-07-C0041",
+          "EV260809-07-C0049",
+          "EV260809-07-C0050"
+        ],
+        "reason": "The candidate uses event-specific references, accurately limits the access record to arrival, preserves the unresolved activity contradiction, and binds the conclusion to H-6P54 on 2026-08-09 and 2026-08-23."
+      },
+      {
+        "id": "EV260809-07:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260809-07-C0041",
+          "EV260809-07-C0053"
+        ],
+        "reason": "The candidate records payroll as not generated and defers the payroll status update until the missing evidence is reviewed, without claiming payment or settlement."
+      },
+      {
+        "id": "EV260816-08:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260816-08-C0055",
+          "EV260816-08-C0058"
+        ],
+        "reason": "The candidate identifies employer-arranged work on the published rest day for equipment maintenance and opening checks."
+      },
+      {
+        "id": "EV260816-08:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260816-08-C0055",
+          "EV260816-08-C0059"
+        ],
+        "reason": "The candidate rejects completed compensatory rest because no leave registration or approved compensatory-rest date is present."
+      },
+      {
+        "id": "EV260816-08:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260816-08-C0056",
+          "EV260816-08-C0060",
+          "EV260816-08-C0061"
+        ],
+        "reason": "The candidate requires a supported leave application and approval, with escalation to payroll review if the missing support cannot be supplied."
+      },
+      {
+        "id": "EV260816-08:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260816-08-C0055",
+          "EV260816-08-C0056"
+        ],
+        "reason": "The candidate reconciles the published rest-day schedule, manager arrangement and employee acknowledgment, access versus supervisor-supported work, the absence of an approved leave record versus actual rest, and the not-generated payroll status."
+      },
+      {
+        "id": "EV260816-08:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260816-08-C0055",
+          "EV260816-08-C0059"
+        ],
+        "reason": "The candidate cites event-specific records, states that the records establish attendance and work but not compensatory rest, preserves the missing-leave limitation, and binds the conclusion to H-3B72 on 2026-08-16."
+      },
+      {
+        "id": "EV260816-08:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260816-08-C0055",
+          "EV260816-08-C0061"
+        ],
+        "reason": "The candidate states that no payroll output has been generated and routes unresolved treatment to later payroll review without claiming payment or settlement."
+      },
+      {
+        "id": "EV260823-09:classification",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260823-09-C0063",
+          "EV260823-09-C0066",
+          "EV260823-09-C0067"
+        ],
+        "reason": "The candidate treats the short personal visit as non-employer-arranged, identifies the supervisor's no-task confirmation, and does not infer labor from access alone."
+      },
+      {
+        "id": "EV260823-09:rest",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260823-09-C0063",
+          "EV260823-09-C0064"
+        ],
+        "reason": "The candidate treats compensatory-rest adjudication as not applicable because no work event is established."
+      },
+      {
+        "id": "EV260823-09:action",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260823-09-C0064",
+          "EV260823-09-C0068",
+          "EV260823-09-C0069"
+        ],
+        "reason": "The candidate preserves the access and supervisor records while excluding the event from rest-day-work treatment."
+      },
+      {
+        "id": "EV260823-09:chronology",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260823-09-C0063",
+          "EV260823-09-C0064"
+        ],
+        "reason": "The candidate reconciles the published rest-day schedule with no changed effective assignment, the absence of an employer request, short access versus confirmed lack of work, the non-applicability of compensatory rest, and the no-payroll-item status."
+      },
+      {
+        "id": "EV260823-09:evidence_quality",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260823-09-C0063",
+          "EV260823-09-C0066",
+          "EV260823-09-C0067"
+        ],
+        "reason": "The candidate uses event-specific references, correctly states that access proves only entry, preserves the supervisor's no-task limitation, and binds the conclusion to H-6Z09 on 2026-08-23."
+      },
+      {
+        "id": "EV260823-09:payroll",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260823-09-C0063",
+          "EV260823-09-C0069"
+        ],
+        "reason": "The candidate states that no rest-day-work payroll item is generated and makes no payment or final-settlement claim."
+      },
+      {
+        "id": "EV260706-02:followup",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260706-02-C0014"
+        ],
+        "reason": "The follow-up requests event-specific inventory/attendance and handover evidence plus employee confirmation, assigns HR and the room manager, identifies whether the later date was actual rest and whether the employee knew, and sets a two-business-day review milestone."
+      },
+      {
+        "id": "EV260719-05:followup",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260719-05-C0034"
+        ],
+        "reason": "The follow-up requests the final roster, work handover, and employee statement, assigns HR and the banquet manager, identifies the conflict on the alleged rest date, and sets a two-business-day review milestone."
+      },
+      {
+        "id": "EV260809-07:followup",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260809-07-C0054"
+        ],
+        "reason": "The follow-up requests the fire-drill schedule, sign-in, task assignment, and employee statement, assigns HR and the security manager, identifies whether the drill occupied the rest period, and sets review before payroll reconciliation."
+      },
+      {
+        "id": "EV260816-08:followup",
+        "fraction": 1.0,
+        "evidence": [
+          "EV260816-08-C0062"
+        ],
+        "reason": "The follow-up requests the leave application and approval or a payroll-review route, assigns HR and the fitness manager, identifies whether equivalent rest was arranged, and sets a milestone before payroll processing."
+      },
+      {
+        "id": "report:payroll_control",
+        "fraction": 1.0,
+        "evidence": [
+          "MEMO-C0070"
+        ],
+        "reason": "The report states that payroll processing cannot rely on the compensatory-rest ledger status and must verify whether compensatory rest actually occurred against the attendance and work evidence."
+      },
+      {
+        "id": "report:version_control",
+        "fraction": 1.0,
+        "evidence": [
+          "MEMO-C0070",
+          "MEMO-C0071"
+        ],
+        "reason": "The report requires preservation of schedule-version publication timing and notification evidence, and separately distinguishes employee shift swaps from temporary rest-day attendance."
+      },
+      {
+        "id": "report:limits",
+        "fraction": 1.0,
+        "evidence": [
+          "MEMO-C0070",
+          "MEMO-C0071"
+        ],
+        "reason": "The report expressly declines to calculate a specific unsupported overtime amount and keeps EV260809-07 pending until fire-drill schedule, sign-in, task, and related evidence are obtained."
+      }
+    ]
+  }
+}

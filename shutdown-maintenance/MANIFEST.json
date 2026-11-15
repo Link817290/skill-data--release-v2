@@ -1,0 +1,236 @@
+{
+  "format": "skill-data-source-v1",
+  "package": "shutdown-maintenance",
+  "tasks": [
+    "shutdown-maintenance"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 56,
+  "bytes_excluding_manifest": 384777,
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 562,
+      "sha256": "09d48e886b9e0a44480e9b2cd6448ce06d85f99c05946e88a1dfbf319c379b44"
+    },
+    "RUBRIC.md": {
+      "bytes": 3891,
+      "sha256": "1591c14f466ef86e26863c07ebc5842197cfc681f63d32e54ff663f951b7d502"
+    },
+    "dataset.toml": {
+      "bytes": 417,
+      "sha256": "d06cf8ab5fd429694f8e627f5a3b042564192061f6ebecba8e3b0541638363c3"
+    },
+    "golden/电力设备检修进度计划表.xlsx": {
+      "bytes": 12225,
+      "sha256": "f2f0aa952716e8c2959295382ede288f9e0d2d9b0ff0752eb12cb511fa65eb39"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 254,
+      "sha256": "f42d455f31655c5cb02c8ccb66edb04fd30a659c3f99a0173231a4316c34a1cb"
+    },
+    "task/environment/requirements.txt": {
+      "bytes": 54,
+      "sha256": "7ededdbf2301ee1be3579b558073dd63c053ecb5951c80edb30649c275e5cdd3"
+    },
+    "task/environment/skills/plan-maintenance-handback/SKILL.md": {
+      "bytes": 649,
+      "sha256": "32fa0660ea6683547744445f8dbe4d21dc32be0cc12317634202fe63e615d398"
+    },
+    "task/environment/skills/plan-maintenance-handback/references/handover.md": {
+      "bytes": 1400,
+      "sha256": "1747d42c8faa626d6ae8ec8bab5fc6418c2e0483d595d0723e85c572fa539ab0"
+    },
+    "task/environment/skills/plan-maintenance-handback/references/scope-and-coupling.md": {
+      "bytes": 837,
+      "sha256": "ef27c78c28fb2497ea15f7f31df788333f8bbc182ed0d3c83850eecf907f3440"
+    },
+    "task/environment/skills/plan-maintenance-handback/scripts/month_due.py": {
+      "bytes": 507,
+      "sha256": "6e4033ff26844e76aa0c697881334ae6a536f2d461e1f6cd4b0c2fc8abd97e48"
+    },
+    "task/environment/skills/schedule-maintenance-resources/SKILL.md": {
+      "bytes": 865,
+      "sha256": "db52d778709a1c4c6b7b3881cd66f310d9de4e0c42023113ed719544d5734e3a"
+    },
+    "task/environment/skills/schedule-maintenance-resources/references/calendars.md": {
+      "bytes": 949,
+      "sha256": "7303dc92a723995716ccdf3efe5f4424b0425b5e6ce227f144b63ad948b6fd5d"
+    },
+    "task/environment/skills/schedule-maintenance-resources/references/feasibility.md": {
+      "bytes": 1493,
+      "sha256": "27278c4d77c5946c7677eb2001aafc0a8ed8a50403e9458378778ea2e987da99"
+    },
+    "task/environment/skills/schedule-maintenance-resources/scripts/check_intervals.py": {
+      "bytes": 665,
+      "sha256": "11d7159728aa300e37f937cdeb0c9245f38ce4b227b0061e6afa9c484d11a892"
+    },
+    "task/environment/workspace/input/检修安排/电力检修施工组织安排.xlsx": {
+      "bytes": 8595,
+      "sha256": "647c283cd293460670b75a33ae48bb5472e0b76f547c3566bb8b0be9337d83a5"
+    },
+    "task/environment/workspace/input/检修安排/电力检修进度计划表（待编）.xlsx": {
+      "bytes": 9386,
+      "sha256": "43eed9202fe2c71e3aedc88f1a166191cb3eab2893380d8cff2367b79068e63f"
+    },
+    "task/environment/workspace/input/电力设备试验请购说明.docx": {
+      "bytes": 37326,
+      "sha256": "cada20b9e43dc0ffcd69c68cf003badaa040daf618cfa7368c653baa9d5a123c"
+    },
+    "task/instruction.md": {
+      "bytes": 722,
+      "sha256": "b1fc4cb29e1f76e7c2daf73042c15d5ef801d80a7aebc075a0cedb45f3eb7740"
+    },
+    "task/rubric.json": {
+      "bytes": 8669,
+      "sha256": "ed10dbd327c35a5aa59f3ddda69d2e555b74fadac2f7a50636905c22330f0d99"
+    },
+    "task/solution/solve.py": {
+      "bytes": 409,
+      "sha256": "cd965b4943352f0ab33db0e5c671f7e030f7a0f16d2631d9592b44645c0df777"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 62,
+      "sha256": "bb920fc022a4a5356b32ddb13637489097b31b5682eb2756a4e25bb12b40dc56"
+    },
+    "task/task.toml": {
+      "bytes": 1101,
+      "sha256": "3fa8aac3427b2d4db1e56cd0fc28be31ab7d758acf7cfc61eed1644972a2ce27"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 984,
+      "sha256": "e9de0c57a9d9e43d87eaa25fac084ee9d277b464fe13af8b7af35232c33922d1"
+    },
+    "task/tests/evaluate.py": {
+      "bytes": 10027,
+      "sha256": "9bf6fce7f752a079c3cde111054f1527aff8dc9a466619ace5ad1d06a6797508"
+    },
+    "task/tests/maintainability_judge/cache/5e8d1c968d5da63d9606c783ad7a546bde293d0493c6c70eefd8ce48fdfe38f2/evidence.json": {
+      "bytes": 35440,
+      "sha256": "b999c1baa859f329c1dfa8824ec54924c245fc982f1e9980cda4143d86eb9aa5"
+    },
+    "task/tests/maintainability_judge/cache/5e8d1c968d5da63d9606c783ad7a546bde293d0493c6c70eefd8ce48fdfe38f2/manifest.json": {
+      "bytes": 983,
+      "sha256": "75567918a4a156df876ac4051490b945ff2bd3df5d14719753dbed2a9c122765"
+    },
+    "task/tests/maintainability_judge/cache/5e8d1c968d5da63d9606c783ad7a546bde293d0493c6c70eefd8ce48fdfe38f2/request.json": {
+      "bytes": 43862,
+      "sha256": "5e8d1c968d5da63d9606c783ad7a546bde293d0493c6c70eefd8ce48fdfe38f2"
+    },
+    "task/tests/maintainability_judge/cache/5e8d1c968d5da63d9606c783ad7a546bde293d0493c6c70eefd8ce48fdfe38f2/response.json": {
+      "bytes": 930,
+      "sha256": "8f40aeab9dbfe8037bff80f1414a333a2caa4446ff674968e3bcf68697acf742"
+    },
+    "task/tests/maintainability_judge/contract.json": {
+      "bytes": 2654,
+      "sha256": "9bf4624aebbb13e2060b03a43f4ad7ee8af26eb30553625aab61885fa277959a"
+    },
+    "task/tests/maintainability_judge/judge.py": {
+      "bytes": 12240,
+      "sha256": "66f9cf0a648decef2b6ae167cf8fc9f77ed4d28b038a09b43aeeaba4e8b670e3"
+    },
+    "task/tests/maintainability_judge/prompt.md": {
+      "bytes": 1991,
+      "sha256": "ee43d0014101f20fe08ab13fd04f4d619ca63f5db56b1ea282cf9e26216f7c74"
+    },
+    "task/tests/maintainability_judge/settings.json": {
+      "bytes": 274,
+      "sha256": "9e4249f2f6a6297fec3394742b7ab10e45d2800d7e23336e3906a7b9d1edf37f"
+    },
+    "task/tests/mix_judge/cache/67265c2f956466e3ade78e78a74e15fa85cd8878b48725cb2fb6448ea525d12f/evidence.json": {
+      "bytes": 34415,
+      "sha256": "67bfaaeed262c09751f32ccb3cfd47753e8b74f7f1f2c6fdcb17829cd0c1c4f4"
+    },
+    "task/tests/mix_judge/cache/67265c2f956466e3ade78e78a74e15fa85cd8878b48725cb2fb6448ea525d12f/manifest.json": {
+      "bytes": 983,
+      "sha256": "52eda9b7934f76bd1e905d822fbeef18e81995b5446d2d17ded0e0e7c97c212c"
+    },
+    "task/tests/mix_judge/cache/67265c2f956466e3ade78e78a74e15fa85cd8878b48725cb2fb6448ea525d12f/request.json": {
+      "bytes": 70280,
+      "sha256": "67265c2f956466e3ade78e78a74e15fa85cd8878b48725cb2fb6448ea525d12f"
+    },
+    "task/tests/mix_judge/cache/67265c2f956466e3ade78e78a74e15fa85cd8878b48725cb2fb6448ea525d12f/response.json": {
+      "bytes": 3025,
+      "sha256": "b57aabff6f06acc1e9d7be5c3e2712ee37c7e0feb8fc2ace33443df64d47be0d"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 12550,
+      "sha256": "6686a182299d818d1747cda488cb66f2767bdbb91db8ff989d539a216b8084df"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 12159,
+      "sha256": "87d907344b025b848101632b890f020085d310c541fb645ea7d002d3a16d7d6a"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 1991,
+      "sha256": "ee43d0014101f20fe08ab13fd04f4d619ca63f5db56b1ea282cf9e26216f7c74"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 500,
+      "sha256": "a5e254f4e0a0a9ab64cf3b0c1cac37e3cd13d4b5fa4e3ec322916da3784f835f"
+    },
+    "task/tests/mix_judge/run_verifier.py": {
+      "bytes": 405,
+      "sha256": "c0df1c5ea11cbb82fb604bcd8b3fbaf4bf244eb602a922d7b9f22e60744866a9"
+    },
+    "task/tests/mix_judge/runtime/__init__.py": {
+      "bytes": 48,
+      "sha256": "2893b67da0045afc0e84f8f5575712b1243f2548c33791cad56997847e11120c"
+    },
+    "task/tests/mix_judge/runtime/settlement.py": {
+      "bytes": 326,
+      "sha256": "e870ae1c4b51027af94c3ed77fa2e00bbd297ec3096282103e34cec2d1575be9"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 274,
+      "sha256": "9e4249f2f6a6297fec3394742b7ab10e45d2800d7e23336e3906a7b9d1edf37f"
+    },
+    "task/tests/process_rubric.json": {
+      "bytes": 687,
+      "sha256": "79550129ce40a3fe81681f69cd767e4570243e9409fd007e8c74b146d8ed1c4b"
+    },
+    "task/tests/reference/business-golden-v4.xlsx": {
+      "bytes": 11487,
+      "sha256": "1e24b474191653b4afed730a13a1e264c1f1fd4cd9a4cd0384e743d37d0fee1a"
+    },
+    "task/tests/reference/facts.json": {
+      "bytes": 3016,
+      "sha256": "d1f20352a77ef5b3f5c1a0e248ea5d96ea7746d77a0a9f32081024f64e07e2a5"
+    },
+    "task/tests/reference/maintainability-golden-v1.xlsx": {
+      "bytes": 11830,
+      "sha256": "ccb6fa17bbe2005baf9d6f9e20f6ac109cc745512285debacddce8e9960ffcb9"
+    },
+    "task/tests/review_runtime.py": {
+      "bytes": 226,
+      "sha256": "98c20b831122548af38b14c40ec02c69e1f70e106040942dc7bce3fcf2841526"
+    },
+    "task/tests/rubric_process.json": {
+      "bytes": 687,
+      "sha256": "79550129ce40a3fe81681f69cd767e4570243e9409fd007e8c74b146d8ed1c4b"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 3318,
+      "sha256": "7885fa737df40beb0131657ee70585fb42cfac75adf38a2f3b13574e43acf17d"
+    },
+    "task/tests/skill_execution_rubric.json": {
+      "bytes": 687,
+      "sha256": "f8e29b24d5d210821010a1d086ecb4a9c7be84f1fa4250493243ff99cc46932d"
+    },
+    "task/tests/test.sh": {
+      "bytes": 399,
+      "sha256": "e0916fcdf02ca6204e7cc868e29fc225b1acf40a03b876cade235f2b5ebf3e10"
+    },
+    "task/tests/validator.py": {
+      "bytes": 2839,
+      "sha256": "e2867934a224304662a5345a86f1f6913d9aa09c8cff8fec487d71406fd603db"
+    },
+    "task/tests/verify.py": {
+      "bytes": 10739,
+      "sha256": "98485231e600d6dee5c582d315ef7e56b6639d79ab3553654895b65f46eb47b6"
+    },
+    "task/tests/write_reward.py": {
+      "bytes": 1483,
+      "sha256": "b8b1523f7cff4553055cf5515b8b3a265f49d05653aff6c092a047d5cdb97103"
+    }
+  }
+}

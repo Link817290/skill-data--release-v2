@@ -1,0 +1,4 @@
+interface:
+  display_name: "Airfield Criteria Applicability"
+  short_description: "Resolve airfield standard scope and revisions"
+  default_prompt: "Use $airfield-criteria-applicability to establish the controlling criteria branch for an airfield plan review."

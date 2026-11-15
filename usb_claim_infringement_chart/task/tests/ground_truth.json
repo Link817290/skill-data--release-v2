@@ -1,0 +1,1230 @@
+{
+  "dataset_id": "usb_claim_infringement_chart",
+  "targets": [
+    "PI_SPEC_EMBODIMENT",
+    "ON_NCP4371",
+    "TI_QC2_REFERENCE",
+    "APPLE_A2246_LOW_INPUT",
+    "APPLE_A2246_HIGH_INPUT"
+  ],
+  "claims": [
+    "1",
+    "5",
+    "7",
+    "9"
+  ],
+  "published_pairs": [
+    [
+      "PI_SPEC_EMBODIMENT",
+      "1"
+    ],
+    [
+      "ON_NCP4371",
+      "5"
+    ],
+    [
+      "TI_QC2_REFERENCE",
+      "7"
+    ],
+    [
+      "APPLE_A2246_LOW_INPUT",
+      "9"
+    ],
+    [
+      "APPLE_A2246_HIGH_INPUT",
+      "1"
+    ],
+    [
+      "APPLE_A2246_HIGH_INPUT",
+      "5"
+    ],
+    [
+      "APPLE_A2246_HIGH_INPUT",
+      "7"
+    ],
+    [
+      "APPLE_A2246_HIGH_INPUT",
+      "9"
+    ]
+  ],
+  "mapping_claims": [
+    "1",
+    "5",
+    "7",
+    "9",
+    "10",
+    "19"
+  ],
+  "issued_pairs": [
+    [
+      "PI_SPEC_EMBODIMENT",
+      "1"
+    ],
+    [
+      "ON_NCP4371",
+      "5"
+    ],
+    [
+      "TI_QC2_REFERENCE",
+      "7"
+    ],
+    [
+      "APPLE_A2246_LOW_INPUT",
+      "9"
+    ],
+    [
+      "APPLE_A2246_HIGH_INPUT",
+      "9"
+    ],
+    [
+      "PI_SPEC_EMBODIMENT",
+      "10"
+    ],
+    [
+      "ON_NCP4371",
+      "10"
+    ],
+    [
+      "PI_SPEC_EMBODIMENT",
+      "19"
+    ],
+    [
+      "TI_QC2_REFERENCE",
+      "19"
+    ],
+    [
+      "APPLE_A2246_HIGH_INPUT",
+      "19"
+    ]
+  ],
+  "source_ids": [
+    "PAT_APP",
+    "PAT_ISSUED",
+    "ON_DS",
+    "TI_RD",
+    "APPLE_UG",
+    "TYPE_C_SPEC",
+    "PD_SPEC"
+  ],
+  "element_ids": {
+    "1": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3"
+    ],
+    "5": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "5.1",
+      "5.2"
+    ],
+    "7": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "7.1",
+      "7.2"
+    ],
+    "9": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "9.1"
+    ]
+  },
+  "expected": {
+    "PI_SPEC_EMBODIMENT": {
+      "1": {
+        "overall": "PASS",
+        "statuses": {
+          "1.0": "DIRECT",
+          "1.1": "DIRECT",
+          "1.2": "DIRECT",
+          "1.3": "DIRECT"
+        }
+      }
+    },
+    "ON_NCP4371": {
+      "5": {
+        "overall": "REVIEW",
+        "statuses": {
+          "1.0": "DIRECT",
+          "1.1": "DIRECT",
+          "1.2": "DIRECT",
+          "1.3": "NOT_SHOWN",
+          "5.1": "DIRECT",
+          "5.2": "DIRECT"
+        }
+      }
+    },
+    "TI_QC2_REFERENCE": {
+      "7": {
+        "overall": "REVIEW",
+        "statuses": {
+          "1.0": "DIRECT",
+          "1.1": "DIRECT",
+          "1.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "7.1": "NOT_SHOWN",
+          "7.2": "NOT_SHOWN"
+        }
+      }
+    },
+    "APPLE_A2246_LOW_INPUT": {
+      "9": {
+        "overall": "REVIEW",
+        "statuses": {
+          "1.0": "NOT_SHOWN",
+          "1.1": "NOT_SHOWN",
+          "1.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "9.1": "NOT_SHOWN"
+        }
+      }
+    },
+    "APPLE_A2246_HIGH_INPUT": {
+      "1": {
+        "overall": "REVIEW",
+        "statuses": {
+          "1.0": "COMPOSITE",
+          "1.1": "NOT_SHOWN",
+          "1.2": "COMPOSITE",
+          "1.3": "NOT_SHOWN"
+        }
+      },
+      "5": {
+        "overall": "REVIEW",
+        "statuses": {
+          "1.0": "COMPOSITE",
+          "1.1": "NOT_SHOWN",
+          "1.2": "COMPOSITE",
+          "1.3": "NOT_SHOWN",
+          "5.1": "NOT_SHOWN",
+          "5.2": "NOT_SHOWN"
+        }
+      },
+      "7": {
+        "overall": "REVIEW",
+        "statuses": {
+          "1.0": "COMPOSITE",
+          "1.1": "NOT_SHOWN",
+          "1.2": "COMPOSITE",
+          "1.3": "NOT_SHOWN",
+          "7.1": "NOT_SHOWN",
+          "7.2": "NOT_SHOWN"
+        }
+      },
+      "9": {
+        "overall": "REVIEW",
+        "statuses": {
+          "1.0": "COMPOSITE",
+          "1.1": "NOT_SHOWN",
+          "1.2": "COMPOSITE",
+          "1.3": "NOT_SHOWN",
+          "9.1": "COMPOSITE"
+        }
+      }
+    }
+  },
+  "version_mapping": {
+    "1": {
+      "required_feature_refs": [
+        "1.0",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "source_published_claim_ids": [
+        "1",
+        "6",
+        "7",
+        "11"
+      ],
+      "scope_relation": "GRANTED_NARROWER"
+    },
+    "5": {
+      "required_feature_refs": [
+        "1.0",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2",
+        "5.1",
+        "5.2"
+      ],
+      "source_published_claim_ids": [
+        "1",
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "scope_relation": "GRANTED_NARROWER"
+    },
+    "7": {
+      "required_feature_refs": [
+        "1.0",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2",
+        "9.1"
+      ],
+      "source_published_claim_ids": [
+        "1",
+        "6",
+        "7",
+        "9",
+        "11"
+      ],
+      "scope_relation": "GRANTED_NARROWER"
+    },
+    "9": {
+      "required_feature_refs": [
+        "1.0",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_published_claim_ids": [
+        "1",
+        "6",
+        "7",
+        "11"
+      ],
+      "scope_relation": "OVERLAPPING_NOT_NESTED"
+    },
+    "10": {
+      "required_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "source_published_claim_ids": [
+        "12",
+        "17",
+        "19",
+        "22"
+      ],
+      "scope_relation": "OVERLAPPING_NOT_NESTED"
+    },
+    "19": {
+      "required_feature_refs": [
+        "CHARGING_DEVICE_APPARATUS",
+        "USB_PORT",
+        "POWER_SUPPLY_CONVERTER",
+        "USB_COMMUNICATION_MODULE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ],
+      "source_published_claim_ids": [
+        "23",
+        "24",
+        "25",
+        "28"
+      ],
+      "scope_relation": "INDETERMINATE_DEPENDENCY_DEFECT"
+    }
+  },
+  "granted_expected": {
+    "PI_SPEC_EMBODIMENT": {
+      "1": {
+        "overall": "PASS",
+        "decisive": [],
+        "statuses": {
+          "1.0": "DIRECT",
+          "1.1": "DIRECT",
+          "7.1": "DIRECT",
+          "7.2": "DIRECT",
+          "1.3": "DIRECT",
+          "AUTH_ALLOW_POWER": "DIRECT",
+          "POWER_MAGNITUDE_INFO": "DIRECT",
+          "1.2": "DIRECT"
+        }
+      },
+      "10": {
+        "overall": "PASS",
+        "decisive": [],
+        "statuses": {
+          "MEDIUM_PROGRAM_CODE": "DIRECT",
+          "1.1": "DIRECT",
+          "7.1": "DIRECT",
+          "7.2": "DIRECT",
+          "1.3": "DIRECT",
+          "AUTH_ALLOW_POWER": "DIRECT",
+          "POWER_MAGNITUDE_INFO": "DIRECT",
+          "1.2": "DIRECT"
+        }
+      },
+      "19": {
+        "overall": "PASS",
+        "decisive": [],
+        "statuses": {
+          "CHARGING_DEVICE_APPARATUS": "DIRECT",
+          "USB_PORT": "DIRECT",
+          "POWER_SUPPLY_CONVERTER": "DIRECT",
+          "USB_COMMUNICATION_MODULE": "DIRECT",
+          "1.1": "DIRECT",
+          "7.1": "DIRECT",
+          "7.2": "DIRECT",
+          "1.3": "DIRECT",
+          "AUTH_ALLOW_POWER": "DIRECT",
+          "POWER_MAGNITUDE_INFO": "DIRECT",
+          "1.2": "DIRECT"
+        }
+      }
+    },
+    "ON_NCP4371": {
+      "5": {
+        "overall": "REVIEW",
+        "decisive": [
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO"
+        ],
+        "context_features": ["5.1"],
+        "statuses": {
+          "1.0": "DIRECT",
+          "1.1": "DIRECT",
+          "7.1": "DIRECT",
+          "7.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "AUTH_ALLOW_POWER": "NOT_SHOWN",
+          "POWER_MAGNITUDE_INFO": "NOT_SHOWN",
+          "1.2": "DIRECT",
+          "5.1": "DIRECT",
+          "5.2": "DIRECT"
+        }
+      },
+      "10": {
+        "overall": "REVIEW",
+        "decisive": [
+          "MEDIUM_PROGRAM_CODE",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO"
+        ],
+        "statuses": {
+          "MEDIUM_PROGRAM_CODE": "NOT_SHOWN",
+          "1.1": "DIRECT",
+          "7.1": "DIRECT",
+          "7.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "AUTH_ALLOW_POWER": "NOT_SHOWN",
+          "POWER_MAGNITUDE_INFO": "NOT_SHOWN",
+          "1.2": "DIRECT"
+        }
+      }
+    },
+    "TI_QC2_REFERENCE": {
+      "7": {
+        "overall": "REVIEW",
+        "decisive": [
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2",
+          "9.1"
+        ],
+        "statuses": {
+          "1.0": "DIRECT",
+          "1.1": "DIRECT",
+          "7.1": "NOT_SHOWN",
+          "7.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "AUTH_ALLOW_POWER": "NOT_SHOWN",
+          "POWER_MAGNITUDE_INFO": "NOT_SHOWN",
+          "1.2": "NOT_SHOWN",
+          "9.1": "NOT_SHOWN"
+        }
+      },
+      "19": {
+        "overall": "REVIEW",
+        "decisive": [
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2"
+        ],
+        "statuses": {
+          "CHARGING_DEVICE_APPARATUS": "DIRECT",
+          "USB_PORT": "DIRECT",
+          "POWER_SUPPLY_CONVERTER": "DIRECT",
+          "USB_COMMUNICATION_MODULE": "DIRECT",
+          "1.1": "DIRECT",
+          "7.1": "NOT_SHOWN",
+          "7.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "AUTH_ALLOW_POWER": "NOT_SHOWN",
+          "POWER_MAGNITUDE_INFO": "NOT_SHOWN",
+          "1.2": "NOT_SHOWN"
+        }
+      }
+    },
+    "APPLE_A2246_LOW_INPUT": {
+      "9": {
+        "overall": "REVIEW",
+        "decisive": [
+          "1.0",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER",
+          "POWER_MAGNITUDE_INFO",
+          "1.2",
+          "POWER_LEVEL_CAPABILITY"
+        ],
+        "statuses": {
+          "1.0": "NOT_SHOWN",
+          "1.1": "NOT_SHOWN",
+          "7.1": "NOT_SHOWN",
+          "7.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "AUTH_ALLOW_POWER": "NOT_SHOWN",
+          "POWER_MAGNITUDE_INFO": "NOT_SHOWN",
+          "1.2": "NOT_SHOWN",
+          "POWER_LEVEL_CAPABILITY": "NOT_SHOWN"
+        }
+      }
+    },
+    "APPLE_A2246_HIGH_INPUT": {
+      "9": {
+        "overall": "REVIEW",
+        "decisive": [
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER"
+        ],
+        "statuses": {
+          "1.0": "COMPOSITE",
+          "1.1": "NOT_SHOWN",
+          "7.1": "NOT_SHOWN",
+          "7.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "AUTH_ALLOW_POWER": "NOT_SHOWN",
+          "POWER_MAGNITUDE_INFO": "COMPOSITE",
+          "1.2": "COMPOSITE",
+          "POWER_LEVEL_CAPABILITY": "COMPOSITE"
+        }
+      },
+      "19": {
+        "overall": "REVIEW",
+        "decisive": [
+          "POWER_SUPPLY_CONVERTER",
+          "1.1",
+          "7.1",
+          "7.2",
+          "1.3",
+          "AUTH_ALLOW_POWER"
+        ],
+        "statuses": {
+          "CHARGING_DEVICE_APPARATUS": "DIRECT",
+          "USB_PORT": "DIRECT",
+          "POWER_SUPPLY_CONVERTER": "NOT_SHOWN",
+          "USB_COMMUNICATION_MODULE": "COMPOSITE",
+          "1.1": "NOT_SHOWN",
+          "7.1": "NOT_SHOWN",
+          "7.2": "NOT_SHOWN",
+          "1.3": "NOT_SHOWN",
+          "AUTH_ALLOW_POWER": "NOT_SHOWN",
+          "POWER_MAGNITUDE_INFO": "COMPOSITE",
+          "1.2": "COMPOSITE"
+        }
+      }
+    }
+  },
+  "bridge_expected": {
+    "B_HIGH_MODE_PD_LABEL": {
+      "link_status": "ESTABLISHED",
+      "proposition_status": "SUPPORTED",
+      "controlling_effect": "SUPPORTS_FEATURE",
+      "affected_feature_refs": [
+        "1.0",
+        "1.2",
+        "9.1",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ]
+    },
+    "B_LOW_MODE_PD_LABEL": {
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.0",
+        "1.2",
+        "9.1",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ]
+    },
+    "B_HIGH_MODE_CC_PATH": {
+      "link_status": "ESTABLISHED",
+      "proposition_status": "SUPPORTED",
+      "controlling_effect": "SUPPORTS_FEATURE",
+      "affected_feature_refs": [
+        "1.0",
+        "5.1",
+        "7.1"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "TYPE_C_SPEC",
+        "PD_SPEC"
+      ]
+    },
+    "B_HIGH_MODE_SOURCE_CAPS": {
+      "link_status": "ESTABLISHED",
+      "proposition_status": "SUPPORTED",
+      "controlling_effect": "SUPPORTS_FEATURE",
+      "affected_feature_refs": [
+        "9.1",
+        "POWER_MAGNITUDE_INFO",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ]
+    },
+    "B_CC_EXCLUDES_DPLUS": {
+      "link_status": "LIMITED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "5.2",
+        "7.1",
+        "7.2"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "TYPE_C_SPEC",
+        "PD_SPEC"
+      ]
+    },
+    "B_PD_PHASE_EQUIVALENCE": {
+      "link_status": "LIMITED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "source_ids": [
+        "PAT_APP",
+        "APPLE_UG",
+        "PD_SPEC"
+      ]
+    },
+    "B_TI_TO_ON": {
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.3",
+        "7.2",
+        "9.1",
+        "AUTH_ALLOW_POWER"
+      ],
+      "source_ids": [
+        "ON_DS",
+        "TI_RD"
+      ]
+    },
+    "B_ON_TO_TI": {
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.2",
+        "1.3",
+        "7.2",
+        "9.1",
+        "AUTH_ALLOW_POWER"
+      ],
+      "source_ids": [
+        "TI_RD",
+        "ON_DS"
+      ]
+    },
+    "B_PATENT_TO_PRODUCT": {
+      "link_status": "NOT_ESTABLISHED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.1",
+        "1.3",
+        "7.1",
+        "7.2",
+        "AUTH_ALLOW_POWER"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PAT_APP"
+      ]
+    },
+    "B_REGIONAL_GENERALIZATION": {
+      "link_status": "LIMITED",
+      "proposition_status": "UNRESOLVED",
+      "controlling_effect": "NON_DISPOSITIVE",
+      "affected_feature_refs": [
+        "1.0",
+        "1.2",
+        "9.1",
+        "POWER_LEVEL_CAPABILITY"
+      ],
+      "source_ids": [
+        "APPLE_UG",
+        "PD_SPEC"
+      ]
+    }
+  },
+  "construction_expected": {
+    "C_HANDSHAKE_PD": {
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "PUB:1",
+        "PUB:5",
+        "PUB:7",
+        "PUB:9",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ]
+    },
+    "C_CC_DATA_CONDUCTOR": {
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "PUB:5",
+        "PUB:7",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "5.1",
+        "7.1"
+      ]
+    },
+    "C_POWER_MAGNITUDE": {
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "POWER_MAGNITUDE_INFO"
+      ]
+    },
+    "C_OUTPUT_AS_CAPABILITY_MESSAGE": {
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:9",
+        "ISS:7"
+      ],
+      "affected_feature_refs": [
+        "9.1"
+      ]
+    },
+    "C_STATIC_LEVEL_AS_TOGGLE_PATTERN": {
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:7",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "7.1"
+      ]
+    },
+    "C_OUTPUT_CHANGE_AS_BEGIN_DATA": {
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:7",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "7.2"
+      ]
+    },
+    "C_HVDCP_AS_NORMAL_OPERATION": {
+      "disposition": "CONSTRUCTION_REQUIRED",
+      "affected_claim_refs": [
+        "PUB:1",
+        "PUB:5",
+        "PUB:7",
+        "PUB:9",
+        "ISS:1",
+        "ISS:5",
+        "ISS:7",
+        "ISS:9"
+      ],
+      "affected_feature_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    "C_EQUAL_LEVEL_AS_PHYSICAL_SHORT": {
+      "disposition": "TEXT_RESOLVES_NO",
+      "affected_claim_refs": [
+        "PUB:5",
+        "ISS:5"
+      ],
+      "affected_feature_refs": [
+        "5.2"
+      ]
+    }
+  },
+  "sensitivity_expected": {
+    "S_HIGH_PUB1_PD_BOUNDARIES": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "PASS",
+      "result_effect": "CHANGES_RESULT",
+      "decisive_feature_refs": []
+    },
+    "S_HIGH_PUB9_PD_BOUNDARIES": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "PASS",
+      "result_effect": "CHANGES_RESULT",
+      "decisive_feature_refs": []
+    },
+    "S_HIGH_PUB7_CC_AS_DATA": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "1.3",
+        "7.1",
+        "7.2"
+      ]
+    },
+    "S_HIGH_PUB5_EQUAL_AS_SHORT": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "1.3",
+        "5.1"
+      ]
+    },
+    "S_LOW_PUB9_COPY_HIGH_MODE": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "1.3"
+      ]
+    },
+    "S_ON_PUB9_OUTPUT_AS_MESSAGE": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.3"
+      ]
+    },
+    "S_ON_ISS5_BORROW_TI": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "5.1"
+      ]
+    },
+    "S_TI_ISS7_BORROW_ON": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "9.1"
+      ]
+    },
+    "S_TI_PUB7_STATIC_AND_RESPONSE": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.2",
+        "1.3"
+      ]
+    },
+    "S_HIGH_ISS9_PDO_POWER": {
+      "baseline_call": "REVIEW",
+      "hypothetical_call": "REVIEW",
+      "result_effect": "NO_CHANGE",
+      "decisive_feature_refs": [
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER"
+      ]
+    }
+  },
+  "dependency_expected": {
+    "PUBLISHED:12": {
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    },
+    "PUBLISHED:13": {
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY"
+    },
+    "PUBLISHED:17": {
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY"
+    },
+    "PUBLISHED:18": {
+      "declared_parent_claim_id": "18",
+      "dependency_status": "SELF_REFERENCE",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "17",
+      "candidate_basis": "SEMANTIC_DEPENDENCY"
+    },
+    "PUBLISHED:19": {
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY"
+    },
+    "PUBLISHED:22": {
+      "declared_parent_claim_id": "11",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "12",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY"
+    },
+    "PUBLISHED:23": {
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    },
+    "PUBLISHED:24": {
+      "declared_parent_claim_id": "21",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "23",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY"
+    },
+    "PUBLISHED:28": {
+      "declared_parent_claim_id": "21",
+      "dependency_status": "FACIALLY_INCONSISTENT",
+      "expansion_policy": "DO_NOT_REPAIR",
+      "candidate_coherent_parent_claim_id": "23",
+      "candidate_basis": "PARALLEL_CLAIM_FAMILY"
+    },
+    "ISSUED:10": {
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    },
+    "ISSUED:11": {
+      "declared_parent_claim_id": "10",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    },
+    "ISSUED:18": {
+      "declared_parent_claim_id": "10",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    },
+    "ISSUED:19": {
+      "declared_parent_claim_id": null,
+      "dependency_status": "INDEPENDENT",
+      "expansion_policy": "NONE",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    },
+    "ISSUED:20": {
+      "declared_parent_claim_id": "19",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    },
+    "ISSUED:23": {
+      "declared_parent_claim_id": "19",
+      "dependency_status": "VALID",
+      "expansion_policy": "EXPAND",
+      "candidate_coherent_parent_claim_id": null,
+      "candidate_basis": "NONE"
+    }
+  },
+  "family_correspondence_expected": {
+    "12": {
+      "candidate_issued_claim_ids": [
+        "10"
+      ],
+      "correspondence_status": "BASE_RETAINED_WITH_ADDED_LIMITATIONS",
+      "dependency_effect": "NONE",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ]
+    },
+    "17": {
+      "candidate_issued_claim_ids": [
+        "10"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ]
+    },
+    "18": {
+      "candidate_issued_claim_ids": [
+        "15"
+      ],
+      "correspondence_status": "DEPENDENCY_REPAIRED_AND_RENUMBERED",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2",
+        "POWERED_DEVICE_IDENTIFICATION"
+      ]
+    },
+    "19": {
+      "candidate_issued_claim_ids": [
+        "10"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "MEDIUM_PROGRAM_CODE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ]
+    },
+    "23": {
+      "candidate_issued_claim_ids": [
+        "19"
+      ],
+      "correspondence_status": "BASE_RETAINED_WITH_ADDED_LIMITATIONS",
+      "dependency_effect": "NONE",
+      "issued_expanded_feature_refs": [
+        "CHARGING_DEVICE_APPARATUS",
+        "USB_PORT",
+        "POWER_SUPPLY_CONVERTER",
+        "USB_COMMUNICATION_MODULE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ]
+    },
+    "24": {
+      "candidate_issued_claim_ids": [
+        "19"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "CHARGING_DEVICE_APPARATUS",
+        "USB_PORT",
+        "POWER_SUPPLY_CONVERTER",
+        "USB_COMMUNICATION_MODULE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ]
+    },
+    "25": {
+      "candidate_issued_claim_ids": [
+        "19"
+      ],
+      "correspondence_status": "ABSORBED_INTO_INDEPENDENT",
+      "dependency_effect": "PRINTED_EDGE_BLOCKS_CONTROLLING_COMPARISON",
+      "issued_expanded_feature_refs": [
+        "CHARGING_DEVICE_APPARATUS",
+        "USB_PORT",
+        "POWER_SUPPLY_CONVERTER",
+        "USB_COMMUNICATION_MODULE",
+        "1.1",
+        "7.1",
+        "7.2",
+        "1.3",
+        "AUTH_ALLOW_POWER",
+        "POWER_MAGNITUDE_INFO",
+        "1.2"
+      ]
+    }
+  },
+  "target_sources": {
+    "PI_SPEC_EMBODIMENT": {
+      "published": [
+        "PAT_APP"
+      ],
+      "issued": [
+        "PAT_ISSUED"
+      ],
+      "candidate": []
+    },
+    "ON_NCP4371": {
+      "published": [
+        "ON_DS"
+      ],
+      "issued": [
+        "ON_DS"
+      ],
+      "candidate": [
+        "TI_RD"
+      ]
+    },
+    "TI_QC2_REFERENCE": {
+      "published": [
+        "TI_RD"
+      ],
+      "issued": [
+        "TI_RD"
+      ],
+      "candidate": [
+        "ON_DS"
+      ]
+    },
+    "APPLE_A2246_LOW_INPUT": {
+      "published": [
+        "APPLE_UG"
+      ],
+      "issued": [
+        "APPLE_UG"
+      ],
+      "candidate": [
+        "PD_SPEC"
+      ]
+    },
+    "APPLE_A2246_HIGH_INPUT": {
+      "published": [
+        "APPLE_UG"
+      ],
+      "issued": [
+        "APPLE_UG"
+      ],
+      "candidate": [
+        "PAT_APP",
+        "PD_SPEC",
+        "TYPE_C_SPEC"
+      ]
+    }
+  }
+}

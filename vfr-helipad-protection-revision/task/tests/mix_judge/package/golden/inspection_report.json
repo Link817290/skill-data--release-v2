@@ -1,0 +1,338 @@
+{
+  "classification": {
+    "facility": "standard VFR helipad",
+    "service_branch": "Navy and Marine Corps",
+    "approach_configuration": "two reciprocal straight approach paths",
+    "visual_aids": {
+      "east": "normal CHAPI, 6-degree guide angle",
+      "west": "non-standard CHAPI, 8-degree guide angle"
+    }
+  },
+  "review_basis": {
+    "baseline": "legacy_airfield_criteria.pdf is the plan condition under inspection.",
+    "controlling": "current_airfield_criteria.pdf, including marked Change 2 material, controls the repair.",
+    "branch_decision": "Use the service-specific standard VFR branch in Figure 4-9a; exclude the Army and Air Force limited-use branch split into Figure 4-9b.",
+    "conditional_decision": "Apply the service-specific figure's CHAPI notes by approach end even though the nearby Table 4-7 CHAPI parenthetical is scoped to a different facility class. The east normal case is fully dimensioned; the west non-standard case remains on hold because its adjustment dependencies are not closed by the supplied record.",
+    "evidence": [
+      {
+        "file": "current_airfield_criteria.pdf",
+        "location": "physical pages 8-9, change summary",
+        "supports": "status and branch split"
+      },
+      {
+        "file": "current_airfield_criteria.pdf",
+        "location": "printed page 106, Figure 4-9a, Notes 2-6",
+        "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "topic": "helipad size",
+      "status": "retain compliant",
+      "observed": "Baseline standard VFR pad is 30.00 m square.",
+      "requirement": "The controlling service branch retains a 30.00 m square minimum.",
+      "disposition": "Retain the centered pad boundary.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed pages 90-92, Table 4-2",
+          "supports": "baseline pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        }
+      ]
+    },
+    {
+      "topic": "primary surface",
+      "status": "retain compliant",
+      "observed": "The baseline service-specific primary surface is 45.72 m square.",
+      "requirement": "The current standard VFR branch requires 45.72 m square centered on the pad.",
+      "disposition": "Retain the centered primary-surface boundary.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed pages 90-92, Table 4-2",
+          "supports": "baseline pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        }
+      ]
+    },
+    {
+      "topic": "clear-zone length",
+      "status": "retain compliant",
+      "observed": "Each reciprocal clear zone is 121.92 m long and begins at a primary-surface edge.",
+      "requirement": "The current branch retains 121.92 m at each end.",
+      "disposition": "Retain length and reciprocal start stations.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed page 100, Figure 4-9",
+          "supports": "combined baseline service layout and base approach-departure geometry"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        }
+      ]
+    },
+    {
+      "topic": "clear-zone width envelope",
+      "status": "repair nonconforming",
+      "observed": "The combined baseline depicts the service clear zone at a constant 45.72 m full width.",
+      "requirement": "The current service branch flares from 45.72 m at the primary edge to 81.38 m at the clear-zone end.",
+      "disposition": "Replace both constant-width clear zones with reciprocal flared polygons.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed pages 90-92, Table 4-2",
+          "supports": "baseline pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed page 100, Figure 4-9",
+          "supports": "combined baseline service layout and base approach-departure geometry"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        }
+      ]
+    },
+    {
+      "topic": "APZ I length and continuity",
+      "status": "retain compliant",
+      "observed": "APZ I follows each clear zone for 243.84 m.",
+      "requirement": "The controlling branch retains 243.84 m and starts APZ I at the clear-zone terminal station.",
+      "disposition": "Retain length and make the shared boundary continuous.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed pages 90-92, Table 4-2",
+          "supports": "baseline pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed page 100, Figure 4-9",
+          "supports": "combined baseline service layout and base approach-departure geometry"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        }
+      ]
+    },
+    {
+      "topic": "APZ I width envelope",
+      "status": "repair nonconforming",
+      "observed": "The combined baseline depicts APZ I at a constant 45.72 m full width for this branch.",
+      "requirement": "The current service branch flares from 81.38 m to 152.40 m full width.",
+      "disposition": "Replace both constant-width APZ I areas with reciprocal flared polygons.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed pages 90-92, Table 4-2",
+          "supports": "baseline pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed page 100, Figure 4-9",
+          "supports": "combined baseline service layout and base approach-departure geometry"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        }
+      ]
+    },
+    {
+      "topic": "east normal-CHAPI approach-departure clearance surface",
+      "status": "repair nonconforming",
+      "observed": "The legacy service branch uses the base 8.0:1 surface, 365.76 m long with a 152.40 m terminal full width.",
+      "requirement": "For the east normal 6-degree CHAPI, the current service-specific figure fixes a 16.4:1 surface, 749.82 m long and 278.90 m wide at its end.",
+      "disposition": "Replace the east baseline surface with the fully dimensioned CHAPI boundary from the positive-X primary-surface edge.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed pages 112-114, Table 4-7, items 6-9",
+          "supports": "baseline service-column surface and branch-limited CHAPI note"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "physical pages 8-9, change summary",
+          "supports": "service figure split and revised CHAPI treatment"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 120-123, Table 4-7, items 6-15",
+          "supports": "base imaginary-surface dimensions, terminal elevation, transitional surface, and nearby conditional branch"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        }
+      ]
+    },
+    {
+      "topic": "west non-standard-CHAPI dimensional dependency",
+      "status": "design hold unresolved",
+      "observed": "The west approach has a non-standard 8-degree CHAPI, while the legacy plan shows only the base surface.",
+      "requirement": "The current figure requires non-standard length and width to be adjusted from the lowest on-course visual signal and the terminal-elevation condition.",
+      "disposition": "Do not infer or mirror a west controlling polygon. Obtain the CHAPI lowest on-course signal angle and a resolved terminal-elevation criterion before dimensioning it.",
+      "evidence": [
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 120-123, Table 4-7, items 6-15",
+          "supports": "base imaginary-surface dimensions, terminal elevation, transitional surface, and nearby conditional branch"
+        }
+      ]
+    },
+    {
+      "topic": "non-standard CHAPI terminal-elevation source conflict",
+      "status": "design hold unresolved",
+      "observed": "Figure 4-9a Note 6 pairs 42.72 m with 150 ft, while Table 4-7 item 11 pairs 45.72 m with the same 150 ft terminal elevation.",
+      "requirement": "The non-standard surface length and width depend on a single unambiguous terminal elevation.",
+      "disposition": "Raise a criteria clarification; do not choose one metric value or convert the reference value silently.",
+      "evidence": [
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 120-123, Table 4-7, items 6-15",
+          "supports": "base imaginary-surface dimensions, terminal elevation, transitional surface, and nearby conditional branch"
+        }
+      ]
+    },
+    {
+      "topic": "reciprocal ground zones and asymmetric conditional surfaces",
+      "status": "partial repair with design hold",
+      "observed": "The two straight approach paths share one facility classification, but their CHAPI guide-angle conditions differ by end.",
+      "requirement": "Clear zones and APZ I remain reciprocal; a CHAPI-controlled clearance surface may be mirrored only when the end-specific activating conditions and inputs match.",
+      "disposition": "Draw reciprocal clear zones and APZ I, draw the resolved east CHAPI boundary, and show a non-controlling west design-hold note instead of mirrored geometry.",
+      "evidence": [
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        }
+      ]
+    },
+    {
+      "topic": "APZ II",
+      "status": "exclude inapplicable",
+      "observed": "The baseline plan contains clear zone and APZ I but no APZ II.",
+      "requirement": "APZ II is not applicable to rotary-wing aircraft.",
+      "disposition": "Do not add APZ II to the repaired plan.",
+      "evidence": [
+        {
+          "file": "legacy_airfield_criteria.pdf",
+          "location": "printed pages 90-92, Table 4-2",
+          "supports": "baseline pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        }
+      ]
+    },
+    {
+      "topic": "grades, elevations, and obstacle penetrations",
+      "status": "unresolved from plan view",
+      "observed": "The schematic plan view supplies no site survey, profile, grading record, or obstacle inventory.",
+      "requirement": "Plan geometry alone cannot establish grades, elevations, or penetrations of a sloped clearance surface.",
+      "disposition": "Leave these properties unresolved pending survey and profile evidence; do not certify them compliant.",
+      "evidence": [
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed pages 96-98, Table 4-2",
+          "supports": "controlling pad, primary-surface, clear-zone, and APZ I dimensions"
+        },
+        {
+          "file": "current_airfield_criteria.pdf",
+          "location": "printed page 106, Figure 4-9a, Notes 2-6",
+          "supports": "service-specific reciprocal layout and per-end CHAPI-controlled clearance surfaces"
+        }
+      ]
+    }
+  ],
+  "repaired_dimensional_basis": {
+    "units": "m",
+    "origin": "helipad center at (0, 0)",
+    "axis": "reciprocal straight approach centerline on X axis",
+    "pad_size": 30.0,
+    "primary_size": 45.72,
+    "clear_zone_length": 121.92,
+    "clear_zone_start_width": 45.72,
+    "clear_zone_end_width": 81.38,
+    "apz_length": 243.84,
+    "apz_start_width": 81.38,
+    "apz_end_width": 152.4,
+    "east_chapi": {
+      "status": "resolved controlling geometry",
+      "guide_angle_degrees": 6.0,
+      "slope_h_to_v": 16.4,
+      "length": 749.82,
+      "terminal_full_width": 278.9
+    },
+    "west_chapi": {
+      "status": "design hold; no controlling polygon",
+      "guide_angle_degrees": 8.0,
+      "missing_input": "lowest on-course visual signal angle",
+      "source_conflict": "terminal elevation is stated as both 42.72 m and 45.72 m for 150 ft"
+    },
+    "station_dependencies": {
+      "primary_edge": 22.86,
+      "clear_zone_end": 144.78,
+      "apz_end": 388.62,
+      "east_chapi_end": 772.68,
+      "west_chapi_end": "unresolved design hold"
+    }
+  },
+  "unresolved_or_out_of_scope": [
+    "Site grades and elevations cannot be verified from the plan view.",
+    "Obstacle penetrations and property or land-use control cannot be verified without site records.",
+    "Pavement structure, markings, lighting design beyond the stated CHAPI condition, and aircraft performance are outside this plan-view repair.",
+    "The west non-standard CHAPI boundary remains on design hold pending its lowest on-course signal angle and resolution of the terminal-elevation conflict in the supplied criteria."
+  ]
+}

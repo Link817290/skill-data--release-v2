@@ -1,0 +1,1 @@
+Using the three disclosure PDFs in /workspace/materials, prepare a Chinese report assessing the life insurer's business outlook and forecasting its distribution channels for 2026 and 2027. Support the assessment and forecasts with the supplied disclosures, calculations and clearly stated assumptions. Save the final report as /workspace/output/report.pdf.

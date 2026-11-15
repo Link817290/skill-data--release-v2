@@ -1,0 +1,1149 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-and-gate-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "1.0",
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "P02",
+      "units": [
+        "U06"
+      ],
+      "dimension": "price_rebuttal",
+      "weight": 0.08,
+      "scope": "answer-body line or heading block on the caisson ground",
+      "object_key": "price.caisson_variation",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p15 (约442万元); materials/民事判决书.docx p63-p67 (court adopts the appraisal); golden/appeal-defence-statement.md line 12-line 15",
+      "relation_predicate": "an adopted sentence classifies 沉井 as 工程变更/设计变更/新增工程 and a sentence mentioning 沉井 endorses its re-pricing or added cost",
+      "golden_object_key": "U06",
+      "golden_relation_predicate": "沉井 is a variation under the contract and the appraisal's re-pricing adding about 4.42 million is proper",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed sentences in one span",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.line_or_heading_block",
+        "metric": "one body line (<=900 chars) with its heading chain, or one lowest-level heading block (<=1600 chars)",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "variation classification plus endorsed re-pricing in one span",
+        "partial": "0.5 for the variation classification alone",
+        "zero": "neither, negated, or the span also concedes the measure-item view"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P02_CHANGE + REPRICE + R05 endorsement; R06 conflict with D01 caisson",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "沉井 is an engineering variation (added by design), so the appraisal's re-pricing that adds about 4.42 million is proper",
+      "reasoning_gate": "requires classifying the caissons as a variation and endorsing re-pricing rather than bid-rate settlement"
+    },
+    {
+      "id": "P07",
+      "units": [
+        "U16"
+      ],
+      "dimension": "price_rebuttal",
+      "weight": 0.07,
+      "scope": "answer-body sentence on the information-price period",
+      "object_key": "price.information_price_period",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p27-p29 (开竣工 2017年11月至2020年10月); materials/民事判决书.docx p56-p60 (开工 2017-11-20, 竣工验收 2020-10-20); golden/appeal-defence-statement.md line 32-line 34",
+      "relation_predicate": "an adopted sentence endorses using 信息价 for 2017-11 to 2020-10",
+      "golden_object_key": "U16",
+      "golden_relation_predicate": "calculating the price with information prices from 2017-11 to 2020-10 is proper and agreed by the parties",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed sentence with an endorsement token",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.sentence",
+        "metric": "one sentence inside one body line or heading block",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "信息价 + both months + endorsement",
+        "partial": "0.5 for 信息价 over the actual construction period endorsed without months",
+        "zero": "absent or negated"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "N03 month tokens + R05 endorsement",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "the appraisal properly used information prices for 2017-11 to 2020-10, the actual construction period",
+      "reasoning_gate": "requires answering appeal ground 一(四) by endorsing the actual-period information prices instead of contract prices"
+    },
+    {
+      "id": "P10",
+      "units": [
+        "U20"
+      ],
+      "dimension": "penalty_rebuttal",
+      "weight": 0.18,
+      "scope": "answer-body sentence on the review/payment penalties",
+      "object_key": "penalty.review_not_precondition",
+      "source_location": "materials/民事判决书.docx p55 (专用条款14.2(1)(2)); materials/被告上诉状（B公司）_去标识版.docx p35; golden/appeal-defence-statement.md line 40",
+      "relation_predicate": "an adopted sentence says the review clause is not a precondition, or that submitting to audit does not excuse the late-payment liability, or that the two penalties are independent",
+      "golden_object_key": "U20",
+      "golden_relation_predicate": "14.2(1) is not a precondition of 14.2(2); B's submission to an auditor does not excuse its late-payment liability",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted sentence; the audit-does-not-excuse form may follow B's attributed claim inside the same clause",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.sentence",
+        "metric": "one sentence inside one body line or heading block",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "any accepted limb",
+        "partial": "none",
+        "zero": "absent, negated, or span concedes no penalty is owed"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P10_A over asserted text, P10_B over canonical sentence (rebuttal marker is part of the pattern), P10_C; R06 conflict with D02 | two liabilities stated as 彼此独立 in either order, with 审核 and 逾期付款 both named in the sentence, is the same proposition as 'not a precondition' | non-influence between the review liability and the payment liability is the same relation as 'not a precondition'.",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "the overdue-review penalty of 14.2(1) is not a precondition of the overdue-payment penalty of 14.2(2); sending the file to a third-party auditor does not excuse late payment",
+      "reasoning_gate": "requires separating two contract penalties that the appeal merges"
+    },
+    {
+      "id": "P11",
+      "units": [
+        "U21"
+      ],
+      "dimension": "penalty_rebuttal",
+      "weight": 0.12,
+      "scope": "answer-body line or heading block on the penalty start",
+      "object_key": "penalty.start_filing_date",
+      "source_location": "materials/民事判决书.docx p67 (酌情以 2021-08-19 视为应当付款之日), p84 (违约金 2021-08-20 起); golden/appeal-defence-statement.md line 36, line 39, line 41",
+      "relation_predicate": "an adopted sentence endorses the filing date/2021-08 as the start of the penalty, and a sentence in the span gives the missing certificate or unclear due date as the reason",
+      "golden_object_key": "U21",
+      "golden_relation_predicate": "B公司 refused to issue the settlement certificate so the start date was unclear; using A公司's filing date as the start is proper",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed sentences with an endorsement token",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.line_or_heading_block",
+        "metric": "one body line (<=900 chars) with its heading chain, or one lowest-level heading block (<=1600 chars)",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "endorsed filing-date start plus reason",
+        "partial": "0.5 for the endorsed start without the reason",
+        "zero": "other start date, not endorsed, or span concedes no penalty"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P11_DATE + P11_START + R05 + P11_REASON; R06 conflict with D02 | the date and the start must be in one sentence; the adoption marker may be anywhere in the same local span.",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "because B公司 issued no completion settlement certificate the 14.2(2) due date is unclear, so the court reasonably used the filing date (2021-08-19) as the start of the penalty",
+      "reasoning_gate": "requires tying the judgment's discretionary start date to the missing certificate and endorsing it"
+    },
+    {
+      "id": "P12",
+      "units": [
+        "U23"
+      ],
+      "dimension": "delay_rebuttal",
+      "weight": 0.15,
+      "scope": "answer-body heading block on the delay-damages ground",
+      "object_key": "delay.no_counterclaim",
+      "source_location": "materials/民事判决书.docx p78; materials/被告上诉状（B公司）_去标识版.docx p37-p39; golden/appeal-defence-statement.md line 42-line 43",
+      "relation_predicate": "in one span about 工期 and 违约金/抵扣, an adopted sentence says no counterclaim was filed or the delay was not litigated, and the span endorses the first-instance handling",
+      "golden_object_key": "U23",
+      "golden_relation_predicate": "B公司 never counterclaimed delay damages nor litigated the delay facts, so not offsetting them is proper",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed sentences in one span",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.line_or_heading_block",
+        "metric": "one body line (<=900 chars) with its heading chain, or one lowest-level heading block (<=1600 chars)",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "no-counterclaim or not-litigated limb plus endorsement",
+        "partial": "0.5 for 另行主张 plus endorsement",
+        "zero": "absent or span concedes offset"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P12_PRED + R05; R06 conflict with D03",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "B公司 filed no counterclaim for delay liquidated damages (and the delay facts were not litigated), so the first instance properly declined to offset them",
+      "reasoning_gate": "requires turning the judgment's procedural finding into the appellee's answer to appeal ground 三"
+    },
+    {
+      "id": "P13",
+      "units": [
+        "U22"
+      ],
+      "dimension": "penalty_rebuttal",
+      "weight": 0.08,
+      "scope": "answer-body sentence citing the interpretation",
+      "object_key": "penalty.interpretation_art27",
+      "source_location": "golden/appeal-defence-statement.md line 41; public law (法释〔2020〕25号 第二十七条)",
+      "relation_predicate": "an adopted sentence relating to the filing/start date cites 《最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释（一）》 article 27",
+      "golden_object_key": "U22",
+      "golden_relation_predicate": "the court's use of the filing date follows article 27 of Construction Interpretation (I)",
+      "comparison_mode": "exact",
+      "adoption_status": "adopted citation in a sentence about the start date or interest",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.sentence",
+        "metric": "one sentence inside one body line or heading block",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "interpretation (I) article 27 cited on the start date",
+        "partial": "none",
+        "zero": "other article, repealed interpretation (D09) or attributed"
+      },
+      "dependencies": [
+        "P11"
+      ],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P13_RE over asserted text with titles",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "Construction Interpretation (I) article 27 supports treating the filing date as the due date when payment time is unclear",
+      "reasoning_gate": "selects the governing judicial interpretation the judgment does not cite"
+    },
+    {
+      "id": "P14",
+      "units": [
+        "U05"
+      ],
+      "dimension": "price_rebuttal",
+      "weight": 0.07,
+      "scope": "answer-body sentence on clause 12.1 and caisson re-pricing",
+      "object_key": "price.clause_12_1_caisson_repricing",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx (12.1 argument); golden/appeal-defence-statement.md line 9-line 11",
+      "relation_predicate": "an adopted sentence asserts clause 12.1 does not apply to or preclude re-pricing the caisson, or that applying it to the caisson confuses bill adjustment with new pricing",
+      "golden_object_key": "U05",
+      "golden_relation_predicate": "clause 12.1 on fixed excavation-support costs does not bar caisson re-pricing",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed clause, typically after a contrast marker following B's attributed claim",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.sentence",
+        "metric": "one sentence inside one body line or heading block",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "one adopted non-applicability proposition bound to clause 12.1 and caisson",
+        "partial": "none",
+        "zero": "absent, interrogative, opponent-attributed or contradicted by a caisson concession"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P14_NONAPP with clause 12.1 or two-sentence anaphor and caisson within six prior/two next sentences; R06 caisson-concession conflict",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "clause 12.1 does not make caisson re-pricing unavailable",
+      "reasoning_gate": "requires answering the appeal’s fixed-price clause argument as applied to the caisson"
+    },
+    {
+      "id": "P15",
+      "units": [
+        "U15"
+      ],
+      "dimension": "price_rebuttal",
+      "weight": 0.12,
+      "scope": "answer body on high-pressure jet-grouting pile omitted-item repricing",
+      "object_key": "price.jet_grouting_repricing",
+      "source_location": "appeal and judgment materials concerning 高压旋喷桩/水泥土 omitted item and 2.33 million dispute",
+      "relation_predicate": "substantive rebuttal that high-pressure jet-grouting piles were an omitted/different item and could be re-priced under the contract",
+      "golden_object_key": "U15",
+      "golden_relation_predicate": "高压旋喷桩 is not the listed deep cement-mixing pile and its omitted-item repricing is supported",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed sentences in one span",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.line_or_heading_block",
+        "metric": "one body line (<=900 chars) with its heading chain, or one lowest-level heading block (<=1600 chars)",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "variation classification plus endorsed re-pricing in one span",
+        "partial": "0.5 for the variation classification alone",
+        "zero": "neither, negated, or the span also concedes the measure-item view"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P02_CHANGE + REPRICE + R05 endorsement; R06 conflict with D01 caisson",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "substantive high-pressure jet-grouting pile rebuttal",
+      "reasoning_gate": "object, proposition and record/contract ground"
+    },
+    {
+      "id": "P16",
+      "units": [
+        "U16"
+      ],
+      "dimension": "price_rebuttal",
+      "weight": 0.1,
+      "scope": "answer body on bored-pile machinery change",
+      "object_key": "price.bored_pile_change",
+      "source_location": "appeal and judgment materials concerning 灌注桩 geology mismatch, machinery change and 0.50 million dispute",
+      "relation_predicate": "substantive rebuttal that geology mismatch and signed change support machinery-change repricing",
+      "golden_object_key": "U16",
+      "golden_relation_predicate": "灌注桩 machinery change followed geology mismatch and signed change, not contractor fault",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed sentences in one span",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.line_or_heading_block",
+        "metric": "one body line (<=900 chars) with its heading chain, or one lowest-level heading block (<=1600 chars)",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "variation classification plus endorsed re-pricing in one span",
+        "partial": "0.5 for the variation classification alone",
+        "zero": "neither, negated, or the span also concedes the measure-item view"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P02_CHANGE + REPRICE + R05 endorsement; R06 conflict with D01 caisson",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "substantive bored-pile rebuttal",
+      "reasoning_gate": "object, proposition and record/contract ground"
+    },
+    {
+      "id": "P17",
+      "units": [
+        "U17"
+      ],
+      "dimension": "price_rebuttal",
+      "weight": 0.03,
+      "scope": "closing request on second-instance costs",
+      "object_key": "relief.second_instance_costs",
+      "source_location": "appeal prayer and responsive-pleading skill costs rule",
+      "relation_predicate": "asks B/appellant to bear second-instance costs or gives a reasoned costs position",
+      "golden_object_key": "U17",
+      "golden_relation_predicate": "B bears second-instance costs if its appeal is dismissed",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted non-attributed sentences in one span",
+      "negative_context_exclusions": "opponent-attributed clauses (R02: 上诉人/B公司…认为/称/主张 until a contrast or rebuttal marker), concessive or conditional clauses (尽管/即使/退一步/如果), candidate markers (可能/或许/备选), quoted spans of 13+ characters (N07), quoted summary sections of the appellant's grounds, keyword soup and dense spray (R01) and spans that also adopt the contrary concession (R06) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.line_or_heading_block",
+        "metric": "one body line (<=900 chars) with its heading chain, or one lowest-level heading block (<=1600 chars)",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "variation classification plus endorsed re-pricing in one span",
+        "partial": "0.5 for the variation classification alone",
+        "zero": "neither, negated, or the span also concedes the measure-item view"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, sentence order, numbering and heading style are open; the proposition must sit in the answer body (after the party block, before 此致) inside one line or one lowest-level heading block",
+      "program_path": "P02_CHANGE + REPRICE + R05 endorsement; R06 conflict with D01 caisson",
+      "semantic_audit": "check that the matched span states the complete Golden proposition as the appellee's own adopted position, that it answers the matching appeal ground, and that no equivalent phrasing elsewhere was missed",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "second-instance costs position",
+      "reasoning_gate": "stage-specific costs relief"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "trigger": "the answer adopts an appellant price ground: 沉井 is a measure item / must not be re-priced / is not a variation; bored-pile change is the contractor's own cause; 水泥土/灌注桩 must be settled at bid rates; cement must not be adjusted; the appraisal lacks basis; or adopts that no late-payment penalty is owed or delay damages must be offset",
+      "damage_basis": "the appellee concedes a ground that lowers its own recovery, contradicting the judgment it defends",
+      "scope": "answer-body sentences",
+      "object_key": "answer.concession",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p11-p30; materials/民事判决书.docx p63-p67",
+      "error_predicate": "D01_PATTERNS or D02_PATTERN or D03_PATTERN adopted without reported/negated context",
+      "adoption_status": "the error must be asserted affirmatively as the appellee's own adopted position",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections, negation inside the pattern gap and a following rejection token (错误/不能成立/缺乏依据/不合理) do not trigger; omission never triggers; a match that crosses a clause separator, or that sits inside a 以…为由 reported-ground adjunct, is not adopted (R17); an interrogative or conditional frame in the match's own clause is the question, not an adopted proposition (R17)",
+      "causal_root_rule": "R-role-concession: adopting an appellant ground",
+      "damage_instance_key_rule": "concede_price:<object>, concede_penalty, or concede_delay_damages; one independent object per harm",
+      "manifestation_rule": "one per body line and conceded object",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D04",
+      "trigger": "the party block names B公司 as 答辩人/被上诉人 or A公司 as 上诉人/被答辩人",
+      "damage_basis": "the defence is filed for the wrong party, inverting the appellate roles fixed by the appeal petition",
+      "scope": "party block lines",
+      "object_key": "party.roles",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p3-p6 (上诉人 B公司, 被上诉人 A公司)",
+      "error_predicate": "PARTY_LABEL role vs entity inversion",
+      "adoption_status": "the error must be asserted affirmatively as the appellee's own adopted position",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections, negation inside the pattern gap and a following rejection token (错误/不能成立/缺乏依据/不合理) do not trigger; omission never triggers",
+      "causal_root_rule": "R-role-party",
+      "damage_instance_key_rule": "party_roles_inverted",
+      "manifestation_rule": "one per party line",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D05",
+      "trigger": "the appellee's own sentence or closing request asks to revoke the judgment, remand, or support the appellant's appeal (requests limited to adding the cement adjustment are excluded)",
+      "damage_basis": "the defence requests relief against the client instead of dismissal of the appeal",
+      "scope": "answer-body sentences and closing lines",
+      "object_key": "request.adverse",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p8-p9 (上诉请求); golden/appeal-defence-statement.md line 44",
+      "error_predicate": "adopted 发回重审 / 支持上诉人上诉请求 / 请求撤销判决 without negation; the requester of the matched request verb must not be the appellant (R02 request binding)",
+      "adoption_status": "the error must be asserted affirmatively as the appellee's own adopted position",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections, negation inside the pattern gap and a following rejection token (错误/不能成立/缺乏依据/不合理) do not trigger; omission never triggers; 上诉请求/诉讼请求/反诉请求 is a noun naming somebody's claim, not the appellee asking for something, and a request whose clause names the appellant by a possessive (上诉人的上诉请求…) reports the appeal's scope (R17); a section heading naming 发回重审 and a sentence rejecting the appellant's remand request are answers to it, not requests for it (R17)",
+      "causal_root_rule": "R-role-request",
+      "damage_instance_key_rule": "adverse_request",
+      "manifestation_rule": "one per line and request type",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D06",
+      "trigger": "wrong caisson/cement amount, derived judgment total one digit wrong, or wrong late-payment penalty start date",
+      "damage_basis": "misstates the disputed amounts the court must rule on",
+      "scope": "answer-body sentences",
+      "object_key": "amounts.case_figures",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p15 (约442万元); materials/民事判决书.docx p28 (1350765元)",
+      "error_predicate": "D06 range test, D15 one-digit derived-total test, or D07 penalty-start test",
+      "adoption_status": "the error must be asserted affirmatively as the appellee's own adopted position",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections, negation inside the pattern gap and a following rejection token (错误/不能成立/缺乏依据/不合理) do not trigger; omission never triggers",
+      "causal_root_rule": "R-wrong-amount-or-date",
+      "damage_instance_key_rule": "wrong_amount:<caisson|cement>, wrong_derived_total:<total>, or wrong_penalty_start",
+      "manifestation_rule": "one per line and wrong figure/date",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D08",
+      "trigger": "the text contains a second-instance case number with digits (民终123号), or party lines contain digit addresses, 18-character credit codes, phone numbers or a non-anonymised representative name",
+      "damage_basis": "the materials give no second-instance case number or party identifiers beyond the anonymised ones; inventing them misidentifies the case instead of marking the gap",
+      "scope": "whole document (case number) and party block lines",
+      "object_key": "party.identifiers",
+      "source_location": "materials/民事判决书.docx p6-p13; materials/被告上诉状（B公司）_去标识版.docx p3-p6 (anonymised 某/甲/乙)",
+      "error_predicate": "concrete identifier asserted where the materials give none",
+      "adoption_status": "the error must be asserted affirmatively as the appellee's own adopted position",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections, negation inside the pattern gap and a following rejection token (错误/不能成立/缺乏依据/不合理) do not trigger; omission never triggers",
+      "causal_root_rule": "R-fabrication",
+      "damage_instance_key_rule": "fabricated_identifiers",
+      "manifestation_rule": "one per line and identifier type",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D09",
+      "trigger": "a sentence relies on the repealed 2004 construction interpretation (title without （一）), interpretation （二）, 法释〔2004〕14号 or 法释〔2018〕20号",
+      "damage_basis": "those interpretations were repealed on 2021-01-01; relying on them for the penalty start is a wrong legal basis",
+      "scope": "answer-body sentences",
+      "object_key": "penalty.legal_basis",
+      "source_location": "public law timeline; judgment dated 2022-12-12",
+      "error_predicate": "repealed interpretation cited as operative basis (sentences noting repeal excluded)",
+      "adoption_status": "the error must be asserted affirmatively as the appellee's own adopted position",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections, negation inside the pattern gap and a following rejection token (错误/不能成立/缺乏依据/不合理) do not trigger; omission never triggers",
+      "causal_root_rule": "R-law",
+      "damage_instance_key_rule": "repealed_interpretation_basis",
+      "manifestation_rule": "one per line",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D10",
+      "trigger": "Inactive: reference-relative character counts are diagnostic only; omissions lose substantive credit.",
+      "damage_basis": "an over-long price answer buries the four rebuttals; a very short one cannot carry them",
+      "scope": "level-1 blocks classified as price",
+      "object_key": "shape.S01_S02",
+      "source_location": "golden/appeal-defence-statement.md line 7-line 35",
+      "error_predicate": "S01 ±15%/30% or S02 underrun >30%; additional deficit instance per 15%, capped four",
+      "adoption_status": "the error must be asserted affirmatively as the appellee's own adopted position",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections, negation inside the pattern gap and a following rejection token (错误/不能成立/缺乏依据/不合理) do not trigger; omission never triggers",
+      "causal_root_rule": "R-shape-S01 or R-shape-S02",
+      "damage_instance_key_rule": "shape_S01* or shape_S02*; each distinct measured deficit remains an independent instance",
+      "manifestation_rule": "one manifestation per unit, plus one further manifestation for each further 15 percent of the Golden body missing beyond the underrun tolerance (capped at four)",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D12",
+      "trigger": "an adopted answer-body sentence asserts, as the appellee's own affirmative case, a procedural act or omission whose act key is outside the frozen supported-act set (R11): a retrial-appraisal or appraiser-examination application, participation in the appraisal, the site-signature/construction-record/supervision-file basis of the appraisal, and the issuing of a delay warning or delay claim by the appellant; the same item and coefficient also cover two out-of-evidence assertions: the delay attributed to the appellant as settled fact (delay_cause_certainty: 工期延误/工程逾期… (完全|全部|均)?(系|是|由|因) B公司/上诉人/被答辩人/发包人 … 所致/造成/导致/原因), against the judgment's 工程逾期的原因较为复杂…并不明确, and a letter, confirmation or undertaking said to be issued by the appellant (written_confirmation: 出具/发出/签署/签发/发送/致函/作出/递交/提交 + 书面函件/书面确认/确认函/确认书/承诺函/回函/复函/函件), which neither material records (函件 0, 确认函 0, 确认书 0, 承诺函 0, 书面确认 0, 回函 0, 复函 0); negated, hypothetical/conditional (即使/如果/若/如/是否…) and opponent-reported forms do not trigger",
+      "damage_basis": "neither material records any of these acts; asserting them as fact in an appellate answer invents the factual basis of a rebuttal line, and the invented appraisal facts and the invented delay-claim facts expose two different rebuttal lines to the same rebuttal",
+      "scope": "answer-body sentences",
+      "object_key": "document.unsupported_additions",
+      "source_location": "materials/民事判决书.docx + materials/被告上诉状（B公司）_去标识版.docx + materials/民事判决书.docx.ocr.md, whitespace-stripped corpus of 11,251 characters: 重新鉴定 0, 鉴定人 0, 出庭 0, 质询 0, 参与 0, 现场签证 0, 施工记录 0, 监理资料 0, 核对 0, 索赔 0, 违约通知 0, 工期违约 0",
+      "error_predicate": "unsupported act key matched with affirmative polarity inside one adopted body sentence (R11)",
+      "adoption_status": "the act must be asserted affirmatively as the appellee's own adopted fact, not quoted, hypothesised or attributed to the appellant",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07), quoted summary sections and keyword spray (R01/R02) do not trigger; ordinary omission never triggers; a deontic or future modal before the act in the same clause (应/可/将/需/须/宜/建议/有权) makes the sentence a statement about what a party may or should do and does not trigger; asking the court to order such an act, or reporting it as the appellant's own claim, is not an assertion that it happened; an act reported as something the opposing filing never alleged (未主张其曾申请重新鉴定) is an assertion about that filing, not about the world, and does not trigger (R11)",
+      "causal_root_rule": "R-unsupported-addition",
+      "damage_instance_key_rule": "unsupported_addition:<act_key> (appraisal_procedure, delay_claim, delay_cause_certainty, written_confirmation) - one key per rebuttal line, because the invented appraisal-procedure facts damage the appraisal-admissibility rebuttal and the invented delay-claim facts damage the delay-responsibility rebuttal used under two different appeal grounds",
+      "manifestation_rule": "line locator plus the matched act key and surface",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D13",
+      "trigger": "the artifact adopts both that the appellee filed the appeal and that the appellee did not file it (R12)",
+      "damage_basis": "the two adopted assertions cannot both hold on the frozen appellant identity; an answer that puts its own client on the appellant side in its opening and denies it later misidentifies the procedural posture of the whole filing",
+      "scope": "answer-body sentences and closing lines",
+      "object_key": "document.internal_contradiction",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p3-p9 (上诉人(一审被告): B公司; 被上诉人(一审原告): A公司; 上诉请求 1 asks to revoke judgment items 一、三); materials/民事判决书.docx records A公司 as 原告 only; materials 提起上诉 token count 0",
+      "error_predicate": "an adopted affirmative 提起上诉 bound to the appellee together with an adopted negated 提起上诉 bound to the appellee (R12)",
+      "adoption_status": "both sentences must be adopted; stating only one polarity is not a contradiction",
+      "negative_context_exclusions": "opponent-attributed clauses, concessive/conditional clauses, candidate markers, quoted spans (N07) and quoted summary sections do not trigger; an appeal verb whose clause names the appellant is the appellant's act; 提起反诉 and 提起诉讼 are different acts; 不服 is an attitude to the judgment, not a negation of the appeal",
+      "causal_root_rule": "R-internal-contradiction",
+      "damage_instance_key_rule": "internal_contradiction:appellant_identity",
+      "manifestation_rule": "both line locators",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D14",
+      "trigger": "inactive: a conventional request to dismiss the appeal and uphold the judgment is not blanket self-harm",
+      "damage_basis": "Golden's endorsement of the judgment is qualified three times over ('原审法院对案涉工程价款、逾期付款违约金、工程质保金及逾期支付利息的判决除未考虑水泥价格调差费用约¥1350000及相应的违约金、利息费用外并无不当') and Golden asks for that part to be corrected on appeal ('应当在二审中予以改判纠正'). A blanket endorsement of the whole judgment absorbs the part that is adverse to the appellee - the omitted cement price adjustment of about 1.35 million - and gives it away for nothing",
+      "scope": "answer-body sentences and closing request lines",
+      "object_key": "judgment.blanket_endorsement",
+      "source_location": "golden/appeal-defence-statement.md line 6, line 7, line 19, line 20 (the qualified endorsement and 应当在二审中予以改判纠正); materials/民事判决书.docx (the judgment does not add the cement adjustment)",
+      "error_predicate": "never triggers",
+      "adoption_status": "the endorsement must be asserted affirmatively as the appellee's own position or its own request, not quoted, hypothesised or attributed to the appellant",
+      "negative_context_exclusions": "opponent-attributed clauses (R02), concessive/conditional clauses, candidate markers, quoted spans (N07) and quoted summary sections do not trigger; an endorsement limited to named judgment items (维持原判第一项、第三项) or to the cost-allocation decision (维持一审判决关于案件受理费、鉴定费负担的决定) is the narrow endorsement the posture calls for and does not trigger; a sentence that carries the cement price-adjustment carve-out does not trigger; ordinary omission never triggers - saying nothing about the judgment as a whole is not an endorsement of it",
+      "causal_root_rule": "R-blanket-endorsement: endorsing in blanket terms an instrument that is partly adverse to the party answering",
+      "damage_instance_key_rule": "blanket_endorsement - one damage per document, because every repetition of the blanket endorsement is one adopted stance on one instrument (damage_lineage: repeated manifestations of one damage are charged once)",
+      "manifestation_rule": "line locator plus the matched endorsement surface",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D17",
+      "trigger": "missing filing structure: a recognizable defence title, an A-company appellee/respondent party line, or a prayer to dismiss B company appeal",
+      "damage_basis": "a pleading that has lost one of these parts has lost a ground or a formal element of the answer, not a nuance",
+      "scope": "the whole deliverable",
+      "object_key": "document.required_parts",
+      "source_location": "instruction.md (statement of defence responding to the appeal); materials/被告上诉状（B公司）_去标识版.docx (grounds 一 to 三)",
+      "error_predicate": "a required part is absent",
+      "adoption_status": "read on the deliverable as written; no attribution, hypothesis or quotation changes it",
+      "negative_context_exclusions": "ordinary omission of detail never triggers; only the named figure, path or part decides",
+      "causal_root_rule": "R-required-parts",
+      "damage_instance_key_rule": "missing_structure; repeated omissions share one root",
+      "manifestation_rule": "one manifestation per missing part",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U02",
+      "golden_proposition": "A公司 files the defence as appellee; B公司 is the appellant",
+      "golden_locator": "golden/appeal-defence-statement.md line 2-line 3",
+      "program_item_ids": [
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U03",
+      "golden_proposition": "second-instance case number and party identifiers are anonymised, not invented",
+      "golden_locator": "golden/appeal-defence-statement.md line 5",
+      "program_item_ids": [
+        "D08"
+      ]
+    },
+    {
+      "unit_id": "U04",
+      "golden_proposition": "the answer asks the court to dismiss B公司's appeal, not to revoke or remand",
+      "golden_locator": "golden/appeal-defence-statement.md line 6, line 44",
+      "program_item_ids": [
+        "D05"
+      ]
+    },
+    {
+      "unit_id": "U05",
+      "golden_proposition": "沉井 is not the 12.1 excavation-support measure",
+      "golden_locator": "golden/appeal-defence-statement.md line 9-line 11",
+      "program_item_ids": [
+        "P14",
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U06",
+      "golden_proposition": "沉井 is a variation; re-pricing adding about 4.42 million is proper",
+      "golden_locator": "golden/appeal-defence-statement.md line 8, line 12-line 15",
+      "program_item_ids": [
+        "P02",
+        "D01",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U08",
+      "golden_proposition": "旋喷桩 is a bill omission; re-pricing is proper",
+      "golden_locator": "golden/appeal-defence-statement.md line 17-line 20",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U10",
+      "golden_proposition": "cement adjustment about 1.35 million should be added; the first instance erred",
+      "golden_locator": "golden/appeal-defence-statement.md line 16, line 21, line 25",
+      "program_item_ids": [
+        "D01",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U13",
+      "golden_proposition": "bored-pile machine change caused by geology differing from the survey; not the contractor's cause",
+      "golden_locator": "golden/appeal-defence-statement.md line 26-line 27, line 29, line 31",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U16",
+      "golden_proposition": "information prices 2017-11 to 2020-10 are proper",
+      "golden_locator": "golden/appeal-defence-statement.md line 32-line 34",
+      "program_item_ids": [
+        "P07"
+      ]
+    },
+    {
+      "unit_id": "U17",
+      "golden_proposition": "B's delay-based price argument lacks evidence and a counterclaim",
+      "golden_locator": "golden/appeal-defence-statement.md line 34",
+      "program_item_ids": [
+        "G08"
+      ]
+    },
+    {
+      "unit_id": "U19",
+      "golden_proposition": "14.2(3)/dispute clause inapplicable without a signed settlement price",
+      "golden_locator": "golden/appeal-defence-statement.md line 37-line 38",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U20",
+      "golden_proposition": "14.2(1) review penalty is not a precondition of 14.2(2)",
+      "golden_locator": "golden/appeal-defence-statement.md line 40",
+      "program_item_ids": [
+        "P10",
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U21",
+      "golden_proposition": "penalty properly runs from the filing date because no certificate fixed the due date",
+      "golden_locator": "golden/appeal-defence-statement.md line 36, line 39, line 41",
+      "program_item_ids": [
+        "P11",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U22",
+      "golden_proposition": "Construction Interpretation (I) article 27 supports the filing-date start",
+      "golden_locator": "golden/appeal-defence-statement.md line 41",
+      "program_item_ids": [
+        "P13",
+        "D09"
+      ]
+    },
+    {
+      "unit_id": "U23",
+      "golden_proposition": "no counterclaim for delay damages, so not offsetting them is proper",
+      "golden_locator": "golden/appeal-defence-statement.md line 42-line 43",
+      "program_item_ids": [
+        "P12",
+        "D01"
+      ]
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "applicable_item_ids": [
+        "P02",
+        "P07",
+        "G08",
+        "D01",
+        "D04",
+        "D06",
+        "D08",
+        "D10",
+        "D12",
+        "D13"
+      ],
+      "scope": "answer-body level-1 blocks whose heading first names a price term (造价/价款/鉴定/沉井/灌注桩/水泥/信息价…); party block, intro and closing not measured (D04/D08 bind here for lineage only); a level-1 block naming neither a price nor a penalty term is outside this unit and is not measured (R10)",
+      "metric": "non-whitespace characters (N09)",
+      "golden_value": 3135,
+      "declared_floor": 800,
+      "counter": "task_judge.shape_count over R10 price group",
+      "threshold_basis": "explicit_default_fallback",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": 0.3,
+      "deduction_id": "D10",
+      "status": "diagnostic_only_no_task_length_requirement"
+    },
+    {
+      "id": "S02",
+      "applicable_item_ids": [
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "D01",
+        "D05",
+        "D06",
+        "D09",
+        "D10",
+        "D14"
+      ],
+      "scope": "answer-body level-1 blocks whose heading first names a penalty or delay term (违约金/利息/逾期付款/工期); closing request lines not measured (D05 binds here for lineage only); a level-1 block naming neither a price nor a penalty term is outside this unit and is not measured (R10)",
+      "metric": "non-whitespace characters (N09)",
+      "golden_value": 864,
+      "declared_floor": 400,
+      "counter": "task_judge.shape_count over R10 penalty group",
+      "threshold_basis": "underrun_only; no public or instruction length requirement exists, so there is no overrun arm (the Golden is a compressed reference the answering model never sees); the underrun arm keeps the declared floor of 400 characters in view",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": 0.3,
+      "deduction_id": "D10",
+      "status": "diagnostic_only_no_task_length_requirement"
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "UTF-8 Markdown lines or DOCX body paragraphs and table rows; NFKC fold, drop zero-width characters, Markdown heading/list/emphasis marks and table pipes (cells joined by colon), remove all whitespace"
+      },
+      {
+        "id": "N02",
+        "operation": "money amounts with 元/万元/人民币/¥ and thousands separators to one canonical yuan token; trailing zeros dropped"
+      },
+      {
+        "id": "N03",
+        "operation": "dates YYYY年M月D日 / YYYY-M-D / YYYY.M.D to @YYYY-MM-DD and month dates YYYY年M月 / YYYY-M / YYYY.M to @YYYY-MM"
+      },
+      {
+        "id": "N04",
+        "operation": "heading levels: 一、 level 1, (一) level 2, 1. level 3, (1) level 4, Markdown # depth when unnumbered, bold-only short lines level 3; a numbered line ending in 。 and longer than 40 characters is body text"
+      },
+      {
+        "id": "N05",
+        "operation": "statute article numbers in Chinese or Arabic numerals to one article token §n"
+      },
+      {
+        "id": "N06",
+        "operation": "fold every declared gap marker into one gap token: a marked value earns no positive credit, is excluded from fabrication checks and from shape counting"
+      },
+      {
+        "id": "N07",
+        "operation": "quoted spans of 13 or more characters (“…”, \"…\", 「…」) are replaced by an ellipsis token so quoted contract text, appraisal text or the opponent's words never count as the author's assertion"
+      },
+      {
+        "id": "N08",
+        "operation": "zones: leading title, party-label (答辩人/被上诉人/上诉人/被答辩人/原审原告/原审被告) and party-continuation lines form the header; the body runs to the line starting 此致; the rest is the closing"
+      },
+      {
+        "id": "N09",
+        "operation": "shape counter: non-whitespace characters of body lines in a shape group after N01, excluding clauses containing a gap token"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "keyword spray: a raw line of eight or more short whitespace/comma fragments, a sentence of six or more short enumerated fragments, or a sentence with more than four distinct amounts or dates cannot be adopted"
+      },
+      {
+        "id": "R02",
+        "operation": "asserted clauses: a sentence with candidate markers is not adopted; a clause starting with a concessive/conditional marker is dropped; an opponent subject plus speech verb (上诉人/B公司/被答辩人/对方…认为/称/主张/辩称/提出的理由) drops the text up to a rebuttal marker in the same clause, or otherwise the rest of the sentence until a clause starting with a contrast marker (但/然而/事实上/对此); request binding (D05): a request verb (请求/恳请/望/请) whose own clause (after the last comma or colon) ends with an opponent subject 上诉人/B公司/被答辩人/对方/一审被告/原审被告 (optionally followed by 虽/亦/也/还/又/仍…) reports the opponent's request and is never the appellee's adverse request; the attribution object set is not closed to 理由/主张/意见/观点/抗辩 but also covers 命题/说法/表述/陈述/计算 (上诉人…提出的是同一个命题：… is the opponent's ground restated, not the appellee's); a sticky attribution ends at a clause that starts with a back-reference (该/此/上述/前述) and carries a rebuttal marker, because that clause is the appellee's own conclusion about the attributed claim; an opposing ground carried by a possessive noun phrase inside one clause ((上诉人|B公司|…)…的(理由|主张|观点|说法|抗辩|命题|表述|陈述|计算|论述|看法|定性)) is attributed exactly as a speech verb is, and the negation guard applies only to the verb branch, because a negation inside the attributed noun phrase (沉井系措施项目而非实体工程) is part of what is attributed."
+      },
+      {
+        "id": "R03",
+        "operation": "local spans: each non-quoted body line of at most 900 characters with its heading chain (a heading line only under R13), and each lowest-level heading block (heading plus following body lines until the next heading) of at most 1600 characters; body lines under a heading that only summarises the appellant's grounds are a quoted zone; each normalized sentence keeps its own line text and the nearest heading of that line (heading context) for object binding where an item allows it; a line that R18 marks as a reproduction of the Materials yields no span and joins no block"
+      },
+      {
+        "id": "R04",
+        "operation": "pattern adoption: a positive or error pattern with a declared gap is not matched when the gap contains a negation (不/未/没有/并非/非/无/无需), and an error pattern is not adopted when a rejection token (错误/不准确/不能成立/缺乏依据/不合理/不当 but not 并无不当) follows it in the sentence"
+      },
+      {
+        "id": "R05",
+        "operation": "endorsement: 并无不当/并无不妥/正确/合理/有依据/应予维持/符合约定 etc. count only when not preceded within two characters by 不/未/没/缺乏/无/非/难以/欠 (fixed tokens 并无不当, 并不不当, 并无错误 always count); R14 extends adoption beyond the endorsement vocabulary (see R14); the set includes the short form 无误 of 并无错误 and the appellate form 不应再被推翻/撤销/改判, and the scoped conformity form 与…约定一致 beside 符合…约定; the bare token 一致 is not in the set, because it would let keyword spraying earn P12."
+      },
+      {
+        "id": "R06",
+        "operation": "item decision: every span is scored; the highest full or partial span wins; a span that also adopts the item's contrary concession (D01 object, D02 or D03 pattern) earns nothing and, when no other span earns credit, the item is ambiguous"
+      },
+      {
+        "id": "R07",
+        "operation": "amount binding: an amount token within the stated window after 沉井…造价/价款/费用 or 水泥…调差/价差 is the stated figure for that object; ranges CAISSON [4,400,000, 4,440,000] and CEMENT [1,340,000, 1,360,000]"
+      },
+      {
+        "id": "R08",
+        "operation": "penalty start: 自/从@date…起 in a sentence naming 违约金/逾期付款 outside claim narration and retention-money interest; accepted 2021-08, 2021-08-19, 2021-08-20, 2021-10-14, 2021-10-15"
+      },
+      {
+        "id": "R09",
+        "operation": "party roles: 答辩人/被上诉人 must not resolve to B公司 alone and 上诉人/被答辩人 must not resolve to A公司 alone"
+      },
+      {
+        "id": "R10",
+        "operation": "shape groups: body lines are grouped by their level-1 heading, whose first price term (造价/价款/鉴定/沉井/灌注桩/旋喷桩/水泥土/水泥/信息价/组价/计价) or penalty term (违约金/利息/逾期付款/逾期支付/付款条件/工期) decides S01 or S02; a level-1 block naming neither is outside the declared scope of both shape units and is not measured; a body with no level-1 heading at all leaves both units ambiguous. an unclassifiable level-1 block does not void the whole measurement, because voiding it would let an answer escape the shape charge by adding an off-scope section"
+      },
+      {
+        "id": "R11",
+        "operation": "unsupported author-originated act: inside one adopted answer-body sentence, an act key from the frozen unsupported-act set matched with affirmative polarity. appraisal_procedure: 重新鉴定, 鉴定人出庭/质询, 双方或各方参与鉴定/勘验/查勘, 现场签证, 施工记录, 监理资料. delay_claim: an issuing verb (发出/提出/提起/递交/提交/主张/作出/送达) within 10 characters of (工期|逾期竣工|逾期)?违约通知/违约函 or (工期|逾期竣工|逾期)?索赔, so that the object is the occurrence of the act and not the bare noun. The act keys are frozen because neither material records them; polarity is read on the act, so 上诉人从未发出工期违约通知或索赔主张 is an affirmative assertion about the appellant's conduct and triggers. A deontic or future modal (应/可/将/会/需/须/宜/建议/有权) before the act in the same clause is a statement about what a party may or should do and is excluded. evidence: materials token counts over the whitespace-stripped corpus: 重新鉴定 0, 鉴定人 0, 出庭 0, 质询 0, 参与 0, 现场签证 0, 施工记录 0, 监理资料 0, 索赔 0, 违约通知 0; an act inside a clause whose verb reports what the opponent did NOT allege ((未|没有|并未|从未|亦未|均未) + 主张/称/声称/说明/提及/指出/表示/举证/证明/指明) is a statement about the opposing filing, checkable against it, not an adopted fact about the world, and does not trigger"
+      },
+      {
+        "id": "R12",
+        "operation": "intra-artifact contradiction on the appellant identity: the artifact adopts a sentence asserting 提起/提出/递交/提交上诉 bound to the appellee and also a sentence denying it of the appellee. Subject binding: a party token inside the appeal verb's own clause (text after the last comma, colon or semicolon) governs the verb; when that clause names no party the sentence topic governs, and a party introduced by a co-argument marker (与/和/同/跟/对/向/针对/就) is a counterparty, never the subject. Polarity is read on the same clause with 不服 removed. Both polarities must be adopted; one alone is not a contradiction. The materials fix B公司 as the sole appellant"
+      },
+      {
+        "id": "R13",
+        "operation": "isolated heading: a heading line (N04 level 1-4) is an evidence span only when it is read together with the body of its own section, that is when the section it opens - the lines after it down to the next heading of the same or a higher level - contains at least one non-heading body line. An isolated heading, a heading whose section holds only further headings, and a heading at the end of the body assert nothing and yield no span, so a document of headings with no argument under them earns no positive credit (04a section 1: 孤立标题/空章节 must score 0; 04a section 2: a heading may only proxy a closed reasoning result). A heading that does head an argument is unaffected: it still supplies heading-chain context to every body-line span under it and still opens its block span under R03"
+      },
+      {
+        "id": "R14",
+        "operation": "adoption of a position: besides an R05 endorsement token, a span adopts a position when an adoption verb is bound to the appellee and the span names the decision below ((答辩人|被上诉人|A公司|本方)…(支持|认可|赞同|援引并支持) together with 一审/原审/判决/认定), or when the span states that a named opposing ground fails ((该|上述|其|本|此|a folded quotation) + 理由/主张/请求/命题/抗辩/解释/说法/异议 … 不能成立/不能提出/不予采纳/没有依据/所排除/不具备条件/无从发生). The adoption marker may sit in the sentence, in the same line's lead-in, or in the heading the line sits under, all read through R02, because R03 declares those to be one local span; the ground-failure branch names three families rather than one phrase list - the ground fails on the merits (不能成立/不予采纳/没有依据…), the ground is outside what this instance may decide (不属于…审理范围/不在…范围内, the deferral stance), and the ground cannot stand together with the instrument or premise it rests on (不能并存/不能同时成立/归于无用/无适用余地/同一条款不能作此解释). The object guard still applies, so a bare rejection word still closes nothing. The adoption marker of P11 is read over the local span, as for P12, because R03 makes the span the unit of local evidence."
+      },
+      {
+        "id": "R15",
+        "operation": "carrier title: the answer title may carry a bracketed qualifier of at most 8 characters (民事答辩状（二审）); such a line is still the header title, so the party block that follows it stays in the header zone (N08) and is not read as answer body"
+      },
+      {
+        "id": "R16",
+        "operation": "shared normalized fragments used by more than one item, so that an item's discriminating power sits in its object and scope guards rather than in any one wording: NO_EVIDENCE ((未|没有|并未|从未|均未|亦未) + 提供/提交/举示/出示/举出/拿出/列出/给出/指明 + 证据, or 未举证/未能举证证明/未尽举证责任) and NO_COUNTERCLAIM (both orders: 未…提起/提出…反诉 and 未…以反诉形式提出); 'A is not a precondition of B' covers the non-influence relation (A的责任是否成立不影响B的责任是否成立 / 不以…为前提 / 与…无关) with both objects required in the sentence; P10's relation also covers the object-mismatch form (其所规范的对象不是本案判付的款项 / 错置 / 并非同一款项) and P10's distinctness family also covers the contrast form (违约金的计算依据是逾期付款本身，而非逾期审核)."
+      },
+      {
+        "id": "R17",
+        "operation": "adopted error proposition: a deduction match that crosses a clause separator (，；：) is an accidental adjacency of two clauses and does not trigger; a match inside a reported-ground adjunct (以/凭/据 … 为由/据/依据/理由) states somebody else's ground and does not trigger; a request verb that is part of the noun 上诉请求/诉讼请求/反诉请求/变更请求 is not the appellee asking for anything; the reported-ground test is clause-scoped - an opponent verb in an earlier clause does not make the rest of the sentence the opponent's. D05's bare 发回重审 token additionally does not fire on a heading line (a heading is a mechanical proxy, not an assertion) nor in a sentence that states the remand request has no support; an interrogative or conditional frame (是否/能否/可否/有无) inside the match's own clause states the question the answer is about to answer, not a proposition it adopts."
+      },
+      {
+        "id": "R18",
+        "operation": "reproduction of the Materials: a body line whose whitespace-stripped text contains a 60-character contiguous stretch of the frozen Materials corpus is a copy of an input document, not an assertion the candidate makes, and yields no evidence span. Implements 04a section 1 (直接抄材料 must earn positive_earned 0) inside the Judge instead of by editing Materials"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "package_id": "02_答辩状/7-根据判决、对方上诉状生成上诉答辩状",
+  "deliverable": {
+    "public_carrier": "artifacts/appeal-defence-statement.md (Markdown, Chinese)",
+    "golden_carrier": "golden/appeal-defence-statement.md"
+  },
+  "golden_deliverable": "appeal-defence-statement.md",
+  "unscored_golden_units": [
+    {
+      "unit_id": "U01",
+      "disposition": "not_scored",
+      "reason": "title 民事答辩状 is format"
+    },
+    {
+      "unit_id": "U07",
+      "disposition": "not_scored",
+      "reason": "2018-06 design contact sheet facts (8 caissons PA02/PA03/PB02/PB03, design drawings, concealed-works acceptance) and general clause 10.1(1)/special clause 10.4.1(2) are not in the materials"
+    },
+    {
+      "unit_id": "U09",
+      "disposition": "not_scored",
+      "reason": "2018-10 and 2018-11 contact sheets for 高压旋喷桩 (only 深层水泥搅拌桩 in the bill, pile parameters, B signature) are not in the materials"
+    },
+    {
+      "unit_id": "U11",
+      "disposition": "warning_only",
+      "reason": "B's signature on the whole contact sheet as agreement to adjust cement (Civil Code art. 142 interpretation, signing habits) depends on facts not in the materials; the judgment only records that the 2018-11-30 attachment is an original"
+    },
+    {
+      "unit_id": "U12",
+      "disposition": "not_scored",
+      "reason": "cement prices 330/450/603 yuan per tonne are not in the materials"
+    },
+    {
+      "unit_id": "U14",
+      "disposition": "not_scored",
+      "reason": "2018-08 contact sheet (XR360 rig, 20cm gravel vs 4-10cm, 36 rotary piles and 1 percussion pile, 60m gravel depth) is not in the materials"
+    },
+    {
+      "unit_id": "U16a",
+      "disposition": "not_scored",
+      "reason": "2022-01 appraisal record confirmation sheet item 4 fixing the information-price period is not in the materials"
+    },
+    {
+      "unit_id": "U18",
+      "disposition": "not_scored",
+      "reason": "summary 综上所述…鉴定意见合理 restates U05-U17"
+    },
+    {
+      "unit_id": "U24",
+      "disposition": "not_scored",
+      "reason": "closing 此致 某中级法院, signature and date 二〇二三年三月 are format or not derivable"
+    },
+    {
+      "unit_id": "U15",
+      "disposition": "not_scored",
+      "reason": "survey-data responsibility is supporting reasoning for the bored-pile ground and is not a scored proposition"
+    }
+  ],
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[待填写]",
+      "【待填写】",
+      "[待核实]",
+      "【待核实】",
+      "[placeholder]",
+      "材料未提供",
+      "未提供",
+      "待补充",
+      "待填写",
+      "待核实",
+      "unspecified",
+      "TBD"
+    ],
+    "normalization_rule_id": "N06",
+    "fabrication_deduction_ids": [
+      "D08"
+    ],
+    "marked_unit": "U03 second-instance case number (Golden （2023）某****民终****号) and answerer's representative/address details not in the materials"
+  },
+  "gates": [
+    {
+      "id": "G08",
+      "source_positive_id": "P08",
+      "failure_coefficient": 0.3,
+      "object_key": "price.delay_bar_unsupported",
+      "source_location": "materials/被告上诉状（B公司）_去标识版.docx p24-p30 (16.2.2, 工期延误 365天); materials/民事判决书.docx p78 (逾期原因较为复杂…未提出反诉); golden/appeal-defence-statement.md line 34",
+      "relation_predicate": "an adopted sentence about delay (工期/延误/16.2.2) and price adjustment (信息价/价差/调差/价格/材料) says B produced no evidence, filed no counterclaim, or cannot prove contractor-caused delay",
+      "program_path": "P08_PRED over R02 asserted clauses (proof limb 不能/无法/不足以/未能/未举证/没有举证/并未举证/未提供证据 + 证明 … contractor cause/责任/承担); object test: delay term (工期/延误/16.2.2) in the sentence's own line, price-adjustment term (信息价/价差/调差/价格/材料) in the sentence or the nearest heading of its line, and no 违约金/抵扣/抵销/扣减 in the sentence | the no-evidence and no-counterclaim limbs use the shared R16 fragments",
+      "pass_rule": "the unchanged P08 predicate matches a full adopted proposition",
+      "failure_rule": "no such proposition; multiply score by 0.3"
+    }
+  ],
+  "lenient_gate": {
+    "required_full_positive_items": [
+      "P02",
+      "P10",
+      "P12",
+      "P15",
+      "P16"
+    ],
+    "critical_deductions": [
+      "D01",
+      "D04",
+      "D05",
+      "D06",
+      "D08",
+      "D09",
+      "D12",
+      "D13",
+      "D17"
+    ],
+    "basis": "minimum substantive appellate answer and filing integrity; no score threshold or damage-count ceiling"
+  }
+}

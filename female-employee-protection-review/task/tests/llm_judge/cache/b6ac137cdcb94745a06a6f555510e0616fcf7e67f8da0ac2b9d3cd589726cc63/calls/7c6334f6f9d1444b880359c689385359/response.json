@@ -1,0 +1,227 @@
+{
+  "input_transformations": [],
+  "id": "resp_076fb1c6be6c14b9016af9d625b41c87d08917932f7ee23bd7",
+  "object": "response",
+  "created_at": 1794758182,
+  "completed_at": 1794758215,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "model": "gpt-5.6-sol",
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_076fb1c6be6c14b9016af9d632c7a887d086acc2e757bd37db",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_076fb1c6be6c14b9016af9d63e9cfc87d0b99055fcc60ec03c",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "message",
+      "id": "msg_076fb1c6be6c14b9016af9d63f08a887d0a9b5f56731da8050",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[3,14,19,25,44,53,69,92,105],\"id\":\"clock_atom_specific_staging_qualification\",\"rationale\":\"1。陈璇R02明确区分了不同输出：已知1680元缺勤扣减和400元冻结先行纠正，但“临时勾稽表”不代表“最终待遇清算完成”；“最终津贴、企业责任和净支付仍待官方回单及实际资金路径核验后”再由相关责任方完成最终勾稽并归档支付/员工收悉凭证（14、44、53、105）。相反证据显示R02同时包含已知项目纠正及固定的9月2日处理节点（3），且生育津贴最终责任和金额仍待回单勾稽（19、25、69、92）；这些均支持该明确的临时输出与后续最终现金/结算输出区分，而非把1680/400纠正本身当作津贴结算。\"},{\"completion\":1,\"evidence_ids\":[2,17,49,57,58,59,108,110,112],\"id\":\"unit__zhou_actual_night__action\",\"rationale\":\"1。候选明确提出“对7月21日形成事实记录并由员工关系部复核”，并同时要求撤销后续夜班、冲销300元扣减（59）。R01进一步给出门店HR/客房经理/薪酬中心责任人、2026-09-01时点及“新排班、绩效更正单、工资冲正记录”关闭证据（2）。原始排班、门禁/夜审考勤和沟通记录分别确认7月21日夜班及实际跨夜工作（108、110、112），因此该路线具备实际事件、负责职能、时限和可观察的事实/处理记录。\"}]}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "5b73e3d3-5bcc-44ec-b0a5-59f70c878a92",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "focused_source_operation_review",
+      "description": null,
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "type": "integer"
+                },
+                "evidence_ids": {
+                  "items": {
+                    "maximum": 116,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "id": {
+                  "enum": [
+                    "clock_atom_specific_staging_qualification",
+                    "unit__zhou_actual_night__action"
+                  ],
+                  "type": "string"
+                },
+                "rationale": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "completion",
+                "evidence_ids",
+                "rationale"
+              ],
+              "type": "object"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "high",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "usage": {
+    "input_tokens": 63442,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 1477,
+    "output_tokens_details": {
+      "reasoning_tokens": 1034
+    },
+    "total_tokens": 64919,
+    "attribution": {
+      "items": {
+        "msg_076fb1c6be6c14b9016af9d625b53c87d090cfde63ecc5ba7e": {
+          "input_tokens": 58877,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 58877,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        },
+        "msg_076fb1c6be6c14b9016af9d63f08a887d0a9b5f56731da8050": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 443,
+          "content": [
+            {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 443
+            }
+          ]
+        },
+        "rs_076fb1c6be6c14b9016af9d632c7a887d086acc2e757bd37db": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 516
+        },
+        "rs_076fb1c6be6c14b9016af9d63e9cfc87d0b99055fcc60ec03c": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 4466,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "text.format": {
+          "input_tokens": 97,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-MhTejWA6wjXNAFvdbAgfWLXs",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

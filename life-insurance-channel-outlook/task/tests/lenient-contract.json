@@ -1,0 +1,15 @@
+{
+  "schema_version": "binary-must-have-conjunction-v1",
+  "policy_version": "life-insurance-channel-outlook-lenient-v2",
+  "description": "A usable outlook must preserve measurement boundaries, reconcile a substantive share of channel actuals, provide a complete five-channel forecast, and avoid the catastrophic cross-basis share-trend error.",
+  "positive_minimums": {
+    "P02": 0.5,
+    "P06": 0.5,
+    "P10": 1.0
+  },
+  "forbidden_deductions": [
+    "D08"
+  ],
+  "golden_expected": 1.0,
+  "nop_expected": 0.0
+}

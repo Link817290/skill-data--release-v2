@@ -1,0 +1,20 @@
+{
+  "fixed_weights": {
+    "zhou_current": 0.08,
+    "he_historical": 0.02,
+    "he_current": 0.06,
+    "chen_payroll": 0.05,
+    "chen_calendar": 0.05,
+    "chen_benefit": 0.15,
+    "chen_postreturn": 0.18,
+    "zhao_current": 0.05,
+    "zhao_historical": 0.03,
+    "wang_contract": 0.05,
+    "wang_nursing": 0.20,
+    "delivery_controls": 0.08
+  },
+  "penalties": {
+    "D_BLOCKING_OPERATION": 0.15,
+    "D_FACT_DETAIL": 0.03
+  }
+}

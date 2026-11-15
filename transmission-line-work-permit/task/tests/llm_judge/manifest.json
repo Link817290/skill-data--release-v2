@@ -1,0 +1,46 @@
+{
+  "judge_version": "permit-semantic-v28-full-provider-evidence",
+  "status": "qualified_full_provider_cache_offline_and_fresh",
+  "files": {
+    "environment/workspace/materials/110kV 输电线路解除引流线任务工作票选用及填写.md": "e9211da62213ad498421e375e0828d13e287c0c3b1ceda64407c7c65109baa76",
+    "instruction.md": "be2fa64e8e24632837559c1c2869e61079f3852325b20241f2b1ce0442370b81",
+    "tests/approved_plan.json": "288e2696ec5c0d8cccb37be25d92bdf5a1775b9d7bb26f149e48d53ff3d97392",
+    "tests/ground_truth.json": "f01a51b15b33370b19b6c87b783238027d85d78c1bf93e4c28fc6de9c3b9e952",
+    "tests/llm_judge/contract.json": "e8324f159123e3088aec9ecbee470e0ddb511d4c78f543b98f3cde069b47a133",
+    "tests/llm_judge/judge.py": "8b586beaf7d62cc555f4938472f561d04da5277a7a426a0ca2e8059c4fff1ecb",
+    "tests/llm_judge/owner_policy.json": "90714f5845e5ccf4e4e33f27c09b62a6fe9025476e3a6427cf75d2267474fd27",
+    "tests/llm_judge/prompt.md": "5154c96c72ac7e63e4673619a0006dd1bf006605414f19582c049a612836f5b7",
+    "tests/llm_judge/response.schema.json": "a2e0504f4cb4052b71f35c19caa3333dc8feb5ef5b6ff70cbb8c4a05b908967f",
+    "tests/llm_judge/run_verifier.py": "b008bb86e70decc921dcb3561482f07c869a35270705309f9f3b06d237a610ec",
+    "tests/llm_judge/runtime/evidence.py": "e0de9eecc568a4f7b49247e8dd1b05c135708fd3f8203d56b1537b144ae76d3d",
+    "tests/llm_judge/runtime/settlement.py": "d190e0e59bc931e23608b5a19f215ddd11c6b0921a251cdcd72ed53b34af1fcf",
+    "tests/llm_judge/runtime/settlement_policy.json": "9db2e44dfb3c351268cd922c683a5926edf9c61fba7e6c70cb2be46509c98836",
+    "tests/llm_judge/settings.json": "1ed2c8eab10b68c3e247a0c1c66f27ad1189d0cdcc6396646b12284cbdfcb698",
+    "tests/quality_scoring.py": "68e6358411ada182a1eeb78c69d722e94f777f2b6258c21386389d2720aa4a79",
+    "tests/scoring_params.json": "45e373f14a8dc3881f35c2baa4f4cbbe8b5e3db9173b131a7d131b99dfa2acb4",
+    "tests/test.sh": "cc754baece20a9e8fac5aac8bf233fd89a6efb2a2f601beceeb65da65cc113e1",
+    "tests/validator.py": "22043ced886fae195e02a59021d010d69fa170c35a74099986484dc8e86050f8",
+    "tests/llm_judge/runtime/official_judge_client.py": "6493e896ef024f1821620ab468e01d16a181d6d2eaac3d73edd5527d3ddd5f32",
+    "environment/workspace/materials/110kV万文瑞线电气主接线图.pdf": "9b1e46391345c191840621837b37738fbf9a02311d7bb7a1487bc70f6d9c9869",
+    "environment/workspace/materials/工作票实施规范（配电部分）_tm.doc": "c2a46389c1ca857f7a64a051d4bc3e6d2f6bbc5fc248f5a9e86b73727f1e7dbc",
+    "environment/workspace/materials/主网线路两种人能力提升培训课件图片内容描述.md": "b6ea9c453c424de070c67ca44cc355bdcdb5468bbe4b3e9207bd52a8df93154f",
+    "environment/workspace/materials/主网线路两种人能力提升培训课件_tm.pptx": "714dacf4053b35ab6221fc75bdbade4e4020638a1d534d7f827310de320fdf9a",
+    "environment/workspace/materials/东源电力公司电力安全工作规程_tm.pdf": "2014d87cfd41966c85086f2428f01fb4e0936c107e8b96e1b71838c65b01e90b",
+    "environment/workspace/materials/东源电力公司电气工作票业务指导书（输电部分）_tm.docx": "55475839fcc3befc3d7b2bc9f9a38011a032d461c0b3f6dfb7b89ebe4f29a691",
+    "environment/workspace/materials/工作票实施规范（输电部分）_tm.doc": "a4dccccab41dff5e1eadbe7c0da9cc651d3b4952808c240f9397882972724fa8"
+  },
+  "cache_entries": {
+    "70ab824460c61606730edd1ab715c4a0060fa026d9970c83d8e77b2ef5d71a99": {
+      "artifact_sha256": "c0c7747b80526099c38159b1d212de5e405bf4a42e8b3a78736981e72aecf9e3",
+      "source_case": "golden",
+      "files": {
+        "request.json": "1ff0a742f32758ae5538ec511cf83fceff0ba3f58a5ad4c677932c44c4a238f2",
+        "response.json": "ee09a2e8c6594209f404ef02eb635126fe90f1f0f75446b2fb978cc799a583ab",
+        "decision.json": "5c859d8399ff76e4a00a4e44e1f303a8691754dffc9983a24d70db4fd66ebcc6",
+        "validation.json": "9d5a0d351b00778bbd6ad68ac5e2ad0a4c6d2258015da53d371496f5089c166c"
+      }
+    }
+  },
+  "settlement_version": "permit-source-topology-v19",
+  "schema": "source-bound-predicate-ledger-v1"
+}

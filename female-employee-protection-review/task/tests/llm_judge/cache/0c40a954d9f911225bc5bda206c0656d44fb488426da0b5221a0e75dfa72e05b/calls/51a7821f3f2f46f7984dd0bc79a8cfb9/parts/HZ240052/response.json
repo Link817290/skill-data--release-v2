@@ -1,0 +1,246 @@
+{
+  "input_transformations": [],
+  "id": "resp_03fd183ed53e736f016af9d535936c87d0954880134ce1786f",
+  "object": "response",
+  "created_at": 1794757941,
+  "completed_at": 1794757995,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "model": "gpt-5.6-sol",
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_03fd183ed53e736f016af9d54232f487d0bcb5e5b7aa9fb5ba",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_03fd183ed53e736f016af9d54ef2b887d0a69ec112b16856bd",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_03fd183ed53e736f016af9d55b52f487d0994bdcf655ee5a58",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "message",
+      "id": "msg_03fd183ed53e736f016af9d55bcad487d088283ae13f473a09",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[76,77,78,79,80,107,112,113],\"id\":\"wang_contract_conditional_analysis\",\"rationale\":\"报告明确采用王雪出生证明对应的2025-10-06出生日、原合同2026-08-31到期日及8月1日形成但未送达的离职审批草稿，认定草稿未生效且不得视为已解除；同时明确暂停到期离职处理并由员工关系部在保护期结束前复核其他法定事由和正式程序。相关分析绑定了02-02出生证明、02-07合同及沟通记录，并由R05规定责任人、状态更新和审批撤回证据。\"},{\"completion\":1,\"evidence_ids\":[39,53,97,98,107,108,109,113],\"id\":\"wang_nursing_schedule_correction\",\"rationale\":\"报告和R08采纳王雪当前每日劳动时间内1小时哺乳安排，并明确按劳动时间管理；同时将2026-08-25和08-31排班中的“不适用”字段认定为需更正，要求门店HR、财务经理和排班主管核实实际安排。R08规定立即至9月5日前完成原排班与更正版、每日1小时安排及员工实际情况确认，形成可观察关闭证据；结论与02-02出生证明、02-03排班记录及02-08制度绑定。\"},{\"completion\":1,\"evidence_ids\":[21,28,53,78,87,94,107,108,113],\"id\":\"harm_wang_calendar\",\"rationale\":\"候选材料采用2025-10-06出生日，并将哺乳保护截止写为2026-10-05或婴儿满1周岁前一日，没有把2026-10-06作为保护日。该边界与出生证明、排班日期和制度规则相符。\"},{\"completion\":1,\"evidence_ids\":[21,36,53,76,77,79,80,87,94,112],\"id\":\"safe_wang_contract_decision\",\"rationale\":\"候选材料明确离职审批草稿尚未送达、未生效且不能写成已经解除，并实际采用暂停离职审批、暂停到期离职标记和更新保护期状态的决定；没有采纳2026-08-31普通到期终止或在2026-10-05前停止保护。\"},{\"completion\":1,\"evidence_ids\":[39,53,78,80,87,97,98,107,108,112,113],\"id\":\"usable_wang_review\",\"rationale\":\"王雪审查同时区分未送达草稿与完成解除，暂停普通8月31日到期处理，维持保护至2026-10-05并安排保护期结束前的法定事由和正式程序复核；当前排班部分明确更正“不适用”字段、落实每日劳动时间内1小时哺乳且按劳动时间管理，并由门店HR、财务经理和排班主管以更正版排班、安排记录和员工确认闭环。\"}]}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "29c0a51c-6d2e-4e7d-afd4-1654be45dd22",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "female_source_scope_predicates",
+      "description": null,
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "enum": [
+                    0,
+                    0.25,
+                    0.5,
+                    0.75,
+                    1
+                  ],
+                  "type": "number"
+                },
+                "evidence_ids": {
+                  "items": {
+                    "maximum": 116,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "id": {
+                  "enum": [
+                    "wang_contract_conditional_analysis",
+                    "wang_nursing_schedule_correction",
+                    "harm_wang_calendar",
+                    "safe_wang_contract_decision",
+                    "usable_wang_review"
+                  ],
+                  "type": "string"
+                },
+                "rationale": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "completion",
+                "evidence_ids",
+                "rationale"
+              ],
+              "type": "object"
+            },
+            "maxItems": 5,
+            "minItems": 5,
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "xhigh",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "usage": {
+    "input_tokens": 66366,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 2258,
+    "output_tokens_details": {
+      "reasoning_tokens": 1552
+    },
+    "total_tokens": 68624,
+    "attribution": {
+      "items": {
+        "msg_03fd183ed53e736f016af9d535946087d080a933ba2030f1f0": {
+          "input_tokens": 61464,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 61464,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        },
+        "msg_03fd183ed53e736f016af9d55bcad487d088283ae13f473a09": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 706,
+          "content": [
+            {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 706
+            }
+          ]
+        },
+        "rs_03fd183ed53e736f016af9d54232f487d0bcb5e5b7aa9fb5ba": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 516
+        },
+        "rs_03fd183ed53e736f016af9d54ef2b887d0a69ec112b16856bd": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_03fd183ed53e736f016af9d55b52f487d0994bdcf655ee5a58": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 4777,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "text.format": {
+          "input_tokens": 123,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-pJs5QgBBnxK6BS1Tc6BqFcOi",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

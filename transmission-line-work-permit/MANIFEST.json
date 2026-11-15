@@ -1,0 +1,288 @@
+{
+  "format": "skill-data-source-v1",
+  "package": "transmission-line-work-permit",
+  "tasks": [
+    "transmission-line-work-permit"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 69,
+  "bytes_excluding_manifest": 48458061,
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 623,
+      "sha256": "6134871291f6c485349e092f161ca87b76b92603c36172ee94a39c18fafdd281"
+    },
+    "RUBRIC.md": {
+      "bytes": 5413,
+      "sha256": "95020705e1c263430ba4734985ff1e5077c44e8039b7189ea679c8173c0d6853"
+    },
+    "dataset.toml": {
+      "bytes": 436,
+      "sha256": "b184e14ccfb2507472559bd3907115ce32b3ccdb1d17d92b5f7860f28c1fba9b"
+    },
+    "golden/110kV 万文瑞线标准工作票.docx": {
+      "bytes": 19528,
+      "sha256": "c0c7747b80526099c38159b1d212de5e405bf4a42e8b3a78736981e72aecf9e3"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 415,
+      "sha256": "a793156ab1510df900a63b2d730373e0fc306f21ff444a9420bd7cd530a09166"
+    },
+    "task/environment/skills/work-permit-reconciliation/SKILL.md": {
+      "bytes": 6235,
+      "sha256": "f94a9220f545cc41d0599cb87f809da4910b028d3bcd774348a6d71cf6442a68"
+    },
+    "task/environment/workspace/materials/110kV 输电线路解除引流线任务工作票选用及填写.md": {
+      "bytes": 1617,
+      "sha256": "e9211da62213ad498421e375e0828d13e287c0c3b1ceda64407c7c65109baa76"
+    },
+    "task/environment/workspace/materials/110kV万文瑞线电气主接线图.pdf": {
+      "bytes": 335370,
+      "sha256": "9b1e46391345c191840621837b37738fbf9a02311d7bb7a1487bc70f6d9c9869"
+    },
+    "task/environment/workspace/materials/东源电力公司电力安全工作规程_tm.pdf": {
+      "bytes": 15739168,
+      "sha256": "2014d87cfd41966c85086f2428f01fb4e0936c107e8b96e1b71838c65b01e90b"
+    },
+    "task/environment/workspace/materials/东源电力公司电气工作票业务指导书（输电部分）_tm.docx": {
+      "bytes": 233027,
+      "sha256": "55475839fcc3befc3d7b2bc9f9a38011a032d461c0b3f6dfb7b89ebe4f29a691"
+    },
+    "task/environment/workspace/materials/主网线路两种人能力提升培训课件_tm.pptx": {
+      "bytes": 6575188,
+      "sha256": "714dacf4053b35ab6221fc75bdbade4e4020638a1d534d7f827310de320fdf9a"
+    },
+    "task/environment/workspace/materials/主网线路两种人能力提升培训课件图片内容描述.md": {
+      "bytes": 32110,
+      "sha256": "b6ea9c453c424de070c67ca44cc355bdcdb5468bbe4b3e9207bd52a8df93154f"
+    },
+    "task/environment/workspace/materials/工作票实施规范（输电部分）_tm.doc": {
+      "bytes": 101806,
+      "sha256": "a4dccccab41dff5e1eadbe7c0da9cc651d3b4952808c240f9397882972724fa8"
+    },
+    "task/environment/workspace/materials/工作票实施规范（配电部分）_tm.doc": {
+      "bytes": 94420,
+      "sha256": "c2a46389c1ca857f7a64a051d4bc3e6d2f6bbc5fc248f5a9e86b73727f1e7dbc"
+    },
+    "task/instruction.md": {
+      "bytes": 874,
+      "sha256": "be2fa64e8e24632837559c1c2869e61079f3852325b20241f2b1ce0442370b81"
+    },
+    "task/solution/materialize_golden.py": {
+      "bytes": 706,
+      "sha256": "b751e7ce3446dce6abba7fe84f871d3f2cadb461bcd66fdfdfbfd43dd644ea90"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 280,
+      "sha256": "a80b9f126d0802443a43e879bb26bef3ef28e6651c2c3c1cf0148debc8effd0a"
+    },
+    "task/task.toml": {
+      "bytes": 1150,
+      "sha256": "3a42bfd419de7364843e8315fe21a3bcdbd1383aab942a0ef3e1c8202b92f4ac"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1066,
+      "sha256": "f64d65a542061529f5dfce45706bf296188fca3fbc731fce9a6f2bf222d3c5fe"
+    },
+    "task/tests/approved_plan.json": {
+      "bytes": 1794,
+      "sha256": "288e2696ec5c0d8cccb37be25d92bdf5a1775b9d7bb26f149e48d53ff3d97392"
+    },
+    "task/tests/citation_index.json": {
+      "bytes": 158239,
+      "sha256": "292121ae9c9bc8f75fc7e6c14d89be8ccaf1542c6e90913540a9845d2e540d0d"
+    },
+    "task/tests/golden_manifest.json": {
+      "bytes": 835,
+      "sha256": "62c72abecddf7fc21ab576d4ccfff567ec94715326657b66d8480fbd39f63214"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 45465,
+      "sha256": "f01a51b15b33370b19b6c87b783238027d85d78c1bf93e4c28fc6de9c3b9e952"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/decision.json": {
+      "bytes": 15541,
+      "sha256": "02a1239bf98eb4af68222cb6d99202b327fa538ca4edb4b9e193694b73b296e4"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/client.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/client.stdout.jsonl": {
+      "bytes": 6353,
+      "sha256": "9a6b3582a0f1377fda92afcbdbae418e7202d3675909ef93877c745d90ee8386"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/last-message.json": {
+      "bytes": 5597,
+      "sha256": "ac78115a250aa2dec7b43f4d7ff179279a12f37878795d4f79a7eb9939bead23"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/schema.json": {
+      "bytes": 16394,
+      "sha256": "7e7c80e76d6cf6bc362c76ad05b0d05a8c7e5941514288ea3cb55241693b1216"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/wire-001/client-request.json": {
+      "bytes": 112481,
+      "sha256": "ebd82ee6713645250a50dee4d464666781a694551288fcb6602e229b4b844e13"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/wire-001/request.json": {
+      "bytes": 114141,
+      "sha256": "e17a243b8aba509eb2e31c37c020c3b09c31af556c7072edb9c8ca75fdc71294"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/wire-001/response.raw": {
+      "bytes": 564687,
+      "sha256": "6ae96cf687f02023ae97a0f96ab42ae77262f9e4d81e03fff9e75ef98b7d1362"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/official-client/wire-001/transport.json": {
+      "bytes": 507,
+      "sha256": "38c60f9bb410d036287278540597f217c23e3371dc18e848603ba047d67bb47b"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/provider-response.sse": {
+      "bytes": 564687,
+      "sha256": "6ae96cf687f02023ae97a0f96ab42ae77262f9e4d81e03fff9e75ef98b7d1362"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/request.json": {
+      "bytes": 116360,
+      "sha256": "84a23f0658949e6522a615049222e10c12ea99cd2954aafddaf5c09725e685c8"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/response.json": {
+      "bytes": 68442,
+      "sha256": "69502e1ab85d65c4e664d2b70bf9c0a7ce74ce274c743fe9d91d673112a74887"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/attempts/20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430/validation.json": {
+      "bytes": 633,
+      "sha256": "27520e36517f78f6f0e0c97f2b11e9fb0d9068814c528449b4a68ff800177b03"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/decision.json": {
+      "bytes": 15541,
+      "sha256": "02a1239bf98eb4af68222cb6d99202b327fa538ca4edb4b9e193694b73b296e4"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/request.json": {
+      "bytes": 116360,
+      "sha256": "84a23f0658949e6522a615049222e10c12ea99cd2954aafddaf5c09725e685c8"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/response.json": {
+      "bytes": 68442,
+      "sha256": "69502e1ab85d65c4e664d2b70bf9c0a7ce74ce274c743fe9d91d673112a74887"
+    },
+    "task/tests/llm_judge/cache/c1d8674445a530403832c30a36a133f0154028fe5d66c7f59827a51eb66f6843/validation.json": {
+      "bytes": 633,
+      "sha256": "27520e36517f78f6f0e0c97f2b11e9fb0d9068814c528449b4a68ff800177b03"
+    },
+    "task/tests/llm_judge/contract.json": {
+      "bytes": 24795,
+      "sha256": "e8324f159123e3088aec9ecbee470e0ddb511d4c78f543b98f3cde069b47a133"
+    },
+    "task/tests/llm_judge/judge.py": {
+      "bytes": 26763,
+      "sha256": "8b586beaf7d62cc555f4938472f561d04da5277a7a426a0ca2e8059c4fff1ecb"
+    },
+    "task/tests/llm_judge/manifest.json": {
+      "bytes": 4062,
+      "sha256": "98aa67a8b9f0a0f343784682d266f7db8b05136d7b69d4fe553dbb841aed64dd"
+    },
+    "task/tests/llm_judge/owner_policy.json": {
+      "bytes": 1155,
+      "sha256": "90714f5845e5ccf4e4e33f27c09b62a6fe9025476e3a6427cf75d2267474fd27"
+    },
+    "task/tests/llm_judge/prompt.md": {
+      "bytes": 10200,
+      "sha256": "5154c96c72ac7e63e4673619a0006dd1bf006605414f19582c049a612836f5b7"
+    },
+    "task/tests/llm_judge/response.schema.json": {
+      "bytes": 28768,
+      "sha256": "a2e0504f4cb4052b71f35c19caa3333dc8feb5ef5b6ff70cbb8c4a05b908967f"
+    },
+    "task/tests/llm_judge/run_verifier.py": {
+      "bytes": 5083,
+      "sha256": "b008bb86e70decc921dcb3561482f07c869a35270705309f9f3b06d237a610ec"
+    },
+    "task/tests/llm_judge/runtime/evidence.py": {
+      "bytes": 406,
+      "sha256": "e0de9eecc568a4f7b49247e8dd1b05c135708fd3f8203d56b1537b144ae76d3d"
+    },
+    "task/tests/llm_judge/runtime/official_judge_client.py": {
+      "bytes": 7738,
+      "sha256": "6493e896ef024f1821620ab468e01d16a181d6d2eaac3d73edd5527d3ddd5f32"
+    },
+    "task/tests/llm_judge/runtime/settlement.py": {
+      "bytes": 12234,
+      "sha256": "d190e0e59bc931e23608b5a19f215ddd11c6b0921a251cdcd72ed53b34af1fcf"
+    },
+    "task/tests/llm_judge/runtime/settlement_policy.json": {
+      "bytes": 3251,
+      "sha256": "9db2e44dfb3c351268cd922c683a5926edf9c61fba7e6c70cb2be46509c98836"
+    },
+    "task/tests/llm_judge/settings.json": {
+      "bytes": 809,
+      "sha256": "1ed2c8eab10b68c3e247a0c1c66f27ad1189d0cdcc6396646b12284cbdfcb698"
+    },
+    "task/tests/materials/110kV 输电线路解除引流线任务工作票选用及填写.md": {
+      "bytes": 1617,
+      "sha256": "e9211da62213ad498421e375e0828d13e287c0c3b1ceda64407c7c65109baa76"
+    },
+    "task/tests/materials/110kV万文瑞线电气主接线图.pdf": {
+      "bytes": 335370,
+      "sha256": "9b1e46391345c191840621837b37738fbf9a02311d7bb7a1487bc70f6d9c9869"
+    },
+    "task/tests/materials/东源电力公司电力安全工作规程_tm.pdf": {
+      "bytes": 15739168,
+      "sha256": "2014d87cfd41966c85086f2428f01fb4e0936c107e8b96e1b71838c65b01e90b"
+    },
+    "task/tests/materials/东源电力公司电气工作票业务指导书（输电部分）_tm.docx": {
+      "bytes": 233027,
+      "sha256": "55475839fcc3befc3d7b2bc9f9a38011a032d461c0b3f6dfb7b89ebe4f29a691"
+    },
+    "task/tests/materials/主网线路两种人能力提升培训课件_tm.pptx": {
+      "bytes": 6575188,
+      "sha256": "714dacf4053b35ab6221fc75bdbade4e4020638a1d534d7f827310de320fdf9a"
+    },
+    "task/tests/materials/主网线路两种人能力提升培训课件图片内容描述.md": {
+      "bytes": 32110,
+      "sha256": "b6ea9c453c424de070c67ca44cc355bdcdb5468bbe4b3e9207bd52a8df93154f"
+    },
+    "task/tests/materials/工作票实施规范（输电部分）_tm.doc": {
+      "bytes": 101806,
+      "sha256": "a4dccccab41dff5e1eadbe7c0da9cc651d3b4952808c240f9397882972724fa8"
+    },
+    "task/tests/materials/工作票实施规范（配电部分）_tm.doc": {
+      "bytes": 94420,
+      "sha256": "c2a46389c1ca857f7a64a051d4bc3e6d2f6bbc5fc248f5a9e86b73727f1e7dbc"
+    },
+    "task/tests/quality_scoring.py": {
+      "bytes": 3927,
+      "sha256": "68e6358411ada182a1eeb78c69d722e94f777f2b6258c21386389d2720aa4a79"
+    },
+    "task/tests/reference_artifacts/provenance.json": {
+      "bytes": 343,
+      "sha256": "e99fd6be345b5d12663dce9a6392cca6d81ee13d6ab0e0dc4cc1b12d716b1dcc"
+    },
+    "task/tests/requirements-host.txt": {
+      "bytes": 288,
+      "sha256": "44575ed474bd0c304b5bbbee89e42cc420811cf2ac355abebb68a64e09c913b8"
+    },
+    "task/tests/score_cached.sh": {
+      "bytes": 490,
+      "sha256": "2ac861f6a289aac75cea3ebf1dcfd53c877e488ee06bd16045d6775806cb718b"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 4462,
+      "sha256": "45e373f14a8dc3881f35c2baa4f4cbbe8b5e3db9173b131a7d131b99dfa2acb4"
+    },
+    "task/tests/skill_execution_contract.json": {
+      "bytes": 4703,
+      "sha256": "e3706dcea55530cfd89f918d63b3af75dccea5a9e3fd9358c6a580055afacef9"
+    },
+    "task/tests/test.sh": {
+      "bytes": 792,
+      "sha256": "cc754baece20a9e8fac5aac8bf233fd89a6efb2a2f601beceeb65da65cc113e1"
+    },
+    "task/tests/topology_checks.json": {
+      "bytes": 629,
+      "sha256": "46e2e651cc8ff48bd6580c2d312c16a26ec71f73e66dc8b38f07dc7c69eb8e86"
+    },
+    "task/tests/validator.py": {
+      "bytes": 61893,
+      "sha256": "22043ced886fae195e02a59021d010d69fa170c35a74099986484dc8e86050f8"
+    }
+  }
+}

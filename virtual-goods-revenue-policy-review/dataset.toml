@@ -1,0 +1,54 @@
+version = "1.0"
+id = "virtual-goods-revenue-policy-review"
+task_type = "skill-bench"
+domain = "financial-reporting-audit"
+language = "en"
+difficulty = "hard"
+research_cutoff = "2023-02-28"
+deliverable = "workspace/revenue_policy_review.csv"
+network_access = false
+rollouts_included = false
+
+[rollout_expectations]
+opus5_no_skill = 2
+opus5_with_skill = 5
+hy4_no_skill = 2
+hy4_with_skill = 16
+
+[scoring]
+semantic_judge_model = "gpt-5.6-sol"
+semantic_judge_required = true
+semantic_judge_env = ["LLM_JUDGE_BASE_URL", "LLM_JUDGE_MODEL", "LLM_JUDGE_API_KEY"]
+semantic_judge_protocol = "openai-responses"
+semantic_judge_mode_default = "auto"
+golden_replay = "exact-request-and-runtime-bound"
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = true
+
+[scoring.weights]
+issue_judgments = 1.0
+
+[scoring.gates]
+readable = "zero"
+source_integrity = 0.5
+ledger_conformance = 0.6
+source_dumping = 0.4
+
+[scoring.lenient_quality_floor]
+issue_score = 0.50
+issue_count = 12
+expected_issues = 30
+independent_of_strict = false
+repeated_shell = 0.2
+
+[skill]
+name = "audit-revenue-position-papers"
+reference_count = 2

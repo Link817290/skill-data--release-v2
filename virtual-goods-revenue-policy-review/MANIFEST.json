@@ -1,0 +1,137 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "virtual-goods-revenue-policy-review",
+  "tasks": [
+    "virtual-goods-revenue-policy-review"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 31,
+  "bytes_excluding_manifest": 9663586,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1984,
+      "sha256": "e31f83571f77175f8a0eecb47404bdb745111191f018efdaf6243a9477cc9001"
+    },
+    "RUBRIC.md": {
+      "bytes": 12181,
+      "sha256": "27e056a352385c40171b73a54f75d5b14c02a94f2866247b9818f365d778ce0d"
+    },
+    "dataset.toml": {
+      "bytes": 1318,
+      "sha256": "2ce810f947a2308d69d1b45166d75385fc54ada344245ee4956c970a8e729873"
+    },
+    "golden/anchor_record.json": {
+      "bytes": 180,
+      "sha256": "6184b0792c79480d7ac4b9d0c71ce9a89d84222a807c27a2e86a8fb2ac74a43e"
+    },
+    "golden/revenue_policy_review.csv": {
+      "bytes": 36315,
+      "sha256": "bdc7762fbefc40e27134d2aff83fed8efa2df5625bf3004b8a09826535e5bae6"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 615,
+      "sha256": "54017bb48754c6177005125ba4546e1284088220128dd9102b0ffd90fcd401ea"
+    },
+    "task/environment/skills/audit-revenue-position-papers/SKILL.md": {
+      "bytes": 18306,
+      "sha256": "2ca32dd2965169c2b251a23a83fd911a5043b449a9cfa12d596c6348572752ae"
+    },
+    "task/environment/skills/audit-revenue-position-papers/references/digital-items-and-contract-costs.md": {
+      "bytes": 4828,
+      "sha256": "766cb6230be833c04bba166710a900bbe9b2a2c3ead1e397b70aedec6a112d74"
+    },
+    "task/environment/skills/audit-revenue-position-papers/references/principal-agent.md": {
+      "bytes": 3662,
+      "sha256": "feb5162bd600376bf0ee2fa7fb6145c3f02db7ee76cbbc263fad2f709edc11e5"
+    },
+    "task/environment/skills/audit-revenue-position-papers/scripts/extract_evidence_text.py": {
+      "bytes": 2237,
+      "sha256": "704645a2bde1ed8bd9b8c0d6995749b22c3dce2c89d162a7f481863fafe71071"
+    },
+    "task/environment/workspace/01_staff_comment.pdf": {
+      "bytes": 36645,
+      "sha256": "9f12ef8eaa71aa3618763975d176062b94c6ea99bfd4c3717859d768aa3dab06"
+    },
+    "task/environment/workspace/02_company_response.htm": {
+      "bytes": 135886,
+      "sha256": "b4e31b56fcc9c1665d7e1eb4ad04f1a897156baf3984e05438bb2c78e1a7d415"
+    },
+    "task/environment/workspace/03_amended_registration_statement.htm": {
+      "bytes": 2391961,
+      "sha256": "88ef24b357aa0515be1fd5d98789421c641afdf6a79d89ffa0ed643a44d18f48"
+    },
+    "task/environment/workspace/04_issued_filing.htm": {
+      "bytes": 2233579,
+      "sha256": "11b3fccdcc8c112768795ad1ccaf0445d7bad47e8928e40e325ab5c7ab97ba2e"
+    },
+    "task/environment/workspace/05_remediation_annual_report.pdf": {
+      "bytes": 1240727,
+      "sha256": "d4c1649215ebfe87f6046fc56b103198be6b9f2f300dfa1666403fed39c3d871"
+    },
+    "task/environment/workspace/06_estimate_change_annual_report.pdf": {
+      "bytes": 3244455,
+      "sha256": "304b3af964bf3a7d33350469d034f3b04c937f93e6b47cc906cef998fcdee45c"
+    },
+    "task/environment/workspace/review_template.csv": {
+      "bytes": 98,
+      "sha256": "32ee72305f383fed86a9f33ac1fe29133f9607df0c3402696dcc0f39150bf7ab"
+    },
+    "task/instruction.md": {
+      "bytes": 1510,
+      "sha256": "5fd12968df73424cb8ddec6662452d6656fdb9c62aae4aa980d25175a18505d1"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 1757,
+      "sha256": "5b05c8859c542d6f5a97c4e7857166d750fe1f1754e5e04a4fd50fe98c210b1a"
+    },
+    "task/solution/golden_deliverable.md": {
+      "bytes": 147,
+      "sha256": "7d29a44e1956ddf69950e71bf7afdf51ef2814cd51481259dcc26c564c5f0c1e"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 51514,
+      "sha256": "c802149ac8fcbc45dd94866fedbc77d1a5ca82d04cd7c48d97e3ad071e85a33c"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 244,
+      "sha256": "209decf472bbfa313f54a366d6536f52457b27ced13c037c520567374ee7871f"
+    },
+    "task/task.toml": {
+      "bytes": 1253,
+      "sha256": "e5131292a21845edfe6169c341d4022a2c978be7bcaa88fb9cc7836e1a21ee53"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 842,
+      "sha256": "bf6653da871e3808357832a31750c778b30e5fa93587bc19f995585cbb536472"
+    },
+    "task/tests/golden_replay/5db369de4502228029ece23256afe6cc7f456c0f33dbc156902abbbf07a5f85b.json": {
+      "bytes": 51187,
+      "sha256": "303a0a5d737f14c2c080aefb52d1197e606aab75e2bbc7ef912c1713a0c0a6a2"
+    },
+    "task/tests/golden_replay/d1a2c42fda99ec57faf100911aee1f336e89c954b48fac0b7373d42d0afb5769.json": {
+      "bytes": 9217,
+      "sha256": "f70b7dba88201975a2cd35e6d509662f3e716174591173cc28e9a1761cb56a54"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 44115,
+      "sha256": "abdc37992534af63c9a33984bad7e4a3c1a564c8db92bced5fc2f3f392de30d4"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 57642,
+      "sha256": "358381ecaeaf4cfc24f31848976bbbad557b33a2827a330bca4154d414899b53"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 42270,
+      "sha256": "03878a49a4d719f26b321ac6bf5c81245c5933dc9176774dfaa23c8a07be2a21"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1429,
+      "sha256": "678761b92160e6ba9cc355126dc142a8535f450f9148046da462d05c2cd8bfdc"
+    },
+    "task/tests/validator.py": {
+      "bytes": 35482,
+      "sha256": "913ee221dbc410212da4e08915d42476871c88d2c8b47f3a59e5e4c6960632b2"
+    }
+  }
+}

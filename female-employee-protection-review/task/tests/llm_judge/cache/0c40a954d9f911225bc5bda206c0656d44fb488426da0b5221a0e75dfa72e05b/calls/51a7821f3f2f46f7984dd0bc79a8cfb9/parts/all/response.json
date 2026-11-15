@@ -1,0 +1,361 @@
+{
+  "input_transformations": [],
+  "id": "resp_0f654fb32b6d2395016af9d5341a0487d0a8ceb317d36f4551",
+  "object": "response",
+  "created_at": 1794757940,
+  "completed_at": 1794758067,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "model": "gpt-5.6-sol",
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d53e48d887d086189460ed45d1fc",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d5479bd087d08ceb57ccdb9b551b",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d550ee8c87d0b45dc58746f5f613",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d55a419c87d0885152c2250966fc",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d56394a087d0bb1c2e6229e28bf9",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d56ce79087d0b75fd80edd34ca67",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d5763a6c87d09b0cb24fb56b1b46",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d57f8d5487d0bce7adaf76260008",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d588e04487d0a3e2a2d732540c6f",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d592333887d0ad9eff35ee09e6fc",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d59b863887d0af9c474f40b8c9f6",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0f654fb32b6d2395016af9d59fc12887d0a2821fd6ec626d9a",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "message",
+      "id": "msg_0f654fb32b6d2395016af9d59ffcf487d09eca9299bcbff6ef",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[47,49,50,51,52,53,63,64,69,74,79,91,92,93,94,95,99,101,102,103,105,107,108,109,110,111,112,113],\"id\":\"usable_evidence_truth\",\"rationale\":\"The adopted findings are grounded in the supplied employee proofs, schedules, actual-task and attendance records, payroll ledger, communications, contract records and rules. The candidate preserves uncertainty for He Lin's current stage and prior confirmation record, Chen Xuan's benefit net and cash path, Zhao Min's daily nursing use, and Wang Xue's actual nursing arrangements. Corrections and holds remain expressly pending rather than being represented as completed, and no material protective, payroll or contract conclusion is fabricated or reversed.\"},{\"completion\":1,\"evidence_ids\":[2,3,4,5,6,7,9,10,11,12,14,83,84,85,86,87,89,98,100,101,102,103,104,105,106,113],\"id\":\"usable_accountable_open_controls\",\"rationale\":\"The linked report and action carriers assign responsible functions, executable timing, review or approval functions, status and observable closure evidence for all five employees. They cover Zhou Qian's schedule and RMB300 correction, He Lin's current restrictions and contract hold, Chen Xuan's known record corrections and staged reconciliation, Zhao Min's immediate correction plus full-period verification, and Wang Xue's contract hold and nursing-field correction. Missing proof is paired with protective interim controls and accountable checkpoints.\"},{\"completion\":1,\"evidence_ids\":[2,3,4,5,6,7,9,10,11,12,17,18,19,20,21,32,33,34,35,36,37,39,40,41,42,49,50,51,52,53,83,84,85,86,87,89,97,99,101,102,103,104,105],\"id\":\"delivery_cross_file_consistency\",\"rationale\":\"The report, audit workbook and action workbook preserve the same employee-specific findings, pending statuses and adopted actions. The September 2 current corrections and September 5 verification milestones for Zhao Min and Chen Xuan are staged outputs rather than conflicts; Chen Xuan's final benefit net remains conditional, and He Lin's under-limit task finding remains separate from the missing prior-confirmation record. No neighboring employee's date or action is transferred to another employee.\"},{\"completion\":1,\"evidence_ids\":[2,3,5,9,10,11,12,17,18,19,20,21,56,57,61,62,67,68,69,72,73,77,78,97,99,102,104,105,106,107,108,109,110,111,112,113],\"id\":\"delivery_reference_resolution\",\"rationale\":\"The material tokens 02-01 through 02-08 resolve to the eight supplied original records, including precise aliases such as 02-01/P12, 02-03 schedule rows 9-10 and 02-05 task row 4. R01-R11 resolve across the audit and action registers, while P0/P1 are identified priority labels rather than unsupported source authorities. No dangling source token is used to sustain an adopted finding.\"},{\"completion\":1,\"evidence_ids\":[47,56,57,61,62,64,67,68,69,72,73,74,77,78,79,98,99,101,102,103,104,105,107,108,109,110,111,112],\"id\":\"delivery_timeline_integrity\",\"rationale\":\"The review distinguishes proof and receipt dates, schedule publication, actual attendance or task performance, payroll record dates, contract-draft status, future correction deadlines and later verification. It does not treat Chen Xuan's September 23 date as an actual return, a planned nursing slot as actual use, a payroll ledger value as proven cash payment, or missing post-July records as proof that He Lin's protection stopped. Staged correction, verification and final settlement states remain distinct.\"},{\"completion\":1,\"evidence_ids\":[9,10,11,12,17,18,19,20,21,47,56,57,61,62,67,68,69,72,73,77,78,97,99,102,104,106,107,108,109,110,111,112,113],\"id\":\"delivery_source_inventory\",\"rationale\":\"The carriers provide a usable distributed source register: the report identifies the source categories and repeatedly maps findings to material IDs, the audit rows list principal evidence by employee, and the action rows add exact paragraph, row and policy aliases. Together these cover 02-01 through 02-08 and preserve relevant dates, May-August schedule versions, record provenance, payroll period and applicable policy version sufficiently for review.\"}]}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "aa773e6c-c104-4545-8275-09e0df10355e",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "female_source_scope_predicates",
+      "description": null,
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "type": "number"
+                },
+                "evidence_ids": {
+                  "items": {
+                    "maximum": 116,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "id": {
+                  "enum": [
+                    "usable_evidence_truth",
+                    "usable_accountable_open_controls",
+                    "delivery_cross_file_consistency",
+                    "delivery_reference_resolution",
+                    "delivery_timeline_integrity",
+                    "delivery_source_inventory"
+                  ],
+                  "type": "string"
+                },
+                "rationale": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "completion",
+                "evidence_ids",
+                "rationale"
+              ],
+              "type": "object"
+            },
+            "maxItems": 6,
+            "minItems": 6,
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "xhigh",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "usage": {
+    "input_tokens": 66212,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 6998,
+    "output_tokens_details": {
+      "reasoning_tokens": 5931
+    },
+    "total_tokens": 73210,
+    "attribution": {
+      "items": {
+        "msg_0f654fb32b6d2395016af9d5341ac087d0b851d8aad789ab7a": {
+          "input_tokens": 61321,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 61321,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        },
+        "msg_0f654fb32b6d2395016af9d59ffcf487d09eca9299bcbff6ef": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 1067,
+          "content": [
+            {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 1067
+            }
+          ]
+        },
+        "rs_0f654fb32b6d2395016af9d53e48d887d086189460ed45d1fc": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 516
+        },
+        "rs_0f654fb32b6d2395016af9d5479bd087d08ceb57ccdb9b551b": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d550ee8c87d0b45dc58746f5f613": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d55a419c87d0885152c2250966fc": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d56394a087d0bb1c2e6229e28bf9": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d56ce79087d0b75fd80edd34ca67": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d5763a6c87d09b0cb24fb56b1b46": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d57f8d5487d0bce7adaf76260008": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d588e04487d0a3e2a2d732540c6f": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d592333887d0ad9eff35ee09e6fc": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d59b863887d0af9c474f40b8c9f6": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0f654fb32b6d2395016af9d59fc12887d0a2821fd6ec626d9a": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 235
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 4777,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "text.format": {
+          "input_tokens": 112,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-aYcHhBWdEWyiQJ1cgpK2f4vn",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

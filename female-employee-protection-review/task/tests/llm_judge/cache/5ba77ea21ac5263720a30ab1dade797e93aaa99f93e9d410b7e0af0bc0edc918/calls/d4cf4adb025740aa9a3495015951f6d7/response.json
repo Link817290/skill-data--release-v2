@@ -1,0 +1,243 @@
+{
+  "input_transformations": [],
+  "id": "resp_0ac9b348917bf299016af9d5f6c38c87d08556cb0554b77a4a",
+  "object": "response",
+  "created_at": 1794758135,
+  "completed_at": 1794758179,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "model": "gpt-5.6-sol",
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_0ac9b348917bf299016af9d6022ad887d08820452222f83286",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0ac9b348917bf299016af9d60d0da487d0a01467b546021d46",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0ac9b348917bf299016af9d616d68487d0b2d3a6f90a52d710",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[omitted from portable replay]"
+    },
+    {
+      "type": "message",
+      "id": "msg_0ac9b348917bf299016af9d617301887d0b8c6e7fe42e49809",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"items\":[{\"completion\":1,\"evidence_ids\":[3,14,44,53,69,111],\"id\":\"clock_atom_substantive_followup\",\"rationale\":\"陈璇/HZ220031的R02明确区分已知1680元缺勤扣减、400元冻结纠正与未知生育津贴最终处理；已知项目先行纠正，不等待回单。官方津贴回单及实际资金路径核验后，由薪酬共享中心、财务和门店HR完成最终勾稽，支付尚未支付的差额并归档支付或员工收悉凭证，形成了具体后续动作。\"},{\"completion\":1,\"evidence_ids\":[14,44,53,69,111],\"id\":\"clock_atom_trigger_present\",\"rationale\":\"同一陈璇最终清算安排明确以“官方津贴回单”及“实际资金路径”核验作为后续勾稽和支付的 operative checkpoint；原始社保记录仍为“待回单”，回单日期为空。该触发条件与1680元、400元已知纠正事项分开。\"},{\"completion\":0,\"evidence_ids\":[3,14,33,44,53],\"id\":\"clock_atom_same_output_relative_bound\",\"rationale\":\"材料只给已知HRIS、冲正、分项工资和银行核验的9月2日或9月5日固定期限；候选明确说明这些临时期限“不转移”为最终未知津贴清算的固定截止，也没有为同一最终津贴输出采用“回单+N”或“到账+N”的相对完成界限。\"},{\"completion\":1,\"evidence_ids\":[14,44,53,69,111],\"id\":\"clock_atom_distinct_unresolved_events\",\"rationale\":\"同一最终清算条款把“官方津贴回单”与“实际资金路径”分别列为仍待核验事项，之后才进行最终勾稽并归档支付或员工收悉凭证；候选没有把官方回单定义为银行到账或到账回单，而是保留了两个独立的未决事件。\"},{\"completion\":1,\"evidence_ids\":[14,44,53,92,102],\"id\":\"clock_atom_specific_staging_qualification\",\"rationale\":\"候选对陈璇R02作了明确阶段限定：临时勾稽表只用于已知记录纠正和未决项目清单，“不当成最终待遇清算完成”；最终津贴、企业责任和净支付仍待官方回单及实际资金路径核验。该具体的临时/最终区分超出单纯“待完成”状态，并且与1680元、400元已知项目分开。\"}]}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "31698285-d7ef-4ee2-abac-f2c18af0c00c",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "focused_source_operation_review",
+      "description": null,
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "items": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "enum": [
+                    0,
+                    1
+                  ],
+                  "type": "integer"
+                },
+                "evidence_ids": {
+                  "items": {
+                    "maximum": 116,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "id": {
+                  "enum": [
+                    "clock_atom_substantive_followup",
+                    "clock_atom_trigger_present",
+                    "clock_atom_same_output_relative_bound",
+                    "clock_atom_distinct_unresolved_events",
+                    "clock_atom_specific_staging_qualification"
+                  ],
+                  "type": "string"
+                },
+                "rationale": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "completion",
+                "evidence_ids",
+                "rationale"
+              ],
+              "type": "object"
+            },
+            "maxItems": 5,
+            "minItems": 5,
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "high",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "usage": {
+    "input_tokens": 63758,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 2099,
+    "output_tokens_details": {
+      "reasoning_tokens": 1488
+    },
+    "total_tokens": 65857,
+    "attribution": {
+      "items": {
+        "msg_0ac9b348917bf299016af9d5f6c47087d08ab60902dcef06f9": {
+          "input_tokens": 59174,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0,
+          "content": [
+            {
+              "input_tokens": 59174,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          ]
+        },
+        "msg_0ac9b348917bf299016af9d617301887d0b8c6e7fe42e49809": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 611,
+          "content": [
+            {
+              "input_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 611
+            }
+          ]
+        },
+        "rs_0ac9b348917bf299016af9d6022ad887d08820452222f83286": {
+          "input_tokens": 2,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 516
+        },
+        "rs_0ac9b348917bf299016af9d60d0da487d0a01467b546021d46": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 518
+        },
+        "rs_0ac9b348917bf299016af9d616d68487d0b2d3a6f90a52d710": {
+          "input_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 454
+        }
+      },
+      "request_fields": {
+        "instructions": {
+          "input_tokens": 4466,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        },
+        "text.format": {
+          "input_tokens": 116,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    }
+  },
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-MhTejWA6wjXNAFvdbAgfWLXs",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

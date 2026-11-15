@@ -1,0 +1,36 @@
+[dataset]
+version = "1.0"
+id = "renovation-quotation-completion"
+task_type = "skill-bench"
+domain = "renovation-cost-engineering"
+language = "en"
+status = "packaged"
+task = "task"
+with_skill = "task/task.toml"
+no_skill = "task/task_no_skill.toml"
+instruction = "task/instruction.md"
+materials = "task/environment/workspace/materials"
+deliverable = "/workspace/output"
+golden = "golden"
+rubric = "RUBRIC.md"
+contract = "task/tests/rubric-contract.json"
+scoring_entrypoint = "task/tests/test.sh"
+
+[scoring]
+judge = "required_source_bound_mixed"
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+condition_blind = true
+strict = "0.80_program_quotation_plus_0.20_semantic"
+lenient = "native_source_preserved_supported_pricing_and_total_closure"
+fixed_final_score_ceiling = false
+judge_protocol = "openai_responses"
+judge_model = "gpt-5.6-sol"
+golden_replay_status = "exact_golden_only"
+judge_failure = "UNMEASURED"
+
+[runtime]
+actor_network = "none"
+verifier_network = "public"
+with_skill_path = "/skills"
+artifact_transfer = "/workspace/output"

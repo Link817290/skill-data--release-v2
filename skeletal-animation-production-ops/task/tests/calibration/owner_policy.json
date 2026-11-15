@@ -1,0 +1,79 @@
+{
+  "version": "godot-material-business-owner-map",
+  "status": "Source-derived business ownership used by the production scorer.",
+  "aggregation": "Arithmetic means combine complementary business outcomes, never counts of test invocations. Original leaf completion and provenance remain intact. Unknown leaf values prohibit admission to a numeric fit. No independent error is invented by regrouping.",
+  "owners": {
+    "F01": {
+      "business": "Original artwork, playback resources and rates",
+      "from": {
+        "C01": 1
+      }
+    },
+    "F02": {
+      "business": "FX-301 hit presentation at the requested anchor with correct compositing",
+      "from": {
+        "C02": 0.5,
+        "C03": 0.5
+      }
+    },
+    "F03": {
+      "business": "FX-302 independent visual-only hit calls, playback and cleanup",
+      "from": {
+        "C04": 0.3333333333333333,
+        "C05": 0.3333333333333333,
+        "C06": 0.3333333333333333
+      }
+    },
+    "F04": {
+      "business": "FX-303 visible, grounded appearance progression and lifecycle",
+      "from": {
+        "C07": 0.5,
+        "C08": 0.5
+      }
+    },
+    "F05": {
+      "business": "FX-304 world-space projectile geometry",
+      "from": {
+        "C09": 0.5,
+        "C10": 0.5
+      },
+      "partial": "Wrong world heading retains independently correct world position/path/duration credit. C09 stays a binary heading business leaf, not an average of ordinary and rotated test counts."
+    },
+    "F06": {
+      "business": "FX-304 timely settlement notification, arrival hit and reclamation",
+      "from": {
+        "C11": 0.5,
+        "C12": 0.5
+      }
+    },
+    "F07": {
+      "business": "Usable ordinary configured integration sequence and timetable",
+      "from": {
+        "C15": 1
+      }
+    },
+    "F08": {
+      "business": "FX-305 fresh preview correspondence and valid producer assurance",
+      "from": {
+        "C13": 1
+      },
+      "detail": "C13 is the arithmetic mean of physical preview correspondence, capture assurance, independent correspondence verification and executable public producer evidence. Each independently established component retains its own credit."
+    },
+    "F09": {
+      "business": "Truthful, actually executed and resolvable issue handover",
+      "from": {
+        "C14": 1
+      },
+      "detail": "Preserves separate summary, command, path and adopted factual-assertion accuracy. Repeated same assertions remain one fact. Complete missing register earns0."
+    },
+    "F10": {
+      "business": "Receiver-usable independent public-API verification",
+      "from": {
+        "C16": 1
+      },
+      "detail": "max(reusable-procedure, retained-independent-results), preserving both measured leaves. Adequate scoped public prose or workbook/logs can equal a script/index. Original expectations alone are not execution results. Actual private verification remains credited."
+    }
+  },
+  "leaf_coverage": "Every original C01..C15 owner and newly measured C16 maps to exactly one business owner. Detailed raw atomic leaves and actual measurement provenance remain in the input matrix.",
+  "constraints": "All owners use the same positive weighted settlement. Lenient uses the same underlying functional observations and has no strict-score threshold."
+}

@@ -1,0 +1,46 @@
+[metadata]
+name = "qinhuaizhi"
+instance_id = "jianpu-scan-to-musicxml-no-skill"
+task = "music-notation"
+source_repo = ""
+language = "en"
+programming_language = "python"
+prompt_creation_time = "2026-10-12"
+
+[environment]
+docker_image = "jianpu-scan-to-musicxml:mei-v9-vision-20261012"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+network_mode = "no-network"
+build_timeout_sec = 900.0
+
+dockerfile = "environment/Dockerfile"
+verifier_dockerfile = "environment/Dockerfile.verifier"
+workspace = "environment/workspace"
+[agent]
+timeout_sec = 7200.0
+
+[agent.env]
+PIPELINE_VISION_HOOK = "1"
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 900.0
+
+[verifier.environment]
+docker_image = "jianpu-scan-to-musicxml-verifier:1.3"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+network_mode = "no-network"
+
+[judge]
+type = "programmatic"
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "output/揚州慢.mei"
+
+[tests]
+command = "tests/test.sh"

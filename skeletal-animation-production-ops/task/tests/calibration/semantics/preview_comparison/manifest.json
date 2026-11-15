@@ -1,0 +1,8 @@
+{
+  "runtime_files": {
+    "judge.py": "d6d77833297fd7926fee1a0d64799c75f01b0264532daf2e666ac9d703e0c420",
+    "contract.json": "561d59cf2edc08d59d320efb124905c16ea3983eacc6aac9b9afa055cac1f685",
+    "prompt.md": "a01bd68448c4cc85afeeea54045207e93bd05ea79ba4798d3428f6045779f331"
+  },
+  "base_manifest_sha256": "22758aae7aa12a9132027b784161f96d9cba740a68649e82d978d723e6246739"
+}

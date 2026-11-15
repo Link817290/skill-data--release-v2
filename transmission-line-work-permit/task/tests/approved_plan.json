@@ -1,0 +1,20 @@
+{
+  "version": "golden-business-contract-v1",
+  "authority": "Source-topology-derived protective boundary; Golden is one acceptable implementation, not the only layout.",
+  "work_pole": 36,
+  "golden_sha256": "c0c7747b80526099c38159b1d212de5e405bf4a42e8b3a78736981e72aecf9e3",
+  "grounding_sets": [
+    {"pole": 35, "direction_aliases": ["万安变", "万安变电站", "小号侧"]},
+    {"pole": 37, "direction_aliases": ["端雄", "端雄降压站", "大号侧"]},
+    {"pole": 48, "direction_aliases": ["文关变", "文关变电站", "T接侧"]}
+  ],
+  "grounding_policy": "Protect all three electrically separated directions created at pole 36. Grounding may be installed at the adjacent branch poles or at pole 36 on each named direction. Three-phase short-circuit sets and phase-split sets are both acceptable when every direction is covered and physical identifiers are unique or explicitly left for controlled preissue completion.",
+  "safety_policy": {
+    "permission": "Contact the final permit issuer before work, communicate the work content, and obtain permission before entry.",
+    "sequence": "Verify no voltage, ground the work-section ends, then begin work. At completion inspect for objects left on the tower, remove the work grounds, withdraw personnel, report and close out.",
+    "climbing": "Before climbing verify line name and tower number; inspect pole base, guy wires and climbing steps.",
+    "weather": "Work in good weather; stop in thunderstorms or wind force greater than 6. Different thresholds are not the approved plan.",
+    "grounding_fixation": "After installation secure grounding leads on the tower and prevent swinging.",
+    "protection": "Maintain safety-belt protection at height and prohibit ground personnel directly below the work area."
+  }
+}

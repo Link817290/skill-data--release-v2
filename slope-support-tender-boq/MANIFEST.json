@@ -1,0 +1,181 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "slope-support-tender-boq",
+  "tasks": [
+    "slope-support-tender-boq"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 42,
+  "bytes_excluding_manifest": 42457889,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1975,
+      "sha256": "082e2fd473c775490463b13e956ee4bb1ec9d894bf08c577015b11310a3d308b"
+    },
+    "RUBRIC.md": {
+      "bytes": 5465,
+      "sha256": "cf959f5d6fe0794204c8859eb8a7b8f5862e98d9f8a79c42d37a408d3d2cb9f4"
+    },
+    "dataset.toml": {
+      "bytes": 880,
+      "sha256": "f25e8d2bb75f05cd689ddb98f19bc8322a32b04a4596b2c0b782ddbae10f0eab"
+    },
+    "golden/reference/source_professional_boq.xls": {
+      "bytes": 77312,
+      "sha256": "c1faa6a48a3ef74bd7a4a7e6fe7c4781cc0ae468283bbc5949c120969b19eec4"
+    },
+    "golden/边坡支护专业分包招标清单.xlsx": {
+      "bytes": 40884,
+      "sha256": "02d4d251d9a2238131f25f8fd81946b1c5fc3a7392cfe13c3baba884461d6b24"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 929,
+      "sha256": "596718f213bf9ca625c7c546fd1792959b7af1f91c322abcd08bee387fc087d5"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 298,
+      "sha256": "a9561355c0dafdaa9eeb5c5ed798023d1dff815f79522eb45ead89d871d1c37b"
+    },
+    "task/environment/skills/boq-scope-and-measurement/SKILL.md": {
+      "bytes": 9680,
+      "sha256": "74e3de44fc9011a781087ef73d4d021fff741a0f81afd37261c2071f8808efb2"
+    },
+    "task/environment/skills/engineering-source-evidence/SKILL.md": {
+      "bytes": 5665,
+      "sha256": "b9ff11529eee74a4b06384f7d86e1b72e44164637ea3202538ad99c54df4c308"
+    },
+    "task/environment/skills/engineering-source-evidence/references/format-access.md": {
+      "bytes": 4601,
+      "sha256": "36a8e189aaec719a571d0b576ad4d2e214598ec8c0e6f42793d3b08a2798fc7b"
+    },
+    "task/environment/skills/quantity-parameter-closure/SKILL.md": {
+      "bytes": 7720,
+      "sha256": "9a98ab54331e5a9d7f93e90d5a747c1718af1845ac953fd1a320f164242cb389"
+    },
+    "task/environment/workspace/初步勘察.pdf": {
+      "bytes": 35925603,
+      "sha256": "3fb545fa792b6c31686260258dfb9329b6f689acd8b7fdf4b84652c3601631be"
+    },
+    "task/environment/workspace/基坑周边环境、支护、降水、监测平面图0721.dwg": {
+      "bytes": 1825661,
+      "sha256": "cc2d8276ef2f30f3123c7470000a99b19cca9c588c99682db7706ecf533b0ebc"
+    },
+    "task/environment/workspace/基坑支护说明 剖面大样图.dwg": {
+      "bytes": 698995,
+      "sha256": "74e77d580988968343d37a954f322b4606c7fe49f79b44736dd94b85d2c6d850"
+    },
+    "task/environment/workspace/招标范围及方案版本分段说明.md": {
+      "bytes": 796,
+      "sha256": "883c59f238a96f385ef6d7978fa97e94bf19802c2c69be05aa49c16296a17557"
+    },
+    "task/environment/workspace/项目基坑支---计算书.docx": {
+      "bytes": 2977281,
+      "sha256": "b22371fe14769d98276938b0d2a7f6c233b7cbb46fa34dc23dbf697576f97b09"
+    },
+    "task/instruction.md": {
+      "bytes": 1676,
+      "sha256": "854d95bb7e2e6278774593b891f1ed4d6a3e0646b55650fc0b363bcc6528ec3c"
+    },
+    "task/solution/README.md": {
+      "bytes": 184,
+      "sha256": "7b1a698649064ce8f75f92a876900fab3080788bed97d598308b1443bbfa9316"
+    },
+    "task/solution/golden_output.xlsx": {
+      "bytes": 40884,
+      "sha256": "02d4d251d9a2238131f25f8fd81946b1c5fc3a7392cfe13c3baba884461d6b24"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 497,
+      "sha256": "a8d5fccb600c30b6b097b3c05c095dc456f0953a141727da942346b46b85e22f"
+    },
+    "task/task.toml": {
+      "bytes": 959,
+      "sha256": "9f90d68455d9a3ba2dc1de876309edc81c503d14325d81e5eaa5a2666c61266a"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 966,
+      "sha256": "0b03e304a1488efbd679c8f314bc7c07ecb3ab87a3f2311eef60f00ae6f890b6"
+    },
+    "task/tests/README.md": {
+      "bytes": 1028,
+      "sha256": "ec54984420b21ab10e420ca2a6738b5687e7577200c618634a714cfd2fa5d3e7"
+    },
+    "task/tests/entrypoint.py": {
+      "bytes": 5477,
+      "sha256": "876bbf83fc98ba6669ddff79bf70621c11881f067a49e4fc638a97056461e30c"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 98755,
+      "sha256": "0081ef0a95a70b444b7522aa621767a28635afa39beaaadb39cbb12766d1febd"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 3743,
+      "sha256": "fb2a2fdd7dbd95d7c3c988d0c9bef7b2860b79b8db08eeb154913fb27addd333"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 10427,
+      "sha256": "8a8f8cb1718698f565adc3d76c3aa426443a082f62fb0c8dfbffb8dc945794bc"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 2529,
+      "sha256": "ef1cbc84524ad24314555dc237dc2d71bea40a7787fc2174b8802e017024b8fc"
+    },
+    "task/tests/mix_judge/replay/da234191a913b68da2423536638344b62c2f908134c9aa32f8427d068b4c5f2a/evidence.json": {
+      "bytes": 241869,
+      "sha256": "4a317cc8be031a3fe27e875d581656f9bd286e3c657bbb4a027250d7d353691c"
+    },
+    "task/tests/mix_judge/replay/da234191a913b68da2423536638344b62c2f908134c9aa32f8427d068b4c5f2a/manifest.json": {
+      "bytes": 512,
+      "sha256": "68d76786d1e5c4977d5d4001afefcf6ce9dde93c863358e3c717931cc71bd11c"
+    },
+    "task/tests/mix_judge/replay/da234191a913b68da2423536638344b62c2f908134c9aa32f8427d068b4c5f2a/request.json": {
+      "bytes": 245807,
+      "sha256": "da234191a913b68da2423536638344b62c2f908134c9aa32f8427d068b4c5f2a"
+    },
+    "task/tests/mix_judge/replay/da234191a913b68da2423536638344b62c2f908134c9aa32f8427d068b4c5f2a/response.json": {
+      "bytes": 54798,
+      "sha256": "7a481533e4f7f0bda6c72f5b7d5eb4663343d6bb3123451488f9a12931da0938"
+    },
+    "task/tests/mix_judge/replay/da234191a913b68da2423536638344b62c2f908134c9aa32f8427d068b4c5f2a/review.json": {
+      "bytes": 15203,
+      "sha256": "ef6da77f915eb8b64316cbfdfdb90f08a5084410b00347980307c778eb08a762"
+    },
+    "task/tests/mix_judge/replay_index.json": {
+      "bytes": 207,
+      "sha256": "24197df9f4635a3ee7bff1a2fbe970e8a67372320e50ee0e6d6b3c1bf35a64a0"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 2105,
+      "sha256": "8f2809dbf0eab4025f25140f0e827adb9376b80c912ed66748244e163722f54b"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 97,
+      "sha256": "54f5a72c8520075900fa69500e6225eed20a2f51dfa2e8ec96fe5163eb5a25dd"
+    },
+    "task/tests/reference/quantity_provenance.json": {
+      "bytes": 42060,
+      "sha256": "6ced6ab994f44eaa45e50d75aec648ccdf6b13e322442671bff111bb0a957665"
+    },
+    "task/tests/skill_execution_rubric.json": {
+      "bytes": 9150,
+      "sha256": "92b19e95918fbebf339d0cb46648cbead96ac33ca374d621de032840eee5b879"
+    },
+    "task/tests/test.sh": {
+      "bytes": 656,
+      "sha256": "9ba1ce50aeb920e698db788631325b4e50871915cba680246970d1c462e6940f"
+    },
+    "task/tests/test_rollout_contract.py": {
+      "bytes": 4578,
+      "sha256": "19bab25f72f71231eb125cea1af5d8f2d71234288fb96f576d12ab7f75aee198"
+    },
+    "task/tests/test_validator_unit.py": {
+      "bytes": 37384,
+      "sha256": "770b4d7e217b13a062ca0ee7d48145bd70bf4ef24920ad303bf28fcd955431ad"
+    },
+    "task/tests/validator.py": {
+      "bytes": 52593,
+      "sha256": "9b6e8ae23b9c795aa6ce451cdf63c33415c84ecad4417a44979c8821bf862752"
+    }
+  }
+}

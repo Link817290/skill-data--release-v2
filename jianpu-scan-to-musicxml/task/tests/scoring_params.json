@@ -1,0 +1,19 @@
+{
+  "schema": "mei-additive-scoring-v13",
+  "rubric_version": "mei-semantic-v13-source-content-priority",
+  "score_policy": "weighted-source-completion-no-caps-no-deductions",
+  "weights": {
+    "metadata_content": 0.04,
+    "sung_text_fidelity": 0.08,
+    "primary_source_fidelity": 0.24,
+    "real_secondary_classes": 0.24,
+    "secondary_absence": 0.08,
+    "bare_position_fidelity": 0.06,
+    "compound_position_fidelity": 0.08,
+    "physical_boundaries": 0.05,
+    "source_region_quality": 0.04,
+    "source_pairing_integrity": 0.03,
+    "physical_reading_order": 0.03,
+    "document_contract": 0.03
+  }
+}

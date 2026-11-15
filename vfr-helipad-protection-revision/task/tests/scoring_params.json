@@ -1,0 +1,19 @@
+{
+  "schema_version": "scoring-params-v1",
+  "positive_weights": {
+    "P01": 0.05,
+    "P02": 0.05,
+    "P03": 0.23,
+    "P04": 0.05,
+    "P05": 0.05,
+    "P06": 0.14,
+    "P07": 0.21,
+    "P09": 0.22
+  },
+  "deduction_coefficients": {
+    "D01": 0.6,
+    "D02": 0.6,
+    "D03": 0.6,
+    "D04": 0.6
+  }
+}

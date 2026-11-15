@@ -1,0 +1,15 @@
+{
+  "schema_version": "source-bound-topology-checks-v1",
+  "source_file": "110kV万文瑞线电气主接线图.pdf",
+  "sha256": "9b1e46391345c191840621837b37738fbf9a02311d7bb7a1487bc70f6d9c9869",
+  "pages": [
+    2,
+    3
+  ],
+  "device_types": {
+    "1949": "PT"
+  },
+  "source_excerpt": "第2页：线路电压互感器PT：1949；48号杆、37号杆、35号杆分别连接三站及36号T接杆。",
+  "direction_numbers_from": "ground_truth.json facts.work_pole and facts.stations[*].pole",
+  "scope": "Only explicit adopted device-type or named pole-side contradictions; no inference of physical grounding qualification."
+}

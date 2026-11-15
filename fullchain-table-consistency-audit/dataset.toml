@@ -1,0 +1,13 @@
+id = "fullchain-table-consistency-audit"
+task_type = "skill-bench"
+deliverable = "workspace/output/table-consistency-audit.md"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from tests/rubric-contract.json"
+scoring_params = "tests/rubric-contract.json"
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+rubric = "RUBRIC.md"
+condition_blind = true

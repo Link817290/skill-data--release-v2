@@ -1,0 +1,19 @@
+{
+  "id": "author-qualified-67265c2f956466e3",
+  "model": "gpt-5.6-sol",
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "phase": "final_answer",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"reference_conflict\": false, \"criteria\": {\"scope_grain_and_area_identity\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S1-R4\"], \"reference_ids\": [\"G1-S1-R4\"]}, \"readiness_and_paired_deferral\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S1-R1\"], \"reference_ids\": [\"S2-S2-R6\"]}, \"estimated_duration_basis\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S2-R16\"], \"reference_ids\": [\"G1-S4-R2\"]}, \"lexicographic_priority\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S2-R20\"], \"reference_ids\": [\"G1-S4-R3\"]}, \"earliest_t_completion_proof\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S1-R3\"], \"reference_ids\": [\"G1-S1-R3\"]}, \"execution_controls_and_closeout\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S4-R4\"], \"reference_ids\": [\"G1-S4-R4\"]}, \"candidate_handback_and_electrical_boundary\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S1-R3\"], \"reference_ids\": [\"G1-S1-R3\"]}, \"actual_state_and_change_propagation\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S2-R3\"], \"reference_ids\": [\"G1-S2-R3\"]}, \"continuous_standby_and_response\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S2-R3\"], \"reference_ids\": [\"G1-S2-R3\"]}, \"report_due_event\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S2-R14\"], \"reference_ids\": [\"G1-S2-R14\"]}, \"oil_followup_event\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S1-R3\"], \"reference_ids\": [\"G1-S1-R3\"]}}, \"notes\": [\"Author-qualified Golden replay.\"]}"
+        }
+      ]
+    }
+  ]
+}

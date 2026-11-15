@@ -1,0 +1,58 @@
+artifacts = ["/workspace/output"]
+
+[metadata]
+name = "female-employee-protection-review"
+instance_id = "female-employee-protection-review"
+task = "office-white-collar"
+source_repo = ""
+language = "en"
+programming_language = "python"
+prompt_creation_time = "2026-10-12"
+
+[environment]
+docker_image = "female-employee-protection-review:base1.3-native-v92-20261017"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+cpus = 4
+workdir = "/workspace"
+memory_mb = 16384
+network_mode = "public"
+build_timeout_sec = 7200.0
+
+[agent]
+timeout_sec = 7200.0
+user = 20005
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 7200.0
+user = 20005
+
+[verifier.environment]
+docker_image = "female-employee-protection-review-verifier:base1.3-native-v92-final-20261017"
+dockerfile = "environment/Dockerfile.verifier"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 16384
+storage_mb = 10240
+network_mode = "public"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "workspace/output"
+
+[tests]
+command = "tests/test.sh"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"

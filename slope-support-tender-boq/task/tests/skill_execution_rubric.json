@@ -1,0 +1,82 @@
+{
+ "schema_version": "skill-execution-contract-v1",
+ "name": "Slope-support tender BOQ compilation execution",
+ "description": "Observable execution of turning mixed engineering sources into a priceable bill of quantities: opening every supplied format rather than working only the convenient ones; taking each fact with a locator attached at the moment it is read; holding the source-defined contract boundaries exactly and working each of them to comparable depth; naming and splitting line items the way the pricing code names and splits them; deriving quantities from a single parameter ledger instead of retyped figures; closing the list in both directions and against paired relationships; and publishing a control register whose records point at real rows. Process only; artifact correctness is scored separately and is not judged here.",
+ "dimensions": [
+  {
+   "id": "source_access_breadth",
+   "weight": 0.14,
+   "criterion": "Opens every supplied source and establishes what each is authoritative for, rather than working only the formats that open easily. Credit requires the binary drawing files to be converted and read as entity data, and the calculation report to be read where its values actually sit rather than only where its headings sit. A source left unopened is treated as a recorded finding, not passed over in silence. Merely listing the directory, or citing a file the trajectory never opened, earns nothing."
+  },
+  {
+   "id": "evidence_locator_discipline",
+   "weight": 0.14,
+   "criterion": "Forms the citation at the moment the fact is taken and carries it through every intermediate step into the deliverable. Credit requires locators specific enough for a reviewer to land on the same place — page, table, clause, detail, axis or section mark — rather than a file name alone, and requires the locator to travel with its value rather than being reconstructed at the end. Distinguishes a value the source states from one derived, assumed, or unsupported; a blank, dash or not-applicable marker in a parameter table is never recorded as a number."
+  },
+  {
+   "id": "scope_boundary_fidelity",
+   "weight": 0.16,
+   "criterion": "Reproduces the source-defined procurement divisions exactly and keeps work inside the division it belongs to. Credit requires the boundary labels to be carried verbatim rather than abbreviated, translated, reordered, or replaced by a discipline, support type or physical zone, and requires each division to be worked to comparable depth rather than one division deepened while another stays thin. A division the sources support but the deliverable leaves sparse is visibly identified as the constraint rather than left unremarked."
+  },
+  {
+   "id": "work_family_sweep",
+   "weight": 0.14,
+   "criterion": "Enumerates the construction families inside each division before drafting lines, and marks each cell supported, not applicable, or unresolved with its evidence locator. Credit requires the sweep to be used as a completeness instrument — an omission visible as an empty cell — and requires normal construction sequencing to prompt the check without licensing invention: an activity the sources do not support is recorded as a gap rather than given a quantity."
+  },
+  {
+   "id": "item_naming_and_split_discipline",
+   "weight": 0.14,
+   "criterion": "Names each line by the installed result in the form the pricing code uses, and splits lines wherever a pricing driver changes. Credit requires the construction method, the identifying dimension in the code's notation, and the distinguishing qualifier to appear where they change the rate, and requires the characteristics to follow the code's element list with the elements the sources cannot settle stated as left to the bidder rather than dropped. A single line covering several rate categories, or a name that identifies the design object instead of the priceable result, does not earn credit."
+  },
+  {
+   "id": "parameter_ledger_and_derivation",
+   "weight": 0.14,
+   "criterion": "Collects the shared adopted inputs in one place with their sources and their adopted-or-assumed state, then derives quantities from that ledger rather than from retyped or remembered figures. Credit requires each derivation to name which dimension and which count it used and where each was read, requires full precision to be carried with rounding only at the reported value, and requires geometry that varies between analysed cross sections to be applied per section rather than one section's value stretched across a division. An unresolvable source conflict is recorded with its interim treatment instead of silently resolved."
+  },
+  {
+   "id": "closure_and_control_records",
+   "weight": 0.14,
+   "criterion": "Runs the forward sweep (every supported element reaches a measurable line) and the reverse sweep (every line resolves to evidence, a unit its rule produces, and a reproducible basis), and reconciles the division label sets. Credit requires paired relationships to be compared numerically with both figures reported rather than asserted as checked, and requires the control records to name a real adopted input, a real open issue with its interim treatment, or a real comparison, each pointing at individual rows by the exact division and sequence the deliverable prints. A record that governs nothing specific, or a link expressed as a range or an abbreviation, earns nothing."
+  }
+ ],
+ "level_anchors": {
+  "0": "No observable execution, or observable actions contradict the criterion.",
+  "1": "The criterion is mentioned or nominally attempted, but the required chain is mostly absent or ineffective.",
+  "2": "A meaningful subset is executed, with important omissions, weak closure, or unresolved problems.",
+  "3": "Most required actions are executed in a coherent order and the checks the criterion calls for are actually run, but every check passes on first execution, or the resulting judgments are applied at a resolution too coarse to separate the divisions or line items being decided.",
+  "4": "Level 3, and in addition at least one check is load-bearing: it detects an unopened source, a missing locator, a mis-scoped division, a line that should have been split, a stretched parameter or an unreconciled pair in the run's own prior work, and the affected content is visibly revised afterwards. The judgments the criterion governs also discriminate between divisions or families whose supporting evidence differs, rather than resolving to one repeated value."
+ },
+ "fatal_rules": [
+  {
+   "id": "no_substantive_execution",
+   "maximum_process_score": 0.15,
+   "description": "The trajectory only reads, quotes, or discusses the supplied skills without carrying out substantive skill-directed work on the sources."
+  },
+  {
+   "id": "quantities_without_source_basis",
+   "maximum_process_score": 0.25,
+   "description": "Quantities are produced without an identified derivation or source statement behind them — plausible figures asserted for lines the trajectory never derived, so the list is priceable but not reproducible."
+  },
+  {
+   "id": "contract_boundary_substituted",
+   "maximum_process_score": 0.25,
+   "description": "A source-defined procurement division is replaced, shortened, merged or invented, so work is organised under a boundary the contract does not contain."
+  },
+  {
+   "id": "drawings_cited_without_being_read",
+   "maximum_process_score": 0.3,
+   "description": "Drawing evidence is cited in the deliverable while the trajectory shows no conversion or reading of those drawings, so the locator points at a source the run never opened."
+  }
+ ],
+ "judge_rules": [
+  "Opening, loading, or quoting a skill earns no credit by itself.",
+  "Do not infer execution from the delivered workbook or from the agent's self-certification unless an observable step performs the work.",
+  "Every nonzero dimension level must cite one or more visible evidence step IDs.",
+  "Judge effectiveness and closure, not action count, row count, or verbosity. A longer list is not a better-executed one.",
+  "Distinguish a check that ran from a check that bound. A sweep or reconciliation that succeeds on its first execution shows the check exists; it is not by itself evidence that the method caught anything. Cite what a check rejected, corrected or forced open before treating it as load-bearing.",
+  "Where a criterion produces a per-division or per-family judgment, inspect the distribution. One value repeated across nearly all units is evidence the test was applied at low resolution, whatever its wording, and caps that dimension at level 3 even when every required field is populated.",
+  "A run that records a gap because the supplied sources cannot settle an activity, and names what is missing, executes the method correctly; do not score it as an incomplete list.",
+  "A run that lists fewer items with their derivations and locators intact executes the method better than one that fills every expected row by inference; do not reward the number of populated rows.",
+  "Do not use verifier scores, Golden answers, condition labels, model identity, or an expected with-skill/no-skill gap."
+ ]
+}

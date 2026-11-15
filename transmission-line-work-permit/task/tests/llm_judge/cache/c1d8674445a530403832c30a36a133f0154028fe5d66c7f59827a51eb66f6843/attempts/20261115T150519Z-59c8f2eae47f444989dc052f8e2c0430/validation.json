@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "call_id": "20261115T150519Z-59c8f2eae47f444989dc052f8e2c0430",
+  "point_count": 27,
+  "normalization_version": "candidate-native-fragment-selectors-v1",
+  "expanded_evidence_origin": "program_sourced_from_frozen_candidate_selectors_not_model_quotations",
+  "requested_model": "gpt-5.6-sol",
+  "returned_model": "gpt-5.6-sol",
+  "sha256": {
+    "request.json": "84a23f0658949e6522a615049222e10c12ea99cd2954aafddaf5c09725e685c8",
+    "response.json": "69502e1ab85d65c4e664d2b70bf9c0a7ce74ce274c743fe9d91d673112a74887",
+    "decision.json": "02a1239bf98eb4af68222cb6d99202b327fa538ca4edb4b9e193694b73b296e4"
+  }
+}

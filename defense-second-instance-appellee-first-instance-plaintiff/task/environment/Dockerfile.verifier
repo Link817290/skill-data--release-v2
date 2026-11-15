@@ -1,0 +1,11 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+RUN python3 -c "import docx"
+COPY task/tests/ /tests/
+COPY task/environment/ /environment/
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN chmod +x /tests/test.sh \
+    && mkdir -p /workspace/artifacts /logs/verifier
+CMD ["/bin/sh"]

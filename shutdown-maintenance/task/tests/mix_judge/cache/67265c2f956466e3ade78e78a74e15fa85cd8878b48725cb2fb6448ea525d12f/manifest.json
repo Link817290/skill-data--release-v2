@@ -1,0 +1,14 @@
+{
+  "artifact_hashes": {
+    "candidate/电力设备检修进度计划表.xlsx": "f2f0aa952716e8c2959295382ede288f9e0d2d9b0ff0752eb12cb511fa65eb39",
+    "golden_meaning/电力设备检修进度计划表.xlsx": "1e24b474191653b4afed730a13a1e264c1f1fd4cd9a4cd0384e743d37d0fee1a",
+    "source/检修安排/电力检修施工组织安排.xlsx": "647c283cd293460670b75a33ae48bb5472e0b76f547c3566bb8b0be9337d83a5",
+    "source/检修安排/电力检修进度计划表（待编）.xlsx": "43eed9202fe2c71e3aedc88f1a166191cb3eab2893380d8cff2367b79068e63f",
+    "source/电力设备试验请购说明.docx": "cada20b9e43dc0ffcd69c68cf003badaa040daf618cfa7368c653baa9d5a123c",
+    "facts": "d1f20352a77ef5b3f5c1a0e248ea5d96ea7746d77a0a9f32081024f64e07e2a5"
+  },
+  "request_sha256": "67265c2f956466e3ade78e78a74e15fa85cd8878b48725cb2fb6448ea525d12f",
+  "rollout_executed": false,
+  "visual_input": false,
+  "contract_sha256": "cf1c98cc1cdfff9af26de360f009181bc6d3e8b9764a3b382bbdc80d7d70ed1d"
+}

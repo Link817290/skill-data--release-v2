@@ -1,0 +1,202 @@
+{
+  "criteria": [
+    {
+      "evidence": [
+        {
+          "id": "C-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        },
+        {
+          "id": "G-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        },
+        {
+          "id": "C-I0039",
+          "quote": "基坑支护-原方案二期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        },
+        {
+          "id": "C-I0068",
+          "quote": "基坑支护-方案变更新增部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        }
+      ],
+      "id": "section_boundary",
+      "reason": "The candidate preserves all three exact source-defined procurement sections: 原方案一期部分, 原方案二期部分, and 方案变更新增部分, with work assigned under the corresponding section labels.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        },
+        {
+          "id": "G-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        },
+        {
+          "id": "C-I0036",
+          "quote": "基坑支护-原方案一期部分 | 7.0 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分）"
+        },
+        {
+          "id": "C-I0019",
+          "quote": "基坑支护-原方案一期部分 | 26.0 | 成井"
+        }
+      ],
+      "id": "family_coverage",
+      "reason": "The candidate substantively represents the source-supported payable families, including excavation/drilling and spoil treatment, pile concrete, casing, pile-head work, reinforcement, crown beams and connecting plates, sprayed support, dewatering wells and pumps, drainage/sedimentation works, access/formwork/labour, and the variation section. Monitoring is not independently supported by the supplied professional record and is therefore not treated as a missing source-supported obligation.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        },
+        {
+          "id": "G-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土)"
+        },
+        {
+          "id": "C-I0037",
+          "quote": "基坑支护-原方案一期部分 | 8.0 | 旋挖灌注桩（支护桩）C30商品混凝土（钢护筒部分）"
+        },
+        {
+          "id": "C-I0038",
+          "quote": "基坑支护-原方案一期部分 | 9.0 | 钢护筒"
+        }
+      ],
+      "id": "equivalent_decomposition",
+      "reason": "The candidate retains the source payable objects as separate lines, including material/soil and diameter-specific drilling, separate pile concrete by steel casing condition, and separate steel casing. Units and pricing-driving descriptions remain materially mappable to the source.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 252.0 | 基坑支护说明 剖面大样图.dwg / design notes and applicable detail for 旋挖灌注桩成孔 φ1000(一、二类土); 项目基坑支---计算书.docx / applicable calculation section; source_professional_boq.xls / 招标工程量清单!F7 | Source benchmark comparison: source_professional_boq.xls / 招标工程量清单!F7 = 252 m; Tender BOQ!F5 = 252 m; variance = 0 m. The source-stated benchmark quantity is preserved without transformation. | source-stated"
+        },
+        {
+          "id": "F-Q0001",
+          "quote": "基坑支护-原方案一期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | source_professional_boq.xls | 招标工程量清单!F7 = 252.0 m | published F5 = 252.0 m | variance = 0.0 m"
+        },
+        {
+          "id": "C-I0039",
+          "quote": "基坑支护-原方案二期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土 2.土石比例：投标人根据地勘报告及现场实际情况综合考虑进行报价 3.空桩长度：综合考虑，包含在单价中 4.桩长：详设计，综合考虑 5.桩径：1000mm 6.成孔方法：机械旋挖成孔，干作业、湿作业综合考虑 7.试桩增加费用由投标人综合考虑在综合单价中，不再单独计取 8.余渣及泥浆的装卸、场地清理等由投标人自行考虑到综合单价中 9.其他：满足设计、招标文件、相关图集、现行施工及验收规范等相关要求 | 按《建设工程工程量清单计价规范》(GB50500—2013)工程量计算规则计算，且不超对上结算数量 | m | 149.6"
+        },
+        {
+          "id": "C-I0019",
+          "quote": "基坑支护-原方案一期部分 | 26.0 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 275.0"
+        }
+      ],
+      "id": "quantity_basis",
+      "reason": "Adopted candidate quantities are source-stated and include source workbook field/cell locators. The supplied verified facts cross-check the candidate quantity fields and published values, with zero variances. Provisional dewatering quantities also state a concrete field-confirmation path.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1.0 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土"
+        },
+        {
+          "id": "G-I0001",
+          "quote": "基坑支护-原方案一期部分 | 1 | 旋挖灌注桩成孔 φ1000(一、二类土) | 1.地层情况：一、二类土"
+        },
+        {
+          "id": "C-I0036",
+          "quote": "基坑支护-原方案一期部分 | 7.0 | 旋挖灌注桩（支护桩）C30商品混凝土（除钢护筒部分） | 1.桩径：综合考虑 2.混凝土种类、强度等级：C30商品砼"
+        },
+        {
+          "id": "C-I0006",
+          "quote": "基坑支护-原方案一期部分 | 14.0 | 喷射C20混凝土护壁(网喷) 厚80mm | 1.部位：综合 2.厚度：80mm 3.材料种类：C20混凝土"
+        }
+      ],
+      "id": "technical_characteristics",
+      "reason": "Pricing-changing characteristics are preserved across the records, including diameter, soil/material class, concrete grade, sprayed-support thickness, reinforcement grade and diameter, casing condition, construction method, inclusion boundaries, and physical units.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-A0004",
+          "quote": "uncertainty | U-01 | 基坑支护-原方案一期部分；基坑支护-原方案二期部分；基坑支护-方案变更新增部分 | 基坑支护-原方案一期部分-26；基坑支护-原方案一期部分-27；基坑支护-原方案二期部分-22；基坑支护-原方案二期部分-23；基坑支护-方案变更新增部分-22；基坑支护-方案变更新增部分-23 | 招标范围及方案版本分段说明.md / scope section list; 基坑支护说明 剖面大样图.dwg / 5.4 and 5.5; 项目基坑支---计算书.docx / section water-control tables | Phase boundary and version differences may change dewatering-well and pump allocation; the supplied design states both 44 and 51 wells. | Before tender pricing, compare the latest signed design revision with the section allocation and field-confirm JSJ well schedule; retain affected quantities as provisional/review-required until the clarification is issued. | review-required"
+        },
+        {
+          "id": "G-I0026",
+          "quote": "基坑支护-原方案一期部分 | 26 | 成井 | 1.降水井成井:孔径综合，深度综合 2.成井方式:综合 3.地层情况:综合 4.成井直径:降水井成孔直径600，并管内壁直径300等综合考虑，详见设计图纸 5.井（滤）管类型、直径：综合 6.井管外侧过滤料回填等工作内容包括在综合单价中 7.电线电缆、水管铺设:含水平合竖向的所有工作内容综合考虑，满足施工现场需求，深井泵费用另计 8.其他:满足设计、施工及验收规范要 | 工程量为暂估工程量，最终以责任主体现场收方确认的工程量为依据，据实结算 | m | 275.0"
+        },
+        {
+          "id": "C-A0005",
+          "quote": "closure | C-01 | 基坑支护-原方案一期部分 | 14;24 | Tender BOQ / 基坑支护-原方案一期部分 sequences 14 and 24 | Actual linked quantities: sequence 14 = 2058.42 m2; sequence 24 = 2058.42 m2; actual difference = 0.00 m2."
+        },
+        {
+          "id": "C-A0007",
+          "quote": "closure | C-03 | 基坑支护-方案变更新增部分 | 11;20 | Tender BOQ / 基坑支护-方案变更新增部分 sequences 11 and 20 | Actual linked quantities: sequence 11 = 1105.24 m2; sequence 20 = 1105.24 m2; actual difference = 0.00 m2."
+        }
+      ],
+      "id": "uncertainty_conflict_control",
+      "reason": "The material dewatering allocation conflict is identified, names all affected section/sequence line identifiers, preserves the quantities as review-required, and defines both latest-design comparison and field-confirmation actions.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-A0005",
+          "quote": "closure | C-01 | 基坑支护-原方案一期部分 | 14;24 | Tender BOQ / 基坑支护-原方案一期部分 sequences 14 and 24 | Actual linked quantities: sequence 14 = 2058.42 m2; sequence 24 = 2058.42 m2; actual difference = 0.00 m2. | Completed numerical reconciliation: 0.00 m2 is within the 0.01 m2 comparison tolerance; result PASS."
+        },
+        {
+          "id": "F-Q0014",
+          "quote": "基坑支护-原方案一期部分 | 14 | 喷射C20混凝土护壁(网喷) 厚80mm | source_professional_boq.xls | 招标工程量清单!F20 = 2058.42 m2 | published F18 = 2058.42 m2 | variance = 0.0 m2"
+        },
+        {
+          "id": "C-A0006",
+          "quote": "closure | C-02 | 基坑支护-原方案二期部分 | 11;20 | Tender BOQ / 基坑支护-原方案二期部分 sequences 11 and 20 | Actual linked quantities: sequence 11 = 1311.19 m2; sequence 20 = 1311.19 m2; actual difference = 0.00 m2."
+        },
+        {
+          "id": "C-A0007",
+          "quote": "closure | C-03 | 基坑支护-方案变更新增部分 | 11;20 | Tender BOQ / 基坑支护-方案变更新增部分 sequences 11 and 20 | Actual linked quantities: sequence 11 = 1105.24 m2; sequence 20 = 1105.24 m2; actual difference = 0.00 m2."
+        }
+      ],
+      "id": "completed_closure",
+      "reason": "Each of the three sections has a closure record reporting exact linked candidate quantities, units, actual difference, tolerance, and PASS disposition. The reported candidate values agree with the supplied source/control quantities.",
+      "score": 1
+    },
+    {
+      "evidence": [
+        {
+          "id": "C-A0001",
+          "quote": "parameter | P-01 | 基坑支护-原方案一期部分 | 1;2;3;4 | 基坑支护说明 剖面大样图.dwg / pile details; 项目基坑支---计算书.docx / support calculation section | Phase-I linked lines 1-4 use only 1000 mm and 1200 mm pile diameters. Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities. | Propagate the applicable diameter through drilling, concrete, reinforcement, and spoil quantities. | verified"
+        },
+        {
+          "id": "F-POLICY",
+          "quote": "A reproducible source-stated basis identifies a source field or cell and its value. A reproducible calculated basis states material inputs, operation, result, and unit. A completed closure states actual compared quantities, unit, actual difference or ratio, and disposition. Merely instructing a future check is not completed evidence."
+        },
+        {
+          "id": "C-A0004",
+          "quote": "uncertainty | U-01 | 基坑支护-原方案一期部分；基坑支护-原方案二期部分；基坑支护-方案变更新增部分 | 基坑支护-原方案一期部分-26；基坑支护-原方案一期部分-27；基坑支护-原方案二期部分-22；基坑支护-原方案二期部分-23；基坑支护-方案变更新增部分-22；基坑支护-方案变更新增部分-23"
+        },
+        {
+          "id": "C-A0005",
+          "quote": "closure | C-01 | 基坑支护-原方案一期部分 | 14;24 | Tender BOQ / 基坑支护-原方案一期部分 sequences 14 and 24"
+        }
+      ],
+      "id": "audit_control",
+      "reason": "Parameter, uncertainty, and closure records contain section and sequence links, source/action/status fields, and substantive control content. The linked sequences resolve to real candidate rows, and closure records provide current numerical results.",
+      "score": 1
+    }
+  ],
+  "notes": [
+    "All eight substantive criteria score 1. The candidate quantities and source-stated benchmarks are consistently reconciled with zero variance where reported.",
+    "A material source conflict remains for dewatering allocation: the supplied design states both 44 and 51 wells. It is explicitly controlled as review-required rather than resolved beyond the supplied evidence.",
+    "The documented source record does not independently support a monitoring family, so no deduction is made for monitoring absence."
+  ],
+  "passed": false,
+  "reference_conflict": true,
+  "semantic_score": 1.0,
+  "measurement_status": "reference_conflict_requires_review",
+  "response_id": "resp_09d495e3195aeb86016aef5cbb5cc087d0b6387d36e8ae2b71",
+  "model": "gpt-5.6-sol",
+  "seconds": 182.8,
+  "fresh_call": true,
+  "rollout_executed": false
+}

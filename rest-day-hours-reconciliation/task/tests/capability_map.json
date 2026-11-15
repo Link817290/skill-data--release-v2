@@ -1,0 +1,8 @@
+{
+  "event_decisions": "Domain judgment",
+  "evidence_chains": "Evidence handling",
+  "intervals": "Numeric derivation",
+  "payroll_reconciliation": "Cross-record reconciliation",
+  "followup_register": "Action closure",
+  "report": "Rationale"
+}

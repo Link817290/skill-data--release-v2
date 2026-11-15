@@ -1,0 +1,169 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "life-insurance-channel-outlook",
+  "tasks": [
+    "life-insurance-channel-outlook"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 39,
+  "bytes_excluding_manifest": 9632857,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2157,
+      "sha256": "3c27723131fc9a35cbb0b2c46cc73d397ede147047c1ebfbbab15c2b71156041"
+    },
+    "RUBRIC.md": {
+      "bytes": 5363,
+      "sha256": "cb45b2abf3183aaff4416a9579748b6264d443a81b1fb7ac0746d966fb19288b"
+    },
+    "dataset.toml": {
+      "bytes": 889,
+      "sha256": "93a5ccac9ae6a2f11fad8eff44bf4e2b49a1078cfc94565388aa3c9fa47c6547"
+    },
+    "golden/安联人寿渠道发展趋势报告.pdf": {
+      "bytes": 496362,
+      "sha256": "8bc00171c440b1ae0afe1f9e15b3eff9bc26320285b9087c9b344d2fdc99791d"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 647,
+      "sha256": "bd63689cf6b2814092c11fc9a6d44f4be304e185953b1a720b78e73d9c332d70"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 398,
+      "sha256": "d254d320acbbda17ec366dbe4a2b186b2dfc9729efc1d123c04e803811990292"
+    },
+    "task/environment/skills/insurance-channel-forecasting/SKILL.md": {
+      "bytes": 3869,
+      "sha256": "f1177583368218cbc8b1462278395a5369a431519d10956a38e098d7d17ce677"
+    },
+    "task/environment/skills/insurance-channel-forecasting/references/measurement-and-periods.md": {
+      "bytes": 2981,
+      "sha256": "b4c262d9864e043d994e36a50e5e43fecd2a23af48770c43f8354ff8d100a6bc"
+    },
+    "task/environment/skills/insurance-channel-forecasting/references/scenarios-and-reconciliation.md": {
+      "bytes": 2895,
+      "sha256": "98b9b3cf30487587fb6eeafa59b8fe0205165cc6dde0ee0f4f44b740dd24d340"
+    },
+    "task/environment/workspace/materials/2026Q1偿付能力.pdf": {
+      "bytes": 660983,
+      "sha256": "3522624a3d2d16536a7eae7b758d8ab77354e5d5cfa50cc97d61a5737ec3c6d3"
+    },
+    "task/environment/workspace/materials/26年H1偿付能力.pdf": {
+      "bytes": 642868,
+      "sha256": "75b1d749904f7db0b1d4333290e893375cb6f43458119ba0a72f2815d51e89e9"
+    },
+    "task/environment/workspace/materials/安联25年年度报告.pdf": {
+      "bytes": 4360327,
+      "sha256": "b3dd4baea38360b44f1bd9aec173a63daac8b30bbbedbe16a1a8f7eefd0cb605"
+    },
+    "task/instruction.md": {
+      "bytes": 357,
+      "sha256": "06cfb487ec7626d2877a3774e888143d89874367017cd633b99a15eb99295d80"
+    },
+    "task/solution/golden/安联人寿渠道发展趋势报告.pdf": {
+      "bytes": 496362,
+      "sha256": "8bc00171c440b1ae0afe1f9e15b3eff9bc26320285b9087c9b344d2fdc99791d"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 186,
+      "sha256": "3b4e2d8ffccd4d2a207cd27aefac50fe313021387dc24aaa2b4f27715870f6e6"
+    },
+    "task/task.toml": {
+      "bytes": 1263,
+      "sha256": "bce7a0dda6f657be07bcb51ec21bb68f2d0430c4205237a291b0e6a6c659b1a4"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1249,
+      "sha256": "7bbe9ef34d58406059a3e65990f4bcc6d7257cba5841dcf903df28812a669053"
+    },
+    "task/tests/lenient-contract.json": {
+      "bytes": 517,
+      "sha256": "b69ad8bd677bfb076a47202e24eb2e887794c745ff9fbd1d9bed768ff7743135"
+    },
+    "task/tests/material-facts.json": {
+      "bytes": 52722,
+      "sha256": "958a02239cba0c9d62f26c796a31cd2e50fb02d697f2c427cb0b32d9ebd55ba7"
+    },
+    "task/tests/mix_judge/apply.py": {
+      "bytes": 7894,
+      "sha256": "6a1aa71b6b122e29404f2da6791b616e74d79028c3488905e86a0df3a6b72a09"
+    },
+    "task/tests/mix_judge/cache/index.json": {
+      "bytes": 539,
+      "sha256": "4d8a0572e264d74010ded50664e1069cb58c29ba2a06a3469d2298718d3c143c"
+    },
+    "task/tests/mix_judge/cache/live/97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a/evidence.json": {
+      "bytes": 459247,
+      "sha256": "50758ee1b00a3fa109c3fde706c9ba678663a92308601f6270d446b0a52b8413"
+    },
+    "task/tests/mix_judge/cache/live/97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a/manifest.json": {
+      "bytes": 289,
+      "sha256": "715187c64a700983a1165a3bf88f83bf52e2db236214def3e3af2a1ba0292a64"
+    },
+    "task/tests/mix_judge/cache/live/97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a/request.json": {
+      "bytes": 522572,
+      "sha256": "97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a"
+    },
+    "task/tests/mix_judge/cache/live/97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a/response-1.json": {
+      "bytes": 11384,
+      "sha256": "11ea6dab82ba9c849eea5e3d74232add3acee776483fe6770dfa5bdec782ee6c"
+    },
+    "task/tests/mix_judge/cache/live/97acda08a361275149a507e358ce1e3bfaf94bcaa0e998047b776f9d2f81e88a/review.json": {
+      "bytes": 1738381,
+      "sha256": "b133b7a0275b47c6439861f03b7a62be441290ad7d62e8b2d8dd1d3b87fa43c8"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 738,
+      "sha256": "d9d4865c1b1042dbbf1366623be0afa6cb793e8e997218d1890430c93bc9ea3e"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 7894,
+      "sha256": "6a1aa71b6b122e29404f2da6791b616e74d79028c3488905e86a0df3a6b72a09"
+    },
+    "task/tests/mix_judge/manifest.json": {
+      "bytes": 20343,
+      "sha256": "323454630cfaeb7f976df49439f5119a1a32488c6a20960ceb975f347b6a278c"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 263,
+      "sha256": "a1f7a874539d575551529bad8ca0f11dff0fb04e710229bde3adcffccdba1944"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 1612,
+      "sha256": "7e3fe50f3b5c853f144df241c3fee95c2d1fa23cb2de14cfb4185748f0c3a603"
+    },
+    "task/tests/mix_judge/semantic_live.py": {
+      "bytes": 13458,
+      "sha256": "8730b9facfe6c5e4edcb5bb1d9a986b79c98e104fea60bf689e6576bb1d7f6bd"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 140,
+      "sha256": "6144a34e4c4053b788a7951ffd4c109e1514db9e0939de1b17b2cef7c3d2b9c8"
+    },
+    "task/tests/program_judge/business_relations.py": {
+      "bytes": 32649,
+      "sha256": "1f30b9db66c5773820287e00cd328c5ab3cbcff3c79a19e989654ac3154206b9"
+    },
+    "task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22486,
+      "sha256": "a89466e7f287aa667ccfc984ac3a23c468d8c5ca51a891087a0508771d3493a0"
+    },
+    "task/tests/program_judge/task_judge.py": {
+      "bytes": 1410,
+      "sha256": "f5e366071ae1415bcaf5444151268b32ea5647dc5b6dae8fc6c0b11f9f6e551b"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 54444,
+      "sha256": "b131f7b894f9ff55dc3f76276a4c5c1e87b9002b20638bc6f7ea0c1ba7115a2c"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2023,
+      "sha256": "88afb8adbd32b166b47527f14aca380f68fcc0d81a7a8173e5e9d6ff514837f6"
+    },
+    "task/tests/validator.py": {
+      "bytes": 2696,
+      "sha256": "e65971cf7ed25c2e7d869966bb589fd2a4a81d1ed25c0263535e41b556dc5d4f"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+FROM harbor-claude-code-aggregated:1.3
+
+RUN python3 -c "import openpyxl"
+WORKDIR /workspace

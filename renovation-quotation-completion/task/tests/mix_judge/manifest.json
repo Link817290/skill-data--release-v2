@@ -1,0 +1,15 @@
+{
+  "schema": "request-bound-golden-cache-v1",
+  "cache_entries": {
+    "0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5": {
+      "path": "cache/live/0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5",
+      "files_sha256": {
+        "evidence.json": "bc4997a4d8e7c1eec576897d4202af5bc9db0151021441cff9a4447e56b6b3a0",
+        "manifest.json": "5cc8e669c171f7c0d7f22340b880cb54a54860ec4975c0a560a10140dc559127",
+        "request.json": "0f7eb6ca1abb1a31dca25574d47d2f0215a08006d23fb0bdacd328cf6268fde5",
+        "response-1.json": "b84104ee150efc4fe036b5118d317384d939d5432b3feeaecfa055abd29e0ea9",
+        "review.json": "d42f10f21701049cc2cf3da67af0b63fcf2f420e72215bbf6796ce7d70f5c5fe"
+      }
+    }
+  }
+}

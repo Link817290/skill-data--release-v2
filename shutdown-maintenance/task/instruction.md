@@ -1,0 +1,3 @@
+Please prepare a workable shutdown maintenance programme from the electrical work and planning conditions in `/workspace/input/`. We want the crews to understand how the site work, return to service and follow-up fit together.
+
+Deliver `/workspace/output/电力设备检修进度计划表.xlsx`, completed from `/workspace/input/检修安排/电力检修进度计划表（待编）.xlsx`. Use its four worksheets: the package schedule in `进度安排`, later milestones in `后续安排`, the daily Gantt view in `日历进度`, and planning notes in `说明`. Retain the published sheet names, package identifiers and column headings. Save this workbook directly at the stated path; the notes belong in the workbook.

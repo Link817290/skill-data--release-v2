@@ -1,0 +1,21 @@
+{
+  "version": "original-source-same-output-event-binding-v1",
+  "items": [
+    {
+      "id": "clock_atom_specific_staging_qualification",
+      "completion_values": [
+        0,
+        1
+      ],
+      "criterion": "Only ChenXuan/HZ220031 unknown maternity allowance final reconciliation/follow-up. Exclude already-known 1680/400 payroll correction/payment and every other employee; those have separate owners. Read complete candidate rows and source. A specific actual qualification applies across linked rows/IDs and global rules with a genuine case/output binding. Do not invent stages or receipt definitions from business custom. Evidence must quote candidate scope, including material contrary evidence. Missing work is not affirmative error. The bounded output itself is explicitly provisional/not final, or the candidate actually adopts a distinct preliminary amount/document output and a later final cash/settlement output. A specific statement attached to that output such as不得宣称最终清算完成 counts even if its document title contains清算单. Genericplan/not-yet-completed status, amount pending, closure proof not yet available, 核算/清算 words alone, or a different known-wage correction are not sufficient staging. If there is no such candidate-adopted qualification, return0. CRITICAL SAME-OUTPUT BINDING: assess the operative bounded output itself, NOT whether any staging exists anywhere in the file. A prior provisional R02 worksheet does not qualify a later independent A09 final-output promise. If the actually adopted clause says the SAME final output both needs arrival and is unconditionally due receipt+N without a defer/advance route, merely mentioning the two events is NOT two adopted outputs and is NOT a staging qualification: return0. A later/current explicit final commitment cannot be cancelled by earlier generic provisional language concerning another output. For1, quote the precise bounded output and the actual qualification attached to that output; identify the distinct preliminary product if relying on a stage. Do not quote an unconditional same-final-output contradiction as evidence of staging."
+    },
+    {
+      "id": "unit__zhou_actual_night__action",
+      "completion_values": [
+        0,
+        1
+      ],
+      "criterion": "Only ZhouQian/HZ240117 July21 actual-night event follow-up: does the candidate adopt an accountable event fact-review/correction route with applicable responsible function, timing and observable fact/handling record, possibly distributed across same-case actions/global closure rules? It is a proposed plan, not necessarily executed. A plan to form a July21 fact record immediately and submit it to employee-relations review, linked to the responsible HR/manager and scheduled corrective action, can satisfy the route. No special bank document, extra completed-payment step, per-source filename or duplicate row is required. Original02-01P11 requires version preservation at actual system/manual inconsistencies; do not turn He conflicting-task-version retention into an extra mandatory Zhou event criterion when Zhou source actual-night records agree. Genuine independent missing event review/responsible route can still be0. Cite candidate evidence for either value."
+    }
+  ]
+}

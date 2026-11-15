@@ -1,0 +1,38 @@
+{
+  "request_sha256": "78cb80822acbc8f121f1ff29d128406db4b9604050d0a8a968eec090d47417c9",
+  "runtime_identity": {
+    "task/tests/mix_judge/semantic_live.py": "9b4eb8b94b111efad10533709205ab6159d9e0ea1198145741cd22623aec7efd",
+    "task/tests/mix_judge/apply_semantic.py": "55d2ff1ccc338d8890f2157345c2cc53b114e452393aaaffeaa7700d4041721b",
+    "task/tests/mix_judge/semantic_contract.json": "30c5324293acea445a120b10c6b7998ee3d49f9eb05699e774e0179ec10485e7",
+    "task/tests/ground_truth.json": "c2c74303a00aaa7d6c6c9ace31a166b6b94f7fd86038029320045482745c49c4",
+    "task/instruction.md": "01b100d6ca915d8c8ceddcf9bc195bb995acc180d908ef2d8a46b57ffb0ac1c8"
+  },
+  "verdict": {
+    "dimensions": [
+      {
+        "id": "claim_meaning",
+        "reason": "The candidate preserves the claim subjects, actor direction, signaling paths, temporal ordering, and published-versus-issued feature sets. Its adopted element statuses, issued expansions, dependency treatment, and terminal calls match the authoritative propositions without equating static levels, optional support, or shared terminology with distinct claimed relationships.",
+        "score": 1
+      },
+      {
+        "id": "evidence_binding",
+        "reason": "The findings are bound to the correct target-specific sources and use composite evidence only where the authoritative bridges are established. Unresolved ON/TI borrowing, patent-to-product linkage, low/high-mode transfer, regional generalization, and protocol-phase equivalence remain non-dispositive. Contextual claim materials are not improperly adopted as product proof.",
+        "score": 1
+      },
+      {
+        "id": "reasoning_coherence",
+        "reason": "Element classifications, construction dependencies, bridge effects, decisive-feature lists, sensitivity outcomes, and terminal calls are mutually consistent with the all-elements rule. PASS is limited to comparisons with every required feature directly shown, while open limitations correctly produce REVIEW rather than an unsupported positive conclusion.",
+        "score": 1
+      },
+      {
+        "id": "scope_calibration",
+        "reason": "The candidate distinctly handles published and issued claims, printed dependency defects and non-repair, candidate family relations, same-number scope changes, direct/composite/not-shown evidence, target operating modes, and technical-triage limitations. The dependency, correspondence, version-impact, construction, and sensitivity records align with the authoritative scope ledger.",
+        "score": 1
+      }
+    ],
+    "summary": "The candidate is semantically aligned with the authoritative reference across the designated published and issued comparisons, dependency audit, family correspondence, evidence bridges, construction issues, and sensitivity cases. No material meaning, evidence-role, coherence, or scope error is apparent.",
+    "semantic_score": 1.0
+  },
+  "provider_response_id": "resp_0a0bae2701ef2860016af9d710925c87d0882ec7d3238dbb1f",
+  "model": "gpt-5.6-sol"
+}

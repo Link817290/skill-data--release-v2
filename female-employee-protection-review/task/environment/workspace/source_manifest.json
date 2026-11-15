@@ -1,0 +1,40 @@
+{
+  "origin_zip_name": "user-1765_task-20260918-02.zip",
+  "origin_zip_sha256": "1af9fe48892dbc9be60905922f1059ec4645f8afefdbceedd62e0fea9fcc8f7e",
+  "business_sources_modified": false,
+  "sources": [
+    {
+      "path": "materials/02-01_门店HR复核需求与审查范围.doc",
+      "sha256": "b7f15cd926d4fe4f80e1a5076b1ba3e241253ecfa11fff87efd3c8eaf2c1e28b"
+    },
+    {
+      "path": "materials/02-05_考勤绩效与现场任务记录.xls",
+      "sha256": "0d21ff7b2315c55af501b95573724476c05cfa2d9c89d68981067e5141095207"
+    },
+    {
+      "path": "materials/02-08_适用法源与制度摘录.doc",
+      "sha256": "d8b0cf871e1ba1c951ad2a6e1cccfe3c9a6962f416c9f1f610cea9ba35c812e1"
+    },
+    {
+      "path": "materials/02-03_2026年5-8月门店排班发布记录.xls",
+      "sha256": "418f8fa7f3030dd20395b39af92e3252e8a8616e71dbe17cad03efe56e654433"
+    },
+    {
+      "path": "materials/02-06_工资与社保处理台账.xls",
+      "sha256": "41bce84a932f3419e409413501d98ca090eb27f5f5758bb70274e78042738d33"
+    },
+    {
+      "path": "materials/02-04_岗位风险评估与临时工作安排记录.doc",
+      "sha256": "b7e91ba02ba22f8add9e238526faf3ef52d2a0e96b0788ab9113db41451427ed"
+    },
+    {
+      "path": "materials/02-07_沟通审批与合同状态记录汇总.doc",
+      "sha256": "a775fc57aee14c55661c1a70f7182f4923b65e7fd67479aa1da854a6bf4b1738"
+    },
+    {
+      "path": "materials/02-02_员工申请与医疗及生育证明汇总.doc",
+      "sha256": "80bdc47bf6cb5a439c86978d3775d61a5b9ae229d335e81fe5dccd479dae192e"
+    }
+  ],
+  "index_generated_from_original_electronic_sources": true
+}

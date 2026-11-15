@@ -1,0 +1,19 @@
+{
+  "id": "author-qualified-5e8d1c968d5da63d",
+  "model": "gpt-5.6-sol",
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "phase": "final_answer",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"reference_conflict\": false, \"criteria\": {\"embedded_independent_validation_receipt\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S2-R19\"], \"reference_ids\": [\"G1-S2-R19\"]}, \"maintainable_event_update_mechanism\": {\"score\": 1, \"reason\": \"The authored reference contains the complete source-bound operational control for this criterion.\", \"candidate_ids\": [\"C1-S2-R3\"], \"reference_ids\": [\"G1-S2-R3\"]}}, \"notes\": [\"Author-qualified Golden replay.\"]}"
+        }
+      ]
+    }
+  ]
+}

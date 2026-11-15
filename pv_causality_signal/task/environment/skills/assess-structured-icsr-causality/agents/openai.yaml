@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Structured ICSR Causality"
+  short_description: "Calibrate causality from structured case evidence"
+  default_prompt: "Use $assess-structured-icsr-causality to assess case causality without overreading structured fields."

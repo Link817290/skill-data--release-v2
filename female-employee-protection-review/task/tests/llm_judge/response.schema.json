@@ -1,0 +1,133 @@
+{
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "minItems": 84,
+      "maxItems": 84,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "unit__zhou_actual_night__analysis",
+              "unit__zhou_actual_night__source",
+              "unit__zhou_actual_night__action",
+              "unit__zhao_actual_night__analysis",
+              "unit__zhao_actual_night__source",
+              "unit__zhao_actual_night__action",
+              "unit__zhou_pay__analysis",
+              "unit__zhou_pay__source",
+              "unit__zhou_pay__action",
+              "unit__zhao_pay__analysis",
+              "unit__zhao_pay__source",
+              "unit__zhao_pay__action",
+              "unit__he_task_conflict__analysis",
+              "unit__he_task_conflict__source",
+              "unit__he_task_conflict__action",
+              "unit__chen_system__analysis",
+              "unit__chen_system__source",
+              "unit__chen_system__action",
+              "unit__zhou_protection__analysis",
+              "unit__zhou_protection__source",
+              "unit__zhou_protection__action",
+              "unit__zhao_protection__analysis",
+              "unit__zhao_protection__source",
+              "unit__zhao_protection__action",
+              "unit__he_contract_hold__analysis",
+              "unit__he_contract_hold__source",
+              "unit__he_contract_hold__action",
+              "chen_calendar_conditional_analysis",
+              "chen_pay_conditional_analysis",
+              "wang_contract_conditional_analysis",
+              "zhou_performance_record",
+              "zhou_event_review",
+              "chen_receipt_followup",
+              "he_full_period_scope_analysis",
+              "he_full_period_source_binding",
+              "he_full_period_executable_action",
+              "zhao_may18_22_evidence_boundary",
+              "zhao_may18_22_retrospective_verification",
+              "zhao_july14_evidence_boundary",
+              "zhao_july14_retrospective_verification",
+              "zhao_aug8_evidence_boundary",
+              "zhao_aug8_retrospective_verification",
+              "chen_payroll_source_bridge",
+              "zhao_deduction_period_link",
+              "chen_final_payment_responsibility_path",
+              "chen_september_phase_handoff",
+              "chen_postreturn_nursing_work_time",
+              "chen_postreturn_no_night_overtime",
+              "wang_nursing_schedule_correction",
+              "he_prior_reconfirmation_scope",
+              "he_current_operational_control",
+              "he_current_evidence_action",
+              "he_current_stage_analysis",
+              "he_current_stage_source",
+              "chen_known_record_correction",
+              "chen_affirmative_correction_consistency",
+              "benefit_execution_trigger_consistency",
+              "benefit_affirmative_execution_consistency",
+              "he_prior_confirmation_evidence_truth",
+              "harm_chen_calendar",
+              "harm_wang_calendar",
+              "harm_he_current_stage",
+              "safe_zhou_medical_arithmetic",
+              "safe_zhao_aug08_source_field",
+              "safe_chen_current_wage_execution",
+              "safe_zhou_protection_decision",
+              "safe_zhou_payroll_decision",
+              "safe_zhao_protection_decision",
+              "safe_zhao_payroll_decision",
+              "safe_chen_leave_decision",
+              "safe_he_operational_decision",
+              "safe_he_contract_decision",
+              "safe_wang_contract_decision",
+              "usable_zhou_review",
+              "usable_he_review",
+              "usable_chen_review",
+              "usable_zhao_review",
+              "usable_wang_review",
+              "usable_evidence_truth",
+              "usable_accountable_open_controls",
+              "delivery_cross_file_consistency",
+              "delivery_reference_resolution",
+              "delivery_timeline_integrity",
+              "delivery_source_inventory"
+            ]
+          },
+          "completion": {
+            "type": "integer",
+            "enum": [
+              0,
+              1
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "rationale": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "completion",
+          "evidence_ids",
+          "rationale"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "items"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,14 @@
+{
+  "expert_original": {
+    "path": "expert-original.xlsx",
+    "sha256": "c4c1fb00b1b1b5dcb8bb581e2af4dfe1ae1b16c523b14a3c965f016bfbd45ed8",
+    "original_filename": "Philips_Hue_and_Ambilight_Link_Test_Cases_EN.xlsx"
+  },
+  "reference": {
+    "path": "linkage-test-cases.xlsx",
+    "sha256": "c5d9c404b8fc11c9d386945de833d3c6a7bb6b3f0dad1ab8a66704c4b3fd91c8",
+    "derivation": "Authored test design using supplied materials. Package author has seen expert Gold; this is not a blind model result."
+  },
+  "materials_modified": false,
+  "no_gold_backfill_in_solver_inputs": true
+}

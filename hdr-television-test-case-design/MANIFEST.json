@@ -1,0 +1,141 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "hdr-television-test-case-design",
+  "tasks": [
+    "hdr-television-test-case-design"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 32,
+  "bytes_excluding_manifest": 20757297,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2431,
+      "sha256": "60c871657150d5d252e06f474d7f9e60074d93239e4d022b54468fe6d526e951"
+    },
+    "RUBRIC.md": {
+      "bytes": 3353,
+      "sha256": "8319c006603e55420749a57c84313905d4c3c4ff699d38a85f8a95c58427feb3"
+    },
+    "dataset.toml": {
+      "bytes": 919,
+      "sha256": "be670bb2482d35d9fc4b85625996b32cfabdd35c6d8d31ed35ff6b0576d709cb"
+    },
+    "golden/LG OLED65C22LB_Hardware_Test_Cases_EN.xlsx": {
+      "bytes": 11336,
+      "sha256": "6810124c6e486b4e794bc57c13f1d0b4a16b8dbafd76fab924682b52c8de4c7b"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 359,
+      "sha256": "081b19af0eb3ccd7f9d1ed22b9e15ea55a8ffb085f56e8689e1c8243466089c4"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 92,
+      "sha256": "b5972b6eb0abc10d302f9da6582bfc731bcd23f9fcc81d77fec63bd6c44fddf2"
+    },
+    "task/environment/skills/hdr-test-case-design/SKILL.md": {
+      "bytes": 6820,
+      "sha256": "5146ebc384a7659a60690fc93d9e045e2a4712a5dc009420b64040bd12aba217"
+    },
+    "task/environment/skills/hdr-test-case-design/references/evidence-mapping.md": {
+      "bytes": 2332,
+      "sha256": "325ae5267d5264b3e468431ba06e422d69f2b5b30bfd8d6b15aa5ea84f433228"
+    },
+    "task/environment/skills/hdr-test-case-design/references/test-case-review-checklist.md": {
+      "bytes": 1784,
+      "sha256": "70ab0861484cee24fab50f6de255319236cd496b71f378ecd270760d0bf1903d"
+    },
+    "task/environment/skills/hdr-test-case-design/references/test-selection.md": {
+      "bytes": 2710,
+      "sha256": "ef99c29f3a98883882f9f7a79d1d237526651e7d7aab88c35b94aea89dd85852"
+    },
+    "task/environment/skills/hdr-test-case-design/scripts/check_deliverable.py": {
+      "bytes": 2553,
+      "sha256": "96a6ff22dd9120b374e9c78fdb3b38149c0ebe17810541c49dc037bb6c203210"
+    },
+    "task/environment/workspace/HDR_Function_Test_Item_List_Template.xlsx": {
+      "bytes": 5263,
+      "sha256": "bca1974dd0dea28fe269a4689d6ed930cc7960534ac94150ec56df90cc37bcac"
+    },
+    "task/environment/workspace/HDR_Technology_Complete_Specification_Guide.pdf": {
+      "bytes": 195890,
+      "sha256": "d4e345aabe02ab53a807b9a8f329cbda98773026af752189a3646b640bc16330"
+    },
+    "task/environment/workspace/LG OLED65C22LB.pdf": {
+      "bytes": 246026,
+      "sha256": "281f0ee92c9a329788824f10cdbbeb8ea430e5dfc6bd077e19fa8942fd764d3a"
+    },
+    "task/environment/workspace/LG_OLED65C22LB_HDR_Acceptance_Requirements.docx": {
+      "bytes": 40402,
+      "sha256": "d82f01d5074638964a44a5c7f2ecbc6013f33a7f02e98f81631530166f1e7d7d"
+    },
+    "task/environment/workspace/SMW200A_GettingStarted_en_13.pdf": {
+      "bytes": 20084695,
+      "sha256": "695ea72db58b16efbfd0f754938df724a428e4fc5b277367443ec26951f690a3"
+    },
+    "task/environment/workspace/SNW200A_Project_Operating_Basis_Sanitized.md": {
+      "bytes": 3071,
+      "sha256": "c3955ecd081f11879d415366c78365fcffdc24e9fa6e03ccf47715583fbce0bc"
+    },
+    "task/environment/workspace/source_manifest.json": {
+      "bytes": 1180,
+      "sha256": "28b59a056a574c0ffd345203e47f7c8acf872aaaac6f16160f7566f7a37663a3"
+    },
+    "task/instruction.md": {
+      "bytes": 635,
+      "sha256": "03f31edc4eddd1462686a32e1384b86f03b8c124ab0abf5abd65419a314288c6"
+    },
+    "task/solution/LG OLED65C22LB_Hardware_Test_Cases_EN.xlsx": {
+      "bytes": 11336,
+      "sha256": "6810124c6e486b4e794bc57c13f1d0b4a16b8dbafd76fab924682b52c8de4c7b"
+    },
+    "task/solution/golden_deliverable.md": {
+      "bytes": 298,
+      "sha256": "e00684201bb7d0933289838297ea09dacf0a4270795f35b6e361d969e964e349"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 231,
+      "sha256": "7053f2c2905cb62303ca1d4e5ef2a21b9ffd7c07dd948755e6915dd69bd3c29c"
+    },
+    "task/task.toml": {
+      "bytes": 898,
+      "sha256": "d2bcac64e9c78ec2c6b71bfc965966cf1c5738aa3b36a5be1f2efe5db40172c2"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 896,
+      "sha256": "1f774fcf74351367083c17303005260be943d87b20baa58b62052d0a1e526b0c"
+    },
+    "task/tests/capability_map.json": {
+      "bytes": 584,
+      "sha256": "b28837f42b4a932e4b294f577a44b64545cd765d9f5324b96f8e2c36ee556265"
+    },
+    "task/tests/golden_replay/d506c27246ef0aa4cb2c331b47b2e45ccf4349b743ead317f5c99fe93e2d7087.json": {
+      "bytes": 5841,
+      "sha256": "e0486b516f06a766e820e1bed797fbf66b9eaef970cfd850ecdf66904c98212e"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 12383,
+      "sha256": "5fcd0f68a97872bacc9709e46c7cc297dce7f5993d7452f5bea6e2ebc53ad21c"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 8995,
+      "sha256": "d8d2f1590badba04a72ab13626ff0060ebfc39c468555ad044142e7f9da18a14"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 67020,
+      "sha256": "03d6811b5079fbc65d8bc029ed50942d8c882546fca3204795e66d8327a0ea17"
+    },
+    "task/tests/source_manifest.json": {
+      "bytes": 530,
+      "sha256": "80034b283d31fb9d67182f3935a83ec2f526d79ee93c7b4a330c1f665dbad2c0"
+    },
+    "task/tests/test.sh": {
+      "bytes": 3742,
+      "sha256": "109bbf94f4f0a96916693d0a4206d653a35047f6b813312684eebffeaff3b107"
+    },
+    "task/tests/validator.py": {
+      "bytes": 32692,
+      "sha256": "56256ad7f990ddca245a055f3a15d0ef32c098f6a4bc2a20e490d0bb7037f269"
+    }
+  }
+}

@@ -1,0 +1,1236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>揚州慢</title>
+        <composer>番陽姜夔堯章</composer>
+      </titleStmt>
+      <pubStmt>
+        <availability>Diplomatic transcription for archival interchange</availability>
+      </pubStmt>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Source-faithful vertical Chinese suzipu transcription with facsimile zones</p>
+      </projectDesc>
+    </encodingDesc>
+  </meiHead>
+  <facsimile>
+    <surface xml:id="p01" n="1" ulx="0" uly="0" lrx="800" lry="1233">
+      <graphic target="../materials/source_page_01.png" width="800px" height="1233px" />
+      <zone xml:id="attribution-0" type="attribution-text" ulx="602" uly="638" lrx="668" lry="707" />
+      <zone xml:id="attribution-1" type="attribution-text" ulx="606" uly="707" lrx="667" lry="770" />
+      <zone xml:id="attribution-2" type="attribution-text" ulx="604" uly="770" lrx="668" lry="831" />
+      <zone xml:id="attribution-3" type="attribution-text" ulx="604" uly="893" lrx="668" lry="965" />
+      <zone xml:id="attribution-4" type="attribution-text" ulx="604" uly="965" lrx="667" lry="1029" />
+      <zone xml:id="attribution-5" type="attribution-text" ulx="604" uly="1029" lrx="668" lry="1100" />
+      <zone xml:id="tx001" type="title-text" ulx="472" uly="201" lrx="530" lry="266" />
+      <zone xml:id="tx002" type="title-text" ulx="474" uly="270" lrx="524" lry="320" />
+      <zone xml:id="tx003" type="title-text" ulx="476" uly="325" lrx="532" lry="384" />
+      <zone xml:id="tx004" type="mode-text" ulx="502" uly="397" lrx="532" lry="448" />
+      <zone xml:id="tx005" type="mode-text" ulx="505" uly="462" lrx="530" lry="507" />
+      <zone xml:id="tx006" type="mode-text" ulx="502" uly="522" lrx="534" lry="570" />
+      <zone xml:id="tx007" type="preface-text" ulx="410" uly="265" lrx="463" lry="327" />
+      <zone xml:id="tx008" type="preface-text" ulx="415" uly="331" lrx="462" lry="384" />
+      <zone xml:id="tx009" type="preface-text" ulx="414" uly="394" lrx="460" lry="450" />
+      <zone xml:id="tx010" type="preface-text" ulx="413" uly="451" lrx="458" lry="515" />
+      <zone xml:id="tx011" type="preface-text" ulx="415" uly="521" lrx="463" lry="575" />
+      <zone xml:id="tx012" type="preface-text" ulx="423" uly="589" lrx="453" lry="631" />
+      <zone xml:id="tx013" type="preface-text" ulx="414" uly="639" lrx="469" lry="700" />
+      <zone xml:id="tx014" type="preface-text" ulx="412" uly="705" lrx="464" lry="765" />
+      <zone xml:id="tx015" type="preface-text" ulx="411" uly="772" lrx="462" lry="829" />
+      <zone xml:id="tx016" type="preface-text" ulx="412" uly="832" lrx="462" lry="893" />
+      <zone xml:id="tx017" type="preface-text" ulx="415" uly="900" lrx="464" lry="957" />
+      <zone xml:id="tx018" type="preface-text" ulx="414" uly="962" lrx="464" lry="1022" />
+      <zone xml:id="tx019" type="preface-text" ulx="411" uly="1032" lrx="462" lry="1085" />
+      <zone xml:id="tx020" type="preface-text" ulx="416" uly="1087" lrx="465" lry="1150" />
+      <zone xml:id="tx021" type="preface-text" ulx="415" uly="1152" lrx="471" lry="1216" />
+      <zone xml:id="tx022" type="preface-text" ulx="348" uly="263" lrx="396" lry="325" />
+      <zone xml:id="tx023" type="preface-text" ulx="350" uly="330" lrx="396" lry="386" />
+      <zone xml:id="tx024" type="preface-text" ulx="348" uly="390" lrx="396" lry="452" />
+      <zone xml:id="tx025" type="preface-text" ulx="348" uly="468" lrx="400" lry="502" />
+      <zone xml:id="tx026" type="preface-text" ulx="349" uly="514" lrx="402" lry="575" />
+      <zone xml:id="tx027" type="preface-text" ulx="349" uly="579" lrx="401" lry="635" />
+      <zone xml:id="tx028" type="preface-text" ulx="349" uly="644" lrx="395" lry="700" />
+      <zone xml:id="tx029" type="preface-text" ulx="351" uly="711" lrx="396" lry="755" />
+      <zone xml:id="tx030" type="preface-text" ulx="347" uly="770" lrx="398" lry="827" />
+      <zone xml:id="tx031" type="preface-text" ulx="347" uly="830" lrx="399" lry="899" />
+      <zone xml:id="tx032" type="preface-text" ulx="349" uly="903" lrx="402" lry="958" />
+      <zone xml:id="tx033" type="preface-text" ulx="351" uly="964" lrx="399" lry="1028" />
+      <zone xml:id="tx034" type="preface-text" ulx="349" uly="1033" lrx="401" lry="1087" />
+      <zone xml:id="tx035" type="preface-text" ulx="358" uly="1094" lrx="392" lry="1150" />
+      <zone xml:id="tx036" type="preface-text" ulx="347" uly="1153" lrx="393" lry="1216" />
+      <zone xml:id="tx037" type="preface-text" ulx="278" uly="260" lrx="334" lry="325" />
+      <zone xml:id="tx038" type="preface-text" ulx="284" uly="332" lrx="330" lry="387" />
+      <zone xml:id="tx039" type="preface-text" ulx="281" uly="390" lrx="335" lry="449" />
+      <zone xml:id="tx040" type="preface-text" ulx="276" uly="458" lrx="335" lry="512" />
+      <zone xml:id="tx041" type="preface-text" ulx="284" uly="515" lrx="334" lry="577" />
+      <zone xml:id="tx042" type="preface-text" ulx="286" uly="581" lrx="326" lry="641" />
+      <zone xml:id="tx043" type="preface-text" ulx="284" uly="641" lrx="331" lry="700" />
+      <zone xml:id="tx044" type="preface-text" ulx="278" uly="705" lrx="338" lry="764" />
+      <zone xml:id="tx045" type="preface-text" ulx="282" uly="773" lrx="331" lry="831" />
+      <zone xml:id="tx046" type="preface-text" ulx="285" uly="835" lrx="335" lry="897" />
+      <zone xml:id="tx047" type="preface-text" ulx="283" uly="900" lrx="338" lry="960" />
+      <zone xml:id="tx048" type="preface-text" ulx="287" uly="964" lrx="334" lry="1022" />
+      <zone xml:id="tx049" type="preface-text" ulx="285" uly="1028" lrx="335" lry="1085" />
+      <zone xml:id="tx050" type="preface-text" ulx="285" uly="1098" lrx="337" lry="1147" />
+      <zone xml:id="tx051" type="preface-text" ulx="283" uly="1154" lrx="339" lry="1214" />
+      <zone xml:id="tx052" type="preface-text" ulx="214" uly="266" lrx="264" lry="327" />
+      <zone xml:id="tx053" type="preface-text" ulx="216" uly="334" lrx="258" lry="382" />
+      <zone xml:id="tx054" type="preface-text" ulx="220" uly="390" lrx="255" lry="450" />
+      <zone xml:id="tx055" type="preface-text" ulx="211" uly="454" lrx="266" lry="514" />
+      <zone xml:id="tx056" type="preface-text" ulx="212" uly="521" lrx="267" lry="574" />
+      <zone xml:id="tx057" type="preface-text" ulx="218" uly="582" lrx="263" lry="635" />
+      <zone xml:id="tx058" type="preface-text" ulx="218" uly="644" lrx="265" lry="700" />
+      <zone xml:id="tx059" type="preface-text" ulx="215" uly="703" lrx="271" lry="769" />
+      <zone xml:id="tx060" type="preface-text" ulx="210" uly="774" lrx="265" lry="830" />
+      <zone xml:id="tx061" type="preface-text" ulx="212" uly="839" lrx="270" lry="890" />
+      <zone xml:id="tx062" type="preface-text" ulx="217" uly="906" lrx="265" lry="952" />
+      <zone xml:id="tx063" type="preface-text" ulx="209" uly="960" lrx="263" lry="1025" />
+      <zone xml:id="tx064" type="preface-text" ulx="209" uly="1031" lrx="264" lry="1085" />
+      <zone xml:id="tx065" type="preface-text" ulx="215" uly="1091" lrx="270" lry="1153" />
+      <zone xml:id="tx066" type="preface-text" ulx="210" uly="1156" lrx="268" lry="1214" />
+      <zone xml:id="tx067" type="preface-text" ulx="148" uly="270" lrx="198" lry="319" />
+      <zone xml:id="tx068" type="preface-text" ulx="148" uly="326" lrx="198" lry="385" />
+      <zone xml:id="tx069" type="preface-text" ulx="143" uly="396" lrx="199" lry="449" />
+      <zone xml:id="tx070" type="music-text" ulx="13" uly="15" lrx="63" lry="70" />
+      <zone xml:id="nt070" type="suzipu-sign" ulx="89" uly="23" lrx="122" lry="64" />
+      <zone xml:id="tx071" type="music-text" ulx="10" uly="76" lrx="63" lry="133" />
+      <zone xml:id="nt071" type="suzipu-sign" ulx="92" uly="86" lrx="115" lry="125" />
+      <zone xml:id="tx072" type="music-text" ulx="12" uly="144" lrx="57" lry="200" />
+      <zone xml:id="nt072" type="suzipu-sign" ulx="86" uly="156" lrx="120" lry="181" />
+      <zone xml:id="tx073" type="music-text" ulx="6" uly="205" lrx="64" lry="264" />
+      <zone xml:id="nt073" type="suzipu-sign" ulx="88" uly="215" lrx="120" lry="249" />
+      <zone xml:id="tx074" type="music-text" ulx="13" uly="268" lrx="66" lry="325" />
+      <zone xml:id="nt074" type="suzipu-sign" ulx="95" uly="272" lrx="120" lry="311" />
+      <zone xml:id="tx075" type="music-text" ulx="18" uly="333" lrx="64" lry="381" />
+      <zone xml:id="nt075" type="suzipu-sign" ulx="94" uly="341" lrx="114" lry="378" />
+      <zone xml:id="tx076" type="music-text" ulx="16" uly="387" lrx="61" lry="446" />
+      <zone xml:id="nt076" type="suzipu-sign" ulx="93" uly="401" lrx="120" lry="443" />
+      <zone xml:id="tx077" type="music-text" ulx="12" uly="455" lrx="66" lry="517" />
+      <zone xml:id="nt077" type="suzipu-sign" ulx="94" uly="468" lrx="120" lry="502" />
+      <zone xml:id="tx078" type="music-text" ulx="14" uly="521" lrx="68" lry="577" />
+      <zone xml:id="nt078" type="suzipu-sign" ulx="94" uly="541" lrx="123" lry="551" />
+      <zone xml:id="tx079" type="music-text" ulx="14" uly="583" lrx="68" lry="639" />
+      <zone xml:id="nt079" type="suzipu-sign" ulx="90" uly="592" lrx="123" lry="623" />
+      <zone xml:id="tx080" type="music-text" ulx="17" uly="646" lrx="65" lry="701" />
+      <zone xml:id="nt080" type="suzipu-sign" ulx="95" uly="654" lrx="117" lry="692" />
+      <zone xml:id="tx081" type="music-text" ulx="15" uly="706" lrx="67" lry="766" />
+      <zone xml:id="nt081" type="suzipu-sign" ulx="90" uly="731" lrx="121" lry="741" />
+      <zone xml:id="tx082" type="music-text" ulx="12" uly="774" lrx="65" lry="833" />
+      <zone xml:id="nt082" type="suzipu-sign" ulx="92" uly="783" lrx="115" lry="818" />
+      <zone xml:id="tx083" type="music-text" ulx="10" uly="841" lrx="68" lry="895" />
+      <zone xml:id="nt083" type="suzipu-sign" ulx="93" uly="847" lrx="120" lry="890" />
+      <zone xml:id="tx084" type="music-text" ulx="14" uly="903" lrx="73" lry="963" />
+      <zone xml:id="nt084" type="suzipu-sign" ulx="92" uly="910" lrx="124" lry="945" />
+      <zone xml:id="tx085" type="music-text" ulx="12" uly="965" lrx="71" lry="1023" />
+      <zone xml:id="nt085" type="suzipu-sign" ulx="90" uly="983" lrx="121" lry="1009" />
+      <zone xml:id="tx086" type="music-text" ulx="18" uly="1027" lrx="68" lry="1083" />
+      <zone xml:id="nt086" type="suzipu-sign" ulx="89" uly="1039" lrx="127" lry="1073" />
+      <zone xml:id="tx087" type="music-text" ulx="19" uly="1092" lrx="67" lry="1151" />
+      <zone xml:id="nt087" type="suzipu-sign" ulx="91" uly="1100" lrx="116" lry="1138" />
+      <zone xml:id="tx088" type="music-text" ulx="19" uly="1157" lrx="67" lry="1213" />
+      <zone xml:id="nt088" type="suzipu-sign" ulx="98" uly="1167" lrx="121" lry="1196" />
+    </surface>
+    <surface xml:id="p02" n="2" ulx="0" uly="0" lrx="800" lry="1274">
+      <graphic target="../materials/source_page_02.png" width="800px" height="1274px" />
+      <zone xml:id="tx089" type="music-text" ulx="649" uly="15" lrx="698" lry="76" />
+      <zone xml:id="nt089" type="suzipu-sign" ulx="721" uly="27" lrx="756" lry="65" />
+      <zone xml:id="tx090" type="music-text" ulx="644" uly="77" lrx="703" lry="143" />
+      <zone xml:id="nt090" type="suzipu-sign" ulx="725" uly="89" lrx="756" lry="131" />
+      <zone xml:id="tx091" type="music-text" ulx="649" uly="144" lrx="701" lry="212" />
+      <zone xml:id="nt091" type="suzipu-sign" ulx="722" uly="155" lrx="762" lry="206" />
+      <zone xml:id="tx092" type="music-text" ulx="647" uly="213" lrx="698" lry="274" />
+      <zone xml:id="nt092" type="suzipu-sign" ulx="726" uly="222" lrx="755" lry="264" />
+      <zone xml:id="tx093" type="music-text" ulx="650" uly="274" lrx="701" lry="339" />
+      <zone xml:id="nt093" type="suzipu-sign" ulx="726" uly="276" lrx="755" lry="337" />
+      <zone xml:id="tx094" type="music-text" ulx="657" uly="344" lrx="692" lry="398" />
+      <zone xml:id="nt094" type="suzipu-sign" ulx="720" uly="364" lrx="758" lry="377" />
+      <zone xml:id="tx095" type="music-text" ulx="649" uly="408" lrx="699" lry="467" />
+      <zone xml:id="nt095" type="suzipu-sign" ulx="727" uly="418" lrx="753" lry="451" />
+      <zone xml:id="tx096" type="music-text" ulx="651" uly="471" lrx="698" lry="535" />
+      <zone xml:id="nt096" type="suzipu-sign" ulx="723" uly="479" lrx="759" lry="515" />
+      <zone xml:id="tx097" type="music-text" ulx="646" uly="538" lrx="699" lry="605" />
+      <zone xml:id="nt097" type="suzipu-sign" ulx="724" uly="545" lrx="756" lry="588" />
+      <zone xml:id="tx098" type="music-text" ulx="648" uly="609" lrx="698" lry="661" />
+      <zone xml:id="nt098" type="suzipu-sign" ulx="723" uly="608" lrx="760" lry="653" />
+      <zone xml:id="tx099" type="music-text" ulx="641" uly="665" lrx="696" lry="725" />
+      <zone xml:id="nt099" type="suzipu-sign" ulx="724" uly="683" lrx="756" lry="715" />
+      <zone xml:id="tx100" type="music-text" ulx="643" uly="734" lrx="701" lry="792" />
+      <zone xml:id="nt100" type="suzipu-sign" ulx="728" uly="740" lrx="755" lry="793" />
+      <zone xml:id="tx101" type="music-text" ulx="641" uly="796" lrx="698" lry="862" />
+      <zone xml:id="nt101" type="suzipu-sign" ulx="728" uly="815" lrx="753" lry="853" />
+      <zone xml:id="tx102" type="music-text" ulx="644" uly="869" lrx="697" lry="922" />
+      <zone xml:id="nt102" type="suzipu-sign" ulx="726" uly="875" lrx="758" lry="920" />
+      <zone xml:id="tx103" type="music-text" ulx="641" uly="931" lrx="698" lry="995" />
+      <zone xml:id="nt103" type="suzipu-sign" ulx="728" uly="945" lrx="757" lry="991" />
+      <zone xml:id="tx104" type="music-text" ulx="642" uly="998" lrx="694" lry="1054" />
+      <zone xml:id="nt104" type="suzipu-sign" ulx="727" uly="1013" lrx="760" lry="1050" />
+      <zone xml:id="tx105" type="music-text" ulx="637" uly="1060" lrx="693" lry="1120" />
+      <zone xml:id="nt105" type="suzipu-sign" ulx="722" uly="1073" lrx="761" lry="1110" />
+      <zone xml:id="tx106" type="music-text" ulx="634" uly="1128" lrx="695" lry="1186" />
+      <zone xml:id="nt106" type="suzipu-sign" ulx="724" uly="1134" lrx="749" lry="1178" />
+      <zone xml:id="tx107" type="music-text" ulx="637" uly="1195" lrx="690" lry="1253" />
+      <zone xml:id="nt107" type="suzipu-sign" ulx="717" uly="1215" lrx="757" lry="1226" />
+      <zone xml:id="tx108" type="music-text" ulx="507" uly="15" lrx="564" lry="76" />
+      <zone xml:id="nt108" type="suzipu-sign" ulx="596" uly="27" lrx="622" lry="52" />
+      <zone xml:id="tx109" type="music-text" ulx="511" uly="82" lrx="567" lry="141" />
+      <zone xml:id="nt109" type="suzipu-sign" ulx="591" uly="97" lrx="626" lry="107" />
+      <zone xml:id="tx110" type="music-text" ulx="508" uly="143" lrx="563" lry="206" />
+      <zone xml:id="nt110" type="suzipu-sign" ulx="596" uly="151" lrx="616" lry="190" />
+      <zone xml:id="tx111" type="music-text" ulx="516" uly="206" lrx="564" lry="268" />
+      <zone xml:id="nt111" type="suzipu-sign" ulx="592" uly="215" lrx="621" lry="262" />
+      <zone xml:id="tx112" type="music-text" ulx="516" uly="272" lrx="565" lry="334" />
+      <zone xml:id="nt112" type="suzipu-sign" ulx="596" uly="284" lrx="621" lry="323" />
+      <zone xml:id="tx113" type="music-text" ulx="515" uly="340" lrx="557" lry="400" />
+      <zone xml:id="nt113" type="suzipu-sign" ulx="589" uly="346" lrx="622" lry="386" />
+      <zone xml:id="tx114" type="music-text" ulx="517" uly="403" lrx="564" lry="459" />
+      <zone xml:id="nt114" type="suzipu-sign" ulx="590" uly="412" lrx="621" lry="451" />
+      <zone xml:id="tx115" type="music-text" ulx="512" uly="468" lrx="566" lry="532" />
+      <zone xml:id="nt115" type="suzipu-sign" ulx="585" uly="479" lrx="621" lry="513" />
+      <zone xml:id="tx116" type="music-text" ulx="508" uly="536" lrx="566" lry="594" />
+      <zone xml:id="nt116" type="suzipu-sign" ulx="589" uly="544" lrx="612" lry="581" />
+      <zone xml:id="tx117" type="music-text" ulx="509" uly="600" lrx="562" lry="657" />
+      <zone xml:id="nt117" type="suzipu-sign" ulx="589" uly="605" lrx="614" lry="650" />
+      <zone xml:id="tx118" type="music-text" ulx="517" uly="663" lrx="563" lry="720" />
+      <zone xml:id="nt118" type="suzipu-sign" ulx="588" uly="671" lrx="609" lry="707" />
+      <zone xml:id="tx119" type="music-text" ulx="512" uly="728" lrx="563" lry="788" />
+      <zone xml:id="nt119" type="suzipu-sign" ulx="588" uly="737" lrx="613" lry="784" />
+      <zone xml:id="tx120" type="music-text" ulx="505" uly="862" lrx="560" lry="921" />
+      <zone xml:id="nt120" type="suzipu-sign" ulx="592" uly="870" lrx="615" lry="919" />
+      <zone xml:id="tx121" type="music-text" ulx="510" uly="932" lrx="557" lry="988" />
+      <zone xml:id="nt121" type="suzipu-sign" ulx="586" uly="940" lrx="612" lry="982" />
+      <zone xml:id="tx122" type="music-text" ulx="506" uly="996" lrx="557" lry="1056" />
+      <zone xml:id="nt122" type="suzipu-sign" ulx="587" uly="1014" lrx="611" lry="1037" />
+      <zone xml:id="tx123" type="music-text" ulx="507" uly="1058" lrx="559" lry="1126" />
+      <zone xml:id="nt123" type="suzipu-sign" ulx="584" uly="1068" lrx="617" lry="1111" />
+      <zone xml:id="tx124" type="music-text" ulx="503" uly="1126" lrx="557" lry="1192" />
+      <zone xml:id="nt124" type="suzipu-sign" ulx="581" uly="1149" lrx="613" lry="1157" />
+      <zone xml:id="tx125" type="music-text" ulx="508" uly="1198" lrx="557" lry="1250" />
+      <zone xml:id="nt125" type="suzipu-sign" ulx="587" uly="1211" lrx="608" lry="1236" />
+      <zone xml:id="tx126" type="music-text" ulx="375" uly="16" lrx="433" lry="81" />
+      <zone xml:id="nt126" type="suzipu-sign" ulx="451" uly="28" lrx="486" lry="61" />
+      <zone xml:id="tx127" type="music-text" ulx="373" uly="82" lrx="424" lry="146" />
+      <zone xml:id="nt127" type="suzipu-sign" ulx="456" uly="94" lrx="478" lry="127" />
+      <zone xml:id="tx128" type="music-text" ulx="365" uly="148" lrx="422" lry="207" />
+      <zone xml:id="nt128" type="suzipu-sign" ulx="457" uly="159" lrx="485" lry="185" />
+      <zone xml:id="tx129" type="music-text" ulx="371" uly="212" lrx="422" lry="273" />
+      <zone xml:id="nt129" type="suzipu-sign" ulx="458" uly="222" lrx="477" lry="256" />
+      <zone xml:id="tx130" type="music-text" ulx="371" uly="274" lrx="426" lry="345" />
+      <zone xml:id="nt130" type="suzipu-sign" ulx="458" uly="286" lrx="483" lry="330" />
+      <zone xml:id="tx131" type="music-text" ulx="374" uly="348" lrx="427" lry="401" />
+      <zone xml:id="nt131" type="suzipu-sign" ulx="454" uly="355" lrx="483" lry="382" />
+      <zone xml:id="tx132" type="music-text" ulx="373" uly="404" lrx="424" lry="468" />
+      <zone xml:id="nt132" type="suzipu-sign" ulx="451" uly="417" lrx="488" lry="451" />
+      <zone xml:id="tx133" type="music-text" ulx="372" uly="468" lrx="423" lry="531" />
+      <zone xml:id="nt133" type="suzipu-sign" ulx="456" uly="480" lrx="485" lry="516" />
+      <zone xml:id="tx134" type="music-text" ulx="367" uly="540" lrx="420" lry="598" />
+      <zone xml:id="nt134" type="suzipu-sign" ulx="461" uly="545" lrx="484" lry="584" />
+      <zone xml:id="tx135" type="music-text" ulx="370" uly="605" lrx="422" lry="651" />
+      <zone xml:id="nt135" type="suzipu-sign" ulx="454" uly="610" lrx="485" lry="649" />
+      <zone xml:id="tx136" type="music-text" ulx="366" uly="659" lrx="425" lry="727" />
+      <zone xml:id="nt136" type="suzipu-sign" ulx="448" uly="680" lrx="484" lry="718" />
+      <zone xml:id="tx137" type="music-text" ulx="368" uly="728" lrx="424" lry="792" />
+      <zone xml:id="nt137" type="suzipu-sign" ulx="447" uly="742" lrx="484" lry="774" />
+      <zone xml:id="tx138" type="music-text" ulx="372" uly="794" lrx="420" lry="864" />
+      <zone xml:id="nt138" type="suzipu-sign" ulx="453" uly="813" lrx="480" lry="838" />
+      <zone xml:id="tx139" type="music-text" ulx="363" uly="868" lrx="422" lry="925" />
+      <zone xml:id="nt139" type="suzipu-sign" ulx="449" uly="873" lrx="481" lry="912" />
+      <zone xml:id="tx140" type="music-text" ulx="367" uly="930" lrx="419" lry="993" />
+      <zone xml:id="nt140" type="suzipu-sign" ulx="444" uly="941" lrx="474" lry="975" />
+      <zone xml:id="tx141" type="music-text" ulx="367" uly="995" lrx="422" lry="1055" />
+      <zone xml:id="nt141" type="suzipu-sign" ulx="445" uly="1002" lrx="482" lry="1047" />
+      <zone xml:id="tx142" type="music-text" ulx="367" uly="1061" lrx="421" lry="1122" />
+      <zone xml:id="nt142" type="suzipu-sign" ulx="445" uly="1077" lrx="478" lry="1115" />
+      <zone xml:id="tx143" type="music-text" ulx="368" uly="1129" lrx="417" lry="1192" />
+      <zone xml:id="nt143" type="suzipu-sign" ulx="449" uly="1133" lrx="481" lry="1186" />
+      <zone xml:id="tx144" type="music-text" ulx="362" uly="1205" lrx="419" lry="1245" />
+      <zone xml:id="nt144" type="suzipu-sign" ulx="445" uly="1217" lrx="477" lry="1226" />
+      <zone xml:id="tx145" type="music-text" ulx="242" uly="14" lrx="292" lry="70" />
+      <zone xml:id="nt145" type="suzipu-sign" ulx="318" uly="28" lrx="351" lry="60" />
+      <zone xml:id="tx146" type="music-text" ulx="247" uly="86" lrx="290" lry="135" />
+      <zone xml:id="nt146" type="suzipu-sign" ulx="323" uly="89" lrx="343" lry="127" />
+      <zone xml:id="tx147" type="music-text" ulx="237" uly="143" lrx="297" lry="207" />
+      <zone xml:id="nt147" type="suzipu-sign" ulx="321" uly="149" lrx="348" lry="187" />
+      <zone xml:id="tx148" type="music-text" ulx="240" uly="214" lrx="292" lry="272" />
+      <zone xml:id="nt148" type="suzipu-sign" ulx="320" uly="223" lrx="345" lry="262" />
+      <zone xml:id="tx149" type="music-text" ulx="239" uly="272" lrx="289" lry="335" />
+      <zone xml:id="nt149" type="suzipu-sign" ulx="320" uly="282" lrx="348" lry="334" />
+      <zone xml:id="tx150" type="music-text" ulx="240" uly="338" lrx="291" lry="402" />
+      <zone xml:id="nt150" type="suzipu-sign" ulx="320" uly="350" lrx="340" lry="389" />
+      <zone xml:id="tx151" type="music-text" ulx="238" uly="421" lrx="291" lry="459" />
+      <zone xml:id="nt151" type="suzipu-sign" ulx="319" uly="416" lrx="346" lry="450" />
+      <zone xml:id="tx152" type="music-text" ulx="240" uly="467" lrx="289" lry="538" />
+      <zone xml:id="nt152" type="suzipu-sign" ulx="313" uly="495" lrx="344" lry="506" />
+      <zone xml:id="tx153" type="music-text" ulx="237" uly="538" lrx="292" lry="594" />
+      <zone xml:id="nt153" type="suzipu-sign" ulx="313" uly="545" lrx="346" lry="576" />
+      <zone xml:id="tx154" type="music-text" ulx="237" uly="602" lrx="277" lry="659" />
+      <zone xml:id="nt154" type="suzipu-sign" ulx="317" uly="609" lrx="338" lry="643" />
+      <zone xml:id="tx155" type="music-text" ulx="231" uly="665" lrx="292" lry="723" />
+      <zone xml:id="nt155" type="suzipu-sign" ulx="311" uly="676" lrx="339" lry="709" />
+      <zone xml:id="tx156" type="music-text" ulx="237" uly="728" lrx="290" lry="795" />
+      <zone xml:id="nt156" type="suzipu-sign" ulx="314" uly="738" lrx="340" lry="787" />
+      <zone xml:id="tx157" type="music-text" ulx="234" uly="796" lrx="292" lry="858" />
+      <zone xml:id="nt157" type="suzipu-sign" ulx="310" uly="819" lrx="344" lry="830" />
+      <zone xml:id="tx158" type="music-text" ulx="233" uly="863" lrx="292" lry="923" />
+      <zone xml:id="nt158" type="suzipu-sign" ulx="312" uly="880" lrx="341" lry="906" />
+      <zone xml:id="tx159" type="music-text" ulx="233" uly="928" lrx="287" lry="995" />
+      <zone xml:id="nt159" type="suzipu-sign" ulx="309" uly="935" lrx="343" lry="982" />
+      <zone xml:id="tx160" type="music-text" ulx="233" uly="1000" lrx="287" lry="1053" />
+      <zone xml:id="nt160" type="suzipu-sign" ulx="314" uly="1007" lrx="344" lry="1041" />
+      <zone xml:id="tx161" type="music-text" ulx="232" uly="1055" lrx="287" lry="1125" />
+      <zone xml:id="nt161" type="suzipu-sign" ulx="308" uly="1071" lrx="346" lry="1110" />
+      <zone xml:id="tx162" type="music-text" ulx="227" uly="1131" lrx="285" lry="1190" />
+      <zone xml:id="nt162" type="suzipu-sign" ulx="313" uly="1133" lrx="342" lry="1181" />
+      <zone xml:id="tx163" type="music-text" ulx="229" uly="1197" lrx="283" lry="1259" />
+      <zone xml:id="nt163" type="suzipu-sign" ulx="302" uly="1209" lrx="338" lry="1240" />
+      <zone xml:id="tx164" type="music-text" ulx="102" uly="19" lrx="156" lry="73" />
+      <zone xml:id="nt164" type="suzipu-sign" ulx="182" uly="20" lrx="203" lry="58" />
+      <zone xml:id="tx165" type="music-text" ulx="104" uly="75" lrx="156" lry="142" />
+      <zone xml:id="nt165" type="suzipu-sign" ulx="177" uly="88" lrx="205" lry="138" />
+      <zone xml:id="tx166" type="music-text" ulx="101" uly="147" lrx="157" lry="202" />
+      <zone xml:id="nt166" type="suzipu-sign" ulx="178" uly="151" lrx="202" lry="189" />
+      <zone xml:id="tx167" type="music-text" ulx="101" uly="212" lrx="158" lry="268" />
+      <zone xml:id="nt167" type="suzipu-sign" ulx="182" uly="216" lrx="208" lry="258" />
+    </surface>
+  </facsimile>
+  <music>
+    <body>
+      <mdiv type="suzipu">
+        <score>
+          <scoreDef type="suzipu" />
+          <section>
+            <div type="source-metadata">
+              <annot type="attribution" n="0" facs="#attribution-0">番</annot>
+              <annot type="attribution" n="1" facs="#attribution-1">陽</annot>
+              <annot type="attribution" n="2" facs="#attribution-2">姜</annot>
+              <annot type="attribution" n="3" facs="#attribution-3">夔</annot>
+              <annot type="attribution" n="4" facs="#attribution-4">堯</annot>
+              <annot type="attribution" n="5" facs="#attribution-5">章</annot>
+              <annot type="title" n="1" data-line-break="false" facs="#tx001">揚</annot>
+              <annot type="title" n="2" data-line-break="false" facs="#tx002">州</annot>
+              <annot type="title" n="3" data-line-break="false" facs="#tx003">慢</annot>
+              <annot type="mode" n="4" data-line-break="false" facs="#tx004">中</annot>
+              <annot type="mode" n="5" data-line-break="false" facs="#tx005">呂</annot>
+              <annot type="mode" n="6" data-line-break="true" facs="#tx006">宮</annot>
+              <annot type="preface" n="7" data-line-break="false" facs="#tx007">淳</annot>
+              <annot type="preface" n="8" data-line-break="false" facs="#tx008">熙</annot>
+              <annot type="preface" n="9" data-line-break="false" facs="#tx009">丙</annot>
+              <annot type="preface" n="10" data-line-break="false" facs="#tx010">申</annot>
+              <annot type="preface" n="11" data-line-break="false" facs="#tx011">至</annot>
+              <annot type="preface" n="12" data-line-break="false" facs="#tx012">日</annot>
+              <annot type="preface" n="13" data-line-break="false" facs="#tx013">余</annot>
+              <annot type="preface" n="14" data-line-break="false" facs="#tx014">過</annot>
+              <annot type="preface" n="15" data-line-break="false" facs="#tx015">維</annot>
+              <annot type="preface" n="16" data-line-break="false" facs="#tx016">揚</annot>
+              <annot type="preface" n="17" data-line-break="false" facs="#tx017">夜</annot>
+              <annot type="preface" n="18" data-line-break="false" facs="#tx018">雪</annot>
+              <annot type="preface" n="19" data-line-break="false" facs="#tx019">初</annot>
+              <annot type="preface" n="20" data-line-break="false" facs="#tx020">霽</annot>
+              <annot type="preface" n="21" data-line-break="true" facs="#tx021">薺</annot>
+              <annot type="preface" n="22" data-line-break="false" facs="#tx022">麥</annot>
+              <annot type="preface" n="23" data-line-break="false" facs="#tx023">彌</annot>
+              <annot type="preface" n="24" data-line-break="false" facs="#tx024">望</annot>
+              <annot type="preface" n="25" data-line-break="false" facs="#tx025">入</annot>
+              <annot type="preface" n="26" data-line-break="false" facs="#tx026">其</annot>
+              <annot type="preface" n="27" data-line-break="false" facs="#tx027">城</annot>
+              <annot type="preface" n="28" data-line-break="false" facs="#tx028">則</annot>
+              <annot type="preface" n="29" data-line-break="false" facs="#tx029">四</annot>
+              <annot type="preface" n="30" data-line-break="false" facs="#tx030">顧</annot>
+              <annot type="preface" n="31" data-line-break="false" facs="#tx031">蕭</annot>
+              <annot type="preface" n="32" data-line-break="false" facs="#tx032">條</annot>
+              <annot type="preface" n="33" data-line-break="false" facs="#tx033">寒</annot>
+              <annot type="preface" n="34" data-line-break="false" facs="#tx034">水</annot>
+              <annot type="preface" n="35" data-line-break="false" facs="#tx035">自</annot>
+              <annot type="preface" n="36" data-line-break="true" facs="#tx036">碧</annot>
+              <annot type="preface" n="37" data-line-break="false" facs="#tx037">暮</annot>
+              <annot type="preface" n="38" data-line-break="false" facs="#tx038">色</annot>
+              <annot type="preface" n="39" data-line-break="false" facs="#tx039">漸</annot>
+              <annot type="preface" n="40" data-line-break="false" facs="#tx040">起</annot>
+              <annot type="preface" n="41" data-line-break="false" facs="#tx041">戍</annot>
+              <annot type="preface" n="42" data-line-break="false" facs="#tx042">角</annot>
+              <annot type="preface" n="43" data-line-break="false" facs="#tx043">悲</annot>
+              <annot type="preface" n="44" data-line-break="false" facs="#tx044">吟</annot>
+              <annot type="preface" n="45" data-line-break="false" facs="#tx045">予</annot>
+              <annot type="preface" n="46" data-line-break="false" facs="#tx046">懷</annot>
+              <annot type="preface" n="47" data-line-break="false" facs="#tx047">愴</annot>
+              <annot type="preface" n="48" data-line-break="false" facs="#tx048">然</annot>
+              <annot type="preface" n="49" data-line-break="false" facs="#tx049">感</annot>
+              <annot type="preface" n="50" data-line-break="false" facs="#tx050">慨</annot>
+              <annot type="preface" n="51" data-line-break="true" facs="#tx051">今</annot>
+              <annot type="preface" n="52" data-line-break="false" facs="#tx052">昔</annot>
+              <annot type="preface" n="53" data-line-break="false" facs="#tx053">因</annot>
+              <annot type="preface" n="54" data-line-break="false" facs="#tx054">自</annot>
+              <annot type="preface" n="55" data-line-break="false" facs="#tx055">度</annot>
+              <annot type="preface" n="56" data-line-break="false" facs="#tx056">此</annot>
+              <annot type="preface" n="57" data-line-break="false" facs="#tx057">曲</annot>
+              <annot type="preface" n="58" data-line-break="false" facs="#tx058">千</annot>
+              <annot type="preface" n="59" data-line-break="false" facs="#tx059">巖</annot>
+              <annot type="preface" n="60" data-line-break="false" facs="#tx060">老</annot>
+              <annot type="preface" n="61" data-line-break="false" facs="#tx061">人</annot>
+              <annot type="preface" n="62" data-line-break="false" facs="#tx062">以</annot>
+              <annot type="preface" n="63" data-line-break="false" facs="#tx063">爲</annot>
+              <annot type="preface" n="64" data-line-break="false" facs="#tx064">有</annot>
+              <annot type="preface" n="65" data-line-break="false" facs="#tx065">黍</annot>
+              <annot type="preface" n="66" data-line-break="true" facs="#tx066">離</annot>
+              <annot type="preface" n="67" data-line-break="false" facs="#tx067">之</annot>
+              <annot type="preface" n="68" data-line-break="false" facs="#tx068">悲</annot>
+              <annot type="preface" n="69" data-line-break="true" facs="#tx069">也</annot>
+            </div>
+            <staff n="1">
+              <layer n="1">
+                <syllable xml:id="e001" n="1" type="included" data-line-break="false" data-page="1" facs="#tx070">
+                  <verse n="1">
+                    <syl>淮</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt070" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e002" n="2" type="included" data-line-break="false" data-page="1" facs="#tx071">
+                  <verse n="1">
+                    <syl>左</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt071" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e003" n="3" type="included" data-line-break="false" data-page="1" facs="#tx072">
+                  <verse n="1">
+                    <syl>名</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt072" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e004" n="4" type="included" data-line-break="false" data-page="1" facs="#tx073">
+                  <verse n="1">
+                    <syl>都</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt073" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e005" n="5" type="included" data-line-break="false" data-page="1" facs="#tx074">
+                  <verse n="1">
+                    <syl>竹</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt074" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e006" n="6" type="included" data-line-break="false" data-page="1" facs="#tx075">
+                  <verse n="1">
+                    <syl>西</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt075" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e007" n="7" type="included" data-line-break="false" data-page="1" facs="#tx076">
+                  <verse n="1">
+                    <syl>佳</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GAO_WU" type="suzipu-pitch" facs="#nt076" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e008" n="8" type="included" data-line-break="false" data-page="1" facs="#tx077">
+                  <verse n="1">
+                    <syl>處</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt077" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e009" n="9" type="included" data-line-break="false" data-page="1" facs="#tx078">
+                  <verse n="1">
+                    <syl>解</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt078" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e010" n="10" type="included" data-line-break="false" data-page="1" facs="#tx079">
+                  <verse n="1">
+                    <syl>鞍</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt079" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e011" n="11" type="included" data-line-break="false" data-page="1" facs="#tx080">
+                  <verse n="1">
+                    <syl>少</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt080" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e012" n="12" type="included" data-line-break="false" data-page="1" facs="#tx081">
+                  <verse n="1">
+                    <syl>駐</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt081" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e013" n="13" type="included" data-line-break="false" data-page="1" facs="#tx082">
+                  <verse n="1">
+                    <syl>初</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt082" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e014" n="14" type="included" data-line-break="false" data-page="1" facs="#tx083">
+                  <verse n="1">
+                    <syl>程</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt083">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e015" n="15" type="included" data-line-break="false" data-page="1" facs="#tx084">
+                  <verse n="1">
+                    <syl>過</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt084" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e016" n="16" type="included" data-line-break="false" data-page="1" facs="#tx085">
+                  <verse n="1">
+                    <syl>春</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt085" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e017" n="17" type="included" data-line-break="false" data-page="1" facs="#tx086">
+                  <verse n="1">
+                    <syl>風</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt086" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e018" n="18" type="included" data-line-break="false" data-page="1" facs="#tx087">
+                  <verse n="1">
+                    <syl>十</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt087" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e019" n="19" type="included" data-line-break="true" data-page="1" facs="#tx088">
+                  <verse n="1">
+                    <syl>里</syl>
+                  </verse>
+                  <neume>
+                    <nc label="HE" type="suzipu-pitch" facs="#nt088" />
+                  </neume>
+                </syllable>
+                <cb n="1" />
+                <pb n="2" facs="#p02" />
+                <syllable xml:id="e020" n="20" type="included" data-line-break="false" data-page="2" facs="#tx089">
+                  <verse n="1">
+                    <syl>盡</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt089">
+                      <annot type="secondary-sign">DING_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e021" n="21" type="included" data-line-break="false" data-page="2" facs="#tx090">
+                  <verse n="1">
+                    <syl>薺</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt090" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e022" n="22" type="included" data-line-break="false" data-page="2" facs="#tx091">
+                  <verse n="1">
+                    <syl>麥</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt091">
+                      <annot type="secondary-sign">XIAO_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e023" n="23" type="included" data-line-break="false" data-page="2" facs="#tx092">
+                  <verse n="1">
+                    <syl>青</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt092">
+                      <annot type="secondary-sign">ZHE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e024" n="24" type="included" data-line-break="false" data-page="2" facs="#tx093">
+                  <verse n="1">
+                    <syl>青</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt093">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e025" n="25" type="included" data-line-break="false" data-page="2" facs="#tx094">
+                  <verse n="1">
+                    <syl>自</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt094" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e026" n="26" type="included" data-line-break="false" data-page="2" facs="#tx095">
+                  <verse n="1">
+                    <syl>胡</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt095" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e027" n="27" type="included" data-line-break="false" data-page="2" facs="#tx096">
+                  <verse n="1">
+                    <syl>馬</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt096" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e028" n="28" type="included" data-line-break="false" data-page="2" facs="#tx097">
+                  <verse n="1">
+                    <syl>窺</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt097" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e029" n="29" type="included" data-line-break="false" data-page="2" facs="#tx098">
+                  <verse n="1">
+                    <syl>江</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt098">
+                      <annot type="secondary-sign">ZHE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e030" n="30" type="included" data-line-break="false" data-page="2" facs="#tx099">
+                  <verse n="1">
+                    <syl>去</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt099" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e031" n="31" type="included" data-line-break="false" data-page="2" facs="#tx100">
+                  <verse n="1">
+                    <syl>後</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt100">
+                      <annot type="secondary-sign">DING_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e032" n="32" type="included" data-line-break="false" data-page="2" facs="#tx101">
+                  <verse n="1">
+                    <syl>廢</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt101" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e033" n="33" type="included" data-line-break="false" data-page="2" facs="#tx102">
+                  <verse n="1">
+                    <syl>池</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt102" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e034" n="34" type="included" data-line-break="false" data-page="2" facs="#tx103">
+                  <verse n="1">
+                    <syl>喬</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GAO_WU" type="suzipu-pitch" facs="#nt103" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e035" n="35" type="included" data-line-break="false" data-page="2" facs="#tx104">
+                  <verse n="1">
+                    <syl>木</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt104" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e036" n="36" type="included" data-line-break="false" data-page="2" facs="#tx105">
+                  <verse n="1">
+                    <syl>猶</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt105" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e037" n="37" type="included" data-line-break="false" data-page="2" facs="#tx106">
+                  <verse n="1">
+                    <syl>厭</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt106" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e038" n="38" type="included" data-line-break="true" data-page="2" facs="#tx107">
+                  <verse n="1">
+                    <syl>言</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt107" />
+                  </neume>
+                </syllable>
+                <cb n="2" />
+                <syllable xml:id="e039" n="39" type="included" data-line-break="false" data-page="2" facs="#tx108">
+                  <verse n="1">
+                    <syl>兵</syl>
+                  </verse>
+                  <neume>
+                    <nc label="HE" type="suzipu-pitch" facs="#nt108" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e040" n="40" type="included" data-line-break="false" data-page="2" facs="#tx109">
+                  <verse n="1">
+                    <syl>漸</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt109" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e041" n="41" type="included" data-line-break="false" data-page="2" facs="#tx110">
+                  <verse n="1">
+                    <syl>黄</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt110" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e042" n="42" type="included" data-line-break="false" data-page="2" facs="#tx111">
+                  <verse n="1">
+                    <syl>昏</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt111">
+                      <annot type="secondary-sign">DA_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e043" n="43" type="included" data-line-break="false" data-page="2" facs="#tx112">
+                  <verse n="1">
+                    <syl>清</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt112" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e044" n="44" type="included" data-line-break="false" data-page="2" facs="#tx113">
+                  <verse n="1">
+                    <syl>角</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt113">
+                      <annot type="secondary-sign">ZHE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e045" n="45" type="included" data-line-break="false" data-page="2" facs="#tx114">
+                  <verse n="1">
+                    <syl>吹</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt114" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e046" n="46" type="included" data-line-break="false" data-page="2" facs="#tx115">
+                  <verse n="1">
+                    <syl>寒</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt115" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e047" n="47" type="included" data-line-break="false" data-page="2" facs="#tx116">
+                  <verse n="1">
+                    <syl>都</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt116" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e048" n="48" type="included" data-line-break="false" data-page="2" facs="#tx117">
+                  <verse n="1">
+                    <syl>在</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt117">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e049" n="49" type="included" data-line-break="false" data-page="2" facs="#tx118">
+                  <verse n="1">
+                    <syl>空</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt118" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e050" n="50" type="included" data-line-break="false" data-page="2" facs="#tx119">
+                  <verse n="1">
+                    <syl>城</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt119">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e051" n="51" type="included" data-line-break="false" data-page="2" facs="#tx120">
+                  <verse n="1">
+                    <syl>杜</syl>
+                  </verse>
+                  <neume>
+                    <nc label="HE" type="suzipu-pitch" facs="#nt120">
+                      <annot type="secondary-sign">YE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e052" n="52" type="included" data-line-break="false" data-page="2" facs="#tx121">
+                  <verse n="1">
+                    <syl>郎</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt121">
+                      <annot type="secondary-sign">DING_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e053" n="53" type="included" data-line-break="false" data-page="2" facs="#tx122">
+                  <verse n="1">
+                    <syl>俊</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt122" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e054" n="54" type="included" data-line-break="false" data-page="2" facs="#tx123">
+                  <verse n="1">
+                    <syl>賞</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt123">
+                      <annot type="secondary-sign">YE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e055" n="55" type="included" data-line-break="false" data-page="2" facs="#tx124">
+                  <verse n="1">
+                    <syl>算</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt124" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e056" n="56" type="included" data-line-break="true" data-page="2" facs="#tx125">
+                  <verse n="1">
+                    <syl>而</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt125" />
+                  </neume>
+                </syllable>
+                <cb n="3" />
+                <syllable xml:id="e057" n="57" type="included" data-line-break="false" data-page="2" facs="#tx126">
+                  <verse n="1">
+                    <syl>今</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt126" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e058" n="58" type="included" data-line-break="false" data-page="2" facs="#tx127">
+                  <verse n="1">
+                    <syl>重</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt127" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e059" n="59" type="included" data-line-break="false" data-page="2" facs="#tx128">
+                  <verse n="1">
+                    <syl>到</syl>
+                  </verse>
+                  <neume>
+                    <nc label="HE" type="suzipu-pitch" facs="#nt128" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e060" n="60" type="included" data-line-break="false" data-page="2" facs="#tx129">
+                  <verse n="1">
+                    <syl>須</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt129" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e061" n="61" type="included" data-line-break="false" data-page="2" facs="#tx130">
+                  <verse n="1">
+                    <syl>驚</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt130">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e062" n="62" type="included" data-line-break="false" data-page="2" facs="#tx131">
+                  <verse n="1">
+                    <syl>縱</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt131" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e063" n="63" type="included" data-line-break="false" data-page="2" facs="#tx132">
+                  <verse n="1">
+                    <syl>荳</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt132">
+                      <annot type="secondary-sign">ZHE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e064" n="64" type="included" data-line-break="false" data-page="2" facs="#tx133">
+                  <verse n="1">
+                    <syl>蔻</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt133" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e065" n="65" type="included" data-line-break="false" data-page="2" facs="#tx134">
+                  <verse n="1">
+                    <syl>詞</syl>
+                  </verse>
+                  <neume>
+                    <nc label="WU" type="suzipu-pitch" facs="#nt134" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e066" n="66" type="included" data-line-break="false" data-page="2" facs="#tx135">
+                  <verse n="1">
+                    <syl>工</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt135" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e067" n="67" type="included" data-line-break="false" data-page="2" facs="#tx136">
+                  <verse n="1">
+                    <syl>青</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt136">
+                      <annot type="secondary-sign">YE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e068" n="68" type="included" data-line-break="false" data-page="2" facs="#tx137">
+                  <verse n="1">
+                    <syl>樓</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt137" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e069" n="69" type="included" data-line-break="false" data-page="2" facs="#tx138">
+                  <verse n="1">
+                    <syl>夢</syl>
+                  </verse>
+                  <neume>
+                    <nc label="HE" type="suzipu-pitch" facs="#nt138" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e070" n="70" type="included" data-line-break="false" data-page="2" facs="#tx139">
+                  <verse n="1">
+                    <syl>好</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt139">
+                      <annot type="secondary-sign">ZHE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e071" n="71" type="included" data-line-break="false" data-page="2" facs="#tx140">
+                  <verse n="1">
+                    <syl>難</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt140" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e072" n="72" type="included" data-line-break="false" data-page="2" facs="#tx141">
+                  <verse n="1">
+                    <syl>賦</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt141">
+                      <annot type="secondary-sign">XIAO_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e073" n="73" type="included" data-line-break="false" data-page="2" facs="#tx142">
+                  <verse n="1">
+                    <syl>深</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt142">
+                      <annot type="secondary-sign">YE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e074" n="74" type="included" data-line-break="false" data-page="2" facs="#tx143">
+                  <verse n="1">
+                    <syl>情</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt143">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e075" n="75" type="included" data-line-break="true" data-page="2" facs="#tx144">
+                  <verse n="1">
+                    <syl>二</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt144" />
+                  </neume>
+                </syllable>
+                <cb n="4" />
+                <syllable xml:id="e076" n="76" type="included" data-line-break="false" data-page="2" facs="#tx145">
+                  <verse n="1">
+                    <syl>十</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt145" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e077" n="77" type="included" data-line-break="false" data-page="2" facs="#tx146">
+                  <verse n="1">
+                    <syl>四</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt146" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e078" n="78" type="included" data-line-break="false" data-page="2" facs="#tx147">
+                  <verse n="1">
+                    <syl>橋</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt147" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e079" n="79" type="included" data-line-break="false" data-page="2" facs="#tx148">
+                  <verse n="1">
+                    <syl>仍</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GAO_WU" type="suzipu-pitch" facs="#nt148" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e080" n="80" type="included" data-line-break="false" data-page="2" facs="#tx149">
+                  <verse n="1">
+                    <syl>在</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt149">
+                      <annot type="secondary-sign">DING_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e081" n="81" type="included" data-line-break="false" data-page="2" facs="#tx150">
+                  <verse n="1">
+                    <syl>波</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt150" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e082" n="82" type="included" data-line-break="false" data-page="2" facs="#tx151">
+                  <verse n="1">
+                    <syl>心</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt151" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e083" n="83" type="included" data-line-break="false" data-page="2" facs="#tx152">
+                  <verse n="1">
+                    <syl>蕩</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt152" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e084" n="84" type="included" data-line-break="false" data-page="2" facs="#tx153">
+                  <verse n="1">
+                    <syl>冷</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt153" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e085" n="85" type="included" data-line-break="false" data-page="2" facs="#tx154">
+                  <verse n="1">
+                    <syl>月</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt154" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e086" n="86" type="included" data-line-break="false" data-page="2" facs="#tx155">
+                  <verse n="1">
+                    <syl>無</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt155" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e087" n="87" type="included" data-line-break="false" data-page="2" facs="#tx156">
+                  <verse n="1">
+                    <syl>聲</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GOU" type="suzipu-pitch" facs="#nt156">
+                      <annot type="secondary-sign">DING_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e088" n="88" type="included" data-line-break="false" data-page="2" facs="#tx157">
+                  <verse n="1">
+                    <syl>念</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt157" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e089" n="89" type="included" data-line-break="false" data-page="2" facs="#tx158">
+                  <verse n="1">
+                    <syl>橋</syl>
+                  </verse>
+                  <neume>
+                    <nc label="GONG" type="suzipu-pitch" facs="#nt158" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e090" n="90" type="included" data-line-break="false" data-page="2" facs="#tx159">
+                  <verse n="1">
+                    <syl>邊</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt159">
+                      <annot type="secondary-sign">DING_ZHU</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e091" n="91" type="included" data-line-break="false" data-page="2" facs="#tx160">
+                  <verse n="1">
+                    <syl>紅</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt160" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e092" n="92" type="included" data-line-break="false" data-page="2" facs="#tx161">
+                  <verse n="1">
+                    <syl>藥</syl>
+                  </verse>
+                  <neume>
+                    <nc label="FAN" type="suzipu-pitch" facs="#nt161">
+                      <annot type="secondary-sign">ZHE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e093" n="93" type="included" data-line-break="false" data-page="2" facs="#tx162">
+                  <verse n="1">
+                    <syl>年</syl>
+                  </verse>
+                  <neume>
+                    <nc label="LIU" type="suzipu-pitch" facs="#nt162">
+                      <annot type="secondary-sign">YE</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e094" n="94" type="included" data-line-break="true" data-page="2" facs="#tx163">
+                  <verse n="1">
+                    <syl>年</syl>
+                  </verse>
+                  <neume>
+                    <nc label="CHE" type="suzipu-pitch" facs="#nt163" />
+                  </neume>
+                </syllable>
+                <cb n="5" />
+                <syllable xml:id="e095" n="95" type="included" data-line-break="false" data-page="2" facs="#tx164">
+                  <verse n="1">
+                    <syl>知</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt164" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e096" n="96" type="included" data-line-break="false" data-page="2" facs="#tx165">
+                  <verse n="1">
+                    <syl>爲</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt165">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable xml:id="e097" n="97" type="included" data-line-break="false" data-page="2" facs="#tx166">
+                  <verse n="1">
+                    <syl>誰</syl>
+                  </verse>
+                  <neume>
+                    <nc label="SHANG" type="suzipu-pitch" facs="#nt166" />
+                  </neume>
+                </syllable>
+                <syllable xml:id="e098" n="98" type="included" data-line-break="false" data-page="2" facs="#tx167">
+                  <verse n="1">
+                    <syl>生</syl>
+                  </verse>
+                  <neume>
+                    <nc label="YI" type="suzipu-pitch" facs="#nt167">
+                      <annot type="secondary-sign">DA_DUN</annot>
+                    </nc>
+                  </neume>
+                </syllable>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

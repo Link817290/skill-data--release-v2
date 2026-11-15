@@ -1,0 +1,65 @@
+version = "1.0"
+id = "pv-causality-signal"
+task_type = "skill-bench"
+domain = "pharmacovigilance"
+language = "en"
+difficulty = "hard"
+research_cutoff = "2024-03-31"
+candidate_count = 18
+case_review_count = 12
+longitudinal_review_count = 12
+version_driver_summary_count = 18
+version_driver_review_count = 33
+source_derived_version_driver_count = 308
+deliverable = "workspace/faers_adjudication.json"
+network_access = false
+rollouts_included = true
+
+[rollout_expectations]
+opus5_pv_no_skill = 2
+opus5_pv_with_skill = 5
+hy4_pv_no_skill = 2
+hy4_pv_with_skill = 16
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = false
+
+[scoring.weights]
+population_reconciliation = 0.02
+disproportionality_analysis = 0.08
+signal_synthesis = 0.03
+version_driver_audit = 0.15
+retained_case_causality = 0.32
+longitudinal_revision = 0.26
+source_integrity = 0.02
+exact_coverage = 0.04
+table_closure = 0.04
+evidence_traceability = 0.04
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0
+
+[skill]
+name = "longitudinal-pharmacovigilance-methods"
+count = 3
+names = ["reconcile-spontaneous-reports", "analyze-disproportionality-sensitivity", "assess-structured-icsr-causality"]
+reference_count = 0
+script_count = 2
+lines = 349
+answers_in_skill = false
+
+[conditions]
+thresholds_in_skill = false
+thresholds_in_workspace = true
+condition_blind = true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Airfield Protection Geometry"
+  short_description: "Construct station-offset airfield protection zones"
+  default_prompt: "Use $airfield-protection-geometry to derive and audit airfield protection-zone geometry."

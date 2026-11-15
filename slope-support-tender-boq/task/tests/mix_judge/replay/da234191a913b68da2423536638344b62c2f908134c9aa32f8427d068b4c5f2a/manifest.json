@@ -1,0 +1,10 @@
+{
+  "artifact_hashes": {
+    "candidate_workbook": "02d4d251d9a2238131f25f8fd81946b1c5fc3a7392cfe13c3baba884461d6b24",
+    "ground_truth": "0081ef0a95a70b444b7522aa621767a28635afa39beaaadb39cbb12766d1febd",
+    "quantity_provenance": "6ced6ab994f44eaa45e50d75aec648ccdf6b13e322442671bff111bb0a957665"
+  },
+  "request_sha256": "da234191a913b68da2423536638344b62c2f908134c9aa32f8427d068b4c5f2a",
+  "contract_sha256": "fb2a2fdd7dbd95d7c3c988d0c9bef7b2860b79b8db08eeb154913fb27addd333",
+  "rollout_executed": false
+}

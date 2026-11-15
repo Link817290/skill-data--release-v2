@@ -1,0 +1,32 @@
+id = "vfr-helipad-protection-revision"
+task_type = "skill-bench"
+domain = "airfield civil engineering"
+language = "en"
+difficulty = "expert"
+deliverable = "workspace/output/repaired_plan.dxf"
+required_outputs = ["inspection_report.json", "repaired_plan.dxf", "repair_memo.md"]
+network_access = false
+answers_in_skill = false
+thresholds_in_skill = false
+
+[scoring]
+score_lenses = ["strict", "lenient"]
+semantic_judge_model = "gpt-5.6-sol"
+semantic_judge_required = true
+semantic_judge_env = ["LLM_JUDGE_BASE_URL", "LLM_JUDGE_MODEL", "LLM_JUDGE_API_KEY"]
+primary_score = "reward_strict"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from task/tests/scoring_params.json"
+scoring_params = "task/tests/scoring_params.json"
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+input_kind = "directory"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+
+[rollout_expectations]
+opus5_with_skill = 5
+opus5_no_skill = 2
+hy4_with_skill = 16
+hy4_no_skill = 2

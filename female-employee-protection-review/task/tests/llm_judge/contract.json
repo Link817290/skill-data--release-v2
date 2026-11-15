@@ -1,0 +1,853 @@
+{
+  "task_id": "female-employee-protection-review",
+  "version": "female-native-source-contract-v91.1",
+  "items": [
+    {
+      "id": "unit__zhou_actual_night__analysis",
+      "criterion": "Adopt Zhou actualJuly21 overnight work using the published23:00-next07:00 roster together with23:08-07:04 access/attendance and night-handover actual tasks. Distinguish planned versus actual work, preserve sources/versions and do not treat a source quotation or rejected proposal as an adopted finding. Read complete report and audit support jointly; equivalent distributed wording is accepted.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_actual_night__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: Adopt Zhou actualJuly21 overnight work using the published23:00-next07:00 roster together with23:08-07:04 access/attendance and night-handover actual tasks. Distinguish planned versus actual work, preserve sources/versions and do not treat a source quotation or rejected proposal as an adopted finding. Read complete report and audit support jointly; equivalent distributed wording is accepted.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_actual_night__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. Accountable reconciliation/correction of the source-supported July21 actual night-work event and retained original versions.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_actual_night__analysis",
+      "criterion": "Adopt the actual July 12 night-work finding for Zhao based on attendance, access or handover evidence, continuing to 22:00. Distinguish actual work from the published schedule. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_actual_night__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: Adopt the actual July 12 night-work finding for Zhao based on attendance, access or handover evidence, continuing to 22:00. Distinguish actual work from the published schedule. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_actual_night__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. Accountable reconciliation/correction of the source-supported July12 actual night-work event.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_pay__analysis",
+      "criterion": "Reverse the 300 performance deduction. Account separately for the 120 night allowance; do not net it against the correction or treat it as permission for prohibited work. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_pay__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: Reverse the 300 performance deduction. Account separately for the 120 night allowance; do not net it against the correction or treat it as permission for prohibited work. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_pay__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. An accountable300 performance deduction correction, with120 allowance separately retained and genuine payment/record closure. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_pay__analysis",
+      "criterion": "Reverse or refund the 175 nursing-time deduction. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_pay__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: Reverse or refund the 175 nursing-time deduction. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_pay__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. An accountable175 nursing deduction correction and verifiable correction/payment path. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__he_task_conflict__analysis",
+      "criterion": "Preserve the June 16 conflict between the published assignment and actual reservation work. The June 26 sample of 8 kg and 100 minutes does not exceed the medical limits of 10 kg and 120 minutes. Do not turn those samples into proof of full-period compliance. Record correction or reconciliation of the conflicting versions. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__he_task_conflict__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: Preserve the June 16 conflict between the published assignment and actual reservation work. The June 26 sample of 8 kg and 100 minutes does not exceed the medical limits of 10 kg and 120 minutes. Do not turn those samples into proof of full-period compliance. Record correction or reconciliation of the conflicting versions. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__he_task_conflict__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. An accountable correction or reconciliation of June16 conflicting versions while preserving the actual reservation-task evidence and original versions.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__chen_system__analysis",
+      "criterion": "Correct the July 25-31 HRIS missing-clock/absence treatment to maternity leave; do not retain it as valid absence. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__chen_system__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: Correct the July 25-31 HRIS missing-clock/absence treatment to maternity leave; do not retain it as valid absence. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__chen_system__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. An accountable correction of July25-31 ordinary absence/missing-clock/return-to-work coding to supported maternity status, with record closure. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_protection__analysis",
+      "criterion": "The 28-week/seven-month pregnancy evidence requires stopping night scheduling. Attendance, consent or payment of a night allowance does not remove that protection. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_protection__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: The 28-week/seven-month pregnancy evidence requires stopping night scheduling. Attendance, consent or payment of a night allowance does not remove that protection. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhou_protection__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. An accountable current/future protected schedule control excluding night/overtime and not waived by allowance, attendance or consent. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_protection__analysis",
+      "criterion": "With a child born November 15 2025, nursing protection for a child under one year applies; remove incompatible night scheduling. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_protection__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: With a child born November 15 2025, nursing protection for a child under one year applies; remove incompatible night scheduling. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__zhao_protection__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. An accountable current/future nursing-stage schedule control excluding night/overtime and protecting applicable nursing time. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__he_contract_hold__analysis",
+      "criterion": "The HRIS expiry reminder/in-service pending-renewal status does not authorize automatic termination; hold the ordinary expiry-termination process pending a proper review. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__he_contract_hold__source",
+      "criterion": "For the following adopted issue, does the review substantively bind the right employee, period, original factual records and applicable supplied rule, rather than merely list files or generic law? Meaningfully traceable actual record details or a linked source index can suffice without a specific citation syntax. Evaluate source-bound analytical work independently of correctness already exclusively owned by an affirmative-error predicate; do not fail again solely for that same adopted wrong conclusion. No adopted substantive issue means0. Issue: The HRIS expiry reminder/in-service pending-renewal status does not authorize automatic termination; hold the ordinary expiry-termination process pending a proper review. Require an adopted substantive conclusion in the report and its supporting review in the audit workbook; exact wording, row counts and table layout are flexible. Details may be divided between those two carriers. A source quotation, rejected proposal or topic heading alone does not adopt a conclusion. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "unit__he_contract_hold__action",
+      "criterion": "Does the operative plan provide this substantive follow-up, with competent responsible function, executable timing and observable evidence/record closure, possibly distributed over linked carriers/global rules? It need not already be done and needs no particular row/title/template. Generic commitments or an owner/deadline unconnected to the issue are insufficient. An accountable hold of ordinaryAug31 expiry/termination and lawful continuation procedure; a system renewal reminder alone is insufficient. Exclusive correctness ownership: evaluate genuine source-bound analytical/plan work under the adopted decision where its opposite operative correctness is separately tested by a declared safe-decision error predicate. Do not reject the same work solely because that independently-owned decision is wrong. Still require the actual employee/source issue and substantive work; missing sources, absent responsibility/time/closure or an unsupported assertion alone do not become completed work. No blanket credit for missing independent actions is allowed.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_calendar_conditional_analysis",
+      "criterion": "Positive analysis owner, independent of the correctness of adopted final date boundaries: does the review identify Chen source birth date April18, first single child, the supplied98+60=158-day entitlement, and an explicit leave/end/return analysis with a substantive leave-system correction? Read distributed report/workbook/actions. Evaluate downstream correction against the boundaries actually adopted by the candidate; the separate harm_chen_calendar owner exclusively evaluates whether those adopted boundaries are correct. Do not withhold this positive solely because the adopted end/start-count convention is wrong. Missing source inputs, absent calendar analysis, or no operative system correction can fail; the mere presence of a date is insufficient.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_pay_conditional_analysis",
+      "criterion": "Positive analysis owner, with corrective-treatment correctness owned separately by harm_chen_payroll: does the operative review use the source1680 absence deduction,400 attendance freeze and pending allowance separately, preserve the120 Zhou allowance as a different employee/item, identify the erroneous leave/attendance basis, and produce an accountable itemized correction/reconciliation proposal? An adopted wrong condition on release is evaluated by harm_chen_payroll, not charged again by rejecting this positive solely for that same condition. Missing either source item, no substantive itemized proposal, or cross-item netting can fail. Reconciliation, approval and actual payment are different operations.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "wang_contract_conditional_analysis",
+      "criterion": "Score the Wang contract domain additively: 0.50 for substantive analysis identifying the birth proof, original Aug31 expiry and unserved/ineffective draft and adopting suspension of ordinary expiry processing; 0.25 for binding that analysis to the supplied Wang source records; 0.25 for an accountable continuation or future lawful-procedure review action. Return only 0,0.25,0.5,0.75,1 as the sum of satisfied components. The wrong calendar boundary is owned separately by harm_wang_calendar and does not erase otherwise completed components.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ]
+    },
+    {
+      "id": "zhou_performance_record",
+      "criterion": "Does the operative review correct or reverse the source performance deduction/assessment record for Zhou, with a traceable adjustment, as well as address the salary consequence? A reversal explicitly identifying the performance deduction and preserving/linking original and corrected entries is equivalent; do not demand a particular system, literal filename, or separate action row. Cash refund alone, or a generic unrelated version-control promise, does not establish correction of the performance record. Accept connected report/workbook/action details.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhou_event_review",
+      "criterion": "Does the proposed response create a factual record of the established July21 protected night-work event and route its review/approval to employee relations (or an equivalent named competent group function)? The Golden separately asks employee-relations review of this event. Actual event review, incident investigation or a fact-based corrective review is equivalent. An ER role reviewing the linked incident package can suffice. Do not infer event review from ER appearing only on an unrelated contract or payroll approval. A new HR approval requirement solely for future scheduling does not perform the retrospective review. Read report addressee and competent-review routing together with the event findings and action list. An incident review report explicitly addressed/submitted to employee relations, containing the established July21 event and linked accountable event correction/evidence work, is a substantive distributed route for review even if the action row does not repeat the recipient. Do not infer this from an unrelated role mention alone. Do not require the retrospective incident review to be performed a second time if the submitted review already forms the factual record.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_receipt_followup",
+      "criterion": "Does an identifiable accountable follow-up obtain/check the missing maternity allowance receipt and reconcile it with corrected wage components, leaving the final fund/employer net responsibility unresolved until that evidence? Linked accountable corrective actions with a receipt/reconciliation closure deliverable are equivalent. Do not require invented timing or a separate row. A bare mention of pending receipt without a way to follow up or reconcile is incomplete.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_full_period_scope_analysis",
+      "criterion": "Does the operative review identify the full signed adjustment period as requiring actual-duty reconciliation/supplement beyond the sampledJune16/June26? An original-window quotation alone is insufficient, but a whole-period actual-task information gap adopted for inquiry is substantive analysis. If no whole-period actual-task scope is adopted, return0. Read the complete report, audit and action carriers jointly. The original signed temporary adjustment coversJune15-July31. Original Golden asks the restaurant manager andHR to supplement actual task confirmations for that full period, becauseJune16/June26 samples cannot establish every date. Accept genuinely mapped complete-period scope even where only samples are listed in the main finding. A general rule qualifies only when it actually applies to He historical actual duties/confirmations, rather than an unrelated night-work, future schedule, or current-stage inquiry. No exact date syntax, word补充, action-sheet layout, separate every-date action or literal signature column is required. Keep historical full-period inquiry independent ofJune26 prior reconfirmation and present postJuly31 medical/scheduling control. Missing work is not an affirmative adopted error. Do not assignD or alter other owners.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_full_period_source_binding",
+      "criterion": "Does the adopted full-period actual-task inquiry correctly bind He, the signed adjustment period, and the original task/adjustment evidence? Accept actual accurate period/employee/task linkage without formal source IDs. A bare unrelated file citation is insufficient. If no whole-period actual-task scope is adopted, return0. Read the complete report, audit and action carriers jointly. The original signed temporary adjustment coversJune15-July31. Original Golden asks the restaurant manager andHR to supplement actual task confirmations for that full period, becauseJune16/June26 samples cannot establish every date. Accept genuinely mapped complete-period scope even where only samples are listed in the main finding. A general rule qualifies only when it actually applies to He historical actual duties/confirmations, rather than an unrelated night-work, future schedule, or current-stage inquiry. No exact date syntax, word补充, action-sheet layout, separate every-date action or literal signature column is required. Keep historical full-period inquiry independent ofJune26 prior reconfirmation and present postJuly31 medical/scheduling control. Missing work is not an affirmative adopted error. Do not assignD or alter other owners.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_full_period_executable_action",
+      "criterion": "Does the adopted full-period actual-task inquiry have an executable supplement/reconstruction action with an accountable competent function and observable task/approval/confirmation records or documented inability to recover them? Accept distributed pending-evidence tables and mapped global closure terms, equivalent task retrieval/manager-employee confirmation, and any suitable chosen deadline. Actual completion need not be claimed; the original deliverable is a review plus approval/action plan. If no whole-period actual-task scope is adopted, return0. Read the complete report, audit and action carriers jointly. The original signed temporary adjustment coversJune15-July31. Original Golden asks the restaurant manager andHR to supplement actual task confirmations for that full period, becauseJune16/June26 samples cannot establish every date. Accept genuinely mapped complete-period scope even where only samples are listed in the main finding. A general rule qualifies only when it actually applies to He historical actual duties/confirmations, rather than an unrelated night-work, future schedule, or current-stage inquiry. No exact date syntax, word补充, action-sheet layout, separate every-date action or literal signature column is required. Keep historical full-period inquiry independent ofJune26 prior reconfirmation and present postJuly31 medical/scheduling control. Missing work is not an affirmative adopted error. Do not assignD or alter other owners.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhao_may18_22_evidence_boundary",
+      "criterion": "For Zhao May18-22 as one episode, not five separately weighted dates, does the adopted review meaningfully distinguish the planned nursing field from actual historical use, retaining actual performance/denial as unresolved where unsupported? The originalMay18-22 schedule nursing fields are blank after theMay13 signed arrangement; this does not establish actual use or denial. A source-bound applicable whole-period analysis/inquiry may establish that boundary without an individual date sentence. Correct uncertainty analysis earns this atom even when its follow-up action is missing. Original02-01/P11-P13 requires cross-source actual facts, unresolved evidence and accountable follow-up; original Golden discusses historical actual nursing-use evidence, not just future time-field templates. Read report, review workbook, all pending-evidence sheets, linked actions and global closure rules together. An adopted complete historical period/daily inquiry covering Zhao can cover all three named episodes without repeating each date or adding a separate action. A genuinely applicable all-five current/historical actual-record inquiry may likewise cover Zhao. The source period/employee/topic must be substantively bound, not an unrelated night/overtime/pay-only inquiry. Do not confuse a future-only daily logging mechanism with an already-requested historical reconstruction. A pending-evidence item itself is an executable inquiry when it identifies needed actual evidence/competent responsibility and an applicable timing or observable evidence route; it need not be repeated in the action list. No specific form, exactdate syntax, literalactual keyword or employee interview is mandatory: genuine task/site/nursing-room records, manager/employee confirmation and equivalent reliable sources can qualify. A blank field or recorded planned15:00-16:00 alone proves neither actual use nor actual denial. A finding that the planned field is blank/unreserved is not itself a claim of actual denial. Do not award merely copied dates/source IDs or the mere absence of a false statement; look for meaningful case-bound analysis or a linked actual-use inquiry. Do not infer May deduction dates from five blank May rows and a five-day July wage item. Payroll-date matching is a separate owner. Missing evidence is not an actual rights deprivation; an honest proposed inquiry need not already be completed. Cross-carrier scope clarification: follow explicit employee, open-item/finding/action IDs and mapped global closure rules. A pending-evidence record asking for daily actual historical use, with a responsible supplier/reviewer and required actual-record/onsite-confirmation output, is itself an historical inquiry; a later separately linked daily logging mechanism does not turn that request into future-only. Where a finding/report listsMay,July14 andAugust8 and refers to one daily actual-use evidence request, that shared request can cover all listed periods without repeating each date. Where a global full-period checking closure is explicitly applicable to the linked actual-use action, listing onlyMay/Aug examples in the action body is not an exclusion ofJuly14. A full-five historical comparison adopting the artifact nursing-time evidential rules may cover the employee and all relevant historical episodes; do not require person/date repeated in each row. Keep genuinely limited night/overtime-only, deduction-only or future-only scope distinct. No score or expected answer is supplied.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhao_may18_22_retrospective_verification",
+      "criterion": "For Zhao May18-22 as one episode, not five separately weighted dates, is there an accountable historical actual-use evidence inquiry/reconstruction path, with competent responsibility and useful timing or observable evidence requirements? The originalMay18-22 schedule nursing fields are blank after theMay13 signed arrangement; this does not establish actual use or denial. Accept distributed pending-evidence tables and mapped full-period/all-person actual-record inquiries. Merely backfilling a planned time field, copying a source fact, or starting future logs does not perform historical actual-use inquiry. Original02-01/P11-P13 requires cross-source actual facts, unresolved evidence and accountable follow-up; original Golden discusses historical actual nursing-use evidence, not just future time-field templates. Read report, review workbook, all pending-evidence sheets, linked actions and global closure rules together. An adopted complete historical period/daily inquiry covering Zhao can cover all three named episodes without repeating each date or adding a separate action. A genuinely applicable all-five current/historical actual-record inquiry may likewise cover Zhao. The source period/employee/topic must be substantively bound, not an unrelated night/overtime/pay-only inquiry. Do not confuse a future-only daily logging mechanism with an already-requested historical reconstruction. A pending-evidence item itself is an executable inquiry when it identifies needed actual evidence/competent responsibility and an applicable timing or observable evidence route; it need not be repeated in the action list. No specific form, exactdate syntax, literalactual keyword or employee interview is mandatory: genuine task/site/nursing-room records, manager/employee confirmation and equivalent reliable sources can qualify. A blank field or recorded planned15:00-16:00 alone proves neither actual use nor actual denial. A finding that the planned field is blank/unreserved is not itself a claim of actual denial. Do not award merely copied dates/source IDs or the mere absence of a false statement; look for meaningful case-bound analysis or a linked actual-use inquiry. Do not infer May deduction dates from five blank May rows and a five-day July wage item. Payroll-date matching is a separate owner. Missing evidence is not an actual rights deprivation; an honest proposed inquiry need not already be completed. Cross-carrier scope clarification: follow explicit employee, open-item/finding/action IDs and mapped global closure rules. A pending-evidence record asking for daily actual historical use, with a responsible supplier/reviewer and required actual-record/onsite-confirmation output, is itself an historical inquiry; a later separately linked daily logging mechanism does not turn that request into future-only. Where a finding/report listsMay,July14 andAugust8 and refers to one daily actual-use evidence request, that shared request can cover all listed periods without repeating each date. Where a global full-period checking closure is explicitly applicable to the linked actual-use action, listing onlyMay/Aug examples in the action body is not an exclusion ofJuly14. A full-five historical comparison adopting the artifact nursing-time evidential rules may cover the employee and all relevant historical episodes; do not require person/date repeated in each row. Keep genuinely limited night/overtime-only, deduction-only or future-only scope distinct. No score or expected answer is supplied.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhao_july14_evidence_boundary",
+      "criterion": "For Zhao July14, does the adopted review meaningfully distinguish the planned nursing field from actual historical use, retaining actual performance/denial as unresolved where unsupported? The originalJuly14 schedule reserves15:00-16:00, but the supplied actual-task records do not verify that nursing time was actually used. A source-bound applicable whole-period analysis/inquiry may establish that boundary without an individual date sentence. Correct uncertainty analysis earns this atom even when its follow-up action is missing. Original02-01/P11-P13 requires cross-source actual facts, unresolved evidence and accountable follow-up; original Golden discusses historical actual nursing-use evidence, not just future time-field templates. Read report, review workbook, all pending-evidence sheets, linked actions and global closure rules together. An adopted complete historical period/daily inquiry covering Zhao can cover all three named episodes without repeating each date or adding a separate action. A genuinely applicable all-five current/historical actual-record inquiry may likewise cover Zhao. The source period/employee/topic must be substantively bound, not an unrelated night/overtime/pay-only inquiry. Do not confuse a future-only daily logging mechanism with an already-requested historical reconstruction. A pending-evidence item itself is an executable inquiry when it identifies needed actual evidence/competent responsibility and an applicable timing or observable evidence route; it need not be repeated in the action list. No specific form, exactdate syntax, literalactual keyword or employee interview is mandatory: genuine task/site/nursing-room records, manager/employee confirmation and equivalent reliable sources can qualify. A blank field or recorded planned15:00-16:00 alone proves neither actual use nor actual denial. A finding that the planned field is blank/unreserved is not itself a claim of actual denial. Do not award merely copied dates/source IDs or the mere absence of a false statement; look for meaningful case-bound analysis or a linked actual-use inquiry. Do not infer May deduction dates from five blank May rows and a five-day July wage item. Payroll-date matching is a separate owner. Missing evidence is not an actual rights deprivation; an honest proposed inquiry need not already be completed. Cross-carrier scope clarification: follow explicit employee, open-item/finding/action IDs and mapped global closure rules. A pending-evidence record asking for daily actual historical use, with a responsible supplier/reviewer and required actual-record/onsite-confirmation output, is itself an historical inquiry; a later separately linked daily logging mechanism does not turn that request into future-only. Where a finding/report listsMay,July14 andAugust8 and refers to one daily actual-use evidence request, that shared request can cover all listed periods without repeating each date. Where a global full-period checking closure is explicitly applicable to the linked actual-use action, listing onlyMay/Aug examples in the action body is not an exclusion ofJuly14. A full-five historical comparison adopting the artifact nursing-time evidential rules may cover the employee and all relevant historical episodes; do not require person/date repeated in each row. Keep genuinely limited night/overtime-only, deduction-only or future-only scope distinct. No score or expected answer is supplied.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhao_july14_retrospective_verification",
+      "criterion": "For Zhao July14, is there an accountable historical actual-use evidence inquiry/reconstruction path, with competent responsibility and useful timing or observable evidence requirements? The originalJuly14 schedule reserves15:00-16:00, but the supplied actual-task records do not verify that nursing time was actually used. Accept distributed pending-evidence tables and mapped full-period/all-person actual-record inquiries. Merely backfilling a planned time field, copying a source fact, or starting future logs does not perform historical actual-use inquiry. Original02-01/P11-P13 requires cross-source actual facts, unresolved evidence and accountable follow-up; original Golden discusses historical actual nursing-use evidence, not just future time-field templates. Read report, review workbook, all pending-evidence sheets, linked actions and global closure rules together. An adopted complete historical period/daily inquiry covering Zhao can cover all three named episodes without repeating each date or adding a separate action. A genuinely applicable all-five current/historical actual-record inquiry may likewise cover Zhao. The source period/employee/topic must be substantively bound, not an unrelated night/overtime/pay-only inquiry. Do not confuse a future-only daily logging mechanism with an already-requested historical reconstruction. A pending-evidence item itself is an executable inquiry when it identifies needed actual evidence/competent responsibility and an applicable timing or observable evidence route; it need not be repeated in the action list. No specific form, exactdate syntax, literalactual keyword or employee interview is mandatory: genuine task/site/nursing-room records, manager/employee confirmation and equivalent reliable sources can qualify. A blank field or recorded planned15:00-16:00 alone proves neither actual use nor actual denial. A finding that the planned field is blank/unreserved is not itself a claim of actual denial. Do not award merely copied dates/source IDs or the mere absence of a false statement; look for meaningful case-bound analysis or a linked actual-use inquiry. Do not infer May deduction dates from five blank May rows and a five-day July wage item. Payroll-date matching is a separate owner. Missing evidence is not an actual rights deprivation; an honest proposed inquiry need not already be completed. Cross-carrier scope clarification: follow explicit employee, open-item/finding/action IDs and mapped global closure rules. A pending-evidence record asking for daily actual historical use, with a responsible supplier/reviewer and required actual-record/onsite-confirmation output, is itself an historical inquiry; a later separately linked daily logging mechanism does not turn that request into future-only. Where a finding/report listsMay,July14 andAugust8 and refers to one daily actual-use evidence request, that shared request can cover all listed periods without repeating each date. Where a global full-period checking closure is explicitly applicable to the linked actual-use action, listing onlyMay/Aug examples in the action body is not an exclusion ofJuly14. A full-five historical comparison adopting the artifact nursing-time evidential rules may cover the employee and all relevant historical episodes; do not require person/date repeated in each row. Keep genuinely limited night/overtime-only, deduction-only or future-only scope distinct. No score or expected answer is supplied.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhao_aug8_evidence_boundary",
+      "criterion": "For Zhao August8, does the adopted review meaningfully distinguish the planned nursing field from actual historical use, retaining actual performance/denial as unresolved where unsupported? The originalAugust8 schedule reserves15:00-16:00, while the actual-task record says nursing time was not separately recorded; planned reservation does not establish actual use or denial. A source-bound applicable whole-period analysis/inquiry may establish that boundary without an individual date sentence. Correct uncertainty analysis earns this atom even when its follow-up action is missing. Original02-01/P11-P13 requires cross-source actual facts, unresolved evidence and accountable follow-up; original Golden discusses historical actual nursing-use evidence, not just future time-field templates. Read report, review workbook, all pending-evidence sheets, linked actions and global closure rules together. An adopted complete historical period/daily inquiry covering Zhao can cover all three named episodes without repeating each date or adding a separate action. A genuinely applicable all-five current/historical actual-record inquiry may likewise cover Zhao. The source period/employee/topic must be substantively bound, not an unrelated night/overtime/pay-only inquiry. Do not confuse a future-only daily logging mechanism with an already-requested historical reconstruction. A pending-evidence item itself is an executable inquiry when it identifies needed actual evidence/competent responsibility and an applicable timing or observable evidence route; it need not be repeated in the action list. No specific form, exactdate syntax, literalactual keyword or employee interview is mandatory: genuine task/site/nursing-room records, manager/employee confirmation and equivalent reliable sources can qualify. A blank field or recorded planned15:00-16:00 alone proves neither actual use nor actual denial. A finding that the planned field is blank/unreserved is not itself a claim of actual denial. Do not award merely copied dates/source IDs or the mere absence of a false statement; look for meaningful case-bound analysis or a linked actual-use inquiry. Do not infer May deduction dates from five blank May rows and a five-day July wage item. Payroll-date matching is a separate owner. Missing evidence is not an actual rights deprivation; an honest proposed inquiry need not already be completed. Cross-carrier scope clarification: follow explicit employee, open-item/finding/action IDs and mapped global closure rules. A pending-evidence record asking for daily actual historical use, with a responsible supplier/reviewer and required actual-record/onsite-confirmation output, is itself an historical inquiry; a later separately linked daily logging mechanism does not turn that request into future-only. Where a finding/report listsMay,July14 andAugust8 and refers to one daily actual-use evidence request, that shared request can cover all listed periods without repeating each date. Where a global full-period checking closure is explicitly applicable to the linked actual-use action, listing onlyMay/Aug examples in the action body is not an exclusion ofJuly14. A full-five historical comparison adopting the artifact nursing-time evidential rules may cover the employee and all relevant historical episodes; do not require person/date repeated in each row. Keep genuinely limited night/overtime-only, deduction-only or future-only scope distinct. No score or expected answer is supplied.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhao_aug8_retrospective_verification",
+      "criterion": "For Zhao August8, is there an accountable historical actual-use evidence inquiry/reconstruction path, with competent responsibility and useful timing or observable evidence requirements? The originalAugust8 schedule reserves15:00-16:00, while the actual-task record says nursing time was not separately recorded; planned reservation does not establish actual use or denial. Accept distributed pending-evidence tables and mapped full-period/all-person actual-record inquiries. Merely backfilling a planned time field, copying a source fact, or starting future logs does not perform historical actual-use inquiry. Original02-01/P11-P13 requires cross-source actual facts, unresolved evidence and accountable follow-up; original Golden discusses historical actual nursing-use evidence, not just future time-field templates. Read report, review workbook, all pending-evidence sheets, linked actions and global closure rules together. An adopted complete historical period/daily inquiry covering Zhao can cover all three named episodes without repeating each date or adding a separate action. A genuinely applicable all-five current/historical actual-record inquiry may likewise cover Zhao. The source period/employee/topic must be substantively bound, not an unrelated night/overtime/pay-only inquiry. Do not confuse a future-only daily logging mechanism with an already-requested historical reconstruction. A pending-evidence item itself is an executable inquiry when it identifies needed actual evidence/competent responsibility and an applicable timing or observable evidence route; it need not be repeated in the action list. No specific form, exactdate syntax, literalactual keyword or employee interview is mandatory: genuine task/site/nursing-room records, manager/employee confirmation and equivalent reliable sources can qualify. A blank field or recorded planned15:00-16:00 alone proves neither actual use nor actual denial. A finding that the planned field is blank/unreserved is not itself a claim of actual denial. Do not award merely copied dates/source IDs or the mere absence of a false statement; look for meaningful case-bound analysis or a linked actual-use inquiry. Do not infer May deduction dates from five blank May rows and a five-day July wage item. Payroll-date matching is a separate owner. Missing evidence is not an actual rights deprivation; an honest proposed inquiry need not already be completed. Cross-carrier scope clarification: follow explicit employee, open-item/finding/action IDs and mapped global closure rules. A pending-evidence record asking for daily actual historical use, with a responsible supplier/reviewer and required actual-record/onsite-confirmation output, is itself an historical inquiry; a later separately linked daily logging mechanism does not turn that request into future-only. Where a finding/report listsMay,July14 andAugust8 and refers to one daily actual-use evidence request, that shared request can cover all listed periods without repeating each date. Where a global full-period checking closure is explicitly applicable to the linked actual-use action, listing onlyMay/Aug examples in the action body is not an exclusion ofJuly14. A full-five historical comparison adopting the artifact nursing-time evidential rules may cover the employee and all relevant historical episodes; do not require person/date repeated in each row. Keep genuinely limited night/overtime-only, deduction-only or future-only scope distinct. No score or expected answer is supplied.",
+      "kind": "positive",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_payroll_source_bridge",
+      "criterion": "Original cross-record business analysis: reconcile Chen source salary components7200,1680 and source total5120, recognizing a400 residual against5520 and its numerical relationship to the separately recorded400 attendance freeze. Equivalent formula/table or a substantively correct explanation counts; literal arithmetic notation is not required. Include an accountable explanation/reconciliation/correction path for the residual or a sound already-supported item mapping, without counting the same400 twice or claiming a final maternity fund/employer net from missing receipts. Known1680/400 correction alone without recognizing the source-total discrepancy does not perform this distinct source-ledger verification. A proposed reconciliation may preserve transaction-level uncertainty; do not require a particular banking filename or demand uncertainty when the operative comparison is explicitly a proposed mapping. Rejected wrong equations and raw quoted ledger labels do not invalidate a correct adopted analysis.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "zhao_deduction_period_link",
+      "criterion": "Original cross-period record verification: identify that175 is5days*35 in July performance/payroll while the supplied five blank nursing schedule dates areMay18-22, and either preserve their unproven date linkage or request the actual five deduction dates/import detail and relevant month. A broader accountable payroll/date-item reconciliation can suffice when it actually obtains the historical deduction dates; a literal May-vs-July explanation is not required. Do not assume equal counts prove the same five dates. Keep175 correction independent from this inquiry. Generic future logging, mere payroll refund, or asking only actual nursing use without the deduction-date relationship is incomplete.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_final_payment_responsibility_path",
+      "criterion": "Original Golden financial-responsibility detail for Chen final maternity settlement: does the review preserve unresolved fund/employer final obligations and provide an accountable evidence/settlement path that can determine how official benefit entitlement/payment and already-paid wages map to remaining payment responsibility? Relevant information can include who actually paid/received the benefit, actual prior wage payments and the remaining employer/fund difference, but no literal支付对象, bank-routing detail, account number, extra form or exact wording is required. A clearly linked official benefit receipt/award verification plus actual wage/payment evidence and itemized final responsibility reconciliation is a substantive equivalent, even without a separate paragraph naming every payer. Read report, unresolved questions, source-law application, payroll tables, actions, owners, closure and conditional stages together. Merely saying final amount unknown or passively wait for a receipt, without a verifiable responsibility/payment reconciliation path, does not perform this fine-grained analysis. Do not penalize keeping unknown amounts/payees unresolved, reasonable receipt-based pathways, or known1680/400 corrections separated from the final benefit net. This is a complementary informational subleaf, not a new law, compulsory bank route, or an extra damage event.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_september_phase_handoff",
+      "criterion": "Original September scheduling scope: does the adopted review connect Chen supported maternity boundary (April18 first-child birth,158 natural days throughSeptember22) to the actual-return phase withinSeptember while the infant is under1? A correct conditional pre-return stage review/phase-aware scheduling workflow can suffice. Do not presume actualSeptember23 return or deny unknown extra leave: maintain maternity protection if extended; on actual return continue the applicable nursing stage rather than treat maternity ending as all protection ending. Read employee findings, all-person rules, scheduling configuration, approval and linked actions together. A distributed rule actually tied to known leave/birth or stage-transition data can count without repeating Chen/date in one row. A maternity-end calculation alone or generic future checks without any applicable transition relation is incomplete. No specific birthday-end date, extra action row or exact wording is required.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_postreturn_nursing_work_time",
+      "criterion": "Original September post-return protection: does the review substantively apply daily1hour nursing time within working hours, counted as working time/not absence deduction, to Chen if she actually returns after supported maternity leave while infant under1? Accept a genuinely applicable distributed/all-person nursing control tied to the employee/stage/return workflow, even if the phase-handoff is not separately labelled. Preserve any already-correct broadly applied protection. A rule limited to Zhao/Wang or a detached legal quotation does not itself plan this post-return working-time control. Do not demand an exact clock slot, actual future execution, a birthday-end date or duplicate wording. Respect conditional extra leave.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_postreturn_no_night_overtime",
+      "criterion": "Original September post-return protection: does the operative schedule/control continue to prohibit night and overtime work for Chen on actual return while infant under1? A blanket protected-person scheduling control genuinely applicable across herSeptember return/stage can satisfy this even without naming Chen in each clause. Read full rules/employee scope/actions, not keywords alone. Keeping her off work only until the maternity end does not by itself settle laterSeptember work. Do not require future work already performed or an exact date/row; preserve correctly applied general protection.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "wang_nursing_schedule_correction",
+      "criterion": "Score the Wang nursing domain additively: 0.50 for substantively adopting the current daily one-hour nursing entitlement as working time; 0.25 for binding the identified current/inappropriate nursing allocation to Wang's supplied records or a genuinely applicable all-person historical scope; 0.25 for an accountable correction, arrangement or verification action with responsible function and observable closure evidence. Return only 0,0.25,0.5,0.75,1 as the sum of satisfied components. A legal quotation detached from current operation does not satisfy analysis; a generic future-only control does not satisfy correction. Equivalent whole-period scope may cover the relevant dates without repeated names or exact field labels.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ]
+    },
+    {
+      "id": "he_prior_reconfirmation_scope",
+      "criterion": "Does an accountable retrospective inquiry cover the source-required prior task/weight reconfirmation for He return to the banquet area onJune26, while retaining unverified procedure as unknown and numerical8kg/100minutes compliance independently? Read the whole He event block, workbooks and linked actions together. A complete June15-July31 or broader actual-duty/change-approval inquiry, with task/weight evidence and original change-reason/approval/confirmation records, includes June26 and is equivalent even without repeating June26, before, reconfirmation or a separate action row. A report instruction covering both sampled dates and full-period changes/approvals is not narrowed merely by an action giving additional detail for June16. Honor source-specific global no-backdating/unknown-evidence qualifications. Require substantive procedure/evidence inquiry, not a role/deadline or a closure-filename word alone. A query explicitly limited to June16 approvals, merely numerical medical compliance, future-only confirmations, or all-period task records without a connected approval/confirmation scope does not complete this operation. Do not infer an actual unauthorized return from missing records. No exact wording, duplicate carrier, row count or date repetition is required.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_current_operational_control",
+      "criterion": "Original-source business operation: does the review provide an accountable current/post-July31 job-and-scheduling control for He, distinct from historical-duty inquiry, prior June26 reconfirmation and proof/contract follow-up? The signed temporary arrangement endsJuly31. Pending current proof, preserve medical2hour/10kg restrictions, prohibit protected night/overtime work, confirm the current arrangement with employee/manager/HR or an equivalent documented competent confirmation, register/communicate effective protection, and check current/future schedules with owner, timing and observable closure evidence. Accept distributed linked details and equivalent systems; no duplicate row or literal dates/labels required. A dated theoretical stage is not a current clinical examination. Missing later records do not prove that protection was actually withdrawn. Planned corrective work need not already be executed.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_current_evidence_action",
+      "criterion": "Does the adopted review actively request appropriate clinical/evidence follow-up capable of confirming He current pregnancy/maternity protection position around the lateAugust/September scheduling boundary, with competent responsibility and an accountable evidence route? Read dated medical proof, its expiry, pending-evidence entries, report explanations, action and linked current/September job scheduling together. A request for a subsequent medical/gestational-week certificate tied to current/September arrangements can qualify without literal最新/当前孕产/是否分娩 words. Do not treat an actual requested medical institution record as mere arithmetic forecasting because its label also mentions the expected delivery date. A pure calculation of expected delivery or a request only for old expected-date information unrelated to current-stage protection is insufficient. No particular medical template, forced clinical result or proof of already-completed inquiry is required. Preserve protective interim controls pending evidence. Source statements and distributed employee/period/ID links determine the scope, not one action title. An explicit needed/latest clinical confirmation in the employee current case, linked to a competently assigned current protection/renewal action and its proof-dependent boundary, may inherit that same case responsibility and deadline without a separate clinical-request row. A job-renewal/trilateral-signature plan alone, after removing every clinical request/needed-clinical-material statement, does not become clinical evidence collection. Resolve actual same-case links using original source context and all carriers.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_current_stage_analysis",
+      "criterion": "Does the adopted He current lateAugust/September review substantively recognize that June10 gestational proof/EDD extrapolation is not an actual current clinical confirmation, OR actively seek appropriate subsequent clinical/current-stage proof within the responsible current protection workflow? An actual subsequent-medical evidence action is substantive adoption even without literalcurrent/latest words. A purely unsupported current clinical assertion with no such work is0. Current proof unknown does not cancel interim protection. A dated theoretical gestational calculation and protective hold may be correct when honestly qualified.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_current_stage_source",
+      "criterion": "For a substantively adopted current He protection/proof review, bind the June10 medical record, July31 arrangement expiry and lateAugust/September personnel/protection issue to the right employee and supplied sources. A linked evidence index or uniquely identifiable source facts suffice, no prescribed file-number syntax. No substantive current review means0. A false current certainty statement has its own detail owner and must not independently erase otherwise real source binding.",
+      "kind": "positive",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_known_record_correction",
+      "criterion": "Positive original correction atom: does the adopted plan substantively cancel/correct/reclassify the known erroneous1680 deduction basis and400 freeze status, independently of unknown final cash net settlement? Preserve equivalent cancellation of the erroneous attendance/payroll basis with itemized recalculation; return0 for no substantive known-record correction or an actual adopted condition that prevents it. The supplied source already identifies1680 absence deduction and400 attendance-reward freeze as entered projects generated from erroneous ordinary-absence/HRIS coding during supported maternity leave. Correcting the known erroneous absence/payroll/performance record basis is distinct from establishing whether additional cash remains payable, whether400 was already paid/released, obtaining payment records and calculating final benefit/employer net responsibility. Read complete report/workbook/actions and mapped conditions. Do not demand the literal解冻 or a particular journal form. A meaningful first-step cancellation/reclassification/recalculation of the known erroneous underlying records may be equivalent where it actually covers both projects. Do not assume cash must be paid twice or that an approval/verification condition on final money alone blocks record correction. A slash解冻/补付 does not alone prove blocking: check whether the condition genuinely governs the known erroneous status as well as any additional payment, and whether another operative same-scope step unconditionally corrects that status first. Missing an explicit record-correction action is a positive omission, not an affirmative instruction to keep it valid. Do not invent actual wage nonpayment or completed correction from a proposed plan.",
+      "kind": "positive",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "chen_affirmative_correction_consistency",
+      "criterion": "No-affirmative-blocking atom: return0 only for a clear operative instruction that leaves the already-known erroneous record/freeze status in force until an irrelevant unknown cash-unpaid/benefit-receipt/other prerequisite is met. Return1 for missing action alone, prudent checks against duplicate cash payment, awaiting official benefit net settlement, honest uncertainty, or a plan that corrects the known status first. The issue is an adopted incorrect prerequisite to known-record correction, not the mere presence of conditional language. The supplied source already identifies1680 absence deduction and400 attendance-reward freeze as entered projects generated from erroneous ordinary-absence/HRIS coding during supported maternity leave. Correcting the known erroneous absence/payroll/performance record basis is distinct from establishing whether additional cash remains payable, whether400 was already paid/released, obtaining payment records and calculating final benefit/employer net responsibility. Read complete report/workbook/actions and mapped conditions. Do not demand the literal解冻 or a particular journal form. A meaningful first-step cancellation/reclassification/recalculation of the known erroneous underlying records may be equivalent where it actually covers both projects. Do not assume cash must be paid twice or that an approval/verification condition on final money alone blocks record correction. A slash解冻/补付 does not alone prove blocking: check whether the condition genuinely governs the known erroneous status as well as any additional payment, and whether another operative same-scope step unconditionally corrects that status first. Missing an explicit record-correction action is a positive omission, not an affirmative instruction to keep it valid. Do not invent actual wage nonpayment or completed correction from a proposed plan.",
+      "kind": "no_error",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "benefit_execution_trigger_consistency",
+      "criterion": "Positive execution-detail atom: is there a substantive final-benefit follow-up/reconciliation plan whose adopted triggers/deadlines are coherent for the same operation or sensibly separated outputs? Return0 for missing substantive operation/trigger or a genuinely unresolved same-output timing conflict, not merely absent phase labels. Read complete adopted actions, employee findings, open items, responsibility/escalation and closure records jointly. Identify the actual operation, employee, inputs/prerequisites and output, rather than matching words. A receipt/award calculation, cash-arrival verification, later payroll reconciliation and employee explanation may be different phases; accept a meaningfully distributed two-phase plan without requiring exact phase labels. A specifically defined bank/arrival receipt may be equivalent to arrival. Do not assume all receipts are different, or all receipts equal cash arrival. Unboundedafter-receipt andafter-arrival conditions may be cumulative prerequisites, not rival exclusive clocks. By contrast, two expressly bounded clocks for the same final output, starting from distinct receipt and actual-cash-arrival events without a resolvable relationship, make the promised execution deadline inconsistent. A chosen2/3/5day promise is evaluated only for internal coherence, not as a legal deadline or mandatory template. Do not infer actual late payment/arrears from a planned clock conflict, or confuse correcting known wage entries with final unknown benefit/employer settlement. No role, score or gap identity is relevant. Refinement: two numeric windows are not necessary. A single unconditionalreceipt+N deadline for a final output conflicts with requiring cash arrival before that same output when receipt/arrival order or delay is unbound; one bound plus an unresolved same-output prerequisite can make execution impossible. Track deadline ownership: a deadline written in the same action row applies to that adopted action/output unless the artifact actually scopes it to a distinct intermediate output. A separate calculation/authorization entry does not by itself reassign a final-reconciliation row deadline. Do not resolve a final-benefit timing conflict by citing unrelated already-known1680/400 wage correction as another phase. Accept actual different intermediateaward/amount-calculation and finalcash-reconciliation outputs when the complete artifact meaningfully assigns the receipt deadline only to the former; no prescribed phase labels are required. An unboundedafter-receipt prerequisite without a receipt+N deadline can cumulate with arrival; do not invent an upper bound. Preserve equivalent bank/arrival receipts when actually defined by the candidate, without assuming every officialaward receipt proves arrival. A provisional wage-item reconciliation/exception list can close before unknown official final award or net settlement. Do not inferfinalnet output from a generic勾稽单/对账表 label alone where the actual report explicitly reserves final benefit responsibility/net to later receipt/payment verification. Conversely an output actually defined as final settlement including arrival/payment evidence cannot meet an unconditional earlier receipt deadline unless the actual workflow resolves it. No exact phase labels are required. A fixed-date target for contacting/chasing an external receipt, with that external result expressly pending, is not by itself an unconditional guarantee that final settlement/payment will be completed by that date. Do not invent such a guarantee merely because a generic receipt/settlement document appears in a closure column. Distinguish the attempt/checkpoint from a genuinely promised final-output deadline. A real same-final-output unconditionalreceipt-plus-N deadline conflicting with an unresolved cash-arrival prerequisite remains an error; merely labeling an actionpending does not cancel an actually adopted relative completion promise. A coherent final follow-up onreceipt needs no inventedN-day service standard.",
+      "kind": "positive",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "benefit_affirmative_execution_consistency",
+      "criterion": "Independent no-affirmative-error atom: return0 only for a concrete adopted same-final-operation/output clock contradiction involving an explicit bounded deadline or otherwise mutually inconsistent execution obligation. Return1 if no such affirmative contradiction is established, including absent action/trigger, cumulative prerequisites, a coherent division of outputs, or a receipt defined as cash/arrival evidence. Missing work alone is never this error. Read complete adopted actions, employee findings, open items, responsibility/escalation and closure records jointly. Identify the actual operation, employee, inputs/prerequisites and output, rather than matching words. A receipt/award calculation, cash-arrival verification, later payroll reconciliation and employee explanation may be different phases; accept a meaningfully distributed two-phase plan without requiring exact phase labels. A specifically defined bank/arrival receipt may be equivalent to arrival. Do not assume all receipts are different, or all receipts equal cash arrival. Unboundedafter-receipt andafter-arrival conditions may be cumulative prerequisites, not rival exclusive clocks. By contrast, two expressly bounded clocks for the same final output, starting from distinct receipt and actual-cash-arrival events without a resolvable relationship, make the promised execution deadline inconsistent. A chosen2/3/5day promise is evaluated only for internal coherence, not as a legal deadline or mandatory template. Do not infer actual late payment/arrears from a planned clock conflict, or confuse correcting known wage entries with final unknown benefit/employer settlement. No role, score or gap identity is relevant. Refinement: two numeric windows are not necessary. A single unconditionalreceipt+N deadline for a final output conflicts with requiring cash arrival before that same output when receipt/arrival order or delay is unbound; one bound plus an unresolved same-output prerequisite can make execution impossible. Track deadline ownership: a deadline written in the same action row applies to that adopted action/output unless the artifact actually scopes it to a distinct intermediate output. A separate calculation/authorization entry does not by itself reassign a final-reconciliation row deadline. Do not resolve a final-benefit timing conflict by citing unrelated already-known1680/400 wage correction as another phase. Accept actual different intermediateaward/amount-calculation and finalcash-reconciliation outputs when the complete artifact meaningfully assigns the receipt deadline only to the former; no prescribed phase labels are required. An unboundedafter-receipt prerequisite without a receipt+N deadline can cumulate with arrival; do not invent an upper bound. Preserve equivalent bank/arrival receipts when actually defined by the candidate, without assuming every officialaward receipt proves arrival. A provisional wage-item reconciliation/exception list can close before unknown official final award or net settlement. Do not inferfinalnet output from a generic勾稽单/对账表 label alone where the actual report explicitly reserves final benefit responsibility/net to later receipt/payment verification. Conversely an output actually defined as final settlement including arrival/payment evidence cannot meet an unconditional earlier receipt deadline unless the actual workflow resolves it. No exact phase labels are required. A fixed-date target for contacting/chasing an external receipt, with that external result expressly pending, is not by itself an unconditional guarantee that final settlement/payment will be completed by that date. Do not invent such a guarantee merely because a generic receipt/settlement document appears in a closure column. Distinguish the attempt/checkpoint from a genuinely promised final-output deadline. A real same-final-output unconditionalreceipt-plus-N deadline conflicting with an unresolved cash-arrival prerequisite remains an error; merely labeling an actionpending does not cancel an actually adopted relative completion promise. A coherent final follow-up onreceipt needs no inventedN-day service standard.",
+      "kind": "no_error",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "he_prior_confirmation_evidence_truth",
+      "criterion": "Return1 unless an adopted affirmative unsupported historical confirmation assertion is proved. The original adjustment02-04 and communication02-07 require reconfirming task and carrying weight before He returns to the banquet area;June26 actual task8kg/100minutes is below numerical restrictions. The supplied materials do not provide that prior reconfirmation record; this alone does not prove the historical confirmation never happened. Return0 only when the operative artifact unequivocally treats historical failure to perform theJune26 prior reconfirmation as an established fact/violation solely from missing supplied evidence, or explicitly represents a later reconstruction as an authentic historical prior approval. Distinguish actual nonperformance from a known documentation/evidence gap. Missing proof, awaiting confirmation, uncertain whether performed, an explicit current records-management deficiency, and a conditionalif-confirmed-not-done remedial plan are not affirmative nonperformance. The words补做/补签/程序缺失 alone do not prove a false historical claim; a present-dated factual supplement/exception explanation may be honest. Do not infer backdating unless actually adopted. Read all three carriers, finding status, same-episode uncertainty and adopted actions. A genuinely same-episode explicitwhether-performed-is-unknown qualification must be reconciled; an unrelated general disclaimer does not cancel a specific unqualified established nonperformance finding. An action to correct a documentation gap is not evidence that the original confirmation did or did not occur. Do not invent a separate mandatory historical paperwork format. This item exclusively measures the historical truth boundary; do not evaluate whether the full-period inquiry/current medical control/contract plan is complete and do not duplicate a source error from another episode. Refinement: a confirmed gap in the supplied confirmation documentation is not necessarily a confirmed historical failure to perform confirmation. Where the finding explains未见确认记录 and then labels程序确认缺失 or程序缺失已确认, read whether this is only the known evidence/record deficiency; do not require the literal待核/是否履行 wording to avoid an error. Return0 only for unmistakably adopted actual historical nonperformance or an unresolved operative assertion that historical confirmation did not occur. A shorthand heading explained as a documentation gap by its full case text is not enough. Use the same substantive standard for procedural-record gaps regardless of the presence of an explicitunknown label; preserve genuinely unqualified未履行/未经确认 facts when the scope actually adopts them.",
+      "kind": "no_error",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "harm_chen_calendar",
+      "criterion": "Return0 only for an adopted affirmative wrong Chen source date,158-day calculation, maternity-end/return boundary or an extra wrong calendar assertion. Correct supplied rule: April18 counted day1 gives September22 inclusive end and September23 return. Return1 when no actual affirmative calendar error is supported. An accurate date with explanatory text is equivalent to the bare date; never compare full annotated cell text literally against a date string. A rejected alternative, an accurate source-date quotation, or a proposal merely to verify unknown additional leave facts is not an adopted wrong boundary. Read all qualifications. This error owns date-decision correctness once; do not confuse missing analysis with a false assertion. Exclusive severity ownership: this is the nonblocking factual-detail predicate. A conservative excess day or category/basis misstatement that leaves the supported current protection intact is a detail. If the same adopted boundary actually ends supported protection early or requires premature return/termination, return1 here and let the corresponding affirmative leave/contract blocking predicate exclusively own that same early-deprivation error. Do not charge the same wrong boundary at both tiers. An independent nonblocking additional date assertion may still be evaluated on its own evidence.",
+      "kind": "no_error",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "harm_wang_calendar",
+      "criterion": "Return0 only for an adopted affirmative wrong Wang birth/protection date or actually including October6 as a protected day beyond the October5 inclusive nursing period. October6 as the exclusive first-birthday/condition-disappearance boundary is equivalent and must return1. Wording such as continuation until the condition disappears on October6, with the actual disappearance boundary qualified, is not by itself inclusive protection through October6. Annotated correct birth dates are correct. A mere October6 anniversary, earliest review, or conditional future review is not an error. Only supported operative scope determines polarity; do not invent inclusivity from an isolated until/to character. Return1 if no such affirmative wrong calendar claim exists. Exclusive severity ownership: this is the nonblocking factual-detail predicate. A conservative excess day or category/basis misstatement that leaves the supported current protection intact is a detail. If the same adopted boundary actually ends supported protection early or requires premature return/termination, return1 here and let the corresponding affirmative leave/contract blocking predicate exclusively own that same early-deprivation error. Do not charge the same wrong boundary at both tiers. An independent nonblocking additional date assertion may still be evaluated on its own evidence.",
+      "kind": "no_error",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "harm_he_current_stage",
+      "criterion": "Return0 only for an unequivocal adopted claim that a current clinical pregnancy/maternity stage at the Aug31 boundary is actually verified by current evidence although the only supplied proof is June10 at24weeks2days, with no genuine same-scope qualification. Return1 for correct dated arithmetic or a stated theoretical stage, a conservative legal protective hold/continuation based on the available proof pending updated evidence, a generic pregnancy-protection label in that conditional workflow, and an explicit request for current proof. Do not infer actual clinical confirmation from a legal interim protective arrangement alone. A true same-scope unqualified clinical-confirmation assertion is not canceled by an unrelated disclaimer; inspect complete current-stage wording, uncertainty and operative scope. Omission of a proof request is not an affirmative clinical assertion.",
+      "kind": "no_error",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_zhou_medical_arithmetic",
+      "criterion": "Return0 only for an adopted extra wrong elapsed-gestational-week/date assertion about Zhou. Source is July7 at28weeks5days, so July21 is30weeks5days and Aug31 is36weeks4days. Correctly quoting the July7 original record is not an erroneous July21/lateAugust assertion. A stated date has to be actually bound to the adopted number. Do not infer a clinical diagnosis or require an additional medical calculation. Missing arithmetic is1. All repeated same-person timeline misstatements are one factual-detail event.",
+      "kind": "no_error",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_zhao_aug08_source_field",
+      "criterion": "Return0 only for an adopted affirmative false source-field claim that Zhao Aug8 scheduled nursing field itself is empty, when the original roster actually reserves15-16 and the missing item is actual-use/onsite evidence. Quoting missingactualrecords or keeping actual use unknown is1. Do not confuse a missing record with a blank schedule, and do not invent a completed correction/denial. Optional index wording without this adopted operative source assertion is outside scoring.",
+      "kind": "no_error",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_chen_current_wage_execution",
+      "criterion": "Return0 only for an adopted substantive current wage instruction that withholds or refuses supported July25-31 maternity-period wages/corrective treatment solely until the pending allowance receipt despite source-supported158days, or a same-period operative pay-now versusdo-not-pay contradiction. Unknown final benefit/employer net, prudent actual-payment checks and proposed itemized reconciliation are not withholding. Read all adopted conditions; a merely missing payment action is a positive omission, not this error. This exclusively owns actual blocking current-wage conditions, apart from the separately measured known400record-status condition and final-settlement clock.",
+      "kind": "no_error",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_zhou_protection_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually authorize or adopt protected Zhou night/overtime work or treat allowance/consent as permission, versus missing generic wording alone. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_zhou_payroll_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually keep the established unlawful300 performance deduction valid or offset it using120 allowance; prudent verification of actual cash already paid is not this error. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ240117",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_zhao_protection_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually authorize protected Zhao night/overtime or remove the supported daily nursing-time right as working time. Missing a historical inquiry alone is not an affirmative rights removal. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_zhao_payroll_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually keep the175 nursing deduction valid or adopt a false offset, versus missing a separate correction action alone. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ230144",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_chen_leave_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually end supported maternity protection before September22, force return before September23, or keepJuly25-31 ordinary absence lawful. A conservative1-2day extension or category-label detail without early loss belongs only to calendar detail, not this blocking tier. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ220031",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_he_operational_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually authorize tasks exceeding the known2hour/10kg medical limitations, remove interim protected scheduling, or falsely conclude all historical duties compliant solely from samples and use that to cancel necessary protection. A missing current work control is a positive omission, not automatically an affirmative error. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_he_contract_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually approve ordinaryAug31 expiry termination despite supported protective continuation/need to verify current position. An uncertain current clinical stage does not authorize ordinary termination. A missinghold is a positive omission, not an affirmative adopted termination. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ230086",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "safe_wang_contract_decision",
+      "criterion": "Return0 only for a supported adopted affirmative incorrect operative decision of this kind: Actually approve ordinaryAug31 termination or cessation of supported nursing protection beforeOct5inclusive, or treat an unserved ineffective draft as completed effective termination. Conservative extra protection days alone are a calendar detail, not this blocking tier. Return1 otherwise, including missing work, honest pending facts, rejected alternatives and interim protection. Preserve all whole-scope qualifications and source/employee/period binding. Do not count a repeated rendering as another event.",
+      "kind": "no_error",
+      "employee": "HZ240052",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "usable_zhou_review",
+      "criterion": "Binary minimal usable current Zhou review: identify the source-supported protected actualJuly21 night-work event, adopt future night/overtime protection and a traceable corrective plan for the300 performance deduction while preserving120 allowance separately. Read whole carriers/rules/action links. A dated-age arithmetic detail that leaves the correct protective decision intact is not by itself a failure; fabricating a medical record or permitting protected night work is. This is an indispensable current decision, not a training example, roster entry, heading or keyword. Minimum usability is independent of strict detail credit. Current contract continuation until the protective condition actually disappears can satisfy a lawfulhold without an extra mandatory future approval template. Do not add September Chen phase handoff or strict investigation details to this minimum. Preserve applicable whole-period/global employee scope and equivalent plans.",
+      "kind": "binary",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "usable_he_review",
+      "criterion": "Binary minimal usable current He review: distinguish the June16 published/actual task mismatch and the June26 measured work below medical numerical limits; retain unresolved broader facts without claiming whole-period compliance from samples. Maintain current safe medical restrictions and interim protective scheduling while current stage/continuation evidence is unresolved, and block ordinary contract-expiry termination. Current protective work needs a responsible actionable route and verifiable follow-up. Do not demand every strict historical investigation, a prescribed row, particular system or duplicated wording. Respect distributed current rules/actions and conservative protection pending proof. Do not infer that a legal interim protection label is a false verified clinical finding. Minimum usability is independent of strict detail credit. Current contract continuation until the protective condition actually disappears can satisfy a lawfulhold without an extra mandatory future approval template. Do not add September Chen phase handoff or strict investigation details to this minimum. Preserve applicable whole-period/global employee scope and equivalent plans.",
+      "kind": "binary",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "usable_chen_review",
+      "criterion": "Binary minimal usable current Chen review: use verified first-single-child proof and158 natural days with April18 counted day1, September22 end/September23 return; correct ordinary-absence/return-to-work treatment forJuly25-31. Identify1680 absence deduction and400 attendance freeze separately as affected by erroneous attendance and provide an accountable safe correction/reconciliation path, keeping final maternity allowance/employer net unresolved until receipts and actual payment evidence. The known erroneous attendance/status must not remain lawful merely because receipt is pending. Do not require final cash payment, a bank amount not yet verified, or perfect repetition of each correction command. A proposed approval/reconciliation check against duplicate payment is not itself refusal to correct a known error. Missing either source item or adopting the wrong leave boundary is a failure. Judge the actual usable decision and current corrective path, not a strict score. Minimum usability is independent of strict detail credit. Current contract continuation until the protective condition actually disappears can satisfy a lawfulhold without an extra mandatory future approval template. Do not add September Chen phase handoff or strict investigation details to this minimum. Preserve applicable whole-period/global employee scope and equivalent plans.",
+      "kind": "binary",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "usable_zhao_review",
+      "criterion": "Binary minimal usable current Zhao review: identify protected actualJuly12 night work, stop future night/overtime, preserve daily1hour nursing time as working time, and adopt the175 deduction correction. Keep missing May actual-use evidence unresolved rather than inferring use or denial from blank fields, with accountable records/follow-up. The full strict retrospective reconstruction need not already be completed. Generic course content or a name list is not a current employee decision. Minimum usability is independent of strict detail credit. Current contract continuation until the protective condition actually disappears can satisfy a lawfulhold without an extra mandatory future approval template. Do not add September Chen phase handoff or strict investigation details to this minimum. Preserve applicable whole-period/global employee scope and equivalent plans.",
+      "kind": "binary",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "usable_wang_review",
+      "criterion": "Binary minimal usable current Wang review: distinguish the unserved ineffective draft from completed termination, hold ordinaryAug31 expiry processing, continue protection throughOct5 inclusive/Oct6 exclusive and retain a lawful future procedural review before actual termination. Address the actual current nursing arrangement: daily1hour as working time and correction/verification of the schedule not-applicable fields, with an accountable path. A contract hold plus a generic nursing rule alone is not a current scheduling decision. Equivalent distributed current arrangements and condition-disappearance wording are accepted. No completed execution is required for an honest proposed corrective plan. Minimum usability is independent of strict detail credit. Current contract continuation until the protective condition actually disappears can satisfy a lawfulhold without an extra mandatory future approval template. Do not add September Chen phase handoff or strict investigation details to this minimum. Preserve applicable whole-period/global employee scope and equivalent plans.",
+      "kind": "binary",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "usable_evidence_truth",
+      "criterion": "Binary essential evidentiary safety: no adopted fabrication of a person, source record, authority/approval or completed payment/correction, and no material cross-carrier contradiction that reverses current protective, payroll or contract decisions. Inspect complete scope, qualifications and original source periods. A mere raw payable/paid ledger label or proposed payment is not an asserted completed cash transfer. Pending facts, rejected errors, dated arithmetic and a conservative legal hold pending clinical proof are not invented evidence. An isolated nonmaterial elapsed-age detail that preserves the correct current protection need not fail minimum usability. Do not convert missing optional discussion into an affirmative error. Minimum usability is independent of strict detail credit. Current contract continuation until the protective condition actually disappears can satisfy a lawfulhold without an extra mandatory future approval template. Do not add September Chen phase handoff or strict investigation details to this minimum. Preserve applicable whole-period/global employee scope and equivalent plans.",
+      "kind": "binary",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "usable_accountable_open_controls",
+      "criterion": "Binary minimal execution-readiness: current core corrections/holds and genuinely decisive unresolved matters have identifiable responsible functions, executable timing and observable closure evidence in linked report/workbook/actions. Read distributed links and global conditions; no exact action count, row ID, repeated per-carrier text or completed execution is required. The package must enable current correction/approval and preserve a specific protective interim control plus an accountable decision checkpoint where proof is missing. Do not demand perfect completion of every strict historical inquiry or later training, but do not let a training plan substitute for the actual five-person current review or leave critical current risks without a route. Mere filled fields without the relevant substantive action fail. Minimum usability is independent of strict detail credit. Current contract continuation until the protective condition actually disappears can satisfy a lawfulhold without an extra mandatory future approval template. Do not add September Chen phase handoff or strict investigation details to this minimum. Preserve applicable whole-period/global employee scope and equivalent plans.",
+      "kind": "binary",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "delivery_cross_file_consistency",
+      "criterion": "Do the report, audit workbook and action workbook preserve the same adopted employee propositions, statuses and accepted actions without material cross-carrier contradiction? Compare the same employee and action identity only: do not transfer a date or action from a neighboring row that names a different employee. A row limited to Zhou cannot set Zhao's deadline. Explicit staged milestones such as correction by September2 and full-period verification by September5 are complementary, not contradictory. Equivalent distribution across files is allowed; exact repetition is not required.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "delivery_reference_resolution",
+      "criterion": "Do candidate source references and evidence tokens resolve to supplied source records or to a delivered source register/alias chain, without dangling references used to support adopted findings? A professional filename, source ID or explicit alias is acceptable.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "delivery_timeline_integrity",
+      "criterion": "Does the review distinguish event dates, evidence dates, record-entry dates, approval dates and review/follow-up dates where those roles differ, without collapsing planned, recorded and verified time states? Evaluate each employee and action identity across carriers; never borrow a date from another employee's row. Treat explicitly labelled correction and later full-period verification milestones as distinct stages, not a conflict.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "delivery_source_inventory",
+      "criterion": "Do the delivered carriers provide a usable inventory or distributed register of the material source records, including source identity plus applicable period/version/provenance sufficient for review? No prescribed sheet name or duplicate listing in every file is required.",
+      "kind": "positive",
+      "employee": "all",
+      "completion_values": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scope": "Current source-bound substantive predicates; source graph is retrieval only, no actor/cell lookup or lexical adoption gate."
+}

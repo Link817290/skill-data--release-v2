@@ -1,0 +1,5165 @@
+{
+  "case_assessments": [
+    {
+      "review_id": "R01",
+      "primaryid": "232616901",
+      "suspect_active_ingredient": "EMPAGLIFLOZIN",
+      "event_pt": "Urinary tract infection",
+      "temporal_status": "UNRESOLVED",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "CASE_LEVEL_POSITIVE",
+      "causality": "UNASSESSABLE",
+      "evidence_codes": [
+        "same_day_order_unresolved",
+        "positive_dechallenge",
+        "case_level_rechallenge_only",
+        "no_documented_reexposure_course",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:32786"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:161144",
+          "/workspace/faers/drug.csv:161145",
+          "/workspace/faers/drug.csv:161146",
+          "/workspace/faers/drug.csv:161147",
+          "/workspace/faers/drug.csv:161148",
+          "/workspace/faers/drug.csv:161149"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:126254"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:54613"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:26383"
+        ]
+      }
+    },
+    {
+      "review_id": "R02",
+      "primaryid": "234512701",
+      "suspect_active_ingredient": "EMPAGLIFLOZIN",
+      "event_pt": "Diabetic ketoacidosis",
+      "temporal_status": "SUPPORTED",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "POSSIBLE",
+      "evidence_codes": [
+        "temporal_supported",
+        "positive_dechallenge",
+        "rechallenge_unknown",
+        "co_reported_context",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:59589"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:300201"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:232303"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:99903"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:47101"
+        ]
+      }
+    },
+    {
+      "review_id": "R03",
+      "primaryid": "234844501",
+      "suspect_active_ingredient": "SEMAGLUTIDE",
+      "event_pt": "Pancreatitis",
+      "temporal_status": "START_AFTER_EVENT",
+      "dechallenge_status": "NEGATIVE",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "UNLIKELY",
+      "evidence_codes": [
+        "start_after_event",
+        "negative_dechallenge",
+        "rechallenge_unknown"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:62759"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:311049",
+          "/workspace/faers/drug.csv:311050"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:241351"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:103249"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:49090",
+          "/workspace/faers/outc.csv:49091"
+        ]
+      }
+    },
+    {
+      "review_id": "R04",
+      "primaryid": "233366401",
+      "suspect_active_ingredient": "SEMAGLUTIDE",
+      "event_pt": "Intestinal obstruction",
+      "temporal_status": "SUPPORTED",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "POSSIBLE",
+      "evidence_codes": [
+        "partial_start_interval_precedes_event",
+        "positive_dechallenge",
+        "rechallenge_unknown",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:39860"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:183901"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:144662"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:61230"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:31255"
+        ]
+      }
+    },
+    {
+      "review_id": "R05",
+      "primaryid": "227626203",
+      "suspect_active_ingredient": "ABEMACICLIB",
+      "event_pt": "Alopecia",
+      "temporal_status": "SUPPORTED",
+      "dechallenge_status": "UNKNOWN",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "POSSIBLE",
+      "evidence_codes": [
+        "partial_start_interval_precedes_event",
+        "dechallenge_unknown",
+        "rechallenge_unknown",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:46159"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:241230",
+          "/workspace/faers/drug.csv:241231"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:186074"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:80177"
+        ]
+      }
+    },
+    {
+      "review_id": "R06",
+      "primaryid": "1249156023",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Alopecia",
+      "temporal_status": "START_AFTER_EVENT",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "UNLIKELY",
+      "evidence_codes": [
+        "start_after_event",
+        "positive_dechallenge",
+        "secondary_courses_not_substituted",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:41523"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:190010",
+          "/workspace/faers/drug.csv:190011",
+          "/workspace/faers/drug.csv:190012",
+          "/workspace/faers/drug.csv:190013",
+          "/workspace/faers/drug.csv:190014",
+          "/workspace/faers/drug.csv:190015",
+          "/workspace/faers/drug.csv:190016",
+          "/workspace/faers/drug.csv:190017",
+          "/workspace/faers/drug.csv:190018",
+          "/workspace/faers/drug.csv:190019",
+          "/workspace/faers/drug.csv:190020",
+          "/workspace/faers/drug.csv:190021",
+          "/workspace/faers/drug.csv:190022",
+          "/workspace/faers/drug.csv:190023",
+          "/workspace/faers/drug.csv:190024",
+          "/workspace/faers/drug.csv:190025",
+          "/workspace/faers/drug.csv:190026",
+          "/workspace/faers/drug.csv:190027",
+          "/workspace/faers/drug.csv:190028",
+          "/workspace/faers/drug.csv:190029",
+          "/workspace/faers/drug.csv:190030",
+          "/workspace/faers/drug.csv:190031"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:149958"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:63136"
+        ]
+      }
+    },
+    {
+      "review_id": "R07",
+      "primaryid": "236683601",
+      "suspect_active_ingredient": "ABEMACICLIB",
+      "event_pt": "Erythema multiforme",
+      "temporal_status": "SUPPORTED",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "POSSIBLE",
+      "evidence_codes": [
+        "temporal_supported",
+        "positive_dechallenge",
+        "rechallenge_unknown",
+        "concomitant_present",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:79948"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:372525",
+          "/workspace/faers/drug.csv:372526"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:286693"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:120893"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:60460"
+        ]
+      }
+    },
+    {
+      "review_id": "R08",
+      "primaryid": "236260101",
+      "suspect_active_ingredient": "CANAGLIFLOZIN",
+      "event_pt": "Necrotising fasciitis",
+      "temporal_status": "UNRESOLVED",
+      "dechallenge_status": "NEGATIVE",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "UNASSESSABLE",
+      "evidence_codes": [
+        "event_onset_missing",
+        "negative_dechallenge",
+        "rechallenge_unknown"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:76072"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:358269"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:276377"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:117030"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:57764",
+          "/workspace/faers/outc.csv:57765",
+          "/workspace/faers/outc.csv:57766",
+          "/workspace/faers/outc.csv:57767"
+        ]
+      }
+    },
+    {
+      "review_id": "R09",
+      "primaryid": "235543601",
+      "suspect_active_ingredient": "DAPAGLIFLOZIN",
+      "event_pt": "Diabetic ketoacidosis",
+      "temporal_status": "SUPPORTED",
+      "dechallenge_status": "UNKNOWN",
+      "rechallenge_status": "UNKNOWN",
+      "causality": "POSSIBLE",
+      "evidence_codes": [
+        "temporal_supported",
+        "dechallenge_unknown",
+        "rechallenge_unknown",
+        "co_reported_context",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:69393"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:335687"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:259223"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:110217"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:53241",
+          "/workspace/faers/outc.csv:53242"
+        ]
+      }
+    },
+    {
+      "review_id": "R10",
+      "primaryid": "230196701",
+      "suspect_active_ingredient": "ABEMACICLIB",
+      "event_pt": "Aspartate aminotransferase increased",
+      "temporal_status": "UNRESOLVED",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "CASE_LEVEL_POSITIVE",
+      "causality": "UNASSESSABLE",
+      "evidence_codes": [
+        "event_onset_missing",
+        "positive_dechallenge",
+        "case_level_rechallenge_only",
+        "no_documented_reexposure_course",
+        "concomitant_present"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:9553"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:78655",
+          "/workspace/faers/drug.csv:78656",
+          "/workspace/faers/drug.csv:78657"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:60860"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:8867"
+        ]
+      }
+    },
+    {
+      "review_id": "R11",
+      "primaryid": "231404201",
+      "suspect_active_ingredient": "EMPAGLIFLOZIN",
+      "event_pt": "Ketoacidosis",
+      "temporal_status": "UNRESOLVED",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "NEGATIVE",
+      "causality": "UNASSESSABLE",
+      "evidence_codes": [
+        "exposure_start_missing",
+        "positive_dechallenge",
+        "negative_rechallenge",
+        "co_reported_context"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:21177"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:121804"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:95577"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:43445"
+        ],
+        "outc": [
+          "/workspace/faers/outc.csv:17936",
+          "/workspace/faers/outc.csv:17937"
+        ]
+      }
+    },
+    {
+      "review_id": "R12",
+      "primaryid": "180491904",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Condition aggravated",
+      "temporal_status": "SUPPORTED",
+      "dechallenge_status": "POSITIVE",
+      "rechallenge_status": "NEGATIVE",
+      "causality": "POSSIBLE",
+      "evidence_codes": [
+        "temporal_supported",
+        "positive_dechallenge",
+        "negative_rechallenge",
+        "secondary_course_not_substituted",
+        "alternatives_unresolved"
+      ],
+      "rationale": "The category is limited to what can be established from the retained structured report fields.",
+      "source_rows": {
+        "demo": [
+          "/workspace/faers/demo.csv:42053"
+        ],
+        "drug": [
+          "/workspace/faers/drug.csv:198193",
+          "/workspace/faers/drug.csv:198194",
+          "/workspace/faers/drug.csv:198195",
+          "/workspace/faers/drug.csv:198196",
+          "/workspace/faers/drug.csv:198197",
+          "/workspace/faers/drug.csv:198198",
+          "/workspace/faers/drug.csv:198199",
+          "/workspace/faers/drug.csv:198200",
+          "/workspace/faers/drug.csv:198201",
+          "/workspace/faers/drug.csv:198202",
+          "/workspace/faers/drug.csv:198203",
+          "/workspace/faers/drug.csv:198204",
+          "/workspace/faers/drug.csv:198205"
+        ],
+        "reac": [
+          "/workspace/faers/reac.csv:155657"
+        ],
+        "ther": [
+          "/workspace/faers/ther.csv:65621"
+        ]
+      }
+    }
+  ],
+  "longitudinal_assessments": [
+    {
+      "change_id": "L01",
+      "caseid": "22282990",
+      "suspect_active_ingredient": "RIBOCICLIB",
+      "event_pt": "Headache",
+      "versions": [
+        {
+          "primaryid": "2228299010",
+          "caseversion": 10,
+          "source_quarter": "2023Q4",
+          "pair_state": "EXPOSURE_ONLY",
+          "primary_suspect_exposure": true,
+          "target_event_present": false,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:4478"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:50249"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:20604"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:4691"
+            ]
+          }
+        },
+        {
+          "primaryid": "2228299011",
+          "caseversion": 11,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "POSSIBLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:45192"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:234132"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:180435"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:77379"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:36157"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "target_event_added",
+        "pair_membership_added"
+      ],
+      "assessment_impact": "PAIR_ADDED",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L02",
+      "caseid": "23347080",
+      "suspect_active_ingredient": "DAPAGLIFLOZIN",
+      "event_pt": "Dry mouth",
+      "versions": [
+        {
+          "primaryid": "233470801",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "EXPOSURE_ONLY",
+          "primary_suspect_exposure": true,
+          "target_event_present": false,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:40831"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:187062"
+            ]
+          }
+        },
+        {
+          "primaryid": "233470802",
+          "caseversion": 2,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:50166"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:265346"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:205489"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:88762"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:40252",
+              "/workspace/faers/outc.csv:40253"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "target_event_added",
+        "therapy_added",
+        "event_onset_still_missing"
+      ],
+      "assessment_impact": "PAIR_ADDED_STILL_UNASSESSABLE",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L03",
+      "caseid": "23299760",
+      "suspect_active_ingredient": "RIBOCICLIB",
+      "event_pt": "Death",
+      "versions": [
+        {
+          "primaryid": "232997601",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:36375"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:172787"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:135634"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:28886"
+            ]
+          }
+        },
+        {
+          "primaryid": "232997602",
+          "caseversion": 2,
+          "source_quarter": "2024Q1",
+          "pair_state": "EXPOSURE_ONLY",
+          "primary_suspect_exposure": true,
+          "target_event_present": false,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:49382"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:261283"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:87055"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:39608"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "target_event_removed",
+        "pair_membership_removed",
+        "withdrawal_code_removed",
+        "therapy_added_after_target_removed"
+      ],
+      "assessment_impact": "PAIR_REMOVED",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L04",
+      "caseid": "23302210",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Product use issue",
+      "versions": [
+        {
+          "primaryid": "233022101",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "EXPOSURE_ONLY",
+          "primary_suspect_exposure": true,
+          "target_event_present": false,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:36607"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:173794",
+              "/workspace/faers/drug.csv:173795"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:58076"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:29057",
+              "/workspace/faers/outc.csv:29058"
+            ]
+          }
+        },
+        {
+          "primaryid": "233022103",
+          "caseversion": 3,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:49424"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:261548",
+              "/workspace/faers/drug.csv:261549",
+              "/workspace/faers/drug.csv:261550",
+              "/workspace/faers/drug.csv:261551"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:202715"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:87144",
+              "/workspace/faers/ther.csv:87145"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:39652",
+              "/workspace/faers/outc.csv:39653"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "target_event_added",
+        "pair_membership_added",
+        "positive_dechallenge_added",
+        "primary_course_start_missing"
+      ],
+      "assessment_impact": "PAIR_ADDED_STILL_UNASSESSABLE",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L05",
+      "caseid": "23285260",
+      "suspect_active_ingredient": "DAPAGLIFLOZIN",
+      "event_pt": "Diabetic ketoacidosis",
+      "versions": [
+        {
+          "primaryid": "232852601",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:35017"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:168444"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:132096"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:27985"
+            ]
+          }
+        },
+        {
+          "primaryid": "232852602",
+          "caseversion": 2,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:49168"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:260173"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:201509"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:39443"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "event_onset_added",
+        "positive_dechallenge_added",
+        "exposure_start_still_missing"
+      ],
+      "assessment_impact": "EVIDENCE_ADDED_STILL_UNASSESSABLE",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L06",
+      "caseid": "23309310",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Anaemia",
+      "versions": [
+        {
+          "primaryid": "233093101",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:37286"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:175944"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:138258"
+            ]
+          }
+        },
+        {
+          "primaryid": "233093102",
+          "caseversion": 2,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:49517"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:262183"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:203121"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:87289"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "therapy_course_added",
+        "positive_dechallenge_added",
+        "event_onset_still_missing"
+      ],
+      "assessment_impact": "EVIDENCE_ADDED_STILL_UNASSESSABLE",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L07",
+      "caseid": "22889860",
+      "suspect_active_ingredient": "ABEMACICLIB",
+      "event_pt": "Urinary tract infection",
+      "versions": [
+        {
+          "primaryid": "228898606",
+          "caseversion": 6,
+          "source_quarter": "2023Q4",
+          "pair_state": "EVENT_ONLY",
+          "primary_suspect_exposure": false,
+          "target_event_present": true,
+          "causality": "POSSIBLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:7236"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:67397",
+              "/workspace/faers/drug.csv:67398",
+              "/workspace/faers/drug.csv:67399",
+              "/workspace/faers/drug.csv:67400",
+              "/workspace/faers/drug.csv:67401"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:51843"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:27051",
+              "/workspace/faers/ther.csv:27052"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:7030"
+            ]
+          }
+        },
+        {
+          "primaryid": "228898608",
+          "caseversion": 8,
+          "source_quarter": "2024Q1",
+          "pair_state": "EVENT_ONLY",
+          "primary_suspect_exposure": false,
+          "target_event_present": true,
+          "causality": "POSSIBLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:46603"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:244337",
+              "/workspace/faers/drug.csv:244338",
+              "/workspace/faers/drug.csv:244339",
+              "/workspace/faers/drug.csv:244340",
+              "/workspace/faers/drug.csv:244341"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:188578"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:81230",
+              "/workspace/faers/ther.csv:81231"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:37379"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "positive_rechallenge_added",
+        "secondary_suspect_only",
+        "case_level_rechallenge_not_event_specific"
+      ],
+      "assessment_impact": "SUPPORTIVE_CODE_SCOPE_LIMITED",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L08",
+      "caseid": "22967360",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Constipation",
+      "versions": [
+        {
+          "primaryid": "229673605",
+          "caseversion": 5,
+          "source_quarter": "2023Q4",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:8299"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:73653"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:56370"
+            ]
+          }
+        },
+        {
+          "primaryid": "229673606",
+          "caseversion": 6,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:46913"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:246815"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:190632"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "positive_dechallenge_removed",
+        "event_onset_still_missing"
+      ],
+      "assessment_impact": "SUPPORT_WITHDRAWN_STILL_UNASSESSABLE",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L09",
+      "caseid": "23090300",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Pneumonia",
+      "versions": [
+        {
+          "primaryid": "230903004",
+          "caseversion": 4,
+          "source_quarter": "2023Q4",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:16362"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:103957"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:80775"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:38428"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:14072"
+            ]
+          }
+        },
+        {
+          "primaryid": "230903006",
+          "caseversion": 6,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "POSSIBLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:47465"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:251238"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:193636"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:83429"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:38149"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "event_onset_added",
+        "positive_dechallenge_added",
+        "supported_chronology",
+        "competing_events_present"
+      ],
+      "assessment_impact": "BECAME_ASSESSABLE",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L10",
+      "caseid": "23337830",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Chest discomfort",
+      "versions": [
+        {
+          "primaryid": "233378301",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:39975"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:184337"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:144993"
+            ]
+          }
+        },
+        {
+          "primaryid": "233378307",
+          "caseversion": 7,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:49968"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:264487",
+              "/workspace/faers/drug.csv:264488"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:204755"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:88414",
+              "/workspace/faers/ther.csv:88415"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:40090"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "event_onset_added",
+        "positive_dechallenge_added",
+        "same_day_order_unresolved"
+      ],
+      "assessment_impact": "EVIDENCE_ADDED_STILL_UNASSESSABLE",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L11",
+      "caseid": "23320410",
+      "suspect_active_ingredient": "PALBOCICLIB",
+      "event_pt": "Granulocyte count decreased",
+      "versions": [
+        {
+          "primaryid": "233204101",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:38339"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:178998",
+              "/workspace/faers/drug.csv:178999",
+              "/workspace/faers/drug.csv:179000"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:140700"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:59699"
+            ]
+          }
+        },
+        {
+          "primaryid": "233204103",
+          "caseversion": 3,
+          "source_quarter": "2024Q1",
+          "pair_state": "PAIR",
+          "primary_suspect_exposure": true,
+          "target_event_present": true,
+          "causality": "UNLIKELY",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:49674"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:262990",
+              "/workspace/faers/drug.csv:262991",
+              "/workspace/faers/drug.csv:262992",
+              "/workspace/faers/drug.csv:262993"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:203602"
+            ],
+            "ther": [
+              "/workspace/faers/ther.csv:87751",
+              "/workspace/faers/ther.csv:87752"
+            ],
+            "outc": [
+              "/workspace/faers/outc.csv:39844",
+              "/workspace/faers/outc.csv:39845"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "event_onset_revised_earlier",
+        "primary_course_start_added",
+        "start_after_event",
+        "positive_dechallenge_removed"
+      ],
+      "assessment_impact": "BECAME_UNLIKELY",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    },
+    {
+      "change_id": "L12",
+      "caseid": "23199360",
+      "suspect_active_ingredient": "ABEMACICLIB",
+      "event_pt": "Vision blurred",
+      "versions": [
+        {
+          "primaryid": "231993601",
+          "caseversion": 1,
+          "source_quarter": "2023Q4",
+          "pair_state": "NEITHER",
+          "primary_suspect_exposure": false,
+          "target_event_present": false,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:26819"
+            ]
+          }
+        },
+        {
+          "primaryid": "231993602",
+          "caseversion": 2,
+          "source_quarter": "2024Q1",
+          "pair_state": "EVENT_ONLY",
+          "primary_suspect_exposure": false,
+          "target_event_present": true,
+          "causality": "UNASSESSABLE",
+          "source_rows": {
+            "demo": [
+              "/workspace/faers/demo.csv:48284"
+            ],
+            "drug": [
+              "/workspace/faers/drug.csv:256036"
+            ],
+            "reac": [
+              "/workspace/faers/reac.csv:197514"
+            ]
+          }
+        }
+      ],
+      "material_changes": [
+        "target_event_added",
+        "target_product_added_as_concomitant",
+        "no_suspect_exposure"
+      ],
+      "assessment_impact": "NO_SUSPECT_PAIR",
+      "rationale": "The later submission changes only the conclusions supported by version-specific structured fields; unsupported scope is not upgraded."
+    }
+  ],
+  "pair_assessments": [
+    {
+      "pair_id": "S01",
+      "active_ingredient": "TIRZEPATIDE",
+      "meddra_pt": "Diarrhoea",
+      "canonical": {
+        "a": 78,
+        "b": 1605,
+        "c": 2801,
+        "d": 73439,
+        "ror": 1.274187123,
+        "ror025": 1.012013738,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 79,
+        "b": 1623,
+        "c": 3104,
+        "d": 77096,
+        "ror": 1.208978854,
+        "ror025": 0.961868909,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 8,
+        "b": 80,
+        "c": 1267,
+        "d": 37707,
+        "ror": 2.976085241,
+        "ror025": 1.435722898,
+        "signal": "YES"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 24,
+          "b": 415,
+          "c": 1209,
+          "d": 35834,
+          "ror": 1.714084128,
+          "ror025": 1.131356575,
+          "signal": "YES"
+        },
+        "2024Q1": {
+          "a": 54,
+          "b": 1190,
+          "c": 1592,
+          "d": 37605,
+          "ror": 1.0718878,
+          "ror025": 0.812321886,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.051365184,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 19,
+            "c": 546,
+            "d": 18048,
+            "ror": 3.479467901,
+            "ror025": 0.808435658,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 22,
+            "b": 396,
+            "c": 655,
+            "d": 16897,
+            "ror": 1.433163698,
+            "ror025": 0.926373867,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 0,
+            "c": 8,
+            "d": 889,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 6,
+            "b": 61,
+            "c": 721,
+            "d": 19659,
+            "ror": 2.681930834,
+            "ror025": 1.155639441,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 48,
+            "b": 1128,
+            "c": 856,
+            "d": 17036,
+            "ror": 0.846888049,
+            "ror025": 0.629335114,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 15,
+            "d": 910,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "GAINED",
+      "disposition": "ESCALATE"
+    },
+    {
+      "pair_id": "S02",
+      "active_ingredient": "PALBOCICLIB",
+      "meddra_pt": "Death",
+      "canonical": {
+        "a": 41,
+        "b": 590,
+        "c": 3424,
+        "d": 73868,
+        "ror": 1.499182243,
+        "ror025": 1.090365827,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 42,
+        "b": 678,
+        "c": 3519,
+        "d": 77663,
+        "ror": 1.367144729,
+        "ror025": 0.999238062,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 11,
+        "b": 259,
+        "c": 1512,
+        "d": 37280,
+        "ror": 1.047169619,
+        "ror025": 0.571507849,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 21,
+          "b": 269,
+          "c": 1790,
+          "d": 35402,
+          "ror": 1.543980395,
+          "ror025": 0.987818989,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 20,
+          "b": 321,
+          "c": 1634,
+          "d": 38466,
+          "ror": 1.466729201,
+          "ror025": 0.931102245,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.480485415,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 4,
+            "b": 105,
+            "c": 717,
+            "d": 17789,
+            "ror": 0.945155077,
+            "ror025": 0.347258544,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 16,
+            "b": 164,
+            "c": 1017,
+            "d": 16773,
+            "ror": 1.609036621,
+            "ror025": 0.959255154,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 1,
+            "b": 0,
+            "c": 56,
+            "d": 840,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 7,
+            "b": 154,
+            "c": 795,
+            "d": 19491,
+            "ror": 1.114408233,
+            "ror025": 0.520768883,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 13,
+            "b": 165,
+            "c": 774,
+            "d": 18116,
+            "ror": 1.844084253,
+            "ror025": 1.043732426,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 65,
+            "d": 859,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "GAINED",
+      "disposition": "MONITOR"
+    },
+    {
+      "pair_id": "S03",
+      "active_ingredient": "PALBOCICLIB",
+      "meddra_pt": "Rash",
+      "canonical": {
+        "a": 21,
+        "b": 610,
+        "c": 1739,
+        "d": 75553,
+        "ror": 1.495690005,
+        "ror025": 0.965596561,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 25,
+        "b": 695,
+        "c": 1860,
+        "d": 79322,
+        "ror": 1.534037286,
+        "ror025": 1.026622936,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 7,
+        "b": 263,
+        "c": 1105,
+        "d": 37687,
+        "ror": 0.907761127,
+        "ror025": 0.427518251,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 13,
+          "b": 277,
+          "c": 825,
+          "d": 36367,
+          "ror": 2.068793349,
+          "ror025": 1.181145822,
+          "signal": "YES"
+        },
+        "2024Q1": {
+          "a": 8,
+          "b": 333,
+          "c": 914,
+          "d": 39186,
+          "ror": 1.029984032,
+          "ror025": 0.509280695,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.53793268,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 3,
+            "b": 106,
+            "c": 526,
+            "d": 17980,
+            "ror": 0.967429514,
+            "ror025": 0.306085274,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 10,
+            "b": 170,
+            "c": 296,
+            "d": 17494,
+            "ror": 3.476550079,
+            "ror025": 1.818479325,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 3,
+            "d": 893,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 4,
+            "b": 157,
+            "c": 579,
+            "d": 19707,
+            "ror": 0.8671661,
+            "ror025": 0.320342226,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 4,
+            "b": 174,
+            "c": 328,
+            "d": 18562,
+            "ror": 1.300953182,
+            "ror025": 0.479938403,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 7,
+            "d": 917,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S04",
+      "active_ingredient": "RIBOCICLIB",
+      "meddra_pt": "Headache",
+      "canonical": {
+        "a": 12,
+        "b": 204,
+        "c": 2375,
+        "d": 75332,
+        "ror": 1.86580805,
+        "ror025": 1.040869388,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 12,
+        "b": 218,
+        "c": 2649,
+        "d": 79023,
+        "ror": 1.642087546,
+        "ror025": 0.917147498,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 2,
+        "b": 79,
+        "c": 986,
+        "d": 37995,
+        "ror": 0.975556526,
+        "ror025": 0.239420545,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 8,
+          "b": 136,
+          "c": 1055,
+          "d": 36283,
+          "ror": 2.0230276,
+          "ror025": 0.988978897,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 4,
+          "b": 68,
+          "c": 1320,
+          "d": 39049,
+          "ror": 1.740151515,
+          "ror025": 0.633858089,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.831935118,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 52,
+            "c": 434,
+            "d": 18128,
+            "ror": 0.803261255,
+            "ror025": 0.110789801,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 7,
+            "b": 82,
+            "c": 613,
+            "d": 17268,
+            "ror": 2.404726853,
+            "ror025": 1.106786444,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 8,
+            "d": 887,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 27,
+            "c": 552,
+            "d": 19867,
+            "ror": 1.332997853,
+            "ror025": 0.180806681,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 3,
+            "b": 38,
+            "c": 755,
+            "d": 18272,
+            "ror": 1.910630882,
+            "ror025": 0.588460805,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 3,
+            "c": 13,
+            "d": 910,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "GAINED",
+      "disposition": "MONITOR"
+    },
+    {
+      "pair_id": "S05",
+      "active_ingredient": "PALBOCICLIB",
+      "meddra_pt": "Product use issue",
+      "canonical": {
+        "a": 11,
+        "b": 620,
+        "c": 792,
+        "d": 76500,
+        "ror": 1.713709677,
+        "ror025": 0.94024275,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 13,
+        "b": 707,
+        "c": 845,
+        "d": 80337,
+        "ror": 1.748166685,
+        "ror025": 1.005831961,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 5,
+        "b": 265,
+        "c": 353,
+        "d": 38439,
+        "ror": 2.054572666,
+        "ror025": 0.842917447,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 2,
+          "b": 288,
+          "c": 334,
+          "d": 36858,
+          "ror": 0.766342315,
+          "ror025": 0.189944011,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 9,
+          "b": 332,
+          "c": 458,
+          "d": 39642,
+          "ror": 2.346359236,
+          "ror025": 1.202447319,
+          "signal": "YES"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.676206404,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 108,
+            "c": 150,
+            "d": 18356,
+            "ror": 1.13308642,
+            "ror025": 0.15713445,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 179,
+            "c": 175,
+            "d": 17615,
+            "ror": 0.562330407,
+            "ror025": 0.078334688,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 9,
+            "d": 887,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 4,
+            "b": 157,
+            "c": 203,
+            "d": 20083,
+            "ror": 2.52053591,
+            "ror025": 0.925409826,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 5,
+            "b": 173,
+            "c": 246,
+            "d": 18644,
+            "ror": 2.190422482,
+            "ror025": 0.892370004,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 9,
+            "d": 915,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S06",
+      "active_ingredient": "RIBOCICLIB",
+      "meddra_pt": "Arthralgia",
+      "canonical": {
+        "a": 10,
+        "b": 206,
+        "c": 2090,
+        "d": 75617,
+        "ror": 1.756329261,
+        "ror025": 0.929663714,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 12,
+        "b": 218,
+        "c": 2305,
+        "d": 79367,
+        "ror": 1.895369062,
+        "ror025": 1.058415203,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 3,
+        "b": 78,
+        "c": 1169,
+        "d": 37812,
+        "ror": 1.244061328,
+        "ror025": 0.392095606,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 7,
+          "b": 137,
+          "c": 980,
+          "d": 36358,
+          "ror": 1.895620438,
+          "ror025": 0.884617603,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 3,
+          "b": 69,
+          "c": 1110,
+          "d": 39259,
+          "ror": 1.537759499,
+          "ror025": 0.483281126,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.802025141,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 52,
+            "c": 516,
+            "d": 18046,
+            "ror": 0.672555158,
+            "ror025": 0.092795083,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 6,
+            "b": 83,
+            "c": 462,
+            "d": 17419,
+            "ror": 2.725551557,
+            "ror025": 1.184063561,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 2,
+            "d": 893,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 26,
+            "c": 653,
+            "d": 19766,
+            "ror": 2.328425021,
+            "ror025": 0.551471053,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 40,
+            "c": 448,
+            "d": 18579,
+            "ror": 1.036774554,
+            "ror025": 0.142210662,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 3,
+            "c": 9,
+            "d": 914,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S07",
+      "active_ingredient": "RIBOCICLIB",
+      "meddra_pt": "Nasopharyngitis",
+      "canonical": {
+        "a": 6,
+        "b": 210,
+        "c": 1191,
+        "d": 76516,
+        "ror": 1.835576346,
+        "ror025": 0.813691194,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 9,
+        "b": 221,
+        "c": 1339,
+        "d": 80333,
+        "ror": 2.443226018,
+        "ror025": 1.251860667,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 2,
+        "b": 79,
+        "c": 502,
+        "d": 38479,
+        "ror": 1.940541631,
+        "ror025": 0.475610851,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 2,
+          "b": 142,
+          "c": 527,
+          "d": 36811,
+          "ror": 0.983804153,
+          "ror025": 0.243015498,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 4,
+          "b": 68,
+          "c": 664,
+          "d": 39705,
+          "ror": 3.517452162,
+          "ror025": 1.279427639,
+          "signal": "YES"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.832147377,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 53,
+            "c": 208,
+            "d": 18354,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 2,
+            "b": 87,
+            "c": 285,
+            "d": 17596,
+            "ror": 1.419318411,
+            "ror025": 0.347681106,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 34,
+            "d": 861,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 26,
+            "c": 294,
+            "d": 20125,
+            "ror": 5.265567766,
+            "ror025": 1.244010723,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 2,
+            "b": 39,
+            "c": 341,
+            "d": 18686,
+            "ror": 2.8101361,
+            "ror025": 0.67582622,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 3,
+            "c": 29,
+            "d": 894,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S08",
+      "active_ingredient": "RIBOCICLIB",
+      "meddra_pt": "Insomnia",
+      "canonical": {
+        "a": 6,
+        "b": 210,
+        "c": 922,
+        "d": 76785,
+        "ror": 2.379454602,
+        "ror025": 1.054176993,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 6,
+        "b": 224,
+        "c": 1006,
+        "d": 80666,
+        "ror": 2.147809571,
+        "ror025": 0.952424389,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 0,
+        "b": 81,
+        "c": 314,
+        "d": 38667,
+        "ror": null,
+        "ror025": null,
+        "signal": "UNASSESSABLE"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 5,
+          "b": 139,
+          "c": 427,
+          "d": 36911,
+          "ror": 3.109446869,
+          "ror025": 1.267687652,
+          "signal": "YES"
+        },
+        "2024Q1": {
+          "a": 1,
+          "b": 71,
+          "c": 495,
+          "d": 39874,
+          "ror": 1.134556836,
+          "ror025": 0.157315515,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 2.220330568,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 53,
+            "c": 134,
+            "d": 18428,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 5,
+            "b": 84,
+            "c": 286,
+            "d": 17595,
+            "ror": 3.661963037,
+            "ror025": 1.474349759,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 7,
+            "d": 888,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 28,
+            "c": 180,
+            "d": 20239,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 40,
+            "c": 310,
+            "d": 18717,
+            "ror": 1.509435484,
+            "ror025": 0.206845175,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 3,
+            "c": 5,
+            "d": 918,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "GAINED",
+      "disposition": "MONITOR"
+    },
+    {
+      "pair_id": "S09",
+      "active_ingredient": "PALBOCICLIB",
+      "meddra_pt": "Cholelithiasis",
+      "canonical": {
+        "a": 3,
+        "b": 628,
+        "c": 95,
+        "d": 77197,
+        "ror": 3.881847134,
+        "ror025": 1.226661519,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 3,
+        "b": 717,
+        "c": 110,
+        "d": 81072,
+        "ror": 3.083758083,
+        "ror025": 0.977126949,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 2,
+        "b": 268,
+        "c": 46,
+        "d": 38746,
+        "ror": 6.285853342,
+        "ror025": 1.518124373,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 1,
+          "b": 289,
+          "c": 40,
+          "d": 37152,
+          "ror": 3.21384083,
+          "ror025": 0.440319535,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 2,
+          "b": 339,
+          "c": 55,
+          "d": 40045,
+          "ror": 4.295521588,
+          "ror025": 1.043547396,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 3.794444952,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 108,
+            "c": 22,
+            "d": 18484,
+            "ror": 7.779461279,
+            "ror025": 1.039281872,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 180,
+            "c": 18,
+            "d": 17772,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 0,
+            "d": 896,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 160,
+            "c": 24,
+            "d": 20262,
+            "ror": 5.2765625,
+            "ror025": 0.709509565,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 177,
+            "c": 31,
+            "d": 18859,
+            "ror": 3.437032987,
+            "ror025": 0.466616998,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 0,
+            "d": 924,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "GAINED",
+      "disposition": "MONITOR"
+    },
+    {
+      "pair_id": "S10",
+      "active_ingredient": "DAPAGLIFLOZIN",
+      "meddra_pt": "Dry mouth",
+      "canonical": {
+        "a": 4,
+        "b": 341,
+        "c": 320,
+        "d": 77258,
+        "ror": 2.832038123,
+        "ror025": 1.050398726,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 4,
+        "b": 348,
+        "c": 353,
+        "d": 81197,
+        "ror": 2.643906092,
+        "ror025": 0.98128931,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 3,
+        "b": 152,
+        "c": 148,
+        "d": 38759,
+        "ror": 5.168785562,
+        "ror025": 1.629990388,
+        "signal": "YES"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 0,
+          "b": 161,
+          "c": 134,
+          "d": 37187,
+          "ror": null,
+          "ror025": null,
+          "signal": "UNASSESSABLE"
+        },
+        "2024Q1": {
+          "a": 4,
+          "b": 180,
+          "c": 186,
+          "d": 40071,
+          "ror": 4.787455197,
+          "ror025": 1.759014737,
+          "signal": "YES"
+        }
+      },
+      "stratified": {
+        "mh_ror": 2.810394036,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 81,
+            "c": 56,
+            "d": 18478,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 79,
+            "c": 78,
+            "d": 17813,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 0,
+            "d": 896,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 3,
+            "b": 71,
+            "c": 92,
+            "d": 20281,
+            "ror": 9.314605021,
+            "ror025": 2.881478263,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 108,
+            "c": 88,
+            "d": 18871,
+            "ror": 1.985585017,
+            "ror025": 0.274104704,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 6,
+            "d": 919,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "GAINED",
+      "disposition": "ESCALATE"
+    },
+    {
+      "pair_id": "S11",
+      "active_ingredient": "SEMAGLUTIDE",
+      "meddra_pt": "Haematocrit decreased",
+      "canonical": {
+        "a": 2,
+        "b": 575,
+        "c": 51,
+        "d": 77295,
+        "ror": 5.271611253,
+        "ror025": 1.280323811,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 3,
+        "b": 578,
+        "c": 56,
+        "d": 81265,
+        "ror": 7.531976026,
+        "ror025": 2.350804463,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 2,
+        "b": 199,
+        "c": 34,
+        "d": 38827,
+        "ror": 11.477091339,
+        "ror025": 2.738627078,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 0,
+          "b": 110,
+          "c": 19,
+          "d": 37353,
+          "ror": null,
+          "ror025": null,
+          "signal": "UNASSESSABLE"
+        },
+        "2024Q1": {
+          "a": 2,
+          "b": 465,
+          "c": 32,
+          "d": 39942,
+          "ror": 5.368548387,
+          "ror025": 1.282808945,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 5.416720481,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 57,
+            "c": 11,
+            "d": 18547,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 51,
+            "c": 8,
+            "d": 17911,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 0,
+            "d": 895,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 142,
+            "c": 23,
+            "d": 20280,
+            "ror": 12.418860992,
+            "ror025": 2.900516059,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 318,
+            "c": 9,
+            "d": 18741,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 5,
+            "c": 0,
+            "d": 921,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S12",
+      "active_ingredient": "ABEMACICLIB",
+      "meddra_pt": "Stomatitis",
+      "canonical": {
+        "a": 2,
+        "b": 143,
+        "c": 297,
+        "d": 77481,
+        "ror": 3.648654376,
+        "ror025": 0.899538714,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 3,
+        "b": 146,
+        "c": 324,
+        "d": 81429,
+        "ror": 5.164193303,
+        "ror025": 1.637843862,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 0,
+        "b": 29,
+        "c": 194,
+        "d": 38839,
+        "ror": null,
+        "ror025": null,
+        "signal": "UNASSESSABLE"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 1,
+          "b": 76,
+          "c": 119,
+          "d": 37286,
+          "ror": 4.122733304,
+          "ror025": 0.568629055,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 1,
+          "b": 67,
+          "c": 178,
+          "d": 40195,
+          "ror": 3.370367265,
+          "ror025": 0.465318784,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 4.459236672,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 18,
+            "c": 84,
+            "d": 18513,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 58,
+            "c": 35,
+            "d": 17876,
+            "ror": 8.80591133,
+            "ror025": 1.18646208,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 897,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 11,
+            "c": 110,
+            "d": 20326,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 55,
+            "c": 66,
+            "d": 18946,
+            "ror": 5.219283747,
+            "ror025": 0.711706555,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 2,
+            "d": 923,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S13",
+      "active_ingredient": "RIBOCICLIB",
+      "meddra_pt": "Vision blurred",
+      "canonical": {
+        "a": 2,
+        "b": 214,
+        "c": 470,
+        "d": 77237,
+        "ror": 1.535832173,
+        "ror025": 0.380500417,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 4,
+        "b": 226,
+        "c": 506,
+        "d": 81166,
+        "ror": 2.839063976,
+        "ror025": 1.052305824,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 2,
+        "b": 79,
+        "c": 199,
+        "d": 38782,
+        "ror": 4.933782838,
+        "ror025": 1.204237584,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 0,
+          "b": 144,
+          "c": 201,
+          "d": 37137,
+          "ror": null,
+          "ror025": null,
+          "signal": "UNASSESSABLE"
+        },
+        "2024Q1": {
+          "a": 2,
+          "b": 70,
+          "c": 269,
+          "d": 40100,
+          "ror": 4.259160913,
+          "ror025": 1.039124392,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.528502817,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 53,
+            "c": 81,
+            "d": 18481,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 89,
+            "c": 119,
+            "d": 17762,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 1,
+            "d": 894,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 26,
+            "c": 118,
+            "d": 20301,
+            "ror": 13.234028683,
+            "ror025": 3.105595972,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 41,
+            "c": 149,
+            "d": 18878,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 3,
+            "c": 2,
+            "d": 921,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S14",
+      "active_ingredient": "DAPAGLIFLOZIN",
+      "meddra_pt": "Euglycaemic diabetic ketoacidosis",
+      "canonical": {
+        "a": 2,
+        "b": 343,
+        "c": 22,
+        "d": 77556,
+        "ror": 20.555526107,
+        "ror025": 4.814794588,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 3,
+        "b": 349,
+        "c": 22,
+        "d": 81528,
+        "ror": 31.855170617,
+        "ror025": 9.490864851,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 2,
+        "b": 153,
+        "c": 22,
+        "d": 38885,
+        "ror": 23.104575163,
+        "ror025": 5.385951055,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 0,
+          "b": 161,
+          "c": 12,
+          "d": 37309,
+          "ror": null,
+          "ror025": null,
+          "signal": "UNASSESSABLE"
+        },
+        "2024Q1": {
+          "a": 2,
+          "b": 182,
+          "c": 10,
+          "d": 40247,
+          "ror": 44.227472527,
+          "ror025": 9.623131354,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 22.781741743,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 81,
+            "c": 12,
+            "d": 18522,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 79,
+            "c": 0,
+            "d": 17891,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 0,
+            "d": 896,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 72,
+            "c": 10,
+            "d": 20363,
+            "ror": 56.563888889,
+            "ror025": 12.177969509,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 109,
+            "c": 0,
+            "d": 18959,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 1,
+            "c": 0,
+            "d": 925,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "LOST",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S15",
+      "active_ingredient": "SEMAGLUTIDE",
+      "meddra_pt": "Pancreatitis",
+      "canonical": {
+        "a": 17,
+        "b": 560,
+        "c": 153,
+        "d": 77193,
+        "ror": 15.316071429,
+        "ror025": 9.216274397,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 17,
+        "b": 564,
+        "c": 164,
+        "d": 81157,
+        "ror": 14.915985556,
+        "ror025": 8.990897252,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 9,
+        "b": 192,
+        "c": 103,
+        "d": 38758,
+        "ror": 17.638652913,
+        "ror025": 8.795257679,
+        "signal": "YES"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 2,
+          "b": 108,
+          "c": 70,
+          "d": 37302,
+          "ror": 9.868253968,
+          "ror025": 2.389540374,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 15,
+          "b": 452,
+          "c": 83,
+          "d": 39891,
+          "ror": 15.94959484,
+          "ror025": 9.131882499,
+          "signal": "YES"
+        }
+      },
+      "stratified": {
+        "mh_ror": 16.483801274,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 55,
+            "c": 47,
+            "d": 18511,
+            "ror": 14.321856867,
+            "ror025": 3.394434646,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 51,
+            "c": 22,
+            "d": 17897,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 1,
+            "d": 894,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 7,
+            "b": 137,
+            "c": 56,
+            "d": 20247,
+            "ror": 18.473540146,
+            "ror025": 8.271600485,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 8,
+            "b": 310,
+            "c": 27,
+            "d": 18723,
+            "ror": 17.895340502,
+            "ror025": 8.065711931,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 5,
+            "c": 0,
+            "d": 921,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "STABLE_YES",
+      "disposition": "ESCALATE"
+    },
+    {
+      "pair_id": "S16",
+      "active_ingredient": "EMPAGLIFLOZIN",
+      "meddra_pt": "Diabetic ketoacidosis",
+      "canonical": {
+        "a": 10,
+        "b": 245,
+        "c": 58,
+        "d": 77610,
+        "ror": 54.616467277,
+        "ror025": 27.594119959,
+        "signal": "YES"
+      },
+      "all_versions": {
+        "a": 10,
+        "b": 248,
+        "c": 64,
+        "d": 81580,
+        "ror": 51.398689516,
+        "ror025": 26.090841415,
+        "signal": "YES"
+      },
+      "hcp": {
+        "a": 9,
+        "b": 106,
+        "c": 42,
+        "d": 38905,
+        "ror": 78.648921833,
+        "ror025": 37.346706409,
+        "signal": "YES"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 3,
+          "b": 121,
+          "c": 33,
+          "d": 37325,
+          "ror": 28.042824944,
+          "ror025": 8.485932372,
+          "signal": "YES"
+        },
+        "2024Q1": {
+          "a": 7,
+          "b": 124,
+          "c": 25,
+          "d": 40285,
+          "ror": 90.966129032,
+          "ror025": 38.629557742,
+          "signal": "YES"
+        }
+      },
+      "stratified": {
+        "mh_ror": 57.560197162,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 2,
+            "b": 55,
+            "c": 26,
+            "d": 18532,
+            "ror": 25.918881119,
+            "ror025": 6.004886362,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 66,
+            "c": 7,
+            "d": 17896,
+            "ror": 38.735930736,
+            "ror025": 4.699916935,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 897,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 7,
+            "b": 51,
+            "c": 16,
+            "d": 20373,
+            "ror": 174.768382353,
+            "ror025": 68.973534024,
+            "signal": "YES"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 73,
+            "c": 8,
+            "d": 18987,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 0,
+            "c": 1,
+            "d": 925,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "STABLE_YES",
+      "disposition": "ESCALATE"
+    },
+    {
+      "pair_id": "S17",
+      "active_ingredient": "TERIPARATIDE",
+      "meddra_pt": "Alopecia",
+      "canonical": {
+        "a": 1,
+        "b": 77,
+        "c": 684,
+        "d": 77161,
+        "ror": 1.465045189,
+        "ror025": 0.203470192,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 1,
+        "b": 81,
+        "c": 752,
+        "d": 81068,
+        "ror": 1.330903599,
+        "ror025": 0.184979486,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 0,
+        "b": 15,
+        "c": 290,
+        "d": 38757,
+        "ror": null,
+        "ror025": null,
+        "signal": "UNASSESSABLE"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 1,
+          "b": 46,
+          "c": 303,
+          "d": 37132,
+          "ror": 2.6640838,
+          "ror025": 0.366208361,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 0,
+          "b": 31,
+          "c": 381,
+          "d": 40029,
+          "ror": null,
+          "ror025": null,
+          "signal": "UNASSESSABLE"
+        }
+      },
+      "stratified": {
+        "mh_ror": 1.379284965,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 10,
+            "c": 129,
+            "d": 18476,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 1,
+            "b": 34,
+            "c": 171,
+            "d": 17764,
+            "ror": 3.055383557,
+            "ror025": 0.415860976,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 3,
+            "d": 892,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 0,
+            "b": 5,
+            "c": 161,
+            "d": 20281,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 24,
+            "c": 219,
+            "d": 18825,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 2,
+            "c": 1,
+            "d": 923,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "STABLE_NO",
+      "disposition": "CLOSE"
+    },
+    {
+      "pair_id": "S18",
+      "active_ingredient": "EMPAGLIFLOZIN",
+      "meddra_pt": "Pneumonia aspiration",
+      "canonical": {
+        "a": 2,
+        "b": 253,
+        "c": 107,
+        "d": 77561,
+        "ror": 5.730190979,
+        "ror025": 1.40704574,
+        "signal": "NO"
+      },
+      "all_versions": {
+        "a": 2,
+        "b": 256,
+        "c": 114,
+        "d": 81530,
+        "ror": 5.587308114,
+        "ror025": 1.373126796,
+        "signal": "NO"
+      },
+      "hcp": {
+        "a": 2,
+        "b": 113,
+        "c": 86,
+        "d": 38861,
+        "ror": 7.99773616,
+        "ror025": 1.944682518,
+        "signal": "NO"
+      },
+      "periods": {
+        "2023Q4": {
+          "a": 1,
+          "b": 123,
+          "c": 54,
+          "d": 37304,
+          "ror": 5.616380608,
+          "ror025": 0.770833862,
+          "signal": "NO"
+        },
+        "2024Q1": {
+          "a": 1,
+          "b": 130,
+          "c": 53,
+          "d": 40257,
+          "ror": 5.842815675,
+          "ror025": 0.801981562,
+          "signal": "NO"
+        }
+      },
+      "stratified": {
+        "mh_ror": 6.115717619,
+        "strata": [
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 56,
+            "c": 45,
+            "d": 18513,
+            "ror": 7.346428571,
+            "ror025": 0.995281633,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 67,
+            "c": 9,
+            "d": 17894,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2023Q4",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 897,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "HCP",
+            "a": 1,
+            "b": 57,
+            "c": 41,
+            "d": 20348,
+            "ror": 8.706889174,
+            "ror025": 1.177500521,
+            "signal": "NO"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "CONSUMER",
+            "a": 0,
+            "b": 73,
+            "c": 11,
+            "d": 18984,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          },
+          {
+            "source_quarter": "2024Q1",
+            "reporter_group": "OTHER",
+            "a": 0,
+            "b": 0,
+            "c": 1,
+            "d": 925,
+            "ror": null,
+            "ror025": null,
+            "signal": "UNASSESSABLE"
+          }
+        ]
+      },
+      "version_effect": "STABLE_NO",
+      "disposition": "CLOSE"
+    }
+  ],
+  "universes": {
+    "input_report_versions": 81902,
+    "canonical_cases": 77923,
+    "versions_removed": 3979,
+    "canonical_period_counts": {
+      "2023Q4": 37482,
+      "2024Q1": 40441
+    },
+    "reporter_group_counts": {
+      "HCP": 39062,
+      "CONSUMER": 37038,
+      "OTHER": 1823
+    },
+    "cross_stratum_counts": {
+      "2023Q4|HCP": 18615,
+      "2023Q4|CONSUMER": 17970,
+      "2023Q4|OTHER": 897,
+      "2024Q1|HCP": 20447,
+      "2024Q1|CONSUMER": 19068,
+      "2024Q1|OTHER": 926
+    }
+  },
+  "version_driver_assessments": {
+    "candidate_census": [
+      {
+        "pair_id": "S01",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 33,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 33,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 33,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S02",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 55,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 55,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 55,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S03",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 24,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 24,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 24,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S04",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 40,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 40,
+        "pair_membership_change_drivers": 1,
+        "cell_change_without_pair_change_drivers": 39,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S05",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 22,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 22,
+        "pair_membership_change_drivers": 1,
+        "cell_change_without_pair_change_drivers": 21,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S06",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 48,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 48,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 48,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S07",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 27,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 27,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 27,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S08",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 20,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 20,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 20,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S09",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 2,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 2,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 2,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S10",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 7,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 7,
+        "pair_membership_change_drivers": 1,
+        "cell_change_without_pair_change_drivers": 6,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S11",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 3,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 3,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 3,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S12",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 7,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 7,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 7,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S13",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 5,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 5,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 5,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S14",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 0,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 0,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 0,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S15",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 3,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 3,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 3,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S16",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 1,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 1,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 1,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S17",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 9,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 9,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 9,
+        "transient_return_drivers": 0
+      },
+      {
+        "pair_id": "S18",
+        "multi_submission_cases_examined": 3979,
+        "state_change_drivers": 2,
+        "primary_exposure_change_drivers": 0,
+        "target_event_change_drivers": 2,
+        "pair_membership_change_drivers": 0,
+        "cell_change_without_pair_change_drivers": 2,
+        "transient_return_drivers": 0
+      }
+    ],
+    "detailed_reviews": [
+      {
+        "driver_id": "S01|18263300",
+        "pair_id": "S01",
+        "caseid": "18263300",
+        "versions": [
+          {
+            "primaryid": "1826330032",
+            "caseversion": 32,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:738"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:895"
+              ]
+            }
+          },
+          {
+            "primaryid": "1826330037",
+            "caseversion": 37,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42104"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:156368"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:33315"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S01|23203180",
+        "pair_id": "S01",
+        "caseid": "23203180",
+        "versions": [
+          {
+            "primaryid": "232031801",
+            "caseversion": 1,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:27184"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:111498"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:22194"
+              ]
+            }
+          },
+          {
+            "primaryid": "232031802",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:48319"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:38785"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S02|14392010",
+        "pair_id": "S02",
+        "caseid": "14392010",
+        "versions": [
+          {
+            "primaryid": "143920107",
+            "caseversion": 7,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:135"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:169"
+              ]
+            }
+          },
+          {
+            "primaryid": "143920108",
+            "caseversion": 8,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41605"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:150736"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32656",
+                "/workspace/faers/outc.csv:32657"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S02|22518080",
+        "pair_id": "S02",
+        "caseid": "22518080",
+        "versions": [
+          {
+            "primaryid": "2251808010",
+            "caseversion": 10,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:4926"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:40331"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:5101",
+                "/workspace/faers/outc.csv:5102",
+                "/workspace/faers/outc.csv:5103"
+              ]
+            }
+          },
+          {
+            "primaryid": "2251808012",
+            "caseversion": 12,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:45492"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:36396",
+                "/workspace/faers/outc.csv:36397",
+                "/workspace/faers/outc.csv:36398",
+                "/workspace/faers/outc.csv:36399"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S03|18671410",
+        "pair_id": "S03",
+        "caseid": "18671410",
+        "versions": [
+          {
+            "primaryid": "1867141032",
+            "caseversion": 32,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:921"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:1128"
+              ]
+            }
+          },
+          {
+            "primaryid": "1867141034",
+            "caseversion": 34,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42255"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:158501"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:33510"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S03|20559130",
+        "pair_id": "S03",
+        "caseid": "20559130",
+        "versions": [
+          {
+            "primaryid": "205591304",
+            "caseversion": 4,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:1786"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:2154",
+                "/workspace/faers/outc.csv:2155",
+                "/workspace/faers/outc.csv:2156"
+              ]
+            }
+          },
+          {
+            "primaryid": "205591307",
+            "caseversion": 7,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42954"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:165565"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:34318",
+                "/workspace/faers/outc.csv:34319",
+                "/workspace/faers/outc.csv:34320"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S04|12991330",
+        "pair_id": "S04",
+        "caseid": "12991330",
+        "versions": [
+          {
+            "primaryid": "129913302",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:63"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:94",
+                "/workspace/faers/outc.csv:95"
+              ]
+            }
+          },
+          {
+            "primaryid": "129913303",
+            "caseversion": 3,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41534"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:150113"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32600",
+                "/workspace/faers/outc.csv:32601"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S04|23326070",
+        "pair_id": "S04",
+        "caseid": "23326070",
+        "versions": [
+          {
+            "primaryid": "233260702",
+            "caseversion": 2,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:38878"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:142013"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:30515",
+                "/workspace/faers/outc.csv:30516",
+                "/workspace/faers/outc.csv:30517",
+                "/workspace/faers/outc.csv:30518",
+                "/workspace/faers/outc.csv:30519"
+              ]
+            }
+          },
+          {
+            "primaryid": "233260703",
+            "caseversion": 3,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:49753"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:39910",
+                "/workspace/faers/outc.csv:39911",
+                "/workspace/faers/outc.csv:39912",
+                "/workspace/faers/outc.csv:39913",
+                "/workspace/faers/outc.csv:39914"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S05|16886720",
+        "pair_id": "S05",
+        "caseid": "16886720",
+        "versions": [
+          {
+            "primaryid": "1688672059",
+            "caseversion": 59,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:402"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:482",
+                "/workspace/faers/outc.csv:483",
+                "/workspace/faers/outc.csv:484",
+                "/workspace/faers/outc.csv:485",
+                "/workspace/faers/outc.csv:486"
+              ]
+            }
+          },
+          {
+            "primaryid": "1688672064",
+            "caseversion": 64,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41841"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:153056"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32960",
+                "/workspace/faers/outc.csv:32961",
+                "/workspace/faers/outc.csv:32962",
+                "/workspace/faers/outc.csv:32963",
+                "/workspace/faers/outc.csv:32964",
+                "/workspace/faers/outc.csv:32965"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S05|19816840",
+        "pair_id": "S05",
+        "caseid": "19816840",
+        "versions": [
+          {
+            "primaryid": "198168406",
+            "caseversion": 6,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:1328"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:14829"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:1643"
+              ]
+            }
+          },
+          {
+            "primaryid": "198168407",
+            "caseversion": 7,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42623"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:33949"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S06|14762680",
+        "pair_id": "S06",
+        "caseid": "14762680",
+        "versions": [
+          {
+            "primaryid": "147626804",
+            "caseversion": 4,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:171"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:206"
+              ]
+            }
+          },
+          {
+            "primaryid": "147626806",
+            "caseversion": 6,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41635"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:151034"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32692"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S06|21118690",
+        "pair_id": "S06",
+        "caseid": "21118690",
+        "versions": [
+          {
+            "primaryid": "211186903",
+            "caseversion": 3,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:2307"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:23344"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:2674"
+              ]
+            }
+          },
+          {
+            "primaryid": "211186904",
+            "caseversion": 4,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:43343"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S07|18372880",
+        "pair_id": "S07",
+        "caseid": "18372880",
+        "versions": [
+          {
+            "primaryid": "1837288023",
+            "caseversion": 23,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:784"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:950"
+              ]
+            }
+          },
+          {
+            "primaryid": "1837288026",
+            "caseversion": 26,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42141"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:157013"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:33363"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S07|18605850",
+        "pair_id": "S07",
+        "caseid": "18605850",
+        "versions": [
+          {
+            "primaryid": "186058505",
+            "caseversion": 5,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:890"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:1084",
+                "/workspace/faers/outc.csv:1085"
+              ]
+            }
+          },
+          {
+            "primaryid": "186058506",
+            "caseversion": 6,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42236"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:158284"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:33486",
+                "/workspace/faers/outc.csv:33487"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S08|16886720",
+        "pair_id": "S08",
+        "caseid": "16886720",
+        "versions": [
+          {
+            "primaryid": "1688672059",
+            "caseversion": 59,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:402"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:482",
+                "/workspace/faers/outc.csv:483",
+                "/workspace/faers/outc.csv:484",
+                "/workspace/faers/outc.csv:485",
+                "/workspace/faers/outc.csv:486"
+              ]
+            }
+          },
+          {
+            "primaryid": "1688672064",
+            "caseversion": 64,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41841"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:153054"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32960",
+                "/workspace/faers/outc.csv:32961",
+                "/workspace/faers/outc.csv:32962",
+                "/workspace/faers/outc.csv:32963",
+                "/workspace/faers/outc.csv:32964",
+                "/workspace/faers/outc.csv:32965"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S08|16900590",
+        "pair_id": "S08",
+        "caseid": "16900590",
+        "versions": [
+          {
+            "primaryid": "169005902",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:406"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:492"
+              ]
+            }
+          },
+          {
+            "primaryid": "169005903",
+            "caseversion": 3,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41845"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:153166"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32971",
+                "/workspace/faers/outc.csv:32972"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S09|23274690",
+        "pair_id": "S09",
+        "caseid": "23274690",
+        "versions": [
+          {
+            "primaryid": "232746901",
+            "caseversion": 1,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:34008"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:129529"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:27249",
+                "/workspace/faers/outc.csv:27250",
+                "/workspace/faers/outc.csv:27251"
+              ]
+            }
+          },
+          {
+            "primaryid": "232746902",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:49030"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:39332",
+                "/workspace/faers/outc.csv:39333",
+                "/workspace/faers/outc.csv:39334"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S09|23331050",
+        "pair_id": "S09",
+        "caseid": "23331050",
+        "versions": [
+          {
+            "primaryid": "233310501",
+            "caseversion": 1,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:39338"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:143203"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:30853",
+                "/workspace/faers/outc.csv:30854"
+              ]
+            }
+          },
+          {
+            "primaryid": "233310504",
+            "caseversion": 4,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:49844"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:39976",
+                "/workspace/faers/outc.csv:39977"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S10|16886720",
+        "pair_id": "S10",
+        "caseid": "16886720",
+        "versions": [
+          {
+            "primaryid": "1688672059",
+            "caseversion": 59,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:402"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:482",
+                "/workspace/faers/outc.csv:483",
+                "/workspace/faers/outc.csv:484",
+                "/workspace/faers/outc.csv:485",
+                "/workspace/faers/outc.csv:486"
+              ]
+            }
+          },
+          {
+            "primaryid": "1688672064",
+            "caseversion": 64,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41841"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:153111"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32960",
+                "/workspace/faers/outc.csv:32961",
+                "/workspace/faers/outc.csv:32962",
+                "/workspace/faers/outc.csv:32963",
+                "/workspace/faers/outc.csv:32964",
+                "/workspace/faers/outc.csv:32965"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S10|23267270",
+        "pair_id": "S10",
+        "caseid": "23267270",
+        "versions": [
+          {
+            "primaryid": "232672701",
+            "caseversion": 1,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:33310"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:127618"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:26736",
+                "/workspace/faers/outc.csv:26737"
+              ]
+            }
+          },
+          {
+            "primaryid": "232672702",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:48942"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:39266",
+                "/workspace/faers/outc.csv:39267"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S11|23028790",
+        "pair_id": "S11",
+        "caseid": "23028790",
+        "versions": [
+          {
+            "primaryid": "230287901",
+            "caseversion": 1,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:10429"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:9655"
+              ]
+            }
+          },
+          {
+            "primaryid": "230287902",
+            "caseversion": 2,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:47121"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:191781"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:37851"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S11|23145750",
+        "pair_id": "S11",
+        "caseid": "23145750",
+        "versions": [
+          {
+            "primaryid": "231457501",
+            "caseversion": 1,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:21685"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:18287"
+              ]
+            }
+          },
+          {
+            "primaryid": "231457506",
+            "caseversion": 6,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:47803"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:195271"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:38428"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S12|16886720",
+        "pair_id": "S12",
+        "caseid": "16886720",
+        "versions": [
+          {
+            "primaryid": "1688672059",
+            "caseversion": 59,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:402"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:482",
+                "/workspace/faers/outc.csv:483",
+                "/workspace/faers/outc.csv:484",
+                "/workspace/faers/outc.csv:485",
+                "/workspace/faers/outc.csv:486"
+              ]
+            }
+          },
+          {
+            "primaryid": "1688672064",
+            "caseversion": 64,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:41841"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:153015"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:32960",
+                "/workspace/faers/outc.csv:32961",
+                "/workspace/faers/outc.csv:32962",
+                "/workspace/faers/outc.csv:32963",
+                "/workspace/faers/outc.csv:32964",
+                "/workspace/faers/outc.csv:32965"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S12|23293150",
+        "pair_id": "S12",
+        "caseid": "23293150",
+        "versions": [
+          {
+            "primaryid": "232931501",
+            "caseversion": 1,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:35761"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:134039"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:28491"
+              ]
+            }
+          },
+          {
+            "primaryid": "232931502",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:49290"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:39534"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S13|22839700",
+        "pair_id": "S13",
+        "caseid": "22839700",
+        "versions": [
+          {
+            "primaryid": "228397003",
+            "caseversion": 3,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:6753"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:6670"
+              ]
+            }
+          },
+          {
+            "primaryid": "228397005",
+            "caseversion": 5,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:46447"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:187566"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:37233"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S13|23086130",
+        "pair_id": "S13",
+        "caseid": "23086130",
+        "versions": [
+          {
+            "primaryid": "230861301",
+            "caseversion": 1,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:15956"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:13724"
+              ]
+            }
+          },
+          {
+            "primaryid": "230861302",
+            "caseversion": 2,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:47440"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:193492"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:38128",
+                "/workspace/faers/outc.csv:38129"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S15|23072320",
+        "pair_id": "S15",
+        "caseid": "23072320",
+        "versions": [
+          {
+            "primaryid": "230723202",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:14625"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:12746"
+              ]
+            }
+          },
+          {
+            "primaryid": "230723204",
+            "caseversion": 4,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:47360"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:193076"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:38059",
+                "/workspace/faers/outc.csv:38060"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S15|23315650",
+        "pair_id": "S15",
+        "caseid": "23315650",
+        "versions": [
+          {
+            "primaryid": "233156501",
+            "caseversion": 1,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:37876"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:139677"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:29969"
+              ]
+            }
+          },
+          {
+            "primaryid": "233156502",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:49627"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:39817"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_REMOVED"
+        ]
+      },
+      {
+        "driver_id": "S16|22923210",
+        "pair_id": "S16",
+        "caseid": "22923210",
+        "versions": [
+          {
+            "primaryid": "229232104",
+            "caseversion": 4,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:7630"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:7340"
+              ]
+            }
+          },
+          {
+            "primaryid": "229232106",
+            "caseversion": 6,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:46700"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:189214"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:37464",
+                "/workspace/faers/outc.csv:37465"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S17|18671410",
+        "pair_id": "S17",
+        "caseid": "18671410",
+        "versions": [
+          {
+            "primaryid": "1867141032",
+            "caseversion": 32,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:921"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:1128"
+              ]
+            }
+          },
+          {
+            "primaryid": "1867141034",
+            "caseversion": 34,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42255"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:158517"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:33510"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S17|19611460",
+        "pair_id": "S17",
+        "caseid": "19611460",
+        "versions": [
+          {
+            "primaryid": "1961146010",
+            "caseversion": 10,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:1237"
+              ]
+            }
+          },
+          {
+            "primaryid": "1961146011",
+            "caseversion": 11,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:42540"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:161641"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S18|22790550",
+        "pair_id": "S18",
+        "caseid": "22790550",
+        "versions": [
+          {
+            "primaryid": "227905502",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:6309"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:6323"
+              ]
+            }
+          },
+          {
+            "primaryid": "227905503",
+            "caseversion": 3,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:46277"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:186752"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:37083",
+                "/workspace/faers/outc.csv:37084"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      },
+      {
+        "driver_id": "S18|23224460",
+        "pair_id": "S18",
+        "caseid": "23224460",
+        "versions": [
+          {
+            "primaryid": "232244602",
+            "caseversion": 2,
+            "pair_state": "NEITHER",
+            "primary_suspect_exposure": false,
+            "target_event_present": false,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:29230"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:23742",
+                "/workspace/faers/outc.csv:23743"
+              ]
+            }
+          },
+          {
+            "primaryid": "232244604",
+            "caseversion": 4,
+            "pair_state": "EVENT_ONLY",
+            "primary_suspect_exposure": false,
+            "target_event_present": true,
+            "source_rows": {
+              "demo": [
+                "/workspace/faers/demo.csv:48555"
+              ],
+              "reac": [
+                "/workspace/faers/reac.csv:198830"
+              ],
+              "outc": [
+                "/workspace/faers/outc.csv:38954",
+                "/workspace/faers/outc.csv:38955",
+                "/workspace/faers/outc.csv:38956"
+              ]
+            }
+          }
+        ],
+        "material_changes": [
+          "TARGET_EVENT_ADDED"
+        ]
+      }
+    ]
+  },
+  "source_sha256": {
+    "faers/demo.csv": "72b49558091587d921abe5b1781ddfcd5196dbcde770a72d537c1721c376e561",
+    "faers/drug.csv": "47d297e380720cdec81a57f673ed638091efb545310100604b94bc2dcc5ed894",
+    "faers/outc.csv": "9aa71814b1a7bcc288fb9a5e2913bd083ae5d2f81281c63531c29052915dffe0",
+    "faers/reac.csv": "283a31b0c35e2e1a5df5ae7d5615e9f0676d443d05cc7412efdbef30c1826def",
+    "faers/ther.csv": "83b67cdbe018c911b5bd2763d8fc0bab9755524c9d4b04b88c899c4efdb15cb3",
+    "faers_readme.txt": "b4b1d23ce465ce1c341a3491640fe0f4a773dbc8d54039cffef5fbe8992f6829"
+  }
+}

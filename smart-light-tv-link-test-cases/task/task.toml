@@ -1,0 +1,43 @@
+artifacts = ["/workspace/output"]
+
+[metadata]
+name = "d5data / Gao Yihang"
+instance_id = "smart-light-tv-link-test-cases"
+task = "quality-assurance-test-design"
+source_repo = ""
+language = "en"
+programming_language = ""
+prompt_creation_time = "2026-10-12"
+
+[environment]
+docker_image = "smart-light-tv-link-test-cases:buyer-repair-20261023"
+cpus = 4
+workdir = "/workspace"
+memory_mb = 8192
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 7200.0
+
+[verifier]
+environment_mode = "shared"
+timeout_sec = 900.0
+
+[judge]
+type = "source_bound_mixed"
+reward_kind = "continuous"
+model = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+protocol = "openai_responses"
+mode = "${LLM_JUDGE_MODE:-fresh}"
+base_url = "${LLM_JUDGE_BASE_URL:-}"
+cache_dir = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/llm_judge_cache}"
+
+# Local host replay; the image also runs actual shell reference/empty checks at build time.
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
