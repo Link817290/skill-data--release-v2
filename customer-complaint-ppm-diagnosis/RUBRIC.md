@@ -130,6 +130,14 @@ Therefore one incomplete or wholly missing domain can remain lenient-usable when
 the other three are complete; failures spanning two or more domains cannot. The
 partition and profiles are machine-bound in `scoring_params.json`. Any confirmed
 adopted factual error still fails lenient.
+This four-profile construction is intentional. A receiving team can use a
+diagnosis that is complete in three professional domains while one independent
+domain remains incomplete, but it cannot be treated as usable when two domains
+are incomplete. The rule is evaluated from domain membership and complete owner
+fractions, not from a weighted strict-score threshold. Judge transport failure
+is a measurement state, not candidate evidence: the entrypoint publishes
+`review_required`/unmeasured status and removes stale rewards rather than
+treating an unbound semantic decision as either a pass or a zero.
 Missing or unreadable XLSX deliverables earn 0. A workspace argument resolves only `output/cppm_diagnosis.xlsx`; an output-directory argument resolves its own `cppm_diagnosis.xlsx`. Noncanonical backup files do not substitute for or override that artifact. There is no score ceiling or role/condition-specific adjustment.
 
 ## Judge And Replay
