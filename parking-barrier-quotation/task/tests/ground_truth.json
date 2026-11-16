@@ -1,0 +1,36 @@
+{
+  "deliverable": "quotation.xlsx",
+  "required_outputs": [
+    "quotation.xlsx"
+  ],
+  "format": "xlsx",
+  "output_dir": "output",
+  "materials": [
+    "7be31be5908e1ca90b1d191eaf58b3cc.jpg",
+    "98e359b3bf72e45817b5d9fc33c3b065.jpg",
+    "c33c64f061b3cb84d7c63cb5eeb0efbc.jpg"
+  ],
+  "scorer": "mechanical_score.py",
+  "scorer_version": "1.0.0",
+  "rubric": "RUBRIC.md",
+  "positive_weight_total": 1.0,
+  "items": [
+    "B1",
+    "B2",
+    "A1",
+    "A2",
+    "A3",
+    "F1",
+    "F2"
+  ],
+  "weights": {
+    "B1": 0.45,
+    "B2": 0.4,
+    "A1": 0.03,
+    "A2": 0.04,
+    "A3": 0.03,
+    "F1": 0.01,
+    "F2": 0.04
+  },
+  "note": "Per-item conditions and the deduction table live in mechanical_score.py and RUBRIC.md. This file records only the deliverable contract validator.py needs in order to find and name the artifact. The weights are repeated verbatim from the scorer for reference; the scorer remains the single source of truth."
+}

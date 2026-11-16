@@ -1,0 +1,144 @@
+{
+  "format": "skill-data-source-v1",
+  "package": "construction-payment-application",
+  "tasks": [
+    "construction-payment-application"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 33,
+  "bytes_excluding_manifest": 251196,
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1856,
+      "sha256": "f34bffc75cdb82baa827611e1462b9ff8fa301bc471d941056a2fcb4560853d3"
+    },
+    "RUBRIC.md": {
+      "bytes": 6329,
+      "sha256": "f0240895cc655dd33fdb61ee01bd3e48696eb092cfa9d27913fcd890de8f1e69"
+    },
+    "dataset.toml": {
+      "bytes": 547,
+      "sha256": "f410e322279a10ebc048801e92425f08f850780cb3e40afd21571357473a1968"
+    },
+    "golden/第五期进度付款申报表.xlsx": {
+      "bytes": 11228,
+      "sha256": "a17767f7b96179fea226c5c2e7ef02401af01e29a2563fbebdd9d020b9bf4256"
+    },
+    "golden/第五期进度付款申请函.docx": {
+      "bytes": 37084,
+      "sha256": "c42cf4c20a7395f0bbd4b85b5e8bab4f393141c0de6a0e34b34bdcd62e8be5e0"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 668,
+      "sha256": "d6a65212c0f935f326b055629da63f57679c1214bb323eae248bacc3409261df"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 357,
+      "sha256": "3c48805260d52e858e94f0982870092ff001a8e483cdda558046e351a7128b3c"
+    },
+    "task/environment/skills/prepare-progress-payment-applications/SKILL.md": {
+      "bytes": 2051,
+      "sha256": "fd16123585d6ac39cf3525854e4bf669168a7fe815f61274d5ac687110ae4873"
+    },
+    "task/environment/skills/prepare-progress-payment-applications/references/cash-flow.md": {
+      "bytes": 2182,
+      "sha256": "fdca348eeb7ed7e65805b38554a6ef66ab99b84d92107cac6a7c05a278e9780f"
+    },
+    "task/environment/skills/prepare-progress-payment-applications/references/eligibility.md": {
+      "bytes": 2295,
+      "sha256": "708c1b1ba2a7a1448c186d2b4fd8fa12b94f1a70a5a9fb5051b582d5f37cc6ee"
+    },
+    "task/environment/skills/prepare-progress-payment-applications/references/pricing.md": {
+      "bytes": 1631,
+      "sha256": "99ee29e8e1233322b1c3fb140cdc1737c65b86b0b72c39ebe10f53efdb407fc9"
+    },
+    "task/environment/skills/prepare-progress-payment-applications/references/submission.md": {
+      "bytes": 2164,
+      "sha256": "8294371512e631a1ce621b02adcea69562d874766d09fe5e29538f0562df6526"
+    },
+    "task/environment/skills/prepare-progress-payment-applications/references/validation.md": {
+      "bytes": 1889,
+      "sha256": "c637845f3192b261d53be853400574a6a6fd8e785faa1cd9f0250c8bed6b7372"
+    },
+    "task/environment/skills/prepare-progress-payment-applications/scripts/payment_components.py": {
+      "bytes": 1652,
+      "sha256": "a60acb7e5390e09a19ac6702234f0d5e7cf13f352fdb325c6013976606c6adc9"
+    },
+    "task/environment/workspace/input/合同条款及报送联系单.docx": {
+      "bytes": 38245,
+      "sha256": "d1d9bd75a319e1a369a2a640e8d7f7ee2f319b38d613b4b02758df47a40ce3db"
+    },
+    "task/environment/workspace/input/第五期付款申报表（空表）.xlsx": {
+      "bytes": 9553,
+      "sha256": "4f708966a61ec40b1684ef549850bebd5fd1386d5359772fc718375df89c7ae9"
+    },
+    "task/environment/workspace/input/第五期计量签认资料.xlsx": {
+      "bytes": 9342,
+      "sha256": "5dc56f21e6225d89562827ad897866b5bef37f5e50c14fd241fc826d8b7aa872"
+    },
+    "task/environment/workspace/input/资金往来及代扣资料.xlsx": {
+      "bytes": 8313,
+      "sha256": "f1b3dda67c7f8b0af2e7bd8ba510e0286ea5ffbf76ed3899902c708648dcddd5"
+    },
+    "task/instruction.md": {
+      "bytes": 513,
+      "sha256": "3c0e65ff313749db935fcfb71dbd00e3b68d4d8655cf0b817b1c3323c0020195"
+    },
+    "task/rubric.json": {
+      "bytes": 1398,
+      "sha256": "0621eba1c57cb9530dc1d94d999694c23c15bb5ab885076b4a7f05ea342ac795"
+    },
+    "task/solution/public_records.py": {
+      "bytes": 5163,
+      "sha256": "c15a0a95fc550e7dbe34968efe8ba6d3cc3a2927e2d521a959312b9178d41c5c"
+    },
+    "task/solution/reference/第五期进度付款申报表.xlsx": {
+      "bytes": 11228,
+      "sha256": "a17767f7b96179fea226c5c2e7ef02401af01e29a2563fbebdd9d020b9bf4256"
+    },
+    "task/solution/reference/第五期进度付款申请函.docx": {
+      "bytes": 37084,
+      "sha256": "c42cf4c20a7395f0bbd4b85b5e8bab4f393141c0de6a0e34b34bdcd62e8be5e0"
+    },
+    "task/solution/solve.py": {
+      "bytes": 7519,
+      "sha256": "c7e47985528fda11e7406f5686612c83c82ec95c98d46dcc83ec5b7ef5f7a2f6"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 539,
+      "sha256": "d27aada25a3434a4518164da354f4baf61f8ab8a086a09ef423a7ec3857b6221"
+    },
+    "task/task.toml": {
+      "bytes": 1410,
+      "sha256": "7565a9fdea9e47d9e4a834db4850c62ab8db897c13dfd6571b33e39c9abeddfe"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1313,
+      "sha256": "b8f2a484949b6e15caf71be5bf2ad694ef339ac0cb0d781eb008846b11215da0"
+    },
+    "task/tests/README.md": {
+      "bytes": 423,
+      "sha256": "b524eb14f3f5726d02fce6b63627ea3cd85dbfbc874fdc81d954f255941e4acf"
+    },
+    "task/tests/evaluator.py": {
+      "bytes": 5629,
+      "sha256": "617940f79d7680cdafb90fe2df7994a74ba27397391059141a534d1830487413"
+    },
+    "task/tests/golden_replay/ee485e9e63427f30ddd7ac02e4c097863a19a2026e28f8beb064ad3a587d7fb4.json": {
+      "bytes": 10707,
+      "sha256": "4008f7d5f834bad81b03e400d13240d78212fd4a4ef1910b323406269705f88e"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 14562,
+      "sha256": "96ed1654edd798ea02b515eaa45f0bf6e318987b746945234c3a511a15c6fda4"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2343,
+      "sha256": "7578c563747a3cc5ad0122d296dd7a76d6d740c564a3c7144d6cb523e2ebb150"
+    },
+    "task/tests/verify.py": {
+      "bytes": 13979,
+      "sha256": "9ada242911071ff5089fe5f274bfd90fdea5fb5b2e5cb2ff8384720b6c930080"
+    }
+  }
+}

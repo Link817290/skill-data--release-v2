@@ -1,0 +1,23 @@
+version = "1.0"
+id = "construction-payment-application"
+task_type = "skill-bench"
+domain = "construction-payment-administration"
+language = "en"
+difficulty = "hard"
+task = "task"
+rubric = "RUBRIC.md"
+golden = "golden"
+deliverable = "/workspace/output"
+
+[scoring]
+type = "mixed"
+primary_score = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/evaluator.py"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+
+[skill]
+names = ["prepare-progress-payment-applications"]
+answers_in_skill = false
+thresholds_in_skill = false

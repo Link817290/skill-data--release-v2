@@ -1,0 +1,121 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "parking-barrier-quotation",
+  "tasks": [
+    "parking-barrier-quotation"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 27,
+  "bytes_excluding_manifest": 4885266,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2126,
+      "sha256": "aee35e0f70f6661732428ba04e7ff84de0f569028d35b0c12cc6895b6a943093"
+    },
+    "RUBRIC.md": {
+      "bytes": 12571,
+      "sha256": "76b496c137169111c30c3b84bf815ae6a6e54e8c97e24d37b1dc35f7c6744b90"
+    },
+    "dataset.toml": {
+      "bytes": 896,
+      "sha256": "ed7e77b112d34da5d8422ad54691351b10de4130b62b468fc4604658b531df2a"
+    },
+    "golden/quotation.xlsx": {
+      "bytes": 1447906,
+      "sha256": "015d819e01e8777c8216b6c9e60e2d211375e8bb4222e43877098616c08fb1b4"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 1516,
+      "sha256": "b043387edb8affe28a1f28cb646a7a74ee320c91a3bd63e37437fe459aaf0aaf"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 342,
+      "sha256": "1a9948e06c771dabe2861d8b02e3d77be3482d2f40ed43a857a597c6aba29549"
+    },
+    "task/environment/skills/site-survey-to-customer-quotation/SKILL.md": {
+      "bytes": 4202,
+      "sha256": "dff402381af1451edaa9da5786dc78b83a008076b216a8abdc6756fd46522e48"
+    },
+    "task/environment/skills/site-survey-to-customer-quotation/references/handwritten-field-records.md": {
+      "bytes": 1611,
+      "sha256": "742d98c2bb7393e62109eb2a42a5edfa8937165493a47dcefe6fc76e3bc4d377"
+    },
+    "task/environment/skills/site-survey-to-customer-quotation/references/site-works-takeoff.md": {
+      "bytes": 1174,
+      "sha256": "eebd8863661b8c6dab6083d4d29c71bb168b1d5fb2ce3a197d3167d9cb41e8de"
+    },
+    "task/environment/skills/site-survey-to-customer-quotation/references/trade-sections.md": {
+      "bytes": 1348,
+      "sha256": "824138de8c21e12a3ec1cde2b5bb5e5f00daa56ef50497cbaf9c4730f7d89971"
+    },
+    "task/environment/workspace/materials/7be31be5908e1ca90b1d191eaf58b3cc.jpg": {
+      "bytes": 1293602,
+      "sha256": "c183daf6f58e8da669dc4027b52d74546d57ee34301dcf85781f15b50b128260"
+    },
+    "task/environment/workspace/materials/98e359b3bf72e45817b5d9fc33c3b065.jpg": {
+      "bytes": 304769,
+      "sha256": "38ea24c3c435c7a08db1f6f58c53a24670e9b0da5e685db62b7bf71f41e9f1b4"
+    },
+    "task/environment/workspace/materials/c33c64f061b3cb84d7c63cb5eeb0efbc.jpg": {
+      "bytes": 255778,
+      "sha256": "da70f881a29ff219986fadd045ef5df77b16c2e764d7843c74bb8ab2bb2c83c3"
+    },
+    "task/instruction.md": {
+      "bytes": 1288,
+      "sha256": "86d191dbcf6b25e5cb6f3454d0e4c95df3dc31f28d6ba08f636fcf145c5fa2fd"
+    },
+    "task/solution/reference_quotation.xlsx": {
+      "bytes": 1447906,
+      "sha256": "015d819e01e8777c8216b6c9e60e2d211375e8bb4222e43877098616c08fb1b4"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 672,
+      "sha256": "5af6e71bdd7e538cc30a8e3e8984401af010b27e7bc92d4ff3ba5ff45fb631f9"
+    },
+    "task/task.toml": {
+      "bytes": 1299,
+      "sha256": "2151f187c66ce78cf5b9ddc703a525e0655fef052f0eeda7b030745df4ad2265"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1285,
+      "sha256": "53e16e54539751d164a90b5c75a5c6a287a79d691cd393bd6b3f831849bf63e5"
+    },
+    "task/tests/golden_replay/6ab4a5b9c2075198bb864f633013397af24658767a6a8a9170b28e964d05e6bb.json": {
+      "bytes": 4101,
+      "sha256": "41971acdc5d010ab8085b5567fd244aa38f412fbff44b9858e2e7da10f3ac0d9"
+    },
+    "task/tests/golden_replay/94cf50b5446cd9bf6ccfe51fd279dfce195918348493d5a14ecf866063b5a325.json": {
+      "bytes": 3936,
+      "sha256": "ba16f25247f1b22bf51a2975654a4e324d817a928250aaf859d38a7a6305e272"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 944,
+      "sha256": "f7703d975b018d3d2e2c71270d15c07d57be65869359f2f08e2c361aaffb0067"
+    },
+    "task/tests/mechanical_score.py": {
+      "bytes": 73803,
+      "sha256": "2db811e31a816aae9cd43f7ce0dbf7785bae3294dca94f59cc2ef049228cc050"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 9016,
+      "sha256": "d2a7b89423179d7824e6f85b66c72232c2a264d50f6f0dbbf68b789aaf6276e6"
+    },
+    "task/tests/semantic_protocol.md": {
+      "bytes": 1557,
+      "sha256": "df5316a4cddacf2f0f50f1e0b9db672cf01ce1d3819f0dfd937fd8effa4b005c"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 2894,
+      "sha256": "09203e474079d544a390ad14c526caaa93f46cf47cc5248e9f7dbfd1f9c15626"
+    },
+    "task/tests/test.sh": {
+      "bytes": 2687,
+      "sha256": "0ae8fc1d85d56fc5b06d7a783b9bf65a22df9c4b3db625ab04b33479168e2ae7"
+    },
+    "task/tests/validator.py": {
+      "bytes": 6037,
+      "sha256": "8b03ab49e3a46cfee92f778e4edfb6fef430d0368aae7c526eff7dcadb28fd4d"
+    }
+  }
+}

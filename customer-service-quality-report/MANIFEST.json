@@ -152,7 +152,7 @@
       "size": 3176
     },
     "task/tests/mix_judge/manifest.json": {
-      "sha256": "1c75b62fc2008ffa94618078af2503bc733d797a9106e70682cf0e1b9c62a23e",
+      "sha256": "4a0bee6a982cb299e16914516bbb82fe12f03e82d7b20f08080cfa18b60010ad",
       "size": 1399
     },
     "task/tests/mix_judge/prompt.md": {
@@ -333,7 +333,7 @@
     },
     "task/tests/mix_judge/manifest.json": {
       "bytes": 1399,
-      "sha256": "1c75b62fc2008ffa94618078af2503bc733d797a9106e70682cf0e1b9c62a23e"
+      "sha256": "4a0bee6a982cb299e16914516bbb82fe12f03e82d7b20f08080cfa18b60010ad"
     },
     "task/tests/mix_judge/prompt.md": {
       "bytes": 263,

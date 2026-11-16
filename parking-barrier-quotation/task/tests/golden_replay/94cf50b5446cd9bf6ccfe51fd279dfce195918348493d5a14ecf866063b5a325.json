@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "SITE_SCOPE",
+      "fraction": 1.0,
+      "quotes": [
+        "      \"name\": \"超五类屏蔽网线\",",
+        "      \"name\": \"二芯电源信号线\",",
+        "      \"name\": \"PE软管\",",
+        "      \"name\": \"基建开小沟\",",
+        "        \"按岗亭至大门、侧门各出入口的数据布线路径合计暂估100米；现场复测后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"按岗亭至大门、侧门各出入口的供电与控制线路径合计暂估100米；现场复测后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"按上述三条出入口线路的保护管路合计暂估100米；现场复测可利用管路后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"大门、侧门出入口无现成管路的开槽区段合计暂估20米，含回填清理；现场确认区段后据实结算，本项暂估价从原1,800元现场工程包价拆分。\""
+      ],
+      "reason": "The quotation breaks the site-work amount into identifiable physical work packages: shielded network cable, two-core power/signal cable, PE protective conduit, and trenching. Their descriptions identify the relevant routes or entrance areas and include trench backfill and cleanup where applicable, so the scope is understandable to both the customer and installers."
+    },
+    {
+      "id": "ACTUAL_SETTLEMENT",
+      "fraction": 1.0,
+      "quotes": [
+        "        \"按岗亭至大门、侧门各出入口的数据布线路径合计暂估100米；现场复测后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"按上述三条出入口线路的保护管路合计暂估100米；现场复测可利用管路后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"大门、侧门出入口无现成管路的开槽区段合计暂估20米，含回填清理；现场确认区段后据实结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "    \"配套选配工程：数量为暂估，按现场实际敷设量复测，双方确认后据实结算；综合单价与公式随数量联动。\""
+      ],
+      "reason": "The site-work descriptions state that quantities are provisional, will be remeasured or confirmed on site, and will be settled according to the actual installed quantity or confirmed sections, with both parties confirming the result."
+    },
+    {
+      "id": "SITE_ESTIMATE_BASIS",
+      "fraction": 1.0,
+      "quotes": [
+        "        \"按岗亭至大门、侧门各出入口的数据布线路径合计暂估100米；现场复测后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"按岗亭至大门、侧门各出入口的供电与控制线路径合计暂估100米；现场复测后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"按上述三条出入口线路的保护管路合计暂估100米；现场复测可利用管路后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"",
+        "        \"大门、侧门出入口无现成管路的开槽区段合计暂估20米，含回填清理；现场确认区段后据实结算，本项暂估价从原1,800元现场工程包价拆分。\""
+      ],
+      "reason": "Each estimate is tied to identifiable site locations and routing: gatehouse-to-main-gate and side-gate entrances for data and power/control cabling, the protection route for those entrance lines, and trench sections at entrances without existing conduits. The quantities are expressed as route-based provisional totals rather than unsupported exact measurements."
+    }
+  ]
+}

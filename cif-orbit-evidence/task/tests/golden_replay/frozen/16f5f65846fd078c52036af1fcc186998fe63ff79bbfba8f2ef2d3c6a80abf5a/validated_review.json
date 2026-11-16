@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "source_fidelity",
+      "fraction": 1,
+      "candidate_ids": [
+        "C0"
+      ],
+      "source_ids": [
+        "S0"
+      ],
+      "reason": "source-contract fixture semantic scope decision"
+    },
+    {
+      "id": "conclusion_scope",
+      "fraction": 1,
+      "candidate_ids": [
+        "C0"
+      ],
+      "source_ids": [
+        "S0"
+      ],
+      "reason": "source-contract fixture semantic scope decision"
+    },
+    {
+      "id": "evidence_interpretation",
+      "fraction": 1,
+      "candidate_ids": [
+        "C0"
+      ],
+      "source_ids": [
+        "S0"
+      ],
+      "reason": "source-contract fixture semantic scope decision"
+    }
+  ]
+}

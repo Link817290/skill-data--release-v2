@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "COHERENT_GROUPS",
+      "fraction": 1.0,
+      "quotes": [
+        "[{\"name\": \"大门出入口\", \"lines\": [4, 5, 6, 7], \"subtotal\": \"H9\"}, {\"name\": \"收费处设备\", \"lines\": [10, 12, 13, 14, 16, 17], \"subtotal\": \"H19\"}, {\"name\": \"配套选配工程：数量为暂估，按现场实际敷设量复测，双方确认后据实结算；综合单价与公式随数量联动。\", \"lines\": [20, 21, 22, 23, 24], \"subtotal\": \"H26\"}]",
+        "[{\"sheet\": \"sheet1\", \"block\": \"大门出入口\", \"lines\": [{\"row\": 4, \"name\": \"HPK-TD6E车牌识别一体机\", \"description\": [\"摄像机：500w像素\\n处理器：双核ARM Cortex-A7\\n识别率：≥99.9%\\n支持算法：车辆滞留事件、车辆折返事件、车辆折返事件车辆跟车事件、车尾识别、三地算法\\n车牌识别种类：支持普通蓝牌、单/双层黄牌、小/大型新能源、单/双层警车、新武警、单/双层军牌、新使馆、教练车、港/澳进出大陆车牌、应急车牌、民航等车牌识别\\n触发方式：线圈触发，视频触发（车辆捕获率≥99.9%），混合触发\\n机身材质：SPCC+喷涂\\n机身厚度：1.5mm\\n显示屏：户外高亮四行红色LED屏，P4 LED模组，可自定义内容，可显示日期时间、广告语、欢迎词、车牌号码、剩余余位、车辆类型、停车时长、收费金额等，\\n显示亮度：1800cd/m²\\n语音模块：采用TTS万能语音模块，可自定义语音播报内容\\n补光灯：采用12珠高亮自主补光灯，光敏智能补光，提高特殊情况相机识别率\\n电机：24V低压无刷直流电机\\n无故障运行次数：500w次\\n电源电压：AC 220V±15%\\n整机尺寸：1450*340*274.5mm\\n外观：正面采用钢化玻璃一体成型，\\n工作温度：-25℃～+70℃\\n整机防护等级：IP54\"]}, {\"row\": 5, \"name\": \"H3V车牌识别设备\\n(4行/2列单红LED)\", \"description\": [\"摄像机：400w像素\\n处理器：双核ARM Cor",
+        "description\": [\"一套四个，对应四台摄像机。\"]}, {\"row\": 17, \"name\": \"收费公示牌\", \"description\": [\"铝合金+立柱+附反光膜\"]}]}, {\"sheet\": \"sheet1\", \"block\": \"配套选配工程：数量为暂估，按现场实际敷设量复测，双方确认后据实结算；综合单价与公式随数量联动。\", \"lines\": [{\"row\": 20, \"name\": \"超五类屏蔽网线\", \"description\": [\"按岗亭至大门、侧门各出入口的数据布线路径合计暂估100米；现场复测后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"]}, {\"row\": 21, \"name\": \"二芯电源信号线\", \"description\": [\"按岗亭至大门、侧门各出入口的供电与控制线路径合计暂估100米；现场复测后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"]}, {\"row\": 22, \"name\": \"PE软管\", \"description\": [\"按上述三条出入口线路的保护管路合计暂估100米；现场复测可利用管路后按实际敷设量结算，本项暂估价从原1,800元现场工程包价拆分。\"]}, {\"row\": 23, \"name\": \"基建开小沟\", \"description\": [\"大门、侧门出入口无现成管路的开槽区段合计暂估20米，含回填清理；现场确认区段后据实结算，本项暂估价从原1,800元现场工程包价拆分。\"]}, {\"row\": 24, \"name\": \"安全岛\", \"description\": ",
+        "[\"安全岛3座，每座500元，按现场确认数量结算。\"]}]}]"
+      ],
+      "reason": "All priced lines are assigned to named blocks. The entrance equipment lines form a coherent entrance work package; the server, networking, monitoring, support, and fee-display items are grouped as charging-area equipment; and the cabling, conduit, trenching, and safety-island items are grouped as supplementary optional site works. The optional site-works block also states how quantities will be confirmed and settled, giving the mixed civil and installation items a coherent installable basis."
+    }
+  ]
+}

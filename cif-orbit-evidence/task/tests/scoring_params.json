@@ -1,0 +1,23 @@
+{
+  "schema_version": "scoring-params-v1",
+  "positive_weights": {
+    "P01": 0.02,
+    "P02": 0.18,
+    "P03": 0.05,
+    "P04": 0.10,
+    "P05": 0.12,
+    "P06": 0.10,
+    "P07": 0.05,
+    "P08": 0.15,
+    "P09": 0.08,
+    "P10": 0.12,
+    "P11": 0.03
+  },
+  "deduction_coefficients": {
+    "D01": 0.1,
+    "D02": 0.65,
+    "D03": 0.8,
+    "D04": 0.8
+  },
+  "semantic_required": ["source_fidelity", "conclusion_scope", "evidence_interpretation"]
+}

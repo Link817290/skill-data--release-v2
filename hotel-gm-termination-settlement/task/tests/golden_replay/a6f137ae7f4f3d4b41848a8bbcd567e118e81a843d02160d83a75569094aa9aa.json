@@ -1,0 +1,177 @@
+{
+  "items": [
+    {
+      "id": "NONCOMPETE_LOW",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t竞业限制补偿\t离职后按月支付区间\t19411.25\t19601.25\t(772650+绩效补差3800~11400)÷12×30%\t材料04、05、06、01、08、18\t按应得工资修正；通讯按个人合同固定约定纳入\t不进入一次性总额"
+      ],
+      "reason": "The adopted non-compete settlement row states a monthly payable range whose low endpoint is 19411.25."
+    },
+    {
+      "id": "NONCOMPETE_HIGH",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t竞业限制补偿\t离职后按月支付区间\t19411.25\t19601.25\t(772650+绩效补差3800~11400)÷12×30%\t材料04、05、06、01、08、18\t按应得工资修正；通讯按个人合同固定约定纳入\t不进入一次性总额"
+      ],
+      "reason": "The adopted non-compete settlement row states a monthly payable range whose high endpoint is 19601.25."
+    },
+    {
+      "id": "OVERTIME",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t新增加班费\t暂待确认，不重复支付已付部分\t0\t0\t审批覆盖岗位和期间；6600已付不追回；法定节假日差额及适用地方计薪规则待核\t材料03、05、07\t不定时审批不能单独排除法定节假日差额\t不进入"
+      ],
+      "reason": "The conclusion says the already-paid 6600 will neither be recovered nor duplicated, while leaving statutory-holiday differences and applicable local payroll rules for verification and rejecting approval alone as dispositive."
+    },
+    {
+      "id": "HISTORY_PERFORMANCE_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t2025Q1绩效历史补差\t应支付最低额并待确认系数\t3800\t11400\t96分对应1.30~1.50；38000×(1.30~1.50-1.20)\t材料06b C5/D5/F5/H5\t材料06a第三条系数区间\t低值进入，高值为条件上限",
+        "结算总览\t已确定一次性应付\t240292.34\t248474.71\t是\t区间仅来自2025Q1绩效系数，并同步传导至年假基数；不含尚未确定适用基准的经济补偿"
+      ],
+      "reason": "The final settlement adopts the 3800 to 11400 historical Q1 performance shortfall derived from score 96, the 1.30-1.50 band, actual coefficient 1.20, and base 38000; the total also propagates that interval."
+    },
+    {
+      "id": "MARCH_SALARY_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t2026年3月工资\t应支付\t46500\t46500\t38000+6000+2000+500\t材料05 K15：付款批次待执行\t劳动合同第四条\t进入一次性总额"
+      ],
+      "reason": "March 2026 salary of 46500 is expressly marked payable because its payroll batch remains pending, and it enters the one-off total."
+    },
+    {
+      "id": "ANNUAL_LEAVE_DAYS_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t未休年休假工资\t应支付区间\t58992.34\t59574.71\t10天×[(772650+绩效补差3800~11400-加班6600)÷12÷21.75]×200%\t材料02参加工作时间；05收入；06绩效补差；01/08通讯约定；16系统记录\t累计工龄、离职折算取整、剔除加班；通讯按个人合同固定约定纳入\t进入一次性总额并随绩效参数联动",
+        "参数账\t2025年未休结转\t8\t天\t10天应享-2天已休\t公司系统错用本单位司龄",
+        "参数账\t2026年折算\t2\t天\tINT(90÷365×10)\t不足整天舍弃",
+        "证据与终检\t累计工龄与公司司龄\t2012-07-15参加工作，年假10天档\t材料16公司系统仅按2019入职及5天档维护\t材料02、16"
+      ],
+      "reason": "The payable annual-leave item uses 10 days, with adopted components of 8 days for 2025 and 2 days for 2026, based on cumulative service and the 10-day tier."
+    },
+    {
+      "id": "ANNUAL_LEAVE_AMOUNT_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t未休年休假工资\t应支付区间\t58992.34\t59574.71\t10天×[(772650+绩效补差3800~11400-加班6600)÷12÷21.75]×200%\t材料02参加工作时间；05收入；06绩效补差；01/08通讯约定；16系统记录\t累计工龄、离职折算取整、剔除加班；通讯按个人合同固定约定纳入\t进入一次性总额并随绩效参数联动"
+      ],
+      "reason": "The final payable annual-leave item adopts the amount interval 58992.34 to 59574.71 and includes it in the one-off total."
+    },
+    {
+      "id": "ANNUAL_LEAVE_BASE_PROPAGATION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t未休年休假工资\t应支付区间\t58992.34\t59574.71\t10天×[(772650+绩效补差3800~11400-加班6600)÷12÷21.75]×200%\t材料02参加工作时间；05收入；06绩效补差；01/08通讯约定；16系统记录\t累计工龄、离职折算取整、剔除加班；通讯按个人合同固定约定纳入\t进入一次性总额并随绩效参数联动"
+      ],
+      "reason": "The adopted annual-leave formula directly propagates the 3800-11400 performance shortfall and subtracts the already-paid 6600 overtime amount."
+    },
+    {
+      "id": "SEVERANCE_CALCULATION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t经济补偿N（后见情景）\t待补适用时点证据\t363526.88\t363526.88\t193881÷12×3×7.5\t材料02、11、14；材料14发布晚于解除日\t材料15第四十七条\t不进入确定额；仅进入情景备付"
+      ],
+      "reason": "The source-linked severance row calculates 363526.88 as 193881 divided by 12, multiplied by three and by the 7.5 service factor."
+    },
+    {
+      "id": "SEVERANCE_CONDITIONAL_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算总览\t经济补偿后见情景\t363526.88\t363526.88\t有条件\t193,881元于解除日后公布；只作情景测算，需补解除日适用的官方口径和法务意见",
+        "结算项目\t经济补偿N（后见情景）\t待补适用时点证据\t363526.88\t363526.88\t193881÷12×3×7.5\t材料02、11、14；材料14发布晚于解除日\t材料15第四十七条\t不进入确定额；仅进入情景备付",
+        "参数账\t2025深圳在岗职工年平均工资\t193881\t元/年\t材料14公开来源摘录；2026-07-24发布\t不得使用材料10缴费上限；不得忽略解除日时点"
+      ],
+      "reason": "Severance of 363526.88 is classified only as a hindsight scenario because the 193881 publication postdates termination; it is excluded from confirmed payable, and the material-10 contribution ceiling is expressly rejected as a substitute."
+    },
+    {
+      "id": "Q4_2025_PERFORMANCE_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t2025Q4绩效\t应支付\t53200\t53200\t38000×1.4\t材料06b H8：已审批未支付\t材料06a第三、五条\t进入一次性总额"
+      ],
+      "reason": "The final settlement marks 53200 payable for 2025 Q4 using 38000 times the approved 1.4 coefficient and identifies it as approved but unpaid."
+    },
+    {
+      "id": "Q1_2026_PERFORMANCE_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t2026Q1绩效\t应支付\t53200\t53200\t38000×1.4×90÷90\t材料06b：最近已完成Q4系数1.4\t材料06a第五条\t进入一次性总额"
+      ],
+      "reason": "The final settlement adopts 53200 for 2026 Q1 using the latest completed Q4 coefficient of 1.4 and the 90/90 period."
+    },
+    {
+      "id": "PHANTOM_EQUITY_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t虚拟股权未付分红\t应支付\t24600\t24600\t2400+3000+7200+12000\t材料09 VX台账；17归属协议\t已归属应付未付离职结算\t进入一次性总额",
+        "结算项目\t跟投计划分红\t已结清\t0\t0\t18000属于GT且已支付\t材料09第6行及台账说明\t与VX分开\t不进入"
+      ],
+      "reason": "VX phantom-equity distributions are reconciled year by year to 24600 and marked payable, while the separate 18000 GT co-investment distribution is marked already settled and not included."
+    },
+    {
+      "id": "NONCOMPETE_SEPARATION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算总览\t竞业限制月标准\t19411.25\t19601.25\t否\t离职后按月支付24个月；区间来自绩效补差"
+      ],
+      "reason": "The adopted non-compete obligation is stated as monthly for 24 months and marked as outside the one-off settlement total."
+    },
+    {
+      "id": "TOTALS_ADOPTION",
+      "fraction": 1.0,
+      "quotes": [
+        "证据与终检\t一次性总额\t确定项目240,292.34~248,474.71；若经济补偿后见情景成立，备付603,819.21~612,001.59\t历史绩效参数同步影响年假；竞业持续月付不混入\t结算项目逐项合计"
+      ],
+      "reason": "The final check adopts confirmed one-off payable of 240292.34-248474.71 and conditional provision of 603819.21-612001.59, states that historical performance affects annual leave, and excludes continuing monthly non-compete."
+    },
+    {
+      "id": "POLICY_PARAMETER_ISOLATION",
+      "fraction": 1.0,
+      "quotes": [
+        "参数账\t2025深圳在岗职工年平均工资\t193881\t元/年\t材料14公开来源摘录；2026-07-24发布\t不得使用材料10缴费上限；不得忽略解除日时点",
+        "参数账\t通讯项目\t6000\t元\t材料01固定约定；08一般报销条款与01个人合同固定约定的冲突；05 H列\t个人合同及连续履行支持纳入；费用票据仅作实施核验",
+        "参数账\t年假月工资基数区间\t64154.17~64787.50\t元/月\t(772650+绩效补差3800~11400-6600)÷12\t绩效参数变化必须同步传导",
+        "参数账\t竞业月平均工资区间\t64704.17~65337.50\t元/月\t(772650+绩效补差3800~11400)÷12\t协议指应得工资性收入",
+        "证据与终检\t社保缴费上限与经济补偿封顶\t使用公开统计年值换算48,470.25\t材料10的37,175仅为申报系统字段且来源未附\t材料10、14、15"
+      ],
+      "reason": "The reasoning separates the public statistical severance benchmark from material-10 declaration ceilings, rejects substitution of the latter, and separately identifies contract-supported compensation and the distinct annual-leave and non-compete average-wage bases."
+    },
+    {
+      "id": "INCOME_RULE_HIERARCHY",
+      "fraction": 1.0,
+      "quotes": [
+        "证据与终检\t住房项目性质\t固定无票据现金，按实际履行纳入工资性收入\t合同及内部会计将其称福利；员工自有住房仍持续领取\t材料01、05、08、18",
+        "证据与终检\t通讯项目性质\t个人劳动合同约定500元/月随薪，且连续固定履行，纳入工资性收入\t员工手册一般条款要求凭票；个人合同另约定500元/月随薪，连续支付记录支持工资性履行判断，须说明权衡理由\t材料01、05、08",
+        "结算项目\t未休年休假工资\t应支付区间\t58992.34\t59574.71\t10天×[(772650+绩效补差3800~11400-加班6600)÷12÷21.75]×200%\t材料02参加工作时间；05收入；06绩效补差；01/08通讯约定；16系统记录\t累计工龄、离职折算取整、剔除加班；通讯按个人合同固定约定纳入\t进入一次性总额并随绩效参数联动",
+        "结算项目\t竞业限制补偿\t离职后按月支付区间\t19411.25\t19601.25\t(772650+绩效补差3800~11400)÷12×30%\t材料04、05、06、01、08、18\t按应得工资修正；通讯按个人合同固定约定纳入\t不进入一次性总额"
+      ],
+      "reason": "Housing is assessed from fixed cash and actual performance, communications are assessed by weighing the personal contract against general policy and continuous payment, and those treatments are propagated into both annual-leave and non-compete calculations."
+    },
+    {
+      "id": "PAYMENT_STATUS_FIDELITY",
+      "fraction": 1.0,
+      "quotes": [
+        "结算项目\t2026年3月工资\t应支付\t46500\t46500\t38000+6000+2000+500\t材料05 K15：付款批次待执行\t劳动合同第四条\t进入一次性总额",
+        "结算项目\t2025Q4绩效\t应支付\t53200\t53200\t38000×1.4\t材料06b H8：已审批未支付\t材料06a第三、五条\t进入一次性总额",
+        "结算项目\t2025年度经营奖金\t已结清\t0\t0\t33250已在2026-02工资及奖金台账双向勾稽\t材料05 C14/K14；09第7行\t不得重复支付\t不进入",
+        "结算项目\t跟投计划分红\t已结清\t0\t0\t18000属于GT且已支付\t材料09第6行及台账说明\t与VX分开\t不进入",
+        "结算项目\t新增加班费\t暂待确认，不重复支付已付部分\t0\t0\t审批覆盖岗位和期间；6600已付不追回；法定节假日差额及适用地方计薪规则待核\t材料03、05、07\t不定时审批不能单独排除法定节假日差额\t不进入"
+      ],
+      "reason": "The adopted conclusions distinguish payroll-batch pending salary, approved-but-unpaid performance, settled bonus, paid GT distribution, and already-paid overtime, preventing paid amounts from re-entering payable."
+    },
+    {
+      "id": "CONDITIONAL_OBLIGATION_SEPARATION",
+      "fraction": 1.0,
+      "quotes": [
+        "结算总览\t已确定一次性应付\t240292.34\t248474.71\t是\t区间仅来自2025Q1绩效系数，并同步传导至年假基数；不含尚未确定适用基准的经济补偿",
+        "结算总览\t经济补偿后见情景\t363526.88\t363526.88\t有条件\t193,881元于解除日后公布；只作情景测算，需补解除日适用的官方口径和法务意见",
+        "结算总览\t竞业限制月标准\t19411.25\t19601.25\t否\t离职后按月支付24个月；区间来自绩效补差",
+        "结算项目\t新增加班费\t暂待确认，不重复支付已付部分\t0\t0\t审批覆盖岗位和期间；6600已付不追回；法定节假日差额及适用地方计薪规则待核\t材料03、05、07\t不定时审批不能单独排除法定节假日差额\t不进入"
+      ],
+      "reason": "The workbook separately presents confirmed one-off payable, conditional hindsight severance, unresolved overtime differences, and the continuing monthly 24-month non-compete obligation."
+    }
+  ]
+}

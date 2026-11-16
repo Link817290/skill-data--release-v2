@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "task_id": "hotel-gm-termination-settlement",
+  "strict_max_points": 100,
+  "lenient_completion_basis": "delivery completeness; see validator.score_lenient",
+  "privacy_gate": "zero",
+  "expected": {
+    "economic_compensation_months": 7.5,
+    "economic_compensation_conditional": 363526.88,
+    "annual_leave_days": 10,
+    "annual_leave_low": 58992.34,
+    "annual_leave_high": 59574.71,
+    "definite_total_low": 240292.34,
+    "definite_total_high": 248474.71,
+    "reserve_total_low": 603819.21,
+    "reserve_total_high": 612001.59,
+    "noncompete_monthly_low": 19411.25,
+    "noncompete_monthly_high": 19601.25
+  }
+}

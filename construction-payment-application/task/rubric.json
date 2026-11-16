@@ -1,0 +1,35 @@
+{
+  "schema_version": "construction-payment-mixed-v2",
+  "strict_formula": "0.60 * numeric_score + 0.40 * semantic_score",
+  "numeric_weight": 0.60,
+  "semantic_weight": 0.40,
+  "settlement": "Numeric correctness receives 60% because it controls the claimed amount; professional authority, evidence, and handoff controls receive 40%. Local defects retain local partial credit.",
+  "numeric_criteria": {
+    "eligible_lines": 0.25,
+    "line_arithmetic": 0.10,
+    "current_rollup": 0.10,
+    "advances": 0.15,
+    "retention_other": 0.10,
+    "cumulative": 0.10,
+    "summary_arithmetic": 0.10,
+    "letter_and_balances": 0.10
+  },
+  "letter_and_balances_internal": {
+    "adopted_letter_workbook_amount": 0.70,
+    "supporting_balance_reconciliations": 0.30
+  },
+  "semantic_criteria": {
+    "submission_readiness": 0.10,
+    "q08_cutoff_handoff": 0.08,
+    "v03_price_handoff": 0.08,
+    "d02_quantity_handoff": 0.08,
+    "measurement_revision_control": 0.10,
+    "price_authority_control": 0.12,
+    "engineering_advance_bridge": 0.11,
+    "material_advance_bridge": 0.13,
+    "retention_and_debit_basis": 0.10,
+    "attachment_and_adoption_control": 0.10
+  },
+  "lenient": "Core numeric submission controls and all ten semantic controls must be complete.",
+  "equivalence": "Accept evidence-supported professional equivalents without keyword, suffix, layout, or Golden-wording requirements."
+}

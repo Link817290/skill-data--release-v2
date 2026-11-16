@@ -1,0 +1,56 @@
+version = "1.0"
+id = "construction-payment-application"
+title = "Construction Payment Application"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+artifacts = ["/workspace/output"]
+
+[environment]
+docker_image = "construction-payment-application:1.3"
+dockerfile = "environment/Dockerfile"
+docker_target = "with-skill"
+workspace = "environment/workspace"
+skills = "environment/skills"
+skills_dir = "/skills"
+network_mode = "no-network"
+workdir = "/workspace"
+build_timeout_sec = 1200.0
+
+[skill]
+active = ["prepare-progress-payment-applications"]
+
+[agent]
+timeout_sec = 7200.0
+
+[verifier]
+environment_mode = "separate"
+user = "root"
+timeout_sec = 1800.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/judge-cache}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-900}"
+
+[verifier.environment]
+docker_image = "construction-payment-application-verifier:1.3"
+dockerfile = "environment/Dockerfile.verifier"
+network_mode = "public"
+workdir = "/workspace"
+build_timeout_sec = 1200.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "/workspace/output"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/evaluator.py"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

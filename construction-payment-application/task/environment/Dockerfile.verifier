@@ -1,0 +1,11 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/environment/workspace/ /workspace/
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN mkdir -p /logs/verifier /logs/artifacts \
+    && test -f '/workspace/input/合同条款及报送联系单.docx' \
+    && test -f /tests/evaluator.py
+CMD ["/bin/sh"]

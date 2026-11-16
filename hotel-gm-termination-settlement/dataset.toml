@@ -1,0 +1,39 @@
+version = "1.0"
+id = "hotel-gm-termination-settlement"
+task_type = "skill-bench"
+domain = "human-resources"
+language = "zh"
+difficulty = "hard"
+deliverable = "workspace/output/赔付清单.xlsx"
+network_access = false
+
+[scoring]
+primary_score = "reward"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+checkpoint_count = 1
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+free_text_compared = false
+
+[scoring.weights]
+core_results = 0.85
+judgment_status = 0.10
+auditable_delivery = 0.05
+
+[scoring.gates]
+workbook_readable = "zero"
+privacy = "zero"
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0
+
+[skill]
+name = "labor-settlement"
+answers_in_skill = false
+network_required = false

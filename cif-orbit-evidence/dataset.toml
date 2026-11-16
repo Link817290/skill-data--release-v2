@@ -1,0 +1,37 @@
+version = "1.0"
+id = "cif-orbit-evidence"
+task_type = "skill-bench"
+domain = "crystallographic data curation"
+language = "en"
+difficulty = "hard"
+task = "task/task.toml"
+task_no_skill = "task/task_no_skill.toml"
+instruction = "task/instruction.md"
+golden = "golden/orbit_evidence.json"
+deliverable = "/workspace/output/orbit_evidence.json"
+required_outputs = ["orbit_evidence.json"]
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+score_lenses = ["strict", "lenient"]
+reward_alias = "strict"
+scoring_params = "task/tests/scoring_params.json"
+scorer = "task/tests/test.sh"
+rubric = "RUBRIC.md"
+input_kind = "file"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+answer_judge_llm_used = true
+semantic_judge_required = true
+semantic_judge_protocol = "openai_responses"
+semantic_judge_stream = false
+semantic_judge_default_model = "gpt-5.6-sol"
+semantic_judge_reasoning_effort = "low"
+semantic_judge_max_output_tokens = 16000
+free_text_compared = false
+
+[skills]
+names = ["structured-scientific-json", "cif-token-evidence", "affine-orbit-classification", "occupancy-formula-reconciliation"]
+thresholds_in_skill = false
+answers_in_skill = false

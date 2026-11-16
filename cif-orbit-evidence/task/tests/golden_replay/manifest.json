@@ -1,0 +1,21 @@
+{
+  "schema_version": "cif-golden-replay-v1",
+  "scope": "Golden only",
+  "entries": {
+    "16f5f65846fd078c52036af1fcc186998fe63ff79bbfba8f2ef2d3c6a80abf5a": {
+      "entry": "frozen/16f5f65846fd078c52036af1fcc186998fe63ff79bbfba8f2ef2d3c6a80abf5a",
+      "files_sha256": {
+        "request.json": "256aedb5ed68d9a0976af76cb1d06ce6fb8e19cdb6f1c1e6ac75296658d1dff2",
+        "raw_response.json": "67973de11d2fd4c2798449986404ff4ab04cde7accecc7139731258691b24b45",
+        "validated_review.json": "5c5f4ef129f0f3444737594866963a387594fa92977e27f779c204a0c7eb57b4",
+        "validation.json": "e75cb30db25a2081da2444a22dbf082fd205486db7b04a5e9767a188d68ed2f6"
+      }
+    }
+  },
+  "provenance": {
+    "origin": "deterministic-source-contract-fixture",
+    "production_model_claimed": false,
+    "credentials_packaged": false,
+    "miss_policy": "fresh or UNMEASURED"
+  }
+}

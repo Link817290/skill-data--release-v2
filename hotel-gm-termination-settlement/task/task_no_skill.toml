@@ -1,0 +1,44 @@
+[[artifacts]]
+source = "/workspace/output/赔付清单.xlsx"
+destination = "output/赔付清单.xlsx"
+
+[metadata]
+instance_id = "hotel-gm-termination-settlement-no-skill"
+task = "hotel-gm-termination-settlement"
+language = "zh"
+
+[environment]
+docker_image = "hotel-gm-termination-settlement-no-skill:1.0"
+dockerfile = "environment/Dockerfile"
+docker_target = "actor-no-skill"
+workspace = "environment/workspace"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 4096
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 3600.0
+
+[verifier]
+timeout_sec = 1800.0
+environment_mode = "separate"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/judge-cache}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-fresh}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"
+
+[verifier.environment]
+docker_image = "hotel-gm-termination-settlement-verifier:1.0"
+workdir = "/workspace"
+cpus = 4
+memory_mb = 4096
+network_mode = "public"
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"

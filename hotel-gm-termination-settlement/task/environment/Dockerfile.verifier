@@ -1,0 +1,7 @@
+FROM harbor-claude-code-aggregated:1.3
+USER root
+WORKDIR /workspace
+COPY tests/ /tests/
+RUN test -s /tests/validator.py && mkdir -p /logs/verifier/judge-cache
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+CMD ["bash", "/tests/test.sh"]

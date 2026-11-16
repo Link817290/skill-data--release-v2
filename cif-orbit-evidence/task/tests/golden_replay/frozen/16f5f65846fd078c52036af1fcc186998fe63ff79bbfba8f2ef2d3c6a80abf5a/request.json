@@ -1,0 +1,7 @@
+{
+  "binding_key": "16f5f65846fd078c52036af1fcc186998fe63ff79bbfba8f2ef2d3c6a80abf5a",
+  "request_sha256": "be6f21d55777cfada23c11c985511c83b084993765f0df84020402898f85e14d",
+  "artifact_sha256": "0068a5ff259adabb48d22b7109c0eb0d57bb02b55671178bec7129672bcb96f6",
+  "evidence_sha256": "2183af0919073ab11eeb162e3c00e7d4228e804baeb7b8f2c4017956e8e2b511",
+  "model": "gpt-5.6-sol"
+}

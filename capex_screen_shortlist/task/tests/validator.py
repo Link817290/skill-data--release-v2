@@ -93,10 +93,37 @@ def expected_call(derived, model):
     return statuses.pop() if len(statuses) == 1 else 'REVIEW'
 
 
+def _finite_policy_value(derived, metric):
+    """Return the finite-year mean only when the source metric is otherwise unbounded."""
+    if derived['metrics'].get(metric) != 'INF':
+        return None
+    field = {
+        'coverage_mean': 'coverage',
+        'efficiency_mean': 'efficiency',
+        'profit_quality_mean': 'profit_quality',
+    }.get(metric)
+    if field is None:
+        return None
+    values = [derived['annual'][str(year)].get(field)
+              for year in source_financials.WINDOW]
+    values = [value for value in values if source_financials.number(value)]
+    return sum(values) / len(values) if values else None
+
+
 def numeric_truth(row, derived, record, cells):
-    return {key: submission.correct_number(row['metrics'].get(key), derived['metrics'].get(key),
-                                           cells.get(record.get('_refs', {}).get(key)))
-            for key in semantic_judge.METRICS}
+    policy_accepted = bool(row.get('criteria', {}).get('decision', {}).get('met'))
+    result = {}
+    for key in semantic_judge.METRICS:
+        expected = derived['metrics'].get(key)
+        actual = row['metrics'].get(key)
+        if policy_accepted and expected == 'INF' and actual != 'INF':
+            finite_value = _finite_policy_value(derived, key)
+            if finite_value is not None:
+                expected = finite_value
+        result[key] = submission.correct_number(
+            actual, expected,
+            cells.get(record.get('_refs', {}).get(key)))
+    return result
 
 
 def claim_truth(row, derived, cells):
@@ -279,6 +306,7 @@ def grade(path):
             owner_values[owner].append(scores[owner])
         company_detail[cid] = {'present': True, 'call': row['call'],
             'expected_call_under_candidate_policy': expected_call(derived[cid], model),
+            'finite_aggregation_policy_accepted': bool(row.get('criteria', {}).get('decision', {}).get('met')),
             'metric_truth': metric_checks, 'numeric_claim_truth': claims,
             'semantic_criteria': row['criteria'], 'settled_scores': scores}
 

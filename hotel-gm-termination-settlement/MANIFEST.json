@@ -1,0 +1,173 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "hotel-gm-termination-settlement",
+  "tasks": [
+    "hotel-gm-termination-settlement"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 40,
+  "bytes_excluding_manifest": 356745,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2007,
+      "sha256": "c0eda19ff65e6e2012547a9be5b73525f98b9ad1f26803b6ed73abbafed00859"
+    },
+    "RUBRIC.md": {
+      "bytes": 10209,
+      "sha256": "034985d988007ff406c88b4ec041477cacc6dd8b5be0356256d0b537e4dffd1c"
+    },
+    "dataset.toml": {
+      "bytes": 831,
+      "sha256": "9d95b136cfe0101fbcbcaada0b8d58c979ccc19ac58de61ef275c58608e64556"
+    },
+    "golden/赔付清单.xlsx": {
+      "bytes": 8905,
+      "sha256": "c14d8d0d94daf9649e31f1211b91f6e7602917c1f22bcdd85d5e1ef4ddb6ba33"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 539,
+      "sha256": "df9957a2df35f38ab5f9bd728b6c8a692a18dcd1778900b73bf4725d5b7184bf"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 239,
+      "sha256": "fe1a899da5e04c57eb58417d96547c9f3f338b1e362d4ceb01457bf1ab3042b7"
+    },
+    "task/environment/skills/labor-settlement/SKILL.md": {
+      "bytes": 3563,
+      "sha256": "3fba7dba756a74c77b83a04903790ffa52d51198c81b588665884950e4d789c8"
+    },
+    "task/environment/skills/labor-settlement/references/execution-manual.md": {
+      "bytes": 26016,
+      "sha256": "cbad67a9b5ed25eed611e2ececdd917fb734ca6afd63f25017d3e542f722e665"
+    },
+    "task/environment/workspace/materials/01-劳动合同书.docx": {
+      "bytes": 11452,
+      "sha256": "3c4e7cd78dc7b537a6386ab64ae52d4567edbe74b858a1b4622ded1d9a950adb"
+    },
+    "task/environment/workspace/materials/02-岗位聘任书(任命文件).docx": {
+      "bytes": 9242,
+      "sha256": "b2f50cfe48645d76ed8d67a7a25f0f35702299e2130d4d1a24c4721c1f8b3b44"
+    },
+    "task/environment/workspace/materials/03-不定时工作制审批文件.docx": {
+      "bytes": 11049,
+      "sha256": "bd03aefa4921ea8fc2182bfa7a2b4220090509295bf9b4f61b80f7d3db2ad08f"
+    },
+    "task/environment/workspace/materials/04-竞业限制协议.docx": {
+      "bytes": 10523,
+      "sha256": "4cd202305b75f7178e1a2df50198e89c2e903053bbe0ac2d2393dd95251b4fe7"
+    },
+    "task/environment/workspace/materials/05-近12个月工资明细表.xlsx": {
+      "bytes": 10285,
+      "sha256": "c0cf751bfe888d6296312a1e533c41c1271a6c64205387ac7c6452c1ca92914c"
+    },
+    "task/environment/workspace/materials/06a-年度绩效协议.docx": {
+      "bytes": 10475,
+      "sha256": "9cf0300adeba0ab194f2827b23cd28086fcf501d543608a88a824bd585c473ed"
+    },
+    "task/environment/workspace/materials/06b-KPI考核记录表.xlsx": {
+      "bytes": 9498,
+      "sha256": "d15822334ef2d28430e2f88322d7d47e222d87934260a82b0fd98a88c2bd648b"
+    },
+    "task/environment/workspace/materials/07-加班记录考勤系统导出.xlsx": {
+      "bytes": 9408,
+      "sha256": "643c383597203a00da8cf1c0c5ab96f6bd74360a74f7ab8c65f22379e654ec3d"
+    },
+    "task/environment/workspace/materials/08-津贴发放细则及员工手册相关条款.docx": {
+      "bytes": 8797,
+      "sha256": "c856dfb8cdfcdbff3a3adc60ff7f98c5aba6803e24182f302aaccc238d282681"
+    },
+    "task/environment/workspace/materials/09-年终奖集团激励发放记录.xlsx": {
+      "bytes": 9836,
+      "sha256": "601bd506286ae9e647dc852851f2416783de5ff8a70a43f41621f245baf6d234"
+    },
+    "task/environment/workspace/materials/10-社保公积金缴纳基数证明.docx": {
+      "bytes": 9498,
+      "sha256": "b85568213a6b61583e046be9c1fc9524e0ad073408617679a395b27cf6e17393"
+    },
+    "task/environment/workspace/materials/11-解除劳动合同协议书.docx": {
+      "bytes": 10238,
+      "sha256": "6c00c09a5f086839b84d1087d628274348946e9d693d97c469e402b2d678f9d7"
+    },
+    "task/environment/workspace/materials/12-离职前沟通邮件及会议纪要.docx": {
+      "bytes": 12150,
+      "sha256": "a18be2dc2b619e29048dbe3ace045d10072c70a25e3ce2242473543d863ef78c"
+    },
+    "task/environment/workspace/materials/13-业绩问责处分记录.docx": {
+      "bytes": 9087,
+      "sha256": "8223fa6171967d7ccc193c40d8f417330243be95f39c685d690b4e2626f59f54"
+    },
+    "task/environment/workspace/materials/14-当地社会平均工资标准文件.docx": {
+      "bytes": 8500,
+      "sha256": "ca553c10050a199d4ff57165d28cfabbd4ae45b7aed6650ad5cfd2dcc707c1b7"
+    },
+    "task/environment/workspace/materials/15-劳动合同法第四十七条及实施条例摘录.docx": {
+      "bytes": 9049,
+      "sha256": "8fbb8ef93bfdc97598435c4f0d203de355c19105b28776f71f235aece1085d99"
+    },
+    "task/environment/workspace/materials/16-未休年休假天数证明.docx": {
+      "bytes": 9237,
+      "sha256": "4e169450fed002358a87704ba3f2441712657e00c2e2640c992d0c5a318c588e"
+    },
+    "task/environment/workspace/materials/17-股权激励期权协议.docx": {
+      "bytes": 10340,
+      "sha256": "d6def8e9e932f0255f2d55ac75f02463fd529313b85f9d85881d556506f56dad"
+    },
+    "task/environment/workspace/materials/18-住房安排证明.docx": {
+      "bytes": 9167,
+      "sha256": "d87fe48313764122f86bb204ab15c4d5f2ca8a4b36bcece90e22279c0561c01a"
+    },
+    "task/instruction.md": {
+      "bytes": 558,
+      "sha256": "53118065c9081773f8e9bf8ade846e04080e48fd73897c8bd1189a0a1f2da2f7"
+    },
+    "task/solution/generate_golden.py": {
+      "bytes": 12759,
+      "sha256": "494d699223a021325e4eb2a69b2fb613dfa26204081748147727407c6d3d6b8f"
+    },
+    "task/solution/reference/赔付清单.xlsx": {
+      "bytes": 8905,
+      "sha256": "c14d8d0d94daf9649e31f1211b91f6e7602917c1f22bcdd85d5e1ef4ddb6ba33"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 238,
+      "sha256": "af501259b26c7f0a9b3cdc16367e057177d577a699a028abe2b5c24f885279e5"
+    },
+    "task/task.toml": {
+      "bytes": 1168,
+      "sha256": "0175d41e9bb699ec8c840b9ee0168c8eb19ef1eaed65fbf1ddab5598e299c551"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1131,
+      "sha256": "2578a0b6629327c32ae31aa46573ad0a75c2d3a3496ad5f7aedeea299564fe23"
+    },
+    "task/tests/golden_replay/a6f137ae7f4f3d4b41848a8bbcd567e118e81a843d02160d83a75569094aa9aa.json": {
+      "bytes": 14183,
+      "sha256": "44d484021727d0bd7aa3439e13eb1c0766bc6e2351155b1cc1d2f08efc38a29c"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 656,
+      "sha256": "ae5c29e18c81da5cfbe601d5c6242db94d5b65c3397f97e087ac3432e08092ef"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 14148,
+      "sha256": "809360f08acb981a029ea45a028eb3f2becb7325ebba14a043b71c7b7269e336"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 35185,
+      "sha256": "7fa55a9b15b5252a4a884114d9a9c2746533ad57367754238f2a36d975f8aef4"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1627,
+      "sha256": "c1ea7872995589c9d5be168ed3c6b01fac522e0288d91bc9842e614a2a44268e"
+    },
+    "task/tests/validator.py": {
+      "bytes": 16671,
+      "sha256": "1cf6f55e507b72bc5806aa4bb0df1ed9f2f1596afb82aac18c594d374e7017da"
+    },
+    "task/tests/workbook_consistency.py": {
+      "bytes": 9376,
+      "sha256": "9130169aee0ec3fac9e4b1b01d935dfedc3da284d04582ead556572df93c880d"
+    }
+  }
+}
