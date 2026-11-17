@@ -188,7 +188,8 @@ def main():
         if os.environ.get('LLM_JUDGE_MODE','fresh')!='fresh':raise ValueError('LLM_JUDGE_MODE must be fresh or replay')
         base=os.environ.get('LLM_JUDGE_BASE_URL');key=os.environ.get('LLM_JUDGE_API_KEY')
         if not base or not key:raise RuntimeError('Set LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY')
-        req=urllib.request.Request(base.rstrip('/')+'/v1/responses',data=raw,headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
+        endpoint = base if base.endswith('/responses') else base + ('/responses' if base.endswith('/v1') else '/v1/responses')
+        req=urllib.request.Request(endpoint,data=raw,headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
         timeout=int(os.environ.get('LLM_JUDGE_TIMEOUT_SECONDS','180'))
         with urllib.request.build_opener(urllib.request.ProxyHandler({})).open(req,timeout=timeout) as stream:response=stream.read()
         fresh_call=True

@@ -219,7 +219,8 @@ def main():
         if not base or not key:raise RuntimeError('Set LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY')
         timeout=int(os.environ.get('LLM_JUDGE_TIMEOUT_SECONDS','300'))
         for index,batch_raw in enumerate(raw_batches,1):
-            response=call_judge(base.rstrip('/')+'/v1/responses',key,batch_raw,timeout)
+            endpoint = base if base.endswith('/responses') else base + ('/responses' if base.endswith('/v1') else '/v1/responses')
+            response=call_judge(endpoint,key,batch_raw,timeout)
             (args.out/f'response-{index:02d}.json').write_bytes(response)
             responses.append(response)
     envelopes=[json.loads(response) for response in responses]

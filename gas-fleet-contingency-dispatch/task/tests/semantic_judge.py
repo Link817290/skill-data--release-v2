@@ -121,7 +121,7 @@ def measure(report_path: Path, task_root: Path):
         key = os.environ.get("LLM_JUDGE_API_KEY", "")
         if not base or not key:
             raise RuntimeError("Fresh semantic measurement requires LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY")
-        endpoint = base + ("/responses" if base.endswith("/v1") else "/v1/responses")
+        endpoint = base if base.endswith("/responses") else base + ("/responses" if base.endswith("/v1") else "/v1/responses")
         req = urllib.request.Request(endpoint, data=wire, headers={
             "Content-Type": "application/json", "Authorization": "Bearer " + key})
         with urllib.request.urlopen(req, timeout=int(os.environ.get("LLM_JUDGE_TIMEOUT_SECONDS", "300"))) as stream:

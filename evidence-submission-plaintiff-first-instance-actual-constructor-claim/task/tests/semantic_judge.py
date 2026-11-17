@@ -60,7 +60,7 @@ def adjudicate(candidate, source):
         base=os.environ.get('LLM_JUDGE_BASE_URL','').rstrip('/')
         key=os.environ.get('LLM_JUDGE_API_KEY')
         if not base or not key:raise RuntimeError('fresh semantic adjudication requires LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY')
-        url=base+('/responses' if base.endswith('/v1') else '/v1/responses')
+        url=base if base.endswith('/responses') else base+('/responses' if base.endswith('/v1') else '/v1/responses')
         for attempt in range(3):
             req=urllib.request.Request(url,data=json.dumps(payload).encode(),headers={'Content-Type':'application/json','Authorization':'Bearer '+key})
             with urllib.request.urlopen(req,timeout=float(os.environ.get('LLM_JUDGE_TIMEOUT_SECONDS','240'))) as response:body=json.load(response)

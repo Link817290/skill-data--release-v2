@@ -59,7 +59,7 @@ def request_verdict(*, here: Path, payload: dict, validate, expand_quotes) -> di
         if not base or not key:
             raise RuntimeError(
                 "fresh semantic judging requires LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY")
-        url = base + ("/responses" if base.endswith("/v1") else "/v1/responses")
+        url = base if base.endswith("/responses") else base + ("/responses" if base.endswith("/v1") else "/v1/responses")
         live_payload = json.loads(json.dumps(payload))
         for validation_attempt in range(3):
             body = None

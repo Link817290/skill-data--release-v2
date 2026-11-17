@@ -58,7 +58,7 @@ def parse_response(body):
 def request_live(payload):
  base=os.environ.get('LLM_JUDGE_BASE_URL','').rstrip('/');key=os.environ.get('LLM_JUDGE_API_KEY')
  if not base or not key:raise RuntimeError('uncached source-bound semantic adjudication is UNMEASURED without Responses base URL and credential')
- url=base+('/responses' if base.endswith('/v1') else '/v1/responses')
+ url=base if base.endswith('/responses') else base+('/responses' if base.endswith('/v1') else '/v1/responses')
  timeout=float(os.environ.get('LLM_JUDGE_TIMEOUT_SECONDS','240'))
  for attempt in range(3):
   try:
