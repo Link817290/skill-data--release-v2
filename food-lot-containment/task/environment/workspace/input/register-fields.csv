@@ -1,0 +1,26 @@
+File,Column,Type,Entry convention
+product-scope.csv,Recalling business,text,"product-scope: one row per business, brand, product, pack, UPC, date/code rule; distribution-list: one row per product/customer relationship"
+product-scope.csv,Brand,text,Blank if not supplied; preserve identifiers
+product-scope.csv,Product,text,Blank if not supplied; preserve identifiers
+product-scope.csv,Pack size,text,Blank if not supplied; preserve identifiers
+product-scope.csv,UPC,text,Blank if not supplied; preserve identifiers
+product-scope.csv,Date marking / basis,text,"Use Retail sale period, Best-if-Used-by, Best if sold by or Best by as applicable; capitalization, spaces and hyphens are not significant"
+product-scope.csv,From,date,YYYY-MM-DD
+product-scope.csv,Through,date,YYYY-MM-DD
+product-scope.csv,First code,text,Blank if not supplied; preserve identifiers
+product-scope.csv,Last code,text,Blank if not supplied; preserve identifiers
+product-scope.csv,Notice reference,text,Semicolon-separated supporting file references (for example N01) or table row references (for example N01-W01); each cited reference must support this record
+pack-changes.csv,Brand,text,One row per newly included brand/product/pack combination
+pack-changes.csv,Product,text,Blank if not supplied; preserve identifiers
+pack-changes.csv,Pack size,text,Blank if not supplied; preserve identifiers
+pack-changes.csv,Change,text,Use Added for an addition; Addition or Add are equivalent
+pack-changes.csv,Notice date,date,YYYY-MM-DD
+pack-changes.csv,Notice reference,text,Semicolon-separated supporting file references (for example N01) or table row references (for example N01-W01); each cited reference must support this record
+distribution-list.csv,Recalling business,text,"product-scope: one row per business, brand, product, pack, UPC, date/code rule; distribution-list: one row per product/customer relationship"
+distribution-list.csv,Brand,text,Blank if not supplied; preserve identifiers
+distribution-list.csv,Product,text,Blank if not supplied; preserve identifiers
+distribution-list.csv,Pack size,text,Blank if not supplied; preserve identifiers
+distribution-list.csv,UPC,text,Blank if not supplied; preserve identifiers
+distribution-list.csv,Customer / channel,text,Blank if not supplied; preserve identifiers
+distribution-list.csv,States / territories,text,Semicolon-separated values
+distribution-list.csv,Notice reference,text,Semicolon-separated supporting file references (for example N01) or table row references (for example N01-W01); each cited reference must support this record

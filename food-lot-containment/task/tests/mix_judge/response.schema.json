@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source-bound food-lot semantic review",
+  "type": "object",
+  "description": "The executable runtime specializes this schema with exact criterion and evidence-unit ID enums for each request.",
+  "required": ["reference_conflict", "criteria", "candidate_unit_audit", "notes"],
+  "properties": {
+    "reference_conflict": {"type": "boolean"},
+    "criteria": {"type": "object"},
+    "candidate_unit_audit": {"type": "object"},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

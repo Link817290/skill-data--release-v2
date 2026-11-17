@@ -1,0 +1,1521 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "1.0",
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "P03",
+      "dependencies": [],
+      "units": [
+        "U002a"
+      ],
+      "weight": 0.25,
+      "value_basis": "Correctly names the sole respondent with its registration number and address | 本项的字面值在 materials 中已存在，命中只证明作者把判决主文的名称/金额/公式正确搬入，属摘抄而非推理（正分只奖励推理，不奖励摘抄）；其错误侧由 D02（使用未分摊或判前数字）覆盖。本项保留以维持文书事实骨架的可见度。",
+      "reasoning_gate": "The complete proposition must be adopted by the author inside one bounded span",
+      "scope": "one respondent paragraph in the caption block",
+      "object_key": "respondent identity",
+      "source_location": "relation-matrix.md U002; golden/执行申请书.docx",
+      "relation_predicate": "respondent is B公司, code 91XXXXXXXXXXXXXXXB, address 某市某区某镇****",
+      "golden_object_key": "respondent identity",
+      "golden_relation_predicate": "被申请人：B公司，统一社会信用代码：91XXXXXXXXXXXXXXXB，住所地：某市某区某镇****",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim or request, not a quotation, the other side's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (other-side attribution, hedged candidate) plus item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one respondent paragraph in the caption block",
+        "metric": "normalized nonspace characters",
+        "max_units": 200
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "__head__"
+            ],
+            "groups": [
+              [
+                "^(?:被执行人|被申请人|被申请执行人)"
+              ],
+              [
+                "B公司"
+              ],
+              [
+            "91X{15}B|统一社会信用代码[^。；]{0,20}(?:待补|待核|待填写|已脱敏|\\*{2,})"
+              ],
+              [
+            "某区某镇\\*+|住所地[^。；]{0,24}(?:待补|待核|待填写|已脱敏|\\*{2,})"
+              ]
+            ],
+            "exclude": [
+              "并非|不是|并不是"
+            ],
+            "sentence_window": 2,
+            "max_chars": 220
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "none",
+        "zero": "otherwise"
+      }
+    },
+    {
+      "id": "P07",
+      "dependencies": [],
+      "units": [
+        "U004"
+      ],
+      "weight": 0.4,
+      "value_basis": "Replays the public civil-procedure counting rule from the given service date and carries one baseline through the whole document | sections 含 __head__：skill 的 enforcement-title-and-reach.md §4 教把整条时间链写进开场段，而 Golden 写在请求列表之后，两种写法同等计分。本项计的是「链」而不是 Golden 的那两个具体日期：relation-matrix U004 把生效起算点记为 equivalent_set，skill 也明确不替包选口径、只要求择一写明并全篇一致；三条链任一条两端齐全给满分，只齐一端给 0.5，两端分属不同链给 0（skill 自己点名的失败模式）。日期与谓词按邻接绑定且中间不得跨过另一个日期，「11月3日与届满同句」这种巧合不算命中。届满谓词含同义表述「为（履行）期间/期限的最后一日」，并加段落级顺延守卫——段内出现 顺延/延至/延长至 时，位置在该线索之前的届满命中一律丢弃：「至2024年11月3日届满；因该日为休息日，顺延至2024年11月4日为履行期间的最后一日」并全篇按 11/5 起算，是一条完整的链 B，不是跨链混用。守卫按段落而不是按句：中文法律文书用分号并列这两个半句，而 sentences() 在分号处断开。accrual 谓词的第一支「迟延履行/加倍 … 起算日」允许中间隔最多 160 字，仍不得跨过另一个日期——把基数的四个加数写在括号里（约 110 字）之后才写「自2024年11月4日起」，正是 application §3 要求的对账写法，链 A 仍认到两端。expiry 谓词的「届满」带 (?!之?次日|的次日|后) 否定，accrual 的日期带「后面不是届满」的守卫并有「起，发生/开始/承担 迟延履行/加倍」分支：「2024年11月4日（履行期间届满之次日）」读作起算日，不读作届满日。",
+      "reasoning_gate": "The complete proposition must be adopted by the author inside one bounded span",
+      "scope": "the note sentence(s) after the seven claims",
+      "object_key": "performance deadline and delay accrual start",
+      "source_location": "relation-matrix.md U004; instruction.md service date + civil-procedure ten-day counting rule",
+      "relation_predicate": "one declared counting chain is carried through: the day the performance period expired and the day after it, from a single baseline (service day, service day with the rest-day extension, or pronouncement day)",
+      "golden_object_key": "performance deadline and delay accrual start",
+      "golden_relation_predicate": "2024年11月3日生效判决确定的履行期间届满。2024年11月4日为迟延履行期间起算日",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "author's own adopted claim or request, not a quotation, the other side's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (other-side attribution, hedged candidate) plus item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the note sentence(s) after the seven claims",
+        "metric": "normalized nonspace characters",
+        "max_units": 200
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "kind": "date_chain",
+        "sections": [
+          "__head__",
+          "申请执行事项",
+          "事实与理由"
+        ],
+        "sections_mode": "any_present",
+        "golden_chain_id": "A_service_day",
+        "chains": [
+          {
+            "chain_id": "A_service_day",
+            "basis": "生效起算点取电子送达日 2024-10-24，十日期间不顺延：届满 2024-11-03，迟延履行起算 2024-11-04（Golden 所用）",
+            "expiry_pattern": "2024年11月3日(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,20}(?:届满(?!之?次日|的次日|后)|期满|届至|到期|为(?:履行)?期(?:间|限)的?最后一日|系(?:履行)?期(?:间|限)的?最后一日)",
+            "accrual_pattern": "(?:迟延履行|加倍)(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,160}2024年11月4日(?![^。，；]{0,6}届满(?!之?次日))|2024年11月4日(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,16}(?:为迟延履行期间起算日|为迟延履行起算日|起算迟延|为加倍)|2024年11月4日起[，,]?(?:发生|产生|开始|承担)?(?:迟延履行|加倍)"
+          },
+          {
+            "chain_id": "B_service_day_rest_day_extension",
+            "basis": "同取送达日为生效起算点，但第十日 2024-11-03 为星期日，按民诉法关于期间届满最后一日为法定休假日时顺延的规则：届满 2024-11-04，迟延履行起算 2024-11-05",
+            "expiry_pattern": "2024年11月4日(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,20}(?:届满(?!之?次日|的次日|后)|期满|届至|到期|为(?:履行)?期(?:间|限)的?最后一日|系(?:履行)?期(?:间|限)的?最后一日)",
+            "accrual_pattern": "(?:迟延履行|加倍)(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,160}2024年11月5日(?![^。，；]{0,6}届满(?!之?次日))|2024年11月5日(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,16}(?:为迟延履行期间起算日|为迟延履行起算日|起算迟延|为加倍)|2024年11月5日起[，,]?(?:发生|产生|开始|承担)?(?:迟延履行|加倍)"
+          },
+          {
+            "chain_id": "C_pronouncement_day",
+            "basis": "生效起算点取二审判决作出日 2024-10-23：届满 2024-11-02，迟延履行起算 2024-11-03（relation-matrix U004 列为等价口径之一）",
+            "expiry_pattern": "2024年11月2日(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,20}(?:届满(?!之?次日|的次日|后)|期满|届至|到期|为(?:履行)?期(?:间|限)的?最后一日|系(?:履行)?期(?:间|限)的?最后一日)",
+            "accrual_pattern": "(?:迟延履行|加倍)(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,160}2024年11月3日(?![^。，；]{0,6}届满(?!之?次日))|2024年11月3日(?:(?!\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)[^。]){0,16}(?:为迟延履行期间起算日|为迟延履行起算日|起算迟延|为加倍)|2024年11月3日起[，,]?(?:发生|产生|开始|承担)?(?:迟延履行|加倍)"
+          }
+        ],
+        "exclude": [
+          "并非|不是|并不是"
+        ],
+        "partial": {
+          "fraction": 0.5,
+          "meaning": "only one end of the chosen chain (the expiry day or the accrual day) is derived and stated"
+        },
+        "extension_cue_pattern": "顺延|延至|延长至|推迟至|改为(?:次日)?"
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "only one of the two derived dates is correct",
+        "zero": "otherwise"
+      },
+      "replay_rule_id": "R6"
+    },
+    {
+      "id": "P09",
+      "dependencies": [],
+      "units": [
+        "U006"
+      ],
+      "weight": 0.05,
+      "value_basis": "Carries forward the two-period, two-base interest formula the judgments set out for overdue construction payment, without collapsing it into one period or one base | 本项的字面值在 materials 中已存在，命中只证明作者把判决主文的名称/金额/公式正确搬入，属摘抄而非推理（正分只奖励推理，不奖励摘抄）；其错误侧由 D02（使用未分摊或判前数字）覆盖。本项保留以维持文书事实骨架的可见度，但不承担实质权重。",
+      "reasoning_gate": "The complete proposition must be adopted by the author inside one bounded span",
+      "scope": "the second numbered claim",
+      "object_key": "overdue construction-payment interest formula",
+      "source_location": "relation-matrix.md U006; materials/1 p.26 (判决理由); materials/1 p.28 (主文一)",
+      "relation_predicate": "interest on 5825075.93 from 2022-04-01 to 2023-08-31, then on 8061635.72 from 2023-09-01 until actual payment, both at the LPR",
+      "golden_object_key": "overdue construction-payment interest formula",
+      "golden_relation_predicate": "自2022年4月1日起至2023年8月31日，以5825075.93元为基数，按照同期贷款市场报价利率标准计算；自2023年9月1日起至实际付清之日止，以8061635.72元为基数，按照同期贷款市场报价利率标准计算",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim or request, not a quotation, the other side's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (other-side attribution, hedged candidate) plus item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the second numbered claim",
+        "metric": "normalized nonspace characters",
+        "max_units": 280
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "申请执行事项"
+            ],
+            "groups": [
+              [
+                "2022年4月1日"
+              ],
+              [
+                "2023年8月31日"
+              ],
+              [
+                "5825075\\.93元"
+              ],
+              [
+                "2023年9月1日"
+              ],
+              [
+                "8061635\\.72元"
+              ],
+              [
+                "贷款市场报价利率"
+              ]
+            ],
+            "exclude": [
+              "并非|不是|并不是",
+              "无需|不予|无须|不必|不需要|无须支付|不再支付"
+            ],
+            "sentence_window": 4,
+            "max_chars": 400
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "none",
+        "zero": "otherwise"
+      }
+    },
+    {
+      "id": "P10",
+      "dependencies": [],
+      "units": [
+        "U007"
+      ],
+      "weight": 0.05,
+      "value_basis": "Correctly carries forward the deposit-return amount | 本项的字面值在 materials 中已存在，命中只证明作者把判决主文的名称/金额/公式正确搬入，属摘抄而非推理（正分只奖励推理，不奖励摘抄）；其错误侧由 D02（使用未分摊或判前数字）覆盖。本项保留以维持文书事实骨架的可见度，但不承担实质权重。",
+      "reasoning_gate": "The complete proposition must be adopted by the author inside one bounded span",
+      "scope": "the third numbered claim",
+      "object_key": "deposit return",
+      "source_location": "relation-matrix.md U007; materials/1 p.28 (主文二)",
+      "relation_predicate": "respondent must immediately return the applicant's 40000 yuan deposit",
+      "golden_object_key": "deposit return",
+      "golden_relation_predicate": "被申请人立即返还申请人保证金40000元",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim or request, not a quotation, the other side's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (other-side attribution, hedged candidate) plus item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the third numbered claim",
+        "metric": "normalized nonspace characters",
+        "max_units": 150
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "require": "all",
+        "propositions": [
+          {
+            "sections": [
+              "申请执行事项"
+            ],
+            "groups": [
+              [
+                "返还"
+              ],
+              [
+                "保证金"
+              ],
+              [
+                "40000元"
+              ]
+            ],
+            "exclude": [
+              "并非|不是|并不是",
+              "无需|不予|无须|不必|不需要|无须支付|不再支付"
+            ],
+            "sentence_window": 1,
+            "max_chars": 150
+          }
+        ]
+      },
+      "full_partial_zero": {
+        "full": "every required proposition complete in one span",
+        "partial": "none",
+        "zero": "otherwise"
+      }
+    },
+    {
+      "id": "P13",
+      "dependencies": ["P03", "P10"],
+      "units": [
+        "U011"
+      ],
+      "weight": 0.05,
+      "value_basis": "The delay-interest basis is not a fourth free-standing figure; it must be replayed as the sum of exactly the three already-awarded principal amounts (construction payment + deposit + apportioned fees), and combined with the standard statutory daily rate | context_pattern 够得到民诉法 264 条自己的措辞「加倍支付迟延履行期间的债务利息」（中间隔 11 字）；中间跨度用 [^。] 而非 [^。；]。partial=0.5：enforcement-application.md §3 把本项定义为三件事同时成立（可对账的基数、届满次日起算、按标准称引利率），三分之二成立与三分之一成立不同判 0。basis_pattern 认「基数为判决确定的除一般债务利息之外的金钱债务8101635.72元」这种「基数为」后面不紧接数字的写法，partial 在「基数完全没写」时也可达。basis 另有对账回退支——从句里出现「基数」且句中有与三项本金之和（8462529.72）在 0.5 元容差内相等的数额时，以该数额为已陈述基数；答卷把四个加数逐项列出来（application §3「Write the base out so it can be reconciled with the items it is built from」要求的形态）不会让紧邻正则够不到。rate 认对法释〔2014〕8 号/「加倍部分债务利息标准」的称引——application §3 明写「do not state the rate as a figure you cannot place; name the standard instead」。只引民诉法第二百六十四条不算：264 条本身不确定利率。",
+      "reasoning_gate": "The complete proposition must be adopted by the author inside one bounded span",
+      "scope": "the seventh numbered claim",
+      "object_key": "delay-interest basis and rate",
+      "source_location": "relation-matrix.md U011; materials/1 p.29 (民诉法264条加倍利息); replay of the three awarded principal amounts (the sum P10 checks)",
+      "relation_predicate": "basis is 8061635.72+40000+360894=8462529.72, rate is 万分之一点七五 per day",
+      "golden_object_key": "delay-interest basis and rate",
+      "golden_relation_predicate": "以8462529.72元为基数，自2024年11月4日起至实际付清之日止，按日万分之一点七五乘以实际迟延履行期间计算",
+      "comparison_mode": "formula_replay",
+      "adoption_status": "author's own adopted claim or request, not a quotation, the other side's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (other-side attribution, hedged candidate) plus item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "the seventh numbered claim",
+        "metric": "normalized nonspace characters",
+        "max_units": 220
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "replay_rule_id": "R5",
+      "match": {
+        "kind": "formula_basis_sum",
+        "sections": [
+          "申请执行事项"
+        ],
+        "basis_pattern": "(\\d[\\d,，.]*\\d)\\s*元.{0,6}(?:为)?基数|基数[为是：:][^。]{0,24}?(\\d[\\d,，.]*\\d)\\s*元|以\\s*(\\d[\\d,，.]*\\d)\\s*元\\s*(?:为|作为)\\s*(?:计算)?基数",
+        "context_pattern": "加倍[^。]{0,12}(?:债务)?利息|迟延履行期间[^。]{0,12}(?:债务)?利息|迟延履行[^。]{0,8}加倍",
+        "rate_pattern": "万分之一点七五|万分之1\\.75|0\\.0175%|迟延履行期间的债务利息适用法律若干问题的解释|法释\\s*[〔\\[（(]\\s*2014\\s*[〕\\]）)]\\s*8\\s*号|加倍部分债务利息(?:的)?(?:计算)?标准",
+        "terms": [
+          8061635.72,
+          40000.0,
+          360894.0
+        ],
+        "tolerance": 0.5,
+        "exclude": [
+          "并非|不是|并不是",
+          "无需|不予|无须|不必|不需要|无须支付|不再支付"
+        ],
+        "sentence_window": 1,
+        "max_chars": 220,
+        "accrual_pattern": "届满[^。]{0,6}(?:之|的)?次日|次日[^。]{0,8}起算|自\\s*\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日\\s*起|\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日[^。]{0,8}起(?:算|计算|至)",
+        "partial": {
+          "fraction": 0.5,
+          "meaning": "the starting day and the named statutory daily-rate standard are both stated, but the basis does not reconcile with the three awarded principals"
+        },
+        "basis_reconciles_fallback": true
+      },
+      "full_partial_zero": {
+        "full": "stated basis matches the replayed sum within 0.5 yuan rounding and the statutory daily rate is stated",
+        "partial": "none",
+        "zero": "otherwise"
+      }
+    },
+    {
+      "id": "P14",
+      "dependencies": [],
+      "units": [
+        "U013"
+      ],
+      "weight": 0.15,
+      "value_basis": "'驳回上诉，维持原判' after '驳回原告的其他诉讼请求' finally confirms that only B公司 owes anything; C公司 and D公司's dismissed claims cannot be revived by naming them as respondents in an enforcement filing | 本项是本包的核心推理项：被申请人只能一家这个结论在 materials 中**没有任何一处写出**，它是从两句判项（一审第三项与二审主文）推出的执行依据主体侧射程判断，不是摘抄。其错误侧由 D01（把已被驳回的当事人重新列为被申请人/第三人）覆盖，与 D02（判前/未分摊金额）无关。",
+      "reasoning_gate": "The complete proposition must be adopted by the author inside one bounded span",
+      "scope": "every respondent/third-party paragraph in the filing",
+      "object_key": "respondent scope",
+      "source_location": "relation-matrix.md U013; materials/1 p.28-29 (驳回原告的其他诉讼请求); materials/2 p.18 (驳回上诉，维持原判)",
+      "relation_predicate": "respondent is B公司 alone; C公司 and D公司 are not named as respondents or third parties anywhere in the filing",
+      "golden_object_key": "respondent scope",
+      "golden_relation_predicate": "被申请人：B公司（no other party listed as 被申请人/被执行人/第三人）",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "author's own adopted claim or request, not a quotation, the other side's assertion, a candidate or a negation",
+      "negative_context_exclusions": "generic exclusions (other-side attribution, hedged candidate) plus item exclusions in match",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "every respondent/third-party paragraph in the filing",
+        "metric": "normalized nonspace characters",
+        "max_units": 300
+      },
+      "length_contract_id": "S01",
+      "self_report_fields_are_non_authoritative": true,
+      "match": {
+        "kind": "party_scope",
+        "correct_pattern": "^(?:被执行人|被申请人|被申请执行人)(?:[（(][^）)]{0,24}[）)])?[：:，,]?.{0,4}B公司",
+        "wrong_pattern": "(被申请人|第三人|被执行人)[：:].{0,10}(C公司|D公司)",
+        "exclude": [
+          "并非|不是|并不是"
+        ],
+        "sentence_window": 1,
+        "max_chars": 300,
+        "sections": [
+          "__head__"
+        ]
+      },
+      "full_partial_zero": {
+        "full": "the filing names B公司 as the sole respondent and never adds C公司 or D公司 as a party",
+        "partial": "none",
+        "zero": "respondent missing, or an already-dismissed party is added back in"
+      }
+    },
+    {
+      "id": "P15",
+      "dependencies": [],
+      "full_partial_zero": {"full": "one consistent selected cut-off/filing day or clear placeholders for both open dates", "partial": "none", "zero": "unmarked or inconsistent running-item cut-off"},
+      "dimension": "operative_definiteness",
+      "weight": 0.05,
+      "object_key": "provisional cut-off discipline",
+      "scope": "every running money item in the applied-for list, plus any reconciliation note",
+      "source_location": "relation-matrix.md U006-暂计金额 / U008-暂计金额 / U012; golden 第7、9、14行",
+      "relation_predicate": "every running interest item is labelled provisional; the document either names one consistent applicant-selected cut-off/filing day or clearly marks those still-open dates with placeholders",
+      "golden_object_key": "provisional cut-off discipline",
+      "golden_relation_predicate": "暂计至申请执行日 … 一般债务利息暂计算至执行申请日2024年11月4日",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "final",
+      "negative_context_exclusions": [
+        "并非|不是|并不是",
+        "可能|或许|也许|候选|备选"
+      ],
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "one sentence of a running money item or of the reconciliation note",
+        "metric": "sentences",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "Historical LPR results are Class B unknowns and may be placeholders. A drafter may select and consistently state the filing/cut-off date, or clearly leave that applicant-selected date open until filing; neither path may invent the resulting interest amount.",
+      "full_credit": "a provisional label, exactly one named cut-off day on or after 2024-11-02, equal to the filing's own date",
+      "partial_credit": "none: the discipline is either carried through or it is not",
+      "zero_credit": "no cut-off day is named (including: it is left as a gap marker), the only cut-off day is a pre-adjudication date copied from the record, more than one cut-off day is named, the filing carries no date of its own, or the cut-off day and the filing's date are different days",
+      "match": {
+        "kind": "provisional_cutoff",
+        "sections": [
+          "__head__",
+          "申请执行事项",
+          "事实与理由"
+        ],
+        "sections_mode": "any_present",
+        "marker_pattern": "暂计|暂算|暂行计算",
+        "cutoff_pattern": "暂(?:计|算)?(?:算)?至(?:(?!【|\\[|（待|\\(待|待补|待确认|待核实|占位)[^。]){0,10}\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日|计算?至(?:(?!【|\\[|（待|\\(待|待补|待确认|待核实|占位)[^。]){0,6}\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日(?:(?!。)[^。]){0,6}(?:暂计|为暂计)",
+        "earliest_valid_cutoff": [
+          2024,
+          11,
+          2
+        ],
+        "exclude": [
+          "并非|不是|并不是"
+        ],
+        "filing_date_patterns": [
+          "(?:^|[^0-9])(\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)\\s*$",
+          "(?:日期|申请日期|落款日期|具状日期|提出日期)\\s*[:：]?\\s*(\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日)",
+          "(?:日期|申请日期|落款日期)\\s*[:：]?\\s*([〇零一二三四五六七八九]{2,4}年[一二三四五六七八九十]{1,3}月[一二三四五六七八九十]{1,3}日)",
+          "(?:^|[^0-9])([〇零一二三四五六七八九]{2,4}年[一二三四五六七八九十]{1,3}月[一二三四五六七八九十]{1,3}日)\\s*$"
+        ]
+      },
+      "replay_rule_id": "R7"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "kind": "semantic",
+      "trigger": "Names an already-dismissed party as a respondent or third party",
+      "damage_basis": "Reopens a claim the courts already finally rejected against C公司 or D公司, exposing the client to a defective enforcement filing",
+      "scope": "respondent/third-party paragraphs anywhere in the filing",
+      "object_key": "respondent scope",
+      "source_location": "relation-matrix.md U013; materials/1 p.28-29; materials/2 p.18",
+      "error_predicate": "names C公司/C公司 or D公司/D公司 as 被申请人, 第三人 or 被执行人",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.6,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "__head__",
+          "申请执行事项",
+          "此致"
+        ],
+        "error": "(被申请人|第三人|被执行人)[：:].{0,10}(C公司|D公司)",
+        "damage_object": "defendant_scope",
+        "exclude": [
+          "不(含|列|应列|作为)|排除"
+        ]
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; negations are excluded by lookbehind in the error pattern",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "defendant_scope_error"
+    },
+    {
+      "id": "D02",
+      "kind": "semantic",
+      "trigger": "Reuses a pre-adjudication or un-apportioned figure instead of the court-awarded amount",
+      "damage_basis": "Filing for an amount the judgments do not actually award (the original claim before the appraisal adjustment, or the un-apportioned fee total) risks the writ being rejected or over-executed",
+      "scope": "申请执行事项 numbered claims",
+      "object_key": "principal fidelity",
+      "source_location": "materials/1 p.2 (原诉请求), p.28-29 (主文); materials/2 p.4 (原诉请求)",
+      "error_predicate": "states 8529332.55/727037.97/3409.59/42494635.93/44731195.72/36669560 as an execution amount, or attributes the un-apportioned 76898 case fee or 300000 appraisal fee to the respondent instead of its 77394/283500 share | 排除「把未分摊总额写出来只是为了交代分摊来源」这种句式（如「该两项系（2024）某民初71号民事判决在案件受理费76898元、保全费5000元及鉴定费300000元中确定由B公司负担的部分」）：unsupported-specifics-and-placeholders.md §2 要求 Class A 的派生值「把推导写在旁边」，enforcement-application.md §3 的费用条款要求「取本被执行人的份额、其余留下」——两件都做了的答卷没有把未分摊总额当成「归给被执行人的金额」。",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.6,
+      "match": {
+        "kind": "regex",
+        "sections": [
+          "申请执行事项"
+        ],
+        "error": "(8529332\\.55|727037\\.97|3409\\.45|3409\\.59|42494635\\.93|44731195\\.72|36669560)元|(受理费|保全费).{0,10}76898元|鉴定费.{0,10}(300000|16500)元",
+        "exclude": [
+          "(77394|283500)元",
+          "(判决书|一审判决|判决)确定[^。；]{0,12}负担",
+          "(?:76898|300000|5000)[^。]{0,60}中(?:确定|判(?:令|决)?)?(?:由|归)",
+          "中由[^。]{0,12}负担的部分",
+          "(?:确定|判令|判决)由[^。]{0,12}负担的部分"
+        ],
+        "damage_object": "principal_amount"
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; negations are excluded by lookbehind in the error pattern；把未分摊总额作为来源说明写在同一句而请求的是正确分摊额（如“受理费76898元、保全费5000元中，判决书确定由被执行人负担77394元”）不构成本项错误，由同句排除处理；只有把未分摊额本身作为执行请求才扣分",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "pre_adjudication_amount_reused"
+    },
+    {
+      "id": "D03",
+      "kind": "semantic",
+      "trigger": "Mismatches the two-period interest basis with the wrong date boundary",
+      "damage_basis": "Applying the full post-appraisal base amount from the earlier date (or the earlier partial base from the later date) miscalculates the interest owed",
+      "scope": "申请执行事项 numbered claims",
+      "object_key": "interest period/basis fidelity",
+      "source_location": "materials/1 p.26 (判决理由); materials/1 p.28 (主文一)",
+      "error_predicate": "pairs 2022年4月1日 with the 8061635.72 basis, or pairs 2023年9月1日 with the 5825075.93 basis | 本项的第二支——加倍支付迟延履行期间债务利息的基数，写成只含工程款与保证金之和（8101635.72元）而漏掉执行依据判由被执行人负担的 360894 元诉讼费与鉴定费。enforcement-application.md §3 第 4 条要求该基数是「执行依据课加的金钱债务」并且「写出来能与它由以构成的各项对账」，§9 第 4 条重复了对账要求。这不是普通遗漏：文书在操作项里肯定地给出了一个数额，执行员会照它计算加倍部分，结果比执行依据支持的少 360894 元的基数。与 P13 的关系——P13 量的是这一项三要素是否齐备（起算日、利率标准、可对账的基数），三缺一只失正分；D03 这一支量的是已经给出的那个数额本身是错的这一独立损害，执行员照错数执行的后果不因 P13 给了半分而消失。写 8462529.72 元并逐项列出四个加数的不触发；根本没写基数的属普通遗漏，明确排除；Golden 不触发。金额一律按含/不含千分位两种写法同时匹配（「8,101,635.72元」与「8101635.72元」），同一个错误不得因记法不同而判法不同。",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.3,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "申请执行事项"
+        ],
+        "error": "2022年4月1日.{0,30}8061635\\.72元|2023年9月1日.{0,30}5825075\\.93元|加倍[^。]{0,60}基数[^。]{0,60}(?<![\\d.])8[,，]?101[,，]?635\\.72(?![\\d.])|(?<![\\d.])8[,，]?101[,，]?635\\.72(?![\\d.])[^。]{0,40}(?:为|作为)?\\s*(?:计算)?基数|基数[^。]{0,60}(?<![\\d.])8[,，]?101[,，]?635\\.72(?![\\d.])",
+        "damage_object": "interest_basis",
+        "exclude": []
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; negations are excluded by lookbehind in the error pattern",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus erroneous object; the basis/period mismatch and the short delay-interest base are separate objects",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "interest_period_basis_mismatch"
+    },
+    {
+      "id": "D04",
+      "kind": "unsupported_specifics",
+      "trigger": "Unsupported specific fact",
+      "damage_basis": "States a date, amount or identifier that neither the materials nor the instruction establish and that is not a provisional, rate-dependent estimate the task explicitly permits without a placeholder | 文书自己的落款日期与暂计截止日属 placeholders §2 的 Class A，由申请人选定，既不是编造也不该标开。中文数字日期与阿拉伯数字日期一并纳入 specifics 扫描，文书自己日期的排除规则也对两种记法一并适用：同一语义不同记法走同一条判据（落款写「二〇二四年十一月四日」与写「2024年11月4日」判法相同）。「自生效之日的次日即2024年10月25日起算」中的 +1 是同一条计期规则的第一步，登记为具名偏移。",
+      "scope": "the whole filing",
+      "object_key": "unsupported specifics",
+      "source_location": "relation-matrix.md; instruction.md; materials",
+      "error_predicate": "states a date, amount or identifier that is not in materials+instruction, not one of the dates the public counting rule fixes from the service date (+1 period start, +10 expiry, +11 extended expiry / accrual, +12 accrual on the extended branch), not one of the two formula totals replayed from visible amounts, not inside a sentence that flags itself as a provisional estimate (暂计), and not a date the filing itself fixes (its own date, or the day a running amount is counted to) -- those are Class A values the applicant chooses and the record was never going to hold",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.4,
+      "match": {
+        "kind": "unsupported_specifics",
+      "exclude_sentence": [
+          "^(?:\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日|[〇零一二三四五六七八九]{2,4}\\s*年\\s*[一二三四五六七八九十]{1,3}\\s*月\\s*[一二三四五六七八九十]{1,3}\\s*日)$",
+          "(?:日期|申请日期|落款日期|具状日期|提出日期)\\s*[:：]",
+          "本申请(?:提出)?(?:之日|日期|时)",
+          "申请(?:执行)?之日",
+          "提出本申请",
+          "(?:起)?施行的?《|修正[)）]?》|修订[)）]?》"
+        ],
+        "own_date_sentence_pattern": "本申请(?:书)?(?:的)?(?:签署|签发|签字|提交|出具|作出|制作|落款)(?:之)?日(?:期)?|(?:签署|落款|具状)日期?[为是：:]",
+        "own_date_floor": [
+          2024,
+          11,
+          2
+        ]
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; negations are excluded by lookbehind in the error pattern",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "fabricated_specific"
+    },
+    {
+      "id": "D05",
+      "kind": "semantic",
+      "trigger": "Wrong court addressed",
+      "damage_basis": "Filing with a court other than the one that issued the first-instance judgment being enforced misdirects the application",
+      "scope": "此致 addressee line",
+      "object_key": "court of filing",
+      "source_location": "materials/1 p.1 (某市人民法院)",
+      "error_predicate": "addresses the filing to a court other than 某市人民法院",
+      "length_contract_id": "S03",
+      "penalty_coefficient": 0.6,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "此致"
+        ],
+        "error": "(?<!某市)人民法院",
+        "damage_object": "court",
+        "exclude": [
+          "判决书|裁定书|复印件|证据|附件|一审|原审|出具|送达"
+        ]
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; negations are excluded by lookbehind in the error pattern",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "court_error"
+    },
+    {
+      "id": "D06",
+      "kind": "shape",
+      "trigger": "Shape outside the unit's declared band",
+      "damage_basis": "Shape outside the unit's declared band | 下溢分档：超过阈值后每多缺 15% 基线多开一个实例，封顶 3。",
+      "scope": "whole document by section",
+      "object_key": "shape",
+      "source_location": "relation-matrix.md 5b (形态实测)",
+      "error_predicate": "a shape unit's nonspace character count lies outside that unit's own band in shape_units (above 1+tau_over or below 1-tau_under times max(golden_value, declared_floor)) with at least min_absolute_deviation characters of absolute deviation",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.1,
+      "match": {
+        "kind": "shape"
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; negations are excluded by lookbehind in the error pattern",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "shape_burden"
+    },
+    {
+      "id": "D07",
+      "kind": "semantic",
+      "trigger": "Wrong statutory daily rate for delay interest",
+      "damage_basis": "Article 264 delay interest has one fixed public daily rate; using a different rate misstates a statutory figure, not a matter of professional judgement",
+      "scope": "the seventh numbered claim",
+      "object_key": "delay-interest rate",
+      "source_location": "materials/1 p.29 (民诉法264条加倍利息)",
+      "error_predicate": "states a daily rate other than 万分之一点七五 for the delay-interest claim",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.6,
+      "match": {
+        "kind": "proposition",
+        "sections": [
+          "申请执行事项"
+        ],
+        "error": "(?=.*加倍)(?=.*万分之(?!一点七五)[一二三四五六七八九十]+点?[一二三四五六七八九十]*)",
+        "damage_object": "delay_interest_rate",
+        "exclude": []
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "generic exclusions plus item exclusions; negations are excluded by lookbehind in the error pattern",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus erroneous object (fact value for unsupported specifics, shape unit and side for shape)",
+      "manifestation_rule": "structural paragraph path plus sentence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "delay_interest_rate_error"
+    },
+    {
+      "id": "D08",
+      "kind": "class_a_placeholder",
+      "trigger": "Only an explicitly documented complete, unredacted source value replaced by a gap marker; redacted source fields and applicant-selected filing dates are excluded.",
+      "damage_basis": "本案统一社会信用代码、住所地和姓名均经脱敏，源材料不能证明未脱敏完整值；申请日期亦非案卷事实。按原样引用或标待核不触发D08。缺少本应填入的内容仅按相应正向项评价。",
+      "scope": "party-block identifier fields and the dates the filing itself fixes, anywhere in the document",
+      "object_key": "class A specifics",
+      "source_location": "relation-matrix.md; task/environment/skills/enforcement-procedure-filings/",
+      "error_predicate": "A gap in a field included in source_complete_fields; this case has no fully unredacted identity fields or source-fixed filing date.",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "match": {
+        "kind": "class_a_placeholder",
+        "class_a_marker_pattern": "[【〖\\[〔（(][^】〗\\]〕）)]{0,40}(?:统一社会信用代码|信用代码|住所地|法定代表人|申请日期|申请年月日|落款日期)[^】〗\\]〕）)]{0,30}[】〗\\]〕）)]|(?:暂计至|暂计算至|暂算至|截至|计算至)\\s*[【〖\\[〔（(][^】〗\\]〕）)]{0,40}[】\\]〕）)]",
+        "field_labels": {
+          "registration_identifier": "统一社会信用代码|信用代码",
+          "registered_address": "住所地",
+          "representative": "法定代表人",
+          "filing_date": "申请日期|申请年月日|落款日期",
+          "provisional_cutoff": "^(?:暂计至|暂计算至|暂算至|截至|计算至)"
+        },
+        "source_complete_fields": []
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "paragraph lead exclusions (candidate / other side's position) apply",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "one instance for the whole item: treating fields the record fixes as open is a single classification mistake and a single business damage (the filing is not actionable and is sent back). Each field is a manifestation of it, not an independent damage -- 04a only splits instances where the same cause produces two separately describable business damages, and 'the code is open' and 'the address is open' are the same filing being unusable once",
+      "manifestation_rule": "structural paragraph path plus occurrence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "class_a_delivered_open"
+    },
+    {
+      "id": "D09",
+      "kind": "unactionable_item",
+      "trigger": "An enumerated item states neither a sum nor a base, a period and a rate standard",
+      "damage_basis": "独立金钱请求须可执行；执行费由被执行人负担属于法定费用承担套语，不是另行计算债权，不要求另报金额，不触发。独立债权仍必须有金额或可计算公式；不得借费用套语省略判决已明确的受理、保全、鉴定费用。",
+      "scope": "each enumerated item of the applied-for list",
+      "object_key": "operative item actionability",
+      "source_location": "relation-matrix.md; task/environment/skills/enforcement-procedure-filings/",
+      "error_predicate": "an enumerated item in the applied-for list carries neither a figure in yuan nor the base / period / rate-standard triple, so an enforcement officer could not act on it today (SKILL.md self-check 4; enforcement-application.md section 3 verification and section 9 item 4)",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.7,
+      "match": {
+        "kind": "unactionable_item",
+        "sections": [
+          "申请执行事项"
+        ],
+        "item_lead_pattern": "^(?:第?[一二三四五六七八九十]+[、.．)）]|\\d{1,2}[、.．)）]|[（(][一二三四五六七八九十\\d]+[)）])",
+        "actionable_amount_pattern": "\\d[\\d,，]*(?:\\.\\d+)?\\s*(?:元|万元|亿元)",
+        "actionable_formula_pattern": "基数[^。]{0,60}(?:利率|万分之|标准|LPR)",
+        "heading_exclusion_pattern": "^(?:第?[一二三四五六七八九十]+[、.．)）]|\\d{1,2}[、.．)）]|[（(][一二三四五六七八九十\\d]+[)）])\\s*(?:申请)?(?:执行)?(?:请求)?(?:事项|请求|事由|依据)[：:]?\\s*$",
+        "short_heading_max_chars": 10,
+        "required_items": [
+          {
+            "id": "construction_payment",
+            "pattern": "工程款(?:本金)?(?:人民币)?[^。；，]{0,6}\\d[\\d.]*元",
+            "note": "主文一：工程款 8061635.72 元（数额是否正确由 D02 判，本支只问有没有请求）"
+          },
+          {
+            "id": "construction_payment_interest",
+            "pattern": "5825075\\.93",
+            "note": "主文一：两期逾期利息（第一期基数 5825075.93）"
+          },
+          {
+            "id": "deposit_return",
+            "pattern": "返还[^。；]{0,20}\\d[\\d.]*元|保证金(?:人民币)?\\d[\\d.]*元",
+            "note": "主文二：返还保证金 40000 元"
+          },
+          {
+            "id": "deposit_interest",
+            "pattern": "40000(?:\\.00)?元[^。；]{0,10}为(?:计算)?基数|基数[为是：:][^。]{0,10}40000(?:\\.00)?元|保证金[^。；]{0,20}利息",
+            "note": "主文二：保证金逾期利息"
+          },
+          {
+            "id": "court_and_appraisal_fees",
+            "pattern": "(?:受理费|保全费|诉讼费)[^。；利息]{0,12}77394(?:\\.00)?元|鉴定费[^。；利息]{0,8}283500(?:\\.00)?元|(?:受理费|保全费|鉴定费|诉讼费)[^。；利息]{0,20}360894(?:\\.00)?元",
+            "note": "费用负担：受理费保全费 77394 元、鉴定费 283500 元由被告负担"
+          },
+          {
+            "id": "delay_interest",
+            "pattern": "加倍[^。；]{0,30}利息",
+            "note": "主文末段：加倍支付迟延履行期间的债务利息"
+          }
+        ],
+        "max_missing_instances": 2,
+        "attachment_heading_pattern": "^(?:第?[一二三四五六七八九十]+[、.．)）]|\\d{1,2}[、.．)）]|[（(][一二三四五六七八九十\\d]+[)）])?\\s*(?:附件|附[:：]|附\\s*[一二三四五六七八九十\\d]|证据(?:清单|目录|材料)|随附材料|附送材料)",
+    "non_independent_fee_pattern": "(?:请求|判令)?(?:本案|本次)?(?:申请)?执行(?:费|费用)(?:依(?:照|据)?《[^》]{2,40}》|依法|应当|应)?由(?:被执行人|被申请人|B公司)(?:依法)?(?:承担|负担)(?:[（(]以(?:人民)?法院核定为准[）)])?[。；;]?"
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "paragraph lead exclusions (candidate / other side's position) apply",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus the class of field or item affected; a missing operative item is keyed by the item it lacks (missing:<id>), at most two",
+      "manifestation_rule": "structural paragraph path plus occurrence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "unactionable_operative_item"
+    },
+    {
+      "id": "D10",
+      "kind": "operative_restated",
+      "trigger": "The operative part of the title is told twice, once as narrative and once as the list",
+      "damage_basis": "与正分的关系：不与任何正分项重叠——P05 量的是两审判决各带机关/日期/案号，不涉及金额；本项扣的是把已决主文在申请书里重述一遍所造成的独立损害（文书变成案情陈述，执行员要在两处口径之间自行核对）。在事实与理由里整段复制一审主文全部金额触发；开场段只作不含金额的概括不触发；Golden 的执行依据段无金额，不触发。本项同时量住了没有任何 shape unit 计量的整节 事实与理由 的膨胀。按本项自己的 scope（申请事项列表之外的段落）把整个申请执行事项区段排除——列表末尾的对账注（把加倍利息基数的四个加数写出来并合计，application §3 明文要求的写法）含多个判决金额与「生效判决确定的」，但不是主文复述。",
+      "scope": "any paragraph outside the applied-for list",
+      "object_key": "operative part restated",
+      "source_location": "relation-matrix.md; task/environment/skills/enforcement-procedure-filings/",
+      "error_predicate": "a paragraph outside the applied-for list names the decision (判决/判令) and reproduces three or more of the sums the title awarded, i.e. the operative part is stated a second time as narrative (enforcement-filing-baseline.md section 7 Do-not list; enforcement-application.md sections 1 and 2) | 按本项自己的谓词只读「applied-for list 之外的段落」：清单本身的条目按编号前导排除，申请执行事项里交代费用分摊来源的那一项不算复述。",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.9,
+      "match": {
+        "kind": "operative_restated",
+        "sections": null,
+        "decision_cue_pattern": "判决|判令",
+        "min_award_figures": 3,
+        "award_figure_patterns": [
+          "8061635\\.72|8,061,635\\.72",
+          "5825075\\.93|5,825,075\\.93",
+          "(?<!\\d)40000(?!\\d)|40,000",
+          "(?<!\\d)77394(?!\\d)|77,394",
+          "(?<!\\d)283500(?!\\d)|283,500",
+          "(?<!\\d)76898(?!\\d)|76,898",
+          "(?<!\\d)300000(?!\\d)|300,000",
+          "8462529\\.72|8,462,529\\.72",
+          "(?<!\\d)360894(?!\\d)|360,894"
+        ],
+        "item_lead_exclusion_pattern": "^(?:第?[一二三四五六七八九十]+[、.．)）]|\\d{1,2}\\s*[、.．)）]|[（(][一二三四五六七八九十\\d]+[)）])"
+      },
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "paragraph lead exclusions (candidate / other side's position) apply",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus the class of field or item affected",
+      "manifestation_rule": "structural paragraph path plus occurrence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "operative_part_restated"
+    },
+    {
+      "id": "D11",
+      "kind": "semantic",
+      "trigger": "A Civil Procedure Law provision is cited under a wrong (superseded) article number",
+      "damage_basis": "文书援引《民事诉讼法》时把迟延履行利息写成第二百五十三条/第二百六十条、申请执行期间写成第二百三十九条/第二百四十六条、执行管辖写成第二百二十四条/第二百三十一条，都是 2021 年前或 2021 年版的旧序号；执行依据（materials/1 L331）自己引的是现行第二百六十四条，引 235/250/264 的文书全部正确。错引把执行员引到错误条文，是作者采纳的错误断言；准确引用不扣。闭合表：只读《民事诉讼法》的引用，主题词须在条号 60 字以内，同句凡出现允许集内的条号即不扣（「第二百五十条（原第二百三十九条）」不扣）；每个主题一个 damage instance，封顶 2。",
+      "scope": "every sentence of the filing that cites the Civil Procedure Law",
+      "object_key": "statutory citation accuracy",
+      "source_location": "materials/1 L331（第二百六十四条）; 《民事诉讼法》2023 修正（2024-01-01 施行）第235/250/264条",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.6,
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "paragraph lead exclusions (candidate / other side's position) apply; a sentence carrying the correct number alongside the old one is not charged",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "item plus the topic (delay interest / application period / jurisdiction) whose provision is mis-numbered",
+      "manifestation_rule": "structural paragraph path plus occurrence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "provision_miscited",
+      "error_predicate": "the sentence cites the Civil Procedure Law with an article number that is not the current number of the provision it names",
+      "match": {
+        "kind": "miscited_provision",
+        "sections": null,
+        "statute_pattern": "民事诉讼法|民诉法",
+        "article_pattern": "第([一二三四五六七八九十百零〇两]+|\\d{1,3})条",
+        "window": 60,
+        "max_instances": 2,
+        "topics": [
+          {
+            "id": "delay_interest",
+            "topic_pattern": "迟延履行|加倍(?:支付|部分)",
+            "allowed": [
+              264
+            ]
+          },
+          {
+            "id": "application_period",
+            "topic_pattern": "申请执行(?:的)?期间|申请执行期限|申请执行的期限|执行时效",
+            "allowed": [
+              250
+            ]
+          },
+          {
+            "id": "enforcement_jurisdiction",
+            "topic_pattern": "执行管辖|管辖|第一审人民法院[^。]{0,12}执行|由[^。]{0,20}人民法院执行",
+            "allowed": [
+              235
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "D12",
+      "kind": "semantic",
+      "trigger": "Drafting notes, handler instructions or a to-do checklist carried inside the filing",
+      "damage_basis": "enforcement-application.md 规定申请书只含申请书正文；落款后带「──以下为起草备注，非正式申请内容，提交前请删去本段──」及给经办人看的备注（时效提示「请尽快提交立案」、法条序号「提交前可再行核对」等），「附：本申请书待补充事项汇总（提交前请逐项核实，正式文本中可删除本页）」一页清单，或在附件目录标题里写「（提交时请按实际材料核对、补页码）」——这些是给起草方/提交方看的话，法院收到的文书不应含有；与 D08（把记录已定的字段留空）、D09（无法执行的请求项）都不重叠。占位符内的说明文字先剥离（那是标记缺口，不是备注）。整项一个 damage instance，备注多少段只算一次。",
+      "scope": "every paragraph of the filing",
+      "object_key": "non-filing content",
+      "source_location": "task/environment/skills/enforcement-procedure-filings/enforcement-application.md（申请书应含内容）",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.7,
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "paragraph lead exclusions apply; placeholder wording is stripped before the scan",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "one instance for the whole item: a memo to the handler is one classification mistake however many paragraphs it runs to",
+      "manifestation_rule": "structural paragraph path plus occurrence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "non_filing_content",
+      "error_predicate": "a paragraph outside any placeholder announces itself as drafting notes / non-filing content, tells the handler what to do before submission, or is a to-do checklist to delete from the formal text",
+      "match": {
+        "kind": "non_filing_content",
+        "sections": null,
+        "single_damage_instance": true,
+        "note_pattern": "起草备注|起草说明|非正式申请内容|正式文本中(?:可|应|请)?删除|提交前请?删(?:去|除)|删[去除]本(?:段|页)|以下为[^。；]{0,8}备注|待补充事项汇总|提交前(?:请|建议|可再行|应|宜)[^。；]{0,12}(?:核实|核对|删|填|补|确认|调整)|提交时请[^。；]{0,12}(?:核对|补|填)|请尽快提交立案"
+      }
+    },
+    {
+      "id": "D13",
+      "kind": "semantic",
+      "trigger": "A party carries its designation from the concluded action (in brackets or instead of) its enforcement designation",
+      "damage_basis": "enforcement-filing-baseline.md §2 明写「In an application to the enforcement organ, each party carries its enforcement designation and nothing else. Do not carry over the designation from the concluded action, and do not add a second label in brackets」并给出理由（文书在执行案件之内，读者没有别的参照系；同一当事人被描述两次）。「申请执行人（一审原告、二审上诉人）」「被执行人（一审被告、二审被上诉人）」触发；Golden 只用执行程序称谓。这是作者采纳的一个标注决定，整个当事人栏一个 damage instance；与 P14（射程：只列 B 公司）分开——P14 的 correct_pattern 容忍括号，不因括号失分。",
+      "scope": "the party block (caption) of the filing",
+      "object_key": "party designation",
+      "source_location": "task/environment/skills/enforcement-procedure-filings/references/enforcement-filing-baseline.md §2",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.5,
+      "adoption_status": "affirmative adopted by the author",
+      "negative_context_exclusions": "paragraph lead exclusions apply",
+      "causal_root_rule": "one causal root per deduction item",
+      "damage_instance_key_rule": "one instance for the whole caption: labelling the parties by the concluded action is one decision",
+      "manifestation_rule": "structural paragraph path plus occurrence index",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "causal_root_id": "designation_carried_over",
+      "error_predicate": "a caption line opens with an enforcement designation immediately followed by a bracket naming the party's role in the concluded action (一审/二审 原告/被告/上诉人/被上诉人)",
+      "match": {
+        "kind": "carried_over_designation",
+        "sections": [
+          "__head__"
+        ],
+        "single_damage_instance": true,
+        "designation_pattern": "^(?:申请执行人|被申请执行人|被执行人|申请人|被申请人)\\s*[（(][^）)]{0,24}(?:一审|二审|原审|原告|被告|上诉人|被上诉人|反诉)[^）)]{0,24}[）)]"
+      }
+    },
+    {
+      "id": "D14",
+      "kind": "semantic",
+      "trigger": "required source-bound semantic review finds an adopted unsupported officer title, fixed historical-rate result or free-standing cost-interest claim",
+      "damage_basis": "an enforcement application must stay within the effective title and must not turn absent rate history or party-role facts into fixed claims",
+      "scope": "whole application",
+      "object_key": "document.source_support",
+      "source_location": "first- and second-instance judgments",
+      "length_contract_id": "S05",
+      "penalty_coefficient": 0.4,
+      "adoption_status": "adopted application statement",
+      "negative_context_exclusions": "placeholders, conditional limitations and attributed statements do not trigger",
+      "causal_root_rule": "R-source-support",
+      "causal_root_id": "R-source-support",
+      "damage_instance_key_rule": "unsupported_adopted_enforcement_fact",
+      "manifestation_rule": "one document-level semantic decision",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "error_predicate": "SOURCE_SUPPORT fraction is zero",
+      "match": {"kind": "semantic_source_support"}
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U001-住所地",
+      "disposition": "not_scored: opaque, no basis in either judgment (relation-matrix.md); instruction.md requires a placeholder here, which the D04 unsupported-specifics check does not reach because it only matches digit-shaped dates/amounts/identifiers, not free-text addresses",
+      "items": [],
+      "program_item_ids": [],
+      "golden_proposition": "not_scored: opaque, no basis in either judgment (relation-matrix.md); instruction.md requires a placeholder here, which the D04 unsupported-specifics check does not reach because it only matches digit-shaped dates/amounts/identifiers, not free-text addresses",
+      "golden_locator": "golden/"
+    },
+    {
+      "unit_id": "U002a",
+      "disposition": "scored",
+      "items": [
+        "P03"
+      ],
+      "program_item_ids": [
+        "P03"
+      ],
+      "golden_proposition": "被申请人：B公司，统一社会信用代码：91XXXXXXXXXXXXXXXB，住所地：某市某区某镇****",
+      "golden_locator": "golden/"
+    },
+    {
+      "unit_id": "U004",
+      "disposition": "scored: deterministic replay of the public ten-day counting rule from the instruction-supplied service date",
+      "items": [
+        "P07"
+      ],
+      "program_item_ids": [
+        "P07"
+      ],
+      "golden_proposition": "2024年11月3日生效判决确定的履行期间届满。2024年11月4日为迟延履行期间起算日",
+      "golden_locator": "第13行"
+    },
+    {
+      "unit_id": "U006-公式",
+      "disposition": "scored",
+      "items": [
+        "P09"
+      ],
+      "program_item_ids": [
+        "P09"
+      ],
+      "golden_proposition": "自2022年4月1日起至2023年8月31日，以5825075.93元为基数，按照同期贷款市场报价利率标准计算；自2023年9月1日起至实际付清之日止，以8061635.72元为基数，按照同期贷款市场报价利率标准计算",
+      "golden_locator": "golden/"
+    },
+    {
+      "unit_id": "U006-暂计金额",
+      "disposition": "not_scored: depends on historical LPR data outside the record; method only | 金额本身不计分；本单元中不依赖 LPR 的那一部分（标为暂计＋指名同一个真实暂计截止日）由 P15 计分。",
+      "items": [
+        "P15"
+      ],
+      "program_item_ids": [
+        "P15"
+      ],
+      "golden_proposition": "not_scored: depends on historical LPR data outside the record; method only",
+      "golden_locator": "golden/"
+    },
+    {
+      "unit_id": "U007",
+      "disposition": "scored",
+      "items": [
+        "P10"
+      ],
+      "program_item_ids": [
+        "P10"
+      ],
+      "golden_proposition": "被申请人立即返还申请人保证金40000元",
+      "golden_locator": "请求三"
+    },
+    {
+      "unit_id": "U008-暂计金额",
+      "disposition": "not_scored: same LPR gap as U006-暂计金额 | 金额本身不计分；本单元中不依赖 LPR 的那一部分（标为暂计＋指名同一个真实暂计截止日）由 P15 计分。",
+      "items": [
+        "P15"
+      ],
+      "program_item_ids": [
+        "P15"
+      ],
+      "golden_proposition": "not_scored: same LPR gap as U006-暂计金额",
+      "golden_locator": "golden/"
+    },
+    {
+      "unit_id": "U010",
+      "disposition": "not_scored: judgments never award a stand-alone overdue-interest claim on the case/appraisal fees; relation-matrix.md records this as an optional executive-strategy extension, not the one correct answer",
+      "items": [],
+      "program_item_ids": [],
+      "golden_proposition": "（诉讼费/鉴定费逾期利息，基数360894，自11.4起）",
+      "golden_locator": "请求六"
+    },
+    {
+      "unit_id": "U011",
+      "disposition": "scored (basis replayed as formula_replay; rate scored as a public convention figure)",
+      "items": [
+        "P13"
+      ],
+      "program_item_ids": [
+        "P13"
+      ],
+      "golden_proposition": "以8462529.72元为基数，自2024年11月4日起至实际付清之日止，按日万分之一点七五乘以实际迟延履行期间计算",
+      "golden_locator": "请求七"
+    },
+    {
+      "unit_id": "U012",
+      "disposition": "not_scored: the provisional grand total is downstream of the two un-scoreable LPR amounts (warning_only per relation-matrix.md) | 金额本身不计分；本单元中不依赖 LPR 的那一部分（标为暂计＋指名同一个真实暂计截止日）由 P15 计分。",
+      "items": [
+        "P15"
+      ],
+      "program_item_ids": [
+        "P15"
+      ],
+      "golden_proposition": "\"上述执行金额暂计共9093001.95元\"",
+      "golden_locator": "golden/"
+    },
+    {
+      "unit_id": "U013",
+      "disposition": "scored (core reasoning item)",
+      "items": [
+        "P14"
+      ],
+      "program_item_ids": [
+        "P14"
+      ],
+      "golden_proposition": "被申请人：B公司（no other party listed as 被申请人/被执行人/第三人）",
+      "golden_locator": "被执行人范围排除判断"
+    },
+    {
+      "unit_id": "U014",
+      "disposition": "not_scored: genre convention -- a filing may reference an interest schedule by name without attaching it as a native table",
+      "items": [],
+      "program_item_ids": [],
+      "golden_proposition": "\"附：执行利息计算明细表\"",
+      "golden_locator": "golden/"
+    },
+    {
+      "unit_id": "U015",
+      "disposition": "scored",
+      "items": [],
+      "program_item_ids": [],
+      "golden_proposition": "\"此致 某市人民法院\"（管辖法院）",
+      "golden_locator": "golden/"
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "sections": [
+        "__head__"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "nonspace characters of paragraphs in the section including its heading",
+      "golden_value": 316,
+      "declared_floor": 150,
+      "tau_over": 1.5,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific: free-form Chinese legal prose, so a section is a shape failure only beyond 2.5x (padding) or below 0.4x (too thin to carry its argument) of the Golden section; ordinary drafting variation of 1.3x to 2x stays inside the band; a charge also needs at least 150 nonspace characters of absolute deviation | golden_value 316 用本合同自己的计数器在 Golden 的 .md 与 .docx 两个载体上实测（两载体同值）。",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "D01",
+        "D08",
+        "D10",
+        "P03",
+        "P14"
+      ],
+      "min_absolute_deviation": 150,
+      "under_step": 0.15,
+      "under_max_instances": 3
+    },
+    {
+      "id": "S02",
+      "sections": [
+        "申请执行事项"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "nonspace characters of paragraphs in the section including its heading",
+      "golden_value": 628,
+      "declared_floor": 200,
+      "tau_over": 1.5,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific: free-form Chinese legal prose, so a section is a shape failure only beyond 2.5x (padding) or below 0.4x (too thin to carry its argument) of the Golden section; ordinary drafting variation of 1.3x to 2x stays inside the band; a charge also needs at least 150 nonspace characters of absolute deviation | 本区段是文种框架必备的（enforcement-filing-baseline.md §3），整段缺失按 0 字计，走下溢分档（3 个实例）；写在一个段落里用换行分隔的区段由读取层按换行拆行后照常识别。",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "D02",
+        "D03",
+        "D04",
+        "D06",
+        "D07",
+        "D09",
+        "P07",
+        "P09",
+        "P10",
+        "P13",
+        "P15"
+      ],
+      "min_absolute_deviation": 150,
+      "under_step": 0.15,
+      "under_max_instances": 3,
+      "required_section": true
+    },
+    {
+      "id": "S03",
+      "sections": [
+        "此致"
+      ],
+      "metric": "normalized_nonspace_characters",
+      "counter": "nonspace characters of the addressee and signature block, attachment-list lines excluded on both the Golden and the submission",
+      "golden_value": 28,
+      "declared_floor": 17,
+      "tau_over": 1.0,
+      "tau_under": 0.6,
+      "threshold_basis": "task_specific_short_section (under 150 non-space characters; a legitimate one-line addressee/signature block should not trip the default 15/30 percent band); under-band set so that ordinary omission loses P only (policy invariant): a section is charged as too thin only below 0.4x of the Golden section, which is a stub rather than a shorter argument | golden_value 28 用本合同自己的计数器在 Golden 的 .md 与 .docx 两个载体上实测（两载体同值）。min_absolute_deviation 为 20：基线只有 28 字时，150 字的绝对门槛会让该区段声明的带 [17,56] 永远不可能触发。 | 本区段是文种框架必备的（enforcement-filing-baseline.md §3），整段缺失按 0 字计，走下溢分档（3 个实例）；写在一个段落里用换行分隔的区段由读取层按换行拆行后照常识别。",
+      "deduction_id": "D06",
+      "applicable_item_ids": [
+        "D05"
+      ],
+      "min_absolute_deviation": 20,
+      "exclude_line_pattern": "^(附[:：]|附件|\\d+[.、．])",
+      "under_step": 0.15,
+      "under_max_instances": 3,
+      "required_section": true
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N1",
+        "operation": "strip whitespace and heading numbering before section alias match"
+      },
+      {
+        "id": "N2",
+        "operation": "remove verbatim authority quotations from the author's own text"
+      },
+      {
+        "id": "N3",
+        "operation": "declared surface synonyms are accepted by the item term groups"
+      },
+      {
+        "id": "N4",
+        "operation": "paragraphs introduced as candidate, hypothesis or the other side's position are excluded as a whole"
+      },
+      {
+        "id": "gap_marker_fold_v1",
+        "operation": "every declared gap marker (legal_prose.GAP_MARKER / PLACEHOLDER) folds into one gap observation: the marked span earns no positive credit, is removed before unsupported-specifics scanning and before shape counting, and a shape region holding only markers is an ordinary omission, never a shape charge; inventing a value instead of marking it stays charged under fabrication_deduction_ids"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R1",
+        "operation": "nonspace character count per section for shape units"
+      },
+      {
+        "id": "R2",
+        "operation": "date, amount and identifier support check against Materials plus instruction"
+      },
+      {
+        "id": "R3",
+        "operation": "performance deadline and delay-interest accrual start derived from a corpus-supported service date under the public civil-procedure counting rule: +10/+11 days on the plain branch, and +11/+12 on the branch where the tenth day falls on a day the rules treat as a holiday (2024-11-03 is a Sunday). Named offsets only, never a tolerance window"
+      },
+      {
+        "id": "R4",
+        "operation": "two formula totals (apportioned-fee sum; delay-interest basis sum) replayed from amounts already visible in Materials, exempting them from the unsupported-specifics scan"
+      },
+      {
+        "id": "R5",
+        "operation": "delay-interest basis formula_replay: candidate's stated basis must equal construction-payment principal + deposit + apportioned fees within 0.5 yuan rounding"
+      },
+      {
+        "id": "R6",
+        "operation": "date_chain replay for the performance period: three declared baselines (service day; service day with the rest-day extension; pronouncement day) each fix an expiry day and the accrual day one day after it. A submission scores the chain it carried through, not Golden's particular pair; each date is bound to its predicate by adjacency without stepping over another date, and hits in two different chains score zero"
+      },
+      {
+        "id": "R7",
+        "operation": "provisional cut-off replay: the set of cut-off days named beside a provisional label, restricted to days on or after the earliest defensible expiry day 2024-11-02 so that the plaintiff's pre-judgment cut-off recited in the first-instance judgment cannot be transcribed into a hit; exactly one surviving day scores"
+      },
+      {
+        "id": "R8",
+        "operation": "delay-interest base fidelity: the base stated in the additional-payment item is compared with the money obligations the title imposed (construction payment + deposit + this obligor's apportioned costs); a base that drops one of them is an affirmative wrong sum, not an omission"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "task_matching": {
+    "section_headings": {
+      "申请执行事项": [
+        "申请执行事项",
+        "请求事项",
+        "申请执行请求事项",
+        "执行请求事项",
+        "申请事项",
+        "请求依法执行事项",
+        "执行请求",
+        "申请执行请求"
+      ],
+      "事实与理由": [
+        "事实与理由",
+        "事实和理由",
+        "申请理由",
+        "事实及理由"
+      ],
+      "此致": [
+        "此致"
+      ]
+    },
+    "generic_exclusions": [
+      "(周某某|异议人|B公司|D公司|C公司|被申请人|法院|判决书?|裁定)[^，。；]{0,6}(主张|认为|称|辩称|提出|认定|裁定|指出)",
+      "可能|或许|也许|候选|备选|可考虑|或可|可以考虑|方案[一二三ABC]|假设"
+    ],
+    "paragraph_lead_exclusions": [
+      "^(候选|可考虑|可能的|或许|也许|对方主张|异议人认为|异议人称|B公司辩称|C公司主张|D公司主张|法院认定|裁定认定|裁定认为|法院认为|法院指出|被申请人辩称|假设)"
+    ],
+    "heading_suffix_tolerance": 8,
+    "heading_suffix_tolerance_basis": "一个章节标题可以在已登记别名之后再带最多 8 个字（如「请求事项与事实理由」之于「请求事项」）。容差为 1 等于要求标题逐字等于别名：把两个标题合写的答卷会整段丢掉计分区——全部绑定该章节的项报 parse_failure，同时 __head__ 的篇幅合同把整篇文书吞进去、D06 因此误触发。8 字容差仍然远短于任何正文段落，一个以「申请执行事项」开头的长正文段不会被当成标题。"
+  },
+  "golden_deliverable": "执行申请书.docx",
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充：…】",
+      "[placeholder]",
+      "待补充",
+      "待确认",
+      "待核实",
+      "（待确认）",
+      "占位符",
+      "【__】 / ____ empty blanks",
+      "〔…〕/［…］ bracketed spans naming what is missing"
+    ],
+    "normalization_rule_id": "gap_marker_fold_v1",
+    "fabrication_deduction_ids": [
+      "D04"
+    ]
+  },
+  "requirement_trace": {
+    "instruction_sha256": "7dd4e8ce2af2a1cfcd625d80681e38c07e23d6f3a7da1dbd28fd3ef2a0b8b635",
+    "requirements": [
+      {
+        "quote": "The materials folder contains the first and second instance judgments in a construction contract dispute, and the second instance judgment was served electronically on 24 October 2024",
+        "item_ids": [
+          "P07"
+        ],
+        "note": "两审判决是执行依据、必须各带作出机关/日期/案号（P05）；instruction 给出的电子送达日是时间链唯一起点，写出送达并断言履行期已过（P06），并据以推出届满日与迟延起算日（P07）。"
+      },
+      {
+        "quote": "Act for `A公司` and prepare its application for enforcement of the effective judgment",
+        "item_ids": [
+          "D01",
+          "D02",
+          "D03",
+          "D05",
+          "D07",
+          "D09",
+          "D10",
+          "P03",
+          "P09",
+          "P10",
+          "P13",
+          "P14",
+          "P15"
+        ],
+        "note": "代理 A公司 即申请人身份栏；被申请人栏与其射程（P03/P14、D01）；`its application for enforcement of the effective judgment` 把请求锁在生效判决主文之内，构成申请执行事项各项（P09/P10/P13）与其错误侧（D02/D03/D07），以及受理机关（D05）。"
+      },
+      {
+        "quote": "Where the document needs a specific fact that the materials do not establish, leave a clearly marked placeholder instead of supplying one",
+        "item_ids": [
+          "D04",
+          "D08"
+        ],
+        "note": "题面直接要求：材料不能确立的具体事实只能留可识别的缺口标记，编造即触发 D04；标记本身按 gap_marker_contract 既不得分也不扣分。"
+      },
+      {
+        "quote": "Deliver the application as a Chinese Word document at `artifacts/执行申请书.docx`",
+        "reason": "交付载体与路径不绑定任何单独的 P/D：它通过 golden_deliverable 的载体解析边界影响奖励——载体缺失或不可解析时 extract_raw 返回 parse_failure，全部 P 项 fraction 归零，因此它是全局前置条件而不是某一项的判据。"
+      }
+    ],
+    "stated_facts": [
+      {
+        "id": "SF01",
+        "quote": "the first and second instance judgments in a construction contract dispute",
+        "check": {
+          "kind": "count",
+          "glob": "materials/*.pdf.md",
+          "expected": 2
+        },
+        "note": "题面说 materials 里是一审与二审两份判决书；机械计数 materials 下的判决书转写件恰为 2 份。"
+      },
+      {
+        "id": "SF02",
+        "quote": "the second instance judgment was served electronically on 24 October 2024",
+        "check": {
+          "kind": "count",
+          "path": "materials/2.二审判决书.pdf.md",
+          "pattern": "送达",
+          "expected": 0
+        },
+        "note": "relation-matrix U003 记录两份判决书全文均无“送达”字样，送达日只能由 instruction 给出。此处机械复验该缺口仍然成立——一旦材料里出现送达记载，P06/P07 的可评分前提就变了。"
+      },
+      {
+        "id": "SF03",
+        "quote": "Act for `A公司`",
+        "check": {
+          "kind": "contains",
+          "path": "materials/1.一审判决书.pdf.md",
+          "text": "A公司"
+        },
+        "note": "本方当事人在材料中可见（一审判决书原告栏），不是题面凭空指定的新主体。"
+      }
+    ],
+    "unchecked_tokens": [
+      {
+        "token": "artifacts/执行申请书.docx",
+        "reason": "交付物路径，是产物位置不是输入事实；工作区铺设时该目录为空，无法也不应作为 stated fact 复验。"
+      }
+    ]
+  },
+  "unscored_golden_units": [
+    {
+      "unit_id": "U001a",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "申请人：A公司，统一社会信用代码：91XXXXXXXXXXXXXXXA"
+    },
+    {
+      "unit_id": "U001b",
+      "disposition": "not_scored",
+      "reason": "scored (inferable: take the later, second-instance record)",
+      "golden_proposition": "法定代表人：赵某甲，执行董事兼总经理"
+    },
+    {
+      "unit_id": "U002b",
+      "disposition": "not_scored",
+      "reason": "scored (partial credit built into the match: '兼总经理' suffix not required, no basis in either judgment)",
+      "golden_proposition": "法定代表人：黄某，执行董事兼总经理"
+    },
+    {
+      "unit_id": "U003a",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "某市人民法院2024年5月28日作出（2024）某民初71号民事判决；某市中级人民法院2024年10月23日作出（2024）某民终2997号民事判决"
+    },
+    {
+      "unit_id": "U003b",
+      "disposition": "not_scored",
+      "reason": "scored: instruction.md supplies the service date directly, resolving the opacity relation-matrix.md flagged",
+      "golden_proposition": "于2024年10月24日电子送达。现生效判决确定的十日履行期已过"
+    },
+    {
+      "unit_id": "U005",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "被申请人立即支付申请人工程款8061635.72元"
+    },
+    {
+      "unit_id": "U008-公式",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "以40000元为基数，自2022年4月1日起至实际付清之日止，按照同期贷款市场报价利率计算"
+    },
+    {
+      "unit_id": "U009",
+      "disposition": "not_scored",
+      "reason": "scored",
+      "golden_proposition": "被申请人向申请人支付一审案件受理费及保全费77394元、鉴定费283500元"
+    }
+  ],
+  "deliverable": {
+    "public_carrier": "artifacts/执行申请书.docx",
+    "golden_carrier": "golden/执行申请书.docx"
+  },
+  "source_field_policy": {
+    "complete_fields": [],
+    "redacted_fields": [
+      "registration_identifier",
+      "registered_address",
+      "representative"
+    ],
+    "filing_date": "applicant-selected; blank/placeholder allowed",
+    "provisional_cutoff": "assess actionability of amount/formula, not hidden Class A assumption"
+  }
+}

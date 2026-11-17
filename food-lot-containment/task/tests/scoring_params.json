@@ -1,0 +1,47 @@
+{
+  "schema_version": "bench-local-chain-scoring-v1",
+  "version": "food-lot-containment-local-chains-v6",
+  "strict": {
+    "formula": "strict = weighted sum of source-grounded local chains",
+    "chains": {
+      "identification_relationship": {
+        "operator": "min",
+        "weight": 0.46,
+        "source_ids": ["scopes", "channels"]
+      },
+      "amendment_integrity": {
+        "operator": "min",
+        "weight": 0.07,
+        "source_ids": ["changes", "amendment_communication"]
+      },
+      "bounded_distribution": {
+        "operator": "product",
+        "weight": 0.34,
+        "source_ids": ["distribution_scope", "execution_limits"]
+      },
+      "recipient_action": {
+        "operator": "identity",
+        "weight": 0.13,
+        "source_ids": ["recipient_action"]
+      }
+    },
+    "fatal_errors": {
+      "unusable_notice": {
+        "operator": "all_zero",
+        "source_ids": ["recipient_action", "amendment_communication", "distribution_scope", "execution_limits"],
+        "score": 0.0
+      }
+    }
+  },
+  "lenient": {
+    "formula": "conjunction of individually measured binary must-haves",
+    "must_have": {
+      "complete_identification_scope": {"source_id": "scopes"},
+      "complete_pack_change_register": {"source_id": "changes"},
+      "complete_distribution_relationships": {"source_id": "channels"},
+      "actionable_recipient_notice": {"source_id": "recipient_action"},
+      "bounded_distribution_claims": {"source_id": "distribution_scope"},
+      "historical_scope_limits": {"source_id": "execution_limits"}
+    }
+  }
+}

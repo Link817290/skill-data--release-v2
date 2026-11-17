@@ -1,0 +1,229 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "food-lot-containment",
+  "tasks": [
+    "food-lot-containment"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 54,
+  "bytes_excluding_manifest": 691384,
+  "scope": "current task, Golden, production scorer, actor skills, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 870,
+      "sha256": "51b9d68ee4e386154ca8a18301679f6ca94e3fe2551711c75b8ca20e5eb1a284"
+    },
+    "RUBRIC.md": {
+      "bytes": 4453,
+      "sha256": "39e871af9adee99fe8c96e67c1c3cb5b53d4c0778e94a7da95843dd451a89fab"
+    },
+    "dataset.toml": {
+      "bytes": 107,
+      "sha256": "7bb248902766379ccafd4de74eba5e0fd42722f3065f5e6f9ab7fdfbd7a6ebc9"
+    },
+    "golden/distribution-list.csv": {
+      "bytes": 1268,
+      "sha256": "8675ca79d0d6826e1c85ee761c51da30679a944dec026db66ff6e8ef96f05f60"
+    },
+    "golden/pack-changes.csv": {
+      "bytes": 324,
+      "sha256": "59b3273155367ff0a8ec4f516d071b8c8f35a43602c6e753d8420f481fe357c9"
+    },
+    "golden/preparation/README.md": {
+      "bytes": 735,
+      "sha256": "333e989fd33a302299440e334dbf5733fd71246d677279901fc5b36c60ff3d4d"
+    },
+    "golden/preparation/build_registers.py": {
+      "bytes": 5699,
+      "sha256": "40b52be495db9ce646bbeb8d428af149c0df67eb3faa3f3e488408a131246590"
+    },
+    "golden/preparation/presentation.py": {
+      "bytes": 7747,
+      "sha256": "fde3bef8efebd79685cc48adc1a1dbcf65fc7c440013cc922d1748444ad58089"
+    },
+    "golden/preparation/requirements.txt": {
+      "bytes": 37,
+      "sha256": "d3ebc3cb3e6c15c870148f3badea997c975e98402c650459d6d28a3b35d149b3"
+    },
+    "golden/product-scope.csv": {
+      "bytes": 9695,
+      "sha256": "f92d8124b6c1bbf9a6de4d7f2d52bf9e6623e15c7d3d5878af845b5dc4b92315"
+    },
+    "golden/trade-recall-notice.docx": {
+      "bytes": 39566,
+      "sha256": "ea9320ea11cf6aaa1f0d18abb933a6c19ab39e4eacd9639bc5b2c810761ac6ea"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 276,
+      "sha256": "818955e607b05962d52a4a21ffe7060f278eefd78ada6d9f425ba9d7ad98b39a"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 202,
+      "sha256": "6233d6bcd325c365de671837446cb6a92d37ead5a2983f91a5d829e4c457ca06"
+    },
+    "task/environment/skills/qualify-operational-claims/SKILL.md": {
+      "bytes": 1968,
+      "sha256": "c304eba84568b15ac44d456d6f7f683455486f1c0b83b7d91bda697be1e827ae"
+    },
+    "task/environment/skills/qualify-operational-claims/references/action-closure.md": {
+      "bytes": 1660,
+      "sha256": "060ac2319df4825fcc66d05374b9296bde67a3c897a68476a01dce0eb95e8b07"
+    },
+    "task/environment/skills/qualify-operational-claims/references/claim-boundaries.md": {
+      "bytes": 1102,
+      "sha256": "f4d849c7e9e79e21a3ddf289447843aecac488a9fb3fe01a54b8c58f1d007686"
+    },
+    "task/environment/skills/qualify-operational-claims/references/register-integrity.md": {
+      "bytes": 1094,
+      "sha256": "a056875aa19dc7ddc33b51c1b2840dbc9aa190d9cfcd1eb67bb75f7d927c4622"
+    },
+    "task/environment/skills/qualify-operational-claims/scripts/count_relations.py": {
+      "bytes": 1183,
+      "sha256": "ac452ac352778b412dc3638d7988030c2ae8fd271a93207ef815dc9b35c5d1dd"
+    },
+    "task/environment/skills/reconcile-product-notices/SKILL.md": {
+      "bytes": 1737,
+      "sha256": "c135cba83c4029cff0221c17a9baccf66f235f2376ff3c63c9a174cf89644cd6"
+    },
+    "task/environment/skills/reconcile-product-notices/references/identity-and-grain.md": {
+      "bytes": 1972,
+      "sha256": "5816a03bd55d97c1af5ec9e430fc5bd605081529d8a4bbb67e1165c3c764d5cf"
+    },
+    "task/environment/skills/reconcile-product-notices/references/notice-changes.md": {
+      "bytes": 1332,
+      "sha256": "216c115eb1eb5a0f652deca9fca25f3eeb3ff455e93e6b8304f5152c8bc33040"
+    },
+    "task/environment/skills/reconcile-product-notices/references/three-state-matching.md": {
+      "bytes": 1173,
+      "sha256": "610fdba86fa51af43150d66f60851c937bbe5c772e64383009c3e0939ac9ba99"
+    },
+    "task/environment/skills/reconcile-product-notices/scripts/match_scope.py": {
+      "bytes": 1930,
+      "sha256": "0b13675df85c8b15b4b13b7f80a605ad88754ff85d17764396ffdfc037ed8a1e"
+    },
+    "task/environment/workspace/input/register-fields.csv": {
+      "bytes": 2592,
+      "sha256": "d3d5a88a3c681739b986527161dcc75d1e7f53a6a426065991a2c866a3b90eb7"
+    },
+    "task/environment/workspace/input/supplier-notices/4Earth-vegetables-26-Nov-2024.pdf": {
+      "bytes": 63938,
+      "sha256": "cd33eabbc493470e21f46d9f0ef033441d39c9cba921b7a2f45e40c76e3d9167"
+    },
+    "task/environment/workspace/input/supplier-notices/FS-prepared-products-20-Nov-2024.pdf": {
+      "bytes": 59255,
+      "sha256": "3c379bbf914de004276c705f7a26fdcb697691211ad1e6bb4191b6adfd1d7868"
+    },
+    "task/environment/workspace/input/supplier-notices/Grimmway-additional-packs-21-Nov-2024.pdf": {
+      "bytes": 58751,
+      "sha256": "fe7ebe704d9356503c695d433bd66455d806de38b04d9af9877b82b1054e3c4c"
+    },
+    "task/environment/workspace/input/supplier-notices/Grimmway-carrots-16-Nov-2024.pdf": {
+      "bytes": 67776,
+      "sha256": "a4bdb2f217fc531006a3ed4a34b90d20c6528cfd85e0a5903517909211838fcf"
+    },
+    "task/instruction.md": {
+      "bytes": 1377,
+      "sha256": "911d4a96268afaaf70b214e713a87d43ab70075b9cc480cb7a6b92f6979c15f5"
+    },
+    "task/rubric.json": {
+      "bytes": 5993,
+      "sha256": "ccf0180ccb31adf1e85ca2f8343ade8deb92a65832e19fc3305ac8c281a1887f"
+    },
+    "task/solution/solve.py": {
+      "bytes": 461,
+      "sha256": "f594b456cbb6cf92f54c132151d3637179a398be88abb47694c3cadf9219e521"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 119,
+      "sha256": "5e97f8d99d40f3e26abedb115d0d031ab5c11d87032d0d3ae568d91468daed8c"
+    },
+    "task/task.toml": {
+      "bytes": 1210,
+      "sha256": "551be035bc0b42f15178e8e3c3996f89042770d4c518e953a0408a6cb03732d1"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1166,
+      "sha256": "95e726f345ab7e163b341c932779c5a8ae3692191e0a8409c8b2e1207e66a4a8"
+    },
+    "task/tests/README.md": {
+      "bytes": 851,
+      "sha256": "440d7d24c409273544cc3c7d8d88188fead71a04e673cb44ab98fa469153da09"
+    },
+    "task/tests/criteria.json": {
+      "bytes": 2119,
+      "sha256": "a527c9e7d9d93982dd0ae6bfd4e3bfdd856cec6036b7b6e9ffe0f53af7a32f77"
+    },
+    "task/tests/evaluate.py": {
+      "bytes": 14183,
+      "sha256": "9919ec9ca066e2b851bcfa075f5c62a96a3e8f074e020e79be3a09d650468312"
+    },
+    "task/tests/mix_judge/cache/981d9ef1679d404f7d930f22d1ba109ca7a5a231ab5147f4fa646efc6e997d4a/evidence.json": {
+      "bytes": 64167,
+      "sha256": "d81940713aa3473be0cff437da350918cf88f96502d039e98a738b9c0afbb166"
+    },
+    "task/tests/mix_judge/cache/981d9ef1679d404f7d930f22d1ba109ca7a5a231ab5147f4fa646efc6e997d4a/manifest.json": {
+      "bytes": 1951,
+      "sha256": "b0fbab4575ec1ec7642e3a5ff36a8c3ccebf02e5360fc508a061efdd8b43559d"
+    },
+    "task/tests/mix_judge/cache/981d9ef1679d404f7d930f22d1ba109ca7a5a231ab5147f4fa646efc6e997d4a/request.json": {
+      "bytes": 92706,
+      "sha256": "be9906eba7b01b70824c4b5efb952b1a83833e89bdf562be76f87f06543682ee"
+    },
+    "task/tests/mix_judge/cache/981d9ef1679d404f7d930f22d1ba109ca7a5a231ab5147f4fa646efc6e997d4a/response.json": {
+      "bytes": 68987,
+      "sha256": "dd3d8172438aaef4ce3715bf82cf0b7f95f56e78316080703e1d6f4b3f2e7497"
+    },
+    "task/tests/mix_judge/cache/981d9ef1679d404f7d930f22d1ba109ca7a5a231ab5147f4fa646efc6e997d4a/review.json": {
+      "bytes": 19057,
+      "sha256": "5bd140aa26294c8464173e8de467945cf9461e97d419be8fad76eb04de06ebb6"
+    },
+    "task/tests/mix_judge/contract.json": {
+      "bytes": 2513,
+      "sha256": "39207bac4bb2c5edde8098a74b51a47c3dcfdc98ef41658f15a21efefa1c0b37"
+    },
+    "task/tests/mix_judge/judge.py": {
+      "bytes": 13931,
+      "sha256": "57a9ef243bb1a2d2a488362465f3ed0d62a8e0e297b78a4b7bdb7ef00458d6d8"
+    },
+    "task/tests/mix_judge/manifest.json": {
+      "bytes": 20234,
+      "sha256": "baadd36a055663060a2aebda44c00c65c62003ba261fc8d8d6137bc5e5d3c088"
+    },
+    "task/tests/mix_judge/prompt.md": {
+      "bytes": 3151,
+      "sha256": "a641f233aa2699c441da5c94e30ab0336467b21dc6a9c44cf337286987080191"
+    },
+    "task/tests/mix_judge/response.schema.json": {
+      "bytes": 566,
+      "sha256": "dd528fe8237693be133f4522b47dd358d9b7ddb01440555da44509d42ea729d8"
+    },
+    "task/tests/mix_judge/settings.json": {
+      "bytes": 135,
+      "sha256": "8e83d60b0c0c17857d8df35dbfbc6ca2f95e80f930d4c74fe16d2433517b471a"
+    },
+    "task/tests/reference/expected.json": {
+      "bytes": 21579,
+      "sha256": "1f0c7750e80acc9096bfaebafea3f53dbb1a4468235127d82769a7fde173a588"
+    },
+    "task/tests/reference/facts.json": {
+      "bytes": 3409,
+      "sha256": "04d07dfb2188a48e112d91d9b6ad1aec72e36058fe093bd512ab46e074746bfd"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 1575,
+      "sha256": "afceae5511229795e7b594a952d51f3c16ebea25deb36ed9bfc113399c420cd2"
+    },
+    "task/tests/test.sh": {
+      "bytes": 697,
+      "sha256": "7e5c745ca6a10fc0c695ae09a8ed37637b5527f32e07e70a9ee6f84304cce8c8"
+    },
+    "task/tests/verify.py": {
+      "bytes": 9309,
+      "sha256": "da6ac0cd0d874b4b5414479b4c2d792d2fb2f9ea62111df57b9560718e0aea39"
+    },
+    "task/tests/write_reward.py": {
+      "bytes": 1496,
+      "sha256": "345733a393c5a438a8e19c8a4de74e1f9abd1f50144b71170c357cb380e50d1a"
+    }
+  }
+}

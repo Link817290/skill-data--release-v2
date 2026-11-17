@@ -1,0 +1,322 @@
+{
+  "candidate_unit_audit": {
+    "C-P0": {
+      "affected_criteria": [
+        "recipient_action"
+      ],
+      "verdict": "supports"
+    },
+    "C-P1": {
+      "affected_criteria": [
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-P10": {
+      "affected_criteria": [],
+      "verdict": "neutral"
+    },
+    "C-P12": {
+      "affected_criteria": [
+        "distribution_scope"
+      ],
+      "verdict": "supports"
+    },
+    "C-P13": {
+      "affected_criteria": [
+        "recipient_action"
+      ],
+      "verdict": "supports"
+    },
+    "C-P15": {
+      "affected_criteria": [
+        "recipient_action",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-P16": {
+      "affected_criteria": [
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-P2": {
+      "affected_criteria": [
+        "recipient_action"
+      ],
+      "verdict": "supports"
+    },
+    "C-P3": {
+      "affected_criteria": [
+        "recipient_action",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-P5": {
+      "affected_criteria": [
+        "distribution_scope",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-P6": {
+      "affected_criteria": [
+        "amendment_communication"
+      ],
+      "verdict": "supports"
+    },
+    "C-P7": {
+      "affected_criteria": [
+        "amendment_communication"
+      ],
+      "verdict": "supports"
+    },
+    "C-P8": {
+      "affected_criteria": [
+        "amendment_communication",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-PREP-1": {
+      "affected_criteria": [
+        "distribution_scope",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-PREP-2": {
+      "affected_criteria": [
+        "amendment_communication",
+        "distribution_scope",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-PREP-3": {
+      "affected_criteria": [
+        "recipient_action",
+        "amendment_communication",
+        "distribution_scope",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-PREP-4": {
+      "affected_criteria": [],
+      "verdict": "neutral"
+    },
+    "C-T0-R0": {
+      "affected_criteria": [],
+      "verdict": "neutral"
+    },
+    "C-T0-R1": {
+      "affected_criteria": [
+        "amendment_communication",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-T0-R2": {
+      "affected_criteria": [
+        "amendment_communication",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-T0-R3": {
+      "affected_criteria": [
+        "amendment_communication",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-T0-R4": {
+      "affected_criteria": [
+        "amendment_communication",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-T1-R0": {
+      "affected_criteria": [],
+      "verdict": "neutral"
+    },
+    "C-T1-R1": {
+      "affected_criteria": [
+        "distribution_scope"
+      ],
+      "verdict": "supports"
+    },
+    "C-T1-R2": {
+      "affected_criteria": [
+        "distribution_scope"
+      ],
+      "verdict": "supports"
+    },
+    "C-T1-R3": {
+      "affected_criteria": [
+        "distribution_scope"
+      ],
+      "verdict": "supports"
+    },
+    "C-T2-R0": {
+      "affected_criteria": [],
+      "verdict": "neutral"
+    },
+    "C-T2-R1": {
+      "affected_criteria": [
+        "recipient_action",
+        "distribution_scope",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-T2-R2": {
+      "affected_criteria": [
+        "recipient_action",
+        "distribution_scope",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    },
+    "C-T2-R3": {
+      "affected_criteria": [
+        "recipient_action",
+        "execution_limits"
+      ],
+      "verdict": "supports"
+    }
+  },
+  "criteria": [
+    {
+      "id": "recipient_action",
+      "score": 1,
+      "reason": "The trade notice directs identification, isolation, stop sale/use, disposition, sanitation, onward notification, acknowledgement, findings, and close-out evidence without claiming completion.",
+      "evidence": [
+        {
+          "id": "C-P3",
+          "quote": "Please use the attached register to check for affected stock. Stop sale and use of matching products, isolate them, and carry out the disposal or destruction requested in the notices. Clean and sanitize surfaces and containers that contacted the products. Hold unidentified or partly labelled stock separately while Purchasing obtains photographs, purchase records and supplier confirmation.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-P13",
+          "quote": "If you supplied affected products onward, promptly pass the identification and action instructions to those customers, using your delivery records. Ask them to confirm receipt and report their findings. Return your response to the contact that sent you this notice, including an explicit nil holding where checked; do not wait for a positive stock finding before acknowledging receipt.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S6--P1-B23",
+          "quote": "Customers holding affected products were asked to stop eating them, discard or destroy them, and clean and\nsanitize surfaces and containers that had contacted them. Products were expected to be off retail shelves at the\ntime of the notice, but could remain in home refrigerators or freezers.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F-verified",
+          "quote": "{\n  \"cutoff\": \"2024-12-02\",\n  \"notice_scope\": [\n    \"N01\",\n    \"N02\",\n    \"N03\",\n    \"N04\"\n  ],\n  \"expected_counts\": {\n    \"whole_brands\": 15,\n    \"whole_brand_packages\": 43,\n    \"added_packages\": 4,\n    \"baby_brands\": 18,\n    \"baby_brand_packages\": 37,\n    \"fs_products\": 2,\n    \"earth_channel_rows\": 9,\n    \"earth_unique_products\": 8,\n    \"earth_channels\": 6,\n    \"earth_states\": 7,\n    \"fs_states\": 5,\n    \"identification_rules\": 90\n  },\n  \"key_meaning\": [\n    \"N02 adds four whole-carrot variants to N01; it does not replace the original whole list or remove baby carrots.\",\n    \"Four additions: Bunny Luv 50 lb; Cal-Organic 15 lb and 50 lb; Good & Gather 1 lb. All original dates unchanged.\",\n    \"Whole carrots use a retail sales window 2024-08-14 through 2024-10-23, not a best-before date. Baby-carrot dates are brand-specific.\",\n    \"F&S products have both GH236-GH284 and Best if sold by 2024-09-01 through 2024-10-19; downstream windows are not intersected with the upstream sales window.\",\n    \"4Earth uses Best by 2024-09-07 through 2024-11-02; includes organic and conventional medleys. Walmart corresponds to four Marketside products.\",\n    \"Wild Harvest UPC 711535517733 is one product linked to Albert's Organics and UNFI; nine source product-channel rows yield eight unique 4Earth products.\",\n    \"Dates of company notices differ from dates of publication: N02 Nov21/Nov22; N03 Nov20/Nov21; N04 Nov26/Dec02.\",\n    \"Package notation 2pk/2lbs is retained without assuming total weight or inner-unit weight.\",\n    \"Unknown UPC, actual inventory, shipments, processing lots, quantities and completed disposition are not zero and must not be invented.\",\n    \"Announced shelf absence, expiry and no reported illness do not establish stock clearance or safety.\",\n    \"Do not infer every product-state transaction from an overall state list. Scope is the four supplied notices at the historical cutoff, not all recalls or current market status.\",\n    \"Recommended actions: stop selling/using matched products, isolate and apply the notice disposition, clean contact surfaces, get identification/transaction/count evidence, and obtain closure records. No action completion is established by the notices.\",\n    \"The recall concerns potential Shiga toxin-producing E. coli O121:H19 contamination; do not assert every product tested positive.\",\n    \"Original Grimmway distribution is nationwide US, Puerto Rico and Canada. Downstream state lists do not limit that original scope.\",\n    \"N02 states retailers had received all correct bag-size details at initiation on November16; November21 is the company announcement date, not established first retailer notification.\",\n    \"An actionable trade pack directs onward notification of actual affected customer deliveries and obtains acknowledgements/quantity evidence. Product identities reconcile to the scope list; physical quantities reconcile to transaction and disposition records.\"\n  ],\n  \"accepted_equivalents\": [\n    \"Different wording and report order\",\n    \"State names or official abbreviations\",\n    \"Source-supported alternative sequencing of operational follow-up\",\n    \"No invented numerical quantity is required for unknown holdings\"\n  ],\n  \"numeric_verification\": \"Exact source facts independently reconstructed from the original notices; table grain preserved.\",\n  \"visual_score\": false\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "contradiction_units": []
+    },
+    {
+      "id": "amendment_communication",
+      "score": 1,
+      "reason": "The notice presents N02 as four supplemental packs, preserves the earlier scope and dates, distinguishes sale and package-date bases, and does not misstate the first retailer-notification date.",
+      "evidence": [
+        {
+          "id": "C-P6",
+          "quote": "N02 adds four packs to N01: Bunny Luv 50 lb; Cal-Organic 15 lb and 50 lb; and Good & Gather 1 lb. The other N01 products remain in scope. The 2pk/2lbs description has not been interpreted as two separate 2 lb bags. Downstream date windows are kept separately from the upstream retail sale period.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-P7",
+          "quote": "N02 records additions to the public notice, not the first date on which those retailers were notified: its account says retailers received all correct pack-size details on November 16. Do not treat November 21 as permission to release earlier matching stock.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S5--P1-B5",
+          "quote": "This notice expands the whole-carrot packs covered by the November 16 recall. The table lists the pack\ncombinations for the brands concerned. The original retail sale period, August 14 through October 23, 2024, and\nthe other recalled products remain applicable. These packs have no Best-if-Used-by date.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S5--P1-B10",
+          "quote": "The company reported that retailers receiving affected products had been notified of all correct pack sizes when the\nrecall began on November 16. This notice updates the published pack list; it does not establish the first date of\nretailer notification.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "contradiction_units": []
+    },
+    {
+      "id": "distribution_scope",
+      "score": 1,
+      "reason": "It distinguishes products from customer relationships, treats state lists as overall distribution requiring transaction evidence, and preserves the broader original Grimmway geography.",
+      "evidence": [
+        {
+          "id": "C-P12",
+          "quote": "The two downstream notices give 11 product/channel relationships. A state list describes overall distribution; individual product deliveries require transaction evidence. Wild Harvest is one product with two channel relationships, rather than two distinct products.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-T1-R3",
+          "quote": "Grimmway | N01 describes distribution nationwide in the United States, Puerto Rico and Canada, including supply links to F&S and 4Earth. | The downstream state lists do not restrict the original carrot recall. Check actual customer deliveries; obtain lot and processing records.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S3--P1-B17",
+          "quote": "File contents: notices and the product/customer lists above. Inventory balances, production lots, receiving and\ndispatch transactions, disposition quantities and customer acknowledgements were not attached. Reference\nnumbers are file identifiers, not production lot numbers.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S6--P1-B5",
+          "quote": "Grimmway Farms recalled the organic whole carrots and peeled baby carrots listed below because they may be\ncontaminated with Shiga toxin-producing E. coli O121:H19. The products were shipped directly to retail distribution\ncenters nationwide in the United States, Puerto Rico and Canada.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "contradiction_units": []
+    },
+    {
+      "id": "execution_limits",
+      "score": 1,
+      "reason": "The four-notice historical cutoff is explicit, actions remain open, and expiry, expected shelf absence, illness reports, and frozen-stock status are not treated as clearance.",
+      "evidence": [
+        {
+          "id": "C-P8",
+          "quote": "For the notice log, N02 is dated November 21 and was published November 22; N04 is dated November 26 and was published December 2. The review covers N01–N04 at this historical cutoff. Later notices require a separate update.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "C-P15",
+          "quote": "The attached notices do not include those counts or completion records. Actions remain open. Expiry, an expectation that stock is no longer on sale, or an absence of reported illness does not establish clearance; frozen holdings still need checking under the recall identification rules.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "S3--P1-B16",
+          "quote": "4Earth had not received reports of related illness when it issued the notice. The products were more than three\nweeks past their dates, but could remain in home refrigerators or freezers. Customers were asked to stop eating or\nusing them, discard them, and clean and sanitize contact surfaces.",
+          "quote_origin": "runtime_exact_evidence_unit"
+        },
+        {
+          "id": "F-verified",
+          "quote": "{\n  \"cutoff\": \"2024-12-02\",\n  \"notice_scope\": [\n    \"N01\",\n    \"N02\",\n    \"N03\",\n    \"N04\"\n  ],\n  \"expected_counts\": {\n    \"whole_brands\": 15,\n    \"whole_brand_packages\": 43,\n    \"added_packages\": 4,\n    \"baby_brands\": 18,\n    \"baby_brand_packages\": 37,\n    \"fs_products\": 2,\n    \"earth_channel_rows\": 9,\n    \"earth_unique_products\": 8,\n    \"earth_channels\": 6,\n    \"earth_states\": 7,\n    \"fs_states\": 5,\n    \"identification_rules\": 90\n  },\n  \"key_meaning\": [\n    \"N02 adds four whole-carrot variants to N01; it does not replace the original whole list or remove baby carrots.\",\n    \"Four additions: Bunny Luv 50 lb; Cal-Organic 15 lb and 50 lb; Good & Gather 1 lb. All original dates unchanged.\",\n    \"Whole carrots use a retail sales window 2024-08-14 through 2024-10-23, not a best-before date. Baby-carrot dates are brand-specific.\",\n    \"F&S products have both GH236-GH284 and Best if sold by 2024-09-01 through 2024-10-19; downstream windows are not intersected with the upstream sales window.\",\n    \"4Earth uses Best by 2024-09-07 through 2024-11-02; includes organic and conventional medleys. Walmart corresponds to four Marketside products.\",\n    \"Wild Harvest UPC 711535517733 is one product linked to Albert's Organics and UNFI; nine source product-channel rows yield eight unique 4Earth products.\",\n    \"Dates of company notices differ from dates of publication: N02 Nov21/Nov22; N03 Nov20/Nov21; N04 Nov26/Dec02.\",\n    \"Package notation 2pk/2lbs is retained without assuming total weight or inner-unit weight.\",\n    \"Unknown UPC, actual inventory, shipments, processing lots, quantities and completed disposition are not zero and must not be invented.\",\n    \"Announced shelf absence, expiry and no reported illness do not establish stock clearance or safety.\",\n    \"Do not infer every product-state transaction from an overall state list. Scope is the four supplied notices at the historical cutoff, not all recalls or current market status.\",\n    \"Recommended actions: stop selling/using matched products, isolate and apply the notice disposition, clean contact surfaces, get identification/transaction/count evidence, and obtain closure records. No action completion is established by the notices.\",\n    \"The recall concerns potential Shiga toxin-producing E. coli O121:H19 contamination; do not assert every product tested positive.\",\n    \"Original Grimmway distribution is nationwide US, Puerto Rico and Canada. Downstream state lists do not limit that original scope.\",\n    \"N02 states retailers had received all correct bag-size details at initiation on November16; November21 is the company announcement date, not established first retailer notification.\",\n    \"An actionable trade pack directs onward notification of actual affected customer deliveries and obtains acknowledgements/quantity evidence. Product identities reconcile to the scope list; physical quantities reconcile to transaction and disposition records.\"\n  ],\n  \"accepted_equivalents\": [\n    \"Different wording and report order\",\n    \"State names or official abbreviations\",\n    \"Source-supported alternative sequencing of operational follow-up\",\n    \"No invented numerical quantity is required for unknown holdings\"\n  ],\n  \"numeric_verification\": \"Exact source facts independently reconstructed from the original notices; table grain preserved.\",\n  \"visual_score\": false\n}\n",
+          "quote_origin": "runtime_exact_evidence_unit"
+        }
+      ],
+      "contradiction_units": []
+    }
+  ],
+  "notes": [
+    "All supplied candidate units were audited. No affirmative contradictions were found.",
+    "The registers and preparation materials preserve identity-versus-quantity boundaries and provide usable reconstruction steps."
+  ],
+  "reference_conflict": false,
+  "passed": true,
+  "evidence_binding": "model_selected_ids_runtime_exact_full_unit_text_v1",
+  "semantic_score": 1.0,
+  "measurement_status": "completed",
+  "response_id": "resp_089dea291df5b734016aec5fb294b887d0bd74c596375c8343",
+  "model": "gpt-5.6-sol",
+  "seconds": 38.72,
+  "fresh_call": true,
+  "visual_input": false,
+  "rollout_executed": false
+}

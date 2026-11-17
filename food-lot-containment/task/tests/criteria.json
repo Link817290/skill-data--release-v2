@@ -1,0 +1,22 @@
+[
+  {
+    "id": "recipient_action",
+    "weight": 0.3,
+    "criterion": "The trade notice directs holders to identify and isolate matching stock, stop sale/use, follow the supplied disposition and hygiene instructions, and return evidence before closure. It communicates proposed actions rather than falsely claiming they were completed. State the material recall reason as potential contamination and provide the onward customer notification and response steps appropriate to the trade audience. Identity counts are not a stock reconciliation."
+  },
+  {
+    "id": "amendment_communication",
+    "weight": 0.3,
+    "criterion": "Communicates that the additional packs supplement rather than replace the earlier scope; distinguishes retail sale dates from package date marks and downstream windows. Missing identifiers are unresolved, not fabricated. Do not double-penalize a separately scored numeric slip without an independent false interpretation. Do not infer the first operational retailer notification date from the later public amendment date."
+  },
+  {
+    "id": "distribution_scope",
+    "weight": 0.2,
+    "criterion": "The recipient can use the product and distribution attachments without confusing a product with a customer relationship or inferring every product went to every listed state. Upstream/downstream linkage is supported but lot genealogy and actual quantities require transaction records. Preserve the broader original upstream geography separately from the downstream state sets; an identity list cannot substantiate physical quantity reconciliation."
+  },
+  {
+    "id": "execution_limits",
+    "weight": 0.2,
+    "criterion": "Historical four-notice cutoff is clear. Scope-rule counts are not units on hand, production lots or completed returns. Expiry, expected shelf absence and no reported illness do not establish clearance; incomplete labels and frozen stock require follow-up. Accept equivalent source-correct wording and sequencing. Preparation files provide usable steps to rebuild the supplied registers; do not require a particular programming language."
+  }
+]

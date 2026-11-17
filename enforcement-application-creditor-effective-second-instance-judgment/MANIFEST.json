@@ -1,0 +1,203 @@
+{
+  "schema_version": "package-manifest-v1",
+  "package": "enforcement-application-creditor-effective-second-instance-judgment",
+  "root_entries": [
+    "MANIFEST.json",
+    "README.md",
+    "RUBRIC.md",
+    "dataset.toml",
+    "golden",
+    "task"
+  ],
+  "file_count": 36,
+  "total_bytes_excluding_manifest": 696642,
+  "golden_replay": {
+    "policy": "exact request-bound Golden response only; ordinary candidate cache is external",
+    "directory": "task/tests/golden_replay",
+    "files": [
+      "task/tests/golden_replay/e5c18d31096340a882c9ea65d0615b894d21c8611bef1a6b3e7b662d871818dd.json"
+    ]
+  },
+  "items": [
+    {
+      "path": "README.md",
+      "bytes": 2710,
+      "sha256": "9d97e33b887eb4411ffcf43628a37b7abf134fadae11f625e5b4cd6368483ae6"
+    },
+    {
+      "path": "RUBRIC.md",
+      "bytes": 20303,
+      "sha256": "48f54c1aa8aaed786de7afcf176d62983632914adb875d2561f5f44e25152471"
+    },
+    {
+      "path": "dataset.toml",
+      "bytes": 577,
+      "sha256": "df1c9edd57560c4baea75f2141b0c281ab9f6371748e0ca20794a68026120780"
+    },
+    {
+      "path": "golden/执行申请书.docx",
+      "bytes": 23518,
+      "sha256": "adec6aef8f14d86836adbf2fee6b08840e50425fe075b0ea06fe7eb48fc6dbe3"
+    },
+    {
+      "path": "task/environment/Dockerfile",
+      "bytes": 281,
+      "sha256": "285fd58210111c0b3c55c27a030eae0e7044f363d35039c9aa5be1129589da29"
+    },
+    {
+      "path": "task/environment/Dockerfile.verifier",
+      "bytes": 307,
+      "sha256": "69276a822d119ae46ef9f401fb31161a3e36145edb821bb3c4864d1d7943833f"
+    },
+    {
+      "path": "task/environment/skills/enforcement-procedure-filings/SKILL.md",
+      "bytes": 12189,
+      "sha256": "d83bb3312bce9c6bba31e239974645357af0f60468934010c464bcab5f87c259"
+    },
+    {
+      "path": "task/environment/skills/enforcement-procedure-filings/references/enforcement-application.md",
+      "bytes": 9146,
+      "sha256": "7dc11b0e50d6f8bed506a474e0e4dc532025eac15e1028617e866b94ed569845"
+    },
+    {
+      "path": "task/environment/skills/enforcement-procedure-filings/references/enforcement-filing-baseline.md",
+      "bytes": 8510,
+      "sha256": "49ff48ca486d5a5fd49d6b3d8a9c44e2f76d7ce97f762ae76b3497472a54668d"
+    },
+    {
+      "path": "task/environment/skills/enforcement-procedure-filings/references/enforcement-title-and-reach.md",
+      "bytes": 8898,
+      "sha256": "f7cf2c45c7580c85f4f366cd422a35a35c71a1916370461c1bad76688d542759"
+    },
+    {
+      "path": "task/environment/skills/enforcement-procedure-filings/references/objection-action-pleading.md",
+      "bytes": 10501,
+      "sha256": "3e1dfde0e76769c7bee42afc0fe8f2fff3937ac47d45a04c913d27e3abe9686a"
+    },
+    {
+      "path": "task/environment/skills/enforcement-procedure-filings/references/unsupported-specifics-and-placeholders.md",
+      "bytes": 9171,
+      "sha256": "80f1e8295c4c4a2ceafb0652445af4ff31e9197129919553ec4917f3a5e8f9fb"
+    },
+    {
+      "path": "task/environment/workspace/instruction.md",
+      "bytes": 501,
+      "sha256": "7dd4e8ce2af2a1cfcd625d80681e38c07e23d6f3a7da1dbd28fd3ef2a0b8b635"
+    },
+    {
+      "path": "task/environment/workspace/materials/1.一审判决书.pdf.md",
+      "bytes": 51230,
+      "sha256": "ad30a250aa034cc33f19f7dec41843bd3e376434ad39c275a6925c33c8882106"
+    },
+    {
+      "path": "task/environment/workspace/materials/2.二审判决书.pdf.md",
+      "bytes": 33865,
+      "sha256": "dbad6d33e01eb763825d969b0817848fde0c576eeb04138812f42ae5f259adca"
+    },
+    {
+      "path": "task/instruction.md",
+      "bytes": 501,
+      "sha256": "7dd4e8ce2af2a1cfcd625d80681e38c07e23d6f3a7da1dbd28fd3ef2a0b8b635"
+    },
+    {
+      "path": "task/solution/reference/执行申请书.docx",
+      "bytes": 23518,
+      "sha256": "adec6aef8f14d86836adbf2fee6b08840e50425fe075b0ea06fe7eb48fc6dbe3"
+    },
+    {
+      "path": "task/solution/solve.sh",
+      "bytes": 347,
+      "sha256": "ace03628628bc8da1b25d3d9759f19c058c07db313eed8f2a9ae321a17fa863d"
+    },
+    {
+      "path": "task/task.toml",
+      "bytes": 1398,
+      "sha256": "b31616a58bfdfea658ebd54c1b300c4dc078c0db479aade28d96cfe8ae18823a"
+    },
+    {
+      "path": "task/task_no_skill.toml",
+      "bytes": 1386,
+      "sha256": "82de4cf44f0252476b11e9b55382db7ed8059776f503274344b4ebbc7432f840"
+    },
+    {
+      "path": "task/tests/deliverable_gate.json",
+      "bytes": 1993,
+      "sha256": "c3b1c4431884e31ebf9e979cf40aa3a322f49e1b931c4b5a61db18da05c6d166"
+    },
+    {
+      "path": "task/tests/deliverable_gate.py",
+      "bytes": 38109,
+      "sha256": "ecd7a742b077c24b58452597e9827cdc17a68a2aaaca17213b312a4339128028"
+    },
+    {
+      "path": "task/tests/golden_replay/e5c18d31096340a882c9ea65d0615b894d21c8611bef1a6b3e7b662d871818dd.json",
+      "bytes": 2774,
+      "sha256": "d679ccf13645392e075f41d98c3b76e024328e49948c66403ae44916bb6fa307"
+    },
+    {
+      "path": "task/tests/pjroot/instruction.md",
+      "bytes": 501,
+      "sha256": "7dd4e8ce2af2a1cfcd625d80681e38c07e23d6f3a7da1dbd28fd3ef2a0b8b635"
+    },
+    {
+      "path": "task/tests/pjroot/materials/1.一审判决书.pdf.md",
+      "bytes": 51230,
+      "sha256": "ad30a250aa034cc33f19f7dec41843bd3e376434ad39c275a6925c33c8882106"
+    },
+    {
+      "path": "task/tests/pjroot/materials/2.二审判决书.pdf.md",
+      "bytes": 33865,
+      "sha256": "dbad6d33e01eb763825d969b0817848fde0c576eeb04138812f42ae5f259adca"
+    },
+    {
+      "path": "task/tests/pjroot/rubric-contract.json",
+      "bytes": 87714,
+      "sha256": "bb6059d472082d5c7125b15035c67a07557868461b1a1bbcb16c567d20a3ec73"
+    },
+    {
+      "path": "task/tests/pjroot/task/tests/program_judge/conformance/truncated_docx.docx",
+      "bytes": 7444,
+      "sha256": "7248831db7a6fa62089b27387ea7410a009545c9985ef5d9f2d3ffd7d252b8a7"
+    },
+    {
+      "path": "task/tests/pjroot/task/tests/program_judge/judge-conformance-suite.json",
+      "bytes": 2974,
+      "sha256": "cced92f89d77a6f0c079d9a99c44a9c462f4ccd838d7de61e5b7afd4d576982a"
+    },
+    {
+      "path": "task/tests/pjroot/task/tests/program_judge/legal_prose.py",
+      "bytes": 67662,
+      "sha256": "9cf3a16cbc9e00446996d22cf77e92429dd38a7a38b5679f0433fddea3b685b5"
+    },
+    {
+      "path": "task/tests/pjroot/task/tests/program_judge/program_judge_runtime.py",
+      "bytes": 22091,
+      "sha256": "65bcd18447c848d07b8731cb3cee3a601ea4b936013fb2f7cc4c217004c21f0a"
+    },
+    {
+      "path": "task/tests/pjroot/task/tests/program_judge/task_judge.py",
+      "bytes": 60071,
+      "sha256": "0c88e610a8bdc8f573bf96c85462c099fc0772da27ca4283a8ddd708803288f7"
+    },
+    {
+      "path": "task/tests/rubric-contract.json",
+      "bytes": 87714,
+      "sha256": "bb6059d472082d5c7125b15035c67a07557868461b1a1bbcb16c567d20a3ec73"
+    },
+    {
+      "path": "task/tests/semantic_judge.py",
+      "bytes": 6666,
+      "sha256": "1bdc6d1c4aed3955b5f58cf05c6003c6d7e7847a533d8e58eee63538893b1e4f"
+    },
+    {
+      "path": "task/tests/test.sh",
+      "bytes": 2612,
+      "sha256": "19da5df19305fb42ca18e21f97e44f26051d524b336709bbf6f1aac83f585f3f"
+    },
+    {
+      "path": "task/tests/validator.py",
+      "bytes": 4365,
+      "sha256": "2896dffa054c182ef7b51dec466ffbb9ba9df6891516c7ac223583eb29ea8879"
+    }
+  ]
+}

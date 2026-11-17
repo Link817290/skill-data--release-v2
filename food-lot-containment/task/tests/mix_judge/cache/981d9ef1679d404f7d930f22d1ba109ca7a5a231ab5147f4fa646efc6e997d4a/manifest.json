@@ -1,0 +1,23 @@
+{
+  "artifact_hashes": {
+    "candidate_notice": "ea9320ea11cf6aaa1f0d18abb933a6c19ab39e4eacd9639bc5b2c810761ac6ea",
+    "reference_notice": "ea9320ea11cf6aaa1f0d18abb933a6c19ab39e4eacd9639bc5b2c810761ac6ea",
+    "candidate/product-scope.csv": "f92d8124b6c1bbf9a6de4d7f2d52bf9e6623e15c7d3d5878af845b5dc4b92315",
+    "candidate/pack-changes.csv": "59b3273155367ff0a8ec4f516d071b8c8f35a43602c6e753d8420f481fe357c9",
+    "candidate/distribution-list.csv": "8675ca79d0d6826e1c85ee761c51da30679a944dec026db66ff6e8ef96f05f60",
+    "candidate/preparation/README.md": "333e989fd33a302299440e334dbf5733fd71246d677279901fc5b36c60ff3d4d",
+    "candidate/preparation/build_registers.py": "40b52be495db9ce646bbeb8d428af149c0df67eb3faa3f3e488408a131246590",
+    "candidate/preparation/presentation.py": "fde3bef8efebd79685cc48adc1a1dbcf65fc7c440013cc922d1748444ad58089",
+    "candidate/preparation/requirements.txt": "d3ebc3cb3e6c15c870148f3badea997c975e98402c650459d6d28a3b35d149b3",
+    "source/register-fields.csv": "d3d5a88a3c681739b986527161dcc75d1e7f53a6a426065991a2c866a3b90eb7",
+    "source/supplier-notices/4Earth-vegetables-26-Nov-2024.pdf": "cd33eabbc493470e21f46d9f0ef033441d39c9cba921b7a2f45e40c76e3d9167",
+    "source/supplier-notices/FS-prepared-products-20-Nov-2024.pdf": "3c379bbf914de004276c705f7a26fdcb697691211ad1e6bb4191b6adfd1d7868",
+    "source/supplier-notices/Grimmway-additional-packs-21-Nov-2024.pdf": "fe7ebe704d9356503c695d433bd66455d806de38b04d9af9877b82b1054e3c4c",
+    "source/supplier-notices/Grimmway-carrots-16-Nov-2024.pdf": "a4bdb2f217fc531006a3ed4a34b90d20c6528cfd85e0a5903517909211838fcf",
+    "verified_facts/facts.json": "04d07dfb2188a48e112d91d9b6ad1aec72e36058fe093bd512ab46e074746bfd"
+  },
+  "request_sha256": "be9906eba7b01b70824c4b5efb952b1a83833e89bdf562be76f87f06543682ee",
+  "rollout_executed": false,
+  "visual_input": false,
+  "contract_sha256": "39207bac4bb2c5edde8098a74b51a47c3dcfdc98ef41658f15a21efefa1c0b37"
+}

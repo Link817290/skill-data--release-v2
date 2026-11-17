@@ -1,0 +1,80 @@
+{
+  "scoring": {
+    "profile": "bench",
+    "settlement": "local_chains",
+    "formula": "0.46*min(scopes,channels) + 0.07*min(changes,amendment_communication) + 0.34*(distribution_scope*execution_limits) + 0.13*recipient_action",
+    "fatal_error": "all four semantic dimensions equal zero",
+    "parameters": "tests/scoring_params.json"
+  },
+  "numeric_dimensions": [
+    {
+      "id": "scopes",
+      "settlement_role": "identification_relationship_min",
+      "criterion": "Complete effective product/package/date/code rules; amendments add the identified subset, unknown UPC remains blank. A faulty record is counted once within this group. Each cited notice or table-row reference must support the actual record; a bad reference and a bad value lose that record only once."
+    },
+    {
+      "id": "changes",
+      "settlement_role": "amendment_integrity_min",
+      "criterion": "Only newly included package variants with business-action date; repeated packages are not changes. Each cited notice or table-row reference must support the actual record; a bad reference and a bad value lose that record only once."
+    },
+    {
+      "id": "channels",
+      "settlement_role": "identification_relationship_min",
+      "criterion": "Preserve every product-channel relationship and notice-level geographic scope; do not drop merged table cells or deduplicate away a valid recipient. Each cited notice or table-row reference must support the actual record; a bad reference and a bad value lose that record only once."
+    }
+  ],
+  "semantic_dimensions": [
+    {
+      "id": "recipient_action",
+      "settlement_role": "independent_recipient_action",
+      "criterion": "The trade notice directs holders to identify and isolate matching stock, stop sale/use, follow the supplied disposition and hygiene instructions, and return evidence before closure. It communicates proposed actions rather than falsely claiming they were completed. State the material recall reason as potential contamination and provide the onward customer notification and response steps appropriate to the trade audience. Identity counts are not a stock reconciliation."
+    },
+    {
+      "id": "amendment_communication",
+      "settlement_role": "amendment_integrity_min",
+      "criterion": "Communicates that the additional packs supplement rather than replace the earlier scope; distinguishes retail sale dates from package date marks and downstream windows. Missing identifiers are unresolved, not fabricated. Do not double-penalize a separately scored numeric slip without an independent false interpretation. Do not infer the first operational retailer notification date from the later public amendment date."
+    },
+    {
+      "id": "distribution_scope",
+      "settlement_role": "bounded_distribution_product",
+      "criterion": "The recipient can use the product and distribution attachments without confusing a product with a customer relationship or inferring every product went to every listed state. Upstream/downstream linkage is supported but lot genealogy and actual quantities require transaction records. Preserve the broader original upstream geography separately from the downstream state sets; an identity list cannot substantiate physical quantity reconciliation."
+    },
+    {
+      "id": "execution_limits",
+      "settlement_role": "bounded_distribution_product",
+      "criterion": "Historical four-notice cutoff is clear. Scope-rule counts are not units on hand, production lots or completed returns. Expiry, expected shelf absence and no reported illness do not establish clearance; incomplete labels and frozen stock require follow-up. Accept equivalent source-correct wording and sequencing. Preparation files provide usable steps to rebuild the supplied registers; do not require a particular programming language."
+    }
+  ],
+  "equivalent_solutions": "CSV row/column order and narrative wording are irrelevant. Headers are publicly supplied. Official full state names and abbreviations, standard package spacing and ISO/slash date representations are normalized. Accept equivalent source-correct trade communications.",
+  "invalid_claims": "Counts are identification rules, not inventory, production lots or completed recall quantities.",
+  "visual_score": false,
+  "measurement_limits": "Malformed candidate files fail the public contract. Missing author resources, extraction failures and invalid or unavailable semantic responses are unmeasured; numeric-only credit is not a completed mixed evaluation.",
+  "solver_evidence_contract": {
+    "numeric": "Independently derive product/pack sets and customer relations from original notice facts; verify all rows and their supporting references.",
+    "semantic": "Test adopted operational meaning against public evidence, not resemblance to Golden; allow equivalent supported communication steps.",
+    "causal_ownership": "Score a missing hazard or notification action under recipient_action; geography/quantity reconciliation under distribution_scope; avoid charging propagated row errors twice."
+  },
+  "business_failure_conditions": [
+    {
+      "criterion": "recipient_action",
+      "failure": "The trade notice omits the documented hazard or the onward notification and response steps needed to reach recipients."
+    },
+    {
+      "criterion": "distribution_scope",
+      "failure": "Downstream state lists are presented as the full upstream scope, or identification counts are treated as stock balances."
+    },
+    {
+      "criterion": "amendment_communication",
+      "failure": "A public amendment date is asserted to be the first operational notification without supporting evidence."
+    }
+  ],
+  "lenient_policy": {
+    "kind": "binary_must_have_conjunction",
+    "items": [
+      "complete_identification_scope",
+      "actionable_recipient_notice",
+      "bounded_distribution_claims",
+      "historical_scope_limits"
+    ]
+  }
+}

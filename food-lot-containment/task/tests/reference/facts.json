@@ -1,0 +1,49 @@
+{
+  "cutoff": "2024-12-02",
+  "notice_scope": [
+    "N01",
+    "N02",
+    "N03",
+    "N04"
+  ],
+  "expected_counts": {
+    "whole_brands": 15,
+    "whole_brand_packages": 43,
+    "added_packages": 4,
+    "baby_brands": 18,
+    "baby_brand_packages": 37,
+    "fs_products": 2,
+    "earth_channel_rows": 9,
+    "earth_unique_products": 8,
+    "earth_channels": 6,
+    "earth_states": 7,
+    "fs_states": 5,
+    "identification_rules": 90
+  },
+  "key_meaning": [
+    "N02 adds four whole-carrot variants to N01; it does not replace the original whole list or remove baby carrots.",
+    "Four additions: Bunny Luv 50 lb; Cal-Organic 15 lb and 50 lb; Good & Gather 1 lb. All original dates unchanged.",
+    "Whole carrots use a retail sales window 2024-08-14 through 2024-10-23, not a best-before date. Baby-carrot dates are brand-specific.",
+    "F&S products have both GH236-GH284 and Best if sold by 2024-09-01 through 2024-10-19; downstream windows are not intersected with the upstream sales window.",
+    "4Earth uses Best by 2024-09-07 through 2024-11-02; includes organic and conventional medleys. Walmart corresponds to four Marketside products.",
+    "Wild Harvest UPC 711535517733 is one product linked to Albert's Organics and UNFI; nine source product-channel rows yield eight unique 4Earth products.",
+    "Dates of company notices differ from dates of publication: N02 Nov21/Nov22; N03 Nov20/Nov21; N04 Nov26/Dec02.",
+    "Package notation 2pk/2lbs is retained without assuming total weight or inner-unit weight.",
+    "Unknown UPC, actual inventory, shipments, processing lots, quantities and completed disposition are not zero and must not be invented.",
+    "Announced shelf absence, expiry and no reported illness do not establish stock clearance or safety.",
+    "Do not infer every product-state transaction from an overall state list. Scope is the four supplied notices at the historical cutoff, not all recalls or current market status.",
+    "Recommended actions: stop selling/using matched products, isolate and apply the notice disposition, clean contact surfaces, get identification/transaction/count evidence, and obtain closure records. No action completion is established by the notices.",
+    "The recall concerns potential Shiga toxin-producing E. coli O121:H19 contamination; do not assert every product tested positive.",
+    "Original Grimmway distribution is nationwide US, Puerto Rico and Canada. Downstream state lists do not limit that original scope.",
+    "N02 states retailers had received all correct bag-size details at initiation on November16; November21 is the company announcement date, not established first retailer notification.",
+    "An actionable trade pack directs onward notification of actual affected customer deliveries and obtains acknowledgements/quantity evidence. Product identities reconcile to the scope list; physical quantities reconcile to transaction and disposition records."
+  ],
+  "accepted_equivalents": [
+    "Different wording and report order",
+    "State names or official abbreviations",
+    "Source-supported alternative sequencing of operational follow-up",
+    "No invented numerical quantity is required for unknown holdings"
+  ],
+  "numeric_verification": "Exact source facts independently reconstructed from the original notices; table grain preserved.",
+  "visual_score": false
+}

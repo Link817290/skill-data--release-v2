@@ -1,0 +1,313 @@
+{
+  "schema_version": "semantic-judge-manifest-v1",
+  "created_at": "2026-10-20T06:31:59.858650+00:00",
+  "cache_entries": {
+    "b772e90e5a1c9c6cbc64a3a7214c396474688e0de4f44e4bfa9bf14af0e11fba": {
+      "path": "cache/b772e90e5a1c9c6cbc64a3a7214c396474688e0de4f44e4bfa9bf14af0e11fba",
+      "files_sha256": {
+        "request.json": "fb064ef984d44d1c3c68787341451f69dfb4a76de23174010dba01aeb2678d42",
+        "response.json": "4f932576d1ba3b647abb7f60bfcf0045159130191e90328e7abd25c5008a9731",
+        "decision.json": "27110410e1232cfb3c2ea003ed654387598a2b4915a6b2388a3c69e2c8704f98",
+        "validation.json": "3cd2047f0a57b920029279812e4a502ead2e48f20c6f2c46fe54c069ea5fe58b"
+      },
+      "source_case": "golden-food-lot-containment",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "97e15a5052c9dd151a72000b6b5b1a1ddc4fd8d594635a00d3be6c30d91b94c8": {
+      "path": "cache/97e15a5052c9dd151a72000b6b5b1a1ddc4fd8d594635a00d3be6c30d91b94c8",
+      "files_sha256": {
+        "request.json": "9034a5dea6adbd02b17eb3f52aa3b8c27a7e0942e6594a4a661a65cba6577612",
+        "response.json": "5fe867d8deb6fce54cae670815a01d6cc2ab8452bf57811102f37df231ae4b8a",
+        "decision.json": "5a338f361fb6b9fcef51f70c079ec485762f982995dacaa5baff409115ab0f4f",
+        "validation.json": "a1769244125823a6ddfdd6c4ac225c0a56e56a4566126108e86b7995fc7a9b3f"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__nStXebJ",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "33f7fca02c42ce04a709652546fe26fee0354b55c40b2c0d6f580aa4f7d27dc2": {
+      "path": "cache/33f7fca02c42ce04a709652546fe26fee0354b55c40b2c0d6f580aa4f7d27dc2",
+      "files_sha256": {
+        "request.json": "7ad3fb493e3ed6dd1ab6594220ad12244f48b161cf83207e7a22a59a8c1f233d",
+        "response.json": "e0d4e94622f8c7cbff7fa6ae8f9873b1a6f75fea52480d3c641516af98f705e4",
+        "decision.json": "ba7d6dd3140b24b98a8c3551f6c290c4f282f11a4b5a1f84db7bf9d6705a36f1",
+        "validation.json": "1f80a7d60ef43eafe3bab10685cc6804299ae89a2b8f4f24bc06fde26e898882"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__Dykvycg",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "2a5fc0fb1fb26262a61292547a2ff9eed9f743c0f1594e6f30484cc2900b3efd": {
+      "path": "cache/2a5fc0fb1fb26262a61292547a2ff9eed9f743c0f1594e6f30484cc2900b3efd",
+      "files_sha256": {
+        "request.json": "441246e1225cf65bdad81bb53264a7727eb5e4be20568d7481f9a7fe9bc7b910",
+        "response.json": "933e88af32c4591b1fcfb215258e1ebfd65274b99e4f2d6a69720022e5e12713",
+        "decision.json": "d1c7616d2cba4783d01761773ab57d4c54d657e6281ac6ccf1c42c3bc51e3ca5",
+        "validation.json": "0b48accf99e663fa6aa0b249faa54318e7a3bbc82721adc32f880e35bfbff124"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__TNBzWtf",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "c49b928123396a6579433897e184b54d7299e01b6a2aaad38641cefa2fdb2ffd": {
+      "path": "cache/c49b928123396a6579433897e184b54d7299e01b6a2aaad38641cefa2fdb2ffd",
+      "files_sha256": {
+        "request.json": "66c0846484b53aa6e198e102a1eaee28edc24121688e4eb62dfb320d6afd43de",
+        "response.json": "818abac4e90af1f78a7d86f88ca9c8ab07f87f242a94a303bf6f6ec52d8a2cea",
+        "decision.json": "c81d9d9f8fec1ed75cf365e906cb1e571bb36d3126c086f74d36dcde5a14d76f",
+        "validation.json": "78cba4fc338e3ec3133369c3922912819a250ec64beaa53a08bf3868c716af4e"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__hpehPGF",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "ec25971189ac31dd9fbd04e506a3e56cb8ea9557f6a78ffe3ecf2effe08b8ddd": {
+      "path": "cache/ec25971189ac31dd9fbd04e506a3e56cb8ea9557f6a78ffe3ecf2effe08b8ddd",
+      "files_sha256": {
+        "request.json": "db91466dbc97a84b5d051397ce875835061ffdc11fab09b7e9a647598b70d63f",
+        "response.json": "4a2e725a88fe737b3294f47de1f90c1b95c37815cd7b96706c454ee896ea401a",
+        "decision.json": "167e96fb1455973ba5039cc0bde9c1e810b10c1dd893dac9329a04576d2e7a4d",
+        "validation.json": "414efab90d222c23631d2f1bbdf80df0af953af1505f443c85fae291f3647da8"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__wmpJqUU",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "b999730571c3d6ea1db87a90ac41fe2d4a4c7dc99f48c57252fd8cf570f943a7": {
+      "path": "cache/b999730571c3d6ea1db87a90ac41fe2d4a4c7dc99f48c57252fd8cf570f943a7",
+      "files_sha256": {
+        "request.json": "282dd53bb8825d3636607dd508f03a3eefaa0e2ab0267106c4a64569ea0c9041",
+        "response.json": "b7b7b3f5e82cf0bec3866ebca5f68a2ebcfc4e9b685eb6c127524539b7712f70",
+        "decision.json": "2031a283a78943635f85cbfbb19277dba228a40ec81080fe07b05282923c94c1",
+        "validation.json": "c7fd416d01409005a62cd0c9943a039327772f55bf46b6d51452f19002d0f23e"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__asCTRKm",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "a106c1ea038477f68ff10a8e2ee8fb4f33a753c3f4689c05a45c648160ac3db8": {
+      "path": "cache/a106c1ea038477f68ff10a8e2ee8fb4f33a753c3f4689c05a45c648160ac3db8",
+      "files_sha256": {
+        "request.json": "077b9991ce31933b88753387d904d118bcedb299f6c255ab43f17211f58424cd",
+        "response.json": "06afb559947dcb2cf216905b9ec45ba0cbb4d207d3c5edc01df76949dfe8bc17",
+        "decision.json": "b916c6b95bedd7e6c45fc5ad9a83fbee35629cbe48733718b0a917bb673a7503",
+        "validation.json": "16dab7610837d5b721d2b7b1089177c710a4f731f1abb905f08b14d415af8a0f"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__BcetkRm",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "d40bdfe6fdab3459fc8fd72046b8a9cac9f484081b4802ccc0238738dc518a5f": {
+      "path": "cache/d40bdfe6fdab3459fc8fd72046b8a9cac9f484081b4802ccc0238738dc518a5f",
+      "files_sha256": {
+        "request.json": "b0d5a2c21e0329c567de0efb9b4f66fbc25fe141174e4cd5897a9fff434859bd",
+        "response.json": "793e0a510ccf463a6484bdfba98469aab2c26d580fb1d5b2c9033053156d6df3",
+        "decision.json": "cb303ff2eebabbf5998a340738eb117873fc1bff2e23a459c491b75c386302f2",
+        "validation.json": "1f90d1ab11f14a8af6c12e24083c11f5ae49d6ced9acb31cf425c38021528fa2"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__6VkqhkV",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "0f3faa138936f7baed4267ee2f719c044cc1d035408393ee8997bc241c6030a3": {
+      "path": "cache/0f3faa138936f7baed4267ee2f719c044cc1d035408393ee8997bc241c6030a3",
+      "files_sha256": {
+        "request.json": "55b18930325009be19947129b9a9b6e026b692d8af4af874ca86cf03fd8b538c",
+        "response.json": "bf5646216b9abe8bba785d27d4b8e79ee8684f9e216b0b4f06fd5e40a37985bf",
+        "decision.json": "7ffeeafdf2704f52e3356e923e3d8cc391a5c311e26edc31fc2012b267c92f96",
+        "validation.json": "f1c23f2745a1dd36fba3caaf6cb434d382c95617bd77d88383e0c6126fef79d4"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__2f3BHCr",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "7e41430e0bfb556bde1288c69e51b6b70d61b0417c54fc06f79a013dfa7313c5": {
+      "path": "cache/7e41430e0bfb556bde1288c69e51b6b70d61b0417c54fc06f79a013dfa7313c5",
+      "files_sha256": {
+        "request.json": "8bbe1ad672530bf0412a6d571aa81ad6d8cef56ab7dce2331cc06bc9f43302dc",
+        "response.json": "3ce9d833c34d04711dca0dac53aab42275ff6f655bc8edc3c2e35bf343437091",
+        "decision.json": "1ad5db453702cec85d8607d0c96e403c8bfeda256d1d23a56ee6ff99a88bcfb0",
+        "validation.json": "29575fb522cb7312a26c565c0a824e3705ec1469226ae11893004bc4a10ee1f8"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__acyJqXY",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "2f5ed23b7e6aeb76f4a006e08a8f83a19ae00d538ebd0ba83f5bd96f378ceb25": {
+      "path": "cache/2f5ed23b7e6aeb76f4a006e08a8f83a19ae00d538ebd0ba83f5bd96f378ceb25",
+      "files_sha256": {
+        "request.json": "cb36a578dc712260b8081b4f24c51236ffe84739f6baa16735e0fd896190f7e6",
+        "response.json": "c739532faa7f84cf8838a103b67b6d8a39430a25b4bdbc5c3fe70347c8e50ea8",
+        "decision.json": "043e33c80a480d6f8b06cec1c21c0a3171e278736d2853117745fa38dd28b146",
+        "validation.json": "e6633ced92cf198d6a20bcb81c147d0d466cfbf6849970d41314c6c40b19cf57"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__q5FjLQD",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "a109ac8d3514206127587e7211b7694b4826f51a9220aee697db202fa31f16c5": {
+      "path": "cache/a109ac8d3514206127587e7211b7694b4826f51a9220aee697db202fa31f16c5",
+      "files_sha256": {
+        "request.json": "297fc3959e85fbc57333a9935e6abde46bb7d20b67a1a88c35b1e9bcb6cd1871",
+        "response.json": "231ecd2e13b8404e894cf56be5fe95dee90a12b7f8220d9b38809ff56d518c5f",
+        "decision.json": "f5e5cec50090f159596d66e77bbef838a5f0a9107f1141d19fc28b47d48afa54",
+        "validation.json": "3bae209bb9bbb0e2209c5af075d0e85f80698cb28499e1f009563eb6e55e6f2e"
+      },
+      "source_case": "business10_food_lot_containment_hy_no_skill--task__PmFdhVE",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "01f577fe5de386c8b7d4a3fb7b4c14e5c6d36f6e581ecb8d198e8fd17f427e70": {
+      "path": "cache/01f577fe5de386c8b7d4a3fb7b4c14e5c6d36f6e581ecb8d198e8fd17f427e70",
+      "files_sha256": {
+        "request.json": "a029558dd333974810dcb93d7c4bd700145436042f828b09eda6e47b656dbe07",
+        "response.json": "30228694562bfe30a0ebcacb7894598f40a6ec5071f9808cc7230e37e27e69b4",
+        "decision.json": "c7d65a71eec42c5d424a8668b511de3516f7ee1405a62cde6e33cd50683b2bab",
+        "validation.json": "99d4067be357bb448e33c8f7968f9dea943c5c65b8fbc4276bbd3be3b0117987"
+      },
+      "source_case": "business10_food_lot_containment_gpt_with_skill--task__3HYUVVf",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "e5ef3c75b1f83313453236de11f3bd45d1d23f81ee14960ad1731573c4a6d47a": {
+      "path": "cache/e5ef3c75b1f83313453236de11f3bd45d1d23f81ee14960ad1731573c4a6d47a",
+      "files_sha256": {
+        "request.json": "b9867beffcc635f4d8923eb7d5c1143d666be3105628c4bce943bb3030c4dcf0",
+        "response.json": "cacce9815bbd49341a5d93099088c3328481d12104e322aa10cd1a68d700c5be",
+        "decision.json": "e2312508c43b0036af58f66a6bf454a4900f731e5c387f9618f77cc08821f386",
+        "validation.json": "4e40f0ec4aa8d6302b1b9d1f957da21ece065b44389f406f5c122e4dfe0dd27b"
+      },
+      "source_case": "business10_food_lot_containment_gpt_no_skill--task__aQigD6M",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "e4527a4ca5e9578159855886799ab744f71fd4d8d7edee8edb4b036e560f91b5": {
+      "path": "cache/e4527a4ca5e9578159855886799ab744f71fd4d8d7edee8edb4b036e560f91b5",
+      "files_sha256": {
+        "request.json": "8919b3b6fc89ee1d8dcb2f28e0e5552f8211562a5aa7901ba09581efad0e4b15",
+        "response.json": "662b87bdcaeaa2f837346351020d43f8889fdab1745f4fd4116b7394f80262c7",
+        "decision.json": "35da62ef78024168397da518937d4b2c4868849ee46ab9480ba855547379880d",
+        "validation.json": "33d81d095f487ba38985b1423c27afae3cb0526ec9680be8e879027769e3be01"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__XUc3Tpw",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "92ac7ff3552873daab32d0e1bcd691eaaf7fc65533f7b27158f308b2a8b44b93": {
+      "path": "cache/92ac7ff3552873daab32d0e1bcd691eaaf7fc65533f7b27158f308b2a8b44b93",
+      "files_sha256": {
+        "request.json": "03a6d69bbd0f33e4bc23e4e9d3b9cad7edd126f27b6caf62bb62998b677d3e94",
+        "response.json": "f5428a60c50cef955dd83b8f8444727c1c22eebab79823b1a408ef3d4ef90f89",
+        "decision.json": "5123334683bf1f7e5e869d2a371446236af42ef0eec63a8d594c56be468c6602",
+        "validation.json": "e7a54b6622ddce2604ba2f4f4c75242483245beca0ec83ea25dba98ea654db10"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__HdE9JRp",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "3619bc56f381e61ee30a8b115906590b3ab7de3e781f0c13b93cde1b61f50361": {
+      "path": "cache/3619bc56f381e61ee30a8b115906590b3ab7de3e781f0c13b93cde1b61f50361",
+      "files_sha256": {
+        "request.json": "d90afdc3db671789199b0626011a6ec05d7776887473aaaacb809103b82a8f6c",
+        "response.json": "432cc375e010a23dc87c0f6b49ab3a2a3ffbb418bf0b59c0275ac2b3064026df",
+        "decision.json": "a53687ee9abd1ff5b214079e4691383fcb078f12d027e0e9d3f470a849e797c7",
+        "validation.json": "91f7402724b07067c1c0f3cc9c6a43d2a772d7cd1ef8b11497c736c9e57b5b15"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__3qPiQfm",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "9b58f6e837e93bea2482f0654fbd1312b7411ec6c83b120d5c3678daf25d91aa": {
+      "path": "cache/9b58f6e837e93bea2482f0654fbd1312b7411ec6c83b120d5c3678daf25d91aa",
+      "files_sha256": {
+        "request.json": "0577f1d4b95eba9991a178990eece6340fdc2745ac820b10f389352584ecc5c3",
+        "response.json": "932313929d37a61e6040ceb86bb8a82d747cd6574a73164795e139c554bfd09c",
+        "decision.json": "14549b3468c5d7d32cf2e3aeef7bbda765d31e7eb7e889eaf8b0ab1847bde903",
+        "validation.json": "0efa9efef447525180dd4a8e55d423aeb6cdb8f444a78754a895dd9f97882cd3"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__WLUUEPQ",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "3b69b6984a18c5ec815af495e47b94e9e453941d6d3554d3f962d4d2393d5450": {
+      "path": "cache/3b69b6984a18c5ec815af495e47b94e9e453941d6d3554d3f962d4d2393d5450",
+      "files_sha256": {
+        "request.json": "51e3d68e8a921fb617f426d19702709cd0126b0a5647554ec95112fd5c89567b",
+        "response.json": "4831d66564611b7e6f28990240c600827bcf205571edc69947706fc50c4be3cb",
+        "decision.json": "c91a41485ca89947e31505f7493120b9ca3c32c019f2f3a9fb94016f84f3664b",
+        "validation.json": "784b8820011bd3571ccfa5e5ca265bd7477cb42c8925db6f731f9a554a2dd72f"
+      },
+      "source_case": "business10_food_lot_containment_hy_with_skill--task__SpeVwfd",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "6a76d982f7ca6213015cbb07fc1cd63d23aadf00652d62970be6ed16d372c52c": {
+      "path": "cache/6a76d982f7ca6213015cbb07fc1cd63d23aadf00652d62970be6ed16d372c52c",
+      "files_sha256": {
+        "request.json": "efaccf94ab92d0280ed5947f77f792c096bd7776676a80e6b5bc023cd7913bd8",
+        "response.json": "2ac1c195610f1056d97902488db60b5bcf4690808abc24d35ff206228f51f8c1",
+        "decision.json": "1aaead6d05026abb0834f444af348b843f5ed7211feaae41fe5606e8580c5181",
+        "validation.json": "d5945fc185c86cdee9545934b967556aa747b3c27c9ee441771946ff449519d6"
+      },
+      "source_case": "business10_food_lot_containment_hy_no_skill--task__dM3RyT3",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "b4a9b252f67a23d028b481db26bbacccc6ed283b1e6af66c07c87aa41fa28490": {
+      "path": "cache/b4a9b252f67a23d028b481db26bbacccc6ed283b1e6af66c07c87aa41fa28490",
+      "files_sha256": {
+        "request.json": "2e21472375f5ad4bec0c62c6300b6a5ab78a5c2e8f89b70f80ff2108889efdf3",
+        "response.json": "1d0295656a9ee939354e72a0105b31765269d354bb7ea6cf292032151723b55d",
+        "decision.json": "2d00a9b90b45bfd8ed5caae3fd3aeefb1dc7fb1d0bc30f8d50be2e466bd02986",
+        "validation.json": "82349daa4a9e357a7370f832f9e6f25d28b953472a7d54bce9e4b7d4899b2ac5"
+      },
+      "source_case": "business10_food_lot_containment_gpt_with_skill--task__nsmZjTH",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "6fa43ad09e69151114b14a1409f3d63368d94302a03e19c876dcee6a12a86fd9": {
+      "path": "cache/6fa43ad09e69151114b14a1409f3d63368d94302a03e19c876dcee6a12a86fd9",
+      "files_sha256": {
+        "request.json": "bbbdb260889abcc86bd9ce006148893a41f2f69f24f0b4e209046ad064b2aa5c",
+        "response.json": "739effa0e361c2fa3853807493889d8aa1f2eac59d0555901e498e425f61fe0f",
+        "decision.json": "01e9c602c6db05716e94f93b6992c366540acce81f10b84260aeac559f5f15b6",
+        "validation.json": "4af4624d99942d819bb5ffbb25173e441042e46e2ccb1c5a6eeef63810fd4a4c"
+      },
+      "source_case": "business10_food_lot_containment_gpt_with_skill--task__vGUEkpX",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "2067ef3fcc8da97332ac52547361f9a031579da22ffb070c35b234f3d83a1867": {
+      "path": "cache/2067ef3fcc8da97332ac52547361f9a031579da22ffb070c35b234f3d83a1867",
+      "files_sha256": {
+        "request.json": "8ec3433a6b72152000d3b808692fbea030026a3d4dc899802c021ae6ec803c8d",
+        "response.json": "c1fb439c8032f7082d121c2eb228e498255bcefa84de9fbaeec9105df87f455f",
+        "decision.json": "ae05ea7986e680d4856774c2d2e50e5cbf92543ab8bdb2b16e7881bf370200aa",
+        "validation.json": "a01bfebf729ff9e50b8be5624e073aa3e0aedfa5cc04f3e763196e681b7f6431"
+      },
+      "source_case": "business10_food_lot_containment_gpt_with_skill--task__Hbh2ca5",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "9864f600f233f28c4f8aa0d3adb326b32a182cb7cc272e27cead52f7cb4ec4c0": {
+      "path": "cache/9864f600f233f28c4f8aa0d3adb326b32a182cb7cc272e27cead52f7cb4ec4c0",
+      "files_sha256": {
+        "request.json": "7dcda0f8a3be80da430850bccd848e04b3498bc388c890fe473a8e4bdd957dcd",
+        "response.json": "633ec02c3bbf3308027d4d6bf96b68da2b2347bc1fa0e9fd10bf975e94028f62",
+        "decision.json": "989704de582c010f094141a1d753cb801d2e72de1493f9f51aac823febb5ba74",
+        "validation.json": "aec97a1d793ac7408b5ca7c91ab9f48a05d388d1f2d39e70765ff74a1c252990"
+      },
+      "source_case": "business10_food_lot_containment_gpt_with_skill--task__shaYEef",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "f6a229221b341cb580566f32a1f525dd5417fa77fc856ae0e63f37b371d24ba1": {
+      "path": "cache/f6a229221b341cb580566f32a1f525dd5417fa77fc856ae0e63f37b371d24ba1",
+      "files_sha256": {
+        "request.json": "845f50103e90020d584d7dc2d0b4900af1e55c01ce02886bbe930b1e9865fb75",
+        "response.json": "7c08b0b42cc556f960446de009c25013e57b8acf8738ccf457fd797bf95c36ea",
+        "decision.json": "bc43859618641db0408d12d9ed14ffb0d135fb7c63e4b074a3ac1b7af3f81111",
+        "validation.json": "3aa0992fc30bd5efededdad547716afb7605542507ca920cd94e62de75720a03"
+      },
+      "source_case": "business10_food_lot_containment_gpt_no_skill--task__m6Nsi72",
+      "score_version": "food-lot-containment-curvature-v5"
+    },
+    "6f87f0075d4e4afbf2c3e1a8dae20bd3e2705f3d86729fe33950e3361f8e8b8c": {
+      "path": "cache/6f87f0075d4e4afbf2c3e1a8dae20bd3e2705f3d86729fe33950e3361f8e8b8c",
+      "files_sha256": {
+        "request.json": "3b005e27e9e1da73b22a7fef7fbdb97a73ba48652423caa492506c1ce89ab2b1",
+        "response.json": "cd13d4dea1cfdd496c22b0d6d1d397802fdc2998b40d1793c27d127a47bb9a6d",
+        "decision.json": "588a66381c476ddcfef5c3382976b607887f82b3223c9f086ef2bc564536ab2d",
+        "validation.json": "517f6db166436693249b68c59d788cbb68e8dfbf07bbe9ddf61aa9acd3ac774a"
+      },
+      "source_case": "oracle-generated-food-lot-containment",
+      "score_version": "food-lot-containment-curvature-v5"
+    }
+  },
+  "same_request_fresh_variants": [],
+  "files_sha256": {
+    "judge.py": "bb547b9c32c2d608e974f5c79b528ba7e2e2291aeee5d23c939bb86a4f3f0d2a",
+    "contract.json": "39207bac4bb2c5edde8098a74b51a47c3dcfdc98ef41658f15a21efefa1c0b37",
+    "prompt.md": "a641f233aa2699c441da5c94e30ab0336467b21dc6a9c44cf337286987080191",
+    "response.schema.json": "dd528fe8237693be133f4522b47dd358d9b7ddb01440555da44509d42ea729d8",
+    "settings.json": "8e83d60b0c0c17857d8df35dbfbc6ca2f95e80f930d4c74fe16d2433517b471a"
+  },
+  "selection_rule": "For identical request identities, the accepted full-cohort v5 reply is selected before pro\u0062e-run duplicates. Scores never select a response.",
+  "replay_rule": "Complete regenerated request identity must match; cache misses remain unmeasured."
+}
