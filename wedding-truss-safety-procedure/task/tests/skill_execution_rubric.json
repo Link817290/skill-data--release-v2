@@ -1,0 +1,36 @@
+{
+  "schema_version": "skill-execution-contract-v1",
+  "name": "wedding-truss-observable-process-review-v1",
+  "scope": "with-skill trajectories only",
+  "no_skill_process_review": false,
+  "artifact_reward_modified": false,
+  "criteria": [
+    {
+      "id": "skill_discovery",
+      "weight": 0.25
+    },
+    {
+      "id": "conditional_support",
+      "weight": 0.3
+    },
+    {
+      "id": "lifecycle_dependencies",
+      "weight": 0.3
+    },
+    {
+      "id": "evidence_and_export",
+      "weight": 0.15
+    }
+  ],
+  "levels": {
+    "0": "no observable application",
+    "0.5": "material partial application",
+    "1": "substantial observable application"
+  },
+  "rules": [
+    "Use observable agent messages and tool invocations only.",
+    "Bind each decision to the native trajectory hash and supplied Skill bytes.",
+    "Do not infer process quality from artifact reward.",
+    "Do not review no-skill controls."
+  ]
+}

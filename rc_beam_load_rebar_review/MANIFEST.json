@@ -6,7 +6,7 @@
   ],
   "trajectory_count": 0,
   "file_count_excluding_manifest": 36,
-  "bytes_excluding_manifest": 3954096,
+  "bytes_excluding_manifest": 3954137,
   "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
   "files_excluding_manifest": {
     "README.md": {
@@ -138,8 +138,8 @@
       "sha256": "ce29ca1f42004314f434a84105ad5226f97ac8cfee35c4038262017bcd67a576"
     },
     "task/tests/semantic_judge.py": {
-      "bytes": 6526,
-      "sha256": "03e92733a8451554f7094fd75dfbd496f47e8c1070f1f4933ed989fe1202d3ae"
+      "bytes": 6567,
+      "sha256": "73477069543d7a06c49cf46bd7df396c7feaa4b39e6bbe6a90dd0a562600c0a2"
     },
     "task/tests/semantic_source.json": {
       "bytes": 263350,

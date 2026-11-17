@@ -1,0 +1,15 @@
+version = "1.0"
+id = "wedding-truss-safety-procedure"
+task_type = "skill-bench"
+domain = "temporary-event-structure-safety"
+language = "en"
+difficulty = "hard"
+deliverable = "/workspace/output/procedure.docx"
+
+[scoring]
+type = "mixed"
+primary_score = "strict"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/validator.py"
+strict_formula = "weighted owner mean with local chain minima and owner-local deductions"
+condition_blind = true

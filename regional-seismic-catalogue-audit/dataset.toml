@@ -1,0 +1,39 @@
+version = "1.0"
+id = "regional-seismic-catalogue-audit"
+title = "Evidence-bound regional seismic catalogue audit"
+task_type = "skill-bench"
+domain = "seismology and scientific data curation"
+language = "en"
+difficulty = "hard"
+instruction = "task/instruction.md"
+task = "task/task.toml"
+task_no_skill = "task/task_no_skill.toml"
+rubric = "RUBRIC.md"
+golden = "golden/seismic_catalogue_report.json"
+required_outputs = ["/workspace/output/seismic_catalogue_report.json"]
+network_access = false
+
+[scoring]
+type = "mixed"
+primary_score = "reward_strict"
+reward_alias = "strict"
+strict_formula = "pd-ledger-v1: positive weighted evidence times multiplicative damage retention"
+score_lenses = ["strict", "lenient"]
+scorer = "task/tests/validator.py"
+condition_blind = true
+same_scorer_for_with_no_skill = true
+
+[conditions]
+answers_in_skill = false
+thresholds_in_skill = false
+condition_blind = true
+
+[scoring.verified]
+gold_reward = 1.0
+gold_reward_strict = 1.0
+gold_reward_lenient = 1.0
+
+[skill]
+names = ["structured-scientific-json", "html-table-scientific-extraction", "seismic-catalogue-statistics", "event-identity-reconciliation"]
+answers_in_skill = false
+thresholds_in_skill = false

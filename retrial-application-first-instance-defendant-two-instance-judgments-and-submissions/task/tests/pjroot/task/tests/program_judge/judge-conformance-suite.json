@@ -1,0 +1,136 @@
+{
+  "schema_version": "judge-conformance-suite-v2",
+  "rubric": {
+    "path": "rubric-contract.json",
+    "sha256": "e567414d75f1770129b896e6321043feded6edb64d0a28c99e6614bb826f13b6"
+  },
+  "judge_entrypoint": {
+    "path": "task/tests/program_judge/task_judge.py",
+    "sha256": "21f6219330f727aab4d9d05d40a926698d661d2afba329b6a1e56f732bc32808"
+  },
+  "judge_files": [
+    {
+      "path": "task/tests/program_judge/program_judge_runtime.py",
+      "sha256": "65bcd18447c848d07b8731cb3cee3a601ea4b936013fb2f7cc4c217004c21f0a"
+    },
+    {
+      "path": "task/tests/program_judge/task_judge.py",
+      "sha256": "21f6219330f727aab4d9d05d40a926698d661d2afba329b6a1e56f732bc32808"
+    }
+  ],
+  "representation_scope": {
+    "scope_basis": "instruction.md fixes one Chinese Markdown retrial application at artifacts/retrial-application.md. Legal carrier variation inside that contract: Markdown heading hashes vs bold heading lines and list-marked request items; CRLF line endings; amount, month-date, percentage and statute-article/item notation (人民币, ¥, spaced 元, 万元, 第211条第2项, 百分之十七); hard-wrapped paragraph lines. N00-N05 and N09 fold these and they must decide identically to the canonical Markdown transcription of the Golden. The Golden DOCX is not a solver carrier. The suite also binds an observed solver carrier: a spaced title '# 再 审 申 请 书', bold party labels '**申请人（…）：**' with 法定代表人 on its own line, full-width punctuation, --- rules around '## 再审请求' / '## 事实与理由', '### 一、' part headings with '#### （一）' sub-headings, ASCII straight double quotes, enumerations as a lead line plus numbered '1. **…**' or '- **…**' list lines, inline bold spans, a '## 综上' conclusion heading, a bold 此致 addressee and a filled signature date; case golden_rollout_spaced_title_ascii_list_carrier replays the Golden propositions in that carrier. The post-signature '### 附：证据材料目录' list that carrier adds is not a carrier feature: it is scored content charged by D12, so the equivalence case carries Golden's tail (此致, addressee, signature, date) only.",
+    "public_output_contract": {
+      "path": "instruction.md",
+      "sha256": "ed6d2e3c5d5acf82544375097fd79c5df5a8544e28541b534733bd7f3397718b"
+    },
+    "applicable_variants": [
+      "heading_list_markup",
+      "crlf_line_endings",
+      "amount_date_article_notation",
+      "hard_wrapped_paragraphs",
+      "rollout_spaced_title_ascii_list_carrier"
+    ],
+    "excluded_variants": [
+      {
+        "variant": "docx_or_pdf_carrier",
+        "reason": "instruction.md requires a Markdown file at artifacts/retrial-application.md"
+      },
+      {
+        "variant": "english_language_application",
+        "reason": "instruction.md requires the retrial application in Chinese"
+      },
+      {
+        "variant": "multi_file_split",
+        "reason": "instruction.md requires one application file"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "golden_markdown_baseline",
+      "kind": "baseline",
+      "semantic_case_id": "golden",
+      "variant": "canonical_markdown",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/golden_canonical.md",
+        "sha256": "b8ea83f40579daeb07ea7bf3d097509a594a0becd132833660591b44c1c4c8ab"
+      }
+    },
+    {
+      "case_id": "golden_heading_list_markup",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "heading_list_markup",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/heading_list_markup.md",
+        "sha256": "aed52de5ec2eac7048b46f825afc7a32db8b4ca49861557d323c43bf20f37318"
+      }
+    },
+    {
+      "case_id": "golden_crlf_line_endings",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "crlf_line_endings",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/crlf_line_endings.md",
+        "sha256": "58f6ed8cd0b2a2e5bf85eef284d0a133eba134101887be1dbbdec40cc3262d7b"
+      }
+    },
+    {
+      "case_id": "golden_amount_date_article_notation",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "amount_date_article_notation",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/amount_date_article_notation.md",
+        "sha256": "09b6ad56d250a0036d282ca99a8e9f1f11c72023346d0bfa3457040d6f1a767b"
+      }
+    },
+    {
+      "case_id": "golden_hard_wrapped_paragraphs",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "hard_wrapped_paragraphs",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/hard_wrapped_paragraphs.md",
+        "sha256": "59bd0a25ee9b3de55efb0b1a3317faf818361c76ed5350ab9f126e46f1559a0c"
+      }
+    },
+    {
+      "case_id": "golden_rollout_spaced_title_ascii_list_carrier",
+      "kind": "required_equivalent",
+      "semantic_case_id": "golden",
+      "variant": "rollout_spaced_title_ascii_list_carrier",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/rollout_spaced_title_ascii_list_carrier.md",
+        "sha256": "ce0bdd7d2807c77a5f753305e6fc3009c34228de6297d98292c8351fe0a02fd6"
+      }
+    },
+    {
+      "case_id": "invalid_utf8",
+      "kind": "parse_failure",
+      "semantic_case_id": "parse_failure",
+      "variant": "invalid_utf8_bytes",
+      "artifact": {
+        "path": "task/tests/program_judge/conformance/parse_failure_invalid_utf8.md",
+        "sha256": "909791852d5070e06d515920625ee1c0c6244d8f6d43d775a1cd2831aff3597e"
+      },
+      "protected_deduction_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13"
+      ]
+    }
+  ]
+}

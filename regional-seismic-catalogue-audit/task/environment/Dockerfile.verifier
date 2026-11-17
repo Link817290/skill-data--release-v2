@@ -1,0 +1,15 @@
+FROM harbor-claude-code-aggregated:1.3
+
+USER root
+WORKDIR /workspace
+COPY task/tests/ /tests/
+COPY task/environment/workspace/ /workspace/
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN chmod +x /tests/test.sh \
+    && mkdir -p /workspace/output /logs/verifier /logs/artifacts \
+    && chmod 0777 /workspace/output /logs /logs/verifier /logs/artifacts \
+    && test -s /workspace/materials/catalog_2018_full.html \
+    && test -s /workspace/materials/catalog_2018_partial.html \
+    && test -s /workspace/materials/catalog_2019_q1_q3.html \
+    && test -f /tests/ground_truth.json
+CMD ["/bin/sh"]

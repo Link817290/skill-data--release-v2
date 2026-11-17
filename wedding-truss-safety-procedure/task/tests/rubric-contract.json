@@ -1,0 +1,1600 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "scoring_formula": "weighted-owner-local-min-v1",
+  "rubric_version": "truss-safety-owner-chains-v7",
+  "positive_items": [
+    {
+      "id": "O01",
+      "owner_id": "venue_surface",
+      "weight": 0.04,
+      "title": "Venue surface and access protection",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Venue surface and access protection",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Venue surface and access protection",
+      "relation_predicate": "Smooth hotel floors separate the base from the surface with protection and non-slip layers; Wall protection excludes drilling and links permitted low-residue tape to removal; Doorway transport protection and existing damage evidence are paired",
+      "golden_relation_predicate": "Smooth hotel floors separate the base from the surface with protection and non-slip layers; Wall protection excludes drilling and links permitted low-residue tape to removal; Doorway transport protection and existing damage evidence are paired",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "venue_surface-chain-1",
+          "unit_ids": [
+            "P01a"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "venue_surface-chain-2",
+          "unit_ids": [
+            "P01b"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "venue_surface-chain-3",
+          "unit_ids": [
+            "P01c"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P01a",
+          "relation": "Smooth hotel floors separate the base from the surface with protection and non-slip layers",
+          "alternatives": [
+            {
+              "all": [
+                "(地面|大理石|瓷砖)",
+                "底座",
+                "(垫板|保护板|保护垫|保护层)",
+                "(防滑|橡胶)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P01b",
+          "relation": "Wall protection excludes drilling and links permitted low-residue tape to removal",
+          "alternatives": [
+            {
+              "all": [
+                "墙",
+                "(严禁|禁止|不得|不可).{0,20}(打孔|打钉)",
+                "(低残胶|布基).{0,40}胶带",
+                "(清理.{0,30}胶|胶痕.{0,30}清理|清除.{0,30}胶)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P01c",
+          "relation": "Doorway transport protection and existing damage evidence are paired",
+          "alternatives": [
+            {
+              "all": [
+                "(出入口|进出口|门面|门框)",
+                "(护板|保护板|防护)",
+                "((划痕|损伤|损坏).{0,50}(拍照|报备)|(拍照|报备).{0,50}(划痕|损伤|损坏))"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O02",
+      "owner_id": "span_support",
+      "weight": 0.02,
+      "title": "Span-specific support decisions",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Span-specific support decisions",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Span-specific support decisions",
+      "relation_predicate": "Short spans retain end posts; Intermediate spans add a central support against deflection; Long spans require central support and bracing",
+      "golden_relation_predicate": "Short spans retain end posts; Intermediate spans add a central support against deflection; Long spans require central support and bracing",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "span_support-chain-1",
+          "unit_ids": [
+            "P02a"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "span_support-chain-2",
+          "unit_ids": [
+            "P02b"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "span_support-chain-3",
+          "unit_ids": [
+            "P02c"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P02a",
+          "relation": "Short spans retain end posts",
+          "alternatives": [
+            {
+              "all": [
+                "(≤|<=|不超过)4(?:\\.0)?m",
+                "(两端|两侧).{0,30}立柱"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P02b",
+          "relation": "Intermediate spans add a central support against deflection",
+          "alternatives": [
+            {
+              "all": [
+                "(4(?:\\.0)?m?(~|～|至|—|-|到|<|＜|≤).{0,12}6(?:\\.0)?m|(>|＞)4(?:\\.0)?m.{0,12}(≤|<=)6(?:\\.0)?m)",
+                "(中间|中部|跨中).{0,35}(立柱|支撑)",
+                "(下弯|下挠|挠度|弯曲)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P02c",
+          "relation": "Long spans require central support and bracing",
+          "alternatives": [
+            {
+              "all": [
+                "(>|＞|超过|大于)6(?:\\.0)?m",
+                "(中间|中部|跨中).{0,35}(立柱|支撑)",
+                "斜撑"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O03",
+      "owner_id": "height_stability",
+      "weight": 0.02,
+      "title": "Height, bracing and base stability",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Height, bracing and base stability",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Height, bracing and base stability",
+      "relation_predicate": "High frames receive bracing and a completed stability check; Tall background base range remains conditional on bracing; Height bands bind base block counts and masses",
+      "golden_relation_predicate": "High frames receive bracing and a completed stability check; Tall background base range remains conditional on bracing; Height bands bind base block counts and masses",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "height_stability-chain-1",
+          "unit_ids": [
+            "P02d",
+            "P03b"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "height_stability-chain-2",
+          "unit_ids": [
+            "P03a"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P02d",
+          "relation": "High frames receive bracing and a completed stability check",
+          "alternatives": [
+            {
+              "all": [
+                "(高度.{0,8}(≥|>=|不低于)3m|3m以上|高度3m及以上|高度超过3m|3\\.0m以上)",
+                "(八字|斜撑)",
+                "(手推|推拉|晃动|翘角|稳定性检查)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P03b",
+          "relation": "Tall background base range remains conditional on bracing",
+          "alternatives": [
+            {
+              "all": [
+                "4(?:\\.0)?(~|～|至|—|-|到|<.{0,5}≤)5(?:\\.0)?m.{0,90}(5.{0,5}6块|100.{0,5}120kg)",
+                "斜撑"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P03a",
+          "relation": "Height bands bind base block counts and masses",
+          "alternatives": [
+            {
+              "all": [
+                "(≤|<=)2(?:\\.0)?m.{0,60}2块.{0,30}40kg",
+                "2(?:\\.0)?(~|～|至|—|-|到|<.{0,5}≤)3(?:\\.0)?m.{0,60}3块.{0,30}60kg",
+                "3(?:\\.0)?(~|～|至|—|-|到|<.{0,5}≤)4(?:\\.0)?m.{0,60}4块.{0,30}80kg"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O04",
+      "owner_id": "ballast_adjustment",
+      "weight": 0.02,
+      "title": "Ballast modifiers and physical bearing",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Ballast modifiers and physical bearing",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Ballast modifiers and physical bearing",
+      "relation_predicate": "Additional suspended mass produces additional ballast blocks; Wind exposure and brace relief retain the two-block minimum; Ballast bears symmetrically on the base and the base is leveled",
+      "golden_relation_predicate": "Additional suspended mass produces additional ballast blocks; Wind exposure and brace relief retain the two-block minimum; Ballast bears symmetrically on the base and the base is leveled",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "ballast_adjustment-chain-1",
+          "unit_ids": [
+            "P03c",
+            "P03d"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "ballast_adjustment-chain-2",
+          "unit_ids": [
+            "P03e"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P03c",
+          "relation": "Additional suspended mass produces additional ballast blocks",
+          "alternatives": [
+            {
+              "all": [
+                "(每|增加).{0,30}20kg.{0,30}(悬挂|灯光|花艺|重物)",
+                "(额外|另|再|叠加).{0,20}(增加|加|配).{0,12}1块"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P03d",
+          "relation": "Wind exposure and brace relief retain the two-block minimum",
+          "alternatives": [
+            {
+              "all": [
+                "(风口|大门|门窗|有风|直吹).{0,70}(增加|加).{0,15}1块",
+                "斜撑.{0,50}(减少|减).{0,15}1块",
+                "(不|不能|不得).{0,15}低于2块|至少2块|不少于2块"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P03e",
+          "relation": "Ballast bears symmetrically on the base and the base is leveled",
+          "alternatives": [
+            {
+              "all": [
+                "配重.{0,70}(压在|置于|放在).{0,30}底座",
+                "(对称|左右均衡)",
+                "(找平|调平)",
+                "(不可|不能|不得|禁止|严禁).{0,15}(倚靠|侧靠|靠在)|不是靠"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O05",
+      "owner_id": "incoming_readiness",
+      "weight": 0.24,
+      "title": "Incoming physical readiness",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Incoming physical readiness",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Incoming physical readiness",
+      "relation_predicate": "Cracked, deformed or failed-weld members are rejected rather than installed; Connections and ballast are checked for completeness and damage before assembly",
+      "golden_relation_predicate": "Cracked, deformed or failed-weld members are rejected rather than installed; Connections and ballast are checked for completeness and damage before assembly",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "incoming_readiness-chain-1",
+          "unit_ids": [
+            "P04a",
+            "P04b"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P04a",
+          "relation": "Cracked, deformed or failed-weld members are rejected rather than installed",
+          "alternatives": [
+            {
+              "all": [
+                "(剔除|禁用|禁止使用|不得使用|停用|隔离|退回).{0,120}(弯曲|变形|裂纹|开焊|焊点开裂|开裂)",
+                "(桁架|杆件|管材|构件)"
+              ],
+              "exclude": []
+            },
+            {
+              "all": [
+                "(弯曲|变形|裂纹|开焊|焊点开裂).{0,100}(剔除|禁用|禁止使用|不得使用|隔离|退回)",
+                "(桁架|杆件|管材|构件)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P04b",
+          "relation": "Connections and ballast are checked for completeness and damage before assembly",
+          "alternatives": [
+            {
+              "all": [
+                "(清点|核对|检查).{0,120}(底座|插销|螺栓|连接件)",
+                "配重.{0,60}(无破损|无缺角|完好|破损|缺角)"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O06",
+      "owner_id": "credential_integrity",
+      "weight": 0.22,
+      "title": "Credential evidence integrity",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Credential evidence integrity",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Credential evidence integrity",
+      "relation_predicate": "Structural material evidence is requested rather than asserted as current installation approval",
+      "golden_relation_predicate": "Structural material evidence is requested rather than asserted as current installation approval",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "credential_integrity-chain-1",
+          "unit_ids": [
+            "P04c"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P04c",
+          "relation": "Structural material evidence is requested rather than asserted as current installation approval",
+          "alternatives": [
+            {
+              "all": [
+                "桁架.{0,150}(出厂合格证|质量证明|材质检测报告)",
+                "6061"
+              ],
+              "exclude": []
+            },
+            {
+              "all": [
+                "6061.{0,150}(质量证明|材质检测报告)",
+                "(备查|核对|批次|未闭环|待核|补齐)"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O07",
+      "owner_id": "assembly_dependencies",
+      "weight": 0.1,
+      "title": "Assembly sequence and connection readiness",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Assembly sequence and connection readiness",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Assembly sequence and connection readiness",
+      "relation_predicate": "Heavy structure precedes electrical work, graphics and florals; Positioning, leveling and base preparation precede member assembly; Connection engagement includes tightened fasteners and symmetric mating members",
+      "golden_relation_predicate": "Heavy structure precedes electrical work, graphics and florals; Positioning, leveling and base preparation precede member assembly; Connection engagement includes tightened fasteners and symmetric mating members",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "assembly_dependencies-chain-1",
+          "unit_ids": [
+            "P05a",
+            "P05b"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "assembly_dependencies-chain-2",
+          "unit_ids": [
+            "P05c"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P05a",
+          "relation": "Heavy structure precedes electrical work, graphics and florals",
+          "alternatives": [
+            {
+              "all": [
+                "(重型结构|结构框架|桁架结构|框架).{0,80}(→|先|之后|再|然后).{0,50}(电路灯光|电气|灯光).{0,80}(喷绘|画面|硬装).{0,80}(花艺|软装)"
+              ],
+              "exclude": []
+            },
+            {
+              "all": [
+                "先.{0,25}(大件|重型|框架).{0,80}(再|后).{0,30}(灯光|电气).{0,100}(花艺|软装)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P05b",
+          "relation": "Positioning, leveling and base preparation precede member assembly",
+          "alternatives": [
+            {
+              "all": [
+                "(放线|定位).{0,140}(底座|配重).{0,500}(桁架拼接|立柱.{0,20}拼接|框架.{0,20}(拼接|组装|安装))"
+              ],
+              "exclude": []
+            },
+            {
+              "all": [
+                "(定位|放线).{0,100}(找平|调平).{0,100}(底座|配重).{0,300}(立柱|框架|桁架)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P05c",
+          "relation": "Connection engagement includes tightened fasteners and symmetric mating members",
+          "alternatives": [
+            {
+              "all": [
+                "插销.{0,40}(到底|到位|锁紧)",
+                "螺栓.{0,40}(拧紧|紧固)|连接.{0,30}紧固",
+                "(接条|经条|筋条|桁架结构条).{0,70}对称|对称.{0,60}(经条|筋条|接条|桁架结构条)"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O08",
+      "owner_id": "electrical_installation",
+      "weight": 0.09,
+      "title": "Electrical installation and energization",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Electrical installation and energization",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Electrical installation and energization",
+      "relation_predicate": "Cables are secured without sharp-edge abrasion and ground crossings are covered; Fixture mounting selects the main member and excludes connection nodes; Electrical protection, circuit separation and powered commissioning coexist",
+      "golden_relation_predicate": "Cables are secured without sharp-edge abrasion and ground crossings are covered; Fixture mounting selects the main member and excludes connection nodes; Electrical protection, circuit separation and powered commissioning coexist",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "electrical_installation-chain-1",
+          "unit_ids": [
+            "P06a",
+            "P06b"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "electrical_installation-chain-2",
+          "unit_ids": [
+            "P06c"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P06a",
+          "relation": "Cables are secured without sharp-edge abrasion and ground crossings are covered",
+          "alternatives": [
+            {
+              "all": [
+                "线缆.{0,70}(扎带|固定)",
+                "(禁止|避免|不得|不可).{0,50}(尖角|尖锐|磨损|割破)",
+                "地面.{0,60}(护线槽|线槽)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P06b",
+          "relation": "Fixture mounting selects the main member and excludes connection nodes",
+          "alternatives": [
+            {
+              "all": [
+                "灯具.{0,60}(主体|主弦|主杆|主管)",
+                "(严禁|禁止|不得|不能).{0,30}(挂|安装|固定).{0,40}(接头|节点)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P06c",
+          "relation": "Electrical protection, circuit separation and powered commissioning coexist",
+          "alternatives": [
+            {
+              "all": [
+                "(漏电保护|漏保)",
+                "大功率.{0,50}(分回路|单独回路|独立回路)|回路.{0,30}(分开|分路|核算)",
+                "(通电|送电).{0,50}(全检|测试|检查|调试)"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O09",
+      "owner_id": "life_safety",
+      "weight": 0.06,
+      "title": "Life-safety clearance",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Life-safety clearance",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Life-safety clearance",
+      "relation_predicate": "Graphics do not obstruct detection, sprinklers or exit information; Backdrop and runway layouts preserve evacuation access",
+      "golden_relation_predicate": "Graphics do not obstruct detection, sprinklers or exit information; Backdrop and runway layouts preserve evacuation access",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "life_safety-chain-1",
+          "unit_ids": [
+            "P07a",
+            "P07b"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P07a",
+          "relation": "Graphics do not obstruct detection, sprinklers or exit information",
+          "alternatives": [
+            {
+              "all": [
+                "(喷绘|造型板|装饰)",
+                "(不得|不能|严禁|禁止|不).{0,20}遮挡.{0,80}(喷淋|烟感)",
+                "(安全出口|疏散标识|疏散指示)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P07b",
+          "relation": "Backdrop and runway layouts preserve evacuation access",
+          "alternatives": [
+            {
+              "all": [
+                "(桁架|t台|背景)",
+                "(不能|不得|严禁|禁止|不).{0,25}(挤占|占用|堵塞).{0,50}(逃生|疏散|消防通道)"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O10",
+      "owner_id": "joint_acceptance",
+      "weight": 0.05,
+      "title": "Joint structural and electrical acceptance",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Joint structural and electrical acceptance",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Joint structural and electrical acceptance",
+      "relation_predicate": "Hotel and planning functions participate in acceptance; Structural acceptance binds bearing, weights, fasteners and a physical stability test; Acceptance verifies cable condition and live protection",
+      "golden_relation_predicate": "Hotel and planning functions participate in acceptance; Structural acceptance binds bearing, weights, fasteners and a physical stability test; Acceptance verifies cable condition and live protection",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "joint_acceptance-chain-1",
+          "unit_ids": [
+            "P08a"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "joint_acceptance-chain-2",
+          "unit_ids": [
+            "P08b",
+            "P08c"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P08a",
+          "relation": "Hotel and planning functions participate in acceptance",
+          "alternatives": [
+            {
+              "all": [
+                "酒店.{0,50}(策划|共同验收|联合验收)|(策划).{0,40}酒店.{0,40}验收"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P08b",
+          "relation": "Structural acceptance binds bearing, weights, fasteners and a physical stability test",
+          "alternatives": [
+            {
+              "all": [
+                "配重.{0,80}(对称|数量达标|块数)",
+                "螺栓.{0,50}(紧固|拧紧)",
+                "(手推|推拉).{0,50}(无明显晃动|稳定|无晃动|位移)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P08c",
+          "relation": "Acceptance verifies cable condition and live protection",
+          "alternatives": [
+            {
+              "all": [
+                "线缆.{0,50}(完好|无破损|无破皮)",
+                "漏电保护.{0,40}(有效|测试|正常|试验)",
+                "护线槽.{0,40}(到位|铺设)|铺设.{0,40}护线槽"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O11",
+      "owner_id": "clean_handover",
+      "weight": 0.06,
+      "title": "Fire, surface and clean handover",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Fire, surface and clean handover",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Fire, surface and clean handover",
+      "relation_predicate": "Final fire and surface checks connect to a clean safe handover",
+      "golden_relation_predicate": "Final fire and surface checks connect to a clean safe handover",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "clean_handover-chain-1",
+          "unit_ids": [
+            "P08d"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P08d",
+          "relation": "Final fire and surface checks connect to a clean safe handover",
+          "alternatives": [
+            {
+              "all": [
+                "(消防|喷淋|烟感)",
+                "通道.{0,60}(畅通|保持)",
+                "地面.{0,50}(无压痕|无划痕|保护)",
+                "(废料|垃圾).{0,50}(清理|出场)"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O12",
+      "owner_id": "ceremony_response",
+      "weight": 0.03,
+      "title": "Rehearsal and named ceremony response",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Rehearsal and named ceremony response",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Rehearsal and named ceremony response",
+      "relation_predicate": "Rehearsal uses lighting support and a staffed response remains for the ceremony; Ceremony coverage names actual equipment or decoration failures",
+      "golden_relation_predicate": "Rehearsal uses lighting support and a staffed response remains for the ceremony; Ceremony coverage names actual equipment or decoration failures",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "ceremony_response-chain-1",
+          "unit_ids": [
+            "P09a",
+            "P09b"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P09a",
+          "relation": "Rehearsal uses lighting support and a staffed response remains for the ceremony",
+          "alternatives": [
+            {
+              "all": [
+                "彩排.{0,80}(灯光师|灯光)",
+                "(1名|一名).{0,40}(值班|应急|场布|人员)",
+                "(仪式|全程).{0,60}待命|待命.{0,60}(仪式|全程)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P09b",
+          "relation": "Ceremony coverage names actual equipment or decoration failures",
+          "alternatives": [
+            {
+              "all": [
+                "(值守|待命|值班|应急).{0,500}((花艺|装饰|灯具|灯光|音响|电气).{0,20}(脱落|松动|坠落|故障|异常|过热|跳闸))"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O13",
+      "owner_id": "stable_dismantling",
+      "weight": 0.03,
+      "title": "Stable dismantling and venue release",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Stable dismantling and venue release",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Stable dismantling and venue release",
+      "relation_predicate": "Soft elements leave before electrical equipment, frame and base ballast; Frame is dismantled in sections without toppling and ballast remains until the final step; Restoration and material accountability precede the hotel deposit handover",
+      "golden_relation_predicate": "Soft elements leave before electrical equipment, frame and base ballast; Frame is dismantled in sections without toppling and ballast remains until the final step; Restoration and material accountability precede the hotel deposit handover",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "stable_dismantling-chain-1",
+          "unit_ids": [
+            "P10a",
+            "P10b"
+          ],
+          "operation": "min"
+        },
+        {
+          "id": "stable_dismantling-chain-2",
+          "unit_ids": [
+            "P10c"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "P10a",
+          "relation": "Soft elements leave before electrical equipment, frame and base ballast",
+          "alternatives": [
+            {
+              "all": [
+                "(顺序|反向|先).{0,90}(花艺|软装).{0,130}(灯光|音响|线材).{0,130}(桁架|框架).{0,90}(底座|配重)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P10b",
+          "relation": "Frame is dismantled in sections without toppling and ballast remains until the final step",
+          "alternatives": [
+            {
+              "all": [
+                "(配重|斜撑|支撑).{0,120}(保留|保持|不得移除|不得拆除|最后移除)",
+                "(上部|悬挂|横梁|框架|依附荷载|剩余依赖).{0,160}(卸载|卸除|拆除|安全落地)"
+              ],
+              "exclude": []
+            },
+            {
+              "all": [
+                "(卸载|卸除|拆除).{0,120}(上部|悬挂|灯具|花艺|软装)",
+                "(后|之后|方可|再).{0,120}(移除|拆除|撤除).{0,50}(配重|斜撑|支撑|底座)"
+              ],
+              "exclude": []
+            }
+          ]
+        },
+        {
+          "unit_id": "P10c",
+          "relation": "Restoration and material accountability precede the hotel deposit handover",
+          "alternatives": [
+            {
+              "all": [
+                "清点.{0,50}(配件|物料|道具|构件)",
+                "清理.{0,50}(宴会厅|场地|垃圾|废料)",
+                "酒店.{0,50}验收",
+                "(取回|退还).{0,30}(场地)?押金"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O14",
+      "owner_id": "chinese_carrier",
+      "weight": 0.02,
+      "title": "Chinese procedure carrier",
+      "scope": "Owner-local source relations; conjunctive min is applied only inside declared dependent chains.",
+      "object_key": "Chinese procedure carrier",
+      "source_location": "Supplied wedding-truss materials, instruction and unchanged expert Golden.",
+      "golden_object_key": "Chinese procedure carrier",
+      "relation_predicate": "The authored procedure contains Chinese prose",
+      "golden_relation_predicate": "The authored procedure contains Chinese prose",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "Adopted operational requirement, not rejected example or unresolved alternative.",
+      "negative_context_exclusions": "Quoted wrong practices, rejected proposals and ambiguity do not earn a relation.",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "DOCX paragraph or consecutive native-cell paragraphs",
+        "metric": "normalized_characters",
+        "max_units": 950
+      },
+      "length_contract_id": "local-proposition",
+      "self_report_fields_are_non_authoritative": true,
+      "aggregation": "local_min_then_chain_mean",
+      "chains": [
+        {
+          "id": "chinese_carrier-chain-1",
+          "unit_ids": [
+            "G02a"
+          ],
+          "operation": "min"
+        }
+      ],
+      "full": "Every declared local chain is complete and no owner-local adopted error is established.",
+      "partial": "Arithmetic mean across owner-local chains; each dependent chain uses min.",
+      "zero": "No complete chain or an independently proven adopted error assigned to this owner.",
+      "copy_counterfactual": "Raw full material-only carriers are detected by normalized identity; all-heading and all-token probes must earn zero.",
+      "checks": [
+        {
+          "unit_id": "G02a",
+          "relation": "The authored procedure contains Chinese prose",
+          "alternatives": [
+            {
+              "all": [
+                "[\\u4e00-\\u9fff]{4}"
+              ],
+              "exclude": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "title": "Unsafe ballast placement or minimum",
+      "trigger": "Unsafe ballast placement or minimum",
+      "damage_basis": "Unsafe ballast placement or minimum",
+      "scope": "One adopted affirmative native DOCX clause.",
+      "object_key": "Unsafe ballast placement or minimum",
+      "source_location": "Supplied ballast, workflow, credential and role documents; expert Gold safety relations.",
+      "error_predicate": "Unsafe ballast placement or minimum",
+      "adoption_status": "Affirmative operative instruction.",
+      "negative_context_exclusions": "Negated, rejected, uncertain, quoted or corrected statements are excluded.",
+      "causal_root_rule": "Each separately named unsafe control failure.",
+      "damage_instance_key_rule": "error.damage_key; repeated manifestations are charged once.",
+      "manifestation_rule": "Native XML part and paragraph locator.",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "local-proposition",
+      "errors": [
+        {
+          "damage_key": "ballast-minimum",
+          "relation": "Permit fewer than two standard blocks",
+          "all": [
+            "(?:立柱|配重).{0,20}(?:只需|仅需|允许|可用|配置)1块"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        },
+        {
+          "damage_key": "ballast-side-support",
+          "relation": "Adopt leaning bags or buckets as sufficient ballast",
+          "all": [
+            "(?:沙袋|水桶).{0,20}(?:倚靠|靠在|侧放).{0,25}(?:即可|足够|可作为正式配重|满足配重)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        },
+        {
+          "damage_key": "ballast-minimum",
+          "relation": "Adopt one ballast block as an acceptable configuration",
+          "all": [
+            "(?:采用|允许|可以|只用|仅用).{0,20}1块.{0,20}配重|1块.{0,12}配重.{0,25}(?:即可|足够|放行|执行)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|至少|不少于|低于|错误|反例|未|缺失|不足|不合规|仅作为|追加|增加|额外|附加|每20kg|减少"
+          ]
+        },
+        {
+          "damage_key": "ballast-side-support",
+          "relation": "Adopt ballast leaning against the post instead of bearing on the base",
+          "all": [
+            "(?:配重|配重块).{0,30}(?:靠在|倚靠|侧靠).{0,18}(?:立柱|柱侧).{0,30}(?:即可|足够|作为正式配重|允许放行|可以使用|按此执行)|(?:靠在|倚靠|侧靠).{0,18}(?:立柱|柱侧).{0,30}(?:配重|配重块).{0,25}(?:即可|足够|合格|放行)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|不是|不能作为|必须压|错误|反例|未|缺失|不足|不合规|仅作为"
+          ]
+        }
+      ],
+      "owner_id": "ballast_adjustment",
+      "settlement": "zero_affected_owner_once"
+    },
+    {
+      "id": "D02",
+      "title": "Unsupported tall or long structural arrangement",
+      "trigger": "Unsupported tall or long structural arrangement",
+      "damage_basis": "Unsupported tall or long structural arrangement",
+      "scope": "One adopted affirmative native DOCX clause.",
+      "object_key": "Unsupported tall or long structural arrangement",
+      "source_location": "Supplied ballast, workflow, credential and role documents; expert Gold safety relations.",
+      "error_predicate": "Unsupported tall or long structural arrangement",
+      "adoption_status": "Affirmative operative instruction.",
+      "negative_context_exclusions": "Negated, rejected, uncertain, quoted or corrected statements are excluded.",
+      "causal_root_rule": "Each separately named unsafe control failure.",
+      "damage_instance_key_rule": "error.damage_key; repeated manifestations are charged once.",
+      "manifestation_rule": "Native XML part and paragraph locator.",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "local-proposition",
+      "errors": [
+        {
+          "damage_key": "long-span-support",
+          "relation": "Permit a span beyond six metres with only end posts",
+          "all": [
+            "(?:超过|大于|>)6m.{0,35}(?:只需|仅需|仅用|只用).{0,10}两端立柱"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        },
+        {
+          "damage_key": "tall-free-post",
+          "relation": "Permit a tall unsupported single post",
+          "all": [
+            "(?:超过|大于|>)5m.{0,35}(?:可|允许).{0,15}(?:无斜撑|独立单柱)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        }
+      ],
+      "owner_id": "height_stability",
+      "settlement": "zero_affected_owner_once"
+    },
+    {
+      "id": "D03",
+      "title": "Electrical protection defeated",
+      "trigger": "Electrical protection defeated",
+      "damage_basis": "Electrical protection defeated",
+      "scope": "One adopted affirmative native DOCX clause.",
+      "object_key": "Electrical protection defeated",
+      "source_location": "Supplied ballast, workflow, credential and role documents; expert Gold safety relations.",
+      "error_predicate": "Electrical protection defeated",
+      "adoption_status": "Affirmative operative instruction.",
+      "negative_context_exclusions": "Negated, rejected, uncertain, quoted or corrected statements are excluded.",
+      "causal_root_rule": "Each separately named unsafe control failure.",
+      "damage_instance_key_rule": "error.damage_key; repeated manifestations are charged once.",
+      "manifestation_rule": "Native XML part and paragraph locator.",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "local-proposition",
+      "errors": [
+        {
+          "damage_key": "bare-crossing",
+          "relation": "Allow uncovered ground wiring",
+          "all": [
+            "(?:地面线缆|地面电线|电线).{0,20}(?:可直接|允许直接).{0,15}(?:铺地|铺在地面|裸露)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        },
+        {
+          "damage_key": "fixture-node",
+          "relation": "Direct fixtures onto joint nodes",
+          "all": [
+            "灯具.{0,20}(?:可以|直接|应|必须|可).{0,10}(?:挂|固定|安装).{0,10}(?:接头节点|接头处|连接节点)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        }
+      ],
+      "owner_id": "electrical_installation",
+      "settlement": "zero_affected_owner_once"
+    },
+    {
+      "id": "D04",
+      "title": "Adopted obstruction of life-safety equipment",
+      "trigger": "Adopted obstruction of life-safety equipment",
+      "damage_basis": "Adopted obstruction of life-safety equipment",
+      "scope": "One adopted affirmative native DOCX clause.",
+      "object_key": "Adopted obstruction of life-safety equipment",
+      "source_location": "Supplied ballast, workflow, credential and role documents; expert Gold safety relations.",
+      "error_predicate": "Adopted obstruction of life-safety equipment",
+      "adoption_status": "Affirmative operative instruction.",
+      "negative_context_exclusions": "Negated, rejected, uncertain, quoted or corrected statements are excluded.",
+      "causal_root_rule": "Each separately named unsafe control failure.",
+      "damage_instance_key_rule": "error.damage_key; repeated manifestations are charged once.",
+      "manifestation_rule": "Native XML part and paragraph locator.",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "local-proposition",
+      "errors": [
+        {
+          "damage_key": "blocked-exit",
+          "relation": "Allow backdrop or supplies to obstruct exit detection or access",
+          "all": [
+            "(?:喷绘|物料|装饰|桁架).{0,20}(?:允许|可以|可临时).{0,15}(?:遮挡|堵塞|占用).{0,20}(?:烟感|喷淋|安全出口|消防通道|疏散通道)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        }
+      ],
+      "owner_id": "life_safety",
+      "settlement": "zero_affected_owner_once"
+    },
+    {
+      "id": "D05",
+      "title": "Destabilizing dismantling order",
+      "trigger": "Destabilizing dismantling order",
+      "damage_basis": "Destabilizing dismantling order",
+      "scope": "One adopted affirmative native DOCX clause.",
+      "object_key": "Destabilizing dismantling order",
+      "source_location": "Supplied ballast, workflow, credential and role documents; expert Gold safety relations.",
+      "error_predicate": "Destabilizing dismantling order",
+      "adoption_status": "Affirmative operative instruction.",
+      "negative_context_exclusions": "Negated, rejected, uncertain, quoted or corrected statements are excluded.",
+      "causal_root_rule": "Each separately named unsafe control failure.",
+      "damage_instance_key_rule": "error.damage_key; repeated manifestations are charged once.",
+      "manifestation_rule": "Native XML part and paragraph locator.",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "local-proposition",
+      "errors": [
+        {
+          "damage_key": "early-ballast-release",
+          "relation": "Remove base ballast first while frame remains",
+          "all": [
+            "(?:先|首先|第一步).{0,10}(?:拆除|移走|卸下|撤去).{0,12}(?:底座|配重)",
+            "(?:再|然后|随后).{0,18}(?:拆|卸).{0,12}桁架"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        },
+        {
+          "damage_key": "topple-frame",
+          "relation": "Adopt pushing over the frame for removal",
+          "all": [
+            "(?:拆场|撤场|桁架).{0,20}(?:可以|直接|采用|应).{0,8}推倒"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        }
+      ],
+      "owner_id": "stable_dismantling",
+      "settlement": "zero_affected_owner_once"
+    },
+    {
+      "id": "D06",
+      "title": "Fabricated verification of incomplete supplied credentials",
+      "trigger": "Fabricated verification of incomplete supplied credentials",
+      "damage_basis": "Fabricated verification of incomplete supplied credentials",
+      "scope": "One adopted affirmative native DOCX clause.",
+      "object_key": "Fabricated verification of incomplete supplied credentials",
+      "source_location": "Supplied ballast, workflow, credential and role documents; expert Gold safety relations.",
+      "error_predicate": "Fabricated verification of incomplete supplied credentials",
+      "adoption_status": "Affirmative operative instruction.",
+      "negative_context_exclusions": "Negated, rejected, uncertain, quoted or corrected statements are excluded.",
+      "causal_root_rule": "Each separately named unsafe control failure.",
+      "damage_instance_key_rule": "error.damage_key; repeated manifestations are charged once.",
+      "manifestation_rule": "Native XML part and paragraph locator.",
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true,
+      "length_contract_id": "local-proposition",
+      "errors": [
+        {
+          "damage_key": "false-report-verification",
+          "relation": "Treat the placeholder report as authenticated actual compliance evidence",
+          "all": [
+            "(?:6061|al-2026xxxx|材质检测报告).{0,55}(?:已经核验真实有效|已核验真实有效|已通过真实性核验|已确认真实有效|可直接证明本批次结构安全)"
+          ],
+          "exclude": [
+            "禁止|严禁|不得|不能|不可|不应|避免|勿|不允许|切勿|未|缺失|待核|待补|不认可|不作为"
+          ]
+        },
+        {
+          "damage_key": "false-report-verification",
+          "relation": "Present placeholder test values as completed measured compliance",
+          "all": [
+            "((实测|参考实测值|检测结果).{0,160}(286|262|11\\.5)|(286|262|11\\.5).{0,160}(实测|合格|符合))"
+          ],
+          "exclude": [
+            "模板|占位|空白|未完成|未核|待核|待补|不能|不得|不构成|不等于|不足以|仅覆盖|仅供|前提"
+          ],
+          "exclude_if_document_has_credential_boundary": true
+        }
+      ],
+      "owner_id": "credential_integrity",
+      "settlement": "zero_affected_owner_once"
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "Unicode NFKC, whitespace, case and mass/length unit spellings without changing a proposition."
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "Average complete independent relation checks in an item; never award isolated tokens."
+      }
+    ]
+  },
+  "predicate_configuration": {
+    "source_fulltext_sha256": [
+      "5552c045f9a0733c3b41f8a2bff85215f7c3bef54a25d559a1dc97ce417a8c53",
+      "4563edf6338ffdeabbf2a126087fc2bcf14f0eed6d28b2c5076163ae2caecfdf",
+      "37e91f051160ff6ce74f4f43d366167ca1e03550ca7981a1798abcc97b81cb03",
+      "71a2d25533d6f02b707c357e51eaf5c25d261eb3030e8537cadeb53f5a431036",
+      "183f87edaee8958a607833cffcefa0eef09ea5434bf84005e2751e46916a4139"
+    ],
+    "local_span_max_characters": 950
+  },
+  "length_contracts": [
+    {
+      "id": "local-proposition",
+      "metric": "normalized_characters",
+      "max_units": 950,
+      "purpose": "Evidence-locality boundary only. No document length or page-count penalty."
+    }
+  ],
+  "completeness_gates": [],
+  "lenient_criteria": {
+    "formula": "independent_binary_conjunction_v1",
+    "required_unit_ids": [
+      "P04a",
+      "P04b",
+      "P04c",
+      "P05a",
+      "P06c",
+      "P08a",
+      "P08d",
+      "P10b",
+      "G02a"
+    ],
+    "require_no_adopted_error": true,
+    "require_clean_deliverable_gate": true
+  },
+  "settlement_policy": {
+    "cross_owner": "weighted_arithmetic_mean",
+    "within_chain": "min",
+    "within_owner": "arithmetic_mean_of_chains",
+    "deductions": "zero_only_the_affected_owner_once",
+    "global_power": null,
+    "global_piecewise_amplification": null
+  },
+  "source_audit": {
+    "materials": 5,
+    "golden_unchanged": true,
+    "owners": 14,
+    "atomic_relations": 33,
+    "owner_local_deductions": 6
+  }
+}

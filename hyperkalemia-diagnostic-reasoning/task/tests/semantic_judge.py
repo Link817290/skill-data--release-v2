@@ -230,7 +230,7 @@ def call(output: Path) -> tuple[dict, dict]:
         },
     }
     wire = json.dumps(body, ensure_ascii=False, separators=(",", ":")).encode()
-    endpoint = base + ("/responses" if base.endswith("/v1") else "/v1/responses")
+    endpoint = base if base.endswith("/responses") else base + ("/responses" if base.endswith("/v1") else "/v1/responses")
     timeout = int(os.environ.get("LLM_JUDGE_TIMEOUT_SECONDS", "600"))
     last_error = None
     for attempt in range(3):

@@ -1,0 +1,10 @@
+{
+  "schema": "exact-golden-replay-v1",
+  "scope": "exact_golden_only",
+  "model": "gpt-5.6-sol",
+  "protocol": "openai_responses",
+  "request_sha256": "292084b2535f1efe07f8646e19439fcbd96459c47a0ae8680aaa62769854bbc3",
+  "candidate_sha256": "faa8575cc3e20e0cf22980a904276be3db8af7e8f354e98de5dcd0362d650ba7",
+  "response_sha256": "95ab908ca345e6158888f019872f2eb95520cd57a4f1d419d1a29d7769bbca48",
+  "ordinary_cache_packaged": false
+}

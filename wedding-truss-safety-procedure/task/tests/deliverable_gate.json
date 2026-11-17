@@ -1,0 +1,24 @@
+{
+  "schema_version": "deliverable-gate-v1",
+  "root": "",
+  "required": [
+    "procedure.docx"
+  ],
+  "allowlist": [
+    "manifest.json"
+  ],
+  "golden_carriers": {
+    "思梦琦婚礼酒店桁架搭建注意事项.docx": "procedure.docx"
+  },
+  "extra_cap": 2,
+  "item_id": "DX_DELIVERABLE",
+  "source_dump": {
+    "materials": "pjroot/materials",
+    "min_run": 500,
+    "window": 24,
+    "cap": 2,
+    "item_id": "DX_SOURCE_DUMP",
+    "golden_longest_run": 0,
+    "observed_rollout_longest_run_max": 132
+  }
+}

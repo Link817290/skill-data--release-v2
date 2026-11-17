@@ -1,0 +1,1617 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "authoritative_truth",
+  "golden_source_required": false,
+  "rubric_version": "1.0",
+  "requirement_trace": {
+    "instruction_sha256": "ed6d2e3c5d5acf82544375097fd79c5df5a8544e28541b534733bd7f3397718b",
+    "requirements": [
+      {
+        "quote": "The inputs are the first instance judgment `materials/1.一审判决书.pdf`, the second instance judgment `materials/4.二审判决书.pdf`, and the defendant's appellate submissions `materials/2.被告关于一审判决事实错误的书面意见.docx` and `materials/3.被告律师代理意见.docx`",
+        "reason": "declares which inputs exist. It states no business requirement, so no item scores it; the material bindings check verifies the filenames, and every proposition an item scores has to be found in those inputs."
+      },
+      {
+        "quote": "Acting for the defendant at first instance whose written opinion and agency opinion are provided, draft an application for retrial against the effective second instance judgment",
+        "item_ids": [
+          "P02",
+          "D01",
+          "D02"
+        ]
+      },
+      {
+        "quote": "Write the retrial application in Chinese and save it as `artifacts/retrial-application.md`",
+        "reason": "names the deliverable language and path. The harness checks artifact presence and location, and no item scores the path or the language itself."
+      }
+    ],
+    "stated_facts": [],
+    "unchecked_tokens": [
+      {
+        "token": "artifacts/retrial-application.md",
+        "reason": "the deliverable path the solver writes to, not a fact asserted about the inputs."
+      },
+      {
+        "token": "1",
+        "reason": "the ordinal or date prefix of a material filename cited in backticks; it labels the file, it asserts nothing about the inputs."
+      },
+      {
+        "token": "2",
+        "reason": "the ordinal or date prefix of a material filename cited in backticks; it labels the file, it asserts nothing about the inputs."
+      },
+      {
+        "token": "3",
+        "reason": "the ordinal or date prefix of a material filename cited in backticks; it labels the file, it asserts nothing about the inputs."
+      },
+      {
+        "token": "4",
+        "reason": "the ordinal or date prefix of a material filename cited in backticks; it labels the file, it asserts nothing about the inputs."
+      }
+    ]
+  },
+  "golden_consistency": {
+    "checks": [
+      {
+        "id": "GC1-two-roads-total",
+        "kind": "aggregate",
+        "statement": "Golden 自述：两项合计约 21,404,977 元 = 甲路差额 18,829,064 元 + 乙路拦水埂差额 2,575,913 元",
+        "target": {
+          "file": "golden/retrial-application.md",
+          "regex": "两项合计约([\\d,]+)元"
+        },
+        "components": [
+          {
+            "file": "golden/retrial-application.md",
+            "regex": "选择性事项2至14差额合计约([\\d,]+)元"
+          },
+          {
+            "file": "golden/retrial-application.md",
+            "regex": "拦水埂事项差额([\\d,]+)元"
+          }
+        ]
+      }
+    ]
+  },
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "P01",
+      "units": [
+        "U03"
+      ],
+      "dimension": "legal_characterisation",
+      "weight": 0.05,
+      "value_basis": "maps the two error clusters to the current CPL retrial grounds: fact finding lacking evidence (art. 211 item 2) and wrong application of law (art. 211 item 6)",
+      "reasoning_gate": "no material cites CPL art. 211; the drafter must know the 2023 numbering and choose items (2) and (6) for the errors actually argued",
+      "scope": "front intro and grounds region (headings, body, conclusion)",
+      "object_key": "grounds.statutory_basis",
+      "source_location": "materials/4.二审判决书.pdf p73 (二审 依民诉法第一百七十七条维持); materials/1.一审判决书.pdf p63 (民诉法第二百六十四条 shows the 2023 numbering); golden/retrial-application.md body p[4], p[12], p[20], p[31], p[34]",
+      "relation_predicate": "one sentence adopts CPL art. 211 with items (2) and (6) as the statutory basis of the application",
+      "golden_object_key": "U03",
+      "golden_relation_predicate": "申请人依据《民事诉讼法》第二百一十一条第(二)项、第(六)项申请再审",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "each adopted art. 211 citation sentence (items unioned across citation sentences)",
+        "metric": "citation sentences",
+        "max_units": 5
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "items (2) and (6) of art. 211 cited, in one sentence or across the application's ground citations",
+        "partial": "0.5: art. 211 with only one of items (2) and (6)",
+        "zero": "no art. 211, negated, more than three items listed (spray), or only in request/closing"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N05 N07 N08 R01 R02 R03; eval_p01",
+      "semantic_audit": "confirm the cited items match the argued errors and that no superseded article is used instead (D03)",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P02",
+      "units": [
+        "U04"
+      ],
+      "dimension": "remedy_design",
+      "weight": 0.07,
+      "value_basis": "the adverse part of the first-instance judgment is only item 1; item 2 dismissed A公司's other claims in B公司's favour, so revocation must target the second-instance judgment and first-instance item 1",
+      "reasoning_gate": "requires reading both judgments' dispositive parts and limiting the revocation to the part that harms the client",
+      "scope": "request region",
+      "object_key": "request.revocation_scope",
+      "source_location": "materials/1.一审判决书.pdf p63-p64 判决主文 一、二; materials/4.二审判决书.pdf p73 驳回上诉维持原判; golden/retrial-application.md body p[6]",
+      "relation_predicate": "request sentence revokes the second-instance judgment and item 1 of the first-instance judgment A request sentence whose own operative demand is 撤销/改判/变更/核减 before the 维持 token only delimits the scope of that revision and is not a contrary proposition (R02, same rule as D01).",
+      "golden_object_key": "U04",
+      "golden_relation_predicate": "撤销(2026)某民终XXX号民事判决及(2025)某民初XXX号民事判决第一项",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "adopted request sentences with 撤销 (union within the request region)",
+        "metric": "request sentences",
+        "max_units": 3
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "second-instance judgment and first-instance item 1 revoked, in one or separate request lines",
+        "partial": "0.5: second-instance judgment revoked but first-instance revocation not limited to item 1 or not addressed",
+        "zero": "no revocation, adopts 维持, or placed outside the request region"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N05 N08 R02 R03; eval_p02",
+      "semantic_audit": "check that a whole-judgment revocation is not treated as full credit",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P03",
+      "units": [
+        "U05"
+      ],
+      "dimension": "remedy_design",
+      "weight": 0.05,
+      "value_basis": "the concrete relief is a reduction of the payable price by the 未见实物 difference 21,404,977",
+      "reasoning_gate": "requires carrying the calculated difference (P06) into the request rather than a generic 改判驳回",
+      "scope": "request region",
+      "object_key": "request.reduction_amount",
+      "source_location": "materials/4.二审判决书.pdf p25-p30 (甲路 selective items), p34-p35 and p57-p58 (乙路 拦水埂); golden/retrial-application.md body p[7]",
+      "relation_predicate": "request sentence asks to amend and reduce the payable price by 21,404,977 (the 未见实物 portion)",
+      "golden_object_key": "U05",
+      "golden_relation_predicate": "依法改判核减申请人应向被申请人支付的工程款不低于21,404,977元",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence",
+        "metric": "one sentence",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "改判/核减 with 21,404,977 (±1 yuan, or ±10,000 when written in 万元)",
+        "partial": "0.5: report-total derivation 21,109,125, or a 核减 of the 未见实物 portion without any amount",
+        "zero": "no reduction request, a different amount, negated, or outside the request region"
+      },
+      "dependencies": [
+        "P06"
+      ],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N02 N07 N08 R02 R03 R04; eval_p03",
+      "semantic_audit": "verify the amount belongs to the reduction request and not to a quoted figure",
+      "self_report_fields_are_non_authoritative": true,
+      "replay_rule_id": "R04"
+    },
+    {
+      "id": "P04",
+      "units": [
+        "U06"
+      ],
+      "dimension": "remedy_design",
+      "weight": 0.05,
+      "value_basis": "the 3,544,566.47 appraisal fee should not stay with B公司 once the audit-fault premise falls",
+      "reasoning_gate": "requires linking the fee burden (二审 p71) to the audit ground and asking for it in the request",
+      "scope": "request region",
+      "object_key": "request.appraisal_fee",
+      "source_location": "materials/1.一审判决书.pdf p63 鉴定费3544566.47元由B公司负担; materials/4.二审判决书.pdf p71; golden/retrial-application.md body p[8]",
+      "relation_predicate": "Whole operative fee request: revoked-order attribution and affirmative burden reallocation/exemption away from B, no genuine contrary request.",
+      "golden_object_key": "U06",
+      "golden_relation_predicate": "Whole operative fee request: revoked-order attribution and affirmative burden reallocation/exemption away from B, no genuine contrary request.",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence",
+        "metric": "one sentence",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "鉴定费 not borne by B公司 / shifted to A公司; if an amount is written it must be 3,544,566.47",
+        "partial": "none",
+        "zero": "fee kept on B公司, wrong amount, or outside the request region"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N02 N08 R02 R03; eval_p04",
+      "semantic_audit": "check alias folding of 申请人/被申请人 did not flip the party",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P05",
+      "units": [
+        "U09"
+      ],
+      "dimension": "evidence_selection",
+      "weight": 0.05,
+      "value_basis": "identifies the objective evidence: the appraiser's on-site inspection recorded 未见实物 for 甲路 selective items 2-14 and 乙路 拦水埂, producing selective opinion 2",
+      "reasoning_gate": "requires locating, among 28 甲路 determinate items, 14 甲路 selective items and 5 乙路 selective items, exactly the ones whose selective opinion turns on 未见实物",
+      "scope": "grounds region, sub-topic unseen or untitled",
+      "object_key": "unseen.inspection_evidence",
+      "source_location": "materials/4.二审判决书.pdf p26-p30 (甲路 selective items 2-14 '现场勘验时部分未见实物'), p34-p35 and p45 (乙路 拦水埂 '二次现场勘验，均未见'); materials/2.被告关于一审判决事实错误的书面意见.docx p[70]-p[80]; golden/retrial-application.md body p[13]-p[14]",
+      "relation_predicate": "a two-sentence span ties the inspection record of 未见实物 to both objects; each object is bound by the nearest road name before its token, or by the paragraph's governing road when no road name precedes it (R10d)",
+      "golden_object_key": "U09",
+      "golden_relation_predicate": "鉴定机构两次现场勘验，就甲路选择性事项2至14、乙路拦水埂明确记载未见实物，并出具意见二",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "未见实物 plus an unquoted evidence anchor (勘验/记载/载明/选择性意见) plus 甲路 items 2-14 and 乙路 拦水埂",
+        "partial": "0.5: only one of the two objects",
+        "zero": "no inspection anchor, only quoted words, or outside the unseen sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N07 N08 R02 R03; eval_p05 R10",
+      "semantic_audit": "confirm objects and item range; 甲路 事项1 (挖除树根) is not a 未见实物 item",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P06",
+      "units": [
+        "U10"
+      ],
+      "dimension": "calculation",
+      "weight": 0.05,
+      "value_basis": "computes the reduction: 甲路 selective items 2-14 opinion 1 minus opinion 2 = 18,829,063.61 ≈ 18,829,064; plus 乙路 拦水埂 2,575,913 = 21,404,977",
+      "reasoning_gate": "thirteen item-level subtractions across p26-p30 plus the 乙路 figure; no material states either result",
+      "scope": "grounds region, sub-topic unseen or untitled",
+      "object_key": "unseen.difference_calculation",
+      "source_location": "materials/4.二审判决书.pdf p25-p30 (items 2-14 opinion 1 / opinion 2 amounts), p34-p35, p57-p58; golden/retrial-application.md body p[19]",
+      "relation_predicate": "a span in the unseen argument states the 甲路 items 2-14 difference 18,829,064 and the total 21,404,977",
+      "golden_object_key": "U10",
+      "golden_relation_predicate": "甲路选择性事项2至14差额合计约18,829,064元，乙路拦水埂差额2,575,913元，两项合计约21,404,977元",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "18,829,064 bound to 甲路 and 21,404,977 (±1 yuan or ±10,000 in 万元) with a 差额/合计 relation",
+        "partial": "0.5: only one of the two replayed figures, or the report-total derivation 18,533,212 / 21,109,125",
+        "zero": "other figures, no 未见实物/opinion anchor, or outside the unseen sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N02 N07 R01 R02 R03 R04; eval_p06 R10",
+      "semantic_audit": "replay the 13 subtractions; check rounding claims",
+      "self_report_fields_are_non_authoritative": true,
+      "replay_rule_id": "R04"
+    },
+    {
+      "id": "P07",
+      "units": [
+        "U11"
+      ],
+      "dimension": "calculation",
+      "weight": 0.05,
+      "value_basis": "shows materiality: 21,404,977 is about 17% of the adjudged principal 125,806,738.02",
+      "reasoning_gate": "division against the adjudged principal to argue the error affects the outcome",
+      "scope": "grounds region, sub-topic unseen or untitled",
+      "object_key": "unseen.share_of_principal",
+      "source_location": "materials/4.二审判决书.pdf p59, p62, p71 (尚欠125806738.02元); golden/retrial-application.md body p[19]",
+      "relation_predicate": "one sentence states the reduction is about 17% of the adjudged principal",
+      "golden_object_key": "U11",
+      "golden_relation_predicate": "占原判判付工程款本金125,806,738.02元的约17%",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence",
+        "metric": "one sentence",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "a percentage in [16.5, 17.5] with 125,806,738.02 or 判付/欠付工程款本金",
+        "partial": "none",
+        "zero": "other percentages, no principal anchor, or outside the unseen sub-topic"
+      },
+      "dependencies": [
+        "P06"
+      ],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N02 N04 R02 R03 R04; eval_p07",
+      "semantic_audit": "replay 21,404,977 / 125,806,738.02",
+      "self_report_fields_are_non_authoritative": true,
+      "replay_rule_id": "R04"
+    },
+    {
+      "id": "P08",
+      "units": [
+        "U12"
+      ],
+      "dimension": "legal_reasoning",
+      "weight": 0.05,
+      "value_basis": "the court's '各方面情况可能发生改变 / 可能被破坏' reasoning is speculation substituting for evidence; nothing proves the works once existed",
+      "reasoning_gate": "requires attacking the exact inference in 二审/一审 p51-p52 as presumption replacing proof",
+      "scope": "grounds region, sub-topic unseen or untitled",
+      "object_key": "unseen.speculation_rebuttal",
+      "source_location": "materials/4.二审判决书.pdf p51-p52 (可能发生改变, 质保期内的维护整改), p65, p68-p69; materials/3.被告律师代理意见.docx p[61]; golden/retrial-application.md body p[15]-p[17]",
+      "relation_predicate": "a span names the court's 可能发生改变 inference and characterises it as speculation/presumption lacking evidence",
+      "golden_object_key": "U12",
+      "golden_relation_predicate": "'各方面情况可能发生改变''可能被村民破坏'纯属推测，无任何证据证明相应实物曾经存在",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "object anchor (可能发生改变 / 可能被破坏 / 距交付较长) + unquoted 推测/推定 + lack of evidence",
+        "partial": "0.5: only one of the speculation characterisation and the lack-of-evidence point",
+        "zero": "negated 推测, quoted or attributed, or outside the unseen sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N07 N08 R02 R03; eval_p08",
+      "semantic_audit": "check the object anchor refers to the court's reasoning, not to B公司's own hedge",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P09",
+      "units": [
+        "U13"
+      ],
+      "dimension": "legal_reasoning",
+      "weight": 0.05,
+      "value_basis": "warranty-period repair presupposes built but defective works; it cannot cover works that do not exist",
+      "reasoning_gate": "requires separating the court's 质保期维护整改 rationale from the non-existence fact",
+      "scope": "grounds region, sub-topic unseen or untitled",
+      "object_key": "unseen.warranty_distinction",
+      "source_location": "materials/4.二审判决书.pdf p51-p52; materials/3.被告律师代理意见.docx p[61]; golden/retrial-application.md body p[17]",
+      "relation_predicate": "a span contrasts 质保/保修 repair with non-existent works and states they differ or are confused",
+      "golden_object_key": "U13",
+      "golden_relation_predicate": "'质量保修期内的维护整改'针对工程已建成但存在缺陷，与'现场根本不存在实物'性质迥异，原判混淆",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "质保/保修 + 不存在/未见实物 + unquoted distinction relation",
+        "partial": "none",
+        "zero": "no distinction, conceding repair scope (D11), or outside the unseen sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N07 R02 R03; eval_p09",
+      "semantic_audit": "check the distinction is the author's, not a quoted court sentence",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P10",
+      "units": [
+        "U15"
+      ],
+      "dimension": "evidence_integration",
+      "weight": 0.05,
+      "value_basis": "乙路 audit was completed: 审计报告 核定 328,446,294.68 (审减 33,575,679.36), so the second-instance finding 无审计结论 contradicts the record",
+      "reasoning_gate": "requires joining the audit facts (p17-p18) with the second-instance reasoning (p66-p67) and naming the contradiction",
+      "scope": "grounds region, sub-topic audit or untitled",
+      "object_key": "audit.yilu_audit_completed",
+      "source_location": "materials/4.二审判决书.pdf p17-p18, p66-p67; materials/3.被告律师代理意见.docx p[20]-p[28]; golden/retrial-application.md body p[23]-p[24]",
+      "relation_predicate": "a span of up to three sentences states the 乙路 audit was completed with the 328,446,294.68 核定 figure and that the court's 无审计结论 contradicts it",
+      "golden_object_key": "U15",
+      "golden_relation_predicate": "乙路审计程序已实际完成并有确定核定数额328,446,294.68元，原判认定无审计结论与在案《审计报告》直接矛盾",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next two)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 3
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "乙路 + 审计 + adopted 已完成/核定 + 328,446,294.68 + unquoted contradiction token",
+        "partial": "0.5: completion stated with only one of the replayed amount and the contradiction",
+        "zero": "adopting that 乙路 audit was not completed, quoted only, or outside the audit sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N02 N07 N08 R02 R03 R04; eval_p10 R10",
+      "semantic_audit": "confirm the contradiction targets the court's finding",
+      "self_report_fields_are_non_authoritative": true,
+      "replay_rule_id": "R04"
+    },
+    {
+      "id": "P11",
+      "units": [
+        "U16"
+      ],
+      "dimension": "legal_reasoning",
+      "weight": 0.16,
+      "value_basis": "the engineer's 土建 registration does not by any cited rule invalidate the whole audit report; the county audit is an independent act",
+      "reasoning_gate": "requires testing the court's invalidity inference (p66-p67) against the absence of a specific legal provision",
+      "scope": "grounds region, sub-topic audit or untitled",
+      "object_key": "audit.engineer_qualification",
+      "source_location": "materials/4.二审判决书.pdf p17-p18, p49, p66-p67; materials/3.被告律师代理意见.docx p[14]-p[15]; golden/retrial-application.md body p[25]-p[26]",
+      "relation_predicate": "a span names the qualification defect and states it lacks legal basis to invalidate the audit/审核 report or does not affect the audit report's effect; the qualification and the report are coreferent terms and may be named anywhere in the paragraph (R03), while the relation token must be adopted inside the window",
+      "golden_object_key": "U16",
+      "golden_relation_predicate": "原判未指明规范具体条款，无明确法律规定支持资质瑕疵导致审计报告无效，审计报告效力不当然因审核单位资质瑕疵而消灭",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "注册专业/资质 + 审计报告/审核报告 named anywhere in the paragraph + unquoted lack-of-legal-basis or no-invalidity relation adopted inside the window",
+        "partial": "none",
+        "zero": "adopting that the qualification voids the report, quoted only, or outside the audit sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N07 R02 R03; eval_p11",
+      "semantic_audit": "check the relation is not a quoted court sentence",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P12",
+      "units": [
+        "U17"
+      ],
+      "dimension": "evidence_integration",
+      "weight": 0.05,
+      "value_basis": "the 发包人不正当阻止条件成就 rule needs employer fault; 甲路 audit materials were supplemented by A公司 only in July 2024, so the fault lies with A公司",
+      "reasoning_gate": "requires joining the court's rule (p48, p67-p68) with the finding that A公司 supplemented 甲路 materials in 2024-07 (p18, p67)",
+      "scope": "grounds region, sub-topic audit or untitled",
+      "object_key": "audit.obstruction_rule_inapplicable",
+      "source_location": "materials/4.二审判决书.pdf p18, p48, p67-p68; materials/2.被告关于一审判决事实错误的书面意见.docx p[39]-p[49]; materials/3.被告律师代理意见.docx p[29]-p[34]; golden/retrial-application.md body p[27]-p[28]",
+      "relation_predicate": "a span (inside one paragraph, or a bridged two-paragraph block per R03b) ties the obstruction rule to A公司's late 甲路 submission and states the rule's premise fails; the 甲路 object is bound by the nearest road name before the late token, or by the paragraph's governing road when no road name precedes it (R10d)",
+      "golden_object_key": "U17",
+      "golden_relation_predicate": "该规则须以系发包人原因致未能审计为前提；甲路系被申请人于2024年7月方补充移交审计资料，迟延一方为被申请人而非申请人",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next two)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 3
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "甲路 + A公司 late 补充移交/提交 (2024-07, 迟延, 方, 怠于) + obstruction-rule anchor + unquoted inapplicability",
+        "partial": "0.5: A公司's late 甲路 submission stated without the rule or without the inapplicability conclusion",
+        "zero": "attributing the delay to B公司 (contrary, D05), or outside the audit sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N03 N07 N08 R02 R03; eval_p12 R10",
+      "semantic_audit": "check alias folding (被申请人 -> A公司) and the date",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P13",
+      "units": [
+        "U18"
+      ],
+      "dimension": "downstream_closure",
+      "weight": 0.05,
+      "value_basis": "the fee burden rests on the court's premise that B公司 failed to settle; if that premise falls, the fee burden must be corrected too",
+      "reasoning_gate": "requires carrying the audit ground downstream to the 鉴定费 order (二审 p71)",
+      "scope": "grounds region, sub-topic audit or untitled",
+      "object_key": "audit.fee_premise",
+      "source_location": "materials/4.二审判决书.pdf p71; materials/3.被告律师代理意见.docx p[36]; golden/retrial-application.md body p[29]-p[30]",
+      "relation_predicate": "the filing links the old B-caused settlement/audit premise, the source-supported attack based on A's late or incomplete submission, and the downstream correction of the appraisal-fee burden; equivalent paragraph bridges and reordered clauses are accepted",
+      "golden_object_key": "U18",
+      "golden_relation_predicate": "该归责前提若不成立，则鉴定费由申请人独担的基础随之丧失，亦应一并纠正",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing; conditionals are allowed for this item because the Golden argues counterfactually",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "the filing links the old fee allocation to the B-caused settlement/audit premise, attacks that premise using A's material-submission fault, and carries the result through to a requested fee correction",
+        "partial": "0.75: two linked components including the downstream fee consequence; 0.5: the attacked premise and fee issue are linked but the consequence or source anchor is incomplete; 0.25: only one professionally relevant component is established",
+        "zero": "mere co-occurrence, attribution to the old judgment without attack, or content outside the audit sub-topic"
+      },
+      "dependencies": [
+        "P12"
+      ],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "request-bound source semantic judge; eval_p13",
+      "semantic_audit": "equivalent causal language and paragraph bridges are accepted; conditional phrasing is legitimate",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P14",
+      "units": [
+        "U19"
+      ],
+      "dimension": "contract_interpretation",
+      "weight": 0.05,
+      "value_basis": "the contract's 《某市建设工程造价信息》 is closer in name to the construction commission's 《某市工程造价信息》 than to the transport periodical chosen by the court",
+      "reasoning_gate": "requires textual interpretation of the price-adjustment clause against the two real periodicals (二审 p38-p40, p69-p70)",
+      "scope": "grounds region, sub-topic adjust or untitled",
+      "object_key": "adjust.periodical_name",
+      "source_location": "materials/4.二审判决书.pdf p10, p38, p40, p52-p53, p69-p70; materials/2.被告关于一审判决事实错误的书面意见.docx p[85]-p[87]; materials/3.被告律师代理意见.docx p[63]-p[64]; golden/retrial-application.md body p[32]",
+      "relation_predicate": "a span states the contract name is closer to the 建委 periodical (更相近/更接近/基本一致/高度相似/名称相似/仅一字之差); partial when it only states the 建委/contract periodical 真实存在/客观存在 or the name is a clerical slip (nearest periodical before the token must be 建委)",
+      "golden_object_key": "U19",
+      "golden_relation_predicate": "在名称上，某市建委发布的《某市工程造价信息》与合同约定名称《某市建设工程造价信息》更为相近",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "建委/某市工程造价信息 + 名称/文义 + unquoted closeness relation",
+        "partial": "0.5: only that the 建委 periodical exists or the contract name is a clerical slip",
+        "zero": "adopting the 交委 periodical (contrary, D06), attributed to the appraiser, or outside the adjust sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "request-bound source semantic judge; eval_p14",
+      "semantic_audit": "confirm the relative comparison is the author's and keep existence-only claims partial",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P15",
+      "units": [
+        "U20"
+      ],
+      "dimension": "calculation",
+      "weight": 0.05,
+      "value_basis": "quantifies the interpretive choice: 交委 adds 5,236,264 (甲路) and 5,572,253 (乙路) while 建委 gives negative adjustments (甲路 -2,122,630, 乙路 -466,942), a gap over ten million",
+      "reasoning_gate": "requires pulling the paired figures from the supplementary appraisal (p38-p41) and contrasting them",
+      "scope": "grounds region, sub-topic adjust or untitled",
+      "object_key": "adjust.amount_comparison",
+      "source_location": "materials/4.二审判决书.pdf p38-p41, p53, p56; materials/3.被告律师代理意见.docx p[65]; golden/retrial-application.md body p[32]",
+      "relation_predicate": "the complete comparison binds both roads' positive 交委 adjustments and both roads' negative 建委 adjustments and explains the material difference; correctly bound subsets receive proportional partial credit",
+      "golden_object_key": "U20",
+      "golden_relation_predicate": "采用交委期刊甲路增加5,236,264元、乙路增加5,572,253元，采用建委期刊甲路调减2,122,630元、乙路调减466,942元，两种解释相差13,398,089元",
+      "comparison_mode": "equivalent_set_replay",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing; conditionals are allowed for this item because the Golden argues counterfactually",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "both roads' traffic-publication increases, both roads' construction-publication reductions, and the material route difference are coherently compared",
+        "partial": "0.75: both pricing routes and most road-bound figures are correct; 0.5: both routes are compared but only one road or one aggregate is quantified; 0.25: one correctly bound pricing route is quantified",
+        "zero": "no correct route-bound figure, no comparison, or content outside the adjust sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "request-bound source semantic judge; eval_p15",
+      "semantic_audit": "replay figures against p38-p41 and award proportional credit to correctly bound composite components",
+      "self_report_fields_are_non_authoritative": true,
+      "replay_rule_id": "R04"
+    },
+    {
+      "id": "P16",
+      "units": [
+        "U21"
+      ],
+      "dimension": "contract_interpretation",
+      "weight": 0.05,
+      "value_basis": "the adjusted materials (水泥、河沙、石子、钢筋、混凝土) are general building materials, so the road-project character says little about which periodical applies",
+      "reasoning_gate": "requires reading the clause's material list (p10) against the court's 公路工程 rationale (p53, p70)",
+      "scope": "grounds region, sub-topic adjust or untitled",
+      "object_key": "adjust.general_materials",
+      "source_location": "materials/4.二审判决书.pdf p10, p53, p69-p70; golden/retrial-application.md body p[32]",
+      "relation_predicate": "a span names at least two of the listed materials as general materials with weak link to 公路工程",
+      "golden_object_key": "U21",
+      "golden_relation_predicate": "材料调差针对水泥、河沙、石子、钢筋、混凝土等通用建筑材料价格，与工程是否属公路工程关联有限",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence(+next)",
+        "metric": "consecutive sentences inside one paragraph",
+        "max_units": 2
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "two or more listed materials + 通用/一般 + unquoted weak-link relation",
+        "partial": "none",
+        "zero": "materials listed without the relation, or outside the adjust sub-topic"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N07 R02 R03; eval_p16",
+      "semantic_audit": "check the relation is asserted, not quoted",
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "P17",
+      "units": [
+        "U23"
+      ],
+      "dimension": "procedural_judgment",
+      "weight": 0.07,
+      "value_basis": "a retrial application against a High Court's effective judgment between two companies goes to the court one level up, the Supreme People's Court",
+      "reasoning_gate": "the materials never name the receiving court; the drafter must apply the one-level-up rule",
+      "scope": "closing region (此致 block) or a stand-alone addressee line",
+      "object_key": "closing.receiving_court",
+      "source_location": "materials/4.二审判决书.pdf p1, p73-p74 (某高级人民法院 终审); golden/retrial-application.md body p[35]-p[36]",
+      "relation_predicate": "the addressee line names the Supreme People's Court",
+      "golden_object_key": "U23",
+      "golden_relation_predicate": "此致 最高人民法院",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted affirmatively as B公司's own retrial argument or request",
+      "negative_context_exclusions": "negation inside the clause before the relation token (R02), candidate markers (可能/或许/不排除...), conditionals unless the item allows them, attribution of the clause to A公司, the courts or the appraiser (认为/认定/主张/称), a following rejection of that view, quoted words (N07 masks them so only unquoted relation tokens count), short-fragment lists, lexicon-dense spans and spray paragraphs (R01), and spans outside the item's region or grounds sub-topic (R03) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "paragraph.sentence",
+        "metric": "one sentence",
+        "max_units": 1
+      },
+      "length_contract_id": "S02",
+      "full_partial_zero": {
+        "full": "addressee line equals 最高人民法院/最高院",
+        "partial": "none",
+        "zero": "another court, or only mentioned in prose"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, clause order and numbering are open; placement in the matching region (request / grounds sub-topic / closing) is bound because a retrial application separates 再审请求 from 事实与理由",
+      "program_path": "N08 R03; eval_p17",
+      "semantic_audit": "confirm the line is the addressee",
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "units": [
+        "U01",
+        "U04"
+      ],
+      "trigger": "the application is signed or captioned for A公司 (再审申请人 A/C公司, 被申请人 B公司) or the request adopts 维持原判 / 驳回B公司再审申请",
+      "damage_basis": "an application that argues the adverse side's case is unusable and harms the client",
+      "scope": "party block, request region and signature",
+      "object_key": "document.posture",
+      "source_location": "materials/4.二审判决书.pdf party block p1-p2; golden/retrial-application.md body p[1]-p[3], p[37]",
+      "error_predicate": "party line role reversed, or adopted request to maintain the judgment",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-posture: the author took the wrong side",
+      "damage_instance_key_rule": "posture_reversed",
+      "manifestation_rule": "one per party line or request sentence",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.2,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D02",
+      "units": [
+        "U23"
+      ],
+      "trigger": "the 此致 addressee is a court other than the Supreme People's Court (e.g. 某高级人民法院, 某中级人民法院)",
+      "damage_basis": "a retrial application filed with the wrong court is misdirected (CPL art. 210 one-level-up rule; neither party is a citizen or numerous)",
+      "scope": "closing block",
+      "object_key": "closing.court",
+      "source_location": "materials/4.二审判决书.pdf p1, p73-p74; golden/retrial-application.md body p[35]-p[36]",
+      "error_predicate": "court line after 此致 contains 法院 but not 最高人民法院",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-court",
+      "damage_instance_key_rule": "wrong_receiving_court",
+      "manifestation_rule": "one per closing locator",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D03",
+      "units": [
+        "U03"
+      ],
+      "trigger": "a retrial ground cites a superseded CPL article number (第二百条, 第二百零七条, 第一百九十八条) or the appeal article 第一百七十九条 as the retrial basis",
+      "damage_basis": "citing a repealed numbering misstates the statutory basis of the application",
+      "scope": "whole document",
+      "object_key": "grounds.statutory_basis",
+      "source_location": "materials/1.一审判决书.pdf p63 (第二百六十四条, 2023 numbering); golden/retrial-application.md body p[4]",
+      "error_predicate": "adopted sentence with 再审/民事诉讼法 and §200/§207/§198/§179",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-article-version",
+      "damage_instance_key_rule": "superseded_retrial_article",
+      "manifestation_rule": "one per sentence",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D04",
+      "units": [
+        "U05",
+        "U10"
+      ],
+      "trigger": "the 未见实物 reduction is stated as 19,196,655 or 21,772,568 (report totals including 甲路 事项1 挖除树根, already decided for B公司), or the 乙路 拦水埂 reduction uses 5,510,870 / 6,239,007 / 5,456,461",
+      "damage_basis": "an overstated reduction double counts an item the court already decided in B公司's favour or uses quantities never adjudged",
+      "scope": "request and grounds regions",
+      "object_key": "unseen.reduction_amount",
+      "source_location": "materials/4.二审判决书.pdf p25-p26, p35, p45, p53-p54, p57-p58; golden/retrial-application.md body p[7], p[19]",
+      "error_predicate": "adopted 核减/扣减/差额/合计 sentence with a wrong figure and without the correct replayed figure",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-reduction-amount",
+      "damage_instance_key_rule": "wrong_unseen_reduction_amount",
+      "manifestation_rule": "one per sentence",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.7,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D05",
+      "units": [
+        "U17"
+      ],
+      "trigger": "the application attributes the 甲路 audit delay or non-completion to B公司 / the employer (e.g. 申请人未及时送审导致审计未完成)",
+      "damage_basis": "conceding employer fault validates the court's obstruction rule and the fee burden against the client",
+      "scope": "request and grounds regions",
+      "object_key": "audit.delay_attribution",
+      "source_location": "materials/4.二审判决书.pdf p18, p49, p67-p68; golden/retrial-application.md body p[28]",
+      "error_predicate": "adopted sentence: B公司/发包人 + 原因/过错/怠于/未及时/迟延 + 甲路/审计/送审/结算, not negated",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-delay-concession",
+      "damage_instance_key_rule": "audit_delay_conceded",
+      "manifestation_rule": "one per sentence",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D06",
+      "units": [
+        "U19"
+      ],
+      "trigger": "the application endorses the 交委 periodical (《某市交通工程材料价格信息》) as the correct adjustment basis",
+      "damage_basis": "adopting the court's interpretation abandons a ten-million-yuan argument",
+      "scope": "request and grounds regions",
+      "object_key": "adjust.periodical_choice",
+      "source_location": "materials/4.二审判决书.pdf p52-p53, p69-p70; golden/retrial-application.md body p[32]",
+      "error_predicate": "adopted sentence: 应/按/采用 交委期刊 ... 正确/合理/并无不当/调差, not attributed to the court and not criticised",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-periodical-concession",
+      "damage_instance_key_rule": "periodical_choice_conceded",
+      "manifestation_rule": "one per sentence",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D07",
+      "units": [
+        "U02"
+      ],
+      "trigger": "an identifier the materials mask or omit is invented: an 18-character unified social credit code, digits in a case number where the materials show XXX, or a street number where they show ****",
+      "damage_basis": "fabricated identifiers make the filing unreliable (gap_marker_contract)",
+      "scope": "party block, closing and case numbers",
+      "object_key": "document.fabricated_identifier",
+      "source_location": "materials/1.一审判决书.pdf p1; materials/4.二审判决书.pdf p1-p2; golden/retrial-application.md body p[1]-p[4]",
+      "error_predicate": "credit-code pattern, (20xx)...民终/民初/民申<digits>号, or 住所...路<digits>号",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-fabrication",
+      "damage_instance_key_rule": "fabricated_identifier",
+      "manifestation_rule": "one per paragraph",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.7,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D08",
+      "units": [],
+      "trigger": "a shape unit is outside its tolerance: S01 request region more than 200% longer or 60% shorter, S02 grounds region more than 200% longer or 30% shorter than the Golden",
+      "damage_basis": "a request padded with non-requests or a grounds section far thinner or plainly bloated misstates the application's scope",
+      "scope": "request region and grounds region",
+      "object_key": "shape",
+      "source_location": "golden/retrial-application.md body p[5]-p[10] (S01), p[11]-p[34] (S02)",
+      "error_predicate": "N10 count ratio outside the unit tolerances: S01 [0.40, 3.00], S02 [0.70, 3.00] of max(Golden, floor)",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R09 shape",
+      "damage_instance_key_rule": "document_shape_balance",
+      "manifestation_rule": "request and grounds measurements are separate observations but one document-level structure damage",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D09",
+      "units": [
+        "U01"
+      ],
+      "trigger": "the party block names C公司 (B公司's wholly owning shareholder and co-defendant) as 被申请人",
+      "damage_basis": "C公司 is aligned with B公司; naming it as the adverse respondent misframes the parties",
+      "scope": "party block",
+      "object_key": "front.parties",
+      "source_location": "materials/4.二审判决书.pdf p2, p61, p73; golden/retrial-application.md body p[3]",
+      "error_predicate": "party line 被申请人 ... C公司",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-parties",
+      "damage_instance_key_rule": "co_defendant_as_respondent",
+      "manifestation_rule": "one per party line",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D10",
+      "units": [
+        "U06",
+        "U11"
+      ],
+      "trigger": "an adjudged amount is misquoted: 鉴定费 other than 3,544,566.47 or the adjudged principal other than 125,806,738.02",
+      "damage_basis": "misquoting the dispositive amounts misstates the judgment under attack",
+      "scope": "request and grounds regions",
+      "object_key": "judgment.adjudged_amounts",
+      "source_location": "materials/1.一审判决书.pdf p62-p63; materials/4.二审判决书.pdf p59, p71; golden/retrial-application.md body p[8], p[19], p[30]",
+      "error_predicate": "sentence with 鉴定费 and an amount in [3,000,000, 4,000,000] not equal to 3,544,566.47, or 判付/尚欠/工程款本金 with an amount in [120,000,000, 130,000,000] not equal to 125,806,738.02, or a court-order verb (判付/判令…支付/判决…支付) handing 工程款本金/工程款/工程价款/本金 to an amount other than 125,806,738.02, whatever its magnitude",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-misquote",
+      "damage_instance_key_rule": "misquoted_fee | misquoted_principal",
+      "manifestation_rule": "one per sentence",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.7,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D11",
+      "units": [
+        "U12",
+        "U13"
+      ],
+      "trigger": "the application concedes the 未见实物 works were built and later damaged, or that they fall within warranty-period repair",
+      "damage_basis": "adopting the court's rationale defeats the first retrial ground",
+      "scope": "request and grounds regions",
+      "object_key": "unseen.existence_conceded",
+      "source_location": "materials/4.二审判决书.pdf p51-p52, p57-p58; golden/retrial-application.md body p[17]",
+      "error_predicate": "adopted sentence: 已/确已 施工/实施 ... 被/遭 破坏, or 属于质保期内维护整改问题, not negated or distinguished",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-existence-concession",
+      "damage_instance_key_rule": "unseen_existence_conceded",
+      "manifestation_rule": "one per sentence",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.5,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D12",
+      "units": [
+        "U23"
+      ],
+      "trigger": "a standalone conclusion is added after the completed grounds, or an attachment/material/checklist inventory is added in the signature and closing block",
+      "damage_basis": "a retrial application closes after its completed grounds with the receiving court and signature; a repeated summary or an unproduced enclosure/checklist extends the filing beyond that professional boundary",
+      "scope": "conclusion sub-topic and closing block (此致 to the end of the document)",
+      "object_key": "closing.attachments",
+      "source_location": "golden/retrial-application.md body p[35]-p[39] (此致, 最高人民法院, 再审申请人:B公司, (法定代表人签字/盖章), 二〇二六年 月 日; no attachment list)",
+      "error_predicate": "an explicit 结语/结论 section after the grounds, or a closing-block line opening an attachment, evidence, material or pre-submission verification inventory, including 附件及提交前核验事项",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; omission never triggers",
+      "causal_root_rule": "R-filing-boundary",
+      "damage_instance_key_rule": "out_of_boundary_tail",
+      "manifestation_rule": "all conclusion and post-signature tail manifestations share one boundary damage",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.9,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D13",
+      "units": [
+        "U04"
+      ],
+      "trigger": "the application asserts as its own finding that the adjudged sums are already discharged in full, that the parties' claims are extinguished, or that the case no longer carries a dispute",
+      "damage_basis": "the materials stop at the effective second-instance judgment and record no performance of it; a filing that declares the debt discharged and the case undisputed asserts a fact the record does not carry and moots its own request to have that judgment revoked",
+      "scope": "request region, grounds region and closing block",
+      "object_key": "case.live_controversy",
+      "source_location": "materials/4.二审判决书.pdf p73-p74 (the judgment is effective; no performance is recorded anywhere in the four materials); golden/retrial-application.md body p[6]-p[7], p[34] (the request and the 结语 keep the controversy live)",
+      "error_predicate": "adopted sentence asserting 本案已无争议 / 不存在争议 / 已了结 / 已终结, 双方争议已消除|消灭|解决|不复存在, 债权债务(债务|给付义务|付款义务)已(归于)消灭|清结|了结|终止, or a 全额|全部|足额|如数 清偿|清结|付清|支付完毕|履行完毕 of the sums",
+      "adoption_status": "the error must be asserted affirmatively as the author's adopted position",
+      "negative_context_exclusions": "negation before the key token, candidate markers, conditionals, attribution to A公司 or the courts, quotation (N07), a following rejection and spray spans do not trigger; a partial or instalment payment, 至实际付清之日 and 已实际履行完毕的结算合意 are not a discharge of the whole; omission never triggers",
+      "causal_root_rule": "R-mooted-controversy: the filing asserts away the controversy it exists to keep open",
+      "damage_instance_key_rule": "controversy_declared_over",
+      "manifestation_rule": "one per sentence",
+      "length_contract_id": "S02",
+      "penalty_coefficient": 0.3,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U03",
+      "golden_proposition": "CPL art. 211 items (2) and (6) as statutory basis",
+      "golden_locator": "golden/retrial-application.md body p[4], p[12], p[20], p[31], p[34]",
+      "program_item_ids": [
+        "P01",
+        "D03"
+      ]
+    },
+    {
+      "unit_id": "U04",
+      "golden_proposition": "revoke the second-instance judgment and first-instance item 1",
+      "golden_locator": "golden/retrial-application.md body p[6]",
+      "program_item_ids": [
+        "P02",
+        "D01",
+        "D13"
+      ]
+    },
+    {
+      "unit_id": "U05",
+      "golden_proposition": "request to reduce payable price by 21,404,977 (未见实物 portion) or re-determine by the audit conclusion",
+      "golden_locator": "golden/retrial-application.md body p[7]",
+      "program_item_ids": [
+        "P03",
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U06",
+      "golden_proposition": "appraisal fee 3,544,566.47 not borne by the applicant",
+      "golden_locator": "golden/retrial-application.md body p[8]",
+      "program_item_ids": [
+        "P04",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U09",
+      "golden_proposition": "inspection recorded 未见实物 for 甲路 selective items 2-14 and 乙路 拦水埂; selective opinion 2",
+      "golden_locator": "golden/retrial-application.md body p[13]-p[14]",
+      "program_item_ids": [
+        "P05"
+      ]
+    },
+    {
+      "unit_id": "U10",
+      "golden_proposition": "differences 18,829,064 + 2,575,913 = 21,404,977",
+      "golden_locator": "golden/retrial-application.md body p[19]",
+      "program_item_ids": [
+        "P06",
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U11",
+      "golden_proposition": "about 17% of adjudged principal 125,806,738.02; affects outcome",
+      "golden_locator": "golden/retrial-application.md body p[19]",
+      "program_item_ids": [
+        "P07",
+        "D10"
+      ]
+    },
+    {
+      "unit_id": "U12",
+      "golden_proposition": "可能发生改变 is speculation; no evidence works existed",
+      "golden_locator": "golden/retrial-application.md body p[15]-p[17]",
+      "program_item_ids": [
+        "P08",
+        "D11"
+      ]
+    },
+    {
+      "unit_id": "U13",
+      "golden_proposition": "warranty repair differs from non-existent works",
+      "golden_locator": "golden/retrial-application.md body p[17]",
+      "program_item_ids": [
+        "P09",
+        "D11"
+      ]
+    },
+    {
+      "unit_id": "U15",
+      "golden_proposition": "乙路 audit completed, 核定 328,446,294.68; 无审计结论 contradicts record",
+      "golden_locator": "golden/retrial-application.md body p[23]-p[24]",
+      "program_item_ids": [
+        "P10"
+      ]
+    },
+    {
+      "unit_id": "U16",
+      "golden_proposition": "engineer qualification does not by law void the audit report",
+      "golden_locator": "golden/retrial-application.md body p[25]-p[26]",
+      "program_item_ids": [
+        "P11"
+      ]
+    },
+    {
+      "unit_id": "U17",
+      "golden_proposition": "obstruction rule fails: A公司 supplemented 甲路 materials in 2024-07",
+      "golden_locator": "golden/retrial-application.md body p[27]-p[28]",
+      "program_item_ids": [
+        "P12",
+        "D05"
+      ]
+    },
+    {
+      "unit_id": "U18",
+      "golden_proposition": "fee burden premise falls with the audit ground",
+      "golden_locator": "golden/retrial-application.md body p[29]-p[30]",
+      "program_item_ids": [
+        "P13"
+      ]
+    },
+    {
+      "unit_id": "U19",
+      "golden_proposition": "contract periodical name closer to 建委《某市工程造价信息》",
+      "golden_locator": "golden/retrial-application.md body p[32]",
+      "program_item_ids": [
+        "P14",
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U20",
+      "golden_proposition": "交委 +5,236,264 / +5,572,253 vs 建委 negative (-2,122,630); gap over ten million",
+      "golden_locator": "golden/retrial-application.md body p[32]",
+      "program_item_ids": [
+        "P15"
+      ]
+    },
+    {
+      "unit_id": "U21",
+      "golden_proposition": "adjusted materials are general building materials",
+      "golden_locator": "golden/retrial-application.md body p[32]",
+      "program_item_ids": [
+        "P16"
+      ]
+    },
+    {
+      "unit_id": "U23",
+      "golden_proposition": "addressed to the Supreme People's Court",
+      "golden_locator": "golden/retrial-application.md body p[35]-p[36]",
+      "program_item_ids": [
+        "P17",
+        "D02"
+      ]
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "region": "request",
+      "applicable_item_ids": [
+        "P02",
+        "P03",
+        "P04",
+        "D01",
+        "D07",
+        "D08",
+        "D09"
+      ],
+      "scope": "request region: 再审请求 heading through the last request line before 事实与理由 (N09)",
+      "metric": "non-whitespace characters after N01, headings included, sentences with a gap token excluded (N10)",
+      "golden_value": 288,
+      "declared_floor": 150,
+      "counter": "task_judge.shape_count over request-region paragraphs",
+      "threshold_basis": "task_specific: the request region is an enumeration of reliefs whose length is driven by case numbers and the Golden's explanatory parenthetical, so a legally complete request may be much shorter (under tolerance 0.60); padding the request with argument is charged at the convention band (over tolerance 2.00). The convention band is a customary-length band, not this one Golden's character count: Golden is a compressed reference the solver never sees and neither instruction.md nor the task skill states any length, so the overrun bound is 3x the Golden count and charges only plain bloat, while the underrun bound catches a stub.",
+      "overrun_tolerance_ratio": 2.0,
+      "underrun_tolerance_ratio": 0.6,
+      "deduction_id": "D08"
+    },
+    {
+      "id": "S02",
+      "region": "grounds",
+      "applicable_item_ids": [
+        "P01",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D08",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "scope": "grounds region: 事实与理由 heading through 结语, before 此致 (N09); P01/P17/D02 bind here nominally because the intro and closing lines carry no reasoning length",
+      "metric": "non-whitespace characters after N01, headings included, sentences with a gap token excluded (N10)",
+      "golden_value": 2854,
+      "declared_floor": 1500,
+      "counter": "task_judge.shape_count over grounds-region paragraphs",
+      "threshold_basis": "convention band: the tolerance is a customary-length band, not this one Golden's character count. Golden is a compressed reference the solver never sees and neither instruction.md nor the task skill states any length, so the overrun bound is 3x the Golden count and charges only plain bloat, while the underrun bound catches a stub.",
+      "overrun_tolerance_ratio": 2.0,
+      "underrun_tolerance_ratio": 0.3,
+      "deduction_id": "D08"
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N00",
+        "operation": "Markdown hard-wrapped lines join one paragraph when the previous line lacks sentence-final or label punctuation and the next line is not a heading, list, table, numbered item, bold line or 此致"
+      },
+      {
+        "id": "N01",
+        "operation": "UTF-8 Markdown lines or DOCX body paragraphs (with style names) and table rows; NFKC fold, drop zero-width characters, runs of three or more * become XXX, Markdown heading/list/emphasis marks and table pipes removed (cells joined by colon), 〔〕 to (), all whitespace removed"
+      },
+      {
+        "id": "N02",
+        "operation": "money amounts with 元/万元/亿元/人民币/¥, thousands separators and a leading minus or 负 to one canonical yuan token ¥<value>; values written in 万元/亿元 carry a rounding flag (w)"
+      },
+      {
+        "id": "N03",
+        "operation": "dates YYYY年M月D日, YYYY-M-D, YYYY/M/D, YYYY.M.D and month dates YYYY年M月 to ISO tokens"
+      },
+      {
+        "id": "N04",
+        "operation": "percentages N% or 百分之N to one percent token"
+      },
+      {
+        "id": "N05",
+        "operation": "statute articles 第N条 (Chinese or Arabic numerals) to §N; items 第(N)项 / 第N项 and enumerations 第(二)、(六)项 to itemN tokens"
+      },
+      {
+        "id": "N06",
+        "operation": "declared gap markers and desensitised XXX/YYY/****/___ runs fold into one gap token: a marked value earns nothing, is never charged as fabrication and is excluded from shape counting"
+      },
+      {
+        "id": "N07",
+        "operation": "characters inside quotation marks (ASCII double quotes toggled per paragraph, “”, 「」, ‘’) are masked with a same-length filler; relation and error tokens are searched only in the masked text, object anchors may sit inside quotes"
+      },
+      {
+        "id": "N08",
+        "operation": "role aliases fold to entity keys: 被申请人 -> A公司, 再审申请人/申请人 -> B公司; 最高人民法院/最高院 -> 最高法"
+      },
+      {
+        "id": "N09",
+        "operation": "region and sub-topic: a heading or short line matching 再审请求/请求事项/申请事项 opens the request region, 事实与理由/事实和理由/再审事由(及理由)/再审理由/申请理由/理由如下 opens the grounds region, 此致 opens the closing region, everything before is front; in the request region numbered lines starting with request verbs are items, a numbered or styled line not starting with a request verb opens the grounds region when it carries a ground classifier (缺乏证据证明/适用法律错误/认定事实/§211), or when it is a styled heading (Markdown #, DOCX heading style, bold line) with topic keywords; grounds headings (DOCX Heading N, Markdown #, 一、, (一), whole bold line) carry sub-topics by keywords: unseen (未见实物/无实物/勘验/拦水埂/工程量), audit (审计/结算依据/司法鉴定/启动鉴定/鉴定费/阻止条件), adjust (调差/价格信息/造价信息/期刊/材料价格), conclusion (结语/结论/综上); a heading without keywords inherits its parent's topics; paragraphs inherit the nearest heading"
+      },
+      {
+        "id": "N10",
+        "operation": "shape counter: non-whitespace characters of all paragraphs of a region after N01, headings included, excluding sentences containing a gap token"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "spray: a raw line of eight or more short whitespace/comma fragments (spaced numbers merged first), a paragraph over 700 characters, a sentence of seven or more short enumerated fragments, a sentence whose unquoted non-entity characters are at least 60% task lexicon, or more than four distinct amounts or three percentages in one sentence cannot be adopted"
+      },
+      {
+        "id": "R02",
+        "operation": "adoption: a span is not adopted when a negation precedes the relation token inside its clause (item-specific window), the sentence carries candidate markers, a conditional precedes the token (unless the item allows conditionals), the clause (or the preceding clause ending in a reporting verb) is attributed to A公司, the courts or the appraiser, or a rejection of that view follows; a 维持 token preceded in its own sentence by 撤销/改判/变更/核减 delimits the scope of the demanded revision and is not an adopted contrary posture (D01 and P02 alike)"
+      },
+      {
+        "id": "R03",
+        "operation": "scope: each P scans consecutive sentences inside one paragraph (span 1-3 per contract) in its region and grounds sub-topic (untitled grounds allowed; headings with three or more topics excluded); matches elsewhere only count as misplaced and earn nothing; P12 and P13 additionally read a bridged two-paragraph block (R03b): a non-heading grounds paragraph opening with a continuation connective (在此基础上/基于上述/基于此/据此/由此) or with an anaphoric back-reference to the preceding paragraph's proposition (该/此/上述/前述/这一 + …认定/归责/理由/结论/规则) joined to the immediately preceding non-heading paragraph of the same region and sub-topic, still within the item's own window (three sentences for P12, two for P13); for P11 the two coreferent gate terms (资质/注册专业/造价工程师 and 审计报告/审核报告) resolve at paragraph scope, while the relation token must still be adopted inside the window"
+      },
+      {
+        "id": "R04",
+        "operation": "amount replay: 甲路 selective items 2-14 sum(opinion 1 - opinion 2) = 18,829,063.61; plus 乙路 拦水埂 2,575,913 = 21,404,976.61; report-total derivation 18,533,212 / 21,109,125 is partial; 21,404,976.61 / 125,806,738.02 = 17.0%; 交委 5,236,264 + 5,572,253 = 10,808,517; 建委 -2,122,630 + -466,942 = -2,589,572; 乙路 核定 328,446,294.68; a stated amount matches within 1 yuan, or 10,000 yuan when written in 万元/亿元"
+      },
+      {
+        "id": "R05",
+        "operation": "party-line predicates on the unaliased N01 text: 再审申请人 followed by A公司/C公司, 被申请人 followed by B公司 (D01) or C公司 (D09)"
+      },
+      {
+        "id": "R06",
+        "operation": "fabrication predicates on the N01 text: an 18-character credit-code pattern in front/closing lines, (20xx)…民终/民初/民申<digits>号, or 住所/地址…路/街/道<digits>号 in the front region"
+      },
+      {
+        "id": "R07",
+        "operation": "concession predicates (D05, D06, D11) require an adopted, unquoted, non-negated sentence and exclude sentences that attribute the view to the court or criticise it within twelve characters"
+      },
+      {
+        "id": "R08",
+        "operation": "settle: adopted hits beside an adopted contrary proposition make the item ambiguous (zero); otherwise the best fraction over hit spans counts; misplaced-only matches earn zero"
+      },
+      {
+        "id": "R09",
+        "operation": "shape: ratio = C_u / max(G_u, declared_floor_u); overrun when ratio > 1 + overrun_tolerance_ratio, underrun when ratio < 1 - underrun_tolerance_ratio (S01 0.50/0.60 task-specific, S02 0.15/0.30 default); section measurements are separate manifestations of one document_shape_balance damage; a missing region is omission and never charged"
+      },
+      {
+        "id": "R10",
+        "operation": "object binding: an item token (事项2至14, 拦水埂, late 补充移交) or replayed amount (18,829,064; 328,446,294.68; 5,236,264 / 5,572,253; -2,122,630 / -466,942) counts only when the nearest road name (甲路/乙路) within 30-90 characters before it is the expected road; for item tokens only (P05 事项/拦水埂, P12 late 移交; never for a replayed amount) a paragraph's governing road binds a token that no road name precedes anywhere in the span - the governing road is the single road named by the paragraph's topic sentence, else the single road named by the nearest enclosing grounds heading, and a paragraph whose topic sentence and heading each name both roads or neither has none (R10d); an amount whose clause carries 没有/并非/不是/并无/不存在/并不 before it is not asserted; the P14 closeness token counts only when the nearest periodical named before it is the 建委 periodical; P14 closer and exists hits count only when the nearest periodical named in the preceding 60 characters is the 建委 periodical (建委/某市工程造价信息, and for exists also the contract name 某市建设工程造价信息); P15 also accepts an unsigned 建委 amount (2,589,572 sum, 2,122,630 bound 甲路, 466,942 bound 乙路) preceded within six characters by 扣减/核减/调减/减少, whose verb carries the negative sign (R10c); P10 completion token 核定 does not match inside the document name 审核定案表 (R10b)"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "package_id": "03_上诉与再审申请/根据案件材料为原审被告生成再审申请书",
+  "deliverable": {
+    "public_carrier": "artifacts/retrial-application.md (Markdown, Chinese)",
+    "golden_carrier": "golden/retrial-application.md"
+  },
+  "golden_deliverable": "retrial-application.md",
+  "unscored_golden_units": [
+    {
+      "unit_id": "U00",
+      "disposition": "not_scored",
+      "reason": "title 民事再审申请书 is format"
+    },
+    {
+      "unit_id": "U01",
+      "disposition": "not_scored",
+      "reason": "party block (names, roles, addresses, legal representatives) is copied from the judgments; only reversal (D01) and C公司 as respondent (D09) are charged"
+    },
+    {
+      "unit_id": "U02",
+      "disposition": "not_scored",
+      "reason": "统一社会信用代码 **** and street numbers **** are masked in every material; underspecified gap unit (N06 folds ****/XXX and declared markers); inventing a value is D07"
+    },
+    {
+      "unit_id": "U07",
+      "disposition": "not_scored",
+      "reason": "request 4 (litigation costs borne by the respondent) is boilerplate"
+    },
+    {
+      "unit_id": "U08",
+      "disposition": "warning_only",
+      "reason": "fallback request to remand for retrial is a standard alternative; recorded as a warning only, no credit"
+    },
+    {
+      "unit_id": "U14",
+      "disposition": "not_scored",
+      "reason": "contract clause 以审计结果作为最终结算价 is quoted verbatim from 二审 p11; copying earns nothing (its use is scored through P10-P13)"
+    },
+    {
+      "unit_id": "U22",
+      "disposition": "evaluated_as_boundary_damage",
+      "reason": "a standalone conclusion after completed grounds is evaluated by D12 because the required professional filing boundary proceeds directly to 此致 and signature"
+    },
+    {
+      "unit_id": "U24",
+      "disposition": "not_scored",
+      "reason": "signature and blank date 二〇二六年 月 日: filing logistics; a marker or blank is neutral"
+    },
+    {
+      "unit_id": "U25",
+      "disposition": "warning_only",
+      "reason": "Golden page citations (判决书第57页 etc.) point to the 二审 PDF pages; page references are not scored because carriers paginate differently"
+    }
+  ],
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[待填写]",
+      "【待填写】",
+      "[待核实]",
+      "【待核实】",
+      "[待定]",
+      "【待定】",
+      "[placeholder]",
+      "材料未提供",
+      "未提供",
+      "待补充",
+      "待填写",
+      "待核实",
+      "unspecified",
+      "TBD",
+      "XXX",
+      "****"
+    ],
+    "normalization_rule_id": "N06",
+    "fabrication_deduction_ids": [
+      "D07"
+    ],
+    "gap_unit_id": "U02",
+    "note": "the unified social credit codes and street numbers are masked (****) in every material; a marked value earns no credit and no deduction, an invented value triggers D07"
+  },
+  "golden_scores": {
+    "program": {
+      "positive_earned": 1,
+      "retention_multiplier": 1,
+      "penalty_rate": 0,
+      "score_loss": 0,
+      "final_score": 1
+    }
+  },
+  "instruction_review": {
+    "status": "unchanged",
+    "sentences": 3,
+    "basis": "names the four materials, the drafting role (first-instance defendant whose opinions are provided), the work (retrial application against the effective second-instance judgment) and the Markdown deliverable; no method, grounds, amounts or receiving court are leaked"
+  }
+}

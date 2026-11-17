@@ -1,0 +1,3 @@
+name = "sluice-rebar-load-review"
+description = "Original-format engineering calculation report for structural review"
+files = ["materials/full_report_original.pdf"]

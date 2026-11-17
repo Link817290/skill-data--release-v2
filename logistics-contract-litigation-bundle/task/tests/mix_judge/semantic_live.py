@@ -234,7 +234,7 @@ def measure(submission, destination, task):
     token = os.environ.get("LLM_JUDGE_API_KEY", "")
     if not url or not token:
         raise RuntimeError("Fresh semantic measurement requires LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY")
-    endpoint = url + ("/responses" if url.endswith("/v1") else "/v1/responses")
+    endpoint = url if url.endswith("/responses") else url + ("/responses" if url.endswith("/v1") else "/v1/responses")
     timeout = int(os.environ.get("LLM_JUDGE_TIMEOUT_SECONDS", "300"))
     last_error = None
     for attempt in range(3):

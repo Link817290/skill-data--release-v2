@@ -1,0 +1,264 @@
+{
+  "items": [
+    {
+      "id": "AP-01",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 24, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"approval cannot close while binding reproducibility issues remain\", \"finding\": \"Retain the overall approval disposition at REVIEW until the linked calculation-chain blockers are closed.\", \"formula\": null, \"observed\": \"reported comparisons close, but multiple calculation-chain and applicability inputs remain unresolved\", \"row_id\": \"AP-01\", \"source\": \"§2.4.1, Tables 2.4-4 through 2.4-14\", \"status\": \"REVIEW\", \"subject\": \"Overall structural approval disposition\"}"
+      ],
+      "reason": "The candidate assigns REVIEW to the overall structural approval disposition, states that approval remains open because calculation-chain and applicability inputs are unresolved despite reported comparisons closing, and cites §2.4.1 and Tables 2.4-4 through 2.4-14."
+    },
+    {
+      "id": "AP-02",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 25, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"reported comparison and independent factor reproduction are separate approval layers\", \"finding\": \"The displayed comparison passes, but the supplied report does not expose the inputs needed to reproduce the factor.\", \"formula\": null, \"observed\": \"reported Kc includes 1.42 against 1.08; resisting and driving components and combination coefficients are absent\", \"row_id\": \"AP-02\", \"source\": \"§2.4.1, Table 2.4-4\", \"status\": \"REVIEW\", \"subject\": \"Edge-pier stability calculation reproducibility\"}"
+      ],
+      "reason": "The edge-pier row adopts REVIEW, distinguishes the passing reported 1.42-to-1.08 comparison from independent reproduction, identifies the missing resisting/driving components and combination coefficients, and cites §2.4.1, Table 2.4-4."
+    },
+    {
+      "id": "AP-03",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 26, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"reported comparison and independent factor reproduction are separate approval layers\", \"finding\": \"The displayed comparisons do not provide an independently reproducible stability calculation.\", \"formula\": null, \"observed\": \"reported Kc includes 2.03 against 1.08; resisting and driving components and combination coefficients are absent\", \"row_id\": \"AP-03\", \"source\": \"§2.4.1, Table 2.4-6\", \"status\": \"REVIEW\", \"subject\": \"Central-pier stability calculation reproducibility\"}"
+      ],
+      "reason": "The central-pier row adopts REVIEW, records 2.03 against 1.08 while identifying absent factor inputs needed for independent reproduction, and cites §2.4.1, Table 2.4-6."
+    },
+    {
+      "id": "AP-04",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 27, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"reported comparison and independent factor reproduction are separate approval layers\", \"finding\": \"The reported factor-to-allowance comparison closes, but the calculation chain cannot be reproduced.\", \"formula\": null, \"observed\": \"reported sliding factor includes 1.34 against 1.08; underlying action and resistance components are absent\", \"row_id\": \"AP-04\", \"source\": \"§2.4.1, Table 2.4-10\", \"status\": \"REVIEW\", \"subject\": \"Left retaining-wall stability calculation reproducibility\"}"
+      ],
+      "reason": "The left retaining-wall row adopts REVIEW, states that the reported 1.34-to-1.08 comparison closes but action and resistance components are absent, and cites §2.4.1, Table 2.4-10."
+    },
+    {
+      "id": "AP-05",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 28, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"reported comparison and independent factor reproduction are separate approval layers\", \"finding\": \"The reported factor-to-allowance comparison closes, but the calculation chain cannot be reproduced.\", \"formula\": null, \"observed\": \"reported sliding factor includes 2.16 against 1.08; underlying action and resistance components are absent\", \"row_id\": \"AP-05\", \"source\": \"§2.4.1, Table 2.4-11\", \"status\": \"REVIEW\", \"subject\": \"Right retaining-wall stability calculation reproducibility\"}"
+      ],
+      "reason": "The right retaining-wall row adopts REVIEW, states that the reported 2.16-to-1.08 comparison closes but action and resistance components are absent, and cites §2.4.1, Table 2.4-11."
+    },
+    {
+      "id": "AP-06",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 29, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"reported comparison, dash applicability, and independent reproduction must close separately\", \"finding\": \"Neither the completed-case dash nor the numerical factor chain is sufficiently supported for approval closure.\", \"formula\": null, \"observed\": \"reported Kc includes 3.01 against 1.05; completed-case factor is a dash; underlying factor inputs are absent\", \"row_id\": \"AP-06\", \"source\": \"§2.4.1, Table 2.4-14\", \"status\": \"REVIEW\", \"subject\": \"Spillway stability calculation reproducibility\"}"
+      ],
+      "reason": "The spillway row adopts REVIEW and separately identifies the reported 3.01-to-1.05 comparison, the completed-case dash, and absent factor inputs, with the required §2.4.1, Table 2.4-14 location."
+    },
+    {
+      "id": "AP-07",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 30, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"member classification must govern the selected crack-width limit\", \"finding\": \"Do not promote the favorable crack comparisons to final approval until member exposure assignments are documented.\", \"formula\": null, \"observed\": \"0.30 mm and 0.25 mm limits are stated, but Table 2.4-9 does not identify each member exposure class\", \"row_id\": \"AP-07\", \"source\": \"§2.2.4.5 and Table 2.4-9\", \"status\": \"REVIEW\", \"subject\": \"Member-specific serviceability approval chain\"}"
+      ],
+      "reason": "The candidate keeps member-specific serviceability approval at REVIEW because the stated 0.30 mm and 0.25 mm limits are not tied to member exposure classes in Table 2.4-9, citing §2.2.4.5 and that table."
+    },
+    {
+      "id": "AP-08",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 31, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"a summary conclusion cannot override open row-level applicability or reproducibility\", \"finding\": \"The favorable narrative is insufficient to close the unresolved scope and reproducibility findings.\", \"formula\": null, \"observed\": \"the narrative states stability is satisfied while factor inputs are absent and completed-case entries include dashes\", \"row_id\": \"AP-08\", \"source\": \"§2.4.1 narrative and Tables 2.4-4, 2.4-6, and 2.4-14\", \"status\": \"REVIEW\", \"subject\": \"Favorable stability narrative versus unresolved evidence\"}"
+      ],
+      "reason": "The candidate adopts REVIEW and expressly concludes that the favorable stability narrative cannot close unresolved dash applicability and missing factor-input issues, citing the §2.4.1 narrative and Tables 2.4-4, 2.4-6, and 2.4-14."
+    },
+    {
+      "id": "AP-09",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 32, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"each blocker must identify its affected check and missing closure evidence\", \"finding\": \"Issue closure requires factor inputs, member exposure assignments, matching provided/demand reinforcement evidence, and an anti-uplift criterion before approval.\", \"formula\": null, \"observed\": \"open items affect stability reproduction, member exposure, reinforcement demand/provided matching, and anti-uplift approval\", \"row_id\": \"AP-09\", \"source\": \"§2.4.1, Tables 2.4-4 through 2.4-14, and §2.2.4.5\", \"status\": \"REVIEW\", \"subject\": \"Appr",
+        "oval blocker dependency closure\"}"
+      ],
+      "reason": "The approval-blocker row adopts REVIEW and identifies the affected closure evidence as factor inputs, exposure assignments, reinforcement demand/provided matching, and an anti-uplift criterion, with the specified broad report locations."
+    },
+    {
+      "id": "CL-01",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 23, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"the selected limit must be bound to the member environment\", \"finding\": \"General material and exposure provisions are traceable, but they do not assign each reviewed member to an exposure class.\", \"formula\": null, \"observed\": \"C30 is stated; class-II 0.30 mm and class-III 0.25 mm crack provisions are stated; member assignments are absent\", \"row_id\": \"CL-01\", \"source\": \"§2.2.4.5, Table 2.2-3, and Table 2.4-9\", \"status\": \"REVIEW\", \"subject\": \"Material and member-specific environment traceability\"}"
+      ],
+      "reason": "The candidate adopts REVIEW for material and environment traceability, records C30 and both crack limits, identifies absent member-specific exposure assignments, and cites §2.2.4.5, Table 2.2-3, and Table 2.4-9."
+    },
+    {
+      "id": "LC-01",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 2, \"_row_formulas\": [{\"calculated\": 0.34, \"column\": 9, \"expression\": \"=MIN(1.42-1.08,1.96-1.08,1.63-1.08,1.57-1.08,1.54-1.03,1.84-1.03,1.67-1.03,1.57-1)\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"Each applicable Kc >= allowance\", \"finding\": \"The reported factors meet their case-specific allowances.\", \"formula\": \"=MIN(1.42-1.08,1.96-1.08,1.63-1.08,1.57-1.08,1.54-1.03,1.84-1.03,1.67-1.03,1.57-1)\", \"observed\": \"Kc 1.42, 1.96, 1.63, 1.57, 1.54, 1.84, 1.67, 1.57; allowances 1.08, 1.08, 1.08, 1.08, 1.03, 1.03, 1.03, 1.00\", \"row_id\": \"LC-01\", \"source\": \"§2.4, Table 2.4-4\", \"status\": \"PASS\", \"s",
+        "ubject\": \"Edge pier anti-sliding factors\"}"
+      ],
+      "reason": "The edge-pier anti-sliding row reports all eight Kc values and allowances, evaluates their minimum margin with a formula, adopts PASS, and cites §2.4, Table 2.4-4."
+    },
+    {
+      "id": "LC-02",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 3, \"_row_formulas\": [{\"calculated\": true, \"column\": 9, \"expression\": \"=243.68<=500\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"allowable 500 kPa\", \"finding\": \"The maximum reported bearing stress is below the stated allowable value.\", \"formula\": \"=243.68<=500\", \"observed\": \"max 243.68 kPa\", \"row_id\": \"LC-02\", \"source\": \"§2.4, Table 2.4-4\", \"status\": \"PASS\", \"subject\": \"Edge pier maximum bearing stress\"}"
+      ],
+      "reason": "The edge-pier bearing-stress row formulaically checks 243.68 kPa against 500 kPa, adopts PASS, and cites §2.4, Table 2.4-4."
+    },
+    {
+      "id": "LC-03",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 4, \"_row_formulas\": [{\"calculated\": 0.41, \"column\": 9, \"expression\": \"=MIN(2.03-1.08,4.78-1.08,2.88-1.08,4.35-1.03,1.86-1.03,1.41-1)\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"Each applicable Kc >= allowance\", \"finding\": \"The reported central-pier factors meet the allowances shown for each case.\", \"formula\": \"=MIN(2.03-1.08,4.78-1.08,2.88-1.08,4.35-1.03,1.86-1.03,1.41-1)\", \"observed\": \"Kc 2.03, 4.78, 2.88, 4.35, 1.86, 1.41; allowances 1.08, 1.08, 1.08, 1.03, 1.03, 1.00\", \"row_id\": \"LC-03\", \"source\": \"§2.4, Table 2.4-6\", \"status\": \"PASS\", \"subject\": \"Central pier anti-sliding factors\"}"
+      ],
+      "reason": "The central-pier anti-sliding row reports all six Kc values and allowances, evaluates their minimum margin with a formula, adopts PASS, and cites §2.4, Table 2.4-6."
+    },
+    {
+      "id": "LC-04",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 5, \"_row_formulas\": [{\"calculated\": true, \"column\": 9, \"expression\": \"=210.66<=500\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"allowable 500 kPa\", \"finding\": \"The worst reported central-pier bearing stress remains below the allowable value.\", \"formula\": \"=210.66<=500\", \"observed\": \"max 210.66 kPa\", \"row_id\": \"LC-04\", \"source\": \"§2.4, Table 2.4-6\", \"status\": \"PASS\", \"subject\": \"Central pier maximum bearing stress\"}"
+      ],
+      "reason": "The central-pier bearing-stress row formulaically checks 210.66 kPa against 500 kPa, adopts PASS, and cites §2.4, Table 2.4-6."
+    },
+    {
+      "id": "LC-05",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 6, \"_row_formulas\": [{\"calculated\": 682.95, \"column\": 9, \"expression\": \"=322.75+360.2\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"downward = 322.75 + 360.20; upward = 331.94\", \"finding\": \"The downward subtotal closes to the two listed downward actions and the upward subtotal is carried separately.\", \"formula\": \"=322.75+360.2\", \"observed\": \"downward 682.95 kN; upward 331.94 kN\", \"row_id\": \"LC-05\", \"source\": \"§2.4, Table 2.4-8\", \"status\": \"PASS\", \"subject\": \"Small base vertical-force subtotal\"}"
+      ],
+      "reason": "The small-base vertical-force row calculates 322.75 + 360.20 = 682.95 kN, separately records 331.94 kN upward, adopts PASS, and cites §2.4, Table 2.4-8."
+    },
+    {
+      "id": "LC-06",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 7, \"_row_formulas\": [{\"calculated\": 574.48, \"column\": 9, \"expression\": \"=899.78+(-325.3)\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"signed sum = resultant\", \"finding\": \"The uplift moment is retained with its negative sign and the signed sum matches the reported resultant.\", \"formula\": \"=899.78+(-325.3)\", \"observed\": \"water 899.78 kN·m; uplift -325.30 kN·m; resultant 574.48 kN·m\", \"row_id\": \"LC-06\", \"source\": \"§2.4, Table 2.4-8\", \"status\": \"PASS\", \"subject\": \"Small base signed moment balance\"}"
+      ],
+      "reason": "The small-base moment row retains uplift as -325.30 kN·m and formulaically obtains 574.48 kN·m from 899.78 + (-325.30), adopts PASS, and cites §2.4, Table 2.4-8."
+    },
+    {
+      "id": "LC-07",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 8, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"Applicability must be stated before treating dash as zero or pass\", \"finding\": \"A dash is not a numeric zero; the report does not give a member-specific explanation for this omitted factor, so the scope basis remains open.\", \"formula\": null, \"observed\": \"Kc shown as '-' for the completed case in Table 2.4-4\", \"row_id\": \"LC-07\", \"source\": \"§2.4, text before Tables 2.4-4 to 2.4-6\", \"status\": \"REVIEW\", \"subject\": \"Load-case scope for a dash entry\"}"
+      ],
+      "reason": "The candidate adopts REVIEW for the completed-case Kc dash, explicitly refuses to treat it as zero or passing without a member-specific applicability basis, and cites the text before Tables 2.4-4 to 2.4-6 in §2.4."
+    },
+    {
+      "id": "RF-01",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 15, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"Aprovided >= 2143 mm²/m\", \"finding\": \"The demand is disclosed, but the report does not provide a corresponding bar arrangement or area for this location.\", \"formula\": null, \"observed\": \"required 2143 mm² per metre; provided arrangement not stated\", \"row_id\": \"RF-01\", \"source\": \"§2.4, after Table 2.4-5\", \"status\": \"REVIEW\", \"subject\": \"Edge-pier toe reinforcement demand\"}"
+      ],
+      "reason": "The edge-pier toe row adopts REVIEW, states the 2143 mm²/m demand and absence of a provided arrangement, requires provided area to meet that demand, and cites §2.4 after Table 2.4-5."
+    },
+    {
+      "id": "RF-02",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 16, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"Aprovided >= 4888 mm²\", \"finding\": \"The required area is stated without a matching provided-steel record, so adequacy cannot be closed.\", \"formula\": null, \"observed\": \"required 4888 mm²; provided arrangement not stated\", \"row_id\": \"RF-02\", \"source\": \"§2.4, after Table 2.4-5\", \"status\": \"REVIEW\", \"subject\": \"Edge-pier rib reinforcement demand\"}"
+      ],
+      "reason": "The edge-pier rib row adopts REVIEW, states the 4888 mm² demand and absence of matching provided steel, and cites §2.4 after Table 2.4-5."
+    },
+    {
+      "id": "RF-03",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 17, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"Aprovided >= 1725 mm²/m\", \"finding\": \"The per-metre demand is present but the supplied report does not state the provided arrangement for this strip.\", \"formula\": null, \"observed\": \"required 1725 mm² per metre; provided arrangement not stated\", \"row_id\": \"RF-03\", \"source\": \"§2.4, after Table 2.4-7\", \"status\": \"REVIEW\", \"subject\": \"Central-pier strip reinforcement demand\"}"
+      ],
+      "reason": "The central-pier strip row adopts REVIEW, states the 1725 mm²/m demand and absence of a provided arrangement, and cites §2.4 after Table 2.4-7."
+    },
+    {
+      "id": "RF-04",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 18, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"Aprovided >= 2400 mm²/m\", \"finding\": \"The base demand is disclosed but no corresponding provided area is supplied.\", \"formula\": null, \"observed\": \"required 2400 mm² per metre; provided arrangement not stated\", \"row_id\": \"RF-04\", \"source\": \"§2.4, after Table 2.4-7\", \"status\": \"REVIEW\", \"subject\": \"Central-pier base reinforcement demand\"}"
+      ],
+      "reason": "The central-pier base row adopts REVIEW, states the 2400 mm²/m demand and absence of a corresponding provided area, and cites §2.4 after Table 2.4-7."
+    },
+    {
+      "id": "RF-05",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 19, \"_row_formulas\": [{\"calculated\": 1884.95559215388, \"column\": 9, \"expression\": \"=6*PI()*20^2/4\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"compare provided area with the governing demand\", \"finding\": \"Bar marks can be converted to an area, but the report gives no required area or governing action for the beam rows; capacity is therefore not demonstrated.\", \"formula\": \"=6*PI()*20^2/4\", \"observed\": \"bar marks shown (for example 6D20/12D28); required steel or design action not stated\", \"row_id\": \"RF-05\", \"source\": \"§2.4, Table 2.4-9\", \"status\": \"REVIEW\", \"subject\": \"Machine-bridge beam",
+        " reinforcement capacity\"}"
+      ],
+      "reason": "The machine-bridge beam row calculates a mechanical area from the shown bar mark but adopts REVIEW because required steel or governing action is absent, preventing the required provided-versus-demand comparison; it cites §2.4, Table 2.4-9."
+    },
+    {
+      "id": "RF-06",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 20, \"_row_formulas\": [{\"calculated\": 9817.4770424681, \"column\": 9, \"expression\": \"=20*PI()*25^2/4\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"compare provided area with the governing demand\", \"finding\": \"The bar mark yields a mechanical area, but the required area and governing action are absent, so adequacy remains open.\", \"formula\": \"=20*PI()*25^2/4\", \"observed\": \"20D25 shown; required steel or design action not stated\", \"row_id\": \"RF-06\", \"source\": \"§2.4, Table 2.4-9\", \"status\": \"REVIEW\", \"subject\": \"Rack-column reinforcement capacity\"}"
+      ],
+      "reason": "The rack-column row calculates the area of 20D25 but adopts REVIEW because required area and governing action are absent, preventing a capacity comparison; it cites §2.4, Table 2.4-9."
+    },
+    {
+      "id": "RF-07",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 21, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"provided area must be compared at each location\", \"finding\": \"The report lists demands for the left wing wall but not the corresponding provided steel at those locations.\", \"formula\": null, \"observed\": \"toe 1522 mm²/m; heel/face 1200 mm²; rib 4608 mm²; provided arrangements not stated\", \"row_id\": \"RF-07\", \"source\": \"§2.4, after Table 2.4-13\", \"status\": \"REVIEW\", \"subject\": \"Left-wing-wall reinforcement demand\"}"
+      ],
+      "reason": "The left-wing-wall row adopts REVIEW, lists the toe, heel/face, and rib demands, identifies absent provided arrangements at those locations, and cites §2.4 after Table 2.4-13."
+    },
+    {
+      "id": "RF-08",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 22, \"_row_formulas\": [], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"provided area must be compared at each location\", \"finding\": \"The report lists right-wing-wall demands but omits the matching provided arrangements.\", \"formula\": null, \"observed\": \"toe 750 mm²/m; heel 910 mm²; upright 965 mm²; provided arrangements not stated\", \"row_id\": \"RF-08\", \"source\": \"§2.4, after Table 2.4-13\", \"status\": \"REVIEW\", \"subject\": \"Right-wing-wall reinforcement demand\"}"
+      ],
+      "reason": "The right-wing-wall row adopts REVIEW, lists the toe, heel, and upright demands, identifies absent matching provided arrangements, and cites §2.4 after Table 2.4-13."
+    },
+    {
+      "id": "SV-01",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 9, \"_row_formulas\": [{\"calculated\": 0.19, \"column\": 9, \"expression\": \"=MAX(0.19,0.15,0.15,0.13,0.16)\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"member exposure must be identified before selecting the governing crack limit\", \"finding\": \"The listed widths are below both stated limits, but the table does not bind each member to an exposure class, so final approval remains open.\", \"formula\": \"=MAX(0.19,0.15,0.15,0.13,0.16)\", \"observed\": \"0.19, 0.15, 0.15, 0.13, 0.16 mm; class-II 0.30 mm and class-III 0.25 mm limits\", \"row_id\": \"SV-01\", \"source\": \"§2.4, Table 2.4-9 and §2.2.4.5\", \"status\":",
+        " \"REVIEW\", \"subject\": \"Machine-bridge beam crack widths and exposure assignment\"}"
+      ],
+      "reason": "The machine-bridge beam row formulaically finds the maximum listed crack width, records all widths and both exposure-class limits, but adopts REVIEW because members are not assigned to exposure classes; it cites Table 2.4-9 and §2.2.4.5."
+    },
+    {
+      "id": "SV-02",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 10, \"_row_formulas\": [{\"calculated\": true, \"column\": 9, \"expression\": \"=MAX(27.8,28.6,27.6,4.7,4.3)<=33\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"L/400 = 33 mm\", \"finding\": \"The maximum listed beam deflection is below the table's stated 33 mm allowance.\", \"formula\": \"=MAX(27.8,28.6,27.6,4.7,4.3)<=33\", \"observed\": \"27.8, 28.6, 27.6, 4.7, 4.3 mm\", \"row_id\": \"SV-02\", \"source\": \"§2.4, Table 2.4-9\", \"status\": \"PASS\", \"subject\": \"Machine-bridge beam deflections\"}"
+      ],
+      "reason": "The machine-bridge beam row formulaically checks all five listed deflections, including the 28.6 mm maximum, against the 33 mm L/400 allowance, adopts PASS, and cites §2.4, Table 2.4-9."
+    },
+    {
+      "id": "SV-03",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 11, \"_row_formulas\": [{\"calculated\": 0.01, \"column\": 9, \"expression\": \"=0.01\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"member exposure must be identified before selecting the governing crack limit\", \"finding\": \"The numeric width is below both stated limits, but the member-specific exposure assignment is absent.\", \"formula\": \"=0.01\", \"observed\": \"0.01 mm; class-II 0.30 mm and class-III 0.25 mm limits\", \"row_id\": \"SV-03\", \"source\": \"§2.4, Table 2.4-9 and §2.2.4.5\", \"status\": \"REVIEW\", \"subject\": \"Bridge slab crack width and exposure assignment\"}"
+      ],
+      "reason": "The bridge-slab row records the formula-resolved 0.01 mm crack width and both class limits but adopts REVIEW because the slab's exposure assignment is absent; it cites Table 2.4-9 and §2.2.4.5."
+    },
+    {
+      "id": "SV-04",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 12, \"_row_formulas\": [{\"calculated\": true, \"column\": 9, \"expression\": \"=0.13<=33\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"L/400 = 33 mm\", \"finding\": \"The listed slab deflection is below the table allowance.\", \"formula\": \"=0.13<=33\", \"observed\": \"0.13 mm\", \"row_id\": \"SV-04\", \"source\": \"§2.4, Table 2.4-9\", \"status\": \"PASS\", \"subject\": \"Bridge slab deflection\"}"
+      ],
+      "reason": "The bridge-slab row formulaically checks 0.13 mm against the 33 mm L/400 allowance, adopts PASS, and cites §2.4, Table 2.4-9."
+    },
+    {
+      "id": "SV-05",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 13, \"_row_formulas\": [{\"calculated\": 0.04, \"column\": 9, \"expression\": \"=0.04\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"REVIEW\", \"criterion\": \"member exposure must be identified before selecting the governing crack limit\", \"finding\": \"The numeric width is below both stated limits, but the member-specific exposure assignment is absent.\", \"formula\": \"=0.04\", \"observed\": \"0.04 mm; class-II 0.30 mm and class-III 0.25 mm limits\", \"row_id\": \"SV-05\", \"source\": \"§2.4, Table 2.4-9 and §2.2.4.5\", \"status\": \"REVIEW\", \"subject\": \"Cap beam crack width and exposure assignment\"}"
+      ],
+      "reason": "The cap-beam row records the formula-resolved 0.04 mm crack width and both class limits but adopts REVIEW because the member-specific exposure assignment is absent; it cites Table 2.4-9 and §2.2.4.5."
+    },
+    {
+      "id": "SV-06",
+      "fraction": 1,
+      "quotes": [
+        "{\"_row\": 14, \"_row_formulas\": [{\"calculated\": true, \"column\": 9, \"expression\": \"=1<=33\"}], \"_sheet\": \"Review\", \"_status_formula\": null, \"_status_resolved\": \"PASS\", \"criterion\": \"L/400 = 33 mm\", \"finding\": \"The cap-beam deflection is below the table allowance.\", \"formula\": \"=1<=33\", \"observed\": \"1.0 mm\", \"row_id\": \"SV-06\", \"source\": \"§2.4, Table 2.4-9\", \"status\": \"PASS\", \"subject\": \"Cap beam deflection\"}"
+      ],
+      "reason": "The cap-beam row formulaically checks 1.0 mm against the 33 mm L/400 allowance, adopts PASS, and cites §2.4, Table 2.4-9."
+    },
+    {
+      "id": "WORKBOOK-GUIDANCE",
+      "fraction": 1,
+      "quotes": [
+        "{\"kind\": \"workbook_guidance\", \"text\": \"Structural calculation review workbook\\nStatus meanings | PASS = supplied values and governing limit close; FAIL = a supplied value violates the limit; REVIEW = a binding input or scope basis is absent.\\nUnits | Forces kN, moments kN·m, stresses kPa, steel areas mm² (or mm²/m), crack widths and deflections mm.\\nEvidence | Each Review row names a source location in the supplied report. Formula cells are mechanical intermediates; the status is the reviewer's conclusion.\"}"
+      ],
+      "reason": "The visible workbook guidance defines PASS, FAIL, and REVIEW, including REVIEW for an absent binding input or scope basis, and specifies units for forces, moments, stresses, steel areas, crack widths, and deflections."
+    }
+  ]
+}

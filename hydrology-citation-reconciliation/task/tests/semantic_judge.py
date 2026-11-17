@@ -64,7 +64,7 @@ def adjudicate(candidate, source):
         base=os.environ.get('LLM_JUDGE_BASE_URL','').rstrip('/')
         key=os.environ.get('LLM_JUDGE_API_KEY','')
         if not base or not key:raise RuntimeError('LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY are required for a cache miss')
-        url=base+('/responses' if base.endswith('/v1') else '/v1/responses')
+        url=base if base.endswith('/responses') else base+('/responses' if base.endswith('/v1') else '/v1/responses')
         timeout=float(os.environ.get('LLM_JUDGE_TIMEOUT_SECONDS','900'))
         for attempt in range(3):
             answer=''

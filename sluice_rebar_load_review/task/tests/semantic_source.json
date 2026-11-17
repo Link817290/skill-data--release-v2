@@ -1,0 +1,283 @@
+{
+  "source_derived_review_checks": [
+    {
+      "check_id": "LC-01",
+      "subject": "Edge pier anti-sliding factors",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-4",
+      "observed_value": "Kc 1.42, 1.96, 1.63, 1.57, 1.54, 1.84, 1.67, 1.57; allowances 1.08, 1.08, 1.08, 1.08, 1.03, 1.03, 1.03, 1.00",
+      "expected_or_limit": "Each applicable Kc >= allowance",
+      "formula_required": true
+    },
+    {
+      "check_id": "LC-02",
+      "subject": "Edge pier maximum bearing stress",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-4",
+      "observed_value": "max 243.68 kPa",
+      "expected_or_limit": "allowable 500 kPa",
+      "formula_required": true
+    },
+    {
+      "check_id": "LC-03",
+      "subject": "Central pier anti-sliding factors",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-6",
+      "observed_value": "Kc 2.03, 4.78, 2.88, 4.35, 1.86, 1.41; allowances 1.08, 1.08, 1.08, 1.03, 1.03, 1.00",
+      "expected_or_limit": "Each applicable Kc >= allowance",
+      "formula_required": true
+    },
+    {
+      "check_id": "LC-04",
+      "subject": "Central pier maximum bearing stress",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-6",
+      "observed_value": "max 210.66 kPa",
+      "expected_or_limit": "allowable 500 kPa",
+      "formula_required": true
+    },
+    {
+      "check_id": "LC-05",
+      "subject": "Small base vertical-force subtotal",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-8",
+      "observed_value": "downward 682.95 kN; upward 331.94 kN",
+      "expected_or_limit": "downward = 322.75 + 360.20; upward = 331.94",
+      "formula_required": true
+    },
+    {
+      "check_id": "LC-06",
+      "subject": "Small base signed moment balance",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-8",
+      "observed_value": "water 899.78 kN·m; uplift -325.30 kN·m; resultant 574.48 kN·m",
+      "expected_or_limit": "signed sum = resultant",
+      "formula_required": true
+    },
+    {
+      "check_id": "LC-07",
+      "subject": "Load-case scope for a dash entry",
+      "status": "REVIEW",
+      "source_locator": "§2.4, text before Tables 2.4-4 to 2.4-6",
+      "observed_value": "Kc shown as '-' for the completed case in Table 2.4-4",
+      "expected_or_limit": "Applicability must be stated before treating dash as zero or pass",
+      "formula_required": false
+    },
+    {
+      "check_id": "SV-01",
+      "subject": "Machine-bridge beam crack widths and exposure assignment",
+      "status": "REVIEW",
+      "source_locator": "§2.4, Table 2.4-9 and §2.2.4.5",
+      "observed_value": "0.19, 0.15, 0.15, 0.13, 0.16 mm; class-II 0.30 mm and class-III 0.25 mm limits",
+      "expected_or_limit": "member exposure must be identified before selecting the governing crack limit",
+      "formula_required": true
+    },
+    {
+      "check_id": "SV-02",
+      "subject": "Machine-bridge beam deflections",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-9",
+      "observed_value": "27.8, 28.6, 27.6, 4.7, 4.3 mm",
+      "expected_or_limit": "L/400 = 33 mm",
+      "formula_required": true
+    },
+    {
+      "check_id": "SV-03",
+      "subject": "Bridge slab crack width and exposure assignment",
+      "status": "REVIEW",
+      "source_locator": "§2.4, Table 2.4-9 and §2.2.4.5",
+      "observed_value": "0.01 mm; class-II 0.30 mm and class-III 0.25 mm limits",
+      "expected_or_limit": "member exposure must be identified before selecting the governing crack limit",
+      "formula_required": true
+    },
+    {
+      "check_id": "SV-04",
+      "subject": "Bridge slab deflection",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-9",
+      "observed_value": "0.13 mm",
+      "expected_or_limit": "L/400 = 33 mm",
+      "formula_required": true
+    },
+    {
+      "check_id": "SV-05",
+      "subject": "Cap beam crack width and exposure assignment",
+      "status": "REVIEW",
+      "source_locator": "§2.4, Table 2.4-9 and §2.2.4.5",
+      "observed_value": "0.04 mm; class-II 0.30 mm and class-III 0.25 mm limits",
+      "expected_or_limit": "member exposure must be identified before selecting the governing crack limit",
+      "formula_required": true
+    },
+    {
+      "check_id": "SV-06",
+      "subject": "Cap beam deflection",
+      "status": "PASS",
+      "source_locator": "§2.4, Table 2.4-9",
+      "observed_value": "1.0 mm",
+      "expected_or_limit": "L/400 = 33 mm",
+      "formula_required": true
+    },
+    {
+      "check_id": "RF-01",
+      "subject": "Edge-pier toe reinforcement demand",
+      "status": "REVIEW",
+      "source_locator": "§2.4, after Table 2.4-5",
+      "observed_value": "required 2143 mm² per metre; provided arrangement not stated",
+      "expected_or_limit": "Aprovided >= 2143 mm²/m",
+      "formula_required": false
+    },
+    {
+      "check_id": "RF-02",
+      "subject": "Edge-pier rib reinforcement demand",
+      "status": "REVIEW",
+      "source_locator": "§2.4, after Table 2.4-5",
+      "observed_value": "required 4888 mm²; provided arrangement not stated",
+      "expected_or_limit": "Aprovided >= 4888 mm²",
+      "formula_required": false
+    },
+    {
+      "check_id": "RF-03",
+      "subject": "Central-pier strip reinforcement demand",
+      "status": "REVIEW",
+      "source_locator": "§2.4, after Table 2.4-7",
+      "observed_value": "required 1725 mm² per metre; provided arrangement not stated",
+      "expected_or_limit": "Aprovided >= 1725 mm²/m",
+      "formula_required": false
+    },
+    {
+      "check_id": "RF-04",
+      "subject": "Central-pier base reinforcement demand",
+      "status": "REVIEW",
+      "source_locator": "§2.4, after Table 2.4-7",
+      "observed_value": "required 2400 mm² per metre; provided arrangement not stated",
+      "expected_or_limit": "Aprovided >= 2400 mm²/m",
+      "formula_required": false
+    },
+    {
+      "check_id": "RF-05",
+      "subject": "Machine-bridge beam reinforcement capacity",
+      "status": "REVIEW",
+      "source_locator": "§2.4, Table 2.4-9",
+      "observed_value": "bar marks shown (for example 6D20/12D28); required steel or design action not stated",
+      "expected_or_limit": "compare provided area with the governing demand",
+      "formula_required": true
+    },
+    {
+      "check_id": "RF-06",
+      "subject": "Rack-column reinforcement capacity",
+      "status": "REVIEW",
+      "source_locator": "§2.4, Table 2.4-9",
+      "observed_value": "20D25 shown; required steel or design action not stated",
+      "expected_or_limit": "compare provided area with the governing demand",
+      "formula_required": true
+    },
+    {
+      "check_id": "RF-07",
+      "subject": "Left-wing-wall reinforcement demand",
+      "status": "REVIEW",
+      "source_locator": "§2.4, after Table 2.4-13",
+      "observed_value": "toe 1522 mm²/m; heel/face 1200 mm²; rib 4608 mm²; provided arrangements not stated",
+      "expected_or_limit": "provided area must be compared at each location",
+      "formula_required": false
+    },
+    {
+      "check_id": "RF-08",
+      "subject": "Right-wing-wall reinforcement demand",
+      "status": "REVIEW",
+      "source_locator": "§2.4, after Table 2.4-13",
+      "observed_value": "toe 750 mm²/m; heel 910 mm²; upright 965 mm²; provided arrangements not stated",
+      "expected_or_limit": "provided area must be compared at each location",
+      "formula_required": false
+    },
+    {
+      "check_id": "CL-01",
+      "subject": "Material and member-specific environment traceability",
+      "status": "REVIEW",
+      "source_locator": "§2.2.4.5, Table 2.2-3, and Table 2.4-9",
+      "observed_value": "C30 is stated; class-II 0.30 mm and class-III 0.25 mm crack provisions are stated; member assignments are absent",
+      "expected_or_limit": "the selected limit must be bound to the member environment",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-01",
+      "subject": "Overall structural approval disposition",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1, Tables 2.4-4 through 2.4-14",
+      "observed_value": "reported comparisons close, but multiple calculation-chain and applicability inputs remain unresolved",
+      "expected_or_limit": "approval cannot close while binding reproducibility issues remain",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-02",
+      "subject": "Edge-pier stability calculation reproducibility",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1, Table 2.4-4",
+      "observed_value": "reported Kc includes 1.42 against 1.08; resisting and driving components and combination coefficients are absent",
+      "expected_or_limit": "reported comparison and independent factor reproduction are separate approval layers",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-03",
+      "subject": "Central-pier stability calculation reproducibility",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1, Table 2.4-6",
+      "observed_value": "reported Kc includes 2.03 against 1.08; resisting and driving components and combination coefficients are absent",
+      "expected_or_limit": "reported comparison and independent factor reproduction are separate approval layers",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-04",
+      "subject": "Left retaining-wall stability calculation reproducibility",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1, Table 2.4-10",
+      "observed_value": "reported sliding factor includes 1.34 against 1.08; underlying action and resistance components are absent",
+      "expected_or_limit": "reported comparison and independent factor reproduction are separate approval layers",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-05",
+      "subject": "Right retaining-wall stability calculation reproducibility",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1, Table 2.4-11",
+      "observed_value": "reported sliding factor includes 2.16 against 1.08; underlying action and resistance components are absent",
+      "expected_or_limit": "reported comparison and independent factor reproduction are separate approval layers",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-06",
+      "subject": "Spillway stability calculation reproducibility",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1, Table 2.4-14",
+      "observed_value": "reported Kc includes 3.01 against 1.05; completed-case factor is a dash; underlying factor inputs are absent",
+      "expected_or_limit": "reported comparison, dash applicability, and independent reproduction must close separately",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-07",
+      "subject": "Member-specific serviceability approval chain",
+      "status": "REVIEW",
+      "source_locator": "§2.2.4.5 and Table 2.4-9",
+      "observed_value": "0.30 mm and 0.25 mm limits are stated, but Table 2.4-9 does not identify each member exposure class",
+      "expected_or_limit": "member classification must govern the selected crack-width limit",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-08",
+      "subject": "Favorable stability narrative versus unresolved evidence",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1 narrative and Tables 2.4-4, 2.4-6, and 2.4-14",
+      "observed_value": "the narrative states stability is satisfied while factor inputs are absent and completed-case entries include dashes",
+      "expected_or_limit": "a summary conclusion cannot override open row-level applicability or reproducibility",
+      "formula_required": false
+    },
+    {
+      "check_id": "AP-09",
+      "subject": "Approval blocker dependency closure",
+      "status": "REVIEW",
+      "source_locator": "§2.4.1, Tables 2.4-4 through 2.4-14, and §2.2.4.5",
+      "observed_value": "open items affect stability reproduction, member exposure, reinforcement demand/provided matching, and anti-uplift approval",
+      "expected_or_limit": "each blocker must identify its affected check and missing closure evidence",
+      "formula_required": false
+    }
+  ]
+}

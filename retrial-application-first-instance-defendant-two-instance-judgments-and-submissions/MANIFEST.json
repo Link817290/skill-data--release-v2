@@ -1,0 +1,197 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "retrial-application-first-instance-defendant-two-instance-judgments-and-submissions",
+  "tasks": [
+    "retrial-application-first-instance-defendant-two-instance-judgments-and-submissions"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 46,
+  "bytes_excluding_manifest": 4769930,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2191,
+      "sha256": "cfc489fbe40e4bf3e783f11230ede01a5c35ddb2abe2035198293c7d22bb1811"
+    },
+    "RUBRIC.md": {
+      "bytes": 15232,
+      "sha256": "7c69c754b790f374bad19209d42e789d372ecaa1951f0882b33a4c78cb55dfcb"
+    },
+    "dataset.toml": {
+      "bytes": 653,
+      "sha256": "a5242f849b7859a63a8559a99e6b7f0303319f286df923761deea46b7881d11d"
+    },
+    "golden/retrial-application.md": {
+      "bytes": 9283,
+      "sha256": "1ff8af390fb9da2a18f6df25b590f1bc5f336a3ac64f12ebd9172da99b9d7f93"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 281,
+      "sha256": "c699c202216cb58be4b1bd219aa8b81ac1d791d5effd0f7cd95458fd7aed4ff5"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/SKILL.md": {
+      "bytes": 13092,
+      "sha256": "2714e45c4954cdca9e8bd21a027ef66f13aa627db95677e287238aaa50eacffb"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/figures-and-arithmetic.md": {
+      "bytes": 4030,
+      "sha256": "c73f47bf61edfb625e7e00037b87c772ba772092309351000ff1f781e68459bc"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/filing-types.md": {
+      "bytes": 6838,
+      "sha256": "989a9ebeff925cfd7dcc8d617909b41051ac8cbf3f54ab54024a8efe0fc7a49a"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/ground-selection.md": {
+      "bytes": 5703,
+      "sha256": "05c2124219746fc496ee0ea61edc8052ddfc945243742d3e871c90e07ce69598"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/judgment-anatomy.md": {
+      "bytes": 3560,
+      "sha256": "b69b9186c3d764917ccfcf7c34dcfc41051facaca7b9fb93442090fea43bfa2d"
+    },
+    "task/environment/skills/prc-appellate-and-retrial-filings/references/relief-and-closure.md": {
+      "bytes": 3592,
+      "sha256": "2c1fe815cfd4c7cf3d0dd10936cf2a48b9e742f939e144da20021c4e47cf0b54"
+    },
+    "task/environment/workspace/instruction.md": {
+      "bytes": 575,
+      "sha256": "ed6d2e3c5d5acf82544375097fd79c5df5a8544e28541b534733bd7f3397718b"
+    },
+    "task/environment/workspace/materials/1.一审判决书.pdf": {
+      "bytes": 607519,
+      "sha256": "974f102a4db538a46932428e5ea0abf55715ebf11051b4a3ce69b0e8de2659d7"
+    },
+    "task/environment/workspace/materials/2.被告关于一审判决事实错误的书面意见.docx": {
+      "bytes": 311514,
+      "sha256": "d5889961cbcb3e46d335c9d82a8e1f9f6993f793a69e89ea07bc35c6a420a560"
+    },
+    "task/environment/workspace/materials/3.被告律师代理意见.docx": {
+      "bytes": 347803,
+      "sha256": "4767ca2653fb795e26d62be7fe992f277da246338f3a0932b0f30964d4b81003"
+    },
+    "task/environment/workspace/materials/4.二审判决书.pdf": {
+      "bytes": 846922,
+      "sha256": "3aba860000bb589aec5f77a98cc87700e88712ff426cf794b02473399d91abc5"
+    },
+    "task/instruction.md": {
+      "bytes": 575,
+      "sha256": "ed6d2e3c5d5acf82544375097fd79c5df5a8544e28541b534733bd7f3397718b"
+    },
+    "task/solution/reference/retrial-application.md": {
+      "bytes": 9283,
+      "sha256": "1ff8af390fb9da2a18f6df25b590f1bc5f336a3ac64f12ebd9172da99b9d7f93"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 351,
+      "sha256": "1a3411c324cba94a4dc91f2ab0ce5be112a28445bc308ff928c6b3ddc1a3aa8b"
+    },
+    "task/task.toml": {
+      "bytes": 1151,
+      "sha256": "8a0b969378014972e304566b47729837ff133fa149bfe0de510e6cec48ce2fc4"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1139,
+      "sha256": "e62a9b01ee8711c9022634b2dd827e1ee29682ccac49c899090c7c649a8f6053"
+    },
+    "task/tests/deliverable_gate.json": {
+      "bytes": 1835,
+      "sha256": "025c09d0077753f76159af594869d7d287dceafec6c11340f75743afd8042381"
+    },
+    "task/tests/deliverable_gate.py": {
+      "bytes": 38330,
+      "sha256": "a9b6bcd2ab36e13bfccd179c08b4f1b5094674e07c8699caf8dbbe95ba73f580"
+    },
+    "task/tests/golden/retrial-application.md": {
+      "bytes": 9283,
+      "sha256": "1ff8af390fb9da2a18f6df25b590f1bc5f336a3ac64f12ebd9172da99b9d7f93"
+    },
+    "task/tests/mix_judge/cache/409c083183e3a2f1943e6c03262e740efb7a1e6766054150466678cc13a17f42.json": {
+      "bytes": 4646,
+      "sha256": "7ae72c17a3a394d444c4f95dcd6e33d85af50d944e8648752d4e6bcd37a166dd"
+    },
+    "task/tests/pjroot/instruction.md": {
+      "bytes": 575,
+      "sha256": "ed6d2e3c5d5acf82544375097fd79c5df5a8544e28541b534733bd7f3397718b"
+    },
+    "task/tests/pjroot/materials/1.一审判决书.pdf": {
+      "bytes": 607519,
+      "sha256": "974f102a4db538a46932428e5ea0abf55715ebf11051b4a3ce69b0e8de2659d7"
+    },
+    "task/tests/pjroot/materials/2.被告关于一审判决事实错误的书面意见.docx": {
+      "bytes": 311514,
+      "sha256": "d5889961cbcb3e46d335c9d82a8e1f9f6993f793a69e89ea07bc35c6a420a560"
+    },
+    "task/tests/pjroot/materials/3.被告律师代理意见.docx": {
+      "bytes": 347803,
+      "sha256": "4767ca2653fb795e26d62be7fe992f277da246338f3a0932b0f30964d4b81003"
+    },
+    "task/tests/pjroot/materials/4.二审判决书.pdf": {
+      "bytes": 846922,
+      "sha256": "3aba860000bb589aec5f77a98cc87700e88712ff426cf794b02473399d91abc5"
+    },
+    "task/tests/pjroot/rubric-contract.json": {
+      "bytes": 98409,
+      "sha256": "3adf443b61699ef9a2d6c47e77944ef36d5b2413c90b0cd5106a83dfa833cdd9"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/amount_date_article_notation.md": {
+      "bytes": 9497,
+      "sha256": "09b6ad56d250a0036d282ca99a8e9f1f11c72023346d0bfa3457040d6f1a767b"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/crlf_line_endings.md": {
+      "bytes": 9582,
+      "sha256": "58f6ed8cd0b2a2e5bf85eef284d0a133eba134101887be1dbbdec40cc3262d7b"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/golden_canonical.md": {
+      "bytes": 9503,
+      "sha256": "b8ea83f40579daeb07ea7bf3d097509a594a0becd132833660591b44c1c4c8ab"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/hard_wrapped_paragraphs.md": {
+      "bytes": 9569,
+      "sha256": "59bd0a25ee9b3de55efb0b1a3317faf818361c76ed5350ab9f126e46f1559a0c"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/heading_list_markup.md": {
+      "bytes": 9555,
+      "sha256": "aed52de5ec2eac7048b46f825afc7a32db8b4ca49861557d323c43bf20f37318"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/parse_failure_invalid_utf8.md": {
+      "bytes": 33,
+      "sha256": "909791852d5070e06d515920625ee1c0c6244d8f6d43d775a1cd2831aff3597e"
+    },
+    "task/tests/pjroot/task/tests/program_judge/conformance/rollout_spaced_title_ascii_list_carrier.md": {
+      "bytes": 9981,
+      "sha256": "ce0bdd7d2807c77a5f753305e6fc3009c34228de6297d98292c8351fe0a02fd6"
+    },
+    "task/tests/pjroot/task/tests/program_judge/judge-conformance-suite.json": {
+      "bytes": 5872,
+      "sha256": "07c972ac693c0852f336e7612e8613f4dcc93712be40ce1d1f818096c1b2ac22"
+    },
+    "task/tests/pjroot/task/tests/program_judge/program_judge_runtime.py": {
+      "bytes": 22091,
+      "sha256": "65bcd18447c848d07b8731cb3cee3a601ea4b936013fb2f7cc4c217004c21f0a"
+    },
+    "task/tests/pjroot/task/tests/program_judge/semantic_judge.py": {
+      "bytes": 12231,
+      "sha256": "1bb8996e571e409ecc3ee957cac94d758d13e2bca5cc2437e85da0a8be0b9f93"
+    },
+    "task/tests/pjroot/task/tests/program_judge/semantic_source.json": {
+      "bytes": 33359,
+      "sha256": "20609786bcf43d3dea91c15b197c7f18cedfc705c7a5d1434eefe67d2be7a4d8"
+    },
+    "task/tests/pjroot/task/tests/program_judge/task_judge.py": {
+      "bytes": 75172,
+      "sha256": "f4ca79377a988956f5b57dd88e954682d3b802f27582c0a0ba1cceb4866bf222"
+    },
+    "task/tests/rubric-contract.json": {
+      "bytes": 98409,
+      "sha256": "3adf443b61699ef9a2d6c47e77944ef36d5b2413c90b0cd5106a83dfa833cdd9"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1633,
+      "sha256": "6d45391fcc04e45dcc4afd3a36006eef638ae795da5d42b06770b4cd3d73882a"
+    },
+    "task/tests/validator.py": {
+      "bytes": 5320,
+      "sha256": "9966795d0c97381fffef6c3e3b9e16e2a15f2f017ca8d901276a3d006af1bcb2"
+    }
+  }
+}

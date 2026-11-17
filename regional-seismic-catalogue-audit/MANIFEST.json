@@ -1,0 +1,105 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "regional-seismic-catalogue-audit",
+  "tasks": [
+    "regional-seismic-catalogue-audit"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 23,
+  "bytes_excluding_manifest": 1207063,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 2490,
+      "sha256": "90f698dc457b632159d9bcbbb7d3f676f72418d3fccccbe347e9f63f7b34c69e"
+    },
+    "RUBRIC.md": {
+      "bytes": 7400,
+      "sha256": "4f4faace325a5c06fa030944b430c9ec3d790f2ad02244fe72dd93a934e15b2c"
+    },
+    "dataset.toml": {
+      "bytes": 1185,
+      "sha256": "a79458774c628072f4e570e38ad6c42e6b6164dbfcd363c7637fa5b772ca4095"
+    },
+    "golden/seismic_catalogue_report.json": {
+      "bytes": 343906,
+      "sha256": "bc151fd2d0e84c56497f300cac8caa67fa5395767b14f491b6f0342533b6b107"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 558,
+      "sha256": "5f15da8b4126c59345e097152f381ec9a73592a1d5cad60a583065e86294ada9"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 603,
+      "sha256": "1543b26b0b228d3ccbac47a9d7caff4525507c2575af0944cab1095ee15040c9"
+    },
+    "task/environment/skills/event-identity-reconciliation/SKILL.md": {
+      "bytes": 3164,
+      "sha256": "e803a05b81b6d57422ba077a603b9fa846a85bc67599503a06bc127f24e0b377"
+    },
+    "task/environment/skills/html-table-scientific-extraction/SKILL.md": {
+      "bytes": 3331,
+      "sha256": "713f05fa3133b8d53cbd07c23fed586207b27f5099d7b8957dc79f9266f345b3"
+    },
+    "task/environment/skills/seismic-catalogue-statistics/SKILL.md": {
+      "bytes": 5646,
+      "sha256": "d3cf58c928159f5ecad767708630e755f8218677789346a1a32e2baa2412d106"
+    },
+    "task/environment/skills/structured-scientific-json/SKILL.md": {
+      "bytes": 3652,
+      "sha256": "a76d2f698295529e0cd63ce374b486161226fbb1a3b9533208398c2ea71ac6f3"
+    },
+    "task/environment/workspace/materials/catalog_2018_full.html": {
+      "bytes": 125479,
+      "sha256": "ed460f489138113c9b44e3072354298ecadf7814c4ea371609947c576faf7ee3"
+    },
+    "task/environment/workspace/materials/catalog_2018_partial.html": {
+      "bytes": 134090,
+      "sha256": "f2a7ea06f29b0a5d3ed2715b624e15c0503c55e5474967807b87a5bbd3ad376b"
+    },
+    "task/environment/workspace/materials/catalog_2019_q1_q3.html": {
+      "bytes": 121699,
+      "sha256": "23c3c1f9ddfb33c78e13135b27df62a0303e3f5af9700e1d0cac42baa9bafefe"
+    },
+    "task/instruction.md": {
+      "bytes": 4597,
+      "sha256": "9c185d1e9edf92d4772d7470ddd95c962bbdf948b19a089c109c1439f2c77bb2"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 539,
+      "sha256": "053877910ac66c8d8c5bd241ab32ad238521686ea8c3242f0aa2c397dd863efa"
+    },
+    "task/solution/reference_solution.py": {
+      "bytes": 16225,
+      "sha256": "2da70cad5fd32befb6ad834eb8b9b635b706111652798e892c994d91dfc9825c"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 247,
+      "sha256": "6dc580f1cec3239367f14a1a6fe189e3ebd9f1f9d8db3f74a6f3ec9f843d666d"
+    },
+    "task/task.toml": {
+      "bytes": 1543,
+      "sha256": "0135adee8008f168717e32d3d85d5aa4373da4d4f55f926b04a064728408a96e"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 1582,
+      "sha256": "99ec5ecda117e7c432f891ce1127768b1d808ca61eddebeb3bda3fb9ef37e6fa"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 343906,
+      "sha256": "bc151fd2d0e84c56497f300cac8caa67fa5395767b14f491b6f0342533b6b107"
+    },
+    "task/tests/scoring_params.json": {
+      "bytes": 408,
+      "sha256": "265c580e54565f7210d37e7f5a4ff12ad2ec6ff91e569f1f844441a27e65ed8f"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1923,
+      "sha256": "53111a5fa7df46580bc3fa34b1108393916c0cf15bf9ae0fe4c7d4ad96b13a9b"
+    },
+    "task/tests/validator.py": {
+      "bytes": 82890,
+      "sha256": "ef67deff5e0ed3a6237cd669c3008f69bd5ee495c257c260355fd31d8b478fc0"
+    }
+  }
+}

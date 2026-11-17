@@ -98,7 +98,7 @@ def adjudicate(candidate, source):
     elif mode=='replay':raise RuntimeError('no request-bound relation replay is available')
     else:
         if not base or not key:raise RuntimeError('fresh relation judging requires LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY')
-        url=base+('/responses' if base.endswith('/v1') else '/v1/responses')
+        url=base if base.endswith('/responses') else base+('/responses' if base.endswith('/v1') else '/v1/responses')
         for attempt in range(3):
             req=urllib.request.Request(url,data=json.dumps(payload).encode(),headers={'Content-Type':'application/json','Authorization':'Bearer '+key})
             with urllib.request.build_opener(urllib.request.ProxyHandler({})).open(req,timeout=timeout) as response:body=json.load(response)
@@ -174,7 +174,7 @@ def adjudicate_dimensions(rows):
         raise RuntimeError('no request-bound dimension replay is available')
     else:
         if not base or not key:raise RuntimeError('fresh dimension judging requires LLM_JUDGE_BASE_URL and LLM_JUDGE_API_KEY')
-        url=base+('/responses' if base.endswith('/v1') else '/v1/responses')
+        url=base if base.endswith('/responses') else base+('/responses' if base.endswith('/v1') else '/v1/responses')
         last=None
         for attempt in range(3):
             req=urllib.request.Request(url,data=json.dumps(payload).encode(),headers={'Content-Type':'application/json','Authorization':'Bearer '+key})

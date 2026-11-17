@@ -54,7 +54,7 @@ def adjudicate(candidate, source):
     elif mode == 'replay':
         raise RuntimeError('required semantic replay cache entry is missing')
     else:
-        url=base+('/responses' if base.endswith('/v1') else '/v1/responses')
+        url=base if base.endswith('/responses') else base+('/responses' if base.endswith('/v1') else '/v1/responses')
         for attempt in range(3):
             req=urllib.request.Request(url,data=json.dumps(payload).encode(),headers={'Content-Type':'application/json','Authorization':'Bearer '+key})
             with urllib.request.urlopen(req,timeout=float(os.environ.get('LLM_JUDGE_TIMEOUT_SECONDS','240'))) as response:body=json.load(response)

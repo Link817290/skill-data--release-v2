@@ -1,0 +1,54 @@
+version = "1.0"
+id = "regional-seismic-catalogue-audit-no-skill"
+name = "expert/no-skill/regional-seismic-catalogue-audit"
+title = "Evidence-bound regional seismic catalogue audit (no skill)"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+artifacts = ["/workspace/output/seismic_catalogue_report.json"]
+
+[metadata]
+tags = ["seismology", "html-tables", "event-catalogue", "scientific-json", "sequence-classification", "no-skill"]
+
+[judge]
+type = "mixed"
+reward_kind = "continuous"
+
+[agent]
+timeout_sec = 2400.0
+
+[verifier]
+timeout_sec = 180.0
+environment_mode = "separate"
+
+[environment]
+docker_image = "regional-seismic-catalogue-audit-no-skill:1.3"
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+skills = "environment/skills"
+network_access = false
+build_timeout_sec = 600.0
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-/logs/verifier/judge-cache}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-900}"
+
+[verifier.environment]
+docker_image = "regional-seismic-catalogue-audit-verifier:1.3"
+dockerfile = "environment/Dockerfile.verifier"
+network_mode = "public"
+workdir = "/workspace"
+build_timeout_sec = 600.0
+
+[solution]
+script = "solution/solve.sh"
+deliverable = "/workspace/output/seismic_catalogue_report.json"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+ground_truth = "tests/ground_truth.json"

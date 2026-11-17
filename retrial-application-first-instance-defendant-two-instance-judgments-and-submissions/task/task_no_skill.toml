@@ -1,0 +1,39 @@
+version = "1.0"
+id = "retrial-application-first-instance-defendant-two-instance-judgments-and-submissions-no-skill"
+name = "expert/no-skill/retrial-application-first-instance-defendant-two-instance-judgments-and-submissions"
+title = "retrial-application-first-instance-defendant-two-instance-judgments-and-submissions"
+instruction = "instruction.md"
+difficulty = "hard"
+language = "en"
+
+[metadata]
+tags = ["legal", "retrial", "application"]
+source_language = "zh-CN"
+deliverable_language = "zh-CN"
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 3600.0
+
+[environment]
+dockerfile = "environment/Dockerfile"
+workspace = "environment/workspace"
+network_access = false
+build_timeout_sec = 600.0
+
+[solution]
+deliverable = "artifacts/retrial-application.md"
+
+[tests]
+command = "tests/test.sh"
+validator = "tests/validator.py"
+
+[verifier.env]
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "${LLM_JUDGE_MODEL:-gpt-5.6-sol}"
+LLM_JUDGE_CACHE_DIR = "${LLM_JUDGE_CACHE_DIR:-}"
+LLM_JUDGE_MODE = "${LLM_JUDGE_MODE:-auto}"
+LLM_JUDGE_TIMEOUT_SECONDS = "${LLM_JUDGE_TIMEOUT_SECONDS:-600}"

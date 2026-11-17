@@ -1,0 +1,121 @@
+{
+  "format": "skill-data-release-v1",
+  "package": "sluice_rebar_load_review",
+  "tasks": [
+    "sluice_rebar_load_review"
+  ],
+  "trajectory_count": 0,
+  "file_count_excluding_manifest": 27,
+  "bytes_excluding_manifest": 11674798,
+  "scope": "current task, Golden, production scorer, actor skill, required documentation, and exact Golden replay only",
+  "files_excluding_manifest": {
+    "README.md": {
+      "bytes": 1924,
+      "sha256": "26a694ea34fd5df77b598c19acdaae88510f2efe6696ecec754f37b38bf7eb49"
+    },
+    "RUBRIC.md": {
+      "bytes": 10187,
+      "sha256": "b704314f37bc36320a95bf5202296768f8cdda83d4debc8ceabd3ab6860bd4e9"
+    },
+    "dataset.toml": {
+      "bytes": 1621,
+      "sha256": "ef2da455339fceddca50f5b00d73ff70ddb344c99769124703544b755a5e928b"
+    },
+    "golden/review.xlsx": {
+      "bytes": 10571,
+      "sha256": "4b24869db9d34d12fefd546671ff1e830b6ea767d8a9e0bc29fc1e6b1c2ba426"
+    },
+    "task/dataset.toml": {
+      "bytes": 166,
+      "sha256": "fdaebc5e7b7fae290b59b22401cb483999fc3fbb0e94c356e88c590ab84035d9"
+    },
+    "task/environment/Dockerfile": {
+      "bytes": 363,
+      "sha256": "a2a021325c6e5a6d15b372f482adad49ffb4403ce971a2ef98425ac59840e235"
+    },
+    "task/environment/Dockerfile.verifier": {
+      "bytes": 416,
+      "sha256": "3f82ba2b4815faf777e6600b5622739f86faa286e6c1028031db0e9402d2640d"
+    },
+    "task/environment/skills/calculation-book-closure/SKILL.md": {
+      "bytes": 5294,
+      "sha256": "5134a1dda2d1ea3e75f41865264844b8feb0e5e968c3938dddbd11864e2c6716"
+    },
+    "task/environment/skills/calculation-book-closure/tools/workbook_schema_check.py": {
+      "bytes": 1623,
+      "sha256": "d9778430675dc9b80ad443740f14ad25d166ac30be5cd510e3731581a376f66e"
+    },
+    "task/environment/skills/reinforcement-capacity-review/SKILL.md": {
+      "bytes": 4438,
+      "sha256": "50c5a8ee8951a80d982e2a792d6cff9673db54aba72e2ab4d751475be9055df7"
+    },
+    "task/environment/skills/reinforcement-capacity-review/tools/rebar_area.py": {
+      "bytes": 1009,
+      "sha256": "694d6121967f936f535976d89ec583fc1e5dd7317a93df1ad407663f410ff442"
+    },
+    "task/environment/skills/structural-load-combination-audit/SKILL.md": {
+      "bytes": 6133,
+      "sha256": "d6917c04210a3bfd0f49cec4307eef8b343616b12885a2613b34a08dcee51f73"
+    },
+    "task/environment/skills/structural-load-combination-audit/tools/combo_arithmetic.py": {
+      "bytes": 1174,
+      "sha256": "62584ceb7e43b5111fb72999ab1ca46a14c8512d6bf3ed665fbb22e8b271018d"
+    },
+    "task/environment/workspace/materials/full_report_original.pdf": {
+      "bytes": 11525490,
+      "sha256": "d5fc63c81ec5937bfa6759d407da43cc7a5155cc956660ffd0b58d8a3becc707"
+    },
+    "task/instruction.md": {
+      "bytes": 1320,
+      "sha256": "471d9b218b95cdaf7db3f2af016e5c58b2449e9b883600a3662afcc8d3a36b1d"
+    },
+    "task/solution/derive_ground_truth.py": {
+      "bytes": 1072,
+      "sha256": "de0f816ecadf93d441689f30c363fbe3f1a36d514547137b1cfde191259551c4"
+    },
+    "task/solution/generate_golden.py": {
+      "bytes": 19001,
+      "sha256": "8aba99c85de67de9d41d7ebde91d6c89b1280c96bb2981d571c2bd2f2348cc2b"
+    },
+    "task/solution/solve.sh": {
+      "bytes": 228,
+      "sha256": "b6857e2726c70a235883426b6d69036cbd5308987ca79ca82508a20010c15a8a"
+    },
+    "task/task.toml": {
+      "bytes": 988,
+      "sha256": "41264c8d2330de700864a493129d38e1af0c7654b1aab3abf151fe53ac62d057"
+    },
+    "task/task_no_skill.toml": {
+      "bytes": 869,
+      "sha256": "9902d89696e7ffc3f9c9b2564b550da7aaa69124d6bf7e43e8d896a324c42ca7"
+    },
+    "task/tests/golden_replay/292084b2535f1efe07f8646e19439fcbd96459c47a0ae8680aaa62769854bbc3/decision.json": {
+      "bytes": 29302,
+      "sha256": "084e073e16c713bd1fd74cbe962aeb9b95fa0d5ec596e2a4188ded926030cc74"
+    },
+    "task/tests/golden_replay/manifest.json": {
+      "bytes": 436,
+      "sha256": "37bbbd1d5bbb09d0b83d722a6d18d3ea9778d6f572ec6546488c334510645bec"
+    },
+    "task/tests/ground_truth.json": {
+      "bytes": 12198,
+      "sha256": "d4dea22819c1ccc995d1c4027d35b520ee809825c1186805647ef7d22c870c2f"
+    },
+    "task/tests/semantic_judge.py": {
+      "bytes": 9436,
+      "sha256": "5b0c14e909499e27a60b47f92470bf98b293ff5c1b99b6d68b00306167663e88"
+    },
+    "task/tests/semantic_source.json": {
+      "bytes": 12194,
+      "sha256": "0dfd1a5e393faedef9a6253fd8c1c1a96a084359fbcd6e3d06c9ceab73137f9a"
+    },
+    "task/tests/test.sh": {
+      "bytes": 1401,
+      "sha256": "ebb1b323f08bbd74cab6fb57b6638def742225e62d83732f03631aa4ef9438f0"
+    },
+    "task/tests/validator.py": {
+      "bytes": 15944,
+      "sha256": "fe60bfbefb85203bd108f31483d5f4dfc21063817fbe258da2620adb181462b3"
+    }
+  }
+}
