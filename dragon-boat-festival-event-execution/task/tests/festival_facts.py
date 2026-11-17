@@ -76,7 +76,7 @@ def zone_evidence(units, role, zone):
             before = previous[-1] if previous else None
             after = following[0] if following else None
             if before and (venue.start() - before.end() > 30
-                           or re.search(r'[,，]', text[before.end():venue.start()])
+                           or re.search(r'[,，|]', text[before.end():venue.start()])
                            or zones.search(text[before.end():venue.start()])):
                 before = None
             after_link = text[venue.end():after.start()] if after else ''

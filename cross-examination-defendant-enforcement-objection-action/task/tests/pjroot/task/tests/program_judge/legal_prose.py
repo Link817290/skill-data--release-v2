@@ -470,8 +470,18 @@ def supported(kind: str, value: str, facts) -> bool:
         m = PERIOD.search(value)
         return bool(m) and (m.group(1), m.group(2)) in periods
     if kind == "date":
-        y, mo, d = date_key(value)
-        return any(mo == fm and d == fd and (y is None or fy is None or y == fy) for fy, fm, fd in dates)
+        parsed = date_key(value)
+        if parsed is not None:
+            y, mo, d = parsed
+            return any(mo == fm and d == fd and (y is None or fy is None or y == fy) for fy, fm, fd in dates)
+        # A partially filled date is an ordinary unsupported/partial fact, not a
+        # parser error. Keep it in the business deduction path so the caller can
+        # apply its normal partial-date treatment instead of crashing on unpack.
+        partial = PARTIAL_DATE.search(value)
+        if partial:
+            y, mo = partial.group(1), int(partial.group(2))
+            return any(mo == fm and (y is None or fy is None or y == fy) for fy, fm, _fd in dates)
+        return False
     if kind == "amount":
         return amount_key(value) in amounts
     return value in ids

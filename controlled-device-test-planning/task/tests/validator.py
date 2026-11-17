@@ -381,7 +381,7 @@ def score(target):
     readiness=params['readiness_contract']
     triggered_deductions={d['id'] for d in deductions if d['status']=='triggered'}
     readiness_checks={
-        'critical_coverage':all(any(completion[item]>0 for item in items)
+        'critical_coverage':all(any(completion[item] >= 1.0 for item in items)
             for items in readiness['critical_coverage_groups'].values()),
         'independent_controls':not (set(readiness['independent_control_deductions'])&triggered_deductions),
         'no_fabricated_execution':not any(d['id']==readiness['fabricated_execution_deduction'] and d['status']=='triggered' for d in deductions)}

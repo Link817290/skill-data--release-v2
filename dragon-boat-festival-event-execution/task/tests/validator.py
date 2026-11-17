@@ -418,7 +418,7 @@ def active_match(rule: dict, span: dict) -> bool:
             all(re.search(p, sentence) for p in rule["all"])
             and duty_action(rule, sentence)
             and not WITHDRAWAL.search(sentence)
-            for sentence in re.split(r"[。;；,，]" if rule["id"] == "child-supervision" else r"[。;；]", text)
+            for sentence in re.split(r"[。;；|]" if rule["id"] == "child-supervision" else r"[。;；]", text)
         )
     return True
 

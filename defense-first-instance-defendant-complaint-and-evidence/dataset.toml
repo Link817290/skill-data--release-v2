@@ -1,0 +1,20 @@
+id = "defense-first-instance-defendant-complaint-and-evidence"
+task_type = "skill-bench"
+deliverable = "artifacts/statement-of-defense.md"
+network_access = false
+
+[scoring]
+primary_score = "reward_strict"
+strict_formula = "pd-ledger-v1: final = positive_earned * retention; weights and coefficients from tests/rubric-contract.json"
+# tests/validator.py 以 --contract tests/rubric-contract.json 调用判据，这里声明的就是实际被读取的那一份。
+# tests/pjroot/rubric-contract.json 是同一份的副本，只用于单独运行 task_judge.py 时的默认值
+# （task_judge.CANONICAL_CONTRACT = PACKAGE_ROOT/rubric-contract.json），两份 sha256 必须一致。
+scoring_params = "task/tests/rubric-contract.json"
+reward_alias = "strict"
+score_lenses = ["strict", "lenient"]
+strict_summary = "continuous source-bound legal-owner settlement with deduplicated damage retention"
+lenient_summary = "binary observable coverage of P01, P03, P04, P05, P07 and P09 plus source-supported strategy and critical-damage gates; no strict-score threshold"
+scorer = "task/tests/validator.py"
+rubric = "RUBRIC.md"
+condition_blind = true
+semantic_judge_required = true

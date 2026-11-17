@@ -1,6 +1,6 @@
 {
   "schema_version": "semantic-judge-manifest-v1",
-  "entry_count": 1,
+  "entry_count": 2,
   "files_sha256": {
     "judge.py": "071cd33530d38e7c07158e0014e70fd3ff2385635168d4c18a55422db6ad6cb3",
     "contract.json": "6461fd80c5fc61016c0ec1354eac508824d869a1001d40242fa887b0b7af7b1f",
@@ -19,6 +19,18 @@
         "review.json": "9054627bdc96d422bd9cef5e947990c0afc26dc39f0160c57c7859220f6b4181"
       },
       "source_case": "golden-delivery-coverage-decision-v2-1110",
+      "score_version": "business10-delivery-bench-v8"
+    },
+    "21ec471a4dc56e20f1706b31d386136a27d7b42b8a2972556d83984f9ba27cf0": {
+      "path": "cache/21ec471a4dc56e20f1706b31d386136a27d7b42b8a2972556d83984f9ba27cf0",
+      "files_sha256": {
+        "request.json": "f6fcd548cea04bb77888c5b67df1fb611ebfd2b20793060f44977e63134bdc22",
+        "evidence.json": "cb24a1786150645c843fd8f1e653dc73b7a3eddcd49eac3e3fa1d3a7b7195a63",
+        "manifest.json": "e8bebd25dc5e7ece42be12c66745d27a16458a52b71a693bda0446c7689bfebb",
+        "response.json": "aea3ac03fe5c0619c47f0abcd034283fa9f0ea292862f7aa1318b118dd910182",
+        "review.json": "9054627bdc96d422bd9cef5e947990c0afc26dc39f0160c57c7859220f6b4181"
+      },
+      "source_case": "golden-delivery-coverage-decision-v3-batch2",
       "score_version": "business10-delivery-bench-v8"
     }
   }

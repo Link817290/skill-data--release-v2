@@ -212,6 +212,8 @@ class Eval:
                 expr = expr[:start] + replacement + expr[end+1:]
         f=rewrite_call(f,"MAX",lambda a: "max("+",".join(a)+")" if a else None)
         f=rewrite_call(f,"ABS",lambda a: "abs("+a[0]+")" if len(a)==1 else None)
+        f=rewrite_call(f,"OR",lambda a: "("+" or ".join(a)+")" if a else None)
+        f=rewrite_call(f,"AND",lambda a: "("+" and ".join(a)+")" if a else None)
         f=rewrite_call(f,"IF",lambda a: f"({a[1]} if ({a[0]}) else {a[2]})" if len(a)==3 else None)
         try: return eval(f, {"__builtins__":{}}, {"max":max,"abs":abs})
         except Exception: return None

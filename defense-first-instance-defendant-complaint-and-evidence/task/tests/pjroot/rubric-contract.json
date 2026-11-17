@@ -1,0 +1,901 @@
+{
+  "schema_version": "program-judge-contract-v4",
+  "policy_version": "skill-data-audit-policy-v3.5",
+  "scoring_formula": "additive-positive-multiplicative-damage-instance-penalty-v1",
+  "golden_authority": "non_exclusive_example",
+  "golden_source_required": true,
+  "rubric_version": "1.0",
+  "task_mode": "generation",
+  "positive_items": [
+    {
+      "id": "P01",
+      "units": [
+        "U04"
+      ],
+      "dimension": "claim_response",
+      "weight": 0.05,
+      "scope": "argument body: lines after the party block and before 此致 / appendix (R03)",
+      "object_key": "claim1.rejection",
+      "source_location": "materials/起诉材料-修订版.docx 诉讼请求 1; golden p[4]",
+      "relation_predicate": "one sentence binds the principal claim (合同款/价款 with ¥1482040, or 第一项诉讼请求) to a rejection (缺乏依据/不应支持/应驳回) with no payment concession anywhere in the body",
+      "golden_object_key": "U04",
+      "golden_relation_predicate": "claim 1 for the full contract price 1,482,040 lacks factual and legal basis and should not be upheld",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "asserted as the defendant's own answer, not as a candidate or attributed view",
+      "negative_context_exclusions": "candidate or alternative markers (R02), attribution to the plaintiff or a third party before the key span, a later 说法/观点/抗辩…不能成立 rejection of the span, list spray or dense clause/amount spray (R01), negation before the key verb in the clause, and any span outside the argument body (party block, closing, appendix) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.paragraph",
+        "metric": "one sentence inside one body paragraph",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "claim-1 bound rejection and no concession",
+        "partial": "only a generic 驳回原告全部诉讼请求 (0.5)",
+        "zero": "no rejection, rejection of another amount, or rejection mixed with 同意/愿意支付"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, heading numbering and clause citation style are open; placement inside the argument body is bound because a statement of defense separates party particulars and signature from the answer",
+      "program_path": "R05 P01_FULL / P01_PART with PARTIAL_CONCESSION conflict check (N02 money token)",
+      "semantic_audit": "check that the matched paragraph states the complete Golden proposition as the defendant's own adopted position; record any equivalent phrasing elsewhere that the regex missed as a potential false negative",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "the defence opposes claim 1 (contract price 1,482,040) in full rather than conceding any phase-1 portion",
+      "reasoning_gate": "requires reading the complaint's claim structure and adopting a full-denial position although the evidence shows partial C公司 confirmation of phase 1"
+    },
+    {
+      "id": "P03",
+      "units": [
+        "U07"
+      ],
+      "dimension": "contract_interpretation",
+      "weight": 0.05,
+      "scope": "argument body: lines after the party block and before 此致 / appendix (R03)",
+      "object_key": "contract.letter_delivery_duty",
+      "source_location": "materials/证据材料-修订版.docx 合同 7.1; golden p[6]",
+      "relation_predicate": "a duty sentence (应/须/约定/§7.1) says the owner's confirmation letter must be submitted to the defendant",
+      "golden_object_key": "U07",
+      "golden_relation_predicate": "clause 7.1: after each stage the plaintiff shall promptly submit the owner's (建设单位) confirmation letter to the defendant",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted reliance on the contract term",
+      "negative_context_exclusions": "candidate or alternative markers (R02), attribution to the plaintiff or a third party before the key span, a later 说法/观点/抗辩…不能成立 rejection of the span, list spray or dense clause/amount spray (R01), negation before the key verb in the clause, and any span outside the argument body (party block, closing, appendix) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.paragraph",
+        "metric": "one sentence inside one body paragraph",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "duty, owner letter and defendant as recipient in one sentence",
+        "partial": "none",
+        "zero": "missing, negated breach sentence only, recipient C公司 only, clause other than 7.1, or never applied (verbatim contract copy)"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, heading numbering and clause citation style are open; placement inside the argument body is bound because a statement of defense separates party particulars and signature from the answer",
+      "program_path": "R07 P03_RE + DUTY with clause anchor {7.1} (N04) and R18 application gate",
+      "semantic_audit": "check that the matched paragraph states the complete Golden proposition as the defendant's own adopted position; record any equivalent phrasing elsewhere that the regex missed as a potential false negative",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "clause 7.1 obliges the plaintiff to hand the owner's confirmation letter to the defendant",
+      "reasoning_gate": "requires linking clause 7.1's delivery duty to the payment mechanism rather than to delivery of the videos"
+    },
+    {
+      "id": "P04",
+      "units": [
+        "U08"
+      ],
+      "dimension": "evidence_assessment",
+      "weight": 0.39,
+      "scope": "argument body: lines after the party block and before 此致 / appendix (R03)",
+      "object_key": "evidence.owner_confirmation_absent",
+      "source_location": "materials/证据材料-修订版.docx 证据目录 2, 9, 10, 11 and the 3月25日 纪要; golden p[6]",
+      "relation_predicate": "(a) the plaintiff did not submit C公司's confirmation letter / the defendant never received it; (b) the phase-2 (or delivered) video is not confirmed by C公司 or not proven to be",
+      "golden_object_key": "U08",
+      "golden_relation_predicate": "to date the plaintiff has not submitted C公司's written confirmation letter and cannot prove the phase-2 video was confirmed by C公司",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted factual finding of the defence",
+      "negative_context_exclusions": "candidate or alternative markers (R02), attribution to the plaintiff or a third party before the key span, a later 说法/观点/抗辩…不能成立 rejection of the span, list spray or dense clause/amount spray (R01), negation before the key verb in the clause, and any span outside the argument body (party block, closing, appendix) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.paragraph",
+        "metric": "one sentence inside one body paragraph",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "(a) and (b) in one paragraph",
+        "partial": "one of (a) or (b) (0.5)",
+        "zero": "missing, or mixed with a concession that C公司 confirmed phase 2 or the letter was delivered"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, heading numbering and clause citation style are open; placement inside the argument body is bound because a statement of defense separates party particulars and signature from the answer",
+      "program_path": "R08 P04A_RE / P04B_RE with R09 contradiction (owner_confirmation_conceded)",
+      "semantic_audit": "check that the matched paragraph states the complete Golden proposition as the defendant's own adopted position; record any equivalent phrasing elsewhere that the regex missed as a potential false negative",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "the plaintiff neither delivered C公司's written confirmation letter nor proved C公司 confirmed the phase-2 video",
+      "reasoning_gate": "requires auditing eleven evidence items: the only 二期 confirmations are of the storyboard (evidence 9) and models (evidence 10), the chat summary shows the plaintiff still urging acceptance on 2022-08-25/29, and evidence 2 is signed by 甲方 not C公司"
+    },
+    {
+      "id": "P05",
+      "units": [
+        "U09"
+      ],
+      "dimension": "evidence_assessment",
+      "weight": 0.15,
+      "scope": "argument body: lines after the party block and before 此致 / appendix (R03)",
+      "object_key": "fact.joint_settlement",
+      "source_location": "materials/证据材料-修订版.docx 证据 8 email body (会谈纪要 item 1), 证据目录 11 item 2; golden p[6]",
+      "relation_predicate": "a sentence states phases 1 and 2 are to be evaluated/confirmed/settled together, with C公司 or the minutes named in the sentence or paragraph",
+      "golden_object_key": "U09",
+      "golden_relation_predicate": "C公司 and the plaintiff reached agreement to settle phases 1 and 2 jointly (统筹结算)",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted factual finding",
+      "negative_context_exclusions": "candidate or alternative markers (R02), attribution to the plaintiff or a third party before the key span, a later 说法/观点/抗辩…不能成立 rejection of the span, list spray or dense clause/amount spray (R01), negation before the key verb in the clause, and any span outside the argument body (party block, closing, appendix) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.paragraph",
+        "metric": "one sentence inside one body paragraph",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "joint settlement or unified confirmation of phases 1 and 2 bound to C公司/纪要",
+        "partial": "none",
+        "zero": "missing, another company as the agreeing party, negated, or never applied to payment (verbatim evidence copy)"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, heading numbering and clause citation style are open; placement inside the argument body is bound because a statement of defense separates party particulars and signature from the answer",
+      "program_path": "R10 P05_RE with owner/minutes binding and R18 application gate",
+      "semantic_audit": "check that the matched paragraph states the complete Golden proposition as the defendant's own adopted position; record any equivalent phrasing elsewhere that the regex missed as a potential false negative",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "C公司 and the plaintiff agreed to evaluate and settle phases 1 and 2 jointly, so phase 1 cannot be paid on its own",
+      "reasoning_gate": "requires finding the 3月23日 meeting minutes embedded in the 2022-03-25 email (evidence 8) and the chat summary 一、二期统一确认盖章 (evidence 11) and turning them against the plaintiff"
+    },
+    {
+      "id": "P07",
+      "units": [
+        "U11"
+      ],
+      "dimension": "claim_response",
+      "weight": 0.11,
+      "scope": "argument body: lines after the party block and before 此致 / appendix (R03)",
+      "object_key": "claim2.no_default",
+      "source_location": "materials/起诉材料-修订版.docx 诉讼请求 2; golden p[8]",
+      "relation_predicate": "one sentence rejects the penalty/overdue claim (缺乏依据/不应承担/不应支持) and grounds it in the unsatisfied condition or missing C公司 confirmation",
+      "golden_object_key": "U11",
+      "golden_relation_predicate": "since the videos lack C公司 confirmation and the payment condition is unsatisfied, the claim for overdue-payment penalty has no basis",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted answer to claim 2",
+      "negative_context_exclusions": "candidate or alternative markers (R02), attribution to the plaintiff or a third party before the key span, a later 说法/观点/抗辩…不能成立 rejection of the span, list spray or dense clause/amount spray (R01), negation before the key verb in the clause, and any span outside the argument body (party block, closing, appendix) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.paragraph",
+        "metric": "one sentence inside one body paragraph",
+        "max_units": 1
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "rejection plus condition ground in the same sentence",
+        "partial": "none",
+        "zero": "missing, ground absent from the sentence, or rejection negated"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, heading numbering and clause citation style are open; placement inside the argument body is bound because a statement of defense separates party particulars and signature from the answer",
+      "program_path": "R13 P07_RE + P07_GROUND",
+      "semantic_audit": "check that the matched paragraph states the complete Golden proposition as the defendant's own adopted position; record any equivalent phrasing elsewhere that the regex missed as a potential false negative",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "the overdue-payment penalty claim fails because payment was never due",
+      "reasoning_gate": "propagates the unsatisfied payment condition to claim 2 instead of only disputing the rate"
+    },
+    {
+      "id": "P09",
+      "units": [
+        "U13"
+      ],
+      "dimension": "contract_interpretation",
+      "weight": 0.25,
+      "scope": "argument body: lines after the party block and before 此致 / appendix (R03)",
+      "object_key": "contract.penalty_attribution",
+      "source_location": "materials/证据材料-修订版.docx 合同 9.4; golden p[10]",
+      "relation_predicate": "non-attribution (非因被告原因/被告无过错/不可归责于被告) asserted in a paragraph about the penalty; cited clause, if any, is 9.4",
+      "golden_object_key": "U13",
+      "golden_relation_predicate": "clause 9.4 applies only where the defendant causes late payment; the defendant is not at fault and the delay is not its cause, so no penalty is owed",
+      "comparison_mode": "proposition_equivalent",
+      "adoption_status": "adopted defence",
+      "negative_context_exclusions": "candidate or alternative markers (R02), attribution to the plaintiff or a third party before the key span, a later 说法/观点/抗辩…不能成立 rejection of the span, list spray or dense clause/amount spray (R01), negation before the key verb in the clause, and any span outside the argument body (party block, closing, appendix) earn nothing",
+      "equivalence_dimensions": [
+        "object",
+        "source_or_evidence_anchor",
+        "relation",
+        "polarity",
+        "modality",
+        "time_or_version_scope",
+        "units_or_quantities",
+        "conditions_or_exceptions",
+        "adoption_status",
+        "downstream_consequence"
+      ],
+      "evidence_span": {
+        "locator": "body.section",
+        "metric": "one matching sentence plus at most one grounding line of the same R03 section",
+        "max_units": 2
+      },
+      "length_contract_id": "S01",
+      "full_partial_zero": {
+        "full": "non-attribution in a penalty section",
+        "partial": "9.4 causation condition identified without applying it (0.5)",
+        "zero": "missing or wrong clause"
+      },
+      "dependencies": [],
+      "writing_binding": "wording, order, heading numbering and clause citation style are open; placement inside the argument body is bound because a statement of defense separates party particulars and signature from the answer",
+      "program_path": "R15 NONATTR / COND94 with clause anchor {9.4}",
+      "semantic_audit": "check that the matched paragraph states the complete Golden proposition as the defendant's own adopted position; record any equivalent phrasing elsewhere that the regex missed as a potential false negative",
+      "self_report_fields_are_non_authoritative": true,
+      "value_basis": "the clause 9.4 penalty applies only to late payment caused by the defendant; here non-payment is not attributable to it",
+      "reasoning_gate": "requires reading the penalty clause's causation condition and applying the owner-confirmation mechanism to fault"
+    }
+  ],
+  "deduction_items": [
+    {
+      "id": "D01",
+      "trigger": "Unsupported adopted payment/default concession contrary to issued materials; source-supported reasoned alternatives are allowed.",
+      "damage_basis": "a judicial admission in a statement of defense concedes the plaintiff's principal case and exposes the defendant to the full claim",
+      "scope": "argument body sentences",
+      "object_key": "conclusion.payment_condition",
+      "source_location": "golden p[6], p[8], p[10]",
+      "error_predicate": "付款条件已成就 / 被告同意/愿意支付 / 被告应向原告支付¥… / 被告构成逾期付款 outside an alternative (即便) framing",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-concession: defendant liability conceded",
+      "damage_instance_key_rule": "liability_conceded",
+      "manifestation_rule": "one per body line and pattern",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D02",
+      "trigger": "the party block names A公司 as 答辩人 or the body asks the court to uphold the plaintiff's claims",
+      "damage_basis": "the document is written for the wrong side and is unusable for the client",
+      "scope": "party block and argument body",
+      "object_key": "party.respondent",
+      "source_location": "instruction.md (acting for Company B); golden p[1], p[12]",
+      "error_predicate": "答辩人:A公司 or 请求…支持原告…诉讼请求 without negation",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-side: role reversal",
+      "damage_instance_key_rule": "wrong_side",
+      "manifestation_rule": "one per line and pattern",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D03",
+      "trigger": "relies on 《合同法》 as a legal basis",
+      "damage_basis": "the Contract Law was repealed on 2021-01-01; relying on it for a 2022 contract is a legal-basis error the court will reject",
+      "scope": "argument body sentences",
+      "object_key": "legal_basis",
+      "source_location": "materials 合同 preamble (根据民法典…); golden p[11]",
+      "error_predicate": "《合同法》 cited as the author's basis, excluding references to the plaintiff's 催收函 and statements that it is repealed",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-law: wrong statute generation",
+      "damage_instance_key_rule": "repealed_law_basis",
+      "manifestation_rule": "one per body line",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D04",
+      "trigger": "the defence answers a principal claim of 2,814,000, 1,848,182.76, 366,142.76 or another amount the complaint does not make",
+      "damage_basis": "misreading the claim object means the defence rebuts the wrong demand (whole contract price or the aggregate) and leaves the actual claim unanswered",
+      "scope": "argument body sentences attributing a claim to the plaintiff",
+      "object_key": "claim1.rejection",
+      "source_location": "materials/起诉材料-修订版.docx 诉讼请求 1-2 (1,482,040 principal; 1,848,182.76 aggregate; 2,814,000 contract price)",
+      "error_predicate": "原告…请求/主张…合同款/价款 ¥X or 第一项诉讼请求 ¥X with X in the confusable set",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-claim-object: claim amount misread",
+      "damage_instance_key_rule": "claim_amount_misidentified",
+      "manifestation_rule": "one per body line and amount",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D05",
+      "trigger": "denies that a contract relationship exists or asserts the purchase contract is invalid/not formed",
+      "damage_basis": "the defence's own conditions (3.7, 7.1, 9.2, 9.4) depend on the contract; denying it is self-contradictory and contrary to the signed contract in evidence 1",
+      "scope": "argument body sentences",
+      "object_key": "contract.relationship",
+      "source_location": "materials/证据材料-修订版.docx 证据 1 合同 signature page; golden p[5]",
+      "error_predicate": "双方不存在合同关系 / 采购合同无效 / 未成立 as the author's position",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-contract: contract existence denied",
+      "damage_instance_key_rule": "contract_relationship_denied",
+      "manifestation_rule": "one per body line",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D06",
+      "trigger": "fills unsupported identifiers with invented values: concrete case numbers like (2026)…号, addresses with house numbers, 9-18 character codes, phone numbers or personal names for representatives/agents",
+      "damage_basis": "fabricated particulars in a court filing are false statements; the materials only carry de-identified placeholders",
+      "scope": "whole document; identifiers checked in title, party block and closing, case numbers anywhere",
+      "object_key": "party.identifiers",
+      "source_location": "materials/起诉材料-修订版.docx party block (某市…, 信用代码2, 自然人乙); 证据目录 案号1",
+      "error_predicate": "an identifier segment without a gap token carrying invented concrete digits or names",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-fabrication: invented identifiers",
+      "damage_instance_key_rule": "fabricated_identifiers",
+      "manifestation_rule": "one per line and identifier type",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D07",
+      "trigger": "concedes that C公司 confirmed the phase-2 video or that the plaintiff delivered C公司's confirmation letter",
+      "damage_basis": "a factual admission that removes the defence's core ground and matches the plaintiff's evidence narrative",
+      "scope": "argument body sentences",
+      "object_key": "evidence.owner_confirmation_absent",
+      "source_location": "golden p[6]",
+      "error_predicate": "C公司已确认二期… / 二期已经C公司确认 / 原告已提交C公司确认函 as the author's statement",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-confirmation: owner confirmation conceded",
+      "damage_instance_key_rule": "owner_confirmation_conceded",
+      "manifestation_rule": "one per body line",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D08",
+      "trigger": "Inactive: no task-visible character threshold; omissions lose positive credit.",
+      "damage_basis": "a skeletal answer omits the reasoning chain the complaint has to be answered with",
+      "scope": "argument body",
+      "object_key": "shape.S01",
+      "source_location": "golden p[3]-p[12]",
+      "error_predicate": "N07 count / max(golden, floor) below 0.70",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted position",
+      "negative_context_exclusions": "negation before the verb, candidate markers, attribution to the plaintiff (原告称/主张), later rejection, alternative framing (即便/即使/如法院认定) and ordinary omission never trigger",
+      "causal_root_rule": "R-shape-S01: body length",
+      "damage_instance_key_rule": "shape_S01",
+      "manifestation_rule": "one per shape unit",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D09",
+      "trigger": "an adopted clause of the argument body binds a numeric interest-rate figure to an interest-rate object (LPR / 贷款市场报价利率 / 年利率 / 年化 / 月利率 / 日利率 / 折合年利率) as the defence's own fact (R19)",
+      "damage_basis": "the record binds no numeric value to any rate object, so the figure is invented; the defence rests its 违约金过分高于损失 argument on a market rate it made up, and the court can strike the whole reduction argument by checking one number",
+      "scope": "argument body sentences",
+      "object_key": "document.unsupported_additions",
+      "source_location": "materials/起诉材料-修订版.docx 诉讼请求 2 and materials/证据材料-修订版.docx 合同 9.4 name 一年期LPR / 一年期贷款市场报价利率 as a standard with no figure; token counts over both materials files plus the OCR markdown: 3.45 = 0, 3.65 = 0, 7.1 = 0, LPR = 1, 贷款市场报价利率 = 1; the only percentages in the record are 6% and 13% (增值税), 68% (签约率) and 30/40/27/3%/20% (payment shares); the record also states a rate in Chinese words, 万分之一, three times (起诉材料 诉讼请求2, 合同 9.1, 合同 9.4), which is 0.01% per day / 3.65% per year, so those two percentages restate a record figure",
+      "error_predicate": "rate object + numeric percentage within 12 characters inside one adopted clause, the figure absent from the frozen supported-figure set (empty), with affirmative polarity (R19)",
+      "adoption_status": "the figure must be asserted affirmatively as the defence's own fact, not attributed to the plaintiff, not inside an alternative (即便/若/如果) sentence, not candidate-marked and not retracted",
+      "negative_context_exclusions": "negation before the figure inside its clause, candidate markers, list spray or over-dense spans inside the clause, attribution to the plaintiff (原告称/主张), a later 说法/观点/抗辩…不能成立 rejection and any alternative (即便/即使/若/如果/如法院) sentence never trigger; naming the LPR standard without a figure, asking the court to compute it and stating only that the rate is high never trigger; ordinary omission never triggers; a figure that restates the record's 万分之一 inside a paragraph naming it, a figure printed next to the arithmetic that produces it, and a figure the same clause states has no source in the record never trigger",
+      "causal_root_rule": "R-unsupported-addition",
+      "damage_instance_key_rule": "unsupported_rate_figure; one key, because every invented figure in the sentence feeds the same single business damage - the penalty-reduction argument's quantitative basis",
+      "manifestation_rule": "line locator plus the matched figure",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D10",
+      "trigger": "the answer asks the tribunal for an affirmative remedy against the plaintiff that the defendant has not claimed in the proceedings - a set-off of a penalty the plaintiff is said to owe, a deduction of such a penalty from the sum claimed, or a counterclaim brought here",
+      "damage_basis": "a statement of defense answers the complaint; it cannot introduce relief the defendant has not claimed. Golden's relief (p[11] alternative reduction of the penalty claimed, p[12] dismissal of the plaintiff's claims) asks for nothing against the plaintiff, and the task skill litigation-responsive-pleadings states the rule in terms ('You answer, you do not claim... A responsive pleading cannot introduce relief your side has not claimed in the proceedings', and step 6 'Nothing appears here that your side has not claimed in the proceedings'), while expressly allowing a costs position and expressly distinguishing a reservation of the right to bring the point separately",
+      "scope": "argument body sentences",
+      "object_key": "relief.scope",
+      "source_location": "golden p[11], p[12]; environment/skills/litigation-responsive-pleadings/SKILL.md sections 'What this deliverable is, and what it is not' and 'Step 6: close into the relief'",
+      "error_predicate": "抵销/抵扣/冲抵 of a 违约金/违约责任/款项 owed by the plaintiff, or 提起反诉, asked for in this filing",
+      "adoption_status": "the error must be asserted affirmatively as the defendant's adopted request in this filing",
+      "negative_context_exclusions": "a reservation of the right to raise the point separately (保留…权利 / 另行提起 / 另行主张 / 另案), which the skill names as the lawful alternative; negation before the verb; candidate markers; attribution to the plaintiff; later rejection; ordinary omission never triggers. An alternative frame does NOT exclude: Golden's own alternative asks only for the penalty claimed to be reduced, so relief against the plaintiff is outside the filing's scope in the primary and the alternative alike",
+      "causal_root_rule": "R-relief-scope: relief not claimed in the proceedings",
+      "damage_instance_key_rule": "relief_not_claimed",
+      "manifestation_rule": "one per body line",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.1,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D11",
+      "trigger": "a core unit is missing: the party block naming B公司 as 答辩人, a response to the principal claim of 1,482,040, a response to the penalty/overdue-payment-liability claim, or a request for dismissal; closing and signature form are not damage instances",
+      "damage_basis": "instruction.md asks for a defense responding to the plaintiff's claims; these four units identify the represented party, answer both claims and state the disposition sought. Closing formulae do not determine substantive usability.",
+      "scope": "whole deliverable: party block for the answering party, the lines after it for the other units",
+      "object_key": "document.form_units",
+      "source_location": "instruction.md; golden party block, p[4]-p[12], closing",
+      "error_predicate": "R23: one of the four core units has no line in the deliverable",
+      "adoption_status": "absence of the unit in the delivered file",
+      "negative_context_exclusions": "a unit written in any carrier variant (heading, bold, table cell, role parenthetical) counts as present",
+      "causal_root_rule": "R-form-<unit>: one root per missing unit",
+      "damage_instance_key_rule": "form_unit_<unit>",
+      "manifestation_rule": "one per missing unit",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.2,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    },
+    {
+      "id": "D12",
+      "trigger": "the required source-bound semantic review finds no substantive reasoning or an adopted material assertion that contradicts the supplied record",
+      "damage_basis": "a defense built on a materially invented fact or a source-contradicting admission can prejudice the represented party even when its headings and requested disposition are complete",
+      "scope": "the adopted substantive position in the argument body",
+      "object_key": "document.source_support",
+      "source_location": "all supplied complaint and evidence materials through semantic_source.json",
+      "error_predicate": "STRATEGY source-support fraction is zero",
+      "adoption_status": "the unsupported proposition is adopted by the defense, not attributed or hypothetical",
+      "negative_context_exclusions": "conditional or limited positions and attributed opposing assertions do not trigger",
+      "causal_root_rule": "R-source-support",
+      "damage_instance_key_rule": "unsupported_material_position",
+      "manifestation_rule": "one document-level semantic source-support decision",
+      "length_contract_id": "S01",
+      "penalty_coefficient": 0.4,
+      "ordinary_omission_excluded": true,
+      "self_report_fields_are_non_authoritative": true
+    }
+  ],
+  "substantive_golden_units": [
+    {
+      "unit_id": "U04",
+      "golden_proposition": "claim 1 for the full contract price 1,482,040 lacks basis and should not be upheld",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[4], p[12]",
+      "program_item_ids": [
+        "P01",
+        "D04"
+      ]
+    },
+    {
+      "unit_id": "U07",
+      "golden_proposition": "clause 7.1 requires the plaintiff to hand the owner's confirmation letter to the defendant",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[6] sentence 1",
+      "program_item_ids": [
+        "P03"
+      ]
+    },
+    {
+      "unit_id": "U08",
+      "golden_proposition": "the plaintiff has not submitted C公司's written confirmation letter and cannot prove phase 2 was confirmed",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[6] sentence 2",
+      "program_item_ids": [
+        "P04",
+        "D07"
+      ]
+    },
+    {
+      "unit_id": "U09",
+      "golden_proposition": "C公司 and the plaintiff agreed to settle phases 1 and 2 jointly",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[6] sentence 3",
+      "program_item_ids": [
+        "P05"
+      ]
+    },
+    {
+      "unit_id": "U10",
+      "golden_proposition": "payment condition unsatisfied; no payment obligation",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[6] sentence 3, p[8]",
+      "program_item_ids": [
+        "D01"
+      ]
+    },
+    {
+      "unit_id": "U11",
+      "golden_proposition": "penalty claim lacks basis because the payment condition is unsatisfied",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[7], p[8]",
+      "program_item_ids": [
+        "P07"
+      ]
+    },
+    {
+      "unit_id": "U13",
+      "golden_proposition": "clause 9.4 penalty requires cause attributable to the defendant; none here",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[10]",
+      "program_item_ids": [
+        "P09"
+      ]
+    },
+    {
+      "unit_id": "U14",
+      "golden_proposition": "alternatively reduce the penalty under Civil Code art. 585",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[11]",
+      "program_item_ids": [
+        "D03"
+      ]
+    },
+    {
+      "unit_id": "U02",
+      "golden_proposition": "the respondent is B公司 answering A公司's claims",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[1], p[3], p[17]",
+      "program_item_ids": [
+        "D02"
+      ]
+    },
+    {
+      "unit_id": "U05",
+      "golden_proposition": "the parties signed the purchase contract on 2022-04-27 (relationship not disputed)",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[5]",
+      "program_item_ids": [
+        "D05"
+      ]
+    },
+    {
+      "unit_id": "U17",
+      "golden_proposition": "unsupported identifiers remain de-identified or blank rather than invented",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[1]-p[3], p[18]",
+      "program_item_ids": [
+        "D06"
+      ]
+    },
+    {
+      "unit_id": "U19",
+      "golden_proposition": "the relief asks only that the plaintiff's claims be dismissed and, in the alternative, that the penalty claimed be reduced; nothing is asked against the plaintiff",
+      "golden_locator": "golden/答辩状（去标识版）.docx golden p[11], p[12]",
+      "program_item_ids": [
+        "D10"
+      ]
+    }
+  ],
+  "shape_units": [
+    {
+      "id": "S01",
+      "applicable_item_ids": [
+        "P01",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P09",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D11"
+      ],
+      "scope": "argument body from the first line after the party block to the line before 此致 (title, party particulars and signature are not measured because they carry no reasoning and their identifiers are underspecified)",
+      "metric": "non-whitespace characters (N07)",
+      "golden_value": 1027,
+      "declared_floor": 600,
+      "counter": "task_judge.shape_count over R03 body lines",
+      "threshold_basis": "underrun_only_explicit_default_fallback",
+      "overrun_tolerance_ratio": null,
+      "underrun_tolerance_ratio": 0.3,
+      "deduction_id": "D08",
+      "overrun_not_charged_rationale": "the instruction states no length and the Golden's 1027-character body is a de-identified real filing the answering model never sees, so a longer brief is not damage the task can charge. The underrun arm stays: an argument body under 70% of Golden is too thin to answer the complaint, which the instruction does require.",
+      "status": "diagnostic_only_no_task_length_requirement"
+    }
+  ],
+  "observation_pipeline": {
+    "layers": [
+      "raw_carrier",
+      "normalized_business_observation",
+      "program_decision"
+    ],
+    "normalization_rules": [
+      {
+        "id": "N01",
+        "operation": "UTF-8 Markdown lines or DOCX body paragraphs and table rows in document order; NFKC fold, drop zero-width characters, Markdown heading/list/quote/emphasis marks and table pipes (cells joined by colon), remove all whitespace, fold 【】 to []"
+      },
+      {
+        "id": "N02",
+        "operation": "money amounts with 元/万元/人民币/¥ and thousands separators to one canonical yuan token; trailing zeros dropped"
+      },
+      {
+        "id": "N03",
+        "operation": "dates written as YYYY年M月D日 or YYYY-M-D, YYYY/M/D, YYYY.M.D to one ISO token"
+      },
+      {
+        "id": "N04",
+        "operation": "contract clause numbers 第X.Y条/款/项 or X.Y条 to one clause token; statute article numbers in Chinese or Arabic numerals to one article token"
+      },
+      {
+        "id": "N05",
+        "operation": "fold every declared gap marker (gap_marker_contract.markers, runs of ___/XXX/***) into one gap token: a marked value earns no positive credit, is excluded from fabrication checks and from shape counting"
+      },
+      {
+        "id": "N06",
+        "operation": "entity alias classes: defendant 被告/答辩人/B公司/甲方/采购方/我方/我司/本公司; plaintiff 原告/被答辩人/A公司/乙方/供应方/对方; owner C公司/建设单位/业主单位/业主方/业主"
+      },
+      {
+        "id": "N07",
+        "operation": "shape counter: non-whitespace characters of R03 body lines after N01, excluding clauses that contain a gap token"
+      }
+    ],
+    "derivation_rules": [
+      {
+        "id": "R01",
+        "operation": "spray: a raw line of eight or more whitespace/comma separated short tokens (numbers with units collapsed first), a sentence of six or more short enumerated fragments, or a sentence citing more than three distinct clauses or amounts cannot be adopted"
+      },
+      {
+        "id": "R02",
+        "operation": "adoption exclusions: candidate/alternative markers (可能/是否/待定/或+entity/已…或未), attribution to the plaintiff or a third party before the key span, a later 说法/观点/抗辩…不能成立 rejection, and a negation before the key verb inside its clause; claim-rejection items (P01, P07) only exclude third-party attribution and rejected 说法/观点; quantity bounds 不(得)超过/低于/少于/高于/多于 are removed from the negation window, and an attribution verb directly followed by 的 + a claim object (原告主张的违约金/合同款/诉讼请求…) is a noun modifier, not attribution"
+      },
+      {
+        "id": "R03",
+        "operation": "segmentation: first line is the title when it reads (民事)答辩状/书; the contiguous run of party lines (答辩人/被答辩人/法定代表人/住所/信用代码/联系电话/委托代理人…:, or a 当事人|基本信息 table header) is the party block; the body runs to the first 此致 or appendix heading (附件/证据目录), otherwise to the last 答辩人: signature line; more than one 此致 makes the body ambiguous; inside the body a Markdown heading or a 一、/二、 numbered line of at most 80 characters opens a new section"
+      },
+      {
+        "id": "R04",
+        "operation": "proposition search: body paragraphs that are not spray and at most 900 characters are split at 。;!?; each item pattern must match inside one sentence and survive R02; a cited contract clause in that sentence must belong to the item's anchor set; a caption line is admitted only under R20"
+      },
+      {
+        "id": "R05",
+        "operation": "P01: principal noun with ¥1482040 or 第一项诉讼请求 followed by a rejection phrase, not preceded by 并非/不是 and not bound to 违约金/利息; any 同意/愿意/仅应支付 concession makes it ambiguous; generic 驳回全部诉讼请求 is partial; the verb-first form (依法)驳回…principal noun…¥1482040…(的)(诉讼)请求 in one clause is also full, unless the span names 违约金/利息 or 不应/不予/无需/不得/不能/并非/不是 immediately precedes 驳回; the verb-first ordinal form (依法)驳回…(原告)…第(一|1)项(诉讼)请求 in one clause is also full, under the same 违约金/利息 and 不应/不予/无需 guards, so the identically shaped claim-2 line is still excluded"
+      },
+      {
+        "id": "R07",
+        "operation": "P03: confirmation letter submitted to the defendant with the owner named within the clause window and a duty marker (应/须/约定/及时/§7.1), clause anchor {7.1}"
+      },
+      {
+        "id": "R08",
+        "operation": "P04: (a) plaintiff did not submit / defendant did not receive the owner's confirmation letter; (b) phase-2 or delivered video not confirmed by / not proven confirmed by the owner; both in one paragraph is full, one is partial; (a) also 无/未能/不能/无法…证明…提交/递交(过)…owner…确认函; (b) also accepts 取得 as the obtaining verb"
+      },
+      {
+        "id": "R09",
+        "operation": "owner confirmation conceded: owner 已确认 二期, 二期 已经 owner 确认, or plaintiff 已提交 owner confirmation letter, adopted and not attributed; drives D07 and the P04 contradiction; 已取得 owner confirmation also counts"
+      },
+      {
+        "id": "R10",
+        "operation": "P05: phases one and two joined with 统筹结算/一并评估/统一确认/合并结算 and bound to the owner or the meeting minutes; another company as the agreeing party is excluded"
+      },
+      {
+        "id": "R11",
+        "operation": "payment condition not satisfied / no payment obligation / payment not yet due; read as the ground in R13 and as a case-specific consequence in the R18 application gate"
+      },
+      {
+        "id": "R12",
+        "operation": "liability conceded: 付款条件已成就, defendant (被告/答辩人/B公司/我方, not the contract label 甲方) 同意/愿意/承认 paying, 应向原告支付 an amount, or 构成逾期付款/违约, excluding alternative framing (即便/即使/如法院认定), negation, attribution, timing conditions (确认后/方可/前提) and relative clauses (从…应付…中扣除); drives D01"
+      },
+      {
+        "id": "R13",
+        "operation": "P07: penalty noun with a rejection phrase and, in the same sentence, the R11 condition or an owner-not-confirmed / 不存在逾期 ground; 不构成(任何)逾期 and 不构成(任何)逾期/迟延付款违约/责任 are accepted as the claim-2 rejection; 不产生, 无从起算/计算/主张, 不被触发, 不发生/不存在迟延/逾期 and 应+(全部|全额|一并|均|悉数)+驳回 are also accepted as the claim-2 rejection, and 价款/货款/款项/合同款/主债务 尚未到期/届至/届满/产生 is also accepted as the ground; the ground is read over the enclosing 。-sentence per R21"
+      },
+      {
+        "id": "R15",
+        "operation": "P09: non-attribution or no-fault of the defendant in an R03 section mentioning 违约金/违约责任 (full); identifying the 因甲方原因 application condition only (partial); clause anchor {9.4}"
+      },
+      {
+        "id": "R18",
+        "operation": "application gate for contract-term and evidence items (P03, P05): somewhere in the body an adopted sentence about the videos, payment, letter or invoice (not copyright) asserts the case-specific consequence (R08 absence, R11 condition not satisfied, R13 ground); a verbatim copy of the contract without application earns nothing"
+      },
+      {
+        "id": "R17",
+        "operation": "shape: ratio = N07 count / max(golden_value, declared_floor); D08 triggers when ratio exceeds 1.15 or falls below 0.70; ambiguous body is ambiguous, missing body is not charged"
+      },
+      {
+        "id": "R19",
+        "operation": "author-originated interest-rate figure: inside one clause window of an adopted body sentence (clause windows are cut at the same , and : delimiters R02 reads negation in), an interest-rate object (LPR, 贷款市场报价利率, 市场报价利率, 贷款利率, 拆借利率, 年利率, 年化, 月利率, 日利率, 折合年利率, 资金占用利率, 利率, 利息率) and a numeric percentage within 12 characters of each other, the percentage not in the frozen supported-figure set. The materials name the one-year LPR only as a standard and bind no number to it (token counts over materials/起诉材料-修订版.docx, materials/证据材料-修订版.docx and its OCR markdown: 3.45 = 0, 3.65 = 0, 7.1 = 0), and the percentages the record does carry (6%, 13% 增值税/税率, 68% 签约率, 30/40/27/3%/20% payment shares) are bound to non-rate objects and are excluded by object. Candidate markers, list spray and over-dense spans are read inside the clause window, so a hedge on a different object in the same sentence does not de-adopt the figure; attribution to the plaintiff, a later rejection tail and any alternative (即便/即使/退一步/纵然/就算/假设/假如/如果/倘若/若/如法院/如贵院) framing are read over the whole sentence and do exclude it. The record does state one rate figure in Chinese words: 起诉材料 诉讼请求2 按照日万分之一的标准, 合同 9.1 每日按逾期交货部分价款的万分之一, 合同 9.4 以应付未付金额的万分之一. 万分之一 per day is 0.01% per day and 3.65% per year, so SUPPORTED_RATE_FIGURES is {0.01%, 3.65%}, exempt only inside a body paragraph that names 万分之一. Two further exemptions follow the same principle that D09 charges an invented figure and not a checkable one: a figure printed next to the arithmetic that produces it (…=figure, or figure followed by a bracket opening an expression), and a figure the same clause states has no source in the record (无出处/无依据/无来源/无记载/不具备可核验性/无从核验), which is a gap being marked rather than filled. 年率 joins the rate-object class so the same figures are tested however they are spelled"
+      },
+      {
+        "id": "R20",
+        "operation": "caption lines are read together with the argument under them: a body line the carrier marks as a section label - Markdown heading syntax, the R03 numbered section opener (一、/二、), or a whole line made of one emphasis span, the last two under the same 80-character cap R03 uses for a heading so a fully emphasised paragraph stays a paragraph - carries a proposition in the R04 search only when its R03 section also holds at least one ordinary non-caption, non-spray argument paragraph. A caption standing alone is a label, never a closed argument, so an artifact made of headings and standalone bold conclusions earns positive_earned 0. A heading above real paragraphs is unaffected, which is why the Golden, the paraphrased Golden and every conformance carrier keep every decision. The rule governs the positive proposition search only: D01-D09 read doc.lines or the body paragraphs directly."
+      },
+      {
+        "id": "R21",
+        "operation": "P07 ground scope: R04 splits a body paragraph at 。;!? so that a negation stays inside its clause, but a ；-clause is not a sentence. The P07 ground is therefore searched over the 。-sentence that encloses the matched clause, which is what the item's evidence span 'one sentence inside one body paragraph' means; the rejection itself stays clause-scoped, so a rejection in one sentence and a ground in the next paragraph still earns nothing"
+      },
+      {
+        "id": "R22",
+        "operation": "D10 relief scope: an adopted body sentence in which the defence asks for a set-off (抵销/抵扣/冲抵) of a 违约金/违约责任/赔偿/款项 owed by the plaintiff against the sum claimed, or for a counterclaim (反诉) in this filing, is relief the defendant has not claimed in the proceedings. A sentence that reserves the point for separate proceedings (保留…权利, 另行提起, 另行主张, 另案) is excluded, as is a sentence excluded by R02. An alternative frame does not exclude, because Golden's own alternative stays inside the penalty claimed"
+      }
+    ]
+  },
+  "observation_normalization": {
+    "table_and_prose_share_structured_observation_schema": true,
+    "synonymous_section_resolution": "alias_plus_structure_plus_content",
+    "ambiguous_location_state": "unresolved",
+    "negative_context_exclusions_required_for_deductions": true,
+    "evidence_origins": [
+      "submitted",
+      "lossless_canonicalized",
+      "deterministically_derived"
+    ],
+    "task_aliases_must_be_explicit": true,
+    "first_nonempty_candidate_forbidden": true
+  },
+  "strict_equivalence": {
+    "close_enough_credit_forbidden": true,
+    "synonyms_require_complete_proposition_equivalence": true,
+    "comparison_modes": [
+      "exact",
+      "proposition_equivalent",
+      "equivalent_set_replay",
+      "formula_replay"
+    ],
+    "dimensions": [
+      "object",
+      "source_or_evidence_anchor",
+      "relation",
+      "polarity",
+      "modality",
+      "time_or_version_scope",
+      "units_or_quantities",
+      "conditions_or_exceptions",
+      "adoption_status",
+      "downstream_consequence"
+    ],
+    "coherent_single_evidence_span_required": true,
+    "self_report_fields_are_non_authoritative": true,
+    "keyword_spray_positive_earned": 0
+  },
+  "damage_lineage": {
+    "aggregation_key": "independent_business_damage_instance",
+    "causal_root_id_required": true,
+    "manifestation_id_required": true,
+    "repeated_manifestations_of_one_damage_are_charged_once": true,
+    "one_cause_may_create_multiple_independent_damage_instances": true
+  },
+  "judge_conformance": {
+    "suite_path": "task/tests/program_judge/judge-conformance-suite.json",
+    "task_applicable_representation_variants_only": true,
+    "universal_format_matrix_forbidden": true
+  },
+  "package_id": "02_答辩状/28、基于起诉状、证据资料生成答辩状",
+  "deliverable": {
+    "public_carrier": "artifacts/statement-of-defense.md (Markdown, Chinese)",
+    "golden_carrier": "golden/statement-of-defense.md"
+  },
+  "golden_deliverable": "答辩状（去标识版）.docx",
+  "unscored_golden_units": [
+    {
+      "unit_id": "U01",
+      "disposition": "not_scored",
+      "reason": "title 民事答辩状 is format"
+    },
+    {
+      "unit_id": "U03",
+      "disposition": "warning_only",
+      "reason": "case caption: 案号1 is copied from the evidence list; the cause of action 委托创作合同纠纷 is one defensible characterization among 承揽/买卖/服务合同纠纷 and no court filing notice fixes it"
+    },
+    {
+      "unit_id": "U06",
+      "disposition": "not_scored",
+      "reason": "clause 3.7 owner-confirmation payment precondition is not scored on its own; the missing owner confirmation it rests on is scored (P04)"
+    },
+    {
+      "unit_id": "U09a",
+      "disposition": "not_scored",
+      "reason": "经被告向C公司核实 is the client's own verification, absent from the materials (underspecified); only the joint-settlement term visible in the minutes is scored (P05)"
+    },
+    {
+      "unit_id": "U12",
+      "disposition": "not_scored",
+      "reason": "clause 9.2 invoice precondition is not scored; the payment defence is scored through the owner confirmation (P04) and the penalty grounds (P07, P09)"
+    },
+    {
+      "unit_id": "U12a",
+      "disposition": "not_scored",
+      "reason": "the fact that the plaintiff has not issued an invoice is not in the materials (underspecified)"
+    },
+    {
+      "unit_id": "U15",
+      "disposition": "not_scored",
+      "reason": "closing formula 综上所述…驳回 restates U04/U11; its generic form is P01 partial evidence only"
+    },
+    {
+      "unit_id": "U16",
+      "disposition": "not_scored",
+      "reason": "addressee 某基层法院 is copied from the complaint"
+    },
+    {
+      "unit_id": "U18",
+      "disposition": "warning_only",
+      "reason": "signature date left blank in Golden; filing date is not in the materials"
+    }
+  ],
+  "gap_marker_contract": {
+    "markers": [
+      "[待补充]",
+      "【待补充】",
+      "[待填写]",
+      "【待填写】",
+      "[待核实]",
+      "【待核实】",
+      "[待确认]",
+      "【待确认】",
+      "[placeholder]",
+      "材料未提供",
+      "未提供",
+      "待补充",
+      "待填写",
+      "待核实",
+      "unspecified",
+      "TBD"
+    ],
+    "normalization_rule_id": "N05",
+    "fabrication_deduction_ids": [
+      "D06"
+    ]
+  },
+  "semantic_adjudication": {
+    "criteria": {
+      "P01": "Evaluate the adopted response to plaintiff's 1,482,040 yuan principal claim, not a particular litigation strategy. Full credit for a clear claim-specific denial (including 不予认可), or a reasoned supported limitation/admission that distinguishes established contract facts from unproved entitlement. Half for only a blanket dismissal without identifying the principal claim; zero for omission, unsupported admission or opposing attributed view only.",
+      "P03": "Does the answer accurately explain clause 7.1: after each stage plaintiff supplies the owner confirmation letter to defendant, and applies this to the outstanding confirmation/payment issue? Full credit for this delivery duty and application. Defendant acknowledgement, its timing and deemed acceptance are optional details of a different issue and must not be required here. Accept any order of actors/verbs and equivalent phrasing. Do not require the exact reference sentence. Zero for reversed duty or mere unrelated quotation.",
+      "P04": "Does the answer address the evidentiary absence of C company's written confirmation letter and lack of proof that phase two was confirmed by C, grounded in the supplied record? Full for both; half for one. Do not confuse delivery by plaintiff with confirmation by C or invent actual completion/confirmation.",
+      "P05": "Does the answer identify the recorded agreement between C and plaintiff to settle phases one and two together, and apply it to the claim/payment issue? Accept 统筹/一并/合并结算 and equivalent meaning; partial for a mere quotation without application.",
+      "P07": "Does the answer explicitly connect unmet confirmation/payment conditions to the absence (or evidenced limitation) of overdue-payment liability? Full for no overdue liability before payment becomes due even without saying 驳回 or 违约金 in the same sentence. Partial for a bare penalty denial; zero for unsupported immediate liability or no connection.",
+      "P09": "Does the answer accurately apply clause 9.4's causation/attribution condition? Full for explaining that defendant-caused delay is necessary and plaintiff has not proved defendant caused the production stoppage/late payment, so the claimed penalty lacks basis. A burden-of-proof conclusion is as valid as affirmative no-fault wording. Partial for the condition alone, zero for unconditional liability or reversed causation.",
+      "STRATEGY": "Binary source support of the adopted position ONLY, not writing quality or completeness. Return 1 if the answer has a reasoned claim response and no adopted material assertion contradicting the supplied record. A justified conditional/limited admission or alternative relief is allowed, denial is not mandatory. Return 0 for no substantive reasoning or for unsupported entitlement/confirmation admissions, wrong parties, or materially invented facts. This flag never earns points."
+    },
+    "source": "task/tests/semantic_source.json",
+    "required": true,
+    "failure": "infrastructure_error",
+    "lenient": "all six substantive legal units must have observable source-bound coverage (fraction > 0), the adopted strategy must be source-supported, and no critical damage gate may trigger; weighted strict total is not used"
+  }
+}

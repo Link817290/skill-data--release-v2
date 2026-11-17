@@ -72,6 +72,11 @@ class WorkbookData:
         columns = []
         for index, label in enumerate(expected):
             if not label: continue
+            if name == '订单状态' and label == '历史消息编号' and label not in header:
+                # Historical lineage is an optional audit column. Current-version
+                # message IDs remain mandatory and are checked below.
+                columns.append(None)
+                continue
             if brief_without_heading:
                 columns.append(index);continue
             if header.count(label) != 1: raise ValueError(name+': missing or duplicate column '+label)
@@ -88,6 +93,9 @@ class WorkbookData:
         for index, (row, formula_row) in enumerate(zip(cells, formulas), 6):
             values = []
             for col in columns:
+                if col is None:
+                    values.append('')
+                    continue
                 cell = row[col]; expression = formula_row[col]
                 if expression.data_type == 'f' and cell.value is None:
                     raise ValueError(f'{name}!{cell.coordinate}: formula has no saved result; recalculate and save')

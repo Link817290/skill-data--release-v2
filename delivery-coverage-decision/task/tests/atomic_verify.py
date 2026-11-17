@@ -67,15 +67,21 @@ def measure_atomic(inp: Path, workbook: Path, ref, numeric):
     exact_states = set(states) == set(expected_orders)
     atoms['N02_order_population'] = float(exact_states)
     comparable = set(states) & set(expected_orders)
-    lineage_mismatches = sum(
-        (states[key].get('latest_revision',''), states[key].get('state',''),
-         sorted(states[key].get('event_ids','').split(';')),
-         sorted(states[key].get('history_event_ids','').split(';'))) !=
-        (str(expected_orders[key]['latest_revision']), str(expected_orders[key]['state']),
-         sorted(str(expected_orders[key]['event_ids']).split(';')),
-         sorted(str(expected_orders[key]['history_event_ids']).split(';')))
-        for key in comparable
-    ) if exact_states else len(expected_orders)
+    lineage_mismatches = 0
+    if exact_states:
+        for key in comparable:
+            current = states[key]
+            current_history = current.get('history_event_ids','')
+            history_ok = (not current_history or
+                          sorted(current_history.split(';')) ==
+                          sorted(str(expected_orders[key]['history_event_ids']).split(';')))
+            if ((current.get('latest_revision',''), current.get('state',''),
+                 sorted(current.get('event_ids','').split(';'))) !=
+                (str(expected_orders[key]['latest_revision']), str(expected_orders[key]['state']),
+                 sorted(str(expected_orders[key]['event_ids']).split(';'))) or not history_ok):
+                lineage_mismatches += 1
+    else:
+        lineage_mismatches = len(expected_orders)
     atoms['N03_revision_state_lineage'] = 1. if lineage_mismatches == 0 else .5 if lineage_mismatches == 1 else 0.
     attribute_fields=['day','wave','goods','urgent','handling_min','limit_s']
     attribute_pairs=[(states[key].get(field,''),str(expected_orders[key][field]))
